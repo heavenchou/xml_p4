@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.8 $ (Big5)</edition>
+		<edition>$Revision: 1.9 $ (Big5)</edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/07/21 08:11:53 $</date>
+		<date>$Date: 2003/12/04 08:18:25 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 982 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T19n0982.xml,v $
+Revision 1.9  2003/12/04 08:18:25  ray
+<rdg> 版本重複處理
+
 Revision 1.8  2003/07/21 08:11:53  ray
 app版100字以上長行斷詞
 
@@ -134,7 +137,7 @@ Revision 1.5  2001/02/07 06:54:48  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:44:45  chris
-Added keywords $Revision: 1.8 $, $Date: 2003/07/21 08:11:53 $ and $Log.
+Added keywords $Revision: 1.9 $, $Date: 2003/12/04 08:18:25 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -705,7 +708,12 @@ Added comment  for Emacs
 <lb n="0423a01"/>遇<note place="inline">引</note><note n="0423001" resp="Taisho" type="orig" place="foot text">（哩彥馱引）＋哩【三】</note><note n="0423001" resp="CBETA" type="mod">（哩彥馱引）＋哩【宋】【元】【明】</note><app n="0423001"><lem>哩</lem><rdg wit="【宋】【元】【明】" resp="Taisho">哩彥馱引哩</rdg></app><note place="inline">八</note>摩<note place="inline">引</note>蹬倪<note place="inline">九</note>戰拏<note place="inline">上引</note>哩<note place="inline">十</note><note n="0423002" resp="Taisho" type="orig" place="foot text">麼＋（引）細註【丙】</note><app n="0423002"><lem>麼</lem><rdg wit="【丙】" resp="Taisho">麼<note place="inline">引</note></rdg></app><app type="＊" source="0422038"><lem>里</lem><rdg resp="Taisho" wit="【宋】【元】【明】">哩</rdg></app>&CB00576;
 <lb n="0423a02"/><note place="inline">十一</note>呬哩呬哩<note place="inline">十二</note>阿<note place="inline"><note n="0423003" resp="Taisho" type="orig" place="foot text">去＋（聲）【明】</note><app n="0423003"><lem>去</lem><rdg wit="【明】" resp="Taisho">去聲</rdg></app></note>&CB00617;底&CB00617;底<note place="inline">十三</note>彥馱<note place="inline">引</note>
 <lb n="0423a03"/>哩<note place="inline">十四</note>句<note place="inline">引</note>瑟恥<note place="inline">二合十五</note>迦<note place="inline">引</note><note n="0423004" resp="Taisho" type="orig" place="foot text">&CB00085;＋（引）細註【明】</note><app n="0423004"><lem>&CB00085;</lem><rdg wit="【明】" resp="Taisho">&CB00085;<note place="inline">引</note></rdg></app>哩<note place="inline">十六</note>尾賀<note place="inline">引</note>&CB00576;
-<lb n="0423a04"/><note n="0423005" resp="Taisho" type="orig" place="foot text">〔十七〕－【三】</note><note n="0423005" resp="CBETA" type="mod">〔十七〕－【宋】【元】【明】</note><app n="0423005"><lem><note place="inline">十七</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>呬哩劍<note n="0423006" resp="Taisho" type="orig" place="foot text">謎＝繼【宋】，謎＋（十七）細註【三】</note><note n="0423006" resp="CBETA" type="mod">謎＝繼【宋】，謎＋（十七）細註【宋】【元】【明】</note><app n="0423006"><lem>謎</lem><rdg wit="【宋】" resp="Taisho">繼</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">謎<note place="inline">十七</note></rdg></app>娑&CB00085;<note place="inline">二<note n="0423007" resp="Taisho" type="orig" place="foot text">合＋（引）【三】</note><note n="0423007" resp="CBETA" type="mod">合＋（引）【宋】【元】【明】</note><app n="0423007"><lem>合</lem><rdg wit="【宋】【元】【明】" resp="Taisho">合引</rdg></app></note>賀<note place="inline">引十八</note></p>
+<lb n="0423a04"/><note n="0423005" resp="Taisho" type="orig" place="foot text">〔十七〕－【三】</note><note n="0423005" resp="CBETA" type="mod">〔十七〕－【宋】【元】【明】</note><app n="0423005"><lem><note place="inline">十七</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>呬哩劍
+<note n="0423006" resp="Taisho" type="orig" place="foot text">謎＝繼【宋】，謎＋（十七）細註【三】</note>
+<note n="0423006" resp="CBETA" type="mod">謎＝繼【宋】，謎＋（十七）細註【宋】【元】【明】</note>
+<app n="0423006a"><lem>謎</lem><rdg wit="【宋】" resp="Taisho">繼</rdg></app>
+<app n="0423006b"><lem>&lac;</lem>
+<rdg wit="【宋】【元】【明】" resp="Taisho"><note place="inline">十七</note></rdg></app>娑&CB00085;<note place="inline">二<note n="0423007" resp="Taisho" type="orig" place="foot text">合＋（引）【三】</note><note n="0423007" resp="CBETA" type="mod">合＋（引）【宋】【元】【明】</note><app n="0423007"><lem>合</lem><rdg wit="【宋】【元】【明】" resp="Taisho">合引</rdg></app></note>賀<note place="inline">引十八</note></p>
 <lb n="0423a05"/><lg><l><note n="0423008" resp="Taisho" type="orig" place="foot text">krakucchanda.</note><foreign n="0423008" lang="san" resp="Taisho" place="foot">krakucchanda.</foreign>羯句忖那神</l><l><note n="0423009" resp="Taisho" type="orig" place="foot text">p&amacron;tariputra.</note><foreign n="0423009" lang="san" resp="Taisho" place="foot">p&amacron;tariputra.</foreign>波吒梨子處</l>
 <lb n="0423a06"/><l><note n="0423010" resp="Taisho" type="orig" place="foot text">apar&amacron;jita.</note><foreign n="0423010" lang="san" resp="Taisho" place="foot">apar&amacron;jita.</foreign>阿<note n="0423011" resp="Taisho" type="orig" place="foot text">跋＝跛&M062403;【丙】</note><app n="0423011"><lem>跋</lem><rdg wit="【？】" resp="【丙】">跛</rdg></app>羅爾多</l><l>住<note n="0423012" resp="Taisho" type="orig" place="foot text">sph&umacron;r&amacron;.</note><foreign n="0423012" lang="san" resp="Taisho" place="foot">sph&umacron;r&amacron;.</foreign>窣<note n="0423013" resp="Taisho" type="orig" place="foot text">土＝吐【三】</note><note n="0423013" resp="CBETA" type="mod">土＝吐【宋】【元】【明】</note><app n="0423013"><lem>土</lem><rdg wit="【宋】【元】【明】" resp="Taisho">吐</rdg></app>奴邑</l>
 <lb n="0423a07"/><l><note n="0423014" resp="Taisho" type="orig" place="foot text">賢善，bhadrapura.</note><note n="0423014" resp="CBETA" type="mod">賢善 bhadrapura.</note><tt n="0423014" type="app"><t lang="chi" resp="Taisho">賢善</t><t lang="san" resp="Taisho" place="foot">bhadrapura.</t></tt>大藥叉</l><l>住於<note n="0423015" resp="Taisho" type="orig" place="foot text">&sacute;ola.</note><foreign n="0423015" lang="san" resp="Taisho" place="foot">&sacute;ola.</foreign>世羅城</l>
