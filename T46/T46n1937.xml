@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/04/22 16:33:59 $</date></edition>
+		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2004/06/12 11:46:28 $</date></edition>
 	</editionStmt>
 	<extent>7卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/22 16:33:59 $</date>
+		<date>$Date: 2004/06/12 11:46:28 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 46, No. 1937 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T46n1937.xml,v $
+Revision 1.8  2004/06/12 11:46:28  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.7  2004/04/22 16:33:59  saywhat
 修訂不規則偈誦
 
@@ -121,7 +124,7 @@ Revision 1.19  2001/02/07 07:20:27  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.18  2001/02/03 08:07:38  chris
-Added keywords $Revision: 1.7 $, $Date: 2004/04/22 16:33:59 $ and $Log.
+Added keywords $Revision: 1.8 $, $Date: 2004/06/12 11:46:28 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -132,10 +135,10 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0856a19"/>
 <lb n="0856a20"/><head type="no">No. 1937</head>
-<lb n="0856a21"/><div1 type="xu"><mulu type="序" level="1" label="四明尊者教行錄序"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0856001" resp="Taisho" type="orig" place="foot text">寬文十年刊大谷大學藏本</note>四明尊者教行錄卷第一<note place="inline">并序</note></jhead></juan>
+<lb n="0856a21"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0856001" resp="Taisho" type="orig" place="foot text">寬文十年刊大谷大學藏本</note><jhead>四明尊者教行錄卷第一<note place="inline">并序</note></jhead></juan>
 <lb n="0856a22"/>
 <lb n="0856a23"/><byline type="Editor">四明石芝沙門宗曉編</byline>
-<lb n="0856a24"/><p>陳隋兩國師天台智者。悟法華經旋陀羅尼。
+<lb n="0856a24"/><div1 type="xu"><mulu type="序" level="1" label="四明尊者教行錄序"/><p>陳隋兩國師天台智者。悟法華經旋陀羅尼。
 <lb n="0856a25"/>嗣法性宗。以無礙辯才。剖判三世佛乘。開闢
 <lb n="0856a26"/>一家教觀。人到于今承之。外有諸懺制法兩
 <lb n="0856a27"/>朝&CB00330;文建寺碑刻等。門弟子章安禪師。集之
@@ -882,7 +885,7 @@ Added comment  for Emacs
 <lb n="0864b18"/>夫如是。聞見之人得不力行其教。諦觀乎
 <lb n="0864b19"/>性。使齊於流水者也。時天聖元年四月十
 <lb n="0864b20"/>一日跋</p></div1>
-<lb n="0864b21"/><div1 type="other"><mulu type="其他" level="1" label="CB00330延慶院放生池碑銘"/><head>&CB00330;延慶院放生池碑銘<note place="inline">并序</note></head>
+<lb n="0864b21"/><div1 type="other"><mulu type="其他" level="1" label="＆CB00330；延慶院放生池碑銘"/><head>&CB00330;延慶院放生池碑銘<note place="inline">并序</note></head>
 <lb n="0864b22"/><byline type="Author"><note place="inline">樞密直學士中大夫尚書禮部侍郎知&CB00002;州軍
 <lb n="0864b23"/>州兼管內勸農使護軍彭城郡開國侯食邑一
 <lb n="0864b24"/>千七百戶食實封二百戶賜紫金魚袋劉筠撰</note></byline>
@@ -986,15 +989,15 @@ Added comment  for Emacs
 <lb n="0865c02"/>書</p>
 <lb n="0865c03"/><p type="W">朝奉大夫尚書刑部郎中充集賢修撰知明
 <lb n="0865c04"/>州軍州兼市舶管內勸農事柱國賜紫金魚
-<lb n="0865c05"/>袋曾會立</p>
-<lb n="0865c06"/><juan fun="close" n="001"><jhead>四明尊者教行錄卷第一</jhead></juan></div1>
+<lb n="0865c05"/>袋曾會立</p></div1>
+<lb n="0865c06"/><juan fun="close" n="001"><jhead>四明尊者教行錄卷第一</jhead></juan>
 <lb n="0865c07"/>
-<milestone unit="juan" n="2"/><div1 type="other">
+<milestone unit="juan" n="2"/>
 <lb n="0865c08"/>
 <lb n="0865c09"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>四明尊者教行錄卷第二</jhead></juan>
 <lb n="0865c10"/>
 <lb n="0865c11"/><byline type="Editor">四明石芝沙門宗曉編</byline>
-<lb n="0865c12"/><p rend="margin-left:1">觀經融心解</p>
+<lb n="0865c12"/><div1 type="other"><p rend="margin-left:1">觀經融心解</p>
 <lb n="0865c13"/><p rend="margin-left:1">修懺要旨</p>
 <lb n="0865c14"/><p rend="margin-left:1">釋輔行傳弘決題下注文</p>
 <lb n="0865c15"/><p rend="margin-left:1">止觀義例境智互照</p>
