@@ -458,7 +458,8 @@ converted to XML form 2.1.99 (CW)
 >
 <!--  22:  Tables, Formulae, Figures                           -->
 <!--  22.1.1:  Tables                                          -->
-<!ELEMENT table ((head)*, (row)+)>
+<!-- ELEMENT table ((head)*, (row)+)>			-->
+<!ELEMENT table (head | lb | pb | row)*>
 <!ATTLIST table
 	ana IDREFS #IMPLIED
 	corresp IDREFS #IMPLIED
