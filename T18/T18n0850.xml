@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.15 $ (Big5)<date>$Date: 2004/05/13 07:02:51 $</date></edition>
+		<edition>$Revision: 1.16 $ (Big5)<date>$Date: 2004/05/28 06:42:41 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/13 07:02:51 $</date>
+		<date>$Date: 2004/05/28 06:42:41 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 18, No. 850 &desc;</bibl>
@@ -60,8 +60,11 @@
 	</change>
 <!--
 $Log: T18n0850.xml,v $
+Revision 1.16  2004/05/28 06:42:41  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.15  2004/05/13 07:02:51  saywhat
-</lg>　　<p type="inline"> → </lg><p type="inline">
+</lg>　　<p place="inline"> → </lg><p place="inline">
 
 Revision 1.14  2004/04/20 08:38:31  maha
 「版本日期」標記修訂
@@ -176,7 +179,7 @@ Revision 1.16  2001/02/07 06:52:57  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.15  2001/02/03 07:42:38  chris
-Added keywords $Revision: 1.15 $, $Date: 2004/05/13 07:02:51 $ and $Log.
+Added keywords $Revision: 1.16 $, $Date: 2004/05/28 06:42:41 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -186,8 +189,8 @@ Added comment  for Emacs
 <pb ed="T" id="T18.0850.0065a" n="0065a"/>
 <lb n="0065a01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0065a02"/><head type="no">No. 850</head><div1 type="xu">
-<lb n="0065a03"/><mulu type="序" level="1" label="刻密軌序"/><head><note n="0065001" resp="Taisho" type="orig" place="foot text">【原】正德元年刊豐山大學藏本，【甲】平安時代寫高山寺藏本，【乙】長元六年寫東寺三密藏本，甲本此序無，乙本首缺</note>刻密軌序</head>
+<lb n="0065a02"/><head type="no">No. 850</head>
+<lb n="0065a03"/><div1 type="xu"><mulu type="序" level="1" label="刻密軌序"/><head><note n="0065001" resp="Taisho" type="orig" place="foot text">【原】正德元年刊豐山大學藏本，【甲】平安時代寫高山寺藏本，【乙】長元六年寫東寺三密藏本，甲本此序無，乙本首缺</note>刻密軌序</head>
 <lb n="0065a04"/>
 <lb n="0065a05"/><p>夫欲長其流者。不可以不深其淵源也。欲久
 <lb n="0065a06"/>其家者。不可以不固其柱礎也。粵有吾祖弘
@@ -203,7 +206,7 @@ Added comment  for Emacs
 <lb n="0065a16"/>既寂矣。余雖不肖。深悲在茲。聿企剞劂事務
 <lb n="0065a17"/>遂其遺意云爾。時</p>
 <lb n="0065a18"/><p>正德元年龍次辛卯仲秋穀武城靈雲精舍沙
-<lb n="0065a19"/>門慧光謹序</p>
+<lb n="0065a19"/>門慧光謹序</p></div1>
 <lb n="0065a20"/>
 <lb n="0065a21"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead>攝大毘盧遮那成佛神變加持經
 <lb n="0065a22"/>入蓮華胎藏海會悲生曼荼&CB00256;廣
@@ -212,7 +215,7 @@ Added comment  for Emacs
 <lb n="0065a25"/><byline type="Translator">京大興善寺中天竺國三藏
 <lb n="0065a26"/>輸<note n="0065002" resp="Taisho" type="orig" place="foot text">婆＝波【甲】</note><app n="0065002"><lem>婆</lem><rdg wit="【甲】" resp="Taisho">波</rdg></app>迦羅奉　詔譯授法
 <lb n="0065a27"/>弟子一行筆<note n="0065003" resp="Taisho" type="orig" place="foot text">授＝受【甲】</note><app n="0065003"><lem>授</lem><rdg wit="【甲】" resp="Taisho">受</rdg></app><note n="0065004" resp="Taisho" type="orig" place="foot text">比丘寶月譯語＝譯語比丘寶月【甲】</note><app n="0065004"><lem>比丘寶月譯語</lem><rdg wit="【甲】" resp="Taisho">譯語比丘寶月</rdg></app></byline>
-<lb n="0065a28"/><lg><l>稽首毘盧遮那佛</l><l>開敷淨眼如青蓮</l>
+<lb n="0065a28"/><div1 type="other"><lg><l>稽首毘盧遮那佛</l><l>開敷淨眼如青蓮</l>
 <lb n="0065a29"/><l>我依大日經王說</l><l>供養所資眾儀軌</l>
 <pb ed="T" id="T18.0850.0065b" n="0065b"/>
 <lb n="0065b01"/><l>為成次第真言法</l><l>如彼當得速成就</l>
@@ -504,7 +507,7 @@ Added comment  for Emacs
 <lb n="0068c02"/><l>乳風作四印</l><l>隨一作成就</l>
 <lb n="0068c03"/><l>修行六月滿</l><l>輕舉下神通</l>
 <lb n="0068c04"/><l>安住如來鉤</l><l>布字如下明</l>
-<lb n="0068c05"/><l>火生障聖者</l><l>無動尊真言<note place="inline">如中卷明</note></l></lg>
+<lb n="0068c05"/><l>火生障聖者</l><l>無動尊真言<note place="inline">如中卷明</note></l></lg></div1>
 <lb n="0068c06"/><juan fun="close" n="001"><jhead>攝大毘盧遮<note n="0068024" resp="Taisho" type="orig" place="foot text">那＋（經）【乙】</note><app n="0068024"><lem>那</lem><rdg wit="【乙】" resp="Taisho">那經</rdg></app><note n="0068025" resp="Taisho" type="orig" place="foot text">供養方便＝成佛神變加持經大悲胎藏【甲】</note><app n="0068025"><lem>供養方便</lem><rdg wit="【甲】" resp="Taisho">成佛神變加持經大悲胎藏</rdg></app>儀軌卷第<note n="0068026" resp="Taisho" type="orig" place="foot text">一＝上【甲】</note><app n="0068026"><lem>一</lem><rdg wit="【甲】" resp="Taisho">上</rdg></app></jhead></juan>
 <lb n="0068c07"/>
 <milestone unit="juan" n="2"/>
@@ -515,7 +518,7 @@ Added comment  for Emacs
 <lb n="0068c12"/>
 <lb n="0068c13"/><byline type="Translator"><note n="0068030" resp="Taisho" type="orig" place="foot text">原本冠註曰一本無譯號</note>大興善寺中天竺國三藏
 <lb n="0068c14"/>輸波迦羅奉　詔<note n="0068031" resp="Taisho" type="orig" place="foot text">譯＋（受法弟子一行筆授譯語比丘寶月）【甲】</note><app n="0068031"><lem>譯</lem><rdg wit="【甲】" resp="Taisho">譯受法弟子一行筆授譯語比丘寶月</rdg></app></byline>
-<lb n="0068c15"/><lg><l>爾時<note n="0068032" resp="Taisho" type="orig" place="foot text">婆＝波【甲】</note><app n="0068032"><lem>婆</lem><rdg wit="【甲】" resp="Taisho">波</rdg></app>&CB00344;&CB00680;</l><l>毘盧遮那佛</l>
+<lb n="0068c15"/><div1 type="other"><lg><l>爾時<note n="0068032" resp="Taisho" type="orig" place="foot text">婆＝波【甲】</note><app n="0068032"><lem>婆</lem><rdg wit="【甲】" resp="Taisho">波</rdg></app>&CB00344;&CB00680;</l><l>毘盧遮那佛</l>
 <lb n="0068c16"/><l>觀察諸大眾</l><l>告執金剛手</l>
 <lb n="0068c17"/><l><note n="0068033" resp="Taisho" type="orig" place="foot text">密＝蜜【乙】＊</note><app n="0068033"><lem>密</lem><rdg wit="【乙】" resp="Taisho">蜜</rdg></app>主薩埵言</l><l>有法同大日</l>
 <lb n="0068c18"/><l>如來莊嚴具</l><l>同法界<note n="0068034" resp="Taisho" type="orig" place="foot text">&CB00124;＝標【乙】＊</note><app n="0068034"><lem>&CB00124;</lem><rdg wit="【乙】" resp="Taisho">標</rdg></app>幟</l>
@@ -1681,7 +1684,7 @@ Added comment  for Emacs
 <lb n="0082b24"/><l>佛說三昧耶</l><l>汝<note n="0082016" resp="Taisho" type="orig" place="foot text">原本冠註曰善住戒者者弟子也</note>善住戒者</l>
 <lb n="0082b25"/><l>如護自身命</l><l>護戒亦如是</l>
 <lb n="0082b26"/><l>應至誠恭敬</l><l>稽首聖尊足</l>
-<lb n="0082b27"/><l>所作隨教行</l><l>勿生疑慮心</l></lg>
+<lb n="0082b27"/><l>所作隨教行</l><l>勿生疑慮心</l></lg></div1>
 <lb n="0082b28"/><juan fun="close" n="002"><jhead>攝大毘盧遮那<note n="0082017" resp="Taisho" type="orig" place="foot text">〔經〕－【甲】</note><app n="0082017"><lem>經</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0082018" resp="Taisho" type="orig" place="foot text">（（大菩…二））十八字＝（（成佛神變加持經大悲胎藏儀軌卷第中））十六字【甲】</note><app n="0082018" word-count="18"><lem>大菩提<note n="0082019" resp="Taisho" type="orig" place="foot text">幢＝憧【乙】</note><app n="0082019"><lem>幢</lem><rdg wit="【乙】" resp="Taisho">憧</rdg></app>諸尊<note n="0082020" resp="Taisho" type="orig" place="foot text">密＝蜜【乙】</note><app n="0082020"><lem>密</lem><rdg wit="【乙】" resp="Taisho">蜜</rdg></app>印
 <lb n="0082b29"/><note n="0082021" resp="Taisho" type="orig" place="foot text">&CB00124;幟＝&CB00256;熾【乙】</note><app n="0082021"><lem>&CB00124;幟</lem><rdg wit="【乙】" resp="Taisho">&CB00256;熾</rdg></app>曼荼羅儀軌卷第二</lem><rdg wit="【甲】" resp="Taisho">成佛神變加持經大悲胎藏儀軌卷第中</rdg></app></jhead></juan>
 <pb ed="T" id="T18.0850.0082c" n="0082c"/>
@@ -1692,7 +1695,7 @@ Added comment  for Emacs
 <lb n="0082c04"/>入八祕<note n="0082022" resp="Taisho" type="orig" place="foot text">密＝蜜【乙】＊</note><app n="0082022"><lem>密</lem><rdg wit="【乙】" resp="Taisho">蜜</rdg></app>六月成就儀軌卷第
 <lb n="0082c05"/><note n="0082023" resp="Taisho" type="orig" place="foot text">三＝下【甲】，此下甲本有譯號等如首卷</note><app n="0082023"><lem>三</lem><rdg wit="【甲】" resp="Taisho">下</rdg></app><note n="0082023" place="foot" type="rest">此下甲本有譯號等如首卷</note></jhead></juan>
 <lb n="0082c06"/>
-<lb n="0082c07"/><lg><l>爾時婆&CB00344;&CB00680;</l><l>毘盧遮那佛</l>
+<lb n="0082c07"/><div1 type="other"><lg><l>爾時婆&CB00344;&CB00680;</l><l>毘盧遮那佛</l>
 <lb n="0082c08"/><l>告持金剛<note n="0082024" resp="Taisho" type="orig" place="foot text">手＝子【甲】</note><app n="0082024"><lem>手</lem><rdg wit="【甲】" resp="Taisho">子</rdg></app></l><l>佛子<note n="0082025" resp="Taisho" type="orig" place="foot text">志＝至【甲】</note><app n="0082025"><lem>志</lem><rdg wit="【甲】" resp="Taisho">至</rdg></app>心聽</l>
 <lb n="0082c09"/><l><note n="0082026" resp="Taisho" type="orig" place="foot text">原本冠註曰種子等者此依經三轉字輪曼茶羅行品</note>種子曼荼羅</l><l>先觀阿字門</l>
 <lb n="0082c10"/><l>轉生於&CB00085;字</l><l>乃至一切字</l>
@@ -2064,10 +2067,10 @@ Added comment  for Emacs
 <lb n="0086c24"/>額廣平正。其鼻脩直面&CB03462;圓滿。端嚴相稱如
 <lb n="0086c25"/>是佛子。應當殷勤而教授之。若異此者犯三
 <pb ed="T" id="T18.0850.0087a" n="0087a"/>
-<lb n="0087a01"/>昧耶。餘如本教說。普願諸有情同生蓮華藏</p>
+<lb n="0087a01"/>昧耶。餘如本教說。普願諸有情同生蓮華藏</p></div1>
 <lb n="0087a02"/><juan fun="close" n="003"><jhead>攝大毘盧遮那成佛神變加持經入蓮華胎藏
-<lb n="0087a03"/>海會悲生曼荼羅廣大念誦儀軌卷<note n="0087001" resp="Taisho" type="orig" place="foot text">之三＝下【甲】【乙】，乙本奧書曰，長元六年四月二十九日書了，長元七年六月十四日點了，御房御傳禪師　當處同（一字不明）其末承之，康平三年九月二十三日受始十月七日終之廊僧都御傳也，嘉承二年五月二十一日南岳（一字不明）師奉受了靜寬</note><app n="0087001"><lem>之三</lem><rdg wit="【甲】【乙】" resp="Taisho">下</rdg></app><note n="0087001" place="foot" type="rest">乙本奧書曰，長元六年四月二十九日書了，長元七年六月十四日點了，御房御傳禪師　當處同（一字不明）其末承之，康平三年九月二十三日受始十月七日終之廊僧都御傳也，嘉承二年五月二十一日南岳（一字不明）師奉受了靜寬</note></jhead></juan></div1><div1 type="W">
-<lb n="0087a04"/><p><note n="0087002" resp="Taisho" type="orig" place="foot text">〔攝大…識〕百十五字－【甲】【乙】</note><app n="0087002" word-count="115"><lem>攝大軌一部三卷。是慈覺智證宗睿三師
+<lb n="0087a03"/>海會悲生曼荼羅廣大念誦儀軌卷<note n="0087001" resp="Taisho" type="orig" place="foot text">之三＝下【甲】【乙】，乙本奧書曰，長元六年四月二十九日書了，長元七年六月十四日點了，御房御傳禪師　當處同（一字不明）其末承之，康平三年九月二十三日受始十月七日終之廊僧都御傳也，嘉承二年五月二十一日南岳（一字不明）師奉受了靜寬</note><app n="0087001"><lem>之三</lem><rdg wit="【甲】【乙】" resp="Taisho">下</rdg></app><note n="0087001" place="foot" type="rest">乙本奧書曰，長元六年四月二十九日書了，長元七年六月十四日點了，御房御傳禪師　當處同（一字不明）其末承之，康平三年九月二十三日受始十月七日終之廊僧都御傳也，嘉承二年五月二十一日南岳（一字不明）師奉受了靜寬</note></jhead></juan>
+<lb n="0087a04"/><div1 type="W"><p><note n="0087002" resp="Taisho" type="orig" place="foot text">〔攝大…識〕百十五字－【甲】【乙】</note><app n="0087002" word-count="115"><lem>攝大軌一部三卷。是慈覺智證宗睿三師
 <lb n="0087a05"/>之請來也。但其本非無異。而今所印刻者。
 <lb n="0087a06"/>則慈覺大師本。展轉傳寫舛錯頗多。故以
 <lb n="0087a07"/>本經及廣大軌校定。有其未決猥冠注之
