@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.29 $ (Big5)<date>$Date: 2004/12/20 14:25:58 $</date></edition>
+		<edition>$Revision: 1.30 $ (Big5)<date>$Date: 2005/02/20 15:15:51 $</date></edition>
 	</editionStmt>
 	<extent>22卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/12/20 14:25:58 $</date>
+		<date>$Date: 2005/02/20 15:15:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 1, No. 001 &desc;</bibl>
@@ -61,6 +61,9 @@
 	</change>
 <!--
 $Log: T01n0001.xml,v $
+Revision 1.30  2005/02/20 15:15:51  saywhat
+修訂 <div> & <mulu>
+
 Revision 1.29  2004/12/20 14:25:58  saywhat
 p0005b03,c14 delete <term rend="no_nor">
 
@@ -252,7 +255,7 @@ Revision 1.8  2001/02/07 06:38:40  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.7  2001/02/03 07:27:25  chris
-Added keywords $Revision: 1.29 $, $Date: 2004/12/20 14:25:58 $ and $Log.
+Added keywords $Revision: 1.30 $, $Date: 2005/02/20 15:15:51 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -262,7 +265,7 @@ Added comment  for Emacs
 <pb ed="T" id="T01.0001.0001a" n="0001a"/>
 <lb n="0001a01"/>
 <milestone unit="juan" n="1"/><head type="no">No. 1</head>
-<lb n="0001a02"/><div1 type="xu"><mulu type="序" level="1" label="序"/><head><title><note n="0001001" resp="Taisho" type="orig" place="foot text">此序依宋元明三本&M062443;依&M062438;載&M062425;</note>長阿含經</title>序</head>
+<lb n="0001a02"/><div1 type="xu"><mulu type="序" level="1" label="序"/><note n="0001001" resp="Taisho" type="orig" place="foot text">此序依宋元明三本&M062443;依&M062438;載&M062425;</note><head><title>長阿含經</title>序</head>
 <lb n="0001a03"/>
 <lb n="0001a04"/><byline type="Author"><note n="0001002" resp="Taisho" type="orig" place="foot text">〔長安〕－【宋】</note><app n="0001002"><lem>長安</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>釋僧肇<note n="0001003" resp="Taisho" type="orig" place="foot text">〔述〕－【宋】</note><app n="0001003"><lem>述</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app></byline>
 <lb n="0001a05"/><p>夫宗極絕於稱謂。賢聖以之沖默。玄旨非言
@@ -297,11 +300,11 @@ Added comment  for Emacs
 <lb n="0001b04"/>無差。蠲華崇朴。務存聖旨。余以嘉遇猥參聽
 <lb n="0001b05"/>次。雖無翼善之功。而預親承之末。故略記時
 <lb n="0001b06"/>事。以示來賢焉。</p></div1>
-<lb n="0001b07"/><div1 type="fen">
+<lb n="0001b07"/>
 <lb n="0001b08"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>佛說<note n="0001011" resp="Taisho" type="orig" place="foot text">長阿含經 D&imacron;rgha-&amacron;gama～D&imacron;gha-nik&amacron;ya</note><tt n="0001011" type="app"><t lang="chi" resp="Taisho">長阿含經</t><t lang="san" resp="Taisho" place="foot">D&imacron;rgha-&amacron;gama</t><t lang="pli" resp="Taisho" place="foot">D&imacron;gha-nik&amacron;ya</t></tt></title>卷第一</jhead></juan>
 <lb n="0001b09"/>
 <lb n="0001b10"/><byline type="Translator"><note n="0001012" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0001012" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0001012"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0001b11"/><mulu type="分" level="1" n="1" label="1 分"/><head>（一）第一分初</head><div2 type="jing"><mulu type="經" level="2" n="1" label="1 大本經(一)"/><head><note n="0001013" resp="Taisho" type="orig" place="foot text">大本經＝大本緣經～D. 14. Mah&amacron;padh&amacron;na-suttanta.</note><note n="0001013" resp="CBETA" type="mod"><todo type="u"/>大本經＝大本緣經～D. 14. Mah&amacron;padh&amacron;na-suttanta.</note>大本經第一</head>
+<lb n="0001b11"/><div1 type="fen"><mulu type="分" level="1" label="1 分"/><div2 type="jing"><mulu type="經" level="2" label="1 大本經"/><head>（一）第一分初<note n="0001013" resp="Taisho" type="orig" place="foot text">大本經＝大本緣經～D. 14. Mah&amacron;padh&amacron;na-suttanta.</note><note n="0001013" resp="CBETA" type="mod"><todo type="u"/>大本經＝大本緣經～D. 14. Mah&amacron;padh&amacron;na-suttanta.</note>大本經第一</head>
 <lb n="0001b12"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0001014" resp="Taisho" type="orig" place="foot text">舍衛～S&amacron;vatth&imacron;.</note><tt n="0001014" type="app"><t lang="chi" resp="Taisho">舍衛</t><t lang="pli" resp="Taisho" place="foot">S&amacron;vatth&imacron;.</t></tt>國<note n="0001015" resp="Taisho" type="orig" place="foot text">祇樹～Jetavana.</note><tt n="0001015" type="app"><t lang="chi" resp="Taisho">祇樹</t><t lang="pli" resp="Taisho" place="foot">Jetavana.</t></tt><note n="0001016" resp="Taisho" type="orig" place="foot text">花林窟～Kareri-ku&tdotblw;ik&amacron;.</note><tt n="0001016" type="app"><t lang="chi" resp="Taisho">花林
 <lb n="0001b13"/>窟</t><t lang="pli" resp="Taisho" place="foot">Kareri-ku&tdotblw;ik&amacron;.</t></tt>。與大比丘眾千二百五十人俱。</p><p place="inline">時。諸比丘
 <lb n="0001b14"/>於乞食後集花林堂。各共議言。諸賢比丘。
@@ -1155,16 +1158,16 @@ Added comment  for Emacs
 <lb n="0010c26"/><l>本末因緣</l><l>釋迦如來</l>
 <lb n="0010c27"/><l>之所演說</l></lg>
 <lb n="0010c28"/><p>佛說此大因緣經已。諸比丘聞佛所說。歡
-<lb n="0010c29"/>喜奉行。</p>
+<lb n="0010c29"/>喜奉行。</p></div2>
 <pb ed="T" id="T01.0001.0011a" n="0011a"/>
-<lb n="0011a01"/><juan fun="close" n="001"><jhead><title><note n="0011001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【三】【聖】</note><note n="0011001" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【聖】</note><app n="0011001"><lem>佛說</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第一<note n="0011002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0011a01"/><juan fun="close" n="001"><jhead><title><note n="0011001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【三】【聖】</note><note n="0011001" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【聖】</note><app n="0011001"><lem>佛說</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第一<note n="0011002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0011a02"/>
-<milestone unit="juan" n="2"/><div2 type="jing">
+<milestone unit="juan" n="2"/>
 <lb n="0011a03"/>
 <lb n="0011a04"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>佛說長阿含經</title>卷第二</jhead></juan>
 <lb n="0011a05"/>
 <lb n="0011a06"/><byline type="Translator"><note n="0011003" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚奉三藏法師【三】，〔後秦…譯〕－【聖】</note><note n="0011003" resp="CBETA" type="mod">〔後秦弘始年佛陀耶舍共竺佛念譯〕－【聖】，後秦弘始年＝姚奉三藏法師【宋】【元】【明】</note><app n="0011003"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚奉三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0011a07"/><mulu type="經" level="2" n="2" label="2 遊行經(二-四)"/><head>（二）第一分<note n="0011004" resp="Taisho" type="orig" place="foot text">遊行經～D. 10. Mah&amacron;parinibb&amacron;nasuttanta.</note><note n="0011004" place="foot" type="equivalent">遊行經～D. 10. Mah&amacron;parinibb&amacron;nasuttanta.</note>遊行經第二<note n="0011005" resp="Taisho" type="orig" place="foot text">初＝之一【三】</note><note n="0011005" resp="CBETA" type="mod">初＝之一【宋】【元】【明】</note><app n="0011005"><lem>初</lem><rdg wit="【宋】【元】【明】" resp="Taisho">之一</rdg></app></head>
+<lb n="0011a07"/><div2 type="jing"><mulu type="經" level="2" label="2 遊行經"/><head>（二）第一分<note n="0011004" resp="Taisho" type="orig" place="foot text">遊行經～D. 10. Mah&amacron;parinibb&amacron;nasuttanta.</note><note n="0011004" place="foot" type="equivalent">遊行經～D. 10. Mah&amacron;parinibb&amacron;nasuttanta.</note>遊行經第二<note n="0011005" resp="Taisho" type="orig" place="foot text">初＝之一【三】</note><note n="0011005" resp="CBETA" type="mod">初＝之一【宋】【元】【明】</note><app n="0011005"><lem>初</lem><rdg wit="【宋】【元】【明】" resp="Taisho">之一</rdg></app></head>
 <lb n="0011a08"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0011006" resp="Taisho" type="orig" place="foot text">～R&amacron;jagaha.</note><note n="0011006" resp="CBETA" type="mod"><app><lem>羅閱城</lem><rdg wit="【大】">&lac;</rdg></app>～R&amacron;jagaha.</note><tt n="0011006" type="app"><t lang="chi" resp="CBETA">羅閱城</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jagaha.</t></tt><note n="0011007" resp="Taisho" type="orig" place="foot text">～Gijjhak&umacron;&tdotblw;a.</note><note n="0011007" resp="CBETA" type="mod"><app><lem>耆闍崛</lem><rdg wit="【大】">&lac;</rdg></app>～Gijjhak&umacron;&tdotblw;a.</note><tt n="0011007" type="app"><t lang="chi" resp="CBETA">耆闍崛</t><t lang="pli" resp="Taisho" place="foot">Gijjhak&umacron;&tdotblw;a.</t></tt>山
 <lb n="0011a09"/>中。與大比丘眾千二百五十人俱。</p><p place="inline">是時。<note n="0011008" resp="Taisho" type="orig" place="foot text">～M&amacron;gagha.</note><note n="0011008" resp="CBETA" type="mod"><app><lem>摩竭</lem><rdg wit="【大】">&lac;</rdg></app>～M&amacron;gagha.</note><tt n="0011008" type="app"><t lang="chi" resp="CBETA">摩
 <lb n="0011a10"/>竭</t><t lang="pli" resp="Taisho" place="foot">M&amacron;gagha.</t></tt>王<note n="0011009" resp="Taisho" type="orig" place="foot text">～Aj&amacron;tasattu.</note><note n="0011009" resp="CBETA" type="mod"><app><lem>阿闍世</lem><rdg wit="【大】">&lac;</rdg></app>～Aj&amacron;tasattu.</note><tt n="0011009" type="app"><t lang="chi" resp="CBETA">阿闍世</t><t lang="pli" resp="Taisho" place="foot">Aj&amacron;tasattu.</t></tt>欲伐<note n="0011010" resp="Taisho" type="orig" place="foot text">～Vajj&imacron;.</note><note n="0011010" resp="CBETA" type="mod"><app><lem>跋祇</lem><rdg wit="【大】">&lac;</rdg></app>～Vajj&imacron;.</note><tt n="0011010" type="app"><t lang="chi" resp="CBETA">跋祇</t><t lang="pli" resp="Taisho" place="foot">Vajj&imacron;.</t></tt>。王自念言。彼雖
@@ -2903,14 +2906,14 @@ Added comment  for Emacs
 <lb n="0030b01"/><l>娑羅花熾盛</l><l>種種光相照</l>
 <lb n="0030b02"/><l>於其本生處</l><l>如來取滅度</l>
 <lb n="0030b03"/><l>大<note n="0030008" resp="Taisho" type="orig" place="foot text">慈＝悲【聖】</note><app n="0030008"><lem>慈</lem><rdg wit="【聖】" resp="Taisho">悲</rdg></app>般涅槃</l><l>多人稱讚禮</l>
-<lb n="0030b04"/><l>盡度諸恐畏</l><l>決定取滅度</l></lg>
-<lb n="0030b05"/><juan fun="close" n="004"><jhead><title><note n="0030009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【三】【聖】</note><note n="0030009" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【聖】</note><app n="0030009"><lem>佛說</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第四<note n="0030010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0030b04"/><l>盡度諸恐畏</l><l>決定取滅度</l></lg></div2>
+<lb n="0030b05"/><juan fun="close" n="004"><jhead><title><note n="0030009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【三】【聖】</note><note n="0030009" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【聖】</note><app n="0030009"><lem>佛說</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第四<note n="0030010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0030b06"/>
-<milestone unit="juan" n="5"/><div2 type="jing">
+<milestone unit="juan" n="5"/>
 <lb n="0030b07"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead><title>佛說長阿含經</title>卷第五</jhead></juan>
 <lb n="0030b08"/>
 <lb n="0030b09"/><byline type="Translator"><note n="0030011" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】，〔後秦…譯〕十七字－【聖】</note><note n="0030011" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】，〔後秦弘始年佛陀耶舍共竺佛念譯〕十<app><lem resp="CBETA.say">四</lem><rdg wit="【大】">七</rdg></app>字－【聖】</note><app n="0030011"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0030b10"/><mulu type="經" level="2" n="3" label="3 典尊經(五)"/><head>（三）第一分<note n="0030012" resp="Taisho" type="orig" place="foot text">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta. [No. 8]</note><note n="0030012" resp="CBETA" type="mod">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta.，[No. 8]</note><note n="0030012" place="foot" type="equivalent">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta.</note><note n="0030012" place="foot" type="cf.">[No. 8]</note>典尊經第三</head>
+<lb n="0030b10"/><div2 type="jing"><mulu type="經" level="2" label="3 典尊經"/><head>（三）第一分<note n="0030012" resp="Taisho" type="orig" place="foot text">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta. [No. 8]</note><note n="0030012" resp="CBETA" type="mod">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta.，[No. 8]</note><note n="0030012" place="foot" type="equivalent">Mah&amacron;govind&imacron;ya(Mah&amacron;vastu)～D. 19. Mah&amacron;govinda suttanta.</note><note n="0030012" place="foot" type="cf.">[No. 8]</note>典尊經第三</head>
 <lb n="0030b11"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0030013" resp="Taisho" type="orig" place="foot text">羅閱祇～R&amacron;jagaha.</note><tt n="0030013" type="app"><t lang="chi" resp="Taisho">羅閱祇</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jagaha.</t></tt><note n="0030014" resp="Taisho" type="orig" place="foot text">～Gijjhak&umacron;&tdotblw;a.</note><note n="0030014" resp="CBETA" type="mod"><app><lem>耆闍崛</lem><rdg wit="【大】">&lac;</rdg></app>～Gijjhak&umacron;&tdotblw;a.</note><tt n="0030014" type="app"><t lang="chi" resp="CBETA">耆闍崛</t><t lang="pli" resp="Taisho" place="foot">Gijjhak&umacron;&tdotblw;a.</t></tt>山。與
 <lb n="0030b12"/>大比丘眾千二百五十人俱。</p><p place="inline">爾時。<note n="0030015" resp="Taisho" type="orig" place="foot text">執樂天般遮翼子～Pa&ntilde;casikha Gandhabba-putta.</note><tt n="0030015" type="app"><t lang="chi" resp="Taisho">執樂天
 <lb n="0030b13"/>般遮翼子</t><t lang="pli" resp="Taisho" place="foot">Pa&ntilde;casikha Gandhabba-putta.</t></tt>。於夜靜寂無人之時。放大光<note n="0030016" resp="Taisho" type="orig" place="foot text">〔明〕－【聖】</note><app n="0030016"><lem>明</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。
@@ -3264,7 +3267,7 @@ Added comment  for Emacs
 <lb n="0034b01"/>翼。我諸弟子不<app type="＊" source="0034002"><lem>疑</lem><rdg resp="Taisho" wit="【宋】【元】【明】【聖】">癡</rdg></app>出家。有果報。有教<app type="＊" source="0034003"><lem>誡</lem><rdg resp="Taisho" wit="【宋】【元】【明】【聖】">戒</rdg></app>。
 <lb n="0034b02"/>究竟道法。究竟梵行。究竟安隱。終歸滅度。</p>
 <lb n="0034b03"/><p>爾時。般遮翼聞佛所說。歡喜奉行。</p></div2>
-<lb n="0034b04"/><div2 type="jing"><mulu type="經" level="2" n="4" label="4 闍尼沙經(五)"/><head>（四）<title><note n="0034004" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說〕－【聖】，〔佛說長阿含〕－【明】</note><app n="0034004"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【聖】" resp="Taisho">長阿含</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第一分<note n="0034005" resp="Taisho" type="orig" place="foot text">～D. 18 Janavasabha suttanta. [No. 9]</note><note n="0034005" resp="CBETA" type="mod">～D. 18 Janavasabha suttanta.，[No. 9]</note><note n="0034005" place="foot" type="equivalent">～D. 18 Janavasabha suttanta.</note><note n="0034005" place="foot" type="cf.">[No. 9]</note>闍尼沙經第四</head>
+<lb n="0034b04"/><div2 type="jing"><mulu type="經" level="2" label="4 闍尼沙經"/><head>（四）<title><note n="0034004" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說〕－【聖】，〔佛說長阿含〕－【明】</note><app n="0034004"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【聖】" resp="Taisho">長阿含</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第一分<note n="0034005" resp="Taisho" type="orig" place="foot text">～D. 18 Janavasabha suttanta. [No. 9]</note><note n="0034005" resp="CBETA" type="mod">～D. 18 Janavasabha suttanta.，[No. 9]</note><note n="0034005" place="foot" type="equivalent">～D. 18 Janavasabha suttanta.</note><note n="0034005" place="foot" type="cf.">[No. 9]</note>闍尼沙經第四</head>
 <lb n="0034b05"/><p>如是我聞。</p><p place="inline">一時。佛遊<note n="0034006" resp="Taisho" type="orig" place="foot text">那提～N&amacron;dika.</note><tt n="0034006" type="app"><t lang="chi" resp="Taisho">那提</t><t lang="pli" resp="Taisho" place="foot">N&amacron;dika.</t></tt><note n="0034007" resp="Taisho" type="orig" place="foot text">揵稚住處＝揵椎住處【三】＊～Gi&ntilde;jak&acirc;vasatha.</note><note n="0034007" resp="CBETA" type="mod"><todo type="＊"/>揵稚住處＝揵椎住處【宋】＊【元】＊【明】＊～Gi&ntilde;jak&acirc;vasatha.</note><tt n="0034007" type="app"><t lang="chi" resp="Taisho"><app n="0034007"><lem>揵稚住處</lem><rdg wit="【宋】【元】【明】" resp="Taisho">揵椎住處</rdg></app></t><t lang="pli" resp="Taisho" place="foot">Gi&ntilde;jak&acirc;vasatha.</t></tt>。與
 <lb n="0034b06"/>大比丘眾千二百五十人俱。</p><p place="inline">爾時。尊者阿難
 <lb n="0034b07"/>在靜室坐。默<note n="0034008" resp="Taisho" type="orig" place="foot text">自＝然【三】</note><note n="0034008" resp="CBETA" type="mod">自＝然【宋】【元】【明】</note><app n="0034008"><lem>自</lem><rdg wit="【宋】【元】【明】" resp="Taisho">然</rdg></app>思念。甚奇。甚<note n="0034009" resp="Taisho" type="orig" place="foot text">特＝時【元】</note><app n="0034009"><lem>特</lem><rdg wit="【元】" resp="Taisho">時</rdg></app>。如來授
@@ -3462,14 +3465,14 @@ Added comment  for Emacs
 <lb n="0036b19"/>正法。闍尼沙神復於佛前說是正法。世尊
 <lb n="0036b20"/>復為阿難說此正法。阿難復為比丘．比丘
 <lb n="0036b21"/>尼．優婆塞．優婆夷說是正法。</p><p place="inline">是時。阿難聞佛
-<lb n="0036b22"/>所說。歡喜奉行。</p>
-<lb n="0036b23"/><juan fun="close" n="005"><jhead><title><note n="0036007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】【聖】</note><app n="0036007"><lem>佛說</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第五<note n="0036008" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2></div1>
+<lb n="0036b22"/>所說。歡喜奉行。</p></div2></div1>
+<lb n="0036b23"/><juan fun="close" n="005"><jhead><title><note n="0036007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】【聖】</note><app n="0036007"><lem>佛說</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第五<note n="0036008" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0036b24"/>
-<milestone unit="juan" n="6"/><div1 type="fen">
+<milestone unit="juan" n="6"/>
 <lb n="0036b25"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead><title>佛說長阿含經</title>卷第六</jhead></juan>
 <lb n="0036b26"/>
 <lb n="0036b27"/><byline type="Translator"><note n="0036009" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚奉三藏法師【三】，（後秦…譯）十四字－【聖】</note><note n="0036009" resp="CBETA" type="mod">〔後秦弘始年佛陀耶舍共竺佛念譯〕十四字－【聖】，後秦弘始年＝姚奉三藏法師【宋】【元】【明】</note><app n="0036009"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚奉三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0036b28"/><mulu type="分" level="1" n="2" label="2 分"/><head>（五）<note n="0036010" resp="Taisho" type="orig" place="foot text">第二分初小緣經＝第二分初四姓經【元】，第二分四姓經【明】</note><note n="0036010" resp="CBETA" type="mod"><todo type="a"/>第二分初小緣經＝第二分初四姓經【元】，＝第二分四姓經【明】</note>第二分初</head><div2 type="jing"><mulu type="經" level="2" n="1" label="1 小緣經(六)"/><head><note n="0036011" resp="Taisho" type="orig" place="foot text">～D. 27 Agga&ntilde;&ntilde;a-Suttanta. [No. 26(154), No. 10]</note><note n="0036011" resp="CBETA" type="mod">～D. 27 Agga&ntilde;&ntilde;a-Suttanta.，[No. 26(154), No. 10]</note><note n="0036011" place="foot" type="equivalent">～D. 27 Agga&ntilde;&ntilde;a-Suttanta.</note><note n="0036011" place="foot" type="cf.">[No. 26(154), No. 10]</note>小緣經第一</head>
+<lb n="0036b28"/><div1 type="fen"><mulu type="分" level="1" label="2 分"/><div2 type="jing"><mulu type="經" level="2" label="1 小緣經"/><head>（五）<note n="0036010" resp="Taisho" type="orig" place="foot text">第二分初小緣經＝第二分初四姓經【元】，第二分四姓經【明】</note><note n="0036010" resp="CBETA" type="mod"><todo type="a"/>第二分初小緣經＝第二分初四姓經【元】，＝第二分四姓經【明】</note>第二分初<note n="0036011" resp="Taisho" type="orig" place="foot text">～D. 27 Agga&ntilde;&ntilde;a-Suttanta. [No. 26(154), No. 10]</note><note n="0036011" resp="CBETA" type="mod">～D. 27 Agga&ntilde;&ntilde;a-Suttanta.，[No. 26(154), No. 10]</note><note n="0036011" place="foot" type="equivalent">～D. 27 Agga&ntilde;&ntilde;a-Suttanta.</note><note n="0036011" place="foot" type="cf.">[No. 26(154), No. 10]</note>小緣經第一</head>
 <lb n="0036b29"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0036012" resp="Taisho" type="orig" place="foot text">舍衛～S&amacron;vatth&imacron;.</note><tt n="0036012" type="app"><t lang="chi" resp="Taisho">舍衛</t><t lang="pli" resp="Taisho" place="foot">S&amacron;vatth&imacron;.</t></tt>國<note n="0036013" resp="Taisho" type="orig" place="foot text">清信園林～Pubba&acirc;r&amacron;ma.</note><tt n="0036013" type="app"><t lang="chi" resp="Taisho">清信園林</t><t lang="pli" resp="Taisho" place="foot">Pubba&acirc;r&amacron;ma.</t></tt>
 <pb ed="T" id="T01.0001.0036c" n="0036c"/>
 <lb n="0036c01"/><note n="0036014" resp="Taisho" type="orig" place="foot text">鹿母講堂～Mig&amacron;ram&amacron;tup&amacron;s&amacron;da.</note><tt n="0036014" type="app"><t lang="chi" resp="Taisho">鹿母講堂</t><t lang="pli" resp="Taisho" place="foot">Mig&amacron;ram&amacron;tup&amacron;s&amacron;da.</t></tt>。與大比丘眾千二百五十人俱。</p>
@@ -3701,8 +3704,8 @@ Added comment  for Emacs
 <lb n="0039a17"/><lg><l>生中剎利勝</l><l>能捨種姓去</l>
 <lb n="0039a18"/><l>明行成就者</l><l>世間最第一</l></lg>
 <lb n="0039a19"/><p>爾時。世尊說此法已。婆悉吒．婆羅墮無漏心
-<lb n="0039a20"/>解脫。聞佛所說。歡喜奉行。</p></div2><div2 type="jing">
-<lb n="0039a21"/><mulu type="經" level="2" n="2" label="2 轉輪聖王修行經(六)"/><head>（六）<title><note n="0039002" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】【聖】，〔佛說長阿含〕－【明】</note><app n="0039002"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0039003" resp="Taisho" type="orig" place="foot text">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.  [No. 26(70)]</note><note n="0039003" resp="CBETA" type="mod">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.，[No. 26(70)]</note><note n="0039003" place="foot" type="equivalent">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.</note><note n="0039003" place="foot" type="cf.">[No. 26(70)]</note>轉輪聖王修行經第二</head>
+<lb n="0039a20"/>解脫。聞佛所說。歡喜奉行。</p></div2>
+<lb n="0039a21"/><div2 type="jing"><mulu type="經" level="2" label="2 轉輪聖王修行經"/><head>（六）<title><note n="0039002" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】【聖】，〔佛說長阿含〕－【明】</note><app n="0039002"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0039003" resp="Taisho" type="orig" place="foot text">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.  [No. 26(70)]</note><note n="0039003" resp="CBETA" type="mod">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.，[No. 26(70)]</note><note n="0039003" place="foot" type="equivalent">～D. 26 Cakkavatti-S&imacron;han&amacron;da-suttanta.</note><note n="0039003" place="foot" type="cf.">[No. 26(70)]</note>轉輪聖王修行經第二</head>
 <lb n="0039a22"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0039004" resp="Taisho" type="orig" place="foot text">摩羅醯搜＝摩醯樓【宋】，摩羅醯樓【元】【明】～M&amacron;tul&amacron;.</note><note n="0039004" resp="CBETA" type="mod">摩羅醯搜～M&amacron;tul&amacron;.，＝摩醯樓【宋】，＝摩羅醯樓【元】【明】</note><tt n="0039004" type="app"><t lang="chi" resp="Taisho"><app n="0039004"><lem>摩羅醯搜</lem><rdg wit="【宋】" resp="Taisho">摩醯樓</rdg><rdg wit="【元】【明】" resp="Taisho">摩羅醯樓</rdg></app></t><t lang="pli" resp="Taisho" place="foot">M&amacron;tul&amacron;.</t></tt>人間遊
 <lb n="0039a23"/>行。與千二百五十比丘漸至<note n="0039005" resp="Taisho" type="orig" place="foot text">摩樓＝摩羅樓【三】</note><note n="0039005" resp="CBETA" type="mod">摩樓＝摩羅樓【宋】【元】【明】</note><app n="0039005"><lem>摩樓</lem><rdg wit="【宋】【元】【明】" resp="Taisho">摩羅樓</rdg></app>國。</p><p place="inline">爾
 <lb n="0039a24"/>時。世尊告諸比丘。汝等當自熾燃。熾燃於
@@ -4000,13 +4003,13 @@ Added comment  for Emacs
 <lb n="0042b16"/>盡．道諦亦如實知。是為比丘威力具足。</p><p place="inline">佛告
 <lb n="0042b17"/>比丘。我今遍觀諸有力者無過魔力。然漏
 <lb n="0042b18"/>盡比丘力能勝彼。爾時。諸比丘聞佛所說。歡
-<lb n="0042b19"/>喜奉行。</p>
-<lb n="0042b20"/><juan fun="close" n="006"><jhead><title><note n="0042009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0042009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第六<note n="0042010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0042b19"/>喜奉行。</p></div2>
+<lb n="0042b20"/><juan fun="close" n="006"><jhead><title><note n="0042009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0042009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第六<note n="0042010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0042b21"/>
-<milestone unit="juan" n="7"/><div2 type="jing">
+<milestone unit="juan" n="7"/>
 <lb n="0042b22"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead><title>佛說長阿含經</title>卷第七</jhead></juan>
 <lb n="0042b23"/><byline type="Translator"><note n="0042011" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】，〔後秦…譯〕十四字－【聖】</note><note n="0042011" resp="CBETA" type="mod">〔後秦弘始年佛陀耶舍共竺佛念譯〕十四字－【聖】，後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0042011"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0042b24"/><mulu type="經" level="2" n="3" label="3 弊宿經(七)"/><head>（七）第二分<note n="0042012" resp="Taisho" type="orig" place="foot text">弊宿經＝蔽宿經【元】【聖】～ D. 23. P&amacron;y&amacron;si-suttanta. [No. 26(71)]</note><note n="0042012" resp="CBETA" type="mod">弊宿經＝蔽宿經【元】【聖】，～ D. 23. P&amacron;y&amacron;si-suttanta.，[No. 26(71)]</note><app n="0042012"><lem>弊宿經</lem><rdg wit="【元】【聖】" resp="Taisho">蔽宿經</rdg></app><note n="0042012" place="foot" type="equivalent">～ D. 23. P&amacron;y&amacron;si-suttanta.</note><note n="0042012" place="foot" type="cf.">[No. 26(71)]</note><app><lem></lem><rdg wit="【大】">卷</rdg></app>第三</head>
+<lb n="0042b24"/><div2 type="jing"><mulu type="經" level="2" label="3 弊宿經"/><head>（七）第二分<note n="0042012" resp="Taisho" type="orig" place="foot text">弊宿經＝蔽宿經【元】【聖】～ D. 23. P&amacron;y&amacron;si-suttanta. [No. 26(71)]</note><note n="0042012" resp="CBETA" type="mod">弊宿經＝蔽宿經【元】【聖】，～ D. 23. P&amacron;y&amacron;si-suttanta.，[No. 26(71)]</note><app n="0042012"><lem>弊宿經</lem><rdg wit="【元】【聖】" resp="Taisho">蔽宿經</rdg></app><note n="0042012" place="foot" type="equivalent">～ D. 23. P&amacron;y&amacron;si-suttanta.</note><note n="0042012" place="foot" type="cf.">[No. 26(71)]</note><app><lem></lem><rdg wit="【大】">卷</rdg></app>第三</head>
 <lb n="0042b25"/><p>爾時。<note n="0042013" resp="Taisho" type="orig" place="foot text">童女迦葉～Kum&amacron;ra-Kassapa.</note><tt n="0042013" type="app"><t lang="chi" resp="Taisho">童女迦葉</t><t lang="pli" resp="Taisho" place="foot">Kum&amacron;ra-Kassapa.</t></tt>與五百比丘遊行<note n="0042014" resp="Taisho" type="orig" place="foot text">～Kosal&amacron;.</note><note n="0042014" resp="CBETA" type="mod"><app><lem>拘薩羅</lem><rdg wit="【大】">&lac;</rdg></app>～Kosal&amacron;.</note><tt n="0042014" type="app"><t lang="chi" resp="CBETA">拘薩羅</t><t lang="pli" resp="Taisho" place="foot">Kosal&amacron;.</t></tt>
 <lb n="0042b26"/>國。漸詣<note n="0042015" resp="Taisho" type="orig" place="foot text">斯波醯＝斯婆醯【三】＊～Setany&amacron;.</note><note n="0042015" resp="CBETA" type="mod">斯波醯＝斯婆醯【宋】＊【元】＊【明】＊～Setany&amacron;.</note><tt n="0042015" type="app"><t lang="chi" resp="Taisho"><app n="0042015"><lem>斯波醯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">斯婆醯</rdg></app></t><t lang="pli" resp="Taisho" place="foot">Setany&amacron;.</t></tt>婆羅門村。時童女迦葉在
 <lb n="0042b27"/><app type="＊" source="0042015"><lem>斯波醯</lem><rdg resp="Taisho" wit="【宋】【元】【明】">斯婆醯</rdg></app>村北<note n="0042016" resp="Taisho" type="orig" place="foot text">尸舍婆～Si&mdotabv;sap&amacron;.</note><tt n="0042016" type="app"><t lang="chi" resp="Taisho">尸舍婆</t><t lang="pli" resp="Taisho" place="foot">Si&mdotabv;sap&amacron;.</t></tt>林止。時。有婆羅門名
@@ -4414,13 +4417,13 @@ Added comment  for Emacs
 <lb n="0047a09"/>婆羅門設此淨施。身壞命終。生一下劣天中。
 <lb n="0047a10"/>梵志經營會者。身壞命終。生忉利天。</p><p place="inline">爾時。
 <lb n="0047a11"/>弊宿婆羅門．年少梵志及斯婆醯婆羅門．居
-<lb n="0047a12"/>士等。聞童女迦葉所說。歡喜奉行。</p>
-<lb n="0047a13"/><juan fun="close" n="007"><jhead><title><note n="0047001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】【聖】</note><app n="0047001"><lem>佛說</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第七<note n="0047002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0047a12"/>士等。聞童女迦葉所說。歡喜奉行。</p></div2>
+<lb n="0047a13"/><juan fun="close" n="007"><jhead><title><note n="0047001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】【聖】</note><app n="0047001"><lem>佛說</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第七<note n="0047002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0047a14"/>
-<milestone unit="juan" n="8"/><div2 type="jing">
+<milestone unit="juan" n="8"/>
 <lb n="0047a15"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead><title>佛說長阿含經</title>卷第八</jhead></juan>
 <lb n="0047a16"/><byline type="Translator"><note n="0047003" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】，〔後秦…譯〕－【聖】</note><note n="0047003" resp="CBETA" type="mod">〔後秦弘始年佛陀耶舍共竺佛念譯〕－【聖】，後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0047003"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0047a17"/><mulu type="經" level="2" n="4" label="4 散陀那經(八)"/><head>（八）第二分<note n="0047004" resp="Taisho" type="orig" place="foot text">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta. [No. 11, No. 26(104)]</note><note n="0047004" resp="CBETA" type="mod">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta.，[No. 11, No. 26(104)]</note><note n="0047004" place="foot" type="equivalent">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta.</note><note n="0047004" place="foot" type="cf.">[No. 11, No. 26(104)]</note>散陀那經第四</head>
+<lb n="0047a17"/><div2 type="jing"><mulu type="經" level="2" label="4 散陀那經"/><head>（八）第二分<note n="0047004" resp="Taisho" type="orig" place="foot text">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta. [No. 11, No. 26(104)]</note><note n="0047004" resp="CBETA" type="mod">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta.，[No. 11, No. 26(104)]</note><note n="0047004" place="foot" type="equivalent">～D. 25. Udumbarika-s&imacron;han&amacron;da-suttanta.</note><note n="0047004" place="foot" type="cf.">[No. 11, No. 26(104)]</note>散陀那經第四</head>
 <lb n="0047a18"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0047005" resp="Taisho" type="orig" place="foot text">羅閱祇～R&amacron;jagaha.</note><tt n="0047005" type="app"><t lang="chi" resp="Taisho">羅閱祇</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jagaha.</t></tt>毗訶羅山七
 <lb n="0047a19"/>葉樹窟。與大比丘眾千二百五十人俱。</p><p place="inline">時。王
 <lb n="0047a20"/>舍城有一居士。名<note n="0047006" resp="Taisho" type="orig" place="foot text">散陀那～Sandh&amacron;na.</note><tt n="0047006" type="app"><t lang="chi" resp="Taisho">散陀那</t><t lang="pli" resp="Taisho" place="foot">Sandh&amacron;na.</t></tt>。好行遊觀。日日
@@ -4639,7 +4642,7 @@ Added comment  for Emacs
 <lb n="0049b23"/>右手接散陀那居士置掌中。乘虛而歸。</p><p place="inline">時。
 <lb n="0049b24"/>散陀那居士．<note n="0049004" resp="Taisho" type="orig" place="foot text">（尼）＋俱【三】</note><note n="0049004" resp="CBETA" type="mod">（尼）＋俱【宋】【元】【明】</note><app n="0049004"><lem>俱</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尼俱</rdg></app>陀梵志及五百梵志子聞佛
 <lb n="0049b25"/>所說。歡喜奉行。</p></div2>
-<lb n="0049b26"/><div2 type="jing"><mulu type="經" level="2" n="5" label="5 眾集經(八)"/><head>（九）<title><note n="0049005" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0049005"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0049006" resp="Taisho" type="orig" place="foot text">Sa&mdotabv;g&imacron;tis&umacron;tra.～D. 33. Sa&ndotabv;g&imacron;ti-suttanta. [No. 12]</note><note n="0049006" resp="CBETA" type="mod"><app><lem>眾集經</lem><rdg wit="【大】">&lac;</rdg></app> Sa&mdotabv;g&imacron;tis&umacron;tra.，～D. 33. Sa&ndotabv;g&imacron;ti-suttanta.，[No. 12]</note><tt n="0049006" type="app"><t lang="chi" resp="CBETA">眾集經</t><t lang="san" resp="Taisho" place="foot">Sa&mdotabv;g&imacron;tis&umacron;tra.</t></tt><note n="0049006" place="foot" type="equivalent">～D. 33. Sa&ndotabv;g&imacron;ti-suttanta.</note><note n="0049006" place="foot" type="cf.">[No. 12]</note>第五</head>
+<lb n="0049b26"/><div2 type="jing"><mulu type="經" level="2" label="5 眾集經"/><head>（九）<title><note n="0049005" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0049005"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0049006" resp="Taisho" type="orig" place="foot text">Sa&mdotabv;g&imacron;tis&umacron;tra.～D. 33. Sa&ndotabv;g&imacron;ti-suttanta. [No. 12]</note><note n="0049006" resp="CBETA" type="mod"><app><lem>眾集經</lem><rdg wit="【大】">&lac;</rdg></app> Sa&mdotabv;g&imacron;tis&umacron;tra.，～D. 33. Sa&ndotabv;g&imacron;ti-suttanta.，[No. 12]</note><tt n="0049006" type="app"><t lang="chi" resp="CBETA">眾集經</t><t lang="san" resp="Taisho" place="foot">Sa&mdotabv;g&imacron;tis&umacron;tra.</t></tt><note n="0049006" place="foot" type="equivalent">～D. 33. Sa&ndotabv;g&imacron;ti-suttanta.</note><note n="0049006" place="foot" type="cf.">[No. 12]</note>第五</head>
 <lb n="0049b27"/><p>如是我聞。</p><p place="inline">一時。佛於<note n="0049007" resp="Taisho" type="orig" place="foot text">末羅～Mall&amacron;.</note><tt n="0049007" type="app"><t lang="chi" resp="Taisho">末羅</t><t lang="pli" resp="Taisho" place="foot">Mall&amacron;.</t></tt>遊行。與千二百
 <lb n="0049b28"/>五十比丘俱。漸至<note n="0049008" resp="Taisho" type="orig" place="foot text">波婆＝波波【聖】＊～P&amacron;v&amacron;.</note><tt n="0049008" type="app"><t lang="chi" resp="Taisho"><app n="0049008"><lem>波婆</lem><rdg wit="【聖】" resp="Taisho">波波</rdg></app></t><t lang="pli" resp="Taisho" place="foot">P&amacron;v&amacron;.</t></tt>城<note n="0049009" resp="Taisho" type="orig" place="foot text">闍頭～Cunda.</note><tt n="0049009" type="app"><t lang="chi" resp="Taisho">闍頭</t><t lang="pli" resp="Taisho" place="foot">Cunda.</t></tt><note n="0049010" resp="Taisho" type="orig" place="foot text">菴婆園～Amba-vana.</note><tt n="0049010" type="app"><t lang="chi" resp="Taisho">菴婆園</t><t lang="pli" resp="Taisho" place="foot">Amba-vana.</t></tt>。</p>
 <lb n="0049b29"/><p>爾時。世尊以<note n="0049011" resp="Taisho" type="orig" place="foot text">（一）＋十【聖】</note><app n="0049011"><lem>十</lem><rdg wit="【聖】" resp="Taisho">一十</rdg></app>五日月滿時。於露地坐。諸
@@ -4924,14 +4927,14 @@ Added comment  for Emacs
 <lb n="0052c08"/>定．正智．正解脫。是為如來所說正法。當共撰
 <lb n="0052c09"/>集。以防諍訟。使梵行久立。多所饒益。天．人
 <lb n="0052c10"/>獲安。</p><p place="inline">爾時。世尊印可舍利弗所說。時。諸比丘
-<lb n="0052c11"/>聞舍利弗所說。歡喜奉行。</p>
-<lb n="0052c12"/><juan fun="close" n="008"><jhead><title><note n="0052009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0052009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第八<note n="0052010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0052c11"/>聞舍利弗所說。歡喜奉行。</p></div2>
+<lb n="0052c12"/><juan fun="close" n="008"><jhead><title><note n="0052009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0052009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第八<note n="0052010" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0052c13"/>
-<milestone unit="juan" n="9"/><div2 type="jing">
+<milestone unit="juan" n="9"/>
 <lb n="0052c14"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead><title>佛說長阿含經</title>卷第九</jhead></juan>
 <lb n="0052c15"/>
 <lb n="0052c16"/><byline type="Translator"><note n="0052011" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚奉三藏法師【三】，〔後秦…譯〕－【聖】</note><note n="0052011" resp="CBETA" type="mod">〔後秦弘始年佛陀耶舍共竺佛念譯〕－【聖】，後秦弘始年＝姚奉三藏法師【宋】【元】【明】</note><app n="0052011"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">姚奉三藏法師佛陀耶舍共竺佛念譯</rdg></app></byline>
-<lb n="0052c17"/><mulu type="經" level="2" n="6" label="6 十上經(九)"/><head>（一○）第二分<note n="0052012" resp="Taisho" type="orig" place="foot text">～D. 34. Dasuttara-suttanta. [No. 13].</note><note n="0052012" resp="CBETA" type="mod">～D. 34. Dasuttara-suttanta.，[No. 13].</note><note n="0052012" place="foot" type="equivalent">～D. 34. Dasuttara-suttanta.</note><note n="0052012" place="foot" type="cf.">[No. 13].</note>十上經第六</head>
+<lb n="0052c17"/><div2 type="jing"><mulu type="經" level="2" label="6 十上經"/><head>（一○）第二分<note n="0052012" resp="Taisho" type="orig" place="foot text">～D. 34. Dasuttara-suttanta. [No. 13].</note><note n="0052012" resp="CBETA" type="mod">～D. 34. Dasuttara-suttanta.，[No. 13].</note><note n="0052012" place="foot" type="equivalent">～D. 34. Dasuttara-suttanta.</note><note n="0052012" place="foot" type="cf.">[No. 13].</note>十上經第六</head>
 <lb n="0052c18"/><p>如是我聞。</p><p place="inline">一時。佛遊鴦伽國。與大比丘眾
 <lb n="0052c19"/>千二百五十人俱。詣<note n="0052013" resp="Taisho" type="orig" place="foot text">瞻婆～Camp&amacron;.</note><tt n="0052013" type="app"><t lang="chi" resp="Taisho">瞻婆</t><t lang="pli" resp="Taisho" place="foot">Camp&amacron;.</t></tt>城。止宿<note n="0052014" resp="Taisho" type="orig" place="foot text">伽伽～Gaggar&amacron;.</note><tt n="0052014" type="app"><t lang="chi" resp="Taisho">伽伽</t><t lang="pli" resp="Taisho" place="foot">Gaggar&amacron;.</t></tt>
 <lb n="0052c20"/>池側。</p><p place="inline">以十五日月滿時。世尊在露地坐。大
@@ -5359,7 +5362,7 @@ Added comment  for Emacs
 <lb n="0057b22"/>諸比丘。是為百法。如實無虛。如來知已。平
 <lb n="0057b23"/>等說法。</p><p place="inline">爾時。舍利弗佛所印可。諸比丘聞
 <lb n="0057b24"/>舍利弗所說。歡喜奉行<note n="0057007" resp="Taisho" type="orig" place="foot text">三本以歡喜奉行為卷第九終。第二分以下為卷第十。譯號如前。</note><note n="0057007" resp="CBETA" type="mod"><todo type="a"/>三本以歡喜奉行為卷第九終。第二分以下為卷第十。譯號如前。</note>。</p></div2>
-<lb n="0057b25"/><div2 type="jing"><mulu type="經" level="2" n="7" label="7 增一經(九)"/><head>（一一）<title><note n="0057008" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【三】</note><note n="0057008" resp="CBETA" type="mod">〔佛說長阿含〕－【宋】【元】【明】</note><app n="0057008"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></title>第二分增<note n="0057009" resp="Taisho" type="orig" place="foot text">一＝益【宋】</note><app n="0057009"><lem>一</lem><rdg wit="【宋】" resp="Taisho">益</rdg></app>經第七</head>
+<lb n="0057b25"/><div2 type="jing"><mulu type="經" level="2" label="7 增一經"/><head>（一一）<title><note n="0057008" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【三】</note><note n="0057008" resp="CBETA" type="mod">〔佛說長阿含〕－【宋】【元】【明】</note><app n="0057008"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></title>第二分增<note n="0057009" resp="Taisho" type="orig" place="foot text">一＝益【宋】</note><app n="0057009"><lem>一</lem><rdg wit="【宋】" resp="Taisho">益</rdg></app>經第七</head>
 <lb n="0057b26"/><p>如是我聞。</p><p place="inline">一時。佛在舍衛國祇樹給孤獨園。
 <lb n="0057b27"/>與大比丘眾千二百五十人俱。</p><p place="inline">爾時。世尊告
 <lb n="0057b28"/>諸比丘。我與汝等說微妙法。上中下言。皆
@@ -5522,14 +5525,14 @@ Added comment  for Emacs
 <lb n="0059b05"/>汝等亦宜勤奉行之。諸比丘。當在閑居樹
 <lb n="0059b06"/>下空處。精勤坐禪。勿自放恣。今不勉力。後
 <lb n="0059b07"/>悔何益。此是我教。勤受持之。</p><p place="inline">爾時。諸比丘
-<lb n="0059b08"/>聞佛所說。歡喜奉行。</p>
-<lb n="0059b09"/><juan fun="close" n="009"><jhead><title><note n="0059002" resp="Taisho" type="orig" place="foot text">〔佛說〕－【聖】</note><app n="0059002"><lem>佛說</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第九<note n="0059003" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0059b08"/>聞佛所說。歡喜奉行。</p></div2>
+<lb n="0059b09"/><juan fun="close" n="009"><jhead><title><note n="0059002" resp="Taisho" type="orig" place="foot text">〔佛說〕－【聖】</note><app n="0059002"><lem>佛說</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第九<note n="0059003" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0059b10"/>
-<milestone unit="juan" n="10"/><div2 type="jing">
+<milestone unit="juan" n="10"/>
 <lb n="0059b11"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead><title><note n="0059004" resp="Taisho" type="orig" place="foot text">三本俱不分卷於此</note><note n="0059004" resp="CBETA" type="mod"><todo type="a"/>三本俱不分卷於此</note>佛說長阿含經</title>卷第十</jhead></juan>
 <lb n="0059b12"/>
 <lb n="0059b13"/><byline type="Translator"><note n="0059005" resp="Taisho" type="orig" place="foot text">〔後秦…譯〕十四字－【聖】</note><app n="0059005" word-count="14"><lem>後秦弘始年佛陀耶舍共竺佛念譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></byline>
-<lb n="0059b14"/><mulu type="經" level="2" n="8" label="8 三聚經(一○)"/><head>（一二）<note n="0059006" resp="Taisho" type="orig" place="foot text">（長阿含）＋【宋】【元】</note><app n="0059006"><lem>&lac;</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含</rdg></app>第二分三聚經第八</head>
+<lb n="0059b14"/><div2 type="jing"><mulu type="經" level="2" label="8 三聚經"/><head>（一二）<note n="0059006" resp="Taisho" type="orig" place="foot text">（長阿含）＋【宋】【元】</note><app n="0059006"><lem>&lac;</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含</rdg></app>第二分三聚經第八</head>
 <lb n="0059b15"/><p>如是我聞。</p><p place="inline">一時。佛在舍衛國祇樹給孤獨園。
 <lb n="0059b16"/>與大比丘眾千二百五十人俱。</p><p place="inline">爾時。世尊告
 <lb n="0059b17"/>諸比丘。我與汝等說微妙法。義味清淨。梵
@@ -5603,7 +5606,7 @@ Added comment  for Emacs
 <lb n="0060a25"/>憂念汝等。故演經道。汝等亦宜自憂其身。
 <lb n="0060a26"/>當處閑居．樹下思惟。勿為懈怠。今不勉力。
 <lb n="0060a27"/>後悔無益。</p><p place="inline">諸比丘聞佛所說。歡喜奉行。</p></div2>
-<lb n="0060a28"/><div2 type="jing"><mulu type="經" level="2" n="9" label="9 大緣方便經(一○)"/><head>（一三）<title><note n="0060002" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】＊</note><note n="0060002" resp="CBETA" type="mod"><todo type="＊"/>佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】＊</note><app n="0060002"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0060003" resp="Taisho" type="orig" place="foot text">～D. 15. Mah&amacron;-nid&amacron;na suttanta. [No. 14. Cf. No. 26(97) No. 52]</note><note n="0060003" resp="CBETA" type="mod">～D. 15. Mah&amacron;-nid&amacron;na suttanta.，[No. 14. Cf. No. 26(97) No. 52]</note><note n="0060003" place="foot" type="equivalent">～D. 15. Mah&amacron;-nid&amacron;na suttanta.</note><note n="0060003" place="foot" type="cf.">[No. 14. Cf. No. 26(97) No. 52]</note>大緣方便經第九</head>
+<lb n="0060a28"/><div2 type="jing"><mulu type="經" level="2" label="9 大緣方便經"/><head>（一三）<title><note n="0060002" resp="Taisho" type="orig" place="foot text">佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】＊</note><note n="0060002" resp="CBETA" type="mod"><todo type="＊"/>佛說長阿含＝長阿含經【宋】【元】，〔佛說長阿含〕－【明】＊</note><app n="0060002"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0060003" resp="Taisho" type="orig" place="foot text">～D. 15. Mah&amacron;-nid&amacron;na suttanta. [No. 14. Cf. No. 26(97) No. 52]</note><note n="0060003" resp="CBETA" type="mod">～D. 15. Mah&amacron;-nid&amacron;na suttanta.，[No. 14. Cf. No. 26(97) No. 52]</note><note n="0060003" place="foot" type="equivalent">～D. 15. Mah&amacron;-nid&amacron;na suttanta.</note><note n="0060003" place="foot" type="cf.">[No. 14. Cf. No. 26(97) No. 52]</note>大緣方便經第九</head>
 <lb n="0060a29"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0060004" resp="Taisho" type="orig" place="foot text">～Kur&umacron;su.</note><note n="0060004" resp="CBETA" type="mod"><app><lem>拘流沙</lem><rdg wit="【大】">&lac;</rdg></app>～Kur&umacron;su.</note><tt n="0060004" type="app"><t lang="chi" resp="CBETA">拘流沙</t><t lang="pli" resp="Taisho" place="foot">Kur&umacron;su.</t></tt>國<note n="0060005" resp="Taisho" type="orig" place="foot text">～Kamm&amacron;sadam. (Kamm&amacron;ssadhamma. Kamm&amacron;ssadamma.)</note><note n="0060005" resp="CBETA" type="mod"><app><lem>劫摩沙</lem><rdg wit="【大】">&lac;</rdg></app>～Kamm&amacron;sadam. (Kamm&amacron;ssadhamma. Kamm&amacron;ssadamma.)</note><tt n="0060005" type="app"><t lang="chi" resp="CBETA">劫摩沙</t><t lang="pli" resp="Taisho" place="foot">Kamm&amacron;sadam. (Kamm&amacron;ssadhamma. Kamm&amacron;ssadamma.)</t></tt>住
 <pb ed="T" id="T01.0001.0060b" n="0060b"/>
 <lb n="0060b01"/>處。與大比丘眾千二百五十人俱。</p><p place="inline">爾時。阿難
@@ -5813,7 +5816,7 @@ Added comment  for Emacs
 <lb n="0062b25"/>定。八解脫。阿難。諸比丘於此八解脫。逆順
 <lb n="0062b26"/>遊行。入出自在。如是比丘得俱解脫。</p><p place="inline">爾時。阿
 <lb n="0062b27"/>難聞佛所說。歡喜奉行。</p></div2>
-<lb n="0062b28"/><div2 type="jing"><mulu type="經" level="2" n="10" label="10 釋提桓因問經(一○)"/><head>（一四）<title><note n="0062007" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0062007"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0062008" resp="Taisho" type="orig" place="foot text">～D. 21. Sakka-pa&ntilde;ha suttanta [No. 15, No, 26(134); 雜寶藏經初]</note><note n="0062008" resp="CBETA" type="mod">～D. 21. Sakka-pa&ntilde;ha suttanta，[No. 15, No, 26(134); 雜寶藏經初]</note><note n="0062008" place="foot" type="equivalent">～D. 21. Sakka-pa&ntilde;ha suttanta</note><note n="0062008" place="foot" type="cf.">[No. 15, No, 26(134); 雜寶藏經初]</note>釋提桓因問經第十</head>
+<lb n="0062b28"/><div2 type="jing"><mulu type="經" level="2" label="10 釋提桓因問經"/><head>（一四）<title><note n="0062007" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0062007"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0062008" resp="Taisho" type="orig" place="foot text">～D. 21. Sakka-pa&ntilde;ha suttanta [No. 15, No, 26(134); 雜寶藏經初]</note><note n="0062008" resp="CBETA" type="mod">～D. 21. Sakka-pa&ntilde;ha suttanta，[No. 15, No, 26(134); 雜寶藏經初]</note><note n="0062008" place="foot" type="equivalent">～D. 21. Sakka-pa&ntilde;ha suttanta</note><note n="0062008" place="foot" type="cf.">[No. 15, No, 26(134); 雜寶藏經初]</note>釋提桓因問經第十</head>
 <lb n="0062b29"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0062009" resp="Taisho" type="orig" place="foot text">～Magadh&amacron;.</note><note n="0062009" resp="CBETA" type="mod"><app><lem>摩竭</lem><rdg wit="【大】">&lac;</rdg></app>～Magadh&amacron;.</note><tt n="0062009" type="app"><t lang="chi" resp="CBETA">摩竭</t><t lang="pli" resp="Taisho" place="foot">Magadh&amacron;.</t></tt>國<note n="0062010" resp="Taisho" type="orig" place="foot text">～Amba.</note><note n="0062010" resp="CBETA" type="mod"><app><lem>菴婆羅</lem><rdg wit="【大】">&lac;</rdg></app>～Amba.</note><tt n="0062010" type="app"><t lang="chi" resp="CBETA">菴婆羅</t><t lang="pli" resp="Taisho" place="foot">Amba.</t></tt>村
 <pb ed="T" id="T01.0001.0062c" n="0062c"/>
 <lb n="0062c01"/>北。<note n="0062011" resp="Taisho" type="orig" place="foot text">～Vediyaka.</note><note n="0062011" resp="CBETA" type="mod"><app><lem>毘陀</lem><rdg wit="【大】">&lac;</rdg></app>～Vediyaka.</note><tt n="0062011" type="app"><t lang="chi" resp="CBETA">毘陀</t><t lang="pli" resp="Taisho" place="foot">Vediyaka.</t></tt>山<note n="0062012" resp="Taisho" type="orig" place="foot text">～Indas&amacron;la-guh&amacron;.</note><note n="0062012" resp="CBETA" type="mod"><app><lem>因陀娑羅窟</lem><rdg wit="【大】">&lac;</rdg></app>～Indas&amacron;la-guh&amacron;.</note><tt n="0062012" type="app"><t lang="chi" resp="CBETA">因陀娑羅窟</t><t lang="pli" resp="Taisho" place="foot">Indas&amacron;la-guh&amacron;.</t></tt>中。</p><p place="inline">爾時。<note n="0062013" resp="Taisho" type="orig" place="foot text">～Sakka-dev&amacron;nam-inda.</note><note n="0062013" resp="CBETA" type="mod"><app><lem>釋提桓因</lem><rdg wit="【大】">&lac;</rdg></app>～Sakka-dev&amacron;nam-inda.</note><tt n="0062013" type="app"><t lang="chi" resp="CBETA">釋提桓
@@ -6118,14 +6121,14 @@ Added comment  for Emacs
 <pb ed="T" id="T01.0001.0066a" n="0066a"/>
 <lb n="0066a01"/>女與<note n="0066001" resp="Taisho" type="orig" place="foot text">〔汝〕－【聖】</note><app n="0066001"><lem>汝</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>為妻。</p><p place="inline">世尊說此法時。八萬四千
 <lb n="0066a02"/>諸天遠塵離垢。諸法法眼生。</p><p place="inline">時。釋提桓因．忉
-<lb n="0066a03"/>利諸天及般遮翼聞佛所說。歡喜奉行。</p>
-<lb n="0066a04"/><juan fun="close" n="010"><jhead><title>佛說長阿含經</title>卷第十<note n="0066002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0066a03"/>利諸天及般遮翼聞佛所說。歡喜奉行。</p></div2>
+<lb n="0066a04"/><juan fun="close" n="010"><jhead><title>佛說長阿含經</title>卷第十<note n="0066002" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0066a05"/>
-<milestone unit="juan" n="11"/><div2 type="jing">
+<milestone unit="juan" n="11"/>
 <lb n="0066a06"/><juan fun="open" n="011"><mulu type="卷" n="011"/><jhead><title><note n="0066003" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0066003"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十一</jhead></juan>
 <lb n="0066a07"/>
 <lb n="0066a08"/><byline type="Translator"><note n="0066004" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0066004" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0066004"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0066a09"/><mulu type="經" level="2" n="11" label="11 阿＆CB00145；夷經(一一)"/><head>（一五）<note n="0066005" resp="Taisho" type="orig" place="foot text">第二分…十一＝長阿含第二分…十一【宋】【元】</note><note n="0066005" resp="CBETA" type="mod">第二分阿&CB00145;夷經第十一＝長阿含第二分阿&CB00145;夷經第十一【宋】【元】</note><app n="0066005"><lem>第二分<note n="0066006" resp="Taisho" type="orig" place="foot text">～D. 24. P&amacron;&tdotblw;ika-suttanta.</note><note n="0066006" place="foot" type="equivalent">～D. 24. P&amacron;&tdotblw;ika-suttanta.</note>阿&CB00145;夷經第十一</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第二分阿&CB00145;夷經第十一</rdg></app></head>
+<lb n="0066a09"/><div2 type="jing"><mulu type="經" level="2" label="11 阿＆CB00145；夷經"/><head>（一五）<note n="0066005" resp="Taisho" type="orig" place="foot text">第二分…十一＝長阿含第二分…十一【宋】【元】</note><note n="0066005" resp="CBETA" type="mod">第二分阿&CB00145;夷經第十一＝長阿含第二分阿&CB00145;夷經第十一【宋】【元】</note><app n="0066005"><lem>第二分<note n="0066006" resp="Taisho" type="orig" place="foot text">～D. 24. P&amacron;&tdotblw;ika-suttanta.</note><note n="0066006" place="foot" type="equivalent">～D. 24. P&amacron;&tdotblw;ika-suttanta.</note>阿&CB00145;夷經第十一</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第二分阿&CB00145;夷經第十一</rdg></app></head>
 <lb n="0066a10"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0066007" resp="Taisho" type="orig" place="foot text">～Mall&amacron;.</note><note n="0066007" resp="CBETA" type="mod"><app><lem>冥寧</lem><rdg wit="【大】">&lac;</rdg></app>～Mall&amacron;.</note><tt n="0066007" type="app"><t lang="chi" resp="CBETA">冥寧</t><t lang="pli" resp="Taisho" place="foot">Mall&amacron;.</t></tt>國<note n="0066008" resp="Taisho" type="orig" place="foot text">～Anup&imacron;.</note><note n="0066008" resp="CBETA" type="mod"><app><lem>阿&CB00145;夷</lem><rdg wit="【大】">&lac;</rdg></app>～Anup&imacron;.</note><tt n="0066008" type="app"><t lang="chi" resp="CBETA">阿&CB00145;夷</t><t lang="pli" resp="Taisho" place="foot">Anup&imacron;.</t></tt>土。與
 <lb n="0066a11"/>大比丘眾千二百五十人俱。</p><p place="inline">爾時。世尊著
 <lb n="0066a12"/>衣持&CB00425;。入阿&CB00145;夷城乞食。爾時。世尊默自
@@ -6495,7 +6498,7 @@ Added comment  for Emacs
 <lb n="0070a16"/>解脫者。難可得也。但使汝好樂佛。心不
 <lb n="0070a17"/>斷絕者。則於長夜。常得安樂。</p><p place="inline">爾時。房伽婆
 <lb n="0070a18"/>梵志聞佛所說。歡喜奉行。</p></div2>
-<lb n="0070a19"/><div2 type="jing"><mulu type="經" level="2" n="12" label="12 善生經(一一)"/><head>（一六）<title><note n="0070001" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0070001"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0070002" resp="Taisho" type="orig" place="foot text">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta. [Nos. 16, 17, No. 26(135)]</note><note n="0070002" resp="CBETA" type="mod">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta.，[Nos. 16, 17, No. 26(135)]</note><note n="0070002" place="foot" type="equivalent">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta.</note><note n="0070002" place="foot" type="cf.">[Nos. 16, 17, No. 26(135)]</note>善生經第十二</head>
+<lb n="0070a19"/><div2 type="jing"><mulu type="經" level="2" label="12 善生經"/><head>（一六）<title><note n="0070001" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0070001"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0070002" resp="Taisho" type="orig" place="foot text">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta. [Nos. 16, 17, No. 26(135)]</note><note n="0070002" resp="CBETA" type="mod">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta.，[Nos. 16, 17, No. 26(135)]</note><note n="0070002" place="foot" type="equivalent">～D. 31. Si&ndotabv;g&amacron;lov&amacron;da-suttanta.</note><note n="0070002" place="foot" type="cf.">[Nos. 16, 17, No. 26(135)]</note>善生經第十二</head>
 <lb n="0070a20"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0070003" resp="Taisho" type="orig" place="foot text">～R&amacron;jagaha.</note><note n="0070003" resp="CBETA" type="mod"><app><lem>羅閱</lem><rdg wit="【大】">&lac;</rdg></app>～R&amacron;jagaha.</note><tt n="0070003" type="app"><t lang="chi" resp="CBETA">羅閱</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jagaha.</t></tt>祇耆闍崛山中。
 <lb n="0070a21"/>與大比丘眾千二百五十人俱。</p><p place="inline">爾時。世尊<note n="0070004" resp="Taisho" type="orig" place="foot text">時到＝到時【三】</note><note n="0070004" resp="CBETA" type="mod">時到＝到時【宋】【元】【明】</note><app n="0070004"><lem>時
 <lb n="0070a22"/>到</lem><rdg wit="【宋】【元】【明】" resp="Taisho">到時</rdg></app>著衣持&CB00425;。入城乞食。時。羅閱祇城內有
@@ -6722,14 +6725,14 @@ Added comment  for Emacs
 <lb n="0072c03"/>開示。為世明導。今我歸依佛．歸依法．歸依
 <lb n="0072c04"/>僧。唯願世尊聽我於正法中為<note n="0072014" resp="Taisho" type="orig" place="foot text">憂＝優【三】</note><note n="0072014" resp="CBETA" type="mod">憂＝優【宋】【元】【明】</note><app n="0072014"><lem>憂</lem><rdg wit="【宋】【元】【明】" resp="Taisho">優</rdg></app>婆塞。
 <lb n="0072c05"/>自今日始。盡形壽不殺．不盜．不婬．不欺．
-<lb n="0072c06"/>不飲酒。</p><p place="inline">爾時。善生聞佛所說。歡喜奉行。</p>
-<lb n="0072c07"/><juan fun="close" n="011"><jhead><title><note n="0072015" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0072015"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十一</jhead></juan></div2>
+<lb n="0072c06"/>不飲酒。</p><p place="inline">爾時。善生聞佛所說。歡喜奉行。</p></div2>
+<lb n="0072c07"/><juan fun="close" n="011"><jhead><title><note n="0072015" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0072015"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十一</jhead></juan>
 <lb n="0072c08"/>
-<milestone unit="juan" n="12"/><div2 type="jing">
+<milestone unit="juan" n="12"/>
 <lb n="0072c09"/><juan fun="open" n="012"><mulu type="卷" n="012"/><jhead><title><note n="0072016" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0072016"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十二</jhead></juan>
 <lb n="0072c10"/>
 <lb n="0072c11"/><byline type="Translator"><note n="0072017" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0072017" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0072017"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0072c12"/><mulu type="經" level="2" n="13" label="13 清淨經(一二)"/><head>（一七）<note n="0072018" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0072018"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>二分<note n="0072019" resp="Taisho" type="orig" place="foot text">～D. 29. P&amacron;s&amacron;dika-suttanta.</note><note n="0072019" place="foot" type="equivalent">～D. 29. P&amacron;s&amacron;dika-suttanta.</note>清淨經第十三</head>
+<lb n="0072c12"/><div2 type="jing"><mulu type="經" level="2" label="13 清淨經"/><head>（一七）<note n="0072018" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0072018"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>二分<note n="0072019" resp="Taisho" type="orig" place="foot text">～D. 29. P&amacron;s&amacron;dika-suttanta.</note><note n="0072019" place="foot" type="equivalent">～D. 29. P&amacron;s&amacron;dika-suttanta.</note>清淨經第十三</head>
 <lb n="0072c13"/><p>如是我聞。</p><p place="inline">一時。佛在迦維羅衛國緬祇優婆
 <lb n="0072c14"/>塞林中。與大比丘千二百五十人俱。</p><p place="inline">時。有沙
 <lb n="0072c15"/>彌<note n="0072020" resp="Taisho" type="orig" place="foot text">～Cunda.</note><note n="0072020" resp="CBETA" type="mod"><app><lem>周那</lem><rdg wit="【大】">&lac;</rdg></app>～Cunda.</note><tt n="0072020" type="app"><t lang="chi" resp="CBETA">周那</t><t lang="pli" resp="Taisho" place="foot">Cunda.</t></tt>在<note n="0072021" resp="Taisho" type="orig" place="foot text">～P&amacron;v&amacron;.</note><note n="0072021" resp="CBETA" type="mod"><app><lem>波波</lem><rdg wit="【大】">&lac;</rdg></app>～P&amacron;v&amacron;.</note><tt n="0072021" type="app"><t lang="chi" resp="CBETA">波波</t><t lang="pli" resp="Taisho" place="foot">P&amacron;v&amacron;.</t></tt>國。夏安居已。執持衣&CB00425;。
@@ -7070,7 +7073,7 @@ Added comment  for Emacs
 <lb n="0076b20"/>當云何名。云何奉持。</p><p place="inline">佛告阿難。此經名為
 <lb n="0076b21"/>清淨。汝當清淨持之。</p><p place="inline">爾時。阿難聞佛所說。
 <lb n="0076b22"/>歡喜奉行。</p></div2>
-<lb n="0076b23"/><div2 type="jing"><mulu type="經" level="2" n="14" label="14 自歡喜經(一二)"/><head>（一八）<title><note n="0076007" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0076007"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0076008" resp="Taisho" type="orig" place="foot text">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta. [No. 18]</note><note n="0076008" resp="CBETA" type="mod">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta.，[No. 18]</note><note n="0076008" place="foot" type="equivalent">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta.</note><note n="0076008" place="foot" type="cf.">[No. 18]</note>自歡喜經第十四</head>
+<lb n="0076b23"/><div2 type="jing"><mulu type="經" level="2" label="14 自歡喜經"/><head>（一八）<title><note n="0076007" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0076007"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0076008" resp="Taisho" type="orig" place="foot text">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta. [No. 18]</note><note n="0076008" resp="CBETA" type="mod">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta.，[No. 18]</note><note n="0076008" place="foot" type="equivalent">～D. 28. Sampas&amacron;dan&imacron;ya-suttanta.</note><note n="0076008" place="foot" type="cf.">[No. 18]</note>自歡喜經第十四</head>
 <lb n="0076b24"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0076009" resp="Taisho" type="orig" place="foot text">～N&amacron;&ldotblw;and&amacron;.</note><note n="0076009" resp="CBETA" type="mod"><app><lem>那難陀</lem><rdg wit="【大】">&lac;</rdg></app>～N&amacron;&ldotblw;and&amacron;.</note><tt n="0076009" type="app"><t lang="chi" resp="CBETA">那難陀</t><t lang="pli" resp="Taisho" place="foot">N&amacron;&ldotblw;and&amacron;.</t></tt>城<note n="0076010" resp="Taisho" type="orig" place="foot text">波波利菴婆林＝波婆利菴婆林【三】～P&amacron;v&amacron;rikambavana.</note><note n="0076010" resp="CBETA" type="mod">波波利菴婆林＝波婆利菴婆林【宋】【元】【明】～P&amacron;v&amacron;rikambavana.</note><tt n="0076010" type="app"><t lang="chi" resp="Taisho"><app n="0076010"><lem>波波利菴
 <lb n="0076b25"/>婆林</lem><rdg wit="【宋】【元】【明】" resp="Taisho">波婆利菴婆林</rdg></app></t><t lang="pli" resp="Taisho" place="foot">P&amacron;v&amacron;rikambavana.</t></tt>。與大比丘眾千二百五十人俱。</p><p place="inline">時。長老
 <lb n="0076b26"/>舍利弗於閑靜處。默自念言。我心決定知過
@@ -7316,9 +7319,9 @@ Added comment  for Emacs
 <lb n="0079a26"/>當得開解。</p><p place="inline">對曰。唯然。世尊。</p><p place="inline">時。舍利弗即便
 <lb n="0079a27"/>數數為諸比丘．比丘尼．優婆塞．優婆夷說法。
 <lb n="0079a28"/>以自清淨故。故名清淨經。</p><p place="inline">爾時。舍利弗聞
-<lb n="0079a29"/>佛所說。歡喜奉行。</p>
-<pb ed="T" id="T01.0001.0079b" n="0079b"/></div2>
-<lb n="0079b01"/><div2 type="jing"><mulu type="經" level="2" n="15" label="15 大會經(一二)"/><head>（一九）<title><note n="0079004" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0079004"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0079005" resp="Taisho" type="orig" place="foot text">～D. 20. Mah&amacron;samaya-suttanta. [No. 19; cf No. 99(1192). No. 100(105)]</note><note n="0079005" resp="CBETA" type="mod">～D. 20. Mah&amacron;samaya-suttanta.，[No. 19; cf No. 99(1192). No. 100(105)]</note><note n="0079005" place="foot" type="equivalent">～D. 20. Mah&amacron;samaya-suttanta.</note><note n="0079005" place="foot" type="cf.">[No. 19; cf No. 99(1192). No. 100(105)]</note>大會經第十五</head>
+<lb n="0079a29"/>佛所說。歡喜奉行。</p></div2>
+<pb ed="T" id="T01.0001.0079b" n="0079b"/>
+<lb n="0079b01"/><div2 type="jing"><mulu type="經" level="2" label="15 大會經"/><head>（一九）<title><note n="0079004" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0079004"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第二分<note n="0079005" resp="Taisho" type="orig" place="foot text">～D. 20. Mah&amacron;samaya-suttanta. [No. 19; cf No. 99(1192). No. 100(105)]</note><note n="0079005" resp="CBETA" type="mod">～D. 20. Mah&amacron;samaya-suttanta.，[No. 19; cf No. 99(1192). No. 100(105)]</note><note n="0079005" place="foot" type="equivalent">～D. 20. Mah&amacron;samaya-suttanta.</note><note n="0079005" place="foot" type="cf.">[No. 19; cf No. 99(1192). No. 100(105)]</note>大會經第十五</head>
 <lb n="0079b02"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0079006" resp="Taisho" type="orig" place="foot text">釋翅提＝釋翅搜【明】＊～Sakkesu.</note><tt n="0079006" type="app"><t lang="chi" resp="Taisho"><app n="0079006"><lem>釋翅提</lem><rdg wit="【明】" resp="Taisho">釋翅搜</rdg></app></t><t lang="pli" resp="Taisho" place="foot">Sakkesu.</t></tt>國<note n="0079007" resp="Taisho" type="orig" place="foot text">～Kapilavatthu.</note><note n="0079007" resp="CBETA" type="mod"><app><lem>迦維</lem><rdg wit="【大】">&lac;</rdg></app>～Kapilavatthu.</note><tt n="0079007" type="app"><t lang="chi" resp="CBETA">迦維</t><t lang="pli" resp="Taisho" place="foot">Kapilavatthu.</t></tt>林中。
 <lb n="0079b03"/>與大比丘眾五百人俱。盡是羅漢。復有十
 <lb n="0079b04"/>方諸神妙天皆來集會。禮敬如來及比丘僧。</p>
@@ -7663,15 +7666,15 @@ Added comment  for Emacs
 <lb n="0081b26"/>魔所為。怪未曾有。佛說此法時。八萬四千
 <lb n="0081b27"/>諸天遠塵離垢。得法眼淨。諸天．龍．鬼．神．阿修
 <lb n="0081b28"/>羅．<note n="0081043" resp="Taisho" type="orig" place="foot text">迦＝加【宋】【元】</note><app n="0081043"><lem>迦</lem><rdg wit="【宋】【元】" resp="Taisho">加</rdg></app>樓羅．真陀羅．摩&CB00264;羅伽．人與非人聞
-<lb n="0081b29"/>佛所說。歡喜奉行。</p>
+<lb n="0081b29"/>佛所說。歡喜奉行。</p></div2></div1>
 <pb ed="T" id="T01.0001.0082a" n="0082a"/>
-<lb n="0082a01"/><juan fun="close" n="012"><jhead><title><note n="0082001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0082001"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十二</jhead></juan></div2></div1>
+<lb n="0082a01"/><juan fun="close" n="012"><jhead><title><note n="0082001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0082001"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十二</jhead></juan>
 <lb n="0082a02"/>
-<milestone unit="juan" n="13"/><div1 type="fen">
+<milestone unit="juan" n="13"/>
 <lb n="0082a03"/><juan fun="open" n="013"><mulu type="卷" n="013"/><jhead><title><note n="0082002" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0082002"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十三</jhead></juan>
 <lb n="0082a04"/>
 <lb n="0082a05"/><byline type="Translator"><note n="0082003" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0082003" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0082003"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0082a06"/><mulu type="分" level="1" n="3" label="3 分"/><head>（二○）<note n="0082004" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0082004"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分</head><div2 type="jing"><mulu type="經" level="2" n="1" label="1 阿摩晝經(一三)"/><head><note n="0082005" resp="Taisho" type="orig" place="foot text">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta. [No. 20]</note><note n="0082005" resp="CBETA" type="mod">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta.，[No. 20]</note><note n="0082005" place="foot" type="equivalent">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta.</note><note n="0082005" place="foot" type="cf.">[No. 20]</note>阿摩晝經第一</head>
+<lb n="0082a06"/><div1 type="fen"><mulu type="分" level="1" label="3 分"/><div2 type="jing"><mulu type="經" level="2" label="1 阿摩晝經"/><head>（二○）<note n="0082004" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0082004"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分<note n="0082005" resp="Taisho" type="orig" place="foot text">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta. [No. 20]</note><note n="0082005" resp="CBETA" type="mod">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta.，[No. 20]</note><note n="0082005" place="foot" type="equivalent">～D. 3. Amba&tdotblw;&tdotblw;ha-sutta.</note><note n="0082005" place="foot" type="cf.">[No. 20]</note>阿摩晝經第一</head>
 <lb n="0082a07"/><p>如是我聞。</p><p place="inline">一時。佛遊<note n="0082006" resp="Taisho" type="orig" place="foot text">俱薩羅＝拘薩羅【三】＊～Kosala.</note><note n="0082006" resp="CBETA" type="mod">俱薩羅＝拘薩羅【宋】＊【元】＊【明】＊～Kosala.</note><tt n="0082006" type="app"><t lang="chi" resp="Taisho"><app n="0082006"><lem>俱薩羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">拘薩羅</rdg></app></t><t lang="pli" resp="Taisho" place="foot">Kosala.</t></tt>國。與大比丘
 <lb n="0082a08"/>眾千二百五十人俱。至<note n="0082007" resp="Taisho" type="orig" place="foot text">～Icch&amacron;na&ndotabv;kala.</note><note n="0082007" resp="CBETA" type="mod"><app><lem>伊車能伽羅</lem><rdg wit="【大】">&lac;</rdg></app>～Icch&amacron;na&ndotabv;kala.</note><tt n="0082007" type="app"><t lang="chi" resp="CBETA">伊車能伽羅</t><t lang="pli" resp="Taisho" place="foot">Icch&amacron;na&ndotabv;kala.</t></tt>俱薩羅
 <lb n="0082a09"/>婆羅門村。即於彼伊車林中止宿。</p><p place="inline">時。有<note n="0082008" resp="Taisho" type="orig" place="foot text">沸伽羅娑羅＝沸伽羅沙羅【三】＊，～Pokkharas&amacron;di.</note><note n="0082008" resp="CBETA" type="mod"><todo type="＊"/>沸伽羅娑羅＝沸伽羅沙羅【宋】＊【元】＊【明】＊～Pokkharas&amacron;di.</note><tt n="0082008" type="app"><t lang="chi" resp="Taisho"><app n="0082008"><lem>沸
@@ -8242,13 +8245,13 @@ Added comment  for Emacs
 <lb n="0088b04"/>於七日中供養佛已。身壞命終。當生何
 <lb n="0088b05"/>處。</p><p place="inline">佛告比丘。此族姓子諸善普集。法法具
 <lb n="0088b06"/>足。不違法行。斷五下結。於<note n="0088007" resp="Taisho" type="orig" place="foot text">彼＋（便）【三】</note><note n="0088007" resp="CBETA" type="mod">彼＋（便）【宋】【元】【明】</note><app n="0088007"><lem>彼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">彼便</rdg></app>般涅槃。不
-<lb n="0088b07"/>來此世。</p><p place="inline">爾時。諸比丘聞佛所說。歡喜奉行。</p>
-<lb n="0088b08"/><juan fun="close" n="013"><jhead><title><note n="0088008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0088008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十三</jhead></juan></div2>
+<lb n="0088b07"/>來此世。</p><p place="inline">爾時。諸比丘聞佛所說。歡喜奉行。</p></div2>
+<lb n="0088b08"/><juan fun="close" n="013"><jhead><title><note n="0088008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0088008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十三</jhead></juan>
 <lb n="0088b09"/>
-<milestone unit="juan" n="14"/><div2 type="jing">
+<milestone unit="juan" n="14"/>
 <lb n="0088b10"/><juan fun="open" n="014"><mulu type="卷" n="014"/><jhead><title><note n="0088009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0088009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十四</jhead></juan>
 <lb n="0088b11"/><byline type="Translator"><note n="0088010" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0088010" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0088010"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0088b12"/><mulu type="經" level="2" n="2" label="2 梵動經(一四)"/><head>（二一）<note n="0088011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0088011"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分<note n="0088012" resp="Taisho" type="orig" place="foot text">～D. I. Brahmaj&amacron;la-sutta.  [No. 21]</note><note n="0088012" resp="CBETA" type="mod">～D. I. Brahmaj&amacron;la-sutta.，[No. 21]</note><note n="0088012" place="foot" type="equivalent">～D. I. Brahmaj&amacron;la-sutta.</note><note n="0088012" place="foot" type="cf.">[No. 21]</note>梵動經第二</head>
+<lb n="0088b12"/><div2 type="jing"><mulu type="經" level="2" label="2 梵動經"/><head>（二一）<note n="0088011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0088011"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分<note n="0088012" resp="Taisho" type="orig" place="foot text">～D. I. Brahmaj&amacron;la-sutta.  [No. 21]</note><note n="0088012" resp="CBETA" type="mod">～D. I. Brahmaj&amacron;la-sutta.，[No. 21]</note><note n="0088012" place="foot" type="equivalent">～D. I. Brahmaj&amacron;la-sutta.</note><note n="0088012" place="foot" type="cf.">[No. 21]</note>梵動經第二</head>
 <lb n="0088b13"/><p>如是我聞。</p><p place="inline">一時。佛遊摩竭國。與大比丘眾
 <lb n="0088b14"/>千二百五十人俱。遊行人間。詣竹<note n="0088013" resp="Taisho" type="orig" place="foot text">林＝村【三】</note><note n="0088013" resp="CBETA" type="mod">林＝村【宋】【元】【明】</note><app n="0088013"><lem>林</lem><rdg wit="【宋】【元】【明】" resp="Taisho">村</rdg></app>。止宿
 <lb n="0088b15"/>在王堂上。時。有梵志名曰<note n="0088014" resp="Taisho" type="orig" place="foot text">～Suppiya.</note><note n="0088014" resp="CBETA" type="mod"><app><lem>善念</lem><rdg wit="【大】">&lac;</rdg></app>～Suppiya.</note><tt n="0088014" type="app"><t lang="chi" resp="CBETA">善念</t><t lang="pli" resp="Taisho" place="foot">Suppiya.</t></tt>。善念弟子
@@ -8759,13 +8762,13 @@ Added comment  for Emacs
 <lb n="0094a10"/>爾時。阿難在佛後執扇扇佛。偏露右臂。長
 <lb n="0094a11"/>跪叉手。白佛言。此法甚深。當以何名。云何
 <lb n="0094a12"/>奉持。</p><p place="inline">佛告阿難。當名此經為義動．法動．見
-<lb n="0094a13"/>動．魔動．梵動。</p><p place="inline">爾時。阿難聞佛所說。歡喜奉行。</p>
-<lb n="0094a14"/><juan fun="close" n="014"><jhead><title><note n="0094002" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0094002"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十四</jhead></juan></div2>
+<lb n="0094a13"/>動．魔動．梵動。</p><p place="inline">爾時。阿難聞佛所說。歡喜奉行。</p></div2>
+<lb n="0094a14"/><juan fun="close" n="014"><jhead><title><note n="0094002" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0094002"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十四</jhead></juan>
 <lb n="0094a15"/>
-<milestone unit="juan" n="15"/><div2 type="other">
+<milestone unit="juan" n="15"/>
 <lb n="0094a16"/><juan fun="open" n="015"><mulu type="卷" n="015"/><jhead><title>佛說長阿含經</title>卷第十五</jhead></juan>
 <lb n="0094a17"/><byline type="Translator"><note n="0094003" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【明】</note><app n="0094003"><lem>後秦弘始年</lem><rdg wit="【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0094a18"/><mulu type="其他" level="2" n="3" label="3 種德經"/><head>（二二）第三分<note n="0094004" resp="Taisho" type="orig" place="foot text">～D. 4. So&ndotblw;ada&ndotblw;&ddotblw;a-sutta.</note><note n="0094004" place="foot" type="equivalent">～D. 4. So&ndotblw;ada&ndotblw;&ddotblw;a-sutta.</note>種德經第三</head>
+<lb n="0094a18"/><div2 type="jing"><mulu type="經" level="2" label="3 種德經"/><head>（二二）第三分<note n="0094004" resp="Taisho" type="orig" place="foot text">～D. 4. So&ndotblw;ada&ndotblw;&ddotblw;a-sutta.</note><note n="0094004" place="foot" type="equivalent">～D. 4. So&ndotblw;ada&ndotblw;&ddotblw;a-sutta.</note>種德經第三</head>
 <lb n="0094a19"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0094005" resp="Taisho" type="orig" place="foot text">～A&ndotabv;g&amacron;.</note><note n="0094005" resp="CBETA" type="mod"><app><lem>鴦伽</lem><rdg wit="【大】">&lac;</rdg></app>～A&ndotabv;g&amacron;.</note><tt n="0094005" type="app"><t lang="chi" resp="CBETA">鴦伽</t><t lang="pli" resp="Taisho" place="foot">A&ndotabv;g&amacron;.</t></tt>國。與大比丘眾
 <lb n="0094a20"/>千二百五十人俱。遊行人間。止宿<note n="0094006" resp="Taisho" type="orig" place="foot text">～Camp&amacron;.</note><note n="0094006" resp="CBETA" type="mod"><app><lem>瞻婆</lem><rdg wit="【大】">&lac;</rdg></app>～Camp&amacron;.</note><tt n="0094006" type="app"><t lang="chi" resp="CBETA">瞻婆</t><t lang="pli" resp="Taisho" place="foot">Camp&amacron;.</t></tt>城
 <lb n="0094a21"/><note n="0094007" resp="Taisho" type="orig" place="foot text">～Gaggar&amacron;.</note><note n="0094007" resp="CBETA" type="mod"><app><lem>伽伽</lem><rdg wit="【大】">&lac;</rdg></app>～Gaggar&amacron;.</note><tt n="0094007" type="app"><t lang="chi" resp="CBETA">伽伽</t><t lang="pli" resp="Taisho" place="foot">Gaggar&amacron;.</t></tt>池側。</p><p place="inline">時。有婆羅門。名曰<note n="0094008" resp="Taisho" type="orig" place="foot text">種德～So&ndotblw;ada&ndotblw;&ddotblw;a.</note><tt n="0094008" type="app"><t lang="chi" resp="Taisho">種德</t><t lang="pli" resp="Taisho" place="foot">So&ndotblw;ada&ndotblw;&ddotblw;a.</t></tt>。住瞻
@@ -9003,7 +9006,7 @@ Added comment  for Emacs
 <lb n="0096c13"/>歸依佛．法．聖眾。唯願聽我於正法中為優
 <lb n="0096c14"/>婆塞。自今已後。盡形壽不殺．不盜．不婬．不欺．
 <lb n="0096c15"/>不飲酒。</p><p place="inline">時。種德婆羅門聞佛所說。歡喜奉行。</p></div2>
-<lb n="0096c16"/><div2 type="jing"><mulu type="經" level="2" n="4" label="4 究羅檀頭經(一五)"/><head>（二三）<title><note n="0096014" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0096014"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0096015" resp="Taisho" type="orig" place="foot text">～D. 5. K&umacron;&tdotblw;adanta-sutta.</note><note n="0096015" place="foot" type="equivalent">～D. 5. K&umacron;&tdotblw;adanta-sutta.</note>究羅檀頭經第四</head>
+<lb n="0096c16"/><div2 type="jing"><mulu type="經" level="2" label="4 究羅檀頭經"/><head>（二三）<title><note n="0096014" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0096014"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0096015" resp="Taisho" type="orig" place="foot text">～D. 5. K&umacron;&tdotblw;adanta-sutta.</note><note n="0096015" place="foot" type="equivalent">～D. 5. K&umacron;&tdotblw;adanta-sutta.</note>究羅檀頭經第四</head>
 <lb n="0096c17"/><p>如是我聞。</p><p place="inline">一時。佛在俱薩羅國。與大比丘
 <lb n="0096c18"/>眾千二百五十人俱。遊行人間。至俱薩羅<note n="0096016" resp="Taisho" type="orig" place="foot text">～Kh&amacron;numata.</note><note n="0096016" resp="CBETA" type="mod"><app><lem>佉&CB00145;婆提</lem><rdg wit="【大】">&lac;</rdg></app>～Kh&amacron;numata.</note><tt n="0096016" type="app"><t lang="chi" resp="CBETA">
 <lb n="0096c19"/>佉&CB00145;婆提</t><t lang="pli" resp="Taisho" place="foot">Kh&amacron;numata.</t></tt>婆羅門村北。止宿尸舍婆林中。</p><p place="inline">時。
@@ -9415,14 +9418,14 @@ Added comment  for Emacs
 <lb n="0101b05"/>頭今者命終。當生何所。</p><p place="inline">佛告諸比丘。彼人
 <lb n="0101b06"/>淨修梵行。法法成就。亦不於法有所觸嬈。
 <lb n="0101b07"/>以斷五下分結。於彼現<note n="0101010" resp="Taisho" type="orig" place="foot text">〔般〕－【三】【聖】</note><note n="0101010" resp="CBETA" type="mod">〔般〕－【宋】【元】【明】【聖】</note><app n="0101010"><lem>般</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>涅槃。不來此世。</p>
-<lb n="0101b08"/><p>爾時。諸比丘聞佛所說。歡喜奉行。</p>
-<lb n="0101b09"/><juan fun="close" n="015"><jhead><title><note n="0101011" resp="Taisho" type="orig" place="foot text">〔佛說〕－【聖】</note><app n="0101011"><lem>佛說</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十五<note n="0101012" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan></div2>
+<lb n="0101b08"/><p>爾時。諸比丘聞佛所說。歡喜奉行。</p></div2>
+<lb n="0101b09"/><juan fun="close" n="015"><jhead><title><note n="0101011" resp="Taisho" type="orig" place="foot text">〔佛說〕－【聖】</note><app n="0101011"><lem>佛說</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十五<note n="0101012" resp="Taisho" type="orig" place="foot text">＋（光明皇后願文）【聖】</note></jhead></juan>
 <lb n="0101b10"/>
-<milestone unit="juan" n="16"/><div2 type="jing">
+<milestone unit="juan" n="16"/>
 <lb n="0101b11"/><juan fun="open" n="016"><mulu type="卷" n="016"/><jhead><title>佛說長阿含經</title>卷第十六</jhead></juan>
 <lb n="0101b12"/>
 <lb n="0101b13"/><byline type="Translator"><note n="0101013" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【明】</note><app n="0101013"><lem>後秦弘始年</lem><rdg wit="【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0101b14"/><mulu type="經" level="2" n="5" label="5 堅固經(一六)"/><head>（二四）第三分<note n="0101014" resp="Taisho" type="orig" place="foot text">～D. 11. Kevaddha-sutta.</note><note n="0101014" place="foot" type="equivalent">～D. 11. Kevaddha-sutta.</note>堅固經第五</head>
+<lb n="0101b14"/><div2 type="jing"><mulu type="經" level="2" label="5 堅固經"/><head>（二四）第三分<note n="0101014" resp="Taisho" type="orig" place="foot text">～D. 11. Kevaddha-sutta.</note><note n="0101014" place="foot" type="equivalent">～D. 11. Kevaddha-sutta.</note>堅固經第五</head>
 <lb n="0101b15"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0101015" resp="Taisho" type="orig" place="foot text">～N&amacron;&ldotblw;and&amacron;.</note><note n="0101015" resp="CBETA" type="mod"><app><lem>那難陀</lem><rdg wit="【大】">&lac;</rdg></app>～N&amacron;&ldotblw;and&amacron;.</note><tt n="0101015" type="app"><t lang="chi" resp="CBETA">那難陀</t><t lang="pli" resp="Taisho" place="foot">N&amacron;&ldotblw;and&amacron;.</t></tt>城<note n="0101016" resp="Taisho" type="orig" place="foot text">波婆利掩＝波婆利菴【三】，～Pav&amacron;rikambavana.</note><note n="0101016" resp="CBETA" type="mod">波婆利掩＝波婆利菴【宋】【元】【明】～Pav&amacron;rikambavana.</note><tt n="0101016" type="app"><t lang="chi" resp="Taisho"><app n="0101016"><lem>波婆利掩</lem><rdg wit="【宋】【元】【明】" resp="Taisho">波婆利菴</rdg></app></t><t lang="pli" resp="Taisho" place="foot">Pav&amacron;rikambavana.</t></tt>
 <lb n="0101b16"/>次林中。與大比丘眾千二百五十人俱。</p><p place="inline">爾時。
 <lb n="0101b17"/>有長者子。名曰<note n="0101017" resp="Taisho" type="orig" place="foot text">～Kevaddha.</note><note n="0101017" resp="CBETA" type="mod"><app><lem>堅固</lem><rdg wit="【大】">&lac;</rdg></app>～Kevaddha.</note><tt n="0101017" type="app"><t lang="chi" resp="CBETA">堅固</t><t lang="pli" resp="Taisho" place="foot">Kevaddha.</t></tt>。來詣佛所。頭面禮足。
@@ -9552,7 +9555,7 @@ Added comment  for Emacs
 <lb n="0102c21"/>等。云何持之。</p><p place="inline">佛告長者子。此比丘名阿室
 <lb n="0102c22"/>已。當奉持之。</p><p place="inline">爾時。堅固長者子聞佛所說。
 <lb n="0102c23"/>歡喜奉行。</p></div2>
-<lb n="0102c24"/><div2 type="jing"><mulu type="經" level="2" n="6" label="6 ＆CB02031；形梵志經(一六)"/><head>（二五）<title><note n="0102022" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0102022"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0102023" resp="Taisho" type="orig" place="foot text">～D. 8. Kassapa-s&imacron;han&amacron;da-sutta.</note><note n="0102023" place="foot" type="equivalent">～D. 8. Kassapa-s&imacron;han&amacron;da-sutta.</note>&CB02031;形梵志經第六</head>
+<lb n="0102c24"/><div2 type="jing"><mulu type="經" level="2" label="6 ＆CB02031；形梵志經"/><head>（二五）<title><note n="0102022" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0102022"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0102023" resp="Taisho" type="orig" place="foot text">～D. 8. Kassapa-s&imacron;han&amacron;da-sutta.</note><note n="0102023" place="foot" type="equivalent">～D. 8. Kassapa-s&imacron;han&amacron;da-sutta.</note>&CB02031;形梵志經第六</head>
 <lb n="0102c25"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0102024" resp="Taisho" type="orig" place="foot text">～Uju&ntilde;&ntilde;&amacron;.</note><note n="0102024" resp="CBETA" type="mod"><app><lem>委若</lem><rdg wit="【大】">&lac;</rdg></app>～Uju&ntilde;&ntilde;&amacron;.</note><tt n="0102024" type="app"><t lang="chi" resp="CBETA">委若</t><t lang="pli" resp="Taisho" place="foot">Uju&ntilde;&ntilde;&amacron;.</t></tt>國<note n="0102025" resp="Taisho" type="orig" place="foot text">～Ka&ndotblw;&ndotblw;akathala.</note><note n="0102025" resp="CBETA" type="mod"><app><lem>金槃</lem><rdg wit="【大】">&lac;</rdg></app>～Ka&ndotblw;&ndotblw;akathala.</note><tt n="0102025" type="app"><t lang="chi" resp="CBETA">金槃</t><t lang="pli" resp="Taisho" place="foot">Ka&ndotblw;&ndotblw;akathala.</t></tt>鹿野林
 <lb n="0102c26"/>中。與大比丘眾千二百五十人俱。</p><p place="inline">時。有<note n="0102026" resp="Taisho" type="orig" place="foot text">～Acela.</note><note n="0102026" resp="CBETA" type="mod"><app><lem>&CB02031;形</lem><rdg wit="【大】">&lac;</rdg></app>～Acela.</note><tt n="0102026" type="app"><t lang="chi" resp="CBETA">&CB02031;
 <lb n="0102c27"/>形</t><t lang="pli" resp="Taisho" place="foot">Acela.</t></tt>梵志姓<note n="0102027" resp="Taisho" type="orig" place="foot text">～Kassapa.</note><note n="0102027" resp="CBETA" type="mod"><app><lem>迦葉</lem><rdg wit="【大】">&lac;</rdg></app>～Kassapa.</note><tt n="0102027" type="app"><t lang="chi" resp="CBETA">迦葉</t><t lang="pli" resp="Taisho" place="foot">Kassapa.</t></tt>。詣世尊所。問訊已。一面坐。
@@ -9724,7 +9727,7 @@ Added comment  for Emacs
 <lb n="0104c13"/>淨信心修無上梵<note n="0104010" resp="Taisho" type="orig" place="foot text">行＋（於）【三】</note><note n="0104010" resp="CBETA" type="mod">行＋（於）【宋】【元】【明】</note><app n="0104010"><lem>行</lem><rdg wit="【宋】【元】【明】" resp="Taisho">行於</rdg></app>。現法中自身作證。生
 <lb n="0104c14"/>死已盡。梵行已立。所作已辦。不受後有。即
 <lb n="0104c15"/>成阿羅漢。</p><p place="inline">爾時。迦葉聞佛所說。歡喜奉行。</p></div2>
-<lb n="0104c16"/><div2 type="jing"><mulu type="經" level="2" n="7" label="7 三明經(一六)"/><head>（二六）<title><note n="0104011" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0104011"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0104012" resp="Taisho" type="orig" place="foot text">～D. 13. Tevijja-sutta.</note><note n="0104012" place="foot" type="equivalent">～D. 13. Tevijja-sutta.</note>三明經第七</head>
+<lb n="0104c16"/><div2 type="jing"><mulu type="經" level="2" label="7 三明經"/><head>（二六）<title><note n="0104011" resp="Taisho" type="orig" place="foot text">佛說長阿含＋（經）【宋】【元】，〔佛說長阿含〕－【明】</note><app n="0104011"><lem>佛說長阿含</lem><rdg wit="【宋】【元】" resp="Taisho">佛說長阿含經</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0104012" resp="Taisho" type="orig" place="foot text">～D. 13. Tevijja-sutta.</note><note n="0104012" place="foot" type="equivalent">～D. 13. Tevijja-sutta.</note>三明經第七</head>
 <lb n="0104c17"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0104013" resp="Taisho" type="orig" place="foot text">～Kosala.</note><note n="0104013" resp="CBETA" type="mod"><app><lem>俱薩羅</lem><rdg wit="【大】">&lac;</rdg></app>～Kosala.</note><tt n="0104013" type="app"><t lang="chi" resp="CBETA">俱薩羅</t><t lang="pli" resp="Taisho" place="foot">Kosala.</t></tt>國人間遊行。
 <lb n="0104c18"/>與大比丘眾千二百五十人俱。詣伊車能伽
 <lb n="0104c19"/>羅俱薩羅婆羅門村。止宿伊車林中。</p><p place="inline">時。有婆
@@ -9932,14 +9935,14 @@ Added comment  for Emacs
 <lb n="0107a11"/>丘身壞命終。如發箭之頃。生梵天上。佛說
 <lb n="0107a12"/>是法時。婆悉&CB00062;．頗羅墮即於座上遠<note n="0107002" resp="Taisho" type="orig" place="foot text">塵離＝離塵【宋】</note><app n="0107002"><lem>塵離</lem><rdg wit="【宋】" resp="Taisho">離塵</rdg></app>
 <lb n="0107a13"/>垢。<note n="0107003" resp="Taisho" type="orig" place="foot text">諸法＝於諸法中得【明】</note><app n="0107003"><lem>諸法</lem><rdg wit="【明】" resp="Taisho">於諸法中得</rdg></app>法眼<note n="0107004" resp="Taisho" type="orig" place="foot text">生＝淨【明】</note><app n="0107004"><lem>生</lem><rdg wit="【明】" resp="Taisho">淨</rdg></app>。</p><p place="inline">爾時。婆悉&CB00062;．頗羅墮聞
-<lb n="0107a14"/>佛所說。歡喜奉行。</p>
-<lb n="0107a15"/><juan fun="close" n="016"><jhead><title>佛說長阿含經</title>卷第十六</jhead></juan></div2>
+<lb n="0107a14"/>佛所說。歡喜奉行。</p></div2>
+<lb n="0107a15"/><juan fun="close" n="016"><jhead><title>佛說長阿含經</title>卷第十六</jhead></juan>
 <lb n="0107a16"/>
-<milestone unit="juan" n="17"/><div2 type="jing">
+<milestone unit="juan" n="17"/>
 <lb n="0107a17"/><juan fun="open" n="017"><mulu type="卷" n="017"/><jhead><title><note n="0107005" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0107005"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十七</jhead></juan>
 <lb n="0107a18"/>
 <lb n="0107a19"/><byline type="Translator"><note n="0107006" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0107006" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0107006"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0107a20"/><mulu type="經" level="2" n="8" label="8 沙門果經(一七)"/><head>（二七）<note n="0107007" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0107007"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分<note n="0107008" resp="Taisho" type="orig" place="foot text">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta. [No. 22, No. 125(43.7)]</note><note n="0107008" resp="CBETA" type="mod">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta.，[No. 22, No. 125(43.7)]</note><note n="0107008" place="foot" type="equivalent">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta.</note><note n="0107008" place="foot" type="cf.">[No. 22, No. 125(43.7)]</note>沙門果經第八</head>
+<lb n="0107a20"/><div2 type="jing"><mulu type="經" level="2" label="8 沙門果經"/><head>（二七）<note n="0107007" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0107007"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>三分<note n="0107008" resp="Taisho" type="orig" place="foot text">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta. [No. 22, No. 125(43.7)]</note><note n="0107008" resp="CBETA" type="mod">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta.，[No. 22, No. 125(43.7)]</note><note n="0107008" place="foot" type="equivalent">～D. 2. S&amacron;ma&ntilde;&ntilde;a-phala sutta.</note><note n="0107008" place="foot" type="cf.">[No. 22, No. 125(43.7)]</note>沙門果經第八</head>
 <lb n="0107a21"/><p>如是我聞。</p><p place="inline">一時。佛在<note n="0107009" resp="Taisho" type="orig" place="foot text">～R&amacron;jagaha.</note><note n="0107009" resp="CBETA" type="mod"><app><lem>羅閱祇</lem><rdg wit="【大】">&lac;</rdg></app>～R&amacron;jagaha.</note><tt n="0107009" type="app"><t lang="chi" resp="CBETA">羅閱祇</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jagaha.</t></tt><note n="0107010" resp="Taisho" type="orig" place="foot text">～J&imacron;vakassa kom&amacron;rabhaccassa-amba-vana.</note><note n="0107010" resp="CBETA" type="mod"><app><lem>耆舊童子菴婆園</lem><rdg wit="【大】">&lac;</rdg></app>～J&imacron;vakassa kom&amacron;rabhaccassa-amba-vana.</note><tt n="0107010" type="app"><t lang="chi" resp="CBETA">耆舊童子菴
 <lb n="0107a22"/>婆園</t><t lang="pli" resp="Taisho" place="foot">J&imacron;vakassa kom&amacron;rabhaccassa-amba-vana.</t></tt>中。與大比丘眾千二百五十人俱。</p><p place="inline">爾
 <lb n="0107a23"/>時。王<note n="0107011" resp="Taisho" type="orig" place="foot text">～Aj&amacron;tasattu.</note><note n="0107011" resp="CBETA" type="mod"><app><lem>阿闍世</lem><rdg wit="【大】">&lac;</rdg></app>～Aj&amacron;tasattu.</note><tt n="0107011" type="app"><t lang="chi" resp="CBETA">阿闍世</t><t lang="pli" resp="Taisho" place="foot">Aj&amacron;tasattu.</t></tt><note n="0107012" resp="Taisho" type="orig" place="foot text">～Vedehiputta.</note><note n="0107012" resp="CBETA" type="mod"><app><lem>韋提希子</lem><rdg wit="【大】">&lac;</rdg></app>～Vedehiputta.</note><tt n="0107012" type="app"><t lang="chi" resp="CBETA">韋提希子</t><t lang="pli" resp="Taisho" place="foot">Vedehiputta.</t></tt>以十五日月滿時。
@@ -10181,7 +10184,7 @@ Added comment  for Emacs
 <lb n="0109c19"/>婬．不欺．不飲酒。</p><p place="inline">爾時。世尊為阿闍世王說法。
 <lb n="0109c20"/>示教利喜已。從<anchor id="fxT01p0109c01"/>坐起而去。</p><p place="inline">爾時。阿闍世王
 <lb n="0109c21"/>及壽命童子聞佛所說。歡喜奉行。</p></div2>
-<lb n="0109c22"/><div2 type="jing"><mulu type="經" level="2" n="9" label="9 布吒婆樓經(一七)"/><head>（二八）<title><note n="0109011" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【三】</note><note n="0109011" resp="CBETA" type="mod">〔佛說長阿含〕－【宋】【元】【明】</note><app n="0109011"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0109012" resp="Taisho" type="orig" place="foot text">～D. 9. Po&tdotblw;&tdotblw;ap&amacron;da-sutta.</note><note n="0109012" place="foot" type="equivalent">～D. 9. Po&tdotblw;&tdotblw;ap&amacron;da-sutta.</note>布吒婆樓經第九</head>
+<lb n="0109c22"/><div2 type="jing"><mulu type="經" level="2" label="9 布吒婆樓經"/><head>（二八）<title><note n="0109011" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【三】</note><note n="0109011" resp="CBETA" type="mod">〔佛說長阿含〕－【宋】【元】【明】</note><app n="0109011"><lem>佛說長阿含</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0109012" resp="Taisho" type="orig" place="foot text">～D. 9. Po&tdotblw;&tdotblw;ap&amacron;da-sutta.</note><note n="0109012" place="foot" type="equivalent">～D. 9. Po&tdotblw;&tdotblw;ap&amacron;da-sutta.</note>布吒婆樓經第九</head>
 <lb n="0109c23"/><p>如是我聞。</p><p place="inline">一時。佛在舍衛國<note n="0109013" resp="Taisho" type="orig" place="foot text">～Jetavana, An&amacron;thapi&ndotblw;&ddotblw;ika</note><note n="0109013" resp="CBETA" type="mod"><app><lem>祇樹給孤獨園</lem><rdg wit="【大】">&lac;</rdg></app>～Jetavana, An&amacron;thapi&ndotblw;&ddotblw;ika</note><tt n="0109013" type="app"><t lang="chi" resp="CBETA">祇樹給孤獨
 <lb n="0109c24"/>園</t><t lang="pli" resp="Taisho" place="foot">Jetavana, An&amacron;thapi&ndotblw;&ddotblw;ika</t></tt>。與大比丘眾千二百五十人俱。</p><p place="inline">爾時。世尊
 <lb n="0109c25"/>清旦著衣持&CB00425;。入舍衛城乞食。時。世尊念
@@ -10449,7 +10452,7 @@ Added comment  for Emacs
 <lb n="0112c17"/>自身作證。生死已盡。所作<note n="0112008" resp="Taisho" type="orig" place="foot text">已＝以【宋】</note><app n="0112008"><lem>已</lem><rdg wit="【宋】" resp="Taisho">以</rdg></app>辦。不受後有。
 <lb n="0112c18"/>即成阿羅漢。</p><p place="inline">爾時。布吒婆樓聞佛所說。歡喜
 <lb n="0112c19"/>奉行。</p></div2>
-<lb n="0112c20"/><div2 type="jing"><mulu type="經" level="2" n="10" label="10 露遮經(一七)"/><head>（二九）<title><note n="0112009" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0112009"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0112010" resp="Taisho" type="orig" place="foot text">～D. 12. Lohiccha-sutta.</note><note n="0112010" place="foot" type="equivalent">～D. 12. Lohiccha-sutta.</note>露遮經第十</head>
+<lb n="0112c20"/><div2 type="jing"><mulu type="經" level="2" label="10 露遮經"/><head>（二九）<title><note n="0112009" resp="Taisho" type="orig" place="foot text">〔佛說長阿含〕－【明】</note><app n="0112009"><lem>佛說長阿含</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>第三分<note n="0112010" resp="Taisho" type="orig" place="foot text">～D. 12. Lohiccha-sutta.</note><note n="0112010" place="foot" type="equivalent">～D. 12. Lohiccha-sutta.</note>露遮經第十</head>
 <lb n="0112c21"/><p>如是我聞。</p><p place="inline">一時。佛在拘薩<note n="0112011" resp="Taisho" type="orig" place="foot text">羅＋（國）【三】</note><note n="0112011" resp="CBETA" type="mod">羅＋（國）【宋】【元】【明】</note><app n="0112011"><lem>羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羅國</rdg></app>人間遊行。與
 <lb n="0112c22"/>大比丘眾千二百五十人俱。往詣<note n="0112012" resp="Taisho" type="orig" place="foot text">婆羅婆提＝娑羅婆提【宋】【明】＊～S&amacron;lavatik&amacron;.</note><note n="0112012" resp="CBETA" type="mod"><todo type="＊"/>婆羅婆提＝娑羅婆提【宋】【明】＊～S&amacron;lavatik&amacron;.</note><tt n="0112012" type="app"><t lang="chi" resp="Taisho"><app n="0112012"><lem>婆羅婆
 <lb n="0112c23"/>提</lem><rdg wit="【宋】【明】" resp="Taisho">娑羅婆提</rdg></app></t><t lang="pli" resp="Taisho" place="foot">S&amacron;lavatik&amacron;.</t></tt>婆羅門村北尸舍<note n="0112013" resp="Taisho" type="orig" place="foot text">婆＝娑【明】＊</note><app n="0112013"><lem>婆</lem><rdg wit="【明】" resp="Taisho">娑</rdg></app>林中止宿。</p><p place="inline">時。有婆
@@ -10580,14 +10583,14 @@ Added comment  for Emacs
 <lb n="0114a28"/>自今已後。盡形壽不殺．不盜．不婬．不欺．不飲
 <lb n="0114a29"/>酒。</p><p place="inline">佛說法已。時露遮婆羅門聞佛所說。歡喜
 <pb ed="T" id="T01.0001.0114b" n="0114b"/>
-<lb n="0114b01"/>奉行。</p>
-<lb n="0114b02"/><juan fun="close" n="017"><jhead><title><note n="0114006" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0114006"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十七</jhead></juan></div2></div1>
+<lb n="0114b01"/>奉行。</p></div2></div1>
+<lb n="0114b02"/><juan fun="close" n="017"><jhead><title><note n="0114006" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0114006"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十七</jhead></juan>
 <lb n="0114b03"/>
-<milestone unit="juan" n="18"/><div1 type="fen">
+<milestone unit="juan" n="18"/>
 <lb n="0114b04"/><juan fun="open" n="018"><mulu type="卷" n="018"/><jhead><title><note n="0114007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0114007"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十八</jhead></juan>
 <lb n="0114b05"/>
 <lb n="0114b06"/><byline type="Translator"><note n="0114008" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0114008" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0114008"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0114b07"/><mulu type="分" level="1" n="4" label="4 分"/><head>（三○）<note n="0114009" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0114009"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>四分</head><div2 type="jing"><mulu type="經" level="2" n="1" label="世記經(一八-二二)"/><head>世記<note n="0114010" resp="Taisho" type="orig" place="foot text">經＋（第十一）【明】</note><app n="0114010"><lem>經</lem><rdg wit="【明】" resp="Taisho">經第十一</rdg></app></head><div3 type="pin"><mulu type="品" level="3" n="1" label="1 閻浮提州品"/><head>閻浮提<note n="0114011" resp="Taisho" type="orig" place="foot text">州＝洲【三】</note><note n="0114011" resp="CBETA" type="mod">州＝洲【宋】【元】【明】</note><app n="0114011"><lem>州</lem><rdg wit="【宋】【元】【明】" resp="Taisho">洲</rdg></app>品第一</head>
+<lb n="0114b07"/><div1 type="fen"><mulu type="分" level="1" label="4 分"/><div2 type="jing"><mulu type="經" level="2" label="世記經"/><head>（三○）<note n="0114009" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】</note><app n="0114009"><lem>第</lem><rdg wit="【宋】【元】" resp="Taisho">長阿含第</rdg></app>四分世記<note n="0114010" resp="Taisho" type="orig" place="foot text">經＋（第十一）【明】</note><app n="0114010"><lem>經</lem><rdg wit="【明】" resp="Taisho">經第十一</rdg></app></head><div3 type="pin"><mulu type="品" level="3" label="1 閻浮提州品"/><head>閻浮提<note n="0114011" resp="Taisho" type="orig" place="foot text">州＝洲【三】</note><note n="0114011" resp="CBETA" type="mod">州＝洲【宋】【元】【明】</note><app n="0114011"><lem>州</lem><rdg wit="【宋】【元】【明】" resp="Taisho">洲</rdg></app>品第一</head>
 <lb n="0114b08"/><p>如是我聞。</p><p place="inline">一時。佛在舍衛國祇樹給孤獨園
 <lb n="0114b09"/>俱利窟中。與大比丘眾千二百五十人俱。</p><p place="inline">時。
 <lb n="0114b10"/>眾比丘於食後集講堂上議言。諸賢。未曾
@@ -10893,7 +10896,7 @@ Added comment  for Emacs
 <lb n="0117c10"/>清風遠吹置於林外。又八千象大小便時。諸
 <lb n="0117c11"/>夜叉鬼除之林外。</p><p place="inline">佛告比丘。善住象王有
 <lb n="0117c12"/>大神力。功德如是。雖為畜生。受福如是。</p></div3>
-<lb n="0117c13"/><div3 type="pin"><mulu type="品" level="3" n="2" label="2 鬱單曰品"/><head><note n="0117015" resp="Taisho" type="orig" place="foot text">〔佛說長…世記經〕－【三】</note><note n="0117015" resp="CBETA" type="mod">〔佛說長…世記經〕－【宋】【元】【明】</note><app n="0117015" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>&CB00614;單<note n="0117016" resp="Taisho" type="orig" place="foot text">曰＝越【明】＊</note><app n="0117016"><lem>曰</lem><rdg wit="【明】" resp="Taisho">越</rdg></app>品第
+<lb n="0117c13"/><div3 type="pin"><mulu type="品" level="3" label="2 鬱單曰品"/><head><note n="0117015" resp="Taisho" type="orig" place="foot text">〔佛說長…世記經〕－【三】</note><note n="0117015" resp="CBETA" type="mod">〔佛說長…世記經〕－【宋】【元】【明】</note><app n="0117015" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>&CB00614;單<note n="0117016" resp="Taisho" type="orig" place="foot text">曰＝越【明】＊</note><app n="0117016"><lem>曰</lem><rdg wit="【明】" resp="Taisho">越</rdg></app>品第
 <lb n="0117c14"/>二</head>
 <lb n="0117c15"/><p>佛告比丘。&CB00614;單<app type="＊" source="0117016"><lem>曰</lem><rdg resp="Taisho" wit="【明】">越</rdg></app>天下多有諸山。其彼山
 <lb n="0117c16"/>側有諸園觀浴池。生眾雜花。樹木清涼。花果
@@ -11054,7 +11057,7 @@ Added comment  for Emacs
 <lb n="0119b21"/>彼人得稱為<app><lem>勝</lem><rdg wit="【大】">稱</rdg></app>&CB00614;單<app type="＊" source="0117016"><lem>曰</lem><rdg resp="Taisho" wit="【明】">越</rdg></app>。&CB00614;單曰<anchor id="fxT01p0119b04"/>者。其義云
 <lb n="0119b22"/>何。於三天下。其土最上最勝。故名&CB00614;單<app type="＊" source="0117016"><lem>曰</lem><rdg resp="Taisho" wit="【明】">越</rdg></app>
 <lb n="0119b23"/><note n="0119012" resp="Taisho" type="orig" place="foot text">〔&CB00614;單…上〕七字－【明】</note><app n="0119012" word-count="7"><lem><note place="inline">&CB00614;單曰秦言最上</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。</p></div3>
-<lb n="0119b24"/><div3 type="pin"><mulu type="品" level="3" n="3" label="3 轉輪聖王品"/><head><note n="0119013" resp="Taisho" type="orig" place="foot text">〔佛說…世記經〕十一字－【明】</note><app n="0119013" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>轉輪聖王品第
+<lb n="0119b24"/><div3 type="pin"><mulu type="品" level="3" label="3 轉輪聖王品"/><head><note n="0119013" resp="Taisho" type="orig" place="foot text">〔佛說…世記經〕十一字－【明】</note><app n="0119013" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>轉輪聖王品第
 <lb n="0119b25"/>三</head>
 <lb n="0119b26"/><p>佛告比丘。世間有轉輪聖王。成就七寶。有
 <lb n="0119b27"/>四神德。云何轉輪聖王成就七寶。一金輪寶。
@@ -11233,13 +11236,13 @@ Added comment  for Emacs
 <lb n="0121b20"/>芬馥。異鳥哀鳴。其塔成已。玉女寶．居士寶．典
 <lb n="0121b21"/>兵寶．舉國士民皆來供養此塔。施諸窮乏。
 <lb n="0121b22"/>須食與食。須衣與衣。象馬寶乘。給眾所須。
-<lb n="0121b23"/>隨意所與。轉輪聖王威神功德。其事如是。</p>
-<lb n="0121b24"/><juan fun="close" n="018"><jhead><title><note n="0121010" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0121010"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十八</jhead></juan></div3>
+<lb n="0121b23"/>隨意所與。轉輪聖王威神功德。其事如是。</p></div3>
+<lb n="0121b24"/><juan fun="close" n="018"><jhead><title><note n="0121010" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0121010"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十八</jhead></juan>
 <lb n="0121b25"/>
-<milestone unit="juan" n="19"/><div3 type="pin">
+<milestone unit="juan" n="19"/>
 <lb n="0121b26"/><juan fun="open" n="019"><mulu type="卷" n="019"/><jhead><title><note n="0121011" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0121011"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十九</jhead></juan>
 <lb n="0121b27"/><byline type="Translator"><note n="0121012" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0121012" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0121012"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0121b28"/><mulu type="品" level="3" n="4" label="4 地獄品"/><head><note n="0121013" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕六字－【明】</note><note n="0121013" resp="CBETA" type="mod">〔第四分世記經〕六字－【明】，（長阿含）＋第【宋】【元】</note><app n="0121013"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>地獄品第四</head>
+<lb n="0121b28"/><div3 type="pin"><mulu type="品" level="3" label="4 地獄品"/><head><note n="0121013" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕六字－【明】</note><note n="0121013" resp="CBETA" type="mod">〔第四分世記經〕六字－【明】，（長阿含）＋第【宋】【元】</note><app n="0121013"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>地獄品第四</head>
 <lb n="0121b29"/><p>佛告比丘。此四天下有八千天下圍遶其
 <pb ed="T" id="T01.0001.0121c" n="0121c"/>
 <lb n="0121c01"/>外。復有大海水周匝圍遶八千天下。復有
@@ -11748,7 +11751,7 @@ Added comment  for Emacs
 <lb n="0127a24"/><l>無受則解脫</l><l>生老病死盡</l>
 <lb n="0127a25"/><l>彼得安隱處</l><l>現在得無為</l>
 <lb n="0127a26"/><l>已<note n="0127003" resp="Taisho" type="orig" place="foot text">渡＝度【三】</note><note n="0127003" resp="CBETA" type="mod">渡＝度【宋】【元】【明】</note><app n="0127003"><lem>渡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">度</rdg></app>諸憂畏</l><l>決定般涅槃</l></lg></div3>
-<lb n="0127a27"/><div3 type="pin"><mulu type="品" level="3" n="5" label="5 龍鳥品"/><head><note n="0127004" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕十一字－【明】</note><app n="0127004" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>龍鳥品第五</head>
+<lb n="0127a27"/><div3 type="pin"><mulu type="品" level="3" label="5 龍鳥品"/><head><note n="0127004" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕十一字－【明】</note><app n="0127004" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>龍鳥品第五</head>
 <lb n="0127a28"/><p>佛告比丘。有四種龍。何等為四。一者卵生。
 <lb n="0127a29"/>二者胎生。三者濕生。四者化生。是為四種。
 <pb ed="T" id="T01.0001.0127b" n="0127b"/>
@@ -11925,15 +11928,15 @@ Added comment  for Emacs
 <lb n="0129a21"/><l>斯人能究竟</l><l>苦陰<note n="0129006" resp="Taisho" type="orig" place="foot text">之根＝根之【明】</note><note n="0129006" resp="CBETA" type="mod">之根＝根之【明】<app><lem resp="CBETA.say">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0129006"><lem>之根</lem><rdg wit="【明】" resp="Taisho">根之</rdg></app>本</l>
 <lb n="0129a22"/><l>盡生<note n="0129007" resp="Taisho" type="orig" place="foot text">老病死＝苦死病【三】</note><note n="0129007" resp="CBETA" type="mod">老病死＝苦死病【宋】【元】【明】</note><app n="0129007"><lem>老病死</lem><rdg wit="【宋】【元】【明】" resp="Taisho">苦死病</rdg></app></l><l>受有<app type="＊" source="0129006"><lem>之根</lem><rdg resp="Taisho" wit="【明】">根之</rdg></app>原</l></lg>
 <lb n="0129a23"/><p>諸比丘。是故汝等當勤方便思惟苦聖諦．苦
-<lb n="0129a24"/>集聖諦．苦滅聖諦．苦出要諦。</p>
-<lb n="0129a25"/><juan fun="close" n="019"><jhead><title><note n="0129008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0129008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十九</jhead></juan></div3>
+<lb n="0129a24"/>集聖諦．苦滅聖諦．苦出要諦。</p></div3>
+<lb n="0129a25"/><juan fun="close" n="019"><jhead><title><note n="0129008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0129008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第十九</jhead></juan>
 <lb n="0129a26"/>
-<milestone unit="juan" n="20"/><div3 type="pin">
+<milestone unit="juan" n="20"/>
 <lb n="0129a27"/><juan fun="open" n="020"><mulu type="卷" n="020"/><jhead><title><note n="0129009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0129009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十</jhead></juan>
 <lb n="0129a28"/>
 <lb n="0129a29"/><byline type="Translator"><note n="0129010" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0129010" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0129010"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
 <pb ed="T" id="T01.0001.0129b" n="0129b"/>
-<lb n="0129b01"/><mulu type="品" level="3" n="6" label="6 阿須倫品"/><head>（七）<note n="0129011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕－【明】</note><note n="0129011" resp="CBETA" type="mod">〔第四分世記經〕－【明】，（長阿含）＋第【宋】【元】</note><app n="0129011"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>阿須倫品第六</head>
+<lb n="0129b01"/><div3 type="pin"><mulu type="品" level="3" label="6 阿須倫品"/><head>（七）<note n="0129011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕－【明】</note><note n="0129011" resp="CBETA" type="mod">〔第四分世記經〕－【明】，（長阿含）＋第【宋】【元】</note><app n="0129011"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>阿須倫品第六</head>
 <lb n="0129b02"/><p>佛告比丘。須彌山北大海水底有羅呵阿須
 <lb n="0129b03"/>倫城。縱廣八萬由旬。其城七重。七重欄楯．七
 <lb n="0129b04"/>重羅網．七重行樹。周匝<note n="0129012" resp="Taisho" type="orig" place="foot text">校＝交【宋】＊</note><app n="0129012"><lem>校</lem><rdg wit="【宋】" resp="Taisho">交</rdg></app>飾。以七寶成。城
@@ -12021,9 +12024,9 @@ Added comment  for Emacs
 <lb n="0130a26"/>風。二名持風。三名不動。四<note n="0130004" resp="Taisho" type="orig" place="foot text">者＝名【三】</note><note n="0130004" resp="CBETA" type="mod">者＝名【宋】【元】【明】</note><app n="0130004"><lem>者</lem><rdg wit="【宋】【元】【明】" resp="Taisho">名</rdg></app>堅固。持大
 <lb n="0130a27"/>海水。懸處虛空。猶如浮雲。去阿須倫宮一
 <lb n="0130a28"/>萬由旬終不墮落。阿須倫王福報．功德．威神
-<lb n="0130a29"/>如是。</p>
-<pb ed="T" id="T01.0001.0130b" n="0130b"/></div3>
-<lb n="0130b01"/><div3 type="pin"><mulu type="品" level="3" n="7" label="7 四天王品"/><head><note n="0130005" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕－【明】</note><app n="0130005" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>四天王品第七</head>
+<lb n="0130a29"/>如是。</p></div3>
+<pb ed="T" id="T01.0001.0130b" n="0130b"/>
+<lb n="0130b01"/><div3 type="pin"><mulu type="品" level="3" label="7 四天王品"/><head><note n="0130005" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕－【明】</note><app n="0130005" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>四天王品第七</head>
 <lb n="0130b02"/><p>佛告比丘。須彌山王東千由旬提頭賴吒天
 <lb n="0130b03"/>王城。名賢上。縱廣六千由旬。其城七重。七重
 <lb n="0130b04"/>欄楯．七重羅網．七重行樹。周匝<app type="＊" source="0129012"><lem>校</lem><rdg resp="Taisho" wit="【宋】">交</rdg></app>飾。以七
@@ -12085,7 +12088,7 @@ Added comment  for Emacs
 <pb ed="T" id="T01.0001.0131a" n="0131a"/>
 <lb n="0131a01"/>神常隨侍衛。毘沙門王福報．功德．威神如
 <lb n="0131a02"/>是。</p></div3>
-<lb n="0131a03"/><div3 type="pin"><mulu type="品" level="3" n="8" label="8 忉利天品"/><head><note n="0131001" resp="Taisho" type="orig" place="foot text">〔佛說…經〕十一字－【明】</note><app n="0131001" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>忉利天品第八</head>
+<lb n="0131a03"/><div3 type="pin"><mulu type="品" level="3" label="8 忉利天品"/><head><note n="0131001" resp="Taisho" type="orig" place="foot text">〔佛說…經〕十一字－【明】</note><app n="0131001" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>忉利天品第八</head>
 <lb n="0131a04"/><p>佛告比丘。須彌山王頂上有三十三天城。縱
 <lb n="0131a05"/>廣八萬由旬。其城七重。七重欄楯．七重羅網．
 <lb n="0131a06"/>七重行樹。周匝校飾。以七寶成。城高百由旬。
@@ -12645,16 +12648,16 @@ Added comment  for Emacs
 <lb n="0137a20"/>師迷惑。五者雲有雷電。占<note n="0137006" resp="Taisho" type="orig" place="foot text">謂＝為【宋】【元】</note><app n="0137006"><lem>謂</lem><rdg wit="【宋】【元】" resp="Taisho">為</rdg></app>當雨。而世間
 <lb n="0137a21"/>眾庶非法放逸。<note n="0137007" resp="Taisho" type="orig" place="foot text">行不＝汙清【宋】【元】，污清【明】</note><note n="0137007" resp="CBETA" type="mod">行不＝汙清【宋】【元】，＝污清【明】</note><app n="0137007"><lem>行不</lem><rdg wit="【宋】【元】" resp="Taisho">汙清</rdg><rdg wit="【明】" resp="Taisho">污清</rdg></app>淨行。慳貪嫉&CB00107;。所見
 <lb n="0137a22"/>顛倒。故使天不降雨。以此因緣。相師迷惑。
-<lb n="0137a23"/>是為五因緣。相師占雨不可定知。</p>
-<lb n="0137a24"/><juan fun="close" n="020"><jhead><title><note n="0137008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0137008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十</jhead></juan></div3>
+<lb n="0137a23"/>是為五因緣。相師占雨不可定知。</p></div3>
+<lb n="0137a24"/><juan fun="close" n="020"><jhead><title><note n="0137008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0137008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十</jhead></juan>
 <lb n="0137a25"/>
 <milestone unit="juan" n="21"/>
-<lb n="0137a26"/><div3 type="pin">
+<lb n="0137a26"/>
 <lb n="0137a27"/><juan fun="open" n="021"><mulu type="卷" n="021"/><jhead><title><note n="0137009" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0137009"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十一</jhead></juan>
 <lb n="0137a28"/>
 <lb n="0137a29"/><byline type="Translator"><note n="0137010" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0137010" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0137010"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
 <pb ed="T" id="T01.0001.0137b" n="0137b"/>
-<lb n="0137b01"/><mulu type="品" level="3" n="9" label="9 三災品"/><head>（三○）<note n="0137011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕－【明】</note><note n="0137011" resp="CBETA" type="mod">〔第四分世記經〕－【明】，（長阿含）＋第【宋】【元】</note><app n="0137011"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>三災品第九</head>
+<lb n="0137b01"/><div3 type="pin"><mulu type="品" level="3" label="9 三災品"/><head>（三○）<note n="0137011" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔第四分世記經〕－【明】</note><note n="0137011" resp="CBETA" type="mod">〔第四分世記經〕－【明】，（長阿含）＋第【宋】【元】</note><app n="0137011"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記經</rdg></app>三災品第九</head>
 <lb n="0137b02"/><p>佛告比丘。有四事長久。無量無限。不可以
 <lb n="0137b03"/>日月歲數而稱計也。云何為四。一者世間
 <lb n="0137b04"/>災漸起。壞此世時。中間長久。無量無限。不
@@ -13004,7 +13007,7 @@ Added comment  for Emacs
 <lb n="0141a18"/>天宮。雜色參間。七寶所成。乃至海水一味鹹
 <lb n="0141a19"/>苦。亦如火災復時。是為風災。是為三災。是
 <lb n="0141a20"/>為三復。</p></div3>
-<lb n="0141a21"/><div3 type="pin"><mulu type="品" level="3" n="10" label="10 戰鬥品"/><head><note n="0141002" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕－【明】</note><app n="0141002" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>戰&CB00508;品第十</head>
+<lb n="0141a21"/><div3 type="pin"><mulu type="品" level="3" label="10 戰鬥品"/><head><note n="0141002" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕－【明】</note><app n="0141002" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>戰&CB00508;品第十</head>
 <lb n="0141a22"/><p>佛告比丘。昔者。諸天與阿須倫共&CB00508;。時。釋
 <lb n="0141a23"/>提桓因命忉利諸天而告之曰。汝等今往
 <lb n="0141a24"/>與彼共戰。若得勝者。捉毘摩質多羅阿須
@@ -13265,14 +13268,14 @@ Added comment  for Emacs
 <lb n="0144a09"/>阿須倫眾執持七寶刀劍．<app type="＊" source="0144003"><lem>鉾</lem><rdg resp="Taisho" wit="【宋】">牟</rdg><rdg resp="Taisho" wit="【元】【明】">矛</rdg></app>&CB00266;．弓矢．<app type="＊" source="0144004"><lem>&CB00550;</lem><rdg resp="Taisho" wit="【元】【明】">&CB00010;</rdg></app><app type="＊" source="0144005"><lem>釿</lem><rdg resp="Taisho" wit="【宋】【元】【明】">斤</rdg></app>．
 <lb n="0144a10"/>鉞斧．旋輪．&CB00559;索。以鋒刃加諸天身。但觸而
 <lb n="0144a11"/>已。不能傷損。如是欲行諸天共阿須倫&CB00508;。
-<lb n="0144a12"/><note n="0144006" resp="Taisho" type="orig" place="foot text">欲因欲＝緣欲因如【三】</note><note n="0144006" resp="CBETA" type="mod">欲因欲＝緣欲因如【宋】【元】【明】</note><app n="0144006"><lem>欲因欲</lem><rdg wit="【宋】【元】【明】" resp="Taisho">緣欲因如</rdg></app>是。</p>
-<lb n="0144a13"/><juan fun="close" n="021"><jhead><title><note n="0144007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0144007"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十一</jhead></juan></div3>
+<lb n="0144a12"/><note n="0144006" resp="Taisho" type="orig" place="foot text">欲因欲＝緣欲因如【三】</note><note n="0144006" resp="CBETA" type="mod">欲因欲＝緣欲因如【宋】【元】【明】</note><app n="0144006"><lem>欲因欲</lem><rdg wit="【宋】【元】【明】" resp="Taisho">緣欲因如</rdg></app>是。</p></div3>
+<lb n="0144a13"/><juan fun="close" n="021"><jhead><title><note n="0144007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0144007"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十一</jhead></juan>
 <lb n="0144a14"/>
-<milestone unit="juan" n="22"/><div3 type="pin">
+<milestone unit="juan" n="22"/>
 <lb n="0144a15"/><juan fun="open" n="022"><mulu type="卷" n="022"/><jhead><title><note n="0144008" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】</note><app n="0144008"><lem>佛說</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>長阿含經</title>卷第二十二</jhead></juan>
 <lb n="0144a16"/>
 <lb n="0144a17"/><byline type="Translator"><note n="0144009" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note><note n="0144009" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note><app n="0144009"><lem>後秦弘始年</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>佛陀耶舍共竺佛念譯</byline>
-<lb n="0144a18"/><mulu type="品" level="3" n="11" label="11 三中劫品"/><head><note n="0144010" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔經〕－【宋】【元】，〔第四分世記經〕－【明】</note><note n="0144010" resp="CBETA" type="mod">〔第四分世記經〕－【明】，＝長阿含第四分世記【宋】【元】</note><app n="0144010"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記</rdg></app>三中劫品第十一</head>
+<lb n="0144a18"/><div3 type="pin"><mulu type="品" level="3" label="11 三中劫品"/><head><note n="0144010" resp="Taisho" type="orig" place="foot text">（長阿含）＋第【宋】【元】，〔經〕－【宋】【元】，〔第四分世記經〕－【明】</note><note n="0144010" resp="CBETA" type="mod">〔第四分世記經〕－【明】，＝長阿含第四分世記【宋】【元】</note><app n="0144010"><lem>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">長阿含第四分世記</rdg></app>三中劫品第十一</head>
 <lb n="0144a19"/><p>佛告比丘。有三中劫。何等為三。一名刀兵
 <lb n="0144a20"/>劫。二名穀貴劫。三名疾疫劫。云何為刀兵
 <lb n="0144a21"/>劫。此世間人本壽四萬歲。其後稍減壽二萬
@@ -13348,7 +13351,7 @@ Added comment  for Emacs
 <lb n="0145a01"/>轉相問。汝病差不。身安隱不。以此因緣
 <lb n="0145a02"/>得生天上。是故名為疾疫劫。是為三中劫
 <lb n="0145a03"/>也。</p></div3>
-<lb n="0145a04"/><div3 type="pin"><mulu type="品" level="3" n="12" label="12 世本緣品"/><head><note n="0145001" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕十一字－【明】</note><app n="0145001" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app><note n="0145002" resp="Taisho" type="orig" place="foot text">cf D. 27, 10-23.</note><note n="0145002" place="foot" type="cf.">cf D. 27, 10-23.</note>世本緣品第十
+<lb n="0145a04"/><div3 type="pin"><mulu type="品" level="3" label="12 世本緣品"/><head><note n="0145001" resp="Taisho" type="orig" place="foot text">〔佛說…記經〕十一字－【明】</note><app n="0145001" word-count="11"><lem><title>佛說長阿含</title>第四分世記經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app><note n="0145002" resp="Taisho" type="orig" place="foot text">cf D. 27, 10-23.</note><note n="0145002" place="foot" type="cf.">cf D. 27, 10-23.</note>世本緣品第十
 <lb n="0145a05"/>二</head>
 <lb n="0145a06"/><p>佛告比丘。火災過已。<note n="0145003" resp="Taisho" type="orig" place="foot text">此世天地…壽命長久 cf D. 24, 2. 15-16.</note><note n="0145003" place="foot" type="cf.">此世天地…壽命長久 cf D. 24, 2. 15-16.</note>此世天地還欲成時。
 <lb n="0145a07"/>有餘眾生福盡．行盡．命盡。於光音天命終。
@@ -13787,6 +13790,6 @@ Added comment  for Emacs
 <lb n="0149c20"/><l>明行成具足</l><l>天人中為最</l></lg>
 <lb n="0149c21"/><p>爾時。諸比丘聞佛所說。歡喜奉行。</p>
 <lb n="0149c22"/><p>長阿<note n="0149024" resp="Taisho" type="orig" place="foot text">含＝舍【明】＊</note><app n="0149024"><lem>含</lem><rdg wit="【明】" resp="Taisho">舍</rdg></app>具足。歸命一切智。一切眾安樂。眾
-<lb n="0149c23"/>生處無為。我亦在其例。</p>
-<lb n="0149c24"/><juan fun="close" n="022"><jhead><title>佛說長阿<app type="＊" source="0149024"><lem>含</lem><rdg resp="Taisho" wit="【明】">舍</rdg></app>經</title><note n="0149025" resp="Taisho" type="orig" place="foot text">（第四分）＋卷【宋】【元】</note><app n="0149025"><lem>卷</lem><rdg wit="【宋】【元】" resp="Taisho">第四分卷</rdg></app>第二十二</jhead></juan></div3></div2></div1>
+<lb n="0149c23"/>生處無為。我亦在其例。</p></div3></div2></div1>
+<lb n="0149c24"/><juan fun="close" n="022"><jhead><title>佛說長阿<app type="＊" source="0149024"><lem>含</lem><rdg resp="Taisho" wit="【明】">舍</rdg></app>經</title><note n="0149025" resp="Taisho" type="orig" place="foot text">（第四分）＋卷【宋】【元】</note><app n="0149025"><lem>卷</lem><rdg wit="【宋】【元】" resp="Taisho">第四分卷</rdg></app>第二十二</jhead></juan>
 </body></text></TEI.2>
