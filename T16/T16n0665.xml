@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)</edition>
+		<edition>$Revision: 1.7 $ (Big5)</edition>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/25 06:40:41 $</date>
+		<date>$Date: 2003/07/07 07:06:13 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 16, No. 665 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T16n0665.xml,v $
+Revision 1.7  2003/07/07 07:06:13  ray
+app版100字以上長行斷詞
+
 Revision 1.6  2003/06/25 06:40:41  moved
 執行 corr2app.pl v0.3.1
 
@@ -143,7 +146,7 @@ Revision 1.7  2001/02/07 06:51:15  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:40:51  chris
-Added keywords $Revision: 1.6 $, $Date: 2003/06/25 06:40:41 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2003/07/07 07:06:13 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -2683,10 +2686,25 @@ Added comment  for Emacs
 <lb n="0431a20"/>事須財物願當施與。時禪膩師。聞是語已。
 <lb n="0431a21"/>即還父所。白其父言。今有善人。發至誠
 <lb n="0431a22"/>心供養三寶。少乏財物為斯請召。其父
-<lb n="0431a23"/>報曰。汝可速去日日與彼一百<note n="0431009" resp="Taisho" type="orig" place="foot text">迦利沙波拏. K&amacron;r&sdotblw;apa&ndotblw;a.</note><note n="0431009" resp="CBETA" type="mod">迦利沙波拏 K&amacron;r&sdotblw;apa&ndotblw;a.</note><tt n="0431009" type="app"><t lang="chi" resp="Taisho">迦利沙波
-<lb n="0431a24"/>拏</t><t lang="san" resp="Taisho" place="foot">K&amacron;r&sdotblw;apa&ndotblw;a.</t></tt><note place="inline">此是根本梵音<note n="0431010" resp="Taisho" type="orig" place="foot text">惟＝唯【三】【宮】【西】下同</note><note n="0431010" resp="CBETA" type="mod">惟＝唯【宋】【元】【明】【宮】【西】下同</note><app n="0431010"><lem>惟</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">唯</rdg></app><note n="0431011" resp="Taisho" type="orig" place="foot text">目貝＝見貝【宋】【元】，見目【明】</note><note n="0431011" resp="CBETA" type="mod">目貝＝見貝【宋】【元】，＝見目【明】</note><app n="0431011"><lem>目貝</lem><rdg wit="【宋】【元】" resp="Taisho">見貝</rdg><rdg wit="【明】" resp="Taisho">見目</rdg></app>齒而隨方不<note n="0431012" resp="Taisho" type="orig" place="foot text">定＝足【宮】</note><app n="0431012"><lem>定</lem><rdg wit="【宮】" resp="Taisho">足</rdg></app>或是貝齒或是金銀銅鐵等錢然摩揭陀現今通用一迦利沙
-<lb n="0431a25"/><note n="0431013" resp="Taisho" type="orig" place="foot text">波拏＝波挐【明】</note><app n="0431013"><lem>波拏</lem><rdg wit="【明】" resp="Taisho">波挐</rdg></app>有一千六百貝齒總數可以准知若准物直隨處不定若人持&CB00057;得成就者獲物之時自知其數有本云每日與一
-<lb n="0431a26"/>百陳那羅即金錢也乃<note n="0431014" resp="Taisho" type="orig" place="foot text">至＝志【三】</note><note n="0431014" resp="CBETA" type="mod">至＝志【宋】【元】【明】</note><app n="0431014"><lem>至</lem><rdg wit="【宋】【元】【明】" resp="Taisho">志</rdg></app>盡形日日常得西方求者多有神驗除不<note n="0431015" resp="Taisho" type="orig" place="foot text">至心＝志心【宮】</note><app n="0431015"><lem>至心</lem><rdg wit="【宮】" resp="Taisho">志心</rdg></app>也</note></p>
+<lb n="0431a23"/>報曰。汝可速去日日與彼一百
+<note n="0431009" resp="Taisho" type="orig" place="foot text">迦利沙波拏. K&amacron;r&sdotblw;apa&ndotblw;a.</note>
+<note n="0431009" resp="CBETA" type="mod">迦利沙波拏 K&amacron;r&sdotblw;apa&ndotblw;a.</note><tt n="0431009" type="app"><t lang="chi" resp="Taisho">迦利沙波
+<lb n="0431a24"/>拏</t><t lang="san" resp="Taisho" place="foot">K&amacron;r&sdotblw;apa&ndotblw;a.</t></tt><note place="inline">此是根本梵音
+<note n="0431010" resp="Taisho" type="orig" place="foot text">惟＝唯【三】【宮】【西】下同</note>
+<note n="0431010" resp="CBETA" type="mod">惟＝唯【宋】【元】【明】【宮】【西】下同</note>
+<app n="0431010"><lem>惟</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">唯</rdg></app><note n="0431011" resp="Taisho" type="orig" place="foot text">目貝＝見貝【宋】【元】，見目【明】</note>
+<note n="0431011" resp="CBETA" type="mod">目貝＝見貝【宋】【元】，＝見目【明】</note>
+<app n="0431011"><lem>目貝</lem><rdg wit="【宋】【元】" resp="Taisho">見貝</rdg><rdg wit="【明】" resp="Taisho">見目</rdg></app>齒而隨方不
+<note n="0431012" resp="Taisho" type="orig" place="foot text">定＝足【宮】</note>
+<app n="0431012"><lem>定</lem><rdg wit="【宮】" resp="Taisho">足</rdg></app>。或是貝齒或是金銀銅鐵等錢。然摩揭陀現今通用一迦利沙
+<lb n="0431a25"/><note n="0431013" resp="Taisho" type="orig" place="foot text">波拏＝波挐【明】</note>
+<app n="0431013"><lem>波拏</lem><rdg wit="【明】" resp="Taisho">波挐</rdg></app>有一千六百貝齒總數可以准知。若准物直隨處不定。若人持&CB00057;得成就者。獲物之時自知其數。有本云每日與一
+<lb n="0431a26"/>百陳那羅即金錢也。乃
+<note n="0431014" resp="Taisho" type="orig" place="foot text">至＝志【三】</note>
+<note n="0431014" resp="CBETA" type="mod">至＝志【宋】【元】【明】</note>
+<app n="0431014"><lem>至</lem><rdg wit="【宋】【元】【明】" resp="Taisho">志</rdg></app>盡形日日常得。西方求者多有神驗。除不
+<note n="0431015" resp="Taisho" type="orig" place="foot text">至心＝志心【宮】</note>
+<app n="0431015"><lem>至心</lem><rdg wit="【宮】" resp="Taisho">志心</rdg></app>也</note></p>
 <lb n="0431a27"/><p>其持&CB00057;者見是相已。知事得成。當須獨
 <lb n="0431a28"/>處淨室。燒香而臥。可於床邊置一香篋。每
 <lb n="0431a29"/>至天曉觀其篋中獲所求物。每得物時
@@ -2993,14 +3011,59 @@ Added comment  for Emacs
 <lb n="0434c13"/>滅。諸有智者。應作如是洗浴之法。當取香
 <lb n="0434c14"/>藥<note n="0434033" resp="Taisho" type="orig" place="foot text">梵本韻文，但三十二味。列次異于本譯又其數甚少今依對譯略舉梵音。跋者. Vac&amacron;. 瞿盧折那. Gorocan&amacron;. 塞畢力迦. Sephalik&amacron;. 莫迦婆迦. Mah&amacron;bh&amacron;g&amacron;. 末&CB00178;眵羅. Manas&sacute;il&amacron;. 尸利灑. &Sacute;&imacron;r&imacron;&sdotblw;a. 因達囉喝悉哆. Indrahasta. 闍莫迦. &Sacute;y&amacron;m&amacron;ka. 苫弭. &Sacute;ami. 室利薜瑟得迦. &Sacute;ri-vibhitaka. 咄者. Tvaca. 目窣哆. Musta. 惡揭嚕. Agaru. 栴檀娜. Candana. 多揭羅. Tagara. 茶矩麼. Kn&ndotabv;kuma. 揭羅娑. G&amacron;lava. 捺刺柁. Narada&mdotblw;sa. &CB02982;路戰娜. Gorocan&amacron;. 依可洪音重出. 蘇泣迷羅. Sukum&amacron;r&amacron;. 弭哆. misganta. &CB00425;怛羅. Patna. 嗢尸羅. U&sacute;&imacron;ra. 薩洛計. &Sacute;allaki. 世黎也. &Sacute;aileya. 窶具&CB00256;. Guggula. 薩利殺跛. Sar&sdotblw;apa. 葉婆&CB00135;. Sophaghni or So&sdotblw;a&ndotblw;i. 那伽雞薩羅. N&amacron;gake&sacute;ala. 薩折羅婆. Sarjarasa. 矩瑟佗. Ku&sdotblw;&tdotblw;ha.</note>三十二味。所謂</p>
 <pb ed="T" id="T16.0665.0435a" n="0435a"/>
-<lb n="0435a01"/><p><note n="0435001" resp="Taisho" type="orig" place="foot text">菖＝昌【三】【宮】【西】</note><note n="0435001" resp="CBETA" type="mod">菖＝昌【宋】【元】【明】【宮】【西】</note><app n="0435001"><lem>菖</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">昌</rdg></app><note n="0435002" resp="Taisho" type="orig" place="foot text">蒲＝蒱【宋】【元】【宮】</note><app n="0435002"><lem>蒲</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">蒱</rdg></app><note place="inline"><note n="0435003" resp="Taisho" type="orig" place="foot text">&CB00849;＝跛【明】</note><note n="0435003" resp="CBETA" type="mod"><corr sic="＆CB00849；" resp="CBETA.Maha">跋</corr>＝跛【明】</note><app n="0435003"><lem>跋</lem><rdg wit="【明】" resp="Taisho">跛</rdg></app>者</note>牛黃<note place="inline">瞿<note n="0435004" resp="Taisho" type="orig" place="foot text">盧＝嚧【西】</note><app n="0435004"><lem>盧</lem><rdg wit="【西】" resp="Taisho">嚧</rdg></app>折娜</note>苜蓿香<note place="inline">塞畢力迦</note>麝香<note place="inline"><note n="0435005" resp="Taisho" type="orig" place="foot text">莫迦婆伽＝莫訶波伽【西】</note><app n="0435005"><lem>莫迦婆伽</lem><rdg wit="【西】" resp="Taisho">莫訶波伽</rdg></app></note>雄
-<lb n="0435a02"/>黃<note place="inline">末<note n="0435006" resp="Taisho" type="orig" place="foot text">捺＝羅【宮】</note><note n="0435006" resp="CBETA" type="mod"><corr sic="捺" resp="CBETA.Maha">&CB00178;</corr>＝羅【宮】</note><app n="0435006"><lem>&CB00178;</lem><rdg wit="【宮】" resp="Taisho">羅</rdg></app>眵羅</note>合&CB02117;樹<note place="inline">尸利灑</note>白及<note place="inline">因達<note n="0435007" resp="Taisho" type="orig" place="foot text">囉＝羅【三】【宮】【西】</note><note n="0435007" resp="CBETA" type="mod">囉＝羅【宋】【元】【明】【宮】【西】</note><app n="0435007"><lem>囉</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">羅</rdg></app>喝悉哆</note>芎藭<note place="inline"><note n="0435008" resp="Taisho" type="orig" place="foot text">闍＝間【宮】</note><app n="0435008"><lem>闍</lem><rdg wit="【宮】" resp="Taisho">間</rdg></app>莫迦</note><note n="0435009" resp="Taisho" type="orig" place="foot text">&CB02141;＝苟【三】【宮】【西】</note><note n="0435009" resp="CBETA" type="mod">&CB02141;＝苟【宋】【元】【明】【宮】【西】</note><app n="0435009"><lem>&CB02141;</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">苟</rdg></app>
-<lb n="0435a03"/>杞根<note place="inline">苫弭</note>松脂<note place="inline">室利薜瑟<note n="0435010" resp="Taisho" type="orig" place="foot text">得＝&CB03720;【元】</note><app n="0435010"><lem>得</lem><rdg wit="【元】" resp="Taisho">&CB03720;</rdg></app>迦</note>桂皮<note place="inline"><note n="0435011" resp="Taisho" type="orig" place="foot text">咄＝吐【西】</note><app n="0435011"><lem>咄</lem><rdg wit="【西】" resp="Taisho">吐</rdg></app>者</note>香附子<note place="inline">目<note n="0435012" resp="Taisho" type="orig" place="foot text">窣＝箤【宋】【元】</note><app n="0435012"><lem>窣</lem><rdg wit="【宋】【元】" resp="Taisho">箤</rdg></app>哆</note>沈香
-<lb n="0435a04"/><note place="inline">惡揭嚕</note>栴檀<note place="inline">栴檀娜</note>零凌香<note place="inline">多揭羅</note>丁子<note place="inline">索瞿者</note>&CB00614;金<note place="inline"><note n="0435013" resp="Taisho" type="orig" place="foot text">茶矩麼＝恭矩【宮】【西】</note><app n="0435013"><lem>茶矩麼</lem><rdg wit="【宮】【西】" resp="Taisho">恭矩</rdg></app></note>
-<lb n="0435a05"/>婆律膏<note place="inline">揭羅娑</note>葦香<note place="inline">捺剌柁</note>竹黃<note place="inline"><note n="0435014" resp="Taisho" type="orig" place="foot text">&CB02982;＝&CB13519;【西】</note><app n="0435014"><lem>&CB02982;</lem><rdg wit="【西】" resp="Taisho">&CB13519;</rdg></app>路戰娜</note>細豆蔻<note place="inline">蘇泣迷羅</note>
-<lb n="0435a06"/>甘松<note place="inline"><note n="0435015" resp="Taisho" type="orig" place="foot text">苦弭＝苫弭【宋】【元】【宮】【西】，弭苫【明】</note><note n="0435015" resp="CBETA" type="mod">苦弭＝苫弭【宋】【元】【宮】【西】，＝弭苫【明】</note><app n="0435015"><lem>苦弭</lem><rdg wit="【宋】【元】【宮】【西】" resp="Taisho">苫弭</rdg><rdg wit="【明】" resp="Taisho">弭苫</rdg></app>哆</note>藿香<note place="inline">&CB00425;怛羅</note>茅根香<note place="inline"><note n="0435016" resp="Taisho" type="orig" place="foot text">嗢＝呾【宮】</note><app n="0435016"><lem>嗢</lem><rdg wit="【宮】" resp="Taisho">呾</rdg></app>尸羅</note>叱<note n="0435017" resp="Taisho" type="orig" place="foot text">脂＝&CB03296;【三】【宮】</note><note n="0435017" resp="CBETA" type="mod">脂＝&CB03296;【宋】【元】【明】【宮】</note><app n="0435017"><lem>脂</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB03296;</rdg></app><note place="inline">薩洛計</note>艾
-<lb n="0435a07"/>納<note place="inline"><note n="0435018" resp="Taisho" type="orig" place="foot text">世＝丑【宮】</note><app n="0435018"><lem>世</lem><rdg wit="【宮】" resp="Taisho">丑</rdg></app>黎也</note>安息香<note place="inline">窶具&CB00256;</note>芥子<note place="inline">薩利<note n="0435019" resp="Taisho" type="orig" place="foot text">殺＝移【宮】</note><app n="0435019"><lem>殺</lem><rdg wit="【宮】" resp="Taisho">移</rdg></app>跛</note>馬芹<note place="inline">葉婆&CB00135;</note>龍花
-<lb n="0435a08"/>鬚<note place="inline">那伽雞薩羅</note>白膠<note place="inline">薩折羅婆</note>青木<note place="inline">矩瑟侘</note>皆等分</p>
+<lb n="0435a01"/><p>
+<note n="0435001" resp="Taisho" type="orig" place="foot text">菖＝昌【三】【宮】【西】</note>
+<note n="0435001" resp="CBETA" type="mod">菖＝昌【宋】【元】【明】【宮】【西】</note>
+<app n="0435001"><lem>菖</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">昌</rdg></app>
+<note n="0435002" resp="Taisho" type="orig" place="foot text">蒲＝蒱【宋】【元】【宮】</note>
+<app n="0435002"><lem>蒲</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">蒱</rdg></app><note place="inline">
+<note n="0435003" resp="Taisho" type="orig" place="foot text">&CB00849;＝跛【明】</note>
+<note n="0435003" resp="CBETA" type="mod"><corr sic="＆CB00849；" resp="CBETA.Maha">跋</corr>＝跛【明】</note>
+<app n="0435003"><lem>跋</lem><rdg wit="【明】" resp="Taisho">跛</rdg></app>者</note>．牛黃<note place="inline">瞿
+<note n="0435004" resp="Taisho" type="orig" place="foot text">盧＝嚧【西】</note>
+<app n="0435004"><lem>盧</lem><rdg wit="【西】" resp="Taisho">嚧</rdg></app>折娜</note>．苜蓿香<note place="inline">塞畢力迦</note>．麝香<note place="inline">
+<note n="0435005" resp="Taisho" type="orig" place="foot text">莫迦婆伽＝莫訶波伽【西】</note>
+<app n="0435005"><lem>莫迦婆伽</lem><rdg wit="【西】" resp="Taisho">莫訶波伽</rdg></app></note>．雄
+<lb n="0435a02"/>黃<note place="inline">末
+<note n="0435006" resp="Taisho" type="orig" place="foot text">捺＝羅【宮】</note>
+<note n="0435006" resp="CBETA" type="mod"><corr sic="捺" resp="CBETA.Maha">&CB00178;</corr>＝羅【宮】</note>
+<app n="0435006"><lem>&CB00178;</lem><rdg wit="【宮】" resp="Taisho">羅</rdg></app>眵羅</note>．合&CB02117;樹<note place="inline">尸利灑</note>．白及<note place="inline">因達
+<note n="0435007" resp="Taisho" type="orig" place="foot text">囉＝羅【三】【宮】【西】</note>
+<note n="0435007" resp="CBETA" type="mod">囉＝羅【宋】【元】【明】【宮】【西】</note>
+<app n="0435007"><lem>囉</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">羅</rdg></app>喝悉哆</note>．芎藭<note place="inline">
+<note n="0435008" resp="Taisho" type="orig" place="foot text">闍＝間【宮】</note>
+<app n="0435008"><lem>闍</lem><rdg wit="【宮】" resp="Taisho">間</rdg></app>莫迦</note>．
+<note n="0435009" resp="Taisho" type="orig" place="foot text">&CB02141;＝苟【三】【宮】【西】</note>
+<note n="0435009" resp="CBETA" type="mod">&CB02141;＝苟【宋】【元】【明】【宮】【西】</note>
+<app n="0435009"><lem>&CB02141;</lem><rdg wit="【宋】【元】【明】【宮】【西】" resp="Taisho">苟</rdg></app>
+<lb n="0435a03"/>杞根<note place="inline">苫弭</note>．松脂<note place="inline">室利薜瑟
+<note n="0435010" resp="Taisho" type="orig" place="foot text">得＝&CB03720;【元】</note>
+<app n="0435010"><lem>得</lem><rdg wit="【元】" resp="Taisho">&CB03720;</rdg></app>迦</note>．桂皮<note place="inline">
+<note n="0435011" resp="Taisho" type="orig" place="foot text">咄＝吐【西】</note>
+<app n="0435011"><lem>咄</lem><rdg wit="【西】" resp="Taisho">吐</rdg></app>者</note>．香附子<note place="inline">目
+<note n="0435012" resp="Taisho" type="orig" place="foot text">窣＝箤【宋】【元】</note>
+<app n="0435012"><lem>窣</lem><rdg wit="【宋】【元】" resp="Taisho">箤</rdg></app>哆</note>．沈香
+<lb n="0435a04"/><note place="inline">惡揭嚕</note>．栴檀<note place="inline">栴檀娜</note>．零凌香<note place="inline">多揭羅</note>．丁子<note place="inline">索瞿者</note>．&CB00614;金<note place="inline">
+<note n="0435013" resp="Taisho" type="orig" place="foot text">茶矩麼＝恭矩【宮】【西】</note>
+<app n="0435013"><lem>茶矩麼</lem><rdg wit="【宮】【西】" resp="Taisho">恭矩</rdg></app></note>．
+<lb n="0435a05"/>婆律膏<note place="inline">揭羅娑</note>．葦香<note place="inline">捺剌柁</note>．竹黃<note place="inline">
+<note n="0435014" resp="Taisho" type="orig" place="foot text">&CB02982;＝&CB13519;【西】</note>
+<app n="0435014"><lem>&CB02982;</lem><rdg wit="【西】" resp="Taisho">&CB13519;</rdg></app>路戰娜</note>．細豆蔻<note place="inline">蘇泣迷羅</note>．
+<lb n="0435a06"/>甘松<note place="inline">
+<note n="0435015" resp="Taisho" type="orig" place="foot text">苦弭＝苫弭【宋】【元】【宮】【西】，弭苫【明】</note>
+<note n="0435015" resp="CBETA" type="mod">苦弭＝苫弭【宋】【元】【宮】【西】，＝弭苫【明】</note>
+<app n="0435015"><lem>苦弭</lem><rdg wit="【宋】【元】【宮】【西】" resp="Taisho">苫弭</rdg><rdg wit="【明】" resp="Taisho">弭苫</rdg></app>哆</note>．藿香<note place="inline">&CB00425;怛羅</note>．茅根香<note place="inline">
+<note n="0435016" resp="Taisho" type="orig" place="foot text">嗢＝呾【宮】</note>
+<app n="0435016"><lem>嗢</lem><rdg wit="【宮】" resp="Taisho">呾</rdg></app>尸羅</note>．叱
+<note n="0435017" resp="Taisho" type="orig" place="foot text">脂＝&CB03296;【三】【宮】</note>
+<note n="0435017" resp="CBETA" type="mod">脂＝&CB03296;【宋】【元】【明】【宮】</note>
+<app n="0435017"><lem>脂</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB03296;</rdg></app><note place="inline">薩洛計</note>．艾
+<lb n="0435a07"/>納<note place="inline">
+<note n="0435018" resp="Taisho" type="orig" place="foot text">世＝丑【宮】</note>
+<app n="0435018"><lem>世</lem><rdg wit="【宮】" resp="Taisho">丑</rdg></app>黎也</note>．安息香<note place="inline">窶具&CB00256;</note>．芥子<note place="inline">薩利
+<note n="0435019" resp="Taisho" type="orig" place="foot text">殺＝移【宮】</note>
+<app n="0435019"><lem>殺</lem><rdg wit="【宮】" resp="Taisho">移</rdg></app>跛</note>．馬芹<note place="inline">葉婆&CB00135;</note>．龍花
+<lb n="0435a08"/>鬚<note place="inline">那伽雞薩羅</note>．白膠<note place="inline">薩折羅婆</note>．青木<note place="inline">矩瑟侘</note>皆等分</p>
 <lb n="0435a09"/><p>以<note n="0435020" resp="Taisho" type="orig" place="foot text">Pu&sdotblw;ya.</note><foreign n="0435020" lang="san" resp="Taisho" place="foot">Pu&sdotblw;ya.</foreign>布灑星日。一處擣篩。取其香末。當以
 <lb n="0435a10"/>此&CB00057;&CB00057;一百八遍。&CB00057;曰</p>
 <lb n="0435a11"/><p type="dharani"><note n="0435021" resp="Taisho" type="orig" place="foot text">Tadyath&amacron; suk&rdotblw;ti k&rdotblw;ti k&rdotblw;ti k&amacron;matale jankarati ukarati indrajalini &sacute;akarante v&amacron;cacile abanti(ka)kasikena kudu(kudu)...khakavile kapile kapile kapilamati &sacute;&imacron;lamati sandhiduramati paba-(da)ka bha&mdotblw;cile &Sacute;ire &Sacute;ire satyasthite sv&amacron;h&amacron;.</note><foreign n="0435021" lang="san" resp="Taisho" place="foot">Tadyath&amacron; suk&rdotblw;ti k&rdotblw;ti k&rdotblw;ti k&amacron;matale jankarati ukarati indrajalini &sacute;akarante v&amacron;cacile abanti(ka)kasikena kudu(kudu)...khakavile kapile kapile kapilamati &sacute;&imacron;lamati sandhiduramati paba-(da)ka bha&mdotblw;cile &Sacute;ire &Sacute;ire satyasthite sv&amacron;h&amacron;.</foreign>怛姪他　蘇訖栗帝　訖栗帝訖栗<note n="0435022" resp="Taisho" type="orig" place="foot text">帝＝計【三】【宮】</note><note n="0435022" resp="CBETA" type="mod">帝＝計【宋】【元】【明】【宮】</note><app n="0435022"><lem>帝</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">計</rdg></app>劫摩
