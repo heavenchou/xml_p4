@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)</edition>
+		<edition>$Revision: 1.7 $ (Big5)</edition>
 	</editionStmt>
 	<extent>15卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/24 05:52:41 $</date>
+		<date>$Date: 2003/06/25 06:43:52 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 49, No. 2034 &desc;</bibl>
@@ -59,8 +59,8 @@
 	</change>
 <!--
 $Log: T49n2034.xml,v $
-Revision 1.6  2003/06/24 05:52:41  moved
-執行 corr2app 作業
+Revision 1.7  2003/06/25 06:43:52  moved
+執行 corr2app.pl v0.3.1
 
 Revision 1.5  2003/06/23 05:10:00  moved
 ＊校勘插入 xml 作業
@@ -169,7 +169,7 @@ Revision 1.9  2001/02/07 07:30:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.8  2001/02/03 08:09:53  chris
-Added keywords $Revision: 1.6 $, $Date: 2003/06/24 05:52:41 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2003/06/25 06:43:52 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -391,7 +391,7 @@ Added comment  for Emacs
 <lb n="0028a17"/><p><note place="inline">辛亥</note>孝<note n="0028002" resp="Taisho" type="orig" place="foot text">文＝交【宋】【宮】</note><app n="0028002"><lem>文</lem><rdg wit="【宋】【宮】" resp="Taisho">交</rdg></app>王<note n="0028003" resp="Taisho" type="orig" place="foot text">柱＝戊【元】【明】</note><app n="0028003"><lem>柱</lem><rdg wit="【元】【明】" resp="Taisho">戊</rdg></app>元<note place="inline">佛入涅槃來至此三百六十一年</note></p>
 <lb n="0028a18"/><p><note place="inline">壬子</note>莊襄王子楚元<note place="inline">孝文子。治三年。佛入涅槃來三百六十二年</note>　<note place="inline">癸丑</note>二　<note place="inline">甲寅</note>三</p>
 <lb n="0028a19"/><p><note place="inline">乙卯</note>始皇帝<note n="0028004" resp="Taisho" type="orig" place="foot text">政元＝子正【三】【宮】</note><note n="0028004" resp="CBETA" type="mod">政元＝子正【宋】【元】【明】【宮】</note><app n="0028004"><lem>政元</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">子正</rdg></app><note place="inline">莊襄子治三十<note n="0028005" resp="Taisho" type="orig" place="foot text">〔七〕－【宮】</note><app n="0028005"><lem>七</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>年。呂不韋為相。佛入涅槃來至　此三百六十五年</note>　<note place="inline">丙辰</note>二　<note place="inline">丁巳</note>三　<note place="inline">戊午</note>四
-<lb n="0028a20"/>　<note place="inline">己未</note>五　<note place="inline">庚申</note>六　<note place="inline">辛酉</note>七　<note place="inline">壬戌</note>八<note place="inline">封<note n="0028006" resp="Taisho" type="orig" place="foot text">嫪＝&CB13880;【宮】＊</note><app n="0028006"><lem>嫪</lem><rdg wit="【宮】" resp="Taisho">&CB13880;</rdg></app>毒為長信侯</note>　<note place="inline">癸亥</note>九<note place="inline">辛冠誅<app type="＊" source="0028006"><lem>嫪</lem><rdg resp="Taisho" wit="【宮】">&CB13880;</rdg></app><note n="0028007" resp="Taisho" type="orig" place="foot text">毐＝毒【明】【宮】</note><app n="0028007"><lem><app><lem resp="march">毐</lem><rdg wit="【大】">毒</rdg></app></lem><rdg wit="【明】【宮】" resp="Taisho">毒</rdg></app>徙其家於蜀</note>
+<lb n="0028a20"/>　<note place="inline">己未</note>五　<note place="inline">庚申</note>六　<note place="inline">辛酉</note>七　<note place="inline">壬戌</note>八<note place="inline">封<note n="0028006" resp="Taisho" type="orig" place="foot text">嫪＝&CB13880;【宮】＊</note><app n="0028006"><lem>嫪</lem><rdg wit="【宮】" resp="Taisho">&CB13880;</rdg></app>毒為長信侯</note>　<note place="inline">癸亥</note>九<note place="inline">辛冠誅<app type="＊" source="0028006"><lem>嫪</lem><rdg resp="Taisho" wit="【宮】">&CB13880;</rdg></app><note n="0028007" resp="Taisho" type="orig" place="foot text">毐＝毒【明】【宮】</note><app n="0028007"><lem resp="march">毐</lem><rdg wit="【大】">毒</rdg><rdg wit="【明】【宮】" resp="Taisho">毒</rdg></app>徙其家於蜀</note>
 <lb n="0028a21"/>　<note place="inline">甲子</note>十<note place="inline">呂不韋免相徙太后於南宮<note n="0028008" resp="Taisho" type="orig" place="foot text">〔后〕－【三】【宮】</note><note n="0028008" resp="CBETA" type="mod">〔后〕－【宋】【元】【明】【宮】</note><app n="0028008"><lem>后</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>任李斯</note>　<note place="inline">乙丑</note>十一<note place="inline">徙呂不韋於河南</note>　<note place="inline">丙寅</note>十二　<note place="inline">丁卯</note>十三　<note place="inline">戊辰</note>十四
 <lb n="0028a22"/>　<note place="inline">己巳</note>十五　<note place="inline">庚午</note>十六　<note place="inline">辛未</note>十七<note place="inline">是歲滅韓。以其地為穎川郡</note>　<note place="inline">壬申</note>十八　<note place="inline">癸酉</note>十九
 <lb n="0028a23"/>　<note place="inline">甲戌</note>二十　<note place="inline">乙亥</note>二十一　<note place="inline">丙子</note>二十二<note place="inline"><note n="0028009" resp="Taisho" type="orig" place="foot text">其＝是【三】【宮】</note><note n="0028009" resp="CBETA" type="mod">其＝是【宋】【元】【明】【宮】</note><app n="0028009"><lem>其</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是</rdg></app>歲滅魏以其地置梁郡</note>　<note place="inline">丁丑</note>二十三　<note place="inline">戊寅</note>二十四<note place="inline">是歲滅楚定江東置會稽郡</note>
@@ -5737,7 +5737,7 @@ Added comment  for Emacs
 <lb n="0105b16"/><p>對根起行雜<note n="0105019" resp="Taisho" type="orig" place="foot text">錄＋（集）【三】【宮】</note><note n="0105019" resp="CBETA" type="mod">錄＋（集）【宋】【元】【明】【宮】</note><app n="0105019"><lem>錄</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">錄集</rdg></app>三十二卷</p>
 <lb n="0105b17"/><p>三階位別<note n="0105020" resp="Taisho" type="orig" place="foot text">集錄＝錄集【三】【宮】</note><note n="0105020" resp="CBETA" type="mod">集錄＝錄集【宋】【元】【明】【宮】</note><app n="0105020"><lem>集錄</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">錄集</rdg></app>三卷</p>
 <lb n="0105b18"/><p>右二部合三十五卷。真寂寺沙門釋信行撰。
-<lb n="0105b19"/>行魏州人。少而落<note n="0105021" resp="Taisho" type="orig" place="foot text">釆＝&CB04614;【三】</note><note n="0105021" resp="CBETA" type="mod"><corr sic="釆" resp="CBETA.mar">采</corr>＝&CB04614;【宋】【元】【明】</note><app n="0105021"><lem><app><lem resp="march">采</lem><rdg wit="【大】">釆</rdg></app></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB04614;</rdg></app>博綜群經。蘊獨見之
+<lb n="0105b19"/>行魏州人。少而落<note n="0105021" resp="Taisho" type="orig" place="foot text">釆＝&CB04614;【三】</note><note n="0105021" resp="CBETA" type="mod"><corr sic="釆" resp="CBETA.mar">采</corr>＝&CB04614;【宋】【元】【明】</note><app n="0105021"><lem resp="march">采</lem><rdg wit="【大】">釆</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">&CB04614;</rdg></app>博綜群經。蘊獨見之
 <lb n="0105b20"/>明。顯高蹈之跡。與先舊德解行弗同。不<note n="0105022" resp="Taisho" type="orig" place="foot text">令＝全【元】【明】</note><app n="0105022"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">全</rdg></app>
 <lb n="0105b21"/>聲聞兼菩薩行。捨二百五十戒。居大僧下在
 <lb n="0105b22"/>沙彌上。門徒悉行方等。結淨頭陀乞食。日止
@@ -6288,7 +6288,7 @@ Added comment  for Emacs
 <lb n="0111c15"/><p>龍施菩薩本起經一卷　龍施女經一卷<note place="inline">上二
 <lb n="0111c16"/>經同本別譯異名</note></p>
 <lb n="0111c17"/><p>了本生死經一卷　異了本生死經一卷</p>
-<lb n="0111c18"/><p>稻<note n="0111025" resp="Taisho" type="orig" place="foot text">&CB00023;＝竿【元】</note><app n="0111025"><lem><app><lem resp="march">&CB00023;</lem><rdg wit="【大】">芋</rdg></app></lem><rdg wit="【元】" resp="Taisho">竿</rdg></app>經一卷<note place="inline">上三經同本別譯異名</note></p>
+<lb n="0111c18"/><p>稻<note n="0111025" resp="Taisho" type="orig" place="foot text">&CB00023;＝竿【元】</note><app n="0111025"><lem resp="march">&CB00023;</lem><rdg wit="【大】">芋</rdg><rdg wit="【元】" resp="Taisho">竿</rdg></app>經一卷<note place="inline">上三經同本別譯異名</note></p>
 <lb n="0111c19"/><p>大方廣菩薩十地經一卷</p>
 <lb n="0111c20"/><p>菩薩十地經一卷　莊嚴菩提心經一卷<note place="inline">上三
 <lb n="0111c21"/>經同本別譯異名</note></p>
