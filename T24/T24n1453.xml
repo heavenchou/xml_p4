@@ -20,7 +20,7 @@
                         </respStmt>
                 </titleStmt>
         <editionStmt>
-                <edition>$Revision: 1.15 $ (Big5)<date>$Date: 2004/05/12 05:35:08 $</date></edition>
+                <edition>$Revision: 1.16 $ (Big5)<date>$Date: 2004/06/29 14:13:34 $</date></edition>
         </editionStmt>
         <extent>10卷</extent>
         <publicationStmt>
@@ -33,7 +33,7 @@
                 <availability>
                         <p>Available for non-commercial use when distributed with this header intact.</p>
                 </availability>
-                <date>$Date: 2004/05/12 05:35:08 $</date>
+                <date>$Date: 2004/06/29 14:13:34 $</date>
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taisho Tripitaka Vol. 24, No. 1453</bibl>
@@ -59,6 +59,9 @@
         </change>
 <!--
 $Log: T24n1453.xml,v $
+Revision 1.16  2004/06/29 14:13:34  saywhat
+juan 加上 jhead & title
+
 Revision 1.15  2004/05/12 05:35:08  saywhat
 經號的<head> → <head type="no">
 
@@ -148,7 +151,7 @@ Revision 1.6  2001/02/07 07:00:39  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:20  chris
-Added keywords $Revision: 1.15 $, $Date: 2004/05/12 05:35:08 $ and $Log.
+Added keywords $Revision: 1.16 $, $Date: 2004/06/29 14:13:34 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -158,12 +161,12 @@ Added comment  for Emacs
 <lb n="0455c03"/>
 <milestone unit="juan" n="1"/>
 <lb n="0455c04"/>
-<lb n="0455c05"/><head type="no">No. 1453</head><div1 type="jing">
-<lb n="0455c06"/><juan fun="open" n="001"><mulu type="卷" n="001"/>根本說一切有部百一羯磨
-<lb n="0455c07"/>卷第一</juan>
+<lb n="0455c05"/><head type="no">No. 1453</head>
+<lb n="0455c06"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0455c07"/>卷第一</jhead></juan>
 <lb n="0455c08"/>
 <lb n="0455c09"/><byline type="Translator"><note n="0455008" resp="Taisho" type="orig" place="foot text">（唐）＋三藏【三】【宮】＊</note><note n="0455008" resp="CBETA" type="mod">（唐）＋三藏【宋】【元】【明】【宮】＊</note><app n="0455008"><lem>三藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唐三藏</rdg></app>法師義淨奉　制譯</byline>
-<lb n="0455c10"/><p>爾時薄伽梵。在室羅伐城逝多林給孤獨園。
+<lb n="0455c10"/><div1 type="jing"><p>爾時薄伽梵。在室羅伐城逝多林給孤獨園。
 <lb n="0455c11"/>告諸苾芻曰。從今已去汝諸苾芻。凡有來求。
 <lb n="0455c12"/>善說法律情樂出家及受近圓者。阿遮利耶。
 <lb n="0455c13"/>鄔波馱耶。應與出家及受近圓。時諸苾芻不
@@ -519,12 +522,12 @@ Added comment  for Emacs
 <lb n="0459c03"/><l>實語者所說</l><l>正覺之所知</l></lg>
 <lb n="0459c04"/><p>汝某甲已受近圓竟。勿為放逸。當謹奉行。令
 <lb n="0459c05"/>在前而去<note n="0459004" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0459c06"/><juan fun="close" n="001"><note n="0459005" resp="Taisho" type="orig" place="foot text">〔根本說一切有部百一〕－【聖】【聖乙】＊</note><app n="0459005"><lem>根本說一切有部百一</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>羯磨卷第一</juan>
+<lb n="0459c06"/><juan fun="close" n="001"><jhead><title><note n="0459005" resp="Taisho" type="orig" place="foot text">〔根本說一切有部百一〕－【聖】【聖乙】＊</note><app n="0459005"><lem>根本說一切有部百一</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>羯磨</title>卷第一</jhead></juan>
 <lb n="0459c07"/>
 <milestone unit="juan" n="2"/>
 <lb n="0459c08"/>
-<lb n="0459c09"/><juan fun="open" n="002"><mulu type="卷" n="002"/>根本說一切有部百一羯磨
-<lb n="0459c10"/>卷第二</juan>
+<lb n="0459c09"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0459c10"/>卷第二</jhead></juan>
 <lb n="0459c11"/>
 <lb n="0459c12"/><byline type="Translator"><anchor id="fxT24p0459c01"/>三藏法師義淨奉　制譯</byline>
 <lb n="0459c13"/><p>爾時具壽鄔波離請世尊曰。大德。如世尊說。
@@ -1011,16 +1014,16 @@ Added comment  for Emacs
 <lb n="0465a16"/><l>端正者出家</l><l>清淨者圓具</l>
 <lb n="0465a17"/><l>實語者所說</l><l>正覺之所知</l></lg>
 <lb n="0465a18"/><p>汝某甲已受近圓竟。勿為放逸。當謹奉行。令
-<lb n="0465a19"/>在前而去<note n="0465001" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0465a20"/><juan fun="close" n="002">根本說一切有部百一羯磨卷第二</juan></div1>
+<lb n="0465a19"/>在前而去<note n="0465001" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0465a20"/><juan fun="close" n="002"><jhead><title>根本說一切有部百一羯磨</title>卷第二</jhead></juan>
 <lb n="0465a21"/>
-<milestone unit="juan" n="3"/><div1 type="other">
+<milestone unit="juan" n="3"/>
 <lb n="0465a22"/>
-<lb n="0465a23"/><juan fun="open" n="003"><mulu type="卷" n="003"/>根本說一切有部百一羯磨
-<lb n="0465a24"/>卷第三</juan>
+<lb n="0465a23"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0465a24"/>卷第三</jhead></juan>
 <lb n="0465a25"/>
 <lb n="0465a26"/><byline type="Translator"><anchor id="fxT24p0465a01"/>三藏法師義淨奉　制譯</byline>
-<lb n="0465a27"/><head>畜門徒白二</head>
+<lb n="0465a27"/><div1 type="other"><head>畜門徒白二</head>
 <lb n="0465a28"/><p>如世尊說。若苾芻尼滿十二夏。欲畜門徒。應
 <lb n="0465a29"/>從苾芻尼僧伽乞畜門徒羯磨。應如是乞。敷
 <pb ed="T" id="T24.1453.0465b" n="0465b"/>
@@ -1409,16 +1412,16 @@ Added comment  for Emacs
 <lb n="0469b25"/>問請決疑罪。我當如法悔除。若說別解脫戒
 <lb n="0469b26"/>經。苾芻在於座上憶所犯罪。及已疑罪。同前
 <lb n="0469b27"/>次第自心念守持。後對清淨苾芻。當如法說
-<lb n="0469b28"/>罪<note n="0469006" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0469b29"/><juan fun="close" n="003"><anchor id="fxT24p0469b02"/>根本說一切有部百一羯磨卷第三</juan>
-<pb ed="T" id="T24.1453.0469c" n="0469c"/></div1>
+<lb n="0469b28"/>罪<note n="0469006" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0469b29"/><juan fun="close" n="003"><jhead><title><anchor id="fxT24p0469b02"/>根本說一切有部百一羯磨</title>卷第三</jhead></juan>
+<pb ed="T" id="T24.1453.0469c" n="0469c"/>
 <lb n="0469c01"/>
-<milestone unit="juan" n="4"/><div1 type="other">
-<lb n="0469c02"/><juan fun="open" n="004"><mulu type="卷" n="004"/>根本說一切有部百一羯磨
-<lb n="0469c03"/>卷第四</juan>
+<milestone unit="juan" n="4"/>
+<lb n="0469c02"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0469c03"/>卷第四</jhead></juan>
 <lb n="0469c04"/>
 <lb n="0469c05"/><byline type="Translator"><anchor id="fxT24p0469c01"/>三藏法師義淨奉　制譯</byline>
-<lb n="0469c06"/><head>褒灑陀一切僧伽有罪單白</head>
+<lb n="0469c06"/><div1 type="other"><head>褒灑陀一切僧伽有罪單白</head>
 <lb n="0469c07"/><p>若十五日褒灑陀時。一切僧伽悉皆有犯。然
 <lb n="0469c08"/>無一人能向餘住處。對清淨苾芻如法說悔。
 <lb n="0469c09"/>可令我等對彼苾芻如法悔除其罪。一切僧
@@ -1828,16 +1831,16 @@ Added comment  for Emacs
 <lb n="0474a23"/><note n="0474002" resp="Taisho" type="orig" place="foot text">至時＝時至【明】</note><app n="0474002"><lem>至時</lem><rdg wit="【明】" resp="Taisho">時至</rdg></app>聽者。僧伽應許。僧伽今共出羯恥那
 <lb n="0474a24"/>衣。白如是。時諸苾芻既出衣已。不知云何。白
 <lb n="0474a25"/>佛。佛言。汝諸苾芻張衣之時。得十饒益衣。既
-<lb n="0474a26"/>出已此事應遮。違者得罪<note n="0474003" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0474a27"/><juan fun="close" n="004">根本說一切有部百一羯磨卷第四</juan>
-<pb ed="T" id="T24.1453.0474b" n="0474b"/></div1>
+<lb n="0474a26"/>出已此事應遮。違者得罪<note n="0474003" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0474a27"/><juan fun="close" n="004"><jhead><title>根本說一切有部百一羯磨</title>卷第四</jhead></juan>
+<pb ed="T" id="T24.1453.0474b" n="0474b"/>
 <lb n="0474b01"/>
-<milestone unit="juan" n="5"/><div1 type="other">
-<lb n="0474b02"/><juan fun="open" n="005"><mulu type="卷" n="005"/>根本說一切有部百一羯磨
-<lb n="0474b03"/>卷第五</juan>
+<milestone unit="juan" n="5"/>
+<lb n="0474b02"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0474b03"/>卷第五</jhead></juan>
 <lb n="0474b04"/>
 <lb n="0474b05"/><byline type="Translator"><anchor id="fxT24p0474b01"/>三藏法師義淨奉　制譯</byline>
-<lb n="0474b06"/><head>五年同利養別說戒白二</head>
+<lb n="0474b06"/><div1 type="other"><head>五年同利養別說戒白二</head>
 <lb n="0474b07"/><p>具壽鄔波離請世尊曰。大德。<note n="0474004" resp="Taisho" type="orig" place="foot text">於＝于【明】下同</note><app n="0474004"><lem>於</lem><rdg wit="【明】" resp="Taisho">于</rdg></app>某聚落有
 <lb n="0474b08"/>一長者。造一住處。諸事具足。捨與四方僧
 <lb n="0474b09"/>伽。是時長者被王拘執。苾芻聞已棄寺他
@@ -2270,16 +2273,16 @@ Added comment  for Emacs
 <lb n="0479a01"/><p>大德僧伽聽。此營作苾芻某甲。於六年內乞
 <lb n="0479a02"/>作新敷具。若僧伽時至聽者。僧伽應許。僧伽
 <lb n="0479a03"/>今與營作苾芻某甲。於六年作新敷具。白如
-<lb n="0479a04"/>是。羯磨准白成<note n="0479001" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0479a05"/><juan fun="close" n="005"><note n="0479002" resp="Taisho" type="orig" place="foot text">〔根本說一切〕－【聖】</note><app n="0479002"><lem>根本說一切</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>有部百一羯磨卷第五</juan></div1>
+<lb n="0479a04"/>是。羯磨准白成<note n="0479001" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0479a05"/><juan fun="close" n="005"><jhead><title><note n="0479002" resp="Taisho" type="orig" place="foot text">〔根本說一切〕－【聖】</note><app n="0479002"><lem>根本說一切</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>有部百一羯磨</title>卷第五</jhead></juan>
 <lb n="0479a06"/>
 <milestone unit="juan" n="6"/>
-<lb n="0479a07"/><div1 type="other">
-<lb n="0479a08"/><juan fun="open" n="006"><mulu type="卷" n="006"/>根本說一切有部百一羯磨
-<lb n="0479a09"/>卷第六</juan>
+<lb n="0479a07"/>
+<lb n="0479a08"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0479a09"/>卷第六</jhead></juan>
 <lb n="0479a10"/>
 <lb n="0479a11"/><byline type="Translator"><anchor id="fxT24p0479a01"/>三藏法師義淨奉　制譯</byline>
-<lb n="0479a12"/><head><note n="0479003" resp="Taisho" type="orig" place="foot text">〔此一卷是〕－【明】</note><app n="0479003"><lem>此一卷是</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>悔眾教罪法</head>
+<lb n="0479a12"/><div1 type="other"><head><note n="0479003" resp="Taisho" type="orig" place="foot text">〔此一卷是〕－【明】</note><app n="0479003"><lem>此一卷是</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>悔眾教罪法</head>
 <lb n="0479a13"/><p>爾時具壽鄔陀夷故泄精。犯僧伽伐尸沙罪。
 <lb n="0479a14"/>半月覆藏。時鄔陀夷即以此緣。白諸苾芻。具
 <lb n="0479a15"/>壽。我鄔陀夷故泄精。犯僧伽伐尸沙罪。半月
@@ -2617,12 +2620,12 @@ Added comment  for Emacs
 <lb n="0482c17"/>其罪輕者應對一人如法除罪。波逸底迦突
 <lb n="0482c18"/>色訖里多。前因之罪准前。應作眾多大小覆
 <lb n="0482c19"/>藏之罪。咸應說悔<note n="0482009" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0482c20"/><juan fun="close" n="006"><note n="0482010" resp="Taisho" type="orig" place="foot text">〔根本說一切有部百一羯磨卷第六〕十四字－【明】</note><app n="0482010"><lem>根本說一切有部百一羯磨卷第六</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></juan>
+<lb n="0482c20"/><juan fun="close" n="006"><jhead><note n="0482010" resp="Taisho" type="orig" place="foot text">〔根本說一切有部百一羯磨卷第六〕十四字－【明】</note><app n="0482010"><lem><title>根本說一切有部百一羯磨</title>卷第六</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0482c21"/>
 <milestone unit="juan" n="7"/>
 <lb n="0482c22"/>
-<lb n="0482c23"/><juan fun="open" n="007"><mulu type="卷" n="007"/>根本說一切有部百一羯磨
-<lb n="0482c24"/>卷第七</juan>
+<lb n="0482c23"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0482c24"/>卷第七</jhead></juan>
 <lb n="0482c25"/>
 <lb n="0482c26"/><byline type="Translator"><anchor id="fxT24p0482c01"/>三藏法師義淨奉　制譯</byline>
 <lb n="0482c27"/><head>悔眾教罪之餘</head>
@@ -3058,16 +3061,16 @@ Added comment  for Emacs
 <lb n="0487c07"/>若不許者說。此是初羯磨。第二第三亦如是
 <lb n="0487c08"/>說。僧伽。已與半豆盧呬得迦諸苾芻等解令
 <lb n="0487c09"/>怖羯磨竟。僧伽已聽許。由其默<note n="0487009" resp="Taisho" type="orig" place="foot text">〔然〕－【宮】</note><app n="0487009"><lem>然</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>故。我今
-<lb n="0487c10"/>如是持<note n="0487010" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0487c11"/><juan fun="close" n="007"><note n="0487011" resp="Taisho" type="orig" place="foot text">〔根本〕－【聖乙】</note><app n="0487011"><lem>根本</lem><rdg wit="【聖乙】" resp="Taisho">&lac;</rdg></app>說一切有部百一羯磨卷第七</juan></div1>
+<lb n="0487c10"/>如是持<note n="0487010" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0487c11"/><juan fun="close" n="007"><jhead><title><note n="0487011" resp="Taisho" type="orig" place="foot text">〔根本〕－【聖乙】</note><app n="0487011"><lem>根本</lem><rdg wit="【聖乙】" resp="Taisho">&lac;</rdg></app>說一切有部百一羯磨</title>卷第七</jhead></juan>
 <lb n="0487c12"/>
 <milestone unit="juan" n="8"/>
-<lb n="0487c13"/><div1 type="other">
-<lb n="0487c14"/><juan fun="open" n="008"><mulu type="卷" n="008"/>根本說一切有部百一羯磨
-<lb n="0487c15"/>卷第八</juan>
+<lb n="0487c13"/>
+<lb n="0487c14"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0487c15"/>卷第八</jhead></juan>
 <lb n="0487c16"/>
 <lb n="0487c17"/><byline type="Translator"><anchor id="fxT24p0487c01"/>三藏法師義淨奉　制譯</byline>
-<lb n="0487c18"/><head>折伏白四</head>
+<lb n="0487c18"/><div1 type="other"><head>折伏白四</head>
 <lb n="0487c19"/><p>時有勝妙苾芻數犯眾教罪。諸苾芻與行遍
 <lb n="0487c20"/>住根本遍住。乃至重收根本。及摩那&CB01328;。更
 <lb n="0487c21"/>復重犯。諸苾芻以緣白佛。佛言。汝諸苾芻
@@ -3473,16 +3476,16 @@ Added comment  for Emacs
 <lb n="0492a06"/>齒木及刮舌<app type="＊" source="0492002"><lem>篦</lem><rdg resp="Taisho" wit="【宮】">箄</rdg></app>。咸須水洗謦咳作聲。或復彈
 <lb n="0492a07"/>指。以為<note n="0492003" resp="Taisho" type="orig" place="foot text">驚＝馨【三】，警【宮】</note><note n="0492003" resp="CBETA" type="mod">驚＝馨【宋】【元】【明】，＝警【宮】</note><app n="0492003"><lem>驚</lem><rdg wit="【宋】【元】【明】" resp="Taisho">馨</rdg><rdg wit="【宮】" resp="Taisho">警</rdg></app>覺。於屏穢處。方可棄之。必其
 <lb n="0492a08"/>少水於塵土內。揩&CB01901;而棄。若異此者。招越法
-<lb n="0492a09"/>罪</p>
-<lb n="0492a10"/><juan fun="close" n="008">根本說一切有部百一羯磨卷第八</juan></div1>
+<lb n="0492a09"/>罪</p></div1>
+<lb n="0492a10"/><juan fun="close" n="008"><jhead><title>根本說一切有部百一羯磨</title>卷第八</jhead></juan>
 <lb n="0492a11"/>
 <milestone unit="juan" n="9"/>
-<lb n="0492a12"/><div1 type="other">
-<lb n="0492a13"/><juan fun="open" n="009"><mulu type="卷" n="009"/>根本說一切有部百一羯磨
-<lb n="0492a14"/>卷第九</juan>
+<lb n="0492a12"/>
+<lb n="0492a13"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0492a14"/>卷第九</jhead></juan>
 <lb n="0492a15"/>
 <lb n="0492a16"/><byline type="Translator"><anchor id="fxT24p0492a02"/>三藏法師義淨奉　制譯</byline>
-<lb n="0492a17"/><head>違惱眾教白四</head>
+<lb n="0492a17"/><div1 type="other"><head>違惱眾教白四</head>
 <lb n="0492a18"/><p>爾時具壽鄔波離請世尊曰。大德。具壽闡陀
 <lb n="0492a19"/>犯眾多罪不如法說悔。諸苾芻欲令利益安
 <lb n="0492a20"/>樂住故告言。具壽。汝既犯罪。應如法說悔。
@@ -3887,11 +3890,11 @@ Added comment  for Emacs
 <pb ed="T" id="T24.1453.0496c" n="0496c"/>
 <lb n="0496c01"/>四種人。云何為四。一住本性。二在界內。三不
 <lb n="0496c02"/>捨威儀。四言有次緒<note n="0496005" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0496c03"/><juan fun="close" n="009"><note n="0496006" resp="Taisho" type="orig" place="foot text">〔根本說〕－【聖】【聖乙】</note><app n="0496006"><lem>根本說</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>一切有部百一羯磨卷第九</juan>
+<lb n="0496c03"/><juan fun="close" n="009"><jhead><title><note n="0496006" resp="Taisho" type="orig" place="foot text">〔根本說〕－【聖】【聖乙】</note><app n="0496006"><lem>根本說</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>一切有部百一羯磨</title>卷第九</jhead></juan>
 <lb n="0496c04"/>
 <milestone unit="juan" n="10"/>
-<lb n="0496c05"/><juan fun="open" n="010"><mulu type="卷" n="010"/>根本說一切有部百一羯磨
-<lb n="0496c06"/>卷第十</juan>
+<lb n="0496c05"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead><title>根本說一切有部百一羯磨</title>
+<lb n="0496c06"/>卷第十</jhead></juan>
 <lb n="0496c07"/>
 <lb n="0496c08"/><byline type="Translator"><anchor id="fxT24p0496c01"/>三藏法師義淨奉　制譯</byline>
 <lb n="0496c09"/><p>爾時給孤獨長者於逝多林施多衣物已。告
@@ -4226,6 +4229,6 @@ Added comment  for Emacs
 <lb n="0500b09"/>又復聖許為單白成。為白二白四成。據理相
 <lb n="0500b10"/>應通融可足。比由羯磨本中與大律二百餘
 <lb n="0500b11"/>卷相勘。為此尋撿極費<note n="0500005" resp="Taisho" type="orig" place="foot text">功＝工【明】</note><app n="0500005"><lem>功</lem><rdg wit="【明】" resp="Taisho">工</rdg></app>夫。後人勿致遲疑
-<lb n="0500b12"/>也<note n="0500006" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0500b13"/><juan fun="close" n="010">根本說一切有部百一羯磨卷第十</juan></div1>
+<lb n="0500b12"/>也<note n="0500006" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p></div1>
+<lb n="0500b13"/><juan fun="close" n="010"><jhead><title>根本說一切有部百一羯磨</title>卷第十</jhead></juan>
 </body></text></TEI.2>
