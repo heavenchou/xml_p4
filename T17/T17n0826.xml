@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/05/11 14:39:04 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/09/12 06:19:08 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 14:39:04 $</date>
+		<date>$Date: 2004/09/12 06:19:08 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 826 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T17n0826.xml,v $
+Revision 1.5  2004/09/12 06:19:08  saywhat
+modified juan close
+
 Revision 1.4  2004/05/11 14:39:04  saywhat
 修訂經號的<head> → <head type="no">
 
@@ -108,7 +111,7 @@ Revision 1.6  2001/02/07 06:52:44  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:42:24  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/05/11 14:39:04 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/09/12 06:19:08 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -118,11 +121,11 @@ Added comment  for Emacs
 <lb n="0868b13"/>
 <milestone unit="juan" n="1"/>
 <lb n="0868b14"/>
-<lb n="0868b15"/><head type="no">No. 826</head><div1 type="jing">
+<lb n="0868b15"/><head type="no">No. 826</head>
 <lb n="0868b16"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0868004" resp="Taisho" type="orig" place="foot text">（佛說）＋弟子【三】【宮】＊</note><note n="0868004" resp="CBETA" type="mod">（佛說）＋弟子【宋】【元】【明】【宮】＊</note><app n="0868004"><lem>弟子</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說弟子</rdg></app>死復生經</title></jhead></juan>
 <lb n="0868b17"/>
 <lb n="0868b18"/><byline type="Translator">宋居士沮渠京聲譯</byline>
-<lb n="0868b19"/><p>聞如是。一時佛在祇樹給孤獨園。與千二百
+<lb n="0868b19"/><div1 type="jing"><p>聞如是。一時佛在祇樹給孤獨園。與千二百
 <lb n="0868b20"/>五十比丘俱。菩薩萬二千人。神足弟子五百
 <lb n="0868b21"/>人俱。爾時有賢者優婆塞。本奉外九十六種
 <lb n="0868b22"/>道。厭苦禱祠委捨入法。奉戒不犯精進一心。
@@ -281,6 +284,6 @@ Added comment  for Emacs
 <lb n="0870a25"/>佛說經。父母諸家皆得阿羅漢道諦。即得阿
 <lb n="0870a26"/>惟越致。堅住不復動轉。諸比丘及諸菩薩大
 <lb n="0870a27"/>弟子。天龍鬼神。聞經莫不歡喜。皆前為佛作
-<lb n="0870a28"/>禮而去</p>
-<lb n="0870a29"/><trailer><title><app type="＊" source="0868004"><lem>弟子</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">佛說弟子</rdg></app>死復生經</title></trailer><juan fun="close" n="001"></juan></div1>
+<lb n="0870a28"/>禮而去</p></div1>
+<lb n="0870a29"/><juan fun="close" n="001"><jhead><title><app type="＊" source="0868004"><lem>弟子</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">佛說弟子</rdg></app>死復生經</title></jhead></juan>
 </body></text></TEI.2>
