@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.14 $ (Big5)<date>$Date: 2004/04/20 08:42:29 $</date></edition>
+		<edition>$Revision: 1.15 $ (Big5)<date>$Date: 2004/06/25 02:36:51 $</date></edition>
 	</editionStmt>
 	<extent>20卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:42:29 $</date>
+		<date>$Date: 2004/06/25 02:36:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 44, No. 1851 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T44n1851.xml,v $
+Revision 1.15  2004/06/25 02:36:51  saywhat
+修訂</byline></div>，將</div>移到前一卷
+
 Revision 1.14  2004/04/20 08:42:29  maha
 「版本日期」標記修訂
 
@@ -139,7 +142,7 @@ Revision 1.11  2001/02/07 07:15:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.10  2001/02/03 08:05:47  chris
-Added keywords $Revision: 1.14 $, $Date: 2004/04/20 08:42:29 $ and $Log.
+Added keywords $Revision: 1.15 $, $Date: 2004/06/25 02:36:51 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -149,15 +152,15 @@ Added comment  for Emacs
 <pb ed="T" id="T44.1851.0465a" n="0465a"/>
 <lb n="0465a01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0465a02"/><head type="no">No. 1851</head><div1 type="other">
-<lb n="0465a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0465001" resp="Taisho" type="orig" place="foot text">【原】延寶二年刊大谷大學藏本，【甲】延寶二年刊村上專精氏藏</note>大乘義章卷第一<note place="inline">草書惑人傷失之甚傳者必真慎勿草書</note></jhead></juan>
+<lb n="0465a02"/><head type="no">No. 1851</head>
+<lb n="0465a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0465001" resp="Taisho" type="orig" place="foot text">【原】延寶二年刊大谷大學藏本，【甲】延寶二年刊村上專精氏藏</note><jhead>大乘義章卷第一<note place="inline">草書惑人傷失之甚傳者必真慎勿草書</note></jhead></juan>
 <lb n="0465a04"/>
 <lb n="0465a05"/><byline type="Author">遠法師撰</byline>
-<lb n="0465a06"/><p>義有五聚<note place="inline">一者教聚　二者義聚　三者染聚　四者淨
+<lb n="0465a06"/><div1 type="other"><p>義有五聚<note place="inline">一者教聚　二者義聚　三者染聚　四者淨
 <lb n="0465a07"/>聚　五者雜聚</note></p>
 <lb n="0465a08"/><p>教聚之中別有三門<note place="inline">一眾經教&CB00528;義　二三藏義　三
-<lb n="0465a09"/>十二部經義</note></p>
-<lb n="0465a10"/><mulu type="其他" level="1" label="一、教聚(三門)"/><div2 type="other"><mulu type="其他" level="2" label="1 眾經教CB00528義(一)"/><head>眾經教&CB00528;義三門分別<note place="inline">一敘異說　二辨是非　三顯正義</note></head>
+<lb n="0465a09"/>十二部經義</note></p></div1>
+<lb n="0465a10"/><div1 type="other"><mulu type="其他" level="1" label="一、教聚(三門)"/><div2 type="other"><mulu type="其他" level="2" label="1 眾經教＆CB00528；義(一)"/><head>眾經教&CB00528;義三門分別<note place="inline">一敘異說　二辨是非　三顯正義</note></head>
 <lb n="0465a11"/><p>言異說者。異說非一。晉武都山隱士劉&CB00370;說
 <lb n="0465a12"/>言。如來一化所說。無出頓漸。華嚴等經。是其
 <lb n="0465a13"/>頓教。餘名為漸。漸中有其五時七階。言五時
@@ -2287,7 +2290,7 @@ Added comment  for Emacs
 <lb n="0488c07"/>聲聞法中。觀法生滅名之為如。滅離諸觀得
 <lb n="0488c08"/>法實相。名為法性。彼名涅槃為實相矣。即此
 <lb n="0488c09"/>法性。聖所證處。名為實際。如法性實際義。略
-<lb n="0488c10"/>辨如是</p>
+<lb n="0488c10"/>辨如是</p></div2>
 <lb n="0488c11"/><juan fun="close" n="001"><jhead><note n="0488026" resp="Taisho" type="orig" place="foot text">末題新加</note>大乘義章卷第一</jhead></juan>
 <lb n="0488c12"/>
 <milestone unit="juan" n="2"/>
@@ -2295,7 +2298,7 @@ Added comment  for Emacs
 <lb n="0488c14"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>大乘義章卷第二</jhead></juan>
 <lb n="0488c15"/>
 <lb n="0488c16"/><byline type="Author">遠法師撰</byline>
-<lb n="0488c17"/><p>義法聚中此卷有七門<note place="inline">三解脫門義亦名三空義
+<lb n="0488c17"/><div2 type="other"><p>義法聚中此卷有七門<note place="inline">三解脫門義亦名三空義
 <lb n="0488c18"/>　三有為義　三無為義　四空義　四優檀那義　四悉
 <lb n="0488c19"/>檀義　四真實義</note></p></div2>
 <lb n="0488c20"/><div2 type="other"><mulu type="其他" level="2" label="10 三解脫門義(二)"/><head>三解脫門義八門分別<note place="inline">釋名一　辨性二
@@ -4293,14 +4296,14 @@ Added comment  for Emacs
 <pb ed="T" id="T44.1851.0511a" n="0511a"/>
 <lb n="0511a01"/>餘智不達。唯佛菩薩。離無明慧。方能證見。舉
 <lb n="0511a02"/>智別法。是故名為智障淨智所行處法。此之
-<lb n="0511a03"/>四義。廣如<note n="0511001" resp="Taisho" type="orig" place="foot text">地持二廣說瑜伽三十六</note>論釋。且依其門。略舉名況</p>
+<lb n="0511a03"/>四義。廣如<note n="0511001" resp="Taisho" type="orig" place="foot text">地持二廣說瑜伽三十六</note>論釋。且依其門。略舉名況</p></div2>
 <lb n="0511a04"/><juan fun="close" n="002"><jhead>大乘義章卷第二</jhead></juan>
 <lb n="0511a05"/>
 <milestone unit="juan" n="3"/>
 <lb n="0511a06"/><juan fun="open" n="003a"><mulu type="卷" n="3a" label="第三（本）"/><jhead>大乘義章卷第三</jhead></juan>
 <lb n="0511a07"/>
 <lb n="0511a08"/><byline type="Author">遠法師撰</byline>
-<lb n="0511a09"/><p>義法聚中此卷有八門<note place="inline">四諦義　四緣義　五果義
+<lb n="0511a09"/><div2 type="other"><p>義法聚中此卷有八門<note place="inline">四諦義　四緣義　五果義
 <lb n="0511a10"/>　六因義　四空義　五法三自性義　六種相門義　八識
 <lb n="0511a11"/>義</note></p></div2>
 <lb n="0511a12"/><div2 type="other"><mulu type="其他" level="2" label="17 四諦義(三本)"/><head>四諦義九門分別<note place="inline">一釋名　二開合辨相　三
@@ -5506,11 +5509,11 @@ Added comment  for Emacs
 <lb n="0524b13"/>四願中宣說。一切菩薩所行。皆有總別同異
 <lb n="0524b14"/>等也。隨行所說。廣如地論。此六乃是大乘之
 <lb n="0524b15"/>淵綱。圓通之妙門。若能善會斯趣。一異等執。
-<lb n="0524b16"/>逍然無&CB00528;。六相之義。略辨如是</p>
+<lb n="0524b16"/>逍然無&CB00528;。六相之義。略辨如是</p></div2>
 <lb n="0524b17"/><juan fun="close" n="003a"><jhead>大乘義章卷第三<note place="inline">終</note></jhead></juan>
 <lb n="0524b18"/>
 <lb n="0524b19"/>
-<lb n="0524b20"/><juan fun="open" n="003b"><mulu type="卷" n="3b" label="第三(末)"/><jhead>大乘義章卷第三<note place="inline">末</note></jhead></juan></div2>
+<lb n="0524b20"/><juan fun="open" n="003b"><mulu type="卷" n="3b" label="第三(末)"/><jhead>大乘義章卷第三<note place="inline">末</note></jhead></juan>
 <lb n="0524b21"/>
 <lb n="0524b22"/><div2 type="other"><mulu type="其他" level="2" label="24 八識義(三末)"/><head>八識義十門分別<note place="inline">釋名一　辨相二　根塵有
 <lb n="0524b23"/>無三　大小有無四　真妄依持五　真妄<note n="0524007" resp="Taisho" type="orig" place="foot text">勳＝熏？</note><sic n="0524007" resp="Taisho" cert="?" corr="熏">勳</sic>習六
@@ -6935,7 +6938,7 @@ Added comment  for Emacs
 <lb n="0540b02"/>空離一切相。生死本寂涅槃亦如。二執定無。
 <lb n="0540b03"/>二乘之人。分見生空。利根之者。小見法空。便
 <lb n="0540b04"/>取此空。以為究竟。覆障真實。對治此執。說實
-<lb n="0540b05"/>不空具過&M010527;沙一切佛法。八識如是</p>
+<lb n="0540b05"/>不空具過&M010527;沙一切佛法。八識如是</p></div2>
 <lb n="0540b06"/><juan fun="close" n="003b"><jhead>大乘義章卷第三<note place="inline">之下</note></jhead></juan>
 <lb n="0540b07"/>
 <milestone unit="juan" n="4"/>
@@ -6943,7 +6946,7 @@ Added comment  for Emacs
 <lb n="0540b09"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>大乘義章卷第四</jhead></juan>
 <lb n="0540b10"/>
 <lb n="0540b11"/><byline type="Author">遠法師撰</byline>
-<lb n="0540b12"/><p>義法聚中此<note n="0540005" resp="Taisho" type="orig" place="foot text">卷＋（有）&M062485;【原】</note><sic n="0540005" corr="卷有" resp="【原】">卷</sic>五門<note place="inline">十七因義　十一空義　十二因
+<lb n="0540b12"/><div2 type="other"><p>義法聚中此<note n="0540005" resp="Taisho" type="orig" place="foot text">卷＋（有）&M062485;【原】</note><sic n="0540005" corr="卷有" resp="【原】">卷</sic>五門<note place="inline">十七因義　十一空義　十二因
 <lb n="0540b13"/>緣義　十八空義　二十二根義</note></p></div2>
 <lb n="0540b14"/><div2 type="other"><mulu type="其他" level="2" label="25 十因義(四)"/><head>十因義七門分別<note place="inline">列名解相一　十因生法二
 <lb n="0540b15"/>　對二因分別三　對六因分別四　對緣分別五　對
@@ -8829,14 +8832,14 @@ Added comment  for Emacs
 <lb n="0561b05"/>根對境能生覺心。故次五受。此前染法。染必
 <lb n="0561b06"/>有治。治謂淨法。一切淨法。因信等生。故明信
 <lb n="0561b07"/>等。由信等故。出<note n="0561004" resp="Taisho" type="orig" place="foot text">〔生〕－【甲】</note><app n="0561004"><lem>生</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>聖道。聖分三位。是故後
-<lb n="0561b08"/>說三無漏根。二十二根。略之云爾</p></div2>
-<lb n="0561b09"/><juan fun="close" n="004"><jhead>大乘義章卷第四</jhead></juan></div1>
+<lb n="0561b08"/>說三無漏根。二十二根。略之云爾</p></div2></div1>
+<lb n="0561b09"/><juan fun="close" n="004"><jhead>大乘義章卷第四</jhead></juan>
 <lb n="0561b10"/>
-<milestone unit="juan" n="5"/><div1 type="other">
+<milestone unit="juan" n="5"/>
 <lb n="0561b11"/><juan fun="open" n="005a"><mulu type="卷" n="5a" label="第五(本)"/><jhead>大乘義章卷第五<note place="inline">本</note></jhead></juan>
 <lb n="0561b12"/>
 <lb n="0561b13"/><byline type="Author">遠法師撰</byline>
-<lb n="0561b14"/><mulu type="其他" level="1" label="三、染法聚(六十門)"/><p>染法聚第三此有六十門染法聚煩惱義中
+<lb n="0561b14"/><div1 type="other"><mulu type="其他" level="1" label="三、染法聚(六十門)"/><p>染法聚第三此有六十門染法聚煩惱義中
 <lb n="0561b15"/>有三十門此卷有二十三門<note place="inline">二障義　三障義
 <lb n="0561b16"/>　三根三道三毒煩惱義　三使義　三漏義　四縛四流
 <lb n="0561b17"/>四〔枙〕之義　四取義　四身結義　五住地義　五蓋
@@ -10636,7 +10639,7 @@ Added comment  for Emacs
 <lb n="0581b12"/>此。是故不名見結所繫。而為同時戒見二取。
 <lb n="0581b13"/>所使縛故名見使也。良以二取。九結之中非
 <lb n="0581b14"/>見結故。不名見結。十使之中。是<note n="0581010" resp="Taisho" type="orig" place="foot text">〔見使〕－&M062485;【原】</note><sic n="0581010" corr="＆lac；" resp="【原】">見使</sic>名見
-<lb n="0581b15"/>使。九結辨之&CB00308;爾</p>
+<lb n="0581b15"/>使。九結辨之&CB00308;爾</p></div3>
 <lb n="0581b16"/><juan fun="close" n="005b"><jhead>大乘義章卷第五<note place="inline">末</note></jhead></juan>
 <pb ed="T" id="T44.1851.0582a" n="0582a"/>
 <lb n="0582a01"/>
@@ -10644,7 +10647,7 @@ Added comment  for Emacs
 <lb n="0582a02"/><juan fun="open" n="006"><mulu type="卷" n="6"/><jhead>大乘義章卷第六</jhead></juan>
 <lb n="0582a03"/>
 <lb n="0582a04"/><byline type="Author">遠法師撰</byline>
-<lb n="0582a05"/><p>染法聚煩惱義中此卷有七門<note place="inline">十使義　十纏義　十障義　十四
+<lb n="0582a05"/><div3 type="other"><p>染法聚煩惱義中此卷有七門<note place="inline">十使義　十纏義　十障義　十四
 <lb n="0582a06"/>難義　十六神我義　六十二見義　八萬四千煩惱義</note></p></div3>
 <lb n="0582a07"/><div3 type="other"><mulu type="其他" level="3" label="53 十使義(六)"/><head>十使義十門分別<note place="inline">釋名辨相一　三性分別二　利鈍見修分別三　相應不同
 <lb n="0582a08"/>四　約境隨界分別五　九十八使等分別六　緣縛不同七　成義差別八　發業潤生九　因起次第十</note></head>
@@ -14488,12 +14491,12 @@ Added comment  for Emacs
 <lb n="0624c04"/>有。下三類然。又大乘中。說無想定乃至小乘
 <lb n="0624c05"/>無餘涅槃悉皆有心。六識雖亡。七識心在。故
 <lb n="0624c06"/>說有心。以有心故。受想行識四陰不無。五陰
-<lb n="0624c07"/>之義。&CB00308;辨如是</p>
+<lb n="0624c07"/>之義。&CB00308;辨如是</p></div3>
 <lb n="0624c08"/><juan fun="close" n="008a"><jhead>大乘義章卷第八<note place="inline">本終</note></jhead></juan>
 <lb n="0624c09"/>
 <lb n="0624c10"/>
 <lb n="0624c11"/>
-<lb n="0624c12"/><juan fun="open" n="008b"><mulu type="卷" n="8b" label="第八(末)"/><jhead>大乘義章卷第八<note place="inline">末</note></jhead></juan></div3>
+<lb n="0624c12"/><juan fun="open" n="008b"><mulu type="卷" n="8b" label="第八(末)"/><jhead>大乘義章卷第八<note place="inline">末</note></jhead></juan>
 <lb n="0624c13"/>
 <lb n="0624c14"/><div3 type="other"><mulu type="其他" level="3" label="82 六道義(八末)"/><head>六道義四門分別<note place="inline">釋名一　開合二　辨相三　明因四</note></head>
 <lb n="0624c15"/><p>第一釋名。言六道者。所謂地獄畜生餓鬼人
@@ -15502,15 +15505,15 @@ Added comment  for Emacs
 <lb n="0635c28"/>處。無色四天。通前四十。若就色界。別分大
 <lb n="0635c29"/>梵及無想天。是則居止。有四十二。居止如
 <pb ed="T" id="T44.1851.0636a" n="0636a"/>
-<lb n="0636a01"/>是</p></div3></div2>
-<lb n="0636a02"/><juan fun="close" n="008b"><jhead>大乘義章卷第八<note place="inline">末終</note></jhead></juan></div1>
+<lb n="0636a01"/>是</p></div3></div2></div1>
+<lb n="0636a02"/><juan fun="close" n="008b"><jhead>大乘義章卷第八<note place="inline">末終</note></jhead></juan>
 <lb n="0636a03"/>
-<milestone unit="juan" n="09"/><div1 type="other">
+<milestone unit="juan" n="09"/>
 <lb n="0636a04"/>
 <lb n="0636a05"/><juan fun="open" n="009"><mulu type="卷" n="9"/><jhead>大乘義章卷第九</jhead></juan>
 <lb n="0636a06"/>
 <lb n="0636a07"/><byline type="Author">遠法師撰</byline>
-<lb n="0636a08"/><mulu type="其他" level="1" label="四、淨法聚(百三十三門)"/><p>淨法聚第四。有一百三十一門。淨法聚因法
+<lb n="0636a08"/><div1 type="other"><mulu type="其他" level="1" label="四、淨法聚(百三十三門)"/><p>淨法聚第四。有一百三十一門。淨法聚因法
 <lb n="0636a09"/>中。有一百十三門。此卷有九門<note place="inline">一發菩提心義　二迴向義　三金
 <lb n="0636a10"/>剛三昧義　四斷結義　五滅盡定義　六一乘義　七二種莊嚴義　八二種種性義　九證教二行義</note></p>
 <lb n="0636a11"/><div2 type="other"><mulu type="其他" level="2" label="1 因法(百十五門)"/><div3 type="other"><mulu type="其他" level="3" label="90 發菩提心義(九)"/><head>發菩提心義三門分別<note place="inline">釋名辨體一　因起次第二　就位分別三</note></head>
@@ -17117,7 +17120,7 @@ Added comment  for Emacs
 <lb n="0653c24"/>可說義。教行之中義含真偽。偽修可陳名為
 <lb n="0653c25"/>可說。真修難顯名不可說。故地經中彰彼因
 <lb n="0653c26"/>分觀修之德云。言難說自心知也。證教兩<note n="0653022" resp="Taisho" type="orig" place="foot text">行＋（辨兩行）【甲】</note><app n="0653022"><lem>行</lem><rdg wit="【甲】" resp="Taisho">行辨兩行</rdg></app>
-<lb n="0653c27"/>辨之云爾<note n="0653023" resp="Taisho" type="orig" place="foot text">此下聖本奧書曰仁平四年九月十九日調卷了</note></p>
+<lb n="0653c27"/>辨之云爾<note n="0653023" resp="Taisho" type="orig" place="foot text">此下聖本奧書曰仁平四年九月十九日調卷了</note></p></div3>
 <lb n="0653c28"/><juan fun="close" n="009"><jhead>大乘義章卷第九<note place="inline">終</note></jhead></juan>
 <pb ed="T" id="T44.1851.0654a" n="0654a"/>
 <lb n="0654a01"/>
@@ -17125,7 +17128,7 @@ Added comment  for Emacs
 <lb n="0654a02"/><juan fun="open" n="010"><mulu type="卷" n="10"/><jhead>大乘義章卷第十</jhead></juan>
 <lb n="0654a03"/>
 <lb n="0654a04"/><byline type="Author">遠法師撰</byline>
-<lb n="0654a05"/><p>淨法聚因法中。此卷有十二門<note place="inline">三歸義　三學義三聚戒義　三種
+<lb n="0654a05"/><div3 type="other"><p>淨法聚因法中。此卷有十二門<note place="inline">三歸義　三學義三聚戒義　三種
 <lb n="0654a06"/>律儀義　止觀捨義　三慧義　三種般若義　三智義　三量智義　同相三道義　別相三道義　三種住義</note></p></div3>
 <lb n="0654a07"/><div3 type="other"><mulu type="其他" level="3" label="99 三歸義(一０)"/><head>三歸義三門分別<note place="inline">釋名一　所歸二　能歸三</note></head>
 <lb n="0654a08"/><p>第一釋名。言三歸者。歸投依伏。故曰歸依。歸
@@ -18918,14 +18921,14 @@ Added comment  for Emacs
 <lb n="0673c29"/>正受。以空三昧離相中勝滅盡正受寂止極。
 <pb ed="T" id="T44.1851.0674a" n="0674a"/>
 <lb n="0674a01"/>是故多住。隨義廣分住乃無量。今據一門且
-<lb n="0674a02"/>論三種。三住如是</p>
+<lb n="0674a02"/>論三種。三住如是</p></div3>
 <lb n="0674a03"/><juan fun="close" n="010"><jhead>大乘義章卷第十<note place="inline">終</note></jhead></juan>
 <pb ed="T" id="T44.1851.0675a" n="0675a"/>
-<lb n="0675a01"/>
-<milestone unit="juan" n="11"/><juan fun="open" n="011"><mulu type="卷" n="11"/><jhead>大乘義章卷第十一</jhead></juan>
+<milestone unit="juan" n="11"/>
+<lb n="0675a01"/><juan fun="open" n="011"><mulu type="卷" n="11"/><jhead>大乘義章卷第十一</jhead></juan>
 <lb n="0675a02"/>
 <lb n="0675a03"/><byline type="Author">遠法師撰</byline>
-<lb n="0675a04"/><p>淨法聚因法中。此卷有十九門<note place="inline">一&CB00206;等四心義
+<lb n="0675a04"/><div3 type="other"><p>淨法聚因法中。此卷有十九門<note place="inline">一&CB00206;等四心義
 <lb n="0675a05"/>　二人四依義　三法四依義　四聖種義　五四親近行義
 <lb n="0675a06"/>　六轉業四行義　七四修定義　八四不壞淨義　九四堅
 <lb n="0675a07"/>義　十四種道義　十一四種善法義　十二四種味義
@@ -20795,14 +20798,14 @@ Added comment  for Emacs
 <lb n="0695c11"/>四明其同利。故<note n="0695017" resp="Taisho" type="orig" place="foot text">第五</note>地持言。有菩薩同利示同
 <lb n="0695c12"/>利。菩薩為他先與彼人同修所行名有同利。
 <lb n="0695c13"/>彼所化者。同修成德示同菩薩名示同利。四
-<lb n="0695c14"/>攝之義辨之&CB00308;爾</p>
+<lb n="0695c14"/>攝之義辨之&CB00308;爾</p></div3>
 <lb n="0695c15"/><juan fun="close" n="011"><jhead>大乘義章卷第十一</jhead></juan>
 <lb n="0695c16"/>
 <milestone unit="juan" n="12"/>
 <lb n="0695c17"/><juan fun="open" n="012"><mulu type="卷" n="12"/><jhead>大乘義章卷第十二</jhead></juan>
 <lb n="0695c18"/>
 <lb n="0695c19"/><byline type="Author">遠法師撰</byline>
-<lb n="0695c20"/><p>淨法聚因法中。此卷有三十一門<note place="inline">五願義　五戒
+<lb n="0695c20"/><div3 type="other"><p>淨法聚因法中。此卷有三十一門<note place="inline">五願義　五戒
 <lb n="0695c21"/>義　五品十善義　五停心義　五聖支定義　五聖智三
 <lb n="0695c22"/>昧義　五智義　五忍義　五種菩提義　五種方便義
 <lb n="0695c23"/>　五種善法義　五行義　五生義　五無量義　五德舉罪
@@ -22780,7 +22783,7 @@ Added comment  for Emacs
 <lb n="0717c14"/>佛能持不。受者應答言能。如是乃至不過中
 <lb n="0717c15"/>食。問答同爾。一遍便足。竟已禮去。護持之法
 <lb n="0717c16"/>與出家戒同。嚴身之具悉宜去之。男女不得
-<lb n="0717c17"/>同室而宿。八戒如是</p>
+<lb n="0717c17"/>同室而宿。八戒如是</p></div3>
 <lb n="0717c18"/><juan fun="close" n="012"><jhead>大乘義章卷第十二<note place="inline">終</note></jhead></juan>
 <lb n="0717c19"/>
 <milestone unit="juan" n="13"/>
@@ -22788,7 +22791,7 @@ Added comment  for Emacs
 <lb n="0717c21"/><juan fun="open" n="013"><mulu type="卷" n="13"/><jhead>大乘義章卷第十三</jhead></juan>
 <lb n="0717c22"/>
 <lb n="0717c23"/><byline type="Author">遠法師撰</byline>
-<lb n="0717c24"/><p>淨法聚因法中此卷有九門<note place="inline">八禪定義　八解脫義
+<lb n="0717c24"/><div3 type="other"><p>淨法聚因法中此卷有九門<note place="inline">八禪定義　八解脫義
 <lb n="0717c25"/>　八勝處義　八行觀義　八大人覺義　八法攝摩訶衍義
 <lb n="0717c26"/>　九次第定義　九想觀義　九斷知義</note></p></div3>
 <lb n="0717c27"/><div3 type="other"><mulu type="其他" level="3" label="161 八禪定義(一三)"/><head>八禪定義四門分別<note place="inline">一通解八禪　二別釋八
@@ -24634,14 +24637,14 @@ Added comment  for Emacs
 <lb n="0738b06"/>證。以非得果休息處故。問曰。印時為緣。而印
 <lb n="0738b07"/>為當不緣。釋言。不緣。<note n="0738008" resp="Taisho" type="orig" place="foot text">修＝彼【聖】</note><app n="0738008"><lem>修</lem><rdg wit="【聖】" resp="Taisho">彼</rdg></app>道比<note n="0738009" resp="Taisho" type="orig" place="foot text">智＋（智）【聖】</note><app n="0738009"><lem>智</lem><rdg wit="【聖】" resp="Taisho">智智</rdg></app>緣上界道。
 <lb n="0738b08"/>而證欲界煩惱盡處。是以不緣。九斷智義大
-<lb n="0738b09"/>況&CB00308;然<note n="0738010" resp="Taisho" type="orig" place="foot text">此下聖本奧書曰花嚴沙門宗曉一見之次為□覺以朱切補收畢，于時正元元年五月二日宗□【聖】</note></p>
+<lb n="0738b09"/>況&CB00308;然<note n="0738010" resp="Taisho" type="orig" place="foot text">此下聖本奧書曰花嚴沙門宗曉一見之次為□覺以朱切補收畢，于時正元元年五月二日宗□【聖】</note></p></div3>
 <lb n="0738b10"/><juan fun="close" n="013"><jhead>大乘義章卷第十三<note place="inline">終</note></jhead></juan>
 <lb n="0738b11"/>
 <milestone unit="juan" n="14"/>
 <lb n="0738b12"/><juan fun="open" n="014"><mulu type="卷" n="14"/><jhead>大乘義章卷第十四</jhead></juan>
 <lb n="0738b13"/>
 <lb n="0738b14"/><byline type="Author">遠法師撰</byline>
-<lb n="0738b15"/><p>淨法聚因法中此卷有二十一門<note place="inline">十想義　十一
+<lb n="0738b15"/><div3 type="other"><p>淨法聚因法中此卷有二十一門<note place="inline">十想義　十一
 <lb n="0738b16"/>切入義　十聖處義　十種慰喻義　十願義　十種供養
 <lb n="0738b17"/>義　十無盡藏義　信等十行義　十明義　十忍義　十
 <lb n="0738b18"/>無生忍義　十住義　十行義　十迴向義　十地義　十
@@ -26274,14 +26277,14 @@ Added comment  for Emacs
 <lb n="0756b25"/>畏大智。是故菩薩作聲聞緣覺。<note n="0756013" resp="Taisho" type="orig" place="foot text">智論第七十五</note>龍樹亦云。
 <lb n="0756b26"/>文殊<note n="0756014" resp="Taisho" type="orig" place="foot text">原本註曰論無過去二字</note>過去七<note n="0756015" resp="Taisho" type="orig" place="foot text">十下論有二</note>十億<note n="0756016" resp="Taisho" type="orig" place="foot text">反＝返【聖】，變【甲】</note><note n="0756016" resp="CBETA" type="mod">反＝返【聖】，＝變【甲】</note><app n="0756016"><lem>反</lem><rdg wit="【聖】" resp="Taisho">返</rdg><rdg wit="【甲】" resp="Taisho">變</rdg></app>作辟支佛教化眾生。
 <lb n="0756b27"/>且言過去作辟支佛。理實過去亦作聲聞。三
-<lb n="0756b28"/><note n="0756017" resp="Taisho" type="orig" place="foot text">乘＝我【聖】</note><app n="0756017"><lem>乘</lem><rdg wit="【聖】" resp="Taisho">我</rdg></app>共地辨之略爾</p>
+<lb n="0756b28"/><note n="0756017" resp="Taisho" type="orig" place="foot text">乘＝我【聖】</note><app n="0756017"><lem>乘</lem><rdg wit="【聖】" resp="Taisho">我</rdg></app>共地辨之略爾</p></div3>
 <lb n="0756b29"/><juan fun="close" n="014"><jhead>大乘義章卷第十四</jhead></juan>
 <pb ed="T" id="T44.1851.0756c" n="0756c"/>
-<lb n="0756c01"/>
-<milestone unit="juan" n="15"/><juan fun="open" n="015"><mulu type="卷" n="15"/><jhead>大乘義章卷第十五</jhead></juan>
+<milestone unit="juan" n="15"/>
+<lb n="0756c01"/><juan fun="open" n="015"><mulu type="卷" n="15"/><jhead>大乘義章卷第十五</jhead></juan>
 <lb n="0756c02"/>
 <lb n="0756c03"/><byline type="Author">遠法師撰</byline>
-<lb n="0756c04"/><p>淨法聚因法中此卷有九門<note place="inline">十智義　十一智義
+<lb n="0756c04"/><div3 type="other"><p>淨法聚因法中此卷有九門<note place="inline">十智義　十一智義
 <lb n="0756c05"/>　十一淨義　十二頭陀義　十二巧方便義　十三住義
 <lb n="0756c06"/>　十四離垢業義　離隱六方離四惡友攝四善友義　十四
 <lb n="0756c07"/>化心義</note></p></div3>
@@ -27536,7 +27539,7 @@ Added comment  for Emacs
 <lb n="0770b26"/>心。良以佛心遍一切處故化有之。六虛實不
 <lb n="0770b27"/>同。聲聞緣覺雖復化作衣服等事不得實用。
 <lb n="0770b28"/>諸佛菩薩所為化事即得實用。如地持說。化
-<lb n="0770b29"/>心如是</p>
+<lb n="0770b29"/>心如是</p></div3>
 <pb ed="T" id="T44.1851.0770c" n="0770c"/>
 <lb n="0770c01"/><juan fun="close" n="015"><jhead>大乘義章卷第十五</jhead></juan>
 <pb ed="T" id="T44.1851.0771a" n="0771a"/>
@@ -27546,7 +27549,7 @@ Added comment  for Emacs
 <lb n="0771a03"/><juan fun="open" n="016a"><mulu type="卷" n="16a" label="第十六(本)"/><jhead>大乘義章卷第十六<note place="inline">本</note></jhead></juan>
 <lb n="0771a04"/>
 <lb n="0771a05"/><byline type="Author">遠法師撰</byline>
-<lb n="0771a06"/><p>淨法聚因法中此卷有四門<note place="inline">十六特勝義　菩薩十八不共法義　二十種
+<lb n="0771a06"/><div3 type="other"><p>淨法聚因法中此卷有四門<note place="inline">十六特勝義　菩薩十八不共法義　二十種
 <lb n="0771a07"/>法師德義　三十七道品義</note></p></div3>
 <lb n="0771a08"/><div3 type="other"><mulu type="其他" level="3" label="200 十六特勝義(一六本)"/><head>十六特勝七門分別<note place="inline">一釋名辨相　二約對四念分別　三所求成差別
 <lb n="0771a09"/>　四就位分別　五約禪分別　六就人分別　七隨義分別</note></head>
@@ -27851,13 +27854,13 @@ Added comment  for Emacs
 <lb n="0774b08"/>欲令得其眾具之樂。是故通起安樂心說。不
 <lb n="0774b09"/>以嫉纏自讚毀他。喜心說也。不著名利捨心
 <lb n="0774b10"/>說也。若依地持先捨後喜。此五是清淨心說。
-<lb n="0774b11"/>法師之德辨之&CB00308;爾</p>
+<lb n="0774b11"/>法師之德辨之&CB00308;爾</p></div3>
 <lb n="0774b12"/><juan fun="close" n="016a"><jhead>大乘義章卷第十六<note place="inline">本終</note></jhead></juan>
 <lb n="0774b13"/>
 <lb n="0774b14"/>
 <lb n="0774b15"/><juan fun="open" n="016b"><mulu type="卷" n="16b" label="第十六(末)"/><jhead>大乘義章卷第十六<note place="inline">末</note></jhead></juan>
 <lb n="0774b16"/>
-<lb n="0774b17"/><byline type="Author">遠法師撰</byline></div3>
+<lb n="0774b17"/><byline type="Author">遠法師撰</byline>
 <lb n="0774b18"/><div3 type="other"><mulu type="其他" level="3" label="203 三十七道品義(一六末)"/><head>三十七道品義三門分別<note place="inline">一通釋　二別解　三約對九法分別</note></head>
 <lb n="0774b19"/><p>就通釋中曲有六門。一釋名義。二行門分別。
 <lb n="0774b20"/>三行體分別。四止觀分別。五八正分別。六
@@ -29092,7 +29095,7 @@ Added comment  for Emacs
 <lb n="0788a19"/>守心離過故名為念。得那含名之為導。親能
 <lb n="0788a20"/>導起無學果故得羅漢果。名之為勝。勝前果
 <lb n="0788a21"/>故得辟支果。名之為實。真是麒麟獨一行故
-<lb n="0788a22"/>得大菩提。名為畢竟。道中極故。道品如是</p>
+<lb n="0788a22"/>得大菩提。名為畢竟。道中極故。道品如是</p></div3>
 <lb n="0788a23"/><juan fun="close" n="016b"><jhead>大乘義章卷十六<note place="inline">末終</note></jhead></juan>
 <pb ed="T" id="T44.1851.0788b" n="0788b"/>
 <lb n="0788b01"/>
@@ -29100,8 +29103,8 @@ Added comment  for Emacs
 <lb n="0788b02"/><juan fun="open" n="017a"><mulu type="卷" n="17a" label="第十七(本)"/><jhead>大乘義章卷第十七<note place="inline">本</note></jhead></juan>
 <lb n="0788b03"/>
 <lb n="0788b04"/><byline type="Author">遠法師撰</byline>
-<lb n="0788b05"/><p>淨法聚因中</p></div3>
-<lb n="0788b06"/><div3 type="other"><mulu type="其他" level="3" label="204 賢聖義(一七本末)"/><head>賢聖義二門分別<note place="inline">一釋名　二辨相</note></head>
+<lb n="0788b05"/><div3 type="other"><p>淨法聚因中</p>
+<lb n="0788b06"/><mulu type="其他" level="3" label="204 賢聖義(一七本末)"/><head>賢聖義二門分別<note place="inline">一釋名　二辨相</note></head>
 <lb n="0788b07"/><p>第一釋名。言賢聖者和善曰賢。會正名聖。正
 <lb n="0788b08"/>謂理也。理無偏那故說為正。證理捨凡說為
 <lb n="0788b09"/>聖矣。此賢與聖同異有三。一同體名異。其猶
@@ -33193,7 +33196,7 @@ Added comment  for Emacs
 <lb n="0833c18"/>故。第一義諦亦名菩提亦名涅槃。方便菩提
 <lb n="0833c19"/>體即是其方便涅槃故。修報常得為滅相。菩
 <lb n="0833c20"/>提涅槃一異如是。菩提之德體。深義廣難以
-<lb n="0833c21"/>測窮。且隨詮況辨之。略爾</p>
+<lb n="0833c21"/>測窮。且隨詮況辨之。略爾</p></div3>
 <lb n="0833c22"/><juan fun="close" n="018"><jhead>大乘義章卷之十八<note place="inline">終</note></jhead></juan>
 <pb ed="T" id="T44.1851.0834a" n="0834a"/>
 <lb n="0834a01"/>
@@ -33201,7 +33204,7 @@ Added comment  for Emacs
 <lb n="0834a02"/><juan fun="open" n="019"><mulu type="卷" n="19"/><jhead>大乘義章卷第十九</jhead></juan>
 <lb n="0834a03"/>
 <lb n="0834a04"/><byline type="Author">遠法師撰</byline>
-<lb n="0834a05"/><p>淨法聚果法中此卷有九門<note place="inline">淨土義　三佛義
+<lb n="0834a05"/><div3 type="other"><p>淨法聚果法中此卷有九門<note place="inline">淨土義　三佛義
 <lb n="0834a06"/>　三智義　三不護義　三念處義　四一切種淨義　二智
 <lb n="0834a07"/>義　四智義　四無畏義</note></p></div3>
 <lb n="0834a08"/><div3 type="other"><mulu type="其他" level="3" label="207 淨土義(一九)"/><head>淨土義六門分別<note place="inline">釋名一　辨相二　明因
@@ -34683,7 +34686,7 @@ Added comment  for Emacs
 <lb n="0850b14"/>無畏唯在道樹成佛時得。大乘不爾。圓滿在
 <lb n="0850b15"/>佛。種性已上。隨分<note n="0850005" resp="Taisho" type="orig" place="foot text">脫＝段&M062403;【甲】</note><app n="0850005"><lem>脫</lem><rdg wit="【？】" resp="【甲】">段</rdg></app>得。故花嚴中宣說。十
 <lb n="0850b16"/>住初發心時便成正覺。具足慧身。等諸如來。
-<lb n="0850b17"/>無畏既爾。餘德悉爾。四無畏義。厥趣&CB00308;爾</p>
+<lb n="0850b17"/>無畏既爾。餘德悉爾。四無畏義。厥趣&CB00308;爾</p></div3>
 <lb n="0850b18"/><juan fun="close" n="019"><jhead>大乘義章卷第十九</jhead></juan>
 <lb n="0850b19"/>
 <milestone unit="juan" n="20"/>
@@ -34691,7 +34694,7 @@ Added comment  for Emacs
 <lb n="0850b21"/><juan fun="open" n="020a"><mulu type="卷" n="20a" label="第二十(本)"/><jhead>大乘義章卷第二十<note place="inline">本</note></jhead></juan>
 <lb n="0850b22"/>
 <lb n="0850b23"/><byline type="Author">遠法師撰</byline>
-<lb n="0850b24"/><p>淨法聚果法中此卷有七門<note place="inline">五分法身義　五眼
+<lb n="0850b24"/><div3 type="other"><p>淨法聚果法中此卷有七門<note place="inline">五分法身義　五眼
 <lb n="0850b25"/>義　六通義　十力義　十號義　十八不共法義　百四
 <lb n="0850b26"/>十不共法義</note></p></div3>
 <lb n="0850b27"/><div3 type="other"><mulu type="其他" level="3" label="216 五分法身義(二０本)"/><head>五分法身義四門分別<note place="inline">一釋名　二辨相
@@ -35835,14 +35838,14 @@ Added comment  for Emacs
 <lb n="0863a25"/>知他漏盡。三漏盡方便已起未起悉如實知。
 <lb n="0863a26"/>聖道是其漏盡方便。四漏盡增上慢有起不
 <lb n="0863a27"/>起悉如實知。未得謂得。名增上慢。六通之義
-<lb n="0863a28"/>辨之略爾</p>
+<lb n="0863a28"/>辨之略爾</p></div3>
 <lb n="0863a29"/><juan fun="close" n="020a"><jhead>大乘義章卷第二十<note place="inline">本</note></jhead></juan>
 <pb ed="T" id="T44.1851.0863b" n="0863b"/>
 <lb n="0863b01"/>
 <lb n="0863b02"/>
 <lb n="0863b03"/><juan fun="open" n="020b"><mulu type="卷" n="20b" label='第二十(末)'/><jhead>大乘義章卷第二十<note place="inline">末</note></jhead></juan>
 <lb n="0863b04"/>
-<lb n="0863b05"/><byline type="Author">遠法師撰</byline></div3>
+<lb n="0863b05"/><byline type="Author">遠法師撰</byline>
 <lb n="0863b06"/><div3 type="other"><mulu type="其他" level="3" label="219 十號義(二０末)"/><head>十號義</head>
 <lb n="0863b07"/><p>其十號者。是佛如來名稱功德。名有通別。釋
 <lb n="0863b08"/>迦彌勒阿&CB00434;佛等是其別也。如來等十是其
@@ -36957,9 +36960,10 @@ Added comment  for Emacs
 <lb n="0875c07"/>而不論。百四十中三十二相八十種好四一
 <lb n="0875c08"/>切種淨十力四無畏大悲。於彼十八不共法
 <lb n="0875c09"/>中隱而不彰。佛德無量隱顯互舉。不可具責。
-<lb n="0875c10"/>一百四十不共佛法。辨之略爾</p></div3></div2>
-<lb n="0875c11"/><juan fun="close" n="020b"><jhead>大乘義章卷第二十<note place="inline">末終</note></jhead></juan></div1><div1 type="other"><mulu type="其他" level="1" label="五、雜法聚(已下闕)"/></div1><div1 type="W">
-<lb n="0875c12"/><p>右二十六軸所&CB00677;校之原本者。古寫三本
+<lb n="0875c10"/>一百四十不共佛法。辨之略爾</p></div3></div2></div1>
+<lb n="0875c11"/><juan fun="close" n="020b"><jhead>大乘義章卷第二十<note place="inline">末終</note></jhead></juan>
+<div1 type="other"><mulu type="其他" level="1" label="五、雜法聚(已下闕)"/></div1>
+<lb n="0875c12"/><div1 type="W"><p>右二十六軸所&CB00677;校之原本者。古寫三本
 <lb n="0875c13"/>校合之善本也。曾延享二年歡喜庵。得東
 <lb n="0875c14"/>都增上寺山內洞譽團海藏本。而令義鏡
 <lb n="0875c15"/>沙彌模寫矣。近天明之初。明善寺補天。將
