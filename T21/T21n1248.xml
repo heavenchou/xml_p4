@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/11 02:37:49 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/09/09 09:56:54 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 02:37:49 $</date>
+		<date>$Date: 2004/09/09 09:56:54 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1248 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T21n1248.xml,v $
+Revision 1.6  2004/09/09 09:56:54  saywhat
+刪除空的 juan close
+
 Revision 1.5  2004/05/11 02:37:49  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -107,7 +110,7 @@ Revision 1.6  2001/02/07 06:57:21  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:47:14  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/05/11 02:37:49 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/09/09 09:56:54 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -117,12 +120,12 @@ Added comment  for Emacs
 <lb n="0225b22"/>
 <milestone unit="juan" n="1"/>
 <lb n="0225b23"/>
-<lb n="0225b24"/><head type="no">No. 1248</head><div1 type="dharani">
-<lb n="0225b25"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0225002" resp="Taisho" type="orig" place="foot text">【原】享和元年刊長谷寺藏本，【甲】高山寺藏古寫本</note>北方毘沙門天王隨軍護法真言</jhead></juan>
+<lb n="0225b24"/><head type="no">No. 1248</head>
+<lb n="0225b25"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0225002" resp="Taisho" type="orig" place="foot text">【原】享和元年刊長谷寺藏本，【甲】高山寺藏古寫本</note><jhead>北方毘沙門天王隨軍護法真言</jhead></juan>
 <lb n="0225b26"/>
 <lb n="0225b27"/><byline type="Translator">特進試鴻臚卿大興善寺三藏沙門
 <lb n="0225b28"/>大廣智不空別行翻譯不入正經</byline>
-<lb n="0225b29"/><p type="dharani"><note n="0225003" resp="Taisho" type="orig" place="foot text">此梵字真言附載於卷末</note>曩謨囉多曩<note place="inline">二合</note>多羅<note place="inline">二合</note><note n="0225004" resp="Taisho" type="orig" place="foot text">〔多〕－&M062485;【原】</note><sic n="0225004" corr="＆lac；" resp="【原】">多</sic>夜耶阿馱佉路
+<lb n="0225b29"/><div1 type="dharani"><p type="dharani"><note n="0225003" resp="Taisho" type="orig" place="foot text">此梵字真言附載於卷末</note>曩謨囉多曩<note place="inline">二合</note>多羅<note place="inline">二合</note><note n="0225004" resp="Taisho" type="orig" place="foot text">〔多〕－&M062485;【原】</note><sic n="0225004" corr="＆lac；" resp="【原】">多</sic>夜耶阿馱佉路
 <pb ed="T" id="T21.1248.0225c" n="0225c"/>
 <lb n="0225c01"/>步多囉<note place="inline">二合</note>耶地舍耶<note place="inline">二</note>吠室囉<note place="inline">二合</note>摩拏野<note place="inline">三</note>
 <lb n="0225c02"/>摩賀囉惹野<note place="inline">四</note>藥迦灑<note place="inline">二合</note>地婆多婆<note place="inline">五上</note>娑都
@@ -287,8 +290,8 @@ Added comment  for Emacs
 <lb n="0227b20"/>誦念此北方毘沙門天王真言。供養&CB00025;&CB00031;飲
 <lb n="0227b21"/>食。每月取一十五日二十一日。音聲用單雙
 <lb n="0227b22"/>絃方響鼓舞。蘇蜜乳粥真心誦念其天王即
-<lb n="0227b23"/>見其身隨心所願</p><juan fun="close" n="001"></juan></div1><div1 type="W">
-<lb n="0227b24"/><p>解穢陀羅尼</p><p type="dharani" place="inline">唵俱嚕馱唵&CB03928;</p><p place="inline">讚天王頌曰</p>
+<lb n="0227b23"/>見其身隨心所願</p></div1>
+<lb n="0227b24"/><div1 type="W"><p>解穢陀羅尼</p><p type="dharani" place="inline">唵俱嚕馱唵&CB03928;</p><p place="inline">讚天王頌曰</p>
 <lb n="0227b25"/><p>善利萬物兮惟彼水方　護持國界兮惟我
 <lb n="0227b26"/>天王　良將受委兮鎮固封彊　精心奉職
 <lb n="0227b27"/>兮宣託福祥　星宮上勝兮迴架崇岡　靈

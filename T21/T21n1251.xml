@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2004/06/07 08:33:56 $</date></edition>
+		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/09/09 09:55:14 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/06/07 08:33:56 $</date>
+		<date>$Date: 2004/09/09 09:55:14 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1251 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T21n1251.xml,v $
+Revision 1.9  2004/09/09 09:55:14  saywhat
+刪除空的 juan close
+
 Revision 1.8  2004/06/07 08:33:56  saywhat
 組字式[阿-可+(俱/寸)] , [阿-可+梨]修訂成CB碼
 
@@ -115,7 +118,7 @@ Revision 1.5  2001/02/07 06:57:22  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:47:16  chris
-Added keywords $Revision: 1.8 $, $Date: 2004/06/07 08:33:56 $ and $Log.
+Added keywords $Revision: 1.9 $, $Date: 2004/09/09 09:55:14 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -125,11 +128,11 @@ Added comment  for Emacs
 <lb n="0233a20"/>
 <milestone unit="juan" n="1"/>
 <lb n="0233a21"/>
-<lb n="0233a22"/><head type="no">No. 1251</head><div1 type="pin">
-<lb n="0233a23"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0233012" resp="Taisho" type="orig" place="foot text">久安三年寫東寺寶菩提院三密藏藏本</note>吽迦陀野儀軌上</jhead></juan>
+<lb n="0233a22"/><head type="no">No. 1251</head>
+<lb n="0233a23"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0233012" resp="Taisho" type="orig" place="foot text">久安三年寫東寺寶菩提院三密藏藏本</note><jhead>吽迦陀野儀軌上</jhead></juan>
 <lb n="0233a24"/>
 <lb n="0233a25"/><byline type="Translator">金剛智</byline>
-<lb n="0233a26"/><mulu type="品" level="1" n="1" label="1 麼迦多聞寶藏吽迦陀野神妙修真言瑜伽念誦儀軌＆CB04339；＆CB04222；漫荼羅品"/><head>麼迦多聞寶藏吽迦陀野神妙修真言瑜伽念
+<lb n="0233a26"/><div1 type="pin"><mulu type="品" level="1" n="1" label="1 麼迦多聞寶藏吽迦陀野神妙修真言瑜伽念誦儀軌＆CB04339；＆CB04222；漫荼羅品"/><head>麼迦多聞寶藏吽迦陀野神妙修真言瑜伽念
 <lb n="0233a27"/>誦儀軌&CB04339;&CB04222;漫荼羅品第一</head>
 <lb n="0233a28"/><p>爾時多聞寶藏吽迦陀王。告一切眾生言。我
 <lb n="0233a29"/>守護佛法僧。為覆護三界眾生。又為南閻浮
@@ -932,7 +935,7 @@ Added comment  for Emacs
 <lb n="0242a16"/><p type="dharani">唵迦陀野吽索縛賀<note place="inline">引</note></p>
 <lb n="0242a17"/><p>是三種真言說了。即時三千大千世界六種
 <lb n="0242a18"/>震動。是<note n="0242003" resp="Taisho" type="orig" place="foot text">時＝故&M062403;【原】</note><app n="0242003"><lem>時</lem><rdg wit="【？】" resp="【原】">故</rdg></app>大子等大驚曰。是何因緣。即王
-<lb n="0242a19"/>曰。我出世間事。但只有一大因緣也</p><juan fun="close" n="001"></juan>
+<lb n="0242a19"/>曰。我出世間事。但只有一大因緣也</p>
 <lb n="0242a20"/>
 <milestone unit="juan" n="2"/>
 <lb n="0242a21"/>
@@ -1482,17 +1485,17 @@ Added comment  for Emacs
 <lb n="0248a25"/>即行其大法。八界此勝者說八曼陀羅。即先
 <lb n="0248a26"/>從供養界始一切教法皆盡具　次此天王供
 <lb n="0248a27"/>養具如是。但<note n="0248002" resp="Taisho" type="orig" place="foot text">取＝敢？</note><sic n="0248002" resp="Taisho" cert="?" corr="敢">取</sic>不見。及惡人於法必失神
-<lb n="0248a28"/>驗。千萬金銀更不用也</p>
+<lb n="0248a28"/>驗。千萬金銀更不用也</p></div1>
 <lb n="0248a29"/><juan fun="close" n="002"><jhead>吽迦陀野成就法卷第二</jhead></juan>
 <pb ed="T" id="T21.1251.0248b" n="0248b"/>
-<lb n="0248b01"/><p type="W">久安三年八月二十一日申時許書寫了</p>
-<lb n="0248b02"/><p type="W">　　　　　　　　　　　　　一校了</p>
+<lb n="0248b01"/><div1 type="W"><p>久安三年八月二十一日申時許書寫了</p>
+<lb n="0248b02"/><p>　　　　　　　　　　　　　一校了</p></div1>
 <lb n="0248b03"/>
 <milestone unit="juan" n="3"/>
 <lb n="0248b04"/>
-<lb n="0248b05"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>吽迦陀野儀軌下</jhead></juan></div1>
-<lb n="0248b06"/><div1 type="pin">
-<lb n="0248b07"/><mulu type="品" level="1" n="5" label="5 吽迦陀野相應天成就八界供養洗浴品"/><head>吽迦陀野相應天成就八界供養洗浴品
+<lb n="0248b05"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>吽迦陀野儀軌下</jhead></juan>
+<lb n="0248b06"/>
+<lb n="0248b07"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 吽迦陀野相應天成就八界供養洗浴品"/><head>吽迦陀野相應天成就八界供養洗浴品
 <lb n="0248b08"/>第五<note place="inline">卷三</note></head>
 <lb n="0248b09"/><p>我今依相應天。說五種種不思議法。先行者
 <lb n="0248b10"/>依法可具本尊像。所謂八牙王也。此八牙者。
@@ -1839,13 +1842,13 @@ Added comment  for Emacs
 <lb n="0252a21"/>希有。依此更不傳授。但隨機僧之十三十四
 <lb n="0252a22"/>十五童十三十四十五。皆得意可授此。此間
 <lb n="0252a23"/>皆清淨熟機時。更勿多傳。又不得非戒律皆
-<lb n="0252a24"/>得能法之人。相應品已了</p>
+<lb n="0252a24"/>得能法之人。相應品已了</p></div1>
 <lb n="0252a25"/><juan fun="close" n="003"><jhead>吽迦陀野卷第三</jhead></juan>
-<lb n="0252a26"/><p type="W">久安三年二月十五一校了　伊賀阿闍梨
+<lb n="0252a26"/><div1 type="W"><p>久安三年二月十五一校了　伊賀阿闍梨
 <lb n="0252a27"/>御房　以御本申請書寫了</p>
-<lb n="0252a28"/><p type="W">久安三年書了　次四年之二月十一二三
+<lb n="0252a28"/><p>久安三年書了　次四年之二月十一二三
 <lb n="0252a29"/>　四五日間一校了　　　　俊然記之</p>
 <pb ed="T" id="T21.1251.0252b" n="0252b"/>
-<lb n="0252b01"/><p type="W">同年同月二十五日伊賀阿闍梨御房奉讀
+<lb n="0252b01"/><p>同年同月二十五日伊賀阿闍梨御房奉讀
 <lb n="0252b02"/>三卷題□了　　　　　　　傳領相覺</p></div1>
 </body></text></TEI.2>

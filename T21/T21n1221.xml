@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/06/07 08:23:31 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/09/09 10:03:49 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/06/07 08:23:31 $</date>
+		<date>$Date: 2004/09/09 10:03:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1221 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T21n1221.xml,v $
+Revision 1.6  2004/09/09 10:03:49  saywhat
+刪除空的 juan close
+
 Revision 1.5  2004/06/07 08:23:31  saywhat
 組字式[基-土+虫]修訂成CB碼
 
@@ -113,7 +116,7 @@ Revision 1.8  2001/02/07 06:57:07  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.7  2001/02/03 07:47:01  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/06/07 08:23:31 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/09/09 10:03:49 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -123,11 +126,11 @@ Added comment  for Emacs
 <lb n="0099c03"/>
 <milestone unit="juan" n="1"/>
 <lb n="0099c04"/>
-<lb n="0099c05"/><head type="no">No. 1221</head><div1 type="jing">
-<lb n="0099c06"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0099044" resp="Taisho" type="orig" place="foot text">【原】東寺寶菩提院三密藏藏本</note>青色大金剛藥叉辟鬼魔法<note place="inline">亦名辟鬼殊法</note></jhead></juan>
+<lb n="0099c05"/><head type="no">No. 1221</head>
+<lb n="0099c06"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0099044" resp="Taisho" type="orig" place="foot text">【原】東寺寶菩提院三密藏藏本</note><jhead>青色大金剛藥叉辟鬼魔法<note place="inline">亦名辟鬼殊法</note></jhead></juan>
 <lb n="0099c07"/>
 <lb n="0099c08"/><byline type="Author">鮫龍洞阿闍梨位空&CB00511;述</byline>
-<lb n="0099c09"/><p>□根本印。二手合掌。以二受指屈入掌中。二
+<lb n="0099c09"/><div1 type="jing"><p>□根本印。二手合掌。以二受指屈入掌中。二
 <lb n="0099c10"/>節相背。以右想指柱左行端。以左想指柱右
 <lb n="0099c11"/>行端。少如輪形。隨其印處摧滅一切魔鬼
 <lb n="0099c12"/>□害真言</p>
@@ -324,8 +327,8 @@ Added comment  for Emacs
 <lb n="0101c28"/><p>正觀觀亦由行者於坐禪中邪念利魔現種種
 <lb n="0101c29"/>衣服飲食七珍雜物。即領受觀□入心成病。
 <pb ed="T" id="T21.1221.0102a" n="0102a"/>
-<lb n="0102a01"/>此病難治<note place="inline">文</note></p><juan fun="close" n="001"></juan></div1><div1 type="W">
-<lb n="0102a02"/><p>承□□□□月二十六日。以□□房御本
+<lb n="0102a01"/>此病難治<note place="inline">文</note></p></div1>
+<lb n="0102a02"/><div1 type="W"><p>承□□□□月二十六日。以□□房御本
 <lb n="0102a03"/>書寫□□□□□慶範記之</p>
 <lb n="0102a04"/><p>承安二年正月十八日。奉隨乘乘房阿闍
 <lb n="0102a05"/>梨御房奉傳受了。慶範記之</p>
