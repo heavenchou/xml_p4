@@ -356,6 +356,26 @@ converted to XML form 2.1.99 (CW)
 	rend CDATA #IMPLIED
 	place CDATA #IMPLIED
 >
+
+<!ELEMENT sp 
+	((anchor | gap | index | interp | interpGrp | lb | milestone 
+	| pb)*, (speaker, (anchor | gap | index | interp | interpGrp 
+	| lb | milestone | pb)*)?, ((p | l | lg | ab | seg | stage), 
+	(anchor | gap | index | interp | interpGrp | lb | milestone 
+	| pb)*)+) >
+<!ATTLIST sp 
+	corresp IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	prev IDREF #IMPLIED
+	ana IDREFS #IMPLIED
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	who IDREFS #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "sp" >
+
 <!--  7:  Top-level parts of default structure                 -->
 <!ELEMENT text (body)>
 <!ATTLIST text
@@ -364,7 +384,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | qa | tt)*>
+<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | qa | tt)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -376,7 +396,7 @@ converted to XML form 2.1.99 (CW)
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div3 (#PCDATA | div4 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | xref | tt)*>
+<!ELEMENT div3 (#PCDATA | div4 | anchor | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | xref | tt)*>
 <!ATTLIST div3
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -414,12 +434,12 @@ converted to XML form 2.1.99 (CW)
 >
 
 <!--  12:  Print Dictionaries -->
-<!ELEMENT entry (form | def)*>
+<!ELEMENT entry (form | def | lb | pb)*>
 <!ATTLIST entry
 	rend CDATA #IMPLIED
 >
 <!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | pb)*>
-<!ELEMENT def (#PCDATA | gaiji | lb | p)*>
+<!ELEMENT def (#PCDATA | gaiji | lb | lg | p | pb)*>
 
 <!--  14.2.1:  Extended pointers                               -->
 <!-- XREF is from the TEI set, but the attributes loc, rend has been added (Chou, Ray, 2000/9/5 10:18AM) -->
@@ -631,9 +651,10 @@ converted to XML form 2.1.99 (CW)
 	type CDATA #IMPLIED
 >
 
-<!ELEMENT qa (answer | lb | question)*>
-<!ELEMENT question (#PCDATA|lb|p)*>
-<!ELEMENT answer (#PCDATA|lb|p)*>
+<!ELEMENT dialog (sp | lb)*>
+<!ATTLIST dialog
+	type CDATA #IMPLIED
+>
 
 <!-- Notations -->
 <!NOTATION doc SYSTEM "uedit32.exe">
