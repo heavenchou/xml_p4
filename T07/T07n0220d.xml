@@ -14,13 +14,13 @@
 <author></author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/04/20 08:37:15 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/05/27 08:03:35 $</date></edition></editionStmt>
 <extent>28卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/04/20 08:37:15 $</date></publicationStmt>
+<date>$Date: 2004/05/27 08:03:35 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 07, No. 220d</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p type="ly" lang="eng">Text as provided by Miao-Yuan Aranya, Text as provided by Chung Sheng Publishing Company, Text as provided by SAT, Japan</p>
@@ -41,6 +41,9 @@
 </change>
 <!--
 $Log: T07n0220d.xml,v $
+Revision 1.10  2004/05/27 08:03:35  saywhat
+修訂 juan, div & mulu位置
+
 Revision 1.9  2004/04/20 08:37:15  maha
 「版本日期」標記修訂
 
@@ -56,8 +59,8 @@ add cvs log
 <text><body>
 <pb ed="T" id="T07.0220d.0763a" n="0763a"/>
 <lb n="0763a01"/>
-<milestone unit="juan" n="538"></milestone><div1 type="hui" n="04"><juan fun="open" n="538"></juan>
-<lb n="0763a02"/><mulu label="4 會" level="1" type="會" n="3"></mulu><head><title>大般若經</title>第四會</head><div2 type="xu"><mulu label="序" level="2" type="序"></mulu><head>序</head>
+<milestone unit="juan" n="538"></milestone>
+<lb n="0763a02"/><div1 type="hui" n="04"><mulu label="4 會" level="1" type="會" n="3"></mulu><head><title>大般若經</title>第四會</head><div2 type="xu"><mulu label="序" level="2" type="序"></mulu><head>序</head>
 <lb n="0763a03"/>
 <lb n="0763a04"/><byline><anchor id="fxT07p0763a01"/>西明寺沙門玄則撰</byline>
 <lb n="0763a05"/><p>若夫識之所識。曷嘗非識。如之所如。未始不
@@ -78,13 +81,14 @@ add cvs log
 <lb n="0763a20"/>有大品小品焉。道行即分中之初品。譯者取
 <lb n="0763a21"/>以別經。明度乃智度之異言。即就總目為號。
 <lb n="0763a22"/><note n="0763001" resp="Taisho" type="orig" place="foot text">寔＝實【明】</note><app n="0763001"><lem>寔</lem><rdg wit="【明】" resp="Taisho">實</rdg></app>由殘缺未具。故使名題亦差。今大教克
-<lb n="0763a23"/>圓。鴻規允布。心術之要可復道哉</p>
-<pb ed="T" id="T07.0220d.0763b" n="0763b"/></div2><div2 type="pin">
+<lb n="0763a23"/>圓。鴻規允布。心術之要可復道哉</p></div2>
+<pb ed="T" id="T07.0220d.0763b" n="0763b"/>
 <lb n="0763b01"/>
-<lb n="0763b02"/><juan n="538"><mulu type="卷" n="538"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百三<lb n="0763b03"/>十八</jhead></juan>
+<lb n="0763b02"/><juan fun="open" n="538"><mulu type="卷" n="538"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百三
+<lb n="0763b03"/>十八</jhead></juan>
 <lb n="0763b04"/>
 <lb n="0763b05"/><byline><anchor id="fxT07p0763b01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0763b06"/><mulu label="1 妙行品" level="2" type="品" n="1"></mulu><head><note n="0763002" resp="Taisho" type="orig" place="foot text">第四分. A&sdotblw;&tdotblw;as&amacron;hasrik&amacron; Praj&ntilde;&amacron;p&amacron;ramit&amacron;. [Nos. 224-228; cf. Nos. 220(5), 229]. [梵文對校 No. 228]</note>第四分妙行品第一之一</head>
+<lb n="0763b06"/><div2 type="pin"><mulu label="1 妙行品" level="2" type="品" n="1"></mulu><head><note n="0763002" resp="Taisho" type="orig" place="foot text">第四分. A&sdotblw;&tdotblw;as&amacron;hasrik&amacron; Praj&ntilde;&amacron;p&amacron;ramit&amacron;. [Nos. 224-228; cf. Nos. 220(5), 229]. [梵文對校 No. 228]</note>第四分妙行品第一之一</head>
 <lb n="0763b07"/><p>如是我聞。一時薄伽梵。住王舍城鷲&CB00123;山中。
 <lb n="0763b08"/>與大苾芻眾千二百五十人俱。皆阿羅漢。諸
 <lb n="0763b09"/>漏已盡無復煩惱。得真自在。心善解脫。慧善
@@ -554,7 +558,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0768c" n="0768c"/>
 <lb n="0768c01"/>
 <milestone unit="juan" n="539"></milestone>
-<lb n="0768c02"/><juan fun="open" n="539"><mulu type="卷" n="539"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百三<lb n="0768c03"/>十九</jhead>
+<lb n="0768c02"/><juan fun="open" n="539"><mulu type="卷" n="539"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百三
+<lb n="0768c03"/>十九</jhead>
 <lb n="0768c04"/>
 <lb n="0768c05"/><byline><anchor id="fxT07p0768c01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0768c06"/><head type="ping">第四分妙行品第一之二</head></juan>
@@ -640,8 +645,8 @@ add cvs log
 <lb n="0769b26"/>般若波羅蜜多。是菩薩摩訶薩速證無上正
 <lb n="0769b27"/>等菩提。能盡未來利樂一切是故菩薩摩訶
 <lb n="0769b28"/>薩眾。欲證無上正等菩提當勤修學甚深般
-<lb n="0769b29"/>若波羅蜜多</p>
-<pb ed="T" id="T07.0220d.0769c" n="0769c"/></div2>
+<lb n="0769b29"/>若波羅蜜多</p></div2>
+<pb ed="T" id="T07.0220d.0769c" n="0769c"/>
 <lb n="0769c01"/><div2 type="pin"><mulu label="2 帝釋品" level="2" type="品" n="2"></mulu><head>第四分帝釋品第二</head>
 <lb n="0769c02"/><p>爾時天帝釋與三十三天四萬天子俱來會坐
 <lb n="0769c03"/>護世四天王與四大王眾天二萬天子俱來會
@@ -1034,7 +1039,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0774a" n="0774a"/>
 <lb n="0774a01"/>
 <milestone unit="juan" n="540"></milestone>
-<lb n="0774a02"/><juan fun="open" n="540"><mulu type="卷" n="540"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0774a03"/>十</jhead>
+<lb n="0774a02"/><juan fun="open" n="540"><mulu type="卷" n="540"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0774a03"/>十</jhead>
 <lb n="0774a04"/>
 <lb n="0774a05"/><byline><anchor id="fxT07p0774a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0774a06"/><head type="ping">第四分供養窣堵波品第三之二</head></juan>
@@ -1531,7 +1537,8 @@ add cvs log
 <lb n="0779b17"/>
 <milestone unit="juan" n="541"></milestone>
 <lb n="0779b18"/>
-<lb n="0779b19"/><juan fun="open" n="541"><mulu type="卷" n="541"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0779b20"/>十一</jhead>
+<lb n="0779b19"/><juan fun="open" n="541"><mulu type="卷" n="541"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0779b20"/>十一</jhead>
 <lb n="0779b21"/>
 <lb n="0779b22"/><byline><anchor id="fxT07p0779b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0779b23"/><head type="ping">第四分供養窣堵波品第三之三</head></juan>
@@ -2059,7 +2066,8 @@ add cvs log
 <lb n="0785b04"/>
 <milestone unit="juan" n="542"></milestone>
 <lb n="0785b05"/>
-<lb n="0785b06"/><juan fun="open" n="542"><mulu type="卷" n="542"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0785b07"/>十二</jhead>
+<lb n="0785b06"/><juan fun="open" n="542"><mulu type="卷" n="542"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0785b07"/>十二</jhead>
 <lb n="0785b08"/>
 <lb n="0785b09"/><byline><anchor id="fxT07p0785b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0785b10"/><head type="ping">第四分福門品第五之二</head></juan>
@@ -2543,15 +2551,16 @@ add cvs log
 <lb n="0790c08"/>上正等菩提。則無如來聲聞獨覺世間勝事。
 <lb n="0790c09"/>故應勸勵攝受護助諸菩薩摩訶薩。令學六
 <lb n="0790c10"/>種波羅蜜多究竟圓滿。疾證無上正等菩提。
-<lb n="0790c11"/>轉妙法輪度有情眾</p>
-<lb n="0790c12"/><juan fun="close" n="542"><jhead><title>大般若波羅蜜多經</title>卷第五百四十二</jhead></juan></div2>
+<lb n="0790c11"/>轉妙法輪度有情眾</p></div2>
+<lb n="0790c12"/><juan fun="close" n="542"><jhead><title>大般若波羅蜜多經</title>卷第五百四十二</jhead></juan>
 <lb n="0790c13"/>
-<milestone unit="juan" n="543"></milestone><div2 type="pin">
+<milestone unit="juan" n="543"></milestone>
 <lb n="0790c14"/>
-<lb n="0790c15"/><juan fun="open" n="543"><mulu type="卷" n="543"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0790c16"/>十三</jhead></juan>
+<lb n="0790c15"/><juan fun="open" n="543"><mulu type="卷" n="543"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0790c16"/>十三</jhead></juan>
 <lb n="0790c17"/>
 <lb n="0790c18"/><byline><anchor id="fxT07p0790c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0790c19"/><mulu label="6 隨喜迴向品" level="2" type="品" n="6"></mulu><head>第四分隨喜迴向品第六之一</head>
+<lb n="0790c19"/><div2 type="pin"><mulu label="6 隨喜迴向品" level="2" type="品" n="6"></mulu><head>第四分隨喜迴向品第六之一</head>
 <lb n="0790c20"/><p>爾時慈氏菩薩摩訶薩謂具壽善現言。大德。
 <lb n="0790c21"/>諸菩薩摩訶薩所有隨喜迴向俱行諸福業
 <lb n="0790c22"/>事。於餘有情施戒修等諸福業事。為最為勝。
@@ -3037,7 +3046,8 @@ add cvs log
 <lb n="0796a22"/>
 <milestone unit="juan" n="544"></milestone>
 <lb n="0796a23"/>
-<lb n="0796a24"/><juan fun="open" n="544"><mulu type="卷" n="544"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0796a25"/>十四</jhead>
+<lb n="0796a24"/><juan fun="open" n="544"><mulu type="卷" n="544"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0796a25"/>十四</jhead>
 <lb n="0796a26"/>
 <lb n="0796a27"/><byline><anchor id="fxT07p0796a02"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0796a28"/><head type="ping">第四分隨喜迴向品第六之二</head></juan>
@@ -3527,15 +3537,16 @@ add cvs log
 <lb n="0801c02"/>五蘊。諸惡知識所攝受故。四者多懷瞋恚樂
 <lb n="0801c03"/>行惡法。好自高舉輕凌他故。彼愚癡人由具
 <lb n="0801c04"/>如是四因緣故。毀謗般若波羅蜜多。由此當
-<lb n="0801c05"/>來受諸劇苦</p>
-<lb n="0801c06"/><juan fun="close" n="544"><jhead><title>大般若波羅蜜多經</title>卷第五百四十四</jhead></juan></div2>
+<lb n="0801c05"/>來受諸劇苦</p></div2>
+<lb n="0801c06"/><juan fun="close" n="544"><jhead><title>大般若波羅蜜多經</title>卷第五百四十四</jhead></juan>
 <lb n="0801c07"/>
-<milestone unit="juan" n="545"></milestone><div2 type="pin">
+<milestone unit="juan" n="545"></milestone>
 <lb n="0801c08"/>
-<lb n="0801c09"/><juan fun="open" n="545"><mulu type="卷" n="545"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0801c10"/>十五</jhead></juan>
+<lb n="0801c09"/><juan fun="open" n="545"><mulu type="卷" n="545"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0801c10"/>十五</jhead></juan>
 <lb n="0801c11"/>
 <lb n="0801c12"/><byline><anchor id="fxT07p0801c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0801c13"/><mulu label="8 清淨品" level="2" type="品" n="8"></mulu><head>第四分清淨品第八</head>
+<lb n="0801c13"/><div2 type="pin"><mulu label="8 清淨品" level="2" type="品" n="8"></mulu><head>第四分清淨品第八</head>
 <lb n="0801c14"/><p>爾時具壽善現復白佛言。世尊。諸愚癡人不
 <lb n="0801c15"/>勤精進。具諸惡行薄少善根。暗鈍無求少聞
 <lb n="0801c16"/>劣慧。為惡知識之所攝受不事善友。不樂請
@@ -4032,7 +4043,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0807b" n="0807b"/>
 <lb n="0807b01"/>
 <milestone unit="juan" n="546"></milestone>
-<lb n="0807b02"/><juan fun="open" n="546"><mulu type="卷" n="546"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0807b03"/>十六</jhead>
+<lb n="0807b02"/><juan fun="open" n="546"><mulu type="卷" n="546"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0807b03"/>十六</jhead>
 <lb n="0807b04"/>
 <lb n="0807b05"/><byline><anchor id="fxT07p0807b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0807b06"/><head type="ping">第四分總持品第十之二</head></juan>
@@ -4571,7 +4583,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0813b" n="0813b"/>
 <lb n="0813b01"/>
 <milestone unit="juan" n="547"></milestone>
-<lb n="0813b02"/><juan fun="open" n="547"><mulu type="卷" n="547"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0813b03"/>十七</jhead>
+<lb n="0813b02"/><juan fun="open" n="547"><mulu type="卷" n="547"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0813b03"/>十七</jhead>
 <lb n="0813b04"/>
 <lb n="0813b05"/><byline><anchor id="fxT07p0813b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0813b06"/><head type="ping">第四分魔事品第十一之二</head></juan>
@@ -5057,16 +5070,17 @@ add cvs log
 <lb n="0818c06"/>尊記彼於賢劫中得受無上正等菩提不退轉
 <lb n="0818c07"/>記。即前所說鄔波索迦鄔波斯迦於諸法中
 <lb n="0818c08"/>遠塵離垢生淨法眼者。佛亦記彼不久當證
-<lb n="0818c09"/>永盡諸漏心慧解脫</p><note n="0818002" resp="Taisho" type="orig" place="foot text">梵此處不分品</note>◎
+<lb n="0818c09"/>永盡諸漏心慧解脫</p><note n="0818002" resp="Taisho" type="orig" place="foot text">梵此處不分品</note>◎</div2>
 <lb n="0818c10"/><juan fun="close" n="547"><jhead><title>大般若波羅蜜多經</title>卷第五百四十七
-</jhead></juan></div2>
+</jhead></juan>
 <lb n="0818c11"/>
-<milestone unit="juan" n="548"></milestone><div2 type="pin"><mulu label="14 譬喻品" level="2" type="品" n="14"></mulu>
+<milestone unit="juan" n="548"></milestone>
 <lb n="0818c12"/>
-<lb n="0818c13"/><juan fun="open" n="548"><mulu type="卷" n="548"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0818c14"/>十八</jhead></juan>
+<lb n="0818c13"/><juan fun="open" n="548"><mulu type="卷" n="548"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0818c14"/>十八</jhead></juan>
 <lb n="0818c15"/>
 <lb n="0818c16"/><byline><anchor id="fxT07p0818c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0818c17"/><head>第四分譬喻品第十四</head>
+<lb n="0818c17"/><div2 type="pin"><mulu label="14 譬喻品" level="2" type="品" n="14"></mulu><head>第四分譬喻品第十四</head>
 <lb n="0818c18"/><p>◎<note n="0818003" resp="Taisho" type="orig" place="foot text">梵此處不分品</note>爾時具壽善現復白佛言。世尊。甚深般若波
 <lb n="0818c19"/>羅蜜多實為大事現世間不。佛告善現。如是
 <lb n="0818c20"/>如是。甚深般若波羅蜜多實為大事出現世
@@ -5572,7 +5586,8 @@ add cvs log
 <lb n="0824b10"/>
 <milestone unit="juan" n="549"></milestone>
 <lb n="0824b11"/>
-<lb n="0824b12"/><juan fun="open" n="549"><mulu type="卷" n="549"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四<lb n="0824b13"/>十九</jhead>
+<lb n="0824b12"/><juan fun="open" n="549"><mulu type="卷" n="549"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百四
+<lb n="0824b13"/>十九</jhead>
 <lb n="0824b14"/>
 <lb n="0824b15"/><byline><anchor id="fxT07p0824b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0824b16"/><head type="ping">第四分真如品第十六之二</head></juan>
@@ -6081,7 +6096,8 @@ add cvs log
 <lb n="0830a09"/>
 <milestone unit="juan" n="550"></milestone>
 <lb n="0830a10"/>
-<lb n="0830a11"/><juan fun="open" n="550"><mulu type="卷" n="550"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0830a12"/>十</jhead>
+<lb n="0830a11"/><juan fun="open" n="550"><mulu type="卷" n="550"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0830a12"/>十</jhead>
 <lb n="0830a13"/>
 <lb n="0830a14"/><byline><anchor id="fxT07p0830a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0830a15"/><head type="ping">第四分空相品第十八之二</head></juan>
@@ -6386,8 +6402,8 @@ add cvs log
 <lb n="0833b14"/>不生怖畏。應知速證所求無上正等菩提。是
 <lb n="0833b15"/>故舍利子。菩薩摩訶薩欲疾證得所求無上
 <lb n="0833b16"/>正等菩提。應隨如來真淨空教。被功德鎧精
-<lb n="0833b17"/>勤修學。於一切法不應怖畏</p><note n="0833002" resp="Taisho" type="orig" place="foot text">此處梵不分品</note>◎
-<lb n="0833b18"/></div2><div2 type="pin"><mulu label="20 殑伽天品" level="2" type="品" n="20"></mulu><head>第四分殑伽天品第二十</head>
+<lb n="0833b17"/>勤修學。於一切法不應怖畏</p><note n="0833002" resp="Taisho" type="orig" place="foot text">此處梵不分品</note>◎</div2>
+<lb n="0833b18"/><div2 type="pin"><mulu label="20 殑伽天品" level="2" type="品" n="20"></mulu><head>第四分殑伽天品第二十</head>
 <lb n="0833b19"/><p>◎<note n="0833003" resp="Taisho" type="orig" place="foot text">此處梵不分品</note>爾時會中有一天女名殑伽天。從座而起稽
 <lb n="0833b20"/>首佛足。偏覆左肩右膝著地。合掌向佛白言。
 <lb n="0833b21"/>世尊。我於是處亦無怖畏。於諸法中亦無疑
@@ -6601,7 +6617,8 @@ add cvs log
 <lb n="0835c19"/>
 <milestone unit="juan" n="551"></milestone>
 <lb n="0835c20"/>
-<lb n="0835c21"/><juan fun="open" n="551"><mulu type="卷" n="551"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0835c22"/>十一</jhead>
+<lb n="0835c21"/><juan fun="open" n="551"><mulu type="卷" n="551"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0835c22"/>十一</jhead>
 <lb n="0835c23"/>
 <lb n="0835c24"/><byline><anchor id="fxT07p0835c01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0835c25"/><head type="ping">第四分覺魔事品第二十一之二</head></juan>
@@ -7130,7 +7147,8 @@ add cvs log
 <lb n="0841c08"/>
 <milestone unit="juan" n="552"></milestone>
 <lb n="0841c09"/>
-<lb n="0841c10"/><juan fun="open" n="552"><mulu type="卷" n="552"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0841c11"/>十二</jhead>
+<lb n="0841c10"/><juan fun="open" n="552"><mulu type="卷" n="552"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0841c11"/>十二</jhead>
 <lb n="0841c12"/>
 <lb n="0841c13"/><byline><anchor id="fxT07p0841c01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0841c14"/><head type="ping">第四分善友品第二十二之二</head></juan>
@@ -7639,7 +7657,8 @@ add cvs log
 <lb n="0847b07"/>
 <milestone unit="juan" n="553"></milestone>
 <lb n="0847b08"/>
-<lb n="0847b09"/><juan fun="open" n="553"><mulu type="卷" n="553"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0847b10"/>十三</jhead>
+<lb n="0847b09"/><juan fun="open" n="553"><mulu type="卷" n="553"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0847b10"/>十三</jhead>
 <lb n="0847b11"/>
 <lb n="0847b12"/><byline><anchor id="fxT07p0847b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0847b13"/><head type="ping">第四分迅速品第二十五之二</head></juan>
@@ -8142,7 +8161,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0853a" n="0853a"/>
 <lb n="0853a01"/>
 <milestone unit="juan" n="554"></milestone>
-<lb n="0853a02"/><juan fun="open" n="554"><mulu type="卷" n="554"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0853a03"/>十四</jhead>
+<lb n="0853a02"/><juan fun="open" n="554"><mulu type="卷" n="554"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0853a03"/>十四</jhead>
 <lb n="0853a04"/>
 <lb n="0853a05"/><byline><anchor id="fxT07p0853a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0853a06"/><head type="ping">第四分堅固品第二十七之二</head></juan>
@@ -8744,14 +8764,15 @@ add cvs log
 <lb n="0859c02"/>念思惟諸佛功德。如香象菩薩摩訶薩。常能
 <lb n="0859c03"/>修行般若波羅蜜多。引發般若波羅蜜多。憶
 <lb n="0859c04"/>念思惟諸佛功德常不捨離。是菩薩摩訶薩
-<lb n="0859c05"/>今在不動如來應正等覺所修行梵行</p>
-<lb n="0859c06"/><juan fun="close" n="554"><jhead><title>大般若波羅蜜多經</title>卷第五百五十四</jhead></juan></div2>
+<lb n="0859c05"/>今在不動如來應正等覺所修行梵行</p></div2>
+<lb n="0859c06"/><juan fun="close" n="554"><jhead><title>大般若波羅蜜多經</title>卷第五百五十四</jhead></juan>
 <lb n="0859c07"/>
-<milestone unit="juan" n="555"></milestone><div2 type="pin">
-<lb n="0859c08"/><juan fun="open" n="555"><mulu type="卷" n="555"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0859c09"/>十五</jhead></juan>
+<milestone unit="juan" n="555"></milestone>
+<lb n="0859c08"/><juan fun="open" n="555"><mulu type="卷" n="555"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0859c09"/>十五</jhead></juan>
 <lb n="0859c10"/>
 <lb n="0859c11"/><byline><anchor id="fxT07p0859c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0859c12"/><mulu label="29 隨順品" level="2" type="品" n="29"></mulu><head>第四分隨順品第二十九</head>
+<lb n="0859c12"/><div2 type="pin"><mulu label="29 隨順品" level="2" type="品" n="29"></mulu><head>第四分隨順品第二十九</head>
 <lb n="0859c13"/><p>復次善現。諸菩薩摩訶薩應觀諸法不和合
 <lb n="0859c14"/>故隨順般若波羅蜜多。應觀諸法無分別故
 <lb n="0859c15"/>隨順般若波羅蜜多。應觀諸法無雜壞故隨
@@ -9245,12 +9266,12 @@ add cvs log
 <lb n="0865a23"/>菩薩摩訶薩眾慈氏菩薩而為上首。具壽善
 <lb n="0865a24"/>現及舍利子阿難陀等諸大聲聞。并諸天龍
 <lb n="0865a25"/>阿素洛等一切大眾。聞佛所說皆大歡喜。信
-<lb n="0865a26"/>受奉行</p>
+<lb n="0865a26"/>受奉行</p></div2></div1>
 <lb n="0865a27"/><juan fun="close" n="555"><jhead><title>大般若波羅蜜多經</title>卷第五百五十五</jhead></juan>
-<pb ed="T" id="T07.0220d.0865b" n="0865b"/></div2></div1>
+<pb ed="T" id="T07.0220d.0865b" n="0865b"/>
 <lb n="0865b01"/>
-<milestone unit="juan" n="556"></milestone><juan fun="open" n="556"></juan><div1 type="hui" n="05">
-<lb n="0865b02"/><mulu label="5 會" level="1" type="會" n="4"></mulu><head><title>大般若經</title>第五會</head><div2 type="xu"><mulu label="序" level="2" type="序"></mulu><head>序</head>
+<milestone unit="juan" n="556"></milestone>
+<lb n="0865b02"/><div1 type="hui" n="05"><mulu label="5 會" level="1" type="會" n="4"></mulu><head><title>大般若經</title>第五會</head><div2 type="xu"><mulu label="序" level="2" type="序"></mulu><head>序</head>
 <lb n="0865b03"/>
 <lb n="0865b04"/><byline><note n="0865002" resp="Taisho" type="orig" place="foot text">（唐）＋西【明】</note><app n="0865002"><lem>西</lem><rdg wit="【明】" resp="Taisho">唐西</rdg></app>明寺沙門玄則<note n="0865003" resp="Taisho" type="orig" place="foot text">撰＝製【三】</note><note n="0865003" resp="CBETA" type="mod">撰＝製【宋】【元】【明】</note><app n="0865003"><lem>撰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">製</rdg></app></byline>
 <lb n="0865b05"/><p>蓋聞申申夭夭。宴居而欲流誨。憤憤<note n="0865004" resp="Taisho" type="orig" place="foot text">悱悱＝啡啡【宋】</note><app n="0865004"><lem>悱悱</lem><rdg wit="【宋】" resp="Taisho">啡啡</rdg></app>。
@@ -9274,14 +9295,14 @@ add cvs log
 <lb n="0865b23"/>頂讚而徒殷。神&CB00057;神珠。語靈祥而不極。鋪惟
 <lb n="0865b24"/>此會未傳茲壤。凡二十四品。今譯充十卷。其
 <lb n="0865b25"/>亹亹通韻。新新渴奉者。固當不以抵羽而輕
-<lb n="0865b26"/>積珍矣</p>
-<pb ed="T" id="T07.0220d.0865c" n="0865c"/></div2><div2 type="pin">
+<lb n="0865b26"/>積珍矣</p></div2>
+<pb ed="T" id="T07.0220d.0865c" n="0865c"/>
 <lb n="0865c01"/>
-<lb n="0865c02"/><juan n="556"><mulu type="卷" n="556"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0865c02"/><juan fun="open" n="556"><mulu type="卷" n="556"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
 <lb n="0865c03"/>十六</jhead></juan>
 <lb n="0865c04"/>
 <lb n="0865c05"/><byline><anchor id="fxT07p0865c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0865c06"/><mulu label="1 善現品" level="2" type="品" n="1"></mulu><head><note n="0865007" resp="Taisho" type="orig" place="foot text">第五分 cf. A&sdotblw;&tdotblw;as&amacron;hasrik&amacron; Praj&ntilde;&amacron;p&amacron;ramit&amacron;. [cf. Nos. 220(4), 224-228, 229.]</note>第五分善現品第一</head>
+<lb n="0865c06"/><div2 type="pin"><mulu label="1 善現品" level="2" type="品" n="1"></mulu><head><note n="0865007" resp="Taisho" type="orig" place="foot text">第五分 cf. A&sdotblw;&tdotblw;as&amacron;hasrik&amacron; Praj&ntilde;&amacron;p&amacron;ramit&amacron;. [cf. Nos. 220(4), 224-228, 229.]</note>第五分善現品第一</head>
 <lb n="0865c07"/><p>如是我聞。一時薄伽梵。住王舍城鷲&CB00123;山頂。
 <lb n="0865c08"/>與大苾芻眾萬二千人俱。皆阿羅漢。具壽善
 <lb n="0865c09"/>現舍利子等而為上首。除阿難陀獨居學地。
@@ -9857,15 +9878,16 @@ add cvs log
 <lb n="0872a10"/>此中頗有真實有情有生滅不。天帝釋言。不
 <lb n="0872a11"/>也大德。何以故。以諸有情本性淨故。善現
 <lb n="0872a12"/>告言。由此故說有情無邊故。當知般若波羅
-<lb n="0872a13"/>蜜多亦無邊。無性甚深俱無邊故</p>
-<lb n="0872a14"/><juan fun="close" n="556"><jhead><title>大般若波羅蜜多經</title>卷第五百五十六</jhead></juan></div2>
+<lb n="0872a13"/>蜜多亦無邊。無性甚深俱無邊故</p></div2>
+<lb n="0872a14"/><juan fun="close" n="556"><jhead><title>大般若波羅蜜多經</title>卷第五百五十六</jhead></juan>
 <lb n="0872a15"/>
-<milestone unit="juan" n="557"></milestone><div2 type="pin">
+<milestone unit="juan" n="557"></milestone>
 <lb n="0872a16"/>
-<lb n="0872a17"/><juan fun="open" n="557"><mulu type="卷" n="557"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0872a18"/>十七</jhead></juan>
+<lb n="0872a17"/><juan fun="open" n="557"><mulu type="卷" n="557"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0872a18"/>十七</jhead></juan>
 <lb n="0872a19"/>
 <lb n="0872a20"/><byline><anchor id="fxT07p0872a01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0872a21"/><mulu label="3 窣堵波品" level="2" type="品" n="3"></mulu><head>第五分窣堵波品第三</head>
+<lb n="0872a21"/><div2 type="pin"><mulu label="3 窣堵波品" level="2" type="品" n="3"></mulu><head>第五分窣堵波品第三</head>
 <lb n="0872a22"/><p>爾時眾中天帝釋等。欲界諸天大梵王等。色
 <lb n="0872a23"/>界諸天及餘神仙歡喜踊躍。同時三返高聲
 <lb n="0872a24"/>唱言。奇哉奇哉法性深妙。如來出世以神通
@@ -10353,16 +10375,17 @@ add cvs log
 <lb n="0877b26"/>利樂有情不滅沒故。書寫如是甚深般若波
 <lb n="0877b27"/>羅蜜多。眾寶嚴飾復持無量上妙花鬘乃至
 <lb n="0877b28"/>燈明。供養恭敬尊重讚歎。亦得如前所說勝
-<lb n="0877b29"/>利</p>
+<lb n="0877b29"/>利</p></div2>
 <pb ed="T" id="T07.0220d.0877c" n="0877c"/>
-<lb n="0877c01"/><juan fun="close" n="557"><jhead><title>大般若波羅蜜多經</title>卷第五百五十七</jhead></juan></div2>
+<lb n="0877c01"/><juan fun="close" n="557"><jhead><title>大般若波羅蜜多經</title>卷第五百五十七</jhead></juan>
 <lb n="0877c02"/>
-<milestone unit="juan" n="558"></milestone><div2 type="pin">
+<milestone unit="juan" n="558"></milestone>
 <lb n="0877c03"/>
-<lb n="0877c04"/><juan fun="open" n="558"><mulu type="卷" n="558"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0877c05"/>十八</jhead></juan>
+<lb n="0877c04"/><juan fun="open" n="558"><mulu type="卷" n="558"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0877c05"/>十八</jhead></juan>
 <lb n="0877c06"/>
 <lb n="0877c07"/><byline><anchor id="fxT07p0877c01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0877c08"/><mulu label="5 設利羅品" level="2" type="品" n="5"></mulu><head>第五分設利羅品第五</head>
+<lb n="0877c08"/><div2 type="pin"><mulu label="5 設利羅品" level="2" type="品" n="5"></mulu><head>第五分設利羅品第五</head>
 <lb n="0877c09"/><p>復次憍尸迦。假使充滿此贍部洲佛設利羅
 <lb n="0877c10"/>以為一分。有書般若波羅蜜多深妙法門復
 <lb n="0877c11"/>為一分。於斯二分汝取何者。天帝釋言。我意
@@ -10866,15 +10889,16 @@ add cvs log
 <lb n="0883a29"/>一住如殑伽沙劫。以有所得而為方便。所修
 <pb ed="T" id="T07.0220d.0883b" n="0883b"/>
 <lb n="0883b01"/>淨戒安忍精進靜慮般若相應善根。百倍為
-<lb n="0883b02"/>勝千倍為勝。乃至鄔波尼殺曇倍亦復為勝</p>
-<lb n="0883b03"/><juan fun="close" n="558"><jhead><title>大般若波羅蜜多經</title>卷第五百五十八</jhead></juan></div2>
+<lb n="0883b02"/>勝千倍為勝。乃至鄔波尼殺曇倍亦復為勝</p></div2>
+<lb n="0883b03"/><juan fun="close" n="558"><jhead><title>大般若波羅蜜多經</title>卷第五百五十八</jhead></juan>
 <lb n="0883b04"/>
-<milestone unit="juan" n="559"></milestone><div2 type="pin">
+<milestone unit="juan" n="559"></milestone>
 <lb n="0883b05"/>
-<lb n="0883b06"/><juan fun="open" n="559"><mulu type="卷" n="559"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五<lb n="0883b07"/>十九</jhead></juan>
+<lb n="0883b06"/><juan fun="open" n="559"><mulu type="卷" n="559"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百五
+<lb n="0883b07"/>十九</jhead></juan>
 <lb n="0883b08"/>
 <lb n="0883b09"/><byline><anchor id="fxT07p0883b01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0883b10"/><mulu label="8 地獄品" level="2" type="品" n="8"></mulu><head>第五分地獄品第八</head>
+<lb n="0883b10"/><div2 type="pin"><mulu label="8 地獄品" level="2" type="品" n="8"></mulu><head>第五分地獄品第八</head>
 <lb n="0883b11"/><p>時舍利子便白佛言。如是無倒隨喜迴向。皆
 <lb n="0883b12"/>由般若波羅蜜多威力成辦。爾時佛告舍利
 <lb n="0883b13"/>子言。如是如是。時舍利子。復白佛言。如是般
@@ -11381,7 +11405,8 @@ add cvs log
 <lb n="0889a04"/>
 <milestone unit="juan" n="560"></milestone>
 <lb n="0889a05"/>
-<lb n="0889a06"/><juan fun="open" n="560"><mulu type="卷" n="560"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0889a07"/>十</jhead>
+<lb n="0889a06"/><juan fun="open" n="560"><mulu type="卷" n="560"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0889a07"/>十</jhead>
 <lb n="0889a08"/>
 <lb n="0889a09"/><byline><anchor id="fxT07p0889a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0889a10"/><head type="ping">第五分不思議品第十之二</head></juan>
@@ -11871,15 +11896,16 @@ add cvs log
 <lb n="0894b14"/>意識界甚深故真如甚深。耳鼻舌身意識界
 <lb n="0894b15"/>與真如無差別故。善現當知。一切法無盡故
 <lb n="0894b16"/>真如無盡。一切法甚深故真如甚深。一切法
-<lb n="0894b17"/>與真如無差別故。是故真如極難信解</p>
-<lb n="0894b18"/><juan fun="close" n="560"><jhead><title>大般若波羅蜜多經</title>卷第五百六十</jhead></juan></div2>
+<lb n="0894b17"/>與真如無差別故。是故真如極難信解</p></div2>
+<lb n="0894b18"/><juan fun="close" n="560"><jhead><title>大般若波羅蜜多經</title>卷第五百六十</jhead></juan>
 <lb n="0894b19"/>
-<milestone unit="juan" n="561"></milestone><div2 type="pin">
+<milestone unit="juan" n="561"></milestone>
 <lb n="0894b20"/>
-<lb n="0894b21"/><juan fun="open" n="561"><mulu type="卷" n="561"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0894b22"/>十一</jhead></juan>
+<lb n="0894b21"/><juan fun="open" n="561"><mulu type="卷" n="561"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0894b22"/>十一</jhead></juan>
 <lb n="0894b23"/>
 <lb n="0894b24"/><byline><note n="0894001" resp="Taisho" type="orig" place="foot text">（唐）＋三【明】＊</note><app n="0894001"><lem>三</lem><rdg wit="【明】" resp="Taisho">唐三</rdg></app>藏法師玄奘奉　詔譯</byline>
-<lb n="0894b25"/><mulu label="13 甚深相品" level="2" type="品" n="13"></mulu><head>第五分甚深相品第十三</head>
+<lb n="0894b25"/><div2 type="pin"><mulu label="13 甚深相品" level="2" type="品" n="13"></mulu><head>第五分甚深相品第十三</head>
 <lb n="0894b26"/><p>爾時欲界十千天子。天主帝釋而為上首。復
 <lb n="0894b27"/>有梵世二萬天子。大梵天王而為上首。俱詣
 <lb n="0894b28"/>佛所頂禮雙足。&CB00230;住一面同白佛言。世尊。所
@@ -12362,7 +12388,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0900a" n="0900a"/>
 <lb n="0900a01"/>
 <milestone unit="juan" n="562"></milestone>
-<lb n="0900a02"/><juan fun="open" n="562"><mulu type="卷" n="562"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0900a03"/>十二</jhead>
+<lb n="0900a02"/><juan fun="open" n="562"><mulu type="卷" n="562"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0900a03"/>十二</jhead>
 <lb n="0900a04"/>
 <lb n="0900a05"/><byline><anchor id="fxT07p0900a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0900a06"/><head type="ping">第五分如來品第十五之二</head></juan>
@@ -12832,7 +12859,8 @@ add cvs log
 <lb n="0905a20"/><juan fun="close" n="562"><jhead><title>大般若波羅蜜多經</title>卷<note n="0905001" resp="Taisho" type="orig" place="foot text">〔第〕－【明】</note><app n="0905001"><lem>第</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>五百六十二</jhead></juan>
 <lb n="0905a21"/>
 <milestone unit="juan" n="563"></milestone>
-<lb n="0905a22"/><juan fun="open" n="563"><mulu type="卷" n="563"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0905a23"/>十三</jhead>
+<lb n="0905a22"/><juan fun="open" n="563"><mulu type="卷" n="563"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0905a23"/>十三</jhead>
 <lb n="0905a24"/>
 <lb n="0905a25"/><byline><anchor id="fxT07p0905a01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0905a26"/><head type="ping">第五分貪行品第十七之二</head></juan>
@@ -13282,15 +13310,16 @@ add cvs log
 <lb n="0910a20"/>欲證無上正等菩提。當善覺知諸惡魔事。應
 <lb n="0910a21"/>勤精進遠離除滅。如彼菩薩所起過患。勤求
 <lb n="0910a22"/>無上正等菩提。若諸菩薩如是學者。是為善
-<lb n="0910a23"/>巧覺知魔事</p>
+<lb n="0910a23"/>巧覺知魔事</p></div2>
 <lb n="0910a24"/><juan fun="close" n="563"><jhead><title>大般若波羅蜜多經</title>卷第五百六十三</jhead></juan>
-<pb ed="T" id="T07.0220d.0910b" n="0910b"/></div2><div2 type="pin">
+<pb ed="T" id="T07.0220d.0910b" n="0910b"/>
 <lb n="0910b01"/>
 <milestone unit="juan" n="564"></milestone>
-<lb n="0910b02"/><juan fun="open" n="564"><mulu type="卷" n="564"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0910b03"/>十四</jhead></juan>
+<lb n="0910b02"/><juan fun="open" n="564"><mulu type="卷" n="564"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0910b03"/>十四</jhead></juan>
 <lb n="0910b04"/>
 <lb n="0910b05"/><byline><anchor id="fxT07p0910b01"/>三藏法師玄奘奉　詔譯</byline>
-<lb n="0910b06"/><mulu label="20 勝意樂品" level="2" type="品" n="20"></mulu><head>第五分勝意樂品第二十</head>
+<lb n="0910b06"/><div2 type="pin"><mulu label="20 勝意樂品" level="2" type="品" n="20"></mulu><head>第五分勝意樂品第二十</head>
 <lb n="0910b07"/><p>復次善現。若諸菩薩以勝意樂。欲證無上正
 <lb n="0910b08"/>等菩提。常應親近供養恭敬尊重讚歎真淨
 <lb n="0910b09"/>善友。爾時善現便白佛言。何等名為菩薩善
@@ -13737,7 +13766,8 @@ add cvs log
 <pb ed="T" id="T07.0220d.0915b" n="0915b"/>
 <lb n="0915b01"/>
 <milestone unit="juan" n="565"></milestone>
-<lb n="0915b02"/><juan fun="open" n="565"><mulu type="卷" n="565"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六<lb n="0915b03"/>十五</jhead>
+<lb n="0915b02"/><juan fun="open" n="565"><mulu type="卷" n="565"></mulu><jhead><title>大般若波羅蜜多經</title>卷第五百六
+<lb n="0915b03"/>十五</jhead>
 <lb n="0915b04"/>
 <lb n="0915b05"/><byline><anchor id="fxT07p0915b01"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0915b06"/><head type="ping">第五分根栽品第二十二之二</head></juan>
@@ -14200,6 +14230,6 @@ add cvs log
 <lb n="0920b13"/>波羅蜜多。時薄伽梵說是經已。無量菩薩摩
 <lb n="0920b14"/>訶薩眾慈氏菩薩而為上首。具壽善現舍利
 <lb n="0920b15"/>子等諸大聲聞。并諸天龍健達縛等一切大
-<lb n="0920b16"/>眾。聞佛所說皆大歡喜。信受奉行</p>
-<lb n="0920b17"/><juan fun="close" n="565"><jhead><title>大般若波羅蜜多經</title>卷第五百六十五</jhead></juan></div2></div1>
+<lb n="0920b16"/>眾。聞佛所說皆大歡喜。信受奉行</p></div2></div1>
+<lb n="0920b17"/><juan fun="close" n="565"><jhead><title>大般若波羅蜜多經</title>卷第五百六十五</jhead></juan>
 </body></text></TEI.2>
