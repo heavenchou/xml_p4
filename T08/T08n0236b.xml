@@ -14,13 +14,13 @@
 <author>元魏 菩提流支譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/04/20 08:37:20 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/05/13 11:51:30 $</date></edition></editionStmt>
 <extent>1卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/04/20 08:37:20 $</date></publicationStmt>
+<date>$Date: 2004/05/13 11:51:30 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 236b</bibl><p>The Taisho Tripitaka has this text as an Appendix to No 236. We changed the number of 236 to No. 236a and have this Song version as No. 236b.</p></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p type="ly" lang="eng">CBETA OCR Group, Others</p>
@@ -41,6 +41,9 @@
 </change>
 <!--
 $Log: T08n0236b.xml,v $
+Revision 1.6  2004/05/13 11:51:30  saywhat
+加入 juan & jhead
+
 Revision 1.5  2004/04/20 08:37:20  maha
 「版本日期」標記修訂
 
@@ -56,11 +59,11 @@ add cvs log
 <text><body>
 <lb n="0757a20"/>
 <milestone unit="juan" n="1"></milestone>
-<lb n="0757a21"/><div1 type="jing">
-<lb n="0757a22"/><mulu type="卷" n="1"></mulu><head><title><note n="0757005" resp="Taisho" type="orig" place="foot text">（佛說）＋金剛【宮】</note><app n="0757005"><lem>金剛</lem><rdg wit="【宮】" resp="Taisho">佛說金剛</rdg></app>般若波羅蜜經</title></head>
+<lb n="0757a21"/>
+<lb n="0757a22"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><title><note n="0757005" resp="Taisho" type="orig" place="foot text">（佛說）＋金剛【宮】</note><app n="0757005"><lem>金剛</lem><rdg wit="【宮】" resp="Taisho">佛說金剛</rdg></app>般若波羅蜜經</title></jhead></juan>
 <lb n="0757a23"/>
 <lb n="0757a24"/><byline>元魏留支三藏奉　詔譯</byline>
-<lb n="0757a25"/><p>如是我聞。一時佛婆伽婆。住舍衛國祇陀
+<lb n="0757a25"/><div1 type="jing"><p>如是我聞。一時佛婆伽婆。住舍衛國祇陀
 <lb n="0757a26"/>樹林給孤獨園。與大比丘眾千二百五十
 <lb n="0757a27"/>人俱。爾時世尊。於日前分著衣持&CB00425;。入
 <lb n="0757a28"/>舍衛大國而行乞食。於其國中次第行已。
@@ -429,13 +432,11 @@ add cvs log
 <lb n="0761b01"/>不以具足相應觀如來。何以故。若以具足
 <lb n="0761b02"/>相觀如來者。轉輪聖王應是如來。是故不
 <lb n="0761b03"/>以具足相應觀如來。是時世尊而說偈言</p>
-<lg type="v5">
-<lb n="0761b04"/><l>若以色見我</l><l>以音聲求我</l>
+<lb n="0761b04"/><lg type="v5"><l>若以色見我</l><l>以音聲求我</l>
 <lb n="0761b05"/><l>是人行邪道</l><l>不應得見我</l>
 <lb n="0761b06"/><l>由法應見佛</l><l>調御法為身</l>
-<lb n="0761b07"/><l>此法非識境</l><l>法如深難見</l>
-</lg><p>
-<lb n="0761b08"/>須菩提。汝意云何。如來可以具足相得阿
+<lb n="0761b07"/><l>此法非識境</l><l>法如深難見</l></lg>
+<lb n="0761b08"/><p>須菩提。汝意云何。如來可以具足相得阿
 <lb n="0761b09"/>耨多羅三藐三菩提不。須菩提。汝今不應
 <lb n="0761b10"/>作如是見。如來以具足相得阿耨多羅三
 <lb n="0761b11"/>藐三菩提。何以故。須菩提。如來不由具
@@ -485,6 +486,6 @@ add cvs log
 <lb n="0761c25"/>為法如闇翳燈幻露泡夢電雲。爾時世尊
 <lb n="0761c26"/>說是經已大德須菩提心進歡喜。及諸比
 <lb n="0761c27"/>丘比丘尼優婆塞優婆夷眾人天阿脩羅等
-<lb n="0761c28"/>一切世間踊躍歡喜信受奉行</p>
-<lb n="0761c29"/><trailer>金剛般若波羅蜜經</trailer>
-</div1></body></text></TEI.2>
+<lb n="0761c28"/>一切世間踊躍歡喜信受奉行</p></div1>
+<lb n="0761c29"/><juan fun="close" n="001"><jhead><title>金剛般若波羅蜜經</title></jhead></juan>
+</body></text></TEI.2>
