@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:24 $</date>
+		<date>$Date: 2003/06/02 06:26:31 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1184 &desc;</bibl>
@@ -60,8 +60,11 @@
 	</change>
 <!--
 $Log: T20n1184.xml,v $
-Revision 1.1  2003/05/05 04:09:24  ray
-Initial revision
+Revision 1.2  2003/06/02 06:26:31  saywhat
+CVS與2003/04版比對修訂
+
+Revision 1.37  2003/04/14 03:18:26  saywhat
+修訂校勘數字或＊位置
 
 Revision 1.36  2002/12/05 05:20:28  saywhat
 校勘插入處理
@@ -134,7 +137,7 @@ Revision 1.14  2001/02/07 06:56:45  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.13  2001/02/03 07:46:39  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:24 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/02 06:26:31 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -519,7 +522,7 @@ Added comment  for Emacs
 <lb n="0788b20"/><l>威光如劫火</l><l>忿怒大恐怖</l>
 <lb n="0788b21"/><l>三面現六臂</l><l>操持<note n="0788021" resp="Taisho" type="orig" place="foot text">鉞棓＝越棒【甲】【乙】【丙】</note><app n="0788021"><lem>鉞棓</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">越棒</rdg></app>瓶</l>
 <lb n="0788b22"/><l>蓮華及數珠</l><l>念彼真言曰</l></lg>
-<lb n="0788b23"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi"><yin><zi>唵</zi><sg>引</sg></yin><note place="inline">一</note></t></tt><tt><t lang="san-sd">&SD-E0C1;</t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-E0C1;</t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩<note place="inline">二</note></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A563;</t><t lang="chi"><note n="0788022" resp="Taisho" type="orig" place="foot text">佗＋（三）夾註【丙】</note><app n="0788022"><lem>佗</lem><rdg wit="【丙】" resp="Taisho">佗<note place="inline">三</note></rdg></app></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A563;</t><t lang="chi">佗<note place="inline"><note n="0788023" resp="Taisho" type="orig" place="foot text">〔三〕－【丙】</note><app n="0788023"><lem>三</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></note></t></tt>
+<lb n="0788b23"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi"><yin><zi>唵</zi><sg>引</sg></yin><note place="inline">一</note></t></tt><tt><t lang="san-sd">&SD-E0C1;</t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-E0C1;</t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩<note place="inline">二</note></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A563;</t><t lang="chi"><note n="0788022" resp="Taisho" type="orig" place="foot text">佗＋（三）夾註【丙】</note><app n="0788022"><lem>佗</lem><rdg wit="【丙】" resp="Taisho">佗<note place="inline">三</note></rdg></app></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A563;</t><t lang="chi">佗<note n="0788023" resp="Taisho" type="orig" place="foot text">〔三〕－【丙】</note><app n="0788023"><lem><note place="inline">三</note></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></t></tt>
 <lb n="0788b24"/>
 <lb n="0788b25"/><tt><t lang="san-sd">&SD-A6A8;</t><t lang="chi">訶</t></tt>
 <tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt>
@@ -631,9 +634,9 @@ Added comment  for Emacs
 <lb n="0789c07"/><l>七遍而三召</l><l>即說真言曰</l></lg>
 <lb n="0789c08"/><p type="dharani"><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-A5F0;</t><t lang="chi"><note n="0789032" resp="Taisho" type="orig" place="foot text">莫＋（入）夾註【丙】＊</note><app n="0789032"><lem>莫</lem><rdg wit="【丙】" resp="Taisho">莫<note place="inline">入</note></rdg></app></t></tt><tt><t lang="san-sd">&SD-A67A;</t><t lang="chi">三</t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi"><note n="0789033" resp="Taisho" type="orig" place="foot text">曼＝&CB14314;【丙】</note><app n="0789033"><lem>曼</lem><rdg wit="【丙】" resp="Taisho">&CB14314;</rdg></app></t></tt><tt><t lang="san-sd">&SD-CA56;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A65A;</t><t lang="chi">沒</t></tt><tt><t lang="san-sd">&SD-D9FA;</t><t lang="chi"><yin><zi>馱</zi><sg>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-E040;</t><t lang="chi"><yin><zi>南</zi><sg>上<note n="0789034" resp="Taisho" type="orig" place="foot text">〔引〕－【甲】【乙】【丙】</note><app n="0789034"><lem>引</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app></sg></yin><note place="inline">一</note></t></tt><tt><t lang="san-sd">&SD-CFC6;</t><t lang="chi"><yin><zi>阿</zi><sg>引</sg></yin></t></tt>
 <lb n="0789c09"/>
-<lb n="0789c10"/><tt><t lang="san-sd">&SD-A440;</t><t lang="chi">羯</t></tt><tt><t lang="san-sd">&SD-B7BB;</t><t lang="chi"><yin><zi><note n="0789035" resp="Taisho" type="orig" place="foot text">囉＝羅【甲】【乙】【丙】＊</note><app n="0789035"><lem>囉</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">羅</rdg></app>灑</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野<note place="inline"><note n="0789036" resp="Taisho" type="orig" place="foot text">〔二〕－【丙】</note><app n="0789036"><lem>二</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></note></t></tt><tt><t lang="san-sd">&SD-A67A;</t><t lang="chi">薩</t></tt><tt><t lang="san-sd">&SD-AF63;</t><t lang="chi"><yin><zi>&CB00680;</zi><sg>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A444;</t><t lang="chi">矩</t></tt><tt><t lang="san-sd">&SD-A642;</t><t lang="chi">嚕</t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi"><note n="0789037" resp="Taisho" type="orig" place="foot text">〔阿枳〕－【丙】</note>阿</t></tt>
+<lb n="0789c10"/><tt><t lang="san-sd">&SD-A440;</t><t lang="chi">羯</t></tt><tt><t lang="san-sd">&SD-B7BB;</t><t lang="chi"><yin><zi><note n="0789035" resp="Taisho" type="orig" place="foot text">囉＝羅【甲】【乙】【丙】＊</note><app n="0789035"><lem>囉</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">羅</rdg></app>灑</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野<note n="0789036" resp="Taisho" type="orig" place="foot text">〔二〕－【丙】</note><app n="0789036"><lem><note place="inline">二</note></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></t></tt><tt><t lang="san-sd">&SD-A67A;</t><t lang="chi">薩</t></tt><tt><t lang="san-sd">&SD-AF63;</t><t lang="chi"><yin><zi>&CB00680;</zi><sg>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A444;</t><t lang="chi">矩</t></tt><tt><t lang="san-sd">&SD-A642;</t><t lang="chi">嚕</t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi"><note n="0789037" resp="Taisho" type="orig" place="foot text">〔阿枳〕－【丙】</note>阿</t></tt>
 <lb n="0789c11"/>
-<lb n="0789c12"/><tt><t lang="san-sd">&SD-E1CD;</t><t lang="chi"><note n="0789038" resp="Taisho" type="orig" place="foot text">〔枳〕－【甲】【乙】</note><app n="0789038"><lem>枳</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app>然<note place="inline"><note n="0789039" resp="Taisho" type="orig" place="foot text">〔三〕－【丙】＊</note><app n="0789039"><lem>三</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></note></t></tt><tt><t lang="san-sd">&SD-A444;</t><t lang="chi">矩</t></tt><tt><t lang="san-sd">&SD-A5E6;</t><t lang="chi"><yin><zi>忙</zi><sg>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5FD;</t><t lang="chi"><note n="0789040" resp="Taisho" type="orig" place="foot text">羅＝囉【甲】，【丙】＊</note><app n="0789040"><lem>羅</lem><rdg wit="【甲】【丙】" resp="Taisho">囉</rdg></app></t></tt><tt><t lang="san-sd">&SD-A8E2;</t><t lang="chi">寫<note place="inline">四</note></t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑<note n="0789041" resp="Taisho" type="orig" place="foot text">縛＝&CB00085;【丙】</note><app n="0789041"><lem>縛</lem><rdg wit="【丙】" resp="Taisho">&CB00085;</rdg></app></zi><sg>二合<note n="0789042" resp="Taisho" type="orig" place="foot text">〔引〕－【丙】＊</note><app n="0789042"><lem>引</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></sg></yin></t></tt>
+<lb n="0789c12"/><tt><t lang="san-sd">&SD-E1CD;</t><t lang="chi"><note n="0789038" resp="Taisho" type="orig" place="foot text">〔枳〕－【甲】【乙】</note><app n="0789038"><lem>枳</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app>然<note n="0789039" resp="Taisho" type="orig" place="foot text">〔三〕－【丙】＊</note><app n="0789039"><lem><note place="inline">三</note></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></t></tt><tt><t lang="san-sd">&SD-A444;</t><t lang="chi">矩</t></tt><tt><t lang="san-sd">&SD-A5E6;</t><t lang="chi"><yin><zi>忙</zi><sg>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5FD;</t><t lang="chi"><note n="0789040" resp="Taisho" type="orig" place="foot text">羅＝囉【甲】，【丙】＊</note><app n="0789040"><lem>羅</lem><rdg wit="【甲】【丙】" resp="Taisho">囉</rdg></app></t></tt><tt><t lang="san-sd">&SD-A8E2;</t><t lang="chi">寫<note place="inline">四</note></t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑<note n="0789041" resp="Taisho" type="orig" place="foot text">縛＝&CB00085;【丙】</note><app n="0789041"><lem>縛</lem><rdg wit="【丙】" resp="Taisho">&CB00085;</rdg></app></zi><sg>二合<note n="0789042" resp="Taisho" type="orig" place="foot text">〔引〕－【丙】＊</note><app n="0789042"><lem>引</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></sg></yin></t></tt>
 <lb n="0789c13"/>
 <lb n="0789c14"/><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><yin><zi>賀</zi><sg>引</sg></yin></t></tt></p>
 <lb n="0789c15"/>
@@ -718,7 +721,7 @@ Added comment  for Emacs
 <lb n="0790b25"/>
 <lb n="0790b26"/><tt><t lang="san-sd">&SD-E1A1;</t><t lang="chi"><note n="0790024" resp="Taisho" type="orig" place="foot text">緊＝&CB00594;【丙】</note><app n="0790024"><lem>緊</lem><rdg wit="【丙】" resp="Taisho">&CB00594;</rdg></app></t></tt><tt><t lang="san-sd">&SD-A47E;</t><t lang="chi"><yin><zi>旨</zi><sg type="fangie">茲以切</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5FD;</t><t lang="chi"><note n="0790025" resp="Taisho" type="orig" place="foot text">囉＝羅【丙】＊</note><app n="0790025"><lem>囉</lem><rdg wit="【丙】" resp="Taisho">羅</rdg></app></t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">拽</t></tt><tt><t lang="san-sd">&SD-A67C;</t><t lang="chi"><note n="0790026" resp="Taisho" type="orig" place="foot text">徙＝徒【丙】</note><app n="0790026"><lem>徙</lem><rdg wit="【丙】" resp="Taisho">徒</rdg></app></t></tt><tt><t lang="san-sd">&SD-DA71;</t><t lang="chi"><yin><zi>阿</zi><sg>去急呼</sg></yin></t></tt><tt><t lang="san-sd">&SD-A658;</t><t lang="chi">尾</t></tt>
 <lb n="0790b27"/>
-<lb n="0790b28"/><tt><t lang="san-sd">&SD-B2CC;</t><t lang="chi"><yin><zi>娑麼</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">也</t></tt><tt><t lang="san-sd">&SD-A54D;</t><t lang="chi">儜</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳<note place="inline"><anchor id="fxT20p0790b10"/>三</note></t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合<anchor id="fxT20p0790b11"/>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><yin><zi>賀</zi><sg>引</sg></yin></t></tt></p>
+<lb n="0790b28"/><tt><t lang="san-sd">&SD-B2CC;</t><t lang="chi"><yin><zi>娑麼</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">也</t></tt><tt><t lang="san-sd">&SD-A54D;</t><t lang="chi">儜</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳<anchor id="fxT20p0790b10"/><note place="inline">三</note></t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合<anchor id="fxT20p0790b11"/>引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><yin><zi>賀</zi><sg>引</sg></yin></t></tt></p>
 <lb n="0790b29"/>
 <pb ed="T" id="T20.1184.0790c" n="0790c"/>
 <lb n="0790c01"/><lg><l>爾時修行者</l><l>安住慈<note n="0790027" resp="Taisho" type="orig" place="foot text">愍＝&CB00517;【丙】</note><app n="0790027"><lem>愍</lem><rdg wit="【丙】" resp="Taisho">&CB00517;</rdg></app>心</l>
