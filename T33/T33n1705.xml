@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/04/20 08:41:03 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/06/17 02:33:06 $</date></edition>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:41:03 $</date>
+		<date>$Date: 2004/06/17 02:33:06 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 33, No. 1705 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T33n1705.xml,v $
+Revision 1.10  2004/06/17 02:33:06  saywhat
+修訂 juan, div & mulu位置
+
 Revision 1.9  2004/04/20 08:41:03  maha
 「版本日期」標記修訂
 
@@ -126,7 +129,7 @@ Revision 1.9  2001/02/07 07:07:10  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.8  2001/02/03 07:57:56  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/04/20 08:41:03 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/06/17 02:33:06 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -138,7 +141,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0253a02"/>
 <lb n="0253a03"/><head type="no">No. 1705 [cf. No. 245]</head>
-<lb n="0253a04"/><div1 type="xu"><mulu type="序" level="1" label="仁王護國般若經疏序"/><head><note n="0253001" resp="Taisho" type="orig" place="foot text">【原】增上寺報恩藏明本，【甲】文安二年蓮觀寫仁和寺藏本，【乙】延寶九年刊宗教大學藏本</note>仁王護國般若經疏序</head>
+<lb n="0253a04"/><div1 type="xu"><mulu type="序" level="1" label="仁王護國般若經疏序"/><note n="0253001" resp="Taisho" type="orig" place="foot text">【原】增上寺報恩藏明本，【甲】文安二年蓮觀寫仁和寺藏本，【乙】延寶九年刊宗教大學藏本</note><head>仁王護國般若經疏序</head>
 <lb n="0253a05"/>
 <lb n="0253a06"/><byline type="Author">朝請郎飛騎尉賜緋魚袋晁說之撰</byline>
 <lb n="0253a07"/><p>陳隋間天台智者。遠稟龍樹。立一大教。九傳
@@ -174,10 +177,10 @@ Added comment  for Emacs
 <lb n="0253b07"/>天下。豈獨是書之不可掩哉。顧予老不及見
 <lb n="0253b08"/>之為恨。姑序其所自云爾</p>
 <lb n="0253b09"/><p>政和二年壬辰四月癸卯序</p></div1>
-<lb n="0253b10"/><div1 type="fen"><mulu type="分" level="1" n="1" label="序分"/><head type="added">序分</head>
-<lb n="0253b11"/><div2 type="pin">
+<lb n="0253b10"/>
+<lb n="0253b11"/>
 <lb n="0253b12"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0253002" resp="Taisho" type="orig" place="foot text">（（仁王…第一））十一字＝（（仁王私記卷上））六字【甲】＊，（（佛說仁王護國般若波羅蜜經疏第一））十五字【乙】</note><note n="0253002" resp="CBETA" type="mod"><todo type="＊"/>（（仁王…第一））十一字＝（（仁王私記卷上））六字【甲】＊，（（佛說仁王護國般若波羅蜜經疏第一））十五字【乙】</note><app n="0253002" word-count="11"><lem>仁王護國般若經疏卷第一</lem><rdg wit="【甲】" resp="Taisho">仁王私記卷上</rdg><rdg wit="【乙】" resp="Taisho">佛說仁王護國般若波羅蜜經疏第一</rdg></app></jhead></juan>
-<lb n="0253b13"/><mulu type="品" level="2" n="1" label="1 序品"/>
+<lb n="0253b13"/><div1 type="fen"><mulu type="分" level="1" n="1" label="序分"/><head type="added">序分</head><div2 type="pin"><mulu type="品" level="2" n="1" label="1 序品"/>
 <lb n="0253b14"/><byline type="other"><note n="0253003" resp="Taisho" type="orig" place="foot text">〔天台…記〕十二字－【甲】＊</note><app n="0253003" word-count="12"><lem>天台智者大師說　門人灌頂記</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></byline>
 <lb n="0253b15"/><p>大師於諸經。前例作五重玄義。一釋名。二辨
 <lb n="0253b16"/>體。三明宗。四論用。五判教。<note n="0253004" resp="Taisho" type="orig" place="foot text">〔此經…所言〕三十二字－【甲】</note><app n="0253004" word-count="32"><lem>此經以人法為
@@ -1122,15 +1125,15 @@ Added comment  for Emacs
 <lb n="0264c22"/>須彌山。喻佛也。不為八風所動。又華座皆是
 <lb n="0264c23"/>現實報土。如山<note n="0264045" resp="Taisho" type="orig" place="foot text">〔王〕－【甲】</note><app n="0264045"><lem>王</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>是現尊特身。亦別接通也
 <lb n="0264c24"/>云云。大眾歡喜下。第五大眾歡喜。有通者在
-<lb n="0264c25"/>空。無通者居地。上來序分竟</p>
+<lb n="0264c25"/>空。無通者居地。上來序分竟</p></div2></div1>
 <lb n="0264c26"/><juan fun="close" n="002"><jhead><note n="0264046" resp="Taisho" type="orig" place="foot text">（（仁王…第二））十一字＝（仁王私記卷上）六字【甲】</note><app n="0264046" word-count="11"><lem>仁王護國般若經疏卷第二</lem><rdg wit="【甲】" resp="Taisho">仁王私記卷上</rdg></app></jhead></juan>
-<pb ed="T" id="T33.1705.0265a" n="0265a"/></div2></div1>
+<pb ed="T" id="T33.1705.0265a" n="0265a"/>
 <lb n="0265a01"/>
-<milestone unit="juan" n="3"/><div1 type="fen"><mulu type="分" level="1" n="2" label="正宗分"/><head type="added">正宗分</head>
+<milestone unit="juan" n="3"/>
 <lb n="0265a02"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead><note n="0265001" resp="Taisho" type="orig" place="foot text">（（仁王…卷第三））十一字＝（（仁王私記中））五字【甲】，（（佛說仁王護國般若波羅蜜經疏第三））十五字【乙】</note><app n="0265001" word-count="11"><lem>仁王護國般若經疏卷第三</lem><rdg wit="【甲】" resp="Taisho">仁王私記中</rdg><rdg wit="【乙】" resp="Taisho">佛說仁王護國般若波羅蜜經疏第三</rdg></app></jhead></juan>
 <lb n="0265a03"/>
 <lb n="0265a04"/><byline type="other"><anchor id="fxT33p0265a01"/>天台智者大師說　門人灌頂記</byline>
-<lb n="0265a05"/><div2 type="pin"><mulu type="品" level="2" n="2" label="2 觀空品"/><head>觀空品第二</head>
+<lb n="0265a05"/><div1 type="fen"><mulu type="分" level="1" n="2" label="正宗分"/><head type="added">正宗分</head><div2 type="pin"><mulu type="品" level="2" n="2" label="2 觀空品"/><head>觀空品第二</head>
 <lb n="0265a06"/><p>言觀空者。<note n="0265002" resp="Taisho" type="orig" place="foot text">謂＋（以）【甲】</note><app n="0265002"><lem>謂</lem><rdg wit="【甲】" resp="Taisho">謂以</rdg></app>無相妙慧照無相之境。內外並
 <lb n="0265a07"/>寂緣觀俱空。故言空觀品也。又凡夫不識外
 <lb n="0265a08"/>道<note n="0265003" resp="Taisho" type="orig" place="foot text">妄＝惡【甲】</note><app n="0265003"><lem>妄</lem><rdg wit="【甲】" resp="Taisho">惡</rdg></app>取。二乘耽滯。今菩薩以般若正智觀空
@@ -2091,14 +2094,14 @@ Added comment  for Emacs
 <lb n="0276a20"/>人為人尊。在天為天尊。又大經云。人王即天
 <lb n="0276a21"/>王也。十四王即三賢十聖等也。<note n="0276018" resp="Taisho" type="orig" place="foot text">廣＝略【甲】</note><app n="0276018"><lem>廣</lem><rdg wit="【甲】" resp="Taisho">略</rdg></app>說恐時
 <lb n="0276a22"/>眾受<note n="0276019" resp="Taisho" type="orig" place="foot text">難＝歎【甲】</note><app n="0276019"><lem>難</lem><rdg wit="【甲】" resp="Taisho">歎</rdg></app>。故<note n="0276020" resp="Taisho" type="orig" place="foot text">（云）＋略【甲】</note><app n="0276020"><lem>略</lem><rdg wit="【甲】" resp="Taisho">云略</rdg></app>嘆也。又佛德無量不可歎盡。
-<lb n="0276a23"/>故略歎<note n="0276021" resp="Taisho" type="orig" place="foot text">也＋（云&CB02728;）【甲】</note><app n="0276021"><lem>也</lem><rdg wit="【甲】" resp="Taisho">也云&CB02728;</rdg></app></p>
+<lb n="0276a23"/>故略歎<note n="0276021" resp="Taisho" type="orig" place="foot text">也＋（云&CB02728;）【甲】</note><app n="0276021"><lem>也</lem><rdg wit="【甲】" resp="Taisho">也云&CB02728;</rdg></app></p></div2>
 <lb n="0276a24"/><juan fun="close" n="004"><jhead><app word-count="11" type="＊" source="0270031"><lem>仁王護國般若經疏卷第四</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg><rdg resp="Taisho" wit="【乙】">佛說仁王護國般若波羅蜜經疏卷第四</rdg></app></jhead></juan>
 <pb ed="T" id="T33.1705.0276b" n="0276b"/>
 <lb n="0276b01"/>
 <milestone unit="juan" n="5"/>
 <lb n="0276b02"/><juan fun="open" n="005"><mulu type="卷" n="5"/><jhead><note n="0276022" resp="Taisho" type="orig" place="foot text">〔仁王…第五〕十一字－【甲】，＝佛說仁王護國般若波羅蜜經疏第五【乙】＊</note><app n="0276022" word-count="11"><lem>仁王護國般若經疏卷第五</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg><rdg wit="【乙】" resp="Taisho">佛說仁王護國般若波羅蜜經疏第五</rdg></app></jhead></juan>
 <lb n="0276b03"/>
-<lb n="0276b04"/><byline type="other"><anchor id="fxT33p0276b01"/>天台智者大師說　門人灌頂記</byline></div2>
+<lb n="0276b04"/><byline type="other"><anchor id="fxT33p0276b01"/>天台智者大師說　門人灌頂記</byline>
 <lb n="0276b05"/><div2 type="pin"><head><note n="0276023" resp="Taisho" type="orig" place="foot text">〔菩薩…之餘〕七字－【甲】</note><app n="0276023" word-count="7"><lem>菩薩教化品之餘</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></head>
 <lb n="0276b06"/><p>時諸大眾下。第三辨大眾<note n="0276024" resp="Taisho" type="orig" place="foot text">得＝護【甲】</note><app n="0276024"><lem>得</lem><rdg wit="【甲】" resp="Taisho">護</rdg></app>益。文三。一<note n="0276025" resp="Taisho" type="orig" place="foot text">天及三趣＝諸天人【甲】</note><app n="0276025"><lem>天
 <lb n="0276b07"/>及三趣</lem><rdg wit="【甲】" resp="Taisho">諸天人</rdg></app>得益。二<note n="0276026" resp="Taisho" type="orig" place="foot text">（明）＋八【甲】＊</note><note n="0276026" resp="CBETA" type="mod"><todo type="＊"/>（明）＋八【甲】＊</note><app n="0276026"><lem>八</lem><rdg wit="【甲】" resp="Taisho">明八</rdg></app>部<note n="0276027" resp="Taisho" type="orig" place="foot text">〔得〕－【甲】</note><app n="0276027"><lem>得</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>益。三<note n="0276028" resp="Taisho" type="orig" place="foot text">（明）＋得【甲】＊</note><app n="0276028"><lem>得</lem><rdg wit="【甲】" resp="Taisho">明得</rdg></app>道<note n="0276029" resp="Taisho" type="orig" place="foot text">&CB00357;＝延【甲】＊</note><note n="0276029" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">賒</lem><rdg wit="【大】">&CB00357;</rdg></app>＝延【甲】＊</note><app n="0276029"><lem>賒</lem><rdg wit="【甲】" resp="Taisho">延</rdg></app>
@@ -2962,6 +2965,6 @@ Added comment  for Emacs
 <lb n="0286a06"/>爾時無量大眾中下。二奉行文五。先列。大眾
 <lb n="0286a07"/>聞佛所說下。二明聞佛法義。歡喜無量者。三
 <lb n="0286a08"/>明歡喜也。為佛作禮者。四禮佛也。受持般若
-<lb n="0286a09"/>波羅蜜者。五奉行也</p>
-<lb n="0286a10"/><juan fun="close" n="005"><jhead><app word-count="11" type="＊" source="0276022"><lem>仁王護國般若經疏卷第五</lem><rdg resp="Taisho" wit="【乙】">佛說仁王護國般若波羅蜜經疏第五</rdg></app></jhead></juan></div2></div1>
+<lb n="0286a09"/>波羅蜜者。五奉行也</p></div2></div1>
+<lb n="0286a10"/><juan fun="close" n="005"><jhead><app word-count="11" type="＊" source="0276022"><lem>仁王護國般若經疏卷第五</lem><rdg resp="Taisho" wit="【乙】">佛說仁王護國般若波羅蜜經疏第五</rdg></app></jhead></juan>
 </body></text></TEI.2>
