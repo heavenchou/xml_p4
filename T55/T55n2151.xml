@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/06/21 09:07:43 $</date></edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/07/16 09:13:10 $</date></edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/06/21 09:07:43 $</date>
+		<date>$Date: 2004/07/16 09:13:10 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2151 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2151.xml,v $
+Revision 1.12  2004/07/16 09:13:10  moved
+modified：執行 margin.pl，加入 em 單位。
+
 Revision 1.11  2004/06/21 09:07:43  saywhat
 修訂</byline></div>，將</div>移到前一卷
 
@@ -136,7 +139,7 @@ Revision 1.3  2001/02/07 07:46:07  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:10  chris
-Added keywords $Revision: 1.11 $, $Date: 2004/06/21 09:07:43 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2004/07/16 09:13:10 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -149,7 +152,7 @@ Added comment  for Emacs
 <lb n="0348a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0348001" resp="Taisho" type="orig" place="foot text">【原】麗本</note><jhead>古今譯經圖<note n="0348002" resp="Taisho" type="orig" place="foot text">紀＝記【明】＊</note><note n="0348002" resp="CBETA" type="mod"><todo type="＊"/>紀＝記【明】＊</note><app n="0348002"><lem>紀</lem><rdg wit="【明】" resp="Taisho">記</rdg></app>卷第一</jhead></juan>
 <lb n="0348a04"/>
 <lb n="0348a05"/><byline type="Author"><note n="0348003" resp="Taisho" type="orig" place="foot text">〔大〕－【三】＊</note><note n="0348003" resp="CBETA" type="mod">〔大〕－【宋】＊【元】＊【明】＊</note><app n="0348003"><lem>大</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>唐翻經沙門<note n="0348004" resp="Taisho" type="orig" place="foot text">〔釋〕－【三】＊</note><note n="0348004" resp="CBETA" type="mod">〔釋〕－【宋】＊【元】＊【明】＊</note><app n="0348004"><lem>釋</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>靖邁撰</byline>
-<lb n="0348a06"/><div1 type="other"><mulu type="其他" level="1" label="後漢"/><p rend="margin-left:2"><note n="0348005" resp="Taisho" type="orig" place="foot text">（次）＋後【宋】</note><app n="0348005"><lem>後</lem><rdg wit="【宋】" resp="Taisho">次後</rdg></app>漢劉氏都洛<note n="0348006" resp="Taisho" type="orig" place="foot text">陽＋（次魏吳朝）【三】</note><note n="0348006" resp="CBETA" type="mod">陽＋（次魏吳朝）【宋】【元】【明】</note><app n="0348006"><lem>陽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">陽次魏吳朝</rdg></app></p>
+<lb n="0348a06"/><div1 type="other"><mulu type="其他" level="1" label="後漢"/><p rend="margin-left:2em"><note n="0348005" resp="Taisho" type="orig" place="foot text">（次）＋後【宋】</note><app n="0348005"><lem>後</lem><rdg wit="【宋】" resp="Taisho">次後</rdg></app>漢劉氏都洛<note n="0348006" resp="Taisho" type="orig" place="foot text">陽＋（次魏吳朝）【三】</note><note n="0348006" resp="CBETA" type="mod">陽＋（次魏吳朝）【宋】【元】【明】</note><app n="0348006"><lem>陽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">陽次魏吳朝</rdg></app></p>
 <lb n="0348a07"/><p>惟孝明皇帝以永平三年歲次庚申。帝夢金
 <lb n="0348a08"/>人<note n="0348007" resp="Taisho" type="orig" place="foot text">項＝頂【三】</note><note n="0348007" resp="CBETA" type="mod">項＝頂【宋】【元】【明】</note><app n="0348007"><lem>項</lem><rdg wit="【宋】【元】【明】" resp="Taisho">頂</rdg></app>有日月光飛來殿庭。上問群臣。太史傅
 <lb n="0348a09"/>毅對曰。臣聞西域有神號之為佛。陛下所夢
@@ -433,7 +436,7 @@ Added comment  for Emacs
 <lb n="0351a17"/>卷</note>五龍&CB00057;毒經<note place="inline">一卷</note>。取血氣神&CB00057;<note place="inline">一卷</note>。&CB00057;<note n="0351002" resp="Taisho" type="orig" place="foot text">&CB07036;＝齲【三】</note><note n="0351002" resp="CBETA" type="mod">&CB07036;＝齲【宋】【元】【明】</note><app n="0351002"><lem>&CB07036;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">齲</rdg></app>
 <lb n="0351a18"/>齒&CB00057;<note place="inline">一卷</note>。&CB00057;牙痛&CB00057;<note place="inline">一卷</note>。&CB00057;眼痛&CB00057;<note place="inline">一卷</note>。&CB00057;賊
 <lb n="0351a19"/>法用<note place="inline">一卷</note>。七佛安宅神&CB00057;<note place="inline">一卷</note>。安宅&CB00057;法<note place="inline">一卷</note></p></div1>
-<lb n="0351a20"/><div1 type="other"><mulu type="其他" level="1" label="曹魏"/><p rend="margin-left:2">魏曹氏。前都洛陽。後都許昌</p>
+<lb n="0351a20"/><div1 type="other"><mulu type="其他" level="1" label="曹魏"/><p rend="margin-left:2em">魏曹氏。前都洛陽。後都許昌</p>
 <lb n="0351a21"/><p>沙門曇柯迦羅者。此云法時印度人也。幼而
 <lb n="0351a22"/>才敏質像&CB00225;<note n="0351003" resp="Taisho" type="orig" place="foot text">瑋＝偉【宋】，韋【明】</note><note n="0351003" resp="CBETA" type="mod">瑋＝偉【宋】，＝韋【明】</note><app n="0351003"><lem>瑋</lem><rdg wit="【宋】" resp="Taisho">偉</rdg><rdg wit="【明】" resp="Taisho">韋</rdg></app>。尋讀一覽文義悉通。善四圍
 <lb n="0351a23"/>陀妙五明論。圖讖運變靡所不該。自謂在世
@@ -459,7 +462,7 @@ Added comment  for Emacs
 <lb n="0351b13"/><p>沙門安法賢西域人。藝業克深慧解尤峻。振
 <lb n="0351b14"/>錫遊邦自遠而至。譯羅摩伽經一部<note place="inline">三卷</note>。大
 <lb n="0351b15"/>般涅槃經一部<note place="inline">二卷</note></p></div1>
-<lb n="0351b16"/><div1 type="other"><mulu type="其他" level="1" label="吳"/><p rend="margin-left:2">吳孫氏。前都武昌。後都建業</p>
+<lb n="0351b16"/><div1 type="other"><mulu type="其他" level="1" label="吳"/><p rend="margin-left:2em">吳孫氏。前都武昌。後都建業</p>
 <lb n="0351b17"/><p>優婆塞支謙字恭明。月支國人也。漢末遊洛。
 <lb n="0351b18"/>謙該覽經籍及諸<note n="0351008" resp="Taisho" type="orig" place="foot text">技＝伎【宋】</note><app n="0351008"><lem>技</lem><rdg wit="【宋】" resp="Taisho">伎</rdg></app>藝善諸國語。細長黑瘦
 <lb n="0351b19"/>白眼黃睛。時人語曰。支郎眼中黃形軀雖細
@@ -615,7 +618,7 @@ Added comment  for Emacs
 <lb n="0353a19"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>古今譯經圖<anchor id="fxT55p0353a01"/>紀卷第二</jhead></juan>
 <lb n="0353a20"/>
 <lb n="0353a21"/><byline type="Author"><anchor id="fxT55p0353a02"/>大唐翻經沙門<anchor id="fxT55p0353a03"/>釋靖邁撰</byline>
-<lb n="0353a22"/><div1 type="other"><mulu type="其他" level="1" label="西晉"/><p rend="margin-left:2">西晉司馬氏都洛<note n="0353006" resp="Taisho" type="orig" place="foot text">陽＋（次東晉）細註【宋】【元】</note><app n="0353006"><lem>陽</lem><rdg wit="【宋】【元】" resp="Taisho">陽<note place="inline">次東晉</note></rdg></app></p>
+<lb n="0353a22"/><div1 type="other"><mulu type="其他" level="1" label="西晉"/><p rend="margin-left:2em">西晉司馬氏都洛<note n="0353006" resp="Taisho" type="orig" place="foot text">陽＋（次東晉）細註【宋】【元】</note><app n="0353006"><lem>陽</lem><rdg wit="【宋】【元】" resp="Taisho">陽<note place="inline">次東晉</note></rdg></app></p>
 <lb n="0353a23"/><p>沙門竺曇摩羅察。此言法護。本姓支。後改姓
 <lb n="0353a24"/>竺。月支國人。八歲出家甚有識量。天性純懿
 <lb n="0353a25"/>操行精苦。篤志好學萬里尋師。屆茲未久。而
@@ -856,7 +859,7 @@ Added comment  for Emacs
 <lb n="0355c20"/>王經<note place="inline">二卷</note>。方等陀羅尼經<note place="inline">一卷</note>。寶嚴經<note place="inline">一卷</note>。五
 <lb n="0355c21"/>福德經<note place="inline">一卷</note>。明相續解脫地波羅蜜經<note place="inline">一卷</note>。弟
 <lb n="0355c22"/>子學有三輩經<note place="inline">一卷</note></p></div1>
-<lb n="0355c23"/><div1 type="other"><mulu type="其他" level="1" label="東晉"/><p rend="margin-left:2">東晉司馬氏都建康</p>
+<lb n="0355c23"/><div1 type="other"><mulu type="其他" level="1" label="東晉"/><p rend="margin-left:2em">東晉司馬氏都建康</p>
 <lb n="0355c24"/><p>沙門白尸<note n="0355015" resp="Taisho" type="orig" place="foot text">梨＝利【三】</note><note n="0355015" resp="CBETA" type="mod">梨＝利【宋】【元】【明】</note><app n="0355015"><lem>梨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">利</rdg></app>蜜多羅。此云吉友。西域人國王
 <lb n="0355c25"/>之太子。以國讓弟遂為沙門。天姿高朗風神
 <lb n="0355c26"/>俊邁。儀貌卓然出於物表。以晉元帝世來遊
@@ -1063,7 +1066,7 @@ Added comment  for Emacs
 <lb n="0358a16"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>古今譯經圖<anchor id="fxT55p0358a03"/>紀卷第三</jhead></juan>
 <lb n="0358a17"/>
 <lb n="0358a18"/><byline type="Author"><anchor id="fxT55p0358a04"/>大唐翻經沙門<anchor id="fxT55p0358a05"/>釋靖邁撰</byline>
-<lb n="0358a19"/><div1 type="other"><mulu type="其他" level="1" label="符秦"/><p rend="margin-left:2">秦符氏都長安</p>
+<lb n="0358a19"/><div1 type="other"><mulu type="其他" level="1" label="符秦"/><p rend="margin-left:2em">秦符氏都長安</p>
 <lb n="0358a20"/><p>沙門曇摩特。此言法海。西域人。善持律藏妙
 <lb n="0358a21"/>入契經。以符秦建<note n="0358001" resp="Taisho" type="orig" place="foot text">元＝云【明】</note><app n="0358001"><lem>元</lem><rdg wit="【明】" resp="Taisho">云</rdg></app>三年歲次辛未。共竺佛
 <lb n="0358a22"/>念於長安譯十誦比丘<note n="0358002" resp="Taisho" type="orig" place="foot text">戒＝尼【明】</note><app n="0358002"><lem>戒</lem><rdg wit="【明】" resp="Taisho">尼</rdg></app>本<note place="inline">一卷</note>授尼二歲
@@ -1100,7 +1103,7 @@ Added comment  for Emacs
 <lb n="0358b23"/>壞目因緣經<note place="inline">一卷</note>。僧伽羅剎集經<note place="inline">三卷</note>。三法度
 <lb n="0358b24"/>經<note place="inline">二卷</note>。<note n="0358016" resp="Taisho" type="orig" place="foot text">總＝凡【明】＊</note><app n="0358016"><lem>總</lem><rdg wit="【明】" resp="Taisho">凡</rdg></app>五部合一百一十<note n="0358017" resp="Taisho" type="orig" place="foot text">四＝六【三】</note><note n="0358017" resp="CBETA" type="mod">四＝六【宋】【元】【明】</note><app n="0358017"><lem>四</lem><rdg wit="【宋】【元】【明】" resp="Taisho">六</rdg></app>卷。沙門竺佛
 <lb n="0358b25"/>念度語<app type="＊" source="0358003"><lem>慧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惠</rdg></app>嵩筆受</p></div1>
-<lb n="0358b26"/><div1 type="other"><mulu type="其他" level="1" label="姚秦"/><p rend="margin-left:2">秦姚氏都<note n="0358018" resp="Taisho" type="orig" place="foot text">常＝長【明】</note><app n="0358018"><lem>常</lem><rdg wit="【明】" resp="Taisho">長</rdg></app>安</p>
+<lb n="0358b26"/><div1 type="other"><mulu type="其他" level="1" label="姚秦"/><p rend="margin-left:2em">秦姚氏都<note n="0358018" resp="Taisho" type="orig" place="foot text">常＝長【明】</note><app n="0358018"><lem>常</lem><rdg wit="【明】" resp="Taisho">長</rdg></app>安</p>
 <lb n="0358b27"/><p>沙門竺佛念涼州人。弱年離俗。志業清高外
 <lb n="0358b28"/>和內朗。通鑒明敏綜習群經尤工蒼雅。家世
 <lb n="0358b29"/>西河洞曉方語。梵秦音義莫不博洽。符<note n="0358019" resp="Taisho" type="orig" place="foot text">〔秦〕－【三】</note><note n="0358019" resp="CBETA" type="mod">〔秦〕－【宋】【元】【明】</note><app n="0358019"><lem>秦</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>建
@@ -1223,7 +1226,7 @@ Added comment  for Emacs
 <lb n="0359c26"/>常範。至弘始六年歲次癸卯十月十七日。集
 <lb n="0359c27"/>義學僧數百人。請於長安中寺譯十誦律一
 <lb n="0359c28"/>部<note place="inline">五十八卷</note>。羅什度語</p></div1>
-<lb n="0359c29"/><div1 type="other"><mulu type="其他" level="1" label="西秦"/><p rend="margin-left:2">西秦乞伏氏都菀川</p>
+<lb n="0359c29"/><div1 type="other"><mulu type="其他" level="1" label="西秦"/><p rend="margin-left:2em">西秦乞伏氏都菀川</p>
 <pb ed="T" id="T55.2151.0360a" n="0360a"/>
 <lb n="0360a01"/><p>沙門法堅或云堅公。<note n="0360001" resp="Taisho" type="orig" place="foot text">為＝器【三】</note><note n="0360001" resp="CBETA" type="mod">為＝器【宋】【元】【明】</note><app n="0360001"><lem>為</lem><rdg wit="【宋】【元】【明】" resp="Taisho">器</rdg></app>量弘普利物<note n="0360002" resp="Taisho" type="orig" place="foot text">戒＝為【三】</note><note n="0360002" resp="CBETA" type="mod">戒＝為【宋】【元】【明】</note><app n="0360002"><lem>戒</lem><rdg wit="【宋】【元】【明】" resp="Taisho">為</rdg></app>心。
 <lb n="0360a02"/>以乞伏西秦太初年間。於河南國為乞伏乾
@@ -1235,7 +1238,7 @@ Added comment  for Emacs
 <lb n="0360a08"/><note place="inline">一卷</note>。阿難問事佛吉凶經<note place="inline">一卷</note>。<note n="0360003" resp="Taisho" type="orig" place="foot text">（凡）＋一【明】</note><app n="0360003"><lem>一</lem><rdg wit="【明】" resp="Taisho">凡一</rdg></app>十四部合
 <lb n="0360a09"/>一十八卷。如須大拏經等在江陵辛寺譯。庾
 <lb n="0360a10"/>爽筆受餘十部見始興錄非唯西秦譯也</p></div1>
-<lb n="0360a11"/><div1 type="other"><mulu type="其他" level="1" label="北魏"/><p rend="margin-left:2">北魏元氏都中山</p>
+<lb n="0360a11"/><div1 type="other"><mulu type="其他" level="1" label="北魏"/><p rend="margin-left:2em">北魏元氏都中山</p>
 <lb n="0360a12"/><p>沙門釋曇覺。一云<app type="＊" source="0358003"><lem>慧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惠</rdg></app>覺。涼州人。牆仞連霄
 <lb n="0360a13"/>風神爽悟。戒地清拔慧鑒通微。於于<note n="0360004" resp="Taisho" type="orig" place="foot text">殿＝闐【三】＊</note><note n="0360004" resp="CBETA" type="mod">殿＝闐【宋】＊【元】＊【明】＊</note><app n="0360004"><lem>殿</lem><rdg wit="【宋】【元】【明】" resp="Taisho">闐</rdg></app>國
 <lb n="0360a14"/>得賢愚經梵本。以魏太武帝太平真君六年
@@ -1257,7 +1260,7 @@ Added comment  for Emacs
 <pb ed="T" id="T55.2151.0360b" n="0360b"/>
 <lb n="0360b01"/>緣經傳<note place="inline">六卷</note>。稱揚諸佛功德經<note place="inline">三卷</note>。大方廣菩
 <lb n="0360b02"/>薩十地經<note place="inline">一卷</note>。方便心論<note place="inline">二<note n="0360009" resp="Taisho" type="orig" place="foot text">卷＋（凡五部合二十五卷劉孝標筆受）【明】</note><app n="0360009"><lem>卷</lem><rdg wit="【明】" resp="Taisho">卷凡五部合二十五卷劉孝標筆受</rdg></app></note></p></div1>
-<lb n="0360b03"/><div1 type="other"><mulu type="其他" level="1" label="北涼"/><p rend="margin-left:2">北涼沮渠氏都姑臧</p>
+<lb n="0360b03"/><div1 type="other"><mulu type="其他" level="1" label="北涼"/><p rend="margin-left:2em">北涼沮渠氏都姑臧</p>
 <lb n="0360b04"/><p>沙門釋道龔。虛心廣運弘利為道。以北涼河
 <lb n="0360b05"/>西王神<note n="0360010" resp="Taisho" type="orig" place="foot text">璽＝&CB00223;【三】</note><note n="0360010" resp="CBETA" type="mod">璽＝&CB00223;【宋】【元】【明】</note><app n="0360010"><lem>璽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00223;</rdg></app>永初年間於張掖為蒙遜譯。悲華
 <lb n="0360b06"/>經一部<note place="inline">十卷</note>。寶梁經一部<note place="inline">二卷</note></p>
@@ -1340,7 +1343,7 @@ Added comment  for Emacs
 <lb n="0361a23"/>涼世目錄。雖不知譯人名。庶知譯時代也。大
 <lb n="0361a24"/>忍辱經<note place="inline">十卷</note>。不退轉經<note place="inline">四卷</note>。金剛三昧經<note place="inline">一卷</note>。
 <lb n="0361a25"/>金輪王經<note place="inline">一卷</note>。賢劫五百佛名<note place="inline">一卷</note></p></div1>
-<lb n="0361a26"/><div1 type="other"><mulu type="其他" level="1" label="宋"/><p rend="margin-left:2">宋劉氏都建康</p>
+<lb n="0361a26"/><div1 type="other"><mulu type="其他" level="1" label="宋"/><p rend="margin-left:2em">宋劉氏都建康</p>
 <lb n="0361a27"/><p>沙門佛陀什。此言覺壽。罽賓國人。少受業於
 <lb n="0361a28"/>彌沙塞部。專精律品兼達禪要。以宋廢帝<note n="0361006" resp="Taisho" type="orig" place="foot text">滎＝榮【宋】</note><app n="0361006"><lem>滎</lem><rdg wit="【宋】" resp="Taisho">榮</rdg></app>
 <lb n="0361a29"/>陽王景平元年歲次癸亥七月到於楊都。法
@@ -1537,7 +1540,7 @@ Added comment  for Emacs
 <lb n="0363b10"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>古今譯經圖<anchor id="fxT55p0363b07"/>紀卷第四</jhead></juan>
 <lb n="0363b11"/>
 <lb n="0363b12"/><byline type="Author"><anchor id="fxT55p0363b08"/>大唐翻經沙門<anchor id="fxT55p0363b09"/>釋靖邁撰</byline>
-<lb n="0363b13"/><div1 type="other"><mulu type="其他" level="1" label="蕭齊"/><p rend="margin-left:2">齊蕭氏都建康</p>
+<lb n="0363b13"/><div1 type="other"><mulu type="其他" level="1" label="蕭齊"/><p rend="margin-left:2em">齊蕭氏都建康</p>
 <lb n="0363b14"/><p>沙門曇摩伽陀耶舍。此言法生稱。印度國人。
 <lb n="0363b15"/>悟物居情導利無捨。以齊高帝建元三年歲
 <lb n="0363b16"/>次辛酉。於廣州朝亭寺。譯無量義經<note place="inline">一卷</note>。沙
@@ -1566,7 +1569,7 @@ Added comment  for Emacs
 <lb n="0363c09"/><p>沙門釋曇景。以齊世譯未曾有因緣經<note place="inline">二卷</note>。摩
 <lb n="0363c10"/>訶摩耶經<note place="inline">二卷</note></p>
 <lb n="0363c11"/><p>沙門釋法<note n="0363011" resp="Taisho" type="orig" place="foot text">化＝尼【三】</note><note n="0363011" resp="CBETA" type="mod">化＝尼【宋】【元】【明】</note><app n="0363011"><lem>化</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尼</rdg></app>以齊世譯益意經<note place="inline">二卷</note></p></div1>
-<lb n="0363c12"/><div1 type="other"><mulu type="其他" level="1" label="南魏"/><p rend="margin-left:2">南魏元氏都洛陽</p>
+<lb n="0363c12"/><div1 type="other"><mulu type="其他" level="1" label="南魏"/><p rend="margin-left:2em">南魏元氏都洛陽</p>
 <lb n="0363c13"/><p>沙門曇摩流支。此云法希。亦曰法樂。南印度
 <lb n="0363c14"/>人棄家入道偏以律藏傳名。弘道為務感物
 <lb n="0363c15"/>而動。遊魏洛陽。以魏宣武帝景明二年歲次
@@ -1627,7 +1630,7 @@ Added comment  for Emacs
 <lb n="0364b10"/><note place="inline">一卷</note>。無畏德女經<note place="inline">一卷</note>。無字寶篋經<note place="inline">一卷</note>。阿難
 <lb n="0364b11"/>多目佉尼訶離陀羅尼經<note place="inline">一卷</note>。攝大乘論<note place="inline"><note n="0364008" resp="Taisho" type="orig" place="foot text">二＝一【元】【明】</note><app n="0364008"><lem>二</lem><rdg wit="【元】【明】" resp="Taisho">一</rdg></app>卷</note>
 <lb n="0364b12"/><app type="＊" source="0363010"><lem>總</lem><rdg resp="Taisho" wit="【明】">凡</rdg></app>一十部合一十卷</p></div1>
-<lb n="0364b13"/><div1 type="other"><mulu type="其他" level="1" label="梁"/><p rend="margin-left:2">梁<note n="0364009" resp="Taisho" type="orig" place="foot text">簫＝蕭【三】</note><note n="0364009" resp="CBETA" type="mod">簫＝蕭【宋】【元】【明】</note><app n="0364009"><lem>簫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">蕭</rdg></app>氏都建康</p>
+<lb n="0364b13"/><div1 type="other"><mulu type="其他" level="1" label="梁"/><p rend="margin-left:2em">梁<note n="0364009" resp="Taisho" type="orig" place="foot text">簫＝蕭【三】</note><note n="0364009" resp="CBETA" type="mod">簫＝蕭【宋】【元】【明】</note><app n="0364009"><lem>簫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">蕭</rdg></app>氏都建康</p>
 <lb n="0364b14"/><p>沙門曼陀羅。此言弱聲。亦云弘弱。扶南國人。
 <lb n="0364b15"/>神解超悟幽明畢觀。無憚夷險志存弘化。大
 <lb n="0364b16"/>齎梵本以梁武帝天監二年歲次癸未用以奉
@@ -1686,7 +1689,7 @@ Added comment  for Emacs
 <lb n="0365a09"/>加<note n="0365001" resp="Taisho" type="orig" place="foot text">趺＝跌【明】</note><app n="0365001"><lem>趺</lem><rdg wit="【明】" resp="Taisho">跌</rdg></app>水中。若乘舟而濟岸。接對使君。而坐
 <lb n="0365a10"/>具無濕。或以荷藉水乘之而度。如斯神異其
 <lb n="0365a11"/>例甚多</p></div1>
-<lb n="0365a12"/><div1 type="other"><mulu type="其他" level="1" label="東魏"/><p rend="margin-left:2">東魏元氏都<note n="0365002" resp="Taisho" type="orig" place="foot text">（建）＋鄴【三】</note><note n="0365002" resp="CBETA" type="mod">（建）＋鄴【宋】【元】【明】</note><app n="0365002"><lem>鄴</lem><rdg wit="【宋】【元】【明】" resp="Taisho">建鄴</rdg></app></p>
+<lb n="0365a12"/><div1 type="other"><mulu type="其他" level="1" label="東魏"/><p rend="margin-left:2em">東魏元氏都<note n="0365002" resp="Taisho" type="orig" place="foot text">（建）＋鄴【三】</note><note n="0365002" resp="CBETA" type="mod">（建）＋鄴【宋】【元】【明】</note><app n="0365002"><lem>鄴</lem><rdg wit="【宋】【元】【明】" resp="Taisho">建鄴</rdg></app></p>
 <lb n="0365a13"/><p>優婆塞瞿曇般若留支。此云智希。南印度波
 <lb n="0365a14"/>羅<note n="0365003" resp="Taisho" type="orig" place="foot text">&CB00178;＝奈【三】</note><note n="0365003" resp="CBETA" type="mod">&CB00178;＝奈【宋】【元】【明】</note><app n="0365003"><lem>&CB00178;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">奈</rdg></app>城人。婆羅門種。少學佛法妙閑經旨。
 <lb n="0365a15"/>神理標異領悟方言。以魏清河王子善見元
@@ -1698,7 +1701,7 @@ Added comment  for Emacs
 <lb n="0365a21"/>人問論<note place="inline">一卷</note>。<note n="0365004" resp="Taisho" type="orig" place="foot text">迴＝固【明】</note><app n="0365004"><lem>迴</lem><rdg wit="【明】" resp="Taisho">固</rdg></app>諍論<note place="inline">一卷</note>。業成就論<note place="inline">一卷</note>。唯識
 <lb n="0365a22"/>無境界論<note place="inline">一卷</note>。伊迦輸盧迦論<note place="inline">一卷</note>。<app type="＊" source="0363010"><lem>總</lem><rdg resp="Taisho" wit="【明】">凡</rdg></app>一十四
 <lb n="0365a23"/>部合八十五卷。沙門曇林僧昉等筆受</p></div1>
-<lb n="0365a24"/><div1 type="other"><mulu type="其他" level="1" label="高齊"/><p rend="margin-left:2">齊高氏都<note n="0365005" resp="Taisho" type="orig" place="foot text">（建）＋鄴【宋】</note><app n="0365005"><lem>鄴</lem><rdg wit="【宋】" resp="Taisho">建鄴</rdg></app></p>
+<lb n="0365a24"/><div1 type="other"><mulu type="其他" level="1" label="高齊"/><p rend="margin-left:2em">齊高氏都<note n="0365005" resp="Taisho" type="orig" place="foot text">（建）＋鄴【宋】</note><app n="0365005"><lem>鄴</lem><rdg wit="【宋】" resp="Taisho">建鄴</rdg></app></p>
 <lb n="0365a25"/><p>沙門那連提耶舍。此言尊稱。北印度烏<note n="0365006" resp="Taisho" type="orig" place="foot text">長＝萇【元】【明】</note><app n="0365006"><lem>長</lem><rdg wit="【元】【明】" resp="Taisho">萇</rdg></app>國
 <lb n="0365a26"/>人。以幼出家數<note n="0365007" resp="Taisho" type="orig" place="foot text">近＝遊【元】【明】</note><app n="0365007"><lem>近</lem><rdg wit="【元】【明】" resp="Taisho">遊</rdg></app>靈&CB00528;。是以天梯石臺之
 <lb n="0365a27"/>所。龍廟寶塔之方。並親頂禮僅無遺逸。雖入
@@ -1722,7 +1725,7 @@ Added comment  for Emacs
 <lb n="0365b15"/>門甚聰<note n="0365010" resp="Taisho" type="orig" place="foot text">悊＝哲【三】</note><note n="0365010" resp="CBETA" type="mod">悊＝哲【宋】【元】【明】</note><app n="0365010"><lem>悊</lem><rdg wit="【宋】【元】【明】" resp="Taisho">哲</rdg></app>。善梵書語尤工&CB00057;術。特鑒醫方妙
 <lb n="0365b16"/>閑佛法。以高齊於鄴城。譯尊勝菩薩所問<note n="0365011" resp="Taisho" type="orig" place="foot text">經＋（一卷）【三】</note><note n="0365011" resp="CBETA" type="mod">經＋（一卷）【宋】【元】【明】</note><app n="0365011"><lem>經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經一卷</rdg></app>
 <lb n="0365b17"/>一名入無量門陀羅尼經<note n="0365012" resp="Taisho" type="orig" place="foot text">〔一卷〕－【三】</note><note n="0365012" resp="CBETA" type="mod">〔一卷〕－【宋】【元】【明】</note><app n="0365012"><lem><note place="inline">一卷</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></p></div1>
-<lb n="0365b18"/><div1 type="other"><mulu type="其他" level="1" label="陳"/><p rend="margin-left:2">陳陳氏都建鄴</p>
+<lb n="0365b18"/><div1 type="other"><mulu type="其他" level="1" label="陳"/><p rend="margin-left:2em">陳陳氏都建鄴</p>
 <lb n="0365b19"/><p><note n="0365013" resp="Taisho" type="orig" place="foot text">優字明本缺</note><note n="0365013" resp="CBETA" type="mod">〔優〕－【明】</note><app n="0365013"><lem>優</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>禪尼國王子月婆首那。此云高空。生知俊
 <lb n="0365b20"/>朗體悟幽微。專學佛經尤工義理。洞曉音韻
 <lb n="0365b21"/>兼善方言。以東魏帝善見元象元年歲次戊
@@ -1740,7 +1743,7 @@ Added comment  for Emacs
 <lb n="0365c03"/>詞彩逸俗。化物無倦遊方屆茲。以陳世於楊
 <lb n="0365c04"/>都城內至敬寺。為陳主。譯大乘寶雲經一部
 <lb n="0365c05"/><note place="inline">八卷</note></p></div1>
-<lb n="0365c06"/><div1 type="other"><mulu type="其他" level="1" label="周"/><p rend="margin-left:2">周宇文氏都長安</p>
+<lb n="0365c06"/><div1 type="other"><mulu type="其他" level="1" label="周"/><p rend="margin-left:2em">周宇文氏都長安</p>
 <lb n="0365c07"/><p>沙門攘那跋陀羅。此云智賢。波頭摩國人。善
 <lb n="0365c08"/>達三藏。以周明帝戊寅歲。於長安城婆伽寺。
 <lb n="0365c09"/>共闍那耶舍。譯五明論<note place="inline">一卷</note>。耶舍崛多等度
@@ -1787,7 +1790,7 @@ Added comment  for Emacs
 <lb n="0366a20"/>邃僧琨明芬道密學士費長房劉憑等筆受。
 <lb n="0366a21"/>曉殊俗語明深祕旨。凡所翻譯不勞傳度。理
 <lb n="0366a22"/>會義門口圓詞體</p></div1>
-<lb n="0366a23"/><div1 type="other"><mulu type="其他" level="1" label="隋"/><p rend="margin-left:2">隋楊氏都長安</p>
+<lb n="0366a23"/><div1 type="other"><mulu type="其他" level="1" label="隋"/><p rend="margin-left:2em">隋楊氏都長安</p>
 <lb n="0366a24"/><p>洋川郡守曇法智。梵名達摩波若。婆羅門種。
 <lb n="0366a25"/>門世已來相傳翻譯。高齊之季為昭玄寺都
 <lb n="0366a26"/>統。齊國既平佛法同毀。智因僧職轉任俗官。
@@ -1825,7 +1828,7 @@ Added comment  for Emacs
 <lb n="0366b28"/>八部合八十一卷。並文義清素華質顯正。沙
 <lb n="0366b29"/>門彥琮行<note n="0366011" resp="Taisho" type="orig" place="foot text">矩＝炬【三】</note><note n="0366011" resp="CBETA" type="mod">矩＝炬【宋】【元】【明】</note><app n="0366011"><lem>矩</lem><rdg wit="【宋】【元】【明】" resp="Taisho">炬</rdg></app>等筆受</p></div1>
 <pb ed="T" id="T55.2151.0366c" n="0366c"/>
-<lb n="0366c01"/><div1 type="other"><mulu type="其他" level="1" label="唐"/><p rend="margin-left:2">大唐李氏都長安</p>
+<lb n="0366c01"/><div1 type="other"><mulu type="其他" level="1" label="唐"/><p rend="margin-left:2em">大唐李氏都長安</p>
 <lb n="0366c02"/><p>沙門波羅頗迦羅。<note n="0366012" resp="Taisho" type="orig" place="foot text">唐＝此【明】</note><app n="0366012"><lem>唐</lem><rdg wit="【明】" resp="Taisho">此</rdg></app>言作明知識。或云波
 <lb n="0366c03"/>頗。此云光智。中印度人。剎帝利種。識度通敏
 <lb n="0366c04"/>器宇&CB00287;邃。博窮內外研精大小。誓傳法化不
@@ -1931,7 +1934,7 @@ Added comment  for Emacs
 <lb n="0367c14"/>足論一部<note place="inline">二十卷</note>。界身足論一部<note place="inline">三卷</note>。大阿羅
 <lb n="0367c15"/>漢難提蜜多羅所說法住記<note place="inline">一卷</note>。勝宗十句論
 <lb n="0367c16"/>義<note place="inline">一卷</note>。大<note n="0367010" resp="Taisho" type="orig" place="foot text">唐＝轉【明】</note><app n="0367010"><lem>唐</lem><rdg wit="【明】" resp="Taisho">轉</rdg></app>西域記一部<note place="inline">十二卷</note></p>
-<lb n="0367c17"/><p rend="margin-left:1">右除西域記總七十五部一千<note n="0367011" resp="Taisho" type="orig" place="foot text">三＝二【明】</note><app n="0367011"><lem>三</lem><rdg wit="【明】" resp="Taisho">二</rdg></app>百<note n="0367012" resp="Taisho" type="orig" place="foot text">明註曰三南藏作四</note><app n="0367012"><lem>三</lem><rdg wit="【南藏】" resp="【明】">四</rdg></app>十五
+<lb n="0367c17"/><p rend="margin-left:1em">右除西域記總七十五部一千<note n="0367011" resp="Taisho" type="orig" place="foot text">三＝二【明】</note><app n="0367011"><lem>三</lem><rdg wit="【明】" resp="Taisho">二</rdg></app>百<note n="0367012" resp="Taisho" type="orig" place="foot text">明註曰三南藏作四</note><app n="0367012"><lem>三</lem><rdg wit="【南藏】" resp="【明】">四</rdg></app>十五
 <lb n="0367c18"/>卷</p></div1>
 <lb n="0367c19"/><juan fun="close" n="004"><jhead>古今譯經圖<anchor id="fxT55p0367c02"/>紀卷第四</jhead></juan>
 </body></text></TEI.2>

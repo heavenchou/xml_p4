@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2004/06/15 08:25:25 $</date></edition>
+		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/07/16 09:13:00 $</date></edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/06/15 08:25:25 $</date>
+		<date>$Date: 2004/07/16 09:13:00 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 50, No. 2063 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T50n2063.xml,v $
+Revision 1.9  2004/07/16 09:13:00  moved
+modified：執行 margin.pl，加入 em 單位。
+
 Revision 1.8  2004/06/15 08:25:25  saywhat
 修訂<div1 type="xu">包含<juan>的問題
 
@@ -124,7 +127,7 @@ Revision 1.9  2001/02/07 07:36:24  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.8  2001/02/03 08:11:31  chris
-Added keywords $Revision: 1.8 $, $Date: 2004/06/15 08:25:25 $ and $Log.
+Added keywords $Revision: 1.9 $, $Date: 2004/07/16 09:13:00 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -137,20 +140,20 @@ Added comment  for Emacs
 <lb n="0934a21"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>比丘尼傳卷第一<note n="0934001" resp="Taisho" type="orig" place="foot text">〔并序〕－【宋】【元】，并序＝第二同卷【明】</note><app n="0934001"><lem>并序</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho">第二同卷</rdg></app></jhead></juan>
 <lb n="0934a22"/>
 <lb n="0934a23"/><byline type="Author"><note n="0934002" resp="Taisho" type="orig" place="foot text">大＝晉【三】</note><note n="0934002" resp="CBETA" type="mod">大＝晉【宋】【元】【明】</note><app n="0934002"><lem>大</lem><rdg wit="【宋】【元】【明】" resp="Taisho">晉</rdg></app>莊嚴寺釋寶唱撰</byline>
-<lb n="0934a24"/><div1 type="xu"><mulu type="序" level="1" label="比丘尼傳序"/><p rend="margin-left:1"><note n="0934003" resp="Taisho" type="orig" place="foot text">〔晉〕－【三】</note><note n="0934003" resp="CBETA" type="mod">〔晉〕－【宋】【元】【明】</note><app n="0934003"><lem>晉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>洛陽竹林寺<note n="0934004" resp="Taisho" type="orig" place="foot text">（竺）＋淨【三】＊</note><note n="0934004" resp="CBETA" type="mod">（竺）＋淨【宋】＊【元】＊【明】＊</note><app n="0934004"><lem>淨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">竺淨</rdg></app>檢尼<note n="0934005" resp="Taisho" type="orig" place="foot text">〔傳〕－【三】下同</note><note n="0934005" resp="CBETA" type="mod">〔傳〕－【宋】下同【元】下同【明】下同</note><app n="0934005"><lem>傳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>一</p>
-<lb n="0934a25"/><p rend="margin-left:1"><note n="0934006" resp="Taisho" type="orig" place="foot text">〔偽〕－【三】</note><note n="0934006" resp="CBETA" type="mod">〔偽〕－【宋】【元】【明】</note><app n="0934006"><lem>偽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>趙建賢寺安令首尼傳二</p>
-<lb n="0934a26"/><p rend="margin-left:1">司州西寺智賢尼傳三</p>
-<lb n="0934a27"/><p rend="margin-left:1">弘農北<note n="0934007" resp="Taisho" type="orig" place="foot text">岳＋（寺）【三】</note><note n="0934007" resp="CBETA" type="mod">岳＋（寺）【宋】【元】【明】</note><app n="0934007"><lem>岳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">岳寺</rdg></app>妙相尼傳四</p>
-<lb n="0934a28"/><p rend="margin-left:1">建福寺康明感尼傳五</p>
-<lb n="0934a29"/><p rend="margin-left:1">北永安寺曇備尼傳六</p>
+<lb n="0934a24"/><div1 type="xu"><mulu type="序" level="1" label="比丘尼傳序"/><p rend="margin-left:1em"><note n="0934003" resp="Taisho" type="orig" place="foot text">〔晉〕－【三】</note><note n="0934003" resp="CBETA" type="mod">〔晉〕－【宋】【元】【明】</note><app n="0934003"><lem>晉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>洛陽竹林寺<note n="0934004" resp="Taisho" type="orig" place="foot text">（竺）＋淨【三】＊</note><note n="0934004" resp="CBETA" type="mod">（竺）＋淨【宋】＊【元】＊【明】＊</note><app n="0934004"><lem>淨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">竺淨</rdg></app>檢尼<note n="0934005" resp="Taisho" type="orig" place="foot text">〔傳〕－【三】下同</note><note n="0934005" resp="CBETA" type="mod">〔傳〕－【宋】下同【元】下同【明】下同</note><app n="0934005"><lem>傳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>一</p>
+<lb n="0934a25"/><p rend="margin-left:1em"><note n="0934006" resp="Taisho" type="orig" place="foot text">〔偽〕－【三】</note><note n="0934006" resp="CBETA" type="mod">〔偽〕－【宋】【元】【明】</note><app n="0934006"><lem>偽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>趙建賢寺安令首尼傳二</p>
+<lb n="0934a26"/><p rend="margin-left:1em">司州西寺智賢尼傳三</p>
+<lb n="0934a27"/><p rend="margin-left:1em">弘農北<note n="0934007" resp="Taisho" type="orig" place="foot text">岳＋（寺）【三】</note><note n="0934007" resp="CBETA" type="mod">岳＋（寺）【宋】【元】【明】</note><app n="0934007"><lem>岳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">岳寺</rdg></app>妙相尼傳四</p>
+<lb n="0934a28"/><p rend="margin-left:1em">建福寺康明感尼傳五</p>
+<lb n="0934a29"/><p rend="margin-left:1em">北永安寺曇備尼傳六</p>
 <pb ed="T" id="T50.2063.0934b" n="0934b"/>
-<lb n="0934b01"/><p rend="margin-left:1">建福寺慧湛尼傳七</p>
-<lb n="0934b02"/><p rend="margin-left:1">延興寺僧基尼傳八</p>
-<lb n="0934b03"/><p rend="margin-left:1"><note n="0934008" resp="Taisho" type="orig" place="foot text">雒＝洛【明】</note><app n="0934008"><lem>雒</lem><rdg wit="【明】" resp="Taisho">洛</rdg></app>陽城東寺道馨尼傳九</p>
-<lb n="0934b04"/><p rend="margin-left:1"><note n="0934009" resp="Taisho" type="orig" place="foot text">新林＝雒陽城東【宋】【元】，洛陽城新林【明】</note><note n="0934009" resp="CBETA" type="mod">新林＝雒陽城東【宋】【元】，＝洛陽城新林【明】</note><app n="0934009"><lem>新林</lem><rdg wit="【宋】【元】" resp="Taisho">雒陽城東</rdg><rdg wit="【明】" resp="Taisho">洛陽城新林</rdg></app>寺道容尼傳十</p>
-<lb n="0934b05"/><p rend="margin-left:1">司州<note n="0934010" resp="Taisho" type="orig" place="foot text">〔西〕－【三】</note><note n="0934010" resp="CBETA" type="mod">〔西〕－【宋】【元】【明】</note><app n="0934010"><lem>西</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>寺令宗尼傳十一</p>
-<lb n="0934b06"/><p rend="margin-left:1">簡靜寺支妙音尼傳十二</p>
-<lb n="0934b07"/><p rend="margin-left:1">何后寺道儀尼傳十三</p>
+<lb n="0934b01"/><p rend="margin-left:1em">建福寺慧湛尼傳七</p>
+<lb n="0934b02"/><p rend="margin-left:1em">延興寺僧基尼傳八</p>
+<lb n="0934b03"/><p rend="margin-left:1em"><note n="0934008" resp="Taisho" type="orig" place="foot text">雒＝洛【明】</note><app n="0934008"><lem>雒</lem><rdg wit="【明】" resp="Taisho">洛</rdg></app>陽城東寺道馨尼傳九</p>
+<lb n="0934b04"/><p rend="margin-left:1em"><note n="0934009" resp="Taisho" type="orig" place="foot text">新林＝雒陽城東【宋】【元】，洛陽城新林【明】</note><note n="0934009" resp="CBETA" type="mod">新林＝雒陽城東【宋】【元】，＝洛陽城新林【明】</note><app n="0934009"><lem>新林</lem><rdg wit="【宋】【元】" resp="Taisho">雒陽城東</rdg><rdg wit="【明】" resp="Taisho">洛陽城新林</rdg></app>寺道容尼傳十</p>
+<lb n="0934b05"/><p rend="margin-left:1em">司州<note n="0934010" resp="Taisho" type="orig" place="foot text">〔西〕－【三】</note><note n="0934010" resp="CBETA" type="mod">〔西〕－【宋】【元】【明】</note><app n="0934010"><lem>西</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>寺令宗尼傳十一</p>
+<lb n="0934b06"/><p rend="margin-left:1em">簡靜寺支妙音尼傳十二</p>
+<lb n="0934b07"/><p rend="margin-left:1em">何后寺道儀尼傳十三</p>
 <lb n="0934b08"/><p><note n="0934011" resp="Taisho" type="orig" place="foot text">原字前行宋元明三本俱有序字</note>原夫貞心亢志奇操異節。豈<note n="0934012" resp="Taisho" type="orig" place="foot text">惟＝唯【三】</note><note n="0934012" resp="CBETA" type="mod">惟＝唯【宋】【元】【明】</note><app n="0934012"><lem>惟</lem><rdg wit="【宋】【元】【明】" resp="Taisho">唯</rdg></app>體率由於
 <lb n="0934b09"/>天真。抑亦勵景行於仰止。故曰<note n="0934013" resp="Taisho" type="orig" place="foot text">希＝睎【宋】【元】</note><app n="0934013"><lem>希</lem><rdg wit="【宋】【元】" resp="Taisho">睎</rdg></app>顏之士亦
 <lb n="0934b10"/>顏之儔。慕驥之馬亦驥之乘。斯則風<note n="0934014" resp="Taisho" type="orig" place="foot text">烈＝列【三】</note><note n="0934014" resp="CBETA" type="mod">烈＝列【宋】【元】【明】</note><app n="0934014"><lem>烈</lem><rdg wit="【宋】【元】【明】" resp="Taisho">列</rdg></app><note n="0934015" resp="Taisho" type="orig" place="foot text">徽猷＝英徽【三】</note><note n="0934015" resp="CBETA" type="mod">徽猷＝英徽【宋】【元】【明】</note><app n="0934015"><lem>徽
@@ -408,30 +411,30 @@ Added comment  for Emacs
 <lb n="0937a21"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>比丘尼傳卷第二<note n="0937016" resp="Taisho" type="orig" place="foot text">〔宋〕－【三】</note><note n="0937016" resp="CBETA" type="mod">〔宋〕－【宋】【元】【明】</note><app n="0937016"><lem><note place="inline">宋</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0937a22"/>
 <lb n="0937a23"/><byline type="Author"><note n="0937017" resp="Taisho" type="orig" place="foot text">大＝宋【三】</note><note n="0937017" resp="CBETA" type="mod">大＝宋【宋】【元】【明】</note><app n="0937017"><lem>大</lem><rdg wit="【宋】【元】【明】" resp="Taisho">宋</rdg></app>莊嚴寺釋寶唱撰</byline>
-<lb n="0937a24"/><div1 type="other"><mulu type="其他" level="1" label="宋"/><p rend="margin-left:1">景福寺慧果尼<note n="0937018" resp="Taisho" type="orig" place="foot text">〔傳〕－【三】下同</note><note n="0937018" resp="CBETA" type="mod">〔傳〕－【宋】下同【元】下同【明】下同</note><app n="0937018"><lem>傳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app><note n="0937019" resp="Taisho" type="orig" place="foot text">第一乃至第二十三記數宋元明三本俱作十四乃至三十六</note><note n="0937019" resp="CBETA" type="mod"><todo type="a"/>第一乃至第二十三記數宋元明三本俱作十四乃至三十六</note>第一</p>
-<lb n="0937a25"/><p rend="margin-left:1">建福寺法盛尼傳第二</p>
-<lb n="0937a26"/><p rend="margin-left:1">江陵牛牧寺慧玉尼傳第三</p>
-<lb n="0937a27"/><p rend="margin-left:1">建福寺道<note n="0937020" resp="Taisho" type="orig" place="foot text">瓊＝瑗【元】【明】</note><app n="0937020"><lem>瓊</lem><rdg wit="【元】【明】" resp="Taisho">瑗</rdg></app>尼傳第四</p>
-<lb n="0937a28"/><p rend="margin-left:1">江陵祇<note n="0937021" resp="Taisho" type="orig" place="foot text">洹＝桓【宋】【元】</note><app n="0937021"><lem>洹</lem><rdg wit="【宋】【元】" resp="Taisho">桓</rdg></app>寺道壽尼傳第五</p>
-<lb n="0937a29"/><p rend="margin-left:1">吳太玄臺寺玄藻尼傳第六</p>
+<lb n="0937a24"/><div1 type="other"><mulu type="其他" level="1" label="宋"/><p rend="margin-left:1em">景福寺慧果尼<note n="0937018" resp="Taisho" type="orig" place="foot text">〔傳〕－【三】下同</note><note n="0937018" resp="CBETA" type="mod">〔傳〕－【宋】下同【元】下同【明】下同</note><app n="0937018"><lem>傳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app><note n="0937019" resp="Taisho" type="orig" place="foot text">第一乃至第二十三記數宋元明三本俱作十四乃至三十六</note><note n="0937019" resp="CBETA" type="mod"><todo type="a"/>第一乃至第二十三記數宋元明三本俱作十四乃至三十六</note>第一</p>
+<lb n="0937a25"/><p rend="margin-left:1em">建福寺法盛尼傳第二</p>
+<lb n="0937a26"/><p rend="margin-left:1em">江陵牛牧寺慧玉尼傳第三</p>
+<lb n="0937a27"/><p rend="margin-left:1em">建福寺道<note n="0937020" resp="Taisho" type="orig" place="foot text">瓊＝瑗【元】【明】</note><app n="0937020"><lem>瓊</lem><rdg wit="【元】【明】" resp="Taisho">瑗</rdg></app>尼傳第四</p>
+<lb n="0937a28"/><p rend="margin-left:1em">江陵祇<note n="0937021" resp="Taisho" type="orig" place="foot text">洹＝桓【宋】【元】</note><app n="0937021"><lem>洹</lem><rdg wit="【宋】【元】" resp="Taisho">桓</rdg></app>寺道壽尼傳第五</p>
+<lb n="0937a29"/><p rend="margin-left:1em">吳太玄臺寺玄藻尼傳第六</p>
 <pb ed="T" id="T50.2063.0937b" n="0937b"/>
-<lb n="0937b01"/><p rend="margin-left:1">南安寺慧瓊尼傳第七</p>
-<lb n="0937b02"/><p rend="margin-left:1">南皮張國寺普照尼傳第八</p>
-<lb n="0937b03"/><p rend="margin-left:1">梁郡築<note n="0937022" resp="Taisho" type="orig" place="foot text">戈＝弋【元】【明】</note><app n="0937022"><lem>戈</lem><rdg wit="【元】【明】" resp="Taisho">弋</rdg></app>村寺慧木尼傳第九</p>
-<lb n="0937b04"/><p rend="margin-left:1">吳縣南寺法勝尼傳第十</p>
-<lb n="0937b05"/><p rend="margin-left:1">永安寺僧端尼傳第十一</p>
-<lb n="0937b06"/><p rend="margin-left:1">廣陵中寺光靜尼傳第十二</p>
-<lb n="0937b07"/><p rend="margin-left:1">蜀郡善妙尼傳第十三</p>
-<lb n="0937b08"/><p rend="margin-left:1">廣陵僧果尼傳第十四</p>
-<lb n="0937b09"/><p rend="margin-left:1">山陽東鄉竹林寺靜稱尼傳第十五</p>
-<lb n="0937b10"/><p rend="margin-left:1">吳太玄臺寺法相尼傳第十六</p>
-<lb n="0937b11"/><p rend="margin-left:1">東青園寺業首尼傳第十七</p>
-<lb n="0937b12"/><p rend="margin-left:1">景福寺法辯尼傳第十八</p>
-<lb n="0937b13"/><p rend="margin-left:1">江陵三層寺道綜尼傳第十九</p>
-<lb n="0937b14"/><p rend="margin-left:1">竹園寺慧<note n="0937023" resp="Taisho" type="orig" place="foot text">濬＝濟【明】</note><app n="0937023"><lem>濬</lem><rdg wit="【明】" resp="Taisho">濟</rdg></app>尼傳第二十</p>
-<lb n="0937b15"/><p rend="margin-left:1">普賢寺寶賢尼傳第二十一</p>
-<lb n="0937b16"/><p rend="margin-left:1">普賢寺法淨尼傳第二十二</p>
-<lb n="0937b17"/><p rend="margin-left:1">蜀郡永康寺慧<note n="0937024" resp="Taisho" type="orig" place="foot text">耀＝曜【三】</note><note n="0937024" resp="CBETA" type="mod">耀＝曜【宋】【元】【明】</note><app n="0937024"><lem>耀</lem><rdg wit="【宋】【元】【明】" resp="Taisho">曜</rdg></app>尼傳第二十三</p>
+<lb n="0937b01"/><p rend="margin-left:1em">南安寺慧瓊尼傳第七</p>
+<lb n="0937b02"/><p rend="margin-left:1em">南皮張國寺普照尼傳第八</p>
+<lb n="0937b03"/><p rend="margin-left:1em">梁郡築<note n="0937022" resp="Taisho" type="orig" place="foot text">戈＝弋【元】【明】</note><app n="0937022"><lem>戈</lem><rdg wit="【元】【明】" resp="Taisho">弋</rdg></app>村寺慧木尼傳第九</p>
+<lb n="0937b04"/><p rend="margin-left:1em">吳縣南寺法勝尼傳第十</p>
+<lb n="0937b05"/><p rend="margin-left:1em">永安寺僧端尼傳第十一</p>
+<lb n="0937b06"/><p rend="margin-left:1em">廣陵中寺光靜尼傳第十二</p>
+<lb n="0937b07"/><p rend="margin-left:1em">蜀郡善妙尼傳第十三</p>
+<lb n="0937b08"/><p rend="margin-left:1em">廣陵僧果尼傳第十四</p>
+<lb n="0937b09"/><p rend="margin-left:1em">山陽東鄉竹林寺靜稱尼傳第十五</p>
+<lb n="0937b10"/><p rend="margin-left:1em">吳太玄臺寺法相尼傳第十六</p>
+<lb n="0937b11"/><p rend="margin-left:1em">東青園寺業首尼傳第十七</p>
+<lb n="0937b12"/><p rend="margin-left:1em">景福寺法辯尼傳第十八</p>
+<lb n="0937b13"/><p rend="margin-left:1em">江陵三層寺道綜尼傳第十九</p>
+<lb n="0937b14"/><p rend="margin-left:1em">竹園寺慧<note n="0937023" resp="Taisho" type="orig" place="foot text">濬＝濟【明】</note><app n="0937023"><lem>濬</lem><rdg wit="【明】" resp="Taisho">濟</rdg></app>尼傳第二十</p>
+<lb n="0937b15"/><p rend="margin-left:1em">普賢寺寶賢尼傳第二十一</p>
+<lb n="0937b16"/><p rend="margin-left:1em">普賢寺法淨尼傳第二十二</p>
+<lb n="0937b17"/><p rend="margin-left:1em">蜀郡永康寺慧<note n="0937024" resp="Taisho" type="orig" place="foot text">耀＝曜【三】</note><note n="0937024" resp="CBETA" type="mod">耀＝曜【宋】【元】【明】</note><app n="0937024"><lem>耀</lem><rdg wit="【宋】【元】【明】" resp="Taisho">曜</rdg></app>尼傳第二十三</p>
 <lb n="0937b18"/><div2 type="other"><mulu type="其他" level="2" label="1 景福寺慧果尼傳第"/><head><note n="0937025" resp="Taisho" type="orig" place="foot text">（宋）＋景【三】</note><note n="0937025" resp="CBETA" type="mod">（宋）＋景【宋】【元】【明】</note><app n="0937025"><lem>景</lem><rdg wit="【宋】【元】【明】" resp="Taisho">宋景</rdg></app>福寺慧果尼傳<note n="0937026" resp="Taisho" type="orig" place="foot text">第一＝十四【三】</note><note n="0937026" resp="CBETA" type="mod">第一＝十四【宋】【元】【明】</note><app n="0937026"><lem>第一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">十四</rdg></app></head>
 <lb n="0937b19"/><p>慧果。<note n="0937027" resp="Taisho" type="orig" place="foot text">〔本〕－【三】</note><note n="0937027" resp="CBETA" type="mod">〔本〕－【宋】【元】【明】</note><app n="0937027"><lem>本</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>姓潘。淮南人也。常行苦節不衣綿
 <lb n="0937b20"/>纊。篤好毘尼戒行清白。道俗欽<app><lem>羨</lem><rdg wit="【大】">羡</rdg></app>風譽遠聞。
@@ -802,21 +805,21 @@ Added comment  for Emacs
 <lb n="0941c06"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>比丘尼傳卷第三<note n="0941031" resp="Taisho" type="orig" place="foot text">〔齊〕－【宋】【元】，齊＝第四同卷【明】</note><app n="0941031"><lem><note place="inline">齊</note></lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho"><note place="inline">第四同卷</note></rdg></app></jhead></juan>
 <lb n="0941c07"/>
 <lb n="0941c08"/><byline type="Author"><note n="0941032" resp="Taisho" type="orig" place="foot text">大＝齊【三】</note><note n="0941032" resp="CBETA" type="mod">大＝齊【宋】【元】【明】</note><app n="0941032"><lem>大</lem><rdg wit="【宋】【元】【明】" resp="Taisho">齊</rdg></app>莊嚴寺釋寶唱撰</byline>
-<lb n="0941c09"/><div1 type="other"><mulu type="其他" level="1" label="齊"/><p rend="margin-left:1">東<note n="0941033" resp="Taisho" type="orig" place="foot text">官＝莞【三】＊</note><note n="0941033" resp="CBETA" type="mod">官＝莞【宋】＊【元】＊【明】＊</note><app n="0941033"><lem>官</lem><rdg wit="【宋】【元】【明】" resp="Taisho">莞</rdg></app>曾成法緣尼<note n="0941034" resp="Taisho" type="orig" place="foot text">傳一乃至傳十五記數宋元明三本俱作三十七乃至五十一</note><note n="0941034" resp="CBETA" type="mod"><todo type="a"/>傳一乃至傳十五記數宋元明三本俱作三十七乃至五十一</note>傳一</p>
-<lb n="0941c10"/><p rend="margin-left:1">南永安寺曇徹尼傳二</p>
-<lb n="0941c11"/><p rend="margin-left:1">崇聖寺僧敬尼傳三</p>
-<lb n="0941c12"/><p rend="margin-left:1">鹽官齊明寺僧猛尼傳四</p>
-<lb n="0941c13"/><p rend="margin-left:1">華嚴寺妙智尼傳五</p>
-<lb n="0941c14"/><p rend="margin-left:1">建福寺智勝尼傳六</p>
-<lb n="0941c15"/><p rend="margin-left:1">禪基寺僧蓋尼傳七</p>
-<lb n="0941c16"/><p rend="margin-left:1">東青<note n="0941035" resp="Taisho" type="orig" place="foot text">園＝固【明】</note><app n="0941035"><lem>園</lem><rdg wit="【明】" resp="Taisho">固</rdg></app>寺法全尼傳八</p>
-<lb n="0941c17"/><p rend="margin-left:1">普賢寺淨<note n="0941036" resp="Taisho" type="orig" place="foot text">暉＝曜【三】</note><note n="0941036" resp="CBETA" type="mod">暉＝曜【宋】【元】【明】</note><app n="0941036"><lem>暉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">曜</rdg></app>尼傳九</p>
-<lb n="0941c18"/><p rend="margin-left:1">法音寺曇簡尼傳十</p>
-<lb n="0941c19"/><p rend="margin-left:1">法音寺淨珪尼傳十一</p>
-<lb n="0941c20"/><p rend="margin-left:1">集善寺慧緒尼傳十二</p>
-<lb n="0941c21"/><p rend="margin-left:1">錢<note n="0941037" resp="Taisho" type="orig" place="foot text">塘＝唐【三】</note><note n="0941037" resp="CBETA" type="mod">塘＝唐【宋】【元】【明】</note><app n="0941037"><lem>塘</lem><rdg wit="【宋】【元】【明】" resp="Taisho">唐</rdg></app>齊明寺超明尼傳十三</p>
-<lb n="0941c22"/><p rend="margin-left:1">法音<note n="0941038" resp="Taisho" type="orig" place="foot text">寺＝精舍【三】</note><note n="0941038" resp="CBETA" type="mod">寺＝精舍【宋】【元】【明】</note><app n="0941038"><lem>寺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">精舍</rdg></app>曇勇尼傳十四</p>
-<lb n="0941c23"/><p rend="margin-left:1">剡齊興寺德樂尼傳十五</p>
+<lb n="0941c09"/><div1 type="other"><mulu type="其他" level="1" label="齊"/><p rend="margin-left:1em">東<note n="0941033" resp="Taisho" type="orig" place="foot text">官＝莞【三】＊</note><note n="0941033" resp="CBETA" type="mod">官＝莞【宋】＊【元】＊【明】＊</note><app n="0941033"><lem>官</lem><rdg wit="【宋】【元】【明】" resp="Taisho">莞</rdg></app>曾成法緣尼<note n="0941034" resp="Taisho" type="orig" place="foot text">傳一乃至傳十五記數宋元明三本俱作三十七乃至五十一</note><note n="0941034" resp="CBETA" type="mod"><todo type="a"/>傳一乃至傳十五記數宋元明三本俱作三十七乃至五十一</note>傳一</p>
+<lb n="0941c10"/><p rend="margin-left:1em">南永安寺曇徹尼傳二</p>
+<lb n="0941c11"/><p rend="margin-left:1em">崇聖寺僧敬尼傳三</p>
+<lb n="0941c12"/><p rend="margin-left:1em">鹽官齊明寺僧猛尼傳四</p>
+<lb n="0941c13"/><p rend="margin-left:1em">華嚴寺妙智尼傳五</p>
+<lb n="0941c14"/><p rend="margin-left:1em">建福寺智勝尼傳六</p>
+<lb n="0941c15"/><p rend="margin-left:1em">禪基寺僧蓋尼傳七</p>
+<lb n="0941c16"/><p rend="margin-left:1em">東青<note n="0941035" resp="Taisho" type="orig" place="foot text">園＝固【明】</note><app n="0941035"><lem>園</lem><rdg wit="【明】" resp="Taisho">固</rdg></app>寺法全尼傳八</p>
+<lb n="0941c17"/><p rend="margin-left:1em">普賢寺淨<note n="0941036" resp="Taisho" type="orig" place="foot text">暉＝曜【三】</note><note n="0941036" resp="CBETA" type="mod">暉＝曜【宋】【元】【明】</note><app n="0941036"><lem>暉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">曜</rdg></app>尼傳九</p>
+<lb n="0941c18"/><p rend="margin-left:1em">法音寺曇簡尼傳十</p>
+<lb n="0941c19"/><p rend="margin-left:1em">法音寺淨珪尼傳十一</p>
+<lb n="0941c20"/><p rend="margin-left:1em">集善寺慧緒尼傳十二</p>
+<lb n="0941c21"/><p rend="margin-left:1em">錢<note n="0941037" resp="Taisho" type="orig" place="foot text">塘＝唐【三】</note><note n="0941037" resp="CBETA" type="mod">塘＝唐【宋】【元】【明】</note><app n="0941037"><lem>塘</lem><rdg wit="【宋】【元】【明】" resp="Taisho">唐</rdg></app>齊明寺超明尼傳十三</p>
+<lb n="0941c22"/><p rend="margin-left:1em">法音<note n="0941038" resp="Taisho" type="orig" place="foot text">寺＝精舍【三】</note><note n="0941038" resp="CBETA" type="mod">寺＝精舍【宋】【元】【明】</note><app n="0941038"><lem>寺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">精舍</rdg></app>曇勇尼傳十四</p>
+<lb n="0941c23"/><p rend="margin-left:1em">剡齊興寺德樂尼傳十五</p>
 <lb n="0941c24"/><div2 type="other"><mulu type="其他" level="2" label="1 東官曾成法緣尼傳第"/><head>東<app type="＊" source="0941033"><lem>官</lem><rdg resp="Taisho" wit="【宋】【元】【明】">莞</rdg></app>曾成法緣尼<note n="0941039" resp="Taisho" type="orig" place="foot text">傳第一＝三十七【三】</note><note n="0941039" resp="CBETA" type="mod">傳第一＝三十七【宋】【元】【明】</note><app n="0941039"><lem>傳第一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">三十七</rdg></app></head>
 <lb n="0941c25"/><p>法<note n="0941040" resp="Taisho" type="orig" place="foot text">緣＋（者）【三】</note><note n="0941040" resp="CBETA" type="mod">緣＋（者）【宋】【元】【明】</note><app n="0941040"><lem>緣</lem><rdg wit="【宋】【元】【明】" resp="Taisho">緣者</rdg></app>。本姓<note n="0941041" resp="Taisho" type="orig" place="foot text">侖＝俞【三】</note><note n="0941041" resp="CBETA" type="mod">侖＝俞【宋】【元】【明】</note><app n="0941041"><lem>侖</lem><rdg wit="【宋】【元】【明】" resp="Taisho">俞</rdg></app>。東<app type="＊" source="0941033"><lem>官</lem><rdg resp="Taisho" wit="【宋】【元】【明】">莞</rdg></app>曾成人也。宋元嘉九
 <lb n="0941c26"/>年。年十<note n="0941042" resp="Taisho" type="orig" place="foot text">歲＋（法緣）【三】</note><note n="0941042" resp="CBETA" type="mod">歲＋（法緣）【宋】【元】【明】</note><app n="0941042"><lem>歲</lem><rdg wit="【宋】【元】【明】" resp="Taisho">歲法緣</rdg></app>。妹法綵年九歲。未識經法。忽以
@@ -1083,21 +1086,21 @@ Added comment  for Emacs
 <lb n="0944c19"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>比丘尼傳卷第四<note n="0944041" resp="Taisho" type="orig" place="foot text">〔梁〕－【三】</note><note n="0944041" resp="CBETA" type="mod">〔梁〕－【宋】【元】【明】</note><app n="0944041"><lem><note place="inline">梁</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0944c20"/>
 <lb n="0944c21"/><byline type="Author"><note n="0944042" resp="Taisho" type="orig" place="foot text">（梁）＋大【宋】【元】，（齊）＋大【明】</note><app n="0944042"><lem>大</lem><rdg wit="【宋】【元】" resp="Taisho">梁大</rdg><rdg wit="【明】" resp="Taisho">齊大</rdg></app>莊嚴寺釋寶唱撰</byline>
-<lb n="0944c22"/><div1 type="other"><mulu type="其他" level="1" label="梁"/><p rend="margin-left:1">禪林寺淨秀尼<note n="0944043" resp="Taisho" type="orig" place="foot text">傳一乃至傳十四記數宋元明三本俱作五十二乃至六十五</note><note n="0944043" resp="CBETA" type="mod"><todo type="a"/>傳一乃至傳十四記數宋元明三本俱作五十二乃至六十五</note>傳一</p>
-<lb n="0944c23"/><p rend="margin-left:1">禪林寺僧念尼傳二</p>
-<lb n="0944c24"/><p rend="margin-left:1"><note n="0944044" resp="Taisho" type="orig" place="foot text">成＝城【三】</note><note n="0944044" resp="CBETA" type="mod">成＝城【宋】【元】【明】</note><app n="0944044"><lem>成</lem><rdg wit="【宋】【元】【明】" resp="Taisho">城</rdg></app>都長樂寺曇暉尼傳三</p>
-<lb n="0944c25"/><p rend="margin-left:1">高昌都郎中寺憑尼傳四</p>
-<lb n="0944c26"/><p rend="margin-left:1">閑居寺<note n="0944045" resp="Taisho" type="orig" place="foot text">慧＝惠【三】＊</note><note n="0944045" resp="CBETA" type="mod">慧＝惠【宋】＊【元】＊【明】＊</note><app n="0944045"><lem>慧</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惠</rdg></app>勝尼傳五</p>
-<lb n="0944c27"/><p rend="margin-left:1">東青園寺淨賢尼傳六</p>
-<lb n="0944c28"/><p rend="margin-left:1">竹園寺淨淵尼傳七</p>
-<lb n="0944c29"/><p rend="margin-left:1">竹園寺淨行尼傳八</p>
+<lb n="0944c22"/><div1 type="other"><mulu type="其他" level="1" label="梁"/><p rend="margin-left:1em">禪林寺淨秀尼<note n="0944043" resp="Taisho" type="orig" place="foot text">傳一乃至傳十四記數宋元明三本俱作五十二乃至六十五</note><note n="0944043" resp="CBETA" type="mod"><todo type="a"/>傳一乃至傳十四記數宋元明三本俱作五十二乃至六十五</note>傳一</p>
+<lb n="0944c23"/><p rend="margin-left:1em">禪林寺僧念尼傳二</p>
+<lb n="0944c24"/><p rend="margin-left:1em"><note n="0944044" resp="Taisho" type="orig" place="foot text">成＝城【三】</note><note n="0944044" resp="CBETA" type="mod">成＝城【宋】【元】【明】</note><app n="0944044"><lem>成</lem><rdg wit="【宋】【元】【明】" resp="Taisho">城</rdg></app>都長樂寺曇暉尼傳三</p>
+<lb n="0944c25"/><p rend="margin-left:1em">高昌都郎中寺憑尼傳四</p>
+<lb n="0944c26"/><p rend="margin-left:1em">閑居寺<note n="0944045" resp="Taisho" type="orig" place="foot text">慧＝惠【三】＊</note><note n="0944045" resp="CBETA" type="mod">慧＝惠【宋】＊【元】＊【明】＊</note><app n="0944045"><lem>慧</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惠</rdg></app>勝尼傳五</p>
+<lb n="0944c27"/><p rend="margin-left:1em">東青園寺淨賢尼傳六</p>
+<lb n="0944c28"/><p rend="margin-left:1em">竹園寺淨淵尼傳七</p>
+<lb n="0944c29"/><p rend="margin-left:1em">竹園寺淨行尼傳八</p>
 <pb ed="T" id="T50.2063.0945a" n="0945a"/>
-<lb n="0945a01"/><p rend="margin-left:1">南晉陵寺令玉尼傳九</p>
-<lb n="0945a02"/><p rend="margin-left:1">閑居寺僧述尼傳十</p>
-<lb n="0945a03"/><p rend="margin-left:1">西青園寺妙禕尼傳十一</p>
-<lb n="0945a04"/><p rend="margin-left:1">樂安寺<app type="＊" source="0944045"><lem>慧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惠</rdg></app>暉尼傳十二</p>
-<lb n="0945a05"/><p rend="margin-left:1"><note n="0945001" resp="Taisho" type="orig" place="foot text">邸＝底【三】</note><note n="0945001" resp="CBETA" type="mod">邸＝底【宋】【元】【明】</note><app n="0945001"><lem>邸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">底</rdg></app>山寺道貴尼傳十三</p>
-<lb n="0945a06"/><p rend="margin-left:1">山陰招明寺法宣尼傳十四</p>
+<lb n="0945a01"/><p rend="margin-left:1em">南晉陵寺令玉尼傳九</p>
+<lb n="0945a02"/><p rend="margin-left:1em">閑居寺僧述尼傳十</p>
+<lb n="0945a03"/><p rend="margin-left:1em">西青園寺妙禕尼傳十一</p>
+<lb n="0945a04"/><p rend="margin-left:1em">樂安寺<app type="＊" source="0944045"><lem>慧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惠</rdg></app>暉尼傳十二</p>
+<lb n="0945a05"/><p rend="margin-left:1em"><note n="0945001" resp="Taisho" type="orig" place="foot text">邸＝底【三】</note><note n="0945001" resp="CBETA" type="mod">邸＝底【宋】【元】【明】</note><app n="0945001"><lem>邸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">底</rdg></app>山寺道貴尼傳十三</p>
+<lb n="0945a06"/><p rend="margin-left:1em">山陰招明寺法宣尼傳十四</p>
 <lb n="0945a07"/><div2 type="other"><mulu type="其他" level="2" label="1 禪林寺淨秀尼傳"/><head>禪林寺<note n="0945002" resp="Taisho" type="orig" place="foot text">淨秀尼＝尼淨秀【三】</note><note n="0945002" resp="CBETA" type="mod">淨秀尼＝尼淨秀【宋】【元】【明】</note><app n="0945002"><lem>淨秀尼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尼淨秀</rdg></app><note n="0945003" resp="Taisho" type="orig" place="foot text">傳一＝五十二【三】</note><note n="0945003" resp="CBETA" type="mod">傳一＝五十二【宋】【元】【明】</note><app n="0945003"><lem>傳一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">五十二</rdg></app></head>
 <lb n="0945a08"/><p>淨秀本姓梁。安定烏氏人也。祖疇征虜司馬
 <lb n="0945a09"/><note n="0945004" resp="Taisho" type="orig" place="foot text">父＝文【三】</note><note n="0945004" resp="CBETA" type="mod">父＝文【宋】【元】【明】</note><app n="0945004"><lem>父</lem><rdg wit="【宋】【元】【明】" resp="Taisho">文</rdg></app><note n="0945005" resp="Taisho" type="orig" place="foot text">粲＝餐【宋】</note><app n="0945005"><lem>粲</lem><rdg wit="【宋】" resp="Taisho">餐</rdg></app>之龍川縣都鄉侯。淨秀幼而聰叡好
