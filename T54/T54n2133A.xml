@@ -20,7 +20,7 @@
                         </respStmt>
                 </titleStmt>
         <editionStmt>
-                <edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/04/20 08:44:23 $</date></edition>
+                <edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/06/16 02:56:20 $</date></edition>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -62,6 +62,9 @@
         </change>
 <!--
 $Log: T54n2133A.xml,v $
+Revision 1.10  2004/06/16 02:56:20  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.9  2004/04/20 08:44:23  maha
 「版本日期」標記修訂
 
@@ -79,11 +82,11 @@ add cvs log
 </teiHeader>
 <text><body>
 <lb n="1190a13"/><milestone unit="juan" n="1"/>
-<lb n="1190a14"/><head type="no">No. 2133A</head><div1 type="xu">
-<lb n="1190a15"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="1190002" resp="Taisho" type="orig" place="foot text">【原】東京東洋文庫藏本</note>梵語千字文并序</jhead></juan>
+<lb n="1190a14"/><head type="no">No. 2133A</head>
+<lb n="1190a15"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="1190002" resp="Taisho" type="orig" place="foot text">【原】東京東洋文庫藏本</note><jhead>梵語千字文并序</jhead></juan>
 <lb n="1190a16"/>
 <lb n="1190a17"/><byline type="Author">三藏法師義淨撰</byline>
-<lb n="1190a18"/><mulu type="序" level="1" label="（序）"/><p>為欲向西國人。作學語樣。仍各註中。梵音下
+<lb n="1190a18"/><div1 type="xu"><mulu type="序" level="1" label="（序）"/><p>為欲向西國人。作學語樣。仍各註中。梵音下
 <lb n="1190a19"/>題漢字。其無字者。以音正之。並是當途要字。
 <lb n="1190a20"/>但學得此則餘語皆通。不同舊千字文。若兼
 <lb n="1190a21"/>悉曇章讀梵本。一兩年間即堪翻譯矣</p>
@@ -662,8 +665,8 @@ add cvs log
 <lb n="1196b05"/><tt><t lang="san-sd" rend="">&SD-E0BC;&SD-A55F;&SD-E1CC;&SD-E355;</t><t lang="chi">歡樂</t></tt><tt><t lang="san-sd" rend="">&SD-A65D;&SD-A5FD;&SD-E355;</t><t lang="chi">恨</t></tt><tt><t lang="san-sd" rend="">&SD-E042;&SD-E35C;&SD-E355;&SD-E3BE;&SD-E0F9;&SD-E3BE;</t><t lang="chi">滿</t></tt></p></div1>
 <lb n="1196b06"/>
 <lb n="1196b07"/>
-<lb n="1196b08"/><div1 type="xu">
-<lb n="1196b09"/><head>梵語千字文後序</head>
+<lb n="1196b08"/>
+<lb n="1196b09"/><div1 type="xu"><mulu type="序" level="1" label="梵語千字文後序"/><head>梵語千字文後序</head>
 <lb n="1196b10"/>
 <lb n="1196b11"/><p rend="margin-left:1">為欲向西天者所申梵漢語樣有三。一曰
 <lb n="1196b12"/>義淨撰梵語千字文。或名梵唐千字文。又
