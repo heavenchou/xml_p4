@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T32n1670A.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1670A 那先比丘經</title>
+			<author>失譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>2卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:10:00 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 32, No. 1670A &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by SAT, Japan, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，日本 SAT 組織提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="pli">Pali</language>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+			<language id="unknown"></language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991012/10:25:27</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T32n1670A.xml,v $
+Revision 1.1  2003/05/05 04:10:00  ray
+Initial revision
+
+Revision 1.16  2002/12/05 12:34:21  eva
+modified
+
+Revision 1.15  2002/11/04 10:52:12  ray
+tei.2 => TEI.2
+
+Revision 1.14  2002/10/07 13:19:39  moved
+modified
+
+Revision 1.13  2002/09/11 07:55:03  eva
+modified
+
+Revision 1.11  2002/07/29 10:09:11  vinking
+modified lang
+
+Revision 1.10  2002/04/08 09:25:37  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.9  2001/07/24 06:57:07  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.8  2001/04/01 08:25:38  ray
+CB00380 => CB00308
+
+Revision 1.7  2001/03/30 06:15:50  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.6  2001/03/25 10:09:19  ray
+add <milestone>
+
+Revision 1.5  2001/02/07 07:06:49  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.4  2001/02/03 07:57:34  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:10:00 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T32.1670A.0694a" n="0694a"/>
+<lb n="0694a01"/>
+<milestone unit="juan" n="1"/>
+<lb n="0694a02"/><head type="no">No. 1670 (A)</head>
+<lb n="0694a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0694001" resp="Taisho" type="orig" place="foot text">此經與宋元明三本大異今以宋元宮本對校明本別附卷末，那先～N&amacron;gasena.</note><tt n="0694001" type="app"><t lang="chi" resp="Taisho">那先</t><t lang="pli" resp="Taisho" place="foot">N&amacron;gasena.</t></tt><note n="0694001" place="foot" type="rest">此經與宋元明三本大異今以宋元宮本對校明本別附卷末</note>比丘經卷上</jhead></juan>
+<lb n="0694a04"/>
+<lb n="0694a05"/><byline type="Translator"><note n="0694002" resp="Taisho" type="orig" place="foot text">〔失譯人名附東晉錄〕八字－【聖】</note><app n="0694002"><lem>失譯人名附東晉錄</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></byline>
+<lb n="0694a06"/><div1 type="jing"><p>佛在舍衛國祇樹給孤獨園。時諸比丘僧比
+<lb n="0694a07"/>丘尼優婆塞優婆夷。諸天大臣長者人民。及
+<lb n="0694a08"/>事九十六種道者。凡萬餘人。日於佛前聽經。
+<lb n="0694a09"/>佛自念。人眾日多身不得安。佛意欲捨人眾
+<lb n="0694a10"/>去至閑<note n="0694003" resp="Taisho" type="orig" place="foot text">避＝僻【聖】＊</note><app n="0694003"><lem>避</lem><rdg wit="【聖】" resp="Taisho">僻</rdg></app>處坐思念道。佛即捨人眾去。入山
+<lb n="0694a11"/>至<note n="0694004" resp="Taisho" type="orig" place="foot text">藂＝叢【聖】＊</note><app n="0694004"><lem>藂</lem><rdg wit="【聖】" resp="Taisho">叢</rdg></app>樹間。其樹大有神。佛坐其下思念道。
+<lb n="0694a12"/>去樹不遠有群象五六百頭。中有象王賢善
+<lb n="0694a13"/>知善惡之事。譬如人狀。象輩眾多周匝象王
+<lb n="0694a14"/>邊。諸小象走居前水中。走戲<note n="0694005" resp="Taisho" type="orig" place="foot text">&CB00238;撈＝枆橯【聖】＊</note><app n="0694005"><lem>&CB00238;撈</lem><rdg wit="【聖】" resp="Taisho">枆橯</rdg></app>水令濁
+<lb n="0694a15"/>惡。諸小象復走居前食噉美草。走戲蹈踐其
+<lb n="0694a16"/>上。我眾大多患。是諸象及小象子。&CB00238;撈水令
+<lb n="0694a17"/>濁惡令草不淨。而反常飢飲濁惡水。食足踐
+<lb n="0694a18"/>之草。象王自念。我欲棄是諸象去。至一<anchor id="fxT32p0694a01"/>避
+<lb n="0694a19"/>處快耶。象王即棄諸象而去。轉行入山到頭
+<lb n="0694a20"/>羅藂樹間。象王見佛坐樹下。心大歡喜。即
+<lb n="0694a21"/>前到佛所。低頭屈膝為佛作禮。&CB00230;在一面住。
+<lb n="0694a22"/>佛自念。我棄眾人來在是樹間。象王亦棄眾
+<lb n="0694a23"/>象來到是樹間。其義適同。佛為象王說經言。
+<lb n="0694a24"/>佛於人中最尊。象王於象中最尊。佛言我心
+<lb n="0694a25"/>與象王心適相中。今我與象王俱樂是樹間。
+<lb n="0694a26"/>象王聽經心意即開解知佛意。象王即視佛
+<lb n="0694a27"/>所<note n="0694006" resp="Taisho" type="orig" place="foot text">仿＝防【聖】</note><app n="0694006"><lem>仿</lem><rdg wit="【聖】" resp="Taisho">防</rdg></app>佯經行處。以鼻取水灑地。以鼻撈草掃
+<lb n="0694a28"/>地。以足蹈地令平好。象王曰。朝暮承事佛如
+<lb n="0694a29"/>是。佛久後<note n="0694007" resp="Taisho" type="orig" place="foot text">～Parinibb&amacron;na.</note><foreign n="0694007" lang="pli" resp="Taisho" place="foot">Parinibb&amacron;na.</foreign>般泥洹去。象王不知佛所在。為
+<pb ed="T" id="T32.1670A.0694b" n="0694b"/>
+<lb n="0694b01"/>周旋行求索佛不得。便啼垂淚愁憂不樂不
+<lb n="0694b02"/>能食飲。時國中有佛寺舍。在山上名加羅洹
+<lb n="0694b03"/>寺。中有五百沙門常止其中。皆已得<note n="0694008" resp="Taisho" type="orig" place="foot text">阿羅漢道～Arahattamagga.</note><tt n="0694008" type="app"><t lang="chi" resp="Taisho">阿羅漢
+<lb n="0694b04"/>道</t><t lang="pli" resp="Taisho" place="foot">Arahattamagga.</t></tt>。常以月八日十四日十五日二十三日二
+<lb n="0694b05"/>十九日三十日。常以是日誦經。至明時象王
+<lb n="0694b06"/>亦在山上止於寺中。象王知有六日誦經。至
+<lb n="0694b07"/>其日當行入寺中聽經。諸<note n="0694009" resp="Taisho" type="orig" place="foot text">～Sama&ndotblw;a.</note><foreign n="0694009" lang="pli" resp="Taisho" place="foot">Sama&ndotblw;a.</foreign>沙門知象王意聽
+<lb n="0694b08"/>經。欲誦經時&CB00824;象王來。乃誦經。象王聽經。至
+<lb n="0694b09"/>明不睡不臥不動不搖。象王數聞經承事佛
+<lb n="0694b10"/>故。後象王以壽命盡死。死後便化為人作子
+<lb n="0694b11"/>生婆羅門家。以後年長大不聞佛經亦不見
+<lb n="0694b12"/>沙門。便棄家去入深山學異道。在山上止。近
+<lb n="0694b13"/>比亦有一<note n="0694010" resp="Taisho" type="orig" place="foot text">～Br&amacron;hma&ndotblw;a.</note><foreign n="0694010" lang="pli" resp="Taisho" place="foot">Br&amacron;hma&ndotblw;a.</foreign>婆羅門道人俱在山上。相與往來
+<lb n="0694b14"/><note n="0694011" resp="Taisho" type="orig" place="foot text">〔共〕－【聖】</note><app n="0694011"><lem>共</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>為知識。其一人自念言。我不能於世間懸
+<lb n="0694b15"/>憂苦老病。死後當入地獄畜生餓鬼貧窮中。
+<lb n="0694b16"/>用是故我欲剃頭鬚<note n="0694012" resp="Taisho" type="orig" place="foot text">披＝被【聖】＊</note><app n="0694012"><lem>披</lem><rdg wit="【聖】" resp="Taisho">被</rdg></app>袈裟。欲求羅漢泥洹
+<lb n="0694b17"/>道。其有一人自念言。我願欲求作國王得自
+<lb n="0694b18"/>在。令天下人民隨我教。<note n="0694013" resp="Taisho" type="orig" place="foot text">今＝令【聖】</note><app n="0694013"><lem>今</lem><rdg wit="【聖】" resp="Taisho">令</rdg></app>如是。久後二人
+<lb n="0694b19"/>各命盡。俱生世間作人。其一人前求作國王
+<lb n="0694b20"/>者。生於海邊為國王太子字<note n="0694014" resp="Taisho" type="orig" place="foot text">～Milinda.</note><foreign n="0694014" lang="pli" resp="Taisho" place="foot">Milinda.</foreign>彌蘭。其一人前
+<lb n="0694b21"/>世欲剃頭作沙門求羅漢泥洹者。生於天竺
+<lb n="0694b22"/>字陀獵與肉袈裟俱生其家。有一大象同日
+<lb n="0694b23"/>生。天竺名<note n="0694015" resp="Taisho" type="orig" place="foot text">象～N&amacron;ga.</note><tt n="0694015" type="app"><t lang="chi" resp="Taisho">象</t><t lang="pli" resp="Taisho" place="foot">N&amacron;ga.</t></tt>為那。父母便字為那先。年十
+<lb n="0694b24"/>五六。那先有舅父字<note n="0694016" resp="Taisho" type="orig" place="foot text">～Roha&ndotblw;a.</note><foreign n="0694016" lang="pli" resp="Taisho" place="foot">Roha&ndotblw;a.</foreign>樓漢。學道作沙門大高
+<lb n="0694b25"/>才世間無比。已得阿羅漢道。能出無間入無
+<lb n="0694b26"/>孔。自在變化無所不作。天上天下人民及蠕
+<lb n="0694b27"/>動之類。心所念皆豫知之。生所從來死趣何
+<lb n="0694b28"/>道。那先至舅父所自說言。我喜佛道欲作沙
+<lb n="0694b29"/>門為舅父作弟子。寧可持我作沙門。樓漢哀
+<pb ed="T" id="T32.1670A.0694c" n="0694c"/>
+<lb n="0694c01"/>之。即聽作沙彌受十戒。<note n="0694017" resp="Taisho" type="orig" place="foot text">日＋（日）【聖】</note><app n="0694017"><lem>日</lem><rdg wit="【聖】" resp="Taisho">日日</rdg></app>誦經思惟經戒便
+<lb n="0694c02"/>得四禪。悉知諸經要。時國中有佛寺舍名和
+<lb n="0694c03"/><note n="0694018" resp="Taisho" type="orig" place="foot text">戰＝鄲【聖】＊</note><app n="0694018"><lem>戰</lem><rdg wit="【聖】" resp="Taisho">鄲</rdg></app>。寺中有五百沙門皆得羅漢道。其中有第
+<lb n="0694c04"/>一羅漢名頞波曰。能知天上天下去來現在
+<lb n="0694c05"/>之事。那先年至二十。便受大沙門經戒。便到
+<lb n="0694c06"/>和戰寺中至頞波曰所。時五百羅漢適以十
+<lb n="0694c07"/>五日說大沙門戒經。在講堂上坐。大沙門皆
+<lb n="0694c08"/>入。那先亦在其中。諸沙門悉坐。頞波曰悉
+<lb n="0694c09"/>視坐中諸沙門<note n="0694019" resp="Taisho" type="orig" place="foot text">〔心〕－【聖】</note><app n="0694019"><lem>心</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>皆是羅漢。獨那先未得羅
+<lb n="0694c10"/>漢。頞波曰言。譬若<note n="0694020" resp="Taisho" type="orig" place="foot text">揚＝餳【聖】＊</note><app n="0694020"><lem>揚</lem><rdg wit="【聖】" resp="Taisho">餳</rdg></app>米。<note n="0694021" resp="Taisho" type="orig" place="foot text">〔米〕－【聖】</note><app n="0694021"><lem>米</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>正白中有黑米。
+<lb n="0694c11"/>即<anchor id="fxT32p0694c01"/>揚為不好。今我坐中皆白清淨。獨那先黑
+<lb n="0694c12"/>未得羅漢耳。那先聞頞波曰說如是。大憂愁
+<lb n="0694c13"/>起為五百沙門作禮出去。自念我不宜在是
+<lb n="0694c14"/>座中坐。譬若眾師子中有狐狗。我從今以後
+<lb n="0694c15"/>不得道不入中坐。頞波曰知那先意。以手摩
+<lb n="0694c16"/>那先頭言。汝得羅漢道不久莫愁憂。便<note n="0694022" resp="Taisho" type="orig" place="foot text">止＝上【聖】＊</note><app n="0694022"><lem>止</lem><rdg wit="【聖】" resp="Taisho">上</rdg></app>留
+<lb n="0694c17"/>那先。那先復有一師年八九十字加維曰。其
+<lb n="0694c18"/>中有一優婆塞大賢善。日飯加維。<note n="0694023" resp="Taisho" type="orig" place="foot text">（曰）＋那【聖】</note><app n="0694023"><lem>那</lem><rdg wit="【聖】" resp="Taisho">曰那</rdg></app>先<note n="0694024" resp="Taisho" type="orig" place="foot text">且＝主【聖】</note><app n="0694024"><lem>且</lem><rdg wit="【聖】" resp="Taisho">主</rdg></app>
+<lb n="0694c19"/>為師持&CB00425;行取飯食具。師令那先口含水。行
+<lb n="0694c20"/>到<note n="0694025" resp="Taisho" type="orig" place="foot text">～Up&amacron;saka.</note><foreign n="0694025" lang="pli" resp="Taisho" place="foot">Up&amacron;saka.</foreign>優婆塞家取飯食具。優婆塞見那先年少
+<lb n="0694c21"/>端正與人絕異有名字。智慧廣遠有志能說經
+<lb n="0694c22"/>道。優婆塞見那先前為作禮叉手言。飯諸沙
+<lb n="0694c23"/>門日久。未曾為我說經者。今我從那先求哀
+<lb n="0694c24"/>願。與我說經解我心意。那先自念。我受師教
+<lb n="0694c25"/>戒令我口含水不得語。我今吐水者為犯師
+<lb n="0694c26"/>要。如是當云何。那先知優婆塞亦高才有志。
+<lb n="0694c27"/>我為其說經想即當得道。那先便吐水&CB00230;坐
+<lb n="0694c28"/>為說經言。人當布施作福善奉行佛經戒。死
+<lb n="0694c29"/>後生世間得富貴。人不犯經戒者。後不復入
+<pb ed="T" id="T32.1670A.0695a" n="0695a"/>
+<lb n="0695a01"/>地獄餓鬼畜生中貧窮中。得生天上。優婆塞
+<lb n="0695a02"/>聞那先說經心大歡喜。那先知優婆塞心歡
+<lb n="0695a03"/>喜。便復為說經。世間萬物皆當過去無有常。
+<lb n="0695a04"/>諸<note n="0695001" resp="Taisho" type="orig" place="foot text">〔所〕－【聖】</note><app n="0695001"><lem>所</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>作皆懃苦。萬物皆不得自在。泥洹道者
+<lb n="0695a05"/>不生不老不病不死不愁不<note n="0695002" resp="Taisho" type="orig" place="foot text">惱＝憂【聖】</note><app n="0695002"><lem>惱</lem><rdg wit="【聖】" resp="Taisho">憂</rdg></app>。諸惡懃苦皆
+<lb n="0695a06"/>消滅。那先說經竟。優婆塞便得第一<note n="0695003" resp="Taisho" type="orig" place="foot text">須陀洹道～Sot&amacron;pattimagga.</note><tt n="0695003" type="app"><t lang="chi" resp="Taisho">須陀洹
+<lb n="0695a07"/>道</t><t lang="pli" resp="Taisho" place="foot">Sot&amacron;pattimagga.</t></tt>。那先亦得須陀洹道。優婆塞大歡喜。便極
+<lb n="0695a08"/>與那先作美飯具。那先語優婆塞。先取飯具
+<lb n="0695a09"/>置師&CB00425;中。那先飯竟澡漱訖畢。持飯具還與
+<lb n="0695a10"/>師。師見言。汝今日持好飯具來。以犯眾人要。
+<lb n="0695a11"/>當逐出汝。那先大愁憂不樂。師教言。會比丘
+<lb n="0695a12"/>僧。悉會皆坐。師言。那先犯我曹眾人要來。
+<lb n="0695a13"/>當逐出無令在眾中<anchor id="fxT32p0695a01"/>止頞<note n="0695004" resp="Taisho" type="orig" place="foot text">波＝婆【聖】</note><app n="0695004"><lem>波</lem><rdg wit="【聖】" resp="Taisho">婆</rdg></app>曰說經言。譬
+<lb n="0695a14"/>若人持一箭射中兩准。那先自得道。亦復令
+<lb n="0695a15"/>優婆塞得道。不應逐出。師迦維曰。<note n="0695005" resp="Taisho" type="orig" place="foot text">政＝正【聖】</note><app n="0695005"><lem>政</lem><rdg wit="【聖】" resp="Taisho">正</rdg></app>使一
+<lb n="0695a16"/>箭射中百准。會為犯眾人。要不得止。餘人持
+<lb n="0695a17"/>戒不能如那先得道。如效那先當用絕後。眾
+<lb n="0695a18"/>坐中皆默然師教即逐出那先。那先便以頭
+<lb n="0695a19"/>面禮師足起。遍為比丘僧作禮訖竟。便出去
+<lb n="0695a20"/>入深<note n="0695006" resp="Taisho" type="orig" place="foot text">山＝出【聖】</note><app n="0695006"><lem>山</lem><rdg wit="【聖】" resp="Taisho">出</rdg></app>坐樹下。晝夜精進思惟道不懈。自成
+<lb n="0695a21"/>得羅漢道。能飛行徹視徹聽。知他人心所念
+<lb n="0695a22"/>善惡。自知前世所更從來生。得羅漢道已。便
+<lb n="0695a23"/>來還入和<anchor id="fxT32p0695a02"/>戰寺中。詣諸比丘所。前頭面悔過
+<lb n="0695a24"/>求和解。諸比丘僧即聽之。那先作禮訖竟。便
+<lb n="0695a25"/>出去轉行入諸郡縣街曲里巷。為人說經戒。
+<lb n="0695a26"/>教人為善。中有受五戒者。得須陀洹道者。中
+<lb n="0695a27"/>有得<note n="0695007" resp="Taisho" type="orig" place="foot text">斯陀含道～Sakad&amacron;g&amacron;mimagga.</note><tt n="0695007" type="app"><t lang="chi" resp="Taisho">斯陀含道</t><t lang="pli" resp="Taisho" place="foot">Sakad&amacron;g&amacron;mimagga.</t></tt>者。中有得<note n="0695008" resp="Taisho" type="orig" place="foot text">阿那含道～An&amacron;gamimagga.</note><tt n="0695008" type="app"><t lang="chi" resp="Taisho">阿那含道</t><t lang="pli" resp="Taisho" place="foot">An&amacron;gamimagga.</t></tt>者。中
+<lb n="0695a28"/>有作沙門得羅漢道者。第二<note n="0695009" resp="Taisho" type="orig" place="foot text">忉利天～T&amacron;vati&mdotblw;sabhavana.</note><tt n="0695009" type="app"><t lang="chi" resp="Taisho">忉利天</t><t lang="pli" resp="Taisho" place="foot">T&amacron;vati&mdotblw;sabhavana.</t></tt>帝釋。第
+<lb n="0695a29"/>七天王梵第四天王皆來到那先所作禮。以
+<pb ed="T" id="T32.1670A.0695b" n="0695b"/>
+<lb n="0695b01"/>頭面著足&CB00230;坐。那先便為諸天說經。名字聞
+<lb n="0695b02"/>四遠。那先所行處。諸天人民鬼神龍見那先
+<lb n="0695b03"/>無不歡喜者。皆得其福。那先便轉到天竺<note n="0695010" resp="Taisho" type="orig" place="foot text">舍＝含【聖】～S&amacron;gala.</note><tt n="0695010" type="app"><t lang="chi" resp="Taisho"><app n="0695010"><lem>舍</lem><rdg wit="【聖】" resp="Taisho">含</rdg></app></t><t lang="pli" resp="Taisho" place="foot">S&amacron;gala.</t></tt>
+<lb n="0695b04"/>竭國。止泄坻迦寺中。有前世故知識一人在
+<lb n="0695b05"/>海邊。作國王子名彌蘭。彌蘭少小好讀經學
+<lb n="0695b06"/>異道。悉知異道經法。異道人無能勝者。彌蘭
+<lb n="0695b07"/>父王壽盡。彌蘭立為王。王問左右邊臣言。國
+<lb n="0695b08"/>中道人及人民誰能與我共難經道者。邊臣
+<lb n="0695b09"/>白言。有學佛道者。人呼為沙門。其人智慧妙
+<lb n="0695b10"/>達。能與王共難經道。北方大<note n="0695011" resp="Taisho" type="orig" place="foot text">臣＝秦【聖】</note><app n="0695011"><lem>臣</lem><rdg wit="【聖】" resp="Taisho">秦</rdg></app>國名沙竭。
+<lb n="0695b11"/>古王之宮。其國中外安隱人民皆善。其城四
+<lb n="0695b12"/>方皆復道行。諸城門皆刻鏤。及餘小國皆多
+<lb n="0695b13"/>高明。人民被服五色焜煌。國土高燥珍寶眾
+<lb n="0695b14"/>多。四方賈客賣買皆以金錢。五穀豐賤家有
+<lb n="0695b15"/>餘畜樂不可言。其王彌蘭以正法治國。高才
+<lb n="0695b16"/>有智謀明於官事。戰&CB00508;之術無不通達。能知
+<lb n="0695b17"/>九十六種道。所問不窮人適發言。便豫知其
+<lb n="0695b18"/>所趣。王語傍臣言。是間寧有明經沙門。能與
+<lb n="0695b19"/>我共難經說道者不。王傍臣名<note n="0695012" resp="Taisho" type="orig" place="foot text">沾彌利～Devamantiya.</note><tt n="0695012" type="app"><t lang="chi" resp="Taisho">沾彌利</t><t lang="pli" resp="Taisho" place="foot">Devamantiya.</t></tt><note n="0695013" resp="Taisho" type="orig" place="foot text">望群～Ma&ndotabv;kura.</note><tt n="0695013" type="app"><t lang="chi" resp="Taisho">望
+<lb n="0695b20"/>群</t><t lang="pli" resp="Taisho" place="foot">Ma&ndotabv;kura.</t></tt>。白王言。然有沙門字<note n="0695014" resp="Taisho" type="orig" place="foot text">野&CB00378;羅～&Amacron;yup&amacron;la.</note><tt n="0695014" type="app"><t lang="chi" resp="Taisho">野&CB00378;羅</t><t lang="pli" resp="Taisho" place="foot">&Amacron;yup&amacron;la.</t></tt>。明經道能
+<lb n="0695b21"/>與王難經道。王便&CB00330;沾彌利望群。即行往請
+<lb n="0695b22"/>野&CB00378;羅言。大王欲見大師。野&CB00378;羅言。王欲相
+<lb n="0695b23"/>見者大善。王當自來耳。我不往。沾彌利望群
+<lb n="0695b24"/>即還白王如是。王即乘車與五百<note n="0695015" resp="Taisho" type="orig" place="foot text">伎＝騎【聖】</note><app n="0695015"><lem>伎</lem><rdg wit="【聖】" resp="Taisho">騎</rdg></app>共行到
+<lb n="0695b25"/>寺中。與野&CB00378;羅相見。前相問訊就坐。五百騎
+<lb n="0695b26"/>從皆坐。王問野&CB00378;羅。卿用何等故棄家捐妻
+<lb n="0695b27"/>子。剃頭鬚<anchor id="fxT32p0695b01"/>披袈裟作沙門。<note n="0695016" resp="Taisho" type="orig" place="foot text">〔卿〕－【聖】</note><app n="0695016"><lem>卿</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>所求何等道。
+<lb n="0695b28"/>野&CB00378;羅言。我曹學佛道行中正。於今世得其
+<lb n="0695b29"/>福。於後世亦得其福。用是故我剃頭鬚被袈
+<pb ed="T" id="T32.1670A.0695c" n="0695c"/>
+<lb n="0695c01"/>裟作沙門。王問野&CB00378;羅。若有白衣居家。有妻
+<lb n="0695c02"/>子行中正。於今世得其福。於後世亦得其福
+<lb n="0695c03"/>不。野&CB00378;羅言。白衣居家有妻子行中正。於今
+<lb n="0695c04"/>世得其福。於後世亦得其福。王言。卿空棄家
+<lb n="0695c05"/><note n="0695017" resp="Taisho" type="orig" place="foot text">捐＝損【聖】</note><app n="0695017"><lem>捐</lem><rdg wit="【聖】" resp="Taisho">損</rdg></app>妻子。剃頭鬚被袈裟作沙門為。野&CB00378;羅默
+<lb n="0695c06"/>然無以報王。王傍臣白言。是沙門大明達有
+<lb n="0695c07"/>智者。迫促不及言耳。王傍臣皆舉手言。王得
+<lb n="0695c08"/>勝。野&CB00378;羅默然受負。王左右顧視。優婆塞面
+<lb n="0695c09"/>亦不慚。王自念。是諸優婆塞面不慚者。復有
+<lb n="0695c10"/>明健沙門能與我共相難者耳。王語傍臣沾
+<lb n="0695c11"/>彌利。寧復有明智沙門能與我共難經道者
+<lb n="0695c12"/>無。那先者諸沙門師。知諸經要難。<note n="0695018" resp="Taisho" type="orig" place="foot text">巧＝工【聖】</note><app n="0695018"><lem>巧</lem><rdg wit="【聖】" resp="Taisho">工</rdg></app>說十
+<lb n="0695c13"/>二品經。種種別異章斷句解。知泥洹之道。無
+<lb n="0695c14"/>有能窮者。無能勝者。智如江海。能伏九十六
+<lb n="0695c15"/>種道。為佛弟子所敬愛。以經道教授。那先來
+<lb n="0695c16"/>到舍竭國。其所相隨弟子皆復高明。那先如
+<lb n="0695c17"/>猛師子。沾彌利白王。有沙門字那先。智慧微
+<lb n="0695c18"/>妙諸經道。要。能解人所疑無所不通。能與王
+<lb n="0695c19"/>難經說道。王問沾彌利。審能與我共難經道
+<lb n="0695c20"/>不。沾彌利言。唯然常與第七梵天共難經說
+<lb n="0695c21"/>道。何況於人王。即&CB00330;沾彌利。便行請那先來。
+<lb n="0695c22"/>沾彌利即到那先所白言。大王欲相見。那先
+<lb n="0695c23"/>言大善。即與<note n="0695019" resp="Taisho" type="orig" place="foot text">弟子＝&CB05663;子【聖】</note><app n="0695019"><lem>弟子</lem><rdg wit="【聖】" resp="Taisho">&CB05663;子</rdg></app>相隨行到王所。王雖未&CB00573;
+<lb n="0695c24"/>見。那先在眾人中<anchor id="fxT32p0695c01"/>披服行步。與人有絕異。王
+<lb n="0695c25"/>遙見隱知那先。王自說言。我前後所更見眾
+<lb n="0695c26"/>大多。入大坐中大多。未&CB00573;自覺恐怖。如今日
+<lb n="0695c27"/>見那先。今日那先定勝我。我心惶惶不安。沾
+<lb n="0695c28"/>彌利居前白王言。那先<note n="0695020" resp="Taisho" type="orig" place="foot text">以＝已【聖】</note><app n="0695020"><lem>以</lem><rdg wit="【聖】" resp="Taisho">已</rdg></app>發旦到。王即問沾
+<lb n="0695c29"/>彌利。何所是那先者。沾彌利<note n="0695021" resp="Taisho" type="orig" place="foot text">〔白〕－【聖】</note><app n="0695021"><lem>白</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。因指示王。
+<pb ed="T" id="T32.1670A.0696a" n="0696a"/>
+<lb n="0696a01"/>王即大歡喜。正我所隱意是。那先即到。王因
+<lb n="0696a02"/>前相問訊語言。王便大歡喜。因共對坐。那先
+<lb n="0696a03"/>語王言。佛經說言。人安隱最大利。人知足最
+<lb n="0696a04"/>為大富。人有所信最為大厚。泥洹道最為大
+<lb n="0696a05"/>快。王便問那先卿字何等。那先言。父母字我
+<lb n="0696a06"/>為那先。人呼我為那先。有時父母呼我為<note n="0696001" resp="Taisho" type="orig" place="foot text">首那先～S&umacron;rasena.</note><tt n="0696001" type="app"><t lang="chi" resp="Taisho">首
+<lb n="0696a07"/><note n="0696002" resp="Taisho" type="orig" place="foot text">那＝羅【聖】</note><app n="0696002"><lem>那</lem><rdg wit="【聖】" resp="Taisho">羅</rdg></app>先</t><t lang="pli" resp="Taisho" place="foot">S&umacron;rasena.</t></tt>。有時父母呼我為<note n="0696003" resp="Taisho" type="orig" place="foot text">維迦先～V&imacron;rasena.</note><tt n="0696003" type="app"><t lang="chi" resp="Taisho">維迦先</t><t lang="pli" resp="Taisho" place="foot">V&imacron;rasena.</t></tt>。用是故人
+<lb n="0696a08"/>皆識知我。世間人皆有是<note n="0696004" resp="Taisho" type="orig" place="foot text">耳＝取【聖】</note><app n="0696004"><lem>耳</lem><rdg wit="【聖】" resp="Taisho">取</rdg></app>。王問那先。誰
+<lb n="0696a09"/>為那先者。王復問言。頭為那先耶。不為那先。
+<lb n="0696a10"/>王復言。耳鼻口為那先耶。不為那先。王復言。
+<lb n="0696a11"/>頤項肩臂手足為那先耶。不為那先。王復言。
+<lb n="0696a12"/>髀&CB00560;為那先耶。不為那先。王復言。<note n="0696005" resp="Taisho" type="orig" place="foot text">顏＝&CB14596;【聖】</note><app n="0696005"><lem>顏</lem><rdg wit="【聖】" resp="Taisho">&CB14596;</rdg></app>色為
+<lb n="0696a13"/>那先耶不為那先。王復言。苦樂為那先耶。不
+<lb n="0696a14"/>為那先。王復言。善惡為那先耶。不為那先。王
+<lb n="0696a15"/>復言。身為那先耶。不為那先。王復言。肝<note n="0696006" resp="Taisho" type="orig" place="foot text">肺＝脯【聖】</note><app n="0696006"><lem>肺</lem><rdg wit="【聖】" resp="Taisho">脯</rdg></app>
+<lb n="0696a16"/>心脾腸胃為那先耶。不為那先。王復言。顏色。
+<lb n="0696a17"/><note n="0696007" resp="Taisho" type="orig" place="foot text">〔為那先耶不為那先〕－【聖】</note><app n="0696007"><lem>為那先耶。不為那先</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。苦樂善惡身心合。是
+<lb n="0696a18"/>事寧為那先耶。<note n="0696008" resp="Taisho" type="orig" place="foot text">〔言〕－【聖】</note><app n="0696008"><lem>言</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>不為那先。王復言。無有
+<lb n="0696a19"/>苦樂無有顏色無有善惡無有身心。無是<note n="0696009" resp="Taisho" type="orig" place="foot text">〔五〕－【聖】</note><app n="0696009"><lem>五</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
+<lb n="0696a20"/>事。寧為那先耶。那先言。不為那先。王復言。
+<lb n="0696a21"/>聲響喘息寧為那先耶。<note n="0696010" resp="Taisho" type="orig" place="foot text">（那先）＋言【聖】</note><app n="0696010"><lem>言</lem><rdg wit="【聖】" resp="Taisho">那先言</rdg></app>不為那先。何等為
+<lb n="0696a22"/>那先者。那先問王。何所為<note n="0696011" resp="Taisho" type="orig" place="foot text">車～Ratta.</note><tt n="0696011" type="app"><t lang="chi" resp="Taisho">車</t><t lang="pli" resp="Taisho" place="foot">Ratta.</t></tt>者。軸為車耶。
+<lb n="0696a23"/>不為車。那先言。<note n="0696012" resp="Taisho" type="orig" place="foot text">轂＝輻【聖】</note><app n="0696012"><lem>轂</lem><rdg wit="【聖】" resp="Taisho">輻</rdg></app>為車耶。<note n="0696013" resp="Taisho" type="orig" place="foot text">〔王言轂〕－【聖】</note><app n="0696013"><lem>王言轂</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>不為車。
+<lb n="0696a24"/>那先言。<note n="0696014" resp="Taisho" type="orig" place="foot text">輻＝輞【聖】</note><app n="0696014"><lem>輻</lem><rdg wit="【聖】" resp="Taisho">輞</rdg></app>為車耶。不為車。那先言。<note n="0696015" resp="Taisho" type="orig" place="foot text">輞＝&CB04996;【聖】</note><app n="0696015"><lem>輞</lem><rdg wit="【聖】" resp="Taisho">&CB04996;</rdg></app>為車
+<lb n="0696a25"/>耶。不為車。那先言。轅為車耶。不為車。軛為
+<lb n="0696a26"/>車耶。不為車。那先言。<note n="0696016" resp="Taisho" type="orig" place="foot text">輿＝與【聖】</note><app n="0696016"><lem>輿</lem><rdg wit="【聖】" resp="Taisho">與</rdg></app>為車耶。不為車。那
+<lb n="0696a27"/>先言。蓋為車耶。不為車。那先言。合聚是材木
+<lb n="0696a28"/>著一面。寧為車耶。不為車。那先言。音聲為車
+<lb n="0696a29"/>耶。不為車。那先言。何等為車耶。王默然不
+<pb ed="T" id="T32.1670A.0696b" n="0696b"/>
+<lb n="0696b01"/>語那先言。佛經說。合聚是諸材木。用作車因
+<lb n="0696b02"/>得車。人亦如是。合聚頭面目耳鼻口頸項肩
+<lb n="0696b03"/>臂骨肉手足肺肝心脾腎腸胃<note n="0696017" resp="Taisho" type="orig" place="foot text">顏＝&CB14580;【聖】</note><app n="0696017"><lem>顏</lem><rdg wit="【聖】" resp="Taisho">&CB14580;</rdg></app>色聲響喘
+<lb n="0696b04"/>息苦樂善惡合為一人。王言。善哉善哉</p>
+<lb n="0696b05"/><p>王復問言。那先能與我難經說道不。那先言。
+<lb n="0696b06"/>如使王作<note n="0696018" resp="Taisho" type="orig" place="foot text">智者問～Pa&ndotblw;&ddotblw;itav&amacron;da.</note><tt n="0696018" type="app"><t lang="chi" resp="Taisho">智者問</t><t lang="pli" resp="Taisho" place="foot">Pa&ndotblw;&ddotblw;itav&amacron;da.</t></tt>。能相答王。作王者問愚者
+<lb n="0696b07"/>問。不能相答。王言。智者問<note n="0696019" resp="Taisho" type="orig" place="foot text">王者問～R&amacron;jav&amacron;da.</note><tt n="0696019" type="app"><t lang="chi" resp="Taisho">王者問</t><t lang="pli" resp="Taisho" place="foot">R&amacron;jav&amacron;da.</t></tt>愚者問
+<lb n="0696b08"/>何等類。那先言。智者語對相詰相上語相下
+<lb n="0696b09"/>語。語有勝負則自知是為智者語。王者語自
+<lb n="0696b10"/>放<note n="0696020" resp="Taisho" type="orig" place="foot text">恣＝次【聖】</note><app n="0696020"><lem>恣</lem><rdg wit="【聖】" resp="Taisho">次</rdg></app>。敢有違戾不如王言者。王即強誅罰
+<lb n="0696b11"/>之。是為王者語。愚者語。語長不能自知。語短
+<lb n="0696b12"/>不能自知。&CB00395;<note n="0696021" resp="Taisho" type="orig" place="foot text">悷＝戾【聖】</note><app n="0696021"><lem>悷</lem><rdg wit="【聖】" resp="Taisho">戾</rdg></app>自用得勝而已。是為愚者語。
+<lb n="0696b13"/>王言。願用智者言。不用王者愚者言。莫持王
+<lb n="0696b14"/>者意與我語。當如與諸沙門語。當如與<note n="0696022" resp="Taisho" type="orig" place="foot text">諸＝語【聖】</note><app n="0696022"><lem>諸</lem><rdg wit="【聖】" resp="Taisho">語</rdg></app>弟
+<lb n="0696b15"/>子語。如與優婆塞語。當如與給使者語。當以
+<lb n="0696b16"/>相開悟。那先言大善。王言。我欲有所問。那先
+<lb n="0696b17"/>言。王便問。王言。我已問。那先言。我已答。
+<lb n="0696b18"/>王言。答我何等語。那先言。王問我何等語。
+<lb n="0696b19"/>王言。我無所問。那先言。我亦無所答。王即知
+<lb n="0696b20"/>那先大明慧。王言。我甫始當多所問。日反欲
+<lb n="0696b21"/><note n="0696023" resp="Taisho" type="orig" place="foot text">冥＝&CB04833;【聖】</note><app n="0696023"><lem>冥</lem><rdg wit="【聖】" resp="Taisho">&CB04833;</rdg></app>當云何明日當請。那先於宮中善相難問。
+<lb n="0696b22"/>沾禰利望群。即白那先言。日暮王當還宮。明
+<lb n="0696b23"/>日王當請那先。那先言大善。王即為那先作
+<lb n="0696b24"/>禮騎還歸宮。於馬上續念那先。至明日沾彌
+<lb n="0696b25"/>利望群及傍臣白王言。當請那先不。<note n="0696024" resp="Taisho" type="orig" place="foot text">王＝至【聖】</note><app n="0696024"><lem>王</lem><rdg wit="【聖】" resp="Taisho">至</rdg></app>言當
+<lb n="0696b26"/>請。沾彌利望群言。請者當使與幾沙門俱來。
+<lb n="0696b27"/>王言自在。那先與幾沙門俱來。主藏者名慳。
+<lb n="0696b28"/>慳白王言。令那先與十沙門共來可。如是至
+<lb n="0696b29"/>三。王瞋恚言。何故齊令那先與十沙門共來。
+<pb ed="T" id="T32.1670A.0696c" n="0696c"/>
+<lb n="0696c01"/>王言。汝字慳。不妄強惜王物自汝物。當云何
+<lb n="0696c02"/>汝逆我意。當有誅罰之罪。可言可哀赦汝過。
+<lb n="0696c03"/>今我作國王不堪飯沙門耶。慳大恐怖不敢
+<lb n="0696c04"/>復語。沾彌利望群到那先所。為作禮白言大
+<lb n="0696c05"/>王請。那先言。王當令我與幾沙門共行。沾彌
+<lb n="0696c06"/>利望群言。自在那先與幾沙門共行。那先便
+<lb n="0696c07"/>與野&CB00378;羅八十沙門共行。沾彌利望群旦欲
+<lb n="0696c08"/>入城時。於道中並問那先。往曰對王言無有
+<lb n="0696c09"/>那先。何以那先問沾彌利望群。卿意何所為
+<lb n="0696c10"/>那先者。沾彌利望群言。我以為喘息出入命
+<lb n="0696c11"/>氣為那先。那先問言。人氣一出不復還入。其
+<lb n="0696c12"/>人寧復生不。沾彌利望群言。氣出不復還入
+<lb n="0696c13"/>者定為死。那先言。如人<note n="0696025" resp="Taisho" type="orig" place="foot text">〔吹笳〕－【聖】</note><app n="0696025"><lem>吹笳</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>氣出不復還
+<lb n="0696c14"/>入。如人持鍛金&CB02154;吹<note n="0696026" resp="Taisho" type="orig" place="foot text">火＝大【聖】</note><app n="0696026"><lem>火</lem><rdg wit="【聖】" resp="Taisho">大</rdg></app>氣。一出時寧得復還
+<lb n="0696c15"/>入不。沾彌利望群言。不復還。那先言。同氣出
+<lb n="0696c16"/>不復入。人何故<note n="0696027" resp="Taisho" type="orig" place="foot text">猶＝獨【聖】</note><app n="0696027"><lem>猶</lem><rdg wit="【聖】" resp="Taisho">獨</rdg></app>不死。沾彌利望群言。喘息
+<lb n="0696c17"/>之間我不知。願那先為我曹解之。那先言。喘
+<lb n="0696c18"/>息之氣皆身中事。如人心有所念者舌為之言
+<lb n="0696c19"/>是為舌事。意有所疑心念之是為心事。各有
+<lb n="0696c20"/>所主。視之虛空無<note n="0696028" resp="Taisho" type="orig" place="foot text">〔有〕－【聖】</note><app n="0696028"><lem>有</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>那先。沾彌利望群心即
+<lb n="0696c21"/>開解。便作優婆塞。受五戒。那先便前入宮到
+<lb n="0696c22"/>王所上殿。王即前為那先作禮而&CB00230;。那先即
+<lb n="0696c23"/>坐。八十沙門皆共坐。王手自持美飯食著那
+<lb n="0696c24"/>先前。飯食已竟澡手水畢訖。王即賜諸沙門
+<lb n="0696c25"/>人一張<note n="0696029" resp="Taisho" type="orig" place="foot text">疊＝&CB00626;【聖】</note><app n="0696029"><lem>疊</lem><rdg wit="【聖】" resp="Taisho">&CB00626;</rdg></app>袈裟革屣各一<note n="0696030" resp="Taisho" type="orig" place="foot text">緉＝量【聖】</note><app n="0696030"><lem>緉</lem><rdg wit="【聖】" resp="Taisho">量</rdg></app>。賜那先野&CB00378;
+<lb n="0696c26"/>羅各三領袈裟各一緉革<note n="0696031" resp="Taisho" type="orig" place="foot text">屣＝履【聖】</note><app n="0696031"><lem>屣</lem><rdg wit="【聖】" resp="Taisho">履</rdg></app>。王語那先野&CB00378;
+<lb n="0696c27"/>羅言。留十人共止。遣餘人皆令去。那先即遣
+<lb n="0696c28"/>餘沙門去。與十人共止留。王&CB00330;後宮諸貴人
+<lb n="0696c29"/>伎女。悉出於殿上。帳中聽我與那先共難經
+<pb ed="T" id="T32.1670A.0697a" n="0697a"/>
+<lb n="0697a01"/>道。時貴人伎女悉出於殿上。帳中聽那先說
+<lb n="0697a02"/>經。時王持座坐於那先前。王問那先言。當道
+<lb n="0697a03"/>說何等。那先言。五欲聽要言者當說要言。王
+<lb n="0697a04"/>言。卿曹道何等<note n="0697001" resp="Taisho" type="orig" place="foot text">最為善者～Paramattha.</note><tt n="0697001" type="app"><t lang="chi" resp="Taisho">最為善者</t><t lang="pli" resp="Taisho" place="foot">Paramattha.</t></tt>。用何故<note n="0697002" resp="Taisho" type="orig" place="foot text">作沙門～Pabbajj&amacron;.</note><tt n="0697002" type="app"><t lang="chi" resp="Taisho">作沙門</t><t lang="pli" resp="Taisho" place="foot">Pabbajj&amacron;.</t></tt>。
+<lb n="0697a05"/>那先言。我曹輩<note n="0697003" resp="Taisho" type="orig" place="foot text">欲棄世間…苦惱～Ida&mdotblw; dukkha&mdotblw; nirujjheyya a&ntilde;&ntilde;a&ntilde; ca dukkha&mdotblw; nauppajjayya.</note><note n="0697003" resp="CBETA" type="mod">欲棄世間…<todo/>苦惱～Ida&mdotblw; dukkha&mdotblw; nirujjheyya a&ntilde;&ntilde;a&ntilde; ca dukkha&mdotblw; nauppajjayya.</note><tt n="0697003" type="app" word-count="13"><t lang="chi" resp="Taisho">欲棄世間苦惱。不復更後世
+<lb n="0697a06"/>苦惱</t><t lang="pli" resp="Taisho" place="foot">Ida&mdotblw; dukkha&mdotblw; nirujjheyya a&ntilde;&ntilde;a&ntilde; ca dukkha&mdotblw; nauppajjayya.</t></tt>故作沙門。王言沙門者悉爾不。那先言
+<lb n="0697a07"/>不悉用是故作沙門。中有負<note n="0697004" resp="Taisho" type="orig" place="foot text">債＝責【聖】</note><app n="0697004"><lem>債</lem><rdg wit="【聖】" resp="Taisho">責</rdg></app>作沙門者。中
+<lb n="0697a08"/>有畏縣官作沙門者。中有貧窮作沙門者。那
+<lb n="0697a09"/>先言。我但說欲脫愛欲苦惱滅今世懃苦。至
+<lb n="0697a10"/>心未道作沙門者耳。王言。今卿用是故作
+<lb n="0697a11"/>沙門耶。那先言。少少作沙門有佛經道。是
+<lb n="0697a12"/>故欲棄今世後世苦惱作沙門。王言。善哉善
+<lb n="0697a13"/>哉</p>
+<lb n="0697a14"/><p>王問言。寧有人死後<note n="0697005" resp="Taisho" type="orig" place="foot text">復生～Pa&tdotblw;isandahati.</note><tt n="0697005" type="app"><t lang="chi" resp="Taisho">復生</t><t lang="pli" resp="Taisho" place="foot">Pa&tdotblw;isandahati.</t></tt>不。那先言。人有
+<lb n="0697a15"/>恩愛貪欲者。後世便復生為人。無恩愛貪欲
+<lb n="0697a16"/>者。後世便不復生。王言。人以一心念正法。後
+<lb n="0697a17"/>世不復生耶。那先言。人一心念正法。<note n="0697006" resp="Taisho" type="orig" place="foot text">智慧～Pa&ntilde;&ntilde;&amacron;.</note><tt n="0697006" type="app"><t lang="chi" resp="Taisho">智慧</t><t lang="pli" resp="Taisho" place="foot">Pa&ntilde;&ntilde;&amacron;.</t></tt>
+<lb n="0697a18"/>及餘善事。後世不復生。王言。人以善心念正
+<lb n="0697a19"/>法與黠慧者。是二事其義寧同不。那先言。其
+<lb n="0697a20"/>義各異不同。王言。牛馬六畜各自有智謀其
+<lb n="0697a21"/>心不同。那先言。王曾見穫麥者不。左手持麥
+<lb n="0697a22"/>右手刈之。那先言。黠慧之人斷絕愛欲。譬如
+<lb n="0697a23"/>穫麥者。王言。善哉善哉</p>
+<lb n="0697a24"/><p>王復問。那先何等為餘<note n="0697007" resp="Taisho" type="orig" place="foot text">善事～Kusaladhamma.</note><tt n="0697007" type="app"><t lang="chi" resp="Taisho">善事</t><t lang="pli" resp="Taisho" place="foot">Kusaladhamma.</t></tt>者。那先言誠信
+<lb n="0697a25"/>孝順精進念善一心智慧是為善事。王言。何
+<lb n="0697a26"/>等為誠信者。那先言。誠信解人疑。信有佛信
+<lb n="0697a27"/>經法信有比丘僧。信有羅漢道。信有今世信
+<lb n="0697a28"/>有後世信<note n="0697008" resp="Taisho" type="orig" place="foot text">孝＝有【聖】</note><app n="0697008"><lem>孝</lem><rdg wit="【聖】" resp="Taisho">有</rdg></app>父母。信作善得善。信作惡得惡。
+<lb n="0697a29"/><note n="0697009" resp="Taisho" type="orig" place="foot text">〔信有〕－【聖】</note><app n="0697009"><lem>信有</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>是以後心便清淨去離五惡。何等五。一
+<pb ed="T" id="T32.1670A.0697b" n="0697b"/>
+<lb n="0697b01"/>者婬&CB00105;。二者瞋怒。三者嗜臥。四者歌樂。五者
+<lb n="0697b02"/>疑。人不去是五惡。心意不定。去是五惡。心便
+<lb n="0697b03"/>清淨。那先言。譬如遮迦越王。車馬人從厲度。
+<lb n="0697b04"/>令水濁惡過度以去。王渴欲得水飲。王有清
+<lb n="0697b05"/>水珠置水中水即為清。王便得清水飲之。那
+<lb n="0697b06"/>先言。人心有五惡如濁水。佛諸弟子度脫生
+<lb n="0697b07"/>死之道。人心清淨如珠清水。人&CB00230;諸惡誠信
+<lb n="0697b08"/>清淨如明月珠。王言。善哉善哉</p>
+<lb n="0697b09"/><p>王復問那先。精進誠信者云何。那先言。佛諸
+<lb n="0697b10"/>弟子自相見輩中說諸清淨。中有得須陀洹
+<lb n="0697b11"/>道者。中有得斯陀含道者。中有得阿那含道
+<lb n="0697b12"/>者。中有得阿羅漢道者。因欲相效行誠信便得
+<lb n="0697b13"/>度世道。那先言。譬如山上大雨。其水下流廣
+<lb n="0697b14"/>大。兩邊人俱不知水淺深。畏不敢前。若有遠
+<lb n="0697b15"/>方人來。視水隱知水廣狹深淺。自知力勢能
+<lb n="0697b16"/>入水便得過度去。兩邊人眾便隨後度去。佛
+<lb n="0697b17"/>諸弟子如是。人心清淨便為須陀洹道。得斯
+<lb n="0697b18"/>陀含道。得阿那含道。得阿羅漢道。善心精進
+<lb n="0697b19"/>得道如是。佛經說言。人有誠信之心可自得
+<lb n="0697b20"/>度。世人能自制<anchor id="fxT32p0697b01"/>止&CB00230;五所欲。人自知身苦惱
+<lb n="0697b21"/>能自度脫。人皆以智慧成其道德。王言。善哉
+<lb n="0697b22"/>善哉。王復問那先。何等為孝順者。那先言。諸
+<lb n="0697b23"/>善者皆為孝順。那先言。有四善事心意所止。
+<lb n="0697b24"/>言何等四心意所止者。那先言。一者自觀其
+<lb n="0697b25"/>身中外內。二者知意苦樂。三者知心善惡。四
+<lb n="0697b26"/>者知正法。是為四。那先言。復有四事。何等四。
+<lb n="0697b27"/>一者制其意。二者諸有惡事不聽入心中。三
+<lb n="0697b28"/>者心中有惡事即出之索諸善。四者其心中有
+<lb n="0697b29"/>善制持不放。是為四。那先言。復有四事。自在
+<pb ed="T" id="T32.1670A.0697c" n="0697c"/>
+<lb n="0697c01"/>欲所作。何等為四。一者&CB00230;欲。二者精進。三者
+<lb n="0697c02"/>制心。四者思惟。是為四。那先言。復有五效事。
+<lb n="0697c03"/>何等為五。一者誠信。二者孝順。三者精進。
+<lb n="0697c04"/>四者盡心念善。五者智慧。是為五。那先言。復
+<lb n="0697c05"/>有七事棄除諸惡。名為七善。亦名七覺意。復
+<lb n="0697c06"/>有八種道行。亦名為阿姤<note n="0697010" resp="Taisho" type="orig" place="foot text">者＝耆【聖】</note><app n="0697010"><lem>者</lem><rdg wit="【聖】" resp="Taisho">耆</rdg></app>。<note n="0697011" resp="Taisho" type="orig" place="foot text">是＝凡【聖】</note><app n="0697011"><lem>是</lem><rdg wit="【聖】" resp="Taisho">凡</rdg></app><note n="0697012" resp="Taisho" type="orig" place="foot text">凡＝是【聖】</note><app n="0697012"><lem>凡</lem><rdg wit="【聖】" resp="Taisho">是</rdg></app>三十
+<lb n="0697c07"/>七品經皆是孝順為本。那先言。凡人負金致
+<lb n="0697c08"/>遠有所成立。皆由地<note n="0697013" resp="Taisho" type="orig" place="foot text">〔成〕－【聖】</note><app n="0697013"><lem>成</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。世間五穀<note n="0697014" resp="Taisho" type="orig" place="foot text">（穀）＋樹【聖】</note><app n="0697014"><lem>樹</lem><rdg wit="【聖】" resp="Taisho">穀樹</rdg></app>木仰
+<lb n="0697c09"/>天之<note n="0697015" resp="Taisho" type="orig" place="foot text">中＝物【聖】</note><app n="0697015"><lem>中</lem><rdg wit="【聖】" resp="Taisho">物</rdg></app>皆由地生。那先言。譬若師<note n="0697016" resp="Taisho" type="orig" place="foot text">匠＝近【聖】</note><app n="0697016"><lem>匠</lem><rdg wit="【聖】" resp="Taisho">近</rdg></app>圖作
+<lb n="0697c10"/>大城。先度量作基址已乃起城。那先言。譬若
+<lb n="0697c11"/><note n="0697017" resp="Taisho" type="orig" place="foot text">倡＝趾【聖】</note><app n="0697017"><lem>倡</lem><rdg wit="【聖】" resp="Taisho">趾</rdg></app>伎欲作。先淨掃地乃作。佛弟子求道先行
+<lb n="0697c12"/>經戒。作善因知懃苦棄諸愛欲。便思念八種
+<lb n="0697c13"/>道行。王言。善哉善哉</p>
+<lb n="0697c14"/><p>王復問那先。何等為精進者。那先言。助善是
+<lb n="0697c15"/>為<note n="0697018" resp="Taisho" type="orig" place="foot text">精進～Viriya.</note><tt n="0697018" type="app"><t lang="chi" resp="Taisho">精進</t><t lang="pli" resp="Taisho" place="foot">Viriya.</t></tt>。那先言。譬若垣牆。欲<note n="0697019" resp="Taisho" type="orig" place="foot text">倒＝&CB00570;【聖】</note><app n="0697019"><lem>倒</lem><rdg wit="【聖】" resp="Taisho">&CB00570;</rdg></app>從傍柱之。
+<lb n="0697c16"/>舍欲傾壞亦復柱之。那先言。譬若國王遣兵
+<lb n="0697c17"/>有所攻擊。兵少弱欲不如。王復遣兵往助之
+<lb n="0697c18"/>便得勝。人有諸惡如兵弱。人持善心消惡心。
+<lb n="0697c19"/>譬如國王增兵得勝。人持五戒譬如戰&CB00508;得
+<lb n="0697c20"/>勝。是為精進助善如是。那先說經言。精進所
+<lb n="0697c21"/>助致人善道。所致善者無有<note n="0697020" resp="Taisho" type="orig" place="foot text">逮斯＝還期【聖】</note><app n="0697020"><lem>逮斯</lem><rdg wit="【聖】" resp="Taisho">還期</rdg></app>。王言。善
+<lb n="0697c22"/>哉善哉</p>
+<lb n="0697c23"/><p>王復問那先。何等為意當念諸善事。那先言。
+<lb n="0697c24"/>譬若取香華。以縷合連<note n="0697021" resp="Taisho" type="orig" place="foot text">&CB02538;＝繫【聖】</note><app n="0697021"><lem>&CB02538;</lem><rdg wit="【聖】" resp="Taisho">繫</rdg></app>風不能吹散。那先
+<lb n="0697c25"/>復言。譬王守藏者。知中金銀珠玉琉璃珍寶
+<lb n="0697c26"/>有幾所。那先言。道人欲得道時。念三十七品
+<lb n="0697c27"/>經。佛道意念當如是<note n="0697022" resp="Taisho" type="orig" place="foot text">正＝政【聖】</note><app n="0697022"><lem>正</lem><rdg wit="【聖】" resp="Taisho">政</rdg></app>。所<note n="0697023" resp="Taisho" type="orig" place="foot text">謂＝說【聖】</note><app n="0697023"><lem>謂</lem><rdg wit="【聖】" resp="Taisho">說</rdg></app>脫人道人有
+<lb n="0697c28"/>意。因知善惡知當所行。別知白黑思惟。以後
+<lb n="0697c29"/>便棄惡就善。那先言。譬如王有守門者。知王
+<pb ed="T" id="T32.1670A.0698a" n="0698a"/>
+<lb n="0698a01"/>有所敬者。有所不敬者。知有<note n="0698001" resp="Taisho" type="orig" place="foot text">〔不〕－【聖】</note><app n="0698001"><lem>不</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>利王者。<note n="0698002" resp="Taisho" type="orig" place="foot text">（知有不利王者王）＋所【聖】</note><app n="0698002"><lem>所</lem><rdg wit="【聖】" resp="Taisho">知有不利王者王所</rdg></app>
+<lb n="0698a02"/><note n="0698003" resp="Taisho" type="orig" place="foot text">敬＋（者）【聖】</note><app n="0698003"><lem>敬</lem><rdg wit="【聖】" resp="Taisho">敬者</rdg></app>利王者便內之。王所不敬者。不利王者。
+<lb n="0698a03"/>即不內。<note n="0698004" resp="Taisho" type="orig" place="foot text">（之）＋人【聖】</note><app n="0698004"><lem>人</lem><rdg wit="【聖】" resp="Taisho">之人</rdg></app>持意若是。諸善者當內之。諸不
+<lb n="0698a04"/>善者不內。<note n="0698005" resp="Taisho" type="orig" place="foot text">（之）＋意【聖】</note><app n="0698005"><lem>意</lem><rdg wit="【聖】" resp="Taisho">之意</rdg></app>制人善惡如是。那先說經言。
+<lb n="0698a05"/>人當自堅守其意。及身六愛欲持意甚堅。自
+<lb n="0698a06"/>當有度世時。王言。善哉善哉。王復問那先。何
+<lb n="0698a07"/>等為一其心者。那先言。諸善獨有一心最第
+<lb n="0698a08"/>一。一其心者諸善皆隨之。那先言。譬若樓陛
+<lb n="0698a09"/>當有所倚。諸善道者皆著一心。那先言。譬若
+<lb n="0698a10"/>王持四種兵行戰&CB00508;。<note n="0698006" resp="Taisho" type="orig" place="foot text">象兵 Hatth&imacron;, 馬兵 Ass&amacron;, 車兵 Rath&amacron;, 步兵 Patt&imacron;.</note><note n="0698006" resp="CBETA" type="mod"><todo type="u"/>象兵 Hatth&imacron;, 馬兵 Ass&amacron;, 車兵 Rath&amacron;, 步兵 Patt&imacron;.</note>象兵馬兵車兵步兵王
+<lb n="0698a11"/>行出諸兵。皆隨引前後。佛經善事皆隨一心
+<lb n="0698a12"/>如是。那先說經言。諸善一心為主。學道人眾
+<lb n="0698a13"/>多皆當歸一心。人身死生過去。如流水前後
+<lb n="0698a14"/>相從。王言善哉善哉</p>
+<lb n="0698a15"/><p>王復問那先。何等為智。那先言。前已對王說。
+<lb n="0698a16"/>是人智斷諸疑明諸善。那先言。譬如持燈火
+<lb n="0698a17"/>入冥中室。便亡其冥自明。人智如是。那先言。
+<lb n="0698a18"/>譬若人持利刀截木。人以智截諸惡如是。那
+<lb n="0698a19"/>先言。人於世間智最為第一。度脫人生死之
+<lb n="0698a20"/>道。王言。善哉善哉。前後所說經種種智善也</p>
+<lb n="0698a21"/><p>王復問那先。佛經但為趣欲&CB00230;諸惡事耶。那
+<lb n="0698a22"/>先言。然是所說種種諸善者。但欲&CB00230;一切惡。
+<lb n="0698a23"/>那先言。譬若王發四種兵象馬車步兵行戰
+<lb n="0698a24"/>&CB00508;。初發行時意但欲攻敵耳。佛經說種種諸
+<lb n="0698a25"/>善。如是但欲共攻去諸惡耳。王言。善哉善哉。
+<lb n="0698a26"/>說經甚快也</p>
+<lb n="0698a27"/><p>王復問那先言。人心趣善惡道。<note n="0698007" resp="Taisho" type="orig" place="foot text">續＝經【聖】</note><app n="0698007"><lem>續</lem><rdg wit="【聖】" resp="Taisho">經</rdg></app>持身故神
+<lb n="0698a28"/>行生乎。更貿他神行生耶。那先言。亦非故身
+<lb n="0698a29"/>神。亦不離故身神。那先問王。王小時哺乳時。
+<pb ed="T" id="T32.1670A.0698b" n="0698b"/>
+<lb n="0698b01"/>身至長大時。續故身非。王言。小時身異。那先
+<lb n="0698b02"/>言。人在母腹中始為精時。至濁時故精耶異。
+<lb n="0698b03"/>堅為肌骨時故精耶異。初生時至年數歲時
+<lb n="0698b04"/>故精耶異。如人學書傍人寧代其工不。王言。
+<lb n="0698b05"/>不能代其工。那先言。如人法有罪語王。王不
+<lb n="0698b06"/>能解知。王言。如人問那先解之云何。那先言。
+<lb n="0698b07"/>我故小時從小兒至大續故身耳。大與小時
+<lb n="0698b08"/>合為一身。是命所養。那先問王。如人然燈火。
+<lb n="0698b09"/>至天曉時不。王言。<note n="0698008" resp="Taisho" type="orig" place="foot text">〔人〕－【聖】</note><app n="0698008"><lem>人</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>然燈火油至曉時。那
+<lb n="0698b10"/>先言。燈中炷一夜時續故炷火光不。至夜半
+<lb n="0698b11"/>至明時故火光不。王言。非故火光。那先言。然
+<lb n="0698b12"/>燈火從一夜至半夜。復更然燈火耶。向晨時
+<lb n="0698b13"/>復更然燈火耶。王言不。中夜更然火續故一
+<lb n="0698b14"/>炷火至明。那先言。人精神展轉相續如是。一
+<lb n="0698b15"/>者去二者來。從精神至老死。後精<note n="0698009" resp="Taisho" type="orig" place="foot text">〔神〕－【聖】</note><app n="0698009"><lem>神</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>趣所
+<lb n="0698b16"/>生。展轉相續是非故精神。亦不離故精神。人
+<lb n="0698b17"/>死以後精神乃有所趣向生。那先言。譬如乳
+<lb n="0698b18"/>湩作酪。<note n="0698010" resp="Taisho" type="orig" place="foot text">（作蘇）＋取【聖】</note><app n="0698010"><lem>取</lem><rdg wit="【聖】" resp="Taisho">作蘇取</rdg></app>上<note n="0698011" resp="Taisho" type="orig" place="foot text">&CB01524;＝&CB14572;【聖】＊</note><app n="0698011"><lem>&CB01524;</lem><rdg wit="【聖】" resp="Taisho">&CB14572;</rdg></app>作醍醐。<note n="0698012" resp="Taisho" type="orig" place="foot text">（醍醐）＋與【聖】</note><app n="0698012"><lem>與</lem><rdg wit="【聖】" resp="Taisho">醍醐與</rdg></app>酪<note n="0698013" resp="Taisho" type="orig" place="foot text">酥＝蘇【聖】</note><app n="0698013"><lem>酥</lem><rdg wit="【聖】" resp="Taisho">蘇</rdg></app>上&CB01524;還
+<lb n="0698b19"/>復名作乳湩。其<note n="0698014" resp="Taisho" type="orig" place="foot text">人＋（語）【聖】</note><app n="0698014"><lem>人</lem><rdg wit="【聖】" resp="Taisho">人語</rdg></app>寧可用不。王言。其人語
+<lb n="0698b20"/>不可用。那先言。人神如乳湩。從乳湩成酪。從
+<lb n="0698b21"/>酪成<anchor id="fxT32p0698b01"/>&CB01524;。從&CB01524;成醍醐。人如是從精沫至<note n="0698015" resp="Taisho" type="orig" place="foot text">生＋（生）【聖】</note><app n="0698015"><lem>生</lem><rdg wit="【聖】" resp="Taisho">生生</rdg></app>
+<lb n="0698b22"/>至中年。從中年至老至死。死後精神更受身
+<lb n="0698b23"/>生。人身死當復更生受一身。譬若兩炷更相
+<lb n="0698b24"/>然。王言。善哉善哉</p>
+<lb n="0698b25"/><p>王復問那先。人不復生後世。其人寧能自知
+<lb n="0698b26"/>不。復生不。那先言。然有能自知不復於後世
+<lb n="0698b27"/>生。王言。何用知之。那先言。其人自知無有恩
+<lb n="0698b28"/>愛。無有貪欲無有諸惡。用是自知不復生後
+<lb n="0698b29"/>世。那先問王。譬若田家種穀。大得收斂盛簞
+<pb ed="T" id="T32.1670A.0698c" n="0698c"/>
+<lb n="0698c01"/><note n="0698016" resp="Taisho" type="orig" place="foot text">〔簟〕－【聖】</note><app n="0698016"><lem>簟</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>中。至於後年不復耕種。寧復望得穀不。
+<lb n="0698c02"/>王言。不復望得穀。那先言。道人亦如是。棄捐
+<lb n="0698c03"/>苦樂恩愛無所復貪。是故自知後世不復生。
+<lb n="0698c04"/>王言。善哉善哉</p>
+<lb n="0698c05"/><p>王復問。其人於後世不復生者。於今寧有智
+<lb n="0698c06"/>異於人不。那先言。然異於人。王言。明與智為
+<lb n="0698c07"/>同不。那先言。明與智等耳。王言。人有明智寧
+<lb n="0698c08"/>能悉知眾事。作一事成五事耶。那先言。作眾
+<lb n="0698c09"/>事所成非一。譬若一地種穀。當其生時各各
+<lb n="0698c10"/>自生種類。人身五事皆用眾事。各有所成。王
+<lb n="0698c11"/>言。善哉<note n="0698017" resp="Taisho" type="orig" place="foot text">〔善哉〕－【聖】</note><app n="0698017"><lem>善哉</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0698c12"/><p>王復問那先。世間人頭<note n="0698018" resp="Taisho" type="orig" place="foot text">面＋（耳）【聖】</note><app n="0698018"><lem>面</lem><rdg wit="【聖】" resp="Taisho">面耳</rdg></app><note n="0698019" resp="Taisho" type="orig" place="foot text">目＋（自）【聖】</note><app n="0698019"><lem>目</lem><rdg wit="【聖】" resp="Taisho">目自</rdg></app>身體四支皆
+<lb n="0698c13"/>完具。何故有<note n="0698020" resp="Taisho" type="orig" place="foot text">長命者 D&imacron;gh&amacron;yuka.</note><tt n="0698020" type="app"><t lang="chi" resp="Taisho">長命者</t><t lang="unknown" resp="Taisho" place="foot">D&imacron;gh&amacron;yuka.</t></tt>有<note n="0698021" resp="Taisho" type="orig" place="foot text">短命者 App&amacron;yuka.</note><tt n="0698021" type="app"><t lang="chi" resp="Taisho">短命者</t><t lang="unknown" resp="Taisho" place="foot">App&amacron;yuka.</t></tt>。有<note n="0698022" resp="Taisho" type="orig" place="foot text">多病者 Bavh&amacron;b&amacron;dha.</note><note n="0698022" resp="CBETA" type="mod"><todo type="u"/>多病者 Bavh&amacron;b&amacron;dha.</note>多病
+<lb n="0698c14"/><note n="0698023" resp="Taisho" type="orig" place="foot text">少病者 App&amacron;b&amacron;dha.</note><tt n="0698023" type="app"><t lang="chi" resp="Taisho">少病者</t><t lang="unknown" resp="Taisho" place="foot">App&amacron;b&amacron;dha.</t></tt>。有<note n="0698024" resp="Taisho" type="orig" place="foot text">貧者 Appabhoga.</note><tt n="0698024" type="app"><t lang="chi" resp="Taisho">貧者</t><t lang="unknown" resp="Taisho" place="foot">Appabhoga.</t></tt><note n="0698025" resp="Taisho" type="orig" place="foot text">富者 Mah&amacron;bhoga.（有）＋富【聖】</note><note n="0698025" resp="CBETA" type="mod">富者 Mah&amacron;bhoga.，（有）＋富【聖】</note><tt n="0698025" type="app"><t lang="chi" resp="Taisho"><app n="0698025"><lem>富者</lem><rdg wit="【聖】" resp="Taisho">有富者</rdg></app></t><t lang="unknown" resp="Taisho" place="foot">Mah&amacron;bhoga.</t></tt>。有<note n="0698026" resp="Taisho" type="orig" place="foot text">長者 Mah&amacron;kul&imacron;na.</note><tt n="0698026" type="app"><t lang="chi" resp="Taisho">長者</t><t lang="unknown" resp="Taisho" place="foot">Mah&amacron;kul&imacron;na.</t></tt>有<note n="0698027" resp="Taisho" type="orig" place="foot text">卑者 N&imacron;cakul&imacron;na.</note><tt n="0698027" type="app"><t lang="chi" resp="Taisho">卑者</t><t lang="unknown" resp="Taisho" place="foot">N&imacron;cakul&imacron;na.</t></tt>。
+<lb n="0698c15"/>有<note n="0698028" resp="Taisho" type="orig" place="foot text">端正者 Va&ndotblw;&ndotblw;avant.</note><tt n="0698028" type="app"><t lang="chi" resp="Taisho">端正者</t><t lang="unknown" resp="Taisho" place="foot">Va&ndotblw;&ndotblw;avant.</t></tt>有<note n="0698029" resp="Taisho" type="orig" place="foot text">醜惡者 Dubba&ndotblw;&ndotblw;a.</note><tt n="0698029" type="app"><t lang="chi" resp="Taisho">醜惡者</t><t lang="unknown" resp="Taisho" place="foot">Dubba&ndotblw;&ndotblw;a.</t></tt>。有為人所信者。<note n="0698030" resp="Taisho" type="orig" place="foot text">（有）＋為【聖】</note><app n="0698030"><lem>為</lem><rdg wit="【聖】" resp="Taisho">有為</rdg></app>人
+<lb n="0698c16"/>所疑者。有<note n="0698031" resp="Taisho" type="orig" place="foot text">明者 Pa&ntilde;&ntilde;&amacron;vant.</note><tt n="0698031" type="app"><t lang="chi" resp="Taisho">明者</t><t lang="unknown" resp="Taisho" place="foot">Pa&ntilde;&ntilde;&amacron;vant.</t></tt>有<note n="0698032" resp="Taisho" type="orig" place="foot text">闍者 Duppa&ntilde;&ntilde;a.</note><note n="0698032" resp="CBETA" type="mod"><todo type="u"/>闍者 Duppa&ntilde;&ntilde;a.</note>闇者。何以故不同。那先
+<lb n="0698c17"/>言。譬若眾樹木生&CB00031;。有酢者有苦者。有辛者
+<lb n="0698c18"/>有甜者。那先問王。此等樹木何故不同。王言。
+<lb n="0698c19"/>不同者本栽各異。那先言。人所作各各異不
+<lb n="0698c20"/>同。故有長命有短命。有多病有少病有富有
+<lb n="0698c21"/>貧。有貴有賤。有端正有醜惡。有語用者有語
+<lb n="0698c22"/>不用者。有明者有闇者。那先言。佛經說。豪貴
+<lb n="0698c23"/>貧窮好醜。皆自宿命所作善惡自隨行得之。
+<lb n="0698c24"/>王言。善哉善哉</p>
+<lb n="0698c25"/><juan fun="close" n="001"><jhead>那先比丘經卷上</jhead></juan>
+<pb ed="T" id="T32.1670A.0699a" n="0699a"/>
+<lb n="0699a01"/>
+<milestone unit="juan" n="2"/>
+<lb n="0699a02"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>那先比丘經卷下</jhead></juan>
+<lb n="0699a03"/>
+<lb n="0699a04"/><byline type="Translator">失譯人名附東晉錄</byline>
+<lb n="0699a05"/><p>王復問那先言。人欲作善當前作之。須後作
+<lb n="0699a06"/>之。那先言。當居前作之。在後作者不益人。那
+<lb n="0699a07"/>先言。王渴時乃掘地作井。能趣渴不。王言。
+<lb n="0699a08"/>不能趣渴。當居前作井耳。那先言。以是故所
+<lb n="0699a09"/>作當居前。那先問王。飢時乃使人耕種。須穀
+<lb n="0699a10"/>熟乃食耶。王言不。當先儲偫。那先言。人如是
+<lb n="0699a11"/>當先作善。有急乃作善者無益於身。那先問
+<lb n="0699a12"/>王。譬若王有怨。當臨時出戰&CB00508;具。王言不當
+<lb n="0699a13"/>宿有儲偫。那先言。佛說經言。人當先自念作
+<lb n="0699a14"/>善。於後作善無益。莫棄大道就邪道。勿效愚
+<lb n="0699a15"/>人棄善作惡。後坐啼哭無益。人棄捐中正就
+<lb n="0699a16"/>於不正臨死時乃悔耳。王言善哉善哉</p>
+<lb n="0699a17"/><p>王復問那先。卿曹諸沙門說言。<note n="0699001" resp="Taisho" type="orig" place="foot text">世間火 P&amacron;katika-aggi.</note><tt n="0699001" type="app"><t lang="chi" resp="Taisho">世間火</t><t lang="unknown" resp="Taisho" place="foot">P&amacron;katika-aggi.</t></tt>不如
+<lb n="0699a18"/>泥犁中火熱。復言。持小石著世間火中至暮
+<lb n="0699a19"/>不消。取大石著<note n="0699002" resp="Taisho" type="orig" place="foot text">泥犁火 Nerayika-aggi.</note><tt n="0699002" type="app"><t lang="chi" resp="Taisho">泥犁火</t><t lang="unknown" resp="Taisho" place="foot">Nerayika-aggi.</t></tt>中即消。是故我不
+<lb n="0699a20"/>信。復言。人作惡死在泥犁中。數千萬歲其人
+<lb n="0699a21"/>不消死。是故我重不信是語。那先問王。寧聞
+<lb n="0699a22"/>見水中大蟒蛟龍魚&CB00516;。以沙石為食不。王言
+<lb n="0699a23"/>然。實以此為食。那先問王沙石寧消不。王
+<lb n="0699a24"/>言皆消。那先言。其腹中懷子寧復消不。士言
+<lb n="0699a25"/>不消。那先問王何故不消。王言。相祿獨當然
+<lb n="0699a26"/>故使不消。那先言。泥犁中人數千萬歲不消
+<lb n="0699a27"/>死者何所作。過惡未盡故不消死。那先問王
+<lb n="0699a28"/>言。師子虎狼皆肉食噉骨。入腹中時寧消盡
+<lb n="0699a29"/>不。王言消。那先問王。其腹中懷子寧復消不。
+<pb ed="T" id="T32.1670A.0699b" n="0699b"/>
+<lb n="0699b01"/>王言不消。那先言用何故不消。王言獨相祿
+<lb n="0699b02"/>故不消死。那先問王言。牛馬麋鹿皆以&CB00034;草
+<lb n="0699b03"/>為食不。王言然。那先言。其&CB00034;草寧於腹中消
+<lb n="0699b04"/>不。王言皆消。那先言。其腹中懷子寧消不。王
+<lb n="0699b05"/>言不消。那先言。何以故不消。王言。獨以相祿
+<lb n="0699b06"/>當然故使不消。那先言。泥犁中人亦如是。過
+<lb n="0699b07"/>惡未盡故不消死。那先問王言。世間女人飲
+<lb n="0699b08"/>食皆美恣意食食於腹中寧消不。王言皆消。
+<lb n="0699b09"/>那先言。腹中懷子寧消不。王言子不消。那先
+<lb n="0699b10"/>言。何以故不消。王言獨相祿當然故使不消。
+<lb n="0699b11"/>那先言。泥犁中人亦如是所以數千萬歲不
+<lb n="0699b12"/>消死者。用先作惡未解故不消死。那先言。人
+<lb n="0699b13"/>在泥犁中生。在泥犁中長在泥犁中老。過盡
+<lb n="0699b14"/>乃當死。王言善哉善哉</p>
+<lb n="0699b15"/><p>王復問那先。卿曹諸沙門言。天下<note n="0699003" resp="Taisho" type="orig" place="foot text">地 Pathav&imacron;.</note><tt n="0699003" type="app"><t lang="chi" resp="Taisho">地</t><t lang="unknown" resp="Taisho" place="foot">Pathav&imacron;.</t></tt>皆在
+<lb n="0699b16"/><note n="0699004" resp="Taisho" type="orig" place="foot text">水 Udaka.</note><tt n="0699004" type="app"><t lang="chi" resp="Taisho">水</t><t lang="unknown" resp="Taisho" place="foot">Udaka.</t></tt>上水在<note n="0699005" resp="Taisho" type="orig" place="foot text">風 V&amacron;ta.</note><tt n="0699005" type="app"><t lang="chi" resp="Taisho">風</t><t lang="unknown" resp="Taisho" place="foot">V&amacron;ta.</t></tt>上風在<note n="0699006" resp="Taisho" type="orig" place="foot text">空 &Amacron;k&amacron;sa.</note><tt n="0699006" type="app"><t lang="chi" resp="Taisho">空</t><t lang="unknown" resp="Taisho" place="foot">&Amacron;k&amacron;sa.</t></tt>上我不信是。那先
+<lb n="0699b17"/>前取王書水。適以指撮之問王言。風持水若
+<lb n="0699b18"/>此。王言善哉。王復問。那先言。泥洹道皆過去
+<lb n="0699b19"/>無所復有耶。那先言。泥洹道無所復有。那先
+<lb n="0699b20"/>言。愚癡之人貪身愛惜。坐是故不能得度脫
+<lb n="0699b21"/><note n="0699007" resp="Taisho" type="orig" place="foot text">生老死 J&amacron;ti-jar&amacron;-marana.</note><note n="0699007" resp="CBETA" type="mod"><todo type="u"/>生老死 J&amacron;ti-jar&amacron;-marana.</note>生老病死者。那先言。智者學道內外身不愛
+<lb n="0699b22"/>惜。便無有恩愛。無有恩愛者無貪欲。無貪欲
+<lb n="0699b23"/>者無胞胎。無胞胎者不生。不生者不老。不老
+<lb n="0699b24"/>者不病。不病者不死。不死者不<note n="0699008" resp="Taisho" type="orig" place="foot text">憂 Soka.</note><tt n="0699008" type="app"><t lang="chi" resp="Taisho">憂</t><t lang="unknown" resp="Taisho" place="foot">Soka.</t></tt>。不憂者不
+<lb n="0699b25"/>哭。不<note n="0699009" resp="Taisho" type="orig" place="foot text">哭 Parideva.</note><tt n="0699009" type="app"><t lang="chi" resp="Taisho">哭</t><t lang="unknown" resp="Taisho" place="foot">Parideva.</t></tt>者不<note n="0699010" resp="Taisho" type="orig" place="foot text">痛 Domanassa.</note><tt n="0699010" type="app"><t lang="chi" resp="Taisho">痛</t><t lang="unknown" resp="Taisho" place="foot">Domanassa.</t></tt>。便得泥洹道。王復問。那先
+<lb n="0699b26"/>諸學道者。悉能得泥洹道不。那先言。不能悉
+<lb n="0699b27"/>得泥洹道。正嚮善道者學知正事。當所奉行
+<lb n="0699b28"/>者奉行之。不當奉行者棄遠之。當所念者念。
+<lb n="0699b29"/>不當所念棄之。如是能得泥洹道。王復問那
+<pb ed="T" id="T32.1670A.0699c" n="0699c"/>
+<lb n="0699c01"/>先言。其不得泥洹道者。寧知泥洹道為快不。
+<lb n="0699c02"/>那先言。然雖未得泥洹道。由知泥洹道為快。
+<lb n="0699c03"/>王言。人未得泥洹道。何以故知快耶。那先問
+<lb n="0699c04"/>王言。人生未&CB00573;截手足。寧知截手足為痛劇
+<lb n="0699c05"/>不。王言。雖未曾更截手足。猶知為痛。那先
+<lb n="0699c06"/>言。何用知為痛。王言見其人截手足呻呼。用
+<lb n="0699c07"/>是故知為痛。那先言。人前有得泥洹道者。轉
+<lb n="0699c08"/>相語泥洹道快。用是故信之。王言善哉善哉</p>
+<lb n="0699c09"/><p>王復問那先寧曾見佛不。那先言。未曾見。王
+<lb n="0699c10"/>言。那先諸師寧見佛不。那先言。諸師亦未曾
+<lb n="0699c11"/>見佛。王言。如使那先及諸師不見佛者。定為
+<lb n="0699c12"/>無有佛。那先言。王寧見五百溪水所合聚處
+<lb n="0699c13"/>不。王言我不見。王父及太父皆見水不。王
+<lb n="0699c14"/>言皆不見。那先言。王父及太父皆不見此水。
+<lb n="0699c15"/>天下定為無此五百溪水所聚處不。王言。雖
+<lb n="0699c16"/>我不見父及太父皆不見此水者。實有此水。
+<lb n="0699c17"/>那先言。雖我及諸師不見佛者。其實有佛。王
+<lb n="0699c18"/>復問言。無有復勝佛者耶。那先言然。<note n="0699011" resp="Taisho" type="orig" place="foot text">無有勝佛者 Buddho anuttaro.</note><tt n="0699011" type="app"><t lang="chi" resp="Taisho">無有
+<lb n="0699c19"/>勝佛者</t><t lang="unknown" resp="Taisho" place="foot">Buddho anuttaro.</t></tt>。王復問。何以為無能勝佛者。那先問
+<lb n="0699c20"/>王言。如人未曾入大海中。寧知海水為大不。
+<lb n="0699c21"/>有五河。河有五百小河流入大河。河一者名
+<lb n="0699c22"/><note n="0699012" resp="Taisho" type="orig" place="foot text">&M010527; Ga&ndotabv;g&amacron;.</note><tt n="0699012" type="app"><t lang="chi" resp="Taisho">&M010527;</t><t lang="unknown" resp="Taisho" place="foot">Ga&ndotabv;g&amacron;.</t></tt>。二名信他。三名私他。四名博叉。五名施
+<lb n="0699c23"/>披夷爾。五河水晝夜流入海。海水亦不增減。
+<lb n="0699c24"/>那先言。王寧能聞知不。王言實知。那先語。以
+<lb n="0699c25"/>得道人共道說無有能勝佛者。是故我信之。
+<lb n="0699c26"/>王言善哉善哉</p>
+<lb n="0699c27"/><p>王復問那先言。當何用知無有勝佛者。那先
+<lb n="0699c28"/>問王。造書師者為誰。王言造書師者名<note n="0699013" resp="Taisho" type="orig" place="foot text">質 Tissa.</note><tt n="0699013" type="app"><t lang="chi" resp="Taisho">質</t><t lang="unknown" resp="Taisho" place="foot">Tissa.</t></tt>。
+<lb n="0699c29"/>那先言。王寧曾見質不。王言。質已死久遠未
+<pb ed="T" id="T32.1670A.0700a" n="0700a"/>
+<lb n="0700a01"/>曾見。那先言。王未見質。何用知質為造書師。
+<lb n="0700a02"/>王言。持古時書字轉相教告。用是故我知名
+<lb n="0700a03"/>為質。那先言。用是故我曹見佛經戒如見佛
+<lb n="0700a04"/>無異。佛所說經道甚深快人。知佛經戒以後
+<lb n="0700a05"/>便相效。用是故我知為有不能勝佛者。王復問。
+<lb n="0700a06"/>那先自見佛經道可久行之。那先言。佛所施教
+<lb n="0700a07"/>禁戒經甚快。當奉行之至老。王言善哉善哉
+<lb n="0700a08"/>王復問那先。人死已後身不隨後世生耶。那
+<lb n="0700a09"/>先言。人死已後更受新身故身不隨。那先言。
+<lb n="0700a10"/>譬若燈中炷更相然。故炷續在新炷更然。人
+<lb n="0700a11"/>身如是故身不行更受新身。那先問王。王小
+<lb n="0700a12"/>時從師學書讀經不。王言然我續念之。那先
+<lb n="0700a13"/>問王。王所從師受經書師寧知本經書耶。王
+<lb n="0700a14"/>悉奪得其本經書。王言不也。師續自知本經
+<lb n="0700a15"/>書耳。那先言人身若此置故身更受新身。王
+<lb n="0700a16"/>言善哉善哉</p>
+<lb n="0700a17"/><p>王復問那先。審為有<note n="0700001" resp="Taisho" type="orig" place="foot text">智 Vedag&umacron;.</note><tt n="0700001" type="app"><t lang="chi" resp="Taisho">智</t><t lang="unknown" resp="Taisho" place="foot">Vedag&umacron;.</t></tt>無。那先言無有智。
+<lb n="0700a18"/>譬若人盜他人&CB00031;蓏。盜者寧有過無。王言有
+<lb n="0700a19"/>過。那先言。初種樹栽時上無有&CB00031;何緣盜者
+<lb n="0700a20"/>當有過。王言。設不種栽何緣有&CB00031;。是故盜者
+<lb n="0700a21"/>無狀。那先言人亦如是用今世身作善惡。生
+<lb n="0700a22"/>於後世更受新身。王言人用是故身行作善
+<lb n="0700a23"/>惡所在。那先言。人諸所作善惡隨人如影隨
+<lb n="0700a24"/>身。人死但亡其身不亡其行。譬如然火夜書
+<lb n="0700a25"/>火滅其字續在火至復更成之。今世所作行
+<lb n="0700a26"/>後世成如受之如是。王言善哉善哉。王言。那
+<lb n="0700a27"/>先寧能分別指示善惡所在不耶。那先言。不
+<lb n="0700a28"/>可得知善惡所在。那先問王。樹木未有&CB00031;時。
+<lb n="0700a29"/>王寧能分別指示言某枝間有某&CB00031;某枝間無
+<pb ed="T" id="T32.1670A.0700b" n="0700b"/>
+<lb n="0700b01"/>有&CB00031;。寧可豫知之不耶。王言不可知。那先言。
+<lb n="0700b02"/>人未得道不能豫知善惡所在。王言善哉善
+<lb n="0700b03"/>哉</p>
+<lb n="0700b04"/><p>王復問。人當於後世生者。寧能自知不。那先
+<lb n="0700b05"/>言。其當生者自知。王言何用知之。那先言。
+<lb n="0700b06"/>譬如田家耕種。天雨時節其人寧豫知當得
+<lb n="0700b07"/>穀不。王言然知。知田當得穀多。那先言。人
+<lb n="0700b08"/>如是人當於後世生豫自知。王言善哉善哉</p>
+<lb n="0700b09"/><p>王復問那先。審有泥洹無。那先言審有。王言
+<lb n="0700b10"/>那先寧能指示我佛在某處不。那先言。不能
+<lb n="0700b11"/>指示佛處。佛已泥曰去不可得指示見處。那
+<lb n="0700b12"/>先言。譬若人然大火已即滅其火焰。寧可復
+<lb n="0700b13"/>指示知光所在不。王言不可知處。那先言。佛
+<lb n="0700b14"/>已泥曰去不可復知處。王言善哉善哉</p>
+<lb n="0700b15"/><p>王又問那先。沙門寧能自受其<note n="0700002" resp="Taisho" type="orig" place="foot text">身 K&amacron;ya.</note><tt n="0700002" type="app"><t lang="chi" resp="Taisho">身</t><t lang="unknown" resp="Taisho" place="foot">K&amacron;ya.</t></tt>不。那先言。
+<lb n="0700b16"/>沙門不自愛其身。王言如令沙門不自愛其
+<lb n="0700b17"/>身者。何以故。自消息臥欲得安溫濡飲食。欲
+<lb n="0700b18"/>得美善自護視。何以故那先言。王寧曾入戰
+<lb n="0700b19"/>&CB00508;中不。王言然。曾入戰&CB00508;中。那先言。在戰&CB00508;
+<lb n="0700b20"/>中時。曾為刀刃牟箭瘡所中不。王言我頗為
+<lb n="0700b21"/>刀刃所中。那先問王。奈刀刃牟箭瘡何。王言
+<lb n="0700b22"/>我以膏藥綿裹耳。那先問王言。為愛瘡故。以
+<lb n="0700b23"/>膏藥綿絮裹耶。王言我不愛瘡。那先言。殊不
+<lb n="0700b24"/>愛瘡者。何以持膏藥綿絮裹而護之。王言。我
+<lb n="0700b25"/>欲使瘡早愈。那先言。沙門亦如是。不愛其身。
+<lb n="0700b26"/>雖飲食心。不樂用作美不用作好。不用作肌
+<lb n="0700b27"/>色趣欲支身體。奉行佛經戒耳。佛經說言。人
+<lb n="0700b28"/>有<note n="0700003" resp="Taisho" type="orig" place="foot text">九孔 Navadv&amacron;ra.</note><tt n="0700003" type="app"><t lang="chi" resp="Taisho">九孔</t><t lang="unknown" resp="Taisho" place="foot">Navadv&amacron;ra.</t></tt>為九弓瘡。諸孔皆臭處不淨。王言善
+<lb n="0700b29"/>哉善哉</p>
+<pb ed="T" id="T32.1670A.0700c" n="0700c"/>
+<lb n="0700c01"/><p>王復問那先。佛為有<note n="0700004" resp="Taisho" type="orig" place="foot text">三十二相 Dvatti&mdotblw;sa-mah&amacron;purisalakkha&ndotblw;a.</note><tt n="0700004" type="app"><t lang="chi" resp="Taisho">三十二相</t><t lang="unknown" resp="Taisho" place="foot">Dvatti&mdotblw;sa-mah&amacron;purisalakkha&ndotblw;a.</t></tt><note n="0700005" resp="Taisho" type="orig" place="foot text">八十種好 As&imacron;ti-anubya&ntilde;jana.</note><tt n="0700005" type="app"><t lang="chi" resp="Taisho">八十種好</t><t lang="unknown" resp="Taisho" place="foot">As&imacron;ti-anubya&ntilde;jana.</t></tt>
+<lb n="0700c02"/>身。皆金色有光影耶。那先言。佛審有三十二
+<lb n="0700c03"/>相八十種好身。皆有金色光影。王言。佛父母
+<lb n="0700c04"/>寧有三十二相八十種好身。皆有金色有光
+<lb n="0700c05"/>影耶。那先言。佛父母無是相。王言如是相好
+<lb n="0700c06"/>是父母無是相。佛亦無是相。王復言。人生子
+<lb n="0700c07"/>像其種類。父母無是相者佛定無是相。那先
+<lb n="0700c08"/>言。佛父母雖無是三十二相八十種好身金
+<lb n="0700c09"/>光色者。佛審有是相。那先言。王曾見<note n="0700006" resp="Taisho" type="orig" place="foot text">蓮花 Paduma.</note><tt n="0700006" type="app"><t lang="chi" resp="Taisho">蓮花</t><t lang="unknown" resp="Taisho" place="foot">Paduma.</t></tt>
+<lb n="0700c10"/>不。王言我見之。那先言。此蓮花生於地長於
+<lb n="0700c11"/>泥水。其色甚好寧復類泥水色不。王言。不類
+<lb n="0700c12"/>地泥水色。那先言。雖佛父母無是相者。佛審
+<lb n="0700c13"/>有是相。佛生於世間長於世間。而不像世間
+<lb n="0700c14"/>之事。王言善哉善哉</p>
+<lb n="0700c15"/><p>王復問那先。佛審如第七天王<note n="0700007" resp="Taisho" type="orig" place="foot text">梵所行 Brahmac&amacron;rin.</note><tt n="0700007" type="app"><t lang="chi" resp="Taisho">梵所行</t><t lang="unknown" resp="Taisho" place="foot">Brahmac&amacron;rin.</t></tt>。不與
+<lb n="0700c16"/>婦女交會不。那先言然。審離於女人淨潔無
+<lb n="0700c17"/>瑕穢。王言。瑕令佛如第七天王所行者。佛為
+<lb n="0700c18"/>第七天王梵弟子。那先問王。第七天王者有
+<lb n="0700c19"/>念無念。王言。第七天王梵有念。那先言。是
+<lb n="0700c20"/>故第七天王梵及上諸天。皆為佛弟子。那先
+<lb n="0700c21"/>問王言。象鳴聲何等類。王言。象鳴聲如鴈聲。
+<lb n="0700c22"/>那先言。如是象為是鴈弟子。各自異類。佛亦
+<lb n="0700c23"/>如是非第七天王梵弟子。王言善哉善哉</p>
+<lb n="0700c24"/><p>王復問那先。佛寧悉學知經戒不。那先言。佛
+<lb n="0700c25"/>悉學知<note n="0700008" resp="Taisho" type="orig" place="foot text">奉行 Upasampad&amacron;.</note><tt n="0700008" type="app"><t lang="chi" resp="Taisho">奉行</t><t lang="unknown" resp="Taisho" place="foot">Upasampad&amacron;.</t></tt>經戒。王言。佛從誰師受經戒那
+<lb n="0700c26"/>先言佛無師。佛得道時。便悉自知諸經道。佛
+<lb n="0700c27"/>不如諸弟子學知。佛所教諸弟子皆當奉行
+<lb n="0700c28"/>至老。王又問那先。人父母死時悲啼哭淚出。
+<lb n="0700c29"/>人有聞佛經。亦復悲啼淚出俱爾。寧別異
+<pb ed="T" id="T32.1670A.0701a" n="0701a"/>
+<lb n="0701a01"/>不。那先言。人為父母啼泣皆感恩愛。恩念愁
+<lb n="0701a02"/>憂苦痛。此曹憂者愚癡憂。其有聞佛經道淚
+<lb n="0701a03"/>出者。皆有慈哀之心。念世間懃苦。是故淚出。
+<lb n="0701a04"/>其得福甚大。王言善哉。王又問那先。以得度
+<lb n="0701a05"/>脫者有何等別異。那先言。人未得脫者有貪
+<lb n="0701a06"/>欲心。人得脫者無有貪欲之心。但欲趣得飯
+<lb n="0701a07"/>食支命耳。王言。我見世間人皆欲快身欲得
+<lb n="0701a08"/>美食。無有厭足。那先言。人未得度脫。飲食
+<lb n="0701a09"/>者用作榮樂好美。得度脫者。雖飲食不以為
+<lb n="0701a10"/>樂不以為甘。趣欲支命。王言善哉善哉</p>
+<lb n="0701a11"/><p>王復問那先。人家有所作能念久遠之事不。
+<lb n="0701a12"/>那先言。人愁憂時皆念久遠之事。王用何等
+<lb n="0701a13"/>念之。用志念耶用念念耶。那先問王言。寧曾
+<lb n="0701a14"/>有所學知以後念之不。王言。然我曾有所學
+<lb n="0701a15"/>知以後忽忘之。那先言。王是時無志耶而忘
+<lb n="0701a16"/>之乎。王言我時忘念。那先言。可差王為有象。
+<lb n="0701a17"/>王復問那先。人有作皆念耶。若甫始有所作念
+<lb n="0701a18"/>見在所作。皆用念知耶。那先言。已去之事皆
+<lb n="0701a19"/>用念知之。今現在之事。亦用念知之。王言如
+<lb n="0701a20"/>是人但念去事。不能復念新事。那先言。假令
+<lb n="0701a21"/>新者有所作。不可念者亦如是。王言人新學
+<lb n="0701a22"/>書技巧為唐捐那。那先言。人新學書畫者。有
+<lb n="0701a23"/>念故令弟子學者有知。是故有念耳。王言善
+<lb n="0701a24"/>哉善哉。王復問那先人用幾事生<note n="0701001" resp="Taisho" type="orig" place="foot text">念 Sati.</note><tt n="0701001" type="app"><t lang="chi" resp="Taisho">念</t><t lang="unknown" resp="Taisho" place="foot">Sati.</t></tt>念耶。那
+<lb n="0701a25"/>先言人凡有十六事生念。一者<note n="0701002" resp="Taisho" type="orig" place="foot text">久遠所作 Abhij&amacron;na.</note><tt n="0701002" type="app"><t lang="chi" resp="Taisho">久遠所作</t><t lang="unknown" resp="Taisho" place="foot">Abhij&amacron;na.</t></tt>生
+<lb n="0701a26"/>念。二者<note n="0701003" resp="Taisho" type="orig" place="foot text">新有所學 Ka&tdotblw;umik&amacron;.</note><tt n="0701003" type="app"><t lang="chi" resp="Taisho">新有所學</t><t lang="unknown" resp="Taisho" place="foot">Ka&tdotblw;umik&amacron;.</t></tt>生念。三者<note n="0701004" resp="Taisho" type="orig" place="foot text">若有大事 O&ldotblw;&amacron;rikavi&ntilde;&ntilde;&amacron;&ndotblw;a.</note><tt n="0701004" type="app"><t lang="chi" resp="Taisho">若有大事</t><t lang="unknown" resp="Taisho" place="foot">O&ldotblw;&amacron;rikavi&ntilde;&ntilde;&amacron;&ndotblw;a.</t></tt>生
+<lb n="0701a27"/>念。四者<note n="0701005" resp="Taisho" type="orig" place="foot text">思善 Hitavi&ntilde;&ntilde;&amacron;&ndotblw;a.</note><tt n="0701005" type="app"><t lang="chi" resp="Taisho">思善</t><t lang="unknown" resp="Taisho" place="foot">Hitavi&ntilde;&ntilde;&amacron;&ndotblw;a.</t></tt>生念五者<note n="0701006" resp="Taisho" type="orig" place="foot text">曾所更苦 Ahitavi&ntilde;&ntilde;&amacron;&ndotblw;a.</note><tt n="0701006" type="app"><t lang="chi" resp="Taisho">曾所更苦</t><t lang="unknown" resp="Taisho" place="foot">Ahitavi&ntilde;&ntilde;&amacron;&ndotblw;a.</t></tt>生念。六
+<lb n="0701a28"/>者<note n="0701007" resp="Taisho" type="orig" place="foot text">自思惟 Sabh&amacron;ganimitta.</note><tt n="0701007" type="app"><t lang="chi" resp="Taisho">自思惟</t><t lang="unknown" resp="Taisho" place="foot">Sabh&amacron;ganimitta.</t></tt>生念。七者<note n="0701008" resp="Taisho" type="orig" place="foot text">曾雜所作 Visabh&amacron;ganimitta.</note><tt n="0701008" type="app"><t lang="chi" resp="Taisho">曾雜所作</t><t lang="unknown" resp="Taisho" place="foot">Visabh&amacron;ganimitta.</t></tt>生念。八者
+<lb n="0701a29"/><note n="0701009" resp="Taisho" type="orig" place="foot text">教人 Kath&amacron;bhi&ntilde;&ntilde;&amacron;&ndotblw;a.</note><tt n="0701009" type="app"><t lang="chi" resp="Taisho">教人</t><t lang="unknown" resp="Taisho" place="foot">Kath&amacron;bhi&ntilde;&ntilde;&amacron;&ndotblw;a.</t></tt>生念。九者<note n="0701010" resp="Taisho" type="orig" place="foot text">象 Lakkha&ndotblw;a.</note><tt n="0701010" type="app"><t lang="chi" resp="Taisho">象</t><t lang="unknown" resp="Taisho" place="foot">Lakkha&ndotblw;a.</t></tt>生念。十者<note n="0701011" resp="Taisho" type="orig" place="foot text">曾有所忘 Sara&ndotblw;a.</note><tt n="0701011" type="app"><t lang="chi" resp="Taisho">曾有所忘</t><t lang="unknown" resp="Taisho" place="foot">Sara&ndotblw;a.</t></tt>生
+<pb ed="T" id="T32.1670A.0701b" n="0701b"/>
+<lb n="0701b01"/>念。十一者<note n="0701012" resp="Taisho" type="orig" place="foot text">因識 Mudd&amacron;.</note><tt n="0701012" type="app"><t lang="chi" resp="Taisho">因識</t><t lang="unknown" resp="Taisho" place="foot">Mudd&amacron;.</t></tt>生念。十二者<note n="0701013" resp="Taisho" type="orig" place="foot text">教計 Gana&ndotblw;&amacron;.</note><tt n="0701013" type="app"><t lang="chi" resp="Taisho">教計</t><t lang="unknown" resp="Taisho" place="foot">Gana&ndotblw;&amacron;.</t></tt>生念。十
+<lb n="0701b02"/>三者<note n="0701014" resp="Taisho" type="orig" place="foot text">負債 Dh&amacron;ra&ndotblw;a.</note><tt n="0701014" type="app"><t lang="chi" resp="Taisho">負債</t><t lang="unknown" resp="Taisho" place="foot">Dh&amacron;ra&ndotblw;a.</t></tt>生念。十四者<note n="0701015" resp="Taisho" type="orig" place="foot text">一心 Bh&amacron;van&amacron;.</note><tt n="0701015" type="app"><t lang="chi" resp="Taisho">一心</t><t lang="unknown" resp="Taisho" place="foot">Bh&amacron;van&amacron;.</t></tt>生念。十五者
+<lb n="0701b03"/><note n="0701016" resp="Taisho" type="orig" place="foot text">讀書 Potthakanibandhana.</note><tt n="0701016" type="app"><t lang="chi" resp="Taisho">讀書</t><t lang="unknown" resp="Taisho" place="foot">Potthakanibandhana.</t></tt>生念。十六者<note n="0701017" resp="Taisho" type="orig" place="foot text">曾有所寄更見 Upanikkhepa.</note><tt n="0701017" type="app"><t lang="chi" resp="Taisho">曾有所寄更見</t><t lang="unknown" resp="Taisho" place="foot">Upanikkhepa.</t></tt>生念。是
+<lb n="0701b04"/>為十六事生念。王復問。那先何等為念久者。
+<lb n="0701b05"/>那先言佛弟子<note n="0701018" resp="Taisho" type="orig" place="foot text">&Amacron;nanda.</note><foreign n="0701018" lang="unknown" resp="Taisho" place="foot">&Amacron;nanda.</foreign>阿難女弟子<note n="0701019" resp="Taisho" type="orig" place="foot text">Up&amacron;sik&amacron;.</note><foreign n="0701019" lang="unknown" resp="Taisho" place="foot">Up&amacron;sik&amacron;.</foreign>優婆夷<note n="0701020" resp="Taisho" type="orig" place="foot text">Khujjuttar&amacron;.</note><foreign n="0701020" lang="unknown" resp="Taisho" place="foot">Khujjuttar&amacron;.</foreign>鳩&CB00677;
+<lb n="0701b06"/>單罷念千億世宿命之事及餘道人。皆能念
+<lb n="0701b07"/>去世之事。如阿難女弟子輩甚眾多。念此已
+<lb n="0701b08"/>便生念。王又問。何等新所學生念者。那先言。
+<lb n="0701b09"/>如人曾學知挍計。後復忘之。見人挍計便更
+<lb n="0701b10"/>生念。王又問。那先何等為大事生念。那先言。
+<lb n="0701b11"/>譬若大子立為王。自念為豪貴是大事生念。
+<lb n="0701b12"/>王復問那先。何等為思善生念者。那先言。譬
+<lb n="0701b13"/>若人為人所請呼。極善意賓延遇待之。其人
+<lb n="0701b14"/>自念言。昔日為某所請呼。善意待人是為思
+<lb n="0701b15"/>善生念。王又問那先。何等為更苦生念者。那
+<lb n="0701b16"/>先言。譬若人曾為人所撾埵閉繫牢獄。是為
+<lb n="0701b17"/>更苦生念。王復問那先言。何等為自惟生念
+<lb n="0701b18"/>者。那先言。譬若人曾有所見。家室宗親及畜
+<lb n="0701b19"/>生。是為自惟生念。王又問那先言。何等為曾
+<lb n="0701b20"/>雜所作生念者。那先言。譬若人萬物字顏色
+<lb n="0701b21"/>香臭酢苦。念此諸事是為曾雜生念。王復問
+<lb n="0701b22"/>那先言。何等為教人生念者。那先言。人自喜
+<lb n="0701b23"/>忘邊人。或有念者或有忘者。是教人生念。王
+<lb n="0701b24"/>又問那先言。何等為象生念者。那先言。人牛
+<lb n="0701b25"/>馬各自有象類。是為象生念。王又問那先言。
+<lb n="0701b26"/>何等為曾所忘生念者。那先言。譬若人卒有
+<lb n="0701b27"/>所忘。數數獨念得之。是為曾所忘生念。王復
+<lb n="0701b28"/>問那先。何等為因識生念者。那先言。學書者
+<lb n="0701b29"/>能次其字。是為因識生念。王復問那先。何等
+<pb ed="T" id="T32.1670A.0701c" n="0701c"/>
+<lb n="0701c01"/>為挍計生念者。那先言。如人共挍計。成就悉
+<lb n="0701c02"/>知策術分明。是為挍計生念。王又問那先。何
+<lb n="0701c03"/>者為負債生念者。那先言。如人所當債所當
+<lb n="0701c04"/>歸。是為負債生念。王又問那先。何等為一心
+<lb n="0701c05"/>生念者。那先言。沙門一其心。自念所從來生
+<lb n="0701c06"/>千億世時事。是我為一其心生念。王又問那
+<lb n="0701c07"/>先。何等為讀書生念者。那先言。帝有久古之
+<lb n="0701c08"/>書。念言某帝某吏時書也。是為讀書生念。何
+<lb n="0701c09"/>等為曾有所寄更見生念者。那先言。若人有
+<lb n="0701c10"/>所寄更眼見之便生念。是為所寄生念。王言
+<lb n="0701c11"/>善哉善哉</p>
+<lb n="0701c12"/><p>王復問那先言。佛寧悉知去事甫始當來事
+<lb n="0701c13"/>那。那先言。然佛悉知之。王言。假令佛悉知諸
+<lb n="0701c14"/>事者。何故不一時教弟子。何故稍稍教之。那
+<lb n="0701c15"/>先問王。國中寧有醫師無。王言有醫師。那先
+<lb n="0701c16"/>言。其醫師寧能悉知天下諸藥不。王言能悉
+<lb n="0701c17"/>知諸藥。那先問王。其藥師治人病為一時與
+<lb n="0701c18"/>藥為稍稍與之。王言未病不可豫與藥應病
+<lb n="0701c19"/>乃與藥耳。那先言佛雖悉知去來現在之事。
+<lb n="0701c20"/>亦不可一時教天下人。當稍稍授經戒令奉
+<lb n="0701c21"/>行之耳。王言善哉善哉</p>
+<lb n="0701c22"/><p>王又問那先。卿曹沙門言。人在世間作惡至
+<lb n="0701c23"/>百藏。臨欲死時念佛。死後者皆生天上。我不
+<lb n="0701c24"/>信是語。復言殺一生死即入泥犁中。我不信
+<lb n="0701c25"/>是也。那先問王。如人持小石置水上。石浮耶
+<lb n="0701c26"/>沒耶。王言其石沒。那先言。如令持百枚大石
+<lb n="0701c27"/>置船上。其船寧沒不。王言不沒。那先言船中
+<lb n="0701c28"/>百枚大石。因船故不得沒。人雖有本惡一時
+<lb n="0701c29"/>念佛。用是不入泥犁中。便生天上。其小石沒
+<pb ed="T" id="T32.1670A.0702a" n="0702a"/>
+<lb n="0702a01"/>者。如人作惡。不知佛經死後便入泥犁。王言
+<lb n="0702a02"/>善哉善哉</p>
+<lb n="0702a03"/><p>王復問那先。卿曹用何等故。行學道作沙門。
+<lb n="0702a04"/>那先言。我今以<note n="0702001" resp="Taisho" type="orig" place="foot text">過去苦～At&imacron;ta-dukkha.</note><tt n="0702001" type="app"><t lang="chi" resp="Taisho">過去苦</t><t lang="pli" resp="Taisho" place="foot">At&imacron;ta-dukkha.</t></tt><note n="0702002" resp="Taisho" type="orig" place="foot text">現在苦～Paccupanna-dukkha.</note><tt n="0702002" type="app"><t lang="chi" resp="Taisho">現在苦</t><t lang="pli" resp="Taisho" place="foot">Paccupanna-dukkha.</t></tt><note n="0702003" resp="Taisho" type="orig" place="foot text">當來苦～An&amacron;gata-dukkha.</note><tt n="0702003" type="app"><t lang="chi" resp="Taisho">當來苦</t><t lang="pli" resp="Taisho" place="foot">An&amacron;gata-dukkha.</t></tt>。欲
+<lb n="0702a05"/>棄是諸苦。不欲復受更。故行學道作沙門。王
+<lb n="0702a06"/>復問那先。苦乃在後世何為豫學道作沙門。
+<lb n="0702a07"/>那先問王。王寧有敵國怨家。欲相攻擊不。王
+<lb n="0702a08"/>言然。有敵國怨家常欲相攻擊也。那先問王。
+<lb n="0702a09"/>敵主臨來時王乃作&CB00508;具備守掘塹耶。當豫作
+<lb n="0702a10"/>之乎。王言當豫有儲偫。那先問王。何等故先
+<lb n="0702a11"/>作儲偫。王言。備敵來無時故。那先問王。敵尚
+<lb n="0702a12"/>未來何故豫備之。那先又問王。飢乃由種渴
+<lb n="0702a13"/>乃鑿井。何故豫作備度。王言善哉善哉。王又
+<lb n="0702a14"/>問那先。第七梵天去是幾所。那先言甚遠。令
+<lb n="0702a15"/>大如王殿石。從第七梵天上墮之六日乃墮
+<lb n="0702a16"/>此間地耳。王言。卿曹諸沙門言。得羅漢道如
+<lb n="0702a17"/>人屈伸臂頃。以飛上第七梵天上。王言我不
+<lb n="0702a18"/>信。是行數千萬億里。何以疾乃爾。那先問王。
+<lb n="0702a19"/>王本生何國。王言我本生大秦國。國名<note n="0702004" resp="Taisho" type="orig" place="foot text">～Alasanda.</note><foreign n="0702004" lang="pli" resp="Taisho" place="foot">Alasanda.</foreign>阿
+<lb n="0702a20"/>荔散。那先問王。阿荔散去是間幾里。王言。去
+<lb n="0702a21"/>是二千<note n="0702005" resp="Taisho" type="orig" place="foot text">～Yojana.</note><foreign n="0702005" lang="pli" resp="Taisho" place="foot">Yojana.</foreign>由旬合八萬里。那先問王。曾頗於
+<lb n="0702a22"/>此遙念本國中事不。王言然&M010527;念本國中事
+<lb n="0702a23"/>耳。那先言。王試復更念本國中事。曾有所作
+<lb n="0702a24"/>為者。王言我即念已。那先言。王行八萬里反
+<lb n="0702a25"/>覆何以疾。王言善哉善哉。王復問那先。若有
+<lb n="0702a26"/>兩人於此俱死。一人上生第七梵天。一人生
+<lb n="0702a27"/><note n="0702006" resp="Taisho" type="orig" place="foot text">罽賓～Kasm&imacron;ra.</note><tt n="0702006" type="app"><t lang="chi" resp="Taisho">罽賓</t><t lang="pli" resp="Taisho" place="foot">Kasm&imacron;ra.</t></tt>。罽賓去七百二十里。誰為先到者。那
+<lb n="0702a28"/>先言。試念阿荔國。王言我已念之。那先復言。
+<lb n="0702a29"/>王試復念罽賓。王言我已念之。那先問王。念
+<pb ed="T" id="T32.1670A.0702b" n="0702b"/>
+<lb n="0702b01"/>是兩國何所疾者。王言俱等耳。那先言。兩人
+<lb n="0702b02"/>俱死一人生第七梵天上。一人生罽賓亦等
+<lb n="0702b03"/>耳。那先問王。若有一雙飛鳥。一於一高樹上
+<lb n="0702b04"/>止。一鳥於卑樹上止。兩鳥俱飛誰影先在地
+<lb n="0702b05"/>者。王言其影俱到地耳。耶先言。兩人俱死一
+<lb n="0702b06"/>人生第七天上。一人生罽賓。亦俱時至耳。王
+<lb n="0702b07"/>言善哉善哉</p>
+<lb n="0702b08"/><p>王復問那先。人用幾事學知道。那先言。用七
+<lb n="0702b09"/>事學知道。何等為七。一者念善惡之事。二者
+<lb n="0702b10"/>精進。三者樂道。四者伏意為善。五者念道。六
+<lb n="0702b11"/>者一心。七者適無所憎愛。王又問那先。人用
+<lb n="0702b12"/>此七事學知道耶。那先言不悉用七事學知
+<lb n="0702b13"/>道。知者持知善惡。用是一事別知耳。王又問
+<lb n="0702b14"/>那先。假令用一事知者。何為說七言。那先問
+<lb n="0702b15"/>王。如人持刀著鞘中倚壁。刀寧能自有所割
+<lb n="0702b16"/>截不。王言。不能有所割截。那先言。人心雖明
+<lb n="0702b17"/>會。當得是六事共成智耳。王言善哉善哉</p>
+<lb n="0702b18"/><p>王復問那先。人家作善得福大耶。作惡得殃
+<lb n="0702b19"/>大耶。那先言。人作善得福大。作惡得殃小。
+<lb n="0702b20"/>人家作惡日日自悔過。是故其過日小。人家
+<lb n="0702b21"/>作善日夜自念歡喜。是故得福大。那先言。昔
+<lb n="0702b22"/>者佛在時。其國中有人掘無手足。而取蓮花
+<lb n="0702b23"/>持上佛。佛即告諸比丘言。此掘足手兒。&CB00230;後
+<lb n="0702b24"/>九十一<note n="0702007" resp="Taisho" type="orig" place="foot text">劫～Kappa.</note><tt n="0702007" type="app"><t lang="chi" resp="Taisho">劫</t><t lang="pli" resp="Taisho" place="foot">Kappa.</t></tt>不復入泥犁中畜生劈荔道中。得
+<lb n="0702b25"/>生天上。天上壽終復還作人。是故我知人作
+<lb n="0702b26"/>小善得福大。作其惡人自悔過日消滅而盡。
+<lb n="0702b27"/>是故我知人作過其殃小。王言善哉善哉。王
+<lb n="0702b28"/>復問那先。<note n="0702008" resp="Taisho" type="orig" place="foot text">智者～J&amacron;nanta.</note><tt n="0702008" type="app"><t lang="chi" resp="Taisho">智者</t><t lang="pli" resp="Taisho" place="foot">J&amacron;nanta.</t></tt>作惡<note n="0702009" resp="Taisho" type="orig" place="foot text">愚人～Aj&amacron;nanta.</note><tt n="0702009" type="app"><t lang="chi" resp="Taisho">愚人</t><t lang="pli" resp="Taisho" place="foot">Aj&amacron;nanta.</t></tt>作惡。此兩人殃
+<lb n="0702b29"/>咎誰得多者。那先言。愚人作惡得殃大。智人
+<pb ed="T" id="T32.1670A.0702c" n="0702c"/>
+<lb n="0702c01"/>作惡得殃小。王言不知。那先言。王言我國治
+<lb n="0702c02"/>法。大臣有過則罪之重。小民有過罪之。是
+<lb n="0702c03"/>故我知智者作過惡得殃大。愚者作惡得殃
+<lb n="0702c04"/>小。那先問王。譬如燒鐵在地。一人知為燒鐵。
+<lb n="0702c05"/>一人不知。兩人俱前取燒鐵。誰爛手大者耶。
+<lb n="0702c06"/>王言。不知者手爛。不制其身口者不能持經
+<lb n="0702c07"/>戒。如此曹人亦不樂其身。那先言。其學道人
+<lb n="0702c08"/>者。能制其身能制口能持經戒。能一其心得
+<lb n="0702c09"/>四禪。便能不復喘息耳。王言善哉善哉</p>
+<lb n="0702c10"/><p>王復問那先。為呼言<note n="0702010" resp="Taisho" type="orig" place="foot text">海～Samudda.</note><tt n="0702010" type="app"><t lang="chi" resp="Taisho">海</t><t lang="pli" resp="Taisho" place="foot">Samudda.</t></tt>。海為是水名為海
+<lb n="0702c11"/>耶。用他事故言海。那先言。人所以呼為海者。
+<lb n="0702c12"/>水與鹽參各半。是故為海耳。王復問那先。何
+<lb n="0702c13"/>以故海悉&CB00367;如鹽味。那先言。所以海水&CB00367;者。
+<lb n="0702c14"/>啖畜以來久遠。及魚&CB00516;虫多共漬水中。是故
+<lb n="0702c15"/>爾&CB00367;耳。王言善哉善哉</p>
+<lb n="0702c16"/><p>王復問那先。人得道已寧能悉思惟深奧眾
+<lb n="0702c17"/>事不。那先言然。人得道已。能悉思惟深奧之
+<lb n="0702c18"/>事。佛經最深奧知眾事。不可稱量眾事。皆以
+<lb n="0702c19"/>智評之。王言善哉善哉</p>
+<lb n="0702c20"/><p>王復問那先。<note n="0702011" resp="Taisho" type="orig" place="foot text">人神～J&imacron;va.</note><tt n="0702011" type="app"><t lang="chi" resp="Taisho">人神</t><t lang="pli" resp="Taisho" place="foot">J&imacron;va.</t></tt><note n="0702012" resp="Taisho" type="orig" place="foot text">智～Pa&ntilde;&ntilde;&amacron;.</note><tt n="0702012" type="app"><t lang="chi" resp="Taisho">智</t><t lang="pli" resp="Taisho" place="foot">Pa&ntilde;&ntilde;&amacron;.</t></tt><note n="0702013" resp="Taisho" type="orig" place="foot text">自然～Dhamma.</note><tt n="0702013" type="app"><t lang="chi" resp="Taisho">自然</t><t lang="pli" resp="Taisho" place="foot">Dhamma.</t></tt>此三事寧同不
+<lb n="0702c21"/>各異。那先言。人神者。生覺智者。曉道自然
+<lb n="0702c22"/>者。虛空無有人也。王又問那先。人言得人何
+<lb n="0702c23"/>等為得人者。今眼視色耳聽聲鼻聞香臭口
+<lb n="0702c24"/>知味身知軟&CB00308;。志知善惡之事。何所為得人
+<lb n="0702c25"/>者大。那先言。愚者作惡不能自悔故其殃大。
+<lb n="0702c26"/>智者作惡知不當所為。日自悔過。故其殃少。
+<lb n="0702c27"/>王言善哉善哉</p>
+<lb n="0702c28"/><p>王復問那先。人有能持此身。飛行上至第七
+<lb n="0702c29"/><note n="0702014" resp="Taisho" type="orig" place="foot text">梵天上～Brahmaloka.</note><tt n="0702014" type="app"><t lang="chi" resp="Taisho">梵天上</t><t lang="pli" resp="Taisho" place="foot">Brahmaloka.</t></tt>。及至<note n="0702015" resp="Taisho" type="orig" place="foot text">～Uttarakuru.</note><foreign n="0702015" lang="pli" resp="Taisho" place="foot">Uttarakuru.</foreign>&CB00614;單曰地。及所欲至處者不
+<pb ed="T" id="T32.1670A.0703a" n="0703a"/>
+<lb n="0703a01"/>耶。那先言能。王言。奈何持此身上第七梵
+<lb n="0703a02"/>天。及&CB00614;單曰地。及所欲至處乎。那先問王。
+<lb n="0703a03"/>王寧自念。少小時跳戲一丈地不。王言。我年
+<lb n="0703a04"/>少時意念欲跳。便跳一丈餘地。那先言。得道
+<lb n="0703a05"/>之人意欲跳至第七天上。及至&CB00614;單曰地者
+<lb n="0703a06"/>亦爾。王言善哉善哉</p>
+<lb n="0703a07"/><p>王復問那先。卿曹諸沙門言。有<note n="0703001" resp="Taisho" type="orig" place="foot text">～V&tdotblw;thika.</note><foreign n="0703001" lang="pli" resp="Taisho" place="foot">V&tdotblw;thika.</foreign>骨長四千
+<lb n="0703a08"/>里。何等身骨長四千里。那先問。王曾聞大海
+<lb n="0703a09"/>中有大魚名質。身長二萬八千里者不。王言
+<lb n="0703a10"/>然有是。我曾聞之。那先言。如是二萬八千里
+<lb n="0703a11"/>魚。其&CB00169;骨長四千里王怪之為。王復問那先。
+<lb n="0703a12"/>卿曹諸沙門說言。我能斷喘息之事。王言奈
+<lb n="0703a13"/>何可斷喘息氣耶。那先問王。寧曾聞志不。王
+<lb n="0703a14"/>言我聞之。那先言。王以為志在人身中耶。王
+<lb n="0703a15"/>言。我以為志在人身中。那先言。王以為愚人
+<lb n="0703a16"/>不能。那先問王。如今合解用目視脫瞳子去
+<lb n="0703a17"/>之視寧廣遠不。裂大其耳聽聲寧廣遠不。決
+<lb n="0703a18"/>鼻令大其聞香寧多不。吻口令大知味寧多
+<lb n="0703a19"/>不。剝割肌膚寧令信知&CB00308;軟不。拔去其意盛
+<lb n="0703a20"/>念寧多不王言不也。那先言。佛所作甚難佛
+<lb n="0703a21"/>所知甚妙。王復問那先。所作何等甚難何等
+<lb n="0703a22"/>甚妙。那先言。佛能知人腹中目所不見事悉
+<lb n="0703a23"/>能解之。能解目事能解耳事。能解鼻事能解
+<lb n="0703a24"/>口事。能解身事能解販事。能解所念事能解
+<lb n="0703a25"/>神事。那先言。人取海水含之。寧能別知口中
+<lb n="0703a26"/>水。是某泉水是某流水。是某河水不。王言眾
+<lb n="0703a27"/>水皆合為一難各別知。那先言。佛所作為甚
+<lb n="0703a28"/>難。皆能別知。今人神不見人身。中有六事不
+<lb n="0703a29"/>可見。那先言。是故佛解之。從心念至目所見。
+<pb ed="T" id="T32.1670A.0703b" n="0703b"/>
+<lb n="0703b01"/>從心念至耳所聽。從心念至鼻所嗅。從心念
+<lb n="0703b02"/>至口知味。從心念至身知苦樂寒溫&CB00308;堅。從
+<lb n="0703b03"/>心念有所向。佛悉知分別解之。王言善哉善
+<lb n="0703b04"/>哉</p>
+<lb n="0703b05"/><p>那先言。夜已半我欲去。王即&CB00330;傍臣。取四端
+<lb n="0703b06"/>&CB00626;布搵置油麻中持以為炬。當送那先歸。恭
+<lb n="0703b07"/>事那先如事我身。傍臣皆言受教。王言得師
+<lb n="0703b08"/>如那先。作弟子如我。可得道疾。王諸所問那
+<lb n="0703b09"/>先輒事事答之。王大歡喜王即出中藏好衣
+<lb n="0703b10"/>直十萬。以上那先。王語那先。從今以去願那
+<lb n="0703b11"/>先日與八百沙門共於宮中飯食。及所欲皆
+<lb n="0703b12"/>從王取之。那先報王。我為道人略無所欲。王
+<lb n="0703b13"/>言那先當自護。亦當護我身。那先言。何等當
+<lb n="0703b14"/>自護護王身。王報言。恐人論議呼王為慳。那
+<lb n="0703b15"/>先為解諸狐疑。而不能賜與。或恐人言。那先
+<lb n="0703b16"/>不能解王疑故王不賞賜。王言那先受者令
+<lb n="0703b17"/>我得其福。那先亦當護其名。王言譬若師子
+<lb n="0703b18"/>在金檻中。由為拘閉常有欲望去心。今我雖
+<lb n="0703b19"/>為國宮省中。其意不樂。欲棄國去而行學道。
+<lb n="0703b20"/>王語竟那先便歸佛寺。那先適去王竊自念。
+<lb n="0703b21"/>我問那先為何等事。那先為我解何等事。王
+<lb n="0703b22"/>自念。我所問那先莫不解我意者。那先歸佛
+<lb n="0703b23"/>寺亦自念王問我何等事。我亦報王何等事。
+<lb n="0703b24"/>那先自念王所問者。我亦悉解之。念此事至
+<lb n="0703b25"/>天明。明日那先被袈裟持&CB00425;直入宮上殿坐
+<lb n="0703b26"/>王前為那先作禮已乃&CB00230;坐。王白那先。那先
+<lb n="0703b27"/>適去我自念。問那先何等語。那先報我何等
+<lb n="0703b28"/>語。我又自念所問那先。那先莫不解我意者。
+<lb n="0703b29"/>念是語歡喜安臥至明。那先言。我行歸舍亦
+<pb ed="T" id="T32.1670A.0703c" n="0703c"/>
+<lb n="0703c01"/>自念。王為問我何等事。我亦為王解何等事。
+<lb n="0703c02"/>我復自念王所問我輒為解之。用是故歡喜
+<lb n="0703c03"/>至明。語竟那先欲去。王便起為那先作禮</p>
+<lb n="0703c04"/><juan fun="close" n="002"><jhead>那先比丘經卷下</jhead></juan></div1>
+</body></text></TEI.2>

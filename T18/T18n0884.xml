@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T18n0884.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+%ENTY;
+%CBENT;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0884 佛說祕密相經</title>
+			<author>宋 施護等譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>3卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:07 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 18, No. 884 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000105/17:54:10</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/05)</item>
+	</change>
+<!--
+$Log: T18n0884.xml,v $
+Revision 1.1  2003/05/05 04:09:07  ray
+Initial revision
+
+Revision 1.19  2002/12/25 08:27:37  saywhat
+【三】＊取代
+
+Revision 1.18  2002/12/04 01:47:41  saywhat
+校勘插入處理
+
+Revision 1.17  2002/11/04 10:44:24  ray
+tei.2 => TEI.2
+
+Revision 1.16  2002/10/21 08:11:39  ray
+移動 <anchor>+<note>, <anchor>+雙圈
+
+Revision 1.15  2002/10/07 13:09:54  moved
+modified
+
+Revision 1.14  2002/07/29 09:44:56  vinking
+modified lang
+
+Revision 1.13  2002/04/08 08:58:23  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.12  2001/11/05 06:12:53  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.11  2001/07/24 06:52:25  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/06/22 08:16:25  vinking
+CD7  修訂
+
+Revision 1.9  2001/05/25 08:58:10  ray
+經號統一為四碼
+
+Revision 1.8  2001/04/01 08:17:45  ray
+CB00380 => CB00308
+
+Revision 1.7  2001/03/30 05:48:05  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.6  2001/03/25 09:09:19  ray
+add <milestone>
+
+Revision 1.5  2001/02/07 06:53:35  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.4  2001/02/03 07:43:20  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:07 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T18.0884.0463b" n="0463b"/>
+<lb n="0463b01"/>
+<milestone unit="juan" n="1"/>
+<lb n="0463b02"/><head type="no">No. 884</head><div1 type="jing">
+<lb n="0463b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0463001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說祕密相經卷<note n="0463002" resp="Taisho" type="orig" place="foot text">上＋（中下同卷）細註【明】</note><app n="0463002"><lem>上</lem><rdg wit="【明】" resp="Taisho">上<note place="inline">中下同卷</note></rdg></app></jhead></juan>
+<lb n="0463b04"/>
+<lb n="0463b05"/><byline type="Translator"><note n="0463003" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】＊</note><app n="0463003"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0463004" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】＊</note><app n="0463004"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝奉大夫試光祿卿
+<lb n="0463b06"/>傳法大師<note n="0463005" resp="Taisho" type="orig" place="foot text">〔賜紫沙門臣〕－【明】＊</note><app n="0463005"><lem>賜紫沙門臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>施護等
+<lb n="0463b07"/>奉　詔譯</byline>
+<lb n="0463b08"/><p>如是我聞。一時世尊住一切如來三昧界中。
+<lb n="0463b09"/>一切菩薩摩訶薩眾皆悉圓滿。是時世尊大
+<lb n="0463b10"/>毘盧遮那如來。從諸佛智三摩地起。普遍觀
+<lb n="0463b11"/>察一切大眾。當彼如是觀眾會時。所有一切
+<lb n="0463b12"/>如來并諸菩薩摩訶薩眾。悉於世尊大毘盧
+<lb n="0463b13"/>遮那如來左月曼拏羅中依止而住</p>
+<lb n="0463b14"/><p>爾時金剛手菩薩摩訶薩。住於世尊大毘盧
+<lb n="0463b15"/>遮那如來前。合掌諦誠作是白言。世尊祕密
+<lb n="0463b16"/>法儀甚深廣大。云何此中要略而修。於是要
+<lb n="0463b17"/>略法中我當受行</p>
+<lb n="0463b18"/><p>爾時世尊大毘盧遮那如來。讚金剛手菩薩
+<lb n="0463b19"/>摩訶薩言。善哉善哉金剛手。汝今善問祕密
+<lb n="0463b20"/>法儀甚深廣大。我今為汝要略而說。謂若修
+<lb n="0463b21"/>習瑜伽行者。凡入舍中先當觀想祕密文字。
+<lb n="0463b22"/>作已護淨。謂於舌端想有阿字。其字想成淨
+<lb n="0463b23"/>妙月輪。於月輪上想有吽字。其字復成五股
+<lb n="0463b24"/>白色大金剛杵。如是觀想已。行人當作金剛
+<lb n="0463b25"/>合掌安自頂上。誦此大明而作護淨</p>
+<lb n="0463b26"/><p>大明曰</p>
+<lb n="0463b27"/><p type="dharani">唵<note place="inline">引</note><note n="0463006" resp="Taisho" type="orig" place="foot text">娑&CB00085;＝莎婆【三】【宮】</note><note n="0463006" resp="CBETA" type="mod">娑&CB00085;＝莎婆【宋】【元】【明】【宮】</note><app n="0463006"><lem>娑&CB00085;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">莎婆</rdg></app><note place="inline"><note n="0463007" resp="Taisho" type="orig" place="foot text">〔二合〕－【三】【宮】</note><note n="0463007" resp="CBETA" type="mod">〔二合〕－【宋】【元】【明】【宮】</note><app n="0463007"><lem>二合</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>引</note><note n="0463008" resp="Taisho" type="orig" place="foot text">〔婆〕－【三】【宮】</note><note n="0463008" resp="CBETA" type="mod">〔婆〕－【宋】【元】【明】【宮】</note><app n="0463008"><lem>婆</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>&CB00085;&CB02122;馱<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>達哩
+<lb n="0463b28"/>摩<note place="inline">二合引一<note n="0463009" resp="Taisho" type="orig" place="foot text">〔句〕－【明】＊</note><app n="0463009"><lem>句</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>莎婆<note place="inline">引</note>&CB00085;&CB02122;度<note place="inline">引</note>&CB00780;<note place="inline">呼<note n="0463010" resp="Taisho" type="orig" place="foot text">郎＝即【元】</note><app n="0463010"><lem>郎</lem><rdg wit="【元】" resp="Taisho">即</rdg></app>切下同二</note></p>
+<lb n="0463b29"/><p>誦是大明已。行人次當發誓願言。唯願十方
+<pb ed="T" id="T18.0884.0463c" n="0463c"/>
+<lb n="0463c01"/>一切諸佛一切菩薩攝受於我。而我某甲於
+<lb n="0463c02"/>此時中作成就事。始從今日發起無上大菩
+<lb n="0463c03"/>提心。乃至當坐菩提道場堅固不退。又說頌
+<lb n="0463c04"/>曰</p>
+<lb n="0463c05"/><lg><l>願我即同三世佛</l><l>決定當成正覺尊</l>
+<lb n="0463c06"/><l>攝善法及攝律儀</l><l>饒益眾生戒具足</l>
+<lb n="0463c07"/><l>而此三聚淨妙戒</l><l>願我受持悉堅固</l>
+<lb n="0463c08"/><l>諸佛妙法及僧伽</l><l>最勝三寶垂加護</l>
+<lb n="0463c09"/><l>最初三寶攝受我</l><l>願從諸佛相應生</l>
+<lb n="0463c10"/><l>金剛杵及彼印鈴</l><l>我所受持悉真實</l>
+<lb n="0463c11"/><l>彼阿闍梨攝受我</l><l>廣大最上金剛部</l>
+<lb n="0463c12"/><l>四種施法我常行</l><l>日日六時如是作</l>
+<lb n="0463c13"/><l>彼大寶部相應法</l><l>三昧中起勝意樂</l>
+<lb n="0463c14"/><l>我攝受諸正法門</l><l>內外及彼三乘法</l>
+<lb n="0463c15"/><l>大蓮華部中清淨</l><l>出生無上大菩提</l>
+<lb n="0463c16"/><l>一切誓願悉相應</l><l>真實法中攝受我</l>
+<lb n="0463c17"/><l>供養事業隨應作</l><l>大羯磨部中最上</l>
+<lb n="0463c18"/><l>發起無上菩提心</l><l>及彼出生諸勝行</l>
+<lb n="0463c19"/><l>普攝一切行周遍</l><l>廣為利樂諸眾生</l>
+<lb n="0463c20"/><l>未得度者我當度</l><l>未解脫者令解脫</l>
+<lb n="0463c21"/><l>諸有未獲安隱者</l><l>我當為開安隱門</l>
+<lb n="0463c22"/><l>所有一切諸眾生</l><l>普使安住涅槃地</l></lg>
+<lb n="0463c23"/><p>爾時世尊大毘盧遮那如來。復為金剛手菩
+<lb n="0463c24"/>薩摩訶薩。宣說普盡三摩地真實出生諸三
+<lb n="0463c25"/>摩地根本法門。行人應當結禪定印。依法安
+<lb n="0463c26"/>住已。當觀諸法無我平等。若於諸法見有內
+<lb n="0463c27"/>外。是即於心有其蓋<note n="0463011" resp="Taisho" type="orig" place="foot text">障＝幢【三】</note><note n="0463011" resp="CBETA" type="mod">障＝幢【宋】【元】【明】</note><app n="0463011"><lem>障</lem><rdg wit="【宋】【元】【明】" resp="Taisho">幢</rdg></app>。當知離心無別有
+<lb n="0463c28"/>法。又復意中作是思念。一切法不生而自性
+<lb n="0463c29"/>明亮。是即一切法本來不生性。隨其所念即
+<pb ed="T" id="T18.0884.0464a" n="0464a"/>
+<lb n="0464a01"/>住是心。然後乃以自性明亮可愛音聲。誦彼
+<lb n="0464a02"/>開覺本心大明章句。當誦念時應觀心月曼
+<lb n="0464a03"/>拏羅相</p>
+<lb n="0464a04"/><p>大明曰</p>
+<lb n="0464a05"/><p type="dharani">唵<note place="inline">引</note>唧多&CB00425;<note n="0464001" resp="Taisho" type="orig" place="foot text">羅＝囉【三】</note><note n="0464001" resp="CBETA" type="mod">羅＝囉【宋】【元】【明】</note><app n="0464001"><lem>羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">囉</rdg></app><note place="inline">二合</note>底吠<note place="inline">引</note>鄧羯嚕<note place="inline">引</note>彌<note place="inline">一句</note></p>
+<lb n="0464a06"/><p>復次頌曰</p>
+<lb n="0464a07"/><lg><l>真實圓滿大清淨</l><l>其猶虛空無垢翳</l>
+<lb n="0464a08"/><l>一切&CB00308;重悉蠲除</l><l>而復破遣邪分別</l>
+<lb n="0464a09"/><l>彼諸煩惱垢淨故</l><l>復如朗月見初生</l>
+<lb n="0464a10"/><l>諸佛功德聚無邊</l><l>悉入阿字等妙相</l></lg>
+<lb n="0464a11"/><p>其相云何</p>
+<lb n="0464a12"/><p>所謂</p>
+<lb n="0464a13"/><p type="dharani">阿阿<note place="inline">引</note>壹翳嗢污哩黎<note place="inline">引</note>哩黎<note place="inline">引</note>伊愛鄔奧暗
+<lb n="0464a14"/>惡</p>
+<lb n="0464a15"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<lb n="0464a16"/>遮那如來菩提心月曼拏羅中。依止而住作
+<lb n="0464a17"/>是白言。世尊菩提心月曼拏羅者。而有何等
+<lb n="0464a18"/>最勝功德</p>
+<lb n="0464a19"/><p>爾時世尊大毘盧遮那如來。即為金剛手菩
+<lb n="0464a20"/>薩摩訶薩。要略宣說菩提心月曼拏羅相。金
+<lb n="0464a21"/>剛手當知諸佛無邊功德。入阿字等諸妙相
+<lb n="0464a22"/>時。如水精月淨光明相。入已。復從自性清淨
+<lb n="0464a23"/>明亮智心。出生變化作用事業。即誦大明微
+<lb n="0464a24"/>妙章句發菩提心大明曰</p>
+<lb n="0464a25"/><p type="dharani">唵<note place="inline">引</note>&CB00155;提唧當<note place="inline">一<anchor id="fxT18p0464a01"/>句</note>母怛波<note place="inline">二合引</note>捺夜<note place="inline">引</note>彌<note place="inline">二</note></p>
+<lb n="0464a26"/><p>復次頌曰</p>
+<lb n="0464a27"/><lg><l>隨此出生大悲心</l><l>普攝眾生諸所作</l>
+<lb n="0464a28"/><l>一切善法悉周圓</l><l>一切煩惱皆不著</l>
+<lb n="0464a29"/><l>月曼拏羅左右中</l><l>菩提心月為第二</l>
+<pb ed="T" id="T18.0884.0464b" n="0464b"/>
+<lb n="0464b01"/><l>所有諸佛功德門</l><l>復入迦字等妙相</l></lg>
+<lb n="0464b02"/><p>如是入已。乃與諸法影像相應。其相云何</p>
+<lb n="0464b03"/><p>所謂</p>
+<lb n="0464b04"/><p type="dharani">迦佉&CB00344;伽昂<note place="inline">鼻音輕呼</note>左蹉惹<note place="inline">仁左切</note>酇<note place="inline">重呼</note>倪<note place="inline">倪也切輕呼</note>
+<lb n="0464b05"/><note n="0464002" resp="Taisho" type="orig" place="foot text">叱＝吒【三】【宮】</note><note n="0464002" resp="CBETA" type="mod">叱＝吒【宋】【元】【明】【宮】</note><app n="0464002"><lem>叱</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">吒</rdg></app>&CB00109;拏<note place="inline">尼轄切</note><note n="0464003" resp="Taisho" type="orig" place="foot text">茶＝嗏【元】【明】</note><app n="0464003"><lem>茶</lem><rdg wit="【元】【明】" resp="Taisho">嗏</rdg></app><note place="inline">重呼</note>拏<note place="inline">平聲輕呼</note>多他捺陀<note place="inline">重呼</note>那<note place="inline">輕
+<lb n="0464b06"/>呼</note>波頗末婆<note place="inline">重呼</note>摩<note place="inline">輕呼</note><note n="0464004" resp="Taisho" type="orig" place="foot text">邪＝耶【明】</note><app n="0464004"><lem>邪</lem><rdg wit="【明】" resp="Taisho">耶</rdg></app>囉羅&CB00085;設沙薩訶
+<lb n="0464b07"/>乞叉<note place="inline">合呼</note></p>
+<lb n="0464b08"/><p>此等文字。即是菩提心月曼拏羅相。此曼拏
+<lb n="0464b09"/>羅所有法用行相次第如餘教說</p>
+<lb n="0464b10"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<lb n="0464b11"/>遮那如來右月曼拏羅中。依止而住作是白
+<lb n="0464b12"/>言。世尊而此右月曼拏羅中當云何入</p>
+<lb n="0464b13"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<lb n="0464b14"/>摩訶薩言。金剛手當知金剛杵即是金剛智。
+<lb n="0464b15"/>能生諸佛勝功德聚。金剛杵者其相五股依
+<lb n="0464b16"/>法所成。周匝復有光焰熾盛。是光從彼普賢
+<lb n="0464b17"/>心出。為堅固因起諸行相。若入曼拏羅者。當
+<lb n="0464b18"/>觀自身即是五智金剛杵相。作是觀時誦此
+<lb n="0464b19"/>大明曰</p>
+<lb n="0464b20"/><p type="dharani">唵<note place="inline">引</note>底瑟&CB00109;<note place="inline">二合</note>&CB00085;日囉<note place="inline">二合一句</note></p>
+<lb n="0464b21"/><p>復次頌曰</p>
+<lb n="0464b22"/><lg><l>佛於三阿僧祇劫</l><l>修成菩提最上行</l>
+<lb n="0464b23"/><l>歷位至登妙覺尊</l><l>皆由清淨無漏智</l>
+<lb n="0464b24"/><l>菩提妙月曼拏羅</l><l>最上清淨離諸垢</l>
+<lb n="0464b25"/><l>於中觀想智金剛</l><l>是即五智金剛杵</l></lg>
+<lb n="0464b26"/><p>世尊大毘盧遮那如來作此所說。謂即表示
+<lb n="0464b27"/>執金剛者。復次當想盡虛空界。周遍普聚而
+<lb n="0464b28"/>為分量。都成一大金剛杵相然後行人觀想
+<lb n="0464b29"/>己身即金剛杵。廣略相應。當觀想時誦此大
+<pb ed="T" id="T18.0884.0464c" n="0464c"/>
+<lb n="0464c01"/>明曰</p>
+<lb n="0464c02"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合引</note>怛摩<note place="inline">二合</note>酤<note place="inline">引</note>&CB00780;<note place="inline">一句</note></p>
+<lb n="0464c03"/><p>復次頌曰</p>
+<lb n="0464c04"/><lg><l>所有一切諸佛身</l><l>悉無對礙無依止</l>
+<lb n="0464c05"/><l>無生無作淨無瑕</l><l>是中無性等亦離</l>
+<lb n="0464c06"/><l>不斷不破亦不壞</l><l>法身無染本清淨</l>
+<lb n="0464c07"/><l>金剛堅固體出生</l><l>如來金剛身無上</l></lg>
+<lb n="0464c08"/><p>爾時金剛手菩薩摩訶薩。於世尊大毘盧遮
+<lb n="0464c09"/>那如來右月曼拏羅中。依止住已作是白言。
+<lb n="0464c10"/>世尊復云何觀彼金剛杵</p>
+<lb n="0464c11"/><p>爾時世尊大毘盧遮那如來。普遍觀察諸如
+<lb n="0464c12"/>來已。作如是言諦聽諸如來。我今宣說佛影
+<lb n="0464c13"/>像中觀影像相。其相云何。所謂薩埵金剛相。
+<lb n="0464c14"/>彼諸相具足。應當如是觀即佛影像相。作是
+<lb n="0464c15"/>觀想時誦此大明曰</p>
+<lb n="0464c16"/><p type="dharani">唵<note place="inline">引</note>野他<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;多<note place="inline">引一<anchor id="fxT18p0464c01"/>句</note>塞
+<lb n="0464c17"/>怛<note place="inline">二合</note>他<note place="inline">引</note>&CB00780;<note place="inline">二</note></p>
+<lb n="0464c18"/><p>復次頌曰</p>
+<lb n="0464c19"/><lg><l>所有諸佛身祕密</l><l>境界性智行亦然</l>
+<lb n="0464c20"/><l>以五相成正覺尊</l><l>諸佛成滿皆清淨</l></lg>
+<lb n="0464c21"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<lb n="0464c22"/>遮那如來後月曼拏羅中。依止而住作是白
+<lb n="0464c23"/>言。世尊云何是祕密。復云何是境界性智行
+<lb n="0464c24"/>等亦然</p>
+<lb n="0464c25"/><p>爾時世尊大毘盧遮那如來。稱讚金剛手菩
+<lb n="0464c26"/>薩摩訶薩。即說頌曰</p>
+<lb n="0464c27"/><lg><l>善哉金剛大薩埵</l><l>善哉金剛聖妙寶</l>
+<lb n="0464c28"/><l>善哉金剛正法門</l><l>善哉金剛眾事業</l>
+<lb n="0464c29"/><l>善說此經祕密義</l><l>是即無上金剛乘</l>
+<pb ed="T" id="T18.0884.0465a" n="0465a"/>
+<lb n="0465a01"/><l>所有諸佛祕密門</l><l>大乘現證法皆攝</l>
+<lb n="0465a02"/><l>修成就時妙清淨</l><l>成佛果已獲妙樂</l>
+<lb n="0465a03"/><l>汝問祕密等云何</l><l>謂蓮華及金剛杵</l>
+<lb n="0465a04"/><l>此即如來大祕密</l><l>一切諸佛從是生</l>
+<lb n="0465a05"/><l>若能依法諦心觀</l><l>於剎那間得成佛</l></lg>
+<lb n="0465a06"/><juan fun="close" n="001"><jhead>佛說祕密相經卷上</jhead></juan>
+<lb n="0465a07"/>
+<milestone unit="juan" n="2"/>
+<lb n="0465a08"/>
+<lb n="0465a09"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>佛說祕密相經卷中</jhead></juan>
+<lb n="0465a10"/>
+<lb n="0465a11"/><byline type="Translator"><anchor id="fxT18p0465a01"/>西天<anchor id="fxT18p0465a02"/>譯經三藏朝奉大夫試光祿卿
+<lb n="0465a12"/>傳法大師<anchor id="fxT18p0465a03"/>賜紫沙門臣施護等
+<lb n="0465a13"/>奉　詔譯</byline>
+<lb n="0465a14"/><p>爾時金剛手菩薩摩訶薩。復白世尊大毘盧
+<lb n="0465a15"/>遮那如來言。世尊云何是金剛杵。復云何是
+<lb n="0465a16"/>蓮華</p>
+<lb n="0465a17"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<lb n="0465a18"/>摩訶薩言。金剛手一切如來安住之智即金
+<lb n="0465a19"/>剛杵。本部賢聖和合相應是謂蓮華。而彼金
+<lb n="0465a20"/>剛杵住於蓮華上。由是出生一切如來。彼諸
+<lb n="0465a21"/>如來身即毘盧遮那。如是作已。然後乃從金
+<lb n="0465a22"/>剛語言。安布大明祕密文字</p>
+<lb n="0465a23"/><p>所謂</p>
+<lb n="0465a24"/><p type="dharani">勃&CB03313;<note place="inline">二合引</note></p>
+<lb n="0465a25"/><p>其字先於自心淨月曼拏羅中。想安住已。然
+<lb n="0465a26"/>後想成大妙高山。於其山上想現是字。其字
+<lb n="0465a27"/>復成金剛寶&CB00123;廣大樓閣。大摩尼寶所共莊
+<lb n="0465a28"/>嚴。懸鈴珠寶繒幡瓔珞。微風吹動出和雅音。
+<lb n="0465a29"/>如是種種殊妙校飾。吉祥勝上堪所稱讚。而
+<pb ed="T" id="T18.0884.0465b" n="0465b"/>
+<lb n="0465b01"/>彼樓閣一切如來所共安住。於樓閣中復想
+<lb n="0465b02"/>五股金剛杵輪。廣略相應。即想其杵復成金
+<lb n="0465b03"/>剛薩埵大士影像。勝相具足身如月色現光
+<lb n="0465b04"/>明而復安處月輪之上。頂戴五佛殊妙寶冠。
+<lb n="0465b05"/>金剛相光焰鬘莊嚴。左右皆現高舉之相。安
+<lb n="0465b06"/>住諸法本來無性大三昧<note n="0465001" resp="Taisho" type="orig" place="foot text">邪＝耶【宋】【元】</note><app n="0465001"><lem>邪</lem><rdg wit="【宋】【元】" resp="Taisho">耶</rdg></app>真實理中。若情
+<lb n="0465b07"/>若器諸性自性。以是二種合為一相。是故觀
+<lb n="0465b08"/>想己身成就金剛薩埵。如是觀已。即此本尊
+<lb n="0465b09"/>等諸法用然後施作。爾時金剛手菩薩摩訶
+<lb n="0465b10"/>薩。復於世尊大毘盧遮那如來前月曼拏羅
+<lb n="0465b11"/>中。依止而住作是白言。世尊云何是本尊</p>
+<lb n="0465b12"/><p>爾時世尊大毘盧遮那如來。為金剛手菩薩
+<lb n="0465b13"/>摩訶薩。次第宣說本尊等法。諸修瑜伽行者。
+<lb n="0465b14"/>先當依法於自心月曼拏羅中。觀想吽字。從
+<lb n="0465b15"/>是文字。想出普門巧業眾相大金剛杵。作是
+<lb n="0465b16"/>觀時當結密印。其印先作金剛縛後。散開諸
+<lb n="0465b17"/>指作攝入勢。成印誦此本心大明曰</p>
+<lb n="0465b18"/><p type="dharani">&CB00085;日囉<note place="inline">二合</note>滿馱怛囉<note place="inline">二合</note>吒<note place="inline">一句</note></p>
+<lb n="0465b19"/><p>誦是大明結是印已。然後乃可結一切印。及
+<lb n="0465b20"/>作本尊等法。乃至金剛阿吠舍并鉤召等餘
+<lb n="0465b21"/>諸成就法。從自身語心金剛加持作用。即得
+<lb n="0465b22"/>敬愛成就</p>
+<lb n="0465b23"/><p>然後乃結金剛阿吠舍印。誦彼心明。其明所
+<lb n="0465b24"/>謂</p>
+<lb n="0465b25"/><p type="dharani">惡<note place="inline">入</note></p>
+<lb n="0465b26"/><p>由是心明。普遍攝入本尊等法。乃至諸餘成
+<lb n="0465b27"/>就之法。悉得善友敬愛而住。其金剛阿吠舍
+<lb n="0465b28"/>印者。先作金剛掌次作金剛縛。後結金剛阿
+<lb n="0465b29"/>吠舍印。金剛掌者堅實掌心諸指不縛。而復
+<pb ed="T" id="T18.0884.0465c" n="0465c"/>
+<lb n="0465c01"/>緊密成金剛掌。即轉此掌善結其縛成金剛
+<lb n="0465c02"/>縛。復開此縛作金剛拳二頭相並即成金剛
+<lb n="0465c03"/>阿吠舍三昧<note n="0465002" resp="Taisho" type="orig" place="foot text">邪＝耶【三】＊</note><note n="0465002" resp="CBETA" type="mod">邪＝耶【宋】＊【元】＊【明】＊</note><app n="0465002"><lem>邪</lem><rdg wit="【宋】【元】【明】" resp="Taisho">耶</rdg></app>印。然後從自心中。安想金剛
+<lb n="0465c04"/>薩埵文字之相。復想其字即成五股白色淨
+<lb n="0465c05"/>妙周匝光焰大金剛杵復次如前依法安想祕
+<lb n="0465c06"/>密文字。然後乃結薩埵金剛印。當結印時。先
+<lb n="0465c07"/>當誦是心大明曰</p>
+<lb n="0465c08"/><p type="dharani">唵<note place="inline">引</note>三摩<anchor id="fxT18p0465c01"/>邪薩怛網<note place="inline">三合一句</note></p>
+<lb n="0465c09"/><p>其薩埵金剛印者謂以二手作圓月相。二中
+<lb n="0465c10"/>指相離。餘指面相著。如金剛杵相成印。結是
+<lb n="0465c11"/>印時誦此大明曰</p>
+<lb n="0465c12"/><p type="dharani">唵<note place="inline">引</note>底瑟&CB00109;<note place="inline">二合</note>&CB00085;日囉<note place="inline">二合</note>捺哩<note place="inline">二合</note>除<note place="inline">引</note>彌<note place="inline">引</note>
+<lb n="0465c13"/>婆&CB00085;<note place="inline">一<note n="0465003" resp="Taisho" type="orig" place="foot text">〔句〕－【明】＊</note><app n="0465003"><lem>句</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>蘇&CB00418;<note place="inline">引</note>沙踰<note place="inline">二合引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">二</note>阿努囉
+<lb n="0465c14"/>訖&CB00418;<note place="inline">二合引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">三</note>舍<note place="inline">引</note>說&CB00418;<note place="inline">引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">四</note>蘇
+<lb n="0465c15"/>布<note place="inline">引</note>沙踰<note place="inline">二合引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">五</note><note n="0465004" resp="Taisho" type="orig" place="foot text">紇＝訖【三】【宮】</note><note n="0465004" resp="CBETA" type="mod">紇＝訖【宋】【元】【明】【宮】</note><app n="0465004"><lem>紇</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">訖</rdg></app>哩<note place="inline">二合</note>捺煬彌<note place="inline">引</note>
+<lb n="0465c16"/>提底瑟吒<note place="inline">二合</note><note place="inline">六</note>薩哩&CB00085;<note place="inline">二合</note>悉提孕<note place="inline">二合</note>彌<note place="inline">引</note>&CB00425;
+<lb n="0465c17"/>囉<note place="inline">二合</note>野蹉<note place="inline">七</note>薩哩&CB00085;<note place="inline">二合</note>羯哩彌<note place="inline">二合引</note>數左<note place="inline">八</note>
+<lb n="0465c18"/><note n="0465005" resp="Taisho" type="orig" place="foot text">爾＝彌【三】</note><note n="0465005" resp="CBETA" type="mod">爾＝彌【宋】【元】【明】</note><app n="0465005"><lem>爾</lem><rdg wit="【宋】【元】【明】" resp="Taisho">彌</rdg></app>唧多室哩<note place="inline">二合引</note>野俱嚕吽<note place="inline">引</note><note place="inline">九</note>訶訶訶訶
+<lb n="0465c19"/>呼<note place="inline">引</note><note place="inline">十</note></p>
+<lb n="0465c20"/><p>如是大明即本尊法此中具有四禮敬印。所
+<lb n="0465c21"/>謂心印誓誡心印。大乘現前三昧心印。妙金
+<lb n="0465c22"/>剛智天眼智等五通心印。是諸印門總攝如
+<lb n="0465c23"/>來堅固之性。金剛加持離諸怖畏能成一切
+<lb n="0465c24"/>最上成就。所有一切適悅快樂諸正受等一
+<lb n="0465c25"/>切總持門等。乃至一切如來真實性等。總攝
+<lb n="0465c26"/>自心。悉得安住金剛加持身語心業。然後取
+<lb n="0465c27"/>以繒帛而為其鬘。安自頂上誦此心明曰</p>
+<lb n="0465c28"/><p type="dharani">&CB00425;囉<note place="inline">二合</note>帝<note place="inline">引</note>蹉&CB00085;日囉<note place="inline">二合</note>呼<note place="inline">引一句</note></p>
+<lb n="0465c29"/><p>誦是心明而加持已。即於頂上作繫鬘相。旋
+<pb ed="T" id="T18.0884.0466a" n="0466a"/>
+<lb n="0466a01"/>覆其面。當繫鬘時隨應法儀。即阿闍梨為作
+<lb n="0466a02"/>是言。汝今受是祕密心明。此即勇猛大力世
+<lb n="0466a03"/>尊本來無性之法。得阿闍梨真實加持。而能
+<lb n="0466a04"/>善作一切事業。此即世尊大毘盧遮那如來
+<lb n="0466a05"/>所說。乃至諸佛及執金剛等所共攝受。授是
+<lb n="0466a06"/>言已除其繒帛。誦此大明曰</p>
+<lb n="0466a07"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>薩埵莎煬帝<note place="inline">引</note>禰野<note place="inline">二合一<anchor id="fxT18p0466a01"/>句</note>作芻
+<lb n="0466a08"/>訥伽<note place="inline">二合引</note>吒那怛咄&CB00425;<note place="inline">二合</note>囉<note place="inline">二</note>嗢訥伽<note place="inline">二合引</note>吒
+<lb n="0466a09"/>野底薩哩&CB00085;<note place="inline">二合引</note>芻<note place="inline">引</note><note place="inline">三</note>&CB00085;日囉<note place="inline">二合</note>作芻囉努
+<lb n="0466a10"/>多&CB00772;<note place="inline">四</note>係<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>&CB00425;舍<note place="inline">五</note></p>
+<lb n="0466a11"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<lb n="0466a12"/>遮那如來右月曼拏羅中。依止住已。說是伽
+<lb n="0466a13"/>陀伸讚歎曰</p>
+<lb n="0466a14"/><lg><l>快哉一切正覺尊</l><l>三摩地智無有上</l>
+<lb n="0466a15"/><l>所有一切諸眾生</l><l>由斯<note n="0466001" resp="Taisho" type="orig" place="foot text">二＝一【明】</note><app n="0466001"><lem>二</lem><rdg wit="【明】" resp="Taisho">一</rdg></app>法得成佛</l></lg>
+<lb n="0466a16"/><p>金剛手菩薩摩訶薩作是讚已。復白佛言世
+<lb n="0466a17"/>尊最初開目行相云何</p>
+<lb n="0466a18"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<lb n="0466a19"/>摩訶薩言。金剛手最初開目者。謂於自身大
+<lb n="0466a20"/>曼拏羅。如次觀視。當其觀是曼拏羅時。即得
+<lb n="0466a21"/>一切如來威力加持。於金剛薩埵心中如理
+<lb n="0466a22"/>而住。亦復得見種種光明勝曼拏羅。又復得
+<lb n="0466a23"/>&CB00418;廣大神通變化事等。由得如來所加持故。
+<lb n="0466a24"/>乃能見彼金剛手身。或復得見諸如來身</p>
+<lb n="0466a25"/><p>爾時會中無動菩薩摩訶薩。前詣世尊大毘
+<lb n="0466a26"/>盧遮那根本無性如來。右旋繞已作是白言。
+<lb n="0466a27"/>世尊云何是大曼拏羅。我於是中復云何
+<lb n="0466a28"/>行</p>
+<lb n="0466a29"/><p>爾時世尊大毘盧遮那如來。告無動菩薩摩
+<pb ed="T" id="T18.0884.0466b" n="0466b"/>
+<lb n="0466b01"/>訶薩言。大曼拏羅者。所謂即觀自身曼拏羅。
+<lb n="0466b02"/>如是觀已。即取金剛加持清淨香水。而為灌
+<lb n="0466b03"/>頂誦是心明曰</p>
+<lb n="0466b04"/><p type="dharani">&CB00085;日囉<note place="inline">二合引</note>毘詵左<note place="inline">一句</note></p>
+<lb n="0466b05"/><p>然後結繫鬘印。戴諸佛冠灌自心頂。繫鬘印
+<lb n="0466b06"/>者。先以二大指盤結於掌心。然後屈中指。與
+<lb n="0466b07"/>大指面合成印。此是如來部印。餘四部印亦
+<lb n="0466b08"/>然同用。其五部大明次第如是。大明曰</p>
+<lb n="0466b09"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>馱<note place="inline">引</note>怛尾<note place="inline">二合引</note>說哩吽<note place="inline">引</note>&CB00085;日
+<lb n="0466b10"/>哩<note place="inline">二合</note>尼<note place="inline">一句</note></p>
+<lb n="0466b11"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合</note>尼吽<note place="inline">引一句</note></p>
+<lb n="0466b12"/><p type="dharani">唵<note place="inline">引</note>囉怛那<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合</note>尼吽<note place="inline">引一句</note></p>
+<lb n="0466b13"/><p type="dharani">唵<note place="inline">引</note>&CB00425;訥摩<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合</note>尼吽<note place="inline">引一句</note></p>
+<lb n="0466b14"/><p type="dharani">唵<note place="inline">引</note>迦哩摩<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合</note>尼吽<note place="inline">引一句</note></p>
+<lb n="0466b15"/><p>如前所說作灌頂已。不改前印以二頭指。旋
+<lb n="0466b16"/>轉二度作縈繞相。即成四種繫鬘之印。於頂
+<lb n="0466b17"/>額喉及彼頂後四處繫鬘。次至兩耳還從頂
+<lb n="0466b18"/>後旋轉於前。徐徐而下即解其印。如和合音
+<lb n="0466b19"/>聲教中法儀堅固而作。又彼和合<note n="0466002" resp="Taisho" type="orig" place="foot text">音＝奇【元】【明】</note><app n="0466002"><lem>音</lem><rdg wit="【元】【明】" resp="Taisho">奇</rdg></app>聲教中
+<lb n="0466b20"/>說云。次當阿闍梨執金剛杵。依法安住已。乃
+<lb n="0466b21"/>為弟子發誓誡言</p>
+<lb n="0466b22"/><lg><l>汝今得受此</l><l>一切佛如來</l>
+<lb n="0466b23"/><l>勝祕密法中</l><l>金剛灌頂已</l>
+<lb n="0466b24"/><l>授汝金剛杵</l><l>善作諸成就</l>
+<lb n="0466b25"/><l>而彼諸如來</l><l>由此得成佛</l></lg>
+<lb n="0466b26"/><p>復授大明曰</p>
+<lb n="0466b27"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合引</note>提&CB00425;底埵<note place="inline">引一<anchor id="fxT18p0466b01"/>句</note>末毘詵左<note place="inline">引</note>
+<lb n="0466b28"/>彌<note place="inline">二</note>底瑟&CB00109;<note place="inline">二合</note>&CB00085;日囉<note place="inline">二合</note>三摩<anchor id="fxT18p0466b02"/>邪薩怛
+<lb n="0466b29"/>&CB00680;<note n="0466003" resp="Taisho" type="orig" place="foot text">三合三＝二合二【宋】【元】【宮】，二合三【明】</note><note n="0466003" resp="CBETA" type="mod">三合三＝二合二【宋】【元】【宮】，＝二合三【明】</note><app n="0466003"><lem><note place="inline">三合三</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">二合二</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">二合三</note></rdg></app></p>
+<pb ed="T" id="T18.0884.0466c" n="0466c"/>
+<lb n="0466c01"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<lb n="0466c02"/>遮那如來右月曼拏羅中。依止住已作是白
+<lb n="0466c03"/>言。世尊云何是自金剛杵</p>
+<lb n="0466c04"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<lb n="0466c05"/>摩訶薩言。金剛手自金剛杵者。即是如來金
+<lb n="0466c06"/>剛杵。十二指量五股而作善妙之相。無其光
+<lb n="0466c07"/>焰金等所成。其金剛薩埵金剛杵者。不定分
+<lb n="0466c08"/>量五股而作。有其威猛熾盛光焰&CB00425;訥摩囉
+<lb n="0466c09"/>&CB00344;等諸寶所成。其金剛王等大執金剛者。及
+<lb n="0466c10"/>金剛忿怒金剛藥叉等。如是諸杵皆十二指
+<lb n="0466c11"/>量三分亭等。五股而作銳利之相。此等杵相。
+<lb n="0466c12"/>如大乘現證三昧教中及降三世教中廣說。
+<lb n="0466c13"/>此中略指。瑜伽行者知杵相已。然後乃名已
+<lb n="0466c14"/>受金剛大灌頂者。復次大明曰</p>
+<lb n="0466c15"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>薩埵末毘詵左<note place="inline">引</note>彌<note place="inline">引一<anchor id="fxT18p0466c01"/>句</note>&CB00085;日
+<lb n="0466c16"/>囉<note place="inline">二合</note>那<note place="inline">引</note>莫毘施<note place="inline">引</note>迦多<note place="inline">二</note>呬<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>
+<lb n="0466c17"/>那<note place="inline">引</note>莫<note place="inline">三</note>拽寫拽他<note place="inline">引</note>那<note place="inline">引</note>莫帝<note place="inline">引</note>那<note place="inline">四</note>怛吐<note place="inline">引</note>
+<lb n="0466c18"/>佐<note place="inline">引</note>囉曳<note n="0466004" resp="Taisho" type="orig" place="foot text">&CB00819;＝怛【三】</note><note n="0466004" resp="CBETA" type="mod"><corr sic="＆CB00819；" resp="CBETA.Maha">&CB02487;</corr>＝怛【宋】【元】【明】</note><app n="0466004"><lem>&CB02487;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">怛</rdg></app>咩<note place="inline">五</note></p>
+<lb n="0466c19"/><p>受灌頂已。然可得受諸佛成就大金剛杵。復
+<lb n="0466c20"/>次頌曰</p>
+<lb n="0466c21"/><lg><l>汝常持此金剛杵</l><l>即金剛手堅固戒</l>
+<lb n="0466c22"/><l>金剛薩埵勝修中</l><l>一切由斯得成佛</l></lg>
+<lb n="0466c23"/><p>復次大明曰</p>
+<lb n="0466c24"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;多悉提<note place="inline">一<anchor id="fxT18p0466c02"/>句</note>&CB00085;日
+<lb n="0466c25"/>囉<note place="inline"><note n="0466005" resp="Taisho" type="orig" place="foot text">二＝一【三】【宮】</note><note n="0466005" resp="CBETA" type="mod">二＝一【宋】【元】【明】【宮】</note><app n="0466005"><lem>二</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">一</rdg></app>合</note>三摩曳<note place="inline">引</note>底瑟&CB00109;<note n="0466006" resp="Taisho" type="orig" place="foot text">二合二＝一合【宋】【元】【宮】，二合【明】</note><note n="0466006" resp="CBETA" type="mod">二合二＝一合【宋】【元】【宮】，＝二合【明】</note><app n="0466006"><lem><note place="inline">二合</note><note place="inline">二</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">一合</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">二合</note></rdg></app>伊沙埵<note place="inline">引</note>馱<note place="inline">引</note>
+<lb n="0466c26"/>囉夜<note place="inline"><note n="0466007" resp="Taisho" type="orig" place="foot text">引＋（二）【明】</note><app n="0466007"><lem>引</lem><rdg wit="【明】" resp="Taisho">引二</rdg></app></note>彌&CB00085;日囉<note place="inline">二合</note>薩埵<note place="inline">三</note>呬呬呬呬吽<note place="inline">引</note><note place="inline">四</note></p>
+<lb n="0466c27"/><p>然後從普賢心安布大印三昧。隨說如是心
+<lb n="0466c28"/>大明曰</p>
+<lb n="0466c29"/><p type="dharani">摩賀<note place="inline">引</note>三摩<anchor id="fxT18p0466c03"/>邪薩埵三摩<anchor id="fxT18p0466c04"/>邪薩怛&CB00680;<note place="inline">三合一<anchor id="fxT18p0466c05"/>句</note>摩
+<pb ed="T" id="T18.0884.0467a" n="0467a"/>
+<lb n="0467a01"/>賀<note place="inline">引</note>三摩<anchor id="fxT18p0467a01"/>邪薩都<note place="inline">引</note>&CB00780;<note place="inline">二</note>摩賀<note place="inline">引</note>三摩<anchor id="fxT18p0467a02"/>邪薩
+<lb n="0467a02"/>埵<note place="inline">引</note>提底瑟&CB00109;<note place="inline">二合</note>莎&CB00805;<note place="inline">引</note><note place="inline">三</note></p>
+<lb n="0467a03"/><p>如是印明。執金剛等諸菩薩眾。皆悉於彼諸
+<lb n="0467a04"/>印真實大三昧中同一成就</p>
+<lb n="0467a05"/><p>復次身語心金剛所成心大明曰</p>
+<lb n="0467a06"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>薩埵三摩<anchor id="fxT18p0467a03"/>邪末努播<note place="inline">引</note>羅
+<lb n="0467a07"/><anchor id="fxT18p0467a04"/>邪<note place="inline">一<anchor id="fxT18p0467a05"/>句</note>&CB00085;日囉<note place="inline">二合</note>薩埵堆<note place="inline">引</note>奴<note place="inline">引</note>&CB00425;底瑟
+<lb n="0467a08"/>&CB00109;<note place="inline">二合</note><note place="inline">二</note>捺哩<note place="inline">二合</note>除<note place="inline">引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">三</note>蘇&CB00418;<note place="inline">引</note>沙踰<note place="inline">二合
+<lb n="0467a09"/>引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">四</note>阿努囉訖&CB00418;<note place="inline">二合引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">五</note>蘇
+<lb n="0467a10"/>布<note place="inline">引</note>沙踰<note place="inline">二合引</note>彌<note place="inline">引</note>婆&CB00085;<note place="inline">六</note>薩哩&CB00085;<note place="inline">二合</note>悉提孕<note place="inline">二
+<lb n="0467a11"/>合</note>彌<note place="inline">引</note>&CB00425;囉<note place="inline">二合</note>野蹉<note place="inline">七</note>薩哩&CB00085;<note place="inline">二合</note>葛哩摩<note place="inline">二合引</note>
+<lb n="0467a12"/>蘇左彌<note place="inline">引</note>唧多室利<note place="inline">二合引</note>煬酤嚕吽<note place="inline">八</note>訶訶訶訶
+<lb n="0467a13"/>呼<note place="inline">引</note><note place="inline">九</note>婆&CB00344;&CB00680;薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;多<note place="inline">十</note>&CB00085;日
+<lb n="0467a14"/>囉<note place="inline">二合</note>摩<note place="inline">引</note>彌<note place="inline">引</note>捫左&CB00085;日哩<note place="inline">二合引</note>婆&CB00085;<note place="inline">十一</note>摩
+<lb n="0467a15"/>賀<note place="inline">引</note>三摩<anchor id="fxT18p0467a06"/>邪薩埵阿<note place="inline">引</note><note place="inline">十二</note></p>
+<lb n="0467a16"/><p>如是身語心金剛所成心明章句。若誦一遍。
+<lb n="0467a17"/>即得自身語心金剛三業一切密印堅固成
+<lb n="0467a18"/>就。所有本尊等諸法用。於三部中或復二部
+<lb n="0467a19"/>當得成就。於現生中即得成佛。或成金剛手
+<lb n="0467a20"/>尊</p>
+<lb n="0467a21"/><juan fun="close" n="002"><jhead>佛說祕密相經卷中</jhead></juan>
+<lb n="0467a22"/>
+<milestone unit="juan" n="3"/>
+<lb n="0467a23"/>
+<lb n="0467a24"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>佛說祕密相經卷下</jhead></juan>
+<lb n="0467a25"/>
+<lb n="0467a26"/><byline type="Translator"><anchor id="fxT18p0467a07"/>西天<anchor id="fxT18p0467a08"/>譯經三藏朝奉大夫試光祿卿
+<lb n="0467a27"/>傳法大師<anchor id="fxT18p0467a09"/>賜紫沙門臣施護等
+<lb n="0467a28"/>奉　詔譯</byline>
+<lb n="0467a29"/><p>爾時金剛手菩薩摩訶薩。復於世尊大毘盧
+<pb ed="T" id="T18.0884.0467b" n="0467b"/>
+<lb n="0467b01"/>遮那如來本來無性法中。以尋求慧而請問
+<lb n="0467b02"/>言。世尊勝三摩地當云何修</p>
+<lb n="0467b03"/><p>爾時世尊大毘盧遮那如來。讚金剛手菩薩
+<lb n="0467b04"/>摩訶薩。即說頌曰</p>
+<lb n="0467b05"/><lg><l>善哉金剛大薩埵</l><l>善哉金剛眾妙寶</l>
+<lb n="0467b06"/><l>善哉金剛正法門</l><l>善哉金剛勝事業</l>
+<lb n="0467b07"/><l>善說此經祕密義</l><l>是即無上金剛乘</l>
+<lb n="0467b08"/><l>一切如來祕密中</l><l>大乘現證法皆攝</l></lg>
+<lb n="0467b09"/><p>佛言金剛手欲修三摩地者。先以金剛鉤印
+<lb n="0467b10"/>及大明鉤攝前住。次以金剛索印及大明而
+<lb n="0467b11"/>為引入。然以金剛鎖印及大明堅牢而住。後
+<lb n="0467b12"/>以金剛鈴印及大明而為警覺。作阿吠舍。彼
+<lb n="0467b13"/>彼大明曰</p>
+<lb n="0467b14"/><p type="dharani">&CB00085;日&CB00772;<note place="inline">二合引</note>酤舍&CB00763;<note place="inline">一<note n="0467001" resp="Taisho" type="orig" place="foot text">〔句〕－【明】</note><app n="0467001"><lem>句</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>&CB00085;日囉<note place="inline">二合</note>播<note place="inline">引</note>舍
+<lb n="0467b15"/>吽<note place="inline">引</note><note place="inline">二</note>&CB00085;日囉<note place="inline">二合引</note>塞普<note place="inline">二合引</note>吒&CB00680;<note place="inline">三</note>&CB00085;日
+<lb n="0467b16"/>囉<note place="inline">二合引</note>吠<note place="inline">引</note>舍阿<note place="inline">四</note></p>
+<lb n="0467b17"/><p>然後結本尊三昧<note n="0467002" resp="Taisho" type="orig" place="foot text">邪＝耶【三】＊</note><note n="0467002" resp="CBETA" type="mod">邪＝耶【宋】＊【元】＊【明】＊</note><app n="0467002"><lem>邪</lem><rdg wit="【宋】【元】【明】" resp="Taisho">耶</rdg></app>印。應當諦心觀想彼彼
+<lb n="0467b18"/>種子文字所謂</p>
+<lb n="0467b19"/><p type="dharani">&CB00763;<note place="inline"><note n="0467003" resp="Taisho" type="orig" place="foot text">入＋（聲）【明】</note><app n="0467003"><lem>入</lem><rdg wit="【明】" resp="Taisho">入聲</rdg></app></note>吽<note place="inline">引</note>&CB00680;呼<note place="inline">引</note></p>
+<lb n="0467b20"/><p>此即是修三摩地法</p>
+<lb n="0467b21"/><p>爾時金剛手菩薩摩訶薩。復住世尊大毘盧
+<lb n="0467b22"/>遮那如來前說。此頌曰</p>
+<lb n="0467b23"/><lg><l>快哉一切正覺尊</l><l>我說即是金剛手</l>
+<lb n="0467b24"/><l>而彼一切佛如來</l><l>既金剛乘無有上</l></lg>
+<lb n="0467b25"/><p>爾時金剛手菩薩摩訶薩。普遍觀察一切如
+<lb n="0467b26"/>來。皆悉同一真實住已。即於世尊大毘盧遮
+<lb n="0467b27"/>那如來右邊而住作是白言。世尊云何。是金
+<lb n="0467b28"/>剛杵</p>
+<lb n="0467b29"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<pb ed="T" id="T18.0884.0467c" n="0467c"/>
+<lb n="0467c01"/>摩訶薩言。即汝金剛手是為金剛杵</p>
+<lb n="0467c02"/><p>爾時會中聖觀自在菩薩摩訶薩。前白世尊
+<lb n="0467c03"/>大毘盧遮那如來言。世尊云何是蓮華</p>
+<lb n="0467c04"/><p>爾時世尊大毘盧遮那如來。告聖觀自在菩
+<lb n="0467c05"/>薩摩訶薩言。即汝蓮華手是名為蓮華</p>
+<lb n="0467c06"/><p>是時會中一切如來。皆悉合掌俱白世尊大
+<lb n="0467c07"/>毘盧遮那如來言。所說蓮華及金剛杵是義
+<lb n="0467c08"/>云何</p>
+<lb n="0467c09"/><p>爾時世<note n="0467004" resp="Taisho" type="orig" place="foot text">會＝尊【三】【宮】</note><note n="0467004" resp="CBETA" type="mod">會＝尊【宋】【元】【明】【宮】</note><app n="0467004"><lem>會</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">尊</rdg></app>大毘盧遮那如來。普謂一切如來
+<lb n="0467c10"/>言。當知祕密四種供養是為蓮華。彼蓮華上
+<lb n="0467c11"/>依法住者即金剛杵</p>
+<lb n="0467c12"/><p>爾時金剛手菩薩摩訶薩。為欲開示如是所
+<lb n="0467c13"/>說本來無性法故。復白世尊大毘盧遮那如
+<lb n="0467c14"/>來言。世尊云何是祕密四種供養</p>
+<lb n="0467c15"/><p>爾時世尊大毘盧遮那如來。告金剛手菩薩
+<lb n="0467c16"/>摩訶薩言。祕密四種供養者。謂金剛嬉戲本
+<lb n="0467c17"/>部大菩薩。彼於一切佛作大敬愛事。即彼如
+<lb n="0467c18"/>是出生金剛寶鬘。彼復出生金剛妙歌。彼復
+<lb n="0467c19"/>出生金剛旋舞。供養而住。從是四祕密中。出
+<lb n="0467c20"/>生一切佛菩薩等。復次應當觀想金剛嬉戲
+<lb n="0467c21"/>等本部大菩薩種子文字。所謂</p>
+<lb n="0467c22"/><p type="dharani">羅<note place="inline">引</note>摩<note place="inline">引</note>詣<note place="inline">引</note>涅哩<note place="inline">二合</note>度<note place="inline">引</note>布<note place="inline">引</note>吽<note place="inline">引</note>阿<note place="inline">引</note>阿&CB00418;
+<lb n="0467c23"/>囉<note place="inline">引</note>薩室哩<note place="inline">二合引</note>詣<note place="inline">引</note>吽<note place="inline">引</note>紇哩<note place="inline">二合引</note>勿&CB03313;<note place="inline">二合</note>宎
+<lb n="0467c24"/>&CB03313;<note place="inline">二合</note>&CB00780;彌<note place="inline">引</note><anchor id="fxT18p0467c01"/>邪羅摩</p>
+<lb n="0467c25"/><p>作是觀想時。即同一體性自身金剛杵。住於
+<lb n="0467c26"/>蓮華上而作敬愛事。作是敬愛時。得成無上
+<lb n="0467c27"/>佛菩提果。或成金剛手尊。或蓮華部大菩薩。
+<lb n="0467c28"/>或餘一切踰始多眾。當作和合相應法時。此
+<lb n="0467c29"/>菩薩等悉離一切罪垢染著。如是當知彼金
+<pb ed="T" id="T18.0884.0468a" n="0468a"/>
+<lb n="0468a01"/>剛部大菩薩入蓮華部中。與如來部而作敬
+<lb n="0468a02"/>愛。如是諸部大菩薩等。作是法時得妙快樂
+<lb n="0468a03"/>無滅無盡。然於所作法中無所欲想。何以故
+<lb n="0468a04"/>金剛手菩薩摩訶薩。以金剛杵破諸欲故。是
+<lb n="0468a05"/>故獲得一切踰始多無上祕密蓮華成就。復
+<lb n="0468a06"/>次頌曰</p>
+<lb n="0468a07"/><lg><l>或於空中或餘方</l><l>觀想蓮華妙等引</l>
+<lb n="0468a08"/><l>蓮華無上成就門</l><l>於現生中得成就</l></lg>
+<lb n="0468a09"/><p>爾時世尊大毘盧遮那如來。又復宣說金剛
+<lb n="0468a10"/>嬉戲等祕密供養。頌曰</p>
+<lb n="0468a11"/><lg><l>諸菩薩中勝菩薩</l><l>金剛嬉戲大名稱</l>
+<lb n="0468a12"/><l>寶鬘妙歌勝亦然</l><l>金剛旋舞妙等引</l>
+<lb n="0468a13"/><l>如是祕密四菩薩</l><l>是即金剛密供養</l>
+<lb n="0468a14"/><l>供養一切佛如來</l><l>依法常作敬愛事</l></lg>
+<lb n="0468a15"/><p>復次依法。安想祕密菩薩種子文字。所謂</p>
+<lb n="0468a16"/><p type="dharani">多阿<note place="inline">引</note>羅&CB00085;摩<note place="inline">引</note>&CB00344;摩涅哩<note place="inline">二合</note>摩<note place="inline">引</note>度<note place="inline">引</note>阿<note place="inline">引</note>
+<lb n="0468a17"/>&CB00085;日&CB00772;<note place="inline">二合</note></p>
+<lb n="0468a18"/><p>復次頌曰</p>
+<lb n="0468a19"/><lg><l>想時當結三叉印</l><l>金剛杵安蓮華上</l>
+<lb n="0468a20"/><l>金剛嬉戲等法門</l><l>成就故得無盡樂</l></lg>
+<lb n="0468a21"/><p>復次當知祕密供養法者。是即觀自在菩薩
+<lb n="0468a22"/>三摩地門。於是門中。即攝金剛嬉戲菩薩所
+<lb n="0468a23"/>有多羅菩薩及顰眉菩薩。即同一體而無差
+<lb n="0468a24"/>別。左現愛相<note n="0468001" resp="Taisho" type="orig" place="foot text">哆＝多【三】</note><note n="0468001" resp="CBETA" type="mod">哆＝多【宋】【元】【明】</note><app n="0468001"><lem>哆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">多</rdg></app>羅菩薩於左邊住。右現愛相
+<lb n="0468a25"/>顰眉菩薩於右邊住。是諸菩薩於一切處同
+<lb n="0468a26"/>一相應。最上敬愛祕密成就</p>
+<lb n="0468a27"/><p>爾時金剛手菩薩摩訶薩。即入一切如來蓮
+<lb n="0468a28"/>華金剛部三摩地。從是三摩地出已。向諸如
+<lb n="0468a29"/>來說此頌曰</p>
+<pb ed="T" id="T18.0884.0468b" n="0468b"/>
+<lb n="0468b01"/><lg><l>大哉最上祕密法</l><l>所謂蓮華中安住</l>
+<lb n="0468b02"/><l>一切成就剎那成</l><l>乃至無上菩提果</l></lg>
+<lb n="0468b03"/><p>爾時聖觀自在菩薩摩訶薩。說此頌曰</p>
+<lb n="0468b04"/><lg><l>大哉一切佛如來</l><l>清淨蓮華愛無上</l>
+<lb n="0468b05"/><l>於無我中我手持</l><l>蓮華中住蓮華相</l></lg>
+<lb n="0468b06"/><p>爾時世尊大毘盧遮那如來。為諸如來說此
+<lb n="0468b07"/>頌曰</p>
+<lb n="0468b08"/><lg><l>諦聽一切諸如來</l><l>諸佛大智無有上</l>
+<lb n="0468b09"/><l>祕密供養法相應</l><l>利益眾生作成就</l>
+<lb n="0468b10"/><l>金剛嬉戲相應行</l><l>我心堅固無所動</l>
+<lb n="0468b11"/><l>金剛寶鬘及妙歌</l><l>旋舞供養亦如是</l>
+<lb n="0468b12"/><l>所有祕密敬愛事</l><l>如是法儀勝無上</l>
+<lb n="0468b13"/><l>此祕密中依法行</l><l>即得諸佛施歡喜</l></lg>
+<lb n="0468b14"/><p>復說祕密種子文字所謂</p>
+<lb n="0468b15"/><p type="dharani">唵<note place="inline">引</note>野<note place="inline">引</note>阿囉&CB00344;&CB00418;婆&CB00085;日哩<note place="inline">二合引</note>摩尼&CB00425;訥
+<lb n="0468b16"/>摩<note place="inline">二合</note></p>
+<lb n="0468b17"/><p>爾時金剛手菩薩摩訶薩。復白世尊大毘盧
+<lb n="0468b18"/>遮那如來言。世尊戲鬘歌舞四種祕密行相
+<lb n="0468b19"/>云何</p>
+<lb n="0468b20"/><p>爾時世尊大毘盧遮那如來。讚金剛手菩薩
+<lb n="0468b21"/>摩訶薩言。善哉善哉金剛手。汝今善問祕密
+<lb n="0468b22"/>行相。我今為汝如理開示。或有大士愛樂嬉
+<lb n="0468b23"/>戲祕密行相。或有大士愛樂寶鬘祕密行相。
+<lb n="0468b24"/>或有大士愛樂妙歌祕密行相。或有大士愛
+<lb n="0468b25"/>樂旋舞祕密行相。或有大士普遍愛樂戲鬘
+<lb n="0468b26"/>歌舞祕密行相。如是一切祕密行相中起愛
+<lb n="0468b27"/>樂時。隨所樂心即入如來三摩地金剛蓮華
+<lb n="0468b28"/>相應法中。獲得無上祕密成就</p>
+<lb n="0468b29"/><p>爾時金剛手菩薩摩訶薩。前詣佛所右膝著
+<pb ed="T" id="T18.0884.0468c" n="0468c"/>
+<lb n="0468c01"/>地。恭敬頂禮而白佛言。世尊若有正士大法
+<lb n="0468c02"/>器者。應當於是祕密供養相應法中如理修
+<lb n="0468c03"/>學。彼能成就一切事業。乃至得成佛無上智。
+<lb n="0468c04"/>況復餘法有不成者</p>
+<lb n="0468c05"/><p>爾時世尊大毘盧遮那如來。即入諸佛大智
+<lb n="0468c06"/>三昧加持安住三摩地。從是三摩地出已。即
+<lb n="0468c07"/>結金剛嬉戲大菩薩祕密智印。復為攝集。令
+<lb n="0468c08"/>金剛手菩薩摩訶薩。表示祕密神通行相。謂
+<lb n="0468c09"/>本所有一真法性。從是出生諸菩薩等。從吽
+<lb n="0468c10"/>字等而為大智。由此即生金剛嬉戲祕密菩
+<lb n="0468c11"/>薩。及持明藏一切賢聖。是諸賢聖皆悉同本
+<lb n="0468c12"/>一真法性</p>
+<lb n="0468c13"/><p>爾時金剛手菩薩摩訶薩。受世尊大毘盧遮
+<lb n="0468c14"/>那如來教&CB00330;已。即說祕密行相。所謂依如來
+<lb n="0468c15"/>部金剛印成就廣大儀軌中法用。若作持誦
+<lb n="0468c16"/>時。當不動舌端。唇齒二相合離諸音聲。但以
+<lb n="0468c17"/>金剛語音而為持誦。即能成就一切儀軌。此
+<lb n="0468c18"/>說即是金剛語菩薩法。復次金剛部祕密印
+<lb n="0468c19"/>成就廣大儀軌中法用。謂以自身金剛杵。入
+<lb n="0468c20"/>一切相應賢聖真法性中。祕密行人作是法
+<lb n="0468c21"/>時。即得一切事業成就。此說即是金剛薩埵
+<lb n="0468c22"/>菩薩法。復次金剛部祕密印成就廣大儀軌
+<lb n="0468c23"/>中法用。謂諸所欲得佛世尊究竟真常。常施
+<lb n="0468c24"/>一切眾生妙樂。復能成就一切事業。此說即
+<lb n="0468c25"/>是金剛手菩薩法</p>
+<lb n="0468c26"/><p>爾時金剛手菩薩摩訶薩。復白一切如來言。
+<lb n="0468c27"/>如來善聽此祕密智勝無有上。若欲得成諸
+<lb n="0468c28"/>佛身者。應當寂靜住等引心。入一切如來智
+<lb n="0468c29"/>三摩地。從是三摩地出已得成佛身。即能成
+<pb ed="T" id="T18.0884.0469a" n="0469a"/>
+<lb n="0469a01"/>就諸三摩地法。所謂劍成就三摩地。藥叱尼
+<lb n="0469a02"/>成就三摩地。一切執曜阿吠舍成就三摩地。
+<lb n="0469a03"/>遣除一切執曜三摩地。破一切惡三摩地。持
+<lb n="0469a04"/>明人三摩地。神通成就三摩地。財寶成就三
+<lb n="0469a05"/>摩地。入脩羅宮成就三摩地。常得國王及王
+<lb n="0469a06"/>眷屬愛念成就三摩地。此如是等有無數種
+<lb n="0469a07"/>三摩地法。及祕密章句中今此四種祕密供
+<lb n="0469a08"/>養。而為最上金剛部大菩薩。與<note n="0469001" resp="Taisho" type="orig" place="foot text">菩薩＝金剛【三】</note><note n="0469001" resp="CBETA" type="mod">菩薩＝金剛【宋】【元】【明】</note><app n="0469001"><lem>菩薩</lem><rdg wit="【宋】【元】【明】" resp="Taisho">金剛</rdg></app>嬉戲等
+<lb n="0469a09"/>如理相應。金剛嬉戲者。此說即是和合出生
+<lb n="0469a10"/>之義。而此菩薩一切所欲。得諸如來常施歡
+<lb n="0469a11"/>喜。即此金剛嬉戲菩薩為增勝主常。於一切
+<lb n="0469a12"/>如來而生歡喜</p>
+<lb n="0469a13"/><p>復次祕密種子文字所謂</p>
+<lb n="0469a14"/><p type="dharani">野部<note place="inline">引</note>骨嚕<note place="inline">二合</note>卒魯<note place="inline">二合</note>阿<note place="inline">引</note>莎<note place="inline">引</note>剎呼<note place="inline">引</note>&CB00763;
+<lb n="0469a15"/>吽<note place="inline">引</note>&CB00680;&CB00805;<note place="inline">引</note></p>
+<lb n="0469a16"/><p>此等文字。即是金剛嬉戲本部大菩薩。與金
+<lb n="0469a17"/>剛蓮華二法相應。即此金剛而為警覺。所有
+<lb n="0469a18"/>蓮華即觀自在菩薩三摩地門。而彼蓮華離
+<lb n="0469a19"/>諸所著。以金剛鎖堅牢而住。於諸所動相應
+<lb n="0469a20"/>平等。而常不離三摩呬多。然後同一真實吽
+<lb n="0469a21"/>字智門出敬愛事而能成就一切事業。此說
+<lb n="0469a22"/>即是金剛手菩薩法</p>
+<lb n="0469a23"/><p>爾時聖觀自在菩薩摩訶薩白諸如來言。所
+<lb n="0469a24"/>有金剛杵住於蓮華上。彼金剛杵及與蓮華。
+<lb n="0469a25"/>二法和合相應成就。獲得妙樂無滅無盡</p>
+<lb n="0469a26"/><p>爾時金剛手菩薩摩訶薩。住於世尊大毘盧
+<lb n="0469a27"/>遮那如來前作是白言。世尊彼金剛杵云何
+<lb n="0469a28"/>能住於蓮華上。此金剛杵及與蓮華。作用行
+<lb n="0469a29"/>相復云何說。世尊此理甚深。我於是義不能
+<pb ed="T" id="T18.0884.0469b" n="0469b"/>
+<lb n="0469b01"/>解了</p>
+<lb n="0469b02"/><p>爾時世尊大毘盧遮那如來。讚金剛手菩薩
+<lb n="0469b03"/>摩訶薩言。善哉善哉金剛手。汝今當知彼金
+<lb n="0469b04"/>剛杵住蓮華上者。為欲利樂廣大饒益。施作
+<lb n="0469b05"/>諸佛最勝<note n="0469002" resp="Taisho" type="orig" place="foot text">〔事〕－【三】【宮】</note><note n="0469002" resp="CBETA" type="mod">〔事〕－【宋】【元】【明】【宮】</note><app n="0469002"><lem>事</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>業。是故於彼清淨蓮華之中。而
+<lb n="0469b06"/>金剛杵住於其上。乃入彼中發起金剛真實
+<lb n="0469b07"/>持誦。然後金剛及彼蓮華二事相擊。成就二
+<lb n="0469b08"/>種清淨乳相。一謂金剛乳相。二謂蓮華乳相。
+<lb n="0469b09"/>於二相中出生一大菩薩善妙之相。次復出
+<lb n="0469b10"/>生一大菩薩猛惡之相。菩薩所現二種相者。
+<lb n="0469b11"/>但為調伏利益一切眾生。由此出生一切賢
+<lb n="0469b12"/>聖。成就一切殊勝事業</p>
+<lb n="0469b13"/><p>爾時金剛手菩薩摩訶薩復白佛言。世尊何
+<lb n="0469b14"/>者是乳相。復從何生起。唯願世尊顯明開
+<lb n="0469b15"/>示</p>
+<lb n="0469b16"/><p>爾時世尊告金剛手菩薩摩訶薩言。即汝金
+<lb n="0469b17"/>剛手所有最勝祕密供養。是即乳相從<note n="0469003" resp="Taisho" type="orig" place="foot text">是＝根【明】</note><app n="0469003"><lem>是</lem><rdg wit="【明】" resp="Taisho">根</rdg></app>生
+<lb n="0469b18"/>起。金剛手菩薩摩訶薩復白佛言。世尊我不
+<lb n="0469b19"/>解佛所說義。佛言金剛手當知乳相者即是
+<lb n="0469b20"/>本真相。如祕密降三世教中所說</p>
+<lb n="0469b21"/><p>爾時世尊大毘盧遮那如來。普攝金剛手等
+<lb n="0469b22"/>一切菩薩。同一真實同一出生。都成為一金
+<lb n="0469b23"/>剛薩埵之身。告諸如來言。今此所說祕密供
+<lb n="0469b24"/>養等祕密行相。但為警覺邪外之眾故。佛菩
+<lb n="0469b25"/>薩隱密而說。是時所現金剛薩埵身與本部
+<lb n="0469b26"/>菩薩。同住正見出生敬愛。唯以金剛縛而普
+<lb n="0469b27"/>攝已。所有本部大菩薩等。同處于左根本之
+<lb n="0469b28"/>位住蓮華中。以金剛杵開覺蓮華。而悉同一
+<lb n="0469b29"/>三昧相應</p>
+<pb ed="T" id="T18.0884.0469c" n="0469c"/>
+<lb n="0469c01"/><p>爾時本部大菩薩眾。得開覺已即說頌曰</p>
+<lb n="0469c02"/><lg><l>快哉一切正覺尊</l><l>我所敬愛施妙樂</l>
+<lb n="0469c03"/><l>唯此妙樂外無餘</l><l>而能成就祕密法</l></lg>
+<lb n="0469c04"/><p>爾時世尊大毘盧遮那如來。即說頌曰</p>
+<lb n="0469c05"/><lg><l>快哉妙樂無有上</l><l>諸有正士應當修</l>
+<lb n="0469c06"/><l>今此祕密妙法門</l><l>有罪染者不應受</l>
+<lb n="0469c07"/><l>祕密蓮華此無上</l><l>金剛嬉戲即彼法</l>
+<lb n="0469c08"/><l>金剛蓮華教亦然</l><l>總攝毘盧遮那智</l></lg>
+<lb n="0469c09"/><p>世尊大毘盧遮那如來說是頌時。有無數百
+<lb n="0469c10"/>千殊妙瑞相一時出現</p>
+<lb n="0469c11"/><juan fun="close" n="003"><jhead>佛說祕密相經卷下</jhead></juan></div1>
+</body></text></TEI.2>

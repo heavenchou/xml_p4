@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T21n1255b.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1255b 佛說摩利支天經</title>
+			<author>唐 不空譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:28 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 21, No. 1255b &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, CBETA OCR Group</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，CBETA 自行掃瞄辨識</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000131/09:31:31</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/05)</item>
+	</change>
+<!--
+$Log: T21n1255b.xml,v $
+Revision 1.1  2003/05/05 04:09:28  ray
+Initial revision
+
+Revision 1.15  2002/11/28 10:06:37  saywhat
+校勘插入處理
+
+Revision 1.14  2002/11/04 10:46:13  ray
+tei.2 => TEI.2
+
+Revision 1.13  2002/10/07 13:13:02  moved
+modified
+
+Revision 1.12  2002/07/29 09:57:20  vinking
+modified lang
+
+Revision 1.11  2002/04/08 09:07:13  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.10  2001/11/05 06:14:15  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.9  2001/07/27 07:12:34  ray
+去除多餘的 <author>
+
+Revision 1.8  2001/07/24 06:53:39  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.7  2001/03/30 05:57:29  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.6  2001/03/25 09:18:36  ray
+add <milestone>
+
+Revision 1.5  2001/02/07 06:57:25  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.4  2001/02/03 07:47:18  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:28 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T21.1255b.0260b" n="0260b"/>
+<lb n="0260b01"/>
+<milestone unit="juan" n="1"/>
+<lb n="0260b02"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0260001" resp="Taisho" type="orig" place="foot text">【原】明本，【甲】黃檗版淨嚴等加筆本，此經與麗本大異故別載之</note><title>佛說摩利支天經</title></jhead></juan>
+<lb n="0260b03"/>
+<lb n="0260b04"/><byline type="Translator">唐三藏沙門大廣智
+<lb n="0260b05"/>不空奉　詔譯</byline>
+<lb n="0260b06"/><div1 type="jing"><p>如是我聞。一時薄伽梵。在室羅筏城逝多
+<lb n="0260b07"/>林給孤獨園。爾時世尊告諸苾芻有天女
+<lb n="0260b08"/>名摩利支。有大神通自在之力。常行日<note n="0260002" resp="Taisho" type="orig" place="foot text">〔月〕－【甲】</note><app n="0260002"><lem>月</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>
+<lb n="0260b09"/>天前。日天<note n="0260003" resp="Taisho" type="orig" place="foot text">〔月天〕－【甲】</note><app n="0260003"><lem>月天</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>不能見彼。彼能見日。無
+<lb n="0260b10"/>人能見無人能知。無人能捉無人能縛。無
+<lb n="0260b11"/>人能害無人能欺誑。無人能<note n="0260004" resp="Taisho" type="orig" place="foot text">債＝責【甲】＊，善&M062403;【甲】，〔責〕－&M062403;【甲】</note><note n="0260004" resp="CBETA" type="mod"><todo type="i"/>債＝責【甲】＊，＝善&M062403;【甲】，〔責〕－&M062403;【甲】</note><app n="0260004"><lem>債</lem><rdg wit="【甲】" resp="Taisho">責</rdg><rdg wit="【？】" resp="【甲】">善</rdg></app>其財物。無
+<lb n="0260b12"/>人能責罰。不為怨家能得其便。佛告諸苾
+<lb n="0260b13"/>芻。若有知彼摩利支天名常憶念者。彼人
+<lb n="0260b14"/>亦不可見亦不可知。亦不可捉亦不可縛。
+<lb n="0260b15"/>亦不可害亦不可欺誑。亦不為人<anchor id="fxT21p0260b01"/>債其財
+<lb n="0260b16"/>物。亦不為人之所責罰。亦不為怨家能得
+<lb n="0260b17"/>其便。若有善男子善女人。知彼摩利支天
+<lb n="0260b18"/>名求加護者。應作是言。我<note place="inline">某甲</note>知摩利支天
+<lb n="0260b19"/>母有大神力。我今歸命願護我身。無人能
+<lb n="0260b20"/>見我無人能知。我無人能捉我無人能縛。
+<lb n="0260b21"/>我無人能害我無人能欺誑我。無人能<anchor id="fxT21p0260b02"/>債
+<lb n="0260b22"/>我財物。無人能責罰。我亦不為怨家能得
+<lb n="0260b23"/>其便。爾時世尊說陀羅尼曰</p>
+<lb n="0260b24"/><p type="dharani">曩謨<note place="inline">引</note>囉怛曩<note place="inline">二合</note>怛囉<note place="inline">二合</note><note n="0260005" resp="Taisho" type="orig" place="foot text">夜＋（引）細註【甲】</note><app n="0260005"><lem>夜</lem><rdg wit="【甲】" resp="Taisho">夜<note place="inline">引</note></rdg></app>野<note place="inline">一</note>怛&CB00135;也
+<lb n="0260b25"/><note place="inline">二合</note>他<note place="inline">去聲引二</note>遏迦<note n="0260006" resp="Taisho" type="orig" place="foot text">麼＋（鼻聲）細註【甲】＊</note><app n="0260006"><lem>麼</lem><rdg wit="【甲】" resp="Taisho">麼<note place="inline">鼻聲</note></rdg></app>枲<note place="inline"><note n="0260007" resp="Taisho" type="orig" place="foot text">〔鼻聲已下同〕－【甲】</note><app n="0260007"><lem>鼻聲已下同</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>三</note>沫迦<anchor id="fxT21p0260b03"/>麼枲<note place="inline">四</note>
+<lb n="0260b26"/>阿<note place="inline">上聲</note>度<note place="inline">引</note><anchor id="fxT21p0260b04"/>麼枲<note place="inline">五</note>紫<note place="inline">精以切引</note>&CB00425;囉<anchor id="fxT21p0260b05"/>麼枲<note place="inline">六</note>摩
+<lb n="0260b27"/>訶紫&CB00425;囉<anchor id="fxT21p0260b06"/>麼枲<note place="inline">七</note>頞怛馱<note place="inline">引</note>曩<anchor id="fxT21p0260b07"/>麼枲<note place="inline">八</note>麼<note place="inline">鼻聲
+<lb n="0260b28"/>引</note>哩<note place="inline">引</note>紫野<anchor id="fxT21p0260b08"/>麼枲<note place="inline">九</note>曩謨<note place="inline">引</note>娑&CB00418;<note place="inline">二合</note>帝<note place="inline">十</note>囉
+<lb n="0260b29"/><note place="inline">轉舌</note>乞灑<note place="inline">二合</note>囉乞灑<note place="inline">二合</note>&CB00805;<note place="inline">引十一</note>薩&CB00085;薩怛&CB00085;
+<pb ed="T" id="T21.1255b.0260c" n="0260c"/>
+<lb n="0260c01"/><note place="inline">二合引</note>難<note place="inline">上聲</note>左<note place="inline">十二</note>薩&CB00085;怛囉<note place="inline">二合十三</note>薩&CB00085;婆<note place="inline">去聲</note>
+<lb n="0260c02"/>喻<note place="inline">引</note>&CB00425;捺囉<note place="inline">二合</note>吠<note place="inline">引</note>毘藥<note place="inline">二合</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引十
+<lb n="0260c03"/>四</note></p>
+<lb n="0260c04"/><p>心真言曰</p>
+<lb n="0260c05"/><p type="dharani">娜莫三<note place="inline">去聲</note>滿多沒馱<note place="inline">引</note>南<note place="inline">一</note>唵<note place="inline">引二</note>摩<note place="inline">鼻聲引</note>哩
+<lb n="0260c06"/><note place="inline">引</note>唧<note place="inline">引</note>娑&CB00085;<note place="inline">二合</note>賀<note place="inline">引三</note></p>
+<lb n="0260c07"/><p>爾時世尊說此陀羅尼已。告諸苾芻。若有
+<lb n="0260c08"/>受持此經法者。應作是願。王難中護我賊
+<lb n="0260c09"/>難中護我。行路難中護我於失道曠野中
+<lb n="0260c10"/>護我。水火難中護我刀兵軍陣難中護我。
+<lb n="0260c11"/>鬼神難中護我毒藥難中護我。惡獸難中
+<lb n="0260c12"/>護我毒蟲難中護我。一切怨家惡人難中
+<lb n="0260c13"/>護我。佛實語護我法實語護我僧實語護
+<lb n="0260c14"/>我。天實語護我仙人實語護我。<note n="0260008" resp="Taisho" type="orig" place="foot text">（於）＋一&M062403;【甲】</note><app n="0260008"><lem>一</lem><rdg wit="【？】" resp="【甲】">於一</rdg></app>切處一
+<lb n="0260c15"/>切時。願常護我弟子<note place="inline">某甲</note>莎&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note></p>
+<lb n="0260c16"/><p>佛告諸苾芻若善男子善女人苾芻苾芻
+<lb n="0260c17"/>尼。鄔波索迦鄔波斯迦。國王大臣一切人
+<lb n="0260c18"/>等有諸難時。但當至心誦此摩利<note n="0260009" resp="Taisho" type="orig" place="foot text">支＋（天）&M062403;【甲】</note><app n="0260009"><lem>支</lem><rdg wit="【？】" resp="【甲】">支天</rdg></app>陀羅
+<lb n="0260c19"/>尼。不待加功隨誦隨成。遠離諸難除不至
+<lb n="0260c20"/>心。持誦之時并結本印。以香塗手先結三
+<lb n="0260c21"/>部心印。二手內相叉為拳並&CB00594;二大拇指。
+<lb n="0260c22"/>是一切如來心印真言曰</p>
+<lb n="0260c23"/><p type="dharani">唵<note place="inline">引一</note>爾<note place="inline">惹以切</note>曩爾迦<note place="inline">半音二</note></p>
+<lb n="0260c24"/><p>次結<note n="0260010" resp="Taisho" type="orig" place="foot text">蓮＋（花）【甲】</note><app n="0260010"><lem>蓮</lem><rdg wit="【甲】" resp="Taisho">蓮花</rdg></app>部心印。即前印以左大拇指屈入
+<lb n="0260c25"/>掌。直&CB00594;右大拇指真言曰</p>
+<lb n="0260c26"/><p type="dharani">唵<note place="inline">引一</note>阿<note place="inline">去聲引</note>嚕<note place="inline">引</note>力迦<note place="inline">半音二</note></p>
+<lb n="0260c27"/><p>次結金剛部心印。即前印以右大拇指屈
+<lb n="0260c28"/>入掌直&CB00594;左大拇指真言曰</p>
+<lb n="0260c29"/><p type="dharani">唵<note place="inline">引一</note>&CB00085;日囉<note place="inline">二合</note>地力<note place="inline">二合</note>迦<note place="inline">半音二</note></p>
+<pb ed="T" id="T21.1255b.0261a" n="0261a"/>
+<lb n="0261a01"/><p>次結護身如來拳印。以右手屈大拇指橫
+<lb n="0261a02"/>於掌中。便以四指握大拇指為拳。以此拳
+<lb n="0261a03"/>印加持自身五處。先額右肩左肩心喉每
+<lb n="0261a04"/>處各誦真言一遍真言曰</p>
+<lb n="0261a05"/><p type="dharani">唵<note place="inline">引一</note>僕<note place="inline">引</note>入&CB00085;<note place="inline">二合</note>羅吽<note place="inline">引二</note></p>
+<lb n="0261a06"/><p>次結摩利支菩薩根本印。二小指二無名
+<lb n="0261a07"/>指。右押左內相叉。直&CB00594;二頭<note n="0261001" resp="Taisho" type="orig" place="foot text">指＋（頭）&M062403;【甲】</note><app n="0261001"><lem>指</lem><rdg wit="【？】" resp="【甲】">指頭</rdg></app>相捻。以
+<lb n="0261a08"/>二中指各繳頭指背。向前頭相拄。二大指
+<lb n="0261a09"/>並&CB00594;即成。結印當心。誦前摩利支身陀羅
+<lb n="0261a10"/>尼及心<note n="0261002" resp="Taisho" type="orig" place="foot text">（真言）＋各&M062403;【甲】</note><app n="0261002"><lem>各</lem><rdg wit="【？】" resp="【甲】">真言各</rdg></app>七遍。每遍屈二大拇指招之。亦
+<lb n="0261a11"/>名迎請印。兼以此印加持身五處。頂上散
+<lb n="0261a12"/>印</p>
+<lb n="0261a13"/><p>次結大三昧耶印。辟除結界。以右手大指
+<lb n="0261a14"/>捻小指甲上。餘三指直&CB00594;如三股杵形。左
+<lb n="0261a15"/>手作金剛拳按於心上。隨誦真言以右手
+<lb n="0261a16"/>印於頂上。左轉三匝辟除一切作障難者。
+<lb n="0261a17"/>便右旋三匝并揮上下。即成結十方界。一
+<lb n="0261a18"/>切天龍人非人等不能附近真言曰</p>
+<lb n="0261a19"/><p type="dharani">唵<note place="inline">引一</note>商迦&CB00942;<note place="inline">輕舌二</note>摩訶<note place="inline">引</note>三<note place="inline">去聲</note>麼<note place="inline">鼻聲</note>琰娑
+<lb n="0261a20"/>&CB00085;<note n="0261003" resp="Taisho" type="orig" place="foot text">賀＝二合引賀引【甲】</note><app n="0261003"><lem>賀</lem><rdg wit="【甲】" resp="Taisho">二合引賀引</rdg></app></p>
+<lb n="0261a21"/><p>次結摩利支安怛袒那印<note place="inline">此言隱形</note>以左手虛掌
+<lb n="0261a22"/>作拳。大指<note n="0261004" resp="Taisho" type="orig" place="foot text">微＋（屈）【甲】</note><app n="0261004"><lem>微</lem><rdg wit="【甲】" resp="Taisho">微屈</rdg></app>捻頭指甲如環。已下三指握
+<lb n="0261a23"/>拳令密。又令掌中作孔。安自心前。想自身
+<lb n="0261a24"/>入此印孔中藏。以右手平掌。右旋摩此印
+<lb n="0261a25"/>便蓋孔上。想此印即是摩利支天菩薩身。
+<lb n="0261a26"/>我自身隱藏於摩利支天菩薩心中。一心
+<lb n="0261a27"/>專注不間斷。誦前根本及心真言。不限遍
+<lb n="0261a28"/>數但虔誠至心。必獲菩薩威神加護。一切
+<lb n="0261a29"/>怨家惡人悉不能見。一切災難皆得解脫。
+<pb ed="T" id="T21.1255b.0261b" n="0261b"/>
+<lb n="0261b01"/>若欲供養摩利支菩薩者。應用金或銀或
+<lb n="0261b02"/>赤銅。或白檀香木或紫檀木等。刻作摩利
+<lb n="0261b03"/>支菩薩像。如天女形可長半寸。或一寸二
+<lb n="0261b04"/>寸已下。於蓮花上或立或坐。頭冠瓔珞種
+<lb n="0261b05"/>種莊嚴極令端正。左手把天扇。其扇如維
+<lb n="0261b06"/>摩詰前天女扇。右手垂下揚掌向外。展五
+<lb n="0261b07"/>指作與願勢。有二天女各執白拂侍立左
+<lb n="0261b08"/>右。作此像成。戴於頂上或<note n="0261005" resp="Taisho" type="orig" place="foot text">戴＝載&M062485;【甲】</note><sic n="0261005" corr="載" resp="【甲】">戴</sic>臂上或置
+<lb n="0261b09"/>衣中。以菩薩威神之力不逢災難。於怨家
+<lb n="0261b10"/>處決定得勝。鬼神惡人<note n="0261006" resp="Taisho" type="orig" place="foot text">（能）＋無【甲】</note><app n="0261006"><lem>無</lem><rdg wit="【甲】" resp="Taisho">能無</rdg></app>得便。若欲成驗
+<lb n="0261b11"/>願見摩利支天真身求勝願者。誦此陀羅
+<lb n="0261b12"/>尼滿十萬遍。依法建立曼荼羅。畫摩利支
+<lb n="0261b13"/>菩薩像。安置壇中種種供養。并作護摩火
+<lb n="0261b14"/>壇。摩利支天女必現其身。所求勝願決定
+<lb n="0261b15"/>成就除不至心。佛告諸苾芻。我為當來惡
+<lb n="0261b16"/>世苦難恐怖有情。略說摩利支天法。此菩
+<lb n="0261b17"/>薩有大悲願。常於苦難恐怖之處。護諸有
+<lb n="0261b18"/>情不令天龍鬼神人及非人怨家惡獸所能
+<lb n="0261b19"/>為害。汝當受持廣宣流布饒益。有情諸苾
+<lb n="0261b20"/>芻等及天龍。八部一切大眾聞佛所說。皆
+<lb n="0261b21"/>大歡喜信受奉行</p>
+<lb n="0261b22"/><juan fun="close" n="001"><jhead><title>佛說摩利支天經</title><note n="0261007" resp="Taisho" type="orig" place="foot text">甲本奧書曰貞享四年中春十六左點了淨嚴四十九載，元祿十六年二月十八日以淨嚴和上之本再挍了尊教，寶永三丙戌之春得此密軌戊子之冬十月十九日一挍了性寂</note></jhead></juan></div1>
+</body></text></TEI.2>

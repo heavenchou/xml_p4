@@ -1,0 +1,2995 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T16n0658.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0658 寶雲經</title>
+			<author>梁 曼陀羅仙譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>7卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:08:58 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 16, No. 658 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991012/09:43:32</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T16n0658.xml,v $
+Revision 1.1  2003/05/05 04:08:58  ray
+Initial revision
+
+Revision 1.19  2002/12/05 05:48:42  saywhat
+校勘插入處理
+
+Revision 1.18  2002/11/19 08:46:57  saywhat
+modified footnote
+
+Revision 1.17  2002/11/04 10:42:47  ray
+tei.2 => TEI.2
+
+Revision 1.16  2002/10/21 08:10:57  ray
+移動 <anchor>+<note>, <anchor>+雙圈
+
+Revision 1.15  2002/10/07 13:07:59  moved
+modified
+
+Revision 1.14  2002/07/29 09:55:05  vinking
+modified lang
+
+Revision 1.13  2002/04/04 08:42:07  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.12  2001/07/27 07:11:44  ray
+去除多餘的 <author>
+
+Revision 1.11  2001/07/24 06:51:35  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/05/25 08:56:45  ray
+經號統一為四碼
+
+Revision 1.9  2001/04/01 08:16:53  ray
+CB00380 => CB00308
+
+Revision 1.8  2001/03/30 05:45:10  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 09:05:12  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:51:05  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:40:41  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:58 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T16.0658.0209a" n="0209a"/>
+<lb n="0209a01"/>
+<milestone unit="juan" n="1"/>
+<lb n="0209a02"/><head type="no">No. 658 [No. 659]</head><div1 type="jing">
+<lb n="0209a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0209001" resp="Taisho" type="orig" place="foot text">（佛說）＋寶【元】【明】＊</note><app n="0209001"><lem>寶</lem><rdg wit="【元】【明】" resp="Taisho">佛說寶</rdg></app>雲經</title>卷第一</jhead></juan>
+<lb n="0209a04"/>
+<lb n="0209a05"/><byline type="Translator">梁扶南三藏曼陀羅仙<note n="0209002" resp="Taisho" type="orig" place="foot text">（共僧伽婆羅）＋譯【元】【明】＊</note><app n="0209002"><lem>譯</lem><rdg wit="【元】【明】" resp="Taisho">共僧伽婆羅譯</rdg></app></byline>
+<lb n="0209a06"/><p>如是我聞。一時佛在伽耶山頂。與大比丘僧
+<lb n="0209a07"/>七萬人俱。所作已辦捨諸重擔其心自在。盡
+<lb n="0209a08"/>諸有結正見解脫。皆如大龍善解法界。是法
+<lb n="0209a09"/>王子能捨利養。善具出家善<note n="0209003" resp="Taisho" type="orig" place="foot text">受具＝具受【元】【明】</note><app n="0209003"><lem>受具</lem><rdg wit="【元】【明】" resp="Taisho">具受</rdg></app>戒。意所
+<lb n="0209a10"/><note n="0209004" resp="Taisho" type="orig" place="foot text">欲＋（受）【元】【明】</note><app n="0209004"><lem>欲</lem><rdg wit="【元】【明】" resp="Taisho">欲受</rdg></app>者悉得滿足住涅槃道。唯除阿難在於學
+<lb n="0209a11"/>地。諸大菩薩八萬四千人俱。皆是一生補處。
+<lb n="0209a12"/>向一切智無有退轉。志求佛地近於彼岸。得
+<lb n="0209a13"/>阿僧祇諸陀羅尼。逮得諸禪首楞嚴三昧。遊
+<lb n="0209a14"/>戲神通。大慈大悲遍滿十方乃至無量無邊
+<lb n="0209a15"/>佛土行空境界。除諸蓋障盡三毒根。善遊無
+<lb n="0209a16"/>相室宅。&M010527;欲救濟一切眾生。善知諸佛世界。
+<lb n="0209a17"/>得無礙智。心如虛空深廣如海。猶如須彌八
+<lb n="0209a18"/>風不動。心如蓮華不著塵水。意如真寶內外
+<lb n="0209a19"/>明徹。如淨真金中無瑕穢。其名曰寶光菩薩。
+<lb n="0209a20"/>寶掌菩薩。寶印手菩薩。寶天冠菩薩。寶<note n="0209005" resp="Taisho" type="orig" place="foot text">鬘＝髻【元】【明】</note><app n="0209005"><lem>鬘</lem><rdg wit="【元】【明】" resp="Taisho">髻</rdg></app>
+<lb n="0209a21"/>菩薩。寶積菩薩。寶藏菩薩。寶山頂菩薩。寶幢
+<lb n="0209a22"/>菩薩。金剛胎菩薩。金胎菩薩。寶胎菩薩。功德
+<lb n="0209a23"/>胎菩薩。淨無垢胎菩薩。如來胎菩薩。智胎菩
+<lb n="0209a24"/>薩。日胎菩薩。三昧胎菩薩。蓮華胎菩薩。解脫
+<lb n="0209a25"/>月菩薩。普月菩薩。觀世音菩薩。普賢菩薩。普
+<lb n="0209a26"/>眼菩薩。蓮花眼菩薩。大眼菩薩。普威儀菩薩。
+<lb n="0209a27"/>普端嚴菩薩。普行菩薩。知定意菩薩。法意菩
+<lb n="0209a28"/>薩。勝意菩薩。增長意菩薩。金剛意菩薩。師子
+<lb n="0209a29"/>神通菩薩。大音聲王菩薩。師子吼意菩薩。深
+<pb ed="T" id="T16.0658.0209b" n="0209b"/>
+<lb n="0209b01"/>音聲菩薩。無染污菩薩。離一切垢菩薩。月光
+<lb n="0209b02"/>菩薩。日光菩薩。智光菩薩。智功德菩薩。月功
+<lb n="0209b03"/>德菩薩。蓮花功德菩薩。寶功德菩薩。文殊師
+<lb n="0209b04"/>利菩薩。跋陀婆羅等十六賢士。賢劫千菩薩
+<lb n="0209b05"/>摩訶薩等。彌勒最為上首。四天王諸天等。四
+<lb n="0209b06"/>天王最為上首。忉利諸天等。帝釋最為上首。
+<lb n="0209b07"/>焰摩天焰摩天王最為上首。兜率陀天兜率
+<lb n="0209b08"/>陀天王最為上首。化樂諸天化樂天王最為
+<lb n="0209b09"/>上首。他化自在諸天他化自在天王最為上
+<lb n="0209b10"/>首。善黨諸天薩陀最為上首。一切諸梵天<note n="0209006" resp="Taisho" type="orig" place="foot text">王大梵＝梵天王【元】【明】</note><app n="0209006"><lem>王
+<lb n="0209b11"/>大梵</lem><rdg wit="【元】【明】" resp="Taisho">梵天王</rdg></app>最為上首。首陀會諸天摩醯首羅最為
+<lb n="0209b12"/>上首。毘摩質多羅阿修羅王。婆稚阿修羅王。
+<lb n="0209b13"/><note n="0209007" resp="Taisho" type="orig" place="foot text">羅&CB00264;＋（羅）【元】【明】</note><app n="0209007"><lem>羅&CB00264;</lem><rdg wit="【元】【明】" resp="Taisho">羅&CB00264;羅</rdg></app>阿修羅王等。無量百千億阿修羅王。阿
+<lb n="0209b14"/>那婆達多<note n="0209008" resp="Taisho" type="orig" place="foot text">龍＝羅【元】【明】</note><app n="0209008"><lem>龍</lem><rdg wit="【元】【明】" resp="Taisho">羅</rdg></app>王。摩那斯龍王。<note n="0209009" resp="Taisho" type="orig" place="foot text">娑＝裟【明】</note><app n="0209009"><lem>娑</lem><rdg wit="【明】" resp="Taisho">裟</rdg></app>伽羅龍王。
+<lb n="0209b15"/>難陀龍王。和修吉龍王。德叉迦龍王。如是等
+<lb n="0209b16"/>百千億諸龍及諸龍子諸龍<note n="0209010" resp="Taisho" type="orig" place="foot text">綵＝婇【元】【明】</note><app n="0209010"><lem>綵</lem><rdg wit="【元】【明】" resp="Taisho">婇</rdg></app>女。如是等百
+<lb n="0209b17"/>千萬億眾。天龍夜叉乾闥婆阿修羅迦樓羅
+<lb n="0209b18"/>緊那羅摩&CB00264;羅伽人非人等。百千億眾皆來
+<lb n="0209b19"/>集會。爾時伽耶山頂方四由旬。微塵針鋒虛
+<lb n="0209b20"/>空及地大眾充滿。悉敷師子座。莊嚴光顯高
+<lb n="0209b21"/>一由旬。嚴飾第一廣半由旬。八千天衣遍布其
+<lb n="0209b22"/>上。地悉平正變為金剛。懸諸繒幡香汁灑地。
+<lb n="0209b23"/>無量天花遍滿在中。其座左右生諸蓮花大
+<lb n="0209b24"/>如車輪。百千萬葉真金為莖。皆以紺琉璃為
+<lb n="0209b25"/>臺。因陀尼為<note n="0209011" resp="Taisho" type="orig" place="foot text">鬘＝鬚【元】【明】</note><app n="0209011"><lem>鬘</lem><rdg wit="【元】【明】" resp="Taisho">鬚</rdg></app>。香潔適意觸時快樂。如是
+<lb n="0209b26"/>妙花以供養佛。彼師子座於其四角各生寶
+<lb n="0209b27"/>樹。高十五里。其樹蔭蓋及半由旬。如是莊嚴
+<lb n="0209b28"/>師子之座。佛坐其上心意清淨。善轉法輪降
+<lb n="0209b29"/>伏魔怨。不為八法之所<note n="0209012" resp="Taisho" type="orig" place="foot text">污染＝染污【元】【明】</note><app n="0209012"><lem>污染</lem><rdg wit="【元】【明】" resp="Taisho">染污</rdg></app>。得無所畏智辯
+<pb ed="T" id="T16.0658.0209c" n="0209c"/>
+<lb n="0209c01"/>無滯。心無怯弱猶如師子。意行清淨如明淵
+<lb n="0209c02"/>池。深廣如海能出眾寶。猶如須彌處於大海。
+<lb n="0209c03"/>如日盛明照於一切。如月盛滿悉令清淨。雨
+<lb n="0209c04"/>大法雨如彼龍王。處眾高顯如大梵天。無量
+<lb n="0209c05"/>弟子悉皆調順。無量釋梵四天王等。瞻仰觀
+<lb n="0209c06"/>佛心無高下。能令大眾溫光如日眾寶莊嚴。
+<lb n="0209c07"/>爾時世尊身色熙怡。如日溫照一切大眾。如
+<lb n="0209c08"/>寶莊嚴。頂<note n="0209013" resp="Taisho" type="orig" place="foot text">上＝&CB13529;【元】【明】</note><app n="0209013"><lem>上</lem><rdg wit="【元】【明】" resp="Taisho">&CB13529;</rdg></app>放光名曰周遍。普照百千世
+<lb n="0209c09"/>界。無量諸光以為眷屬。俱照十方遶佛三匝。
+<lb n="0209c10"/>光從口入而口無異相。譬如淨月明照虛空。
+<lb n="0209c11"/>然於虛空亦無異相。光從口入亦復如是。譬
+<lb n="0209c12"/>如沙聚<note n="0209014" resp="Taisho" type="orig" place="foot text">蘇＝酥【元】【明】</note><app n="0209014"><lem>蘇</lem><rdg wit="【元】【明】" resp="Taisho">酥</rdg></app>油注中不見增損。佛光入口亦復
+<lb n="0209c13"/>如是</p>
+<lb n="0209c14"/><p>爾時東方過無量&M010527;河沙世界有國。名蓮華
+<lb n="0209c15"/>自在。彼世界有佛。名蓮華眼如來應供正遍
+<lb n="0209c16"/>知明行足善逝世間解無上士調御丈夫天人
+<lb n="0209c17"/>師佛世尊。為諸菩薩說一乘法。彼國無有聲
+<lb n="0209c18"/>聞辟支佛名。時諸眾生皆得阿鞞跋致。趣向
+<lb n="0209c19"/>阿耨多羅三藐三菩提。此諸眾生無有<note n="0209015" resp="Taisho" type="orig" place="foot text">揣＝傳【元】【明】</note><app n="0209015"><lem>揣</lem><rdg wit="【元】【明】" resp="Taisho">傳</rdg></app>食。
+<lb n="0209c20"/>唯有法喜禪悅等食。彼國雖有日月星辰不
+<lb n="0209c21"/>以為<note n="0209016" resp="Taisho" type="orig" place="foot text">明＝名【元】【明】</note><app n="0209016"><lem>明</lem><rdg wit="【元】【明】" resp="Taisho">名</rdg></app>。唯有佛光照於彼土。無有山林株杭
+<lb n="0209c22"/>荊棘<note n="0209017" resp="Taisho" type="orig" place="foot text">地平＝平地【元】【明】</note><app n="0209017"><lem>地平</lem><rdg wit="【元】【明】" resp="Taisho">平地</rdg></app>如掌。彼有菩薩摩訶薩名除一切
+<lb n="0209c23"/>蓋障。聞其名者一切罪障皆悉除滅。時除蓋
+<lb n="0209c24"/>障菩薩摩訶薩。蒙光觸身。即詣蓮華眼佛所。
+<lb n="0209c25"/>頭面著地為佛作禮。&CB00230;住一面坐蓮華上。復
+<lb n="0209c26"/>有無量菩薩。亦蒙光明。往詣佛所頭面著地。
+<lb n="0209c27"/>頂禮佛足&CB00230;坐一面。除蓋障菩薩。從坐而起
+<lb n="0209c28"/>整其衣服。偏袒右肩右膝著地。合掌向佛而
+<lb n="0209c29"/>白佛言。世尊。以何因緣有斯光明。遇斯光者
+<pb ed="T" id="T16.0658.0210a" n="0210a"/>
+<lb n="0210a01"/>心意快樂。如是之光從何而來。蓮華眼佛答
+<lb n="0210a02"/>言。善男子。西方有世界名娑婆。佛號曰釋迦
+<lb n="0210a03"/>牟尼如來應供正遍知明行足善逝世間解無
+<lb n="0210a04"/>上士調御丈夫天人師佛世尊。聞彼佛名皆
+<lb n="0210a05"/>得阿鞞跋致。如是之光彼佛所放。除蓋障菩
+<lb n="0210a06"/>薩復白佛言。世尊。以何因緣。聞彼佛名皆得
+<lb n="0210a07"/>阿鞞跋致<note n="0210001" resp="Taisho" type="orig" place="foot text">趣＋（向）【元】【明】</note><app n="0210001"><lem>趣</lem><rdg wit="【元】【明】" resp="Taisho">趣向</rdg></app>阿耨多羅三藐三菩提。蓮華眼
+<lb n="0210a08"/>佛復告除蓋障菩薩言。彼佛行菩薩道時發
+<lb n="0210a09"/>大誓願。若我成佛聞其名者。皆發阿耨多羅
+<lb n="0210a10"/>三藐三菩提心得阿鞞跋致。除蓋障菩薩復
+<lb n="0210a11"/>白佛言。世尊。若聞彼佛名皆發阿耨多羅三
+<lb n="0210a12"/>藐三菩<note n="0210002" resp="Taisho" type="orig" place="foot text">提＋（心）【元】【明】</note><app n="0210002"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">提心</rdg></app>得阿鞞跋致者。彼國眾生皆已得
+<lb n="0210a13"/>不。蓮華眼佛答言。善男子。<note n="0210003" resp="Taisho" type="orig" place="foot text">〔有得〕－【元】【明】＊</note><app n="0210003"><lem>有得</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>不得。除蓋
+<lb n="0210a14"/>障菩薩復白佛言。世尊。彼國眾生可不聞耶。
+<lb n="0210a15"/>蓮華眼佛答言。善男子。亦得聞名。除蓋障菩
+<lb n="0210a16"/>薩白佛言。世尊。如其聞者云何<anchor id="fxT16p0210a01"/>有得不得。
+<lb n="0210a17"/>蓮華眼佛答言。善男子。彼國眾生悉是阿鞞
+<lb n="0210a18"/>跋致。亦非阿鞞跋致。除蓋障菩薩白佛言。世
+<lb n="0210a19"/>尊。云何悉是阿鞞跋致亦非阿鞞跋致。蓮華
+<lb n="0210a20"/>眼佛答言。善男子。聞彼佛名者雖得阿鞞跋
+<lb n="0210a21"/>致種子因緣。不具行未滿足不得<note n="0210004" resp="Taisho" type="orig" place="foot text">受＝授【元】【明】＊</note><app n="0210004"><lem>受</lem><rdg wit="【元】【明】" resp="Taisho">授</rdg></app>記。善男
+<lb n="0210a22"/>子。我今為汝說喻。譬如種樹有其種子離於
+<lb n="0210a23"/>腐敗具足生<note n="0210005" resp="Taisho" type="orig" place="foot text">牙＝芽【元】【明】</note><app n="0210005"><lem>牙</lem><rdg wit="【元】【明】" resp="Taisho">芽</rdg></app>因緣。當言為生為不生耶。除
+<lb n="0210a24"/>蓋障菩薩白佛言。世尊。是名為生。蓮華眼佛
+<lb n="0210a25"/>答言。善男子。聞佛名者得其種子。具足因緣
+<lb n="0210a26"/>便得<anchor id="fxT16p0210a02"/>受記。除蓋障菩薩摩訶薩白佛言。世
+<lb n="0210a27"/>尊。我欲往娑婆世界禮拜恭敬釋迦牟尼佛。
+<lb n="0210a28"/>蓮華眼佛即便答言。善男子。今正是時可往
+<lb n="0210a29"/>禮拜。彼諸菩薩白佛言。世尊。我等亦當隨從
+<pb ed="T" id="T16.0658.0210b" n="0210b"/>
+<lb n="0210b01"/>除蓋障菩薩往詣娑婆世界禮拜恭敬尊重讚
+<lb n="0210b02"/>歎。蓮華眼佛告諸菩薩言。今正是時可往詣
+<lb n="0210b03"/>彼。莫生下劣放逸之心。何以故。<note n="0210006" resp="Taisho" type="orig" place="foot text">彼＝佛【元】【明】</note><app n="0210006"><lem>彼</lem><rdg wit="【元】【明】" resp="Taisho">佛</rdg></app>界眾生
+<lb n="0210b04"/>多諸貪欲瞋恚愚癡。不肯恭敬沙門婆羅門。
+<lb n="0210b05"/>好作非法。心意&CB00308;弊惡口罵詈。<note n="0210007" resp="Taisho" type="orig" place="foot text">佷＝很【元】</note><app n="0210007"><lem>佷</lem><rdg wit="【元】" resp="Taisho">很</rdg></app><note n="0210008" resp="Taisho" type="orig" place="foot text">悷＝戾【元】【明】</note><app n="0210008"><lem>悷</lem><rdg wit="【元】【明】" resp="Taisho">戾</rdg></app>難調
+<lb n="0210b06"/>慳貪嫉&CB00107;。懈怠&CB01900;墮放逸破戒。無量煩惱之
+<lb n="0210b07"/>所<note n="0210009" resp="Taisho" type="orig" place="foot text">縛纏＝纏縛【元】【明】</note><app n="0210009"><lem>縛纏</lem><rdg wit="【元】【明】" resp="Taisho">纏縛</rdg></app>。於<note n="0210010" resp="Taisho" type="orig" place="foot text">惡＝是【元】【明】</note><app n="0210010"><lem>惡</lem><rdg wit="【元】【明】" resp="Taisho">是</rdg></app>生中而為說法。爾時<note n="0210011" resp="Taisho" type="orig" place="foot text">〔彼〕－【元】【明】</note><app n="0210011"><lem>彼</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>諸菩
+<lb n="0210b08"/>薩白佛言。世尊。釋迦牟尼佛甚為希有。能於
+<lb n="0210b09"/>彼惡世界眾生中而為說法。蓮華眼佛答言。
+<lb n="0210b10"/>善男子。彼佛世尊實為希有。如汝所言。常處
+<lb n="0210b11"/>惡眾生中而為<note n="0210012" resp="Taisho" type="orig" place="foot text">演＝說【元】【明】</note><app n="0210012"><lem>演</lem><rdg wit="【元】【明】" resp="Taisho">說</rdg></app>法。彼惡世界能起一念善
+<lb n="0210b12"/>心者此亦難有。何以故。清淨世界眾生。守
+<lb n="0210b13"/>信修善不難。惡世界中於彈指頃發生信心
+<lb n="0210b14"/>歸依佛法僧。於彈指頃能修持戒。於彈指頃
+<lb n="0210b15"/>生離欲心。於彈指頃生於慈悲發阿耨多羅
+<lb n="0210b16"/>三藐三菩提心。此則甚難諸菩薩。白佛言。希
+<lb n="0210b17"/>有世尊。希有善逝。爾時諸菩薩。除蓋障菩薩
+<lb n="0210b18"/>摩訶薩最為上首。爾時除蓋障菩薩摩訶薩
+<lb n="0210b19"/>并諸菩薩。受佛教已歡喜踊躍。頂禮佛足各
+<lb n="0210b20"/>還本坐。此諸菩薩有齎寶樹華果具足。有齎
+<lb n="0210b21"/>琉璃樹者。有齎<note n="0210013" resp="Taisho" type="orig" place="foot text">頗梨＝玻&CB00226;【明】</note><app n="0210013"><lem>頗梨</lem><rdg wit="【明】" resp="Taisho">玻&CB00226;</rdg></app>樹者。有齎金樹者。有
+<lb n="0210b22"/>齎眾寶樹者。有齎華樹者。有齎果樹者。有
+<lb n="0210b23"/>齎<note n="0210014" resp="Taisho" type="orig" place="foot text">（寶）＋衣【元】【明】</note><app n="0210014"><lem>衣</lem><rdg wit="【元】【明】" resp="Taisho">寶衣</rdg></app>雲者。有齎環<note n="0210015" resp="Taisho" type="orig" place="foot text">玔＝釧【元】【明】</note><app n="0210015"><lem>玔</lem><rdg wit="【元】【明】" resp="Taisho">釧</rdg></app>瓔珞者。有齎香雲者。
+<lb n="0210b24"/>有齎華鬘雲者。有齎寶蓋雲者。有齎寶幢幡
+<lb n="0210b25"/>雲者。有齎音樂雲者。悉皆來集。除蓋障菩薩
+<lb n="0210b26"/>摩訶薩。所共詣娑婆世界。除蓋障菩薩摩訶
+<lb n="0210b27"/>薩告眾菩薩言。彼娑婆世界眾生多受苦惱。
+<lb n="0210b28"/>汝等各各現神通力。令彼眾生<note n="0210016" resp="Taisho" type="orig" place="foot text">使＝速【元】【明】</note><app n="0210016"><lem>使</lem><rdg wit="【元】【明】" resp="Taisho">速</rdg></app>得快樂。時
+<lb n="0210b29"/>諸菩薩皆言唯然。爾時除蓋障菩薩摩訶薩
+<pb ed="T" id="T16.0658.0210c" n="0210c"/>
+<lb n="0210c01"/>以神通力身出光明清淨無垢。遍照娑婆三
+<lb n="0210c02"/>千大千世界。此光能照地獄餓鬼畜生閻羅
+<lb n="0210c03"/>王趣。諸苦惱者蒙光觸身身受快樂。貪欲瞋
+<lb n="0210c04"/>恚悉令除滅。慈心相向猶如父母。三千大千
+<lb n="0210c05"/>世界諸闇冥處。日月諸光所不及處。以菩薩
+<lb n="0210c06"/>光故皆得相見。三千大千世界鐵圍山大鐵
+<lb n="0210c07"/>圍山。目真&CB00444;陀山摩訶目真&CB00444;陀山。及諸餘
+<lb n="0210c08"/>山幽冥之處悉蒙光照。上及梵天。下至阿鼻
+<lb n="0210c09"/>地獄。如是中間光明普照。<note n="0210017" resp="Taisho" type="orig" place="foot text">又＝及【明】</note><app n="0210017"><lem>又</lem><rdg wit="【明】" resp="Taisho">及</rdg></app>諸菩薩皆放身
+<lb n="0210c10"/>光。蒙其光者。<note n="0210018" resp="Taisho" type="orig" place="foot text">餓＝飢【元】【明】</note><app n="0210018"><lem>餓</lem><rdg wit="【元】【明】" resp="Taisho">飢</rdg></app>者得食。渴者得飲。裸者
+<lb n="0210c11"/>得衣。貧者得財。盲者能視。聾者能聽。&CB00484;者能
+<lb n="0210c12"/>言。躄者能行。狂者得正。苦者能樂。諸懷孕者
+<lb n="0210c13"/>令<note n="0210019" resp="Taisho" type="orig" place="foot text">安＝得【元】【明】</note><app n="0210019"><lem>安</lem><rdg wit="【元】【明】" resp="Taisho">得</rdg></app>隱產。當爾之時眾苦悉除。共諸菩薩俱
+<lb n="0210c14"/>時而到伽耶山頂。寶網彌覆三千大千世界。
+<lb n="0210c15"/>於虛空中蓮華雲雨蓮華。妙果雲雨妙果。華
+<lb n="0210c16"/>鬘雲雨華鬘。香雲雨香。白疊雲雨白疊。末香
+<lb n="0210c17"/>雲雨末香。衣服雲雨衣服。寶蓋雲雨寶蓋。寶
+<lb n="0210c18"/>幢雲雨寶幢。寶幡雲雨寶幡。如是眾雲隨種
+<lb n="0210c19"/>而雨。雨觸身時柔軟快樂。爾時伽耶山。坑坎
+<lb n="0210c20"/>堆阜自然平坦。諸山樹木變為寶林。亦作栴
+<lb n="0210c21"/>檀沈水及諸香樹。周遍嚴飾。百千天樂於虛
+<lb n="0210c22"/>空中不鼓自鳴。諸樂音中俱出偈頌</p>
+<lb n="0210c23"/><lg><l>生於林毘羅</l><l>不由結業有</l>
+<lb n="0210c24"/><l>挺特無有比</l><l>我今禮於彼</l>
+<lb n="0210c25"/><l>心平如虛空</l><l>至於伽耶山</l>
+<lb n="0210c26"/><l>我今歸最妙</l><l>無上勝菩提</l>
+<lb n="0210c27"/><l>坐於道樹下</l><l>始悟於正覺</l>
+<lb n="0210c28"/><l>指地以為證</l><l>魔怨皆退散</l>
+<lb n="0210c29"/><l>我今到伽耶</l><l>稽首無垢尊</l>
+<pb ed="T" id="T16.0658.0211a" n="0211a"/>
+<lb n="0211a01"/><l>世間皆幻化</l><note n="0211001" resp="Taisho" type="orig" place="foot text">〔亦如…清淨身無垢〕三十六句－【元】【明】</note><app n="0211001" word-count="180"><lem><l>亦如沫泡炎</l>
+<lb n="0211a02"/><l>虛誑如水月</l><l>法相亦如是</l>
+<lb n="0211a03"/><l>我今來至此</l><l>敬禮正智樹</l>
+<lb n="0211a04"/><l>譬如伎藝人</l><l>能現諸權變</l>
+<lb n="0211a05"/><l>諸法若干種</l><l>譬如天馬紅</l>
+<lb n="0211a06"/><l>稽首禮不動</l><l>功德之伏藏</l>
+<lb n="0211a07"/><l>我今從彼來</l><l>敬禮無上尊</l>
+<lb n="0211a08"/><l>深起大悲心</l><l>無量百千劫</l>
+<lb n="0211a09"/><l>修於戒定慧</l><l>積集諸善業</l>
+<lb n="0211a10"/><l>我今從彼來</l><l>禮於淨月面</l>
+<lb n="0211a11"/><l>百千億菩薩</l><l>無量諸天眾</l>
+<lb n="0211a12"/><l>皆從彼而來</l><l>為禮除闇尊</l>
+<lb n="0211a13"/><l>獲得法伏藏</l><l>慈悲為眾演</l>
+<lb n="0211a14"/><l>能作利益者</l><l>最是無等尊</l>
+<lb n="0211a15"/><l>我今從彼來</l><l>稽首於正覺</l>
+<lb n="0211a16"/><l>慈悲濟眾生</l><l>寂靜而憺怕</l>
+<lb n="0211a17"/><l>蓮華不著水</l><l>煩惱不染心</l>
+<lb n="0211a18"/><l>我今來歸命</l><l>禮此最勝德</l>
+<lb n="0211a19"/><l>清淨身無垢</l></lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app><l>眾相<note n="0211002" resp="Taisho" type="orig" place="foot text">開花＝花開【元】【明】</note><app n="0211002"><lem>開花</lem><rdg wit="【元】【明】" resp="Taisho">花開</rdg></app>敷</l>
+<lb n="0211a20"/><l>八十好為果</l><l>世間得依怙</l>
+<lb n="0211a21"/><l>我今從彼來</l><l>稽首於寶樹</l>
+<lb n="0211a22"/><l>具無量枝<note n="0211003" resp="Taisho" type="orig" place="foot text">條＝葉【元】【明】</note><app n="0211003"><lem>條</lem><rdg wit="【元】【明】" resp="Taisho">葉</rdg></app></l><l>我等悉供養</l></lg>
+<lb n="0211a23"/><p>爾時尊者目連從坐而起。長跪合掌偏袒右
+<lb n="0211a24"/>肩。白佛言。世尊。我今不見其形而聞眾妙偈
+<lb n="0211a25"/>頌。佛告目連。東方過此無量&M010527;河沙佛土。蓮
+<lb n="0211a26"/>華世界有佛名為蓮華<note n="0211004" resp="Taisho" type="orig" place="foot text">〔淨〕－【元】【明】</note><app n="0211004"><lem>淨</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>眼。今現在彼為大
+<lb n="0211a27"/>眾說法。彼有菩薩摩訶薩名除蓋障。復有無
+<lb n="0211a28"/>量百千億菩薩。皆來至此娑婆世界。為欲禮
+<lb n="0211a29"/>拜恭敬於我至心聽法故。彼諸菩薩造此偈
+<pb ed="T" id="T16.0658.0211b" n="0211b"/>
+<lb n="0211b01"/>頌。佛語<note n="0211005" resp="Taisho" type="orig" place="foot text">以＝已【元】【明】</note><app n="0211005"><lem>以</lem><rdg wit="【元】【明】" resp="Taisho">已</rdg></app>訖。彼諸菩薩即到佛前。除蓋障
+<lb n="0211b02"/>菩薩摩訶薩最為上首。皆共頭面頂禮佛足。
+<lb n="0211b03"/>&CB00230;住一面合掌向佛。以偈讚曰</p>
+<lb n="0211b04"/><lg><l>歸命大名稱</l><l>具足智慧者</l>
+<lb n="0211b05"/><l>歸命大精進</l><l>最勝牟尼尊</l>
+<lb n="0211b06"/><l>能拔於三有</l><l><note n="0211006" resp="Taisho" type="orig" place="foot text">越渡＝超度【元】【明】</note><app n="0211006"><lem>越渡</lem><rdg wit="【元】【明】" resp="Taisho">超度</rdg></app>煩惱岸</l>
+<lb n="0211b07"/><l>神光照世間</l><l>歸命無等尊</l>
+<lb n="0211b08"/><l>四方蒙光照</l><l>周遍悉解脫</l>
+<lb n="0211b09"/><l>歸命無等稱</l><l>不動如山王</l>
+<lb n="0211b10"/><l>深廣如大海</l><l>智慧無有量</l>
+<lb n="0211b11"/><l>一切諸外道</l><l>無能擾亂者</l>
+<lb n="0211b12"/><l>我今稽首禮</l><l>歸命於法王</l>
+<lb n="0211b13"/><l>第一寂滅道</l><l>無生亦無滅</l>
+<lb n="0211b14"/><l>體相如涅槃</l><l>歸依說法王</l>
+<lb n="0211b15"/><l>能轉法輪者</l><l>顯現於正道</l>
+<lb n="0211b16"/><l>安住於真諦</l><l>開演於涅槃</l>
+<lb n="0211b17"/><l>而授菩提記</l><l>善知於法相</l>
+<lb n="0211b18"/><l>及以煩惱性</l><l>如說而修行</l>
+<lb n="0211b19"/><l>觀察於律儀</l><l>貪欲諸瞋恚</l>
+<lb n="0211b20"/><l>無量心垢穢</l><l>一切諸塵障</l>
+<lb n="0211b21"/><l>於菩提樹下</l><l>智火悉燒盡</l>
+<lb n="0211b22"/><l>濟度於眾生</l><l>自度亦度彼</l>
+<lb n="0211b23"/><l>生死曠野中</l><l>勉濟諸眾生</l>
+<lb n="0211b24"/><l>長寢於重昏</l><l>三有之獄縛</l>
+<lb n="0211b25"/><l>勸令早覺悟</l><l>趣向歸依處</l>
+<lb n="0211b26"/><l>當為作親友</l><l>究竟不放逸</l>
+<lb n="0211b27"/><l>隨從而來者</l><l>皆住於菩提</l>
+<lb n="0211b28"/><l>為欲聽正法</l><l>願時而解脫</l></lg>
+<lb n="0211b29"/><p>爾時除蓋障菩薩摩訶薩。偈讚佛已。佛告諸
+<pb ed="T" id="T16.0658.0211c" n="0211c"/>
+<lb n="0211c01"/>菩薩各還本坐。除蓋障菩薩摩訶薩及諸菩
+<lb n="0211c02"/>薩。皆坐蓮華臺上。除蓋障菩薩摩訶薩。從坐
+<lb n="0211c03"/>而起整其衣服。偏袒右肩右膝著地。合掌向
+<lb n="0211c04"/>佛而白佛言。世尊。欲有所問唯願聽許。佛即
+<lb n="0211c05"/>答言。若有疑者隨汝所問。我當為汝分別解
+<lb n="0211c06"/>說。除蓋障菩薩白佛言。世尊。云何菩薩。具足
+<lb n="0211c07"/>於施。具足於戒。具足於忍。具足精進。具足禪
+<lb n="0211c08"/>定。具足智慧。具足方便。具足於願。具足於
+<lb n="0211c09"/>力。具足於智。云何菩薩與地等。云何菩薩與
+<lb n="0211c10"/>水等。云何菩薩與火等。云何菩薩與虛空等。
+<lb n="0211c11"/>云何菩薩如月。云何菩薩如日。云何菩薩如
+<lb n="0211c12"/>師子。云何菩薩為善調。云何菩薩為善御。云
+<lb n="0211c13"/>何菩薩如蓮華。云何菩薩得大意。云何菩薩
+<lb n="0211c14"/>得淨意。云何菩薩得無疑網心。云何菩薩甚
+<lb n="0211c15"/>深如大海。云何菩薩得微細智。云何菩薩得
+<lb n="0211c16"/>隨順辯。云何菩薩得無盡辯。云何菩薩得淨
+<lb n="0211c17"/>辯。云何菩薩能令眾生得少欲知足。云何菩
+<lb n="0211c18"/>薩得隨應辯。云何菩薩作法師。云何菩薩得
+<lb n="0211c19"/>隨順法。云何菩薩得善解法界。云何菩薩行
+<lb n="0211c20"/>空境界。云何菩薩行無相境界。云何菩薩行
+<lb n="0211c21"/>無願境界。云何菩薩行慈。云何菩薩行悲。云
+<lb n="0211c22"/>何菩薩行喜。云何菩薩行捨。云何菩薩得遊
+<lb n="0211c23"/>戲神通。云何菩薩得離八難處。云何菩薩得
+<lb n="0211c24"/>不忘菩提心。云何菩薩得宿命智。云何菩薩
+<lb n="0211c25"/>得不離善知識。云何菩薩得離惡知識。云何
+<lb n="0211c26"/>菩薩得佛清淨身。云何菩薩得金剛身。云何
+<lb n="0211c27"/>菩薩得大商主。云何菩薩得善知<note n="0211007" resp="Taisho" type="orig" place="foot text">諸＝識【明】</note><app n="0211007"><lem>諸</lem><rdg wit="【明】" resp="Taisho">識</rdg></app>道。云
+<lb n="0211c28"/>何菩薩得示不顛倒道。云何菩薩常得定心。
+<lb n="0211c29"/>云何菩薩得糞掃衣。云何菩薩得三衣。云何
+<pb ed="T" id="T16.0658.0212a" n="0212a"/>
+<lb n="0212a01"/>菩薩得旃衣。云何菩薩得乞食法。云何菩薩
+<lb n="0212a02"/>得一坐食法。云何菩薩得一受食法。云何菩
+<lb n="0212a03"/>薩得非食後食。云何菩薩得阿練若行。云何
+<lb n="0212a04"/>菩薩得樹下坐。云何菩薩得露地坐。云何菩
+<lb n="0212a05"/>薩在塚間行。云何菩薩常坐不臥。云何菩薩
+<lb n="0212a06"/>能隨敷坐。云何菩薩善知教授禪法。云何菩
+<lb n="0212a07"/>薩能持修多羅。云何菩薩能持律藏。云何菩
+<lb n="0212a08"/>薩能持威儀。云何菩薩善知可行處。云何菩
+<lb n="0212a09"/>薩善知修行法。云何菩薩除於貪嫉。云何菩
+<lb n="0212a10"/>薩於一切眾生能起等心。云何菩薩善知供
+<lb n="0212a11"/>養如來。云何菩薩除於憍慢。云何菩薩善得
+<lb n="0212a12"/>信敬心。云何菩薩善解第一義諦。云何菩薩
+<lb n="0212a13"/>善知十二因緣。云何菩薩善知己體相。云何
+<lb n="0212a14"/>菩薩善知世間相。云何菩薩生淨佛國土。云
+<lb n="0212a15"/>何菩薩處胎不污。云何菩薩捨家出家。云何
+<lb n="0212a16"/>菩薩得清淨命。云何菩薩心不愁惱。云何菩
+<lb n="0212a17"/>薩善隨佛教。云何菩薩常和顏語捨離<note n="0212001" resp="Taisho" type="orig" place="foot text">顰＝頻【元】【明】</note><app n="0212001"><lem>顰</lem><rdg wit="【元】【明】" resp="Taisho">頻</rdg></app>蹙。
+<lb n="0212a18"/>云何菩薩具足多聞。云何菩薩善持正法。云
+<lb n="0212a19"/>何菩薩作法王子。云何菩薩為四<note n="0212002" resp="Taisho" type="orig" place="foot text">天＝足【元】【明】</note><app n="0212002"><lem>天</lem><rdg wit="【元】【明】" resp="Taisho">足</rdg></app>王帝釋
+<lb n="0212a20"/>梵天之所供養。云何菩薩知他體相。云何菩
+<lb n="0212a21"/>薩善知成熟眾生。云何菩薩善修<note n="0212003" resp="Taisho" type="orig" place="foot text">柔和＝和柔【元】【明】</note><app n="0212003"><lem>柔和</lem><rdg wit="【元】【明】" resp="Taisho">和柔</rdg></app>行。云
+<lb n="0212a22"/>何菩薩共住安樂。云何菩薩善修四攝法。云
+<lb n="0212a23"/>何菩薩得威儀端正。云何菩薩善為眾生作
+<lb n="0212a24"/>依憑處。云何菩薩喻如<note n="0212004" resp="Taisho" type="orig" place="foot text">藥＝樂【明】</note><app n="0212004"><lem>藥</lem><rdg wit="【明】" resp="Taisho">樂</rdg></app>樹。云何菩薩常
+<lb n="0212a25"/>修諸善。云何菩薩善作變化。云何菩薩摩
+<lb n="0212a26"/>訶薩速成阿耨多羅三藐三菩提</p>
+<lb n="0212a27"/><p>佛告除蓋障菩薩摩訶薩。善哉善哉。善男子。
+<lb n="0212a28"/>汝<note n="0212005" resp="Taisho" type="orig" place="foot text">欲＝為【元】【明】</note><app n="0212005"><lem>欲</lem><rdg wit="【元】【明】" resp="Taisho">為</rdg></app>利益天人拔濟一切眾生故發是問。我
+<lb n="0212a29"/>今當為汝說。除蓋障菩薩摩訶薩白佛言。善
+<pb ed="T" id="T16.0658.0212b" n="0212b"/>
+<lb n="0212b01"/>哉世尊。願時演說。佛即告言。善男子。我
+<lb n="0212b02"/>今當說汝等諦聽。菩薩成就十法能具足檀。
+<lb n="0212b03"/>何等為十。法施具足。無畏施具足。財施具足。
+<lb n="0212b04"/>不望報施具足。憐愍施具足。不輕心施具
+<lb n="0212b05"/>足。尊重施具足。恭敬承事施具足。不求有
+<lb n="0212b06"/>施具足。清淨施具足。善男子。云何名菩薩法
+<lb n="0212b07"/>施具足無<note n="0212006" resp="Taisho" type="orig" place="foot text">悕＝希【元】【明】</note><app n="0212006"><lem>悕</lem><rdg wit="【元】【明】" resp="Taisho">希</rdg></app>望心。自受持法為人演說。不求
+<lb n="0212b08"/>利養不為名譽。為除一切眾生過惡不為於
+<lb n="0212b09"/>利。心無高下平等說法。若為王若王<note n="0212007" resp="Taisho" type="orig" place="foot text">等＋（若）【元】【明】</note><app n="0212007"><lem>等</lem><rdg wit="【元】【明】" resp="Taisho">等若</rdg></app>旃陀
+<lb n="0212b10"/>羅等說法等無差別。不以此施貢高憍慢。若
+<lb n="0212b11"/>能如是。是名菩薩法施具足。云何名菩薩無
+<lb n="0212b12"/>畏施具足。菩薩自離刀杖亦教人離刀杖於
+<lb n="0212b13"/>一切眾生生父母想男女想親友想。何以故。
+<lb n="0212b14"/>佛說一切眾生從無始劫來無非父母男女。
+<lb n="0212b15"/>菩薩常於微細中捨身而與。況復餘大眾生
+<lb n="0212b16"/>是名菩薩無畏施具足。云何名菩薩財施具
+<lb n="0212b17"/>足。菩薩見眾生多作諸惡。便積聚財寶而施
+<lb n="0212b18"/>與之。令離惡業安置善處。又聞佛世尊作如
+<lb n="0212b19"/>是說。檀是菩薩能除慳貪嫉<note n="0212008" resp="Taisho" type="orig" place="foot text">&CB00107;＝如【明】</note><app n="0212008"><lem>&CB00107;</lem><rdg wit="【明】" resp="Taisho">如</rdg></app>之垢。如佛所
+<lb n="0212b20"/>說習行於施。不以施故而心自高。是名菩薩
+<lb n="0212b21"/>財施<note n="0212009" resp="Taisho" type="orig" place="foot text">滿＝具【元】【明】</note><app n="0212009"><lem>滿</lem><rdg wit="【元】【明】" resp="Taisho">具</rdg></app>足。云何名菩薩不望報施具足不為
+<lb n="0212b22"/>得眷屬故施。不為得親友故施。不為欲故施。
+<lb n="0212b23"/>菩薩作是念施。菩薩淨戒是常行法。以是因
+<lb n="0212b24"/>緣故。是名菩薩不望報施具足。云何名菩薩
+<lb n="0212b25"/>成就憐愍施具足。菩薩見眾生飢渴受苦裸
+<lb n="0212b26"/>形弊衣無所依怙無歸無趣無居<note n="0212010" resp="Taisho" type="orig" place="foot text">住＝止【元】【明】</note><app n="0212010"><lem>住</lem><rdg wit="【元】【明】" resp="Taisho">止</rdg></app>處離於
+<lb n="0212b27"/>福業。便生殷重憐愍之心。我今為苦眾生<note n="0212011" resp="Taisho" type="orig" place="foot text">〔故〕－【元】【明】</note><app n="0212011"><lem>故</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>
+<lb n="0212b28"/>發阿耨多羅三藐三菩提心但以眾生輪轉
+<lb n="0212b29"/>受苦裸形弊衣無<note n="0212012" resp="Taisho" type="orig" place="foot text">（所依）＋怙【元】【明】</note><app n="0212012"><lem>怙</lem><rdg wit="【元】【明】" resp="Taisho">所依怙</rdg></app>無歸無趣飢寒困苦。我
+<pb ed="T" id="T16.0658.0212c" n="0212c"/>
+<lb n="0212c01"/>當何時為是眾生。作衣服飲食乃至歸依舍
+<lb n="0212c02"/>宅。現有財物悉施與之。雖作是施而不生念
+<lb n="0212c03"/>存有我人財物等想。如是施者。是名菩薩憐
+<lb n="0212c04"/>愍施具足。云何名菩薩不輕心施具足。不分
+<lb n="0212c05"/>別施。等大悲施。不輕心施。<note n="0212013" resp="Taisho" type="orig" place="foot text">〔心〕－【元】【明】</note><app n="0212013"><lem>心</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>不&CB00385;惜施。不
+<lb n="0212c06"/>瞋忿施。不憍逸施。不為得名稱施。不為我能
+<lb n="0212c07"/>多聞故施。如是之施。名為專心施尊重施恭
+<lb n="0212c08"/><note n="0212014" resp="Taisho" type="orig" place="foot text">敬＝勸【元】【明】</note><app n="0212014"><lem>敬</lem><rdg wit="【元】【明】" resp="Taisho">勸</rdg></app>施自手施。如此等施。是名菩薩不輕心施
+<lb n="0212c09"/>具足。云何名菩薩<note n="0212015" resp="Taisho" type="orig" place="foot text">承事＝尊重【元】【明】＊</note><app n="0212015"><lem>承事</lem><rdg wit="【元】【明】" resp="Taisho">尊重</rdg></app>施具足。若同梵行可
+<lb n="0212c10"/>尊事者。若和尚阿闍<note n="0212016" resp="Taisho" type="orig" place="foot text">梨＝黎【明】＊</note><app n="0212016"><lem>梨</lem><rdg wit="【明】" resp="Taisho">黎</rdg></app>等。如是之人深生殷
+<lb n="0212c11"/>重。起迎合掌瞻仰恭敬。若有所作躬代營佐。
+<lb n="0212c12"/>如是施者。是名菩薩<anchor id="fxT16p0212c01"/>承事施具足。云何名菩
+<lb n="0212c13"/>薩恭敬施具足。供養佛供養法供養僧。香華
+<lb n="0212c14"/>伎樂遶如來塔塗掃佛地。若諸塔廟朽故崩
+<lb n="0212c15"/>落修<note n="0212017" resp="Taisho" type="orig" place="foot text">治＝復【元】【明】</note><app n="0212017"><lem>治</lem><rdg wit="【元】【明】" resp="Taisho">復</rdg></app>嚴飾。如是名為恭敬佛。恭敬法者。
+<lb n="0212c16"/>聽法讀誦受持書寫解說。思惟其義如法修
+<lb n="0212c17"/>行。不顛倒取義。是名恭敬法。恭敬僧者。衣服
+<lb n="0212c18"/>飲食臥具湯藥種種雜物。供給所須奉施於
+<lb n="0212c19"/>僧。乃至貧下無所有時。當用淨水敬心持施。
+<lb n="0212c20"/>如此施者名恭敬僧施。若能如是供養三寶。
+<lb n="0212c21"/>是名菩薩恭敬施具足。云何名菩薩不求有
+<lb n="0212c22"/>施具足。菩薩施時不生是念。我當生天。亦不
+<lb n="0212c23"/>生念。我當為王及諸輔相大臣官屬。是名菩
+<lb n="0212c24"/>薩不求有施具足。云何名菩薩清淨施具足。
+<lb n="0212c25"/>菩薩諦觀此施。無垢無穢無雜。如是施者。是
+<lb n="0212c26"/>名菩薩清淨施具足。善男子。具此十事。是名
+<lb n="0212c27"/>菩薩具足於檀。善男子。菩薩復有十法名成
+<lb n="0212c28"/>就淨戒。何等為十。善學波羅提木叉戒善持
+<lb n="0212c29"/>菩薩緻密戒滅諸煩惱除不善覺。怖畏惡業。
+<pb ed="T" id="T16.0658.0213a" n="0213a"/>
+<lb n="0213a01"/>於小罪中尚生驚怖心常恐畏。受持頭陀法
+<lb n="0213a02"/>堅固不闕。持戒不為求有造業。淨三業戒。云
+<lb n="0213a03"/>何名菩薩善學波羅提木叉戒。菩薩於戒律
+<lb n="0213a04"/>諸經是佛所制。皆專心受持。不為種族故持
+<lb n="0213a05"/>戒。不為我見故持戒。不為攝徒眾故持戒。不
+<lb n="0213a06"/>見他瑕缺而輕毀戒。是名菩薩善持波羅提
+<lb n="0213a07"/>木叉戒。云何名菩薩善持緻密戒。菩薩作是
+<lb n="0213a08"/>念。非但波羅提木叉戒。能使我成阿耨多羅
+<lb n="0213a09"/>三藐三菩提。諸餘菩薩威儀戒行。我亦當學
+<lb n="0213a10"/>如法修行。云何是菩薩戒。菩薩不應行處終
+<lb n="0213a11"/>不往來。非時不語善知時節。善知方俗順適
+<lb n="0213a12"/>人心。不令眾生起於譏嫌。善護眾生令至菩
+<lb n="0213a13"/>提。亦自具足菩<note n="0213001" resp="Taisho" type="orig" place="foot text">提＝薩【元】【明】</note><app n="0213001"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">薩</rdg></app>威儀。言辭柔軟少於言
+<lb n="0213a14"/>說。不好親近大臣群官。&M010527;修阿練若行。和顏
+<lb n="0213a15"/>悅色。能具如是菩薩威儀戒。及餘經中諸菩
+<lb n="0213a16"/>薩戒悉具修行。是名菩薩緻密戒。云何名菩
+<lb n="0213a17"/>薩滅<corr sic="　">一</corr>切結使皆悉燋然。貪欲瞋恚愚<corr sic="疑">癡</corr>及餘
+<lb n="0213a18"/>纏障一切眾具亦皆燋然。於貪欲處生對治
+<lb n="0213a19"/>法。能起欲處<note n="0213002" resp="Taisho" type="orig" place="foot text">皆悉＝悉皆【元】【明】</note><app n="0213002"><lem>皆悉</lem><rdg wit="【元】【明】" resp="Taisho">悉皆</rdg></app>除斷。云何是貪欲處於
+<lb n="0213a20"/>美色邊能起欲因緣。云何名不淨想。如觀己
+<lb n="0213a21"/>身髮毛爪齒皮膚血肉筋脈骨<note n="0213003" resp="Taisho" type="orig" place="foot text">髓＝&CB00628;【元】，隨【明】</note><note n="0213003" resp="CBETA" type="mod">髓＝&CB00628;【元】，＝隨【明】</note><app n="0213003"><lem>髓</lem><rdg wit="【元】" resp="Taisho">&CB00628;</rdg><rdg wit="【明】" resp="Taisho">隨</rdg></app>汗淚涕唾
+<lb n="0213a22"/>肪膏腦膜咽喉心膽肝肺脾腎腸胃百<note n="0213004" resp="Taisho" type="orig" place="foot text">&CB02983;＝&CB04290;【元】，葉【明】</note><note n="0213004" resp="CBETA" type="mod">&CB02983;＝&CB04290;【元】，＝葉【明】</note><app n="0213004"><lem>&CB02983;</lem><rdg wit="【元】" resp="Taisho">&CB04290;</rdg><rdg wit="【明】" resp="Taisho">葉</rdg></app>生
+<lb n="0213a23"/>藏熟藏屎尿膿汁。菩薩常觀三十六物。若能
+<lb n="0213a24"/>如是不生貪心。若愚癡嬰兒顛狂心亂。見是
+<lb n="0213a25"/>三十六物。猶不起欲想。況復智者諸菩薩等
+<lb n="0213a26"/>常觀<note n="0213005" resp="Taisho" type="orig" place="foot text">〔是〕－【元】【明】</note><app n="0213005"><lem>是</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>不淨。云何當復起於欲想。菩薩摩
+<lb n="0213a27"/>訶薩。見所愛色適意之時便生染心。初見色
+<lb n="0213a28"/>時即自念言。如佛所說。色如夢響無有實事。
+<lb n="0213a29"/>云何智者妄於夢中而生欲想。是故菩薩能
+<pb ed="T" id="T16.0658.0213b" n="0213b"/>
+<lb n="0213b01"/>生欲處悉皆遠離。云何菩薩。於可瞋中生對
+<lb n="0213b02"/>治法。而能離瞋及瞋因緣。菩薩於諸眾生常
+<lb n="0213b03"/>生慈心。以是因緣便得除瞋。若有惱害因緣
+<lb n="0213b04"/>瞋恚起時。當深繫念對治之法。是名菩薩除
+<lb n="0213b05"/>瞋方便。云何菩薩除癡方便。當念癡心不識
+<lb n="0213b06"/>善惡。常守愚闇後受苦果。無智自蔽惱他緣
+<lb n="0213b07"/>少。不如貪瞋多有怨害。如是觀時則滅癡心。
+<lb n="0213b08"/>是名菩薩燋然煩惱。云何名菩薩除不善覺。
+<lb n="0213b09"/>住於空靜阿練若處。作如是念。我今遠離於
+<lb n="0213b10"/>憒&CB00436;處。在閑靜地履行佛教。諸餘沙門婆羅
+<lb n="0213b11"/>門。親近憒&CB00436;多有擾亂遠離佛教。是名菩薩
+<lb n="0213b12"/>除不善覺。云何名菩薩怖畏惡業。觀察選擇
+<lb n="0213b13"/>曾聞佛說。專心修福堅<note n="0213006" resp="Taisho" type="orig" place="foot text">持淨＝淨持【元】【明】</note><app n="0213006"><lem>持淨</lem><rdg wit="【元】【明】" resp="Taisho">淨持</rdg></app>戒善學智慧。以
+<lb n="0213b14"/><note n="0213007" resp="Taisho" type="orig" place="foot text">何＝是【元】【明】＊</note><app n="0213007"><lem>何</lem><rdg wit="【元】【明】" resp="Taisho">是</rdg></app>因故最<note n="0213008" resp="Taisho" type="orig" place="foot text">得＝為【元】【明】</note><app n="0213008"><lem>得</lem><rdg wit="【元】【明】" resp="Taisho">為</rdg></app>勝報。具福德業遠離諸惡。是
+<lb n="0213b15"/>名菩薩怖畏惡業。云何名菩薩畏於微惡。於
+<lb n="0213b16"/>小罪邊常生大畏心。終不輕微小之惡。以<anchor id="fxT16p0213b01"/>何
+<lb n="0213b17"/>因緣曾聞佛說。少毒殺人況復多毒。微細惡
+<lb n="0213b18"/>中尚能將人至三惡道。況復多惡而心不畏。
+<lb n="0213b19"/>是名菩薩畏微小惡。云何名菩薩心常恐畏。
+<lb n="0213b20"/>為人體信婆羅門剎利居士等。以體信故即
+<lb n="0213b21"/>寄金銀種種珍寶。信心用付不立時證。菩薩
+<lb n="0213b22"/>終不生於隱匿之心。若佛物法物僧祇物四方
+<lb n="0213b23"/>僧物。菩薩寧當自食己肉終不侵他。若飲若
+<lb n="0213b24"/>食供身之具不敢輒毀。是名菩薩心常恐畏。
+<lb n="0213b25"/>云何名菩薩受持頭陀法堅固不闕。若魔眷
+<lb n="0213b26"/>屬及諸天等。以妙<note n="0213009" resp="Taisho" type="orig" place="foot text">財色＝色財【元】【明】</note><app n="0213009"><lem>財色</lem><rdg wit="【元】【明】" resp="Taisho">色財</rdg></app>欲來擾逼菩薩。菩薩
+<lb n="0213b27"/>即時志固不動<note n="0213010" resp="Taisho" type="orig" place="foot text">而＝於【元】【明】</note><app n="0213010"><lem>而</lem><rdg wit="【元】【明】" resp="Taisho">於</rdg></app>心不毀。是名菩薩受持頭
+<lb n="0213b28"/>陀法堅固不闕。云何名菩薩持戒不為求有
+<lb n="0213b29"/>造業。菩薩持戒不求世間果報。但為滿足一
+<pb ed="T" id="T16.0658.0213c" n="0213c"/>
+<lb n="0213c01"/>切善法得無上道。是名菩薩持戒不為求有
+<lb n="0213c02"/>造業。云何名菩薩淨於三業。云何<note n="0213011" resp="Taisho" type="orig" place="foot text">（修）＋淨【元】【明】</note><app n="0213011"><lem>淨</lem><rdg wit="【元】【明】" resp="Taisho">修淨</rdg></app>身業。
+<lb n="0213c03"/>離殺盜婬。以是義故名為淨身業。云何淨於
+<lb n="0213c04"/>口業。離惡口妄言兩舌綺語。是故名為淨於
+<lb n="0213c05"/>口業。云何淨於意業除貪瞋癡邪見。是名淨
+<lb n="0213c06"/>於意業。是名為菩薩淨於三業。善男子。具此
+<lb n="0213c07"/>十事。是名菩薩成就淨戒</p><note n="0213012" resp="Taisho" type="orig" place="foot text">第一卷終【元】【明】</note><note n="0213012" resp="CBETA" type="mod"><todo type="a"/>第一卷終【元】【明】</note>◎
+<lb n="0213c08"/><p>◎<note n="0213013" resp="Taisho" type="orig" place="foot text">第二卷首【元】【明】</note><note n="0213013" resp="CBETA" type="mod"><todo type="a"/>第二卷首【元】【明】</note>善男子。菩薩摩訶薩。復有十法能淨於忍。
+<lb n="0213c09"/>何等為十。內忍。外忍。法忍。隨佛教忍。無方
+<lb n="0213c10"/>所忍。修處處忍。非所為忍。不逼惱忍。悲心忍。
+<lb n="0213c11"/>誓願忍。云何名菩薩內忍。菩薩飢渴寒熱憂
+<lb n="0213c12"/>悲疼痛身心楚切。能自忍受不為苦惱。是名
+<lb n="0213c13"/>菩薩內忍。云何名菩薩外忍。菩薩從他聞惡
+<lb n="0213c14"/>言罵詈毀辱誹謗。或毀辱父母兄弟姊妹眷
+<lb n="0213c15"/>屬和<note n="0213014" resp="Taisho" type="orig" place="foot text">上＝尚【元】【明】＊</note><app n="0213014"><lem>上</lem><rdg wit="【元】【明】" resp="Taisho">尚</rdg></app>阿闍<anchor id="fxT16p0213c01"/>梨師徒同學。或聞毀佛法僧
+<lb n="0213c16"/>有。如是種種毀<note n="0213015" resp="Taisho" type="orig" place="foot text">訾＝呰【元】【明】</note><app n="0213015"><lem>訾</lem><rdg wit="【元】【明】" resp="Taisho">呰</rdg></app>菩薩。忍辱不生瞋恚。是
+<lb n="0213c17"/>名菩薩外忍。云何名菩薩法忍。佛於諸經說
+<lb n="0213c18"/>微妙義。諸法寂靜諸法寂滅。如涅槃相不驚
+<lb n="0213c19"/>不怖。菩薩作是念言。我若不解是經不知是
+<lb n="0213c20"/>法。終不得阿耨多羅三藐三菩提。是故菩薩
+<lb n="0213c21"/>勤求諮問讀誦。是名菩薩法忍。云何名菩薩
+<lb n="0213c22"/>隨佛教忍。菩薩瞋惱毒心起時。作是思惟。此
+<lb n="0213c23"/>身從何而生從何而滅。從我生者何者是我。
+<lb n="0213c24"/>從彼生者何者是彼。法相如是從何因緣起。
+<lb n="0213c25"/>菩薩作是思惟時。不見所從生亦不見所緣
+<lb n="0213c26"/>起。亦不見從我生。亦不見從彼起。亦不見從
+<lb n="0213c27"/>因緣生。作是思惟。亦不瞋亦不惱亦不毒。瞋
+<lb n="0213c28"/>怒之心即便減少。是名菩薩隨佛教忍。云何
+<lb n="0213c29"/>名菩薩無方所忍。或有夜忍晝不忍。或晝忍
+<pb ed="T" id="T16.0658.0214a" n="0214a"/>
+<lb n="0214a01"/>夜不忍。或彼方忍此方不忍。或此方忍彼方
+<lb n="0214a02"/>不忍。或知識邊忍不知識邊不忍。或不知識
+<lb n="0214a03"/>邊忍知識邊不忍。菩薩不爾。於一切時一切
+<lb n="0214a04"/>方常生忍心。是名菩薩無方所忍。云何名菩
+<lb n="0214a05"/>薩修處處忍。有人於父母師長夫妻男女大
+<lb n="0214a06"/>小內外如是中生忍。餘則不忍。菩薩忍者則
+<lb n="0214a07"/>不如是。如父母邊生忍。旃陀羅邊生忍<note n="0214001" resp="Taisho" type="orig" place="foot text">〔亦爾〕－【明】，亦爾＝亦所【元】</note><app n="0214001"><lem>亦
+<lb n="0214a08"/>爾</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【元】" resp="Taisho">亦所</rdg></app>。是名菩薩修處處忍。云何名菩薩非所為
+<lb n="0214a09"/>忍。不以事故生忍。不以利故生忍。不以畏故
+<lb n="0214a10"/>生忍。不以受他恩故生忍。不以相親友故生
+<lb n="0214a11"/>忍。不以愧赧故生忍。菩薩常修於忍。是名菩
+<lb n="0214a12"/>薩非所為忍。<note n="0214002" resp="Taisho" type="orig" place="foot text">〔善男子〕－【元】【明】</note><app n="0214002"><lem>善男子</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。云何名菩薩不逼惱忍
+<lb n="0214a13"/>若瞋因緣煩惱未起不名為忍。若遇瞋因緣
+<lb n="0214a14"/>時。拳打刀杖手&CB00560;蹴蹋惡口罵詈。於如是中
+<lb n="0214a15"/>心不動者則名為忍。菩薩若有人來起發瞋
+<lb n="0214a16"/>恚亦忍。不起發瞋恚亦忍。是名菩薩不逼惱
+<lb n="0214a17"/>忍。云何名菩薩悲心忍。爾時菩薩。若作王若
+<lb n="0214a18"/>王等有大功業。為苦眾生而作其主。是苦眾
+<lb n="0214a19"/>生若來罵辱觸惱之時。菩薩不以我是主故
+<lb n="0214a20"/>而生瞋恚。如是眾生我當拔濟常為擁護。云
+<lb n="0214a21"/>何而得生於瞋惱。是故我今悲心憐愍不生
+<lb n="0214a22"/>忿恚。是名菩薩悲心忍。云何名菩薩誓願忍。
+<lb n="0214a23"/>菩薩作是念。我先於諸佛前曾作師子吼發
+<lb n="0214a24"/>誓願言。我當成佛於一切生死淤泥中為拔
+<lb n="0214a25"/>諸苦眾生。我今欲拔不應瞋恚而惱於彼。若
+<lb n="0214a26"/>我不忍尚不自度況利眾生。善男子。譬如良
+<lb n="0214a27"/>醫善知治眼。見諸眾生多有患目。或患眼
+<lb n="0214a28"/><note n="0214003" resp="Taisho" type="orig" place="foot text">翳＝醫【明】</note><app n="0214003"><lem>翳</lem><rdg wit="【明】" resp="Taisho">醫</rdg></app>或患眼<note n="0214004" resp="Taisho" type="orig" place="foot text">膜＝瞙【元】【明】</note><app n="0214004"><lem>膜</lem><rdg wit="【元】【明】" resp="Taisho">瞙</rdg></app>。種種患眼不可稱計。是醫若
+<lb n="0214a29"/>言。我欲療治眾生眼患。彼時醫師<note n="0214005" resp="Taisho" type="orig" place="foot text">後＝本【元】【明】</note><app n="0214005"><lem>後</lem><rdg wit="【元】【明】" resp="Taisho">本</rdg></app>自盲
+<pb ed="T" id="T16.0658.0214b" n="0214b"/>
+<lb n="0214b01"/>冥。佛言。如此醫師能治他眼不。除蓋障菩薩
+<lb n="0214b02"/>摩訶薩白佛言。不也世尊。佛告除蓋障菩薩
+<lb n="0214b03"/>摩訶薩。欲除一切眾生無明<note n="0214006" resp="Taisho" type="orig" place="foot text">冥＝瞋【元】【明】</note><app n="0214006"><lem>冥</lem><rdg wit="【元】【明】" resp="Taisho">瞋</rdg></app>者。應先自除
+<lb n="0214b04"/>闇障後及於人。若內無智慧能治他疾。是義
+<lb n="0214b05"/>不然。以是因緣。當修於忍不應生瞋。是名菩
+<lb n="0214b06"/>薩大誓願忍。善男子。具此十事是名菩薩能
+<lb n="0214b07"/>淨於忍。善男子。菩薩復有十法。名為精進滿
+<lb n="0214b08"/>足。何等為十。如金剛精進。無等精進。處中
+<lb n="0214b09"/>精進。顯勝精進。熾盛精進。常&M010527;精進。清淨精
+<lb n="0214b10"/>進。不共二乘精進。不輕賤精進。不退轉精進。
+<lb n="0214b11"/>云何菩薩如金剛精進。未解者令解。未涅槃
+<lb n="0214b12"/>者令得涅槃。未安者令安。未度者令度。未得
+<lb n="0214b13"/>阿耨多羅三藐三菩提者。當令得阿耨多羅
+<lb n="0214b14"/>三藐三菩提。若作如是修行精進時。天魔波
+<lb n="0214b15"/>旬來謂菩薩言。汝今何故作如是精進。徒自
+<lb n="0214b16"/>勤苦終無所獲。何以故。我亦<note n="0214007" resp="Taisho" type="orig" place="foot text">曾＝會【明】</note><app n="0214007"><lem>曾</lem><rdg wit="【明】" resp="Taisho">會</rdg></app>作如是精
+<lb n="0214b17"/>進。未解者令解。未涅槃者令得涅槃。未安者
+<lb n="0214b18"/>令安。未度者令度。未得阿耨多羅三藐三菩
+<lb n="0214b19"/>提者。當令悉得如是等事。皆是妄語但誑凡
+<lb n="0214b20"/>愚無有真實。我未曾見如是精進而得阿耨
+<lb n="0214b21"/>多羅三藐三菩提者。善男<corr sic="于">子</corr>。我曾見無量眾
+<lb n="0214b22"/>生如是精進有得阿羅漢涅槃。如是精進有
+<lb n="0214b23"/>得辟支佛涅槃。魔王復言。善男子。雖行精進
+<lb n="0214b24"/>未有得阿耨多羅三藐三菩提。汝今思惟疾
+<lb n="0214b25"/>捨是心。空無所獲徒自<note n="0214008" resp="Taisho" type="orig" place="foot text">勞＝勤【元】【明】</note><app n="0214008"><lem>勞</lem><rdg wit="【元】【明】" resp="Taisho">勤</rdg></app>苦。汝今速求二
+<lb n="0214b26"/>乘。可得早離生死。菩薩即作是念。此是魔說
+<lb n="0214b27"/>欲壞我心。汝但少事而自憂己。莫為多事反
+<lb n="0214b28"/>憂我耶。隨所造業各得受報。依止於業業為
+<lb n="0214b29"/>親友。汝亦有此隨業受報。依止於業業為親
+<pb ed="T" id="T16.0658.0214c" n="0214c"/>
+<lb n="0214c01"/>屬。惡魔波旬。汝今速疾復道還去。汝惱我故
+<lb n="0214c02"/>當長夜受苦。魔即慚愧隱形而去。是名菩薩
+<lb n="0214c03"/>如金剛精進魔不能壞。云何名菩薩無等精
+<lb n="0214c04"/>進。爾時菩薩所行精進。超諸菩薩百千萬億
+<lb n="0214c05"/>算數譬喻所不能及。況餘聲聞二乘學者而
+<lb n="0214c06"/>能及乎。一切諸佛善法。以精進力故悉能攝
+<lb n="0214c07"/>取。一切惡法無不捨離。是則名為無等精進。
+<lb n="0214c08"/>云何名菩薩處中精進。勤不過分亦不懈退。
+<lb n="0214c09"/>如是精進名為處中精進。云何名菩薩高勝
+<lb n="0214c10"/>精進。菩薩發大精進。願使現身如佛色相。若
+<lb n="0214c11"/>我得佛。無見頂相圓光一尋。佛之相好無礙
+<lb n="0214c12"/>智慧大自在者願我悉得。是名高勝精進。云
+<lb n="0214c13"/>何名菩薩熾盛精進。譬如真金摩尼珠寶無
+<lb n="0214c14"/>有垢穢。光明熾盛端嚴殊顯。真金精<note n="0214009" resp="Taisho" type="orig" place="foot text">曜＝耀【元】【明】</note><app n="0214009"><lem>曜</lem><rdg wit="【元】【明】" resp="Taisho">耀</rdg></app>無量
+<lb n="0214c15"/>焰熾。摩尼寶珠煥然炳徹。菩薩精進亦復如
+<lb n="0214c16"/>是。無諸垢<note n="0214010" resp="Taisho" type="orig" place="foot text">穢＝翳【元】【明】</note><app n="0214010"><lem>穢</lem><rdg wit="【元】【明】" resp="Taisho">翳</rdg></app>。何者是精進垢。何者是精進
+<lb n="0214c17"/>翳。懈怠是精進垢。懶墮是精進翳。食不知足
+<lb n="0214c18"/>是精進垢。貪嗜睡眠是精進翳。好樂親近是
+<lb n="0214c19"/>精進垢。不見無我是精進障。如是名為精進
+<lb n="0214c20"/>垢精進障。除如是垢障。是名菩薩熾盛精進。
+<lb n="0214c21"/><note n="0214011" resp="Taisho" type="orig" place="foot text">〔善男子〕－【元】【明】</note><app n="0214011"><lem>善男子</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。云何名菩薩常&M010527;精進。舉動威儀不
+<lb n="0214c22"/>離精進。行住坐臥不曾休廢身心不懈。是名
+<lb n="0214c23"/>菩薩常&M010527;精進。云何名菩薩清淨精進。如上
+<lb n="0214c24"/>常&M010527;精進。有所起惡不善之業能障道法能
+<lb n="0214c25"/>作衰損。皆悉除斷一切善法於涅槃因不作障
+<lb n="0214c26"/>礙。能助道法安止道處。皆悉修廣增長熾盛。
+<lb n="0214c27"/>乃至微細一念之惡不令得起況復大惡。是
+<lb n="0214c28"/>名菩薩清淨精進。云何名菩薩不共二乘精
+<lb n="0214c29"/>進。菩薩摩訶薩。周遍十方。如&M010527;河沙數世界
+<pb ed="T" id="T16.0658.0215a" n="0215a"/>
+<lb n="0215a01"/>滿中阿鼻地獄猛火熾盛。如此世界外。有極
+<lb n="0215a02"/>苦眾生無依無救。乃至若一眾生如是苦惱。
+<lb n="0215a03"/>菩薩能忍大火。過無量&M010527;河沙世界。拔濟成
+<lb n="0215a04"/>熟一眾生苦。為一尚爾。況多眾生而不救濟。
+<lb n="0215a05"/>一切外道二乘學人所不能及。是名菩薩不
+<lb n="0215a06"/>共二乘精進。云何名菩薩不自輕賤精進。菩
+<lb n="0215a07"/>薩作是思惟。三世諸佛。皆從微少精進修無
+<lb n="0215a08"/>量德。乃能久積苦行成等正覺。是故我今因
+<lb n="0215a09"/>少精進漸<note n="0215001" resp="Taisho" type="orig" place="foot text">殖＝植【明】</note><app n="0215001"><lem>殖</lem><rdg wit="【明】" resp="Taisho">植</rdg></app>德本。不久亦應得佛不疑。是名
+<lb n="0215a10"/>菩薩不自輕賤精進。云何名菩薩不退轉精
+<lb n="0215a11"/>進。菩薩不以己身精進微薄。不以貧窮<note n="0215002" resp="Taisho" type="orig" place="foot text">又＝乏【元】【明】</note><app n="0215002"><lem>又</lem><rdg wit="【元】【明】" resp="Taisho">乏</rdg></app>少
+<lb n="0215a12"/>財寶而生捨心。常修精進向阿耨多羅三藐
+<lb n="0215a13"/>三菩提。過去未來現在三世諸佛。皆以積善
+<lb n="0215a14"/>微細精進悉得菩提。我今不以微賤而自輕
+<lb n="0215a15"/>毀。以微精進故。為一切眾生積集眾善。成阿
+<lb n="0215a16"/>耨多羅三藐三菩提。不為己樂而入涅槃。寧
+<lb n="0215a17"/>為眾生久處地獄。是名菩薩不退轉精進。善
+<lb n="0215a18"/>男子。具此十事。是名菩薩滿足精進</p><note n="0215003" resp="Taisho" type="orig" place="foot text">不分卷，〔寶雲…譯〕二十二字－【元】【明】</note><note n="0215003" resp="CBETA" type="mod"><todo type="a"/>不分卷，〔寶雲…譯〕二十二字－【元】【明】</note>◎
+<lb n="0215a19"/><juan fun="close" n="001"><jhead><title>寶雲經</title>卷第一</jhead></juan>
+<lb n="0215a20"/>
+<milestone unit="juan" n="2"/>
+<lb n="0215a21"/>
+<lb n="0215a22"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>寶雲經</title>卷第二</jhead></juan>
+<lb n="0215a23"/>
+<lb n="0215a24"/><byline type="Translator">梁扶南三藏曼陀羅仙譯</byline>
+<lb n="0215a25"/><p>◎<note n="0215004" resp="Taisho" type="orig" place="foot text">不分卷，〔寶雲…譯〕二十二字－【元】【明】</note><note n="0215004" resp="CBETA" type="mod"><todo type="a"/>不分卷，〔寶雲…譯〕二十二字－【元】【明】</note>善男子。菩薩摩訶薩。復有十法名具禪波
+<lb n="0215a26"/>羅蜜。何等為十。多集福德深厭諸惡。能勤精
+<lb n="0215a27"/>進具於多聞。不顛倒解解法向法。利根聰明
+<lb n="0215a28"/>有純善心。<note n="0215005" resp="Taisho" type="orig" place="foot text">善＝能【元】【明】</note><app n="0215005"><lem>善</lem><rdg wit="【元】【明】" resp="Taisho">能</rdg></app>解定智不著禪相。云何名為多
+<lb n="0215a29"/>集福德。久於大乘積集善根。在所生處常護
+<pb ed="T" id="T16.0658.0215b" n="0215b"/>
+<lb n="0215b01"/>持善戒遇善知識。世世&M010527;生種族剎利大姓
+<lb n="0215b02"/>婆羅門大家居士。生處&M010527;生正見家增長善
+<lb n="0215b03"/>法。憶所修善方便不捨。常不離善知識菩薩
+<lb n="0215b04"/>諸佛。漸漸增長觀察諸法。世間大苦常為災
+<lb n="0215b05"/>患之所逼惱。無有暫停長為眾苦。無明所盲
+<lb n="0215b06"/>皆因愛欲欲為根本。我今不應同於凡夫親
+<lb n="0215b07"/>近於欲。欲者諸佛世尊說從妄想生。無量因
+<lb n="0215b08"/>緣毀<note n="0215006" resp="Taisho" type="orig" place="foot text">訾＝呰【明】</note><app n="0215006"><lem>訾</lem><rdg wit="【明】" resp="Taisho">呰</rdg></app>過患。譬如以木貫人心腎。欲如利戟
+<lb n="0215b09"/>欲如劍刃欲如毒蛇欲如鋒<note n="0215007" resp="Taisho" type="orig" place="foot text">焰＝火【元】【明】</note><app n="0215007"><lem>焰</lem><rdg wit="【元】【明】" resp="Taisho">火</rdg></app>。欲如膿爛不
+<lb n="0215b10"/>可觸近。欲如聚沫欲如熱焰。欲如幻化欲如
+<lb n="0215b11"/>夢想。欲為不淨令人臭穢。欲如<note n="0215008" resp="Taisho" type="orig" place="foot text">熟＝熱【明】</note><app n="0215008"><lem>熟</lem><rdg wit="【明】" resp="Taisho">熱</rdg></app>癰欲如腐
+<lb n="0215b12"/>敗爛肉。作如是厭惡欲想。剃除鬚髮捨離產
+<lb n="0215b13"/>業。出家學道被<note n="0215009" resp="Taisho" type="orig" place="foot text">服法＝法服【元】【明】</note><app n="0215009"><lem>服法</lem><rdg wit="【元】【明】" resp="Taisho">法服</rdg></app>衣。而作沙門。正法出
+<lb n="0215b14"/>家信家非家。出家學道發大精進。未得善法
+<lb n="0215b15"/>者能令使得。未得智者能令得智。未得證者
+<lb n="0215b16"/>當令得證。如是因如是緣。以是事故即得多
+<lb n="0215b17"/>聞。於世諦第一義諦悉能宣說。善知世諦即
+<lb n="0215b18"/>第一義諦。善知不顛倒法如法體相。何者是
+<lb n="0215b19"/>善知法相。正見正志正語正業正命正方便
+<lb n="0215b20"/>正念正定。得見正道。利根轉勝心常在道。以
+<lb n="0215b21"/>利根故多生厭惡。遠離大眾憒&CB00436;之處。遠離
+<lb n="0215b22"/>欲覺貪瞋邪見殘害之心。遠離眷屬。遠離名
+<lb n="0215b23"/>聞利養。遠離一切身心。常念自觀<note n="0215010" resp="Taisho" type="orig" place="foot text">〔察〕－【元】【明】</note><app n="0215010"><lem>察</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>己心。
+<lb n="0215b24"/>為念善不善無記。若念善應念勝善。念勝善
+<lb n="0215b25"/>者。心生歡喜起發信樂。云何是勝善心。三十
+<lb n="0215b26"/>七品。云何是三十七品。四念處四正勤四如
+<lb n="0215b27"/>意足。五根五力。七覺分八正道法是名勝善
+<lb n="0215b28"/>是真道支。心猶不善極生厭惡多作觀察。勤
+<lb n="0215b29"/>行方便斷於不善。何等不善。貪欲瞋恚愚癡。
+<pb ed="T" id="T16.0658.0215c" n="0215c"/>
+<lb n="0215c01"/>貪欲有三種上中下。何者是上貪欲。欲心逼
+<lb n="0215c02"/>身正見衰損。離欲心少離於慚愧。云何離慚
+<lb n="0215c03"/>愧心。若攝身靜念獨處林野。爾時思惟欲覺
+<lb n="0215c04"/>增長熾盛。貴於欲覺讚歎欲覺。以欲覺故。作
+<lb n="0215c05"/>是思惟時。無有愧心。云何無慚。以欲業<note n="0215011" resp="Taisho" type="orig" place="foot text">欲＝故【元】【明】</note><app n="0215011"><lem>欲</lem><rdg wit="【元】【明】" resp="Taisho">故</rdg></app>
+<lb n="0215c06"/>作欲因緣。於父母所生懟恨語。於尊重處而
+<lb n="0215c07"/>無畏難。亦不羞愧自現有德。以是欲故命終
+<lb n="0215c08"/>之時墮於惡趣。是名上欲。云何名為中欲。若
+<lb n="0215c09"/>受欲已心生厭離或起悔心。是名中欲。云何
+<lb n="0215c10"/>名為下欲。若摩觸之時欲想即息。或共言語。
+<lb n="0215c11"/>雖有染想生念即滅。或見欲時欲想亦息。是
+<lb n="0215c12"/>名下欲。欲者一切衣服飲食供身之具悉名
+<lb n="0215c13"/>為欲。瞋恚亦有三種上中下。何者為上瞋。若
+<lb n="0215c14"/>惱彼時深生忿怒或作五逆。或五逆中作一
+<lb n="0215c15"/>一逆。或誹謗正法等。如是之罪。非算數譬喻
+<lb n="0215c16"/>之所能及。身壞命終墮大地獄受罪。餘報得
+<lb n="0215c17"/>生人中。膚體黑瘦兩目皆赤。志逞常怒多
+<lb n="0215c18"/><note n="0215012" resp="Taisho" type="orig" place="foot text">懷＝壞【明】</note><app n="0215012"><lem>懷</lem><rdg wit="【明】" resp="Taisho">壞</rdg></app>擾害。以是義故名為上瞋。云何名為中
+<lb n="0215c19"/>瞋。所作諸惡速疾變悔。即修對治之法。是名
+<lb n="0215c20"/>中瞋。云何名為下瞋。或出惡言或起譏訶。或
+<lb n="0215c21"/><note n="0215013" resp="Taisho" type="orig" place="foot text">集＝習【元】【明】</note><app n="0215013"><lem>集</lem><rdg wit="【元】【明】" resp="Taisho">習</rdg></app>微惡業。或時時起發尋生對治。是名下
+<lb n="0215c22"/>瞋。愚癡亦有三種上中下。何者為上癡。作惡
+<lb n="0215c23"/>不悔不生慚愧心無厭時。如是名為上癡。云
+<lb n="0215c24"/>何名為中癡。身作惡時尋生變悔。於同梵行
+<lb n="0215c25"/>邊發露懺悔不顯己德。是名中癡。云何名為
+<lb n="0215c26"/>下癡。依如來所制非性重罪少有所犯。是故
+<lb n="0215c27"/>名為下癡。菩薩摩訶薩。善心起時。能迴貪瞋
+<lb n="0215c28"/>癡能除欲愛。能除欲樂能除欲著。以善心故
+<lb n="0215c29"/>令欲不起。云何名為無記心。此心起時不緣
+<pb ed="T" id="T16.0658.0216a" n="0216a"/>
+<lb n="0216a01"/>外不緣內。不緣善不緣不善。不從定不從智。
+<lb n="0216a02"/>如從眠起目視不了。不緣善惡名為無記。若
+<lb n="0216a03"/>無記心生時。菩薩方便自策發起善心。令生
+<lb n="0216a04"/>歡喜安住於善。是名菩薩得於善心。以善心
+<lb n="0216a05"/>故觀察一切諸法。如幻如夢如熱時焰如呼
+<lb n="0216a06"/>聲響。此是善法此非善法。此法跡乘此法不
+<lb n="0216a07"/>跡乘。菩薩摩訶薩。觀於一切法發起善心。以
+<lb n="0216a08"/>法為<note n="0216001" resp="Taisho" type="orig" place="foot text">想＝相【元】【明】</note><app n="0216001"><lem>想</lem><rdg wit="【元】【明】" resp="Taisho">相</rdg></app>心為先導。當善持其心調順其心。善
+<lb n="0216a09"/>持諸法調伏諸法。見正法已。以是緣故便得
+<lb n="0216a10"/>寂定。心為境界以心繫心漸入寂定。以心住
+<lb n="0216a11"/>心正住三昧。心寂定故便能專一。心專一故
+<lb n="0216a12"/>次第無間。得定心故心常寂靜。心寂靜故
+<lb n="0216a13"/>心生喜樂。便除欲愛諸惡不善。有覺有觀定
+<lb n="0216a14"/>生喜樂成就初禪。無覺少觀定生喜樂成就
+<lb n="0216a15"/>二禪。除喜得樂念捨得第三禪。離喜樂行捨
+<lb n="0216a16"/>心得第四禪。除我見離憂喜捨苦樂淨念捨
+<lb n="0216a17"/>行四禪。一切解脫離色<note n="0216002" resp="Taisho" type="orig" place="foot text">相＝想【元】【明】</note><app n="0216002"><lem>相</lem><rdg wit="【元】【明】" resp="Taisho">想</rdg></app>如虛空。眾生心
+<lb n="0216a18"/><anchor id="fxT16p0216a01"/>相虛空<anchor id="fxT16p0216a02"/>相等作一解脫觀。以是故色<anchor id="fxT16p0216a03"/>相滅
+<lb n="0216a19"/>空<anchor id="fxT16p0216a04"/>相生。惱壞<anchor id="fxT16p0216a05"/>相已滅無邊虛空<anchor id="fxT16p0216a06"/>相成。從
+<lb n="0216a20"/>無邊虛空<anchor id="fxT16p0216a07"/>相以次觀識。識無邊故虛空<anchor id="fxT16p0216a08"/>相
+<lb n="0216a21"/>滅。觀識漸損乃至少識。名為不用處。復觀此
+<lb n="0216a22"/>識若有若無。是名非想非非想處。滅諸想受
+<lb n="0216a23"/>是名滅定。菩薩雖入滅定。而不捨教化眾生。
+<lb n="0216a24"/>亦不永樂滅定以為寂靜。不捨滅定而能慈
+<lb n="0216a25"/>悲普覆眾生。於滅定中乃至起悲喜捨心亦
+<lb n="0216a26"/>復如是。菩薩爾時便獲五神通。而不以十二
+<lb n="0216a27"/>門禪五神通等以為自足。方求上法阿耨多
+<lb n="0216a28"/>羅三藐三菩提。莊嚴之具功德滿足。善男子。
+<lb n="0216a29"/>具此十事。是名菩薩具禪波羅蜜</p>
+<pb ed="T" id="T16.0658.0216b" n="0216b"/>
+<lb n="0216b01"/><p>善男子。菩薩復有十法。名為智慧滿足。何等
+<lb n="0216b02"/>為十。具無我善。善解業報。善<note n="0216003" resp="Taisho" type="orig" place="foot text">解＝知【元】【明】</note><app n="0216003"><lem>解</lem><rdg wit="【元】【明】" resp="Taisho">知</rdg></app>有為法。善
+<lb n="0216b03"/>解生死相續不絕。善解生死出要之法。善解
+<lb n="0216b04"/>聲聞辟支二乘之法。善解摩訶衍。善解遮魔
+<lb n="0216b05"/>業智慧不顛倒智慧無<note n="0216004" resp="Taisho" type="orig" place="foot text">等＝礙【元】【明】</note><app n="0216004"><lem>等</lem><rdg wit="【元】【明】" resp="Taisho">礙</rdg></app>智慧。善男子。云何
+<lb n="0216b06"/>具無我善。菩薩以智觀察色受想行識。觀色
+<lb n="0216b07"/>不生不起不見起因。受亦不生不起不見起
+<lb n="0216b08"/>因。想亦不生不起不見起因。行亦不生不起
+<lb n="0216b09"/>不見起因。識亦不生不起不見起因。滅亦不
+<lb n="0216b10"/>生不起不見起因。第一義諦亦不見不生不
+<lb n="0216b11"/>起。世諦第一義諦。但有假名而無實體。雖知
+<lb n="0216b12"/>諸法虛<note n="0216005" resp="Taisho" type="orig" place="foot text">寂＝空【元】【明】</note><app n="0216005"><lem>寂</lem><rdg wit="【元】【明】" resp="Taisho">空</rdg></app>。而不捨於精進。深矜一切眾生。
+<lb n="0216b13"/>如救頭然如救衣裳然。勤修方便不懈不捨。
+<lb n="0216b14"/>為一切眾生故。而求阿耨多羅三藐三菩提
+<lb n="0216b15"/>果。莊嚴具足。是名菩薩無我善根。云何名菩
+<lb n="0216b16"/>薩善知業報。菩薩選擇觀察一切眾生皆如
+<lb n="0216b17"/>幻相。如乾闥婆城水中之月體性空寂。一切
+<lb n="0216b18"/>眾生<note n="0216006" resp="Taisho" type="orig" place="foot text">染＝深【元】【明】</note><app n="0216006"><lem>染</lem><rdg wit="【元】【明】" resp="Taisho">深</rdg></app>著我見及我所見。以是因緣不見正
+<lb n="0216b19"/>道。眾生作如是想。若無我無人無眾生無壽
+<lb n="0216b20"/><note n="0216007" resp="Taisho" type="orig" place="foot text">命＝者【元】【明】</note><app n="0216007"><lem>命</lem><rdg wit="【元】【明】" resp="Taisho">者</rdg></app>無丈夫者。若悉皆無。誰受善惡六趣差
+<lb n="0216b21"/>別。菩薩摩訶薩。雖知業報不斷不常<note n="0216008" resp="Taisho" type="orig" place="foot text">而＝不【元】【明】</note><app n="0216008"><lem>而</lem><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>受不
+<lb n="0216b22"/>捨。是名菩薩善知業報。云何名菩薩善知有
+<lb n="0216b23"/>為而不取有為相。如實正見知有為法迅速
+<lb n="0216b24"/>不停。念念流動猶華上露。如山&CB00589;水駃流赴
+<lb n="0216b25"/>下間無暫息。亦如沙<note n="0216009" resp="Taisho" type="orig" place="foot text">鹵＝城【元】【明】</note><app n="0216009"><lem>鹵</lem><rdg wit="【元】【明】" resp="Taisho">城</rdg></app>無有牢固。何有智者
+<lb n="0216b26"/>當生樂著而戀親愛。見有為法如是之相。云
+<lb n="0216b27"/>何智者而生憂悲。以是因緣深樂涅槃厭惡
+<lb n="0216b28"/>生死。是名菩薩善知有為法。云何名菩薩善
+<lb n="0216b29"/>解生死流轉。菩薩觀察一切眾生。無明所盲
+<pb ed="T" id="T16.0658.0216c" n="0216c"/>
+<lb n="0216c01"/>漂流生死。&M010527;為愛&CB00559;諸結所縛。以是因緣故
+<lb n="0216c02"/>受。以<note n="0216010" resp="Taisho" type="orig" place="foot text">受＝愛【元】【明】</note><app n="0216010"><lem>受</lem><rdg wit="【元】【明】" resp="Taisho">愛</rdg></app>故造善惡業。以業因緣故有。有因
+<lb n="0216c03"/>緣故生。生因緣故死憂悲苦惱眾苦聚集。生
+<lb n="0216c04"/>死流轉互為上下猶如<note n="0216011" resp="Taisho" type="orig" place="foot text">火＝水【元】【明】</note><app n="0216011"><lem>火</lem><rdg wit="【元】【明】" resp="Taisho">水</rdg></app>輪。是故菩薩正觀
+<lb n="0216c05"/>生死如實而知。是名菩薩善解生死流轉。云
+<lb n="0216c06"/>何名菩薩善解生死出要之法。無無明則無
+<lb n="0216c07"/>行。無行則無識。無識則無名色。無名色則
+<lb n="0216c08"/>無六入。無六入則無觸。無觸則無受。無受則
+<lb n="0216c09"/>無愛。無愛則無取。無取則無有。無有則無生。
+<lb n="0216c10"/>無生則無老死憂悲苦惱眾苦聚集。菩薩以
+<lb n="0216c11"/>如實知見十二因緣。是名菩薩善解生死出
+<lb n="0216c12"/>要之法。云何名菩薩善解聲聞辟支二乘之
+<lb n="0216c13"/>法。菩薩觀察如此法時。成須陀洹。成斯陀
+<lb n="0216c14"/>含。成阿那含。成阿羅漢。斷諸結漏得成辟支
+<lb n="0216c15"/>佛。成辟支佛已如犀一角。善解聲聞辟支佛
+<lb n="0216c16"/>法而不取證。何以故。我攝受一切眾生故。作
+<lb n="0216c17"/>師子吼而作是言。我當拔一切眾生曠野生死
+<lb n="0216c18"/>之苦。以是故我今不應獨出生死。是名菩薩
+<lb n="0216c19"/>善解聲聞辟支佛法。云何名菩薩善解摩訶
+<lb n="0216c20"/>衍法。菩薩善學一切諸法<note n="0216012" resp="Taisho" type="orig" place="foot text">（善學一切諸法已）七字＋而【元】【明】</note><app n="0216012"><lem>而</lem><rdg wit="【元】【明】" resp="Taisho">善學一切諸法已而</rdg></app>不得諸法相。善
+<lb n="0216c21"/>修學道而不<note n="0216013" resp="Taisho" type="orig" place="foot text">得是＝見【元】【明】</note><app n="0216013"><lem>得是</lem><rdg wit="【元】【明】" resp="Taisho">見</rdg></app>道相。不見能行者。不見所
+<lb n="0216c22"/>行法。亦不見所至到處。以是因緣相貌而不
+<lb n="0216c23"/>墮於斷見。是名菩薩善解摩訶衍。云何名菩
+<lb n="0216c24"/>薩善知遮魔業智慧。菩薩<note n="0216014" resp="Taisho" type="orig" place="foot text">善＝菩【明】</note><app n="0216014"><lem>善</lem><rdg wit="【明】" resp="Taisho">菩</rdg></app>知不親近惡知
+<lb n="0216c25"/><note n="0216015" resp="Taisho" type="orig" place="foot text">識＝者【元】【明】</note><app n="0216015"><lem>識</lem><rdg wit="【元】【明】" resp="Taisho">者</rdg></app>。亦不至惡國而常遠離世俗談話。不樂親
+<lb n="0216c26"/>近諸餘非法。不求利養。亦於此法不生欣樂。
+<lb n="0216c27"/>一切結使能障菩提者悉皆遠離。善知對治
+<lb n="0216c28"/>法。是名菩薩善知遮魔業智慧。云何名菩薩
+<lb n="0216c29"/>不顛倒智慧。善學世諦第一義諦及諸經論。
+<pb ed="T" id="T16.0658.0217a" n="0217a"/>
+<lb n="0217a01"/>善學世間雜論。為成熟眾生故雖廣聞多學。
+<lb n="0217a02"/>而不為於顯己功德。但為成熟眾生。雖明知
+<lb n="0217a03"/>世典。而常尊佛法以為最勝。終不染於外道
+<lb n="0217a04"/>邪見。是名菩薩不顛倒智慧。云何名菩薩無
+<lb n="0217a05"/>等智慧。不見若天若人沙門婆羅門<note n="0217001" resp="Taisho" type="orig" place="foot text">（及）＋諸【元】【明】</note><app n="0217001"><lem>諸</lem><rdg wit="【元】【明】" resp="Taisho">及諸</rdg></app>外道
+<lb n="0217a06"/>與菩薩智慧等者。除諸如來世尊等正覺。餘
+<lb n="0217a07"/>天人阿修羅無有能及菩薩<note n="0217002" resp="Taisho" type="orig" place="foot text">智＋（慧）【元】【明】</note><app n="0217002"><lem>智</lem><rdg wit="【元】【明】" resp="Taisho">智慧</rdg></app>者。是名菩薩
+<lb n="0217a08"/>無等智慧。善男子。具此十事。是名菩薩滿足
+<lb n="0217a09"/>智慧</p>
+<lb n="0217a10"/><p>善男子。菩薩復有十法。名滿足方便。何等為
+<lb n="0217a11"/>十。善解方便迴向。善迴外道諸見。善迴五塵。
+<lb n="0217a12"/>善除疑悔。善救護眾生。善知眾生濟命。善受
+<lb n="0217a13"/>供養。善移聲聞辟支二乘學者入於大乘。善
+<lb n="0217a14"/>知示教利喜。善知供養恭敬。云何名菩薩善
+<lb n="0217a15"/>解方便迴向。一切所有若華若果。若香若香
+<lb n="0217a16"/>樹。若寶若寶樹。若<note n="0217003" resp="Taisho" type="orig" place="foot text">疊＝&CB00626;【元】【明】＊</note><app n="0217003"><lem>疊</lem><rdg wit="【元】【明】" resp="Taisho">&CB00626;</rdg></app>若<anchor id="fxT16p0217a01"/>疊樹。一切空澤曠
+<lb n="0217a17"/>野無主非我所諸物。盡皆晝三時夜三時迴
+<lb n="0217a18"/>心施佛。以是善根。迴向阿耨多羅三藐三菩
+<lb n="0217a19"/>提。於修多羅經中。讚歎供養三寶之處。深生
+<lb n="0217a20"/>隨喜十方世界一切菩薩及諸眾生。若起一
+<lb n="0217a21"/>念善根。身心隨喜悉皆迴向。香華供養諸佛
+<lb n="0217a22"/>形像塔廟。以是善根。願令一切眾生悉除破
+<lb n="0217a23"/>戒非法臭穢。當使一切眾生皆得諸佛戒香
+<lb n="0217a24"/>之身。若有掃塔塗地。願使一切眾生悉得端
+<lb n="0217a25"/>正莊嚴之具。若以華蓋供養佛塔。願一切眾
+<lb n="0217a26"/>生除煩惱熱。若入僧坊塔寺。願一切眾生入
+<lb n="0217a27"/>涅槃城。若出塔寺。願一切眾生永離生死。若
+<lb n="0217a28"/>開門時。願一切眾生開善趣門。若閉門時。願
+<lb n="0217a29"/>一切眾生閉惡趣門。若欲坐時。願一切眾生
+<pb ed="T" id="T16.0658.0217b" n="0217b"/>
+<lb n="0217b01"/>當坐道場。若欲起時。願一切眾生於煩惱淤
+<lb n="0217b02"/><note n="0217004" resp="Taisho" type="orig" place="foot text">&CB00410;＝泥【元】【明】＊</note><app n="0217004"><lem>&CB00410;</lem><rdg wit="【元】【明】" resp="Taisho">泥</rdg></app>悉<note n="0217005" resp="Taisho" type="orig" place="foot text">令＝能【元】【明】</note><app n="0217005"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">能</rdg></app>超出。若右&CB00169;臥時。願一切眾生得
+<lb n="0217b03"/>右&CB00169;涅槃。若著衣時。願一切眾生著慚愧衣。
+<lb n="0217b04"/>若捉&CB00425;時。願一切眾生滿足佛法。若欲食時。
+<lb n="0217b05"/>願一切眾生悉得法食。若大小便利<note n="0217006" resp="Taisho" type="orig" place="foot text">〔時〕－【元】【明】</note><app n="0217006"><lem>時</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。願一
+<lb n="0217b06"/>切眾生蠲除垢穢無婬怒癡。若洗手時。當願
+<lb n="0217b07"/>眾生悉離染穢。若洗&CB00560;時。願一切眾生除煩惱
+<lb n="0217b08"/>垢。若嚼楊枝時。願一切眾生種種垢穢皆悉
+<lb n="0217b09"/>得除。若身行止及舉動時。願一切眾生悉得
+<lb n="0217b10"/>安樂。若禮塔寺時。願一切眾生亦皆敬禮。是
+<lb n="0217b11"/>名菩薩善解方便迴向。云何名菩薩善迴外道
+<lb n="0217b12"/>諸見。能令異學九十六種調伏出家。欲調伏
+<lb n="0217b13"/>時而不貢高。為作師範要先恭事。現為弟子
+<lb n="0217b14"/>然後調伏。隨諸外道所有威儀法則。悉皆習
+<lb n="0217b15"/>學究盡勝彼。令調伏已而反制之。使為弟子
+<lb n="0217b16"/>信受其語。爾時便為說言。汝先所學法。無有
+<lb n="0217b17"/>離欲亦無出要。乃以正道誘化其心令立佛
+<lb n="0217b18"/>法。是名菩薩善<note n="0217007" resp="Taisho" type="orig" place="foot text">調＝迴【元】【明】</note><app n="0217007"><lem>調</lem><rdg wit="【元】【明】" resp="Taisho">迴</rdg></app>外道諸見。云何名菩薩善
+<lb n="0217b19"/>迴五塵。見諸眾生貪欲熾盛。為化彼故現作
+<lb n="0217b20"/>女身。端正殊妙超諸女人。使彼染著。即復現
+<lb n="0217b21"/>身變為死屍。&CB00167;脹臭爛。眾生見者悉生驚怖。
+<lb n="0217b22"/>即便厭惡。我今云何疾得遠離臭穢之身。菩
+<lb n="0217b23"/>薩爾時即復本形而說法要。皆令堅固無上
+<lb n="0217b24"/>道心。是名菩薩善迴五塵。云何名菩薩善除
+<lb n="0217b25"/>疑悔。若見眾生作五逆罪及餘諸惡。菩薩
+<lb n="0217b26"/>即語眾生言。汝今何為愁苦如是。彼人答言。
+<lb n="0217b27"/>我作五逆罪愁憂悔恨。捨此身已當久受苦
+<lb n="0217b28"/>惱。長夜衰損無有義利。菩薩為現神變適其
+<lb n="0217b29"/>心念。令彼信<note n="0217008" resp="Taisho" type="orig" place="foot text">服＝伏【元】【明】</note><app n="0217008"><lem>服</lem><rdg wit="【元】【明】" resp="Taisho">伏</rdg></app>便生信敬愛樂。菩薩又復化
+<pb ed="T" id="T16.0658.0217c" n="0217c"/>
+<lb n="0217c01"/>作父母而加逆害。彼作是念。菩薩神足威力
+<lb n="0217c02"/>無量猶害父母。況我愚癡而能不作。菩薩答
+<lb n="0217c03"/>言。我真汝伴同作逆罪。菩薩便為說種種
+<lb n="0217c04"/>法。令彼逆罪即得輕微猶如蚊翅。是名菩薩
+<lb n="0217c05"/>善除疑悔。云何名菩薩善能救拔眾生。菩薩
+<lb n="0217c06"/>觀彼眾生。堪為法器而造諸惡。菩薩即為現
+<lb n="0217c07"/>形種種說法。應<note n="0217009" resp="Taisho" type="orig" place="foot text">現＝見【元】【明】＊</note><app n="0217009"><lem>現</lem><rdg wit="【元】【明】" resp="Taisho">見</rdg></app>王身得度者。即現王<note n="0217010" resp="Taisho" type="orig" place="foot text">等身應現＝身應見王等身得度者即現王等身應見【元】【明】</note><app n="0217010"><lem>等
+<lb n="0217c08"/>身。應現</lem><rdg wit="【元】【明】" resp="Taisho">身應見王等身得度者即現王等身應見</rdg></app>剎利身得度者。即現剎利身。應<anchor id="fxT16p0217c01"/>現
+<lb n="0217c09"/>婆羅門身得度者。即現婆羅門身。應<anchor id="fxT16p0217c02"/>現天
+<lb n="0217c10"/>身得度者。即現天身。應<anchor id="fxT16p0217c03"/>現金剛力士身得度
+<lb n="0217c11"/>者。即現金剛力士身。應<anchor id="fxT16p0217c04"/>現恐怖身得度者。
+<lb n="0217c12"/>即現恐怖身。應見繫閉鞭打驚怖身得度者。
+<lb n="0217c13"/>即現繫閉鞭打驚怖身。應見親友愛樂身得
+<lb n="0217c14"/>度者。即現親友愛樂身。所應見者皆為現之。
+<lb n="0217c15"/>是名菩薩善能救拔眾生。云何名菩薩善知
+<lb n="0217c16"/>眾生濟命。菩薩摩訶薩。見眾生無所堪任不
+<lb n="0217c17"/>識正法。<note n="0217011" resp="Taisho" type="orig" place="foot text">惟＝唯【元】【明】＊</note><app n="0217011"><lem>惟</lem><rdg wit="【元】【明】" resp="Taisho">唯</rdg></app>知貪欲飲食衣服更無餘求。菩薩
+<lb n="0217c18"/>爾時為示算數醫方種種伎術。如是善者皆
+<lb n="0217c19"/>令學習。悉<note n="0217012" resp="Taisho" type="orig" place="foot text">令＝使【元】【明】</note><app n="0217012"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">使</rdg></app>不乏衣服飲食。是名菩薩善知
+<lb n="0217c20"/>眾生濟命。云何名菩薩善解受<note n="0217013" resp="Taisho" type="orig" place="foot text">供＋（養）【元】【明】</note><app n="0217013"><lem>供</lem><rdg wit="【元】【明】" resp="Taisho">供養</rdg></app></p>
+<lb n="0217c21"/><p>菩薩爾時得大寶<note n="0217014" resp="Taisho" type="orig" place="foot text">聚＝樹【元】【明】</note><app n="0217014"><lem>聚</lem><rdg wit="【元】【明】" resp="Taisho">樹</rdg></app>。如須彌山悉能受之。若
+<lb n="0217c22"/>得少施微毫縷綖亦皆受用。菩薩以何<note n="0217015" resp="Taisho" type="orig" place="foot text">（因）＋緣【元】【明】</note><app n="0217015"><lem>緣</lem><rdg wit="【元】【明】" resp="Taisho">因緣</rdg></app>故
+<lb n="0217c23"/>大小皆受。見眾生慳貪嫉&CB00107;無有施心。又見
+<lb n="0217c24"/>眾生出沒生死如水中魚。深愍眾生漂溺巨
+<lb n="0217c25"/>海。為作利益令使快樂。受財寶已為供養佛
+<lb n="0217c26"/>法僧給施窮乏。隨所施處而為說法。皆發阿
+<lb n="0217c27"/>耨多羅三藐三菩提心。是名菩薩善解受供。
+<lb n="0217c28"/>云何名菩薩善能移於二乘入於大乘。菩薩
+<lb n="0217c29"/>見眾生堪任大器。乃至作聲聞辟支佛二乘
+<pb ed="T" id="T16.0658.0218a" n="0218a"/>
+<lb n="0218a01"/>精進勤修苦行。爾時菩薩令住大乘。及其徒
+<lb n="0218a02"/>眾悉皆令轉捨於小心。為繼佛種不斷三寶
+<lb n="0218a03"/>故。是名菩薩移於二乘安住大乘。云何名菩
+<lb n="0218a04"/>薩善能示教利喜。未發菩提心者能令發心。
+<lb n="0218a05"/>懈怠懶墮者令勤精進。若以少善而自足者。
+<lb n="0218a06"/>方便發起令具諸善。若有虧損少戒生大障
+<lb n="0218a07"/>礙而心遠離一切諸善者。菩薩即為說法。令
+<lb n="0218a08"/>其歡喜具修戒行。是名菩薩善能示教利喜。
+<lb n="0218a09"/>云何名菩薩善能恭敬供養三寶。出家菩薩
+<lb n="0218a10"/>少欲知足不積財寶。唯以法施為利。爾時在
+<lb n="0218a11"/>閑靜處獨坐思惟。我今何為不作供養佛想。
+<lb n="0218a12"/>即自思惟種種運心供養諸佛。如是思惟已
+<lb n="0218a13"/>便能具足六度。云何具足六度。以種種供養
+<lb n="0218a14"/>而具檀波羅蜜。&M010527;與一切眾生善。是名尸波
+<lb n="0218a15"/>羅蜜。歡喜忍樂。是名羼提波羅蜜。<note n="0218001" resp="Taisho" type="orig" place="foot text">心身＝身心【元】【明】</note><app n="0218001"><lem>心身</lem><rdg wit="【元】【明】" resp="Taisho">身心</rdg></app>不
+<lb n="0218a16"/>懈。是名毘梨耶波羅蜜。專心不散。是名禪波
+<lb n="0218a17"/>羅蜜。莊嚴眾行皆悉具足。是名般若波羅蜜。
+<lb n="0218a18"/>菩薩如是靜處思惟時。能具六波羅蜜。是名
+<lb n="0218a19"/>菩薩善解恭敬供養三寶。善男子。具此十事
+<lb n="0218a20"/>是名菩薩具足方便</p><note n="0218002" resp="Taisho" type="orig" place="foot text">卷第二終【元】【明】</note><note n="0218002" resp="CBETA" type="mod"><todo type="a"/>卷第二終【元】【明】</note>◎
+<lb n="0218a21"/><p>◎<note n="0218003" resp="Taisho" type="orig" place="foot text">卷第三首【元】【明】</note><note n="0218003" resp="CBETA" type="mod"><todo type="a"/>卷第三首【元】【明】</note>善男子。菩薩復有十法名方便發願。何等
+<lb n="0218a22"/>為十。不作卑下發願。<note n="0218004" resp="Taisho" type="orig" place="foot text">不＋（作）【元】【明】</note><app n="0218004"><lem>不</lem><rdg wit="【元】【明】" resp="Taisho">不作</rdg></app>畏生死發願。出過
+<lb n="0218a23"/>一切眾生發願。一切諸佛讚歎發願。能摧伏
+<lb n="0218a24"/>一切魔發願。不為他教故發願。無邊發願。不
+<lb n="0218a25"/>恐畏發願。無憂發願。具足發願。云何名菩薩
+<lb n="0218a26"/>不卑下發願。菩薩摩訶薩。不為三有受樂故
+<lb n="0218a27"/>發願。是名菩薩不卑下發願。云何名菩薩不
+<lb n="0218a28"/>畏生死發願。不求二乘不為厭惡生死。不為
+<lb n="0218a29"/>滅除生死故發願。是名菩薩不畏生死發願。
+<pb ed="T" id="T16.0658.0218b" n="0218b"/>
+<lb n="0218b01"/>云何名菩薩出過一切眾生發願。菩薩願使
+<lb n="0218b02"/>一切四生眾生悉成菩提<note n="0218005" resp="Taisho" type="orig" place="foot text">如＝而【元】【明】</note><app n="0218005"><lem>如</lem><rdg wit="【元】【明】" resp="Taisho">而</rdg></app>般涅槃。而我或
+<lb n="0218b03"/>入涅槃。或不入涅槃。是名菩薩出過一切眾
+<lb n="0218b04"/>生發願。云何名菩薩一切諸佛讚歎發願。菩
+<lb n="0218b05"/>薩發願。我化一切眾生皆發阿耨多羅三藐
+<lb n="0218b06"/>三菩提心。行菩薩道乃至坐於道場。我當勸
+<lb n="0218b07"/>請令轉法輪。佛若入涅槃。我當勸請令久住
+<lb n="0218b08"/>世利益眾生。是名菩薩一切諸佛讚歎發願。
+<lb n="0218b09"/>云何名菩薩摧伏一切諸魔發願。菩薩願使
+<lb n="0218b10"/>一切眾生成佛時。國土不聞惡魔名字。是名
+<lb n="0218b11"/>菩薩摧伏一切諸魔發願。云何名菩薩不為
+<lb n="0218b12"/>他教故發願。終不受他教故。發阿耨多羅三
+<lb n="0218b13"/>藐三菩提心。自以智慧觀察世界眾生受無
+<lb n="0218b14"/>量苦。為拔濟故發阿耨多羅三藐三菩提心。
+<lb n="0218b15"/>是名菩薩不為他<note n="0218006" resp="Taisho" type="orig" place="foot text">〔教〕－【元】【明】</note><app n="0218006"><lem>教</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>故發願。云何名菩薩無
+<lb n="0218b16"/>邊發願。菩薩不為方所少緣發願。菩薩整其
+<lb n="0218b17"/>衣服右膝著地叉手合掌心生厭惡。於十方
+<lb n="0218b18"/>一切世界所有菩薩若坐道場勤修苦行初成
+<lb n="0218b19"/>佛者轉法輪者。當悉觀察照見我心。勸請隨
+<lb n="0218b20"/>喜願轉法輪。一切十方菩薩從初發意行六
+<lb n="0218b21"/>波羅蜜。皆作無量難行苦行。及至坐於道場。
+<lb n="0218b22"/>降魔成佛及轉法輪。於此一一善心我皆隨
+<lb n="0218b23"/>喜。發阿耨多羅三藐三菩提心。是名菩薩無
+<lb n="0218b24"/>邊發願。云何名菩薩不恐畏發願。菩薩從初
+<lb n="0218b25"/>發心聞深妙法不生驚畏。聞佛本行無<note n="0218007" resp="Taisho" type="orig" place="foot text">量＝邊【元】【明】</note><app n="0218007"><lem>量</lem><rdg wit="【元】【明】" resp="Taisho">邊</rdg></app>功
+<lb n="0218b26"/>德不生驚畏。聞菩薩深遠遊戲神通不生驚
+<lb n="0218b27"/>畏。聞菩薩深遠善權方便不生驚畏。菩薩作
+<lb n="0218b28"/>是念。佛菩提無量無邊。世界無量無邊。佛所
+<lb n="0218b29"/>成熟眾生無量無邊。非我智力之所能知。<anchor id="fxT16p0218b01"/>惟
+<pb ed="T" id="T16.0658.0218c" n="0218c"/>
+<lb n="0218c01"/>佛與佛乃能究竟。是名菩薩不恐畏發願。云
+<lb n="0218c02"/>何名菩薩無憂發願。菩薩見諸眾生癡無慧
+<lb n="0218c03"/>目。&CB00395;悷難調不可降伏。破戒懶墮眾惡悉具。
+<lb n="0218c04"/>為如此等深起厭心求生淨土。願令我等不
+<lb n="0218c05"/>聞如是諸惡之名。當行慈悲智慧具足。菩薩
+<lb n="0218c06"/>發心便作是念。一切世界中少智眾生。愚癡
+<lb n="0218c07"/>瘖<note n="0218008" resp="Taisho" type="orig" place="foot text">啞＝&CB00484;【元】【明】</note><app n="0218008"><lem>啞</lem><rdg wit="【元】【明】" resp="Taisho">&CB00484;</rdg></app>無涅槃分不生信心者。而為一切諸佛
+<lb n="0218c08"/>菩薩之所棄捨。如此眾生我皆調伏。乃至坐
+<lb n="0218c09"/>於道場。得阿耨多羅三藐三菩提。發此心時。
+<lb n="0218c10"/>一切魔宮悉皆震動。十方諸佛發<note n="0218009" resp="Taisho" type="orig" place="foot text">聲＝心【元】【明】</note><app n="0218009"><lem>聲</lem><rdg wit="【元】【明】" resp="Taisho">心</rdg></app>讚歎。莊
+<lb n="0218c11"/>嚴淨土速成正覺。是名菩薩無憂發願。云何
+<lb n="0218c12"/>名菩薩具足發願。菩薩發心誓願降魔成阿
+<lb n="0218c13"/>耨多羅三藐三菩提。是名菩薩具足發願。譬
+<lb n="0218c14"/>如油&CB00425;若已平滿。更投一<note n="0218010" resp="Taisho" type="orig" place="foot text">渧＝滴【元】【明】</note><app n="0218010"><lem>渧</lem><rdg wit="【元】【明】" resp="Taisho">滴</rdg></app>終不復受。菩薩
+<lb n="0218c15"/>成佛眾願滿足亦復如是。更無減少一塵之
+<lb n="0218c16"/>願。善男子。具此十事是名菩薩方便具足發
+<lb n="0218c17"/>願</p>
+<lb n="0218c18"/><p>善男子。菩薩復有十法名力具足。何等為十。
+<lb n="0218c19"/>人不輕力。不為他所伏力。具福業力。具智慧
+<lb n="0218c20"/>力。具徒眾力。得神通力。自在之力。陀羅尼
+<lb n="0218c21"/>力。菩薩定持不可動力。所言無二力。云何名
+<lb n="0218c22"/>菩薩人不輕力。一切外道聲聞二乘無能過
+<lb n="0218c23"/>者。一切眾生亦無有與菩薩力等者。是名菩
+<lb n="0218c24"/>薩人不輕力。云何名菩薩具福業力。無有世
+<lb n="0218c25"/>間出世間所修之福功德莊嚴能與菩薩力齊
+<lb n="0218c26"/>等者。是名菩薩具福業力。云何名菩薩具智
+<lb n="0218c27"/>慧力。菩薩智力有所舉動。於前後際無有錯
+<lb n="0218c28"/>謬。是名菩薩具智慧力。云何名菩薩具徒眾
+<lb n="0218c29"/>力。菩薩徒眾不壞正見。無毀威儀常修淨命。
+<pb ed="T" id="T16.0658.0219a" n="0219a"/>
+<lb n="0219a01"/>所攝大眾皆同菩薩正直之行。是名菩薩具
+<lb n="0219a02"/>徒眾力。云何名菩薩具神通力。菩薩以世俗
+<lb n="0219a03"/>五通勝於聲聞二乘五通。能以一塵容閻浮
+<lb n="0219a04"/>提及四天下。或千世界或二千世界或三千
+<lb n="0219a05"/>大千世界。乃至&M010527;河沙等三千大千世界。而
+<lb n="0219a06"/>微塵不增世界不減。其中眾生亦不迫迮。無
+<lb n="0219a07"/>覺知想不相妨礙。是名菩薩具神通力。云何
+<lb n="0219a08"/>名菩薩得自在力。菩薩有自在力。欲使三千
+<lb n="0219a09"/>大千世界種種珍寶遍滿其中。即如其意。是
+<lb n="0219a10"/>名菩薩自在之力。云何名菩薩得陀羅尼力。
+<lb n="0219a11"/>菩薩若聞無量無邊諸佛說法異<note n="0219001" resp="Taisho" type="orig" place="foot text">聞＝文【元】【明】</note><app n="0219001"><lem>聞</lem><rdg wit="【元】【明】" resp="Taisho">文</rdg></app>異字。能
+<lb n="0219a12"/>於一念種種音聲。悉皆受持思惟修行。是名
+<lb n="0219a13"/>菩薩陀羅尼力。云何名菩薩<note n="0219002" resp="Taisho" type="orig" place="foot text">定＝受【元】【明】</note><app n="0219002"><lem>定</lem><rdg wit="【元】【明】" resp="Taisho">受</rdg></app>持無<note n="0219003" resp="Taisho" type="orig" place="foot text">戲＝虧【元】【明】＊</note><app n="0219003"><lem>戲</lem><rdg wit="【元】【明】" resp="Taisho">虧</rdg></app>動
+<lb n="0219a14"/>力。一切眾生無能擾壞令其心亂。是名菩薩
+<lb n="0219a15"/>定持不<anchor id="fxT16p0219a01"/>戲動力。云何名菩薩所言無二力。菩
+<lb n="0219a16"/>薩心思後言口無二語。<anchor id="fxT16p0219a02"/>惟除方便。利益之
+<lb n="0219a17"/>說。是<note n="0219004" resp="Taisho" type="orig" place="foot text">〔名〕－【元】【明】</note><app n="0219004"><lem>名</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>菩薩言無二力。若有記&CB00028;終不錯
+<lb n="0219a18"/>謬一切眾生所有智慧。無能出過菩薩之者。
+<lb n="0219a19"/>善男子。具<note n="0219005" resp="Taisho" type="orig" place="foot text">此十＝足此【元】【明】</note><app n="0219005"><lem>此十</lem><rdg wit="【元】【明】" resp="Taisho">足此</rdg></app>事。是名菩薩得力具足</p>
+<lb n="0219a20"/><p>善男子。菩薩復有十法名具足智。何等為十。
+<lb n="0219a21"/>知人無我智具足。知法無我智具足。<note n="0219006" resp="Taisho" type="orig" place="foot text">（一切處）＋遍【元】【明】</note><app n="0219006"><lem>遍</lem><rdg wit="【元】【明】" resp="Taisho">一切處遍</rdg></app>知諸
+<lb n="0219a22"/>方智具足。善知禪定境界處<note n="0219007" resp="Taisho" type="orig" place="foot text">所＋（智）【元】【明】</note><app n="0219007"><lem>所</lem><rdg wit="【元】【明】" resp="Taisho">所智</rdg></app>具足智。持具
+<lb n="0219a23"/>足無等智具足。善知眾生根行智具足。無作
+<lb n="0219a24"/>智具足。善知一切法相智具足。善知出世間
+<lb n="0219a25"/>智具足。云何名菩薩知人無我。觀五陰不堅
+<lb n="0219a26"/>無牢固。虛妄無真實。乃至滅謝亦不見有去。
+<lb n="0219a27"/>菩薩作是念。此五陰無我無眾生無壽<note n="0219008" resp="Taisho" type="orig" place="foot text">命＝者【元】【明】</note><app n="0219008"><lem>命</lem><rdg wit="【元】【明】" resp="Taisho">者</rdg></app>無
+<lb n="0219a28"/>養育無人。凡夫愚人謂實有我故妄取我想。
+<lb n="0219a29"/>猶如鬼魅妖異所著。眾生妄計亦復如是。或
+<pb ed="T" id="T16.0658.0219b" n="0219b"/>
+<lb n="0219b01"/>陰即是我。我即是<note n="0219009" resp="Taisho" type="orig" place="foot text">陰＝因【元】【明】＊</note><app n="0219009"><lem>陰</lem><rdg wit="【元】【明】" resp="Taisho">因</rdg></app>。或<anchor id="fxT16p0219b01"/>陰是我所。我所是
+<lb n="0219b02"/>陰。著虛妄我不見真實。於生死中如旋火輪
+<lb n="0219b03"/>虛妄無實。菩薩如實能知。是名菩薩知人無
+<lb n="0219b04"/>我具足。云何名菩薩觀法無我知。如實相見
+<lb n="0219b05"/>生見滅。知一切物猶如假借。但有名用假施
+<lb n="0219b06"/>設生。無有實體。假施設法亦不斷不常。但從
+<lb n="0219b07"/>緣而生從緣而滅。菩薩如實而知諸法真實。
+<lb n="0219b08"/>是名觀法無我具足。云何名菩薩一切處遍
+<lb n="0219b09"/>知。一切處遍知者。非一剎那<note n="0219010" resp="Taisho" type="orig" place="foot text">（之）＋中【元】【明】</note><app n="0219010"><lem>中</lem><rdg wit="【元】【明】" resp="Taisho">之中</rdg></app><note n="0219011" resp="Taisho" type="orig" place="foot text">〔知〕－【元】【明】</note><app n="0219011"><lem>知</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。非一剎
+<lb n="0219b10"/>那中不知。非此方知彼方不知。而能普於十
+<lb n="0219b11"/>方得無礙智。是名菩薩一切處遍知。云何名
+<lb n="0219b12"/>菩薩善知禪定境界處所。知聲聞定。知辟支
+<lb n="0219b13"/>佛定。知菩薩定。知諸佛定。如是諸定皆悉了
+<lb n="0219b14"/>知。聲聞二乘但知自分境界餘則不知。菩薩
+<lb n="0219b15"/>定者知己境界。兼知二乘及如來禪定究竟
+<lb n="0219b16"/><note n="0219012" resp="Taisho" type="orig" place="foot text">定＝之【元】【明】</note><app n="0219012"><lem>定</lem><rdg wit="【元】【明】" resp="Taisho">之</rdg></app>相。以佛力故亦悉能知。是名菩薩善知禪
+<lb n="0219b17"/>定境界處所。云何名菩薩智持具足。菩薩善
+<lb n="0219b18"/>知聲聞持辟支佛持菩薩持。況餘眾生而不
+<lb n="0219b19"/>能知。是名菩薩智持具足。云何名菩薩無等
+<lb n="0219b20"/>智具足。一切外道二乘諸智。無有能及菩薩
+<lb n="0219b21"/>智者。<anchor id="fxT16p0219b02"/>惟除如來一切種智。是名菩薩無等智
+<lb n="0219b22"/>具足。云何名菩薩善知眾生根行具足。菩薩
+<lb n="0219b23"/>能以淨無礙智。遍觀世<note n="0219013" resp="Taisho" type="orig" place="foot text">界＋（眾生）【元】【明】</note><app n="0219013"><lem>界</lem><rdg wit="【元】【明】" resp="Taisho">界眾生</rdg></app>。有眾生能生菩
+<lb n="0219b24"/>提。有眾生不能生菩提。有眾生滿足菩提。有
+<lb n="0219b25"/>眾生不滿足菩提。有眾生住於初地乃至住
+<lb n="0219b26"/>於十地。有眾生坐於道場。有成正覺有轉法
+<lb n="0219b27"/>輪乃至入般涅槃。有聲聞乘涅槃。有辟支佛
+<lb n="0219b28"/>乘涅槃。有生善趣者。有生惡趣者。是名菩
+<lb n="0219b29"/>薩善知眾生根行具足。云何名菩薩無作智
+<pb ed="T" id="T16.0658.0219c" n="0219c"/>
+<lb n="0219c01"/>具足。於四威儀行住坐臥。念念無作心&M010527;成
+<lb n="0219c02"/>就。譬如有人於出入息乃至睡眠常無所作。
+<lb n="0219c03"/>菩薩如是心無思惟亦非造作。而無礙智自
+<lb n="0219c04"/>然成就。是名菩薩無作智具足。云何名菩薩
+<lb n="0219c05"/>善知一切法相具足。了達諸法皆同一相。云
+<lb n="0219c06"/>何一相。皆盡空相。如幻相虛妄相。是名菩薩
+<lb n="0219c07"/>善知一切法相具足。云何名菩薩善知出世
+<lb n="0219c08"/>間智具足。菩薩知無漏智。出一切世間諸智。
+<lb n="0219c09"/>是名菩薩出世間智具足。善男子。具此十事。
+<lb n="0219c10"/>是名菩薩得一切智滿足。善男子。菩薩復有
+<lb n="0219c11"/>十法名得地三昧。何等為十。如地廣大無邊。
+<lb n="0219c12"/>如地一切眾生依止存濟。如地於一切眾生
+<lb n="0219c13"/>悉有<note n="0219014" resp="Taisho" type="orig" place="foot text">育養＝養育【元】【明】＊</note><app n="0219014"><lem>育養</lem><rdg wit="【元】【明】" resp="Taisho">養育</rdg></app>之恩終不計恩。如地普能容受諸
+<lb n="0219c14"/>大雲雨。能為一切眾生依止住處。能生善
+<lb n="0219c15"/>種及一切種。如大寶器。能出一切大藥。不可
+<lb n="0219c16"/>傾動不驚不畏。云何名菩薩如地廣大無邊。
+<lb n="0219c17"/>周匝十方無邊無量。菩薩亦爾。功德智慧莊
+<lb n="0219c18"/>嚴願行無邊無量。是名菩薩如地廣大無邊。
+<lb n="0219c19"/>云何名菩薩如地一切眾生依止存濟。各<note n="0219015" resp="Taisho" type="orig" place="foot text">從＝存【元】【明】</note><app n="0219015"><lem>從</lem><rdg wit="【元】【明】" resp="Taisho">存</rdg></app>
+<lb n="0219c20"/>所欲稱<note n="0219016" resp="Taisho" type="orig" place="foot text">意＝其【元】【明】</note><app n="0219016"><lem>意</lem><rdg wit="【元】【明】" resp="Taisho">其</rdg></app>拯給周濟無礙。菩薩亦爾。施戒忍
+<lb n="0219c21"/>辱精進禪智乃至眾具。皆悉<note n="0219017" resp="Taisho" type="orig" place="foot text">（施）＋與【元】【明】</note><app n="0219017"><lem>與</lem><rdg wit="【元】【明】" resp="Taisho">施與</rdg></app>之而心無限
+<lb n="0219c22"/>礙。是名菩薩如地一切眾生依止存濟。云何
+<lb n="0219c23"/>名菩薩有<anchor id="fxT16p0219c01"/>育養之恩而不望報。猶如大地等
+<lb n="0219c24"/>無好惡。加報不欣無亦不恨。是名菩薩育養
+<lb n="0219c25"/>之恩而不望報。云何名菩薩如地普能容受
+<lb n="0219c26"/>大法雲雨。亦如大地天<note n="0219018" resp="Taisho" type="orig" place="foot text">注＝澍【元】【明】＊</note><app n="0219018"><lem>注</lem><rdg wit="【元】【明】" resp="Taisho">澍</rdg></app>雲雨普<note n="0219019" resp="Taisho" type="orig" place="foot text">皆＝能【明】</note><app n="0219019"><lem>皆</lem><rdg wit="【明】" resp="Taisho">能</rdg></app>容受
+<lb n="0219c27"/>無不堪持。菩薩摩訶薩亦復如是。一切諸佛
+<lb n="0219c28"/>興大密雲普<anchor id="fxT16p0219c02"/>注法雨。如其所說悉能受持。是
+<lb n="0219c29"/>名菩薩如地普能容受大法雲雨。云何名菩
+<pb ed="T" id="T16.0658.0220a" n="0220a"/>
+<lb n="0220a01"/>薩能為一切眾生依止住處。又如大地草木
+<lb n="0220a02"/>叢林一切眾生行住坐臥皆依於地。菩薩亦
+<lb n="0220a03"/>爾。一切眾生修行善趣二乘學法及以涅槃。
+<lb n="0220a04"/>一切皆因菩薩而有。是名菩薩能為一切眾
+<lb n="0220a05"/>生依止住處。云何名菩薩善種子之所依處。
+<lb n="0220a06"/>譬如大地一切種子依地而生。菩薩亦爾。一
+<lb n="0220a07"/>切善業天人種子皆依菩薩而生。是名菩薩
+<lb n="0220a08"/>善種子之所依處。云何名菩薩如大寶器。譬
+<lb n="0220a09"/>如大地能出眾寶。是諸寶物皆出於地。菩薩
+<lb n="0220a10"/>摩訶薩亦復如是。功德善寶一切樂果悉出
+<lb n="0220a11"/>菩薩。是名菩薩如大寶器。云何名菩薩能出
+<lb n="0220a12"/>一切大藥。譬如大地出眾妙藥能治種種諸
+<lb n="0220a13"/>病。菩薩摩訶薩亦復如是。能出一切諸妙法
+<lb n="0220a14"/>藥。能除一切諸煩惱病。是名菩薩能出一切
+<lb n="0220a15"/>大法藥器。云何名菩薩不可傾動。譬如大地
+<lb n="0220a16"/>風不能動蠅蚋蚤<note n="0220001" resp="Taisho" type="orig" place="foot text">蝎＝虱【元】【明】</note><app n="0220001"><lem>蝎</lem><rdg wit="【元】【明】" resp="Taisho">虱</rdg></app>不能<anchor id="fxT16p0220a01"/>&CB01487;損。菩薩摩訶
+<lb n="0220a17"/>薩亦復如是。一切內外諸緣逼惱不能擾動。
+<lb n="0220a18"/>是名菩薩不可傾動。云何名菩薩不驚不畏。
+<lb n="0220a19"/>譬如大地師子虎狼龍象雷電哮吼不能驚
+<lb n="0220a20"/>畏。菩薩摩訶薩亦復如是。一切外道九十六
+<lb n="0220a21"/>種所不能動。是名菩薩不驚不畏。善男子。具
+<lb n="0220a22"/>此十事。是名菩薩得地三昧</p>
+<lb n="0220a23"/><p>善男子。菩薩復有十法譬如大水。何等為十。
+<lb n="0220a24"/>如水流注溉潤赴下。能生眾生善芽種子。欣
+<lb n="0220a25"/>樂敬信。浸爛一切煩惱根芽。如水清淨不濁。
+<lb n="0220a26"/>除滅一切熾熱之患。能除貪欲愛心之渴。深
+<lb n="0220a27"/>廣難度如水澆溉高下皆滿。能除一切諸結
+<lb n="0220a28"/>塵垢。云何名菩薩如水流注溉潤赴下。生長
+<lb n="0220a29"/>草木而各滋茂。菩薩亦復如是。以諸功德如
+<pb ed="T" id="T16.0658.0220b" n="0220b"/>
+<lb n="0220b01"/>水溉下。流潤微善亦<note n="0220002" resp="Taisho" type="orig" place="foot text">令＝能【元】【明】</note><app n="0220002"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">能</rdg></app>增長。是名菩薩如水
+<lb n="0220b02"/>流注溉潤赴下。云何名菩薩能生眾生善芽
+<lb n="0220b03"/>種子。如水能潤草木叢林悉得生長。菩薩以
+<lb n="0220b04"/>禪定水澆潤覺意正直道支令得增長。漸漸
+<lb n="0220b05"/>長養成一切智樹。是名菩薩能生善<note n="0220003" resp="Taisho" type="orig" place="foot text">牙＝芽【元】【明】＊</note><app n="0220003"><lem>牙</lem><rdg wit="【元】【明】" resp="Taisho">芽</rdg></app>種子。
+<lb n="0220b06"/>以若干種諸佛法果利益眾生。菩薩摩訶薩
+<lb n="0220b07"/>亦復如是。以<note n="0220004" resp="Taisho" type="orig" place="foot text">清淨＝淨清【明】</note><app n="0220004"><lem>清淨</lem><rdg wit="【明】" resp="Taisho">淨清</rdg></app>法增長流潤。是名菩薩能
+<lb n="0220b08"/>生善<anchor id="fxT16p0220b01"/>牙種子。云何名菩薩欣樂敬信。如水
+<lb n="0220b09"/>自濕亦能濕彼。菩薩亦復如是。<note n="0220005" resp="Taisho" type="orig" place="foot text">身自＝自身【元】【明】</note><app n="0220005"><lem>身自</lem><rdg wit="【元】【明】" resp="Taisho">自身</rdg></app>恭敬信
+<lb n="0220b10"/>樂。亦能令他恭敬信樂。是名菩薩恭敬信樂。
+<lb n="0220b11"/>云何名菩薩浸爛一切煩惱根<anchor id="fxT16p0220b02"/>牙。譬如大水
+<lb n="0220b12"/>能浸草木根<anchor id="fxT16p0220b03"/>牙令使爛壞。菩薩摩訶薩亦復
+<lb n="0220b13"/>如是。修禪定水浸煩惱根<anchor id="fxT16p0220b04"/>牙令悉爛壞。乃
+<lb n="0220b14"/>至結使習氣垢穢悉皆無餘。是名菩薩浸<note n="0220006" resp="Taisho" type="orig" place="foot text">爛＋（壞）【元】【明】</note><app n="0220006"><lem>爛</lem><rdg wit="【元】【明】" resp="Taisho">爛壞</rdg></app>
+<lb n="0220b15"/>一切煩惱根芽。云何名菩薩如水清淨不濁。
+<lb n="0220b16"/>水之體性常&M010527;不濁。菩薩摩訶薩亦復如是。
+<lb n="0220b17"/>體性不濁。云何菩薩體性不濁。結使貪欲瞋
+<lb n="0220b18"/>恚愚癡悉斷無餘。善護諸根清淨如水。是名
+<lb n="0220b19"/>菩薩如水清淨不濁。云何名菩薩除滅一切
+<lb n="0220b20"/>熾熱之患。譬如夏月以水洗浴身則清涼。菩
+<lb n="0220b21"/>薩亦復如是。能以法水除煩惱熱。是名菩薩
+<lb n="0220b22"/>除滅一切熾熱之患。云何名菩薩能除貪欲
+<lb n="0220b23"/>愛心之渴。譬諸泉水能除人渴。菩薩摩訶薩
+<lb n="0220b24"/>亦復如是。能以法水悉除眾生五欲之渴。是
+<lb n="0220b25"/>名菩薩能除貪欲愛心之渴。云何名菩薩深
+<lb n="0220b26"/>廣難渡。禪定智水一切眾魔及諸外道無能
+<lb n="0220b27"/>度者。是名菩薩深廣難度。云何名菩薩如水
+<lb n="0220b28"/>澆溉高下皆滿。菩薩亦復如是。於善惡眾生
+<lb n="0220b29"/>以法水普潤令不苦惱。是名菩薩如水澆溉
+<pb ed="T" id="T16.0658.0220c" n="0220c"/>
+<lb n="0220c01"/>高下皆滿。云何名菩薩能除一切諸結塵垢。
+<lb n="0220c02"/>菩薩以禪定水淹灑六塵。諸根清淨色聲不
+<lb n="0220c03"/>染。是名菩薩能除一切諸結塵垢。善男子。具
+<lb n="0220c04"/>此十事。是名菩薩譬如大水</p>
+<lb n="0220c05"/><p>善男子。菩薩復有十法譬如大火。何等為十。
+<lb n="0220c06"/>能燒一切結使之薪。能成熟一切<note n="0220007" resp="Taisho" type="orig" place="foot text">佛法＝諸物【元】【明】＊</note><app n="0220007"><lem>佛法</lem><rdg wit="【元】【明】" resp="Taisho">諸物</rdg></app>。能乾
+<lb n="0220c07"/>煩惱淤<anchor id="fxT16p0220c01"/>&CB00410;。如炬火聚。如火照明。能令驚怖。
+<lb n="0220c08"/>能令安慰。若有利養與眾共之。為人供養。人
+<lb n="0220c09"/>不敢輕。云何名菩薩能燒一切結使之薪。如
+<lb n="0220c10"/>火能燒草木及諸叢林。菩薩亦爾。以智慧火
+<lb n="0220c11"/>能燒煩惱結使叢林。是名菩薩能燒一切結
+<lb n="0220c12"/>使之薪。云何名菩薩如火能成熟一切諸物。
+<lb n="0220c13"/>菩薩亦復如是。以智慧火悉能成熟一切佛
+<lb n="0220c14"/>法堅固不壞。是名菩薩成熟一切<anchor id="fxT16p0220c02"/>佛法。云何
+<lb n="0220c15"/>名菩薩能乾煩惱淤泥。如火能乾濕物。菩薩
+<lb n="0220c16"/>亦爾。能以智火乾有漏淤泥。是名菩薩能乾
+<lb n="0220c17"/>煩惱淤<anchor id="fxT16p0220c03"/>&CB00410;。云何名菩薩如炬火聚。若人為寒
+<lb n="0220c18"/>所逼得火則除。菩薩亦復如是。見諸眾生為
+<lb n="0220c19"/>於煩惱寒苦所逼。菩薩以智慧火能令悉暖。
+<lb n="0220c20"/>是名菩薩如炬火聚。云何名菩薩如火照明。
+<lb n="0220c21"/>譬如有人在雪山頂<note n="0220008" resp="Taisho" type="orig" place="foot text">然＝燒【元】【明】</note><app n="0220008"><lem>然</lem><rdg wit="【元】【明】" resp="Taisho">燒</rdg></app>大炬火。周匝百里及
+<lb n="0220c22"/>二百里皆悉照明。菩薩摩訶薩亦復如是。於
+<lb n="0220c23"/>無明山頂然智慧火聚。於百千世界皆得照
+<lb n="0220c24"/>明。是名菩薩如火照明。云何名菩薩能令驚
+<lb n="0220c25"/>怖。譬如<note n="0220009" resp="Taisho" type="orig" place="foot text">獐＝&CB00538;【元】【明】</note><app n="0220009"><lem>獐</lem><rdg wit="【元】【明】" resp="Taisho">&CB00538;</rdg></app>鹿虎豹見火驚恐<note n="0220010" resp="Taisho" type="orig" place="foot text">皆悉＝悉皆【元】【明】</note><app n="0220010"><lem>皆悉</lem><rdg wit="【元】【明】" resp="Taisho">悉皆</rdg></app>遠走。若
+<lb n="0220c26"/>天若魔及魔眷屬。見菩薩智火威德皆悉遠
+<lb n="0220c27"/>走。是名菩薩能令驚<note n="0220011" resp="Taisho" type="orig" place="foot text">怪＝怖【元】【明】</note><app n="0220011"><lem>怪</lem><rdg wit="【元】【明】" resp="Taisho">怖</rdg></app>。云何名菩薩能令安
+<lb n="0220c28"/>慰。譬如有人在曠野黑闇中迷失方所。遙見
+<lb n="0220c29"/>火聚便往趣之。或值聚落放牧人處。得到彼
+<pb ed="T" id="T16.0658.0221a" n="0221a"/>
+<lb n="0221a01"/>已恐怖悉除心得安慰。菩薩摩訶薩亦復如
+<lb n="0221a02"/>是。眾生於生死曠野黑闇之中迷失方所。遙
+<lb n="0221a03"/>見菩薩火聚而往趣之。到已煩惱怖畏悉得
+<lb n="0221a04"/>消除。是名菩薩能令安慰。云何名菩薩利養
+<lb n="0221a05"/>與眾共有。譬如大火能令王若王等旃陀羅
+<lb n="0221a06"/>男女等悉得火<note n="0221001" resp="Taisho" type="orig" place="foot text">熅＝溫【元】【明】＊</note><app n="0221001"><lem>熅</lem><rdg wit="【元】【明】" resp="Taisho">溫</rdg></app>。菩薩摩訶薩亦復如是。與
+<lb n="0221a07"/>一切眾生王若王等若旃陀羅男女等。以智
+<lb n="0221a08"/>慧火消煩惱&CB00457;悉令得<anchor id="fxT16p0221a01"/>熅。是名菩薩利養與
+<lb n="0221a09"/>眾共有。云何名菩薩為人供養。譬如大火剎
+<lb n="0221a10"/>利婆羅門城邑聚落悉皆供養。菩薩摩訶薩
+<lb n="0221a11"/>亦復如是。為天人阿修羅及魔眷屬。悉皆恭
+<lb n="0221a12"/>敬供養如世尊像。是名菩薩為人供養。云何
+<lb n="0221a13"/>名菩薩人不敢輕。譬如有人得一少火以能
+<lb n="0221a14"/>燒故心不敢輕。菩薩摩訶薩亦復如是。初發
+<lb n="0221a15"/>一念之善未有大力。天人阿修羅及魔眷屬
+<lb n="0221a16"/>無能敢輕者。何以故。<note n="0221002" resp="Taisho" type="orig" place="foot text">是人＝如是【元】【明】</note><app n="0221002"><lem>是人</lem><rdg wit="【元】【明】" resp="Taisho">如是</rdg></app>不久當坐道場成
+<lb n="0221a17"/>阿耨多羅三藐三菩提。是名菩薩人不敢輕。
+<lb n="0221a18"/>善男子。具此十事。是名菩薩譬如大火</p>
+<lb n="0221a19"/><p>善男子。菩薩復有十法猶如虛空。何等為十。
+<lb n="0221a20"/>廣大無礙。寂滅無相。無邊空智。無邊空慧。廣
+<lb n="0221a21"/>大如法界。知一切法。相如虛空。一切法不住。
+<lb n="0221a22"/>出過一切形相。出過一切思議量數。善男子。
+<lb n="0221a23"/>具此十事。是名菩薩猶如虛空</p>
+<lb n="0221a24"/><p>善男子。菩薩復有十法心如虛空。何等為十。
+<lb n="0221a25"/>若心所喜樂亦不著。心不喜樂亦不瞋。於色
+<lb n="0221a26"/>聲香味觸亦不著不瞋。乃至於一切法亦不
+<lb n="0221a27"/>著不瞋。於利衰毀譽稱譏苦樂。於此四法亦
+<lb n="0221a28"/>不著不瞋。善男子。具此十事。是名菩薩心如
+<lb n="0221a29"/>虛空。善男子。菩薩復有十法猶如滿月。何等
+<pb ed="T" id="T16.0658.0221b" n="0221b"/>
+<lb n="0221b01"/>為十。能<note n="0221003" resp="Taisho" type="orig" place="foot text">使＝與【元】【明】</note><app n="0221003"><lem>使</lem><rdg wit="【元】【明】" resp="Taisho">與</rdg></app>一切眾生<note n="0221004" resp="Taisho" type="orig" place="foot text">得＝作【元】【明】</note><app n="0221004"><lem>得</lem><rdg wit="【元】【明】" resp="Taisho">作</rdg></app>清涼樂。見者愛樂。
+<lb n="0221b02"/>能使善法日日漸增。能令惡法日日損減。如
+<lb n="0221b03"/>月盛滿。體相勝妙體性清淨。得無上乘。常自
+<lb n="0221b04"/>莊嚴。得法喜樂。乘第一乘。有大神通威德自
+<lb n="0221b05"/>在。云何名菩薩能與一切眾生作清涼樂。如
+<lb n="0221b06"/>月天子初出之時。悉與眾生清<note n="0221005" resp="Taisho" type="orig" place="foot text">淨＝涼【元】【明】</note><app n="0221005"><lem>淨</lem><rdg wit="【元】【明】" resp="Taisho">涼</rdg></app>快樂。而眾
+<lb n="0221b07"/>樂觀心無疲厭。菩薩之月亦復如是。除其煩
+<lb n="0221b08"/>惱&CB00614;<note n="0221006" resp="Taisho" type="orig" place="foot text">蒸＝烝【元】【明】</note><app n="0221006"><lem>蒸</lem><rdg wit="【元】【明】" resp="Taisho">烝</rdg></app>之熱。皆令眾生得清涼樂歡喜愛樂。
+<lb n="0221b09"/>是名菩薩能與一切眾生作清涼樂。云何名
+<lb n="0221b10"/>菩薩見者愛樂。如月初出眾生喜見利快
+<lb n="0221b11"/>樂。菩薩之月亦復如是。初出之時眾生喜見
+<lb n="0221b12"/>無不悅樂。諸根寂定如水澄清威儀具足。是
+<lb n="0221b13"/>名菩薩見者愛樂。云何名菩薩能使善法日
+<lb n="0221b14"/>日增長。如月初出日日圓滿。菩薩之月亦復
+<lb n="0221b15"/>如是。從初發心漸漸增長。乃至菩提坐道樹
+<lb n="0221b16"/>下功德滿足。是名菩薩能使善法日日增長。
+<lb n="0221b17"/>云何名菩薩能令惡法日日損減。譬如黑月
+<lb n="0221b18"/>圓滿光明以漸損減。至月盡時光明悉滅隱
+<lb n="0221b19"/>蔽不現。菩薩一切眾惡次第漸滅。乃至菩提
+<lb n="0221b20"/>悉皆除盡。是名菩薩能令惡法日日損減。云
+<lb n="0221b21"/>何名菩薩如月盛滿。如從月初至盛滿時眾
+<lb n="0221b22"/>所瞻仰。剎利婆羅門城邑聚落一切男女無
+<lb n="0221b23"/>不稱讚。菩薩之月亦復如是。常為天人一切
+<lb n="0221b24"/>眾生皆悉稱讚。是名菩薩如月盛滿。云何名
+<lb n="0221b25"/>菩薩體相清淨。如月天子身相清淨。是本業
+<lb n="0221b26"/>果報。菩薩摩訶薩亦復如是。無垢清淨從化
+<lb n="0221b27"/>而生。不由父母精氣而生。從法而生。是名菩
+<lb n="0221b28"/>薩體相清淨。云何名菩薩得無上乘。如月天
+<lb n="0221b29"/>子乘於淨乘照四天下。菩薩摩訶薩亦復如
+<pb ed="T" id="T16.0658.0221c" n="0221c"/>
+<lb n="0221c01"/>是。乘於大乘。能使無量百千萬億世界眾生
+<lb n="0221c02"/>悉皆照明。是名菩薩得無上乘。云何名菩薩
+<lb n="0221c03"/>常自莊嚴。如月天子華鬘顯現。菩薩摩訶薩
+<lb n="0221c04"/>亦復如是。常以功德瓔珞而自莊嚴。是名菩
+<lb n="0221c05"/>薩常自莊嚴。云何名菩薩得法喜樂。如月天
+<lb n="0221c06"/>子遊戲五欲心常樂著。菩薩亦復如是。遊戲
+<lb n="0221c07"/>諸法心常喜樂不染五欲。是名菩薩得法喜
+<lb n="0221c08"/>樂。云何名菩薩有大神通威德自在。如月天
+<lb n="0221c09"/>子有大威德。菩薩亦復如是。具諸功德自在
+<lb n="0221c10"/>智慧神通變化隨意無礙。是名菩薩有大神
+<lb n="0221c11"/>通。善男子。具此十事。是名菩薩如月天子</p><note n="0221007" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0221007" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>◎
+<lb n="0221c12"/><juan fun="close" n="002"><jhead><title>寶雲經</title>卷第二</jhead></juan>
+<lb n="0221c13"/>
+<milestone unit="juan" n="3"/>
+<lb n="0221c14"/>
+<lb n="0221c15"/>
+<lb n="0221c16"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>寶雲經</title>卷第三</jhead></juan>
+<lb n="0221c17"/>
+<lb n="0221c18"/><byline type="Translator">梁扶南三藏曼陀羅仙譯</byline>
+<lb n="0221c19"/><p>◎<note n="0221008" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0221008" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>善男子。菩薩復有十法<note n="0221009" resp="Taisho" type="orig" place="foot text">名為＝為名【元】【明】</note><app n="0221009"><lem>名為</lem><rdg wit="【元】【明】" resp="Taisho">為名</rdg></app>如日。何等為
+<lb n="0221c20"/>十。能除無明黑闇。能令信心開敷。能令十方
+<lb n="0221c21"/>周匝皆暖。能令善法生長。能令有漏滅沒。能
+<lb n="0221c22"/>作照明。能使邪道異見蔽障不現。能令高下
+<lb n="0221c23"/>丘坑悉顯。能令善業皆悉得起。能令智者喜
+<lb n="0221c24"/>樂愚者增惡。云何名菩薩能除無明黑闇。譬
+<lb n="0221c25"/>如日出眾闇皆息。菩薩日出能除眾生無明
+<lb n="0221c26"/>之闇譬如日<note n="0221010" resp="Taisho" type="orig" place="foot text">出＋（時）【元】【明】</note><app n="0221010"><lem>出</lem><rdg wit="【元】【明】" resp="Taisho">出時</rdg></app>眾華開敷。菩薩日出應受化
+<lb n="0221c27"/>者亦皆開敷。如日出時周匝十方能令使暖。
+<lb n="0221c28"/>菩薩日出功德智慧令十方暖不擾眾生。如
+<lb n="0221c29"/>日將出見其明相知有日出。菩薩亦復如是。
+<pb ed="T" id="T16.0658.0222a" n="0222a"/>
+<lb n="0222a01"/>以智光明照諸世間。眾生則知菩薩日出。如
+<lb n="0222a02"/>日入時諸方昏<note n="0222001" resp="Taisho" type="orig" place="foot text">冥＝瞑【元】【明】</note><app n="0222001"><lem>冥</lem><rdg wit="【元】【明】" resp="Taisho">瞑</rdg></app>眾物不現。菩薩以智慧光
+<lb n="0222a03"/>入諸三昧。煩惱昏冥一切結漏悉滅不現。如
+<lb n="0222a04"/>日出時光照閻浮提滅一切闇。菩薩智光亦
+<lb n="0222a05"/>能普照。如日出時翳諸小明<note n="0222002" resp="Taisho" type="orig" place="foot text">熒＝螢【元】【明】</note><app n="0222002"><lem>熒</lem><rdg wit="【元】【明】" resp="Taisho">螢</rdg></app>火之光悉不
+<lb n="0222a06"/>復現。而日無心翳諸小明法相自爾。菩薩日
+<lb n="0222a07"/>出則翳諸異見群邪外道。如日出時於閻浮
+<lb n="0222a08"/>提高下好惡悉皆顯現。菩薩日出時。正道邪
+<lb n="0222a09"/>道亦各差別。邪謂八邪。正謂八正。如日出時
+<lb n="0222a10"/>田夫耕農諸作悉起。菩薩日出。信心眾生普
+<lb n="0222a11"/>皆修善。如日出時善人樂見。姦盜眾生悉惡
+<lb n="0222a12"/>不喜。菩薩日出賢智樂見。群邪外道一切不
+<lb n="0222a13"/>喜。善男子。具此十事。是名菩薩如日</p>
+<lb n="0222a14"/><p>善男子。菩薩復有十法譬如師子。何等為十。
+<lb n="0222a15"/>無所畏。不畏大眾。去終不還。能師子吼。具足
+<lb n="0222a16"/>辯才。樂處林野。在於山窟。摧伏大眾。具勇猛
+<lb n="0222a17"/>力。善能守護。善男子。云何無所畏。譬如師子
+<lb n="0222a18"/>往還出入無所忌難。何以故。不見與己等故。
+<lb n="0222a19"/>菩薩摩訶薩亦復如是。周旋往<note n="0222003" resp="Taisho" type="orig" place="foot text">返＝還【明】</note><app n="0222003"><lem>返</lem><rdg wit="【明】" resp="Taisho">還</rdg></app>無所畏難。
+<lb n="0222a20"/>何以故。不見與己等故。譬如師子不畏大眾。
+<lb n="0222a21"/>菩薩摩訶薩亦復如是。諸有大眾欲來講論
+<lb n="0222a22"/>不生畏難。心亦不高不下。譬如師子心無怯
+<lb n="0222a23"/>弱。臨陣戰&CB00508;而心不退直進不還。菩薩亦爾。
+<lb n="0222a24"/>如師子吼飛落走伏。鮫魚龜&CB00516;水性之屬潛
+<lb n="0222a25"/>隱水底人畜皆驚。菩薩亦爾。作無我師子
+<lb n="0222a26"/>吼。能令一切外道野干著我見者十方驚走。
+<lb n="0222a27"/>菩薩不欲令彼生其驚怖。但欲除彼我見心
+<lb n="0222a28"/>故。亦為化餘信心眾生。如師子王勇猛無畏。
+<lb n="0222a29"/>遍觀四方心無怯弱。菩薩摩訶薩亦復如是。
+<pb ed="T" id="T16.0658.0222b" n="0222b"/>
+<lb n="0222b01"/>其行純淨常諦觀察三昧智慧。譬如師子樂
+<lb n="0222b02"/>處林野。菩薩摩訶薩亦復如是。常樂閑獨離
+<lb n="0222b03"/>於憒&CB00436;。又如師子樂處山窟。菩薩亦爾。樂處
+<lb n="0222b04"/>禪定三昧山窟。譬如師子無所結縛。菩薩摩
+<lb n="0222b05"/>訶薩亦復如是。<note n="0222004" resp="Taisho" type="orig" place="foot text">已悉＝悉已【元】【明】</note><app n="0222004"><lem>已悉</lem><rdg wit="【元】【明】" resp="Taisho">悉已</rdg></app>遠離結使重擔而行無
+<lb n="0222b06"/>染著。譬如師子無有伴黨能摧諸軍眾。菩薩
+<lb n="0222b07"/>摩訶薩亦復如是。獨坐道場摧伏魔眾。善男
+<lb n="0222b08"/>子。猶如師子近聚落住。能令<note n="0222005" resp="Taisho" type="orig" place="foot text">獐＝&CB00538;【元】【明】</note><app n="0222005"><lem>獐</lem><rdg wit="【元】【明】" resp="Taisho">&CB00538;</rdg></app>鹿不害苗
+<lb n="0222b09"/>稼。菩薩亦爾。隨住方面能令眾魔一切外道
+<lb n="0222b10"/>不壞正法。善男子。具此十事。是名菩薩譬如
+<lb n="0222b11"/>師子</p>
+<lb n="0222b12"/><p>善男子。菩薩復有十法。名為善調。何等為十。
+<lb n="0222b13"/>菩提心堅牢。修治菩提。守護諸根。趣向正道。
+<lb n="0222b14"/>善持重擔。為眾生故不辭勞苦。正命自活。能
+<lb n="0222b15"/>除諂曲虛妄之說。幻惑悉除。心常正直。善男
+<lb n="0222b16"/>子。具此十事。是名菩薩善調</p>
+<lb n="0222b17"/><p>善男子。菩薩復有十法名為善乘。何等為十。
+<lb n="0222b18"/>雖行禪定&M010527;修空相。雖盡煩惱障而常修道。
+<lb n="0222b19"/>善順佛教而無所違。等觀諸法善解法界。心
+<lb n="0222b20"/>常自卑如旃陀羅。善除憍慢貢高吾我。見法
+<lb n="0222b21"/>決定無有疑悔。善察諸法得決定相。善於正
+<lb n="0222b22"/>道不隨他教。善向菩提為世福田。善男子。具
+<lb n="0222b23"/>此十事。是名菩薩善乘</p>
+<lb n="0222b24"/><p>善男子。菩薩復有十法譬如蓮華。何等為十。
+<lb n="0222b25"/>其體清淨。不著於水。不染少惡。戒香具足。修
+<lb n="0222b26"/>清淨行。和顏悅色。柔軟不<note n="0222006" resp="Taisho" type="orig" place="foot text">&CB00468;＝&CB00462;【元】【明】＊</note><app n="0222006"><lem>&CB00468;</lem><rdg wit="【元】【明】" resp="Taisho">&CB00462;</rdg></app>。見者皆吉。心
+<lb n="0222b27"/>意調熟。生已有想。云何不著。如蓮華生水淤
+<lb n="0222b28"/>泥不染。菩薩雖生世間。而不為世法所著。何
+<lb n="0222b29"/>以故。得方便智慧故。猶如蓮華水不能染。菩
+<pb ed="T" id="T16.0658.0222c" n="0222c"/>
+<lb n="0222c01"/>薩亦爾。不為少惡之所染著。如蓮華生處香
+<lb n="0222c02"/>氣滿中。菩薩亦爾。隨所<note n="0222007" resp="Taisho" type="orig" place="foot text">生＝住【元】【明】</note><app n="0222007"><lem>生</lem><rdg wit="【元】【明】" resp="Taisho">住</rdg></app>處戒香悉滿。譬
+<lb n="0222c03"/>如蓮華隨所<note n="0222008" resp="Taisho" type="orig" place="foot text">住＝生【元】【明】</note><app n="0222008"><lem>住</lem><rdg wit="【元】【明】" resp="Taisho">生</rdg></app>處體性清淨。剎利婆羅門城
+<lb n="0222c04"/>邑聚落之所稱讚。菩薩摩訶薩亦復如是。戒
+<lb n="0222c05"/>行清潔。天人阿修羅夜叉乾闥婆迦樓羅緊
+<lb n="0222c06"/>那羅摩&CB00264;羅伽人非人等之所稱讚。常為諸
+<lb n="0222c07"/>佛之所護念。如蓮華開敷眾皆愛樂。菩薩摩
+<lb n="0222c08"/>訶薩亦復如是。和顏悅色諸根清淨。譬如蓮
+<lb n="0222c09"/>華柔軟不<anchor id="fxT16p0222c01"/>&CB00468;。菩薩如是。體性柔軟言無&CB00308;獷。
+<lb n="0222c10"/>譬如蓮華常是吉相。乃至夢中亦名為吉。有
+<lb n="0222c11"/>義有吉。菩薩摩訶薩亦復如是。一切是吉。究
+<lb n="0222c12"/>竟必得證一切智。以是義故名一切吉。譬如
+<lb n="0222c13"/>蓮華未開敷時不名具足。華既開敷則名清
+<lb n="0222c14"/>淨一切具足。菩薩摩訶薩亦復如是。慧覺開
+<lb n="0222c15"/>敷是名為佛。如蓮華開敷能令眼見快樂。香
+<lb n="0222c16"/>氣充滿身觸柔軟。心得喜悅則意受樂。菩薩
+<lb n="0222c17"/>摩訶薩亦復如是。智慧成<note n="0222009" resp="Taisho" type="orig" place="foot text">熟＝就【元】【明】＊</note><app n="0222009"><lem>熟</lem><rdg wit="【元】【明】" resp="Taisho">就</rdg></app>慧光明相。能
+<lb n="0222c18"/>令見時眼得清淨。聞時耳得清淨。戒香遠聞
+<lb n="0222c19"/>鼻得清淨。觸身供養身得清淨。思惟功德意
+<lb n="0222c20"/>得清淨。蓮華生時生已有想。佛及菩薩四天
+<lb n="0222c21"/>王等。若見菩薩出時亦皆守護生已有想。善
+<lb n="0222c22"/>男子。具此十事。是名菩薩譬如蓮華</p><note n="0222010" resp="Taisho" type="orig" place="foot text">第三卷終【元】【明】</note><note n="0222010" resp="CBETA" type="mod"><todo type="a"/>第三卷終【元】【明】</note>◎
+<lb n="0222c23"/><p>◎<note n="0222011" resp="Taisho" type="orig" place="foot text">第四卷首【元】【明】</note><note n="0222011" resp="CBETA" type="mod"><todo type="a"/>第四卷首【元】【明】</note>善男子。菩薩復有十法名勝大心。何等為
+<lb n="0222c24"/>十。滿足諸<note n="0222012" resp="Taisho" type="orig" place="foot text">波＝婆【明】</note><app n="0222012"><lem>波</lem><rdg wit="【明】" resp="Taisho">婆</rdg></app>羅蜜故名勝大心。滿足一切佛
+<lb n="0222c25"/>法故名勝大心。化一切眾生故名勝大心。成
+<lb n="0222c26"/>佛道樹得阿耨多羅三藐三菩提故名勝大
+<lb n="0222c27"/>心。初成正覺轉於法輪。若沙門婆羅門若人
+<lb n="0222c28"/>若天魔梵所不能轉。及<note n="0222013" resp="Taisho" type="orig" place="foot text">餘＝於【明】</note><app n="0222013"><lem>餘</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>世間亦不能轉。而
+<lb n="0222c29"/>我當轉故名勝大心。菩薩為欲利益眾生。不
+<pb ed="T" id="T16.0658.0223a" n="0223a"/>
+<lb n="0223a01"/>但於此世界。乃至<note n="0223001" resp="Taisho" type="orig" place="foot text">（於）＋無【元】【明】</note><app n="0223001"><lem>無</lem><rdg wit="【元】【明】" resp="Taisho">於無</rdg></app>量無邊世界。悉以正法
+<lb n="0223a02"/>攝取眾生故名勝大心。菩薩以智慧船為欲
+<lb n="0223a03"/>度此生死大海流轉眾生故名勝大心。眾生
+<lb n="0223a04"/>無救無依無舍無主。我當親友為作歸依舍
+<lb n="0223a05"/>宅故名勝大心。欲示如來威德自在。我當為
+<lb n="0223a06"/>作佛師子吼。我當遊戲佛之神通。欲現龍象
+<lb n="0223a07"/>威儀視不迴顧。欲使天人一切眾生無與等
+<lb n="0223a08"/>者。若魔與梵沙門婆羅門及阿修羅無與等
+<lb n="0223a09"/>者故名勝大心。佛大威德所化度者我欲度
+<lb n="0223a10"/>之。非凡小行非&CB00308;弊行非是難行非下劣行
+<lb n="0223a11"/>故名勝大心。善男子。具此十事。是名菩薩最
+<lb n="0223a12"/>勝大心。善男子。菩薩復有十法名清淨心。何
+<lb n="0223a13"/>等為十。體性具足。體性不動。體性質直。無虛
+<lb n="0223a14"/>偽相。除諸惡行。不發聲聞心。不發辟支佛心。
+<lb n="0223a15"/>不自為己結使垢障而修功德。少恩尚憶況
+<lb n="0223a16"/>復大恩而不念報。施恩於人而不自恃。言行
+<lb n="0223a17"/>相應終不謬失。不隱己過不譏他短。菩薩終
+<lb n="0223a18"/>不外現軟語而心懷恨。亦不顰蹙瞋色卒暴
+<lb n="0223a19"/>令惱眾生。自無諍心亦不令他而起於諍。不
+<lb n="0223a20"/>作兩舌破壞&CB00508;亂於人。身常恭敬所言真實。
+<lb n="0223a21"/>言行相稱作業皆善。於如來法不說過惡。云
+<lb n="0223a22"/>何不說過惡。菩薩發菩提心。剃除鬚髮被著
+<lb n="0223a23"/>法服。如來法中而得出家。不畏王故出家。不
+<lb n="0223a24"/>畏王臣故出家。不作盜賊故出家。不負債故
+<lb n="0223a25"/>出家。不怖畏故出家。不為邪命故出家。信心
+<lb n="0223a26"/>故出家。得出家已&M010527;求善法。親近善友隨順
+<lb n="0223a27"/>善友。於善知識所聽受善法。聞法修行心不
+<lb n="0223a28"/>憍慢。終不顛倒妄取於法。為除顛倒令入正
+<lb n="0223a29"/>道。入正道已便得正見。得正見已去阿耨多
+<pb ed="T" id="T16.0658.0223b" n="0223b"/>
+<lb n="0223b01"/>羅三藐三菩提不遠。善男子。具此十事。是名
+<lb n="0223b02"/>菩薩清淨心</p>
+<lb n="0223b03"/><p>善男子。菩薩復有十法名深信不疑。何等為
+<lb n="0223b04"/>十。信如來身密。信如來口密。信如來意密。信
+<lb n="0223b05"/>諸菩薩所行。信菩<note n="0223002" resp="Taisho" type="orig" place="foot text">提＝薩【元】【明】</note><app n="0223002"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">薩</rdg></app>法。信於諸佛隨所起
+<lb n="0223b06"/>作皆令滿足。信諸佛出生。信諸佛一乘。信諸
+<lb n="0223b07"/>佛深遠音聲。信諸佛隨應眾生說法。云何信
+<lb n="0223b08"/>如來身密。信如來法身。信如來寂滅。信如來
+<lb n="0223b09"/>無等無量身。信如來堅固身。信如來不壞身。
+<lb n="0223b10"/>信如來金剛身。從如實生。信知不虛誑亦不
+<lb n="0223b11"/>生疑惑。是名信如來身密。又復思惟。聞如來
+<lb n="0223b12"/>口密。現前受記。密受記。未發心受記。初發心
+<lb n="0223b13"/>受記。信諸佛常以四依說法。信諸佛知無失。
+<lb n="0223b14"/>信諸佛口無失。信諸佛如上所說言不虛妄。
+<lb n="0223b15"/>何以故。諸佛已盡一切過故。離一切垢故。除
+<lb n="0223b16"/>一切塵無一切熱。盡諸結業自在無礙。心常
+<lb n="0223b17"/>寂滅不濁不穢澄潔清淨。若使如來有身口
+<lb n="0223b18"/>過則無是處。如實不虛不妄。決了此處不生
+<lb n="0223b19"/>疑惑。是名信如來口密。菩薩又作是念。聞如
+<lb n="0223b20"/>來意密。心有所作皆隨智慧。聲聞緣覺一切
+<lb n="0223b21"/>菩薩則不能了。唯除如來欲使知者。何以故。
+<lb n="0223b22"/>如來智海甚深難度不思議故。超過一切心
+<lb n="0223b23"/>意表故。無量無邊與虛空界等。出過一切外
+<lb n="0223b24"/>道占相卜筮&CB00057;術所知。心常如實無有虛妄。
+<lb n="0223b25"/>復聞菩薩為眾生故所作事業。不生疲厭不
+<lb n="0223b26"/>生驚畏。志力堅實荷負重擔。能生大欲滿足
+<lb n="0223b27"/>諸波羅蜜。一切佛法以漸而滿。其心無礙無
+<lb n="0223b28"/>與等者。堅固精進堅固莊嚴。堅固智慧堅固
+<lb n="0223b29"/>誓願。不動誓願無等誓願。何以故。稱菩提相
+<pb ed="T" id="T16.0658.0223c" n="0223c"/>
+<lb n="0223c01"/>故。以漸增廣乃至滿足。如實知之無有虛妄
+<lb n="0223c02"/>心無疑惑。云何能修信不疑。作是念。從初發
+<lb n="0223c03"/>心乃至坐於道場。得無障無礙。遍知一切法
+<lb n="0223c04"/>明了無翳。得天眼天耳他心宿命如意足智
+<lb n="0223c05"/>漏盡智。於一剎那頃悉知三世。以如是智觀
+<lb n="0223c06"/>眾生界。見眾生身業不善口業不善意業不
+<lb n="0223c07"/>善。誹謗賢聖起大邪見。亦知作邪見因緣身
+<lb n="0223c08"/>壞命終墮大地獄。觀如是眾生身業修善口
+<lb n="0223c09"/>業修善意業修善。不謗賢聖正見成就。以是
+<lb n="0223c10"/>因緣身壞命終生於天上。如是觀諸眾生善
+<lb n="0223c11"/>惡差別而作是念。我本修菩薩道時發大誓
+<lb n="0223c12"/>願。若我自成菩提。亦使他成。我誓願滿足。言
+<lb n="0223c13"/>行真實無有虛妄。而於此處亦無疑惑。我聞
+<lb n="0223c14"/>如來唯有一乘。此事真實而不顛倒無有虛
+<lb n="0223c15"/>妄。何以故。譬如閻浮提多諸小渚。是諸小渚
+<lb n="0223c16"/>皆依閻浮提住。亦同名閻浮提。如來一乘亦
+<lb n="0223c17"/>復如是。一切諸乘皆出大乘。是故一乘名如
+<lb n="0223c18"/>來大乘。亦於此中不生疑惑如實而知。是以
+<lb n="0223c19"/>菩薩信如來乘。亦曾聞如來種種說法種種
+<lb n="0223c20"/>修多羅無不真實。何以故。如來隨所化眾生。
+<lb n="0223c21"/>隨問何法稱彼而答。然於此處如實能知信
+<lb n="0223c22"/>受不疑。曾聞諸佛深遠妙聲此事真實心無
+<lb n="0223c23"/>所惑。何以故。諸天以少修福尚得深妙柔軟
+<lb n="0223c24"/>之<note n="0223003" resp="Taisho" type="orig" place="foot text">聲＝心【明】</note><app n="0223003"><lem>聲</lem><rdg wit="【明】" resp="Taisho">心</rdg></app>。況復如來具足無量百千萬億功德。深
+<lb n="0223c25"/>信此處不生疑惑。是名菩薩信於如來深遠
+<lb n="0223c26"/>之聲。又信如來能以一音演說諸法。隨其類
+<lb n="0223c27"/>根悉除疑惑。而諸眾生皆謂。世尊獨為己說。
+<lb n="0223c28"/>佛以一音演說諸法。眾生隨類亦各信解。非
+<lb n="0223c29"/>作想亦非不作想。如實而知無有虛妄。能於
+<pb ed="T" id="T16.0658.0224a" n="0224a"/>
+<lb n="0224a01"/>此處不生疑惑。善男子。具此十事。是名菩薩
+<lb n="0224a02"/>深信不<note n="0224001" resp="Taisho" type="orig" place="foot text">疑＋（也）【元】【明】</note><app n="0224001"><lem>疑</lem><rdg wit="【元】【明】" resp="Taisho">疑也</rdg></app></p>
+<lb n="0224a03"/><p>善男子。菩薩復有十法譬如大海。何等為十。
+<lb n="0224a04"/>是大寶藏。深遠難度。廣大無量。次第漸深。不
+<lb n="0224a05"/>與煩惱同處而宿。寂滅一相。眾流競注皆悉
+<lb n="0224a06"/>容受。潮不失時。能為他人作歸依處。而無竭
+<lb n="0224a07"/>盡。云何菩薩是大寶藏。亦如大海一切眾寶
+<lb n="0224a08"/>皆出其中。閻浮提人悉來競取不能令<note n="0224002" resp="Taisho" type="orig" place="foot text">減＝滅【元】【明】</note><app n="0224002"><lem>減</lem><rdg wit="【元】【明】" resp="Taisho">滅</rdg></app>。菩
+<lb n="0224a09"/>薩亦爾。猶如寶藏。無邊眾生悉以信心修菩
+<lb n="0224a10"/>薩行。功德寶藏亦復不減。是名菩薩如大寶
+<lb n="0224a11"/>藏。譬如大海深廣難度。菩薩亦復如是。智慧
+<lb n="0224a12"/>法海。一切眾魔及諸外道無能度者。是名菩
+<lb n="0224a13"/>薩深廣難度。譬如大海廣大無邊。菩薩亦爾。
+<lb n="0224a14"/>功德智慧廣大無邊。是名菩薩猶如大海深
+<lb n="0224a15"/>廣無邊。譬如大海次第漸深。菩薩摩訶薩。成
+<lb n="0224a16"/>一切智以漸轉深。是名菩薩猶如大海以漸
+<lb n="0224a17"/>轉深。譬如大海不宿死尸。何以故。海法爾故。
+<lb n="0224a18"/>菩薩法海一切結漏煩惱死尸及惡知識亦不
+<lb n="0224a19"/>同宿何以故。菩薩法爾故。譬如大海眾流注
+<lb n="0224a20"/>中皆同一味。菩薩摩訶薩亦復如是。白淨善
+<lb n="0224a21"/>業無量一切功德到種智海。亦同一味等無
+<lb n="0224a22"/>差別。譬如大海能容百千眾流。然其大海不
+<lb n="0224a23"/>增不減。菩薩亦爾。聽受一切佛法。亦為眾生
+<lb n="0224a24"/>分別解說而無增減。是名菩薩猶如大海不
+<lb n="0224a25"/>增不減。云何譬如大海潮不過限。菩薩亦復
+<lb n="0224a26"/>如是。於所應成熟眾生<note n="0224003" resp="Taisho" type="orig" place="foot text">亦＋（潮）【元】【明】</note><app n="0224003"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">亦潮</rdg></app>不過限。猶如大海
+<lb n="0224a27"/>一切大身眾生依止窟宅。菩薩摩訶薩亦復
+<lb n="0224a28"/>如是。為一切大心眾生作依止窟宅。是名菩
+<lb n="0224a29"/>薩猶如大海依止窟宅。譬如大海無有窮盡。
+<pb ed="T" id="T16.0658.0224b" n="0224b"/>
+<lb n="0224b01"/>菩薩摩訶薩亦復如是。為一切眾生如應說
+<lb n="0224b02"/>法亦無窮盡。善男子。具此十事。是名菩薩譬
+<lb n="0224b03"/>如大海</p>
+<lb n="0224b04"/><p>善男子。菩薩復有十法名微細智。何等為十。
+<lb n="0224b05"/>善知出要。善知出要法。善<note n="0224004" resp="Taisho" type="orig" place="foot text">知＋（出）【元】【明】</note><app n="0224004"><lem>知</lem><rdg wit="【元】【明】" resp="Taisho">知出</rdg></app>一切法等同一
+<lb n="0224b06"/>相。善知一切法如幻<note n="0224005" resp="Taisho" type="orig" place="foot text">相＝化【元】【明】</note><app n="0224005"><lem>相</lem><rdg wit="【元】【明】" resp="Taisho">化</rdg></app>。善知一切法相。善
+<lb n="0224b07"/>知甚深十二因緣。善知諸業不可思議。善知
+<lb n="0224b08"/>一切法義。善知如實義。善知如實智。善男子。
+<lb n="0224b09"/>云何名菩薩善知出要<note n="0224006" resp="Taisho" type="orig" place="foot text">〔法〕－【元】【明】</note><app n="0224006"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。菩薩能以智慧觀
+<lb n="0224b10"/>察一切眾生貪瞋熾然愚癡闇冥。思惟如是。
+<lb n="0224b11"/>眾生云何出要。觀察等同一相。知一切法如
+<lb n="0224b12"/>幻相。如實知一切法。能度甚深因緣。能知業
+<lb n="0224b13"/>不可思議。知一切諸法無相。而知種種諸業。
+<lb n="0224b14"/>能知緣起及諸業相。以如是微細智故。於諸
+<lb n="0224b15"/>佛所說法悉了其義。以解義故所見真實。以
+<lb n="0224b16"/>見真實故便能度脫眾生生死。善男子。具此
+<lb n="0224b17"/>十事。是名菩薩微細智</p>
+<lb n="0224b18"/><p>善男子。菩薩復有十法得隨應辯。何等為十。
+<lb n="0224b19"/>佛如是說一切諸法無我無眾生無壽命無人
+<lb n="0224b20"/>無<note n="0224007" resp="Taisho" type="orig" place="foot text">作＝著【明】</note><app n="0224007"><lem>作</lem><rdg wit="【明】" resp="Taisho">著</rdg></app>者無知者無見者。一切諸法悉如是相。
+<lb n="0224b21"/>一切法空。一切法虛妄欺誑無主。一切法妄
+<lb n="0224b22"/><note n="0224008" resp="Taisho" type="orig" place="foot text">想＝相【元】【明】</note><app n="0224008"><lem>想</lem><rdg wit="【元】【明】" resp="Taisho">相</rdg></app>無實。皆從因緣起。善男子。具此十事。是
+<lb n="0224b23"/>名菩薩隨應辯</p>
+<lb n="0224b24"/><p>善男子。菩薩復有十法名為辭辯。何等為十。
+<lb n="0224b25"/>言論無滯。語無竭盡。言辭柔潤。悅澤無窮。不
+<lb n="0224b26"/>懼大眾。辭不卑小。辭無畏<note n="0224009" resp="Taisho" type="orig" place="foot text">忌＝恐【元】【明】</note><app n="0224009"><lem>忌</lem><rdg wit="【元】【明】" resp="Taisho">恐</rdg></app>。辭無與等者。
+<lb n="0224b27"/>言不為他所惡。言雖無量而不離四依義。善
+<lb n="0224b28"/>男子。具此十事。是名菩薩辭辯</p>
+<lb n="0224b29"/><p>善男子。菩薩復有十法名為淨辯。何等為十。
+<pb ed="T" id="T16.0658.0224c" n="0224c"/>
+<lb n="0224c01"/>辭<note n="0224010" resp="Taisho" type="orig" place="foot text">無＝不【元】【明】</note><app n="0224010"><lem>無</lem><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>謇吃。辭無恐畏。辭不卑劣。辭不&CB00308;高。
+<lb n="0224c02"/>義不卑小。辭無闕短。其聲清徹。聲無闕短。言
+<lb n="0224c03"/>則應時無有漏失。辯不&CB00308;獷。云何名菩薩得
+<lb n="0224c04"/>不謇吃辯。以無大眾威德畏故言不<note n="0224011" resp="Taisho" type="orig" place="foot text">蹇＝謇【元】【明】</note><app n="0224011"><lem>蹇</lem><rdg wit="【元】【明】" resp="Taisho">謇</rdg></app>吃。云
+<lb n="0224c05"/>何名菩薩得不恐怖辯。以體性正直故無所
+<lb n="0224c06"/>忌。云何名菩薩得不卑劣辯。以何<note n="0224012" resp="Taisho" type="orig" place="foot text">因＋（緣）【元】【明】</note><app n="0224012"><lem>因</lem><rdg wit="【元】【明】" resp="Taisho">因緣</rdg></app>故。菩
+<lb n="0224c07"/>薩處於大眾猶如師子無所忌難。云何名菩
+<lb n="0224c08"/>薩辭不&CB00308;高。以何因故除結使故。善男子。有
+<lb n="0224c09"/>煩惱故辭<note n="0224013" resp="Taisho" type="orig" place="foot text">必＝有【元】【明】</note><app n="0224013"><lem>必</lem><rdg wit="【元】【明】" resp="Taisho">有</rdg></app>&CB00308;高。云何名菩薩義不卑小。以
+<lb n="0224c10"/>何因故善得法故。已<note n="0224014" resp="Taisho" type="orig" place="foot text">深解＝解深【元】【明】</note><app n="0224014"><lem>深解</lem><rdg wit="【元】【明】" resp="Taisho">解深</rdg></app>法其義明了。云何
+<lb n="0224c11"/>名菩薩辭無闕短。以何因故善解諸論故。若
+<lb n="0224c12"/>解論<note n="0224015" resp="Taisho" type="orig" place="foot text">鮮＝&CB00458;【元】【明】</note><app n="0224015"><lem>鮮</lem><rdg wit="【元】【明】" resp="Taisho">&CB00458;</rdg></app>少則言辯有闕。云何名菩薩聲無闕
+<lb n="0224c13"/>短。何以故。菩薩悉解一切諸音聲故。云何名
+<lb n="0224c14"/>菩薩知時而語。若應前語不著於後。若應後
+<lb n="0224c15"/>語亦不著前。何以故。菩薩善知時故。云何名
+<lb n="0224c16"/>菩薩辯不&CB00308;獷。非所喜者則不為說。何以故。
+<lb n="0224c17"/>一切口過由諸結習。以斷惡故所言柔軟。菩
+<lb n="0224c18"/>薩摩訶薩無不了辯。何以故。菩薩諸根已悉
+<lb n="0224c19"/>利故。善男子。諸根闇鈍故有不了辯。利則不
+<lb n="0224c20"/>爾。善男子。具此十事。是名菩薩淨辯</p>
+<lb n="0224c21"/><p>善男子。菩薩復有十法名樂說辯。何等為十。
+<lb n="0224c22"/>愛語。不顰蹙語。義語。法語。等語。不自高語。
+<lb n="0224c23"/>不輕他語。不染語。不惱觸語。種種言辯。善男
+<lb n="0224c24"/>子。菩薩愛語。能令眾生心生<note n="0224016" resp="Taisho" type="orig" place="foot text">喜＝欣【元】【明】</note><app n="0224016"><lem>喜</lem><rdg wit="【元】【明】" resp="Taisho">欣</rdg></app>樂。<note n="0224017" resp="Taisho" type="orig" place="foot text">（菩薩不嚬（（嚬＝卑【明】））蹙語）＋和【元】【明】</note><note n="0224017" resp="CBETA" type="mod">（菩薩不嚬蹙語）＋和【元】，（菩薩不卑蹙語）＋和【明】</note><app n="0224017"><lem>和</lem><rdg wit="【元】" resp="Taisho">菩薩不嚬蹙語和</rdg><rdg wit="【明】" resp="Taisho">菩薩不卑蹙語和</rdg></app>顏
+<lb n="0224c25"/>悅色咸使安慰。菩薩義辯能以美語令<note n="0224018" resp="Taisho" type="orig" place="foot text">眾＋（生）【明】</note><app n="0224018"><lem>眾</lem><rdg wit="【明】" resp="Taisho">眾生</rdg></app>悅
+<lb n="0224c26"/>樂。菩薩<note n="0224019" resp="Taisho" type="orig" place="foot text">〔法〕－【明】</note><app n="0224019"><lem>法</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>辯教授利益。菩薩等辯常以等心
+<lb n="0224c27"/>為眾生說法。能<note n="0224020" resp="Taisho" type="orig" place="foot text">令＋（眾生）【元】【明】</note><app n="0224020"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">令眾生</rdg></app>一切悉皆喜悅。菩薩<note n="0224021" resp="Taisho" type="orig" place="foot text">不＋（以）【元】【明】</note><app n="0224021"><lem>不</lem><rdg wit="【元】【明】" resp="Taisho">不以</rdg></app>
+<lb n="0224c28"/>自高說法。除<note n="0224022" resp="Taisho" type="orig" place="foot text">諸＝去【元】【明】</note><app n="0224022"><lem>諸</lem><rdg wit="【元】【明】" resp="Taisho">去</rdg></app>憍慢自是心故。菩薩同事說
+<lb n="0224c29"/>法。悅眾生故。菩薩不輕他說法。心能專一故。
+<pb ed="T" id="T16.0658.0225a" n="0225a"/>
+<lb n="0225a01"/>菩薩不染語。堅持淨戒悅眾生故。菩薩不惱
+<lb n="0225a02"/>觸語。以忍辱力悅眾生故。菩薩種種言辯。能
+<lb n="0225a03"/>以樂說悅眾生故。善男子。具此十事。是名菩
+<lb n="0225a04"/>薩樂說<note n="0225001" resp="Taisho" type="orig" place="foot text">之辯＝辨才【元】【明】</note><app n="0225001"><lem>之辯</lem><rdg wit="【元】【明】" resp="Taisho">辨才</rdg></app>。善男子。菩薩復有十法。名善
+<lb n="0225a05"/>說法。能令眾生信受。何等為十。堪任法器者
+<lb n="0225a06"/>而為說法。稱其根性而為說法。不為譏呵者
+<lb n="0225a07"/>說法。不為外道異見者說法。不為憍慢無誠
+<lb n="0225a08"/>心者說法。不為無信心者說法。不為諂<note n="0225002" resp="Taisho" type="orig" place="foot text">誑偽＝偽虛誑【元】【明】</note><app n="0225002"><lem>誑
+<lb n="0225a09"/>偽</lem><rdg wit="【元】【明】" resp="Taisho">偽虛誑</rdg></app>者說法。不為求活命者說法。不為求利養
+<lb n="0225a10"/>慳貪嫉&CB00107;者說法。不為顛狂愚癡聾<note n="0225003" resp="Taisho" type="orig" place="foot text">啞＝&CB00484;【元】【明】</note><app n="0225003"><lem>啞</lem><rdg wit="【元】【明】" resp="Taisho">&CB00484;</rdg></app>者說
+<lb n="0225a11"/>法。善男子。菩薩以何因<note n="0225004" resp="Taisho" type="orig" place="foot text">故＝緣【元】【明】</note><app n="0225004"><lem>故</lem><rdg wit="【元】【明】" resp="Taisho">緣</rdg></app>不作法慳。己所
+<lb n="0225a12"/>得法悉與眾生令他信解。不為師匠祕而不
+<lb n="0225a13"/>說。菩薩終不於眾生起不慈愍心。亦不外於
+<lb n="0225a14"/>眾生。但不任法器者則入捨心。除蓋障菩薩
+<lb n="0225a15"/>白佛言。世尊。而此眾生若不為說者當為誰
+<lb n="0225a16"/>說。佛言。有信心者我當為說。善根成<note n="0225005" resp="Taisho" type="orig" place="foot text">熟＝就【元】【明】</note><app n="0225005"><lem>熟</lem><rdg wit="【元】【明】" resp="Taisho">就</rdg></app>堪
+<lb n="0225a17"/>任法器者當為說之。於過去佛種諸善根。心
+<lb n="0225a18"/>不諂曲無虛偽者。亦非幻惑詐現威儀者。不
+<lb n="0225a19"/>求名聞為利養者。常為善知識之所守護者。
+<lb n="0225a20"/>有智聞之能隨信解者。諸根利者。聞法能行
+<lb n="0225a21"/>勤精進者。能隨順佛教者。若有如是善男子
+<lb n="0225a22"/>等。諸佛菩薩而為說法。善男子。具此十事。是
+<lb n="0225a23"/>名菩薩<note n="0225006" resp="Taisho" type="orig" place="foot text">善能＝能善【元】【明】</note><app n="0225006"><lem>善能</lem><rdg wit="【元】【明】" resp="Taisho">能善</rdg></app>說法。令眾生信<note n="0225007" resp="Taisho" type="orig" place="foot text">受＋（之）【元】【明】</note><app n="0225007"><lem>受</lem><rdg wit="【元】【明】" resp="Taisho">受之</rdg></app></p>
+<lb n="0225a24"/><p>善男子。菩薩復有十法。名為說法法師。何等
+<lb n="0225a25"/>為十。修<note n="0225008" resp="Taisho" type="orig" place="foot text">集＝習【元】【明】＊</note><app n="0225008"><lem>集</lem><rdg wit="【元】【明】" resp="Taisho">習</rdg></app>佛法而能說法。亦不見法而能修
+<lb n="0225a26"/><anchor id="fxT16p0225a01"/>集。亦不見法能斷結使而為說法。亦不見所
+<lb n="0225a27"/>斷結使。亦不見法厭惡離欲寂滅。作如是說。
+<lb n="0225a28"/>法亦不得厭惡。亦不得離欲。亦不得寂滅相。
+<lb n="0225a29"/>得須陀洹果說法。不見有須陀洹相。得斯陀
+<pb ed="T" id="T16.0658.0225b" n="0225b"/>
+<lb n="0225b01"/>含果說法。不見有斯陀含相。得阿那含果說
+<lb n="0225b02"/>法。不見有阿那含相。得阿羅漢果說法。不見
+<lb n="0225b03"/>有阿羅漢相。得辟支佛果說法。不見有辟支
+<lb n="0225b04"/>佛相。斷除著我說法。亦不見我不見著。見業
+<lb n="0225b05"/>果報說法。亦不見業果報相。何以故。菩薩觀
+<lb n="0225b06"/>諸假名不必依法。名中無法法中無名。但以
+<lb n="0225b07"/>世俗假設名字流布世間。世諦故而有假名。
+<lb n="0225b08"/>於第一義諦觀之則無。悉是虛妄誑惑凡夫。
+<lb n="0225b09"/>善男子。具此十事。<note n="0225009" resp="Taisho" type="orig" place="foot text">（是）＋名【元】【明】</note><app n="0225009"><lem>名</lem><rdg wit="【元】【明】" resp="Taisho">是名</rdg></app>菩薩說法法師。善男
+<lb n="0225b10"/>子。菩薩復有十法名為堅法。何等為十。菩薩
+<lb n="0225b11"/>摩訶薩。雖觀色真實而不壞色相。觀受想行
+<lb n="0225b12"/>識真實亦不壞受想行識相。菩薩雖觀欲界
+<lb n="0225b13"/>真實而不壞欲界相。雖觀色界真實而不壞
+<lb n="0225b14"/>色界相。雖觀無色界真實而不壞無色界相。
+<lb n="0225b15"/>雖觀諸法真實而不壞諸法相。雖觀諸法真
+<lb n="0225b16"/>實而不壞於假名眾生。雖觀<note n="0225010" resp="Taisho" type="orig" place="foot text">（諸）＋法【元】【明】</note><app n="0225010"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">諸法</rdg></app>虛寂而不畢
+<lb n="0225b17"/>竟墮於斷見。雖觀諸法真實而不壞於正道。
+<lb n="0225b18"/>菩薩以巧方便<note n="0225011" resp="Taisho" type="orig" place="foot text">智＋（慧）【元】【明】</note><app n="0225011"><lem>智</lem><rdg wit="【元】【明】" resp="Taisho">智慧</rdg></app>。善知有無而不取相。善
+<lb n="0225b19"/>男子。具此十事。是名菩薩堅法</p>
+<lb n="0225b20"/><p>善男子。菩薩復有十法善知法界。何等為十。
+<lb n="0225b21"/>有慧依善知識。能勤精進。遠離陰蓋。清淨恭
+<lb n="0225b22"/>敬。多習空觀。除著諸見。趣向於道。所見真
+<lb n="0225b23"/><note n="0225012" resp="Taisho" type="orig" place="foot text">寶＝實【元】【明】</note><app n="0225012"><lem>寶</lem><rdg wit="【元】【明】" resp="Taisho">實</rdg></app>。善男子。菩薩有慧習近善知識。見善知
+<lb n="0225b24"/>識愛敬喜悅。於善知識生世尊想。依善知識
+<lb n="0225b25"/>住。因善知識故得勤精進。因善知識故能除
+<lb n="0225b26"/>一切惡法。雖滿足一切善法。而勤精進不惓
+<lb n="0225b27"/>除滅陰蓋。<note n="0225013" resp="Taisho" type="orig" place="foot text">已＝以【元】【明】</note><app n="0225013"><lem>已</lem><rdg wit="【元】【明】" resp="Taisho">以</rdg></app>無蓋障故而勤修道。得身口意
+<lb n="0225b28"/>業清淨除諸習惡。得清淨故能恭敬供養。得
+<lb n="0225b29"/>恭敬供養故而得空觀。修空觀故除諸假名。
+<pb ed="T" id="T16.0658.0225c" n="0225c"/>
+<lb n="0225c01"/>除諸假名故能向正道。<note n="0225014" resp="Taisho" type="orig" place="foot text">（能）＋向【元】【明】</note><app n="0225014"><lem>向</lem><rdg wit="【元】【明】" resp="Taisho">能向</rdg></app>正道故能見真實。
+<lb n="0225c02"/>除蓋障菩薩白佛言。世尊。云何名為見真實。
+<lb n="0225c03"/>佛即答言。所見不虛名為真實。除蓋障菩薩
+<lb n="0225c04"/>白佛言。世尊。云何名真實。佛復答言。不虛妄
+<lb n="0225c05"/>法名為真實。除蓋障菩薩白佛言。世尊。云何
+<lb n="0225c06"/>名為不虛妄。佛即答言。如實非不如實名不
+<lb n="0225c07"/>虛妄。除蓋障菩薩白佛言。世尊。云何名為如
+<lb n="0225c08"/>實。佛即答言。此法<note n="0225015" resp="Taisho" type="orig" place="foot text">惟＝唯【元】【明】</note><app n="0225015"><lem>惟</lem><rdg wit="【元】【明】" resp="Taisho">唯</rdg></app>可心知難以口說。非
+<lb n="0225c09"/>是文字所能宣釋。除蓋障菩薩白佛言。世尊。
+<lb n="0225c10"/>云何法相離於文字。<note n="0225016" resp="Taisho" type="orig" place="foot text">（佛答言）＋言【元】【明】</note><app n="0225016"><lem>言</lem><rdg wit="【元】【明】" resp="Taisho">佛答言言</rdg></app>語道斷出過一切心
+<lb n="0225c11"/>所行處。離諸戲論無造無作亦無彼此。非籌
+<lb n="0225c12"/>量計挍之所能及。亦非相貌。過於一切凡愚所
+<lb n="0225c13"/>見。出過魔界。出過一切結使處所。出過一切
+<lb n="0225c14"/>心意識表。不住寂滅賢聖處所。而諸賢聖之
+<lb n="0225c15"/>所證知。善男子。具此十事。<note n="0225017" resp="Taisho" type="orig" place="foot text">〔是則〕－【元】【明】</note><app n="0225017"><lem>是則</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>名為究竟
+<lb n="0225c16"/>如實。是一切智所說。不思議境界不二境界。
+<lb n="0225c17"/>除蓋障菩薩白佛言。世尊。是如實相云何證
+<lb n="0225c18"/>云何見。佛告。善男子。出世間智。乃能證見自
+<lb n="0225c19"/>得此法。除蓋障菩薩復白佛言。世尊。此法體
+<lb n="0225c20"/>性究竟清淨非染污法。是澄<note n="0225018" resp="Taisho" type="orig" place="foot text">靜＝淨【元】【明】</note><app n="0225018"><lem>靜</lem><rdg wit="【元】【明】" resp="Taisho">淨</rdg></app>法微妙最勝
+<lb n="0225c21"/>法。常住不動非敗壞法。有佛無佛法性常爾。
+<lb n="0225c22"/>菩薩摩訶薩。精勤修行難行苦行。百千萬億
+<lb n="0225c23"/>難行苦行。為得此法安立眾生。除蓋障菩薩
+<lb n="0225c24"/>復白佛言。世尊。如<note n="0225019" resp="Taisho" type="orig" place="foot text">是＝如【元】【明】</note><app n="0225019"><lem>是</lem><rdg wit="【元】【明】" resp="Taisho">如</rdg></app>名以聞慧聞以思慧思
+<lb n="0225c25"/>身得證不。佛言。善男子。不爾。何以故。以智
+<lb n="0225c26"/>慧觀如實法而身得證。除蓋障菩薩白佛言。
+<lb n="0225c27"/>世尊。不從聞慧聞思慧思身得證耶。佛言。善
+<lb n="0225c28"/>男子。不也。不以聞思慧故身能<note n="0225020" resp="Taisho" type="orig" place="foot text">得證＝證得【元】【明】</note><app n="0225020"><lem>得證</lem><rdg wit="【元】【明】" resp="Taisho">證得</rdg></app>。善男
+<lb n="0225c29"/>子。汝今諦聽我當說喻。善男子。譬如春末盛
+<pb ed="T" id="T16.0658.0226a" n="0226a"/>
+<lb n="0226a01"/>熱。大曠野中有人從東來欲向西。有人從西
+<lb n="0226a02"/>來欲東過。從西來者為熱所逼。語彼人言。我
+<lb n="0226a03"/>今為熱所逼極甚渴乏。示我道路何處當有
+<lb n="0226a04"/>清涼池<note n="0226001" resp="Taisho" type="orig" place="foot text">泉＝水【元】【明】</note><app n="0226001"><lem>泉</lem><rdg wit="【元】【明】" resp="Taisho">水</rdg></app>可止渴乏。東方來人。善知<note n="0226002" resp="Taisho" type="orig" place="foot text">塗＝途【元】【明】</note><app n="0226002"><lem>塗</lem><rdg wit="【元】【明】" resp="Taisho">途</rdg></app>徑
+<lb n="0226a05"/>善知道相。即答彼云。道中有好清<note n="0226003" resp="Taisho" type="orig" place="foot text">冷＝涼【元】【明】</note><app n="0226003"><lem>冷</lem><rdg wit="【元】【明】" resp="Taisho">涼</rdg></app>美水無
+<lb n="0226a06"/>諸&CB00367;苦。我以於彼洗浴飲飽得來至此。善男
+<lb n="0226a07"/>子。汝欲趣彼其路眾多。去此不遠便有二道。
+<lb n="0226a08"/>一者是左道。二者是右道。汝今當從右道而
+<lb n="0226a09"/>往棄其左道。去此不久。當見叢林&CB00614;茂清涼。
+<lb n="0226a10"/>此叢林中多妙池泉眾流美味。可以洗浴飲
+<lb n="0226a11"/>除渴乏。佛言。善男子。彼渴乏者。聞水思惟
+<lb n="0226a12"/>時。<note n="0226004" resp="Taisho" type="orig" place="foot text">得＝渴【元】【明】</note><app n="0226004"><lem>得</lem><rdg wit="【元】【明】" resp="Taisho">渴</rdg></app>已止渴不。除蓋障菩薩白佛言。不也
+<lb n="0226a13"/>世尊。雖聞清涼而身未證知。佛言。善男子。此
+<lb n="0226a14"/>亦如是。不以聞思慧等便能證知實相之法。
+<lb n="0226a15"/>大曠野者譬如生死。渴乏之人是具縛凡夫。
+<lb n="0226a16"/>煩惱熱逼便生愛渴。善知道者譬如菩薩善
+<lb n="0226a17"/>知一切智道。能飲水者譬如善得法味。洗浴
+<lb n="0226a18"/>清涼譬如身證。澄清淨潔無諸&CB00367;苦譬如實
+<lb n="0226a19"/>法。善男子。汝今善聽我更說喻。假使如來
+<lb n="0226a20"/><note n="0226005" resp="Taisho" type="orig" place="foot text">住＝於【元】【明】</note><app n="0226005"><lem>住</lem><rdg wit="【元】【明】" resp="Taisho">於</rdg></app>閻浮提。若壽一劫說須陀味。香氣勝妙甘
+<lb n="0226a21"/>美清淨。食時受樂悉皆讚歎其味無比。若使
+<lb n="0226a22"/>有人雖見其色。而未食者已得味不。除蓋障
+<lb n="0226a23"/>菩薩白佛言。不也世尊。佛言。善男子。我今為
+<lb n="0226a24"/>汝復更說喻。譬如有人曾食美果。於未得者
+<lb n="0226a25"/>前。讚歎此果色香味具。彼人聞說是果時。已
+<lb n="0226a26"/>知彼果色香味不。除蓋障菩薩白佛言。不也
+<lb n="0226a27"/>世尊。佛言。善男子。凡夫愚人亦復如是。不以
+<lb n="0226a28"/>聞思中慧便能證知真實法相。除蓋障菩薩
+<lb n="0226a29"/>白佛言。世尊。今為我故快說此喻。若得聞者
+<pb ed="T" id="T16.0658.0226b" n="0226b"/>
+<lb n="0226b01"/>不久亦當獲得法利。何以故。若聞此法必證
+<lb n="0226b02"/>阿鞞跋致。當得阿耨多羅三藐三菩提。佛即
+<lb n="0226b03"/>答言。如汝所說。聞此法者必證阿鞞跋致。當
+<lb n="0226b04"/>得阿耨多羅三藐三菩提。善男子。具此十事。
+<lb n="0226b05"/>是名菩薩善知法界◎<note n="0226006" resp="Taisho" type="orig" place="foot text">卷第四終【元】【明】</note><note n="0226006" resp="CBETA" type="mod"><todo type="a"/>卷第四終【元】【明】</note></p>
+<lb n="0226b06"/><p>◎<note n="0226007" resp="Taisho" type="orig" place="foot text">卷第五首【元】【明】</note><note n="0226007" resp="CBETA" type="mod"><todo type="a"/>卷第五首【元】【明】</note>善男子。<note n="0226008" resp="Taisho" type="orig" place="foot text">菩薩＋（摩訶薩）【元】【明】＊</note><app n="0226008"><lem>菩薩</lem><rdg wit="【元】【明】" resp="Taisho">菩薩摩訶薩</rdg></app>復有十法名善住空處。何等
+<lb n="0226b07"/>為十。善知力空。善知無畏空。善知不共法空。
+<lb n="0226b08"/>善知戒聚空。善知定聚空。善知慧聚空。善知
+<lb n="0226b09"/>解脫聚空。善知解脫知見聚空。善知空空。善
+<lb n="0226b10"/>知實諦空。雖知於空而不取空相。不作空見
+<lb n="0226b11"/>不依止空。不以此空因緣相貌墮於斷見。善
+<lb n="0226b12"/>男子。具此十事。是名菩薩善住空處。善男子。
+<lb n="0226b13"/><anchor id="fxT16p0226b01"/>菩薩復有十法名住無相。何等為十。除外
+<lb n="0226b14"/><note n="0226009" resp="Taisho" type="orig" place="foot text">相＝想【元】【明】＊</note><app n="0226009"><lem>相</lem><rdg wit="【元】【明】" resp="Taisho">想</rdg></app>。除內<anchor id="fxT16p0226b02"/>相。除戲論<anchor id="fxT16p0226b03"/>相。除一切計有<anchor id="fxT16p0226b04"/>相。除
+<lb n="0226b15"/>一切境界<anchor id="fxT16p0226b05"/>相。除一切舉動<anchor id="fxT16p0226b06"/>相。除一切趣向
+<lb n="0226b16"/>處所<anchor id="fxT16p0226b07"/>相。除一切造作<anchor id="fxT16p0226b08"/>相。除一切識<anchor id="fxT16p0226b09"/>相。除
+<lb n="0226b17"/>一切識所緣<anchor id="fxT16p0226b10"/>相。除蓋障菩薩白佛言。世尊。
+<lb n="0226b18"/>若諸菩薩。已能如是住於無相者。佛住無相
+<lb n="0226b19"/>當復云何。佛即答言。如來境界不可思議。何
+<lb n="0226b20"/>以故。非智思量故。若欲思者心則狂亂。一切
+<lb n="0226b21"/>眾生盡共度量。不能知於如來此彼岸事。何
+<lb n="0226b22"/>以故。如來境界深遠不可思議。猶如虛空。出
+<lb n="0226b23"/>過一切諸數量表。取著見者心常顛倒故。非
+<lb n="0226b24"/>算數之所思<note n="0226010" resp="Taisho" type="orig" place="foot text">計＝議【元】【明】</note><app n="0226010"><lem>計</lem><rdg wit="【元】【明】" resp="Taisho">議</rdg></app>。除蓋障菩薩白佛言。世尊。
+<lb n="0226b25"/>欲有疑問唯願聽許。善男子。隨汝意問。吾今
+<lb n="0226b26"/>當為分別解說。一切諸佛亦悉聽許。除蓋障
+<lb n="0226b27"/>菩薩白佛言。世尊。若著我所非智人法。世尊。
+<lb n="0226b28"/>是大法主。云何當得而自稱譽。佛言。善哉善
+<lb n="0226b29"/>哉。善男子。諦聽諦聽當為說之。除蓋障菩薩
+<pb ed="T" id="T16.0658.0226c" n="0226c"/>
+<lb n="0226c01"/>白佛言。唯然世尊。諸佛如來不以憍慢而自
+<lb n="0226c02"/>稱譽。不為利養不為名聞。不為使他知。不虛
+<lb n="0226c03"/>妄自稱。不諂曲欺偽。何以故。但為利益一切
+<lb n="0226c04"/>眾生。令得安樂修行法故。何以故。欲令眾生
+<lb n="0226c05"/>於如來所深生信敬。心甚歡喜堪為法器者
+<lb n="0226c06"/>使長夜安隱獲得善利常受快樂。乃至得阿
+<lb n="0226c07"/>耨多羅三藐三菩提。除蓋障菩薩白佛言。世
+<lb n="0226c08"/>尊。眾生豈不知。如來是天中尊自在法王。佛
+<lb n="0226c09"/>言。善男子。不知。何以故。下劣眾生業行卑
+<lb n="0226c10"/>漏。少智少信。常為不善諸惡所持。不知如來
+<lb n="0226c11"/>有大威德。為如此等。是以如來自稱實德。
+<lb n="0226c12"/>令彼眾生信受修行。善男子。譬如醫師善知
+<lb n="0226c13"/>醫法。醫所住處多諸病苦。更無餘醫能療治
+<lb n="0226c14"/>者。是諸人等不知此醫有大威德。是時良醫
+<lb n="0226c15"/>觀諸病者。不識方藥亦復不知所不應食。爾
+<lb n="0226c16"/>時良醫起大慈悲。我當療治除其病苦。爾時
+<lb n="0226c17"/>良醫於眾人前。自歎己德而作是言。我善知
+<lb n="0226c18"/>是病及知病因。善知藥病隨應而授。爾時眾
+<lb n="0226c19"/>生於良醫所心生信敬。以信心故便即依憑。
+<lb n="0226c20"/>爾時良醫以若干種藥隨授而與。諸人服已
+<lb n="0226c21"/>病悉除愈。善男子。爾時彼醫是自稱譽不。除
+<lb n="0226c22"/>蓋障菩薩白佛言。不也世尊。佛言。善男子。如
+<lb n="0226c23"/>來世尊如大醫王。能治眾生煩惱之病。亦知
+<lb n="0226c24"/>煩惱所因起處。以大法藥而普與之。眾生愚
+<lb n="0226c25"/>癡為煩惱所覆。不知如來是大醫王。如來處
+<lb n="0226c26"/>處於眾生前常自歎說。爾時眾生便生信敬
+<lb n="0226c27"/>歸依如來。聖主世尊猶如醫王。以大法藥能
+<lb n="0226c28"/>滅眾生煩惱之病。云何名為是大法藥。貪欲
+<lb n="0226c29"/>者以不淨治。瞋恚者以慈心治。愚癡者以因
+<pb ed="T" id="T16.0658.0227a" n="0227a"/>
+<lb n="0227a01"/>緣法治。如<note n="0227001" resp="Taisho" type="orig" place="foot text">是等＝等是【明】</note><app n="0227001"><lem>是等</lem><rdg wit="【明】" resp="Taisho">等是</rdg></app>無量法藥。悉能<note n="0227002" resp="Taisho" type="orig" place="foot text">對＝退【元】【明】</note><app n="0227002"><lem>對</lem><rdg wit="【元】【明】" resp="Taisho">退</rdg></app>治諸煩
+<lb n="0227a02"/>惱病。善男子。如來見有如是無量利故而自
+<lb n="0227a03"/>讚歎。善男子。具此十事。是名菩薩住於無
+<lb n="0227a04"/>相</p>
+<lb n="0227a05"/><p>善男子。<anchor id="fxT16p0227a01"/>菩薩復有十法名為無願。何等為
+<lb n="0227a06"/>十。雖行布施不依布施而有願求。雖持禁戒
+<lb n="0227a07"/>亦不依禁戒而有願求。忍辱精進禪定智慧
+<lb n="0227a08"/>亦復如是。雖依三界而不願求三界相。雖求
+<lb n="0227a09"/>菩提而不取菩提相。雖行正道而不取正
+<lb n="0227a10"/>道相。雖求涅槃而不取涅槃相。何以故。菩薩
+<lb n="0227a11"/>離一切願求相故。雖行一切佛法。而心常無
+<lb n="0227a12"/>所願求。善男子。具此十事是名菩薩無願</p>
+<lb n="0227a13"/><p>善男子。<anchor id="fxT16p0227a02"/>菩薩復有十法名修慈無量。何等為
+<lb n="0227a14"/>十。不作方所慈。不隨所親慈。常行法慈。依定
+<lb n="0227a15"/>修慈。不為離瞋修慈。&M010527;為利益一切眾生而
+<lb n="0227a16"/>起於慈。常為眾生修等之慈。不為離惱害修
+<lb n="0227a17"/>慈。遍於十方普皆修慈。出世間修慈。<note n="0227003" resp="Taisho" type="orig" place="foot text">（善男子）＋具【元】【明】</note><app n="0227003"><lem>具</lem><rdg wit="【元】【明】" resp="Taisho">善男子具</rdg></app>此
+<lb n="0227a18"/>十事。是名菩薩修慈無量</p>
+<lb n="0227a19"/><p>善男子。<anchor id="fxT16p0227a03"/>菩薩復有十法名悲無量。何等為
+<lb n="0227a20"/>十。見眾生無依無救無怙為苦所惱。菩薩<note n="0227004" resp="Taisho" type="orig" place="foot text">（爾時）＋即【元】【明】</note><app n="0227004"><lem>即</lem><rdg wit="【元】【明】" resp="Taisho">爾時即</rdg></app>
+<lb n="0227a21"/>發菩提心。得如法修行。獲得法已利益眾生。
+<lb n="0227a22"/>於貪眾生教令布施。破戒眾生教修持戒。惱
+<lb n="0227a23"/>害眾生教修忍辱。懈怠眾生教修精進。亂心
+<lb n="0227a24"/>眾生教修禪定。愚癡眾生教修智慧。若見剛
+<lb n="0227a25"/>強諸惡眾生不受教者。而菩薩心亦不退沒。
+<lb n="0227a26"/>雖為眾生久受諸苦。志必濟彼無有疲厭。善
+<lb n="0227a27"/>男子。具此十事。是名菩薩修悲無量</p>
+<lb n="0227a28"/><p>善男子。<anchor id="fxT16p0227a04"/>菩薩復有十法名喜無量。何等為
+<lb n="0227a29"/>十。見諸眾生於生死熾然。得離三有虛偽之
+<pb ed="T" id="T16.0658.0227b" n="0227b"/>
+<lb n="0227b01"/><note n="0227005" resp="Taisho" type="orig" place="foot text">主＝生【明】</note><app n="0227005"><lem>主</lem><rdg wit="【明】" resp="Taisho">生</rdg></app>而生歡喜。斷絕生死震動來往結業之索
+<lb n="0227b02"/>生歡喜心。見生死海中魔竭惡覺水羅剎難。
+<lb n="0227b03"/><note n="0227006" resp="Taisho" type="orig" place="foot text">今＝令【元】【明】＊</note><app n="0227006"><lem>今</lem><rdg wit="【元】【明】" resp="Taisho">令</rdg></app>得遠離生死大海如是眾難生歡喜心。傾
+<lb n="0227b04"/>倒魔幢生歡喜心。以智金剛摧結使山令無
+<lb n="0227b05"/>塵末生歡喜心。我今自得止息。亦令他得止
+<lb n="0227b06"/>息生歡喜心。我今自於生死長眠境界心得
+<lb n="0227b07"/>覺悟。而諸眾生為愛所縛無明所盲。亦當令
+<lb n="0227b08"/>彼悉得覺悟生歡喜心。我今自得解脫。離諸
+<lb n="0227b09"/>惡趣嶮難之處。亦當度脫諸墮惡趣嶮難之
+<lb n="0227b10"/>者生歡喜心。於生死曠野六趣嶮路。獨行無
+<lb n="0227b11"/>侶周迴往返。不善知道不識方所。我<anchor id="fxT16p0227b01"/>今得知
+<lb n="0227b12"/>正道識於方所生歡喜心。我今得近一切智
+<lb n="0227b13"/>城&CB00444;於佛坐生歡喜心。善男子。具此十事。是
+<lb n="0227b14"/>名菩薩喜心無量</p>
+<lb n="0227b15"/><p>善男子。<anchor id="fxT16p0227b02"/>菩薩復有十法名捨無量。何等為
+<lb n="0227b16"/>十。眼見好色<note n="0227007" resp="Taisho" type="orig" place="foot text">而＝亦【元】【明】</note><app n="0227007"><lem>而</lem><rdg wit="【元】【明】" resp="Taisho">亦</rdg></app>無染著入於捨心。耳聞聲鼻
+<lb n="0227b17"/>嗅香舌&CB00573;味身觸細滑意知諸法。如是<note n="0227008" resp="Taisho" type="orig" place="foot text">五＝六【元】【明】</note><app n="0227008"><lem>五</lem><rdg wit="【元】【明】" resp="Taisho">六</rdg></app>塵
+<lb n="0227b18"/>不取其相。亦不惱逼常行捨心。苦苦行苦壞
+<lb n="0227b19"/>苦。於此三受心無增減。而不惱逼常行捨心。
+<lb n="0227b20"/>所作已辦盡諸有結常行捨心。菩薩<note n="0227009" resp="Taisho" type="orig" place="foot text">（爾時）＋作【元】【明】</note><app n="0227009"><lem>作</lem><rdg wit="【元】【明】" resp="Taisho">爾時作</rdg></app>是思
+<lb n="0227b21"/>惟。我欲度之彼已自度常行捨心。善男子。具
+<lb n="0227b22"/>此十事。是名菩薩捨心無量</p>
+<lb n="0227b23"/><p>善男子。<anchor id="fxT16p0227b03"/>菩薩復有十法名遊戲神通。何等為
+<lb n="0227b24"/>十。現捨<note n="0227010" resp="Taisho" type="orig" place="foot text">（天）＋壽【元】【明】</note><app n="0227010"><lem>壽</lem><rdg wit="【元】【明】" resp="Taisho">天壽</rdg></app>。現受<note n="0227011" resp="Taisho" type="orig" place="foot text">（世）＋生【元】【明】</note><app n="0227011"><lem>生</lem><rdg wit="【元】【明】" resp="Taisho">世生</rdg></app>。現為童子種種戲笑。現
+<lb n="0227b25"/>作出家。現作苦行。現向菩提樹。現降魔勞怨。
+<lb n="0227b26"/>現樂寂靜。現轉法輪。現入涅槃。除蓋障菩薩
+<lb n="0227b27"/>白佛言。世尊。以何因緣。現兜率陀<note n="0227012" resp="Taisho" type="orig" place="foot text">〔天〕－【元】【明】</note><app n="0227012"><lem>天</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>捨壽。
+<lb n="0227b28"/>乃至現入涅槃。佛答言。兜率陀天染著五欲
+<lb n="0227b29"/>多生常想見。菩薩於一切眾生中<note n="0227013" resp="Taisho" type="orig" place="foot text">〔最上〕－【元】【明】</note><app n="0227013"><lem>最上</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>最勝。
+<pb ed="T" id="T16.0658.0227c" n="0227c"/>
+<lb n="0227c01"/>不染五欲而身終沒。能破眾生常想之病。得
+<lb n="0227c02"/>無常想心不放逸。兜率陀天多諸放逸。不生
+<lb n="0227c03"/>恭敬信樂之心。染著愛欲不受正法。長夜<note n="0227014" resp="Taisho" type="orig" place="foot text">&CB00540;＝嬉【元】【明】</note><app n="0227014"><lem>&CB00540;</lem><rdg wit="【元】【明】" resp="Taisho">嬉</rdg></app>
+<lb n="0227c04"/>戲自恣娛樂。是以菩薩。為欲除彼放逸心故
+<lb n="0227c05"/>示現捨壽。爾時眾生見菩薩捨壽。皆除放逸
+<lb n="0227c06"/>生厭離心。除放逸故便發阿耨多羅三藐三
+<lb n="0227c07"/>菩提心。菩薩現<note n="0227015" resp="Taisho" type="orig" place="foot text">處＝出【明】</note><app n="0227015"><lem>處</lem><rdg wit="【明】" resp="Taisho">出</rdg></app>母胎多有異相。亦令眾生
+<lb n="0227c08"/>信受其化。雖處母胎為眾說法。皆得阿毘跋
+<lb n="0227c09"/>致。疾向阿耨多羅三藐三菩提。若有眾生。見
+<lb n="0227c10"/>菩薩嬰孩時善根得熟。菩薩為此眾生得成
+<lb n="0227c11"/>熟善根故現處嬰孩。若有眾生。見菩薩出家
+<lb n="0227c12"/>善根增長。菩薩便為是等捨家出家。若有眾
+<lb n="0227c13"/>生志著&CB00308;弊。菩薩現作苦行而成熟之。天龍
+<lb n="0227c14"/>夜叉乾闥婆。應見苦行成熟者。即為現之而
+<lb n="0227c15"/>使成熟。亦為調伏諸外道等。無量眾生長夜
+<lb n="0227c16"/>發願。菩薩疾趣菩提樹我當隨逐。爾時菩薩
+<lb n="0227c17"/>即便現趣菩提樹下。<note n="0227016" resp="Taisho" type="orig" place="foot text">時是＝是時【元】【明】</note><app n="0227016"><lem>時是</lem><rdg wit="【元】【明】" resp="Taisho">是時</rdg></app>眾生得阿毘跋致。
+<lb n="0227c18"/>乃至發阿耨多羅三藐三菩提心。又為眾生
+<lb n="0227c19"/>憍慢貢高自恃勢力。菩薩為欲破彼憍慢心
+<lb n="0227c20"/>故現坐道場摧伏魔怨令使信伏。菩薩為樂
+<lb n="0227c21"/>寂靜眾生增長善根故現坐道場。菩薩坐道
+<lb n="0227c22"/>場時。能使三千大千世界。一切眾聲悉皆不
+<lb n="0227c23"/>現。三千大千世界即便寂靜。令樂寂靜者生
+<lb n="0227c24"/>希有想。皆發阿耨多羅三藐三菩提心。能令
+<lb n="0227c25"/>眾生悉得寂靜。又有眾生自謂大師。作一切
+<lb n="0227c26"/>智想。不知出要道。不識出世法。亦不知現生
+<lb n="0227c27"/>後報。為欲摧伏如此眾生故。見堪任法器成
+<lb n="0227c28"/>熟眾生。為是等故現成無上三菩提道。詣波
+<lb n="0227c29"/>羅<note n="0227017" resp="Taisho" type="orig" place="foot text">&CB00178;＝柰【元】【明】</note><app n="0227017"><lem>&CB00178;</lem><rdg wit="【元】【明】" resp="Taisho">柰</rdg></app>三轉四諦法輪。又有眾生應現涅槃而
+<pb ed="T" id="T16.0658.0228a" n="0228a"/>
+<lb n="0228a01"/>成熟者。為欲成熟彼眾生故現入涅槃。菩薩
+<lb n="0228a02"/>以如是緣如是義故。現坐道場乃至現入涅
+<lb n="0228a03"/>槃。善男子。具此十事是名菩薩遊戲神通</p>
+<lb n="0228a04"/><p>善男子。<anchor id="fxT16p0228a01"/>菩薩復有十法名離八難。何等為
+<lb n="0228a05"/>十。離惡業不善。如來所制禁戒終不毀犯除
+<lb n="0228a06"/>貪嫉。於過去佛所種諸善根。&M010527;修福業智慧
+<lb n="0228a07"/>具足。善知方便善知發願。多厭惡心能勤精
+<lb n="0228a08"/>進。菩薩不造惡業而入地獄。雖處地獄終不
+<lb n="0228a09"/>受於地獄苦報。所不喜者亦不能惱。雖墮地
+<lb n="0228a10"/>獄而不久處。亦復不生惱害之心。菩薩志性
+<lb n="0228a11"/>調柔&M010527;修十善。以十善故不墮地獄。菩薩不
+<lb n="0228a12"/>毀佛戒墮畜生中。雖現畜生而不受於畜生
+<lb n="0228a13"/>之苦。菩薩不起貪嫉墮餓鬼中。雖現餓鬼而
+<lb n="0228a14"/>不受於餓鬼之苦。菩薩終不生邪見家。雖生
+<lb n="0228a15"/>邪見處必遇善知識。何以故。己於過去修諸
+<lb n="0228a16"/>善故。亦於過去佛久植善根故。常生正見家
+<lb n="0228a17"/>具善因緣。具善因緣故功德增廣。菩薩終不
+<lb n="0228a18"/>諸根毀缺。若根減少不任法器。菩薩積德久
+<lb n="0228a19"/>遠修福不倦。於諸形像塔寺及法僧中。處處
+<lb n="0228a20"/>修福心常不懈。以常修故諸根具足無有闕
+<lb n="0228a21"/>少堪為法器。菩薩終不生邊地愚騃聾<note n="0228001" resp="Taisho" type="orig" place="foot text">啞＝&CB00484;【元】【明】</note><app n="0228001"><lem>啞</lem><rdg wit="【元】【明】" resp="Taisho">&CB00484;</rdg></app>諸
+<lb n="0228a22"/>惡之處。譬如白羊愚癡無智。而不能識善惡
+<lb n="0228a23"/>義趣。不任法器。亦復不識沙門婆羅門。菩薩
+<lb n="0228a24"/>生於中國聰慧利根有大<note n="0228002" resp="Taisho" type="orig" place="foot text">智＝知【元】【明】</note><app n="0228002"><lem>智</lem><rdg wit="【元】【明】" resp="Taisho">知</rdg></app>見。又心信樂親
+<lb n="0228a25"/>近有智。而於善惡善知分別堪為法器。深信
+<lb n="0228a26"/>沙門婆羅門。何以故。菩薩本修智慧力故。菩
+<lb n="0228a27"/>薩不生長壽天。若生長壽天。不&CB00418;佛出世。遠
+<lb n="0228a28"/>離道果。不能成熟眾生。是故菩薩生於欲界
+<lb n="0228a29"/>佛出世時。必當遭遇能化眾生。以何因緣善
+<pb ed="T" id="T16.0658.0228b" n="0228b"/>
+<lb n="0228b01"/>方便故。菩薩終不生於無佛世界。亦不生於
+<lb n="0228b02"/>不聞法處。乃至不生無眾僧可供養處。菩薩
+<lb n="0228b03"/>生處必遇三寶。何以故。本誓願力故。菩薩生
+<lb n="0228b04"/>處必有厭惡。心不憍慢而自貢高。若聞八難
+<lb n="0228b05"/>諸惡之處。必生厭離心不喜樂。勤修精進具
+<lb n="0228b06"/>諸善法除滅惡法。善男子。具此十<note n="0228003" resp="Taisho" type="orig" place="foot text">事＝法【元】【明】</note><app n="0228003"><lem>事</lem><rdg wit="【元】【明】" resp="Taisho">法</rdg></app>。是名
+<lb n="0228b07"/>菩薩離於八難</p><note n="0228004" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0228004" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>◎
+<lb n="0228b08"/><juan fun="close" n="003"><jhead><title>寶雲經</title>卷第三</jhead></juan>
+<lb n="0228b09"/>
+<milestone unit="juan" n="4"/>
+<lb n="0228b10"/>
+<lb n="0228b11"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead><title>寶雲經</title>卷第四</jhead></juan>
+<lb n="0228b12"/>
+<lb n="0228b13"/><byline type="Translator">梁扶南三藏曼陀羅仙譯</byline>
+<lb n="0228b14"/><p>◎<note n="0228005" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0228005" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>善男子。菩薩摩訶薩復有十法。名不忘失
+<lb n="0228b15"/>菩提之心。何等為十。心無諂偽亦無幻惑。心
+<lb n="0228b16"/>常<note n="0228006" resp="Taisho" type="orig" place="foot text">吉＝結【元】【明】</note><app n="0228006"><lem>吉</lem><rdg wit="【元】【明】" resp="Taisho">結</rdg></app>實澄<note n="0228007" resp="Taisho" type="orig" place="foot text">清淨＝淨清【元】【明】</note><app n="0228007"><lem>清淨</lem><rdg wit="【元】【明】" resp="Taisho">淨清</rdg></app>白。於佛法僧終不生疑。受
+<lb n="0228b17"/>持佛法者亦不生疑。不生師想而&CB00385;於法。除
+<lb n="0228b18"/>&CB00230;法慳終不作滅佛法因緣。言行相應終不
+<lb n="0228b19"/>虛妄受持大乘。若見受持者常能恭敬。於摩
+<lb n="0228b20"/>訶衍以漸深入。於說法者生於佛想生善知
+<lb n="0228b21"/>識想。善男子。具此十事。是名菩薩常不忘失
+<lb n="0228b22"/>菩提之心</p>
+<lb n="0228b23"/><p>善男子。菩薩復有十法能識宿命。何等為十。
+<lb n="0228b24"/>曾多恭敬供養諸佛。受持諸佛法。能淨持戒。
+<lb n="0228b25"/>除諸疑悔除諸蓋障。多歡喜心樂於禪定。常
+<lb n="0228b26"/>受化生得不<note n="0228008" resp="Taisho" type="orig" place="foot text">妄＝忘【元】【明】＊</note><app n="0228008"><lem>妄</lem><rdg wit="【元】【明】" resp="Taisho">忘</rdg></app>識。供養佛者&M010527;於正法常生
+<lb n="0228b27"/>恭敬。受持正法者亦常恭敬。以是因緣能受
+<lb n="0228b28"/>持法。讀誦書寫廣為人說。不惜身命專為正
+<lb n="0228b29"/>法。淨修戒行身口意業悉皆清淨。以戒清淨
+<pb ed="T" id="T16.0658.0228c" n="0228c"/>
+<lb n="0228c01"/>故心無疑悔。淨持戒故無有蓋障。<note n="0228009" resp="Taisho" type="orig" place="foot text">無＋（有）【元】【明】</note><app n="0228009"><lem>無</lem><rdg wit="【元】【明】" resp="Taisho">無有</rdg></app>蓋障故
+<lb n="0228c02"/>心得歡喜。<note n="0228010" resp="Taisho" type="orig" place="foot text">心＋（得）【元】【明】</note><app n="0228010"><lem>心</lem><rdg wit="【元】【明】" resp="Taisho">心得</rdg></app>歡喜故得修禪定。得修禪定故
+<lb n="0228c03"/>生處清淨。生處清淨故便得化生。得化生故
+<lb n="0228c04"/>得不<anchor id="fxT16p0228c01"/>妄識。得不<anchor id="fxT16p0228c02"/>妄識故便得宿命。得宿命
+<lb n="0228c05"/>故能知一身二身。乃至知百千身。善男子。具
+<lb n="0228c06"/>此十事。是名菩薩得宿命智。善男子。菩薩復
+<lb n="0228c07"/>有十法。得不離善知識。何等為十。得不離值
+<lb n="0228c08"/>佛若聞佛若憶佛。得不離常聞法。得不離常
+<lb n="0228c09"/>供養僧。得不離諸佛菩薩禮拜問訊恭敬合
+<lb n="0228c10"/>掌供養等。得不離多聞人值說法人。得不離
+<lb n="0228c11"/>聞諸波羅蜜。得不離聞諸道品覺意之法。得
+<lb n="0228c12"/>不離聞三解脫門。得不離聞四梵<note n="0228011" resp="Taisho" type="orig" place="foot text">當＝堂【元】【明】</note><app n="0228011"><lem>當</lem><rdg wit="【元】【明】" resp="Taisho">堂</rdg></app>。得不離
+<lb n="0228c13"/>聞一切種智。善男子。具此十事。是名菩薩得
+<lb n="0228c14"/>不離善知識</p>
+<lb n="0228c15"/><p>善男子。菩薩復有十法。得遠離惡知識。何等
+<lb n="0228c16"/>為十。遠離破戒惡知識。遠離破正見者。遠離
+<lb n="0228c17"/>壞威儀者。遠離邪命者。遠離樂世俗言說多
+<lb n="0228c18"/>憒&CB00436;者。遠離多懈怠者。遠離樂著生死者。遠
+<lb n="0228c19"/>離背菩提者。遠離在家之眾。遠離一切結使。
+<lb n="0228c20"/>菩薩雖樂遠離如是等事終不生惱害。亦不
+<lb n="0228c21"/>生輕毀之心。菩薩作如是念。我曾聞佛說眾
+<lb n="0228c22"/>生性欲相染。以習近故多有所壞。是故我應
+<lb n="0228c23"/>一切遠離。善男子。具此十事。是名菩薩遠離
+<lb n="0228c24"/>惡知識</p>
+<lb n="0228c25"/><p>善男子。菩薩復有十法。得如來法身。何等為
+<lb n="0228c26"/>十。等身<note n="0228012" resp="Taisho" type="orig" place="foot text">〔無二身〕－【元】【明】</note><app n="0228012"><lem>無二身</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。清<note n="0228013" resp="Taisho" type="orig" place="foot text">淨＋（身）【元】【明】</note><app n="0228013"><lem>淨</lem><rdg wit="【元】【明】" resp="Taisho">淨身</rdg></app>無盡身久習善身。法
+<lb n="0228c27"/>身。非算數籌量甚深之身。不思議身。寂滅
+<lb n="0228c28"/>身。虛空身。智身。善男子。具此十事。是名菩
+<lb n="0228c29"/>薩得如來法身。除蓋障菩薩白佛言。世尊。菩
+<pb ed="T" id="T16.0658.0229a" n="0229a"/>
+<lb n="0229a01"/>薩何時當得如來法身<note n="0229001" resp="Taisho" type="orig" place="foot text">滿＝佛【元】【明】</note><app n="0229001"><lem>滿</lem><rdg wit="【元】【明】" resp="Taisho">佛</rdg></app>答言善男子。初地
+<lb n="0229a02"/>菩薩得等身。何以故。初地菩薩除一切惡身。
+<lb n="0229a03"/>與諸菩薩同是名等身。二地菩薩得清淨身。
+<lb n="0229a04"/>以持戒清淨故。三地菩薩得無盡身。付除瞋
+<lb n="0229a05"/>惱害故。四地菩薩得久積一切善身。以修<note n="0229002" resp="Taisho" type="orig" place="foot text">集＝習【元】【明】</note><app n="0229002"><lem>集</lem><rdg wit="【元】【明】" resp="Taisho">習</rdg></app>
+<lb n="0229a06"/>一切佛法故。五地菩薩得於法身。以禪定力
+<lb n="0229a07"/>知一切佛法故。六地菩薩非世間算數籌量
+<lb n="0229a08"/>所不能知身。以深遠故。七地菩薩得不思議
+<lb n="0229a09"/>身以善方便故。八地菩薩得寂滅身善除調
+<lb n="0229a10"/>戲盡一切煩惱故。九地菩薩得虛空身。得無
+<lb n="0229a11"/>礙身遍虛空故。十地菩薩得妙智身。何以
+<lb n="0229a12"/>故。遍知一切菩薩諸地法故。除蓋障菩薩白
+<lb n="0229a13"/>佛言。世尊。菩薩法身。如來法身無差別耶。佛
+<lb n="0229a14"/>言。身無差別但功德有異。除蓋障菩薩白佛
+<lb n="0229a15"/>言。世尊。云何身無差別功德有異。佛言。身名
+<lb n="0229a16"/>無異。何以故。身<note n="0229003" resp="Taisho" type="orig" place="foot text">〔口〕－【元】【明】</note><app n="0229003"><lem>口</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>一相故。而功德相各有
+<lb n="0229a17"/>差別。云何身中別見功德相。佛言。善男子。我
+<lb n="0229a18"/>今為汝說喻以釋此義。譬如摩尼珠皆同名
+<lb n="0229a19"/>摩尼。此珠名雖是一。若瑩磨治飾光則明顯
+<lb n="0229a20"/>心意悅樂。譬<note n="0229004" resp="Taisho" type="orig" place="foot text">〔如〕－【元】【明】</note><app n="0229004"><lem>如</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>如來身不瑩治者猶如菩薩
+<lb n="0229a21"/>身。如來身摩尼寶。菩薩身摩尼寶如實無異。
+<lb n="0229a22"/>然如來摩尼寶。菩薩摩尼寶。然其光明色相
+<lb n="0229a23"/>各異。何以故。如來身摩尼寶無量。<note n="0229005" resp="Taisho" type="orig" place="foot text">滿＋（足）【元】【明】</note><app n="0229005"><lem>滿</lem><rdg wit="【元】【明】" resp="Taisho">滿足</rdg></app>眾生
+<lb n="0229a24"/>界滿虛空界。清淨離一切塵垢。菩薩身摩尼
+<lb n="0229a25"/>寶有限。不能滿虛空界。何以故。有垢障故。善
+<lb n="0229a26"/>男子。譬如月初至十五日名盛滿月。後十五
+<lb n="0229a27"/>日亦名為月。乃至月盡皆名為月。<note n="0229006" resp="Taisho" type="orig" place="foot text">雖月＝月雖【元】【明】</note><app n="0229006"><lem>雖月</lem><rdg wit="【元】【明】" resp="Taisho">月雖</rdg></app>名
+<lb n="0229a28"/>同。而明不如十五日月盛然月。法爾而如來
+<lb n="0229a29"/>身菩薩之身俱名為<note n="0229007" resp="Taisho" type="orig" place="foot text">月＝身【元】【明】</note><app n="0229007"><lem>月</lem><rdg wit="【元】【明】" resp="Taisho">身</rdg></app>。如月名同<note n="0229008" resp="Taisho" type="orig" place="foot text">而＝如【元】【明】</note><app n="0229008"><lem>而</lem><rdg wit="【元】【明】" resp="Taisho">如</rdg></app>實亦
+<pb ed="T" id="T16.0658.0229b" n="0229b"/>
+<lb n="0229b01"/>同。然光明照曜菩薩如來而各不同。菩薩之
+<lb n="0229b02"/>身光明照曜。不及如來其光熾盛。譬如月末
+<lb n="0229b03"/>時月月初之月不可相比。善男子。以是故。如
+<lb n="0229b04"/>來身菩薩身。二身雖同功德有別。善男子。菩
+<lb n="0229b05"/>薩復有十法。名金剛不壞身。何等為十。貪欲
+<lb n="0229b06"/>瞋恚愚癡不能壞。惱害憍慢著我自恃見顛
+<lb n="0229b07"/>倒不能壞。世八法不能壞。惡道不能壞。一切
+<lb n="0229b08"/>苦不能壞。生老病死憂悲苦惱不能壞。一切
+<lb n="0229b09"/>外道異見不能壞。一切魔天及魔眷屬不能
+<lb n="0229b10"/>壞。一切聲聞辟支佛不能壞。一切欲界不能
+<lb n="0229b11"/>壞。善男子。具此十事。是名菩薩金剛不壞
+<lb n="0229b12"/>身</p>
+<lb n="0229b13"/><p>善男子。菩薩復有十法。名大商主。何等為十。
+<lb n="0229b14"/>能使商人隨順言教。能使商人供養恭敬。能
+<lb n="0229b15"/>作引導不畏諸難。能<note n="0229009" resp="Taisho" type="orig" place="foot text">為＝使【元】【明】</note><app n="0229009"><lem>為</lem><rdg wit="【元】【明】" resp="Taisho">使</rdg></app>眾人作依憑處。能令
+<lb n="0229b16"/>人依。常得活命。豐饒資糧。多諸珍寶。心<note n="0229010" resp="Taisho" type="orig" place="foot text">無＝不【元】【明】</note><app n="0229010"><lem>無</lem><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>
+<lb n="0229b17"/>止足。常為前導得至一切種智大城善男子。
+<lb n="0229b18"/>云何名菩薩能使商人隨順言教。譬如商主
+<lb n="0229b19"/>善導眾商若有所說皆悉隨從。菩薩亦爾。善
+<lb n="0229b20"/>化眾生能令一切悉皆隨<note n="0229011" resp="Taisho" type="orig" place="foot text">從＝順【元】【明】</note><app n="0229011"><lem>從</lem><rdg wit="【元】【明】" resp="Taisho">順</rdg></app>。譬如商主為諸
+<lb n="0229b21"/>商人恭敬供養。菩薩商主亦復如是。學無學
+<lb n="0229b22"/>人天龍鬼神乾闥婆阿修羅迦樓羅人非人
+<lb n="0229b23"/>等。亦皆悉來恭敬供養。譬如商主善於曠野
+<lb n="0229b24"/>賊難之處。能令眾伴安隱得過。菩薩商主亦
+<lb n="0229b25"/>復如是。於生死曠野煩惱賊處能將諸人安
+<lb n="0229b26"/>隱得過。譬如商主能將諸人。出於曠野令濟
+<lb n="0229b27"/>身命。菩薩亦復如是。令諸外道&CB00425;羅婆殖尼
+<lb n="0229b28"/>乾陀等。於生死曠野將導使出濟其軀命。或
+<lb n="0229b29"/>有王者大臣官屬及<note n="0229012" resp="Taisho" type="orig" place="foot text">諸＝餘【元】【明】</note><app n="0229012"><lem>諸</lem><rdg wit="【元】【明】" resp="Taisho">餘</rdg></app>眾生樂生死者。亦依
+<pb ed="T" id="T16.0658.0229c" n="0229c"/>
+<lb n="0229c01"/>菩薩大商主故悉得全濟。如大商主善備資
+<lb n="0229c02"/>糧所須珍寶。能將<note n="0229013" resp="Taisho" type="orig" place="foot text">眾人＝人眾【元】【明】</note><app n="0229013"><lem>眾人</lem><rdg wit="【元】【明】" resp="Taisho">人眾</rdg></app><note n="0229014" resp="Taisho" type="orig" place="foot text">過＋（於）【元】【明】</note><app n="0229014"><lem>過</lem><rdg wit="【元】【明】" resp="Taisho">過於</rdg></app>險道<note n="0229015" resp="Taisho" type="orig" place="foot text">（過險道）＋已【元】【明】</note><app n="0229015"><lem>已</lem><rdg wit="【元】【明】" resp="Taisho">過險道已</rdg></app>便得安
+<lb n="0229c03"/>隱乃到大城。菩薩商主亦復如是。欲至佛所
+<lb n="0229c04"/>多共眾伴。經歷生死險遠曠野到彼岸城。當
+<lb n="0229c05"/>修功德以自莊嚴。禪定解脫悉令具足。菩薩
+<lb n="0229c06"/>商主。欲至一切種智大城。具一切佛法功德
+<lb n="0229c07"/>珍寶。譬如商主集諸珍寶無有止足。菩薩亦
+<lb n="0229c08"/>爾。集法財寶無有厭足。譬如商主善導眾商。
+<lb n="0229c09"/>聰慧最<note n="0229016" resp="Taisho" type="orig" place="foot text">勝＝上【元】【明】</note><app n="0229016"><lem>勝</lem><rdg wit="【元】【明】" resp="Taisho">上</rdg></app>財產巨富。所有言說眾悉奉用。菩
+<lb n="0229c10"/>薩商主亦復如是。為眾導首功德無量。於法
+<lb n="0229c11"/>自在所言無二。善能將導超過險路至彼大
+<lb n="0229c12"/>城。菩薩商主亦復如是。將<note n="0229017" resp="Taisho" type="orig" place="foot text">〔導〕－【元】【明】</note><app n="0229017"><lem>導</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>諸眾生。超生
+<lb n="0229c13"/>死險。能到涅槃種智大城。善男子。具此十事。
+<lb n="0229c14"/>是名菩薩<note n="0229018" resp="Taisho" type="orig" place="foot text">為＝名【元】【明】</note><app n="0229018"><lem>為</lem><rdg wit="【元】【明】" resp="Taisho">名</rdg></app>大商主</p>
+<lb n="0229c15"/><p>善男子。菩薩復有十法名善知道。何等為十。
+<lb n="0229c16"/>知於平道。知險惡處。知安隱道。知不安隱處。
+<lb n="0229c17"/>知諸<note n="0229019" resp="Taisho" type="orig" place="foot text">奇＝岐【元】【明】</note><app n="0229019"><lem>奇</lem><rdg wit="【元】【明】" resp="Taisho">岐</rdg></app>道。知諸道處。知止住處所。知於道
+<lb n="0229c18"/>相。知道曲直。知道出要。善男子。具此十事。
+<lb n="0229c19"/>是名菩薩善知於道</p>
+<lb n="0229c20"/><p>善男子。菩薩復有十法知道不顛倒。何等為
+<lb n="0229c21"/>十。應示大乘道<note n="0229020" resp="Taisho" type="orig" place="foot text">（得）＋度【元】【明】＊</note><app n="0229020"><lem>度</lem><rdg wit="【元】【明】" resp="Taisho">得度</rdg></app>者。即示大乘道不示聲聞
+<lb n="0229c22"/>道。應示聲聞道度者。即示聲聞道不示大乘
+<lb n="0229c23"/>道。應示一切種智道得度者。即示一切種智
+<lb n="0229c24"/>道不示聲聞道。應示緣覺道得度者。即示緣
+<lb n="0229c25"/>覺道不示一切種智道。著我見眾生不為說
+<lb n="0229c26"/>空無我。不著我見者不為說<note n="0229021" resp="Taisho" type="orig" place="foot text">苦＋（空）【元】【明】</note><app n="0229021"><lem>苦</lem><rdg wit="【元】【明】" resp="Taisho">苦空</rdg></app>無常無我。著
+<lb n="0229c27"/>二邊者不為說中道。著中道者不為說二邊。
+<lb n="0229c28"/>失心狂亂者不為說奢摩他毘婆奢那。著邪
+<lb n="0229c29"/>道者為說正道。令離結使棘刺之屬。善男子。
+<pb ed="T" id="T16.0658.0230a" n="0230a"/>
+<lb n="0230a01"/>具此十事。是名菩薩不顛倒道</p>
+<lb n="0230a02"/><p>善男子。菩薩復有十法。名為常在禪定。何等
+<lb n="0230a03"/>為十。觀身身念處。觀受受念處。觀心心念處。
+<lb n="0230a04"/>觀法法念處。阿練若處攝心而行。觀於五欲
+<lb n="0230a05"/>攝心而行。於村里營舍城邑聚落國土方所
+<lb n="0230a06"/>攝心而行。於名聞利養攝心而行。於如來所
+<lb n="0230a07"/>制禁戒攝心而行。<note n="0230001" resp="Taisho" type="orig" place="foot text">諸於＝於諸【元】【明】</note><app n="0230001"><lem>諸於</lem><rdg wit="【元】【明】" resp="Taisho">於諸</rdg></app>煩惱起瞋恚處及心
+<lb n="0230a08"/>諂曲攝心而行。云何觀身念處攝心而行。以
+<lb n="0230a09"/>正智慧選擇諸惡除去不善。從足至頂乃至
+<lb n="0230a10"/>腦膜。觀察諸分無我我所。念念不住是敗壞
+<lb n="0230a11"/>法。筋脈所纏臭穢可惡純集惡色。如是觀察。
+<lb n="0230a12"/>橫生身想我所之想。以是因緣以是相貌。諦
+<lb n="0230a13"/>觀身相心得自在。云何觀受念處。菩薩作是
+<lb n="0230a14"/>念。觀察一切諸受悉皆是苦。凡夫愚人倒生
+<lb n="0230a15"/>樂想。愚癡無智不識苦樂。賢聖之人悉觀是
+<lb n="0230a16"/>苦。勤修方便斷除是苦。亦教餘眾生如是觀
+<lb n="0230a17"/>受。不憎不愛斷於諸受。云何觀心意止觀心。
+<lb n="0230a18"/>無常而作常想。苦作樂想。無我我想。不淨淨
+<lb n="0230a19"/>想。心甚&CB00338;猴如風動搖。念念不住速疾變異。
+<lb n="0230a20"/>是結使根本惡道之<note n="0230002" resp="Taisho" type="orig" place="foot text">源＝原【元】【明】</note><app n="0230002"><lem>源</lem><rdg wit="【元】【明】" resp="Taisho">原</rdg></app>。常生諂曲為煩惱主。
+<lb n="0230a21"/>亦是貪欲瞋恚愚癡因緣。是一切法宗主工
+<lb n="0230a22"/>匠心為前<note n="0230003" resp="Taisho" type="orig" place="foot text">道＝導【元】【明】</note><app n="0230003"><lem>道</lem><rdg wit="【元】【明】" resp="Taisho">導</rdg></app>。心從緣起悉知諸法。心如畫師
+<lb n="0230a23"/>畫一切像而心不知。心集諸業善惡所由。心
+<lb n="0230a24"/>如循環如旋火輪。心如火種然三有薪。心能
+<lb n="0230a25"/>生物猶如大水。觀察之者。當知心相是大患
+<lb n="0230a26"/>本。不令是心而得自在。若能於心得自在者。
+<lb n="0230a27"/>於一切法亦得自在。云何觀法念處。不善之
+<lb n="0230a28"/>法如實而知貪欲瞋恚愚癡及所依起一切惡
+<lb n="0230a29"/>法能修對治貪瞋癡等。斷除不善觀諸善法
+<pb ed="T" id="T16.0658.0230b" n="0230b"/>
+<lb n="0230b01"/>心樂隨順。繫心專念順行諸善。亦教他人同
+<lb n="0230b02"/>己所觀。云何觀於五欲攝心修行。於五欲中
+<lb n="0230b03"/>不生喜樂亦不憎惡。於色聲香味觸。亦不生
+<lb n="0230b04"/>愛亦不憎惡。於此無體相法生憎愛心。便同
+<lb n="0230b05"/>愚癡凡夫嬰孩不善之者。又世尊說。若於法
+<lb n="0230b06"/>生愛樂亦生染著。若生染著便成愚癡。若生
+<lb n="0230b07"/>愚癡便是不識善惡。以是因緣墮於惡道。是
+<lb n="0230b08"/>故於此空法不應憎惡。若憎惡者名不堪忍。
+<lb n="0230b09"/>若不堪忍則增長恚心。為阿耆梨之所呵
+<lb n="0230b10"/>責。亦為同梵行者之所譏嫌。如是觀察五欲
+<lb n="0230b11"/>修行正念。心不染著亦不憎惡。亦教他人作
+<lb n="0230b12"/>如是觀。云何名阿練若處。攝心離亂如法修
+<lb n="0230b13"/>行名阿練若處。名為無諍住處。亦名寂滅住
+<lb n="0230b14"/>處。此阿練若處。有諸天龍鬼神他心智者善
+<lb n="0230b15"/>見我心。是故我今不應起不善思覺。斷除不
+<lb n="0230b16"/>善覺勤修善覺。當令善覺常得增廣。云何菩
+<lb n="0230b17"/>薩。於里巷村營城邑聚落國土方所。是中行
+<lb n="0230b18"/>住坐臥。於不善處於出家所。不應行處悉皆
+<lb n="0230b19"/>遠離。何處<note n="0230004" resp="Taisho" type="orig" place="foot text">〔是〕－【元】【明】</note><app n="0230004"><lem>是</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>不應行處。酤酒家婬女家王
+<lb n="0230b20"/>家。&M024261;博之處。醉客之處。歌舞伎樂之處。如是
+<lb n="0230b21"/>種種非是出家所應到處<note n="0230005" resp="Taisho" type="orig" place="foot text">皆悉＝悉皆【元】【明】</note><app n="0230005"><lem>皆悉</lem><rdg wit="【元】【明】" resp="Taisho">悉皆</rdg></app>不往。如是村
+<lb n="0230b22"/>邑聚落之處攝心而行。云何於名聞利養攝
+<lb n="0230b23"/>心而行。於得利養處欲使檀越增長福業不
+<lb n="0230b24"/>為貪著。所得財利不作己想。與一切苦惱眾
+<lb n="0230b25"/>生悉皆共之。以是施因緣得名稱讚歎。雖得
+<lb n="0230b26"/>名稱讚歎。而不自舉不生憍慢<note n="0230006" resp="Taisho" type="orig" place="foot text">不自憍＝亦不故【元】【明】</note><app n="0230006"><lem>不自憍</lem><rdg wit="【元】【明】" resp="Taisho">亦不故</rdg></app>逸。如
+<lb n="0230b27"/>是名稱讚歎不久自滅。誰有智者。於無常迅
+<lb n="0230b28"/>速不住之法不可保信。云何於中生於愛憎。
+<lb n="0230b29"/>何有智者。生己有想生憍逸心。是名菩薩於
+<pb ed="T" id="T16.0658.0230c" n="0230c"/>
+<lb n="0230c01"/>名聞利養攝心而行。云何菩薩於如來所制
+<lb n="0230c02"/>禁戒常念修行。過去諸佛履行禁戒。而得成
+<lb n="0230c03"/>佛乃至涅槃。未來諸佛亦履行禁戒。而得成
+<lb n="0230c04"/>佛乃至涅槃。現在諸佛<note n="0230007" resp="Taisho" type="orig" place="foot text">〔亦〕－【元】【明】</note><app n="0230007"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>履行禁戒。而得成
+<lb n="0230c05"/>佛乃至涅槃。作是觀察能持禁戒終不毀犯。
+<lb n="0230c06"/>是名善修是名善持。云何菩薩於<note n="0230008" resp="Taisho" type="orig" place="foot text">諸煩惱＝煩惱諸【元】【明】</note><app n="0230008"><lem>諸煩惱</lem><rdg wit="【元】【明】" resp="Taisho">煩惱諸</rdg></app>塵
+<lb n="0230c07"/>垢蓋障。能善修習攝心而行。菩薩善知煩惱
+<lb n="0230c08"/>結使塵垢蓋障。善知其因。善知所因起處從
+<lb n="0230c09"/>是因出。菩薩於結使蓋障常念攝心如是修
+<lb n="0230c10"/>行。善男子。具此十事。是名菩薩常在禪定。善
+<lb n="0230c11"/>男子。菩薩復有十法。名為糞掃衣。何等為十。
+<lb n="0230c12"/>以能受持終不毀壞。心常卑下而不疲厭。不
+<lb n="0230c13"/>以此事而得解脫。不見其過。見切德利。不自
+<lb n="0230c14"/>高己。不多聚積。善持禁戒。諸天親近。云何受
+<lb n="0230c15"/>持能不毀壞。菩薩有信敬心體性具足。於如
+<lb n="0230c16"/>來所深生<note n="0230009" resp="Taisho" type="orig" place="foot text">敬信＝信敬【元】【明】</note><app n="0230009"><lem>敬信</lem><rdg wit="【元】【明】" resp="Taisho">信敬</rdg></app>。寧捨身命不捨所受。所受不
+<lb n="0230c17"/>動以所受堅<note n="0230010" resp="Taisho" type="orig" place="foot text">固＝因【明】</note><app n="0230010"><lem>固</lem><rdg wit="【明】" resp="Taisho">因</rdg></app>心能卑下。以卑下故不生我
+<lb n="0230c18"/>慢。以意卑下故。便於惡賤糞掃之物。取<note n="0230011" resp="Taisho" type="orig" place="foot text">以＝已【元】【明】＊</note><app n="0230011"><lem>以</lem><rdg wit="【元】【明】" resp="Taisho">已</rdg></app>
+<lb n="0230c19"/>淨洗。洗以縫染。心不疲厭。不疲厭故常取糞
+<lb n="0230c20"/>掃衣。亦不以小行而懷自足。方進求上法必
+<lb n="0230c21"/>獲前利。亦不<note n="0230012" resp="Taisho" type="orig" place="foot text">現＝見【元】【明】</note><app n="0230012"><lem>現</lem><rdg wit="【元】【明】" resp="Taisho">見</rdg></app>此糞掃衣過我常著糞掃衣。
+<lb n="0230c22"/>乃至<note n="0230013" resp="Taisho" type="orig" place="foot text">今＝令【元】【明】</note><app n="0230013"><lem>今</lem><rdg wit="【元】【明】" resp="Taisho">令</rdg></app>老。不以此衣而為&CB00308;弊。亦不作念。
+<lb n="0230c23"/>此衣&CB00308;弊多有蚤虱。若常<note n="0230014" resp="Taisho" type="orig" place="foot text">著＝作【元】【明】</note><app n="0230014"><lem>著</lem><rdg wit="【元】【明】" resp="Taisho">作</rdg></app>者令身垢<note n="0230015" resp="Taisho" type="orig" place="foot text">污＝汗【元】【明】</note><app n="0230015"><lem>污</lem><rdg wit="【元】【明】" resp="Taisho">汗</rdg></app>
+<lb n="0230c24"/>當念思惟著糞掃衣有諸功德。賢聖所服遠
+<lb n="0230c25"/>離欲者之所修行。是名聖種。諸佛所讚如來
+<lb n="0230c26"/>所譽。以是因緣故不自稱譽。不應自高亦不
+<lb n="0230c27"/>下他。是名戒具足。戒具足故諸天親近。諸佛
+<lb n="0230c28"/>讚歎菩薩守護。善能觀察人非人等剎利婆
+<lb n="0230c29"/>羅門聚落邑主恭敬禮拜。同梵行者之所讚
+<pb ed="T" id="T16.0658.0231a" n="0231a"/>
+<lb n="0231a01"/>歎。善男子。具此十事。是名菩薩糞掃衣。除蓋
+<lb n="0231a02"/>障菩薩白佛言。世尊。菩薩<note n="0231001" resp="Taisho" type="orig" place="foot text">志大＝大志【元】【明】</note><app n="0231001"><lem>志大</lem><rdg wit="【元】【明】" resp="Taisho">大志</rdg></app>。何緣樂此
+<lb n="0231a03"/>下劣&CB00308;弊。佛答言。善男子。菩薩為護眾生德
+<lb n="0231a04"/>力所能。非諸凡愚下劣所堪。為未生煩惱作
+<lb n="0231a05"/>障礙故。佛語除蓋障菩薩。善男子。汝謂如來
+<lb n="0231a06"/>為是大志<note n="0231002" resp="Taisho" type="orig" place="foot text">為是＝是名【元】【明】</note><app n="0231002"><lem>為是</lem><rdg wit="【元】【明】" resp="Taisho">是名</rdg></app>小乎。除蓋障菩薩白佛言。世
+<lb n="0231a07"/>尊。我無此辯當何能答。何以故。無有能知如
+<lb n="0231a08"/>來量者。現見如來知一切法。受糞掃衣者能
+<lb n="0231a09"/>制結使。不見如來有所遮制。此四天下天人
+<lb n="0231a10"/>龍鬼。皆有卑下之志。如來雖<note n="0231003" resp="Taisho" type="orig" place="foot text">見＝現【元】【明】</note><app n="0231003"><lem>見</lem><rdg wit="【元】【明】" resp="Taisho">現</rdg></app>卑下。但為
+<lb n="0231a11"/>成熟彼眾生故。於諸眾生前讚歎頭陀。汝今
+<lb n="0231a12"/>當知如是因緣。除蓋障菩薩白佛言。世尊。為
+<lb n="0231a13"/>成熟眾生及新學者。菩薩遮斷結使故說此
+<lb n="0231a14"/>事。善男子。威德力菩薩。為化眾生現受糞掃
+<lb n="0231a15"/>衣。非志卑<note n="0231004" resp="Taisho" type="orig" place="foot text">漏＝陋【元】【明】</note><app n="0231004"><lem>漏</lem><rdg wit="【元】【明】" resp="Taisho">陋</rdg></app>。以是義故菩薩受糞掃衣</p>
+<lb n="0231a16"/><p>善男子。菩薩復有十法。名受取三衣。何等為
+<lb n="0231a17"/>十。少欲知足不多貪求不多積聚。無積聚故
+<lb n="0231a18"/>離諸過患。無失壞故離諸憂惱。離憂惱故離
+<lb n="0231a19"/>眾苦聚集。離眾苦聚集故無有愛欲。無愛欲
+<lb n="0231a20"/>故能盡諸漏。少欲菩薩。趣得為足。知足之人
+<lb n="0231a21"/>少得而足。以少欲故無<note n="0231005" resp="Taisho" type="orig" place="foot text">多所＝所多【元】【明】</note><app n="0231005"><lem>多所</lem><rdg wit="【元】【明】" resp="Taisho">所多</rdg></app>求。離所求故無
+<lb n="0231a22"/>多積聚。離積聚故無惱失苦。無惱失苦故無
+<lb n="0231a23"/>有憂愁。無有憂愁故無有苦惱。無有苦惱故
+<lb n="0231a24"/>無有受用。無有受用故便得漏盡。善男子。具
+<lb n="0231a25"/>此十事。是名菩薩受持三衣</p>
+<lb n="0231a26"/><juan fun="close" n="004"><jhead><anchor id="fxT16p0231a01"/><title>寶雲經</title>卷第<note n="0231006" resp="Taisho" type="orig" place="foot text">四＝五【元】【明】</note><app n="0231006"><lem>四</lem><rdg wit="【元】【明】" resp="Taisho">五</rdg></app></jhead></juan>
+<pb ed="T" id="T16.0658.0231b" n="0231b"/>
+<lb n="0231b01"/>
+<milestone unit="juan" n="5"/>
+<lb n="0231b02"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead><anchor id="fxT16p0231b01"/><title>寶雲經</title>卷第<note n="0231007" resp="Taisho" type="orig" place="foot text">五＝六【元】【明】</note><app n="0231007"><lem>五</lem><rdg wit="【元】【明】" resp="Taisho">六</rdg></app></jhead></juan>
+<lb n="0231b03"/>
+<lb n="0231b04"/><byline type="Translator">梁扶南三藏曼陀羅仙<anchor id="fxT16p0231b02"/>譯</byline>
+<lb n="0231b05"/><p>善男子。復有十法。名菩薩具旃衣。何等為十。
+<lb n="0231b06"/>不隨染欲名為旃衣。不隨瞋故名為旃衣。不
+<lb n="0231b07"/>隨癡故名為旃衣。不隨惱害故名為旃衣。不
+<lb n="0231b08"/>隨貪嫉故名為旃衣。不隨憍慢吾我故名為
+<lb n="0231b09"/>旃衣。不為人知故名為旃衣。不為名聞利養
+<lb n="0231b10"/>故名為旃衣。不使魔得自在故名為旃衣。心
+<lb n="0231b11"/>不高下故名為旃衣。善男子。具此十事是名
+<lb n="0231b12"/>菩薩旃衣</p>
+<lb n="0231b13"/><p>善男子。菩薩復有十法名為乞食。何等為十。
+<lb n="0231b14"/>為益眾生令得福故。是以乞食次第乞食。好
+<lb n="0231b15"/>惡隨時不生悔恨。小欲知足。乞食得已與人
+<lb n="0231b16"/>共同。於食好惡不生增減不生貪著。於食知
+<lb n="0231b17"/>量趣向於善。修<note n="0231008" resp="Taisho" type="orig" place="foot text">集＝習【元】【明】</note><app n="0231008"><lem>集</lem><rdg wit="【元】【明】" resp="Taisho">習</rdg></app>善根離諸取著。云何乞
+<lb n="0231b18"/>食為益眾生。菩薩乞食見諸眾生善根<note n="0231009" resp="Taisho" type="orig" place="foot text">鮮＝&CB00458;【元】【明】</note><app n="0231009"><lem>鮮</lem><rdg wit="【元】【明】" resp="Taisho">&CB00458;</rdg></app>少。
+<lb n="0231b19"/>受乞食法為利益眾生故。若城邑聚落到中
+<lb n="0231b20"/>乞食。繫念不捨威儀具足。若顧視時終不輕
+<lb n="0231b21"/>躁。舉動安<note n="0231010" resp="Taisho" type="orig" place="foot text">庠＝詳【元】【明】</note><app n="0231010"><lem>庠</lem><rdg wit="【元】【明】" resp="Taisho">詳</rdg></app>諸根寂定。諦視目前不過一
+<lb n="0231b22"/>尋。於佛法僧深生信敬。然後乞食。次第乞食
+<lb n="0231b23"/>心無<note n="0231011" resp="Taisho" type="orig" place="foot text">算＝選【元】【明】</note><app n="0231011"><lem>算</lem><rdg wit="【元】【明】" resp="Taisho">選</rdg></app>擇。剎利婆羅門富貴之家一向次第
+<lb n="0231b24"/>食足便止。除惡狗新生犢母先破禁戒墮畜
+<lb n="0231b25"/>生中。若男若女童男童女諸能擾惱者皆悉
+<lb n="0231b26"/>不往。可譏嫌處亦皆不往。次第先食。不得生
+<lb n="0231b27"/>著不得生瞋。於諸眾生不起憎愛。於好於惡
+<lb n="0231b28"/>其心正等。少欲知足隨得多少。還至僧坊安
+<lb n="0231b29"/>置衣&CB00425;。至洗足處。若到佛像塔<note n="0231012" resp="Taisho" type="orig" place="foot text">寺＝事【元】【明】</note><app n="0231012"><lem>寺</lem><rdg wit="【元】【明】" resp="Taisho">事</rdg></app>眾僧所恭
+<pb ed="T" id="T16.0658.0231c" n="0231c"/>
+<lb n="0231c01"/>敬供養。乞食之食分作四分。一分與同梵行
+<lb n="0231c02"/>者。第二分與窮下乞<note n="0231013" resp="Taisho" type="orig" place="foot text">食＝&CB00456;【元】，匈【明】</note><note n="0231013" resp="CBETA" type="mod">食＝&CB00456;【元】，＝匈【明】</note><app n="0231013"><lem>食</lem><rdg wit="【元】" resp="Taisho">&CB00456;</rdg><rdg wit="【明】" resp="Taisho">匈</rdg></app>之者。第三分與諸鬼
+<lb n="0231c03"/>神。第四分自供身食。我今食者但念修道不
+<lb n="0231c04"/>應於食而起染著。亦不憍逸貪嗜無厭。作如
+<lb n="0231c05"/>是食為存此身濟其軀命。是故於食趣得安
+<lb n="0231c06"/>身。不使羸乏亦不令肥。何以故。若身羸瘦妨
+<lb n="0231c07"/>廢行道。若食厚重復多睡眠。為行道故。於食
+<lb n="0231c08"/>知節不多不少。勤修精進除去懈怠。為滿菩
+<lb n="0231c09"/>提覺支。滿菩提覺支故我見得滅。我見滅故
+<lb n="0231c10"/>能以身肉施於眾生。善男子。具此十事。是名
+<lb n="0231c11"/>菩薩乞食法。善男子。菩薩復有十法。名為一
+<lb n="0231c12"/>處坐。何等為十。於菩提樹一坐道場。降伏魔
+<lb n="0231c13"/><note n="0231014" resp="Taisho" type="orig" place="foot text">官＝冤【元】【明】</note><app n="0231014"><lem>官</lem><rdg wit="【元】【明】" resp="Taisho">冤</rdg></app>皆悉驚怖。此處不動得出世定。此處不動
+<lb n="0231c14"/>得世間慧。此處不動得出世間智。此處不動
+<lb n="0231c15"/>得空三昧。此處不動得覺一切法。此處不動
+<lb n="0231c16"/>得八正道。此處不動得於真實。此處不動得
+<lb n="0231c17"/>於如實。此處不動得一切種智坐。善男子。一
+<lb n="0231c18"/>坐者即是法坐。菩薩不動搖故名為一坐。善
+<lb n="0231c19"/>男子。具此十事。是名菩薩一坐法</p>
+<lb n="0231c20"/><p>善男子。菩薩復有十法名一受食。何等為十。
+<lb n="0231c21"/>不貪食。不染著食。以言食足一切不受<note n="0231015" resp="Taisho" type="orig" place="foot text">蘇＝酥【元】【明】</note><app n="0231015"><lem>蘇</lem><rdg wit="【元】【明】" resp="Taisho">酥</rdg></app>油
+<lb n="0231c22"/>黑石蜜阿摩勒汁甘蔗汁及諸果汁。時非時
+<lb n="0231c23"/>都不飲食。見他飲食而不生惱常一受食。菩
+<lb n="0231c24"/>薩設有患苦。若為命難善法<note n="0231016" resp="Taisho" type="orig" place="foot text">留＝之【元】【明】</note><app n="0231016"><lem>留</lem><rdg wit="【元】【明】" resp="Taisho">之</rdg></app>難。當爾之時
+<lb n="0231c25"/>不生疑悔。作藥想服。善男子。具此十事。是名
+<lb n="0231c26"/>菩薩一受食法</p>
+<lb n="0231c27"/><p>善男子。菩薩復有十法。名為阿練若處。何等
+<lb n="0231c28"/>為十。久習梵行。善解毘尼。諸根具足。具足多
+<lb n="0231c29"/>聞。廣博多智。除去我見。譬如&CB00538;鹿。不肥不
+<pb ed="T" id="T16.0658.0232a" n="0232a"/>
+<lb n="0232a01"/>瘦。心常厭惡。樂處閑靜阿練若處。云何久修
+<lb n="0232a02"/>梵行。善男子。菩薩摩訶薩。於佛法中出家學
+<lb n="0232a03"/>道。三業清淨淨持禁戒善知諸法。善知威儀
+<lb n="0232a04"/>行止之處。來去坐臥盡依法律。於如來法中
+<lb n="0232a05"/>上中下坐教戒威儀能教禪法。如此之法已
+<lb n="0232a06"/>自體解不從他受。知義知出要。知坐知出罪。
+<lb n="0232a07"/>避諸毀犯精勤修戒。少有所犯譏呵懺悔隨
+<lb n="0232a08"/>所犯處及以不犯悉能了知。若犯重事乃至
+<lb n="0232a09"/>中下。悉能分別受報輕重近遠。諸根具足依
+<lb n="0232a10"/>阿練若處。所依之處不為他惱。常樂乞食。往
+<lb n="0232a11"/>返不近不遠。近清淨水不污不濁。多諸林樹
+<lb n="0232a12"/>無恐怖處花果具足。遠離惡獸多諸龕窟。往
+<lb n="0232a13"/>返不<note n="0232001" resp="Taisho" type="orig" place="foot text">難＝離【元】【明】</note><app n="0232001"><lem>難</lem><rdg wit="【元】【明】" resp="Taisho">離</rdg></app>寂靜第一。菩薩如此處。晝誦三遍夜
+<lb n="0232a14"/>亦三遍。聲不高下善守諸根心不散亂。深信
+<lb n="0232a15"/>歡喜能憶偈句。善取因相除去睡眠。王若王
+<lb n="0232a16"/>等若諸王子。婆羅門剎利及餘人民。往至菩
+<lb n="0232a17"/>薩阿練若處。比丘唱言。善來大王可坐此處。
+<lb n="0232a18"/>彼若坐時菩薩共坐。彼若不坐菩薩不坐。彼
+<lb n="0232a19"/>王根若不定應當讚歎。大王善得大利。王之
+<lb n="0232a20"/>國界多諸持戒沙門婆羅門住王界中。不為
+<lb n="0232a21"/>惡<note n="0232002" resp="Taisho" type="orig" place="foot text">臣＝人【元】【明】</note><app n="0232002"><lem>臣</lem><rdg wit="【元】【明】" resp="Taisho">人</rdg></app>盜賊之所惱害。王若利根柔和善順堪
+<lb n="0232a22"/>為法器。當為種種說法。若不樂種種說法。當
+<lb n="0232a23"/>為說五欲無常令知厭惡。若不樂厭惡。當復
+<lb n="0232a24"/>為說諸佛有大慈悲威德自在之所行處。剎
+<lb n="0232a25"/>利婆羅門邑主長者及以國人隨宜為<note n="0232003" resp="Taisho" type="orig" place="foot text">說＝法【元】【明】</note><app n="0232003"><lem>說</lem><rdg wit="【元】【明】" resp="Taisho">法</rdg></app>。如
+<lb n="0232a26"/>是多聞堪法器者。即便為說種種之法。聞已
+<lb n="0232a27"/>信受心生悅樂皆令歡喜。多聞廣博故無煩
+<lb n="0232a28"/>惱起善修對治。能除我見故不生怖畏。智辯
+<lb n="0232a29"/>具足故無大眾畏。勇猛無難具如是事。能得
+<pb ed="T" id="T16.0658.0232b" n="0232b"/>
+<lb n="0232b01"/>阿練若處安止而住。<note n="0232004" resp="Taisho" type="orig" place="foot text">繼＝繫【元】【明】</note><app n="0232004"><lem>繼</lem><rdg wit="【元】【明】" resp="Taisho">繫</rdg></app>心厭惡樂獨靜處。猶
+<lb n="0232b02"/>如野鹿常在山林。阿練若比丘不如野鹿&M010527;
+<lb n="0232b03"/>懷驚怖。譬如野鹿見人避走以畏死故。菩薩
+<lb n="0232b04"/>摩訶薩亦復如是。於憒&CB00436;處一切男女悉皆
+<lb n="0232b05"/>遠離。何以故。令我心亂遠離定故。不得厭惡
+<lb n="0232b06"/>修於功德復樂寂靜。我今不應染近憒亂令
+<lb n="0232b07"/>失定心住阿練若處善男子。具此十事。是名
+<lb n="0232b08"/>菩薩阿練若處</p>
+<lb n="0232b09"/><p>善男子。菩薩復有十法名樹下止處。何等為
+<lb n="0232b10"/>十。不近聚落依止樹木而住。不近於饒棘刺
+<lb n="0232b11"/>處依止而住。不近摩樓陀<note n="0232005" resp="Taisho" type="orig" place="foot text">蘭＝藺【元】【明】</note><app n="0232005"><lem>蘭</lem><rdg wit="【元】【明】" resp="Taisho">藺</rdg></app>草之處依止而
+<lb n="0232b12"/>住。不依枯葉處住。不依&CB00338;猴處住。不依鳥
+<lb n="0232b13"/><note n="0232006" resp="Taisho" type="orig" place="foot text">樔＝巢【元】【明】</note><app n="0232006"><lem>樔</lem><rdg wit="【元】【明】" resp="Taisho">巢</rdg></app>窟處住。不依惡獸處住。不依盜賊危難處
+<lb n="0232b14"/>住。菩薩所依止處。無諸恐怖令心悅樂。善男
+<lb n="0232b15"/>子。具此十事。是名菩薩樹下止處</p>
+<lb n="0232b16"/><p>善男子。菩薩復有十法。名為露地坐。何等為
+<lb n="0232b17"/>十。春秋冬夏不依牆壁住。亦不依樹下住。不
+<lb n="0232b18"/>依<note n="0232007" resp="Taisho" type="orig" place="foot text">蘘＝莎【元】【明】</note><app n="0232007"><lem>蘘</lem><rdg wit="【元】【明】" resp="Taisho">莎</rdg></app>草&CB00036;住。不依山<note n="0232008" resp="Taisho" type="orig" place="foot text">掩＝崦【明】</note><app n="0232008"><lem>掩</lem><rdg wit="【明】" resp="Taisho">崦</rdg></app>處住。不依河岸住。
+<lb n="0232b19"/>不作障寒具。不作障風具。不作<note n="0232009" resp="Taisho" type="orig" place="foot text">〔障〕－【元】【明】</note><app n="0232009"><lem>障</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>遮雨具。
+<lb n="0232b20"/>不作遮熱具。不作障露具。菩薩在於露地而
+<lb n="0232b21"/>身有病形體羸弱。應至僧坊。便作是念。如來
+<lb n="0232b22"/>為遮諸結使故說於頭陀。我今雖在僧坊當
+<lb n="0232b23"/>斷除結使。我今雖在僧坊中不生貪著心。我
+<lb n="0232b24"/>不為己身。但為僧坊檀越成諸功德故常作
+<lb n="0232b25"/>露地想。具此十事。是名菩薩露地而坐</p>
+<lb n="0232b26"/><p>善男子。菩薩復有十法名塚間坐。何等為十。
+<lb n="0232b27"/>隨所住處多厭惡心。常修死想噉殘想血塗
+<lb n="0232b28"/>想青<note n="0232010" resp="Taisho" type="orig" place="foot text">淤＝瘀【元】【明】</note><app n="0232010"><lem>淤</lem><rdg wit="【元】【明】" resp="Taisho">瘀</rdg></app>想&CB00167;脹想燒<note n="0232011" resp="Taisho" type="orig" place="foot text">然＝煎【元】【明】</note><app n="0232011"><lem>然</lem><rdg wit="【元】【明】" resp="Taisho">煎</rdg></app>想解散想骨想。塚
+<lb n="0232b29"/>間坐者常修慈心。生利益想憐愍眾生。淨持
+<pb ed="T" id="T16.0658.0232c" n="0232c"/>
+<lb n="0232c01"/>禁戒威儀不闕終不食肉。何以故。不遠塚間
+<lb n="0232c02"/>有諸非人及惡鬼神。以食肉故心皆厭賤。無
+<lb n="0232c03"/>喜見者常作惱害。塚間比丘往至僧坊先禮
+<lb n="0232c04"/>佛塔。&CB00230;禮上坐與諸下坐。談論語說立住而
+<lb n="0232c05"/>去。不坐僧祇<note n="0232012" resp="Taisho" type="orig" place="foot text">旃蓐＝氈褥【元】【明】</note><app n="0232012"><lem>旃蓐</lem><rdg wit="【元】【明】" resp="Taisho">氈褥</rdg></app>。何以故。為護惜僧物故。
+<lb n="0232c06"/>如凡夫愚人鄙賤塚間。設若有人。施於床敷
+<lb n="0232c07"/>請命使坐。問言。為是汝己有。為是僧有觀前
+<lb n="0232c08"/>人意不生悔心然後始坐。心生下劣如旃陀
+<lb n="0232c09"/>羅子。善男子。<note n="0232013" resp="Taisho" type="orig" place="foot text">具＝見【元】【明】</note><app n="0232013"><lem>具</lem><rdg wit="【元】【明】" resp="Taisho">見</rdg></app>此十事。是名菩薩塚間坐
+<lb n="0232c10"/>法</p>
+<lb n="0232c11"/><p>善男子。菩薩復有十法。名常坐不臥。何等為
+<lb n="0232c12"/>十。不為苦身故常坐。不為苦心故常坐。不為
+<lb n="0232c13"/>止睡故常坐。不為疲極故常坐。為滿足菩提
+<lb n="0232c14"/>故常坐。欲使心專一故常坐。欲使向正道故
+<lb n="0232c15"/>常坐。欲坐道場為得菩提故常坐。欲利益眾
+<lb n="0232c16"/>生故常坐。為斷一切結使故常坐。善男子。具
+<lb n="0232c17"/>此十事。是名菩薩常坐不臥。善男子。菩薩復
+<lb n="0232c18"/>有十法。名為隨敷坐。何等為十。不貪著敷故
+<lb n="0232c19"/>隨敷而坐。不自安敷亦不使他敷。不作形相
+<lb n="0232c20"/>使他敷。敷若草若枯樹枝葉隨在上坐。若有
+<lb n="0232c21"/><note n="0232014" resp="Taisho" type="orig" place="foot text">蟻＝螘【元】【明】</note><app n="0232014"><lem>蟻</lem><rdg wit="【元】【明】" resp="Taisho">螘</rdg></app>子蚊蚋蠅&CB00810;毒<note n="0232015" resp="Taisho" type="orig" place="foot text">蝎＝蠍【明】</note><app n="0232015"><lem>蝎</lem><rdg wit="【明】" resp="Taisho">蠍</rdg></app>之處。即時捨去不<note n="0232016" resp="Taisho" type="orig" place="foot text">住＝往【明】</note><app n="0232016"><lem>住</lem><rdg wit="【明】" resp="Taisho">往</rdg></app>
+<lb n="0232c22"/>於中。若欲臥時右&CB00169;而臥。足足相<note n="0232017" resp="Taisho" type="orig" place="foot text">疊＝壘【元】【明】</note><app n="0232017"><lem>疊</lem><rdg wit="【元】【明】" resp="Taisho">壘</rdg></app>善斂衣
+<lb n="0232c23"/>服不令解<note n="0232018" resp="Taisho" type="orig" place="foot text">散＝服【元】【明】</note><app n="0232018"><lem>散</lem><rdg wit="【元】【明】" resp="Taisho">服</rdg></app>。若睡眠時<note n="0232019" resp="Taisho" type="orig" place="foot text">當＝常【元】【明】</note><app n="0232019"><lem>當</lem><rdg wit="【元】【明】" resp="Taisho">常</rdg></app>繫心。明相作必
+<lb n="0232c24"/>起。意不著睡眠以為喜樂。右&CB00169;臥時若有疲
+<lb n="0232c25"/>極。終不更轉左&CB00169;而臥。為調和四大常不離
+<lb n="0232c26"/><note n="0232020" resp="Taisho" type="orig" place="foot text">〔善〕－【元】【明】</note><app n="0232020"><lem>善</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。善男子。具此十事。是名為菩薩隨敷而
+<lb n="0232c27"/>坐法</p>
+<lb n="0232c28"/><p>善男子。菩薩復有十法。名成就禪。何等為十。
+<lb n="0232c29"/>多修不淨觀。多修慈心。多修十二因緣。多修
+<pb ed="T" id="T16.0658.0233a" n="0233a"/>
+<lb n="0233a01"/>離過患法。多修於空。多修無相。多修習禪。多
+<lb n="0233a02"/>修不悔恨持戒完具。善男子。云何多修不淨
+<lb n="0233a03"/>觀。菩薩獨處閑靜默然攝意。厭惡現前正身
+<lb n="0233a04"/>端坐。支節完具深心喜悅。結<note n="0233001" resp="Taisho" type="orig" place="foot text">加＝跏【元】【明】</note><app n="0233001"><lem>加</lem><rdg wit="【元】【明】" resp="Taisho">跏</rdg></app>趺坐作是思
+<lb n="0233a05"/>惟。如人飲食美味好漿及餘&CB00308;&CB00612;。是諸美味
+<lb n="0233a06"/>及不美味。皆依此身變成不淨。膿血臭穢悉
+<lb n="0233a07"/>皆可惡。一切眾生貪嗜美味心&M010527;樂著。我今
+<lb n="0233a08"/>當願依佛正法如實之相觀察此身。不可染
+<lb n="0233a09"/>著亦不厭離速求涅槃。是名菩薩多觀不淨。
+<lb n="0233a10"/>云何菩薩多修慈心。如上染處端身獨坐寂
+<lb n="0233a11"/>靜思惟。眾生多有瞋恚。便生惱害作諸不善。
+<lb n="0233a12"/>若有眾生與我等者。云何來世自生怨恨。如
+<lb n="0233a13"/>是眾生我當方便斷其瞋恚。作如是念深心
+<lb n="0233a14"/>思惟不但口說。云何菩薩多修十二因緣。眾
+<lb n="0233a15"/>生多起貪欲瞋恚。有如是等皆因緣生。假使
+<lb n="0233a16"/>餘法一切皆從因緣而起。云何智者見如是
+<lb n="0233a17"/>相。一剎那頃從因緣法皆悉是空。不應為此
+<lb n="0233a18"/>而自毀害。云何菩薩多修離過患法。若自生
+<lb n="0233a19"/>過尋能除斷。見他過患深入捨心。云何尋自
+<lb n="0233a20"/>除患。患者於諸佛不生信敬心。於法僧所亦
+<lb n="0233a21"/>不生信敬心。於戒不生信敬心。於和<note n="0233002" resp="Taisho" type="orig" place="foot text">上＝尚【元】【明】＊</note><app n="0233002"><lem>上</lem><rdg wit="【元】【明】" resp="Taisho">尚</rdg></app>阿闍
+<lb n="0233a22"/><note n="0233003" resp="Taisho" type="orig" place="foot text">梨＝黎【明】＊</note><app n="0233003"><lem>梨</lem><rdg wit="【明】" resp="Taisho">黎</rdg></app>時類宿舊有智者邊上中下坐亦不生信
+<lb n="0233a23"/>敬心。自高己身卑下他人。於五欲所心樂趣
+<lb n="0233a24"/>向背捨涅槃。我見眾生見壽者見人者見。計
+<lb n="0233a25"/>有虛空起於斷見。深著有想起於常見。於賢
+<lb n="0233a26"/>聖所背捨遠離親近凡愚。遠離持戒者親近
+<lb n="0233a27"/>破戒者。近惡知識遠離善知識。誹謗經法常
+<lb n="0233a28"/>生不信。聞諸深義心生驚畏。懈怠懶墮。於修
+<lb n="0233a29"/>法所輕而不為。意志下劣無有言辯。應不疑
+<pb ed="T" id="T16.0658.0233b" n="0233b"/>
+<lb n="0233b01"/>處返生疑惑。於可疑處而不生疑。為五蓋所
+<lb n="0233b02"/>覆。幻惑諂<note n="0233004" resp="Taisho" type="orig" place="foot text">詭＝偽【元】【明】</note><app n="0233004"><lem>詭</lem><rdg wit="【元】【明】" resp="Taisho">偽</rdg></app>睡眠所覆。貪著利養世間名
+<lb n="0233b03"/>稱。愛樂種<note n="0233005" resp="Taisho" type="orig" place="foot text">姓＝性【元】【明】</note><app n="0233005"><lem>姓</lem><rdg wit="【元】【明】" resp="Taisho">性</rdg></app>恃於居業。愛著徒眾遠離正
+<lb n="0233b04"/>法。樂俗談話捨離禪思。見善不欣聞惡貪樂。
+<lb n="0233b05"/>而心不肯親近出家。但念親近年少婦女童
+<lb n="0233b06"/>男童女。不<note n="0233006" resp="Taisho" type="orig" place="foot text">悕＝喜【元】【明】</note><app n="0233006"><lem>悕</lem><rdg wit="【元】【明】" resp="Taisho">喜</rdg></app>阿練若處。食不知量。不親近
+<lb n="0233b07"/>有智師友善人。不知誦習經行時節。亦不知
+<lb n="0233b08"/>所應行來往返之處。於微細戒而作輕心。輕
+<lb n="0233b09"/>於小惡視瞻不端。舉動輕躁&M010527;作<note n="0233007" resp="Taisho" type="orig" place="foot text">左＝非【元】【明】</note><app n="0233007"><lem>左</lem><rdg wit="【元】【明】" resp="Taisho">非</rdg></app>法言語
+<lb n="0233b10"/>&CB00308;獷。於好惡色心皆貪著。好&CB00540;瞋恚不修慈
+<lb n="0233b11"/>心。於苦眾生不生憐愍。見病苦者亦不厭惡
+<lb n="0233b12"/>聞死不驚。常處熾然不求出要。不觀察身不
+<lb n="0233b13"/>守禁戒。不觀己身。可作不可作。可覺不覺。可
+<lb n="0233b14"/>思不思。非道為道。道為非道。未得謂得。若少
+<lb n="0233b15"/>營福便多封著而心錯亂。於大功德終不修
+<lb n="0233b16"/>行。謗毀摩訶衍。誹謗聲聞。誹謗樂大乘者。誹
+<lb n="0233b17"/>謗樂小乘者。亦生誹謗譏呵於戒。為戒&CB00508;諍。
+<lb n="0233b18"/>為人剛強言常&CB00308;惡。而自貢高無懷慚色。不
+<lb n="0233b19"/>知羞厭躁惡&CB00308;弊言辭不遜。好喜綺語常行
+<lb n="0233b20"/>惡口。多諸妄語調戲無度。有如是等過。為離
+<lb n="0233b21"/>此過患法。離一切調戲。修習空定。多修空故
+<lb n="0233b22"/>處處觀察體性悉空。能觀空智此亦是空。作
+<lb n="0233b23"/>是觀已。繫心無相觀內外法。不得身相亦不
+<lb n="0233b24"/>得繫念相。爾時不見繫心。於身亦不得身相。
+<lb n="0233b25"/>亦不得外相。亦不得念外相。去除外相身相
+<lb n="0233b26"/>亦除。除斷內眼心樂善法。修道增廣次第不
+<lb n="0233b27"/>斷。常念定慧修功德本。正觀諸法如實深義。
+<lb n="0233b28"/>是名為慧善攝亂意。歡喜無悔。是名為定。何
+<lb n="0233b29"/>以故。淨持戒故菩薩能淨持戒。必成就禪戒
+<pb ed="T" id="T16.0658.0233c" n="0233c"/>
+<lb n="0233c01"/>具足禪道。是故持戒具足名為修禪。善男子。
+<lb n="0233c02"/>具此十事。是名菩薩<note n="0233008" resp="Taisho" type="orig" place="foot text">〔善〕－【元】【明】</note><app n="0233008"><lem>善</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>修禪法</p>
+<lb n="0233c03"/><p>善男子。菩薩復有十法。名持修多羅。何等為
+<lb n="0233c04"/>十。為守護法聞則能持。不為財物飲食故持。
+<lb n="0233c05"/>為紹三寶種佛法不斷。不為利養故持。為使
+<lb n="0233c06"/>摩訶衍廣流布故持。不為恭敬利養故持。無
+<lb n="0233c07"/>救眾生為作救護故持。不為名稱讚歎故持。
+<lb n="0233c08"/>為苦惱眾生使得樂故持。為令眾生得慧眼
+<lb n="0233c09"/>故持。為求聲聞者令得聲聞道故持。為修摩
+<lb n="0233c10"/>訶衍成就摩訶衍故持。為成一切種智故持。
+<lb n="0233c11"/>不為求下乘故持。善男子。具此十事。是名為
+<lb n="0233c12"/>菩薩持修多羅</p>
+<lb n="0233c13"/><p>善男子。菩薩復有十法。名為律師。何等為十。
+<lb n="0233c14"/>善解毘尼所起因緣。善解毘尼甚深之處。善
+<lb n="0233c15"/>解毘尼微細之事。善解毘尼此事得彼事不
+<lb n="0233c16"/>得。善解毘尼性重戒。善解毘尼制重戒。善解
+<lb n="0233c17"/>毘尼制起因緣。善解聲聞毘尼。善解辟支佛
+<lb n="0233c18"/>毘尼。善解菩薩毘尼。善男子。具此十事。是名
+<lb n="0233c19"/>為菩薩善持律師</p>
+<lb n="0233c20"/><p>善男子。菩薩復有十法。名善知威儀。善知可
+<lb n="0233c21"/>行不可行處。善知行法。善知威儀舉止。何等
+<lb n="0233c22"/>為十。善學聲聞戒。善學辟支佛戒。以善學故
+<lb n="0233c23"/>威儀具足。威儀具足故。不可行處終不往彼。
+<lb n="0233c24"/>不應往方亦不往彼。非時不行。沙門所行處
+<lb n="0233c25"/>行。不可行處不行。是故威儀具足。沙門婆羅
+<lb n="0233c26"/>門所譏呵處亦終不<note n="0233009" resp="Taisho" type="orig" place="foot text">住＝往【元】【明】</note><app n="0233009"><lem>住</lem><rdg wit="【元】【明】" resp="Taisho">往</rdg></app>。以是故沙門婆羅門
+<lb n="0233c27"/>無譏呵者。亦能教他修行如是威儀禁戒。以
+<lb n="0233c28"/>是義故威儀具足。寂滅威儀。無諂誑威儀。善
+<lb n="0233c29"/>男子。具此十事。是名菩薩威儀進止所行具
+<pb ed="T" id="T16.0658.0234a" n="0234a"/>
+<lb n="0234a01"/>足</p>
+<lb n="0234a02"/><p>善男子。菩薩復有十法。名除嫉&CB00107;。何等為十。
+<lb n="0234a03"/>自行布施亦教他人行布施。讚歎布施法。見
+<lb n="0234a04"/>他布施心生隨喜。為說法要讚歎彼人。令使
+<lb n="0234a05"/>歡喜終不生念。但施於我莫施於彼。願一切
+<lb n="0234a06"/>眾生皆得施利。所須具足皆得快樂。得世間
+<lb n="0234a07"/>利樂。得出世利樂。我今勤為眾生修無上道。
+<lb n="0234a08"/>為欲利益故。云何當起嫉&CB00107;之心。善男子。具
+<lb n="0234a09"/>此十事。是名菩薩能除嫉&CB00107;</p>
+<lb n="0234a10"/><p>善男子。菩薩復有十法。能為眾生起平等心。
+<lb n="0234a11"/>何等為十。為一切眾生作修福因緣。令一切
+<lb n="0234a12"/>眾生心無嫌恨。不使一切眾生起於瞋忿。為
+<lb n="0234a13"/>一切眾生故布施持戒忍辱精進禪定智慧。
+<lb n="0234a14"/>為一切眾生故發一切種智心。為一切眾生
+<lb n="0234a15"/>故自滿一切種智心。皆不生二想。所作功德
+<lb n="0234a16"/>與一切眾生悉皆共之。緣一切眾生以為境
+<lb n="0234a17"/>界。如是思惟時。能速成就菩薩之法。速成就
+<lb n="0234a18"/>菩薩法故。能觀生死如火熾然。自乘此法能
+<lb n="0234a19"/>出生死。亦使眾生得濟苦海。皆起等心不生
+<lb n="0234a20"/>增減。善男子。譬如長者唯有六子其心愛著。
+<lb n="0234a21"/>於諸子中悉皆平等。為設方便。然諸子等幼
+<lb n="0234a22"/>小無智。不能行來不識善惡。其家火起。是諸
+<lb n="0234a23"/>小兒各在異處。善男子。而此長者寧可作心。
+<lb n="0234a24"/>此子應出彼不應出。此子先出彼應後出。除
+<lb n="0234a25"/>蓋障菩薩白佛言。不也世尊。何以故。是長者
+<lb n="0234a26"/>等心於子無差別故。善男子。菩薩亦復如是。
+<lb n="0234a27"/>於諸眾生心皆如子。愚小無智。於生死摩竭
+<lb n="0234a28"/>熾然世界。是諸子等各處<note n="0234001" resp="Taisho" type="orig" place="foot text">六＝小【元】【明】</note><app n="0234001"><lem>六</lem><rdg wit="【元】【明】" resp="Taisho">小</rdg></app>道。菩薩隨應成
+<lb n="0234a29"/><note n="0234002" resp="Taisho" type="orig" place="foot text">就＝熟【元】【明】</note><app n="0234002"><lem>就</lem><rdg wit="【元】【明】" resp="Taisho">熟</rdg></app>。皆悉拔濟。咸令得出置寂滅處。善男
+<pb ed="T" id="T16.0658.0234b" n="0234b"/>
+<lb n="0234b01"/>子。具此十事。是名菩薩於一切眾生<note n="0234003" resp="Taisho" type="orig" place="foot text">得＝起【元】【明】</note><app n="0234003"><lem>得</lem><rdg wit="【元】【明】" resp="Taisho">起</rdg></app>平等
+<lb n="0234b02"/>心</p>
+<lb n="0234b03"/><p>善男子。菩薩復有十法。名善供養佛。何等為
+<lb n="0234b04"/>十。以法供養於佛。以救拔濟眾生供養於佛。
+<lb n="0234b05"/>以教化眾生令立諸善供養於佛。常與一切
+<lb n="0234b06"/>眾生利供養於佛。不捨願行供養於佛。不捨
+<lb n="0234b07"/>菩薩所行供養於佛。言行相應供養於佛。心
+<lb n="0234b08"/>無疲厭供養於佛。不捨菩提供養於佛。不以
+<lb n="0234b09"/>財施供養於佛。何以故。善男子。如來法身不
+<lb n="0234b10"/>待財施供養。<note n="0234004" resp="Taisho" type="orig" place="foot text">惟＝唯【元】【明】</note><app n="0234004"><lem>惟</lem><rdg wit="【元】【明】" resp="Taisho">唯</rdg></app>以法施供養為上。以具足供
+<lb n="0234b11"/>養利益眾生。令得安樂常獲善利。善男子。若
+<lb n="0234b12"/>不能利益眾生。放捨善法所作疲厭。好&CB00540;妄
+<lb n="0234b13"/>語志意下劣。心生疲惓離菩提心。有如是等
+<lb n="0234b14"/>不能為諸眾生而作利益。何以故。菩薩要依
+<lb n="0234b15"/>眾生修諸功德。乃至成阿耨多羅三藐三菩
+<lb n="0234b16"/>提。若無眾生。終不能成阿耨多羅三藐三菩
+<lb n="0234b17"/>提無上正覺為具佛道。以法供養為最第一。
+<lb n="0234b18"/>不以財施為真供養。善男子。具此十事。是名
+<lb n="0234b19"/>菩薩能善供<note n="0234005" resp="Taisho" type="orig" place="foot text">養＋（佛）【元】【明】</note><app n="0234005"><lem>養</lem><rdg wit="【元】【明】" resp="Taisho">養佛</rdg></app></p>
+<lb n="0234b20"/><p>善男子。菩薩復有十法。名摧伏憍慢。何等為
+<lb n="0234b21"/>十。菩薩或時出家作是思惟。父母眷屬已捨
+<lb n="0234b22"/>出家。猶如被棄壞爛死尸。云何於中當起憍
+<lb n="0234b23"/>慢。我今剃除鬚髮。毀形<note n="0234006" resp="Taisho" type="orig" place="foot text">向＝尚【元】【明】</note><app n="0234006"><lem>向</lem><rdg wit="【元】【明】" resp="Taisho">尚</rdg></app>道節身知足。著
+<lb n="0234b24"/>壞色衣改先所好。修出家法捨俗威儀。云何
+<lb n="0234b25"/>當起憍慢之心。剃頭持&CB00425;而行乞食。作乞&CB00456;
+<lb n="0234b26"/>想不應憍慢。當自卑下如旃陀羅子。我今乞
+<lb n="0234b27"/>&CB00456;由他濟命。云何憍慢而自毀傷。是故思惟
+<lb n="0234b28"/>摧伏憍慢。我今受乞食法為他所賤。人與食
+<lb n="0234b29"/>時如似捨棄。如是思惟云何憍慢。我今於一
+<pb ed="T" id="T16.0658.0234c" n="0234c"/>
+<lb n="0234c01"/>切眾生。&M010527;如和<anchor id="fxT16p0234c01"/>上阿闍<anchor id="fxT16p0234c02"/>梨想。應加謙敬摧
+<lb n="0234c02"/>伏憍慢。我與諸同學同梵行者。善護威儀常
+<lb n="0234c03"/>念順行。不應到於非律儀處。當使諸同梵行
+<lb n="0234c04"/>者見我歡喜。如此思惟時摧伏憍慢。我未曾
+<lb n="0234c05"/>得<note n="0234007" resp="Taisho" type="orig" place="foot text">（修）＋行【元】【明】</note><app n="0234007"><lem>行</lem><rdg wit="【元】【明】" resp="Taisho">修行</rdg></app>佛法今得修行。於瞋恚惱害眾生中當
+<lb n="0234c06"/>念忍辱。如是思惟時摧伏憍慢。善男子。具此
+<lb n="0234c07"/>十事。是名菩薩摧伏憍慢</p><note n="0234008" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0234008" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>◎
+<lb n="0234c08"/><juan fun="close" n="005"><jhead><title>寶雲經</title>卷第五</jhead></juan>
+<lb n="0234c09"/>
+<milestone unit="juan" n="6"/>
+<lb n="0234c10"/>
+<lb n="0234c11"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead><title>寶雲經</title>卷第六</jhead></juan>
+<lb n="0234c12"/>
+<lb n="0234c13"/><byline type="Translator">梁扶南三藏曼陀羅仙譯</byline>
+<lb n="0234c14"/><p>◎<note n="0234009" resp="Taisho" type="orig" place="foot text">不分卷【元】【明】</note><note n="0234009" resp="CBETA" type="mod"><todo type="a"/>不分卷【元】【明】</note>善男子。菩薩復有十法名為信敬。何等為
+<lb n="0234c15"/>十。善根深厚宿殖德本。得於正見不隨他信
+<lb n="0234c16"/>不歸依他。志性&M010527;正不為虛妄。其心質直無
+<lb n="0234c17"/>有諂曲。利根智慧功德具足。除諸陰蓋其心
+<lb n="0234c18"/>清淨。常依善知識遠離惡知識。摧伏<note n="0234010" resp="Taisho" type="orig" place="foot text">（諸）＋憍【元】【明】</note><app n="0234010"><lem>憍</lem><rdg wit="【元】【明】" resp="Taisho">諸憍</rdg></app>慢。
+<lb n="0234c19"/>聞深<note n="0234011" resp="Taisho" type="orig" place="foot text">妙＝沙【元】【明】</note><app n="0234011"><lem>妙</lem><rdg wit="【元】【明】" resp="Taisho">沙</rdg></app>法能善諦受。終不顛倒妄解如來甚
+<lb n="0234c20"/>深法藏威德自在。善男子。具此十事。是名菩
+<lb n="0234c21"/>薩能多信敬</p>
+<lb n="0234c22"/><p>爾時除蓋障菩薩白佛言。世尊。我今於如來
+<lb n="0234c23"/>大威德所。願說少法令我得聞。善男子。汝今
+<lb n="0234c24"/>善聽。當為說之。如來要法威德少分。善哉世
+<lb n="0234c25"/>尊。願為演說。佛言。如來大慈等與一切眾
+<lb n="0234c26"/>生樂。若於<note n="0234012" resp="Taisho" type="orig" place="foot text">一＋（切）【元】【明】</note><app n="0234012"><lem>一</lem><rdg wit="【元】【明】" resp="Taisho">一切</rdg></app>眾生起慈心時。乃至十方眾生
+<lb n="0234c27"/>亦復如是。遍一切眾生界。亦滿虛空界。無能
+<lb n="0234c28"/>遍知如來甚深境界邊際。如來有大悲心。不
+<lb n="0234c29"/>與聲聞辟支佛共。如來於一眾生起於悲心。
+<pb ed="T" id="T16.0658.0235a" n="0235a"/>
+<lb n="0235a01"/>乃至一切眾生亦復如是。為作利益。如來大
+<lb n="0235a02"/>悲無有邊際。非諸二乘所能究竟。善男子。如
+<lb n="0235a03"/>來說法不可窮盡。能於一時普為十方眾生
+<lb n="0235a04"/>說法。若一劫。百千萬億劫。無量阿僧祇劫。作
+<lb n="0235a05"/>如是說。一切眾生無有能知如來說法邊際
+<lb n="0235a06"/>本末。假使無量眾生一時問難。而如來於一
+<lb n="0235a07"/>念中。各隨其類一音能答。然如來辯才無有
+<lb n="0235a08"/>窮盡。如來有無量阿僧祇禪定三昧之所行
+<lb n="0235a09"/>處。善男子。假使一切眾生皆得十住。各各皆
+<lb n="0235a10"/>入無量三昧。於百千劫中各入異定。如是經
+<lb n="0235a11"/>無量劫。猶不能盡知如來三昧境界。如來又
+<lb n="0235a12"/>作無量阿僧祇應身。令一切眾生應受化者。
+<lb n="0235a13"/>悉見如來皆現其前。於一念頃一一色相皆
+<lb n="0235a14"/>生信解各有差別。如來又復一時皆現其前。
+<lb n="0235a15"/>隨其所應而為說法。令諸眾生悉皆受行。善
+<lb n="0235a16"/>男子。如來天眼所見境界無量無邊。非肉眼
+<lb n="0235a17"/>所見。是天眼境界。如來於一念中悉皆見之。
+<lb n="0235a18"/>如觀掌中阿摩勒果。如來天耳所聞境界無
+<lb n="0235a19"/>量無邊。如上天眼。一切眾生異類音聲。隨其
+<lb n="0235a20"/>大小。於一念頃悉分別知。如來復有無量無
+<lb n="0235a21"/>邊無礙智慧。無與等者不可為譬。一切眾生
+<lb n="0235a22"/>若心念所知。隨其根性種種差別。如來於一
+<lb n="0235a23"/>剎那頃悉分別知。隨彼眾生各各所念各各
+<lb n="0235a24"/>所作。隨造善惡所得業報。如來能以三達無
+<lb n="0235a25"/>礙智慧。於剎那頃悉分別知。善男子。如來常
+<lb n="0235a26"/>在禪定。何以故。如來終無<note n="0235001" resp="Taisho" type="orig" place="foot text">忘＝妄【明】</note><app n="0235001"><lem>忘</lem><rdg wit="【明】" resp="Taisho">妄</rdg></app>念。如來諸根
+<lb n="0235a27"/>無有錯謬。如來斷一切結使其心寂靜。若雜
+<lb n="0235a28"/>結使其心散亂離清淨法。如來已離一切業
+<lb n="0235a29"/>習。塵垢永盡無漏無為。於法自在。一切三昧
+<pb ed="T" id="T16.0658.0235b" n="0235b"/>
+<lb n="0235b01"/>三摩提無量境界已度彼岸。如來常在三昧。
+<lb n="0235b02"/>常一威儀乃至涅槃。如來於無量百千億劫
+<lb n="0235b03"/>修<note n="0235002" resp="Taisho" type="orig" place="foot text">集＝習【元】【明】＊</note><app n="0235002"><lem>集</lem><rdg wit="【元】【明】" resp="Taisho">習</rdg></app>所得。無有眾生能思惟分別知其量者。
+<lb n="0235b04"/>除蓋障菩薩白佛言。世尊。如來不從阿僧祇
+<lb n="0235b05"/>劫積集功德耶。佛言不爾。何以故。善男子。菩
+<lb n="0235b06"/>薩不能思議如來境界。如來境界不可思量。
+<lb n="0235b07"/>但為淺近眾生。說三阿僧祇修<anchor id="fxT16p0235b01"/>集所得。菩薩
+<lb n="0235b08"/>而實發心以來不可計數。除蓋障菩薩白佛
+<lb n="0235b09"/>言。世尊。若眾生久修善根。植諸業行除去蓋
+<lb n="0235b10"/>障。多有信解近於阿耨多羅三藐三菩提。得
+<lb n="0235b11"/>聞如來無量威德。聞是法已歡喜信樂。況復
+<lb n="0235b12"/>受持讀誦書寫供養為人<note n="0235003" resp="Taisho" type="orig" place="foot text">廣＝演【明】</note><app n="0235003"><lem>廣</lem><rdg wit="【明】" resp="Taisho">演</rdg></app>說。如是之人。不
+<lb n="0235b13"/>久亦當得大威德堪任法器。佛言。如汝所說。
+<lb n="0235b14"/>如是如是。如此眾生。為佛所護久種善根。親
+<lb n="0235b15"/>近諸佛聞佛有大威德。善男子善女人。而於
+<lb n="0235b16"/>其中不生疑惑。善男子善女人心不錯亂。不
+<lb n="0235b17"/>錯亂故思惟如來有大威德。深<note n="0235004" resp="Taisho" type="orig" place="foot text">生＝心【元】【明】</note><app n="0235004"><lem>生</lem><rdg wit="【元】【明】" resp="Taisho">心</rdg></app>殷重信樂
+<lb n="0235b18"/>之心。七日七夜著鮮淨衣。恭敬供養。專念如
+<lb n="0235b19"/>來大功德寶。心不移易必得見佛。若不滿七
+<lb n="0235b20"/>日乃至一日一夜。命終之時亦<note n="0235005" resp="Taisho" type="orig" place="foot text">得＝不【明】</note><app n="0235005"><lem>得</lem><rdg wit="【明】" resp="Taisho">不</rdg></app>見佛。除
+<lb n="0235b21"/>蓋障菩薩白佛言。世尊。頗有眾生於如來所
+<lb n="0235b22"/>說不信受者。佛即答言。善男子有。或有眾生
+<lb n="0235b23"/>聞佛所說。不肯信受深生惱害。於說法者生
+<lb n="0235b24"/>惡知識想。以是因緣身壞命終墮於地獄。善
+<lb n="0235b25"/>男子。若聞如來有大威德。生世尊想生大師
+<lb n="0235b26"/>想。如此之人。已於前世得聞如來無量功德。
+<lb n="0235b27"/>以是因緣今復續聞。即自思惟。我等先身必
+<lb n="0235b28"/>曾從佛聞如此法。爾時如來。即出廣長舌相
+<lb n="0235b29"/>自覆其面。其舌廣長踰於髮際乃至覆頭。覆
+<pb ed="T" id="T16.0658.0235c" n="0235c"/>
+<lb n="0235c01"/>頭已復覆其身。覆身已覆師子座。又覆菩薩
+<lb n="0235c02"/>聲聞緣覺護世四天王梵天帝釋。遍覆一切
+<lb n="0235c03"/>無量大眾。佛還攝舌相告諸大眾。善男子等。
+<lb n="0235c04"/>如是舌相無虛妄耶。善男子。若信是事長夜
+<lb n="0235c05"/>安隱得諸利樂。說是語時。八萬四千眾生得
+<lb n="0235c06"/>無生法忍。無量眾生遠塵離垢得法眼淨。無
+<lb n="0235c07"/>量眾生未發菩提心者。皆發阿耨多羅三藐
+<lb n="0235c08"/>三菩提心</p>
+<lb n="0235c09"/><p>佛復告除蓋障菩薩<note n="0235006" resp="Taisho" type="orig" place="foot text">〔言〕－【元】【明】</note><app n="0235006"><lem>言</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。善男子。菩薩復有十
+<lb n="0235c10"/>法。名滿世間善。何等為十。雖說於色而於實
+<lb n="0235c11"/>諦不見有相。亦不著色相。受想行識亦復如
+<lb n="0235c12"/>是。雖說於地而於實諦不見有相。亦不著地
+<lb n="0235c13"/>相。水火風空識亦復如是。雖說於眼而於實
+<lb n="0235c14"/>諦不見有相。亦不著眼相。雖說<note n="0235007" resp="Taisho" type="orig" place="foot text">（耳）＋鼻【元】【明】</note><app n="0235007"><lem>鼻</lem><rdg wit="【元】【明】" resp="Taisho">耳鼻</rdg></app>舌身意法
+<lb n="0235c15"/>而於實諦不見有相。亦不著意法等相。雖說
+<lb n="0235c16"/>有我而於實諦不見有相。亦不著我相。眾生
+<lb n="0235c17"/>壽者命者丈夫人。而於實諦不見有相亦不
+<lb n="0235c18"/>取著。但世諦假施設有。第一義諦則不可得
+<lb n="0235c19"/>亦不取著。世諦假施設有。第一義諦無有體
+<lb n="0235c20"/>相亦不取著。世流布中而有佛法差別。若於
+<lb n="0235c21"/>實諦亦無佛法善惡之相。但世諦中而有菩
+<lb n="0235c22"/>提。第一義諦則無菩提亦無取著。善男子。假
+<lb n="0235c23"/>施設法名為世諦。終不說世諦為第一義諦。
+<lb n="0235c24"/>善男子。菩薩摩訶薩。善於世諦不名為善於
+<lb n="0235c25"/>第一義諦。善男子。具此十事。是名菩薩滿世
+<lb n="0235c26"/>間善。善男子。菩薩復有十法。名為善說第一
+<lb n="0235c27"/>義諦。何等為十。成就無生法忍。成就滅法。成
+<lb n="0235c28"/>就不壞法。非造作法。是究竟法。非處所法。無
+<lb n="0235c29"/>言語法。無調戲法。是寂滅法。是賢聖法。何以
+<pb ed="T" id="T16.0658.0236a" n="0236a"/>
+<lb n="0236a01"/>故。善男子。第一義諦不生不滅。非壞非所作
+<lb n="0236a02"/>亦非<note n="0236001" resp="Taisho" type="orig" place="foot text">盡＝無作【元】【明】</note><app n="0236001"><lem>盡</lem><rdg wit="【元】【明】" resp="Taisho">無作</rdg></app>。非文字亦非調戲所得。善男子。第
+<lb n="0236a03"/>一義諦非言語道。法相寂滅賢聖之所證覺。
+<lb n="0236a04"/>善男子。第一義諦非壞敗相。諸佛出世及不
+<lb n="0236a05"/>出世法相常爾。以是因緣故。菩薩剃除鬚髮。
+<lb n="0236a06"/>信家非家出家學道。正信出家身服袈裟著
+<lb n="0236a07"/>壞色衣。精勤修道如救頭然。捨諸虛妄志求
+<lb n="0236a08"/>實法善男子。若無實法則虛出家。諸佛如來
+<lb n="0236a09"/>亦虛出世。以是因緣有真實法。善男子。具此
+<lb n="0236a10"/>十事。是名菩薩善解第一義諦</p>
+<lb n="0236a11"/><p>善男子。菩薩復有十法。名為善知十二因緣。
+<lb n="0236a12"/>何等為十。善知體相空。善知剎那法。善知不
+<lb n="0236a13"/>堅法。善知如影如水中月如呼聲響。善知法
+<lb n="0236a14"/>如幻。善知法如電。善知法如焰。如因緣生法
+<lb n="0236a15"/>此悉是空。一剎那頃不堅法。如是乃至因緣
+<lb n="0236a16"/>生法。此法生亦見生。住亦見住。異<note n="0236002" resp="Taisho" type="orig" place="foot text">〔壞〕－【元】【明】</note><app n="0236002"><lem>壞</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>亦見
+<lb n="0236a17"/>異<note n="0236003" resp="Taisho" type="orig" place="foot text">壞＋（亦見壞）【元】【明】</note><app n="0236003"><lem>壞</lem><rdg wit="【元】【明】" resp="Taisho">壞亦見壞</rdg></app>。菩薩如是思惟。以何因緣生以何因緣
+<lb n="0236a18"/>滅。菩薩復更思惟。因無明故能生諸法。無明
+<lb n="0236a19"/>力故諸法得出。一切諸法無明為導。一切諸
+<lb n="0236a20"/>法依止無明。依無明故能生於行。依行故生
+<lb n="0236a21"/>識。識因緣生名色。名色因緣生六入。六入因
+<lb n="0236a22"/>緣生觸。觸因緣生受。受因緣故凡愚眾生於
+<lb n="0236a23"/>受少分便起染愛。愛因緣生取。取因緣生有。
+<lb n="0236a24"/>有因緣生生。生因緣有老死丈夫人老死。死
+<lb n="0236a25"/>因緣憂悲苦惱眾苦聚集。以是因緣生大苦
+<lb n="0236a26"/>陰。以深智慧慇懃方便。當斷無明拔無明根。
+<lb n="0236a27"/>滅於無明。無明相應法一切盡滅。譬如命根
+<lb n="0236a28"/>盡時諸根都盡。無明盡時。依無明法一切悉
+<lb n="0236a29"/>盡。無明滅故諸煩惱滅。煩惱滅故生死因皆
+<pb ed="T" id="T16.0658.0236b" n="0236b"/>
+<lb n="0236b01"/>滅。生死滅故近於涅槃。善男子。具此十事。是
+<lb n="0236b02"/>名菩薩善知十二因緣</p>
+<lb n="0236b03"/><p>善男子。菩薩復有十法。名善知我何等為十。
+<lb n="0236b04"/>菩薩作如是觀察。我生誰家。為是婆羅門家。
+<lb n="0236b05"/>為是剎利家。為是長者家。為是下賤家。菩薩
+<lb n="0236b06"/>雖生上族家而無憍慢想。若生下賤處而作
+<lb n="0236b07"/>是念。我本曾作不善諸業。以惡業故今生下
+<lb n="0236b08"/>賤家。以是因緣多修厭惡。多修厭惡故欲得
+<lb n="0236b09"/>出家。既出家已作是思惟。我為何事而求出
+<lb n="0236b10"/>家。夫出家法為自度脫亦度於彼。以是因緣。
+<lb n="0236b11"/>不應懈怠而自懶<note n="0236004" resp="Taisho" type="orig" place="foot text">墮＝惰【元】【明】</note><app n="0236004"><lem>墮</lem><rdg wit="【元】【明】" resp="Taisho">惰</rdg></app>。作是思惟。我今出家當
+<lb n="0236b12"/><note n="0236005" resp="Taisho" type="orig" place="foot text">何＝斷【元】【明】</note><app n="0236005"><lem>何</lem><rdg wit="【元】【明】" resp="Taisho">斷</rdg></app>不善。若有<note n="0236006" resp="Taisho" type="orig" place="foot text">少＝小【元】【明】</note><app n="0236006"><lem>少</lem><rdg wit="【元】【明】" resp="Taisho">小</rdg></app>惡速疾除斷。於諸善法深
+<lb n="0236b13"/>起愛樂歡喜無厭。所未斷惡方便令斷。如是
+<lb n="0236b14"/>復更觀察。我等出家。云何增廣善法。善法增
+<lb n="0236b15"/>已當倍愛樂深心歡喜。善法未增當令增廣。
+<lb n="0236b16"/>我今依怙師僧增廣善法。以是因緣於和<note n="0236007" resp="Taisho" type="orig" place="foot text">上＝尚【元】【明】＊</note><app n="0236007"><lem>上</lem><rdg wit="【元】【明】" resp="Taisho">尚</rdg></app>
+<lb n="0236b17"/>所。若持戒<note n="0236008" resp="Taisho" type="orig" place="foot text">若＝者【元】【明】＊</note><app n="0236008"><lem>若</lem><rdg wit="【元】【明】" resp="Taisho">者</rdg></app>破戒。若多聞<anchor id="fxT16p0236b01"/>若少聞。若聰明
+<lb n="0236b18"/><anchor id="fxT16p0236b02"/>若無智。悉皆恭敬生世尊想。於諸世尊恭敬
+<lb n="0236b19"/>供養信樂歡喜。於和<anchor id="fxT16p0236b03"/>上所亦復如是。於阿闍
+<lb n="0236b20"/><note n="0236009" resp="Taisho" type="orig" place="foot text">梨＝黎【明】＊</note><app n="0236009"><lem>梨</lem><rdg wit="【明】" resp="Taisho">黎</rdg></app>復生恭敬。我依阿闍<anchor id="fxT16p0236b04"/>梨故善法增廣。菩
+<lb n="0236b21"/>提法分未滿足者當令使滿。諸結未斷者當
+<lb n="0236b22"/>令使斷。於阿闍<anchor id="fxT16p0236b05"/>梨復生和<anchor id="fxT16p0236b06"/>上想。供養如前
+<lb n="0236b23"/>愛樂歡喜。增長右法損減左法。如是左法不
+<lb n="0236b24"/>令增長。復更觀察。誰是我世尊。一切種智是
+<lb n="0236b25"/>我世尊。能一切覺。能一切說。救濟世間憐愍
+<lb n="0236b26"/>眾生具大悲心。是大福田。是我世尊。天人之
+<lb n="0236b27"/>師。以是因緣。以是相貌應生信敬愛樂歡喜。
+<lb n="0236b28"/>又復思惟。我得大利遇佛世尊如來制戒。我
+<lb n="0236b29"/>今寧捨身命終不毀犯如來制戒。是名善受
+<pb ed="T" id="T16.0658.0236c" n="0236c"/>
+<lb n="0236c01"/>佛教。我今當應從誰受供。如我今者。當從剎
+<lb n="0236c02"/>利婆羅門聚落城邑受彼供施。令彼果報尊
+<lb n="0236c03"/>貴富樂。我亦不應虛受人供。如是剎利婆羅
+<lb n="0236c04"/>門聚落城邑皆作何想。我今思惟。有何功德
+<lb n="0236c05"/>而施飲食。剎利婆羅門聚落城邑。當念我是
+<lb n="0236c06"/>沙門作福田想。我今應當具滿沙門所行之
+<lb n="0236c07"/>道。比丘功德沙門功德。福田淨業宜稱其名。
+<lb n="0236c08"/>我今處生死中當自拔出。我今已得出家善
+<lb n="0236c09"/>利。我今初得無上大利。我得出家即是無上
+<lb n="0236c10"/>大利。我今能稱出家之法。亦是無上大利。我
+<lb n="0236c11"/>今當勤精進遠離懈怠。亦疾速出生死災患。
+<lb n="0236c12"/>善男子。菩薩出家常應執念如是思惟。善男
+<lb n="0236c13"/>子。具此十事。是名菩薩善知於我。善男子。菩
+<lb n="0236c14"/>薩復有十法。名善知世法。何等為十。於自高
+<lb n="0236c15"/>人起卑賤想。於憍慢人起恭敬想。於諂曲人
+<lb n="0236c16"/>起質直想。於妄語人起真實想。於憎惡人起
+<lb n="0236c17"/>愛樂想。於剛強人起柔軟想。於不忍人起忍
+<lb n="0236c18"/>辱想。於瞋忿人起慈心想。於苦惱人起悲心
+<lb n="0236c19"/>想。於多貪人起施與想。善男子。具此十事。是
+<lb n="0236c20"/>名菩薩善知世法。善男子。菩薩復有十法。名
+<lb n="0236c21"/>能生淨佛國土。何等為十。持戒清淨無闕戒
+<lb n="0236c22"/>無嫌戒。於一切眾生心常平等。同其事業具
+<lb n="0236c23"/>諸功德。遠離名聞讚歎利養。不染八法深信
+<lb n="0236c24"/>不疑。勤修精進無有懈怠。攝心禪定無諸錯
+<lb n="0236c25"/>亂。善修多聞遠離無智。利根聰慧滅除<note n="0236010" resp="Taisho" type="orig" place="foot text">愚＝癡【元】【明】</note><app n="0236010"><lem>愚</lem><rdg wit="【元】【明】" resp="Taisho">癡</rdg></app>
+<lb n="0236c26"/>闇。於瞋惱眾生&M010527;修慈心。除蓋障菩薩白佛
+<lb n="0236c27"/>言。世尊。若十事不具能生淨土不。佛即答言。
+<lb n="0236c28"/>善男子。若能於一事具足無闕。當知十事悉
+<lb n="0236c29"/>皆清淨。以是義故。名具<note n="0236011" resp="Taisho" type="orig" place="foot text">十＝足【元】【明】</note><app n="0236011"><lem>十</lem><rdg wit="【元】【明】" resp="Taisho">足</rdg></app>事得生淨土。善
+<pb ed="T" id="T16.0658.0237a" n="0237a"/>
+<lb n="0237a01"/>男子。具此十事。是名菩薩能生淨佛國土</p>
+<lb n="0237a02"/><p>善男子。菩薩復有十法名胎不染污。何等為
+<lb n="0237a03"/>十。作諸形像。如來塔寺若有毀壞嚴飾修治。
+<lb n="0237a04"/>復以諸香泥塗於佛塔如來形像。常以香<note n="0237001" resp="Taisho" type="orig" place="foot text">湯＝水【元】【明】</note><app n="0237001"><lem>湯</lem><rdg wit="【元】【明】" resp="Taisho">水</rdg></app>
+<lb n="0237a05"/>洗浴於如來塔塗掃清淨。<note n="0237002" resp="Taisho" type="orig" place="foot text">（又）＋於【元】【明】</note><app n="0237002"><lem>於</lem><rdg wit="【元】【明】" resp="Taisho">又於</rdg></app>父母所躬自供
+<lb n="0237a06"/>養。於和<anchor id="fxT16p0237a01"/>上阿闍<anchor id="fxT16p0237a02"/>梨同梵行者。心常恭敬供
+<lb n="0237a07"/>養不為財利。以此善根迴與一切眾生。願令
+<lb n="0237a08"/>皆得胎不染污。心常殷重如是思惟。善男
+<lb n="0237a09"/>子。具此十事。是名菩薩胎不染污。善男子。菩
+<lb n="0237a10"/>薩復有十法名捨家出家。何等為十。無所受
+<lb n="0237a11"/>用。於可染處終不親近。背於五欲。除諸愛渴。
+<lb n="0237a12"/>於如來所制禁戒終不毀犯。少欲知足。衣服
+<lb n="0237a13"/>飲食床敷臥具。趣得支命終不貪積。於五欲
+<lb n="0237a14"/>所常生畏怖。&M010527;念厭離修<anchor id="fxT16p0237a03"/>集善法。善男子。
+<lb n="0237a15"/>具此十事。是名菩薩捨家出家</p>
+<lb n="0237a16"/><juan fun="close" n="006"><jhead><anchor id="fxT16p0237a04"/><title>寶雲經</title>卷第六</jhead></juan>
+<lb n="0237a17"/>
+<milestone unit="juan" n="7"/>
+<lb n="0237a18"/>
+<lb n="0237a19"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead><anchor id="fxT16p0237a05"/><title>寶雲經</title>卷第七</jhead></juan>
+<lb n="0237a20"/>
+<lb n="0237a21"/><byline type="Translator">梁扶南三藏曼陀羅仙<anchor id="fxT16p0237a06"/>譯</byline>
+<lb n="0237a22"/><p>善男子。菩薩復有十法。名為正命。何等為十。
+<lb n="0237a23"/>心不諂曲。不外現相貌而求利養。不作抑揚
+<lb n="0237a24"/>顯己異眾。不外<note n="0237003" resp="Taisho" type="orig" place="foot text">弊＝蔽【元】【明】＊</note><app n="0237003"><lem>弊</lem><rdg wit="【元】【明】" resp="Taisho">蔽</rdg></app>五欲而心求利養。不取非
+<lb n="0237a25"/>法財。不取不清淨財。不著利養。不染利養。而
+<lb n="0237a26"/>常知足。於如法利&M010527;生知足。云何菩薩心不
+<lb n="0237a27"/>諂曲。不以利養令身口意<note n="0237004" resp="Taisho" type="orig" place="foot text">（諂）＋曲【元】【明】</note><app n="0237004"><lem>曲</lem><rdg wit="【元】【明】" resp="Taisho">諂曲</rdg></app>。云何<note n="0237005" resp="Taisho" type="orig" place="foot text">〔不〕－【元】【明】</note><app n="0237005"><lem>不</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>身諂
+<lb n="0237a28"/>曲。菩薩不為見檀越故現諸威儀。云何作威
+<lb n="0237a29"/>儀。見檀越時。低視<note n="0237006" resp="Taisho" type="orig" place="foot text">徐＝而【元】【明】</note><app n="0237006"><lem>徐</lem><rdg wit="【元】【明】" resp="Taisho">而</rdg></app>行如&CB00339;伺鼠。是名身
+<pb ed="T" id="T16.0658.0237b" n="0237b"/>
+<lb n="0237b01"/>諂曲。云何口諂曲。菩薩不為利養作柔軟語。
+<lb n="0237b02"/>作愛語。作庠序語。隨他所愛語。隨他意語。如
+<lb n="0237b03"/>是等語皆悉不作。云何意諂曲。口說知足而
+<lb n="0237b04"/>心貪著。佛言。內燒內熱。口言知足心常貪著。
+<lb n="0237b05"/>若不如是名不諂曲。云何名不外現相貌。菩
+<lb n="0237b06"/>薩不以見檀越時作諸相貌。我衣服短少。我
+<lb n="0237b07"/>&CB00425;<note n="0237007" resp="Taisho" type="orig" place="foot text">〔器〕－【元】【明】</note><app n="0237007"><lem>器</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>減少。湯藥臥具減少。菩薩不以見檀越
+<lb n="0237b08"/>故作如是說。云何名不作抑揚<note n="0237008" resp="Taisho" type="orig" place="foot text">方便鼓動＝顯己異眾【元】【明】</note><app n="0237008"><lem>方便鼓動</lem><rdg wit="【元】【明】" resp="Taisho">顯己異眾</rdg></app>。菩
+<lb n="0237b09"/>薩口終不言。彼有檀越與我此物為憐愍故
+<lb n="0237b10"/>受。我今持戒清淨。具足多聞少欲。信心檀越
+<lb n="0237b11"/>皆樂施給。不作此說者。是名不作抑<note n="0237009" resp="Taisho" type="orig" place="foot text">揚＋（顯己異眾）【元】【明】</note><app n="0237009"><lem>揚</lem><rdg wit="【元】【明】" resp="Taisho">揚顯己異眾</rdg></app>。云
+<lb n="0237b12"/>何名<note n="0237010" resp="Taisho" type="orig" place="foot text">（不）＋外【元】【明】</note><app n="0237010"><lem>外</lem><rdg wit="【元】【明】" resp="Taisho">不外</rdg></app><anchor id="fxT16p0237b01"/>弊五欲而心求利養。菩薩終不外
+<lb n="0237b13"/>現苦行。作五熱炙身拔髮自餓。如是等苦而
+<lb n="0237b14"/>要財利。於他利養不懷憎嫉亦無熱惱。是名
+<lb n="0237b15"/>不外<anchor id="fxT16p0237b02"/>弊五欲心求利養。云何名不取非法利
+<lb n="0237b16"/>養。不輕秤小<note n="0237011" resp="Taisho" type="orig" place="foot text">斗＝&CB00356;【元】【明】</note><app n="0237011"><lem>斗</lem><rdg wit="【元】【明】" resp="Taisho">&CB00356;</rdg></app>欺誑於他受<note n="0237012" resp="Taisho" type="orig" place="foot text">人＝入【明】</note><app n="0237012"><lem>人</lem><rdg wit="【明】" resp="Taisho">入</rdg></app>財物。終不
+<lb n="0237b17"/>侵欺。云何名不取不清淨財。若有人施佛法
+<lb n="0237b18"/>僧物及僧祇物。如是之物取為己用。乃至博
+<lb n="0237b19"/>貿販賣出息生利而自入己如是等物名非法
+<lb n="0237b20"/>財。菩薩摩訶薩遠離如是等物。是名清淨活
+<lb n="0237b21"/>命。菩薩若得利養。不生我所想。財利歸己。亦
+<lb n="0237b22"/>不生能得想。亦不作積聚守護想。常念施與
+<lb n="0237b23"/>沙門婆羅門父母師長眷屬貧窮乞&CB00456;。&M010527;作
+<lb n="0237b24"/>是想。若須食時當求支命。於諸美味心無染
+<lb n="0237b25"/>著。若不得時亦不憂惱亦不生熱。不得令彼
+<lb n="0237b26"/>信心檀越生於不信。若得如法利養皆與僧
+<lb n="0237b27"/>同。能如是者佛<note n="0237013" resp="Taisho" type="orig" place="foot text">亦＝所【元】【明】</note><app n="0237013"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">所</rdg></app>印可。諸菩薩眾所不譏
+<lb n="0237b28"/>呵。亦為諸天常隨讚歎。同梵行者心無譏嫌。
+<lb n="0237b29"/>於利養中常生知足得離邪命。善男子。具此
+<pb ed="T" id="T16.0658.0237c" n="0237c"/>
+<lb n="0237c01"/>十事。是名菩薩清淨活命</p>
+<lb n="0237c02"/><p>善男子。菩薩復有十法名不疲厭。何等為十。
+<lb n="0237c03"/>常為眾生久處生死心無疲厭。為眾生故能
+<lb n="0237c04"/>受生死。於無量苦亦無疲厭。為聲聞人教修
+<lb n="0237c05"/>禪法不生疲厭。心不輕賤修行覺<note n="0237014" resp="Taisho" type="orig" place="foot text">（意）＋法【元】【明】</note><app n="0237014"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">意法</rdg></app>不生疲
+<lb n="0237c06"/>厭。具菩提法不生疲厭。雖求涅槃而不證涅
+<lb n="0237c07"/>槃。漸深流注至菩提<note n="0237015" resp="Taisho" type="orig" place="foot text">〔法〕－【元】【明】</note><app n="0237015"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>岸。善男子。具此十
+<lb n="0237c08"/>事。是名菩薩心不疲厭</p>
+<lb n="0237c09"/><p>善男子。菩薩復有十法名隨順佛教。何等為
+<lb n="0237c10"/>十。不住放逸處除諸放逸。善攝其身亦不令
+<lb n="0237c11"/>身起諸過惡。善攝其口亦不<note n="0237016" resp="Taisho" type="orig" place="foot text">〔令〕－【元】【明】</note><app n="0237016"><lem>令</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>口起諸過
+<lb n="0237c12"/>惡。善攝其心亦不<note n="0237017" resp="Taisho" type="orig" place="foot text">使令＝令使【元】【明】</note><app n="0237017"><lem>使令</lem><rdg wit="【元】【明】" resp="Taisho">令使</rdg></app>心起諸過惡。畏後世
+<lb n="0237c13"/>苦而具一切善法。修行一切善法而斷一切
+<lb n="0237c14"/>不善法。說一切善法而毀<note n="0237018" resp="Taisho" type="orig" place="foot text">呰＝訾【元】【明】＊</note><app n="0237018"><lem>呰</lem><rdg wit="【元】【明】" resp="Taisho">訾</rdg></app>一切惡法。毀
+<lb n="0237c15"/><anchor id="fxT16p0237c01"/>呰一切惡業修行一切善業。於如來法不說
+<lb n="0237c16"/>其過。消滅一切諸垢煩惱。守護如來所制聖
+<lb n="0237c17"/>戒。善男子。具此十事。是名菩薩順如來教</p>
+<lb n="0237c18"/><p>善男子。菩薩復有十法。名和顏悅色離於顰
+<lb n="0237c19"/>蹙。何等為十。諸根澄<note n="0237019" resp="Taisho" type="orig" place="foot text">淨＝靜【元】【明】</note><app n="0237019"><lem>淨</lem><rdg wit="【元】【明】" resp="Taisho">靜</rdg></app>。諸根清淨。諸根不
+<lb n="0237c20"/>闕。諸根離垢。諸根白淨。除於惱害。除諸結
+<lb n="0237c21"/>使。得不起結使。除嫌<note n="0237020" resp="Taisho" type="orig" place="foot text">恨＝隙【元】【明】</note><app n="0237020"><lem>恨</lem><rdg wit="【元】【明】" resp="Taisho">隙</rdg></app>心。遠離瞋恚。除蓋
+<lb n="0237c22"/>障菩薩白佛言。世尊。如我解佛所說。諸根清
+<lb n="0237c23"/>淨故得和顏悅色。和顏悅色故離諸結使。離
+<lb n="0237c24"/>諸結使故得不顰蹙。佛言。善男子。如是如是。
+<lb n="0237c25"/>諸根清淨和顏悅色。除諸結使離於顰蹙。善
+<lb n="0237c26"/>男子。具此十事。是名菩薩和顏悅色離於顰
+<lb n="0237c27"/>蹙</p>
+<lb n="0237c28"/><p>善男子。菩薩復有十法名為多聞。何等為十。
+<lb n="0237c29"/>見生死熾然如實而知。見瞋恚熾然如實而
+<pb ed="T" id="T16.0658.0238a" n="0238a"/>
+<lb n="0238a01"/>知。見無明闇亂生死熾然如實而知。見一切
+<lb n="0238a02"/>有為法悉皆無常如實而知。見一切有為法
+<lb n="0238a03"/>悉皆是苦如實而知。見世間空如實而知。一
+<lb n="0238a04"/>切法無我如實而知。一切眾生著於調戲如
+<lb n="0238a05"/>實而知。解一切法從因緣生如實而知。寂滅
+<lb n="0238a06"/>涅槃如實而知。但從聞思慧不取口語。如是
+<lb n="0238a07"/>知已。為眾生故深發大悲。勤加修習具於精
+<lb n="0238a08"/>進善男子。具此十事。是名菩薩<note n="0238001" resp="Taisho" type="orig" place="foot text">（修行）＋多【元】【明】</note><app n="0238001"><lem>多</lem><rdg wit="【元】【明】" resp="Taisho">修行多</rdg></app>聞</p>
+<lb n="0238a09"/><p>善男子。菩薩復有十法名持正法。何等為十。
+<lb n="0238a10"/>法欲壞時有五濁惡起。德薄眾生多住邪道
+<lb n="0238a11"/>智燈欲滅。無有導師能說正法。諸大修多羅
+<lb n="0238a12"/>雖有深義無能說者。亦無讀誦受持之者。爾
+<lb n="0238a13"/>時菩薩見法壞時。能受持經藏。讚歎讀誦。為
+<lb n="0238a14"/>人開示分別解說。其中有人聞已生信心樂
+<lb n="0238a15"/>歡喜。不為財利但欲聽法。於說法者生世尊
+<lb n="0238a16"/>想於所聞法生甘露想。作不死想。如諸妙藥。
+<lb n="0238a17"/>不惜身命勤求正法。聞已修行。善男子。具此
+<lb n="0238a18"/>十事。是名菩薩善能持法</p>
+<lb n="0238a19"/><p>善男子。菩薩復有十法名法王子。何等為十。
+<lb n="0238a20"/>以相具嚴身。眾好如妙華。諸根滿足無有缺
+<lb n="0238a21"/>減。如來所親近法亦能親近。如來所行道亦
+<lb n="0238a22"/>能順行。如來所解法亦能順解。成熟苦惱眾
+<lb n="0238a23"/>生。善修學戒。長夜勤行四無量心。於如來所
+<lb n="0238a24"/>止之城<note n="0238002" resp="Taisho" type="orig" place="foot text">（佛）＋亦【元】【明】</note><app n="0238002"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">佛亦</rdg></app>能住中。善男子。具此十事。是名
+<lb n="0238a25"/>菩薩法王之子</p>
+<lb n="0238a26"/><p>善男子。菩薩復有十法名出過帝釋護世之
+<lb n="0238a27"/>法。何等為十。於菩提心無有退轉。一切眾魔
+<lb n="0238a28"/>不能動搖。於一切佛所種諸善根。能入一切
+<lb n="0238a29"/>甚深法藏。於一切法得平等智。於佛法中不
+<pb ed="T" id="T16.0658.0238b" n="0238b"/>
+<lb n="0238b01"/>從他信。得清淨智。不共聲聞辟支佛法。住無
+<lb n="0238b02"/>生忍。出過一切護世之法。善男子。具此十事。
+<lb n="0238b03"/>是名菩薩出過一切帝釋護世之法</p>
+<lb n="0238b04"/><p>善男子。菩薩復有十法。能知眾生根性內外
+<lb n="0238b05"/>結使。何等為十。若體性貪欲如實能知。體性
+<lb n="0238b06"/>瞋恚如實能知。體性愚癡如實能知。善知煩
+<lb n="0238b07"/>惱上中下差體性內外如實能知。善知<note n="0238003" resp="Taisho" type="orig" place="foot text">〔善〕－【元】【明】</note><app n="0238003"><lem>善</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>體
+<lb n="0238b08"/>性如實能知。善知堅體性如實能知。善知長
+<lb n="0238b09"/>體性如實能知。善知慘惡體性如實能知。善
+<lb n="0238b10"/>知<note n="0238004" resp="Taisho" type="orig" place="foot text">一＋（切）【元】【明】</note><app n="0238004"><lem>一</lem><rdg wit="【元】【明】" resp="Taisho">一切</rdg></app>眾生。亦知一切世界眾生體性。善男
+<lb n="0238b11"/>子。具此十事。是名菩薩<note n="0238005" resp="Taisho" type="orig" place="foot text">善知＝能知眾生【元】【明】</note><app n="0238005"><lem>善知</lem><rdg wit="【元】【明】" resp="Taisho">能知眾生</rdg></app>根性<note n="0238006" resp="Taisho" type="orig" place="foot text">結使內外＝內外結使【元】【明】</note><app n="0238006"><lem>結使內
+<lb n="0238b12"/>外</lem><rdg wit="【元】【明】" resp="Taisho">內外結使</rdg></app></p>
+<lb n="0238b13"/><p>善男子。菩薩復有十法名<note n="0238007" resp="Taisho" type="orig" place="foot text">〔能〕－【元】【明】</note><app n="0238007"><lem>能</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>成熟眾生。何等
+<lb n="0238b14"/>為十。應見佛身得度者即現佛身。應見菩薩
+<lb n="0238b15"/>身得度者即現菩薩身。應見緣覺身得度者
+<lb n="0238b16"/>即現緣覺身。應見聲聞身得度者即現聲聞
+<lb n="0238b17"/>身。應見帝釋身得度者即現帝釋身。應見魔
+<lb n="0238b18"/>身得度者即現魔身。應見梵王身得度者即
+<lb n="0238b19"/>現梵王身。應見婆羅門身得度者即現婆羅
+<lb n="0238b20"/>門身。應見剎利身得度者即現剎利身。應見
+<lb n="0238b21"/>長者身得度者即現長者身。如是等身隨其
+<lb n="0238b22"/>所應悉為現之。善男子。具此十事。是名菩薩
+<lb n="0238b23"/>成熟眾生</p>
+<lb n="0238b24"/><p>善男子。菩薩復有十法名善調順。何等為十。
+<lb n="0238b25"/>質直柔軟。無諂曲心。無惱害心。無垢污心。
+<lb n="0238b26"/><note n="0238008" resp="Taisho" type="orig" place="foot text">〔常〕－【元】【明】</note><app n="0238008"><lem>常</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>清淨心。無&CB00308;獷心。除瞋恚心。除&CB00308;惡語。
+<lb n="0238b27"/>多諸忍辱。能止諍論。善男子。具此十事。是名
+<lb n="0238b28"/>菩薩能善調順</p>
+<lb n="0238b29"/><p>善男子。菩薩復有十法名安樂共住。何等為
+<pb ed="T" id="T16.0658.0238c" n="0238c"/>
+<lb n="0238c01"/>十。正見清淨。具足修行。具足清淨戒。具足諸
+<lb n="0238c02"/>所行處。應出家法。起煩惱處不於中住。其心
+<lb n="0238c03"/>調柔於同梵行者。如牛念犢修行平等。常樂
+<lb n="0238c04"/>菩提第一正道。唯佛為尊不求餘神。善男子。
+<lb n="0238c05"/>具此十事。是名菩薩安樂共住</p>
+<lb n="0238c06"/><p>善男子。菩薩復有十法名為攝法。何等為十。
+<lb n="0238c07"/>以施攝眾生。以樂攝眾生。無盡施攝眾生。利
+<lb n="0238c08"/>益攝眾生。義益攝眾生。說法攝眾生。化導攝
+<lb n="0238c09"/>眾生。除衰與利攝眾生。同飲食攝眾生。資命
+<lb n="0238c10"/>所須<note n="0238009" resp="Taisho" type="orig" place="foot text">悉與共之攝眾生＝與眾生共【元】【明】</note><app n="0238009"><lem>悉與共之攝眾生</lem><rdg wit="【元】【明】" resp="Taisho">與眾生共</rdg></app>。云何施攝眾生。常以
+<lb n="0238c11"/>法施永濟其苦。是名為施。云何施樂。施食令
+<lb n="0238c12"/>安無飢渴想。是名施樂。云何無盡施。教修禪
+<lb n="0238c13"/>定遠離散亂。是名無盡施。云何利益施。教授
+<lb n="0238c14"/>善法增長信心。是名利益施。云何義益施。教
+<lb n="0238c15"/>如實法深了空相。是名義益施。云何說法施。
+<lb n="0238c16"/>依修多羅隨所應聞終不邪說。是名說法施。
+<lb n="0238c17"/>云何化導施。說如實法無錯謬相。是名化導
+<lb n="0238c18"/>施。云何名為除衰與利施。勤滅惡法安置善
+<lb n="0238c19"/>法。是名除衰與利施。云何同飲食施。所有飲
+<lb n="0238c20"/>食悉與眾共。是名同飲食施。云何名資命所
+<lb n="0238c21"/>須施。象馬七珍乃至供身眾具雜物盡與眾
+<lb n="0238c22"/>共。是名資命所須<note n="0238010" resp="Taisho" type="orig" place="foot text">〔物〕－【元】【明】</note><app n="0238010"><lem>物</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>施。善男子。具此十事
+<lb n="0238c23"/><note n="0238011" resp="Taisho" type="orig" place="foot text">〔法〕－【元】【明】</note><app n="0238011"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。是名菩薩<note n="0238012" resp="Taisho" type="orig" place="foot text">修行攝法＝行攝法施【元】【明】</note><app n="0238012"><lem>修行攝法</lem><rdg wit="【元】【明】" resp="Taisho">行攝法施</rdg></app>。善男子。菩薩復有
+<lb n="0238c24"/>十法名為端正。何等為十。寂滅威儀。不詐
+<lb n="0238c25"/><note n="0238013" resp="Taisho" type="orig" place="foot text">詭＝為【元】【明】</note><app n="0238013"><lem>詭</lem><rdg wit="【元】【明】" resp="Taisho">為</rdg></app>威儀。清淨威儀。人見愛敬威儀。如月威
+<lb n="0238c26"/>儀。視不厭足威儀。意所悅樂威儀。一切樂見
+<lb n="0238c27"/>威儀。能使一切歡悅威儀。能使一切信樂威
+<lb n="0238c28"/>儀。善男子。具此十事。是名菩薩端<note n="0238014" resp="Taisho" type="orig" place="foot text">正＋（威儀）【元】【明】</note><app n="0238014"><lem>正</lem><rdg wit="【元】【明】" resp="Taisho">正威儀</rdg></app></p>
+<lb n="0238c29"/><p>善男子。菩薩復有十法名可依憑。何等為十。
+<pb ed="T" id="T16.0658.0239a" n="0239a"/>
+<lb n="0239a01"/>能擁護眾生使離煩惱。能令眾生出於生死
+<lb n="0239a02"/>曠野嶮難。能使眾生出生死魔<note n="0239001" resp="Taisho" type="orig" place="foot text">竭＝端【元】【明】</note><app n="0239001"><lem>竭</lem><rdg wit="【元】【明】" resp="Taisho">端</rdg></app>。能為無救
+<lb n="0239a03"/>眾生作親友處。能為煩惱病眾生而作良醫。
+<lb n="0239a04"/>無救護者能為救護。無舍宅者為作舍宅。無
+<lb n="0239a05"/>歸依者為作歸依。無洲渚者為作洲渚。未到
+<lb n="0239a06"/>者能令作到。善男子。具此十事。是名菩薩常
+<lb n="0239a07"/>可依憑</p>
+<lb n="0239a08"/><p>善男子。菩薩復有十法名大藥樹。何等為十。
+<lb n="0239a09"/>譬如藥樹名曰善見。若有眾生得樹根者而
+<lb n="0239a10"/>病除愈。有得莖者而病除愈。有得枝者而病
+<lb n="0239a11"/>除愈。有得葉者而病除愈。有得華者而病除
+<lb n="0239a12"/>愈。有得果者而病除愈。有見色者而病除愈。
+<lb n="0239a13"/>有聞香者而病除愈。有得味者而病除愈。有
+<lb n="0239a14"/>得觸者而病除愈。善男子。菩薩摩訶薩亦復
+<lb n="0239a15"/>如是。從初發心。為無量眾生有若干種諸煩
+<lb n="0239a16"/>惱病。有依捨得活。有依戒得活。有依忍得活。
+<lb n="0239a17"/>有依精進得活。有依禪定得活。有依智慧得
+<lb n="0239a18"/>活。有見法得活。有<note n="0239002" resp="Taisho" type="orig" place="foot text">聞聲＝聲聞【元】【明】</note><app n="0239002"><lem>聞聲</lem><rdg wit="【元】【明】" resp="Taisho">聲聞</rdg></app>得活。有知味得活。
+<lb n="0239a19"/>有同事得活。善男子。具此十事。是名菩薩
+<lb n="0239a20"/><note n="0239003" resp="Taisho" type="orig" place="foot text">如＝為【元】【明】</note><app n="0239003"><lem>如</lem><rdg wit="【元】【明】" resp="Taisho">為</rdg></app>大藥樹</p>
+<lb n="0239a21"/><p>善男子。菩薩復有十法名勤修福業。何等為
+<lb n="0239a22"/>十。常於三寶隨力供養。於病者所施給醫藥。
+<lb n="0239a23"/>於飢渴者隨施飲食。見裸寒者施其衣服。於
+<lb n="0239a24"/>和<note n="0239004" resp="Taisho" type="orig" place="foot text">上＝尚【元】【明】</note><app n="0239004"><lem>上</lem><rdg wit="【元】【明】" resp="Taisho">尚</rdg></app>阿闍<note n="0239005" resp="Taisho" type="orig" place="foot text">梨＝黎【明】</note><app n="0239005"><lem>梨</lem><rdg wit="【明】" resp="Taisho">黎</rdg></app>常恭敬供養信受言教。於同
+<lb n="0239a25"/>梵行者起迎恭敬禮拜問訊。造作園林池井
+<lb n="0239a26"/>乃至穀帛施<note n="0239006" resp="Taisho" type="orig" place="foot text">與＝於【元】【明】</note><app n="0239006"><lem>與</lem><rdg wit="【元】【明】" resp="Taisho">於</rdg></app>一切。及家奴婢僕使內外眷
+<lb n="0239a27"/>屬亦等施之。與持戒沙門婆羅門。常念親近
+<lb n="0239a28"/>往<note n="0239007" resp="Taisho" type="orig" place="foot text">反＝返【元】【明】</note><app n="0239007"><lem>反</lem><rdg wit="【元】【明】" resp="Taisho">返</rdg></app>恭<note n="0239008" resp="Taisho" type="orig" place="foot text">事＝敬【元】【明】</note><app n="0239008"><lem>事</lem><rdg wit="【元】【明】" resp="Taisho">敬</rdg></app>。善男子。具此十事。是名菩薩勤
+<lb n="0239a29"/>修福業</p>
+<pb ed="T" id="T16.0658.0239b" n="0239b"/>
+<lb n="0239b01"/><p>善男子。菩薩復有十法名為善能作化。何等
+<lb n="0239b02"/>為十。<note n="0239009" resp="Taisho" type="orig" place="foot text">〔於〕－【元】【明】</note><app n="0239009"><lem>於</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>一佛國身相不動而能遍諸佛剎問
+<lb n="0239b03"/>答諮請。於一佛國不動亦能悉遍一切佛國
+<lb n="0239b04"/>聽受妙法。於一佛國不動能遍供養十方諸
+<lb n="0239b05"/>佛。於一佛國不動而能遍諸佛國莊嚴菩提
+<lb n="0239b06"/>悉皆滿足。於一佛國不動而於一切佛國初
+<lb n="0239b07"/>成佛時坐於道場菩提樹下恭敬供養尊重讚
+<lb n="0239b08"/>歎。於一佛國不動能以自身現一切佛土坐
+<lb n="0239b09"/>於道場現成佛道。於一佛土不動能現一切
+<lb n="0239b10"/>佛土轉於法輪。於一佛土不動能現一切佛
+<lb n="0239b11"/>土入於涅槃。於一佛土不動能現一切十方
+<lb n="0239b12"/>佛土應受化者悉現其身。菩薩得無作神力。
+<lb n="0239b13"/>於一切十方佛土。不作變化想亦不作變化。
+<lb n="0239b14"/>隨諸眾生所應見者悉皆現之。爾時除蓋障
+<lb n="0239b15"/>菩薩白佛言。世尊。云何菩薩能作如是變化。
+<lb n="0239b16"/>復言。亦不作變化想。亦<note n="0239010" resp="Taisho" type="orig" place="foot text">作不＝不作【元】【明】</note><app n="0239010"><lem>作不</lem><rdg wit="【元】【明】" resp="Taisho">不作</rdg></app>變化。善男子。
+<lb n="0239b17"/>汝今諦聽我當說喻。譬如日月光照四天下
+<lb n="0239b18"/>利益世間。能於眾生常作利安。而日月亦不
+<lb n="0239b19"/>作想。我能照諸眾生有大利益。然諸眾生悉
+<lb n="0239b20"/>蒙光照。菩薩亦爾。以本善業誓願因緣。得無
+<lb n="0239b21"/>作法自然成就故。能不作變化想。亦不作變
+<lb n="0239b22"/>化。然於一切有利益處悉<note n="0239011" resp="Taisho" type="orig" place="foot text">現＝見【元】【明】</note><app n="0239011"><lem>現</lem><rdg wit="【元】【明】" resp="Taisho">見</rdg></app>變化。善男子。
+<lb n="0239b23"/>具此十事。是名菩薩變化</p>
+<lb n="0239b24"/><p>善男子。菩薩復有十法名速疾成阿耨多羅三
+<lb n="0239b25"/>藐三菩提。何等為十。修行布施令使布施滿
+<lb n="0239b26"/>足。修行持戒不闕戒。不譏嫌戒。出過聲聞辟
+<lb n="0239b27"/>支佛戒。清淨戒身滿足。忍辱滿足。精進滿足。
+<lb n="0239b28"/>禪定滿足。智慧滿足。方便滿足。願滿足。力滿
+<lb n="0239b29"/>足。智滿足。過一切聲聞辟支佛。從初地乃至
+<pb ed="T" id="T16.0658.0239c" n="0239c"/>
+<lb n="0239c01"/>九地菩薩所不能及。善男子。具此十事。是名
+<lb n="0239c02"/>菩薩速疾得阿耨多羅三藐三菩提。說是經
+<lb n="0239c03"/>時。三千大千世界六種震動。此三千大千世
+<lb n="0239c04"/>界中<note n="0239012" resp="Taisho" type="orig" place="foot text">〔間〕－【元】【明】</note><app n="0239012"><lem>間</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>諸須彌山王。目真&CB00444;陀山摩訶目真
+<lb n="0239c05"/>&CB00444;陀山。鐵圍山大鐵圍山。寶山黑山。如是諸
+<lb n="0239c06"/>山悉皆曲躬向伽耶山。何以故。如來自在神
+<lb n="0239c07"/>通力故。三千大千世界中一切華樹一切果
+<lb n="0239c08"/>樹一切香樹。皆來曲躬向伽耶山。何以故。如
+<lb n="0239c09"/>來自在神通力故。無量億那由他百千億諸
+<lb n="0239c10"/>菩薩。悉脫身上妙衣及諸瓔珞供養如來。神
+<lb n="0239c11"/>通力故積過須彌若干種衣服瓔珞。無量百
+<lb n="0239c12"/>千億帝釋護世梵天王等合<note n="0239013" resp="Taisho" type="orig" place="foot text">掌＝拿【明】</note><app n="0239013"><lem>掌</lem><rdg wit="【明】" resp="Taisho">拿</rdg></app>頂禮。曼陀羅
+<lb n="0239c13"/><note n="0239014" resp="Taisho" type="orig" place="foot text">〔華〕－【元】【明】</note><app n="0239014"><lem>華</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>摩訶曼陀羅華散諸佛上。曼殊沙華<note n="0239015" resp="Taisho" type="orig" place="foot text">〔摩訶曼殊沙華〕－【元】【明】</note><app n="0239015"><lem>摩
+<lb n="0239c14"/>訶曼殊沙華</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。盧之華摩訶盧之華。以散佛上。
+<lb n="0239c15"/>百千萬億諸天在虛空中。皆散天衣作眾伎
+<lb n="0239c16"/>樂。歡喜踊躍出大音聲。各以天華供養於佛。
+<lb n="0239c17"/>而作是言。佛更出世再轉法輪。眾生有福宿
+<lb n="0239c18"/><note n="0239016" resp="Taisho" type="orig" place="foot text">殖＝植【元】【明】</note><app n="0239016"><lem>殖</lem><rdg wit="【元】【明】" resp="Taisho">植</rdg></app>德本。於過去佛所久種善根得聞此經。聞
+<lb n="0239c19"/>之尚難。況復信解書寫受持。爾時無量百千
+<lb n="0239c20"/>摩&CB00264;伽。於此演法出大雷音遍三千大
+<lb n="0239c21"/>千世界。以種種香汁雨伽耶山。無量百千龍
+<lb n="0239c22"/>王。在於佛前作眾伎樂。無量百千乾闥婆緊
+<lb n="0239c23"/>那羅。以柔軟音讚歎供養遶伽耶山。無量百
+<lb n="0239c24"/>千夜叉。雨諸蓮華放清涼風。無量百千他方
+<lb n="0239c25"/>諸佛。皆出白毫相光。供養如來及<note n="0239017" resp="Taisho" type="orig" place="foot text">所＋（應）【元】【明】</note><app n="0239017"><lem>所</lem><rdg wit="【元】【明】" resp="Taisho">所應</rdg></app>說法。
+<lb n="0239c26"/>出白毫相光。作種種色。青黃赤白紫<note n="0239018" resp="Taisho" type="orig" place="foot text">頗梨＝玻&CB00226;【明】</note><app n="0239018"><lem>頗梨</lem><rdg wit="【明】" resp="Taisho">玻&CB00226;</rdg></app>
+<lb n="0239c27"/>色。遶於三千大千世界除一切闇。遶伽耶山
+<lb n="0239c28"/>從佛頂沒。無量百千婆羅門剎利聚落城邑。
+<lb n="0239c29"/>香華瓔珞末香衣服繒蓋幢幡以供養佛。說
+<pb ed="T" id="T16.0658.0240a" n="0240a"/>
+<lb n="0240a01"/>是經時。如是等無量供養。七十二那由他菩
+<lb n="0240a02"/>薩得無生法忍。無量百千眾生離諸塵垢得
+<lb n="0240a03"/>法眼淨。無量百千億眾生發阿耨多羅三藐
+<lb n="0240a04"/>三菩提心。伽耶山神名為無死。與其眷屬皆
+<lb n="0240a05"/>從坐而起自入宮室。取供養具而供養佛。供
+<lb n="0240a06"/>養佛已白佛言。世尊。我憶往昔<note n="0240001" resp="Taisho" type="orig" place="foot text">〔共〕－【元】【明】</note><app n="0240001"><lem>共</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>七萬二千
+<lb n="0240a07"/>佛。皆在此一伽耶山說是經典。文字章句如
+<lb n="0240a08"/>今不異。佛言。快得善利。汝等得聞如是寶雲
+<lb n="0240a09"/>經。有一天子作如是念。是伽耶山神。久聞此
+<lb n="0240a10"/><note n="0240002" resp="Taisho" type="orig" place="foot text">（經）＋法【元】【明】</note><app n="0240002"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">經法</rdg></app>。供養七萬二千佛。云何不轉女身。除蓋
+<lb n="0240a11"/>障菩薩摩訶薩。知彼天子心之所念。白佛言。
+<lb n="0240a12"/>世尊。以何因緣。無死天神有大神德。聞是法
+<lb n="0240a13"/>寶供養爾所諸佛。云何不轉女身。佛答言。善
+<lb n="0240a14"/>男子。為利益眾生故。以何因緣。為不可思議
+<lb n="0240a15"/>解脫。善男子。我憶過去於算數佛所。見是無
+<lb n="0240a16"/>死天神。發阿耨多羅三藐三菩提心。無死天
+<lb n="0240a17"/>神有大威德神通。供養賢劫千佛。於此國土
+<lb n="0240a18"/>當得成佛。號曰無死阿羅訶三藐三佛陀。佛
+<lb n="0240a19"/>告無死。今可現汝所成佛國土。爾時無死天
+<lb n="0240a20"/>神。即入現一切色三昧。<note n="0240003" resp="Taisho" type="orig" place="foot text">（入）＋現【元】【明】</note><app n="0240003"><lem>現</lem><rdg wit="【元】【明】" resp="Taisho">入現</rdg></app>一切色三昧已。
+<lb n="0240a21"/>此三千大千世界地平如掌皆紺琉璃。一切
+<lb n="0240a22"/>穢惡諸黑山等悉皆滅沒。處處皆見劫&CB00425;之
+<lb n="0240a23"/>樹眾寶樹眾香樹。處處皆見流泉浴池。八功
+<lb n="0240a24"/>德水充滿其中。一切惡趣下賤之人悉皆不
+<lb n="0240a25"/>現。國中無有女人之名。處處皆有蓮華大如
+<lb n="0240a26"/>車輪。菩薩而在其上結<note n="0240004" resp="Taisho" type="orig" place="foot text">加＝跏【元】【明】</note><app n="0240004"><lem>加</lem><rdg wit="【元】【明】" resp="Taisho">跏</rdg></app>趺坐。彼無死佛。
+<lb n="0240a27"/>在蓮華上坐。為諸菩薩演說法要。無量百千
+<lb n="0240a28"/>億釋梵四天王等圍遶。又有無量百千萬億
+<lb n="0240a29"/>眾生悉來供養。佛為說法次第諦聽。無死天
+<pb ed="T" id="T16.0658.0240b" n="0240b"/>
+<lb n="0240b01"/>神。從現一切色三昧起。頂禮佛足。右遶佛已
+<lb n="0240b02"/>即<note n="0240005" resp="Taisho" type="orig" place="foot text">隱＝&CB02147;【明】</note><app n="0240005"><lem>隱</lem><rdg wit="【明】" resp="Taisho">&CB02147;</rdg></app>不現。除蓋障菩薩摩訶薩白佛言。世
+<lb n="0240b03"/>尊。善男子。善女人。作幾許福得聞是經。佛言
+<lb n="0240b04"/>若人至心善聽此經。憶念受持讀誦書寫廣
+<lb n="0240b05"/>為人說。佛言。復有善男子善女人。於此三千
+<lb n="0240b06"/>大千世界百千億劫修行布施。不如善男子
+<lb n="0240b07"/>善女人信心清淨書寫供養。以清淨心故得
+<lb n="0240b08"/>福甚多。何以故。財施微少法施廣大。生死眾
+<lb n="0240b09"/>生於生死中作無量財施。未曾得聞出世法
+<lb n="0240b10"/>施。若善男子善女人。使三千大千世界眾生
+<lb n="0240b11"/>皆立十善。復有善男子善女人。聞此正法次
+<lb n="0240b12"/>第受持讀誦廣分別說。其福亦過於上。何以
+<lb n="0240b13"/>故。十善果報生此世界故。若善男子善女人。
+<lb n="0240b14"/>能令三千大千世界眾生。悉得須陀洹果斯
+<lb n="0240b15"/>陀含果阿那含果阿羅漢果得辟支佛果。設
+<lb n="0240b16"/>得如是功德。猶故不如聞上一句之義。次第
+<lb n="0240b17"/>受持讀誦書寫為人廣說。何以故。聲聞辟支
+<lb n="0240b18"/>佛功德皆從此經出故。因於此經能出一切
+<lb n="0240b19"/>菩薩。及諸佛出現於世。若讀誦此經次第句
+<lb n="0240b20"/>義分別解說。即是受持一切佛法。何以故。此
+<lb n="0240b21"/>經即是一切經母。若不得此經。諸大勝法皆
+<lb n="0240b22"/>悉不得。此經即是菩薩具戒。一切諸聲聞弟
+<lb n="0240b23"/>子皆從坐而起偏袒右肩。合掌白佛言。世尊。
+<lb n="0240b24"/>我等於大生死聞是經故皆得出離。佛言。比
+<lb n="0240b25"/>丘。如是如是。爾時世尊普告大眾。善男子善
+<lb n="0240b26"/>女人。若國土方域。有是經典文字章句次第。
+<lb n="0240b27"/>當知此處即是道場處。即是轉法輪處。即是
+<lb n="0240b28"/>諸佛大塔像處。有此經處即是世尊。何以故。
+<lb n="0240b29"/>善男子。法即是菩提。法即是轉法輪。善男子。
+<pb ed="T" id="T16.0658.0240c" n="0240c"/>
+<lb n="0240c01"/>此法即是佛。供養於法即是供養<note n="0240006" resp="Taisho" type="orig" place="foot text">（於）＋佛【元】【明】</note><app n="0240006"><lem>佛</lem><rdg wit="【元】【明】" resp="Taisho">於佛</rdg></app>。若有說
+<lb n="0240c02"/>法法師處。此處即是佛塔。於此法師當生<note n="0240007" resp="Taisho" type="orig" place="foot text">殷重＝慇懃【元】【明】</note><app n="0240007"><lem>殷
+<lb n="0240c03"/>重</lem><rdg wit="【元】【明】" resp="Taisho">慇懃</rdg></app>想。善知識想。作示正道想。見是法師應生
+<lb n="0240c04"/>愛樂信敬歡喜。應起遠迎請令就坐。應當讚
+<lb n="0240c05"/>歎善哉善哉快說法要。若一劫若減一劫。若
+<lb n="0240c06"/>過一劫讚歎。如是<note n="0240008" resp="Taisho" type="orig" place="foot text">〔讚歎〕－【元】【明】</note><app n="0240008"><lem>讚歎</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>猶不能盡。何以故。
+<lb n="0240c07"/>若人好樂法者。種種讚歎尊重恭敬。猶不能
+<lb n="0240c08"/>盡所行之處。假使有人能以血灑地。猶故不
+<lb n="0240c09"/>名盡心供養。何以故。如此法師則為受持如
+<lb n="0240c10"/>來一切佛種。如此法師應如師子無異。不應
+<lb n="0240c11"/>作下劣想。不作毀害心。著淨潔衣深生信敬。
+<lb n="0240c12"/>得他讚歎而心不高。亦不起我慢亦不輕他
+<lb n="0240c13"/>不為財利專心說法。爾時釋提桓因白佛言。
+<lb n="0240c14"/>世尊。若有世界能說是經文字章句次第之
+<lb n="0240c15"/>處。我當躬自將諸眷屬。往彼供養擁護法師。
+<lb n="0240c16"/>佛言。善哉善哉。憍尸迦。是汝應作。爾時除蓋
+<lb n="0240c17"/>障菩薩摩訶薩白佛言。世尊。此次第所說。當
+<lb n="0240c18"/>云何名斯經。善男子。此經文字章句次第。當
+<lb n="0240c19"/>名寶雲。亦名寶藏。亦名智燈。亦名除蓋障
+<lb n="0240c20"/>菩薩之所受持。爾時除蓋障菩薩及諸菩薩。
+<lb n="0240c21"/><note n="0240009" resp="Taisho" type="orig" place="foot text">〔聞已〕－【元】【明】</note><app n="0240009"><lem>聞已</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>。諸大聲聞帝釋大梵護世天王摩醯首
+<lb n="0240c22"/>羅并諸天子而為上首。乃至天龍夜叉乾闥
+<lb n="0240c23"/>婆阿修羅迦樓<note n="0240010" resp="Taisho" type="orig" place="foot text">羅＋（聚那羅）【元】【明】</note><app n="0240010"><lem>羅</lem><rdg wit="【元】【明】" resp="Taisho">羅聚那羅</rdg></app>摩&CB00264;羅伽無量百千億眾。
+<lb n="0240c24"/>皆稱善哉善哉。歡喜奉行</p>
+<lb n="0240c25"/><juan fun="close" n="007"><jhead><title><note n="0240011" resp="Taisho" type="orig" place="foot text">（佛說）＋寶【明】</note><app n="0240011"><lem>寶</lem><rdg wit="【明】" resp="Taisho">佛說寶</rdg></app>雲經</title>卷第七</jhead></juan></div1>
+</body></text></TEI.2>

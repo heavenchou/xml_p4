@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T18n0890.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0890 佛說瑜伽大教王經</title>
+			<author>宋 法賢譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>5卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:07 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 18, No. 890 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="san-sd">Sanskrit-Siddam</language>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000105/17:54:12</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/05)</item>
+	</change>
+<!--
+$Log: T18n0890.xml,v $
+Revision 1.1  2003/05/05 04:09:07  ray
+Initial revision
+
+Revision 1.29  2002/12/04 01:47:42  saywhat
+校勘插入處理
+
+Revision 1.28  2002/11/04 10:44:25  ray
+tei.2 => TEI.2
+
+Revision 1.27  2002/10/21 08:11:40  ray
+移動 <anchor>+<note>, <anchor>+雙圈
+
+Revision 1.26  2002/10/07 13:09:55  moved
+modified
+
+Revision 1.25  2002/07/29 09:44:57  vinking
+modified lang
+
+Revision 1.24  2002/07/15 08:00:07  saywhat
+修訂p0563[10] 校勘數字位置
+
+Revision 1.23  2002/04/08 08:58:24  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.22  2001/11/05 06:12:54  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.21  2001/08/03 03:14:22  saywhat
+<tt type="inline"> → <tt rend="inline">
+
+Revision 1.20  2001/07/26 09:42:07  vinking
+modified for rtf
+
+Revision 1.19  2001/07/24 06:52:27  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.18  2001/06/22 10:38:58  vinking
+CD7  修訂
+
+Revision 1.17  2001/06/22 08:16:26  vinking
+CD7  修訂
+
+Revision 1.16  2001/06/19 13:55:37  saywhat
+modified normal
+
+Revision 1.15  2001/05/25 08:58:12  ray
+經號統一為四碼
+
+Revision 1.14  2001/05/25 07:06:24  ray
+行行悉漢對照, 兩個 <lb> 都要標
+
+Revision 1.13  2001/03/30 05:48:08  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.12  2001/03/25 09:09:20  ray
+add <milestone>
+
+Revision 1.11  2001/02/07 06:53:40  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.10  2001/02/03 07:43:25  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:07 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0559b18"/>
+<milestone unit="juan" n="1"/>
+<lb n="0559b19"/>
+<lb n="0559b20"/>
+<lb n="0559b21"/><head type="no">No. 890</head><div1 type="pin">
+<lb n="0559b22"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0559002" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說瑜伽大教王經卷第一</jhead></juan>
+<lb n="0559b23"/>
+<lb n="0559b24"/><byline type="Translator"><note n="0559003" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><app n="0559003"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0559004" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><app n="0559004"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫試光祿卿
+<lb n="0559b25"/>明教大師<note n="0559005" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><app n="0559005"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline>
+<lb n="0559b26"/><mulu type="品" level="1" n="1" label="1 序品"/><head>序品第一</head>
+<lb n="0559b27"/><p>如是我聞。一時世尊大遍照金剛如來。在淨
+<lb n="0559b28"/>光天大樓閣中。彼之樓閣眾寶<note n="0559006" resp="Taisho" type="orig" place="foot text">裝嚴＝莊嚴【三】【宮】下同</note><note n="0559006" resp="CBETA" type="mod">裝嚴＝莊嚴【宋】【元】【明】【宮】下同</note><app n="0559006"><lem>裝嚴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">莊嚴</rdg></app>清淨嚴
+<lb n="0559b29"/>飾。金剛寶柱金剛鈴鐸。微風吹動出微妙音。
+<pb ed="T" id="T18.0890.0559c" n="0559c"/>
+<lb n="0559c01"/>復有種種殊妙供養。以金剛輪寶等而為裝
+<lb n="0559c02"/>嚴。此是遍照如來種種變化所成。乃至如來
+<lb n="0559c03"/>大智所生諸佛。所謂阿&CB00434;佛。大寶生佛。無量
+<lb n="0559c04"/>壽佛。不空成就佛等</p>
+<lb n="0559c05"/><p>復次於四面門。出生諸菩薩眾。及諸賢聖忿
+<lb n="0559c06"/>怒明王。及唧吒唧致。訥多訥帝。緊羯囉緊羯
+<lb n="0559c07"/>哩等無數眷屬。彼佛安住三摩地。常不捨大
+<lb n="0559c08"/>智大慈大悲。發大精進救度眾生。於彼會中
+<lb n="0559c09"/>復有無數天龍夜叉乾闥婆阿修羅迦樓羅緊
+<lb n="0559c10"/>那羅摩<note n="0559007" resp="Taisho" type="orig" place="foot text">&CB00264;＝候【明】</note><app n="0559007"><lem>&CB00264;</lem><rdg wit="【明】" resp="Taisho">候</rdg></app>羅伽人非人等無數眷屬。圍遶世
+<lb n="0559c11"/>尊大遍照金剛如來</p>
+<lb n="0559c12"/><p>爾時世尊於會眾中。顧視金剛手大菩薩已。
+<lb n="0559c13"/>放大光明普照眾會。其光復還入於佛身</p>
+<lb n="0559c14"/><p>爾時金剛手菩薩摩訶薩。從座而起偏袒右
+<lb n="0559c15"/>肩。踊躍歡喜瞻仰尊顏。擲金剛杵右膝著地。
+<lb n="0559c16"/>合掌恭敬作禮世尊而白佛言。何因何緣放
+<lb n="0559c17"/>大光明。諸佛如來若無因緣非放光明。今見
+<lb n="0559c18"/>此光我等眾會悉皆驚怪。唯願世尊作師子
+<lb n="0559c19"/>吼。為我等故而與宣說</p>
+<lb n="0559c20"/><p>爾時世尊受金剛手菩薩請已。入大三摩地。
+<lb n="0559c21"/>其名大智變化瑜伽大教王。於一切教中<note n="0559008" resp="Taisho" type="orig" place="foot text">〔最上〕－【宮】</note><app n="0559008"><lem>最
+<lb n="0559c22"/>上</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>最尊。所作之法不難成就。此金剛智大樂
+<lb n="0559c23"/>方便一切真實藏。善作最勝智慧方便。大樂
+<lb n="0559c24"/>金剛大變化金剛三摩地</p>
+<lb n="0559c25"/><p>爾時世尊從三摩地出已。說瑜伽大教王經
+<lb n="0559c26"/>三昧曼拏羅及種種法。所謂&CB01251;像法觀想法。
+<lb n="0559c27"/>持誦法作忿怒儀顧視法。三摩地法鉤召法
+<lb n="0559c28"/>禁伏法打諸惡魔法。期剋法病患法。熱惱法
+<lb n="0559c29"/>成事法。究竟法灌頂法。阿<note n="0559009" resp="Taisho" type="orig" place="foot text">闍梨＝闍&CB00932;【明】下同</note><app n="0559009"><lem>闍梨</lem><rdg wit="【明】" resp="Taisho">闍&CB00932;</rdg></app>儀相法攝受
+<pb ed="T" id="T18.0890.0560a" n="0560a"/>
+<lb n="0560a01"/>弟子法。如是種種祕密教法我今解說。汝等
+<lb n="0560a02"/>一切<note n="0560001" resp="Taisho" type="orig" place="foot text">志＝至【元】【明】＊</note><app n="0560001"><lem>志</lem><rdg wit="【元】【明】" resp="Taisho">至</rdg></app>心諦聽</p>
+<lb n="0560a03"/><p>爾時彼一切如來及諸菩薩。乃至眾會受教
+<lb n="0560a04"/>而聽。爾時世尊而說偈曰</p>
+<lb n="0560a05"/><lg><l>先須親近阿闍梨</l><l>所作諸法皆能成</l>
+<lb n="0560a06"/><l>若不親近阿闍梨</l><l>所作諸法不可就</l>
+<lb n="0560a07"/><l>我今說彼闍梨德</l><l>汝諸菩薩及眾會</l>
+<lb n="0560a08"/><l>應當<anchor id="fxT18p0560a01"/>志心而聽受</l><l>尊重律儀大智慧</l>
+<lb n="0560a09"/><l>忍辱淳直無懈怠</l><l>善解密句及相應</l>
+<lb n="0560a10"/><l>粉壇儀式法則等</l><l>能了真實十種義</l>
+<lb n="0560a11"/><l>施諸眾生常無畏</l><l>&M010527;樂大乘祕密法</l>
+<lb n="0560a12"/><l>悉能了知諸外教</l><l>持戒修行具律儀</l>
+<lb n="0560a13"/><l>通達甚深大乘法</l><l>能攝祕密真實義</l>
+<lb n="0560a14"/><l>若能具足前儀法</l><l>是故名為阿闍梨</l>
+<lb n="0560a15"/><l>若無慈悲行利益</l><l>亦無正信心懈怠</l>
+<lb n="0560a16"/><l>破戒散亂不律儀</l><l>見聞教法而誹謗</l>
+<lb n="0560a17"/><l>如是愚惡無善根</l><l>不堪行法為師教</l>
+<lb n="0560a18"/><l>若具如前儀相法</l><l>當為弟子親教師</l>
+<lb n="0560a19"/><l>此可粉壇為闍梨</l><l>一切教法令指授</l>
+<lb n="0560a20"/><l>所說密句皆能成</l><l>弟子具德亦如是</l>
+<lb n="0560a21"/><l>常樂禪定微妙法</l><l>恭敬孝順阿闍梨</l>
+<lb n="0560a22"/><l>&M010527;以供養諸賢聖</l><l>云何承事阿闍梨</l>
+<lb n="0560a23"/><l>如見諸佛等無異</l><l>常持金剛阿闍梨</l>
+<lb n="0560a24"/><l>當是寶生大如來</l><l>如是闍梨大智海</l>
+<lb n="0560a25"/><l>出如意珠施大財</l><l>常讚闍梨大功德</l>
+<lb n="0560a26"/><l>勿見過失及謗毀</l><l>如是尊重得法成</l>
+<lb n="0560a27"/><l>違法輕慢<note n="0560002" resp="Taisho" type="orig" place="foot text">終＝然【宮】</note><app n="0560002"><lem>終</lem><rdg wit="【宮】" resp="Taisho">然</rdg></app>不就</l><l>若人驀踏於師影</l>
+<lb n="0560a28"/><l>彼人壞塔罪無異</l><l>所作所求皆不成</l>
+<lb n="0560a29"/><l>諸佛賢聖皆不許</l><l>勿令<note n="0560003" resp="Taisho" type="orig" place="foot text">毀謗＝謗毀【明】</note><app n="0560003"><lem>毀謗</lem><rdg wit="【明】" resp="Taisho">謗毀</rdg></app>阿闍梨</l>
+<pb ed="T" id="T18.0890.0560b" n="0560b"/>
+<lb n="0560b01"/><l>乃至夢中亦不得</l><l>若有愚癡謗闍梨</l>
+<lb n="0560b02"/><l>常被諸魔來驚<note n="0560004" resp="Taisho" type="orig" place="foot text">怪＝怖【三】【宮】</note><note n="0560004" resp="CBETA" type="mod">怪＝怖【宋】【元】【明】【宮】</note><app n="0560004"><lem>怪</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">怖</rdg></app></l><l>如是惡業愚癡人</l>
+<lb n="0560b03"/><l>智者宜應常遠離</l><l>所說地獄阿鼻等</l>
+<lb n="0560b04"/><l>墮彼地獄無出期</l><l>謗阿闍梨獲此果</l>
+<lb n="0560b05"/><l>是故<anchor id="fxT18p0560b01"/>志心求菩提</l><l>供養承事阿闍梨</l>
+<lb n="0560b06"/><l>恭敬尊重常孝順</l><l>能施難思最上果</l></lg></div1>
+<lb n="0560b07"/><div1 type="pin"><mulu type="品" level="1" n="2" label="2 曼拏羅品"/><head><note n="0560005" resp="Taisho" type="orig" place="foot text">〔佛說瑜伽大經王經〕－【明】</note><app n="0560005"><lem>佛說瑜伽大經王經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>曼拏羅品第二</head>
+<lb n="0560b08"/><p>爾時世尊大遍照金剛如來。顧視眾會已。入
+<lb n="0560b09"/>大瑜伽智變化最上祕密金剛三摩地。從定
+<lb n="0560b10"/>出已。佛告金剛手大菩薩。汝今諦聽。金剛手
+<lb n="0560b11"/>此瑜伽大教王經大曼拏羅王。一切曼拏羅
+<lb n="0560b12"/>中最上最尊。其名大智光明藏金剛能成曼
+<lb n="0560b13"/>拏羅。若復有人。於此曼拏羅中受灌頂者。彼
+<lb n="0560b14"/>人當受一切曼拏羅中灌頂法</p>
+<lb n="0560b15"/><p>佛告金剛手菩薩。若復有人見此曼拏羅中
+<lb n="0560b16"/>五色粉彼人得恭敬供養一切如來。若復有
+<lb n="0560b17"/>人入此曼拏羅中。彼人如入諸佛剎中。得一
+<lb n="0560b18"/>切如來授成佛記。時阿闍梨先用結界法。依
+<lb n="0560b19"/>法儀則擁護己身。及用一切莊嚴之具。嚴飾
+<lb n="0560b20"/>其身然後作忿怒。顧視本身忿怒明王。右手
+<lb n="0560b21"/>擲金剛杵。左手執金剛鈴<note n="0560006" resp="Taisho" type="orig" place="foot text">振＝震【三】【宮】＊</note><note n="0560006" resp="CBETA" type="mod">振＝震【宋】【元】【明】【宮】＊</note><app n="0560006"><lem>振</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">震</rdg></app>動。作金剛步
+<lb n="0560b22"/>旋繞而行曼拏羅地。口誦吽字然後告言。我
+<lb n="0560b23"/>今發遣一切諸魔乃至天人阿修羅等。言已
+<lb n="0560b24"/>復想本身如忿怒明王。即誦此真言曰</p>
+<lb n="0560b25"/><p type="dharani">呵波娑蘭&CB00418;跋晚多<note place="inline">一</note>曳<note place="inline">引</note>枳<note n="0560007" resp="Taisho" type="orig" place="foot text">啣＝唧【三】【宮】</note><note n="0560007" resp="CBETA" type="mod"><corr sic="啣" resp="CBETA.Maha">&CB03340;</corr>＝唧【宋】【元】【明】【宮】</note><app n="0560007"><lem>&CB03340;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唧</rdg></app>禰<note place="inline">引</note>&CB00085;<note place="inline">引</note>酥
+<lb n="0560b26"/>囉<note place="inline">二</note>藥叉囉<note place="inline">引</note>叉娑<note place="inline">三</note>必&CB00619;<note place="inline">二合</note>多必<note n="0560008" resp="Taisho" type="orig" place="foot text">舍＝捨【明】</note><app n="0560008"><lem>舍</lem><rdg wit="【明】" resp="Taisho">捨</rdg></app><note place="inline">引</note>左<note place="inline">四</note>
+<lb n="0560b27"/>阿波三摩<note place="inline">二合引</note>囉部<note place="inline">引</note>多<note place="inline">五</note>拏<note place="inline">引</note>枳&CB00135;<note place="inline">引</note>烏娑多
+<lb n="0560b28"/><note place="inline">二合引</note>囉迦<note place="inline">六</note>摩賀羅哥<note place="inline">七</note>摩賀里迦<note place="inline">引</note><note place="inline">八</note>摩賀<note place="inline">引</note>
+<lb n="0560b29"/>哩提<note place="inline">二合</note>迦<note place="inline">引</note>訥左囉<note place="inline">九</note>&CB00425;哩沙<note place="inline">二合</note>那<note place="inline">引</note>&CB00344;嚕
+<pb ed="T" id="T18.0890.0560c" n="0560c"/>
+<lb n="0560c01"/>拏緊那囉<note place="inline">十</note>緊布嚕沙滿怛囉悉馱<note place="inline">引</note><note place="inline">十一</note>阿怛
+<lb n="0560c02"/>囉<note place="inline">二合</note>必哩<note place="inline">二合</note>體尾<note place="inline">引</note>&CB00425;囉<note place="inline">二合</note>禰<note place="inline">引</note>世<note place="inline">十二引</note>阿
+<lb n="0560c03"/>目迦<note place="inline">引</note>左<note place="inline">引</note>哩曳<note place="inline">二合</note>拏<note place="inline">十三</note>阿目迦室捨寫<note place="inline">十四</note>
+<lb n="0560c04"/>三冒地波哩布蘭拏<note place="inline">二合</note>阿哩湯<note place="inline">二合</note><note place="inline">十五</note>薩哩&CB00085;<note place="inline">二
+<lb n="0560c05"/>合</note>薩埵<note place="inline">十六</note>阿努怛囉倪也<note place="inline">二合</note>曩邏婆呬<note place="inline">引</note>都
+<lb n="0560c06"/><note place="inline">十七</note>阿目迦曼拏羅囉<note place="inline">引</note>惹<note place="inline">引</note>曩<note place="inline">十八</note>摩<note place="inline">引</note>里詰
+<lb n="0560c07"/>多摩夜<note place="inline"><note n="0560009" resp="Taisho" type="orig" place="foot text">二＝一【元】</note><app n="0560009"><lem>二</lem><rdg wit="【元】" resp="Taisho">一</rdg></app>合</note>彌底<note place="inline">十九</note>怛禰<note place="inline">引</note>&CB00085;訥&CB00085;<note place="inline">二合</note>日囉
+<lb n="0560c08"/><note place="inline">二合</note>達囉<note place="inline">引</note>倪也<note place="inline">二合</note>率嚕<note place="inline">二合</note>埵<note place="inline">引</note><note place="inline">二十</note>尸竭囉彌
+<lb n="0560c09"/><note place="inline">引</note>&CB00085;<note place="inline">引</note>波訖囉<note place="inline">二合</note>摩多<note place="inline">二十一</note>踰<note place="inline">引</note>曩&CB00425;訖囉<note place="inline">二合</note>
+<lb n="0560c10"/>摩底<note place="inline">二十二</note>怛寫&CB00085;日囉<note place="inline">二合</note>播<note place="inline">引</note>尼<note place="inline">二十三</note>&CB00425;囉<note place="inline">二合</note>
+<lb n="0560c11"/>入&CB00085;<note place="inline">二合</note>里多<note place="inline">二十四</note>酤必多吽哥<note place="inline">引</note>囉&CB00085;那曩<note place="inline">二十五</note>
+<lb n="0560c12"/>阿<note place="inline">引</note>禰<note place="inline">引</note>&CB00425;多<note place="inline">二合</note>&CB00425;囉<note place="inline">二合</note>必帝<note place="inline">二合</note>曩<note place="inline">二十六</note>摩
+<lb n="0560c13"/>賀<note place="inline">引</note>倪也<note place="inline">二合引</note>曩&CB00085;日哩<note place="inline">二合</note>拏<note place="inline">二十七</note>謀<note place="inline">引</note>哩馱
+<lb n="0560c14"/>曩<note place="inline">三合</note>設多馱<note place="inline">引</note><note place="inline">二十八</note>尾羯哩<note place="inline">引</note>欲哩底<note place="inline">二十九</note></p>
+<lb n="0560c15"/><p>時阿闍梨誦此真言三遍已。如前作金剛步
+<lb n="0560c16"/>旋繞而行。結界發遣諸魔成金剛地。然後行
+<lb n="0560c17"/>如左舞踏勢及右舞踏勢。每舍<note n="0560010" resp="Taisho" type="orig" place="foot text">珂＝阿【三】【宮】</note><note n="0560010" resp="CBETA" type="mod">珂＝阿【宋】【元】【明】【宮】</note><app n="0560010"><lem>珂</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">阿</rdg></app>曼拏羅勢。
+<lb n="0560c18"/>平足立勢龜步勢。金剛&CB00085;日嚕咄羯哩沙拏
+<lb n="0560c19"/>勢。翹足舞勢旋網舞勢。師子步勢師子變身
+<lb n="0560c20"/>勢。金剛鎖勢金剛索勢。金剛忿怒勢金剛<note n="0560011" resp="Taisho" type="orig" place="foot text">鉤＝劍【明】【宮】</note><app n="0560011"><lem>鉤</lem><rdg wit="【明】【宮】" resp="Taisho">劍</rdg></app>
+<lb n="0560c21"/>勢。金剛舞勢金剛陪囉&CB00085;勢。金剛吠多梨步
+<lb n="0560c22"/>勢金剛骨朵勢。拶&CB00418;哩目珂地瑟吒那步。金
+<lb n="0560c23"/>剛軍拏梨步。幻化步金剛塞怖吒步。大力鉤
+<lb n="0560c24"/>步金剛牙步。金剛笑步金剛鈴步。復作持劍
+<lb n="0560c25"/>勢持金剛勢持輪勢持杵勢持幡勢持索勢持
+<lb n="0560c26"/>蓮華勢持扙勢作無畏勢持鉤勢持牌勢持槍
+<lb n="0560c27"/>勢持弓勢挽弓勢射箭勢。持頻尼波羅旋繞而
+<lb n="0560c28"/>行勢。施願勢持爍訖帝勢。持羯諾野勢頂禮
+<lb n="0560c29"/>勢。入定勢金剛坐勢。蓮花坐勢結跏趺坐勢。
+<pb ed="T" id="T18.0890.0561a" n="0561a"/>
+<lb n="0561a01"/>無畏坐勢賢坐勢。蹲坐勢戲坐勢。現前勢背
+<lb n="0561a02"/>向勢。時阿闍梨作如是一一行步坐勢已。用
+<lb n="0561a03"/>無邊無能勝明王。乃至大力明王等。即依法
+<lb n="0561a04"/>作橛打曼拏羅地。圍結界十方如是作已。復
+<lb n="0561a05"/>想曼拏羅地即成金剛地遍滿熾盛。如是觀
+<lb n="0561a06"/>想已。時阿闍梨即稱己名同誦吽字。如是微
+<lb n="0561a07"/>妙字於一切教中最上最尊。然後以本真言
+<lb n="0561a08"/>依法祈請地天。真言曰</p>
+<lb n="0561a09"/><p type="dharani">怛網<note place="inline">二引</note>禰<note place="inline">引</note>尾娑<note place="inline">引</note>叱部多<note place="inline">引</note>悉<note place="inline">一</note>薩哩&CB00085;<note place="inline">二合</note>
+<lb n="0561a10"/>沒馱<note place="inline">引</note>努多<note place="inline">引</note>以曩<note place="inline">引</note><note place="inline">二</note>左哩也<note place="inline">二合<note n="0561001" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0561001" resp="CBETA" type="mod">〔引〕－【宋】【元】【明】</note><app n="0561001"><lem>引</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></note>那野尾試
+<lb n="0561a11"/><note place="inline">引</note>尸<note place="inline">引</note>數<note place="inline">三</note>部<note place="inline">引</note>彌播<note place="inline">引</note>囉彌多<note place="inline">引</note>蘇左<note place="inline">四</note>薩哩
+<lb n="0561a12"/>&CB00085;<note place="inline">二合</note>悉提&CB00425;囉<note place="inline">二合</note>沒哩<note place="inline">二合</note>&CB00833;<note place="inline"><note n="0561002" resp="Taisho" type="orig" place="foot text">引切身＝切身引【明】</note><app n="0561002"><lem>引切身</lem><rdg wit="【明】" resp="Taisho">切身引</rdg></app></note>哩湯<note place="inline">二合
+<lb n="0561a13"/>五</note>曼拏蘭左&CB00619;<note place="inline">引</note>珂夜<note place="inline">引</note>藐憾<note place="inline">六</note></p>
+<lb n="0561a14"/><p>時阿闍梨誦此真言三遍已。運至誠心復請
+<lb n="0561a15"/>召諸佛如來。真言曰</p>
+<lb n="0561a16"/><p type="dharani">三滿多<note place="inline">引</note>訶&CB02258;&CB00418;&CB00805;<note place="inline">引</note>沒馱<note place="inline">一</note>迦<note place="inline">引</note>嚕拏呬多際
+<lb n="0561a17"/>怛薩<note place="inline">二</note>部<note place="inline">引</note>彌<note place="inline">引</note>波哩仡囉<note place="inline">二合</note>賀迦<note place="inline">引</note>哩也<note place="inline">二合
+<lb n="0561a18"/><note n="0561003" resp="Taisho" type="orig" place="foot text">（引）＋三【明】，三＝引【宋】【元】【宮】</note><app n="0561003"><lem>三</lem><rdg wit="【明】" resp="Taisho">引三</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">引</rdg></app></note>薩補怛賴<note place="inline">二合</note>薩賀阿<note place="inline">引</note>&CB00344;摩<note place="inline">四</note></p>
+<lb n="0561a19"/><p>時阿闍梨誦此真言三遍已。於曼拏羅地中
+<lb n="0561a20"/>間。以塗香作圓相曼拏羅。作此曼拏羅時。當
+<lb n="0561a21"/>誦大輪明王真言然後請召諸佛賢聖。獻大
+<lb n="0561a22"/>種種殊妙供養。祈求諸佛而作歡喜。時阿闍
+<lb n="0561a23"/>梨出曼拏羅外於十方出生。然後弟子經宿
+<lb n="0561a24"/>入於曼拏羅中。依法作擁護以香水灌頂。復
+<lb n="0561a25"/>用塗香塗於心中。想已心中羯磨杵。右手繫
+<lb n="0561a26"/>擁護線。與齒木揩牙。地鋪吉祥草。加持已安
+<lb n="0561a27"/>座而坐。時阿闍梨與弟子受三歸依。懺悔罪
+<lb n="0561a28"/>障迴向發願。乃至弟子以身命布施發大菩
+<lb n="0561a29"/>提心。即說三歸伽陀曰</p>
+<pb ed="T" id="T18.0890.0561b" n="0561b"/>
+<lb n="0561b01"/><lg><l>我今歸敬於三寶</l><l>我佛曠劫超三有</l>
+<lb n="0561b02"/><l>妙法能除煩惱根</l><l>獲成聖眾離欲尊</l>
+<lb n="0561b03"/><l>我昔所作諸罪業</l><l>今對三寶至誠懺</l>
+<lb n="0561b04"/><l>迴施功德利群生</l><l>誓願求證菩提果</l></lg>
+<lb n="0561b05"/><p>時受法弟子誦此伽陀滿三遍已。阿闍梨復
+<lb n="0561b06"/>為弟子。隨力隨意開導說法。令彼至誠發大
+<lb n="0561b07"/>菩提心。然後如前依法。作於供養發送賢聖</p>
+<lb n="0561b08"/><p>時弟子於曼拏羅地右&CB00169;而臥。於其夢中必
+<lb n="0561b09"/>見境像。第二日阿闍梨用鮮淨五色線絣曼
+<lb n="0561b10"/>拏羅。時阿闍梨觀想其線。即真法界性遍照
+<lb n="0561b11"/>自性王如來。即一切如來藏。法界清淨故離
+<lb n="0561b12"/>諸塵垢能淨眾生界。所用五色粉即五如來。
+<lb n="0561b13"/>觀想已。阿闍梨先下粉。然後令弟子同作第
+<lb n="0561b14"/>一結界地。第二與弟子受三歸。第三令弟子
+<lb n="0561b15"/>入曼拏羅。第四作發送法。其曼拏羅有三品
+<lb n="0561b16"/>法。上品千肘量。中品五百肘。下品五肘乃至
+<lb n="0561b17"/>二肘一肘。其相四方作四門四樓。中心作八
+<lb n="0561b18"/>輻輪安置遍照如來。東方安阿&CB00434;佛南方安
+<lb n="0561b19"/>寶生佛。西方安無量壽佛。北方安不空成就
+<lb n="0561b20"/>佛。復次於輪四隅安四親近菩薩。東北隅安
+<lb n="0561b21"/>佛眼菩薩。東南隅安摩摩枳菩薩。西南隅安
+<lb n="0561b22"/>白衣菩薩。西北隅安多羅菩薩。復次於第二
+<lb n="0561b23"/>重曼拏羅安四菩薩。東方安薩埵金剛菩薩。
+<lb n="0561b24"/>南方寶金剛菩薩。西方法金剛菩薩。北方羯
+<lb n="0561b25"/>磨金剛菩薩。復次於曼拏羅四隅安四菩薩。
+<lb n="0561b26"/>東北隅安尊那菩薩。東南隅安寶光菩薩。西
+<lb n="0561b27"/>南隅安顰眉菩薩。西北隅安金剛鎖菩薩。復
+<lb n="0561b28"/>次於第三重曼拏羅安十六大菩薩。東方位
+<lb n="0561b29"/>安四菩薩。慈氏菩薩妙吉祥菩薩香<note n="0561004" resp="Taisho" type="orig" place="foot text">象＝像【明】</note><app n="0561004"><lem>象</lem><rdg wit="【明】" resp="Taisho">像</rdg></app>菩薩
+<pb ed="T" id="T18.0890.0561c" n="0561c"/>
+<lb n="0561c01"/>智幢菩薩。南方位安四菩薩。賢護菩薩海意
+<lb n="0561c02"/>菩薩無盡意菩薩辯積菩薩。復次西方位安
+<lb n="0561c03"/>四菩薩。得大勢至菩薩滅一切罪障菩薩破
+<lb n="0561c04"/>諸憂闇菩薩熾盛光菩薩。復次北方位安四
+<lb n="0561c05"/>菩薩。月光菩薩甘露光菩薩虛空藏菩薩除
+<lb n="0561c06"/>蓋障菩薩。復次於曼拏羅東門安。焰鬘得迦
+<lb n="0561c07"/>明王。南門安&CB00425;囉研得迦明王。西門安&CB00425;訥
+<lb n="0561c08"/>鬘得迦明王。北門安尾覲難得迦明王。復次
+<lb n="0561c09"/>於其四隅安四明王。東北隅安不動尊明王。
+<lb n="0561c10"/>東南隅安吒枳明王。西南隅安&CB00135;羅難拏明
+<lb n="0561c11"/>王。西北隅安大力明王。復次於外曼拏羅外
+<lb n="0561c12"/>四隅中。各安置一金剛杵。內第一輪用白粉。
+<lb n="0561c13"/>畫第二重曼拏羅用黃白青三色粉。畫第三
+<lb n="0561c14"/>重曼拏。羅用五色粉。如是作大曼拏羅已。然
+<lb n="0561c15"/>後為弟子受灌頂法</p>
+<lb n="0561c16"/><p>復次別作二重曼拏羅。四方作四門。中心畫
+<lb n="0561c17"/>八葉蓮花。於彼蓮花內東位安金剛杵。南位
+<lb n="0561c18"/>安寶。西位安蓮花。北位安劍。如是作曼拏羅
+<lb n="0561c19"/>已。阿闍梨即自沐浴潔淨齋戒。種種裝嚴於
+<lb n="0561c20"/>身。時用閼伽瓶盛滿香水。插諸花果枝葉。以
+<lb n="0561c21"/>鮮淨衣蓋閼伽瓶。阿闍梨依法加持其瓶。入
+<lb n="0561c22"/>五寶五藥五穀香水充滿。第一閼伽瓶名最
+<lb n="0561c23"/>勝瓶即是本尊。餘有四瓶是即四親近菩薩
+<lb n="0561c24"/>及諸護門。明王亦各有閼伽瓶。若不隨諸賢
+<lb n="0561c25"/>聖位安置瓶者。只置五瓶。當用一切成就真
+<lb n="0561c26"/>言加持閼伽瓶。以閼伽水灑淨諸眾生然後
+<lb n="0561c27"/>獻香花燈塗及種種飲食出生供養。復次於
+<lb n="0561c28"/>曼拏羅四隅。各安一閼伽瓶。第一最勝瓶安
+<lb n="0561c29"/>置曼拏羅心中。時阿闍梨以金剛鉤本印及
+<pb ed="T" id="T18.0890.0562a" n="0562a"/>
+<lb n="0562a01"/>誦真言。請召諸佛如來入於曼拏羅時。阿闍
+<lb n="0562a02"/>梨復想獻座。諸佛如來於曼拏羅內。各處本
+<lb n="0562a03"/>位而坐。復次想曼拏羅外。以金剛橛釘之而
+<lb n="0562a04"/>成結界。即用閼伽水香花等供養。各結本印。
+<lb n="0562a05"/>時阿闍梨讚歎諸賢聖。<anchor id="fxT18p0562a01"/>振金剛鈴獻種種音
+<lb n="0562a06"/>樂已。勞謝諸佛賢聖告言。我今求一切成就
+<lb n="0562a07"/>法言已。令弟子入曼拏羅內時。阿闍梨即誦
+<lb n="0562a08"/>五如來祕密真言。安置弟子身分五處。真言
+<lb n="0562a09"/>曰</p>
+<lb n="0562a10"/><p type="dharani">唵<note place="inline">引</note><note place="inline">一</note>&CB00768;<note place="inline">人際<note n="0562001" resp="Taisho" type="orig" place="foot text">反＝切【明】＊</note><app n="0562001"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app></note>曩<note n="0562002" resp="Taisho" type="orig" place="foot text">爾＝&CB00768;【宋】【元】【宮】</note><app n="0562002"><lem>爾</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&CB00768;</rdg></app><note place="inline">入</note>俱<note place="inline">半音二</note></p>
+<lb n="0562a11"/><p type="dharani">唵<note place="inline">引</note><note place="inline">一</note>&CB00085;日囉<note place="inline">二合</note>特哩<note place="inline">二合</note>俱<note place="inline">半音二</note></p>
+<lb n="0562a12"/><p type="dharani">唵<note place="inline">引</note><note place="inline">一</note>囉怛曩<note place="inline">二合</note>特哩<note place="inline">二合</note>俱<note place="inline">半音二</note></p>
+<lb n="0562a13"/><p type="dharani">唵<note place="inline">引<note n="0562003" resp="Taisho" type="orig" place="foot text">〔一〕－【明】</note><app n="0562003"><lem>一</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>阿嚕力俱<note place="inline">半音二</note></p>
+<lb n="0562a14"/><p type="dharani">唵<note place="inline">引<note n="0562004" resp="Taisho" type="orig" place="foot text">〔一〕－【宋】【元】</note><app n="0562004"><lem>一</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></note>&CB00425;囉<note place="inline">二合</note>倪也<note place="inline">二合</note>特哩<note place="inline">二合</note>俱<note place="inline">半音二</note></p>
+<lb n="0562a15"/><p>如是真言等各結本印。安彼弟子五處以作
+<lb n="0562a16"/>甲冑。時阿闍梨以帛覆弟子面。引至壇前誦
+<lb n="0562a17"/>此伽陀曰</p>
+<lb n="0562a18"/><p type="dharani">壹難&CB00418;曼拏<note n="0562005" resp="Taisho" type="orig" place="foot text">朗＝明【三】【宮】</note><note n="0562005" resp="CBETA" type="mod">朗＝明【宋】【元】【明】【宮】</note><app n="0562005"><lem>朗</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">明</rdg></app>娑<note place="inline">引</note>&CB00772;<note place="inline">一</note>&CB00085;日囉<note place="inline">二合</note>倪也<note place="inline">二合</note>
+<lb n="0562a19"/>那寫&CB00425;囉<note place="inline">二合引</note>&CB00425;曩<note place="inline">二</note>&CB00425;囉<note place="inline">二合</note>吠<note place="inline">引</note>始&CB00418;摩夜
+<lb n="0562a20"/><note place="inline">引</note>室賒<note place="inline">三</note>薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;旦補&CB00772;<note place="inline">四</note></p>
+<lb n="0562a21"/><p>誦此伽陀已。時令弟子結薩埵金剛印。拋花
+<lb n="0562a22"/>於曼拏羅中。誦此真言曰</p>
+<lb n="0562a23"/><p type="dharani">唵<note place="inline">引</note><note place="inline">一</note>&CB00425;囉<note place="inline">二合</note>帝<note place="inline">引</note>蹉&CB00085;日囉<note place="inline">二合</note>呼<note place="inline">二</note></p>
+<lb n="0562a24"/><p>誦此真言已與去除覆面帛。復誦此伽陀曰</p>
+<lb n="0562a25"/><p type="dharani">壹難怛怛曼拏羅&CB00425;舍<note place="inline">一</note>室囉<note place="inline">二合</note>馱<note place="inline">引</note>昧遨那
+<lb n="0562a26"/>味<note place="inline">引</note>那左<note place="inline">二</note>沒馱晚舍酤路半那<note place="inline">引</note><note place="inline">三</note>母捺囉<note place="inline">二
+<lb n="0562a27"/>合</note>滿怛&CB00770;<note place="inline">二合</note><note n="0562006" resp="Taisho" type="orig" place="foot text">囉提瑟致＝怛設那左【三】</note><note n="0562006" resp="CBETA" type="mod">囉提瑟致＝怛設那左【宋】【元】【明】</note><app n="0562006"><lem>囉提瑟致</lem><rdg wit="【宋】【元】【明】" resp="Taisho">怛設那左</rdg></app><note place="inline">二合</note>旦<note place="inline">四</note>三半帝<note place="inline">引</note>薩
+<lb n="0562a28"/>哩&CB00085;<note place="inline">二<note n="0562007" resp="Taisho" type="orig" place="foot text">引＝合【宋】【元】</note><app n="0562007"><lem>引</lem><rdg wit="【宋】【元】" resp="Taisho">合</rdg></app></note>悉提<note place="inline">引</note>曩<note place="inline">五</note>三摩夜<note place="inline">引</note><note n="0562008" resp="Taisho" type="orig" place="foot text">机＝&CB01029;【宋】【元】【宮】＊，杌【甲】</note><note n="0562008" resp="CBETA" type="mod">机＝&CB01029;【宋】【元】【宮】＊，＝杌【甲】</note><app n="0562008"><lem>机</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&CB01029;</rdg><rdg wit="【甲】" resp="Taisho">杌</rdg></app>嚕<note place="inline">二合引</note>婆
+<lb n="0562a29"/>尾設底<note place="inline">六</note>&CB00085;日囉<note place="inline">二合</note>&CB00425;訥摩<note place="inline">二合引</note>屹囉<note place="inline">二合</note>邏
+<pb ed="T" id="T18.0890.0562b" n="0562b"/>
+<lb n="0562b01"/>里旦<note place="inline">引</note><note place="inline">七</note>滿底哩<note place="inline">二合引</note>沙&CB00085;<note place="inline">二合引</note>囉<note place="inline">引</note>達曩酤嚕<note place="inline">八</note>
+<lb n="0562b02"/>阿泥那紇哩<note place="inline">二合</note>那曳<note place="inline">引</note>那<note n="0562009" resp="Taisho" type="orig" place="foot text">拽＝拽【元】【明】</note><app n="0562009"><lem>拽</lem><rdg wit="【元】【明】" resp="Taisho"><todo/>拽</rdg></app>舍&CB00085;日囉<note place="inline">二合</note>
+<lb n="0562b03"/>&CB00425;旦底<note place="inline">九</note></p>
+<lb n="0562b04"/><p>誦伽陀已令弟子拋花。花落之處當為本尊。
+<lb n="0562b05"/>以香花燈塗。衣服幢幡傘蓋<note n="0562010" resp="Taisho" type="orig" place="foot text">印＝仰【三】【宮】</note><note n="0562010" resp="CBETA" type="mod">印＝仰【宋】【元】【明】【宮】</note><app n="0562010"><lem>印</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">仰</rdg></app>塵等殊妙供
+<lb n="0562b06"/>養。復用微妙音樂吉祥偈讚。時阿闍梨先用
+<lb n="0562b07"/>最勝閼伽瓶。與弟子灌頂銷除塵垢。後與四
+<lb n="0562b08"/>親近閼伽瓶灌頂已復。誦吉祥偈讚告弟子
+<lb n="0562b09"/>言</p>
+<lb n="0562b10"/><lg><l>我今<anchor id="fxT18p0562b01"/>振鈴諸佛前</l><l>諸佛遍滿如芥子</l>
+<lb n="0562b11"/><l>諸佛受持閼伽瓶</l><l>施汝灌頂妙法門</l>
+<lb n="0562b12"/><l>心曼拏羅真實智</l><l>如是觀想無相法</l>
+<lb n="0562b13"/><l>汝今頂受此法門</l><l>永出塵勞生死界</l></lg>
+<lb n="0562b14"/><p>時阿闍梨誦此吉祥讚已。示於弟子設邏哥
+<lb n="0562b15"/>輪螺金剛杵經法。乃至金銀等物。皆為除彼
+<lb n="0562b16"/>蓋障。若無設邏哥等物。當結嚕必尼印示與
+<lb n="0562b17"/>弟子。然後與三昧法。三昧真言曰</p>
+<lb n="0562b18"/><p type="dharani">阿&CB00853;<note place="inline">切身</note>&CB00425;囉<note place="inline">二合</note>勃哩<note place="inline">二合</note>底<note n="0562011" resp="Taisho" type="orig" place="foot text">但＝怛【元】</note><app n="0562011"><lem>但</lem><rdg wit="【元】" resp="Taisho">怛</rdg></app>網<note place="inline">二合</note>&CB00085;<note n="0562012" resp="Taisho" type="orig" place="foot text">蹉＝哆【三】【宮】</note><note n="0562012" resp="CBETA" type="mod">蹉＝哆【宋】【元】【明】【宮】</note><app n="0562012"><lem>蹉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">哆</rdg></app>
+<lb n="0562b19"/><note place="inline">一</note>&CB00768;<note place="inline">引</note>尾帝<note place="inline">引</note>哩馱<note place="inline">二合</note>悉體<note place="inline">二合</note>毘薩那<note place="inline">引</note><note place="inline">二</note>薩
+<lb n="0562b20"/>達哩摩<note place="inline">二合</note>&CB00155;提唧旦左<note place="inline">三</note>阿<note place="inline">引</note>左<note place="inline">引</note>哩也<note place="inline">二合</note>
+<lb n="0562b21"/>摩&CB00085;摩<note n="0562013" resp="Taisho" type="orig" place="foot text">&CB00853;＝&CB00576;【宋】【元】【宮】</note><app n="0562013"><lem>&CB00853;</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&CB00576;</rdg></app><note place="inline">切身</note>那<note place="inline">引</note><note place="inline">四</note>&CB00085;日囉<note place="inline">二合</note>婆<note place="inline">引</note>底哩<note place="inline">二
+<lb n="0562b22"/>合</note>數遨囉藐<note place="inline">五</note>訥瑟&CB02824;<note place="inline">二合</note>昧帝哩<note place="inline">二合</note>尾囉<note place="inline">引</note>
+<lb n="0562b23"/>&CB00344;多<note place="inline">引</note><note place="inline">六</note>&CB00425;囉<note place="inline">二合</note>那<note place="inline">引</note>&CB00853;必帝<note place="inline">引</note>&CB00085;蹉<note place="inline">七</note>那迦<note place="inline">引</note>
+<lb n="0562b24"/>哩也<note place="inline">二合</note>昧羯那<note place="inline">引</note>左那<note place="inline">八</note>伊帝<note place="inline">引</note>那訖哩<note place="inline">二合</note>
+<lb n="0562b25"/>帝<note place="inline">引</note>那吠沒馱<note place="inline">引</note><note place="inline">九</note>那囉哥<anchor id="fxT18p0562b02"/>机嚕<note place="inline">二合引</note>播<note place="inline">引</note>多<note place="inline">引</note>
+<lb n="0562b26"/>野帝帝<note place="inline">十</note></p>
+<lb n="0562b27"/><p>時阿闍梨誦此三昧真言已。勸化弟子令施
+<lb n="0562b28"/>財寶以報師恩。或金銀<note n="0562014" resp="Taisho" type="orig" place="foot text">&CB00222;＝琉【宋】【元】【宮】</note><app n="0562014"><lem>&CB00222;</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">琉</rdg></app>璃摩尼真珠珊瑚
+<lb n="0562b29"/>琥珀乃至身命等。復說頌曰</p>
+<pb ed="T" id="T18.0890.0562c" n="0562c"/>
+<lb n="0562c01"/><lg><l>弟子應當行孝順</l><l>報<note n="0562015" resp="Taisho" type="orig" place="foot text">荷＝阿【三】</note><note n="0562015" resp="CBETA" type="mod">荷＝阿【宋】【元】【明】</note><app n="0562015"><lem>荷</lem><rdg wit="【宋】【元】【明】" resp="Taisho">阿</rdg></app>闍梨令歡喜</l>
+<lb n="0562c02"/><l>師若歡喜法得成</l><l>此外世間無有尊</l></lg>
+<lb n="0562c03"/><p>時弟子聞此<note n="0562016" resp="Taisho" type="orig" place="foot text">頌＝誦【明】</note><app n="0562016"><lem>頌</lem><rdg wit="【明】" resp="Taisho">誦</rdg></app>已。從座而起供養諸佛及阿
+<lb n="0562c04"/>闍梨。然後阿闍梨依法作護摩。其護摩供養
+<lb n="0562c05"/>物。持誦觀想法。依息災增益等儀。供養諸佛
+<lb n="0562c06"/>賢聖。然後發送<note n="0562017" resp="Taisho" type="orig" place="foot text">賢聖＝聖賢【三】</note><note n="0562017" resp="CBETA" type="mod">賢聖＝聖賢【宋】【元】【明】</note><app n="0562017"><lem>賢聖</lem><rdg wit="【宋】【元】【明】" resp="Taisho">聖賢</rdg></app>及三世諸佛已。收彼
+<lb n="0562c07"/>壇中五色粉。棄擲江河中。於彼曼拏羅地以
+<lb n="0562c08"/>瞿摩夷塗之。曼拏羅所用之物。盡施阿闍梨
+<lb n="0562c09"/>弟子不得受。若有受者當破三昧。唯阿闍梨
+<lb n="0562c10"/>隨意受用</p></div1>
+<lb n="0562c11"/><div1 type="pin"><mulu type="品" level="1" n="3" label="3 真言品"/><head><note n="0562018" resp="Taisho" type="orig" place="foot text">〔佛說瑜伽大教王經〕－【明】</note><app n="0562018"><lem><title>佛說瑜伽大教王經</title></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>真言品第三</head>
+<lb n="0562c12"/><p>爾時世尊大遍照金剛如來。復入轉真言輪
+<lb n="0562c13"/>金剛三摩地。從此三摩地出已。告金剛手大
+<lb n="0562c14"/>菩薩言。汝今諦聽。今此真言精妙字。為汝演
+<lb n="0562c15"/><note n="0562019" resp="Taisho" type="orig" place="foot text">〔說〕－【三】【宮】</note><note n="0562019" resp="CBETA" type="mod">〔說〕－【宋】【元】【明】【宮】</note><app n="0562019"><lem>說</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app><anchor id="fxT18p0562c01"/>志心受持。時金剛手菩薩。合掌向佛而
+<lb n="0562c16"/>白佛言。世尊善說善逝善說。為利益一切眾
+<lb n="0562c17"/>生故。爾時世尊即說大遍照金剛如來根本
+<lb n="0562c18"/>真言曰</p>
+<lb n="0562c19"/><p type="dharani">唵<note place="inline">引</note>阿<note place="inline"><note n="0562020" resp="Taisho" type="orig" place="foot text">引＋（一）【宋】【元】【宮】＊，（一句）【明】＊</note><app n="0562020"><lem>引</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">引一</rdg><rdg wit="【明】" resp="Taisho">引一句</rdg></app></note></p>
+<lb n="0562c20"/><p>復說阿&CB00434;如來真言曰</p>
+<lb n="0562c21"/><p type="dharani">唵<note place="inline">引</note>吽<anchor id="fxT18p0562c02"/><note place="inline">引</note></p>
+<lb n="0562c22"/><p>寶生如來真言曰</p>
+<lb n="0562c23"/><p type="dharani">唵<note place="inline">引</note>怛&CB00772;<note place="inline">二<note n="0562021" resp="Taisho" type="orig" place="foot text">合＋（一）【宋】【元】【宮】＊，（一句）【明】＊</note><app n="0562021"><lem>合</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">合一</rdg><rdg wit="【明】" resp="Taisho">合一句</rdg></app></note></p>
+<lb n="0562c24"/><p>無量壽如來真言曰</p>
+<lb n="0562c25"/><p type="dharani">唵<note place="inline">引</note>紇唎<note place="inline">二<anchor id="fxT18p0562c03"/>合</note></p>
+<lb n="0562c26"/><p>不空成就如來真言曰</p>
+<lb n="0562c27"/><p type="dharani">唵<note place="inline">引</note>亢<anchor id="fxT18p0562c04"/><note place="inline">引</note></p>
+<lb n="0562c28"/><p>佛眼菩薩真言曰</p>
+<lb n="0562c29"/><p type="dharani">唵<note place="inline">引</note>&CB00344;&CB00344;那路左&CB00135;<note place="inline">引</note>吽<note place="inline"><note n="0562022" resp="Taisho" type="orig" place="foot text">引＋（一）【宋】【元】，（一句）【明】</note><app n="0562022"><lem>引</lem><rdg wit="【宋】【元】" resp="Taisho">引一</rdg><rdg wit="【明】" resp="Taisho">引一句</rdg></app></note></p>
+<pb ed="T" id="T18.0890.0563a" n="0563a"/>
+<lb n="0563a01"/><p>摩摩枳菩薩真言曰</p>
+<lb n="0563a02"/><p type="dharani">唵<note place="inline">引</note>枳哩枳哩摩<note place="inline">引</note>摩計吽<anchor id="fxT18p0563a01"/><note place="inline">引</note></p>
+<lb n="0563a03"/><p>白衣菩薩真言曰</p>
+<lb n="0563a04"/><p type="dharani">唵<note place="inline">引</note>羯致<note place="inline">引</note>尾羯致<note place="inline">引</note><note place="inline">一</note>&CB00135;羯致<note place="inline">引<note n="0563001" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】</note><note n="0563001" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】</note><app n="0563001"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>羯&CB02824;羯致
+<lb n="0563a05"/><note place="inline">引</note><note place="inline">二</note>羯嚕吒尾哩曳<note place="inline">二合引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引<note n="0563002" resp="Taisho" type="orig" place="foot text">三＝二【宮】</note><app n="0563002"><lem>三</lem><rdg wit="【宮】" resp="Taisho">二</rdg></app></note></p>
+<lb n="0563a06"/><p>多羅菩薩真言曰</p>
+<lb n="0563a07"/><p type="dharani">唵<note place="inline">引</note>多<note place="inline">引</note>哩<note place="inline">引</note>咄多<note place="inline">引</note>哩<note place="inline">引</note><note place="inline">一</note>咄哩<note place="inline">引</note>娑&CB00085;<note place="inline"><note n="0563003" resp="Taisho" type="orig" place="foot text">二合引＝引一合【宋】【元】</note><app n="0563003"><lem>二合引</lem><rdg wit="【宋】【元】" resp="Taisho">引一合</rdg></app></note>
+<lb n="0563a08"/>賀<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563a09"/><p>薩埵金剛菩薩真言曰</p>
+<lb n="0563a10"/><p type="dharani">唵<note place="inline">引</note>薩埵&CB00085;日哩<note place="inline">二合</note>吽<anchor id="fxT18p0563a02"/><note place="inline">引</note></p>
+<lb n="0563a11"/><p>寶金剛菩薩真言曰</p>
+<lb n="0563a12"/><p type="dharani">唵<note place="inline">引</note>囉怛曩<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合引</note>吽<anchor id="fxT18p0563a03"/><note place="inline">引</note></p>
+<lb n="0563a13"/><p>法金剛菩薩真言曰</p>
+<lb n="0563a14"/><p type="dharani">唵<note place="inline">引</note>達哩摩<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合引</note>吽<anchor id="fxT18p0563a04"/><note place="inline">引</note></p>
+<lb n="0563a15"/><p>羯磨金剛菩薩真言曰</p>
+<lb n="0563a16"/><p type="dharani">唵<note place="inline">引</note>羯哩摩<note place="inline">二合</note>&CB00085;日哩<note place="inline">二合引</note>吽<anchor id="fxT18p0563a05"/><note place="inline">引</note></p>
+<lb n="0563a17"/><p>尊那菩薩真言曰</p>
+<lb n="0563a18"/><p type="dharani">唵<note place="inline">引</note>左隸祖隸<note place="inline"><note n="0563004" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0563004" resp="CBETA" type="mod">〔引〕－【宋】【元】【明】</note><app n="0563004"><lem>引</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></note><note place="inline">一</note>尊禰<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563a19"/><p>寶光菩薩真言曰</p>
+<lb n="0563a20"/><p type="dharani">唵<note place="inline">引</note>囉怛努<note place="inline">二合</note>勒計<note place="inline">二合引</note><note place="inline">一</note>囉怛曩<note place="inline">二合</note>入&CB00085;<note place="inline">二合引</note>
+<lb n="0563a21"/><note n="0563005" resp="Taisho" type="orig" place="foot text">哩＝里【宋】【元】</note><app n="0563005"><lem>哩</lem><rdg wit="【宋】【元】" resp="Taisho">里</rdg></app>&CB00135;<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引<note n="0563006" resp="Taisho" type="orig" place="foot text">二＝一【宋】，【元】＊</note><app n="0563006"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">一</rdg></app></note></p>
+<lb n="0563a22"/><p>顰眉菩薩真言曰</p>
+<lb n="0563a23"/><p type="dharani">唵<note place="inline">引</note>勃哩<note place="inline">二合</note>酤致<note place="inline">引</note>勃陵<note place="inline">二合<anchor id="fxT18p0563a06"/>引</note></p>
+<lb n="0563a24"/><p>金剛鎖菩薩真言曰</p>
+<lb n="0563a25"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>室哩<note place="inline">二合</note>朅里<note place="inline">引</note><note place="inline">一</note>吽<note place="inline">引</note>發吒<note place="inline">半
+<lb n="0563a26"/>音</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引<anchor id="fxT18p0563a07"/>二</note></p>
+<lb n="0563a27"/><p>慈氏菩薩真言曰</p>
+<lb n="0563a28"/><p type="dharani">唵<note place="inline">引</note>昧<anchor id="fxT18p0563a08"/><note place="inline">引</note></p>
+<lb n="0563a29"/><p>妙吉祥菩薩真言曰</p>
+<pb ed="T" id="T18.0890.0563b" n="0563b"/>
+<lb n="0563b01"/><p type="dharani">唵<note place="inline">引</note><note n="0563007" resp="Taisho" type="orig" place="foot text">蒙＋（一）細註【宮】</note><app n="0563007"><lem>蒙</lem><rdg wit="【宮】" resp="Taisho">蒙<note place="inline">一</note></rdg></app></p>
+<lb n="0563b02"/><p>普賢菩薩真言曰</p>
+<lb n="0563b03"/><p type="dharani">唵<note place="inline">引</note>三滿多跋捺囉<note place="inline">二合</note>吽<anchor id="fxT18p0563b01"/><note place="inline">引</note></p>
+<lb n="0563b04"/><p>香象菩薩真言曰</p>
+<lb n="0563b05"/><p type="dharani">唵<note place="inline">引</note>巘馱賀悉帝<note place="inline">二合</note>&CB00135;<note place="inline">引</note>吽<anchor id="fxT18p0563b02"/><note place="inline">引</note></p>
+<lb n="0563b06"/><p>智幢菩薩真言曰</p>
+<lb n="0563b07"/><p type="dharani">唵<note place="inline">引</note>倪也<note place="inline">二合引</note>那計<note place="inline">引</note>&CB00418;<note place="inline">一</note>倪也<note place="inline">二合引</note>那摩底吽
+<lb n="0563b08"/><note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563b09"/><p>賢護菩薩真言曰</p>
+<lb n="0563b10"/><p type="dharani">唵<note place="inline">引</note>跋捺囉<note place="inline">二合</note>&CB00085;底<note place="inline">一</note>跋捺囉<note place="inline">二合</note>播<note place="inline">引</note>羅吽
+<lb n="0563b11"/><note n="0563008" resp="Taisho" type="orig" place="foot text">引二＝二引【宋】【元】＊</note><app n="0563008"><lem><note place="inline">引</note><note place="inline">二</note></lem><rdg wit="【宋】【元】" resp="Taisho"><note place="inline">二引</note></rdg></app></p>
+<lb n="0563b12"/><p>海意菩薩真言曰</p>
+<lb n="0563b13"/><p type="dharani">唵<note place="inline">引</note>娑<note place="inline">引</note>&CB00344;哩<note place="inline">引</note><note place="inline">一</note>摩賀<note place="inline">引</note>娑<note place="inline">引</note>&CB00344;哩<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563b14"/><p>無盡意菩薩真言曰</p>
+<lb n="0563b15"/><p type="dharani">唵<note place="inline">引</note>惡叉曳<note place="inline">引</note><note place="inline">一</note>吽吽<note place="inline">引</note><note place="inline">二</note>惡叉野羯哩摩<note place="inline">二合引</note>
+<lb n="0563b16"/>&CB00085;囉拏<note place="inline">三</note>尾輸達&CB00135;<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline"><note n="0563009" resp="Taisho" type="orig" place="foot text">引＋（四）【三】【宮】</note><note n="0563009" resp="CBETA" type="mod">引＋（四）【宋】【元】【明】【宮】</note><app n="0563009"><lem>引</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">引四</rdg></app></note></p>
+<lb n="0563b17"/><p>辯積菩薩真言曰</p>
+<lb n="0563b18"/><p type="dharani">唵<note place="inline">引</note>&CB00425;囉<note place="inline">二合</note>底婆<note place="inline">引</note>&CB00135;<note place="inline">引</note><note place="inline">一</note>&CB00425;囉<note place="inline">二合</note>底婆<note place="inline">引</note>那
+<lb n="0563b19"/>酤致<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563b20"/><p>得大勢至菩薩真言曰</p>
+<lb n="0563b21"/><p type="dharani">唵<note place="inline">引</note>娑他<note place="inline">二合引</note>弭<note place="inline">引</note><note place="inline">一</note>摩賀<note place="inline">引</note>娑他<note place="inline">二合引</note>弭<note place="inline">引</note><note place="inline">二</note>娑
+<lb n="0563b22"/>他<note place="inline">二合引</note>摩&CB00085;底娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">三</note></p>
+<lb n="0563b23"/><p>除一切罪障菩薩真言曰</p>
+<lb n="0563b24"/><note n="0563010" resp="Taisho" type="orig" place="foot text">〔唵引薩…大力王真言曰〕四百四字－【宮】</note><note n="0563010" resp="CBETA" type="mod">〔唵引薩…大力<corr sic="" resp="CBETA.say">明</corr>王真言曰〕四百四字－【宮】</note><app n="0563010" word-count="404"><lem><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合引</note>播<note place="inline">引</note>野惹呬<note place="inline">引</note><note place="inline">一</note>薩哩&CB00085;<note place="inline">二合
+<lb n="0563b25"/><note n="0563011" resp="Taisho" type="orig" place="foot text">引＋（一）【明】</note><app n="0563011"><lem>引</lem><rdg wit="【明】" resp="Taisho">引一</rdg></app></note>播<note place="inline">引</note>野輸<note place="inline">引</note>馱&CB00135;<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563b26"/><p>破一切憂闇菩薩真言曰</p>
+<lb n="0563b27"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合引</note>輸<note place="inline">引</note>哥怛<note n="0563012" resp="Taisho" type="orig" place="foot text">謨＝護【三】</note><note n="0563012" resp="CBETA" type="mod">謨＝護【宋】【元】【明】</note><app n="0563012"><lem>謨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">護</rdg></app><note place="inline">一</note>&CB00135;哩伽<note place="inline">二合引</note>怛
+<lb n="0563b28"/>那末底吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563b29"/><p>熾盛光菩薩真言曰</p>
+<pb ed="T" id="T18.0890.0563c" n="0563c"/>
+<lb n="0563c01"/><p type="dharani">唵<note place="inline">引</note>惹<note place="inline">引</note>里&CB00135;<note place="inline">引</note><note place="inline">一</note>摩賀<note place="inline">引</note>惹<note place="inline">引</note>里&CB00135;<note place="inline">引</note>吽<note place="inline"><anchor id="fxT18p0563c01"/>引</note><note place="inline">二</note></p>
+<lb n="0563c02"/><p>善財菩薩真言曰</p>
+<lb n="0563c03"/><p type="dharani">唵<note place="inline">引</note><note n="0563013" resp="Taisho" type="orig" place="foot text">酥＝蘇【明】</note><app n="0563013"><lem>酥</lem><rdg wit="【明】" resp="Taisho">蘇</rdg></app>達那室哩<note place="inline">二合引</note>野吽<note place="inline"><note n="0563014" resp="Taisho" type="orig" place="foot text">引＋（一）【宋】【元】＊，（一句）【明】＊</note><app n="0563014"><lem>引</lem><rdg wit="【宋】【元】" resp="Taisho">引一</rdg><rdg wit="【明】" resp="Taisho">引一句</rdg></app></note></p>
+<lb n="0563c04"/><p>月光菩薩真言曰</p>
+<lb n="0563c05"/><p type="dharani">唵<note place="inline">引</note>贊捺哩<note place="inline">二合引</note>酥贊捺哩<note place="inline">二合引</note><note place="inline">一</note>贊捺囉<note place="inline">二合</note>咩
+<lb n="0563c06"/><note place="inline">引</note>&CB00085;嚕吉帝娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563c07"/><p>甘露光菩薩真言曰</p>
+<lb n="0563c08"/><p type="dharani">唵<note place="inline">引</note>阿弭多&CB00425;囉<note place="inline">二合</note>毘<note place="inline">引</note><note place="inline">一</note>阿弭多末底吽<note place="inline">引
+<lb n="0563c09"/>二</note></p>
+<lb n="0563c10"/><p>虛空藏菩薩真言曰</p>
+<lb n="0563c11"/><p type="dharani">唵<note place="inline">引</note>&CB00344;&CB00344;&CB00135;<note place="inline">引</note><note place="inline">一</note>&CB00344;&CB00344;那&CB00085;囉嚕左<anchor id="fxT18p0563c02"/>&CB00135;<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563c12"/><p>除蓋障菩薩真言曰</p>
+<lb n="0563c13"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline"><note n="0563015" resp="Taisho" type="orig" place="foot text">二＝三【明】</note><app n="0563015"><lem>二</lem><rdg wit="【明】" resp="Taisho">三</rdg></app>合引</note>&CB00135;<note place="inline">引</note>&CB00085;囉拏尾瑟剛<note place="inline">二合</note>鼻
+<lb n="0563c14"/>尼吽<anchor id="fxT18p0563c03"/><note place="inline">引</note></p>
+<lb n="0563c15"/><p>復說焰鬘得迦明王真言曰</p>
+<lb n="0563c16"/><p type="dharani">唵<note place="inline">引</note>焰鬘<note place="inline">引</note>得迦吽<anchor id="fxT18p0563c04"/><note place="inline">引</note></p>
+<lb n="0563c17"/><p>&CB00425;囉<note place="inline">二合</note>研得迦明王真言曰</p>
+<lb n="0563c18"/><p type="dharani">唵<note place="inline">引</note>&CB00425;囉<note place="inline">二合</note>研得迦吽<anchor id="fxT18p0563c05"/><note place="inline">引</note></p>
+<lb n="0563c19"/><p>&CB00425;訥鬘得迦明王真言曰</p>
+<lb n="0563c20"/><p type="dharani">唵<note place="inline">引</note>&CB00425;訥鬘得迦吽<anchor id="fxT18p0563c06"/><note place="inline">引</note></p>
+<lb n="0563c21"/><p>尾覲難得迦明王真言曰</p>
+<lb n="0563c22"/><p type="dharani">唵<note place="inline">引</note>阿<note n="0563016" resp="Taisho" type="orig" place="foot text">密＝蜜【元】</note><app n="0563016"><lem>密</lem><rdg wit="【元】" resp="Taisho">蜜</rdg></app>哩<note place="inline">二合</note>多軍拏里<note place="inline"><note n="0563017" resp="Taisho" type="orig" place="foot text">一＝二令一【明】</note><app n="0563017"><lem>一</lem><rdg wit="【明】" resp="Taisho">二令一</rdg></app></note>尾覲難<note place="inline">二合引</note>得
+<lb n="0563c23"/>迦吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0563c24"/><p>不動尊明王真言曰</p>
+<lb n="0563c25"/><p type="dharani">唵<note place="inline">引</note>阿左羅吽<note place="inline">引</note>賀<note n="0563018" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0563018" resp="CBETA" type="mod">〔引〕－【宋】【元】【明】</note><app n="0563018"><lem><note place="inline">引</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0563c26"/><p>吒枳明王真言曰</p>
+<lb n="0563c27"/><p type="dharani">唵<note place="inline">引</note>吒枳吽<note place="inline">引</note>&CB00763;<note place="inline">仁作<anchor id="fxT18p0563c07"/>反</note></p>
+<lb n="0563c28"/><p><anchor id="fxT18p0563c08"/>&CB00135;羅難拏明王真言曰</p>
+<lb n="0563c29"/><p type="dharani">唵<note place="inline">引</note>&CB00135;<note place="inline">引</note>羅難拏<note place="inline">一</note>摩賀<note place="inline">引</note>難拏吽<note place="inline">引</note><note place="inline">二</note></p>
+<pb ed="T" id="T18.0890.0564a" n="0564a"/>
+<lb n="0564a01"/><p>大力明王真言曰</p></lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0564a02"/><p type="dharani">唵<note place="inline">引</note>骨嚕馱那吽<note place="inline">引</note>&CB00763;<note n="0564001" resp="Taisho" type="orig" place="foot text">上同＝上同一【宋】【元】【宮】，上同一句【明】</note><note n="0564001" resp="CBETA" type="mod">上同＝上同一【宋】【元】【宮】，＝上同一句【明】</note><app n="0564001"><lem><note place="inline">上同</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">上同一</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">上同一句</note></rdg></app></p>
+<lb n="0564a03"/><p>如是等諸大菩薩及大明王精妙字真言。安
+<lb n="0564a04"/>曼拏羅中。如是所說無數俱胝精妙字等。從
+<lb n="0564a05"/>三摩地生。時阿闍梨依法觀想已。用金剛鉤
+<lb n="0564a06"/>印請召諸佛如來。用金剛印請召諸菩薩及
+<lb n="0564a07"/>諸賢聖。用結輪印請召諸明王。用結索印請
+<lb n="0564a08"/>召諸<note n="0564002" resp="Taisho" type="orig" place="foot text">唧吒唧＝唧唧吒【三】</note><note n="0564002" resp="CBETA" type="mod">唧吒唧＝唧唧吒【宋】【元】【明】</note><app n="0564002"><lem>唧吒唧</lem><rdg wit="【宋】【元】【明】" resp="Taisho">唧唧吒</rdg></app>致。用結鉤印請召訥多訥帝等。
+<lb n="0564a09"/>此是瑜伽大教王請召儀則</p>
+<lb n="0564a10"/><juan fun="close" n="001"><jhead>佛說瑜伽大教王經卷第一</jhead></juan>
+<lb n="0564a11"/>
+<milestone unit="juan" n="2"/>
+<lb n="0564a12"/>
+<lb n="0564a13"/>
+<lb n="0564a14"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>佛說瑜伽大教王經卷第二</jhead></juan>
+<lb n="0564a15"/>
+<lb n="0564a16"/><byline type="Translator">西天譯經三藏朝散大夫試光祿卿
+<lb n="0564a17"/>明教大師臣法賢奉　詔譯</byline></div1>
+<lb n="0564a18"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 三摩地品"/><head>三摩地品第四</head>
+<lb n="0564a19"/><p>爾時世尊大遍照金剛如來。入大智力變化
+<lb n="0564a20"/>圓滿三摩地。從定出已。告金剛手大菩薩言。
+<lb n="0564a21"/>汝今諦聽。我今為汝說一切真言祕密三摩
+<lb n="0564a22"/>地法。所為持明者於曼<note n="0564003" resp="Taisho" type="orig" place="foot text">拏＝摩【元】</note><app n="0564003"><lem>拏</lem><rdg wit="【元】" resp="Taisho">摩</rdg></app>羅畢竟了知。粉畫
+<lb n="0564a23"/>佛像等依法觀想。當得畢竟大智不難。證得
+<lb n="0564a24"/>無上菩提。何況所求成就之法今說三摩地
+<lb n="0564a25"/>法於本身想出<tt rend="inline"><t lang="san-sd">&SD-E074;</t><t lang="chi">唵</t></tt>字變成大智。以慧開引
+<lb n="0564a26"/>大智。變成大遍照如來。身真金色有其三面。
+<lb n="0564a27"/>善相圓滿。頂戴寶冠垂於髮髻身有六臂。二
+<lb n="0564a28"/>手結禪定印。左第二手持般若經。第三手持
+<lb n="0564a29"/>弓。右第二手持輪。第三手持箭。身光熾盛天
+<pb ed="T" id="T18.0890.0564b" n="0564b"/>
+<lb n="0564b01"/>人悉怖化佛如雲。復攝化佛入遍照佛身。時
+<lb n="0564b02"/>阿闍梨念微妙字觀想真理</p>
+<lb n="0564b03"/><p>復次說三摩地法。復想口中<note n="0564004" resp="Taisho" type="orig" place="foot text">&SD-CFC5;＝凡【宋】</note><note n="0564004" resp="CBETA" type="mod"><todo type="a"/>&SD-CFC5;＝凡【宋】</note><tt rend="inline"><t lang="san-sd">&SD-CFC5;</t><t lang="chi">阿</t></tt>字。阿字
+<lb n="0564b04"/>變成無量壽佛。其身白色六臂三面。面各三
+<lb n="0564b05"/>目頂戴寶冠。冠有遍照如來而垂髮髻。一切
+<lb n="0564b06"/><note n="0564005" resp="Taisho" type="orig" place="foot text">裝嚴＝莊嚴【三】【宮】下同</note><note n="0564005" resp="CBETA" type="mod">裝嚴＝莊嚴【宋】【元】【明】【宮】下同</note><app n="0564005"><lem>裝嚴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">莊嚴</rdg></app>二手開蓮花。右第二手持金剛杵。第三
+<lb n="0564b07"/>手持數珠。左第二手持般若經。第三手執軍
+<lb n="0564b08"/>持。光明熾盛遍身普照。變化金剛杵。諸魔驚
+<lb n="0564b09"/>怖迷悶躄地。如是阿闍<note n="0564006" resp="Taisho" type="orig" place="foot text">梨＝&CB00932;【明】＊</note><app n="0564006"><lem>梨</lem><rdg wit="【明】" resp="Taisho">&CB00932;</rdg></app>觀想口金剛非久
+<lb n="0564b10"/>證菩提。此名一切相最上廣大法藏三摩地</p>
+<lb n="0564b11"/><p>復說三摩地法。時阿闍<anchor id="fxT18p0564b01"/>梨想自本心而為月
+<lb n="0564b12"/>輪。月輪變成<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字吽字變成阿&CB00434;佛。身翡
+<lb n="0564b13"/>翠色八臂三面。面各三目頂戴寶冠。色相妙
+<lb n="0564b14"/>善一切裝嚴。右第一手持金剛杵。第二手持
+<lb n="0564b15"/>利劍。第三手持鉤。第四手持箭。左第一手持
+<lb n="0564b16"/>鈴。第二手持般若經。第三手持&CB00559;索。第四手
+<lb n="0564b17"/>持弓。如是想阿&CB00434;佛遍滿虛空。時阿闍<anchor id="fxT18p0564b02"/>梨若
+<lb n="0564b18"/>常以金剛定心觀想。不久證<note n="0564007" resp="Taisho" type="orig" place="foot text">大＝火【宋】</note><app n="0564007"><lem>大</lem><rdg wit="【宋】" resp="Taisho">火</rdg></app>菩提。此名
+<lb n="0564b19"/>超老死<note n="0564008" resp="Taisho" type="orig" place="foot text">大＝定【宋】</note><app n="0564008"><lem>大</lem><rdg wit="【宋】" resp="Taisho">定</rdg></app>心圓滿力金剛無邊三摩地</p>
+<lb n="0564b20"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1BD;</t><t lang="chi"><yin><zi>怛&CB00772;</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0564b21"/>變為大智。大智化成寶生佛。身現赤色四臂
+<lb n="0564b22"/>三面。面各三目善相圓滿。頂戴寶冠身嚴眾
+<lb n="0564b23"/>寶。結跏趺坐二手結禪定印。右第二手持金
+<lb n="0564b24"/>剛杵。左第二手持如意寶。遍滿虛空悉現寶
+<lb n="0564b25"/>生如來。降大寶雨及化諸菩薩。此名寶生大
+<lb n="0564b26"/>智金剛三摩地</p>
+<lb n="0564b27"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A456;</t><t lang="chi">亢</t></tt>字<note n="0564009" resp="Taisho" type="orig" place="foot text">（即）＋變【三】</note><note n="0564009" resp="CBETA" type="mod">（即）＋變【宋】【元】【明】</note><app n="0564009"><lem>變</lem><rdg wit="【宋】【元】【明】" resp="Taisho">即變</rdg></app>為
+<lb n="0564b28"/>大智。大智化為不空成就佛。身現綠色四臂
+<lb n="0564b29"/>二手結禪定印。右第二手持利劍。左第二手
+<pb ed="T" id="T18.0890.0564c" n="0564c"/>
+<lb n="0564c01"/>持鉤。變化諸佛如雨滿空。悉作一切成就法。
+<lb n="0564c02"/>放大光明與智海無異。如是觀想虛空藏大
+<lb n="0564c03"/>牟尼。彼人與虛空等離一切有為法。此名虛
+<lb n="0564c04"/>空性大智金剛三摩地。如是說五如來三摩
+<lb n="0564c05"/>地法已</p>
+<lb n="0564c06"/><p>復說四親近菩薩觀想法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A654;</t>
+<lb n="0564c07"/><t lang="chi">朗</t></tt>
+字變為大智。大智化成佛眼菩薩。身真金
+<lb n="0564c08"/>色一切裝嚴。八臂三面面各三目善相圓滿。
+<lb n="0564c09"/>右第一手作施願印第二手作無畏印。第三
+<lb n="0564c10"/>手持金剛杵。第四手持箭。左第一手持&CB00559;索。
+<lb n="0564c11"/>頭指&CB00594;立作期剋印。第二手持寶樹枝。第三
+<lb n="0564c12"/>手持數珠。第四手持弓。放赤色光明化<note n="0564010" resp="Taisho" type="orig" place="foot text">佛如明本作夾註</note><note n="0564010" resp="CBETA" type="mod">（佛如）本文＝（佛如）夾註【明】</note><app n="0564010"><lem>佛
+<lb n="0564c13"/>如</lem><rdg wit="【明】" resp="Taisho"><note place="inline">佛如</note></rdg></app>雲。如是觀想大智。金剛諸天驚怖。悉皆合
+<lb n="0564c14"/>掌作禮。如是觀想佛眼菩薩。以菩提分力而
+<lb n="0564c15"/>為裝嚴。此名佛眼變化大智金剛三摩地</p>
+<lb n="0564c16"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1BE;</t><t lang="chi">&CB00805;</t></tt>字變為
+<lb n="0564c17"/>大智。大智化成摩摩枳菩薩。身如優&CB00425;羅花
+<lb n="0564c18"/>色六臂三面。面各三目放赤色光明。右第一
+<lb n="0564c19"/>手作無畏印。第二手持金剛杵。第三手持箭。
+<lb n="0564c20"/>左第一手作期剋印。第二手持&CB00559;索。第三手
+<lb n="0564c21"/>持弓。變化諸佛如雨滿空。如是觀想三身大
+<lb n="0564c22"/>力金剛。從於無相而現有相。此名幻生大智
+<lb n="0564c23"/>力甚深三摩地</p>
+<lb n="0564c24"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A5BF;</t><t lang="chi">邦</t></tt>字變為
+<lb n="0564c25"/>大智。大智化成白衣菩薩。身現白色六臂三
+<lb n="0564c26"/>面。面各三目一切裝嚴。右第一手作無畏印。
+<lb n="0564c27"/>第二手持金剛杵。第三手持箭。左第一手持
+<lb n="0564c28"/>蓮花。第二手持數珠。第三手持弓。結跏趺坐
+<lb n="0564c29"/>觀想。蓮花。化佛如雲滿虛空界。如是觀想此
+<pb ed="T" id="T18.0890.0565a" n="0565a"/>
+<lb n="0565a01"/>三摩地。是人當得最上菩提。此名蓮花神通
+<lb n="0565a02"/>最勝佛智金剛三摩地</p>
+<lb n="0565a03"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A561;</t><t lang="chi"><yin><zi>當</zi><sg type="fangie">丁江切</sg></yin></t></tt>字變
+<lb n="0565a04"/>為大智。大智化成多羅菩薩。諸相圓滿身現
+<lb n="0565a05"/>綠色。六臂三面面各三目結跏趺坐。放赤色
+<lb n="0565a06"/>光遍滿熾盛變化。諸佛遍滿虛空觀想菩薩
+<lb n="0565a07"/>為一切眾生之母右第一手作無畏印。第二
+<lb n="0565a08"/>手持金剛杵。第三手持箭。左第一手作期剋
+<lb n="0565a09"/>印。第二手持優&CB00425;羅花。第三手持弓。此名降
+<lb n="0565a10"/>伏一切眾生大樂智金剛三摩地</p>
+<lb n="0565a11"/><p>復說三摩地法。時阿闍梨觀想四親近菩薩。
+<lb n="0565a12"/>所謂薩埵金剛菩薩。寶金剛菩薩。法金剛菩
+<lb n="0565a13"/>薩。羯磨金剛菩薩。如前想已不久證大菩提。
+<lb n="0565a14"/>此名四聖諦歡喜三摩地</p>
+<lb n="0565a15"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E0BA;</t><t lang="chi">尊</t></tt>字變成
+<lb n="0565a16"/>大智。大智化成尊那菩薩。七俱胝如來三身。
+<lb n="0565a17"/>讚說此菩薩真言成九字。亦成九分法成九
+<lb n="0565a18"/>大菩薩。身如秋月色眾寶裝嚴。諸相圓滿能
+<lb n="0565a19"/>度一切賢聖。此菩薩二十六臂三面。面各三
+<lb n="0565a20"/>目。正面善相微笑。右面大青色作忿怒相。利
+<lb n="0565a21"/>牙<note n="0565001" resp="Taisho" type="orig" place="foot text">〔如〕－【三】【宮】</note><note n="0565001" resp="CBETA" type="mod">〔如〕－【宋】【元】【明】【宮】</note><app n="0565001"><lem>如</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>初月舌如閃電。左面黃色&CB00599;唇。此菩
+<lb n="0565a22"/>薩或坐或立如戲舞勢。二手結本印安於心
+<lb n="0565a23"/>中。右第二手作無畏印。第三手持劍。第四手
+<lb n="0565a24"/>持寶瓔珞。第五手持海甘果。第六手持箭。第
+<lb n="0565a25"/>七手持鉞斧。第八手持寶棒。第九手持骨
+<lb n="0565a26"/><note n="0565002" resp="Taisho" type="orig" place="foot text">朵＝&CB03917;【宋】【元】＊</note><app n="0565002"><lem>朵</lem><rdg wit="【宋】【元】" resp="Taisho">&CB03917;</rdg></app>。第十手持鉤。第十一手持金剛杵。第十
+<lb n="0565a27"/>二手作期剋印。第十三手持數珠。左第二手
+<lb n="0565a28"/>持如意寶幢。第三手持蓮花。第四手執軍持。
+<lb n="0565a29"/>第五手持&CB00559;索。第六手持弓。第七手持爍吉
+<pb ed="T" id="T18.0890.0565b" n="0565b"/>
+<lb n="0565b01"/>帝。第八手持輪。第九手持螺。第十手作期剋
+<lb n="0565b02"/>印。第十一手持賢瓶。第十二手持頻尼波羅。
+<lb n="0565b03"/>第十三手持般若經。坐蓮花座遍身光明。著
+<lb n="0565b04"/>阿蹉哥衣偏袒掛絡腋。及種種衣服裝嚴。變
+<lb n="0565b05"/>化諸佛遍滿虛空。如是尊那菩薩具大神通
+<lb n="0565b06"/>力。諸天魔等見之驚怖。悉<note n="0565003" resp="Taisho" type="orig" place="foot text">〔智〕－【三】</note><note n="0565003" resp="CBETA" type="mod">〔智〕－【宋】【元】【明】</note><app n="0565003"><lem>智</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>皆向前合掌
+<lb n="0565b07"/>頂禮。如是阿闍梨若常觀想持此真言。彼人
+<lb n="0565b08"/>不久證大菩提。若入此三摩地。剎那之間能
+<lb n="0565b09"/>除一切罪。何況別成就法。此名無邊勝大智
+<lb n="0565b10"/>尊那大力金剛最勝三摩地</p>
+<lb n="0565b11"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A648;</t><t lang="chi">&CB00772;</t></tt>字變成
+<lb n="0565b12"/>大智。大智化成寶光菩薩。身真金色結跏趺
+<lb n="0565b13"/>坐六臂三面。面各三目諸相圓滿。面顏微笑
+<lb n="0565b14"/>眾寶裝嚴。二手持寶寶放光明。右第二手作
+<lb n="0565b15"/>無畏印。第三手持箭。左第二手作期剋諸惡
+<lb n="0565b16"/>印。第三手持弓。身有赤色光明。化佛如雲遍
+<lb n="0565b17"/>滿虛空。如是觀想此菩薩。最上妙法藏能除
+<lb n="0565b18"/>諸惡不久成菩提。此名寶雲佛智光照三摩
+<lb n="0565b19"/>地</p>
+<lb n="0565b20"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E0BB;</t><t lang="chi"><yin><zi>勃零</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0565b21"/>變成大智。大智化成顰眉菩薩。能度諸怖
+<lb n="0565b22"/>畏身如秋月色。六臂三面面各三目。現喜怒
+<lb n="0565b23"/>相光明熾盛。右第一手持金剛杵。第二手持
+<lb n="0565b24"/>寶杖。第三手持箭。左第一手持&CB00559;索及作期
+<lb n="0565b25"/>剋印。第二手執軍持。第三手持弓。化佛如
+<lb n="0565b26"/>雲。如是行住坐臥&M010527;作觀想。能除一切怖畏
+<lb n="0565b27"/>必得菩提。此名能除一切怖畏大智金剛三
+<lb n="0565b28"/>摩地</p>
+<lb n="0565b29"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<pb ed="T" id="T18.0890.0565c" n="0565c"/>
+<lb n="0565c01"/>大智。大智化成金剛鎖菩薩。此即諸佛母能
+<lb n="0565c02"/>降惡眾生。身現綠色六臂三面。面各三目作
+<lb n="0565c03"/>微笑相眾寶裝嚴。右第一手持金剛杵。第二
+<lb n="0565c04"/>手持金剛鎖。第三手持箭。左第一手作期剋
+<lb n="0565c05"/>印。第二手持&CB00559;索。第三手持弓。化佛如雲。如
+<lb n="0565c06"/>是觀想金剛鎖菩薩。彼人不久證大菩提。何
+<lb n="0565c07"/>況別成就法。此名金剛鎖解脫大智金剛三
+<lb n="0565c08"/>摩地</p>
+<lb n="0565c09"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A5EC;</t><t lang="chi">昧</t></tt>字變成
+<lb n="0565c10"/>大智。大智化成慈氏菩薩。四臂三面面各三
+<lb n="0565c11"/>目。於蓮花上結跏趺坐。二手結說法印。右第
+<lb n="0565c12"/>二手作施願印為利眾生故。左第二手持龍
+<lb n="0565c13"/>花杖。變化諸佛及化菩薩如雲滿空。如是觀
+<lb n="0565c14"/>想所獲功德如前無異。此名慈氏力大智最
+<lb n="0565c15"/>勝三摩地</p>
+<lb n="0565c16"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1BF;</t><t lang="chi">蒙</t></tt>字變成
+<lb n="0565c17"/>大智。大智化成妙吉祥菩薩。作童子相具大
+<lb n="0565c18"/>辯才。智慧第一善說妙法。三面面各三目。頭
+<lb n="0565c19"/>有三髻頂戴阿&CB00434;佛。於蓮花上結跏趺坐。以
+<lb n="0565c20"/>種種花嚴飾其身。諸相圓滿而作微笑。身有
+<lb n="0565c21"/>六臂。右第一手作施願印。第二手持劍。第三
+<lb n="0565c22"/>手持箭。左第一手持般若經。第二手持優&CB00425;
+<lb n="0565c23"/>羅花。第三手持弓。化佛如雲。如是觀想得大
+<lb n="0565c24"/>勝利與前無異。此名大智慧光妙金剛三摩
+<lb n="0565c25"/>地</p>
+<lb n="0565c26"/><p>爾時世尊說此三摩地法已。復說諸菩薩摩
+<lb n="0565c27"/>訶薩觀想之法。所謂香象菩薩。智幢菩薩。賢
+<lb n="0565c28"/>護菩薩。海意菩薩。無盡意菩薩。辯積菩薩。得
+<lb n="0565c29"/>大勢至菩薩。除一切罪障菩薩。破諸憂暗菩
+<pb ed="T" id="T18.0890.0566a" n="0566a"/>
+<lb n="0566a01"/>薩。熾盛光菩薩。月光菩薩。甘露光菩薩。虛
+<lb n="0566a02"/>空藏菩薩。除蓋障菩薩。如是等無數阿僧祇
+<lb n="0566a03"/>菩薩摩訶薩。若諸眾生如前儀軌一一觀想。
+<lb n="0566a04"/>諸微妙字變成大智。大智化成菩薩。各有三
+<lb n="0566a05"/>面面各三目。或四臂六臂等。各執&CB00124;幟神通
+<lb n="0566a06"/>變化。若人<note n="0566001" resp="Taisho" type="orig" place="foot text">志＝至【元】【明】＊</note><app n="0566001"><lem>志</lem><rdg wit="【元】【明】" resp="Taisho">至</rdg></app>誠持誦依法相續。彼人不久速
+<lb n="0566a07"/>得成就無上佛道。利樂一切有情</p>
+<lb n="0566a08"/><p>復說諸大明王三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-DA74;</t>
+<lb n="0566a09"/><t lang="chi">吽</t></tt>
+字變成大智。大智化成焰鬘得迦忿怒明
+<lb n="0566a10"/>王。以日輪為圓光熾盛如劫火。身色如青雲
+<lb n="0566a11"/>身短腹大。六臂六足六面面各三目。正面開
+<lb n="0566a12"/>口作大忿怒相。金剛利牙出外舌如閃電。頂
+<lb n="0566a13"/>戴阿&CB00434;佛。右面出舌。左面&CB00599;脣作忿怒相。頂
+<lb n="0566a14"/>戴妙吉祥菩薩。右第一手持利劍。第二手持
+<lb n="0566a15"/>金剛杵。第三手持箭。左第一手持&CB00559;索及作
+<lb n="0566a16"/>期剋印。第二手持般若經第三手持弓。虎皮
+<lb n="0566a17"/>為衣以八龍嚴飾。髑髏為冠髮髻黃色。乘<note n="0566002" resp="Taisho" type="orig" place="foot text">〔於〕－【明】</note><app n="0566002"><lem>於</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>
+<lb n="0566a18"/>水牛飾以蓮花為座。而垂右足。下面諸魔悉
+<lb n="0566a19"/>皆驚怖。亦名能降焰魔王具大辯才。光焰赤
+<lb n="0566a20"/>色化佛如雲。如是阿闍梨於行住坐臥常<note n="0566003" resp="Taisho" type="orig" place="foot text">住＝作【三】【宮】</note><note n="0566003" resp="CBETA" type="mod">住＝作【宋】【元】【明】【宮】</note><app n="0566003"><lem>住</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">作</rdg></app>
+<lb n="0566a21"/>此觀。設復受五<note n="0566004" resp="Taisho" type="orig" place="foot text">慾＝欲【三】</note><note n="0566004" resp="CBETA" type="mod">慾＝欲【宋】【元】【明】</note><app n="0566004"><lem>慾</lem><rdg wit="【宋】【元】【明】" resp="Taisho">欲</rdg></app>樂。心如虛空俱不染著。
+<lb n="0566a22"/>所獲功德無量無邊。此名成一切事大智金
+<lb n="0566a23"/>剛降伏焰魔王調伏諸魔三摩地</p>
+<lb n="0566a24"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-AABC;</t><t lang="chi"><yin><zi>&CB00425;囉</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0566a25"/>變成大智。大智化成&CB00425;囉研得迦忿怒明王。
+<lb n="0566a26"/>六臂三面面各三目。身黃色放赤色光。蓮花
+<lb n="0566a27"/>上坐垂於一足。以八龍王裝嚴其身。正面微
+<lb n="0566a28"/>笑頂戴阿&CB00434;佛。右面青色現忿怒相。左面白
+<lb n="0566a29"/>色以齒&CB00599;脣。右第一手持金剛杵。第二手持
+<pb ed="T" id="T18.0890.0566b" n="0566b"/>
+<lb n="0566b01"/>寶棒。第三手持箭。左第一手持&CB00559;索及作期
+<lb n="0566b02"/>剋印。第二手持般若經。第三手持弓。如是觀
+<lb n="0566b03"/>想變化神通已。及&M010527;持誦是人。不久證大菩
+<lb n="0566b04"/>提。此名無能勝大智金剛三摩地</p>
+<lb n="0566b05"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0566b06"/>大智。大智化成&CB00425;訥鬘得迦忿怒明王。身現
+<lb n="0566b07"/>赤色八臂三面面各三目。正面微笑。右面青
+<lb n="0566b08"/>色出金剛舌現忿怒顧視。左面黃色利牙&CB00599;
+<lb n="0566b09"/>脣現忿怒相右第一手持金剛杵。第二手持
+<lb n="0566b10"/>寶杖。第三手持哥拏<note n="0566005" resp="Taisho" type="orig" place="foot text">耶＝邪【明】</note><app n="0566005"><lem>耶</lem><rdg wit="【明】" resp="Taisho">邪</rdg></app>。第四手持箭。左第
+<lb n="0566b11"/>一手作期剋印。第二手持般若經。第三手持
+<lb n="0566b12"/>蓮花。第四手持弓。虎皮為衣以八龍裝嚴。坐
+<lb n="0566b13"/>於蓮花上而垂一足。有大威力復能變化無
+<lb n="0566b14"/>數諸佛。如是觀想決定成就所作一切事。此
+<lb n="0566b15"/>名馬頭最勝金剛三摩地</p>
+<lb n="0566b16"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0566b17"/>大智。大智化成尾覲難<note n="0566006" resp="Taisho" type="orig" place="foot text">得迦忿怒明缺明本</note><note n="0566006" resp="CBETA" type="mod">〔得迦忿怒明〕－【明】</note><app n="0566006"><lem>得迦忿怒明</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>王。身大
+<lb n="0566b18"/>青色六臂三面。面各三目頂戴阿&CB00434;佛。正面
+<lb n="0566b19"/>微笑。右面白色現忿怒相。左面如優&CB00425;羅花
+<lb n="0566b20"/>色。以齒&CB00599;脣現忿怒相。右第一手持利劍。第
+<lb n="0566b21"/>二手持鉞斧。第三手持箭。左第一手持&CB00559;索
+<lb n="0566b22"/>及作期剋印。第二手持般若經。第三手持弓。
+<lb n="0566b23"/>左足踏諸魔右足踏蓮花。具大神通能除諸
+<lb n="0566b24"/>魔。化佛如雲遍滿虛空。如是依法觀想。所作
+<lb n="0566b25"/>所求一切如意。此名除一切魔最勝金剛三
+<lb n="0566b26"/>摩地</p>
+<lb n="0566b27"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A6B2;</t><t lang="chi">&CB00780;</t></tt><note n="0566007" resp="Taisho" type="orig" place="foot text">字＋（呼郎切）細註【明】</note><app n="0566007"><lem>字</lem><rdg wit="【明】" resp="Taisho">字<note place="inline">呼郎切</note></rdg></app>變成
+<lb n="0566b28"/>大智。大智化成不動尊忿怒明王。作妙眼童
+<lb n="0566b29"/>子相身翡翠色。頂戴冠內有阿&CB00434;佛。六臂三
+<pb ed="T" id="T18.0890.0566c" n="0566c"/>
+<lb n="0566c01"/>面面各三目。正面微笑。右面黃色現忿怒相。
+<lb n="0566c02"/>開口出舌舌如紅蓮。左面白色以齒&CB00599;脣現
+<lb n="0566c03"/>大忿怒相。右第一手持劍。第二手持金剛杵。
+<lb n="0566c04"/>第三手持箭。左第一手持&CB00559;索及作期剋印。
+<lb n="0566c05"/>第二手持般若經。第三手持弓。放赤色光遍
+<lb n="0566c06"/>滿照曜。坐蓮花上垂於一足。而彼座下有大
+<lb n="0566c07"/>寶山。心念吽字能除諸魔。具無邊神通。化佛
+<lb n="0566c08"/>如雲遍滿虛空。如是依法觀想。彼人已踐聖
+<lb n="0566c09"/>道不久成佛。此名一切如來證覺不動智變
+<lb n="0566c10"/>化金剛三摩<note n="0566008" resp="Taisho" type="orig" place="foot text">地＝也【明】</note><app n="0566008"><lem>地</lem><rdg wit="【明】" resp="Taisho">也</rdg></app></p>
+<lb n="0566c11"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0566c12"/>大智。大智化成吒枳忿怒明王。身如青雲色。
+<lb n="0566c13"/>六臂三面面各三目。頂戴寶冠冠內有佛。正
+<lb n="0566c14"/>面微笑。右<note n="0566009" resp="Taisho" type="orig" place="foot text">明本面現作夾註</note><note n="0566009" resp="CBETA" type="mod">（面現）本文＝（面現）夾註【明】</note><app n="0566009"><lem>面現</lem><rdg wit="【明】" resp="Taisho"><note place="inline">面現</note></rdg></app>忿怒相。左面白色以齒&CB00599;
+<lb n="0566c15"/>脣現顰眉忿怒相。二手結吒枳印。右第二手
+<lb n="0566c16"/>持金剛杵。第三手持箭。左第二手持般若經。
+<lb n="0566c17"/>第三手持弓。放赤色光遍滿照曜。坐蓮花上
+<lb n="0566c18"/>垂於一足。化佛如雲遍滿虛空。下有諸魔悉
+<lb n="0566c19"/>皆驚怖合掌作禮。如是依法觀想當得最上
+<lb n="0566c20"/>大智。此名<note n="0566010" resp="Taisho" type="orig" place="foot text">善＝喜【元】【明】</note><app n="0566010"><lem>善</lem><rdg wit="【元】【明】" resp="Taisho">喜</rdg></app>鉤一切眾生最勝金剛三摩地</p>
+<lb n="0566c21"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0566c22"/>大智。大智化成&CB00135;羅難拏忿怒明王。身大青
+<lb n="0566c23"/>色六臂三面面各三目。正面微笑。右面黃色
+<lb n="0566c24"/>現忿怒相。左面青雲色以齒&CB00599;脣。頂戴寶冠
+<lb n="0566c25"/>冠內有佛。右第一手持金剛杵。第二手持寶
+<lb n="0566c26"/>杖。第三手持箭。左第一手持&CB00559;索及作期剋
+<lb n="0566c27"/>印。第二手持般若經。第三手持弓。赤色圓光
+<lb n="0566c28"/>遍滿照曜。八大龍王而為嚴飾。坐蓮花上垂
+<lb n="0566c29"/>於一足。化佛如雲遍滿虛空。如是依法觀想
+<pb ed="T" id="T18.0890.0567a" n="0567a"/>
+<lb n="0567a01"/>所獲功德如前無異。此名大智金剛三摩地</p>
+<lb n="0567a02"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0567a03"/>大智。大智化成大力忿怒明王。身如雲色八
+<lb n="0567a04"/>臂三面。面各三目目作赤色。髮赤&CB00594;立頂戴
+<lb n="0567a05"/>阿&CB00434;佛。正面微笑。右面金色作忿怒相。左面
+<lb n="0567a06"/>白色以齒&CB00599;脣。右第一手持金剛杵。第二手
+<lb n="0567a07"/>持寶杖。第三手持劍。第四手持箭。左第一手
+<lb n="0567a08"/>持&CB00559;索及作期剋印。第二手持般若經。第三
+<lb n="0567a09"/>手持骨<anchor id="fxT18p0567a01"/>朵。第四手持弓。坐於蓮花而垂一
+<lb n="0567a10"/>足。白輪圓光遍滿照曜。作忿怒顧視。諸天&CB00418;
+<lb n="0567a11"/>之深生驚怖避走十方。化佛如雲遍滿虛空。
+<lb n="0567a12"/>如是依法<anchor id="fxT18p0567a02"/>志心觀想。所獲功德與前無異。此
+<lb n="0567a13"/>名大力大智最勝金剛三摩地</p>
+<lb n="0567a14"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E0EF;</t><t lang="chi"><yin><zi>勃龍</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0567a15"/>變成大智。大智化成大輪佛頂。身現金色有
+<lb n="0567a16"/>大圓光遍滿照曜。三面面各三目。手作彈定
+<lb n="0567a17"/>印金剛蓮花上坐。於其座下有大寶山。彼佛
+<lb n="0567a18"/>兩邊有四親近菩薩。諸相圓滿面現笑容。手
+<lb n="0567a19"/>持寶金剛杵。優&CB00425;羅花及蓮花等。種種衣服
+<lb n="0567a20"/>而為裝嚴。於大輪佛頂外復想輪圍。於彼圍
+<lb n="0567a21"/>內<note n="0567001" resp="Taisho" type="orig" place="foot text">面＝而【三】</note><note n="0567001" resp="CBETA" type="mod">面＝而【宋】【元】【明】</note><app n="0567001"><lem>面</lem><rdg wit="【宋】【元】【明】" resp="Taisho">而</rdg></app>有五色金剛光明普遍照曜。化佛如雲
+<lb n="0567a22"/>遍滿虛空。如是依法觀想大輪<note n="0567002" resp="Taisho" type="orig" place="foot text">〔佛〕－【三】</note><note n="0567002" resp="CBETA" type="mod">〔佛〕－【宋】【元】【明】</note><app n="0567002"><lem>佛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>頂。若人
+<lb n="0567a23"/>樂求生佛剎土。彼人決定隨願得生。非久之
+<lb n="0567a24"/>間速證菩提。此名裝嚴一切佛剎大智大輪
+<lb n="0567a25"/>金剛三摩地</p>
+<lb n="0567a26"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A4B6;</t><t lang="chi">惹</t></tt>字變成
+<lb n="0567a27"/>大智。大智化成大夜叉主。名寶藏神。身黃色
+<lb n="0567a28"/>二臂三面。頂戴寶冠內有五佛。於冠左邊少
+<lb n="0567a29"/>有所損。坐於蓮花上。座下有<note n="0567003" resp="Taisho" type="orig" place="foot text">賢＝寶【三】【宮】</note><note n="0567003" resp="CBETA" type="mod">賢＝寶【宋】【元】【明】【宮】</note><app n="0567003"><lem>賢</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">寶</rdg></app>瓶滿盛諸
+<pb ed="T" id="T18.0890.0567b" n="0567b"/>
+<lb n="0567b01"/>寶。右手持海甘子。左手持鼠囊。兩邊有四夜
+<lb n="0567b02"/>叉女。身貌端正眾寶裝嚴。降一切寶雨化佛
+<lb n="0567b03"/>滿空。如是依法觀想。欲求財寶不久遍地。現
+<lb n="0567b04"/>大財寶得大富貴。復想己手掌中出甘露水
+<lb n="0567b05"/>施寶藏神。此名施寶雨大智金剛三摩地</p>
+<lb n="0567b06"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A5EF;</t><t lang="chi">&CB00805;</t></tt>字變成
+<lb n="0567b07"/>大智。大智化成日前菩薩。形容如十六歲。圓
+<lb n="0567b08"/>光熾盛身真金色。光明照耀踰於千日。以種
+<lb n="0567b09"/>種寶裝嚴其身。乘七馬車頂戴五如來冠。以
+<lb n="0567b10"/>大神通力擁護十方。六臂三面面各三目。正
+<lb n="0567b11"/>面圓滿微笑。右第一手持金剛杵。第二手持
+<lb n="0567b12"/>針連線。第三手持箭。左第一手持&CB00559;索及作
+<lb n="0567b13"/>期剋印。第二手持無憂樹枝。第三手持弓。以
+<lb n="0567b14"/>神通力能禁縛一切諸惡眾生。乃至縫彼眼
+<lb n="0567b15"/>耳口鼻等。如是常作觀想。及持此菩薩根本
+<lb n="0567b16"/>真言。能降伏一切眾生。能銷除一切煩惱。乃
+<lb n="0567b17"/>至成無上菩提。此名隱身諸惡最上大智金
+<lb n="0567b18"/>剛三摩地</p>
+<lb n="0567b19"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1C0;</t><t lang="chi">邦</t></tt>字變成
+<lb n="0567b20"/>大智。大智化成&CB00425;蘭拏賒&CB00085;哩菩薩。身現金
+<lb n="0567b21"/>色坐於蓮花上頂戴五如來冠。想降甘露雨。
+<lb n="0567b22"/>身有圓光熾盛照曜。以花鬘嚴飾六臂。三面
+<lb n="0567b23"/>面各三目現喜怒相一切裝嚴。右第一手持
+<lb n="0567b24"/>金剛杵。第二手持鉞斧。第三手持箭。左第一
+<lb n="0567b25"/>手持&CB00559;索及作期剋印。第二手持貝葉樹枝。
+<lb n="0567b26"/>第三手持弓能變。化忿怒明王如雲<note n="0567004" resp="Taisho" type="orig" place="foot text">偏＝遍【三】</note><note n="0567004" resp="CBETA" type="mod">偏＝遍【宋】【元】【明】</note><app n="0567004"><lem>偏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">遍</rdg></app>空。而
+<lb n="0567b27"/>彼明王以熾盛光降諸惡曜。復作忿怒熾盛
+<lb n="0567b28"/>勢。其明王頂戴阿&CB00434;佛。如是依法觀想。能除
+<lb n="0567b29"/>諸魔驚怖及諸災障。此名息除一切諸魔塵
+<pb ed="T" id="T18.0890.0567c" n="0567c"/>
+<lb n="0567c01"/>垢大智金剛三摩地</p>
+<lb n="0567c02"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A4C1;</t><t lang="chi">惹</t></tt>字變成
+<lb n="0567c03"/>大智。大智化成穰虞利菩薩。作童子相頭有
+<lb n="0567c04"/>七龍。龍頭有如意珠光明遍照。頂戴阿&CB00434;佛
+<lb n="0567c05"/>及種種花。面現喜怒相以大龍繫腰。坐於蓮
+<lb n="0567c06"/>花上。身相金色放赤圓光。六臂三面面各三
+<lb n="0567c07"/>目。右第一手持金剛杵。第二手持劍。第三手
+<lb n="0567c08"/>作舞勢及持箭。左第一手持&CB00559;索及作期剋
+<lb n="0567c09"/>印。第二手持尾沙花。第三手持弓。如是菩薩
+<lb n="0567c10"/>復<note n="0567005" resp="Taisho" type="orig" place="foot text">化＝作【明】</note><app n="0567005"><lem>化</lem><rdg wit="【明】" resp="Taisho">作</rdg></app>五色虹光明遍滿。如是持誦者。若見有
+<lb n="0567c11"/>情遭惡毒所害。觀想諸佛滿虛空中。手持甘
+<lb n="0567c12"/>露瓶灌於彼人頂。復想彼人口門有一<tt rend="inline"><t lang="san-sd">&SD-A473;</t><t lang="chi">&CB00768;</t></tt>
+<lb n="0567c13"/>字其毒即除永獲安樂。如是依法觀想。不久
+<lb n="0567c14"/>證大菩提。此名能斷除一切煩惱及諸惡毒
+<lb n="0567c15"/>大智龍王金剛三摩地</p>
+<lb n="0567c16"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E17C;</t><t lang="chi">吽</t></tt>字變成
+<lb n="0567c17"/>大智。大智化成訶邏曷羅菩薩。身大白色八
+<lb n="0567c18"/>臂三面。面各三目。頂戴寶冠如半月相。冠內
+<lb n="0567c19"/>有佛相好圓滿。面現笑容作貢高勢。右第一
+<lb n="0567c20"/>手執金剛杵。第二手持數珠第三手持箭。第
+<lb n="0567c21"/>四手持三叉。左第一手持蓮花。第二手持般
+<lb n="0567c22"/>若經。第三手持弓。第四手持髑髏。內安種種
+<lb n="0567c23"/>花一切裝嚴身。而彼菩薩於寶山巖中。處紅
+<lb n="0567c24"/>蓮花座而垂一足。以虎皮為衣。如是依法觀
+<lb n="0567c25"/>想。諸佛滿空作大神通。及<anchor id="fxT18p0567c01"/>志心持誦。設不
+<lb n="0567c26"/>持齋戒隨意飲食。亦得速成大覺菩提。此名
+<lb n="0567c27"/>能成就一切事訶邏曷羅大喜大智金剛三摩
+<lb n="0567c28"/>地</p>
+<lb n="0567c29"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A6A7;</t><t lang="chi">索</t></tt>字變成
+<pb ed="T" id="T18.0890.0568a" n="0568a"/>
+<lb n="0568a01"/>大智。大智化成降大千界菩薩。彼菩薩能除
+<lb n="0568a02"/>一切有情諸惡及諸病苦。身有千臂千面。面
+<lb n="0568a03"/>各三目。今現略相而有八臂四面。面各三目
+<lb n="0568a04"/>身綠色。作貢高忿怒勢。右第一手作施願印。
+<lb n="0568a05"/>第二手持劍。第三手持鉤。第四手持箭。左第
+<lb n="0568a06"/>一手持蓮花。花內有摩尼金剛杵。第二手持
+<lb n="0568a07"/>&CB00559;索。第三手持弓。第四手持鉞斧。發大精
+<lb n="0568a08"/>進力化本部佛。遍滿虛空降千界魔。如是依
+<lb n="0568a09"/>法觀想持誦真言力。以大熾盛光攝他象馬
+<lb n="0568a10"/>軍。及能成一切事。能作擁護及降伏等。此名
+<lb n="0568a11"/>觀視大軍擁護一切及降大千界大智金剛三
+<lb n="0568a12"/>摩地</p>
+<lb n="0568a13"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A56D;</t><t lang="chi"><yin><zi>特網</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0568a14"/>變成大智。大智化成最上寶幢菩薩。身真金
+<lb n="0568a15"/>色現忿怒相。八臂四面面各三目。右第一手
+<lb n="0568a16"/>持劍。第二手持擣杵。第三手持輪。第四手持
+<lb n="0568a17"/>箭。左第一手持三叉。第二手持金剛杵。第三
+<lb n="0568a18"/>手持弓。第四手作期剋諸魔印。如是依法觀
+<lb n="0568a19"/>想此菩薩。不久證大菩提。此名降三界最上
+<lb n="0568a20"/>金剛三摩地</p>
+<lb n="0568a21"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1C1;</t><t lang="chi"><yin><zi>&CB00425;&CB00772;</zi><sg>二合</sg></yin></t></tt>字
+<lb n="0568a22"/>變成大智。大智化成大隨求菩薩。八臂四面
+<lb n="0568a23"/>面各三目。身現金色具大威德。作貢高無畏
+<lb n="0568a24"/>勢。右第一手持劍。第二手持輪。第三手持三
+<lb n="0568a25"/>又。第四手持箭。左第一手持金剛杵。第二手
+<lb n="0568a26"/>持&CB00559;索。第三手持鉞斧。第四手持弓。坐於蓮
+<lb n="0568a27"/>花上放大光明。如千日輪能除諸惡。此三摩
+<lb n="0568a28"/>地法。所有女人胎中子死者。時阿闍梨依法
+<lb n="0568a29"/>觀想。自身為妙吉祥。持彼祕密曼拏羅內諸
+<pb ed="T" id="T18.0890.0568b" n="0568b"/>
+<lb n="0568b01"/>賢聖閼伽瓶灌女人頂。復想彼女胎中。所有
+<lb n="0568b02"/>非人薄福之子。以印及真言。為發遣淨除罪
+<lb n="0568b03"/>障已。復想彼胎攝入福子。時彼女人得子安
+<lb n="0568b04"/>隱。此名觀察一切胎藏隨求大智最勝金剛
+<lb n="0568b05"/>三摩地</p>
+<lb n="0568b06"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-E1BE;</t><t lang="chi">網</t></tt>字變成
+<lb n="0568b07"/>大智。大智化成持世菩薩。其身金色諸相圓
+<lb n="0568b08"/>滿。一切裝嚴光明照曜。作貢高勢身有六臂。
+<lb n="0568b09"/>右第一手作施願印。第二手持穀穗。第三手
+<lb n="0568b10"/>持箭。左第一手持如意寶。第二手持弓。第三
+<lb n="0568b11"/>手降寶雨。乃至眷屬及僕從緊羯囉夜叉等。
+<lb n="0568b12"/>亦悉降寶及五穀雨。如是依法觀想此持世
+<lb n="0568b13"/>菩薩。能降財穀雨廣七由旬量。不久速成菩
+<lb n="0568b14"/>提。此名降財穀雨廣智金剛三摩地</p>
+<lb n="0568b15"/><p>復說三摩地法。時阿闍梨觀想<tt rend="inline"><t lang="san-sd">&SD-A658;</t><t lang="chi">尾</t></tt>字變成
+<lb n="0568b16"/>大智。大智化成白蓮羅剎女。身黑色腹大具
+<lb n="0568b17"/>大威勢。有熾盛光如閃電相。坐蓮花上垂於
+<lb n="0568b18"/>一足。有十八臂十二面。面各三目利牙出外。
+<lb n="0568b19"/>髮髻赤黃色頂戴阿&CB00434;佛。髑髏為瓔珞現大
+<lb n="0568b20"/>忿怒相。師子皮為衣龍為<note n="0568001" resp="Taisho" type="orig" place="foot text">絡＝終【宮】</note><app n="0568001"><lem>絡</lem><rdg wit="【宮】" resp="Taisho">終</rdg></app>腋。手持滿血
+<lb n="0568b21"/>髑髏。及持劍鉤輪金剛杵三叉。鈴幡寶棒&CB00559;
+<lb n="0568b22"/>索鉞斧等。復以眾寶裝嚴於身。能破諸惡有
+<lb n="0568b23"/>情。如是依法觀想及持誦真言。為利益一切
+<lb n="0568b24"/>眾生故。不久證大菩提。此名除滅一切惡觀
+<lb n="0568b25"/>察佛剎最勝金剛三摩地</p>
+<lb n="0568b26"/><juan fun="close" n="002"><jhead>佛說瑜伽大教王經卷第二</jhead></juan>
+<pb ed="T" id="T18.0890.0568c" n="0568c"/>
+<lb n="0568c01"/>
+<milestone unit="juan" n="3"/>
+<lb n="0568c02"/>
+<lb n="0568c03"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>佛說瑜伽大教王經卷第三</jhead></juan>
+<lb n="0568c04"/>
+<lb n="0568c05"/><byline type="Translator">西天譯經三藏朝散大夫試<note n="0568002" resp="Taisho" type="orig" place="foot text">光祿＝鴻臚【宮】＊</note><app n="0568002"><lem>光祿</lem><rdg wit="【宮】" resp="Taisho">鴻臚</rdg></app>卿
+<lb n="0568c06"/>明教大師臣法賢奉　詔譯</byline></div1>
+<lb n="0568c07"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 真言大智變化品"/><head>真言大智變化品第五</head>
+<lb n="0568c08"/><p>爾時世尊大遍照金剛如來。觀察一切如來
+<lb n="0568c09"/>已。入寂靜無塵最勝金剛三摩地。於此三摩
+<lb n="0568c10"/>地出已。從金剛三昧。說一切如來母佛眼大
+<lb n="0568c11"/>菩薩真言曰</p>
+<lb n="0568c12"/><p type="dharani">唵<note place="inline">引</note>婆&CB00344;&CB00085;底<note n="0568003" resp="Taisho" type="orig" place="foot text">〔一〕－【明】</note><app n="0568003"><lem><note place="inline">一</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>嚕嚕<note place="inline">二</note>塞普<note place="inline">二合</note>嚕<note place="inline">三</note>入&CB00085;<note place="inline">二
+<lb n="0568c13"/>合</note>羅<note place="inline">四</note>底瑟吒<note place="inline">二合</note><note place="inline">五</note>悉&CB00499;嚕左&CB00135;<note place="inline">引</note><note place="inline">六</note>薩哩&CB00085;<note place="inline">二合引</note>
+<lb n="0568c14"/>囉他<note place="inline">二合</note>娑<note place="inline">引</note>達&CB00135;娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">七</note></p>
+<lb n="0568c15"/><p>爾時諸佛如來及十地滿心大菩薩眾。聞此
+<lb n="0568c16"/>真言已悉皆歡喜。一切魔軍驚怖迷悶。唯念
+<lb n="0568c17"/>大遍照金剛如來。今此真言具足大智。若有
+<lb n="0568c18"/>持誦之者能作種種成就事。乃至死者使令
+<lb n="0568c19"/>還命。難成能成</p>
+<lb n="0568c20"/><p>爾時世尊復入三金剛最上熾盛三昧金剛三
+<lb n="0568c21"/>摩地。從定出已。說諸佛母摩摩枳菩薩真言
+<lb n="0568c22"/>曰</p>
+<lb n="0568c23"/><p type="dharani">唵<note place="inline">引</note>商羯哩<note place="inline">引</note><note place="inline">一</note>扇<note place="inline">引</note>底羯哩<note place="inline">引</note><note place="inline">二</note>崛吒崛吒<note place="inline">三</note>
+<lb n="0568c24"/>崛致&CB00135;崛致&CB00135;<note place="inline">四</note>哩伽<note place="inline">二合引</note>多野哩伽<note place="inline">二合引</note>多野
+<lb n="0568c25"/><note place="inline">五</note>崛致&CB00135;娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">六</note></p>
+<lb n="0568c26"/><p>爾時諸佛如來聞此佛母真言已。皆大歡喜。
+<lb n="0568c27"/>唯念心金剛如來。此真言能成就一切息災
+<lb n="0568c28"/>增益等法。能作擁護乃至能滅一切罪障</p>
+<lb n="0568c29"/><p>爾時世尊復入大<note n="0568004" resp="Taisho" type="orig" place="foot text">樂＝乘【三】</note><note n="0568004" resp="CBETA" type="mod">樂＝乘【宋】【元】【明】</note><app n="0568004"><lem>樂</lem><rdg wit="【宋】【元】【明】" resp="Taisho">乘</rdg></app>無邊蓮花三金剛心變
+<pb ed="T" id="T18.0890.0569a" n="0569a"/>
+<lb n="0569a01"/>化三昧金剛三摩地。於定出已。從三金剛。說
+<lb n="0569a02"/>諸法母白衣菩薩真言曰</p>
+<lb n="0569a03"/><p type="dharani">唵<note place="inline">引</note>羯致<note place="inline">引</note><note place="inline">一</note>尾羯致<note place="inline">引</note><note place="inline">二</note>&CB00135;羯致<note place="inline">引</note><note place="inline">三</note>羯&CB02886;羯
+<lb n="0569a04"/>致<note place="inline">引</note><note place="inline">四</note>羯嚕吒微哩曳<note place="inline">二合引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">五</note></p>
+<lb n="0569a05"/><p>爾時諸佛如來聞此真言已。悉皆出定唯念
+<lb n="0569a06"/>心金剛如來。若人持誦觀想。能作一切事能
+<lb n="0569a07"/>善擁護。乃至增長微妙法藏</p>
+<lb n="0569a08"/><p>爾時世尊復入覺悟諸天平等三金剛大樂金
+<lb n="0569a09"/>剛三摩地。從定出已。說諸佛母大智多羅菩
+<lb n="0569a10"/>薩真言曰</p>
+<lb n="0569a11"/><p type="dharani">唵<note place="inline">引</note>多<note place="inline">引</note>哩<note place="inline">引</note><note place="inline">一</note>咄多<note place="inline">引</note>哩<note place="inline">引</note><note place="inline">二</note>咄哩<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>
+<lb n="0569a12"/>賀<note place="inline">引</note><note place="inline">三</note></p>
+<lb n="0569a13"/><p>爾時諸佛及諸菩薩。聞此真言皆大歡喜。唯
+<lb n="0569a14"/>念大遍照金剛如來。若<note n="0569001" resp="Taisho" type="orig" place="foot text">人＝入【宮】</note><app n="0569001"><lem>人</lem><rdg wit="【宮】" resp="Taisho">入</rdg></app>持誦此菩薩真言。
+<lb n="0569a15"/>能令世間一切有情而為僕從</p>
+<lb n="0569a16"/><p>爾時世尊復入一切如來最上智三摩地。於
+<lb n="0569a17"/>定出已。從三金剛。說此焰鬘得迦大忿怒明
+<lb n="0569a18"/>王真言曰</p>
+<lb n="0569a19"/><p type="dharani">那莫悉底哩<note place="inline">三合</note>&CB00085;日囉<note place="inline">二合引</note>&CB00718;<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>朅朅
+<lb n="0569a20"/><note place="inline">二</note>佉<note place="inline">引</note>呬佉<note place="inline">引</note>呬<note place="inline">三</note>薩哩&CB00085;<note place="inline">二合</note>訥瑟吒<note place="inline">二合</note><note place="inline">四</note>薩埵
+<lb n="0569a21"/>那摩迦<note place="inline">五</note>遏西母娑羅<note place="inline">六</note>&CB00425;囉輸播<note place="inline">引</note>舍賀悉
+<lb n="0569a22"/>多<note place="inline">二合</note><note place="inline">七</note>拶&CB00418;哩部<note place="inline">二合</note>惹<note place="inline">八</note>拶&CB00418;哩<note n="0569002" resp="Taisho" type="orig" place="foot text">目＝部【宮】</note><app n="0569002"><lem>目</lem><rdg wit="【宮】" resp="Taisho">部</rdg></app><note place="inline">二合</note>珂<note place="inline">九</note>
+<lb n="0569a23"/>殺吒左<note place="inline">二合</note>囉拏<note place="inline">十</note>阿<note place="inline">引</note>&CB00344;蹉阿<note place="inline">引</note>&CB00344;蹉<note place="inline">十一</note>薩
+<lb n="0569a24"/>哩&CB00085;<note place="inline">二合</note>訥瑟吒<note place="inline">二合</note>&CB00425;<note n="0569003" resp="Taisho" type="orig" place="foot text">囉＝羅【宋】【元】</note><app n="0569003"><lem>囉</lem><rdg wit="【宋】【元】" resp="Taisho">羅</rdg></app><note place="inline">二合</note>拏<note place="inline">引</note>&CB00425;賀<note place="inline">引</note>哩
+<lb n="0569a25"/>拏<note place="inline">十二</note>摩賀<note place="inline">引</note>尾覲曩<note place="inline">二合</note>伽<note place="inline">引</note>怛迦<note place="inline">十<note n="0569004" resp="Taisho" type="orig" place="foot text">三＝二【明】</note><app n="0569004"><lem>三</lem><rdg wit="【明】" resp="Taisho">二</rdg></app></note>尾
+<lb n="0569a26"/>訖哩<note place="inline">二合</note>跢<note place="inline">引</note>那那<note place="inline">十四</note>薩哩&CB00085;<note place="inline">二合</note>部<note place="inline">引</note>多&CB00085;商
+<lb n="0569a27"/>羯囉<note place="inline">十五</note>遏吒吒賀<note place="inline">引</note>娑那<note place="inline">引</note>禰<note n="0569005" resp="Taisho" type="orig" place="foot text">&CB00135;＝禰【三】【宮】</note><note n="0569005" resp="CBETA" type="mod">&CB00135;＝禰【宋】【元】【明】【宮】</note><app n="0569005"><lem>&CB00135;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">禰</rdg></app><note place="inline">引</note><note place="inline">十六</note>咩<note place="inline">引</note>伽
+<lb n="0569a28"/>囉<note place="inline">二合</note>左哩摩<note place="inline">二合</note>&CB00135;&CB00085;<note place="inline">引</note>娑那<note place="inline">十七</note>酤嚕酤嚕<note place="inline">十
+<lb n="0569a29"/>八</note>薩哩&CB00085;<note place="inline">二合</note>羯哩摩<note place="inline">二合引</note><note place="inline">十九</note>親那親那<note place="inline">二十</note>薩
+<pb ed="T" id="T18.0890.0569b" n="0569b"/>
+<lb n="0569b01"/>哩&CB00085;<note place="inline">二合</note>滿怛囉<note place="inline">二合引</note><note place="inline">二十一</note>頻那頻那<note place="inline">二十二</note>&CB00425;囉母
+<lb n="0569b02"/>捺囉<note place="inline">二合引</note><note place="inline">二十三</note>阿<note place="inline">引</note>羯哩沙<note place="inline">二合</note>野<note place="inline">二十四</note>阿<note place="inline">引</note>羯哩
+<lb n="0569b03"/>沙<note place="inline">二合</note>野<note place="inline">二十五</note>薩哩&CB00085;<note place="inline">二合</note>部<note place="inline">引</note>旦<note place="inline">引</note>&CB00135;哩摩<note place="inline"><note n="0569006" resp="Taisho" type="orig" place="foot text">二＝一【明】</note><app n="0569006"><lem>二</lem><rdg wit="【明】" resp="Taisho">一</rdg></app>合</note>
+<lb n="0569b04"/>他<note place="inline">二十六</note>&CB00135;哩摩<note place="inline">二合</note>他<note place="inline">二十七</note>薩哩&CB00085;<note place="inline">二合</note>訥瑟吒<note place="inline">二合
+<lb n="0569b05"/>引</note>&CB00425;囉<note place="inline">二合</note>吠<note place="inline">引</note>舍野<note place="inline">二十八</note>&CB00425;囉<note place="inline">二合</note>吠<note place="inline">引</note>舍野<note place="inline">二十
+<lb n="0569b06"/>九</note>曼拏羅末&CB03256;<note place="inline">切身三<note n="0569007" resp="Taisho" type="orig" place="foot text">十＝七【宋】【元】【宮】</note><app n="0569007"><lem>十</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">七</rdg></app></note>吠<note place="inline">引</note>&CB00085;莎多&CB00768;<note place="inline">引</note>尾旦<note n="0569008" resp="Taisho" type="orig" place="foot text">〔引〕－【明】</note><app n="0569008"><lem><note place="inline">引</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>
+<lb n="0569b07"/>多羯囉<note place="inline">三十一</note><note n="0569009" resp="Taisho" type="orig" place="foot text">（多羯羅三十一）＋酤【明】</note><app n="0569009"><lem>酤</lem><rdg wit="【明】" resp="Taisho">多羯羅三十一酤</rdg></app>嚕酤嚕<note place="inline">三十二</note>摩摩阿迦<note place="inline">引</note>哩&CB00792;
+<lb n="0569b08"/><note place="inline">二合</note>賀那賀那<note place="inline">三十三</note>捺賀捺賀<note place="inline">三十四</note>&CB00425;左&CB00425;左<note place="inline">三十五</note>
+<lb n="0569b09"/>摩<note place="inline">引</note>尾藍末野<note place="inline">三十六</note>摩<note place="inline">引</note>尾藍末野<note place="inline">三十七</note>摩摩三
+<lb n="0569b10"/>摩野摩褥三摩<note place="inline">二合</note>囉<note place="inline">三十八</note>吽<note place="inline">引</note>吽<note place="inline">引</note>發吒<note place="inline">半音</note>
+<lb n="0569b11"/>發吒<note place="inline">半音三十九</note>塞怖<note place="inline">二合引</note>吒野<note place="inline">四十</note>塞怖<note place="inline">二合引</note>吒野<note place="inline">四十
+<lb n="0569b12"/>一</note>薩哩&CB00085;<note place="inline">二合引</note>賒<note place="inline">引</note>波哩布囉哥<note place="inline">四十二</note>呬<note place="inline">引</note>呬<note place="inline">引</note>
+<lb n="0569b13"/>婆&CB00344;&CB00680;<note place="inline">引</note><note place="inline">四十三</note>緊唧囉<note place="inline">引</note>野西<note place="inline">四十四</note>摩摩薩哩&CB00085;<note place="inline">二合
+<lb n="0569b14"/>引</note>哩湯<note place="inline">二合</note><note place="inline">四十五</note>娑<note place="inline">引</note>達野娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">四十六</note></p>
+<lb n="0569b15"/><p>爾時一切諸佛及十地菩薩。聞此大智種變
+<lb n="0569b16"/>化明王真言已。歎未曾有。唯念大遍照金剛
+<lb n="0569b17"/>如來。此出世大智神通變化焰鬘得迦忿怒
+<lb n="0569b18"/>明王。能降伏大惡眾生。若持誦人欲作降伏
+<lb n="0569b19"/>諸惡法。當用一髑髏。選擇不損壞無縫。兩耳
+<lb n="0569b20"/>相通圓滿者。或一縫至兩縫。及耳不通者。亦
+<lb n="0569b21"/>可作法。得此髑髏已。持誦人依法誦五如來
+<lb n="0569b22"/>及四親近菩薩真言加持。然後取惡人足下
+<lb n="0569b23"/>土。盛髑髏內。持誦人以足踏之。即誦焰鬘
+<lb n="0569b24"/>得迦明王真言。速得降伏</p>
+<lb n="0569b25"/><p>爾時世尊大遍照金剛如來。復入大不空最
+<lb n="0569b26"/>勝金剛甘露忿怒金剛三摩地。出此定已。<note n="0569010" resp="Taisho" type="orig" place="foot text">從＝後【宮】</note><app n="0569010"><lem>從</lem><rdg wit="【宮】" resp="Taisho">後</rdg></app>
+<lb n="0569b27"/>三金剛。說尾覲難得迦大忿怒明王真言曰</p>
+<pb ed="T" id="T18.0890.0569c" n="0569c"/>
+<lb n="0569c01"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>那謨&CB00085;日囉<note place="inline">二合</note>骨
+<lb n="0569c02"/>嚕<note place="inline">二合引</note>&CB00499;<note place="inline">引</note>野<note place="inline">二</note>摩訶<note place="inline">引</note>能瑟吒嚕<note place="inline">二合引</note>咄羯<note place="inline">二
+<lb n="0569c03"/>合</note>吒<note place="inline">三</note>陪囉&CB00085;<note place="inline">引</note>野<note place="inline">四</note>遏西母娑羅<note place="inline">五</note>&CB00425;囉輪播
+<lb n="0569c04"/><note place="inline">引</note>舍賀娑多<note place="inline">二合引</note>野<note place="inline">六</note>唵<note place="inline">引</note>阿蜜哩<note place="inline">二合</note>多軍拏
+<lb n="0569c05"/>里<note place="inline">七</note>朅朅佉<note place="inline">引</note>呬佉<note place="inline">引</note>呬<note place="inline">八</note>底瑟吒<note place="inline">二合</note>底瑟吒
+<lb n="0569c06"/><note place="inline">二合引</note><note place="inline">九</note>滿馱滿馱<note place="inline">十</note>賀那賀那<note place="inline">十一</note>&CB00344;哩惹<note place="inline">二合</note>&CB00344;
+<lb n="0569c07"/>哩惹<note place="inline">二合</note><note place="inline">十二</note>尾娑怖<note place="inline">二合引</note>吒野<note place="inline">十三</note>尾娑怖<note place="inline">二合引</note>吒野
+<lb n="0569c08"/><note place="inline">十四</note>薩哩&CB00085;<note place="inline">二合</note>尾覲那<note place="inline">二合</note>尾那<note place="inline">引</note>野剛<note place="inline">引</note><note place="inline">十五</note>摩
+<lb n="0569c09"/>賀<note place="inline">引</note>&CB00344;拏&CB00425;底<note place="inline">十六</note>&CB00768;<note place="inline">引</note>尾旦<note place="inline">引</note>多羯囉<note place="inline">引</note>野<note place="inline">十七</note>
+<lb n="0569c10"/>吽<note place="inline">引</note>發吒<note place="inline">半音</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">十八</note></p>
+<lb n="0569c11"/><p>爾時一切諸佛及大菩薩。聞此大忿怒明王
+<lb n="0569c12"/>真言已。歎未曾有。一切魔眾悉皆驚怖。唯念
+<lb n="0569c13"/>大遍照金剛如來</p>
+<lb n="0569c14"/><p>若持誦人欲作發遣諸惡魔法者。當取旋風
+<lb n="0569c15"/>所吹樹葉。於彼葉內畫明王輪。如是畫已。持
+<lb n="0569c16"/>誦者取惡魔足下土置於輪中。以足踏之。即
+<lb n="0569c17"/>誦明王真言。彼惡魔等速自遠離</p>
+<lb n="0569c18"/><p>爾時大遍照金剛如來。復入寶光變化大智
+<lb n="0569c19"/>金剛三摩地。出此定已。從三金剛說。&CB00425;囉研
+<lb n="0569c20"/>得迦忿怒明王真言曰</p>
+<lb n="0569c21"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>&CB00768;那哩<note n="0569011" resp="Taisho" type="orig" place="foot text">徵＝微【宮】</note><app n="0569011"><lem>徵</lem><rdg wit="【宮】" resp="Taisho">微</rdg></app><note place="inline">知以反二</note>
+<lb n="0569c22"/>吒吽<note place="inline">引</note>吽<note place="inline">引</note>發吒<note place="inline">半音</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">三</note></p>
+<lb n="0569c23"/><p>爾時諸佛及諸菩薩。聞此明王真言已。歎未
+<lb n="0569c24"/>曾有。唯念大遍照金剛如來。若人於此真言
+<lb n="0569c25"/>依法持誦。能降伏夜叉羅剎緊那羅部多娑
+<lb n="0569c26"/>健馱及宿曜等</p>
+<lb n="0569c27"/><p>爾時世尊復入甘露寶功德藏金剛三摩地。
+<lb n="0569c28"/>出此定已。從三金剛。說&CB00425;訥鬘得迦忿怒明
+<pb ed="T" id="T18.0890.0570a" n="0570a"/>
+<lb n="0570a01"/>王真言曰</p>
+<lb n="0570a02"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引
+<lb n="0570a03"/>二</note>跢<note place="inline">引</note>嚕羅<note place="inline">三</note>尾嚕羅<note place="inline">四</note>薩哩&CB00085;<note place="inline">二合</note>尾沙伽<note place="inline">引</note>
+<lb n="0570a04"/>怛哥<note place="inline">五</note>入&CB00085;<note place="inline">二合</note>里多尾塞普<note place="inline">二合</note>陵&CB00344;<note place="inline">六</note>遏吒
+<lb n="0570a05"/>吒賀<note place="inline">引</note>娑計<note place="inline">引</note>薩哩<note place="inline">七</note>薩吒<note place="inline">引</note>跓<note place="inline">引</note>波<note place="inline">八</note>&CB00085;日囉
+<lb n="0570a06"/><note place="inline">二合</note>窟囉&CB00135;哩伽<note place="inline">二合引</note>多<note place="inline">九</note>左里多&CB00085;酥馱<note place="inline">引</note>怛
+<lb n="0570a07"/>羅<note place="inline">十</note>&CB00135;濕&CB00085;<note place="inline">二合引</note>娑<note place="inline">十一</note>摩嚕&CB00418;<note place="inline">引</note>得叱<note place="inline">二合</note>&CB00425;
+<lb n="0570a08"/>多<note place="inline">二合</note><note place="inline">十二</note>馱囉尼<note place="inline">引</note>達羅毘<note place="inline">引</note>沙拏<note place="inline">十三</note>遏吒吒賀
+<lb n="0570a09"/><note place="inline">引</note>娑<note place="inline">十四</note>阿波哩彌多<note place="inline">十五</note>末囉&CB00425;囉<note place="inline">引</note>訖囉<note place="inline">二合</note>
+<lb n="0570a10"/>摩<note place="inline">十六</note>阿<note place="inline">引</note>哩也<note place="inline">二合</note>毘多部多&CB00344;拏<note place="inline">十七</note>沒&CB00833;<note place="inline">切
+<lb n="0570a11"/>身</note>沒&CB00833;<note place="inline">十八</note>賀野仡哩<note place="inline">二合引</note>&CB00085;<note place="inline"><note n="0570001" resp="Taisho" type="orig" place="foot text">〔十〕－【宋】【元】</note><app n="0570001"><lem>十</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>九</note>佉<note place="inline">引</note>那佉<note place="inline">引</note>
+<lb n="0570a12"/>那<note place="inline">二十</note>&CB00425;囉滿怛囉<note place="inline">二合引</note><note place="inline">二十一</note>親那親那<note place="inline">二十二</note>悉提
+<lb n="0570a13"/>孕<note place="inline">二合</note>彌<note place="inline">引</note>禰舍<note place="inline">二十三</note>阿<note place="inline">引</note>吠<note place="inline">引</note>舍野<note place="inline">二十四</note>薩哩&CB00085;
+<lb n="0570a14"/><note place="inline">二合</note>入&CB00085;<note place="inline">二合</note>囉<note place="inline">二十五</note>必舍<note place="inline">引</note>左曩<note place="inline">引</note><note place="inline">二十六</note>薩哩&CB00085;<note place="inline">二
+<lb n="0570a15"/>合</note>仡囉<note place="inline">二合</note>呬<note place="inline">引</note>數<note place="inline">二十七</note>阿&CB00425;囉<note place="inline">二合</note>底賀&CB00418;<note place="inline">引</note>婆
+<lb n="0570a16"/>&CB00085;<note place="inline">二十八</note>&CB00085;日囉<note place="inline">二合</note>能瑟吒囉<note place="inline">三合二十九</note>緊唧囉<note place="inline">引</note>野
+<lb n="0570a17"/>洗<note place="inline">三十</note>壹難訥瑟吒<note place="inline">二合</note>仡囉<note place="inline">二合</note>賀<note place="inline">三十一</note>訥瑟吒
+<lb n="0570a18"/><note place="inline">二合</note>薩哩<note n="0570002" resp="Taisho" type="orig" place="foot text">那＝邦【元】</note><app n="0570002"><lem>那</lem><rdg wit="【元】" resp="Taisho">邦</rdg></app><note place="inline">二合</note>&CB00085;<note place="inline">引</note><note place="inline">三十二</note>突那突那<note place="inline">三十三</note>摩他摩
+<lb n="0570a19"/>他<note place="inline">三十四</note>摩吒摩吒<note place="inline">三十五</note>播<note place="inline">引</note>吒播<note place="inline">引</note>吒<note place="inline">三十六</note>播<note place="inline">引</note>吒
+<lb n="0570a20"/>野播<note place="inline">引</note>吒野<note place="inline">三十七</note>滿馱滿馱<note place="inline">三十八</note>沒馱達哩摩<note place="inline">二
+<lb n="0570a21"/>合</note>僧伽<note place="inline">三十九</note>阿褥倪也<note place="inline"><note n="0570003" resp="Taisho" type="orig" place="foot text">二＝三【宋】【元】</note><app n="0570003"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">三</rdg></app>合引</note>當羯哩莽<note place="inline">二合</note><note place="inline">四十</note>酤嚕
+<lb n="0570a22"/>尸<note place="inline">引</note>竭朗<note place="inline">二合</note><note place="inline">四十一</note>曷野仡哩<note place="inline">二合引</note>&CB00085;<note place="inline">引</note>野發吒<note place="inline">半音
+<lb n="0570a23"/>四十二</note>&CB00085;日囉<note place="inline">二合引</note>野發吒<note place="inline">半音四十三</note>&CB00085;日囉<note place="inline">二合</note>&CB00344;<note place="inline">引</note>
+<lb n="0570a24"/>怛囉<note place="inline">二合引</note>野發吒<note place="inline">半音四十四</note>&CB00085;日囉<note place="inline">二合</note>&CB00135;<note place="inline">引</note>怛囉<note place="inline">二合
+<lb n="0570a25"/>引</note>野發吒<note place="inline">半音四十五</note>&CB00085;日囉<note place="inline">二合</note>能瑟吒囉<note place="inline">二合引</note>野
+<lb n="0570a26"/>發吒<note place="inline">半音四十六</note>&CB00085;日囉<note place="inline">二合</note>窟囉<note place="inline">引</note>野發吒<note place="inline">半音四十七</note>&CB00085;
+<lb n="0570a27"/>日囉<note place="inline"><note n="0570004" resp="Taisho" type="orig" place="foot text">二＝一【元】</note><app n="0570004"><lem>二</lem><rdg wit="【元】" resp="Taisho">一</rdg></app>合</note>窟囉&CB00135;哩伽<note place="inline">二合引</note>多那<note place="inline">引</note>野發吒<note place="inline">半音四十
+<pb ed="T" id="T18.0890.0570b" n="0570b"/>
+<lb n="0570b01"/>八</note>&CB00425;囉滿怛囉<note place="inline">二合</note><note place="inline">四十九</note>尾那<note place="inline">引</note>設那<note place="inline">引</note>野發吒<note place="inline">半音
+<lb n="0570b02"/>五十</note>底&CB00770;<note place="inline">二合</note>路枳跋煬羯囉<note place="inline">引</note>野發吒<note place="inline">半音五十一</note>薩
+<lb n="0570b03"/>哩&CB00085;<note place="inline">二合</note>羯哩彌<note place="inline">二合</note>數<note place="inline">五十二</note>阿&CB00425;囉<note place="inline">二合</note>底賀多
+<lb n="0570b04"/><note place="inline">引</note>野發吒<note place="inline">半音五十三</note>&CB00085;日囉<note place="inline">二合</note>酤羅<note place="inline">五十四</note>怛囉<note place="inline">二合引</note>
+<lb n="0570b05"/>娑那羯囉<note place="inline">引</note>野發吒<note place="inline">半音五十五</note>吽<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">五十六</note>發
+<lb n="0570b06"/>吒<note place="inline">半音</note>發吒<note place="inline">半音</note>發吒<note place="inline">半音五十七</note></p>
+<lb n="0570b07"/><p>爾時一切大眾聞此明王真言已。皆大怖畏。
+<lb n="0570b08"/>唯念大遍照金剛如來。持誦人欲解除一切
+<lb n="0570b09"/>毒者當依法想自手掌內有蓮華。復想蓮花
+<lb n="0570b10"/>中生於&CB00780;字光明照曜。依忿怒明王三摩地
+<lb n="0570b11"/>觀想。能解除三界一切惡毒</p>
+<lb n="0570b12"/><p>爾時世尊復入不空成就最上寶幢金剛三摩
+<lb n="0570b13"/>地。出此定已。從三金剛。說&CB00135;羅難拏大忿怒
+<lb n="0570b14"/>明王真言曰</p>
+<lb n="0570b15"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>伊<note n="0570005" resp="Taisho" type="orig" place="foot text">係＝系【明】</note><app n="0570005"><lem>係</lem><rdg wit="【明】" resp="Taisho">系</rdg></app>曳<note place="inline">二合引</note>呬
+<lb n="0570b16"/><note place="inline">二</note>婆&CB00344;&CB00680;<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>&CB00135;<note place="inline">引</note>羅難拏<note place="inline">三</note>&CB00418;嚕&CB00418;
+<lb n="0570b17"/>嚕<note place="inline">四</note>羅虎羅虎<note place="inline">五</note>賀<note place="inline">引</note>賀<note place="inline">引</note><note place="inline">六</note>仵魯仵魯<note place="inline">七</note>仵邏
+<lb n="0570b18"/>波野<note place="inline">八</note>仵邏波野<note place="inline">九</note>訖囉<note place="inline">二合</note>摩訖囉<note place="inline">二合</note>摩<note place="inline">十</note>
+<lb n="0570b19"/>婆&CB00344;&CB00680;<note place="inline">引</note><note place="inline">十一</note>&CB00085;<note place="inline">引</note>喻吠<note place="inline">引</note>詣<note place="inline">引</note>那<note place="inline">十二</note>部<note place="inline">引</note>旦<note place="inline">引</note>尸
+<lb n="0570b20"/>竭朗<note place="inline">二合</note><note place="inline">十三</note>那賀那賀<note place="inline">十四</note>那囉那囉<note place="inline">十五</note>&CB00085;賀&CB00085;
+<lb n="0570b21"/>賀<note place="inline">十六</note>&CB00425;左&CB00425;左<note place="inline">十七</note>必吒必吒<note place="inline">十八</note>播<note place="inline">引</note>吒野<note place="inline">十
+<lb n="0570b22"/>九</note>播<note place="inline">引</note>吒野<note place="inline">二十</note>末吒末吒<note place="inline">二十一</note>末吒<note place="inline">引</note>&CB00425;野<note place="inline">二十二</note>
+<lb n="0570b23"/>末吒<note place="inline">引</note>&CB00425;野<note place="inline">二十三</note>薩哩&CB00085;<note place="inline">二合</note>羯哩摩<note place="inline">二合引</note>尼<note place="inline">二十<note n="0570006" resp="Taisho" type="orig" place="foot text">〔四〕－【元】</note><app n="0570006"><lem>四</lem><rdg wit="【元】" resp="Taisho">&lac;</rdg></app></note>
+<lb n="0570b24"/>親那親那<note place="inline">二十五</note>頻那頻那<note place="inline">二十六</note>薄叉薄叉<note place="inline">二十七</note>彌
+<lb n="0570b25"/><note place="inline">引</note>那末寫<note place="inline">二十八</note>嚕提囉末寫<note place="inline">二十九</note>彌<note place="inline">引</note>那末惹<note place="inline">三
+<lb n="0570b26"/>十</note>嚕提囉必哩<note place="inline">二合</note>野<note place="inline">三十一</note>伊係曳<note place="inline">二合引</note>呬婆&CB00344;
+<lb n="0570b27"/>&CB00680;<note place="inline">引</note><note place="inline">三十二</note>薩哩&CB00085;<note place="inline">二合</note>尾覲那<note place="inline">二合引</note>&CB00135;<note place="inline">三十三</note>薩哩&CB00085;<note place="inline">二
+<pb ed="T" id="T18.0890.0570c" n="0570c"/>
+<lb n="0570c01"/>合</note>尾&CB00853;<note place="inline">切身</note>&CB00135;<note place="inline">三十四</note>薩哩&CB00085;<note place="inline">二合</note>滿怛囉<note place="inline">二合引</note>尼<note place="inline">三十
+<lb n="0570c02"/>五</note>薩哩&CB00085;<note place="inline">二合</note>謨羅羯哩摩<note place="inline">二合引</note>尼<note place="inline">三十六</note>薩哩&CB00085;<note place="inline">二
+<lb n="0570c03"/>合</note>謨羅仡囉<note place="inline">二合</note>賀<note place="inline">引</note><note place="inline">三十七</note>賀那賀那<note place="inline">三十八</note>伴惹伴
+<lb n="0570c04"/>惹<note place="inline">三十九</note>摩哩那摩哩那<note place="inline">二合</note><note place="inline">四十</note>壹難彌<note place="inline">引</note>迦<note place="inline">引</note>哩煬
+<lb n="0570c05"/><note place="inline">二合</note><note place="inline">四十一</note>娑<note place="inline">引</note>達野吽<note place="inline">引</note><note place="inline">四十二</note>&CB00135;<note place="inline">引</note>邏野<note place="inline">四十三</note>&CB00135;<note place="inline">引</note>羅&CB00085;
+<lb n="0570c06"/>日囉<note place="inline">二合</note>難拏<note place="inline">引</note>野<note place="inline">四十四</note>&CB00418;嚕&CB00418;嚕<note place="inline">四十五</note>尾覲那<note place="inline">二
+<lb n="0570c07"/>合</note>尾那<note place="inline">引</note>野剛<note place="inline">引</note><note place="inline">四十六</note>那<note place="inline">引</note>設迦<note place="inline">引</note>野<note place="inline">四十七</note>虎嚕虎
+<lb n="0570c08"/>嚕<note place="inline">四十八</note>禰<note place="inline">引</note>&CB00425;多<note place="inline">二合</note>贊拏<note place="inline">引</note>野<note place="inline">四十九</note>薩哩&CB00085;<note place="inline">二合</note>
+<lb n="0570c09"/>設咄嚕<note place="inline">二合</note>&CB00718;<note place="inline">引</note><note place="inline">五十</note>紇哩<note place="inline">二合</note>那夜<note place="inline">引</note>&CB00135;賓拏野<note place="inline">五十
+<lb n="0570c10"/>一</note>親那親那<note place="inline">五十二</note>尾&CB00853;<note place="inline">切身引</note>那<note place="inline">引</note>砌<note place="inline">引</note>那哥吽<note place="inline">引五
+<lb n="0570c11"/>十三</note>尾&CB00853;<note place="inline">切身引</note>襄<note place="inline">引</note>室瑟吒<note place="inline">二合</note>羯哩摩<note place="inline">二合</note><note place="inline">五十四</note>三摩
+<lb n="0570c12"/><note place="inline">二合</note>囉三摩煬<note place="inline">五十五</note>&CB00085;日囉<note place="inline">二合</note>達囉&CB00085;左曩<note place="inline">五十六</note>
+<lb n="0570c13"/>摩哩摩<note place="inline">二合引</note>尾&CB00135;訖哩<note place="inline">二合</note>怛野<note place="inline">五十七</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">五十八</note>
+<lb n="0570c14"/>賀那賀那<note place="inline">五十九</note>那賀那賀<note place="inline">六十</note>&CB00418;嚕&CB00418;嚕<note place="inline">六十一</note>酤
+<lb n="0570c15"/>嚕酤嚕<note place="inline">六十二</note>虎嚕虎嚕<note place="inline">六十三</note>發吒<note place="inline">半音</note>吽<note place="inline">引</note>吽<note place="inline">引六<note n="0570007" resp="Taisho" type="orig" place="foot text">〔十〕－【元】</note><app n="0570007"><lem>十</lem><rdg wit="【元】" resp="Taisho">&lac;</rdg></app>
+<lb n="0570c16"/>四</note>訖哩<note place="inline">二合</note>旦<note place="inline">引</note>怛曳<note place="inline">引</note><note place="inline">六十五</note>禰<note place="inline">引</note>&CB00085;哩始<note place="inline">六十六</note>尾捺
+<lb n="0570c17"/>囉<note place="inline">二合</note>&CB00425;迦<note place="inline">引</note>野<note place="inline">六十七</note>賀那賀那<note place="inline">六十八</note>&CB00085;日囉<note place="inline">二合</note>
+<lb n="0570c18"/>難尼<note place="inline">引</note>那娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">六十九</note></p>
+<lb n="0570c19"/><p>爾時世尊說此大忿怒明王真言已。所有一
+<lb n="0570c20"/>切佛剎悉皆震動。一切魔眾悉皆驚怖。唯念
+<lb n="0570c21"/>大遍照金剛如來。若持誦人欲除諸魔者。當
+<lb n="0570c22"/>依法誦此真言八百遍及結本印。能除一切
+<lb n="0570c23"/>魔者</p>
+<lb n="0570c24"/><p>爾時世尊大遍照金剛如來。復入普遍變化
+<lb n="0570c25"/><note n="0570008" resp="Taisho" type="orig" place="foot text">裝＝莊【元】【明】【宮】下同</note><app n="0570008"><lem>裝</lem><rdg wit="【元】【明】【宮】" resp="Taisho">莊</rdg></app>嚴金剛三摩地。出此定已。從三金剛。說
+<lb n="0570c26"/>大力忿怒明王真言曰</p>
+<lb n="0570c27"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note>
+<pb ed="T" id="T18.0890.0571a" n="0571a"/>
+<lb n="0571a01"/>發吒<note place="inline">半音</note>發吒<note place="inline">半音</note>發吒<note place="inline">半音三</note>唵<note place="inline">引</note>唵<note place="inline">引</note>沃<note n="0571001" resp="Taisho" type="orig" place="foot text">仡＝訖【明】</note><app n="0571001"><lem>仡</lem><rdg wit="【明】" resp="Taisho">訖</rdg></app>囉
+<lb n="0571a02"/><note place="inline">二合</note>輸<note place="inline">引</note>羅播<note place="inline">引</note>尼<note place="inline">四</note>吽<note place="inline">引</note>吽<note place="inline">引</note>發吒<note place="inline">半音</note>發吒<note place="inline">半
+<lb n="0571a03"/>音五</note>唵<note place="inline">引</note>&CB00768;踰<note place="inline">二合引</note>底&CB00135;哩那<note place="inline">二合引</note>那<note place="inline">六</note>吽<note place="inline">引</note>吽<note place="inline">引</note>
+<lb n="0571a04"/>吽<note place="inline">引</note><note place="inline">七</note>發吒<note place="inline">半音</note>發吒<note place="inline">半音</note>發吒<note place="inline">半音八</note>摩賀<note place="inline">引</note>末邏
+<lb n="0571a05"/><note place="inline">引</note>野娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">九</note></p>
+<lb n="0571a06"/><p>爾時一切魔眾聞此大力忿怒明王真言已。
+<lb n="0571a07"/>皆大驚怖。唯念大遍照金剛如來。若復有人
+<lb n="0571a08"/>於此真言印相依法持誦者。是人能作一切
+<lb n="0571a09"/>成就法。及能降雨亦能止雨</p>
+<lb n="0571a10"/><p>爾時世尊復入普遍熾盛金剛三摩地。出此
+<lb n="0571a11"/>定已。從三金剛。說吒枳忿怒明王真言曰</p>
+<lb n="0571a12"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵吒枳<note place="inline">二</note>吽<note place="inline">引</note>&CB00763;<note place="inline">三</note></p>
+<lb n="0571a13"/><p>爾時一切諸佛及諸菩薩。聞此明王真言已。
+<lb n="0571a14"/>歎未曾有。一切魔眾悉皆驚怖迷悶躄地。若
+<lb n="0571a15"/>持誦人欲作降伏法者。當依羯磨法作魔形
+<lb n="0571a16"/>像以足踏之。現忿怒相當結本印誦此真言。
+<lb n="0571a17"/>即得降伏一切魔眾。亦能解除他&CB00057;</p>
+<lb n="0571a18"/><p>爾時世尊復入利金剛熾盛光明金剛三摩
+<lb n="0571a19"/>地。出此定已。從三金剛。說不動尊大忿怒明
+<lb n="0571a20"/>王真言曰</p>
+<lb n="0571a21"/><p type="dharani">那莫三滿多沒馱<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">一</note>唵<note place="inline">引</note>阿左羅際<note place="inline">引</note>吒
+<lb n="0571a22"/><note place="inline">二</note>哥<note place="inline">引</note>拏拏<note place="inline">三</note>拏吒拏吒<note place="inline">四</note>謨<note place="inline">引</note>吒謨<note place="inline">引</note>吒<note place="inline">五</note>末
+<lb n="0571a23"/>吒末吒<note place="inline">六</note>怛吒怛吒<note place="inline">七</note>底瑟吒<note place="inline">二合</note>底瑟吒<note place="inline">二合</note><note place="inline">八</note>
+<lb n="0571a24"/>阿<note place="inline">引</note>尾設阿<note place="inline">引</note>尾設<note place="inline">九</note>摩賀<note place="inline">引</note>滿多波<note place="inline">引</note>羅<note place="inline">十</note>度
+<lb n="0571a25"/>那度那<note place="inline">十一</note>底尼底尼<note place="inline">十二</note>珂那珂那<note place="inline">十三</note>尾朅
+<lb n="0571a26"/>曩<note place="inline">二合引</note>摩<note place="inline">引</note>囉野<note place="inline">十四</note>摩<note place="inline">引</note>囉野<note place="inline">十五</note>訥瑟&CB02824;<note place="inline">二合引</note>
+<lb n="0571a27"/>婆叉野<note place="inline">十六</note>婆叉野<note place="inline">十七</note>薩哩&CB00680;<note place="inline">二合</note>酤嚕酤嚕
+<lb n="0571a28"/><note place="inline">十八</note>枳哩枳哩<note place="inline">十九</note>摩賀<note place="inline">引</note>尾沙摩&CB00085;日囉<note place="inline">二合</note><note place="inline">二十</note>
+<lb n="0571a29"/>塞怖<note place="inline">二合引</note>吒野<note place="inline">二十一</note>塞怖<note place="inline">二合引</note>吒野<note place="inline">二十二</note>吽<note place="inline">引</note>吽<note place="inline">引</note>
+<pb ed="T" id="T18.0890.0571b" n="0571b"/>
+<lb n="0571b01"/>吽<note place="inline">引</note><note place="inline">二十三</note>怛哩<note place="inline">二合</note>末里多&CB00772;&CB00344;難多哥<note place="inline">二十四</note>盎<note place="inline">引</note>
+<lb n="0571b02"/>盎<note place="inline">引</note>盎<note place="inline">引</note><note place="inline">二十五</note>&CB00780;<note place="inline">呼郎切下同</note>&CB00780;&CB00780;<note place="inline">二十六</note>阿左羅際吒<note place="inline">二十七</note>
+<lb n="0571b03"/>塞怖<note place="inline">二合</note>吒野塞怖<note place="inline">二合</note>吒野<note place="inline">二十八</note>吽<note place="inline">引</note>阿三滿
+<lb n="0571b04"/>底哥怛囉<note place="inline">二合</note>吒<note place="inline">二十九</note>摩賀<note place="inline">引</note>末羅舍<note place="inline">引</note>多野<note place="inline">三十</note>
+<lb n="0571b05"/>三摩羊<note place="inline"><note n="0571002" resp="Taisho" type="orig" place="foot text">三十二字宋本元本白缺</note>三十一</note>莽<note place="inline">引</note>怛&CB00772;<note place="inline">二合引</note>&CB00780;<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">三十二</note>輸迭&CB00418;
+<lb n="0571b06"/>嚕哥<note place="inline">三十三</note>窣&CB00418;<note place="inline">二合</note>設&CB00418;&CB00085;日哩<note place="inline">二合</note><note place="inline">三十四</note>那謨窣
+<lb n="0571b07"/>&CB00418;<note place="inline">二合</note>阿&CB00425;囉<note place="inline">二合</note>底曷多&CB00085;哩<note place="inline">引</note>毘藥<note place="inline">二合</note><note place="inline">三十五</note>
+<lb n="0571b08"/>入&CB00085;<note place="inline">二合引</note>邏野怛囉<note place="inline">二合引</note>吒<note place="inline">三十六</note>阿薩賀那莫娑
+<lb n="0571b09"/>&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">三十七</note></p>
+<lb n="0571b10"/><p>爾時一切天龍夜叉乾闥婆阿修羅迦樓羅緊
+<lb n="0571b11"/>那羅摩&CB00264;羅伽及諸魔軍等。悉皆驚怖迷悶
+<lb n="0571b12"/>躄地。身如火燃受大苦惱。唯念大遍照金剛
+<lb n="0571b13"/>如來。若人依法持誦此明王真言。能鉤召諸
+<lb n="0571b14"/>童女。及成就種種所欲之事。而此明王即是
+<lb n="0571b15"/>遍照如來</p>
+<lb n="0571b16"/><p>爾時世尊復入大威力熾盛光明三身金剛智
+<lb n="0571b17"/>金剛三摩地。出此定已。說降伏三界忿怒明
+<lb n="0571b18"/>王真言曰</p>
+<lb n="0571b19"/><p type="dharani">唵<note place="inline">引</note>遜婆&CB00135;遜婆吽<note place="inline">引</note><note place="inline">一</note>仡哩<note place="inline">二合</note>賀拏<note place="inline">二合</note><note n="0571003" resp="Taisho" type="orig" place="foot text">仡＝爾【宮】＊</note><app n="0571003"><lem>仡</lem><rdg wit="【宮】" resp="Taisho">爾</rdg></app>
+<lb n="0571b20"/>哩<note place="inline">二合</note>賀拏<note place="inline">二合</note>吽<note place="inline">引</note><note place="inline">二</note><anchor id="fxT18p0571b01"/>仡哩<note place="inline">二合</note>賀拏<note place="inline">二合</note>播野
+<lb n="0571b21"/><anchor id="fxT18p0571b02"/>仡哩<note place="inline">二合</note>賀拏<note place="inline">二合</note>播野吽<note place="inline">引</note><note place="inline">三</note>阿<note place="inline">引</note>那野呼婆
+<lb n="0571b22"/>&CB00344;&CB00680;<note place="inline">引</note><note place="inline">四</note>尾&CB00853;<note place="inline">切身引</note>囉<note place="inline">引</note>惹吽<note place="inline">引</note>發吒<note place="inline">半音五</note></p>
+<lb n="0571b23"/><p>爾時一切天人聞此明王真言已。心生驚怖
+<lb n="0571b24"/>迷悶躄地。唯念大遍照金剛如來。若人依法
+<lb n="0571b25"/>持誦此明王真言。及觀想&CB00559;索金剛鉤。能鉤
+<lb n="0571b26"/>一切天女。此法於鉤召法中最上最尊</p>
+<lb n="0571b27"/><p>爾時世尊復入大智變化大精進金剛三摩
+<lb n="0571b28"/>地。出此定已。思念最上菩提。所生三身諸
+<lb n="0571b29"/>佛。現大神通化佛如雲。時諸化佛各各手<corr sic="報">執</corr>
+<pb ed="T" id="T18.0890.0571c" n="0571c"/>
+<lb n="0571c01"/>&CB00559;索及金剛杵金剛鉤等。此法能請召一切
+<lb n="0571c02"/>佛。況諸菩薩時阿闍梨想自本身即真言相。
+<lb n="0571c03"/>此真言相即真實智。此智即是大遍照金剛
+<lb n="0571c04"/>如來。於月輪上結跏趺坐。身如月色相好圓
+<lb n="0571c05"/>滿。如是依法觀想持誦。悉能請召諸佛菩薩。
+<lb n="0571c06"/>若欲鉤召一切童女及阿修羅女等。當稱本
+<lb n="0571c07"/>名決定速來</p>
+<lb n="0571c08"/><p>復說三金剛所生&CB00085;日囉<note place="inline">二合</note>播多羅明王鉤
+<lb n="0571c09"/>召法。此明王能擁護下方世界。手持三叉金
+<lb n="0571c10"/>剛杵&CB00559;索鉤等。能降伏阿修羅。能鉤召一切
+<lb n="0571c11"/>眾生。若持誦人欲作鉤召法者。當用朱砂或
+<lb n="0571c12"/>白石或雌黃。日初出時向日而坐。先觀想大
+<lb n="0571c13"/>遍照金剛如來。次想妙吉祥菩薩。次想焰鬘
+<lb n="0571c14"/>得迦大明王。手持金剛鉤遍身光明。現大忿
+<lb n="0571c15"/>怒相已。即誦明王真言。加持朱砂等藥。書所
+<lb n="0571c16"/>鉤者名。乃至龍女夜叉女及那羅延天大自
+<lb n="0571c17"/>在天等。皆生驚怖速來現前。若不依法觀想。
+<lb n="0571c18"/>持誦鉤召之法終不得成。若依此教法持誦
+<lb n="0571c19"/>者。所欲之事必得成就。而說頌曰</p>
+<lb n="0571c20"/><lg><l>金剛薩埵大菩薩</l><l>善能圓滿金剛心</l>
+<lb n="0571c21"/><l>依法持誦若相續</l><l>所作之事皆成就</l></lg>
+<lb n="0571c22"/><p>爾時世尊復入大智變化金剛三摩地。出此
+<lb n="0571c23"/>定已。從三金剛。說大忿怒金剛菩薩真言曰</p>
+<lb n="0571c24"/><p type="dharani">唵<note place="inline">引</note>輸<note place="inline">引</note>里&CB00135;娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0571c25"/><p>爾時一切龍女聞此真言已。悉皆驚怖身如
+<lb n="0571c26"/>火燃。唯念大遍照金剛如來。此大菩薩真言。
+<lb n="0571c27"/>若依法觀想持誦。能鉤一切龍及諸龍女。端
+<lb n="0571c28"/>正裝嚴悉來現前</p>
+<lb n="0571c29"/><p>爾時世尊復入等虛空大海變化神通三昧三
+<pb ed="T" id="T18.0890.0572a" n="0572a"/>
+<lb n="0572a01"/>摩地。出此定已。從三金剛。說大尊那菩薩真
+<lb n="0572a02"/>言曰</p>
+<lb n="0572a03"/><p type="dharani">那莫颯&CB00425;多<note place="inline">二合引</note>曩<note place="inline">引</note><note place="inline">一</note>三藐訖三<note place="inline">二合</note>沒馱<note place="inline">引</note>
+<lb n="0572a04"/>酤<note place="inline">引</note>致<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">二</note>怛&CB00853;<note place="inline">切身</note>他<note place="inline">引</note><note place="inline">三</note>唵<note place="inline">引</note>左&CB00619;<note place="inline">引</note>祖
+<lb n="0572a05"/>&CB00619;<note place="inline">引</note>尊禰<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">四</note></p>
+<lb n="0572a06"/><p>爾時世尊說此尊那菩薩真言已。諸佛剎土
+<lb n="0572a07"/>悉皆震動。諸大菩薩悉出三摩地。一切魔眾
+<lb n="0572a08"/>及諸夜叉阿修羅女等。心生驚怖受大苦惱
+<lb n="0572a09"/>如火燃身。唯念大遍照金剛如來。此菩薩真
+<lb n="0572a10"/>言。若復有人依法觀想<note n="0572001" resp="Taisho" type="orig" place="foot text">志＝至【元】【明】</note><app n="0572001"><lem>志</lem><rdg wit="【元】【明】" resp="Taisho">至</rdg></app>心持誦。一切所求
+<lb n="0572a11"/>悉得成就</p>
+<lb n="0572a12"/><p>爾時世尊復入虛空藏最勝金剛三摩地。出
+<lb n="0572a13"/>此定已。從<note n="0572002" resp="Taisho" type="orig" place="foot text">〔三〕－【三】</note><note n="0572002" resp="CBETA" type="mod">〔三〕－【宋】【元】【明】</note><app n="0572002"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>金剛說大法甘露顰眉菩薩真
+<lb n="0572a14"/>言曰</p>
+<lb n="0572a15"/><p type="dharani">唵<note place="inline">引</note>跋野那<note place="inline">引</note>設&CB00135;<note place="inline">一</note>怛囉<note place="inline">二合引</note>娑&CB00135;<note place="inline">二</note>怛囉<note place="inline">二合引</note>
+<lb n="0572a16"/>娑野<note place="inline">三</note>怛囉<note place="inline">二合引</note>娑野<note place="inline">四</note>勃哩<note place="inline">二合</note>酤致怛致<note place="inline">五</note>
+<lb n="0572a17"/>吠<note place="inline">引</note>囉致<note place="inline">六</note>稅<note place="inline">引</note>帝<note place="inline">引</note><note place="inline">七</note>稅多惹致&CB00135;娑&CB00085;<note place="inline">二合引</note>
+<lb n="0572a18"/>賀<note place="inline">引</note><note place="inline">八</note></p>
+<lb n="0572a19"/><p>爾時一切持明天及諸天等。聞此大菩薩真
+<lb n="0572a20"/>言已。悉皆驚怖身心顫掉。一切諸魔恐怖馳
+<lb n="0572a21"/>走。唯念大遍照金剛如來。此之真言若依法
+<lb n="0572a22"/>持誦。亦能鉤召大威力諸龍及龍女。阿修羅
+<lb n="0572a23"/>及阿修羅女。夜叉及夜叉女等悉來現前。若
+<lb n="0572a24"/>持誦一俱胝。能降諸魔及善作一切成就法。
+<lb n="0572a25"/>若復有人毀謗阿闍梨。及毀謗大乘經典及
+<lb n="0572a26"/>至祕密真言等。於此最勝法而作持誦者。是
+<lb n="0572a27"/>人當被惡魔作諸障難。法不成就復自破壞。
+<lb n="0572a28"/>若人信重師法如佛。觀想一切眾生而行利
+<lb n="0572a29"/>樂者。是人所作所求一切成就。而復不久證
+<pb ed="T" id="T18.0890.0572b" n="0572b"/>
+<lb n="0572b01"/>大菩提</p>
+<lb n="0572b02"/><p>復說成就法。若持誦人欲作降伏法者。當用
+<lb n="0572b03"/>嚕地囉染衣。著此衣已。觀想本身即是明王。
+<lb n="0572b04"/>作忿怒相以二足踏魔形像。持誦明王真言。
+<lb n="0572b05"/>彼魔不久即自然除滅。或用娑里羅染衣。如
+<lb n="0572b06"/>前觀想明王。作忿怒相以足踏魔持誦真言。
+<lb n="0572b07"/>彼魔亦自除滅。或用泯母怛囉<note place="inline">二合</note>染衣。如前
+<lb n="0572b08"/>依法觀想。持誦真言踏於魔像。亦令除滅。或
+<lb n="0572b09"/>用跋三摩染衣。如前作大忿怒相。持誦真言
+<lb n="0572b10"/>一千遍。彼諸魔等悉皆除滅。若持誦者善了
+<lb n="0572b11"/>印相儀則。如前依法觀想持誦。乃至三界有
+<lb n="0572b12"/>情悉能降伏</p>
+<lb n="0572b13"/><p>復次說持誦處所。謂七母居處或尸陀林中。
+<lb n="0572b14"/>或空舍內或天尊獨居處。或一大樹下或四
+<lb n="0572b15"/>衢道中。選擇如是之地當作降伏法。持誦者
+<lb n="0572b16"/>先用人骨長八指者為橛。取彼降伏人足下
+<lb n="0572b17"/>土作彼形像。誦根本真言八百遍。加持橛已
+<lb n="0572b18"/>釘於彼像。然後持此形像。往彼人舍門外密
+<lb n="0572b19"/>埋地內。經半月間速來降伏。若不降伏速自
+<lb n="0572b20"/>破壞此不可解</p>
+<lb n="0572b21"/><p>復次成就法。持誦者先用一髑髏無損壞圓
+<lb n="0572b22"/>滿者。於髑髏內而書真言。依法加持已。如前
+<lb n="0572b23"/>於降伏人舍門外密埋。或聚落中亦得。速能
+<lb n="0572b24"/>發遣彼降伏人</p>
+<lb n="0572b25"/><p>復次成就法。持誦者用貝多葉或樺皮或匹
+<lb n="0572b26"/>帛上。書於真言如前儀法。於彼人舍門外密
+<lb n="0572b27"/>埋。速得降伏</p>
+<lb n="0572b28"/><p>爾時世尊大遍照金剛如來。說此降伏法已。
+<lb n="0572b29"/>復入一切如來三金剛橛大智金剛三摩地。
+<pb ed="T" id="T18.0890.0572c" n="0572c"/>
+<lb n="0572c01"/>出此定已。從身口意三金剛。說一切三界大
+<lb n="0572c02"/>智橛真言曰</p>
+<lb n="0572c03"/><p type="dharani">唵<note place="inline">引</note>朅朅<note place="inline">一</note>朅<note place="inline">引</note>怛野朅<note place="inline">引</note>怛野<note place="inline">二</note>薩哩&CB00085;<note place="inline">二合</note>
+<lb n="0572c04"/>訥瑟&CB02824;<note place="inline">二合引</note>發吒<note place="inline">半音<note n="0572003" resp="Taisho" type="orig" place="foot text">〔三〕－【元】【明】</note><app n="0572003"><lem>三</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></note>計<note place="inline"><note n="0572004" resp="Taisho" type="orig" place="foot text">引＋（三）【明】</note><app n="0572004"><lem>引</lem><rdg wit="【明】" resp="Taisho">引三</rdg></app></note>羅野<note place="inline">四</note>計<note place="inline">引</note>羅野<note place="inline">五</note>
+<lb n="0572c05"/>薩哩&CB00085;<note place="inline">二合</note>播邦<note place="inline">引</note>發吒<note place="inline">半音六</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">七</note>&CB00085;日囉
+<lb n="0572c06"/><note place="inline">二合</note>計<note place="inline">引</note>羅<note place="inline">八</note>&CB00085;日囉<note place="inline">二合</note>達嚕<note place="inline">引</note>倪也<note place="inline">二合引</note>波野
+<lb n="0572c07"/>底<note place="inline">九</note>哥<note place="inline">引</note>野&CB00085;<note place="inline">引</note>骨唧<note place="inline">二合</note>多<note place="inline">十</note>&CB00085;日囉<note place="inline">二合</note>計<note place="inline">引</note>
+<lb n="0572c08"/>羅野<note place="inline">十一</note>吽<note place="inline">引</note>發吒<note place="inline">半音十<note n="0572005" resp="Taisho" type="orig" place="foot text">二＝一【宮】</note><app n="0572005"><lem>二</lem><rdg wit="【宮】" resp="Taisho">一</rdg></app></note></p>
+<lb n="0572c09"/><p>爾時一切諸佛及諸菩薩。聞此真言已歎未
+<lb n="0572c10"/>曾有。唯念大遍照金剛如來。此真言能除一
+<lb n="0572c11"/>切魔。時持誦人欲作法者。當用人骨為橛。或
+<lb n="0572c12"/>佉禰囉木或鐵等可得為橛。橛既成就當用
+<lb n="0572c13"/>印相。所謂大遍照金剛如來根本印。或寶生
+<lb n="0572c14"/>佛印或焰鬘得迦明王印。或吒枳明王印。及
+<lb n="0572c15"/>大力明王印等。然後觀想金剛薩埵菩薩遍
+<lb n="0572c16"/>身光明。即作除魔法。持誦者依金剛薩埵菩
+<lb n="0572c17"/>薩儀。想彼魔身從頂至足遍身釘金剛橛。乃
+<lb n="0572c18"/>至滿虛空界皆是金剛橛。如是依法觀想持
+<lb n="0572c19"/>誦三業相應。此金剛薩埵大菩薩能釘一切
+<lb n="0572c20"/>魔</p>
+<lb n="0572c21"/><p>爾時世尊大遍照金剛如來。復入身智變化
+<lb n="0572c22"/>金剛三摩地。出此定已。從身口意。說身金剛
+<lb n="0572c23"/>三昧無二真言曰</p>
+<lb n="0572c24"/><p type="dharani">唵<note place="inline">引</note>親那親那<note place="inline">一</note>賀那賀那<note place="inline">二</note>那賀那賀<note place="inline">三</note>&CB00135;<note place="inline">引</note>
+<lb n="0572c25"/>&CB00425;多<note place="inline">二合</note>&CB00085;日囉<note place="inline">二合</note>作訖囉<note place="inline">二合</note><note place="inline">四</note>吽<note place="inline">引</note>發吒<note place="inline">半音五</note></p>
+<lb n="0572c26"/><p>時阿闍梨作金剛印。觀想遍照佛。復想此真
+<lb n="0572c27"/>言如金剛橛。作釘橛勢。作法之間乃至諸佛
+<lb n="0572c28"/>皆出禪定歎未曾有。一切魔眾悉皆降伏。若
+<lb n="0572c29"/>不依此當即破壞</p>
+<pb ed="T" id="T18.0890.0573a" n="0573a"/>
+<lb n="0573a01"/><p>爾時世尊大遍照金剛如來。復入大心大智
+<lb n="0573a02"/>金剛變化金剛三摩地。出此定已。從身口意
+<lb n="0573a03"/>三金剛。說大忿怒橛真言曰</p>
+<lb n="0573a04"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>囉惹吽<note place="inline">引<note n="0573001" resp="Taisho" type="orig" place="foot text">〔一〕－【三】</note><note n="0573001" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】</note><app n="0573001"><lem>一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></note></p>
+<lb n="0573a05"/><p>時阿闍梨誦此真言已。想五股金剛杵遍滿
+<lb n="0573a06"/>虛空。以此真言力降伏諸魔。復想作釘橛勢。
+<lb n="0573a07"/>釘橛之間一切魔眾悉皆降伏。若不依此法
+<lb n="0573a08"/>當即身壞</p>
+<lb n="0573a09"/><p>爾時世尊大遍照金剛如來。復入無量壽語
+<lb n="0573a10"/>三昧變化金剛三摩地。出此定已。從身口意
+<lb n="0573a11"/>三昧。說此釘橛真言曰</p>
+<lb n="0573a12"/><p type="dharani">唵<note place="inline">引</note><note n="0573002" resp="Taisho" type="orig" place="foot text">紇＝訖【三】</note><note n="0573002" resp="CBETA" type="mod">紇＝訖【宋】【元】【明】</note><app n="0573002"><lem>紇</lem><rdg wit="【宋】【元】【明】" resp="Taisho">訖</rdg></app>哩<note place="inline">二合引</note><note place="inline">一</note>唵<note place="inline">引</note>部哩普<note place="inline">二合</note>&CB00085;<note place="inline">入</note><note place="inline">二</note></p>
+<lb n="0573a13"/><p>時阿闍梨誦此真言已。觀想蓮華印光明熾
+<lb n="0573a14"/>盛。以真言印相降伏魔冤。想如釘橛勢。如是
+<lb n="0573a15"/>依法持誦。一切魔眾悉皆降伏。若不依法必
+<lb n="0573a16"/>得除滅。此真實金剛橛。假使滿虛空皆是諸
+<lb n="0573a17"/>魔冤。悉能釘之</p>
+<lb n="0573a18"/><p>爾時大遍照金剛如來。說此祕密觀想釘橛
+<lb n="0573a19"/>之法。彼如來善利眾生心大歡喜。而說頌曰</p>
+<lb n="0573a20"/><lg><l>祕密妙法第一義</l><l>總攝甚深真實理</l>
+<lb n="0573a21"/><l>最上難思寂靜句</l><l>是即金剛大智橛</l>
+<lb n="0573a22"/><l>善釘一切邪魔&CB00057;</l><l>乃至不受佛&CB00330;者</l>
+<lb n="0573a23"/><l>如是諸佛釘橛法</l><l>皆從真實妙智生</l></lg>
+<lb n="0573a24"/><p>爾時世尊大遍照金剛如來說此頌已。復入
+<lb n="0573a25"/>一切微妙字金剛三摩地。出此定已。說日前
+<lb n="0573a26"/>菩薩真言曰</p>
+<lb n="0573a27"/><p type="dharani">唵<note place="inline">引</note>摩<note place="inline">引</note>哩<note place="inline">引</note>唧曳<note place="inline">二合引</note><note place="inline">一</note>禰<note place="inline">引</note>&CB00085;多<note place="inline">引</note>曳娑&CB00085;<note place="inline">二合引</note>
+<lb n="0573a28"/>賀<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0573a29"/><p>爾時一切佛及諸菩薩。聞此真言悉皆歡喜。
+<pb ed="T" id="T18.0890.0573b" n="0573b"/>
+<lb n="0573b01"/>此真言法能作一切事能除冤賊難。若人依
+<lb n="0573b02"/>法受持。於道路行一切諸惡不能得便</p>
+<lb n="0573b03"/><p>爾時世尊大遍照金剛如來。復入降諸惡魔
+<lb n="0573b04"/>善度一切眾生大智力最勝金剛三摩地。出
+<lb n="0573b05"/>此定已。說降伏大千界菩薩真言曰</p>
+<lb n="0573b06"/><p type="dharani">唵<note place="inline">引</note>摩賀<note place="inline">引</note>薩賀娑囉<note place="inline">二合</note>&CB00425;囉<note place="inline">二合</note>末哩那<note place="inline">二合</note>
+<lb n="0573b07"/>&CB00135;<note place="inline">引<note n="0573003" resp="Taisho" type="orig" place="foot text">〔一〕－【元】【明】</note><app n="0573003"><lem>一</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></note>&CB00085;囉悉地那<note place="inline">引</note>曳計<note place="inline">二</note>摩尼&CB00085;日哩<note place="inline">二合引</note><note place="inline">三</note>
+<lb n="0573b08"/>吽<note place="inline">引</note>發吒<note place="inline">半音</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">四</note></p>
+<lb n="0573b09"/><p>爾時世尊說此真言已。一切佛剎悉皆震動。
+<lb n="0573b10"/>一切菩薩悉出禪定。一切諸魔悉皆驚怖。受
+<lb n="0573b11"/>大苦惱如火燃身。而白佛言我等諸魔。以真
+<lb n="0573b12"/>言大威力故悉受苦惱。從今已後所在之處。
+<lb n="0573b13"/>若有持誦此真言者。誓不於彼為其魔難。長
+<lb n="0573b14"/>作擁護令增壽命</p>
+<lb n="0573b15"/><p>爾時世尊復入救帝釋降伏大力阿修羅最勝
+<lb n="0573b16"/>三摩地。出此定已。說最上寶幢陀羅尼曰</p>
+<lb n="0573b17"/><p type="dharani">唵<note place="inline">引</note>婆&CB00344;&CB00085;底<note place="inline">一</note>特&CB00085;<note place="inline">二合</note>惹<note place="inline">引</note>仡囉<note place="inline">二合</note>計<note place="inline">引</note>喻
+<lb n="0573b18"/>哩<note place="inline">二</note>&CB00425;囉塞&CB00853;<note place="inline">切身下同</note>尾特網<note place="inline">二合</note>薩那羯哩<note place="inline">三</note>莎
+<lb n="0573b19"/>塞&CB00853;<note place="inline">切身</note>&CB00425;哩播<note place="inline">引</note>羅&CB00135;<note place="inline">四</note>烏勒哥<note place="inline">二合</note>目契<note place="inline">五</note>
+<lb n="0573b20"/>朅朅<note place="inline">六</note>佉<note place="inline">引</note>呬佉<note place="inline">引</note>呬<note place="inline">七</note>&CB00425;囉塞<note place="inline">引</note>&CB00853;<note place="inline">切身<note n="0573004" resp="Taisho" type="orig" place="foot text">〔八〕－【明】</note><app n="0573004"><lem>八</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>阿難
+<lb n="0573b21"/>多部&CB00768;<note place="inline">引</note>那<note place="inline">九</note>阿難多目契那<note place="inline">十</note>&CB00425;囉<note place="inline">二合</note>賀囉
+<lb n="0573b22"/><note place="inline">十一</note>&CB00425;囉<note place="inline">二合</note>賀囉<note place="inline">十二</note>吽<note place="inline">引</note>發吒<note place="inline">半音</note>娑&CB00085;<note place="inline">二合引</note>
+<lb n="0573b23"/>賀<note place="inline">引</note><note place="inline">十三</note></p>
+<lb n="0573b24"/><p>爾時世尊說此大寶幢陀羅尼已。所有佛剎
+<lb n="0573b25"/>悉皆震動。諸大菩薩悉出禪定。一切夜叉羅
+<lb n="0573b26"/>剎及諸魔眾受大苦惱。唯念大遍照如來。俱
+<lb n="0573b27"/>白佛言世尊。我等魔眾以大明力故。受大苦
+<lb n="0573b28"/>惱如火燃身。從今已後受佛三昧。願作一切
+<lb n="0573b29"/>勝善之事</p>
+<pb ed="T" id="T18.0890.0573c" n="0573c"/>
+<lb n="0573c01"/><p>爾時世尊大遍照金剛。如來復入安隱一切
+<lb n="0573c02"/>胎藏變化金剛三摩地。出此定已。說大隨求
+<lb n="0573c03"/>菩薩真言曰</p>
+<lb n="0573c04"/><p type="dharani">唵<note place="inline">引</note>摩尼達哩<note place="inline">引</note><note place="inline">一</note>&CB00085;日哩<note place="inline">二合</note>尼<note place="inline">二</note>摩賀<note place="inline">引</note>&CB00425;
+<lb n="0573c05"/>囉<note place="inline">二合</note>底薩哩<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">三</note></p>
+<lb n="0573c06"/><p>爾時世尊說此真言已。所有一切大惡魔冤。
+<lb n="0573c07"/>及諸大力鬼神等。常於人間侵害有情食彼
+<lb n="0573c08"/>胎子者。聞此大明悉皆驚怖如火燃身。往詣
+<lb n="0573c09"/>佛所悉皆禮足。白佛言世尊。我等諸魔受佛
+<lb n="0573c10"/>三昧。從今已後不害眾生不食胎子。擁護有
+<lb n="0573c11"/>情為作安隱</p>
+<lb n="0573c12"/><p>爾時世尊大遍照金剛如來。復入持世大智
+<lb n="0573c13"/>金剛三摩地。出此定已。說持世菩薩真言曰</p>
+<lb n="0573c14"/><p type="dharani">唵<note place="inline">引</note>&CB00085;酥&CB00499;<note place="inline">引</note>哩<note place="inline">引<note n="0573005" resp="Taisho" type="orig" place="foot text">〔一〕－【元】</note><app n="0573005"><lem>一</lem><rdg wit="【元】" resp="Taisho">&lac;</rdg></app></note>摩賀<note place="inline">引</note>&CB00085;酥&CB00499;<note place="inline">引</note>囉<note place="inline">二</note>沒
+<lb n="0573c15"/>哩<note place="inline">二合</note>瑟致<note place="inline">二合</note>&CB00135;播<note place="inline">引</note>底&CB00135;<note place="inline">三</note>&CB00085;酥娑&CB00085;<note place="inline">二合引</note>賀
+<lb n="0573c16"/><note place="inline">引</note><note place="inline">四</note></p>
+<lb n="0573c17"/><p>爾時世尊說此真言已。所有一切魔眾悉皆
+<lb n="0573c18"/>驚怖。唯念大遍照金剛如來。而白佛言世尊。
+<lb n="0573c19"/>若人於此持世菩薩真言。受持讀誦書寫供
+<lb n="0573c20"/>養。及稱菩薩名號者。我等魔眾為彼眾生。雨
+<lb n="0573c21"/>眾珍寶令獲富貴</p>
+<lb n="0573c22"/><p>爾時世尊大遍照金剛如來。復入一切方便
+<lb n="0573c23"/>調伏金剛三摩地。出此定已。說閃電熾盛光
+<lb n="0573c24"/>大羅剎女心真言曰</p>
+<lb n="0573c25"/><p type="dharani">唵<note place="inline">引</note>勞<note place="inline">轉舌呼</note>捺哩<note place="inline">二合</note>尼<note place="inline">一</note>&CB00425;囉<note place="inline">二合</note>酤必多贊
+<lb n="0573c26"/>尼<note place="inline">引</note><note place="inline">二</note>摩賀<note place="inline">引</note>微<note place="inline">引</note>&CB00344;達哩<note place="inline">三</note>尾捺與<note place="inline">二合</note>&CB00768;吸
+<lb n="0573c27"/>微<note place="inline">二合引</note>摩呼<note place="inline"><note n="0573006" resp="Taisho" type="orig" place="foot text">引＋（四）【明】</note><app n="0573006"><lem>引</lem><rdg wit="【明】" resp="Taisho">引四</rdg></app></note>捺哩勞<note place="inline">同上</note>捺哩<note place="inline">二合</note><note place="inline">五</note>割播<note place="inline">引</note>羅
+<lb n="0573c28"/>摩<note place="inline">引</note>邏<note place="inline">引</note>&CB00499;<note place="inline">引</note>哩尼<note place="inline">引</note><note place="inline">六</note>惹吒<note place="inline">引</note>末酤吒曼尼帝
+<lb n="0573c29"/><note place="inline">引</note><note place="inline">七</note>那<note place="inline">引</note>那<note place="inline">引</note>&CB00425;羅<note place="inline">二合</note>訶囉拏達哩<note place="inline">八</note>吽<note place="inline">引</note>吽<note place="inline">引
+<pb ed="T" id="T18.0890.0574a" n="0574a"/>
+<lb n="0574a01"/>九</note>發吒<note place="inline">半音</note>發吒<note place="inline">半音十</note>薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;多三
+<lb n="0574a02"/>摩野摩褥娑摩<note place="inline">二合</note>囉<note place="inline">十一</note>酤嚕酤嚕<note place="inline">十二</note>吽<note place="inline">引</note>
+<lb n="0574a03"/>&CB00425;囉<note place="inline">二合</note>摩哩那<note place="inline">二合</note>野<note place="inline">十三</note>薩哩&CB00085;<note place="inline">二合</note>設咄嚕
+<lb n="0574a04"/><note place="inline">二合</note>&CB00718;<note place="inline">引</note><note place="inline">十四</note>輸<note place="inline">引</note>尼當必&CB00085;<note place="inline">十五</note>&CB00425;<note n="0574001" resp="Taisho" type="orig" place="foot text">囉＝羅【元】</note><app n="0574001"><lem>囉</lem><rdg wit="【元】" resp="Taisho">羅</rdg></app><note place="inline">二合</note>贊拏
+<lb n="0574a05"/>微<note place="inline">引</note>&CB00344;達哩<note place="inline">十六</note>&CB00425;左多&CB00425;左多<note place="inline">十七</note>尾枳囉尾
+<lb n="0574a06"/>枳囉<note place="inline">十八</note>舍<note place="inline">引</note>怛野吽<note place="inline">引</note><note place="inline">十九</note>那賀那賀<note place="inline">二十</note>薩哩
+<lb n="0574a07"/>&CB00085;<note place="inline">二合</note>設咄嚕<note place="inline">二合</note><note place="inline">二十一</note>薩哩&CB00085;<note place="inline">二合</note>訥瑟&CB02824;<note place="inline">二合引</note>&CB00135;
+<lb n="0574a08"/>訖零<note place="inline">二合</note>爹<note place="inline">二十二</note>&CB00425;囉<note place="inline">二合</note>娑<note place="inline">引</note>那野吽<note place="inline">引</note><note place="inline">二十三</note>摩賀
+<lb n="0574a09"/><note place="inline">引</note>微<note place="inline">引</note>&CB00344;&CB00085;底<note place="inline">二十四</note>入&CB00085;<note place="inline">二合</note>羅入&CB00085;<note place="inline">二合</note>羅<note place="inline">二十五</note>
+<lb n="0574a10"/>吽<note place="inline">引</note>發吒<note place="inline">半音</note><note place="inline">二十六</note>阿母剛彌<note place="inline">引</note><note place="inline">二十七</note>&CB00085;舍摩<note place="inline">引</note>那野
+<lb n="0574a11"/>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">二十八</note></p>
+<lb n="0574a12"/><p>爾時世尊說此大閃電熾盛羅剎女心真言
+<lb n="0574a13"/>已。所有一切諸大魔冤悉皆驚怖。受大苦惱
+<lb n="0574a14"/>如火燃身。時持明人欲作此法者。先用屍衣。
+<lb n="0574a15"/>以血或赤土。於屍衣上畫羅剎女形像已。焚
+<lb n="0574a16"/>安<note n="0574002" resp="Taisho" type="orig" place="foot text">悉＝息【明】</note><app n="0574002"><lem>悉</lem><rdg wit="【明】" resp="Taisho">息</rdg></app>香用赤色花及赤飲食。出生供養已。持
+<lb n="0574a17"/>誦心真言八百遍。然後以此畫像密埋於尸
+<lb n="0574a18"/>陀林地。及稱冤家名。如是埋像之間。所有魔
+<lb n="0574a19"/>冤等悉皆<note n="0574003" resp="Taisho" type="orig" place="foot text">禁＝&CB13806;【元】</note><app n="0574003"><lem>禁</lem><rdg wit="【元】" resp="Taisho">&CB13806;</rdg></app>。縛復成魑魅等法</p>
+<lb n="0574a20"/><p>爾時世尊大遍照金剛如來。復入訶利帝夜
+<lb n="0574a21"/>叉女善作歡喜眾成就金剛三摩地。出此定
+<lb n="0574a22"/>已。說訶利帝夜叉女真言曰</p>
+<lb n="0574a23"/><p type="dharani">唵<note place="inline">引</note>訶<note place="inline">引</note>哩<note place="inline">引</note>帶<note place="inline">引</note>摩賀<note place="inline">引</note>藥叱尼<note place="inline">引</note>拽<note place="inline">引</note><note place="inline">一</note>訶囉
+<lb n="0574a24"/>訶囉<note place="inline">二</note>薩哩&CB00085;<note place="inline">二合</note>播<note place="inline">引</note>煬<note place="inline">引</note><note place="inline">三</note>薩哩&CB00085;<note place="inline">二合</note>藥叱
+<lb n="0574a25"/>尼<note place="inline">引</note><note place="inline">四</note>&CB00425;囉<note place="inline">二合</note>吠<note place="inline">引</note>舍&CB00135;娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">五</note></p>
+<lb n="0574a26"/><p>爾時世尊說此訶利帝大夜叉女真言已。告
+<lb n="0574a27"/>諸眾言。此真言能令諸夜叉女等。為持誦者
+<lb n="0574a28"/>作一切成就。時持誦者作此法時。觀想忿怒
+<lb n="0574a29"/>明王八輻輪。輪中有訶利帝夜叉女。及輪八
+<pb ed="T" id="T18.0890.0574b" n="0574b"/>
+<lb n="0574b01"/>輻上有八大夜叉女。想已。復想自身以鉤。鉤
+<lb n="0574b02"/>召如是諸夜叉女等。皆來現前作成就事</p>
+<lb n="0574b03"/><p>爾時世尊大遍照金剛如來。復入銷除一切
+<lb n="0574b04"/>病最勝智金剛三摩地。出此定已。說&CB00425;蘭拏
+<lb n="0574b05"/>舍&CB00085;哩菩薩真言曰</p>
+<lb n="0574b06"/><p type="dharani">唵<note place="inline">引</note>必舍<note place="inline">引</note>唧<note place="inline">一</note>&CB00425;蘭拏<note place="inline"><note n="0574004" resp="Taisho" type="orig" place="foot text">〔二〕－【宋】【元】</note><app n="0574004"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>合</note>舍<note place="inline">引</note>&CB00085;哩<note place="inline">二</note>薩哩
+<lb n="0574b07"/>&CB00085;<note place="inline">二合</note>摩<note place="inline">引</note>哩&CB00425;囉<note place="inline">二合</note>設摩&CB00135;<note place="inline">引</note><note place="inline">三</note>吽<note place="inline">引</note><note n="0574005" resp="Taisho" type="orig" place="foot text">發＝&CB03308;【元】</note><app n="0574005"><lem>發</lem><rdg wit="【元】" resp="Taisho">&CB03308;</rdg></app>吒
+<lb n="0574b08"/><note place="inline">半音四</note></p>
+<lb n="0574b09"/><p>爾時世尊說此真言已。所有佛剎皆悉震動。
+<lb n="0574b10"/>一切夜叉羅剎能作魔者。皆悉驚怖迷悶躄
+<lb n="0574b11"/>地。時持誦者欲作息災法。當用吉祥草脂麻
+<lb n="0574b12"/>乳汁。及吉祥花果樹枝長十二指者為柴。依
+<lb n="0574b13"/>息災護摩法作於護摩。復想此菩薩遍滿虛
+<lb n="0574b14"/>空降甘露雨。所有魔嬈悉皆除滅</p>
+<lb n="0574b15"/><juan fun="close" n="003"><jhead>佛說瑜伽大教王經卷第三</jhead></juan>
+<lb n="0574b16"/>
+<milestone unit="juan" n="4"/>
+<lb n="0574b17"/>
+<lb n="0574b18"/>
+<lb n="0574b19"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead>佛說瑜伽大教王經卷第四</jhead></juan>
+<lb n="0574b20"/>
+<lb n="0574b21"/><byline type="Translator"><note n="0574006" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><app n="0574006"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0574007" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><app n="0574007"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫試<anchor id="fxT18p0574b01"/>光祿<note n="0574008" resp="Taisho" type="orig" place="foot text">（少）＋卿【宋】【元】＊</note><app n="0574008"><lem>卿</lem><rdg wit="【宋】【元】" resp="Taisho">少卿</rdg></app>
+<lb n="0574b22"/>明教大師<note n="0574009" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><app n="0574009"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline></div1>
+<lb n="0574b23"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 印相大供養儀品"/><head>印相大供養儀品第六</head>
+<lb n="0574b24"/><p>爾時世尊大遍照金剛如來。告金剛手菩薩
+<lb n="0574b25"/>言。汝今諦聽當為汝說三金剛大智所生祕
+<lb n="0574b26"/>密印相法。若持誦者依法結印。能滅一切罪
+<lb n="0574b27"/>業。復能觀想真理。即得證於無上菩提。何況
+<lb n="0574b28"/>別求成就之事</p>
+<lb n="0574b29"/><p>復次作印相法。先以二手作拳。二拇指平&CB00594;
+<pb ed="T" id="T18.0890.0574c" n="0574c"/>
+<lb n="0574c01"/>立。此是大遍照如來安身印。不改前印。以左
+<lb n="0574c02"/>手拇指入掌內。右手拇指&CB00594;立。此是無量壽
+<lb n="0574c03"/>佛安語印</p>
+<lb n="0574c04"/><p>不改前印。以右手拇指入於掌內。左手拇指
+<lb n="0574c05"/>&CB00594;立。此是阿&CB00434;佛安心印</p>
+<lb n="0574c06"/><p>復以二手作拳。左手頭指&CB00594;立入右拳內。此
+<lb n="0574c07"/>是大遍照金剛如來根本印</p>
+<lb n="0574c08"/><p>復次半跏趺坐垂左足。左手安臍輪。垂右手
+<lb n="0574c09"/>觸地。此是阿&CB00434;佛根本印</p>
+<lb n="0574c10"/><p>不改前印。以右手作施願相。此是寶生佛根
+<lb n="0574c11"/>本印</p>
+<lb n="0574c12"/><p>不改前印。以<note n="0574010" resp="Taisho" type="orig" place="foot text">二＝右【明】</note><app n="0574010"><lem>二</lem><rdg wit="【明】" resp="Taisho">右</rdg></app>手安臍輪如禪定相。此是無
+<lb n="0574c13"/>量壽佛根本印</p>
+<lb n="0574c14"/><p>不改前印。以右手作無畏相。此是不空成就
+<lb n="0574c15"/>佛根本印</p>
+<lb n="0574c16"/><p>復次以二手作金剛縛。二中指&CB00594;立如針。此
+<lb n="0574c17"/>是薩埵金剛菩薩印</p>
+<lb n="0574c18"/><p>不改前印。二中指微屈頭節如寶形。此是寶
+<lb n="0574c19"/>金剛菩薩印</p>
+<lb n="0574c20"/><p>不改前印。二中指作環如蓮花形。此是法金
+<lb n="0574c21"/>剛菩薩印</p>
+<lb n="0574c22"/><p>不改前印。二中指如羯磨杵。此是羯磨金剛
+<lb n="0574c23"/>菩薩印</p>
+<lb n="0574c24"/><p>復次以二手作合掌。二頭指捻二拇指頭如
+<lb n="0574c25"/>目形。此是佛眼菩薩印</p>
+<lb n="0574c26"/><p>復次以二手作金剛縛。二中指展舒。二頭指
+<lb n="0574c27"/>捻中指第三節如金剛形。此是摩摩枳菩薩
+<lb n="0574c28"/>印</p>
+<lb n="0574c29"/><p>復次以二手合掌令十指頭各不相著。微屈
+<pb ed="T" id="T18.0890.0575a" n="0575a"/>
+<lb n="0575a01"/>如蓮花形。此是白衣菩薩印</p>
+<lb n="0575a02"/><p>復次以二手作合掌。二頭指捻中指甲。二拇
+<lb n="0575a03"/>指入掌內如優&CB00425;羅花形。此是多羅菩薩印</p>
+<lb n="0575a04"/><p>復次以二手作合掌。二頭指捻於中指中節
+<lb n="0575a05"/>如環。二拇指安二邊。此是尊那菩薩印</p>
+<lb n="0575a06"/><p>復次以二手作金剛縛。二頭指與拇指。各頭
+<lb n="0575a07"/>節微屈。此是寶光菩薩印</p>
+<lb n="0575a08"/><p>復次以二手展舒。二拇指<note n="0575001" resp="Taisho" type="orig" place="foot text">捏＝捻【明】</note><app n="0575001"><lem>捏</lem><rdg wit="【明】" resp="Taisho">捻</rdg></app>小指甲。餘指不
+<lb n="0575a09"/>相著如金剛形。此是顰眉菩薩印</p>
+<lb n="0575a10"/><p>復次以二手作金剛拳。小指與頭指相交如
+<lb n="0575a11"/>鎖。此是金剛鎖菩薩印</p>
+<lb n="0575a12"/><p>復次以二手作拳。二拇指與小指如針。二中
+<lb n="0575a13"/>指與無名指相背。二頭指屈向拇指如環。拇
+<lb n="0575a14"/>指亦微屈如輪。此是焰鬘得迦明王印</p>
+<lb n="0575a15"/><p>復次以左手作金剛拳安心。頭指&CB00594;立。右手
+<lb n="0575a16"/>如&CB03373;勢。此是&CB00425;囉研得迦明王印</p>
+<lb n="0575a17"/><p>復次以二手作金剛拳。二小指相交如鎖。二
+<lb n="0575a18"/>頭指相背如針安於額上。此是&CB00425;<note n="0575002" resp="Taisho" type="orig" place="foot text">納＝訥【元】【明】【宮】</note><app n="0575002"><lem>納</lem><rdg wit="【元】【明】【宮】" resp="Taisho">訥</rdg></app>鬘得迦
+<lb n="0575a19"/>明王印</p>
+<lb n="0575a20"/><p>復次以二手拇指。捏小指甲。餘指如金剛形。
+<lb n="0575a21"/>二手相交安於髆上。此是尾覲難得迦明王
+<lb n="0575a22"/>印</p>
+<lb n="0575a23"/><p>復次以左手拇指無名指。與小指相捻指甲
+<lb n="0575a24"/>如劍鞘。右手如取劍勢。此是不動尊明王印</p>
+<lb n="0575a25"/><p>復<note n="0575003" resp="Taisho" type="orig" place="foot text">次＋（以）【明】</note><app n="0575003"><lem>次</lem><rdg wit="【明】" resp="Taisho">次以</rdg></app>二手作金剛拳。右手在上二拳相背。二
+<lb n="0575a26"/>小指相交如鎖。二頭指&CB00594;立如降伏勢。此是
+<lb n="0575a27"/>吒枳明王印</p>
+<lb n="0575a28"/><p>復次以左手作金剛拳安心。頭指&CB00594;立。右手
+<lb n="0575a29"/>展舒頭指亦&CB00594;立如杖勢。此是&CB00135;羅難拏明
+<pb ed="T" id="T18.0890.0575b" n="0575b"/>
+<lb n="0575b01"/>王印</p>
+<lb n="0575b02"/><p>復次以左手安心。右手作拳如揮拳勢。此是
+<lb n="0575b03"/>大力明王印</p>
+<lb n="0575b04"/><p>復次以二手各作拳。頭指拇指中指微展舒
+<lb n="0575b05"/>如開花勢。此是慈氏菩薩印</p>
+<lb n="0575b06"/><p>復次以二手作合掌。頭指捻無名指甲如優
+<lb n="0575b07"/>&CB00425;羅花勢。此是妙吉祥菩薩印</p>
+<lb n="0575b08"/><p>復次以左手安臍輪。右手如象勢。此是香象
+<lb n="0575b09"/>菩薩印</p>
+<lb n="0575b10"/><p>復次以左手作拳&CB00594;立如幢。右手如幡勢。此
+<lb n="0575b11"/>是智幢菩薩印</p>
+<lb n="0575b12"/><p>復次處於賢座。二手合掌安心。此是賢護菩
+<lb n="0575b13"/>薩印</p>
+<lb n="0575b14"/><p>復次以二手展舒如龜行勢。指鉤於掌內。此
+<lb n="0575b15"/>是海意菩薩<note n="0575004" resp="Taisho" type="orig" place="foot text">〔印〕－【明】</note><app n="0575004"><lem>印</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0575b16"/><p>復次以左手作金剛拳安心。右手作施願相。
+<lb n="0575b17"/>此是無盡意菩薩印</p>
+<lb n="0575b18"/><p>復次以左手作拳安於臍輪。右手作<note n="0575005" resp="Taisho" type="orig" place="foot text">彈＝禪【宮】</note><app n="0575005"><lem>彈</lem><rdg wit="【宮】" resp="Taisho">禪</rdg></app>指。此
+<lb n="0575b19"/>是辯積菩薩印</p>
+<lb n="0575b20"/><p>復次以二手如圓滿蓮花形。此是得大勢至
+<lb n="0575b21"/>菩薩印</p>
+<lb n="0575b22"/><p>復次以二手作磔散勢。此是除一切罪障菩
+<lb n="0575b23"/>薩印</p>
+<lb n="0575b24"/><p>復次以二手作合掌如打擲勢。此是破一切
+<lb n="0575b25"/>憂闇菩薩印</p>
+<lb n="0575b26"/><p>復次以二手指展舒如熾焰勢。此是熾盛光
+<lb n="0575b27"/>菩薩印</p>
+<lb n="0575b28"/><p>復次以右手作施願相。左手如月輪勢。此是
+<lb n="0575b29"/>月光菩薩印</p>
+<pb ed="T" id="T18.0890.0575c" n="0575c"/>
+<lb n="0575c01"/><p>復次以二手如持閼伽瓶作灌頂勢。此是甘
+<lb n="0575c02"/>露光菩薩印</p>
+<lb n="0575c03"/><p>復次以左手作金剛拳安臍輪。右手亦作拳。
+<lb n="0575c04"/>旋轉捫摸虛空勢。此是虛空藏菩薩印</p>
+<lb n="0575c05"/><p>復次以左手展舒。右手頭指拇指安左掌中。
+<lb n="0575c06"/>此是除蓋障菩薩印</p>
+<lb n="0575c07"/><p>復次以左手作金剛拳安心。&CB00594;立頭指。右手
+<lb n="0575c08"/>亦作金剛拳。如揮拳勢現忿怒相。此是&CB00425;蘭
+<lb n="0575c09"/>那舍&CB00085;哩菩薩印</p>
+<lb n="0575c10"/><p>復次以左手拇指與頭指。如持物勢。右手如
+<lb n="0575c11"/>持針勢。此是日前菩薩印</p>
+<lb n="0575c12"/><p>復次以二手如蛇頭形。安頂上如繖蓋勢。微
+<lb n="0575c13"/>現忿怒相。此是穰虞梨菩薩印能除一切毒</p>
+<lb n="0575c14"/><p>復次如前吒枳明王印。以二頭指&CB00594;立。此是
+<lb n="0575c15"/>降三界明王印</p>
+<lb n="0575c16"/><p>不改前印。右頭指如鉤現忿怒相。此是金剛
+<lb n="0575c17"/>明王鉤印。用此印法可請召一切如來</p>
+<lb n="0575c18"/><p>復次以二手作金剛拳。小指屈如牙。二手相
+<lb n="0575c19"/>交安口門。如牙及出舌現忿怒顧視。此是金
+<lb n="0575c20"/>剛牙明王印</p>
+<lb n="0575c21"/><p>不改前印。屈二小指二頭指如鉤勢。現忿怒
+<lb n="0575c22"/>顧視。此是金剛拏吉&CB00135;印</p>
+<lb n="0575c23"/><p>復次以二手作金剛拳。二頭指展舒。二手相
+<lb n="0575c24"/>交於頭上磔散。此是曼拏羅印</p>
+<lb n="0575c25"/><p>不改前印。良久之間亦磔散手。此是開門印</p>
+<lb n="0575c26"/><p>復次以二手作拳。二拳相交以&CB00169;挾之。現忿
+<lb n="0575c27"/>怒顧視右繞而行。此是破一切惡曜印</p>
+<lb n="0575c28"/><p>復次以左手覆。舒右手覆安左手背。二拇指
+<lb n="0575c29"/>動搖。此是破阿修羅&CB00057;法。及降伏阿修羅女
+<pb ed="T" id="T18.0890.0576a" n="0576a"/>
+<lb n="0576a01"/>印</p>
+<lb n="0576a02"/><p>復次以二手拇指與小指相交如鎖。餘指如
+<lb n="0576a03"/>幡勢現大忿怒相此是&CB00085;日囉<note place="inline">二合</note>播多羅明
+<lb n="0576a04"/>王印</p>
+<lb n="0576a05"/><p>復次以左手作金剛拳頭指展舒。此是金剛
+<lb n="0576a06"/>橛印</p>
+<lb n="0576a07"/><p>復次以二手作金剛縛。二頭指展舒如釘橛
+<lb n="0576a08"/>勢。此亦是金剛橛印</p>
+<lb n="0576a09"/><p>復次以右手作金剛拳如釘椎勢。此是椎印
+<lb n="0576a10"/>亦成骨朵印</p>
+<lb n="0576a11"/><p>復次以二手作金剛拳。二頭指展舒復如金
+<lb n="0576a12"/>剛縛勢。此是一切如來金剛縛印</p>
+<lb n="0576a13"/><p>復次以二手作金剛拳。復作揮拳勢。此是金
+<lb n="0576a14"/>剛訖囉<note place="inline">二合</note>哥左印</p>
+<lb n="0576a15"/><p>復次以二手如持月勢。捫摸於面。復展舒現
+<lb n="0576a16"/>忿怒顧視。此是閃電熾盛羅剎女印</p>
+<lb n="0576a17"/><p>復次以二手相交如鎖。頭指與拇指&CB00594;立如
+<lb n="0576a18"/>持刀勢。此是金剛刀印。此印能止風雨</p>
+<lb n="0576a19"/><p>復次以二手作拳。二頭指屈如環現大忿怒
+<lb n="0576a20"/>相。復展舒二手。此是破壞他&CB00057;法印</p>
+<lb n="0576a21"/><p>復次以二手覆拇指入掌內。餘指動搖如翅
+<lb n="0576a22"/>翼翹一足而立。出舌現忿怒顧視。連誦吽字
+<lb n="0576a23"/>依法行步。此是金翅鳥印。結此印時能解三
+<lb n="0576a24"/>界毒</p>
+<lb n="0576a25"/><p>復次以二手作金剛拳。復如四方射箭勢。此
+<lb n="0576a26"/>是金剛箭印。此印能破壞他軍</p>
+<lb n="0576a27"/><p>復次以二手作拳。二中指如針。復屈如寶形。
+<lb n="0576a28"/>二拇指展舒捻二頭指甲如環。此是佛輪印。
+<lb n="0576a29"/>此印能救軍陣之難</p>
+<pb ed="T" id="T18.0890.0576b" n="0576b"/>
+<lb n="0576b01"/><p>復次以左手作拳中指如針。右手如開敷蓮
+<lb n="0576b02"/>花。此是訶邏曷羅菩薩印</p>
+<lb n="0576b03"/><p>復次以二手作拳。二小指相交。二頭指如針。
+<lb n="0576b04"/>相背安於額上。此是呬嚕哥明王印。此入尸
+<lb n="0576b05"/>陀林能破諸鬼神</p>
+<lb n="0576b06"/><p>復次以左手如持髑髏勢。右手如持三叉勢。
+<lb n="0576b07"/>此是自在天印</p>
+<lb n="0576b08"/><p>復次以左手展舒。指不相著如無畏勢。拇指
+<lb n="0576b09"/>入掌內。右手作拳&CB00594;立。如持寶棒勢。此是那
+<lb n="0576b10"/>羅延天印</p>
+<lb n="0576b11"/><p>復次以二手作展舒。如蓮花形。此是大梵天
+<lb n="0576b12"/>印</p>
+<lb n="0576b13"/><p>復次以二手作花合掌。此是一切族母印</p>
+<lb n="0576b14"/><p>如是薩埵金剛等四親近菩薩所結印相。當
+<lb n="0576b15"/>與灌頂印同。如是阿闍梨隨曼拏羅。諸賢聖
+<lb n="0576b16"/>印法一一了知已。復於曼拏羅祕密供養圓
+<lb n="0576b17"/>滿了知</p>
+<lb n="0576b18"/><p>所有戲鬘歌舞香花燈塗。隨彼菩薩各各供
+<lb n="0576b19"/>養作獻物勢。如是種種<note n="0576001" resp="Taisho" type="orig" place="foot text">裝嚴＝莊嚴【三】【宮】下同</note><note n="0576001" resp="CBETA" type="mod">裝嚴＝莊嚴【宋】【元】【明】【宮】下同</note><app n="0576001"><lem>裝嚴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">莊嚴</rdg></app>。及種種殊妙衣
+<lb n="0576b20"/>服幢幡繖蓋閼伽水等。悉皆各作獻物勢已。
+<lb n="0576b21"/>手持鈴杵即<note n="0576002" resp="Taisho" type="orig" place="foot text">振＝震【宋】【元】【宮】＊</note><app n="0576002"><lem>振</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">震</rdg></app>鈴。而開曼拏羅門誦此真言
+<lb n="0576b22"/>曰</p>
+<lb n="0576b23"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>健致<note place="inline">引</note>羅拏<note place="inline"><note n="0576003" resp="Taisho" type="orig" place="foot text">一＝二【明】</note><app n="0576003"><lem>一</lem><rdg wit="【明】" resp="Taisho">二</rdg></app></note>&CB00425;囉<note place="inline">二合</note>囉拏
+<lb n="0576b24"/><note place="inline">二</note>三&CB00425;囉<note place="inline">二合</note>囉拏<note place="inline">三</note>沒馱叱怛囉<note place="inline">二合</note>左<note place="inline">引</note>里&CB00135;
+<lb n="0576b25"/><note place="inline">引</note><note place="inline">四</note>&CB00425;囉<note place="inline">二合</note>倪也<note place="inline">二合引</note>播<note place="inline">引</note>囉彌多<note place="inline">引</note><note place="inline">五</note>那<note place="inline">引</note>捺
+<lb n="0576b26"/>莎婆<note place="inline">引</note>吠<note place="inline">引</note><note place="inline">六</note>&CB00085;日囉<note place="inline">二合</note>達囉紇哩<note place="inline">二合</note>那野
+<lb n="0576b27"/><note place="inline">七</note>散都殺尼<note place="inline">引</note><note place="inline">八</note>吽<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">九</note></p>
+<lb n="0576b28"/><p>時阿闍梨誦此真言已。以右手<note n="0576004" resp="Taisho" type="orig" place="foot text">擲＝執【明】</note><app n="0576004"><lem>擲</lem><rdg wit="【明】" resp="Taisho">執</rdg></app>金剛杵。左
+<lb n="0576b29"/>手<anchor id="fxT18p0576b01"/>振金剛鈴即以歌讚供養賢聖。如是依金
+<pb ed="T" id="T18.0890.0576c" n="0576c"/>
+<lb n="0576c01"/>剛大乘。作最上真<note n="0576005" resp="Taisho" type="orig" place="foot text">實＝寶【元】</note><app n="0576005"><lem>實</lem><rdg wit="【元】" resp="Taisho">寶</rdg></app>供養已。諸佛賢聖悉
+<lb n="0576c02"/>皆歡喜。彼<note n="0576006" resp="Taisho" type="orig" place="foot text">諸＋（佛）【三】</note><note n="0576006" resp="CBETA" type="mod">諸＋（佛）【宋】【元】【明】</note><app n="0576006"><lem>諸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">諸佛</rdg></app>如來即說頌曰</p>
+<lb n="0576c03"/><lg><l>若人斷除諸疑惑</l><l>常作菩提觀想行</l>
+<lb n="0576c04"/><l>&M010527;以清淨身口意</l><l>供養聖賢為最上</l>
+<lb n="0576c05"/><l>若人不斷諸疑惑</l><l>而復信重緣覺乘</l>
+<lb n="0576c06"/><l>修習小乘聲聞教</l><l>彼人供養非最上</l>
+<lb n="0576c07"/><l>依法供養諸如來</l><l>聖賢歡喜歎希有</l></lg>
+<lb n="0576c08"/><p>爾時諸佛如來。讚遍照佛言。善哉善哉能為
+<lb n="0576c09"/>眾生。分別顯示瑜伽大教菩提之法。而說頌
+<lb n="0576c10"/>曰</p>
+<lb n="0576c11"/><lg><l>金剛遍照圓明智</l><l>隨機開演大乘門</l>
+<lb n="0576c12"/><l>能令除斷貪瞋癡</l><l>觀想菩提微妙理</l>
+<lb n="0576c13"/><l>善哉無上大乘法</l><l>甚深方廣濟群生</l>
+<lb n="0576c14"/><l>如是真實法寶藏</l><l>彼佛大覺能宣演</l></lg>
+<lb n="0576c15"/><p>爾時諸菩薩。聞諸如來出微妙音頌讚佛已。
+<lb n="0576c16"/>皆大歡喜。亦以伽陀讚遍照佛曰</p>
+<lb n="0576c17"/><lg><l>佛身無邊無生滅</l><l>無住無說無文字</l>
+<lb n="0576c18"/><l>寂滅離相如虛空</l><l>有相是佛方便說</l>
+<lb n="0576c19"/><l>所說教相福含生</l><l>引導令登菩薩位</l>
+<lb n="0576c20"/><l>菩薩獲居佛剎中</l><l>皆因祕密三摩地</l></lg>
+<lb n="0576c21"/><p>時諸佛及大菩薩。各以伽陀讚歎佛已</p>
+<lb n="0576c22"/><p>爾時大遍照金剛如來。說妙歌讚</p>
+<lb n="0576c23"/><p type="dharani">&CB00085;惹虎惹<note place="inline">引</note>拏壹<note place="inline">一</note>穌訶烏&CB00425;帝<note place="inline">引<note n="0576007" resp="Taisho" type="orig" place="foot text">〔二〕－【宋】【元】</note><app n="0576007"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></note>婆<note place="inline">引</note>&CB00085;
+<lb n="0576c24"/>尾婆<note place="inline">引</note>網<note place="inline">三</note>末虎烏&CB00425;帝<note place="inline">引</note><note place="inline">四</note>惹馨吠<note place="inline">武母切</note>嚕阿
+<lb n="0576c25"/>努<note place="inline">五</note>&CB00425;茶謨剛&CB00942;<note place="inline">引</note><note place="inline">六</note>戌&CB00499;尾戌提<note place="inline">引</note><note place="inline">七</note>&CB00576;彌阿
+<lb n="0576c26"/>沒提<note place="inline">引</note><note place="inline">八</note>末虎尾訶嚕微孕<note place="inline">二合</note><note place="inline">九</note>滿&CB00499;呼摩<note place="inline">引</note>朗
+<lb n="0576c27"/><note place="inline">十</note>&CB00425;那摩訶當當<note place="inline">十一</note>摩<note place="inline">引</note>野惹<note place="inline">引</note>朗<note place="inline">十二</note>&CB00085;<note place="inline">引</note>仵
+<lb n="0576c28"/>&CB00425;半際<note place="inline">引</note><note place="inline">十三</note>恥烏路伊薩嚕<note place="inline">十四</note>薩哩微<note place="inline">引二合</note>遏
+<lb n="0576c29"/>朅哩<note place="inline">引</note><note n="0576008" resp="Taisho" type="orig" place="foot text">盤＝槃【元】</note><app n="0576008"><lem>盤</lem><rdg wit="【元】" resp="Taisho">槃</rdg></app><note place="inline">引</note>妮烏輸薩嚕<note place="inline">十五</note>禰拏阿努捺彌
+<pb ed="T" id="T18.0890.0577a" n="0577a"/>
+<lb n="0577a01"/>遏烏<note place="inline">十六</note>薩呬烏摩<note place="inline">引</note>&CB00135;<note place="inline">引</note>微<note place="inline">引</note><note place="inline">十七</note>末虎尾訶哩
+<lb n="0577a02"/>提<note place="inline">十八</note>伊<note n="0577001" resp="Taisho" type="orig" place="foot text">拏＝努【明】</note><app n="0577001"><lem>拏</lem><rdg wit="【明】" resp="Taisho">努</rdg></app>呬阿酤<note place="inline">引</note>微<note place="inline">引</note><note place="inline">十九</note>穰呬遏拏囉<note place="inline">引</note>
+<lb n="0577a03"/>阿<note n="0577002" resp="Taisho" type="orig" place="foot text">努＝拏【宋】【元】【宮】</note><app n="0577002"><lem>努</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">拏</rdg></app><note place="inline">二十</note>穌囉遏薩訶<note place="inline">引</note>吠<note place="inline">引</note><note place="inline">二十一</note>入舞<note place="inline">二合引</note>尾壹
+<lb n="0577a04"/>遏薩體<note place="inline">引</note><note place="inline">二十二</note>薩&CB00155;提遏烏婆<note place="inline">引</note>吠<note place="inline">引</note><note place="inline">二十三</note>那<note place="inline">引</note>呬拏
+<lb n="0577a05"/>喝體<note place="inline">二十四</note>羯哩洗&CB00085;儒<note place="inline">仁祖切二十五</note>&CB00085;<note place="inline">引</note>彌<note place="inline">引</note>健吒<note place="inline">引</note>囉
+<lb n="0577a06"/>尼阿穌薩儒<note place="inline">上同</note><note place="inline">二十六</note>薩阿邏&CB00135;<note place="inline">引</note>微<note place="inline"><note n="0577003" resp="Taisho" type="orig" place="foot text">〔引〕－【明】</note><app n="0577003"><lem>引</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note><note place="inline">二十七</note>彌里
+<lb n="0577a07"/>阿<note place="inline">引</note>&CB00085;儒<note place="inline">引</note>三摩夜<note place="inline">引</note>播<note place="inline">引</note>微<note place="inline">引</note><note place="inline">二十八</note>割哩阿<note place="inline">引</note>割
+<lb n="0577a08"/>儒<note place="inline">引</note><note place="inline">二十九</note>伊哥<note place="inline">引</note>陵&CB00344;拏<note place="inline">三十</note>&CB00085;<note place="inline">引</note>&CB00085;拏喝他<note place="inline">引</note><note place="inline">三十一</note>微
+<lb n="0577a09"/><note place="inline">引</note>阿努囉<note place="inline">引</note>阿拏<note place="inline">三十二</note>穌囉阿薩末他<note place="inline">三十三</note>帝<note place="inline">引</note>
+<lb n="0577a10"/>阿<note place="inline">引</note>酤<note place="inline">引</note>吠<note place="inline">引</note><note place="inline">三十四</note>潑<note n="0577004" resp="Taisho" type="orig" place="foot text">羅＝囉【三】</note><note n="0577004" resp="CBETA" type="mod">羅＝囉【宋】【元】【明】</note><app n="0577004"><lem>羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">囉</rdg></app>虎摩<note place="inline">引</note>&CB00619;<note place="inline">引</note><note place="inline">三十五</note>怛馨左烏
+<lb n="0577a11"/>提<note place="inline">引</note>吻<note place="inline">微引切</note>達壹<note place="inline">三<note n="0577005" resp="Taisho" type="orig" place="foot text">十字元本白缺</note>十六</note>蘇囉阿<note place="inline">引</note>&CB00085;拏<note place="inline">引</note><note place="inline">三十七</note>儒伊
+<lb n="0577a12"/>馨倪<note place="inline">引</note><note place="inline">三十八</note>伊馨儒<note place="inline">引</note>婆<note place="inline">引</note>晚帝<note place="inline">引</note><note place="inline">三十九</note>穌囉阿&CB00085;惹
+<lb n="0577a13"/><note place="inline">引</note>虎<note place="inline">四十</note>帝<note place="inline">引</note>窣虎播<note place="inline">引</note>晚帝<note place="inline">引</note><note place="inline">四十一</note></p>
+<lb n="0577a14"/><p>爾時大遍照金剛如來。說此妙歌讚已。復說
+<lb n="0577a15"/>供養真言曰</p>
+<lb n="0577a16"/><p type="dharani">唵<note place="inline">引</note>阿<note n="0577006" resp="Taisho" type="orig" place="foot text">耨＝褥【元】</note><app n="0577006"><lem>耨</lem><rdg wit="【元】" resp="Taisho">褥</rdg></app>怛囉<note place="inline">一</note>薩哩&CB00085;<note place="inline">二合</note>布<note place="inline">引</note>惹<note place="inline">引</note>彌<note n="0577007" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0577007" resp="CBETA" type="mod">〔引〕－【宋】【元】【明】</note><app n="0577007"><lem><note place="inline">引</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
+<lb n="0577a17"/>伽<note place="inline">二</note>烏訥&CB00344;<note place="inline">二合</note>帝<note place="inline">引</note>塞頗<note place="inline">二合</note>囉呬&CB00805;<note place="inline">引</note><note place="inline">三</note>&CB00344;&CB00344;
+<lb n="0577a18"/>那剛吽<note place="inline">引</note><note place="inline">四</note>發吒<note place="inline">半音</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">五</note></p>
+<lb n="0577a19"/><p>時持誦者誦此真言三遍已。想此供養遍滿虛
+<lb n="0577a20"/>空。即成一切供養。獻於一切賢聖皆大歡喜</p></div1>
+<lb n="0577a21"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 觀想菩提心大智品"/><head><title><note n="0577008" resp="Taisho" type="orig" place="foot text">〔佛說瑜伽大教王經〕－【明】</note><app n="0577008"><lem>佛說瑜伽大教王經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>觀想菩提心大智品第
+<lb n="0577a22"/>七</head>
+<lb n="0577a23"/><p>爾時一切如來及諸菩薩。異口同音勸請世
+<lb n="0577a24"/>尊大遍照金剛如來。唯願慈悲演說。甚深無
+<lb n="0577a25"/>上大覺菩提心法</p>
+<lb n="0577a26"/><p>爾時世尊受彼請已而告眾言。諦聽諦聽我
+<lb n="0577a27"/>今說之</p>
+<lb n="0577a28"/><p>佛言此菩提心即是身相。身相性空即真菩
+<pb ed="T" id="T18.0890.0577b" n="0577b"/>
+<lb n="0577b01"/>提。身既無別語相亦然。爾時諸佛如來聞佛
+<lb n="0577b02"/>說已。住一切如來身口意三密相中。心離取
+<lb n="0577b03"/>捨而說頌曰</p>
+<lb n="0577b04"/><lg><l>希有普賢身語心</l><l>本無生滅亦無著</l>
+<lb n="0577b05"/><l>體無文字及諸相</l><l>遠離戲論絕分別</l></lg>
+<lb n="0577b06"/><p>爾時諸佛說此頌已。時世尊阿&CB00434;如來。入語
+<lb n="0577b07"/>相金剛三摩地。從定出已說菩提心。本離生
+<lb n="0577b08"/>滅湛然清淨如虛空故。而說頌曰</p>
+<lb n="0577b09"/><lg><l>菩提心本無生滅</l><l>性淨無法無所受</l>
+<lb n="0577b10"/><l>無著無染如虛空</l><l>是即堅固菩提心</l></lg>
+<lb n="0577b11"/><p>如是阿&CB00434;如來說此頌已</p>
+<lb n="0577b12"/><p>爾時寶生如來。入一切如來無相金剛三摩
+<lb n="0577b13"/>地。從定出已。說菩提心。頌曰</p>
+<lb n="0577b14"/><lg><l>此性本來無有性</l><l>無相無為體凝寂</l>
+<lb n="0577b15"/><l>此法源從無我生</l><l>是即堅固菩提心</l></lg>
+<lb n="0577b16"/><p>如是寶生如來說此頌已</p>
+<lb n="0577b17"/><p>爾時無量壽如來。入最勝熾盛金剛三摩地。
+<lb n="0577b18"/>從定出已說菩提心。頌曰</p>
+<lb n="0577b19"/><lg><l>法界本來無所生</l><l>寂然無性亦無相</l>
+<lb n="0577b20"/><l>洞達空理無邊際</l><l>此即菩提真實心</l></lg>
+<lb n="0577b21"/><p>如是無量壽如來說此頌已</p>
+<lb n="0577b22"/><p>爾時不空成就如來。入無上智金剛三摩地。
+<lb n="0577b23"/>從定出已說菩提心。頌曰</p>
+<lb n="0577b24"/><lg><l>諸法自性皆清淨</l><l>本來寂靜無所有</l>
+<lb n="0577b25"/><l>亦無菩提亦無佛</l><l>及彼眾生并壽者</l>
+<lb n="0577b26"/><l>有見如夢如幻化</l><l>無見之見亦復然</l>
+<lb n="0577b27"/><l>離有離無取捨亡</l><l>是即堅固菩提心</l></lg>
+<lb n="0577b28"/><p>如是不空成就如來說此頌已</p>
+<lb n="0577b29"/><p>爾時慈氏菩薩等諸大菩薩。聞諸如來以金
+<pb ed="T" id="T18.0890.0577c" n="0577c"/>
+<lb n="0577c01"/>剛身語心。說清淨菩提心法。歎未曾有而說
+<lb n="0577c02"/>頌曰</p>
+<lb n="0577c03"/><lg><l>唯佛最上尊</l><l>善說微妙法</l>
+<lb n="0577c04"/><l>法從無我生</l><l>稽首菩提心</l>
+<lb n="0577c05"/><l>字從無字生</l><l>佛從無相顯</l>
+<lb n="0577c06"/><l>一切如幻夢</l><l>稽首金剛心</l></lg>
+<lb n="0577c07"/><p>如是慈氏菩薩等說此頌已</p>
+<lb n="0577c08"/><p>爾時大遍照金剛如來。復說觀想法。持誦者
+<lb n="0577c09"/>先跏趺坐。觀想五趣處與非處。以淨三業真
+<lb n="0577c10"/>言。普皆清淨令住淨。法然後想自本心為其
+<lb n="0577c11"/>吽字。吽字變成佛身。佛身即自身。現貢高勢
+<lb n="0577c12"/>以金剛鉤請召賢聖已。而現三昧作結界法。
+<lb n="0577c13"/>然後依法獻座。及獻閼伽等種種供養。令一
+<lb n="0577c14"/>切賢聖生大歡喜。然後自作相應法。此有三
+<lb n="0577c15"/>種。一祈求諸佛慈悲加護。想微妙字化成佛
+<lb n="0577c16"/>相。二起自本身清淨菩提心成大智佛。三所
+<lb n="0577c17"/>成佛相及菩薩等。依法了知印相圓滿。如是
+<lb n="0577c18"/>三種相應儀法具足。剎那之間神通變化成
+<lb n="0577c19"/>畢竟大智</p>
+<lb n="0577c20"/><p>復次持誦者先安住三昧已。發大菩提心洗
+<lb n="0577c21"/>除心垢。誦淨三業真言。一剎那中心垢清淨。
+<lb n="0577c22"/>以真言威力開發菩提心。觀一切法如幻如
+<lb n="0577c23"/>化。本自性空無有堅實。依此菩提心想為月
+<lb n="0577c24"/>輪。於月輪上想有唵字為身金剛。次想
+<lb n="0577c25"/>阿字成語金剛吽字成心金剛。如是三字
+<lb n="0577c26"/>成金剛身語心已。想</p>
+<lb n="0577c27"/><p>&CB00425;字化成蓮花。乘此蓮花相好具足。想於佛
+<lb n="0577c28"/>身色相執捉儀法已。想自身作貢高勢。我身
+<lb n="0577c29"/>即是金剛如來。一切裝嚴圓光照曜。如是本
+<pb ed="T" id="T18.0890.0578a" n="0578a"/>
+<lb n="0578a01"/>身即是畢竟菩提大智。然後依五如來法。以
+<lb n="0578a02"/>真言印相為弟子甲冑器仗。即與授於灌頂。
+<lb n="0578a03"/>是時阿闍梨觀想。諸佛遍滿虛空作大神變。
+<lb n="0578a04"/>復想十方各有明王部領四兵一切諸佛及大
+<lb n="0578a05"/>明王。各結本印手持器仗。遍滿十方作種種
+<lb n="0578a06"/>神變。此是五如來演暢瑜伽真理。四諦六度
+<lb n="0578a07"/>諸波羅蜜等如羯磨金剛。作大利樂救濟眾
+<lb n="0578a08"/>生</p>
+<lb n="0578a09"/><p>時阿闍梨觀想。諸佛遍滿虛空各坐蓮花。諸
+<lb n="0578a10"/>相圓滿一切裝嚴。復想諸佛及彼花座相合
+<lb n="0578a11"/>為一。此則佛身一多無二。理事無礙法界同
+<lb n="0578a12"/>體。然後依法儀則。獻戲鬘歌舞香花燈塗等
+<lb n="0578a13"/>種種供養。或作於觀想。心有疲倦當即持誦。
+<lb n="0578a14"/>須正定身心離諸散亂。不急不緩文句周正。
+<lb n="0578a15"/>或持誦疲倦即持鈴杵。依法擲杵<anchor id="fxT18p0578a01"/>振鈴。而
+<lb n="0578a16"/>作供養已發送賢聖。乃至作己身擁護隨意
+<lb n="0578a17"/>行住。或復再欲請召賢聖當用百字真言。時
+<lb n="0578a18"/>阿闍梨如是依法觀想持誦。如天滿月無有
+<lb n="0578a19"/>虧盈。不久之間證大菩提。此人圓滿金剛乘
+<lb n="0578a20"/>成就羯磨法。亦如寶生佛等五部如來。為一
+<lb n="0578a21"/>切明主</p>
+<lb n="0578a22"/><juan fun="close" n="004"><jhead>佛說瑜伽大教王經卷第四</jhead></juan>
+<pb ed="T" id="T18.0890.0578b" n="0578b"/>
+<lb n="0578b01"/>
+<milestone unit="juan" n="5"/>
+<lb n="0578b02"/>
+<lb n="0578b03"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead>佛說瑜伽大教王經卷第五</jhead></juan>
+<lb n="0578b04"/>
+<lb n="0578b05"/><byline type="Translator"><note n="0578001" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><app n="0578001"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0578002" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><app n="0578002"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫試<note n="0578003" resp="Taisho" type="orig" place="foot text">光祿＝鴻臚【三】</note><note n="0578003" resp="CBETA" type="mod">光祿＝鴻臚【宋】【元】【明】</note><app n="0578003"><lem>光祿</lem><rdg wit="【宋】【元】【明】" resp="Taisho">鴻臚</rdg></app><anchor id="fxT18p0578b01"/>卿
+<lb n="0578b06"/>明教大師<note n="0578004" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><app n="0578004"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline></div1>
+<lb n="0578b07"/><div1 type="pin"><mulu type="品" level="1" n="8" label="8 相應方便成就品"/><head>相應方便成就品第八</head>
+<lb n="0578b08"/><p>爾時世尊大遍照金剛如來。入一切如來智
+<lb n="0578b09"/>輪成就金剛三摩地。從定出已。說一切輪內
+<lb n="0578b10"/>外所作法</p>
+<lb n="0578b11"/><p>此瑜伽大教王經所作曼拏羅。隨於本尊名
+<lb n="0578b12"/>號連金剛出生稱曼拏羅名。然後作息災增
+<lb n="0578b13"/>益敬愛降伏等法。當以本尊及諸菩薩。觀想
+<lb n="0578b14"/>持誦已即作此法。若作息災法。當依佛眼菩
+<lb n="0578b15"/>薩尊那菩薩。若作增益法。當依寶光菩薩白
+<lb n="0578b16"/>衣菩薩。若作敬愛法。當依多羅菩薩金剛鎖
+<lb n="0578b17"/>菩薩。若作降伏法。當依顰眉菩薩摩摩枳菩
+<lb n="0578b18"/>薩</p>
+<lb n="0578b19"/><p>復次日前菩薩及&CB00425;蘭拏舍&CB00085;哩菩薩。此二
+<lb n="0578b20"/>菩薩亦能除災。若人依此持誦必得成就</p>
+<lb n="0578b21"/><p>如是諸菩薩具大威力與佛無異。能作一切
+<lb n="0578b22"/>成就之法。時持誦者欲作身災法。各觀想本
+<lb n="0578b23"/>字。化成佛眼菩薩及尊那菩薩。相好圓滿一
+<lb n="0578b24"/>切<note n="0578005" resp="Taisho" type="orig" place="foot text">裝嚴＝莊嚴【三】【宮】下同</note><note n="0578005" resp="CBETA" type="mod">裝嚴＝莊嚴【宋】【元】【明】【宮】下同</note><app n="0578005"><lem>裝嚴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">莊嚴</rdg></app>。手持甘露軍持及數珠。以甘露軍持
+<lb n="0578b25"/>灌於災障人頂。如自清涼能除熱惱。時<note n="0578006" resp="Taisho" type="orig" place="foot text">持＝時【三】【宮】</note><note n="0578006" resp="CBETA" type="mod">持＝時【宋】【元】【明】【宮】</note><app n="0578006"><lem>持</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">時</rdg></app>
+<lb n="0578b26"/>誦者想於自身即遍照如來。善能息除一切
+<lb n="0578b27"/>災障</p>
+<lb n="0578b28"/><p>復次作增益法。時阿闍梨觀想己身為寶生
+<lb n="0578b29"/>如來。身相金色廣大圓滿。復想寶光菩薩及
+<pb ed="T" id="T18.0890.0578c" n="0578c"/>
+<lb n="0578c01"/>白衣菩薩。亦作金色以手持寶兼執蓮花。降
+<lb n="0578c02"/>甘露雨及雨珍寶。能作最上增益之法</p>
+<lb n="0578c03"/><p>復次作敬愛法。持誦者觀想無量壽佛。身相
+<lb n="0578c04"/>赤色廣大圓滿。復想多羅菩薩金剛鎖菩薩。
+<lb n="0578c05"/>身亦赤色手持&CB00559;索及金剛鉤令人敬愛。即
+<lb n="0578c06"/>以鉤索鉤牽如是依法速得敬愛</p>
+<lb n="0578c07"/><p>復次作息災法。持誦者觀想。日前菩薩及&CB00425;
+<lb n="0578c08"/>蘭那賒&CB00085;哩菩薩。遍滿虛空降甘露雨。即得
+<lb n="0578c09"/>災障消除</p>
+<lb n="0578c10"/><p>復次降伏法。持誦者先想吽字。化成不空成
+<lb n="0578c11"/>就佛。身相綠色廣大圓滿。復想顰眉菩薩及
+<lb n="0578c12"/>摩摩枳菩薩。身相綠色遍身金剛光明。現大
+<lb n="0578c13"/>忿怒相降大天火。燒彼降人身而作驚怖相。
+<lb n="0578c14"/>如是觀法相應。經剎那間。所降之人身得損
+<lb n="0578c15"/>壞乃至除滅</p>
+<lb n="0578c16"/><p>復次薩埵金剛等四菩薩。能與有情作灌頂
+<lb n="0578c17"/>法復有十六大菩薩。於最上曼拏羅能作一
+<lb n="0578c18"/>切成就法</p>
+<lb n="0578c19"/><p>復有諸大明王。依法觀想能作降伏法</p>
+<lb n="0578c20"/><p>復次作外降伏法。持誦者取所降伏人足下
+<lb n="0578c21"/>土。及河兩岸土屍灰屍衣。以朅囉母怛囉同
+<lb n="0578c22"/>和為泥。作所降人像。復用芥子毒藥鹽泯母
+<lb n="0578c23"/>怛囉等。同和塗彼像身已。觀想彼像其心慌
+<lb n="0578c24"/>亂。風吹在於虛空。以金剛鉤鉤之。以&CB00559;索繫
+<lb n="0578c25"/>縛。稱所降人名。用骨朵打。以棘針遍身刺之。
+<lb n="0578c26"/>復用人骨為橛。或佉禰囉木橛。於所降人像
+<lb n="0578c27"/>頭額臂心頸。如是五處釘之。即用利劍從足
+<lb n="0578c28"/>截斷。用&CB00576;摩木柴燃火已。現大忿怒相。以所
+<lb n="0578c29"/>截形像。於彼火內當作護摩。作此法時。或夜
+<pb ed="T" id="T18.0890.0579a" n="0579a"/>
+<lb n="0579a01"/>半或日中。所降伏人乃至諸佛聖力尚不能
+<lb n="0579a02"/>救。何況諸天而救護之</p>
+<lb n="0579a03"/><p>復次作內降伏法。持誦者依法。先解除所降
+<lb n="0579a04"/>之人擁護已。觀想諸天明王現忿怒相。各持
+<lb n="0579a05"/>劍杖金剛杵。擣杵&CB00559;索輪弓箭等。以明王&CB00559;
+<lb n="0579a06"/>索縛降伏人牽往南方。行次之間復有明王。
+<lb n="0579a07"/>以金剛杵打之而作驚怖。即以利劍開彼人
+<lb n="0579a08"/>腹。出於腸胃已。即誦此明王真言曰</p>
+<lb n="0579a09"/><p type="dharani">唵<note place="inline">引</note>吽<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>囉<note place="inline">引</note>叉娑<note place="inline">一</note>薄叉野薄叉
+<lb n="0579a10"/>野<note place="inline">二</note></p>
+<lb n="0579a11"/><p>誦此真言已。復想金剛羅剎眾。變為&CB00372;野狐
+<lb n="0579a12"/>鷲鳥等。悉來聚集食彼降人。復想彼人乘於
+<lb n="0579a13"/>&CB01906;駝。在風輪上向南行之。復有明王隨後打
+<lb n="0579a14"/>擲。如是觀想。彼降伏人速得除<note n="0579001" resp="Taisho" type="orig" place="foot text">滅＝悅【宮】</note><app n="0579001"><lem>滅</lem><rdg wit="【宮】" resp="Taisho">悅</rdg></app></p>
+<lb n="0579a15"/><p>復次辟除法。持誦者依金剛舜拏明王相應
+<lb n="0579a16"/>法。用旋風所吹樹葉。上書真言及所降人名。
+<lb n="0579a17"/>復取彼人足下土。與所書葉同處用足踏之。
+<lb n="0579a18"/>即誦本尊真言。速得辟除。乃至帝釋天不能
+<lb n="0579a19"/>救護。何況諸凡人</p>
+<lb n="0579a20"/><p>復次辟除法。持誦者用獯狐翅。上書真言及
+<lb n="0579a21"/>所降人名。以淨行婆羅門髮纏之。即誦真言
+<lb n="0579a22"/>加持密埋地中。復想二大明王於彼打之。次
+<lb n="0579a23"/>想吽字化成微小金剛杵。入所降人身變成
+<lb n="0579a24"/>羯磨杵。有大熾焰打彼降人。身分肢節悉令
+<lb n="0579a25"/>乾枯。又想諸金剛拏枳&CB00135;。悉來唼所降人身
+<lb n="0579a26"/>血。如是作法速得辟除。誦此真言曰</p>
+<lb n="0579a27"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>拏<note place="inline">引</note>枳&CB00135;<note place="inline">一</note>阿目割寫囉訖多
+<lb n="0579a28"/><note place="inline">二合</note>阿<note place="inline">引</note>羯哩沙<note place="inline">二合</note>野吽<note place="inline">引</note>發吒<note place="inline">半音二</note></p>
+<lb n="0579a29"/><p>誦此真言已依法相應。彼降伏人速得身分
+<pb ed="T" id="T18.0890.0579b" n="0579b"/>
+<lb n="0579b01"/>乾枯。乃至除滅</p>
+<lb n="0579b02"/><p>復次降雨法。持誦者往西北隅。以香水塗四
+<lb n="0579b03"/>方曼拏羅已。用塗香點七點圓如星相。以淨
+<lb n="0579b04"/>器蓋覆。持誦者觀想。曼拏羅七點塗香。成八
+<lb n="0579b05"/>角須彌山。化金剛杵周匝遍滿。復想野字成
+<lb n="0579b06"/>大風輪寂然不動。如是依法能降大雨</p>
+<lb n="0579b07"/><p>復次降雨法。持誦者觀想。八葉蓮花上有八
+<lb n="0579b08"/>大龍王。所謂阿難多龍王酤哩哥龍王。&CB00085;酥
+<lb n="0579b09"/>枳龍王怛叉哥龍王。摩賀&CB00425;訥摩龍王羯哩
+<lb n="0579b10"/>酤吒哥龍王。商珂播羅龍王&CB00425;訥摩龍王。如
+<lb n="0579b11"/>是龍王<note n="0579002" resp="Taisho" type="orig" place="foot text">〔如是龍王〕－【明】</note><app n="0579002"><lem>如是龍王</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>各各依法色相裝嚴及執
+<lb n="0579b12"/>捉等一一觀想已。於夜分中往四衢道。用香
+<lb n="0579b13"/>水以左拇指塗四方曼拏羅。於四隅中畫金
+<lb n="0579b14"/>剛鉤等。時持誦者於曼拏羅前敷座而坐。復
+<lb n="0579b15"/>想八大龍王。真言與名同誦。如是依法能降
+<lb n="0579b16"/>大雨</p>
+<lb n="0579b17"/><p>復次降雨法。持誦者想前八葉蓮花上有八
+<lb n="0579b18"/>大龍王。蓮花中心有大忿怒明王。身光熾盛
+<lb n="0579b19"/>化金翅鳥逼逐諸龍。時持誦者誦吽吽字及
+<lb n="0579b20"/>龍王真言。如是觀想持誦必降大雨</p>
+<lb n="0579b21"/><p>復次止雨法。持誦者觀想自身如三昧火。於
+<lb n="0579b22"/>眉間化出不動尊明王。遍身熾焰光明如日。
+<lb n="0579b23"/>亦如大遍照如來身有六臂。右手持劍金剛
+<lb n="0579b24"/>杵箭。左手持輪&CB00559;索弓。復想化諸明王。及輪
+<lb n="0579b25"/>劍索弓箭金剛杵如雨滿空。即誦本真言。如
+<lb n="0579b26"/>是依法相應。大雨即止及除魔怖</p>
+<lb n="0579b27"/><p>復次除魔驚怖法。持誦者用那囉嚕地囉及
+<lb n="0579b28"/>淨土。相和作魔冤形像已。誦橛真言二十一
+<lb n="0579b29"/>遍。依日前菩薩法。觀想頻那夜迦入於降伏
+<pb ed="T" id="T18.0890.0579c" n="0579c"/>
+<lb n="0579c01"/>人口。以搗杵打之。即誦杵真言曰</p>
+<lb n="0579c02"/><p type="dharani">唵<note place="inline">引</note>宋婆&CB00085;日囉<note place="inline">二合</note><note place="inline">一</note>母娑&CB00619;<note place="inline">引</note>那祖蘭拏<note place="inline">二合</note>
+<lb n="0579c03"/>野<note place="inline">二</note>那囉尾覲曩<note place="inline">二合引</note>吽<note place="inline">引</note>發吒<note place="inline">半音三</note></p>
+<lb n="0579c04"/><p>如是依法持誦。一剎那中魔自驚怖退散馳
+<lb n="0579c05"/>走</p>
+<lb n="0579c06"/><p>復次降雨法。持誦者觀想。帝釋天三面四臂。
+<lb n="0579c07"/>身如月色乘八身千頭白象。其象有千眼千
+<lb n="0579c08"/>牙。右手執金剛杵。左手持鈴安於腰側。色相
+<lb n="0579c09"/>圓滿作大富貴相。四天女圍繞在虛空中。利
+<lb n="0579c10"/>樂眾生欲降甘雨。告諸龍言汝速降雨。復想
+<lb n="0579c11"/>金翅鳥逼諸龍王。以觜啄之令降甘雨。即誦
+<lb n="0579c12"/>此真言曰</p>
+<lb n="0579c13"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>拏<note place="inline">引</note>囉<note place="inline">引</note>野那&CB00135;哩&CB00085;<note place="inline">二合引</note>&CB00425;
+<lb n="0579c14"/>野<note place="inline">一</note>挽呬&CB00135;<note place="inline">二合</note>曼沒彌<note place="inline">引</note>&CB02266;<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">二</note></p>
+<lb n="0579c15"/><p>誦此真言已。即降大雨如瓶瀉水</p>
+<lb n="0579c16"/><p>復次真言曰</p>
+<lb n="0579c17"/><p type="dharani">唵<note place="inline">引</note>摩賀<note place="inline">引</note>穌珂&CB00085;日囉<note place="inline">二合</note>底&CB00763;吽<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0579c18"/><p>持誦者誦此真言作金剛縛。依法觀想。能成
+<lb n="0579c19"/>就最上利樂之事</p>
+<lb n="0579c20"/><p>爾時世尊大遍照金剛如來。說此真言觀想
+<lb n="0579c21"/>微妙真實法已。心大歡喜顧視大眾。而以大
+<lb n="0579c22"/>智調伏諸眾故。持金剛杵入大樂三摩地。從
+<lb n="0579c23"/>定出已。以善方便引發大智故。以二手如蓮
+<lb n="0579c24"/>花安於頂上。從自眉間放大光明。現身口意
+<lb n="0579c25"/>三密之相</p>
+<lb n="0579c26"/><p>爾時阿&CB00434;佛寶生佛無量壽佛不空成就佛。
+<lb n="0579c27"/>及十六大菩薩。乃至一切諸大明王等。入深
+<lb n="0579c28"/>法門通達三昧。時金剛手菩薩摩訶薩。合掌
+<lb n="0579c29"/>向佛白言世尊。有何因緣放大光明普照眾
+<pb ed="T" id="T18.0890.0580a" n="0580a"/>
+<lb n="0580a01"/>會。唯願世尊為我等說</p>
+<lb n="0580a02"/><p>爾時大遍照金剛如來。出大妙音告菩薩等
+<lb n="0580a03"/>言。汝今諦聽當為汝說。此之光相。顯於甚深
+<lb n="0580a04"/>祕密觀想微妙法門有大利樂。成就金剛大
+<lb n="0580a05"/>智證菩提道。而說頌曰</p>
+<lb n="0580a06"/><lg><l>實相菩提非有無</l><l>亦無二邊無中道</l>
+<lb n="0580a07"/><l>離相寂靜如虛空</l><l>三世諸佛何所證</l>
+<lb n="0580a08"/><l>今說微妙大方便</l><l>令彼悟入菩提心</l>
+<lb n="0580a09"/><l>智離取捨觀諸蘊</l><l>唯顯真空大道心</l>
+<lb n="0580a10"/><l>最勝如來三身佛</l><l>真心不向身中得</l>
+<lb n="0580a11"/><l>一切諸法從心生</l><l>所生諸法即菩提</l>
+<lb n="0580a12"/><l>譬如幻師以幻心</l><l>作彼種種幻化法</l>
+<lb n="0580a13"/><l>如是皆從妄想生</l><l>菩提心相亦如是</l>
+<lb n="0580a14"/><l>金剛大智從心起</l><l>善作無上菩提因</l>
+<lb n="0580a15"/><l>煩惱疑惑染彼心</l><l>隨順眾生根性說</l>
+<lb n="0580a16"/><l>我見愚人分染淨</l><l>不了四大假合身</l>
+<lb n="0580a17"/><l>觀想無為真性空</l><l>究竟成就大菩提</l></lg>
+<lb n="0580a18"/><p>爾時大遍照金剛如來說此頌已。告金剛手
+<lb n="0580a19"/>菩薩言。如是菩提本性清淨而有二義。一非
+<lb n="0580a20"/>生煩惱諸蘊無實故。二性如虛空思議不及
+<lb n="0580a21"/>故。此真菩提諸佛共說。若人觀想即住大智。
+<lb n="0580a22"/>能作羯磨成就之法</p>
+<lb n="0580a23"/><p>佛告金剛手菩薩。若有持誦之者。而常修習
+<lb n="0580a24"/>成就之法。雖復勤求終難得成。我今為汝說
+<lb n="0580a25"/>彼調伏之法。於大樂方便速獲成就。持誦者
+<lb n="0580a26"/>當依金剛鉤大菩薩法。金剛&CB00559;索具大力。金
+<lb n="0580a27"/>剛拳大猛利。金剛橛能破壞。金剛骨朵能捶
+<lb n="0580a28"/>打。金剛哥梨印大勇猛。如是等諸天見之悉
+<lb n="0580a29"/>皆驚怖。此是佛之三昧。若持誦者依法觀想。
+<pb ed="T" id="T18.0890.0580b" n="0580b"/>
+<lb n="0580b01"/>誦於吽字。發金剛鉤善入諸佛心。見此三昧
+<lb n="0580b02"/>悉皆速來。此法能請召諸佛菩薩。何況凡夫
+<lb n="0580b03"/>眾生等。時持誦者欲求成就作此降伏法。觀
+<lb n="0580b04"/>想以金剛縛縛之。以金剛哥利印作期剋相。
+<lb n="0580b05"/>以金剛堅固拳揮打。復用金剛橛釘彼五處
+<lb n="0580b06"/>頂額頸心臂。以金剛骨朵而釘彼橛。如是依
+<lb n="0580b07"/>法。乃至大惡魔冤速自降伏。最上成就必得
+<lb n="0580b08"/>圓滿。佛果菩提不久克證</p>
+<lb n="0580b09"/><p>爾時金剛手菩薩等一切大眾。聞是祕密相
+<lb n="0580b10"/>應成就法已心大歡喜異口同音讚言。善哉
+<lb n="0580b11"/>善哉世尊。此大相應祕密深固幽遠。能為眾
+<lb n="0580b12"/>生分別開示。而說頌曰</p>
+<lb n="0580b13"/><lg><l>善哉無上大無畏</l><l>遍照金剛大如來</l>
+<lb n="0580b14"/><l>善說真實微妙法</l><l>利益一切諸眾生</l>
+<lb n="0580b15"/><l>大力金剛清淨鉤</l><l>能入大智諸佛心</l>
+<lb n="0580b16"/><l>成就金剛最上乘</l><l>通達祕密無為相</l>
+<lb n="0580b17"/><l>若人依法而勤修</l><l>不久圓證菩提果</l></lg>
+<lb n="0580b18"/><p>時金剛手菩薩等說此頌已。大遍照金剛如
+<lb n="0580b19"/>來。即說金剛鉤等真言</p>
+<lb n="0580b20"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合引</note>酤舍阿哥哩沙<note place="inline">二合</note>野吽<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0580b21"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>播舍滿馱吽<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0580b22"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>哥<note place="inline">引</note>里怛哩惹<note place="inline">二合</note>野吽<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0580b23"/><p type="dharani">唵<note place="inline">引</note>&CB00085;日囉<note place="inline">二合</note>母瑟致<note place="inline">二合</note>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合引</note>
+<lb n="0580b24"/>&CB00425;野吽<note place="inline">引</note><note place="inline">一</note></p>
+<lb n="0580b25"/><p>如是金剛鉤等真言。清淨微妙具大威力利
+<lb n="0580b26"/>益無量。若人依法持誦無不成就。於金剛大
+<lb n="0580b27"/>智中最為殊勝。不得傳於邪見等非法之人</p></div1>
+<lb n="0580b28"/><div1 type="pin"><mulu type="品" level="1" n="9" label="9 護摩品"/><head><title><note n="0580001" resp="Taisho" type="orig" place="foot text">〔佛說瑜伽大教王經〕－【明】＊</note><app n="0580001"><lem>佛說瑜伽大教王經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>護摩品第九</head>
+<lb n="0580b29"/><p>爾時世尊大遍照金剛如來。復入一切成就
+<pb ed="T" id="T18.0890.0580c" n="0580c"/>
+<lb n="0580c01"/>法儀行相應金剛三摩地。從定出已。說入寤
+<lb n="0580c02"/>成就法。時持誦者先於頂上想唵字。口中想
+<lb n="0580c03"/>有阿字。心中想有吽字。復想&CB00085;字化成風輪。
+<lb n="0580c04"/>輪上有入寤者。能說世間一切之事。持誦者
+<lb n="0580c05"/>作貢高勢。復想尊那菩薩即誦尊那菩薩真
+<lb n="0580c06"/>言曰</p>
+<lb n="0580c07"/><p type="dharani">那莫颯&CB00425;多<note place="inline">二合引</note>曩<note place="inline">引<note n="0580002" resp="Taisho" type="orig" place="foot text">〔一〕－【宮】</note><app n="0580002"><lem>一</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></note>三藐訖三<note place="inline">二合</note>沒&CB00499;酤
+<lb n="0580c08"/>致<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">二</note>怛&CB00853;<note place="inline">切身</note>他<note place="inline">引</note><note place="inline">三</note>唵<note place="inline">引</note>左隸<note place="inline">引</note><note place="inline">四</note>祖&CB00619;
+<lb n="0580c09"/><note place="inline">五</note>尊禰<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">六</note>摩賀<note place="inline">引</note>尾哩曳<note place="inline">二合引</note><note place="inline">七</note>阿
+<lb n="0580c10"/>&CB00425;囉<note place="inline">二合</note>底曷多舍<note place="inline">引</note>娑&CB00135;<note place="inline">引</note><note place="inline">八</note>摩賀<note place="inline">引</note>末羅&CB00425;
+<lb n="0580c11"/>囉<note place="inline">二合</note>訖囉<note place="inline">二合</note>彌<note place="inline">引</note><note place="inline">九</note>遏西播<note place="inline">引</note>舍&CB00425;囉輸<note place="inline">十</note>仡
+<lb n="0580c12"/>哩<note place="inline">二合</note>係多曷悉帝<note place="inline">二合引</note><note place="inline">十一</note>摩賀<note place="inline">引</note>骨嚕<note place="inline">二合引</note>提<note place="inline">引</note>
+<lb n="0580c13"/>說哩<note place="inline">十二</note>沃仡囉<note place="inline">二合</note>嚕閉<note place="inline">引</note><note place="inline">十三</note>阿難多母契<note place="inline">引</note><note place="inline">十四</note>
+<lb n="0580c14"/>薩賀<note place="inline">引</note>薩囉<note place="inline">二合</note>部&CB00768;<note place="inline">引</note><note place="inline">十五</note>阿&CB00768;帝<note place="inline">引</note><note place="inline">十六</note>阿波囉
+<lb n="0580c15"/><note place="inline">引</note>&CB00768;帝<note place="inline">引</note><note place="inline">十七</note>阿具哩<note place="inline">引</note><note place="inline">十八</note>訥哩那<note place="inline">二合</note>彌<note place="inline">引</note><note place="inline">十九</note>薩賀
+<lb n="0580c16"/>娑囉<note place="inline">二合</note>惡翅<note place="inline">引</note><note place="inline">二十</note>薩哩&CB00085;<note place="inline">二合</note>怛他<note place="inline">引</note>&CB00344;多阿
+<lb n="0580c17"/>地瑟吒<note place="inline">二合引</note>那阿地瑟恥<note place="inline">二合</note>帝<note place="inline">引</note><note place="inline">二十一</note>薩哩&CB00085;<note place="inline">二合</note>
+<lb n="0580c18"/>禰<note place="inline">引</note>&CB00085;多<note place="inline">引</note>曩<note place="inline">引</note><note place="inline">二十二</note>滿禰多布&CB00768;帝<note place="inline">引</note><note place="inline">二十三</note>&CB00425;囉<note place="inline">二合</note>
+<lb n="0580c19"/>娑<note place="inline">引</note>提帝<note place="inline">引</note><note place="inline">二十四</note>&CB00085;日囉<note place="inline">二合</note>具尼<note place="inline">引</note><note place="inline">二十五</note>&CB00085;日哩<note place="inline">二合引</note>
+<lb n="0580c20"/>&CB00085;日囉<note place="inline">二合引</note>&CB00085;係<note place="inline">引</note><note place="inline">二十六</note>&CB00085;日囉<note place="inline">二合引</note>欲提<note place="inline">引</note><note place="inline">二十七</note>&CB00085;日
+<lb n="0580c21"/>囉<note place="inline">二合</note>哥<note place="inline">引</note>彌&CB00135;<note place="inline">引</note><note place="inline">二十八</note>&CB00085;日嚕<note place="inline">二合引</note>&CB00135;彌<note place="inline">二合引</note>里多
+<lb n="0580c22"/><note place="inline">引</note>翅<note place="inline">引</note><note place="inline">二十九</note>惡叉曳<note place="inline">引</note><note place="inline">三十</note>遏具哩<note place="inline">引</note><note place="inline">三十一</note>具囉嚕必尼
+<lb n="0580c23"/><note place="inline">三十二</note>尾訖哩<note place="inline">二合</note>多捺哩舍<note place="inline">二合</note>&CB00135;<note place="inline">引</note><note place="inline">三十三</note>&CB00085;日囉<note place="inline">二
+<lb n="0580c24"/>合</note>吠<note place="inline">引</note>女哩也<note place="inline">二合引</note>朗訖哩<note place="inline">二合</note>多設哩<note place="inline">引</note>&CB00942;<note place="inline">引三
+<lb n="0580c25"/>十四</note>唵<note place="inline">引</note>婆&CB00344;&CB00085;底尊禰<note place="inline">引</note><note place="inline">三十五</note>訥龍<note place="inline">二合</note>訥龍<note place="inline">二合</note><note place="inline">三十
+<lb n="0580c26"/>六</note>咄龍<note place="inline">二合</note>咄龍<note place="inline">二合</note><note place="inline">三<corr sic="　">十</corr>七</note>沒龍<note place="inline">二合</note>沒龍<note place="inline">二合</note><note place="inline">三十八</note>窣
+<lb n="0580c27"/>龍<note place="inline">二<note n="0580003" resp="Taisho" type="orig" place="foot text">〔合〕－【元】</note><app n="0580003"><lem>合</lem><rdg wit="【元】" resp="Taisho">&lac;</rdg></app></note>窣龍<note place="inline">二合</note><note place="inline">三十九</note>龍龍<note place="inline">四十</note>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合</note>
+<pb ed="T" id="T18.0890.0581a" n="0581a"/>
+<lb n="0581a01"/>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合</note><note place="inline">四十一</note>阿<note place="inline">引</note>吠<note place="inline">引</note>舍野阿<note place="inline">引</note>吠<note place="inline">引</note>舍
+<lb n="0581a02"/>野<note place="inline">四十二</note>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合引</note>&CB00425;野<note place="inline">四十三</note>仡哩<note place="inline">二合</note>恨
+<lb n="0581a03"/>拏<note place="inline">二合引</note>&CB00425;野<note place="inline">四十四</note>訶囉訶囉<note place="inline">四十五</note>娑囉娑囉<note place="inline">四十六</note>
+<lb n="0581a04"/>摩<note place="inline">引</note>囉野摩<note place="inline">引</note>囉野<note place="inline">四十七</note>訶那訶那<note place="inline">四十八</note>畔惹畔
+<lb n="0581a05"/>惹<note place="inline">四十九</note>摩囉摩囉<note place="inline">五十</note>摩<note place="inline">引</note>囉野摩<note place="inline">引</note>囉野<note place="inline">五十一</note>
+<lb n="0581a06"/>&CB00425;左&CB00425;左<note place="inline">五十二</note>那賀那賀<note place="inline">五十三</note>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合</note>
+<lb n="0581a07"/>仡哩<note place="inline">二合</note>恨拏<note place="inline">二合<note n="0581001" resp="Taisho" type="orig" place="foot text">五＝四【明】</note><app n="0581001"><lem>五</lem><rdg wit="【明】" resp="Taisho">四</rdg></app>十四</note>噎那訥瑟吒<note place="inline">二合</note>&CB00344;囉<note place="inline">二
+<lb n="0581a08"/>合</note>&CB00780;<note place="inline">五十五</note>入&CB00085;<note place="inline">二合</note>&CB00772;伊哥<note place="inline">引</note>係剛<note place="inline">五十六</note>禰尾<note place="inline">二合</note>
+<lb n="0581a09"/>係剛<note place="inline">五十七</note>底囉也<note place="inline">三合引</note>係剛<note place="inline">五十八</note>左<note place="inline">引</note>&CB00418;哩他<note place="inline">二合</note>
+<lb n="0581a10"/>剛<note place="inline">五十九</note>禰爹入&CB00085;<note place="inline">二合</note>&CB00772;<note place="inline">六十</note>母虎哩底<note place="inline">二合</note>剛<note place="inline">六十
+<lb n="0581a11"/>一</note>&CB00344;囉<note place="inline">二合</note>賀怖多尾多<note place="inline">引</note>拏<note place="inline">六十二</note>藥叉犖叉桑
+<lb n="0581a12"/><note place="inline">六十三</note>酤瑟<note place="inline">二合引</note>&CB00718;<note place="inline">六十四</note>喻&CB00135;&CB03348;<note place="inline">六十五</note>羯哩摩<note place="inline">二合</note>&CB03348;
+<lb n="0581a13"/><note place="inline">六十六</note>娑他<note place="inline">二合引</note>&CB00085;&CB00772;<note place="inline">六十七</note>&CB03348;&CB00344;忙<note place="inline">六十八</note>曳&CB00805;馨散底
+<lb n="0581a14"/>計唧訥瑟吒<note place="inline">二合</note><note place="inline">六十九</note>當<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合引</note><note place="inline">七十</note>娑達野
+<lb n="0581a15"/>娑達野<note place="inline">七十一</note>末哩那<note place="inline">二合</note>野末哩那野<note place="inline">七十二</note>輸<note n="0581002" resp="Taisho" type="orig" place="foot text">沙＝娑【明】＊</note><app n="0581002"><lem>沙</lem><rdg wit="【明】" resp="Taisho">娑</rdg></app>
+<lb n="0581a16"/>野輸<anchor id="fxT18p0581a01"/>沙野<note place="inline">七十三</note>多<note place="inline">引</note>&CB00425;野多<note place="inline">引</note>&CB00425;野<note place="inline">七十四</note>嗢蹉<note place="inline">引</note>
+<lb n="0581a17"/>那野嗢蹉<note place="inline">引</note>那野<note place="inline">七十五</note>曷那曷那&CB00085;日哩<note place="inline">二合</note>拏
+<lb n="0581a18"/><note place="inline">七十六</note>娑囉娑囉難尼<note place="inline">引</note>那<note place="inline">七十七</note>摩<note place="inline">引</note>囉野摩<note place="inline">引</note>囉
+<lb n="0581a19"/>野<note n="0581003" resp="Taisho" type="orig" place="foot text">&CB13850;＝羯【元】</note><note n="0581003" resp="CBETA" type="mod"><corr sic="＆CB13850；" resp="CBETA.Maha">朅</corr>＝羯【元】</note><app n="0581003"><lem>朅</lem><rdg wit="【元】" resp="Taisho">羯</rdg></app>尼儗<note place="inline">二合引</note>那<note place="inline">七十八</note>吽<note place="inline">引</note>吽<note place="inline">引</note>吽<note place="inline">引</note><note place="inline">七十九</note>沒龍<note place="inline">二
+<lb n="0581a20"/>合</note>沒龍<note place="inline">二合</note>沒龍<note place="inline">二合</note><note place="inline">八十</note>吒龍<note place="inline">二合</note><note place="inline">八十一</note>唵<note place="inline">引</note>拶隸祖隸
+<lb n="0581a21"/>尊禰<note place="inline">引</note><note place="inline">八十二</note>薩哩微<note place="inline">二合引</note>釤<note place="inline">引</note>娑達野娑&CB00085;<note place="inline">二合引</note>賀
+<lb n="0581a22"/><note place="inline">引</note><note place="inline">八十三</note></p>
+<lb n="0581a23"/><p>時阿闍梨誦此真言時。持金剛杵<note n="0581004" resp="Taisho" type="orig" place="foot text">振＝震【宋】【元】【宮】</note><app n="0581004"><lem>振</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">震</rdg></app>金剛鈴。
+<lb n="0581a24"/>結金剛縛印以印動搖。次想唵字化成摩馨
+<lb n="0581a25"/>捺囉<note place="inline">二合</note>曼拏羅。復想曼拏羅中有八葉蓮花。
+<lb n="0581a26"/>每一葉中有一阿字。蓮花中心有四吽字。以
+<pb ed="T" id="T18.0890.0581b" n="0581b"/>
+<lb n="0581b01"/>二器物盛蓋。於曼拏羅想如本尊降伏彼人。
+<lb n="0581b02"/>即誦本真言。復想&CB00085;字以為界圍。如是觀想
+<lb n="0581b03"/>持誦。能禁縛一切眾生乃至天人等</p>
+<lb n="0581b04"/><p>復次說護摩成就法。其火天總攝於諸天。而
+<lb n="0581b05"/>皆&M010527;住護摩真實之理。善作種種事。此護摩
+<lb n="0581b06"/>能祭一切天。能作諸成就。若持誦者文句闕
+<lb n="0581b07"/>少儀法不具者。作此護摩即得圓滿。是故三
+<lb n="0581b08"/>世諸佛十方菩薩。皆悉稱讚護摩之法。欲作
+<lb n="0581b09"/>息災增益敬愛三種護摩。當用鑽木出火。若
+<lb n="0581b10"/>作降伏等護摩。當用旃陀羅舍中火及尸陀
+<lb n="0581b11"/>林內火。此護摩爐有四種相。一如圓月相。二
+<lb n="0581b12"/>如半月相。三四方相。四三角相。此四種爐各
+<lb n="0581b13"/>有護摩印法。於其爐內安輪金剛杵寶蓮花
+<lb n="0581b14"/>等印相。於護摩爐外依法安&CB00124;幟。於爐右邊
+<lb n="0581b15"/>安播帝哩窣嚕&CB00085;。及諸所用之物。周匝敷吉
+<lb n="0581b16"/>祥草。於爐左邊安閼伽水&CB00425;。誦一切成就真
+<lb n="0581b17"/>言。加持閼伽水以自淨手。依法燃柴請召火
+<lb n="0581b18"/>天。誦此請召真言曰</p>
+<lb n="0581b19"/><p type="dharani">唵<note place="inline">引</note>伊係曳<note place="inline">二合引</note>呬摩賀<note place="inline">引</note>部多禰<note place="inline">引</note>&CB00085;哩始<note place="inline">一</note>
+<lb n="0581b20"/>提惹散怛摩<note place="inline">二</note>仡哩<note place="inline">二合</note>係<note place="inline">引</note>埵<note place="inline">引</note>忽底摩<note place="inline">引</note>賀
+<lb n="0581b21"/><note place="inline">引</note>&CB00772;<note place="inline">三</note>遏悉銘<note place="inline">二合</note>散&CB00135;呬&CB00107;婆&CB00085;<note place="inline">四</note>唵<note place="inline">引</note>遏屹
+<lb n="0581b22"/>那<note place="inline">二合</note>曳<note place="inline">引</note><note place="inline">五</note><note n="0581005" resp="Taisho" type="orig" place="foot text">禰＝檷【元】</note><app n="0581005"><lem>禰</lem><rdg wit="【元】" resp="Taisho">檷</rdg></app>&CB01328;<note place="inline">切身</note>禰&CB01328;<note place="inline">六</note>阿<note place="inline">引</note>尾阿<note place="inline">引</note>尾
+<lb n="0581b23"/><note place="inline">七</note>摩賀<note place="inline">引</note>室哩<note place="inline">二合引</note>曳<note place="inline">引</note><note place="inline">八</note>曷咩割咩<note place="inline">九</note>&CB00085;<note place="inline">引</note>曷那
+<lb n="0581b24"/><note place="inline">引</note>野娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引</note><note place="inline">十</note></p>
+<lb n="0581b25"/><p>持誦者誦此真言。以二手合掌。右手拇指動
+<lb n="0581b26"/>搖已。用閼伽水。以左手微灑淨於火內。即微
+<lb n="0581b27"/>作五供養。想東南隅火天來降。身短腹大遍
+<lb n="0581b28"/>身赤色。四臂四面面各三目。頂戴寶冠而垂
+<lb n="0581b29"/>髮髻。坐火輪上遍身羯磨光。右第一手作施
+<pb ed="T" id="T18.0890.0581c" n="0581c"/>
+<lb n="0581c01"/>願印。第二手持數珠。左第一手執軍持。第二
+<lb n="0581c02"/>手持杖。身嚴眾寶諸天眷屬圍繞。如是觀想
+<lb n="0581c03"/>已。即請召火天入護摩爐。時阿闍梨以護摩
+<lb n="0581c04"/>物。三度擲於爐中而作護摩。即以閼伽水淨
+<lb n="0581c05"/>手獻供養已。迴施功德勞謝火天。即告所欲
+<lb n="0581c06"/>成就之法。然後辯認護摩火焰善惡之相。若
+<lb n="0581c07"/>火焰白色或如繖蓋幢形。或似閼伽瓶右旋
+<lb n="0581c08"/>者。此皆善相當成本法。阿闍梨見此善相。即
+<lb n="0581c09"/>誦微妙歌讚。誦此讚時以唵字為首莎賀字
+<lb n="0581c10"/>為尾。梵音相續嘹亮流美其法必成。若作息
+<lb n="0581c11"/>災法當起慈悲心。若作增益法當起堅固不
+<lb n="0581c12"/>退心。若作敬愛法當起敬愛心。若作降伏法
+<lb n="0581c13"/>當現忿怒相起心食三界。如是阿闍梨各依
+<lb n="0581c14"/>法。持誦本部真言文句周正。獻種種廣大供
+<lb n="0581c15"/>養。於護摩儀一切了知。若作護摩先用酥滿
+<lb n="0581c16"/>播帝哩作護摩。然後依法次第。若作息災增
+<lb n="0581c17"/>益敬愛三種法。當用吉善物作於<note n="0581006" resp="Taisho" type="orig" place="foot text">護＝議【宮】</note><app n="0581006"><lem>護</lem><rdg wit="【宮】" resp="Taisho">議</rdg></app>摩。若
+<lb n="0581c18"/>作降伏法當用凶惡物作於護摩。如是瑜伽
+<lb n="0581c19"/>祕密之法。開觀想門入真實際。利樂有情要
+<lb n="0581c20"/>妙之道。而說頌曰</p>
+<lb n="0581c21"/><lg><l>愚迷諸眾生</l><l>堅心造眾惡</l>
+<lb n="0581c22"/><l>如是罪業成</l><l>云何得善果</l>
+<lb n="0581c23"/><l>彼等愚迷者</l><l>而無方便智</l>
+<lb n="0581c24"/><l>於此祕密門</l><l>棄背不修習</l>
+<lb n="0581c25"/><l>深著於外境</l><l>起妄想愚癡</l>
+<lb n="0581c26"/><l>罪福無分別</l><l>此法本清淨</l>
+<lb n="0581c27"/><l>無生亦無滅</l><l>方便佛所說</l>
+<lb n="0581c28"/><l>為淨眾生智</l><l>如人欲泛海</l>
+<lb n="0581c29"/><l>及彼江河等</l><l>須仗於船筏</l>
+<pb ed="T" id="T18.0890.0582a" n="0582a"/>
+<lb n="0582a01"/><l>方能到彼岸</l><l>如是度輪迴</l>
+<lb n="0582a02"/><l>四流漂溺難</l><l>須乘法行船</l>
+<lb n="0582a03"/><l>而至菩提岸</l><l>遠離疑惑網</l>
+<lb n="0582a04"/><l>成就甚深法</l><l>如來所說道</l>
+<lb n="0582a05"/><l>汝等勿生疑</l><l>輕毀不信受</l>
+<lb n="0582a06"/><l>沈<note n="0582001" resp="Taisho" type="orig" place="foot text">淪＝輪【明】</note><app n="0582001"><lem>淪</lem><rdg wit="【明】" resp="Taisho">輪</rdg></app>生死海</l><l>無有解脫時</l>
+<lb n="0582a07"/><l>寂靜於身心</l><l>遠離於惑染</l>
+<lb n="0582a08"/><l>身口意相應</l><l>出生方便慧</l>
+<lb n="0582a09"/><l>除斷我人心</l><l>現證一切智</l></lg></div1>
+<lb n="0582a10"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 囑累品"/><head><title><anchor id="fxT18p0582a01"/>佛說瑜伽大教王經</title>囑累品第十</head>
+<lb n="0582a11"/><p>爾時大遍照金剛如來。入最上成就金剛三
+<lb n="0582a12"/>摩地。從定出已。告金剛手菩薩言。汝當諦聽
+<lb n="0582a13"/>我今說一切三昧中金剛最上大三昧成就
+<lb n="0582a14"/>法。此祕密成就真言觀想相應儀則等。善能
+<lb n="0582a15"/>成就一切如來金剛身口意。永不退轉</p>
+<lb n="0582a16"/><p>復次阿闍梨面前安輪。持誦本真言已。入遍
+<lb n="0582a17"/>照如來三摩地。以此持誦及三摩地威神之
+<lb n="0582a18"/>力即成聖輪。從地而起光明熾盛。即誦佛眼
+<lb n="0582a19"/>菩薩真言以手持輪。於剎那間即自變身。如
+<lb n="0582a20"/>遍照如來而無有異。轉大法輪利樂有情。令
+<lb n="0582a21"/>得趣向三乘聖道</p>
+<lb n="0582a22"/><p>復次阿闍梨面前安金剛杵。持誦本真言已。
+<lb n="0582a23"/>入阿&CB00434;如來三摩地。以此持誦及三摩地威
+<lb n="0582a24"/>神之力即成聖杵。從地而起光明熾盛。以手
+<lb n="0582a25"/>持杵之間。即自變身如阿&CB00434;如來而無有異。
+<lb n="0582a26"/>諸佛菩薩悉皆圍繞。持金剛杵行於三界。而
+<lb n="0582a27"/>住一切眾生心施一切眾生願</p>
+<lb n="0582a28"/><p>復次阿闍梨面前安寶。持誦本真言已。入寶
+<lb n="0582a29"/>生如來三摩地。以持誦及三摩地威神之力
+<pb ed="T" id="T18.0890.0582b" n="0582b"/>
+<lb n="0582b01"/>即成聖寶。從地而起光明熾盛。復誦寶光菩
+<lb n="0582b02"/>薩真言。以手持寶光照十方。即自變身如寶
+<lb n="0582b03"/>生如來而無有異。持如意寶遊行佛剎降大
+<lb n="0582b04"/>寶雨<note n="0582002" resp="Taisho" type="orig" place="foot text">除＝降【三】【宮】</note><note n="0582002" resp="CBETA" type="mod">除＝降【宋】【元】【明】【宮】</note><app n="0582002"><lem>除</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">降</rdg></app>諸眾生貧窮之苦</p>
+<lb n="0582b05"/><p>復次阿闍梨面前安蓮花。持誦本真言已。入
+<lb n="0582b06"/>無量壽如來三摩地。以持誦及三摩地威神
+<lb n="0582b07"/>之力即成聖花。從地而起光明熾盛。即誦白
+<lb n="0582b08"/>衣菩薩真言。以手持花。即自變身如無量壽
+<lb n="0582b09"/>佛而無有異。居極樂世界面如滿月。持法甘
+<lb n="0582b10"/>露施一切眾生</p>
+<lb n="0582b11"/><p>復次阿闍梨面前安寶劍。持誦本真言已。入
+<lb n="0582b12"/>不空成就如來三摩地。以持誦及三摩地威
+<lb n="0582b13"/>神之力即成聖劍。從地而起光明熾盛。即誦
+<lb n="0582b14"/>多羅菩薩真言。以手持劍。即自變身如不空
+<lb n="0582b15"/>成就佛而無有異。如月清涼遊行佛剎。利樂
+<lb n="0582b16"/>眾生除彼煩惱。如是輪等五種聖法。依教持
+<lb n="0582b17"/>誦皆得成就</p>
+<lb n="0582b18"/><p>復次世尊大偏照金剛如來。入平等住金剛
+<lb n="0582b19"/><note n="0582003" resp="Taisho" type="orig" place="foot text">三＝曰【元】</note><app n="0582003"><lem>三</lem><rdg wit="【元】" resp="Taisho">曰</rdg></app>摩地。從定出已。顧視大眾默然而住</p>
+<lb n="0582b20"/><p>爾時慈氏菩薩。即從座起偏袒右肩。合掌禮
+<lb n="0582b21"/>佛而白佛言。世尊若有阿闍梨。於此一切如
+<lb n="0582b22"/>來身口意祕密大瑜伽教中受灌頂者。諸佛
+<lb n="0582b23"/>菩薩當云何觀。佛言慈氏彼諸如來及諸菩
+<lb n="0582b24"/>薩。觀此受灌頂阿闍梨。如觀菩提真心而無
+<lb n="0582b25"/>二相。何以故灌頂之法與菩提一故。佛言
+<lb n="0582b26"/>善男子汝今諦聽。此阿闍梨所有十方諸佛
+<lb n="0582b27"/>及諸菩薩現在說法者一日三時來詣阿闍梨
+<lb n="0582b28"/>所。獻大供養如佛無異。俱發聲言。此阿闍梨
+<lb n="0582b29"/>即是我等諸佛父母。及為我等諸佛之師</p>
+<pb ed="T" id="T18.0890.0582c" n="0582c"/>
+<lb n="0582c01"/><p>復次善男子所有十方世界諸佛世尊現在說
+<lb n="0582c02"/>法者彼諸如來所有三業積聚無量福德。是
+<lb n="0582c03"/>等阿闍梨一毛孔福德何以故此阿闍梨受瑜
+<lb n="0582c04"/>伽灌頂已。與一切佛智相應。真心微妙無有
+<lb n="0582c05"/>等故</p>
+<lb n="0582c06"/><p>爾時慈氏菩薩聞佛說已。歎未曾有住立佛
+<lb n="0582c07"/>前。爾時阿&CB00434;如來寶生如來無量壽如來不
+<lb n="0582c08"/>空成就如來大遍照如來等。入金剛阿闍梨
+<lb n="0582c09"/>三昧相金剛三摩地。從定出已。告諸如來及
+<lb n="0582c10"/>彼菩薩言。諦聽諦聽所有三世諸佛。皆來詣
+<lb n="0582c11"/>阿闍梨所恭敬供養。何以故此金剛阿闍梨。
+<lb n="0582c12"/>即是一切如來。智主</p>
+<lb n="0582c13"/><p>爾時彼諸如來及諸菩薩。聞佛說已白佛言。
+<lb n="0582c14"/>世尊一切如來金剛身語心三密成就法。當
+<lb n="0582c15"/>依何住。佛言一切如來金剛身語心三密成
+<lb n="0582c16"/>就法。當依金剛阿闍梨身語心住</p>
+<lb n="0582c17"/><p>復次諸菩薩白佛言。世尊此金剛阿闍梨身
+<lb n="0582c18"/>語心當依何住。佛言當依虛空住。菩薩白言
+<lb n="0582c19"/>虛空當依何住。佛言依金剛阿闍梨心住。菩
+<lb n="0582c20"/>薩白言心依何住。佛言心本離相而無所住</p>
+<lb n="0582c21"/><p>爾時諸菩薩等聞佛說已。心念希有默然而
+<lb n="0582c22"/>住。佛告諸菩薩言。今此瑜伽大教有十種祕
+<lb n="0582c23"/>密真實之義。一曼拏羅。二三摩地。三印相。四
+<lb n="0582c24"/>行步。五坐位。六持誦。七護摩。八供養。九本
+<lb n="0582c25"/>事。十相應。此之十法大智所生。甚深祕密三
+<lb n="0582c26"/>世諸佛同共宣說。若諸學法弟子及受灌頂
+<lb n="0582c27"/>者。於阿闍梨&M010527;行恭敬尊重供養。所有三密
+<lb n="0582c28"/>瑜伽之教。隨自根性依法受持展轉流傳。利
+<lb n="0582c29"/><note n="0582004" resp="Taisho" type="orig" place="foot text">益＝三【宋】</note><app n="0582004"><lem>益</lem><rdg wit="【宋】" resp="Taisho">三</rdg></app>安樂一切眾生。佛言此瑜伽大教。汝阿闍
+<pb ed="T" id="T18.0890.0583a" n="0583a"/>
+<lb n="0583a01"/>梨等勿得傳於無信根人及輕法愚癡之者。
+<lb n="0583a02"/>若傳彼等法不成就及破昧。身壞命終墮
+<lb n="0583a03"/>大地獄。若復有人不依此妙法甘露精進焚
+<lb n="0583a04"/>修。是人不能除斷一切煩惱。何況修諸苦行
+<lb n="0583a05"/>捨於頭目手足等。若人於此教中。隨修一法
+<lb n="0583a06"/>一行持誦精熟。住於寂靜入三摩地。能斷煩
+<lb n="0583a07"/>惱現證佛果</p>
+<lb n="0583a08"/><p>佛說此經已。諸菩薩等及天龍夜叉乾闥婆
+<lb n="0583a09"/>阿修羅迦樓羅緊那羅摩&CB00264;羅伽人非人等。
+<lb n="0583a10"/>聞佛所說皆大歡喜信受奉行</p>
+<lb n="0583a11"/><juan fun="close" n="005"><jhead>佛說瑜伽大教王經卷第五</jhead></juan></div1>
+</body></text></TEI.2>

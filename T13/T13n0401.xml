@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T13n0401.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0401 佛說無言童子經</title>
+			<author>西晉 竺法護譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>2卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:08:46 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 13, No. 401 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991012/08:28:19</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T13n0401.xml,v $
+Revision 1.1  2003/05/05 04:08:46  ray
+Initial revision
+
+Revision 1.19  2002/12/05 10:35:44  eva
+modified
+
+Revision 1.18  2002/11/04 10:38:50  ray
+tei.2 => TEI.2
+
+Revision 1.17  2002/10/07 13:06:24  moved
+modified
+
+Revision 1.16  2002/07/29 09:53:46  vinking
+modified lang
+
+Revision 1.15  2002/04/04 06:21:58  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.14  2002/01/25 07:55:26  eva
+modified
+
+Revision 1.13  2001/11/05 06:11:33  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.12  2001/07/27 07:11:05  ray
+去除多餘的 <author>
+
+Revision 1.11  2001/07/24 06:50:43  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/05/25 08:54:57  ray
+經號統一為四碼
+
+Revision 1.9  2001/04/01 08:15:30  ray
+CB00380 => CB00308
+
+Revision 1.8  2001/03/30 05:31:51  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 08:59:49  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:48:34  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:37:55  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:46 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0522c15"/>
+<milestone unit="juan" n="1"/>
+<lb n="0522c16"/><head type="no">No. 401 [No. 397(6)]</head><div1 type="jing">
+<lb n="0522c17"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0522007" resp="Taisho" type="orig" place="foot text">〔佛說〕－【三】【宮】＊</note><note n="0522007" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【宮】＊</note><app n="0522007"><lem>佛說</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>無言童子經</title>卷上</jhead></juan>
+<lb n="0522c18"/>
+<lb n="0522c19"/><byline type="Translator">西晉<note n="0522008" resp="Taisho" type="orig" place="foot text">〔月支〕－【三】【宮】＊</note><note n="0522008" resp="CBETA" type="mod">〔月支〕－【宋】【元】【明】【宮】＊</note><app n="0522008"><lem>月支</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>三藏竺法護譯</byline>
+<lb n="0522c20"/><p>聞如是。一時佛遊羅閱祇耆闍崛山中。與大
+<lb n="0522c21"/>比丘<note n="0522009" resp="Taisho" type="orig" place="foot text">〔眾〕－【宋】【宮】</note><app n="0522009"><lem>眾</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>千二百五十人俱。摩訶菩薩無央數。
+<lb n="0522c22"/>爾時城中。師子將軍。第一夫人孕有德男。
+<lb n="0522c23"/><note n="0522010" resp="Taisho" type="orig" place="foot text">天＋（於）【三】【宮】</note><note n="0522010" resp="CBETA" type="mod">天＋（於）【宋】【元】【明】【宮】</note><app n="0522010"><lem>天</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">天於</rdg></app>虛空唱大音聲而告之曰。童子。汝當懷抱
+<lb n="0522c24"/>道教思惟經典。慎莫宣說世之言談。曉了方
+<lb n="0522c25"/>便度世之法。少言&CB00458;辭捨方俗事。當歸正義
+<lb n="0522c26"/>不取美辭嚴飾之說。童子遙聞如是<note n="0522011" resp="Taisho" type="orig" place="foot text">音＝言【宋】</note><app n="0522011"><lem>音</lem><rdg wit="【宋】" resp="Taisho">言</rdg></app>教。未
+<lb n="0522c27"/>曾啼泣亦不出聲。初不自現嬰兒之相。至于
+<lb n="0522c28"/>七日顏貌悅豫無有&CB00546;&CB00375;。眾人來觀視之無
+<lb n="0522c29"/>厭。或有人言。此兒無聲用為育養。父母答
+<pb ed="T" id="T13.0401.0523a" n="0523a"/>
+<lb n="0523a01"/>曰。是非隨宿吾當育之。所以者何。今觀此兒
+<lb n="0523a02"/>威容顏貌端正姝妙巍巍難量。非是凡庶之
+<lb n="0523a03"/>所能及。實不虛妄。於<note n="0523001" resp="Taisho" type="orig" place="foot text">時＝是【明】</note><app n="0523001"><lem>時</lem><rdg wit="【明】" resp="Taisho">是</rdg></app>父母親屬知識見
+<lb n="0523a04"/>兒無聲。因共字之號曰無言</p>
+<lb n="0523a05"/><p>於是無言童子。漸遂長大至于八歲。四方眾
+<lb n="0523a06"/>人來觀察者無有懈厭。其有方面。或有法會
+<lb n="0523a07"/>分別義者。輒詣其所諮受法言。寂然靜思亦
+<lb n="0523a08"/>無所說。時彼童子而於異日。與其父母五種
+<lb n="0523a09"/>親屬朋友知識。至耆闍崛山而詣佛所。稽首
+<lb n="0523a10"/>足下右繞三匝。於世尊前叉手而立。&CB00418;無央
+<lb n="0523a11"/>數十方世界諸菩薩會億百千&CB00108;各各處于嚴
+<lb n="0523a12"/>淨之座。心大歡然善意生焉。時舍利弗前白
+<lb n="0523a13"/>佛言。<note n="0523002" resp="Taisho" type="orig" place="foot text">唯＝惟【宮】</note><app n="0523002"><lem>唯</lem><rdg wit="【宮】" resp="Taisho">惟</rdg></app>天中天。是無言者師子將軍之子。
+<lb n="0523a14"/>端正姝<note n="0523003" resp="Taisho" type="orig" place="foot text">好＝妙【元】【明】</note><app n="0523003"><lem>好</lem><rdg wit="【元】【明】" resp="Taisho">妙</rdg></app>威光難量巍巍如此。離於言談而
+<lb n="0523a15"/>無所說。其人前世有何餘殃。生無有聲又不
+<lb n="0523a16"/>能言。佛告舍利弗。止止勿得<note n="0523004" resp="Taisho" type="orig" place="foot text">輒＝輕【三】【宮】</note><note n="0523004" resp="CBETA" type="mod">輒＝輕【宋】【元】【明】【宮】</note><app n="0523004"><lem>輒</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">輕</rdg></app>慢無言童
+<lb n="0523a17"/>子。所以者何。此人則是菩薩大士。於過去
+<lb n="0523a18"/>佛<note n="0523005" resp="Taisho" type="orig" place="foot text">殖＝植【明】＊</note><app n="0523005"><lem>殖</lem><rdg wit="【明】" resp="Taisho">植</rdg></app>眾德本。供養無數諸佛正覺。稽首足
+<lb n="0523a19"/>下得不退轉。當成無上正真之道。初生之
+<lb n="0523a20"/>時。天於虛空宣揚大音。童子。汝當<note n="0523006" resp="Taisho" type="orig" place="foot text">（懷）＋抱【三】【宮】</note><note n="0523006" resp="CBETA" type="mod">（懷）＋抱【宋】【元】【明】【宮】</note><app n="0523006"><lem>抱</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">懷抱</rdg></app>道意。
+<lb n="0523a21"/>思惟經典勿有世談。以是之故。今此菩薩
+<lb n="0523a22"/>寂然不言。受柔順教於茲八歲。一心結舌而
+<lb n="0523a23"/>無所說。以斯憺怕奉行四禪。世尊復告舍利
+<lb n="0523a24"/>弗言。其有眾生。若能&CB00418;無言菩薩。悉順道
+<lb n="0523a25"/>教由此無言。以是之故。今有大會。當說經
+<lb n="0523a26"/>法開化導利。於無央數不可<note n="0523007" resp="Taisho" type="orig" place="foot text">稱＋（計）【三】【宮】</note><note n="0523007" resp="CBETA" type="mod">稱＋（計）【宋】【元】【明】【宮】</note><app n="0523007"><lem>稱</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">稱計</rdg></app>人民之眾。
+<lb n="0523a27"/>於是無言菩薩即如其<note n="0523008" resp="Taisho" type="orig" place="foot text">象＝像【三】【宮】＊</note><note n="0523008" resp="CBETA" type="mod">象＝像【宋】【元】【明】【宮】＊</note><app n="0523008"><lem>象</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">像</rdg></app>。三昧正受而現瑞
+<lb n="0523a28"/>應。令諸聲聞及眾菩薩天龍鬼神<note n="0523009" resp="Taisho" type="orig" place="foot text">揵＝犍【明】</note><app n="0523009"><lem>揵</lem><rdg wit="【明】" resp="Taisho">犍</rdg></app>沓和阿
+<lb n="0523a29"/>須倫伽留羅真陀羅摩&CB00264;勒比丘比丘尼優婆
+<pb ed="T" id="T13.0401.0523b" n="0523b"/>
+<lb n="0523b01"/>塞優婆夷一切眾會。各於右掌化生蓮華大
+<lb n="0523b02"/>如車輪。其色若干微妙鮮好。其香難量見者
+<lb n="0523b03"/>心歡。彼蓮華上則有自然諸化菩薩。結<note n="0523010" resp="Taisho" type="orig" place="foot text">加＝跏【明】</note><app n="0523010"><lem>加</lem><rdg wit="【明】" resp="Taisho">跏</rdg></app>
+<lb n="0523b04"/>趺坐。三十二相莊嚴其身。無言菩薩<note n="0523011" resp="Taisho" type="orig" place="foot text">見＝現【三】【宮】</note><note n="0523011" resp="CBETA" type="mod">見＝現【宋】【元】【明】【宮】</note><app n="0523011"><lem>見</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">現</rdg></app>大
+<lb n="0523b05"/>神足。稽首世尊重自歸命<note n="0523012" resp="Taisho" type="orig" place="foot text">〔其〕－【三】【宮】</note><note n="0523012" resp="CBETA" type="mod">〔其〕－【宋】【元】【明】【宮】</note><app n="0523012"><lem>其</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>蓮華上諸坐菩
+<lb n="0523b06"/>薩。叉手卑身。亦三自歸。無言菩薩。口適宣
+<lb n="0523b07"/>此稽首歸命。應時自然&M010527;邊沙等諸佛世界
+<lb n="0523b08"/>六<note n="0523013" resp="Taisho" type="orig" place="foot text">反＝返【宋】＊【元】</note><app n="0523013"><lem>反</lem><rdg wit="【宋】【元】" resp="Taisho">返</rdg></app>震動。大音普聞。天於空中歎若雷震。
+<lb n="0523b09"/>則雨眾華。箜篌樂器不鼓自鳴。無言菩薩承
+<lb n="0523b10"/>佛威神。大願所致踊在空中。去地四丈九尺。
+<lb n="0523b11"/>大菩薩眾亦復如是。無言大士而<note n="0523014" resp="Taisho" type="orig" place="foot text">於＋（其）【三】【宮】</note><note n="0523014" resp="CBETA" type="mod">於＋（其）【宋】【元】【明】【宮】</note><app n="0523014"><lem>於</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">於其</rdg></app>中。<note n="0523015" resp="Taisho" type="orig" place="foot text">與＋（諸）【三】【宮】</note><note n="0523015" resp="CBETA" type="mod">與＋（諸）【宋】【元】【明】【宮】</note><app n="0523015"><lem>與</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">與諸</rdg></app>
+<lb n="0523b12"/>菩薩異口同音。以偈讚佛</p>
+<lb n="0523b13"/><lg><l>無形而現形</l><l>亦不住於色</l>
+<lb n="0523b14"/><l>欲以開化眾</l><l>現身而有教</l>
+<lb n="0523b15"/><l>佛者無色會</l><l>亦不著有為</l>
+<lb n="0523b16"/><l>皆度一切數</l><l>導師故現身</l>
+<lb n="0523b17"/><l>顯相三十二</l><l>奇好八十種</l>
+<lb n="0523b18"/><l>以嚴其身體</l><l>為眾講說法</l>
+<lb n="0523b19"/><l>法者則無相</l><l>亦無有音響</l>
+<lb n="0523b20"/><l>無聲不可得</l><l>無念寂微妙</l>
+<lb n="0523b21"/><l>佛法覺了法</l><l>處在佛樹下</l>
+<lb n="0523b22"/><l>彼道無言教</l><l>言辭無所說</l>
+<lb n="0523b23"/><l>其法無形法</l><l>求相不可得</l>
+<lb n="0523b24"/><l>以無相之法</l><l>安可有所說</l>
+<lb n="0523b25"/><l>愍傷於群生</l><l>此佛之大恩</l>
+<lb n="0523b26"/><l>分別無所獲</l><l>所說不失時</l>
+<lb n="0523b27"/><l>曉了無所得</l><l>解空無所獲</l>
+<lb n="0523b28"/><l>能如此養者</l><l>佛義無名字</l>
+<lb n="0523b29"/><l>有為之言教</l><l>諸佛因所說</l>
+<pb ed="T" id="T13.0401.0523c" n="0523c"/>
+<lb n="0523c01"/><l>彼數無所有</l><l>無為無自然</l>
+<lb n="0523c02"/><l>如無常形色</l><l>導師緣見<anchor id="fxT13p0523c01"/>象</l>
+<lb n="0523c03"/><l>此法無所有</l><l>為眾說此經</l>
+<lb n="0523c04"/><l>又始至八歲</l><l>口未曾有言</l>
+<lb n="0523c05"/><l>我初生之時</l><l>諸天唱大音</l>
+<lb n="0523c06"/><l>以入惟經典</l><l>其耳不聞聲</l>
+<lb n="0523c07"/><l>如是懷道業</l><l>口亦無所說</l>
+<lb n="0523c08"/><l>無言假有教</l><l>辭語無所暢</l>
+<lb n="0523c09"/><l>以言謂有說</l><l>清淨妙光曜</l>
+<lb n="0523c10"/><l>念誓願佛道</l><l>志在於大乘</l>
+<lb n="0523c11"/><l>當宣于尊教</l><l>得佛人中上</l>
+<lb n="0523c12"/><l>道心不可獲</l><l>無言無相念</l>
+<lb n="0523c13"/><l>是故曰道空</l><l>解結成暉曜</l></lg>
+<lb n="0523c14"/><p>於是童子。謂諸眾會。道與言教等無有異。不
+<lb n="0523c15"/>可見。不可持。所可說無能&CB00418;。口說志道。人
+<lb n="0523c16"/>計於道而有所求。其所處願斯無所有。不可
+<lb n="0523c17"/>得處則無所住。如是住者道之所立也。諸度
+<lb n="0523c18"/>無極亦復如是。及餘無數眾德之本。說於言
+<lb n="0523c19"/>教亦無所說。但是音聲無有言辭。又說布施
+<lb n="0523c20"/>者。以施當施者。惠與有所向。道住一切等。口
+<lb n="0523c21"/>說愍哀。施道教亦行慈。其道為自然。平均如
+<lb n="0523c22"/>虛空。心所曉了有所說。計彼一切悉為清淨。
+<lb n="0523c23"/>其道為普虛端如是。身行口言心有所思。
+<lb n="0523c24"/>捨施<note n="0523016" resp="Taisho" type="orig" place="foot text">施＝於【元】【明】</note><app n="0523016"><lem>施</lem><rdg wit="【元】【明】" resp="Taisho">於</rdg></app>斯一切塵勞。是乃名曰施度無極。所
+<lb n="0523c25"/>可勸助亦復如是。布施非是道之恩惠。有計
+<lb n="0523c26"/>道者不依布施。是二事者但假聲耳。永無所
+<lb n="0523c27"/>著亦無形像。假使如是受道教者。為菩薩行。
+<lb n="0523c28"/>彼乃名曰施度無極。於布施主則為清淨。有
+<lb n="0523c29"/>所惠與不<note n="0523017" resp="Taisho" type="orig" place="foot text">想＝相【三】【宮】</note><note n="0523017" resp="CBETA" type="mod">想＝相【宋】【元】【明】【宮】</note><app n="0523017"><lem>想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">相</rdg></app>報故。耳聞禁戒不住於色。則
+<pb ed="T" id="T13.0401.0524a" n="0524a"/>
+<lb n="0524a01"/>無所生亦無所滅。是為戒者。亦復如是。身口
+<lb n="0524a02"/><note n="0524001" resp="Taisho" type="orig" place="foot text">心＝意【宋】【宮】</note><app n="0524001"><lem>心</lem><rdg wit="【宋】【宮】" resp="Taisho">意</rdg></app>事若無所造。悉無所有而反分別。所講
+<lb n="0524a03"/>說因緣合成。口有所說因名曰戒。如口所說
+<lb n="0524a04"/>戒亦如是。此二事者俱無形像。諸禁戒業。
+<lb n="0524a05"/>一切假言語無章句。計於道者無所言說。其
+<lb n="0524a06"/>口所暢及心意。以業是禁戒勸助道德。言戒
+<lb n="0524a07"/>為道欲曜於戒。一切無像猶如虛空。能曉了
+<lb n="0524a08"/>此。是<note n="0524002" resp="Taisho" type="orig" place="foot text">謂＝為【明】</note><app n="0524002"><lem>謂</lem><rdg wit="【明】" resp="Taisho">為</rdg></app>獨步報行禁戒。所可遊<note n="0524003" resp="Taisho" type="orig" place="foot text">志＝去【三】</note><note n="0524003" resp="CBETA" type="mod">志＝去【宋】【元】【明】</note><app n="0524003"><lem>志</lem><rdg wit="【宋】【元】【明】" resp="Taisho">去</rdg></app>超絕無
+<lb n="0524a09"/>侶。入平等覺。<note n="0524004" resp="Taisho" type="orig" place="foot text">亹亹＝重疊【宮】</note><app n="0524004"><lem>亹亹</lem><rdg wit="【宮】" resp="Taisho">重疊</rdg></app>深妙難及之道。於是讚
+<lb n="0524a10"/>曰</p>
+<lb n="0524a11"/><lg><l>如言道亦然</l><l>無持不可<note n="0524005" resp="Taisho" type="orig" place="foot text">見＝&CB00418;【元】【明】</note><app n="0524005"><lem>見</lem><rdg wit="【元】【明】" resp="Taisho">&CB00418;</rdg></app></l>
+<lb n="0524a12"/><l>所說無所&CB00418;</l><l>我宣者佛道</l>
+<lb n="0524a13"/><l>誓願求於道</l><l>所願無所住</l>
+<lb n="0524a14"/><l>無住無處所</l><l>道所立亦然</l>
+<lb n="0524a15"/><l>諸度無極然</l><l>及所作眾德</l>
+<lb n="0524a16"/><l>言辭託音聲</l><l>所說無所說</l>
+<lb n="0524a17"/><l>所可謂布施</l><l>所施當所施</l>
+<lb n="0524a18"/><l>方當所憲者</l><l>悉住平等道</l>
+<lb n="0524a19"/><l>口所暢布施</l><l>敷演於道事</l>
+<lb n="0524a20"/><l>彼道亦自然</l><l>等猶如虛空</l>
+<lb n="0524a21"/><l>若能曉了心</l><l>口之所說者</l>
+<lb n="0524a22"/><l>彼一切清淨</l><l>聞淨皆至道</l>
+<lb n="0524a23"/><l>身口及心念</l><l>捨一切塵勞</l>
+<lb n="0524a24"/><l>所勸亦如斯</l><l>是<note n="0524006" resp="Taisho" type="orig" place="foot text">施＝世【明】</note><app n="0524006"><lem>施</lem><rdg wit="【明】" resp="Taisho">世</rdg></app>度無極</l>
+<lb n="0524a25"/><l>布施不歸道</l><l>道不倚於施</l>
+<lb n="0524a26"/><l>此二者假名</l><l>無著亦無象</l>
+<lb n="0524a27"/><l>若無所依倚</l><l>其受道若斯</l>
+<lb n="0524a28"/><l>若不望想報</l><l>是名曰布施</l>
+<lb n="0524a29"/><l>而假聞禁戒</l><l>不住於形色</l>
+<pb ed="T" id="T13.0401.0524b" n="0524b"/>
+<lb n="0524b01"/><l>不起無所滅</l><l>是為戒之相</l>
+<lb n="0524b02"/><l>不行戒亦爾</l><l>身口心無異</l>
+<lb n="0524b03"/><l>無作無所有</l><l>假有言說耳</l>
+<lb n="0524b04"/><l>因緣合有辭</l><l>說號禁戒耳</l>
+<lb n="0524b05"/><l>如吾戒正等</l><l>此二事無漏</l>
+<lb n="0524b06"/><l>諸可禁戒事</l><l>一切假於言</l>
+<lb n="0524b07"/><l>道義所獲者</l><l>無言亦無業</l>
+<lb n="0524b08"/><l>口說心所作</l><l>禁戒勸助道</l>
+<lb n="0524b09"/><l>計戒及道教</l><l>一切如虛空</l>
+<lb n="0524b10"/><l>若曉了此者</l><l>獨步普入戒</l>
+<lb n="0524b11"/><l>則遊居於道</l><l>深妙難解句</l></lg>
+<lb n="0524b12"/><p>童子又謂諸來會者。所可謂言。忍辱教者亦
+<lb n="0524b13"/>是言辭。解空空義乃為忍辱。忍如平等三界
+<lb n="0524b14"/>亦如。說忍形類無像無見。等心於此乃名曰
+<lb n="0524b15"/>忍。若能虛靜為忍辱根。音聲香味因緣合成。
+<lb n="0524b16"/>彼無所有但文字耳。是故宣暢言忍辱矣。如
+<lb n="0524b17"/>來正覺。說有三忍身口心念。若能曉了此忍
+<lb n="0524b18"/>辱者。是曰為忍。解斷其身節節離散。心無
+<lb n="0524b19"/>瞋恚。恩愛及身譬如&M005505;壁。察身如<note n="0524007" resp="Taisho" type="orig" place="foot text">是＋（是）【三】【宮】</note><note n="0524007" resp="CBETA" type="mod">是＋（是）【宋】【元】【明】【宮】</note><app n="0524007"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是是</rdg></app>為忍
+<lb n="0524b20"/>辱。遠聞<note n="0524008" resp="Taisho" type="orig" place="foot text">惡＋（言）【三】【宮】</note><note n="0524008" resp="CBETA" type="mod">惡＋（言）【宋】【元】【明】【宮】</note><app n="0524008"><lem>惡</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">惡言</rdg></app>口所暢說。若能堪任。於諸言辭
+<lb n="0524b21"/>不味所說。乃為忍辱。若復遊志一切瑕穢。其
+<lb n="0524b22"/>心靜然而無憂結。意能分別諸文字者。心乃
+<lb n="0524b23"/>入於忍辱。計如忍道亦如此。身口意俱同爾。
+<lb n="0524b24"/>乃名曰道。宣傳於聖教。多所勸助者。一切精
+<lb n="0524b25"/>進上妙細微。及諸中間。億劫合集而不可
+<lb n="0524b26"/>得至於成就。假使精進不可逮得。計於道
+<lb n="0524b27"/>德亦無所獲。不得諸法。是曰精進。所修精
+<lb n="0524b28"/>進。設能如是不懷怯弱。亦無恐<note n="0524009" resp="Taisho" type="orig" place="foot text">懅＝懼【明】</note><app n="0524009"><lem>懅</lem><rdg wit="【明】" resp="Taisho">懼</rdg></app>是謂極
+<lb n="0524b29"/>上通大精進<note n="0524010" resp="Taisho" type="orig" place="foot text">猛勇＝勇猛【明】</note><app n="0524010"><lem>猛勇</lem><rdg wit="【明】" resp="Taisho">勇猛</rdg></app>菩薩仁義備悉。於是童子
+<pb ed="T" id="T13.0401.0524c" n="0524c"/>
+<lb n="0524c01"/>重頌曰</p>
+<lb n="0524c02"/><lg><l>可所謂忍辱</l><l>口之所宣暢</l>
+<lb n="0524c03"/><l>空空義故忍</l><l>如忍等三世</l>
+<lb n="0524c04"/><l>說於忍色像</l><l>不貌不可見</l>
+<lb n="0524c05"/><l>若心等於斯</l><l>爾乃名曰忍</l>
+<lb n="0524c06"/><l>忍類為空靜</l><l>緣合聲香味</l>
+<lb n="0524c07"/><l>彼無有文字</l><l>此乃名曰忍</l>
+<lb n="0524c08"/><l>講宣此三忍</l><l>身口及心念</l>
+<lb n="0524c09"/><l><note n="0524011" resp="Taisho" type="orig" place="foot text">若人曉了此＝於境常不動【三】【宮】</note><note n="0524011" resp="CBETA" type="mod">若人曉了此＝於境常不動【宋】【元】【明】【宮】</note><app n="0524011"><lem>若人曉了此</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">於境常不動</rdg></app></l><l>暢乃名曰忍</l>
+<lb n="0524c10"/><l>節節解其身</l><l>而心不懷恚</l>
+<lb n="0524c11"/><l>身受如&M005505;壁</l><l>是為身忍辱</l>
+<lb n="0524c12"/><l>遠聞有惡言</l><l>不報于罵辭</l>
+<lb n="0524c13"/><l>入此音乃忍</l><l>悉能住所說</l>
+<lb n="0524c14"/><l>若於諸瑕疵</l><l>心不懷<note n="0524012" resp="Taisho" type="orig" place="foot text">愛＝受【宮】</note><app n="0524012"><lem>愛</lem><rdg wit="【宮】" resp="Taisho">受</rdg></app>結</l>
+<lb n="0524c15"/><l>設能了字空</l><l>是心入忍辱</l>
+<lb n="0524c16"/><l>如忍道亦然</l><l>身口意如是</l>
+<lb n="0524c17"/><l>此乃名曰道</l><l>名所而勸助</l>
+<lb n="0524c18"/><l>若諸所精進</l><l>最上中微下</l>
+<lb n="0524c19"/><l>合集億垓劫</l><l>不得便成就</l>
+<lb n="0524c20"/><l>精進不可得</l><l>道亦無<note n="0524013" resp="Taisho" type="orig" place="foot text">所＝不【宮】</note><app n="0524013"><lem>所</lem><rdg wit="【宮】" resp="Taisho">不</rdg></app>獲</l>
+<lb n="0524c21"/><l>不逮一切法</l><l>是曰為精進</l>
+<lb n="0524c22"/><l>若勤力行此</l><l>無怯不懷難</l>
+<lb n="0524c23"/><l>彼則大精進</l><l>為<note n="0524014" resp="Taisho" type="orig" place="foot text">猛勇＝勇猛【三】【宮】</note><note n="0524014" resp="CBETA" type="mod">猛勇＝勇猛【宋】【元】【明】【宮】</note><app n="0524014"><lem>猛勇</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">勇猛</rdg></app>菩薩</l></lg>
+<lb n="0524c24"/><p>童子復謂諸來會者。所謂禪思亦不有念。計
+<lb n="0524c25"/>於禪者亦無所住。棄一切想。是乃名曰寂度
+<lb n="0524c26"/>無極。則能寂然澹泊無言無放逸。離諸漏而
+<lb n="0524c27"/>燒滅一切塵。是名曰寂度無極。心於諸法不
+<lb n="0524c28"/>遣往<note n="0524015" resp="Taisho" type="orig" place="foot text">反＝返【三】【宮】＊</note><note n="0524015" resp="CBETA" type="mod">反＝返【宋】【元】【明】【宮】＊</note><app n="0524015"><lem>反</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">返</rdg></app>。於心離心是則名曰寂度無極。心
+<lb n="0524c29"/>及禪定常至道意。&M010527;以平等觀此眾事。若能
+<pb ed="T" id="T13.0401.0525a" n="0525a"/>
+<lb n="0525a01"/>平等。於諸所觀無有邪正。斯謂佛道不為難
+<lb n="0525a02"/>得。無有文字亦無所說。不可究竟亦無所有。
+<lb n="0525a03"/>無有放逸亦不自恣。此乃<note n="0525001" resp="Taisho" type="orig" place="foot text">（名）＋曰【三】【宮】</note><note n="0525001" resp="CBETA" type="mod">（名）＋曰【宋】【元】【明】【宮】</note><app n="0525001"><lem>曰</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">名曰</rdg></app>智度無極。無
+<lb n="0525a04"/>有此際不度彼岸。又於此彼而無所住。正立
+<lb n="0525a05"/>法界以無所住。亦無所著。亦無文字。無所
+<lb n="0525a06"/>頒宣。無文字已。不復舉假一切思想。若能啟
+<lb n="0525a07"/>受於此法者。爾乃名曰智度無極。六度無極
+<lb n="0525a08"/>亦復如是。假使有人等觀此義。則能均平一
+<lb n="0525a09"/>切諸法。亦能等於一切眾生。若能同<anchor id="fxT13p0525a01"/>象一
+<lb n="0525a10"/>切諸法。則能均平一切眾生。若能平均一切
+<lb n="0525a11"/>眾生。則能平等一切諸佛。等諸佛已。則能奉
+<lb n="0525a12"/>修於一切智。是故菩薩勇猛無畏。猶斯名曰
+<lb n="0525a13"/>無極智慧。若能順從此教命者。則順法眼不
+<lb n="0525a14"/>可思議。於是童子以偈頌曰</p>
+<lb n="0525a15"/><lg><l>禪行無所思</l><l>專心不有住</l>
+<lb n="0525a16"/><l>斷一切諸想</l><l>名寂度無極</l>
+<lb n="0525a17"/><l>寂然而澹泊</l><l>不逸無諸漏</l>
+<lb n="0525a18"/><l>棄捐眾塵勞</l><l>是寂度無極</l>
+<lb n="0525a19"/><l>其心一切法</l><l>未曾遣往<anchor id="fxT13p0525a02"/>反</l>
+<lb n="0525a20"/><l>無心脫於心</l><l>寂然度彼岸</l>
+<lb n="0525a21"/><l>計心及與道</l><l>觀之悉平等</l>
+<lb n="0525a22"/><l>若能察平等</l><l>佛道不難得</l>
+<lb n="0525a23"/><l>捨文字無言</l><l>無本無所有</l>
+<lb n="0525a24"/><l>不樂不自恣</l><l>乃名為智慧</l>
+<lb n="0525a25"/><l>無此<note n="0525002" resp="Taisho" type="orig" place="foot text">不＝彼【元】【明】</note><app n="0525002"><lem>不</lem><rdg wit="【元】【明】" resp="Taisho">彼</rdg></app>度岸</l><l>不住彼此際</l>
+<lb n="0525a26"/><l>正立於法界</l><l>不住無所著</l>
+<lb n="0525a27"/><l>文字無<note n="0525003" resp="Taisho" type="orig" place="foot text">班＝頒【三】【宮】＊</note><note n="0525003" resp="CBETA" type="mod">班＝頒【宋】【元】【明】【宮】＊</note><app n="0525003"><lem>班</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">頒</rdg></app>宣</l><l>不<note n="0525004" resp="Taisho" type="orig" place="foot text">與＝興【三】【宮】</note><note n="0525004" resp="CBETA" type="mod">與＝興【宋】【元】【明】【宮】</note><app n="0525004"><lem>與</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">興</rdg></app>一切想</l>
+<lb n="0525a28"/><l>以是受諸法</l><l>乃名曰智慧</l>
+<lb n="0525a29"/><l>諸度無極然</l><l>所見一同類</l>
+<pb ed="T" id="T13.0401.0525b" n="0525b"/>
+<lb n="0525b01"/><l>則能等諸法</l><l>平均於眾生</l>
+<lb n="0525b02"/><l>以能等諸法</l><l>則能等眾生</l>
+<lb n="0525b03"/><l>亦<note n="0525005" resp="Taisho" type="orig" place="foot text">等＝能【明】</note><app n="0525005"><lem>等</lem><rdg wit="【明】" resp="Taisho">能</rdg></app>於諸法</l><l>便等一切智</l>
+<lb n="0525b04"/><l>是故大智慧</l><l>菩薩其勇猛</l>
+<lb n="0525b05"/><l>能隨此教令</l><l>法眼不<note n="0525006" resp="Taisho" type="orig" place="foot text">可＝思【三】【宮】</note><note n="0525006" resp="CBETA" type="mod">可＝思【宋】【元】【明】【宮】</note><app n="0525006"><lem>可</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">思</rdg></app>議</l></lg>
+<lb n="0525b06"/><p>彼諸正士。說此章句分別所趣。以千二百人
+<lb n="0525b07"/>皆發無上正真道意。六萬菩薩得無所從生
+<lb n="0525b08"/>法忍。時蓮華上諸坐菩薩。尋即退下稽首佛
+<lb n="0525b09"/>足。及復禮於無言菩薩。俱共啟白。無言菩
+<lb n="0525b10"/>薩。吾等以報聖師之恩。欽樂正法奉事經典。
+<lb n="0525b11"/>修行孝順而有<anchor id="fxT13p0525b01"/>反復。賢者舍利弗。前白佛
+<lb n="0525b12"/>言。唯然世尊。此諸菩薩。何故口宣如<note n="0525007" resp="Taisho" type="orig" place="foot text">來＝是【三】【宮】</note><note n="0525007" resp="CBETA" type="mod">來＝是【宋】【元】【明】【宮】</note><app n="0525007"><lem>來</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是</rdg></app>言
+<lb n="0525b13"/>辭。吾等孝順而有<anchor id="fxT13p0525b02"/>反復。佛告舍利弗。此諸
+<lb n="0525b14"/>菩薩。悉<note n="0525008" resp="Taisho" type="orig" place="foot text">是＝具【三】【宮】</note><note n="0525008" resp="CBETA" type="mod">是＝具【宋】【元】【明】【宮】</note><app n="0525008"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">具</rdg></app>無言菩薩大士之所勸發。令宣
+<lb n="0525b15"/>道教演于恩慈仁義禮節。無上正真大乘之
+<lb n="0525b16"/>教。開化未聞令發道意。是為孝順而有<anchor id="fxT13p0525b03"/>反
+<lb n="0525b17"/>復報師之恩。今者故來行供養德。亦欲&CB00418;見
+<lb n="0525b18"/>於此大會奉覲佛聖。聽省經典諮受所聞</p>
+<lb n="0525b19"/><p>於是無言菩薩。白世尊曰。我欲啟問如來至
+<lb n="0525b20"/>真等正覺所懷疑結。設見聽者。乃敢自陳。
+<lb n="0525b21"/>世尊即告無言菩薩。恣意所問。諸不了者。
+<lb n="0525b22"/>如來一一當為發遣可悅其心令無餘疑。時
+<lb n="0525b23"/>舍利弗。語無言菩薩。汝族姓子。不能語言。
+<lb n="0525b24"/>云何欲問如來義乎。無言答曰。一切<note n="0525009" resp="Taisho" type="orig" place="foot text">語＝諸【三】【宮】</note><note n="0525009" resp="CBETA" type="mod">語＝諸【宋】【元】【明】【宮】</note><app n="0525009"><lem>語</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">諸</rdg></app>法。
+<lb n="0525b25"/>悉無文字亦無言辭。所以者何。一切眾生皆
+<lb n="0525b26"/>悉自然。無諸言教及眾想念。唯舍利弗。因心
+<lb n="0525b27"/>所念口說言辭。若無所思則無所言。心所念
+<lb n="0525b28"/>者悉虛無實。言不可說。不可示人。亦不可
+<lb n="0525b29"/>得。諮問行念。其想著者悉無所有。而無文
+<pb ed="T" id="T13.0401.0525c" n="0525c"/>
+<lb n="0525c01"/>字。其虛無者亦無想念。亦不宣暢文字之說。
+<lb n="0525c02"/>其諸行念不自想言。吾當宣布文字之說。文
+<lb n="0525c03"/>字不念當行想念暢文字說。唯舍利弗。十二
+<lb n="0525c04"/>緣起深奧難逮。巍巍如是。因緣所生。彼則
+<lb n="0525c05"/>自然了無所有。假使自然無所有者。彼則無
+<lb n="0525c06"/>有逮成道者。唯舍利弗。一切諸法無所成因
+<lb n="0525c07"/>緣之事。依無所<note n="0525010" resp="Taisho" type="orig" place="foot text">住＝主【宮】</note><app n="0525010"><lem>住</lem><rdg wit="【宮】" resp="Taisho">主</rdg></app>有所造作。因於緣合。是
+<lb n="0525c08"/>故因緣無所興立。唯舍利弗。一切諸法悉無
+<lb n="0525c09"/>有主。而君長亦無常<note n="0525011" resp="Taisho" type="orig" place="foot text">主＝王【三】【宮】</note><note n="0525011" resp="CBETA" type="mod">主＝王【宋】【元】【明】【宮】</note><app n="0525011"><lem>主</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">王</rdg></app>。無有志念。因己
+<lb n="0525c10"/>思想多所馳騁。從對有念處於眾想。顛倒之
+<lb n="0525c11"/>黨從其起生。彼若有問見難問者。所想知一
+<lb n="0525c12"/>切此法。有想無想悉為一相。謂無有想。彼
+<lb n="0525c13"/>所以問。是為菩薩行於大哀。唯舍利弗。吾
+<lb n="0525c14"/>以是故。興發大哀諮問如來。不以言辭聲音
+<lb n="0525c15"/>問事倚口言教。住於大哀菩薩所問。舍利弗
+<lb n="0525c16"/>問。若族姓子。設無眾生無有人物。何因菩
+<lb n="0525c17"/>薩。而於眾生興大哀乎。無言答曰。唯舍利
+<lb n="0525c18"/>弗。設使眾生不求成就至於道者。爾乃菩薩。
+<lb n="0525c19"/>不於眾生興發大哀。然而眾生。無有眾生起
+<lb n="0525c20"/>眾生想。是故菩薩處於眾生興發大哀。設說
+<lb n="0525c21"/>有人則反逆矣。一切五趣猶如幻化。嗚呼痛
+<lb n="0525c22"/>哉諸人顛倒。無有眾生<note n="0525012" resp="Taisho" type="orig" place="foot text">（起眾生）＋想【三】【宮】</note><note n="0525012" resp="CBETA" type="mod">（起眾生）＋想【宋】【元】【明】【宮】</note><app n="0525012"><lem>想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">起眾生想</rdg></app>。是故為彼講說
+<lb n="0525c23"/>經道。使無<note n="0525013" resp="Taisho" type="orig" place="foot text">（吾）＋我【三】【宮】</note><note n="0525013" resp="CBETA" type="mod">（吾）＋我【宋】【元】【明】【宮】</note><app n="0525013"><lem>我</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">吾我</rdg></app>本末皆空。由是菩薩為諸眾生
+<lb n="0525c24"/>興發大哀。無所破壞不毀所有。不壞吾我及
+<lb n="0525c25"/>人壽命。故曰菩薩入於大哀導利眾生。見暢
+<lb n="0525c26"/>審如分別空事。為諸客塵之所<note n="0525014" resp="Taisho" type="orig" place="foot text">霑＝點【三】【宮】</note><note n="0525014" resp="CBETA" type="mod">霑＝點【宋】【元】【明】【宮】</note><app n="0525014"><lem>霑</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">點</rdg></app>污。所可
+<lb n="0525c27"/>遊入等一切色。而自<note n="0525015" resp="Taisho" type="orig" place="foot text">觀＝&CB00418;【三】【宮】</note><note n="0525015" resp="CBETA" type="mod">觀＝&CB00418;【宋】【元】【明】【宮】</note><app n="0525015"><lem>觀</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB00418;</rdg></app>見本悉清淨。是故
+<lb n="0525c28"/>菩薩而於眾生興發大哀。時舍利弗。讚無言
+<lb n="0525c29"/>菩薩曰。善哉善哉。族姓子。實如所云一無
+<pb ed="T" id="T13.0401.0526a" n="0526a"/>
+<lb n="0526a01"/>有異。又從仁賢。向者聽者。所講辯才。故欲發
+<lb n="0526a02"/>問。當從正士啟受如是不可思議。所<anchor id="fxT13p0526a01"/>班宣
+<lb n="0526a03"/>法。設問所說。當令弊魔不得其便。使如來
+<lb n="0526a04"/>法得久存立。此諸眾會。天龍<note n="0526001" resp="Taisho" type="orig" place="foot text">鬼＋（神）【元】【明】</note><app n="0526001"><lem>鬼</lem><rdg wit="【元】【明】" resp="Taisho">鬼神</rdg></app><note n="0526002" resp="Taisho" type="orig" place="foot text">乾＝犍【明】</note><app n="0526002"><lem>乾</lem><rdg wit="【明】" resp="Taisho">犍</rdg></app>沓和阿
+<lb n="0526a05"/>須倫加留羅真陀羅摩&CB00264;勒等人非人。逮得
+<lb n="0526a06"/>無量道法光明。於是無言菩薩。前白佛言。世
+<lb n="0526a07"/>尊。常說修正見者。有二因緣。從他聞音思
+<lb n="0526a08"/>惟其行。善哉大聖。唯願如來至真正覺。分
+<lb n="0526a09"/>別宣揚。何謂菩薩承於他音。何謂思惟<note n="0526003" resp="Taisho" type="orig" place="foot text">何＋（謂）【三】【宮】</note><note n="0526003" resp="CBETA" type="mod">何＋（謂）【宋】【元】【明】【宮】</note><app n="0526003"><lem>何</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">何謂</rdg></app>
+<lb n="0526a10"/>賢聖之正見也。佛告無言菩薩。族姓子。諦
+<lb n="0526a11"/>聽善思念之。今當分別。猶如菩薩承他音
+<lb n="0526a12"/>聲。因而思惟。奉順賢聖之正<note n="0526004" resp="Taisho" type="orig" place="foot text">見＋（也）【三】【宮】＊</note><note n="0526004" resp="CBETA" type="mod">見＋（也）【宋】【元】【明】【宮】＊</note><app n="0526004"><lem>見</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">見也</rdg></app>。善哉世尊
+<lb n="0526a13"/>願樂欲聞。無言菩薩與大眾會。受教而聽。
+<lb n="0526a14"/>佛言。族姓子。若有菩薩。勸<note n="0526005" resp="Taisho" type="orig" place="foot text">化＝他【宋】【宮】</note><app n="0526005"><lem>化</lem><rdg wit="【宋】【宮】" resp="Taisho">他</rdg></app>眾生入於佛
+<lb n="0526a15"/>道。是為菩薩承於他音。設令其人心不懷亂。
+<lb n="0526a16"/>是為思惟。假使等觀於道意者。是為賢聖之
+<lb n="0526a17"/>正見也。又若聽省柔順道法。此承他音。若
+<lb n="0526a18"/>能奉持佛之道義。是為思惟。若能奉行菩薩
+<lb n="0526a19"/>之道逮得法忍。是為賢聖之正見也</p>
+<lb n="0526a20"/><p>復次無言。若能宣于所聞微妙之慧無上正
+<lb n="0526a21"/>真。承此他音。假使能通達不計吾我。是為
+<lb n="0526a22"/>思惟。志性清淨無有諛諂發起洪業。是為賢
+<lb n="0526a23"/>聖之正見也。所聞順義而不違法。是承他音。
+<lb n="0526a24"/>修眾德本是為思惟。所行微妙勸助於道。是
+<lb n="0526a25"/>為賢聖之正見也。專精聽受是承他音求殊
+<lb n="0526a26"/>特義。是為思惟。勸助道意未曾忘捨。是為賢
+<lb n="0526a27"/>聖之正見也。順念如應勸助道意。初不廢退
+<lb n="0526a28"/>等觀賢聖。放捨一切所可聞念是承他音。一
+<lb n="0526a29"/>切所有敢可尊敬。悉能施與無所愛惜。是為
+<pb ed="T" id="T13.0401.0526b" n="0526b"/>
+<lb n="0526b01"/>思惟。不望其報。不貪著道。至於大乘。是為賢
+<lb n="0526b02"/>聖之正見也。聞於禁戒<note n="0526006" resp="Taisho" type="orig" place="foot text">弘＝加【宮】</note><app n="0526006"><lem>弘</lem><rdg wit="【宮】" resp="Taisho">加</rdg></app>雅之教。此承他
+<lb n="0526b03"/>音。所執戒心無所習舍。是為思<note n="0526007" resp="Taisho" type="orig" place="foot text">惟＝無【宮】</note><app n="0526007"><lem>惟</lem><rdg wit="【宮】" resp="Taisho">無</rdg></app>。戒無所
+<lb n="0526b04"/>行。篤信至真勸助於道。是為賢聖之正見也。
+<lb n="0526b05"/>聽省忍辱仁義大慈。此承他音。而懷愍傷無
+<lb n="0526b06"/>有害心。是為思惟。究竟閑靜。信諸法盡勸
+<lb n="0526b07"/>助佛道。是為賢聖之正見也。聽省精進則而
+<lb n="0526b08"/>順之。是承他音。其心不住懈怠垢穢。是為
+<lb n="0526b09"/>思惟。無合無散無所違失。慇懃精進以勸助
+<lb n="0526b10"/>道。是為賢聖之正見也。令聞禪定三脫之門
+<lb n="0526b11"/>三昧正受此承他音。心所為事而不可得觀
+<lb n="0526b12"/>察心本。是為思惟。所修禪定不墮顛倒勸助
+<lb n="0526b13"/>佛道。是為賢聖之正見也。聽聞智慧身根華
+<lb n="0526b14"/>實。此承他音。<note n="0526008" resp="Taisho" type="orig" place="foot text">（如）＋所【三】【宮】</note><note n="0526008" resp="CBETA" type="mod">（如）＋所【宋】【元】【明】【宮】</note><app n="0526008"><lem>所</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">如所</rdg></app>聞法觀察本末之所歸趣。
+<lb n="0526b15"/>是為思惟。棄捐諸流眾<note n="0526009" resp="Taisho" type="orig" place="foot text">崖＝涯【元】【明】</note><app n="0526009"><lem>崖</lem><rdg wit="【元】【明】" resp="Taisho">涯</rdg></app>底源開化<note n="0526010" resp="Taisho" type="orig" place="foot text">之＝道【三】【宮】</note><note n="0526010" resp="CBETA" type="mod">之＝道【宋】【元】【明】【宮】</note><app n="0526010"><lem>之</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">道</rdg></app>意。
+<lb n="0526b16"/>是為賢聖之正<anchor id="fxT13p0526b01"/>見。示以四恩。聽攝所聞了無
+<lb n="0526b17"/>所著。此承他音。未曾放廢四恩之教。是為
+<lb n="0526b18"/>思惟。所可救濟恩及眾生。斯平等義。開度
+<lb n="0526b19"/>立之於一切智。是為賢聖之正見也。修四
+<lb n="0526b20"/>梵行慈悲喜護。此承他音。而不壞除愍愛
+<lb n="0526b21"/>眾類亦無所毀。所可奉行不求名稱。是為思
+<lb n="0526b22"/>惟。遵樂空無。為眾生故而修愍哀。以法之
+<lb n="0526b23"/>故而行歡悅。為二報故勸助道德。是為賢聖
+<lb n="0526b24"/>之正見也。設令聽省四分別辯。此承他音。
+<lb n="0526b25"/>觀察諸法威儀禮節。是為思惟。<note n="0526011" resp="Taisho" type="orig" place="foot text">（順）＋從【三】【宮】</note><note n="0526011" resp="CBETA" type="mod">（順）＋從【宋】【元】【明】【宮】</note><app n="0526011"><lem>從</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">順從</rdg></app>法義等
+<lb n="0526b26"/>於平均。所行具足勸發道意。是為賢聖之正
+<lb n="0526b27"/>見也。若聞<note n="0526012" resp="Taisho" type="orig" place="foot text">所＋（說）【三】【宮】</note><note n="0526012" resp="CBETA" type="mod">所＋（說）【宋】【元】【明】【宮】</note><app n="0526012"><lem>所</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">所說</rdg></app>當奉行微妙導利之事。此承
+<lb n="0526b28"/>他音。念御順行而不遠離。是為思惟。章句
+<lb n="0526b29"/>道跡。所由處所宣布佛道。是為賢聖之正見
+<pb ed="T" id="T13.0401.0526c" n="0526c"/>
+<lb n="0526c01"/>也。若能令聞三十七品正覺之法。此承他
+<lb n="0526c02"/>音。修於意止悉不憒亂。行於斷意。未曾惑
+<lb n="0526c03"/>隨不善之心。而常順從德義之志。其神足者。
+<lb n="0526c04"/>精進禪定不懷怯弱。篤信如是。明解章句而
+<lb n="0526c05"/>不退還。慧能尋對一一觀察。心由<note n="0526013" resp="Taisho" type="orig" place="foot text">（法）＋力【三】【宮】</note><note n="0526013" resp="CBETA" type="mod">（法）＋力【宋】【元】【明】【宮】</note><app n="0526013"><lem>力</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">法力</rdg></app>不行
+<lb n="0526c06"/>塵勞。入覺意法等於道心。是為思惟。假使
+<lb n="0526c07"/>無意無所思念。於四意止不起不滅。於四
+<lb n="0526c08"/>意斷柔和身心。於四神足審如真諦。曉了如
+<lb n="0526c09"/>是。所趣若斯。執智慧<note n="0526014" resp="Taisho" type="orig" place="foot text">刀＝力【宮】</note><app n="0526014"><lem>刀</lem><rdg wit="【宮】" resp="Taisho">力</rdg></app>截斷眾垢。情欲不
+<lb n="0526c10"/>散入于正法。而於覺意下入等觀無有二事。
+<lb n="0526c11"/>所歸徑路勸助道心。是為賢聖之正見也。若
+<lb n="0526c12"/>使聽聞四聖諦者。此承他音。五陰苦患。恩
+<lb n="0526c13"/>愛之難。滅盡所習因緣之報。入於徑路。是
+<lb n="0526c14"/>為思惟。雖處諸苦慧無所起。於諸所習慧無
+<lb n="0526c15"/>所習。於諸所盡慧究竟盡。由于徑路慧無所
+<lb n="0526c16"/>著。勸發大道。是為賢聖之正見也。若以聽
+<lb n="0526c17"/>受於三脫門。此承他音。篤信於空不畏無
+<lb n="0526c18"/>相。而於無願無所志求。是為思惟。不生空
+<lb n="0526c19"/>行開化諸見興於無相教導一切。諸所相行
+<lb n="0526c20"/>發于無願。所生至誠。是為賢聖之正見也。
+<lb n="0526c21"/>令初發意順從大業。此承他音。修菩薩行不
+<lb n="0526c22"/>捨一切。是為思惟。不退轉地當成正覺。是
+<lb n="0526c23"/>為賢聖之正見也。得善知識而從其教。此承
+<lb n="0526c24"/>他音。<note n="0526015" resp="Taisho" type="orig" place="foot text">目＝自【元】【明】</note><app n="0526015"><lem>目</lem><rdg wit="【元】【明】" resp="Taisho">自</rdg></app>見世尊諮受聖路。是為思惟。如
+<lb n="0526c25"/>口所言不違所言身口相應。是為賢聖之正
+<lb n="0526c26"/>見也。聽所講法等於惑亂。此承他音。觀察諸
+<lb n="0526c27"/>法義之所歸。是為思惟。奉行法義不失道教。
+<lb n="0526c28"/>是為賢聖之正見也。親近如來諮受所宣。此
+<lb n="0526c29"/>承他音。識分別道心不捨大猷。是為思惟。
+<pb ed="T" id="T13.0401.0527a" n="0527a"/>
+<lb n="0527a01"/><note n="0527001" resp="Taisho" type="orig" place="foot text">（即）＋受【三】【宮】</note><note n="0527001" resp="CBETA" type="mod">（即）＋受【宋】【元】【明】【宮】</note><app n="0527001"><lem>受</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">即受</rdg></app>奉行有所開化能使成就。是為賢聖之正
+<lb n="0527a02"/>見也。設能聽受八萬四千諸道品法。此承他
+<lb n="0527a03"/>音。曉了分別八萬四千諸佛之行<note n="0527002" resp="Taisho" type="orig" place="foot text">〔也〕－【三】【宮】</note><note n="0527002" resp="CBETA" type="mod">〔也〕－【宋】【元】【明】【宮】</note><app n="0527002"><lem>也</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。是為
+<lb n="0527a04"/>思惟。八萬四千眾生之類各異根者。如應說
+<lb n="0527a05"/>法。是為賢聖之正見也。在在所由悉無所樂。
+<lb n="0527a06"/>發功德心。此承他音。假使其心不捨功德。是
+<lb n="0527a07"/>為思惟。以是德心專精勸助於一切智。是為
+<lb n="0527a08"/>賢聖之正見也。此族姓子。設隨順念則為長
+<lb n="0527a09"/>命。壽不可極無始無終。賢聖正見。所以者
+<lb n="0527a10"/>何。五趣周旋。如幻化夢影響野馬水月芭
+<lb n="0527a11"/>蕉。曉了若斯。是承他音。一切諸法悉為平
+<lb n="0527a12"/>等而無偏邪。是為思惟。若致平等。乃為賢聖
+<lb n="0527a13"/>之正見也。名曰思惟。不舉不下。於一切法無
+<lb n="0527a14"/>應不應。無進不進。無處不處。無行不行。無
+<lb n="0527a15"/>念不念。無想不想。無意不意。無惟不惟。無心
+<lb n="0527a16"/>意教。是為名曰不二入法門。曉了一品。無合
+<lb n="0527a17"/>無散無違無順。<note n="0527003" resp="Taisho" type="orig" place="foot text">〔曉〕－【宋】【宮】</note><app n="0527003"><lem>曉</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>了深念本<note n="0527004" resp="Taisho" type="orig" place="foot text">性＝法【宋】【宮】</note><app n="0527004"><lem>性</lem><rdg wit="【宋】【宮】" resp="Taisho">法</rdg></app>清淨。極
+<lb n="0527a18"/>為顯曜而當講說。無冥無明。無濁無清。無
+<lb n="0527a19"/>有品第。則為法界無所破壞。而於本際不為
+<lb n="0527a20"/>動搖。入於無本。處于三世而無所處。無我
+<lb n="0527a21"/>無人無壽無命。無音無聲等諸文字。義無所
+<lb n="0527a22"/>獲。無有財業。無所畢置。得諸所盡。一切所
+<lb n="0527a23"/>行無有眾念。離一切想。皆悉斷於放逸之事。
+<lb n="0527a24"/>滅除一切諸所惟行。而無所著捨諸所著。巍
+<lb n="0527a25"/>巍乃至如來所歎。無為之事。刈去眾想是為
+<lb n="0527a26"/>平等。無有形貌<note n="0527005" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】</note><note n="0527005" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】</note><app n="0527005"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>如應思惟。假使行者從三
+<lb n="0527a27"/>昧起。則以此法而為眾生及他人說。便於其
+<lb n="0527a28"/>所推求斯本。如應思惟而療治之。無所動搖。
+<lb n="0527a29"/>是為名曰立於大哀賢聖正見。佛說賢聖正
+<pb ed="T" id="T13.0401.0527b" n="0527b"/>
+<lb n="0527b01"/>見之時。一萬菩薩尋即逮得賢聖正見。於是
+<lb n="0527b02"/>舍利弗。謂無言菩薩。仁族姓子。從何聞法
+<lb n="0527b03"/>乃能興此賢聖正見。無言答曰。唯舍利弗。吾
+<lb n="0527b04"/>所從聞法無所造。不從過去心得至於道。亦
+<lb n="0527b05"/>不當來。亦不現在。平等三世等一切法。有
+<lb n="0527b06"/>所<note n="0527006" resp="Taisho" type="orig" place="foot text">〔有〕－【三】【宮】</note><note n="0527006" resp="CBETA" type="mod">〔有〕－【宋】【元】【明】【宮】</note><app n="0527006"><lem>有</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>趣者而無所歸。亦無有法亦無所等。
+<lb n="0527b07"/>吾從於彼而聽聞法。不有為不無為。無識無
+<lb n="0527b08"/>住無心意識。於一切法莫有所<note n="0527007" resp="Taisho" type="orig" place="foot text">奉＝奏【宋】【宮】，湊【元】【明】</note><note n="0527007" resp="CBETA" type="mod">奉＝奏【宋】【宮】，＝湊【元】【明】</note><app n="0527007"><lem>奉</lem><rdg wit="【宋】【宮】" resp="Taisho">奏</rdg><rdg wit="【元】【明】" resp="Taisho">湊</rdg></app>。制止一
+<lb n="0527b09"/>切眾生之心。可悅<note n="0527008" resp="Taisho" type="orig" place="foot text">諸＝說【宋】【宮】</note><app n="0527008"><lem>諸</lem><rdg wit="【宋】【宮】" resp="Taisho">說</rdg></app>人。義無所獲亦不動
+<lb n="0527b10"/>搖。於無力毒而無著。吾正從彼而聽聞法。
+<lb n="0527b11"/>見生於世者不生不起。一切法若不所興。分
+<lb n="0527b12"/>別無本而無所說。吾正從彼而聽聞法。其住
+<lb n="0527b13"/>法界等御人界。法界人界及虛空界不以差
+<lb n="0527b14"/>別。平等諸界而無所生。不造若干。吾正從
+<lb n="0527b15"/>彼而聽聞法。不處道場。不坐樹下。亦不經
+<lb n="0527b16"/>行。亦不得佛。不倚於道。不捨於俗。不令諸著
+<lb n="0527b17"/>人民之等作是念心。如來得道亦不得道。得
+<lb n="0527b18"/>於相好若不得相。作證不作證。悉從本淨自
+<lb n="0527b19"/>然之性。惟舍利弗。法者無持。而不可捉則
+<lb n="0527b20"/>無有身。以無有身無所成就。以無所成就則
+<lb n="0527b21"/>無所生。以無所生則無所起。以無所起則
+<lb n="0527b22"/>無終沒。以無終沒則無所著。以無所著則不
+<lb n="0527b23"/>動搖。以不動搖則無所作。以無所作則游駛
+<lb n="0527b24"/>水。已游駛水則無所得。已無所得身度彼
+<lb n="0527b25"/>岸。已度彼岸無下。不下則無有器。已無有
+<lb n="0527b26"/>器則無所應。已無所應則離愛欲。已離愛欲
+<lb n="0527b27"/>則無有想。已無有想則斷眾亂。已斷眾亂本
+<lb n="0527b28"/>性清淨。<note n="0527009" resp="Taisho" type="orig" place="foot text">以＝已【三】【宮】＊</note><note n="0527009" resp="CBETA" type="mod">以＝已【宋】【元】【明】【宮】＊</note><app n="0527009"><lem>以</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">已</rdg></app>至清淨則無有垢。已無有垢則
+<lb n="0527b29"/>無塵勞。已無塵勞則無同像。<anchor id="fxT13p0527b01"/>以無同像則住
+<pb ed="T" id="T13.0401.0527c" n="0527c"/>
+<lb n="0527c01"/>平等。<anchor id="fxT13p0527c01"/>以住<note n="0527010" resp="Taisho" type="orig" place="foot text">〔本〕－【三】【宮】</note><note n="0527010" resp="CBETA" type="mod">〔本〕－【宋】【元】【明】【宮】</note><app n="0527010"><lem>本</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>平等則立無動。<anchor id="fxT13p0527c02"/>以立無動則
+<lb n="0527c02"/>無所求。<anchor id="fxT13p0527c03"/>以無所求則如真諦。已如真諦則如
+<lb n="0527c03"/>審實。<anchor id="fxT13p0527c04"/>以如審實則無所有。<anchor id="fxT13p0527c05"/>以無所有則於
+<lb n="0527c04"/>諸緣而無有緣。<anchor id="fxT13p0527c06"/>以於諸緣無有緣者則度境
+<lb n="0527c05"/>界。<anchor id="fxT13p0527c07"/>以度諸界所<note n="0527011" resp="Taisho" type="orig" place="foot text">起＝趣【三】【宮】＊</note><note n="0527011" resp="CBETA" type="mod">起＝趣【宋】【元】【明】【宮】＊</note><app n="0527011"><lem>起</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">趣</rdg></app>無<anchor id="fxT13p0527c08"/>起則無所舉。<anchor id="fxT13p0527c09"/>以無所
+<lb n="0527c06"/>舉則無所下。<anchor id="fxT13p0527c10"/>以無所下則無有門。<anchor id="fxT13p0527c11"/>以無有
+<lb n="0527c07"/>門便離言教。<anchor id="fxT13p0527c12"/>以離言教則度識句。<anchor id="fxT13p0527c13"/>以度識
+<lb n="0527c08"/>句則不復還。<anchor id="fxT13p0527c14"/>以不復還則無有處。<anchor id="fxT13p0527c15"/>以無有
+<lb n="0527c09"/>處則無非處。<anchor id="fxT13p0527c16"/>以無非處。則無種稷。<anchor id="fxT13p0527c17"/>以無種
+<lb n="0527c10"/>稷則無根<note n="0527012" resp="Taisho" type="orig" place="foot text">芽＝牙【宋】【宮】＊</note><app n="0527012"><lem>芽</lem><rdg wit="【宋】【宮】" resp="Taisho">牙</rdg></app>。<anchor id="fxT13p0527c18"/>以無根<anchor id="fxT13p0527c19"/>芽則無為。超度諸識
+<lb n="0527c11"/>之跡。寂之<note n="0527013" resp="Taisho" type="orig" place="foot text">（自）＋然【三】【宮】</note><note n="0527013" resp="CBETA" type="mod">（自）＋然【宋】【元】【明】【宮】</note><app n="0527013"><lem>然</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">自然</rdg></app>。<anchor id="fxT13p0527c20"/>以至寂然究竟澹泊。已至
+<lb n="0527c12"/>澹泊則<note n="0527014" resp="Taisho" type="orig" place="foot text">〔至〕－【元】【明】</note><app n="0527014"><lem>至</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>無惟然。<anchor id="fxT13p0527c21"/>以無<note n="0527015" resp="Taisho" type="orig" place="foot text">惟＝進【宋】</note><app n="0527015"><lem>惟</lem><rdg wit="【宋】" resp="Taisho">進</rdg></app>然究竟無恨。已
+<lb n="0527c13"/>至無恨則至了意。<anchor id="fxT13p0527c22"/>以至了意不復更興。<anchor id="fxT13p0527c23"/>以
+<lb n="0527c14"/>不復興。則歸平等無為之道。<note n="0527016" resp="Taisho" type="orig" place="foot text">是＋（則）【元】【明】</note><app n="0527016"><lem>是</lem><rdg wit="【元】【明】" resp="Taisho">是則</rdg></app>為法。<note n="0527017" resp="Taisho" type="orig" place="foot text">唯＝惟【三】</note><note n="0527017" resp="CBETA" type="mod">唯＝惟【宋】【元】【明】</note><app n="0527017"><lem>唯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惟</rdg></app>
+<lb n="0527c15"/>舍利弗。法如是比說經如茲。其正見者為何
+<lb n="0527c16"/>像類。其正見者。等於己身。<anchor id="fxT13p0527c24"/>以等己身則離
+<lb n="0527c17"/>合會。<anchor id="fxT13p0527c25"/>以離合會。於諸平等不見平等。&CB00418;諸
+<lb n="0527c18"/>所見若無所想。是舍利弗。宣暢法律賢聖正
+<lb n="0527c19"/>見</p>
+<lb n="0527c20"/><p>無言菩薩。謂舍利弗。如等無明<corr sic="思">恩</corr>愛之著。
+<lb n="0527c21"/>亦等慧明解脫之事。等於滅度無<note n="0527018" resp="Taisho" type="orig" place="foot text">作＝所【宮】</note><app n="0527018"><lem>作</lem><rdg wit="【宮】" resp="Taisho">所</rdg></app>不作。是
+<lb n="0527c22"/>為等致賢聖正見。若有所&CB00418;不取異見。是為
+<lb n="0527c23"/>賢聖之正見也。復次<note n="0527019" resp="Taisho" type="orig" place="foot text">〔念〕－【三】【宮】</note><note n="0527019" resp="CBETA" type="mod">〔念〕－【宋】【元】【明】【宮】</note><app n="0527019"><lem>念</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>舍利弗。若能等於婬
+<lb n="0527c24"/>怒愚癡。亦等於空。無相無願解脫之相則為
+<lb n="0527c25"/>一相。謂歸無相已能歸此平等事者。是為賢
+<lb n="0527c26"/>聖之正見也。復次處正見者。於諸平等不造
+<lb n="0527c27"/>二事。已無二事不住相應。已無相應不有所
+<lb n="0527c28"/>住逮得諸法。一切平等而無差特。是為賢聖
+<lb n="0527c29"/>之正見也。復次等無二者則等眾生。則等諸
+<pb ed="T" id="T13.0401.0528a" n="0528a"/>
+<lb n="0528a01"/>佛。則等諸法。已等諸法則等國土。已等國
+<lb n="0528a02"/>土則等虛空。其於此等<note n="0528001" resp="Taisho" type="orig" place="foot text">若＝則【三】【宮】</note><note n="0528001" resp="CBETA" type="mod">若＝則【宋】【元】【明】【宮】</note><app n="0528001"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">則</rdg></app>不轉移。能於此
+<lb n="0528a03"/>等平等<note n="0528002" resp="Taisho" type="orig" place="foot text">住＝徑【三】【宮】</note><note n="0528002" resp="CBETA" type="mod">住＝徑【宋】【元】【明】【宮】</note><app n="0528002"><lem>住</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">徑</rdg></app>者。修無所處。是為賢聖之正見
+<lb n="0528a04"/>也。是故舍利弗。如法像類。聽者亦然。正
+<lb n="0528a05"/>見若茲。又舍利弗。耆年為興正見乎。從何
+<lb n="0528a06"/>聞法。所見何類。舍利弗答曰。如我於今族
+<lb n="0528a07"/>姓子。聞所說法。察其義歸。有所講說皆墮
+<lb n="0528a08"/>短乏。無言答曰。如是如是。舍利弗。敢有言辭
+<lb n="0528a09"/>皆<note n="0528003" resp="Taisho" type="orig" place="foot text">顧＝墮【三】【宮】</note><note n="0528003" resp="CBETA" type="mod">顧＝墮【宋】【元】【明】【宮】</note><app n="0528003"><lem>顧</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">墮</rdg></app>短乏。舍利弗又問。族姓子。如來至
+<lb n="0528a10"/>真無量福會有所宣暢。其所說者豈墮短乏。
+<lb n="0528a11"/>無言答曰。如是說者而無所說。不墮短乏。
+<lb n="0528a12"/>所以者何。如來至真不興名德。不當慕於如
+<lb n="0528a13"/>來上福。所以者何。其如來者無德無稱。若
+<lb n="0528a14"/>如來義無本。如來亦復如是。在於無本而不
+<lb n="0528a15"/>動轉。若有不欲如來上德。彼所慕者則無平
+<lb n="0528a16"/>等。亦無偏邪於欲無欲。有所慕者則墮短乏。
+<lb n="0528a17"/>舍利弗問。唯族姓子。何謂於法而無短乏。
+<lb n="0528a18"/>無言答曰。無大五陰六入。不以頂受。無所
+<lb n="0528a19"/>招致。悉無所行。不有言辭。無誨不誨。而於道
+<lb n="0528a20"/>法。令心意識無所起生。是法無短。假使有
+<lb n="0528a21"/>起心意識者。則墮短乏。若於諸法有作無
+<lb n="0528a22"/>作。則墮短乏。設於諸法無作不作。乃無短
+<lb n="0528a23"/>乏。復次若於諸法有所分別<note n="0528004" resp="Taisho" type="orig" place="foot text">有＝無【宋】【宮】</note><app n="0528004"><lem>有</lem><rdg wit="【宋】【宮】" resp="Taisho">無</rdg></app>所蠲除。而有
+<lb n="0528a24"/>所行有所造證。則墮短乏。若無曉了無除所
+<lb n="0528a25"/>去。亦無所<note n="0528005" resp="Taisho" type="orig" place="foot text">行不有＝造證則【宋】</note><app n="0528005"><lem>行不有</lem><rdg wit="【宋】" resp="Taisho">造證則</rdg></app>造證。乃無短乏。假有所
+<lb n="0528a26"/>見無所聞說。<note n="0528006" resp="Taisho" type="orig" place="foot text">教化獲＝行不有【宋】</note><app n="0528006"><lem>教化獲</lem><rdg wit="【宋】" resp="Taisho">行不有</rdg></app>致識知所趣。則墮短
+<lb n="0528a27"/>乏。於一切界<note n="0528007" resp="Taisho" type="orig" place="foot text">而＋（教化獲）【宋】</note><app n="0528007"><lem>而</lem><rdg wit="【宋】" resp="Taisho">而教化獲</rdg></app>無所行。乃無短乏。其有&CB00418;
+<lb n="0528a28"/>見功德瑕穢。則墮短乏。設使所行無有瑕穢。
+<lb n="0528a29"/>無有德稱。亦無所見。乃無短乏。時佛嗟歎
+<pb ed="T" id="T13.0401.0528b" n="0528b"/>
+<lb n="0528b01"/>無言菩薩。善哉善哉。族姓子。若欲講法當
+<lb n="0528b02"/>作是說。是時萬二千菩薩。逮得無所從生法
+<lb n="0528b03"/>忍</p>
+<lb n="0528b04"/><p>無言菩薩。復白佛言。我識如來為諸菩薩講
+<lb n="0528b05"/>說四力。一曰信力。二曰精進力。三曰意力。四
+<lb n="0528b06"/>曰智力。唯如來至真<note n="0528008" resp="Taisho" type="orig" place="foot text">〔正〕－【元】【明】</note><app n="0528008"><lem>正</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>等正覺。廣分別說此
+<lb n="0528b07"/>四品力。何謂菩薩篤信精進意智慧力。佛告
+<lb n="0528b08"/>無言菩薩。諦聽善念。善哉世尊。願樂欲聞。
+<lb n="0528b09"/>無言菩薩受教而聽。佛言族姓子。假使菩薩
+<lb n="0528b10"/>信諸佛法。愛樂順從不懷狐疑。亦無猶豫。是
+<lb n="0528b11"/>為信力。諸佛精進本求道時。<note n="0528009" resp="Taisho" type="orig" place="foot text">志＝戀【三】【宮】</note><note n="0528009" resp="CBETA" type="mod">志＝戀【宋】【元】【明】【宮】</note><app n="0528009"><lem>志</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">戀</rdg></app>慕此典不
+<lb n="0528b12"/>以懈廢。不懷怯弱亦不退轉。是為精進力。若
+<lb n="0528b13"/>攝其志合集德本無所忘失。其意<note n="0528010" resp="Taisho" type="orig" place="foot text">〔不亂〕－【宮】</note><app n="0528010"><lem>不亂</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>不捨
+<lb n="0528b14"/>道心。所可興<note n="0528011" resp="Taisho" type="orig" place="foot text">廢＝發【三】【宮】</note><note n="0528011" resp="CBETA" type="mod">廢＝發【宋】【元】【明】【宮】</note><app n="0528011"><lem>廢</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">發</rdg></app>真正之心勸助於道。是為
+<lb n="0528b15"/>意力。所修智明於一切法。不須他慧而得自
+<lb n="0528b16"/>在。慧無所礙。是為智慧力。佛復告無言菩
+<lb n="0528b17"/>薩。信於賢聖。獨步三界無所疑難。是為信
+<lb n="0528b18"/>力。所施精勤恭敬奉順。是為精進力。心之
+<lb n="0528b19"/>所念常思賢聖之所班宣。未曾忘捨。是為意
+<lb n="0528b20"/>力。若從至聖。所聞智慧經典之本則能奉行。
+<lb n="0528b21"/>是為智力。復次假使篤信罪福之報而不疑
+<lb n="0528b22"/>亂。是為信力。若能勤<note n="0528012" resp="Taisho" type="orig" place="foot text">行＋（所）【三】【宮】</note><note n="0528012" resp="CBETA" type="mod">行＋（所）【宋】【元】【明】【宮】</note><app n="0528012"><lem>行</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">行所</rdg></app>不當作而不為之。
+<lb n="0528b23"/>是為精進力。念所興業終無腐朽。是為意力。
+<lb n="0528b24"/>若能曉了無有罪福報應。有能分別一切諸
+<lb n="0528b25"/>法。是為智力</p>
+<lb n="0528b26"/><p>佛復告無言菩薩。假使其心清澄無穢。能攝
+<lb n="0528b27"/>其意順道教者。是為信力。意所啟受而將養
+<lb n="0528b28"/>之。是精進力。若令其心常順志一。是為意
+<lb n="0528b29"/>力。心觀諸法一切如幻。是為智力。復次信
+<pb ed="T" id="T13.0401.0528c" n="0528c"/>
+<lb n="0528c01"/>一切法皆悉為空。是為信力。<note n="0528013" resp="Taisho" type="orig" place="foot text">所修＝以所【宮】</note><app n="0528013"><lem>所修</lem><rdg wit="【宮】" resp="Taisho">以所</rdg></app>精進解諸
+<lb n="0528c02"/>見縛。是為精進力。於內外空不懷恐怖。是
+<lb n="0528c03"/>為意力。觀究竟空本末悉空。<note n="0528014" resp="Taisho" type="orig" place="foot text">為＝是【三】【宮】</note><note n="0528014" resp="CBETA" type="mod">為＝是【宋】【元】【明】【宮】</note><app n="0528014"><lem>為</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是</rdg></app>智慧力。
+<lb n="0528c04"/>無相無願於一切法無所造行。是為信力。以
+<lb n="0528c05"/>此道法而為他人分別說者。是精進力。設使
+<lb n="0528c06"/>於此念于諸法所行安詳。是為意力。昔所講
+<lb n="0528c07"/>說方當宣暢令<note n="0528015" resp="Taisho" type="orig" place="foot text">班＝頒【三】【宮】＊</note><note n="0528015" resp="CBETA" type="mod">班＝頒【宋】【元】【明】【宮】＊</note><app n="0528015"><lem>班</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">頒</rdg></app>宣者。一切推求永不可得。
+<lb n="0528c08"/>是為慧力。一切所有心自當思。欲以放捨信
+<lb n="0528c09"/>布施處。是為信力。有所放捨不懷懈<note n="0528016" resp="Taisho" type="orig" place="foot text">倦＋（是精進力）【三】【宮】</note><note n="0528016" resp="CBETA" type="mod">倦＋（是精進力）【宋】【元】【明】【宮】</note><app n="0528016"><lem>倦</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">倦是精進力</rdg></app>。未
+<lb n="0528c10"/>曾怯劣大道。未曾<note n="0528017" resp="Taisho" type="orig" place="foot text">違＝遣令【三】【宮】</note><note n="0528017" resp="CBETA" type="mod">違＝遣令【宋】【元】【明】【宮】</note><app n="0528017"><lem>違</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">遣令</rdg></app>。捨施<note n="0528018" resp="Taisho" type="orig" place="foot text">與＝興【元】【明】</note><app n="0528018"><lem>與</lem><rdg wit="【元】【明】" resp="Taisho">興</rdg></app>發布施。又
+<lb n="0528c11"/>勸助道意。是為意力。不得施者亦無受者。
+<lb n="0528c12"/>不蒙想報。是智慧力。奉順禁戒成就真正信
+<lb n="0528c13"/>戒果實。是為信力。以所精進滅除<note n="0528019" resp="Taisho" type="orig" place="foot text">〔諸〕－【三】【宮】</note><note n="0528019" resp="CBETA" type="mod">〔諸〕－【宋】【元】【明】【宮】</note><app n="0528019"><lem>諸</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>毀戒
+<lb n="0528c14"/>之心。是為精進力。若以道心念之不忘。所
+<lb n="0528c15"/>尊禁戒。皆以勸助於一切智。是為意力。觀
+<lb n="0528c16"/>身如影言如呼響心<note n="0528020" resp="Taisho" type="orig" place="foot text">如＝而【宋】【宮】</note><app n="0528020"><lem>如</lem><rdg wit="【宋】【宮】" resp="Taisho">而</rdg></app>幻化。察於禁戒而無
+<lb n="0528c17"/>所行。是為智力。成就忍辱信於威勢。是為
+<lb n="0528c18"/>信力。所行精進不聽眾想。不演&CB00308;辭<note n="0528021" resp="Taisho" type="orig" place="foot text">欲＝妄【三】【宮】</note><note n="0528021" resp="CBETA" type="mod">欲＝妄【宋】【元】【明】【宮】</note><app n="0528021"><lem>欲</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">妄</rdg></app>加
+<lb n="0528c19"/>於人<note n="0528022" resp="Taisho" type="orig" place="foot text">（使）＋從【三】【宮】</note><note n="0528022" resp="CBETA" type="mod">（使）＋從【宋】【元】【明】【宮】</note><app n="0528022"><lem>從</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">使從</rdg></app>邪徑。假<note n="0528023" resp="Taisho" type="orig" place="foot text">〔使〕－【三】【宮】</note><note n="0528023" resp="CBETA" type="mod">〔使〕－【宋】【元】【明】【宮】</note><app n="0528023"><lem>使</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>令支解割截身肉。集忍
+<lb n="0528c20"/>辱力。未曾懷瞋。慈心忍辱。是為精進力。所
+<lb n="0528c21"/>行忍辱則以勸助於一切智。是為意力。無身
+<lb n="0528c22"/>意識不得身心。是智慧力。道為精進不為懈
+<lb n="0528c23"/>怠。信於此者而心歡樂興盛篤信。是為信力。
+<lb n="0528c24"/>常行精進不捨須臾。亦無所著用化眾生。將
+<lb n="0528c25"/>護正典<anchor id="fxT13p0528c01"/>殖眾德本。奉事於佛供養隨順。皆
+<lb n="0528c26"/>為一切眾生之故。修治佛土莊嚴清淨名德
+<lb n="0528c27"/>之稱。是精進力。蠲除一切眾生瞋恚懈怠
+<lb n="0528c28"/>垢穢。以被德鎧所修精進。則以勸助於一切
+<lb n="0528c29"/>智。是為意力。若不慇懃望想於道。不失威儀
+<pb ed="T" id="T13.0401.0529a" n="0529a"/>
+<lb n="0529a01"/>禮節之正。選擇精進。不得一切諸法處所。是
+<lb n="0529a02"/>智慧力。樂於閑居宴靜獨處。不慕眾會發興
+<lb n="0529a03"/>悅力。是為信力。所行精進修於禪定。興發
+<lb n="0529a04"/>脫門三昧正受。是精進力。因由所從致禪思
+<lb n="0529a05"/>者而不動搖。是為意力。於彼一心觀於無常
+<lb n="0529a06"/>苦空非身。而不亂禪。不輕慢禪。不退轉禪。
+<lb n="0529a07"/>曉了善權方謀宜適。是為善權方便誘進牽
+<lb n="0529a08"/>致至於智力。聞於一切諸度無極道品之法。
+<lb n="0529a09"/>若能信此是為信力。一切所聞執持不忘。能
+<lb n="0529a10"/>為他人嗟歎方便。設於彼法。若能奉遵若不
+<lb n="0529a11"/>奉遵。自察本末。是精進力。處於眾生其心
+<lb n="0529a12"/>不亂。遊於愛欲譬如蓮華。教化一切。是為意
+<lb n="0529a13"/>力。察三界空猶如泡沫芭蕉野馬影響幻化。
+<lb n="0529a14"/>開示未聞。是為智力。以清澄心慈向眾生仁
+<lb n="0529a15"/>靡不周。是為信力。信於大哀。心所興造不以
+<lb n="0529a16"/>懈怠。是精進力。心好正典不捨法樂常執奉
+<lb n="0529a17"/>行。是為意力。心無所著而不懷害。不造有
+<lb n="0529a18"/>二。無進不進。逮得靜觀修行正法。是智慧
+<lb n="0529a19"/>力。思惟人身。以無央數眾惡瑕穢荒亂眾力。
+<lb n="0529a20"/>不得久存。供養於此<note n="0529001" resp="Taisho" type="orig" place="foot text">&CB00395;悷＝儱&CB00128;【宋】</note><app n="0529001"><lem>&CB00395;悷</lem><rdg wit="【宋】" resp="Taisho">儱&CB00128;</rdg></app>蛇蚖。因由邪行。
+<lb n="0529a21"/>曉了如此。是為信力。若速<note n="0529002" resp="Taisho" type="orig" place="foot text">眾＝沈【三】【宮】</note><note n="0529002" resp="CBETA" type="mod">眾＝沈【宋】【元】【明】【宮】</note><app n="0529002"><lem>眾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">沈</rdg></app>沒苦痛之患眾
+<lb n="0529a22"/>惱並至。此則為是死生之義。觀察佛法。是
+<lb n="0529a23"/>精進力。假使心變在於不善終不聽從。心亦
+<lb n="0529a24"/>不隨聲聞緣覺。又心不隨塵欲貪嫉。心亦不
+<lb n="0529a25"/>從毀戒惡智。是為意力。若入法慧分別慧句。
+<lb n="0529a26"/>入於宣暢體解之慧過去當來今現在慧。是
+<lb n="0529a27"/>為智力。歡樂為信相。不退精進相。觀為意相。
+<lb n="0529a28"/>曉了為智相。行於信力。不捨進力。不失意力。
+<lb n="0529a29"/>修智慧力。為人說法應病與藥。曉了罣礙則
+<pb ed="T" id="T13.0401.0529b" n="0529b"/>
+<lb n="0529b01"/>為篤信。度諸罣礙而為精進。無所復著。是
+<lb n="0529b02"/>名曰意。而審曉礙則為智慧。好喜佛法興于
+<lb n="0529b03"/>篤信。以興篤信即發道意。是為信力。奉修眾
+<lb n="0529b04"/>行合集積累道品之法。是精進力。柔順法忍
+<lb n="0529b05"/>則為意力。設使逮得無所從生法忍。是則智
+<lb n="0529b06"/>力。信根<note n="0529003" resp="Taisho" type="orig" place="foot text">〔為忍…信根〕二十二字－【元】【明】</note><app n="0529003" word-count="22"><lem>為忍。則為意力。設使逮得無所從
+<lb n="0529b07"/>生法忍。是則智力。信根</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>為信力。進根為精進
+<lb n="0529b08"/>力。意根為意力。禪思伏根。大聖達根。靡不
+<lb n="0529b09"/>周至。是智慧力。佛說是時。八千菩薩逮得無
+<lb n="0529b10"/>所從生法忍。四萬二千人皆發無上正真道
+<lb n="0529b11"/>意</p>
+<lb n="0529b12"/><juan fun="close" n="001"><jhead><title>無言童子經</title>卷上</jhead></juan>
+<lb n="0529b13"/>
+<milestone unit="juan" n="2"/>
+<lb n="0529b14"/>
+<lb n="0529b15"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title><anchor id="fxT13p0529b01"/>佛說無言童子經</title>卷下</jhead></juan>
+<lb n="0529b16"/>
+<lb n="0529b17"/><byline type="Translator">西晉<anchor id="fxT13p0529b02"/>月支三藏竺法護譯</byline>
+<lb n="0529b18"/><p>爾時會中有一菩薩。名蓮華淨。問無言菩薩。
+<lb n="0529b19"/>如族姓子屬者興意。白問如來。寧見答解及
+<lb n="0529b20"/>微妙行。如受法染可悅心乎。無言答曰。唯
+<lb n="0529b21"/>族姓子。吾始以來<note n="0529004" resp="Taisho" type="orig" place="foot text">〔未〕－【宋】【宮】</note><app n="0529004"><lem>未</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>曾問法。亦無所受。當
+<lb n="0529b22"/>以何緣而致法染可<note n="0529005" resp="Taisho" type="orig" place="foot text">染＝悅【明】</note><app n="0529005"><lem>染</lem><rdg wit="【明】" resp="Taisho">悅</rdg></app>心耶。曰族姓子。仁
+<lb n="0529b23"/>為不曾因於如來聽受法乎。答曰不也。又問
+<lb n="0529b24"/>何故。答曰。非其器故。又問。仁於講法為非
+<lb n="0529b25"/>器乎。答曰如是。又問。仁何所器。答曰。吾於
+<lb n="0529b26"/>諸法之類而為非器。無復奇異。又問族姓子。
+<lb n="0529b27"/>若為非器。何因當逮無上正真之道成最正
+<lb n="0529b28"/>覺。答曰道者。非為法器。又問。察其道者非佛
+<lb n="0529b29"/>法器乎。答曰。假使其道離佛法者佛法非器。
+<pb ed="T" id="T13.0401.0529c" n="0529c"/>
+<lb n="0529c01"/>又其道者不離佛法。又計佛法則為是道。又
+<lb n="0529c02"/>其道者則為佛法故。族姓子。吾不欲令諸佛
+<lb n="0529c03"/>道法離於塵勞。常不志道。況樂佛法離於道
+<lb n="0529c04"/>乎。所以者何。有佛法者不離塵勞。又其塵勞
+<lb n="0529c05"/>不離於道。覺了欲塵則名曰道。吾以是故不
+<lb n="0529c06"/>計我所不別佛道。其異意者各各計別。不當
+<lb n="0529c07"/>異處而求道也。假使有人於異處求。此等諸
+<lb n="0529c08"/>異。設復有人。無有異求不以為別。又問。以何
+<lb n="0529c09"/>為異。答曰。謂吾我別與道不同。是名曰異。
+<lb n="0529c10"/>謂四大異我人壽命。而心意異。婬怒癡異。
+<lb n="0529c11"/>是謂為異。若能曉了。吾我自然本末清淨。道
+<lb n="0529c12"/>者自然本末清淨。乃謂無異我人壽命。婬怒
+<lb n="0529c13"/>愚癡自然清淨。道亦自然究竟清淨。乃謂無
+<lb n="0529c14"/>異。假使異者。不可求異。則當於此四大之身
+<lb n="0529c15"/>於吾我中求一切法。如是求者。求無所得。設
+<lb n="0529c16"/>無所得<note n="0529006" resp="Taisho" type="orig" place="foot text">中＝不【元】【明】</note><app n="0529006"><lem>中</lem><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>造所著。無所著者則無處所。一
+<lb n="0529c17"/>切諸法悉無所住。無有本際。設無本際則真
+<lb n="0529c18"/>本際。以真本際無斷絕際。不計當際。無有
+<lb n="0529c19"/>限際。無無量際。一切諸法本際如是。若入
+<lb n="0529c20"/>此際則不有念亦不無念。不在生死亦不滅
+<lb n="0529c21"/>度。究竟滅度了一切法。若以此法而滅度者
+<lb n="0529c22"/>則逮寂然。諸不滅度令得滅度。如世尊曰。
+<lb n="0529c23"/>不能調己不寂滅脫。而不隨教不得滅度。欲
+<lb n="0529c24"/>開化人令得滅度。未之有也。其自寂然解
+<lb n="0529c25"/>脫隨律。得度無為能度未度。此事如言是菩
+<lb n="0529c26"/>薩行。設使欲得至滅度法。輒當遵修菩薩之
+<lb n="0529c27"/>行。則能曉了一切諸<note n="0529007" resp="Taisho" type="orig" place="foot text">行＝法【宮】</note><app n="0529007"><lem>行</lem><rdg wit="【宮】" resp="Taisho">法</rdg></app>。達法界相。如是行
+<lb n="0529c28"/>者便能皆見眾德之本。目不復&CB00418;諸魔官屬
+<lb n="0529c29"/>輪跡之行。當遵修此合集佛法不失三昧。如
+<pb ed="T" id="T13.0401.0530a" n="0530a"/>
+<lb n="0530a01"/>是行者開化眾生。宣暢一切諸界度於無我。
+<lb n="0530a02"/>如是行者受一切法。皆使塵勞自然悉除。如
+<lb n="0530a03"/>是行者雖行於世不著方俗。如是行者執持
+<lb n="0530a04"/>五陰不住於識。如是行者受諸四大立於法
+<lb n="0530a05"/>界而不動搖。如是行者攝於諸入致解脫門。
+<lb n="0530a06"/>如是行者所現諸界而度無極。獨步大猷入
+<lb n="0530a07"/>於三界。示現塵勞而無垢穢。如是行者施
+<lb n="0530a08"/>度無極。不想無極亦無所住。戒忍精進一心
+<lb n="0530a09"/>智慧。慧度無極不想智慧亦無所住。如是行
+<lb n="0530a10"/>者不捨眾行。所修審諦究竟清淨。如是行者
+<lb n="0530a11"/>修菩薩行。所可遵習道無若干。行菩薩者則
+<lb n="0530a12"/>無有二。無有二者乃菩薩行。行菩薩道無有
+<lb n="0530a13"/>吾我及與我所。不計有身亦無所受乃菩薩
+<lb n="0530a14"/>行。其修道者無有結滯。除諸<note n="0530001" resp="Taisho" type="orig" place="foot text">福＝&CB00893;【元】【明】</note><app n="0530001"><lem>福</lem><rdg wit="【元】【明】" resp="Taisho">&CB00893;</rdg></app>廢乃為菩
+<lb n="0530a15"/>薩。其修道者不患危害。覺了分別無會無為
+<lb n="0530a16"/>乃為菩薩。又問何謂正號為菩薩乎。答曰。
+<lb n="0530a17"/>為不曉了道義者故。因曰菩薩。順從道教興
+<lb n="0530a18"/>發寂然不毀佛教。奉持法言將護聖眾。而於
+<lb n="0530a19"/>道心則不動轉。心不住於聲聞緣覺。不亂淨
+<lb n="0530a20"/>性而不宣說無稱之辭。究竟要誓。度諸未度。
+<lb n="0530a21"/>安諸不安。諸不滅度令得滅度。受持塵勞不
+<lb n="0530a22"/>墮無欲。觀於無生所生。而審觀於空無將濟
+<lb n="0530a23"/>群生。觀於無相不想著道。行於無願隨俗而
+<lb n="0530a24"/>生。求於佛身不為眾欲之所<note n="0530002" resp="Taisho" type="orig" place="foot text">霑＝點【宮】</note><app n="0530002"><lem>霑</lem><rdg wit="【宮】" resp="Taisho">點</rdg></app>染。觀於有為
+<lb n="0530a25"/>覺了所會。亦無所失而不愚<note n="0530003" resp="Taisho" type="orig" place="foot text">顛＝戇【三】【宮】</note><note n="0530003" resp="CBETA" type="mod">顛＝戇【宋】【元】【明】【宮】</note><app n="0530003"><lem>顛</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">戇</rdg></app>。得世<note n="0530004" resp="Taisho" type="orig" place="foot text">間＝明【元】【明】</note><app n="0530004"><lem>間</lem><rdg wit="【元】【明】" resp="Taisho">明</rdg></app>慧。
+<lb n="0530a26"/>執智兵仗降五陰賊六衰之難。開化憍慢。施
+<lb n="0530a27"/>自莊嚴。嚴淨佛土。戒莊嚴心所願具足。被忍
+<lb n="0530a28"/>辱鎧教授瞋恚。精進堅強能成就已<note n="0530005" resp="Taisho" type="orig" place="foot text">猶＝由【宮】</note><app n="0530005"><lem>猶</lem><rdg wit="【宮】" resp="Taisho">由</rdg></app>如金
+<lb n="0530a29"/>剛。處於憒亂<note n="0530006" resp="Taisho" type="orig" place="foot text">志＝至【三】【宮】</note><note n="0530006" resp="CBETA" type="mod">志＝至【宋】【元】【明】【宮】</note><app n="0530006"><lem>志</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">至</rdg></app>執禪定而無所著。智慧明
+<pb ed="T" id="T13.0401.0530b" n="0530b"/>
+<lb n="0530b01"/>了。而不惡<note n="0530007" resp="Taisho" type="orig" place="foot text">厭＝散【宮】</note><app n="0530007"><lem>厭</lem><rdg wit="【宮】" resp="Taisho">散</rdg></app>所生之穢。行權方便。所在一切
+<lb n="0530b02"/>推極道<note n="0530008" resp="Taisho" type="orig" place="foot text">源＝原【三】【宮】＊</note><note n="0530008" resp="CBETA" type="mod">源＝原【宋】【元】【明】【宮】＊</note><app n="0530008"><lem>源</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">原</rdg></app>。修于慈心安<note n="0530009" resp="Taisho" type="orig" place="foot text">詳＝祥【明】</note><app n="0530009"><lem>詳</lem><rdg wit="【明】" resp="Taisho">祥</rdg></app>柔和。發起眾生
+<lb n="0530b03"/>行于大悲。見於眾生未得度者。撫育使安遵
+<lb n="0530b04"/>修行喜。常為無依令護諸根。行於護觀不永
+<lb n="0530b05"/>寂滅修於觀也。遵承深奧難及之事。聲聞緣
+<lb n="0530b06"/>覺所不能逮。念本義藏不思世典。多所將順
+<lb n="0530b07"/>一切群生。莊嚴其身以相飾姿。莊嚴其口言
+<lb n="0530b08"/>行相應。莊嚴其心不捨道意。神通娛樂普能
+<lb n="0530b09"/>示現。一切所住持心如地。一切眾生之所戴
+<lb n="0530b10"/>仰。<note n="0530010" resp="Taisho" type="orig" place="foot text">洗＝洒【宮】</note><app n="0530010"><lem>洗</lem><rdg wit="【宮】" resp="Taisho">洒</rdg></app>一切垢。譬<note n="0530011" resp="Taisho" type="orig" place="foot text">（若）＋如【三】【宮】</note><note n="0530011" resp="CBETA" type="mod">（若）＋如【宋】【元】【明】【宮】</note><app n="0530011"><lem>如</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">若如</rdg></app><note n="0530012" resp="Taisho" type="orig" place="foot text">火＝水【元】【明】</note><app n="0530012"><lem>火</lem><rdg wit="【元】【明】" resp="Taisho">水</rdg></app>燒焦一切。艱難衰
+<lb n="0530b11"/>入譬若如火。心猶若風無有惱熱遊步無礙。
+<lb n="0530b12"/>心如虛空未曾<note n="0530013" resp="Taisho" type="orig" place="foot text">〔愁〕－【三】【宮】</note><note n="0530013" resp="CBETA" type="mod">〔愁〕－【宋】【元】【明】【宮】</note><app n="0530013"><lem>愁</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>想。著一切諸法逮得總持。
+<lb n="0530b13"/>一切所聞識念不忘。辯才具足可悅眾生歡
+<lb n="0530b14"/>然解釋。而為諸佛之所建立。能自修心則令
+<lb n="0530b15"/>清淨。順于法界曉了四食。不想諸應。威儀
+<lb n="0530b16"/>禮節清修己身。威儀禮節<note n="0530014" resp="Taisho" type="orig" place="foot text">徑＝經【三】</note><note n="0530014" resp="CBETA" type="mod">徑＝經【宋】【元】【明】</note><app n="0530014"><lem>徑</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經</rdg></app>路清淨。為修
+<lb n="0530b17"/>正業。行步進止具足成就而修空行。樂於閑
+<lb n="0530b18"/>居開化眾生。而不穢厭於諸聚會。樂于禪思
+<lb n="0530b19"/>不患其意。未曾貧匱。備悉一切諸賢聖財。修
+<lb n="0530b20"/>於祠祀伏弊惡心。遊曠野者修于堅強。其心
+<lb n="0530b21"/>剛毅不可毀壞。遵行仁慈究竟滅度。身順
+<lb n="0530b22"/><note n="0530015" resp="Taisho" type="orig" place="foot text">反＝返【三】＊</note><note n="0530015" resp="CBETA" type="mod">反＝返【宋】【元】【明】＊</note><app n="0530015"><lem>反</lem><rdg wit="【宋】【元】【明】" resp="Taisho">返</rdg></app>復而不虛盡。往宿德本志常隨順。報前
+<lb n="0530b23"/>所由念行思好。為眾生故所學精勤。選擇舉
+<lb n="0530b24"/>要勸化無智。所修善業無煩惱熱。悉能分別
+<lb n="0530b25"/>行<note n="0530016" resp="Taisho" type="orig" place="foot text">于＝於【明】＊</note><app n="0530016"><lem>于</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>大哀。一切普遊<note n="0530017" resp="Taisho" type="orig" place="foot text">導＝遵【三】【宮】</note><note n="0530017" resp="CBETA" type="mod">導＝遵【宋】【元】【明】【宮】</note><app n="0530017"><lem>導</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">遵</rdg></app><anchor id="fxT13p0530b01"/>于三乘不懷狐疑。
+<lb n="0530b26"/>於一切法眾所瞻察。所問能答靡不戴仰。辯
+<lb n="0530b27"/>才無礙莫不受言。本願所立明說和雅。所至
+<lb n="0530b28"/>到處靡不歡悅。所語隨時未曾失節。功勳布
+<lb n="0530b29"/>施人所欽仰如月盛滿。志性柔和辭無&CB00308;獷。
+<pb ed="T" id="T13.0401.0530c" n="0530c"/>
+<lb n="0530c01"/>得對能忍諸根不悴。善修其意等度往來猶
+<lb n="0530c02"/>如橋梁。度脫眾生於四<note n="0530018" resp="Taisho" type="orig" place="foot text">使＝&CB00503;【元】【明】</note><app n="0530018"><lem>使</lem><rdg wit="【元】【明】" resp="Taisho">&CB00503;</rdg></app>水譬如大<note n="0530019" resp="Taisho" type="orig" place="foot text">舡＝船【三】【宮】</note><note n="0530019" resp="CBETA" type="mod">舡＝船【宋】【元】【明】【宮】</note><app n="0530019"><lem>舡</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">船</rdg></app>。亦
+<lb n="0530c03"/>如導師將導一切諸行來者。常<note n="0530020" resp="Taisho" type="orig" place="foot text">主＝生【元】【明】</note><app n="0530020"><lem>主</lem><rdg wit="【元】【明】" resp="Taisho">生</rdg></app>救濟一切
+<lb n="0530c04"/>異學。為眾群黎興立佛<note n="0530021" resp="Taisho" type="orig" place="foot text">事＝法【三】【宮】</note><note n="0530021" resp="CBETA" type="mod">事＝法【宋】【元】【明】【宮】</note><app n="0530021"><lem>事</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">法</rdg></app>。故曰菩薩。而不
+<lb n="0530c05"/>退轉如是眾行及餘德勳。不可思議具足<note n="0530022" resp="Taisho" type="orig" place="foot text">導＝道【三】【宮】</note><note n="0530022" resp="CBETA" type="mod">導＝道【宋】【元】【明】【宮】</note><app n="0530022"><lem>導</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">道</rdg></app>
+<lb n="0530c06"/>慧。乃謂菩薩</p>
+<lb n="0530c07"/><p>於是蓮華淨菩薩白佛言。唯然世尊。今我觀
+<lb n="0530c08"/>察無言菩薩智慧辯才宣暢道教如是。不久
+<lb n="0530c09"/>當成無上正真之道為最正覺。當轉弘廣無
+<lb n="0530c10"/>上法輪。若復有人。得聞無言菩薩所說。信樂
+<lb n="0530c11"/>愛敬順而不訕不久亦當具足致此功德之
+<lb n="0530c12"/>法。佛言。如是如汝所言。誠無有異。無言
+<lb n="0530c13"/>菩薩逮得慧明三昧。發意之頃以一句法於
+<lb n="0530c14"/>百千劫分別說之。義不可盡。蓮華淨菩薩復
+<lb n="0530c15"/>白佛言。善哉世尊。愍傷我等及此眾會。宿
+<lb n="0530c16"/>之本德眾人雲集。為經典故當令莊嚴。惟願
+<lb n="0530c17"/>如來至真等正覺。敷演說此慧明三昧。若有
+<lb n="0530c18"/>菩薩得聞此教。悉當逮得慧明三昧。設有受
+<lb n="0530c19"/>者多所將濟一切群生。疾成無上正真之道
+<lb n="0530c20"/>為最正覺</p>
+<lb n="0530c21"/><p>佛告蓮華淨菩薩。諦聽善思。當為<note n="0530023" resp="Taisho" type="orig" place="foot text">善＝汝【三】【宮】</note><note n="0530023" resp="CBETA" type="mod">善＝汝【宋】【元】【明】【宮】</note><app n="0530023"><lem>善</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">汝</rdg></app>說慧
+<lb n="0530c22"/>明三昧。善哉世尊。願樂欲聞。蓮華淨菩薩
+<lb n="0530c23"/>受教而聽。佛言。族姓子。所云慧明聖曜之謂。
+<lb n="0530c24"/>所以名曰慧明。聖曜者何。蠲除眾覆<note n="0530024" resp="Taisho" type="orig" place="foot text">蔽＝弊【三】</note><note n="0530024" resp="CBETA" type="mod">蔽＝弊【宋】【元】【明】</note><app n="0530024"><lem>蔽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">弊</rdg></app>結
+<lb n="0530c25"/>垢闇通過諸礙。離於穢濁荏若之謂。故曰慧
+<lb n="0530c26"/>明三昧。解法無二。所觀明徹無有猶豫。慧
+<lb n="0530c27"/>無有侶。不戴仰人。滅眾瑕疵。卒發尋對。
+<lb n="0530c28"/>分別滅度。曉了一慧。解暢過去當來現在三
+<lb n="0530c29"/>世之慧。嚴淨三場。明識三界。體三脫門。通
+<pb ed="T" id="T13.0401.0531a" n="0531a"/>
+<lb n="0531a01"/>三達智。廣布三寶。暢示三乘。淨於三眼。毀三
+<lb n="0531a02"/>垢本。明三峻聚。決定未定處<note n="0531001" resp="Taisho" type="orig" place="foot text">耶＝邪【元】【明】</note><app n="0531001"><lem>耶</lem><rdg wit="【元】【明】" resp="Taisho">邪</rdg></app>。此謂三峻
+<lb n="0531a03"/>聚也。識暢入於心意識中。分別陰種諸入之
+<lb n="0531a04"/>事。覺了因緣和合報應。斷不調定沈疑邪見。
+<lb n="0531a05"/>解知法界能說本無。審如本際最上第一方
+<lb n="0531a06"/>便至聖。明識一切文字音響。其所入處。若
+<lb n="0531a07"/>崇講說言無所<note n="0531002" resp="Taisho" type="orig" place="foot text">毀＝滯【三】【宮】</note><note n="0531002" resp="CBETA" type="mod">毀＝滯【宋】【元】【明】【宮】</note><app n="0531002"><lem>毀</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">滯</rdg></app>。辯才無礙莫能制止。若
+<lb n="0531a08"/>敷演法無能抑者。知識一切諸根各異。決斷
+<lb n="0531a09"/>柔劣中容之<anchor id="fxT13p0531a01"/>源。有明無明入於三教。執持
+<lb n="0531a10"/>所應入於總持。<anchor id="fxT13p0531a02"/>班宣光暉歸趣日行三昧。
+<lb n="0531a11"/>無量頌三昧。分別宣暢金剛道場三昧。如金
+<lb n="0531a12"/>剛三昧。覺無瞋三昧。意勇三昧。降除魔場
+<lb n="0531a13"/>三昧。日光明三昧。曜<note n="0531003" resp="Taisho" type="orig" place="foot text">魔＝靡【元】【明】</note><app n="0531003"><lem>魔</lem><rdg wit="【元】【明】" resp="Taisho">靡</rdg></app>不照無境界三昧。
+<lb n="0531a14"/>慧無齊限入無想念幢英至三昧。淳淑親近
+<lb n="0531a15"/>一切諸法照明華三昧。放無量光入音三昧。
+<lb n="0531a16"/>了別一切音聲所趣德事三昧。普能示現一
+<lb n="0531a17"/>切功勳善住三昧。知一切法所立之處光曜
+<lb n="0531a18"/>三昧。等入一切眾生之心盡尊王三昧。分別
+<lb n="0531a19"/>諸法一切悉盡無住三昧。了眾平等無恚三
+<lb n="0531a20"/>昧。一切諸法究竟永無無動三昧。不著諸法
+<lb n="0531a21"/>鉤<note n="0531004" resp="Taisho" type="orig" place="foot text">&CB02083;＝瑣【宮】</note><app n="0531004"><lem>&CB02083;</lem><rdg wit="【宮】" resp="Taisho">瑣</rdg></app>三昧。開化諸見超表三昧。於一切慧
+<lb n="0531a22"/>無所蔽礙。佛言。族姓子。如是等類六萬三
+<lb n="0531a23"/>昧。吾於往昔見<note n="0531005" resp="Taisho" type="orig" place="foot text">定＝錠【三】【宮】</note><note n="0531005" resp="CBETA" type="mod">定＝錠【宋】【元】【明】【宮】</note><app n="0531005"><lem>定</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">錠</rdg></app>光佛而見<note n="0531006" resp="Taisho" type="orig" place="foot text">授＝受【宋】【元】，【明異】</note><app n="0531006"><lem>授</lem><rdg wit="【宋】【元】【明異】" resp="Taisho">受</rdg></app>決。尋時逮
+<lb n="0531a24"/>得此諸三昧。又計於此六萬三昧門。皆來入
+<lb n="0531a25"/>於慧明三昧。慧明三昧則為元首。入於此中
+<lb n="0531a26"/>乃致大明</p>
+<lb n="0531a27"/><p>佛告族姓子。如日宮殿照於水中。顯現未曾
+<lb n="0531a28"/>興立四事。何謂為四。滅除一切闇冥蔽礙。
+<lb n="0531a29"/>放其光明所照廣遠。示現一切諸色形像。所
+<pb ed="T" id="T13.0401.0531b" n="0531b"/>
+<lb n="0531b01"/>當作者。皆由是日興業<note n="0531007" resp="Taisho" type="orig" place="foot text">（得）＋安【元】【明】</note><app n="0531007"><lem>安</lem><rdg wit="【元】【明】" resp="Taisho">得安</rdg></app>。慧明三昧亦復
+<lb n="0531b02"/>如是。若有菩薩住此定者。現昔未有。亦興
+<lb n="0531b03"/>四事。何謂為四。滅除一切塵勞垢冥。照曜
+<lb n="0531b04"/>無量廣遠智慧。察見一切眾生心行像貌諸
+<lb n="0531b05"/>色。隨其所學三乘之行。<note n="0531008" resp="Taisho" type="orig" place="foot text">名＝各【三】【宮】</note><note n="0531008" resp="CBETA" type="mod">名＝各【宋】【元】【明】【宮】</note><app n="0531008"><lem>名</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">各</rdg></app>為指示建立道
+<lb n="0531b06"/>業</p>
+<lb n="0531b07"/><p>佛告族姓子。譬如八角大如意珠。妙光暉善
+<lb n="0531b08"/>清淨玄妙。無諸瑕垢無有穢惡。建於幢首曜
+<lb n="0531b09"/>四十由旬。眾人所志敢有所求皆令得願。各
+<lb n="0531b10"/>各得所不失其僥。大如意珠無所愛&CB00385;。若有
+<lb n="0531b11"/>菩薩。得立於此慧明三昧。聖智超絕巍巍如
+<lb n="0531b12"/>是。清淨鮮明若如意珠除諸塵勞結穢眾垢。
+<lb n="0531b13"/>住八清淨微妙禁戒三昧之定。智慧解脫度
+<lb n="0531b14"/>知見品。誠諦鮮潔。善權方便。總持辯才。分
+<lb n="0531b15"/>別忍辱。靡所不暢。彼以清淨。莫能當明。離於
+<lb n="0531b16"/>瑕疵。無極大哀以為大幢。照曜一切無量佛
+<lb n="0531b17"/>土。各隨眾生心本所願悉得解釋。菩薩如是。
+<lb n="0531b18"/>救濟五趣三處之礙。皆至大道。亦無想念</p>
+<lb n="0531b19"/><p>佛告族姓子。譬如虛空。虛空無際悉能容受
+<lb n="0531b20"/>一切佛土。執持眾水。一切諸火劫燒之時。一
+<lb n="0531b21"/>切眾生無進退處。聽其所歸為作處所。虛空
+<lb n="0531b22"/>之域廣遠玄曠。不可限量無所罣礙。慧明三
+<lb n="0531b23"/>昧。亦復如是。若有菩薩住此定者。為諸眾
+<lb n="0531b24"/>生一切諸法示導處所。無所歸者為受其歸。
+<lb n="0531b25"/><note n="0531009" resp="Taisho" type="orig" place="foot text">殖＝植【三】</note><note n="0531009" resp="CBETA" type="mod">殖＝植【宋】【元】【明】</note><app n="0531009"><lem>殖</lem><rdg wit="【宋】【元】【明】" resp="Taisho">植</rdg></app>眾德本因緣之報。開解己心。為無央數一
+<lb n="0531b26"/>切眾生。導示徑路教化與眼。強於因緣。未
+<lb n="0531b27"/>得解脫永處邪見群萌之類。聽示處所。假使
+<lb n="0531b28"/>有人。不興德本。不<anchor id="fxT13p0531b01"/>反道器。不在無本。各各
+<lb n="0531b29"/>開化為示<note n="0531010" resp="Taisho" type="orig" place="foot text">弘＝即【元】【明】</note><app n="0531010"><lem>弘</lem><rdg wit="【元】【明】" resp="Taisho">即</rdg></app>器。顯發無上正真道意。而示
+<pb ed="T" id="T13.0401.0531c" n="0531c"/>
+<lb n="0531c01"/>聲聞緣覺處所。聞吾說法尋受奉行。則獲果
+<lb n="0531c02"/>報。聲聞緣覺之所慕乘。當為宣暢曾所忘失
+<lb n="0531c03"/>六典之要。令入法門。緣是之故。諸菩薩眾
+<lb n="0531c04"/>欲求道者。當為頒宣六度無極四等之恩。善
+<lb n="0531c05"/>權方便勸助指<note n="0531011" resp="Taisho" type="orig" place="foot text">道＝導【三】【宮】</note><note n="0531011" resp="CBETA" type="mod">道＝導【宋】【元】【明】【宮】</note><app n="0531011"><lem>道</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">導</rdg></app>。各各為暢令心歡然。使
+<lb n="0531c06"/>不退轉逮成無上正真之道。是為一切眾生
+<lb n="0531c07"/>之類開示處所。於彼何謂為一切法示現處
+<lb n="0531c08"/>所。假使菩薩口自敷演八萬四千經典法藏。
+<lb n="0531c09"/>若有眾人心懷狐疑猶豫不決來啟問者。菩
+<lb n="0531c10"/>薩皆常秉志一心。一一為人決其結滯。一句
+<lb n="0531c11"/>之義億百千&CB00108;。難限劫數普演分別。其慧無
+<lb n="0531c12"/>量玄曠廣遠。無所罣礙而不可盡。無有邊際。
+<lb n="0531c13"/>是為一切示法處所。佛告族姓子。譬如大炬
+<lb n="0531c14"/>光明照遠。諸有覆蔽曀匿形色悉為現矣。炬
+<lb n="0531c15"/>之光曜所益如此。慧明定意亦復如是。若有
+<lb n="0531c16"/>菩薩住此定者。則能以一慧明之心顯示章
+<lb n="0531c17"/>句。十方無量不可計會諸佛國土。諸佛菩薩
+<lb n="0531c18"/>一切眾生。莫不&CB00418;見。亦不違遠志不動移。
+<lb n="0531c19"/>慧明之心所察無邊</p>
+<lb n="0531c20"/><p>佛告族姓子。慧明之<note n="0531012" resp="Taisho" type="orig" place="foot text">宅＝定【三】【宮】</note><note n="0531012" resp="CBETA" type="mod">宅＝定【宋】【元】【明】【宮】</note><app n="0531012"><lem>宅</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">定</rdg></app>處於意止見諸法<anchor id="fxT13p0531c01"/>
+<lb n="0531c21"/>源於四意斷未發意者。為興慧<anchor id="fxT13p0531c02"/>源。於諸神足
+<lb n="0531c22"/>身意寂<anchor id="fxT13p0531c03"/>源。而於諸根處聖達<anchor id="fxT13p0531c04"/>源。所謂力者。
+<lb n="0531c23"/>云智慧力。於覺意法入于慧<anchor id="fxT13p0531c05"/>源。所謂道者。
+<lb n="0531c24"/>處正見<anchor id="fxT13p0531c06"/>源。寂然觀者觀察憺怕。行真誠者
+<lb n="0531c25"/>善滅之<anchor id="fxT13p0531c07"/>源。其聖諦者善寂慧<anchor id="fxT13p0531c08"/>源。所歸念者
+<lb n="0531c26"/>如義趣<anchor id="fxT13p0531c09"/>源。分別道者法義之<anchor id="fxT13p0531c10"/>源。神通達者
+<lb n="0531c27"/>漏盡之<anchor id="fxT13p0531c11"/>源。修梵行者興于大哀四等心<anchor id="fxT13p0531c12"/>源。
+<lb n="0531c28"/>一切普念思法之<anchor id="fxT13p0531c13"/>源。諸度無極。智度無極
+<lb n="0531c29"/>以為<anchor id="fxT13p0531c14"/>源首。善權方便應眾生心<anchor id="fxT13p0531c15"/>源。十種力
+<pb ed="T" id="T13.0401.0532a" n="0532a"/>
+<lb n="0532a01"/>者知限無限有處無處。以此為<anchor id="fxT13p0532a01"/>源。無所畏
+<lb n="0532a02"/>者。曉了平等佛道之<anchor id="fxT13p0532a02"/>源。不共法者。而於三
+<lb n="0532a03"/>世無所礙<anchor id="fxT13p0532a03"/>源。所言眼者。謂佛之眼莊嚴其
+<lb n="0532a04"/>身。眉間頂相無能&CB00418;<anchor id="fxT13p0532a04"/>源。莊嚴口者。頒宣經
+<lb n="0532a05"/>法無侵損<anchor id="fxT13p0532a05"/>源。莊嚴其心。行三昧定而不移
+<lb n="0532a06"/><anchor id="fxT13p0532a06"/>源。是族姓子。一切諸法皆以歸趣智慧之
+<lb n="0532a07"/><anchor id="fxT13p0532a07"/>源。是則名曰慧明三昧一切諸法之<anchor id="fxT13p0532a08"/>源首。
+<lb n="0532a08"/>說是語時。蓮華淨菩薩逮得是慧明三昧。
+<lb n="0532a09"/>復有萬菩薩亦逮斯三昧。三千大千世界六
+<lb n="0532a10"/><anchor id="fxT13p0532a09"/>反震動。其大光明普照十方。爾時諸來一
+<lb n="0532a11"/>切眾會。諸天人民各各齎華供養散佛。於時
+<lb n="0532a12"/>會中諸菩薩眾志大乘者。悉白佛言。我等本
+<lb n="0532a13"/>來未曾得聞此三昧名。何況廣解分別義者。
+<lb n="0532a14"/>今所可供世尊之福。願令我等逮是三昧漸
+<lb n="0532a15"/>漸進行。緣是所誓逮此定意。必獲無疑。吾
+<lb n="0532a16"/>等善利為致善慶。乃能遭遇聞是三昧。若有
+<lb n="0532a17"/>逮聞於是三昧而歡喜信。功祚難限。未曾違
+<lb n="0532a18"/>失菩薩之心。亦當不久致此三昧。佛言。如是
+<lb n="0532a19"/>如仁所言。而無有異。無德之人不種善本。
+<lb n="0532a20"/>不能值遇此三昧矣。何況得聞。歡喜信者未
+<lb n="0532a21"/>之有也。假使在於善知識邊。若隨明師。乃
+<lb n="0532a22"/>能信樂此定意耳</p>
+<lb n="0532a23"/><p>佛說是語向欲竟時。世尊&CB00685;中一菩薩出。紫
+<lb n="0532a24"/>磨金色三十二相莊嚴其身。八十種好而飾
+<lb n="0532a25"/>其姿。適出於&CB00685;。其菩薩身。尋即演放巍巍光
+<lb n="0532a26"/>明無極弘曜。皆悉覆蔽一切眾明。<note n="0532001" resp="Taisho" type="orig" place="foot text">唯＝惟【三】＊</note><note n="0532001" resp="CBETA" type="mod">唯＝惟【宋】【元】【明】＊</note><app n="0532001"><lem>唯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惟</rdg></app>世尊光
+<lb n="0532a27"/>獨得顯現。時彼菩薩。稽首佛足右繞七匝。
+<lb n="0532a28"/>則在前住。啟白佛言。唯然世尊。執慧曜如來
+<lb n="0532a29"/>至真等正覺。敬問無量。進止康強遊步輕利
+<pb ed="T" id="T13.0401.0532b" n="0532b"/>
+<lb n="0532b01"/>力勢安乎。使我宣傳問於大<note n="0532002" resp="Taisho" type="orig" place="foot text">聖＝尊【宮】</note><app n="0532002"><lem>聖</lem><rdg wit="【宮】" resp="Taisho">尊</rdg></app>。斯六十億&CB00108;
+<lb n="0532b02"/>數菩薩。來詣此會聽說經典。奉覲世尊<note n="0532003" resp="Taisho" type="orig" place="foot text">稽＝啟【三】【宮】</note><note n="0532003" resp="CBETA" type="mod">稽＝啟【宋】【元】【明】【宮】</note><app n="0532003"><lem>稽</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">啟</rdg></app>首
+<lb n="0532b03"/>諮受。又復欲見十方世界大會菩薩。無言菩
+<lb n="0532b04"/>薩。智慧辯才所可宣暢。啟受未聞聽是慧明
+<lb n="0532b05"/>三昧之定。<anchor id="fxT13p0532b01"/>唯天中天。為諸菩薩如應說法。
+<lb n="0532b06"/>使逮得是慧明三昧。獲致無極大法光曜。而
+<lb n="0532b07"/>數周旋詣此佛土</p>
+<lb n="0532b08"/><p>於是舍利弗前問佛言。唯然世尊。執慧曜如
+<lb n="0532b09"/>來至真等正覺。為在何方。今寧現世講說法
+<lb n="0532b10"/>乎。去是遠近。國土何類。并說於此正士名
+<lb n="0532b11"/>號。及六十億&CB00108;數菩薩。為何所處。佛告舍
+<lb n="0532b12"/>利弗。東方去此<note n="0532004" resp="Taisho" type="orig" place="foot text">&M010527;＝江【三】【宮】</note><note n="0532004" resp="CBETA" type="mod">&M010527;＝江【宋】【元】【明】【宮】</note><app n="0532004"><lem>&M010527;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">江</rdg></app>河沙等諸佛國土。有世
+<lb n="0532b13"/>界名住於堅固金剛之根。執慧曜如來。在於
+<lb n="0532b14"/>彼土今者現在。佛告舍利弗。彼之世界。何
+<lb n="0532b15"/>故名曰住於堅固金剛之根。其國下地從底
+<lb n="0532b16"/>至上。堅固甚牢不可破壞。悉是金剛。斯皆
+<lb n="0532b17"/>其佛本願所致。所以者何。其佛堅固金剛之
+<lb n="0532b18"/>行獨步無難。及諸菩薩造金剛行。勇猛牢固
+<lb n="0532b19"/>無能壞者。己身威力巍巍具足乃如是也。假
+<lb n="0532b20"/>使世界泥土成者。則當破壞碎落微散。若其
+<lb n="0532b21"/>有人生彼世界。身如金剛皆亦堅固不可破
+<lb n="0532b22"/>壞。是故彼土。名曰住於堅固金剛之根。又
+<lb n="0532b23"/>舍利弗。卿屬所問。今此菩薩名曰何等。號
+<lb n="0532b24"/>金剛&CB00685;。此金剛&CB00685;菩薩。一發意頃通過鐵圍
+<lb n="0532b25"/>大鐵圍山。越江沙等諸佛國土。各各在於江
+<lb n="0532b26"/>河沙等諸佛&CB00685;出。悉是諸佛威神功德之所
+<lb n="0532b27"/>建立。亦復是己六通之慧神足之力。是故菩
+<lb n="0532b28"/>薩號金剛&CB00685;。又舍利弗。向者復問六十億&CB00108;
+<lb n="0532b29"/>諸菩薩眾為處何所。卿當以此問於正士。為
+<pb ed="T" id="T13.0401.0532c" n="0532c"/>
+<lb n="0532c01"/>汝發遣。賢者舍利弗問金剛&CB00685;菩薩。<anchor id="fxT13p0532c01"/>唯族
+<lb n="0532c02"/>姓子。六十億&CB00108;諸菩薩眾為住何所。金剛&CB00685;
+<lb n="0532c03"/>答曰。佛歎耆年智慧<note n="0532005" resp="Taisho" type="orig" place="foot text">〔最〕－【宋】【宮】</note><app n="0532005"><lem>最</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>尊。賢者舍利弗。以
+<lb n="0532c04"/>智慧眼推索本末。此諸菩薩為<note n="0532006" resp="Taisho" type="orig" place="foot text">在何所＝何所住【三】【宮】</note><note n="0532006" resp="CBETA" type="mod">在何所＝何所住【宋】【元】【明】【宮】</note><app n="0532006"><lem>在何所</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">何所住</rdg></app>。時
+<lb n="0532c05"/>舍利弗。以聖慧眼周遍普求。諸菩薩等不
+<lb n="0532c06"/>知所在。金剛&CB00685;菩薩答曰。尊者舍利弗。自
+<lb n="0532c07"/>有等類同學志脫。令求所在。即舍利弗。謂
+<lb n="0532c08"/>阿那律。佛歎耆年天眼最尊。求其所在。時
+<lb n="0532c09"/>阿那律。則以天眼清淨之目超越天人。於是
+<lb n="0532c10"/>三千大千世界遍察求之。如觀掌中果及寶
+<lb n="0532c11"/>珠。索諸菩薩永不能知。亦復不見之所住處。
+<lb n="0532c12"/>賢者阿那律報舍利弗。吾普推索。<note n="0532007" resp="Taisho" type="orig" place="foot text">永＝求【明】</note><app n="0532007"><lem>永</lem><rdg wit="【明】" resp="Taisho">求</rdg></app>不能
+<lb n="0532c13"/>知此諸菩薩為何所處。金剛&CB00685;菩薩謂舍利
+<lb n="0532c14"/>弗。諸賢者等。但有肉眼。不可復言謂有天
+<lb n="0532c15"/>眼。云何思惟共三昧禪。遍觀諸國而不&CB00418;見
+<lb n="0532c16"/>諸國。而不&CB00418;諸菩薩眾為何所住。舍利弗
+<lb n="0532c17"/>問。仁族姓子。天眼何類。謂我等輩所未見
+<lb n="0532c18"/>焉。金剛&CB00685;曰。<anchor id="fxT13p0532c02"/>唯舍利弗我之天眼未曾見
+<lb n="0532c19"/>色。舍利弗等及眾弟子諸大聲聞。從本以來
+<lb n="0532c20"/>不能見我。天眼之德為何等類。亦無能當巍
+<lb n="0532c21"/>巍之明。舍利弗又問族姓子。說所見形像為
+<lb n="0532c22"/>何等類。而言我等本來未&CB00418;。金剛&CB00685;曰。耆
+<lb n="0532c23"/>年曾見住於堅固金剛世界及執慧曜如來至
+<lb n="0532c24"/>真。舍利弗答曰。今日造聞彼世界名。何因
+<lb n="0532c25"/>得見。金剛&CB00685;曰。<anchor id="fxT13p0532c03"/>唯舍利弗。如是等類。不可
+<lb n="0532c26"/>稱計諸佛國土及眾菩薩人民眾生。各各異
+<lb n="0532c27"/>趣所生不同。菩薩大士則以天眼。皆悉見之
+<lb n="0532c28"/>無有遺脫而不遍者。一切緣覺雖有天眼所
+<lb n="0532c29"/>不能&CB00418;。何況聲聞而能及見乎。說是語時。
+<pb ed="T" id="T13.0401.0533a" n="0533a"/>
+<lb n="0533a01"/>有六萬人。曾求聲聞緣一覺乘。歡然大悅。尋
+<lb n="0533a02"/>發無上正真道意。同時發聲<note n="0533001" resp="Taisho" type="orig" place="foot text">如＝而【三】</note><note n="0533001" resp="CBETA" type="mod">如＝而【宋】【元】【明】</note><app n="0533001"><lem>如</lem><rdg wit="【宋】【元】【明】" resp="Taisho">而</rdg></app>嗟歎言。令
+<lb n="0533a03"/>吾等身得佛法眼。不用聲聞及緣一覺之天
+<lb n="0533a04"/>眼也。蔭蔽罣礙。佛之法眼無有限齊。亦無
+<lb n="0533a05"/>所礙。於是金剛&CB00685;菩薩。即如其像。三昧正
+<lb n="0533a06"/>受建立感應。而現神足佛之聖旨。金剛&CB00685;菩
+<lb n="0533a07"/>薩。威德之變。宿福善本巍巍之力不可稱限。
+<lb n="0533a08"/>普令一切諸來會者。皆共目見六十億&CB00108;諸
+<lb n="0533a09"/>菩薩眾。在於佛身。各處蓮華結<note n="0533002" resp="Taisho" type="orig" place="foot text">加＝跏【三】</note><note n="0533002" resp="CBETA" type="mod">加＝跏【宋】【元】【明】</note><app n="0533002"><lem>加</lem><rdg wit="【宋】【元】【明】" resp="Taisho">跏</rdg></app>趺坐。叉
+<lb n="0533a10"/>手聽經。不近佛身。亦復不遠。皆是如來弘
+<lb n="0533a11"/>恩無極之感應也。又世尊身不增不減無所
+<lb n="0533a12"/>罣礙。悉現如故若前不損。一切眾會驚喜踊
+<lb n="0533a13"/>躍。得未曾有。一心叉手禮佛而立。各各歎言。
+<lb n="0533a14"/>難及難及。諸佛世尊。身形廣長威聖無量。神
+<lb n="0533a15"/>變功德不可稱限。乃能容受六十億&CB00108;。在
+<lb n="0533a16"/><note n="0533003" resp="Taisho" type="orig" place="foot text">〔於〕－【三】【宮】</note><note n="0533003" resp="CBETA" type="mod">〔於〕－【宋】【元】【明】【宮】</note><app n="0533003"><lem>於</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>佛身而坐聽經。見本聖之體不增不減。時
+<lb n="0533a17"/>金剛&CB00685;菩薩。普察眾會而舉聲告。以是之
+<lb n="0533a18"/>故當共知之。如來至真等正覺身。則為法身
+<lb n="0533a19"/>廣長無極。無有相好而不方圓。身無邊際不
+<lb n="0533a20"/>可度量。如來至真發意之頃。欲令三千大千
+<lb n="0533a21"/>世界諸有眾水大海江河川流泉源國土州域
+<lb n="0533a22"/>叢林草木諸山土地。悉入佛身不增不減。悉
+<lb n="0533a23"/>現如故。又諸賢者。諸無央數億百千&CB00108;諸佛
+<lb n="0533a24"/>國土眾菩薩等若<note n="0533004" resp="Taisho" type="orig" place="foot text">千＝干【三】【宮】</note><note n="0533004" resp="CBETA" type="mod">千＝干【宋】【元】【明】【宮】</note><app n="0533004"><lem>千</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">干</rdg></app>萬數。遙&CB00418;世尊微妙光
+<lb n="0533a25"/>明相好清淨無有塵垢。咸皆發來欲見聖尊
+<lb n="0533a26"/>諮受經典。悉為天下。勸諸天人民釋梵四天
+<lb n="0533a27"/>王。使蒙擁護。令得自歸故往聽經。設不來
+<lb n="0533a28"/>者。不見<note n="0533005" resp="Taisho" type="orig" place="foot text">道＝通【三】</note><note n="0533005" resp="CBETA" type="mod">道＝通【宋】【元】【明】</note><app n="0533005"><lem>道</lem><rdg wit="【宋】【元】【明】" resp="Taisho">通</rdg></app>變不能發心。佛欲開化度眾生
+<lb n="0533a29"/>故。是以如來。取諸菩薩著於身內。而聽受
+<pb ed="T" id="T13.0401.0533b" n="0533b"/>
+<lb n="0533b01"/>法不見罣礙。無所疑難。或有菩薩住於地
+<lb n="0533b02"/>&M034294;。入寶<note n="0533006" resp="Taisho" type="orig" place="foot text">交＝校【三】【宮】</note><note n="0533006" resp="CBETA" type="mod">交＝校【宋】【元】【明】【宮】</note><app n="0533006"><lem>交</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">校</rdg></app>露。而自省見坐於蓮華。皆佛威
+<lb n="0533b03"/>神<note n="0533007" resp="Taisho" type="orig" place="foot text">之＝入【三】【宮】</note><note n="0533007" resp="CBETA" type="mod">之＝入【宋】【元】【明】【宮】</note><app n="0533007"><lem>之</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">入</rdg></app>所感動。道德高遠巍巍難量。時諸菩
+<lb n="0533b04"/>薩承佛聖旨及金剛&CB00685;至願威力。六十億&CB00108;
+<lb n="0533b05"/>一切同時皆從大聖毛孔中出。稽首佛足右
+<lb n="0533b06"/>繞七匝。各以威德神足之力。化微妙床身處
+<lb n="0533b07"/>其上</p>
+<lb n="0533b08"/><p>於是金剛&CB00685;菩薩前白佛言。唯然世尊。無言
+<lb n="0533b09"/>菩薩何故字無言。佛言。汝自以是問於正士。
+<lb n="0533b10"/>當為汝說。時金剛&CB00685;問無言曰。仁族姓子。
+<lb n="0533b11"/>何故自號為無言耶。無言默然。如是問三。
+<lb n="0533b12"/>亦不答報。時金剛&CB00685;復重問曰。何故三問而
+<lb n="0533b13"/>不相答。無言答曰。我求此辭永不得處。以
+<lb n="0533b14"/>是之故不相答耳。又<note n="0533008" resp="Taisho" type="orig" place="foot text">〔於〕－【三】【宮】</note><note n="0533008" resp="CBETA" type="mod">〔於〕－【宋】【元】【明】【宮】</note><app n="0533008"><lem>於</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>族姓子。理不<note n="0533009" resp="Taisho" type="orig" place="foot text">宜＝宣【宮】</note><app n="0533009"><lem>宜</lem><rdg wit="【宮】" resp="Taisho">宣</rdg></app>問
+<lb n="0533b15"/>於無言者。用何以故而字無言。計其無言則
+<lb n="0533b16"/>無辭說。亦無音聲。金剛齊又問。設無有言。
+<lb n="0533b17"/>今何以故口有所說。無言答曰。吾悉法效諸
+<lb n="0533b18"/>佛所說。亦復效於眾生所語。又問。云何法
+<lb n="0533b19"/>於諸佛所說。答曰。如一切佛所講經法。吾
+<lb n="0533b20"/>以意力承其威神。亦復如之。以是之故。吾今
+<lb n="0533b21"/>悉法諸佛所說。假其音聲而等文字無所毀
+<lb n="0533b22"/>壞。演說經法。是為法於諸佛所說。又問。云何
+<lb n="0533b23"/>復效眾生之言。答曰。隨一切人眾生之類音
+<lb n="0533b24"/>響言語。而為說法。是為效於一切眾生人民
+<lb n="0533b25"/>所言。又問。卿族姓子。失言以來為幾何乎。
+<lb n="0533b26"/>答曰。從失心念以來。又問。族姓子。此言何
+<lb n="0533b27"/>謂。答曰。以是之故不親心念。亦非不樂。心無
+<lb n="0533b28"/>所念口則無言。又問。族姓子。言從何出。為從
+<lb n="0533b29"/>心出從身出乎。答曰。不從身出。亦不從心出。
+<pb ed="T" id="T13.0401.0533c" n="0533c"/>
+<lb n="0533c01"/>所以者何。身非常存不得自在。其心如幻。以
+<lb n="0533c02"/>是之故。不從身出亦不從心。又問。為從何
+<lb n="0533c03"/>出。答曰。設欲問之。所講言辭為從何出。為從
+<lb n="0533c04"/>空出。空無有色亦不可見。今仁問吾。為何由
+<lb n="0533c05"/>乎。曰實因於空無見無像。答曰。是故族姓
+<lb n="0533c06"/>子。言如虛空而不可見。所問亦如其所言辭。
+<lb n="0533c07"/>亦如虛空而不可見。虛空如是永不可&CB00418;。亦
+<lb n="0533c08"/>無有相。以是之故。求一切法及所言辭。
+<lb n="0533c09"/><note n="0533010" resp="Taisho" type="orig" place="foot text">都＝&CB00418;【三】</note><note n="0533010" resp="CBETA" type="mod">都＝&CB00418;【宋】【元】【明】</note><app n="0533010"><lem>都</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00418;</rdg></app>不可得。如求言辭不可得者。一切諸法
+<lb n="0533c10"/>寂寞<note n="0533011" resp="Taisho" type="orig" place="foot text">澹泊＝憺怕【元】【明】</note><app n="0533011"><lem>澹泊</lem><rdg wit="【元】【明】" resp="Taisho">憺怕</rdg></app>。論語音辭亦復如是。一切諸法
+<lb n="0533c11"/>亦如人言。忽不知處。言如虛空無能見處。
+<lb n="0533c12"/>一切諸法亦如虛空。亦無處所。所言辭者因
+<lb n="0533c13"/>緣合成。一切諸法亦從緣起。推求諸法根
+<lb n="0533c14"/><anchor id="fxT13p0533c01"/>源所在。緣從何起而不可得。其不可得則
+<lb n="0533c15"/>無所起。便無所生。又無所起則無所興。其
+<lb n="0533c16"/>無所興者則無所發。其無所發彼無眼跡亦
+<lb n="0533c17"/>無色跡。亦無識跡。亦無耳鼻口身意之跡。
+<lb n="0533c18"/>亦無法跡。無意識跡。其無跡者無去無來。
+<lb n="0533c19"/>無去來者名曰獨步。其獨步者則無所去。於
+<lb n="0533c20"/>一切行而無所見。當作是觀。寧當&CB00418;見本所
+<lb n="0533c21"/>不見乎。又問。本何不見。答曰。不生不起。又
+<lb n="0533c22"/>問。云何不生不起。答曰。所不可察無有來者。
+<lb n="0533c23"/>又問。何謂所不可察無有來者。答曰。虛空不
+<lb n="0533c24"/>可見。無有來者。虛空平等。一切諸法亦等如
+<lb n="0533c25"/>空。以是之故。諸法平等亦如虛空。故曰不遍
+<lb n="0533c26"/>一切諸法等如虛空。又問。何謂諸法等如虛
+<lb n="0533c27"/>空。答曰。無有侶故。以用諸佛平等之故。
+<lb n="0533c28"/>一切諸法究竟平等。過去本<note n="0533012" resp="Taisho" type="orig" place="foot text">等＝來【宮】</note><app n="0533012"><lem>等</lem><rdg wit="【宮】" resp="Taisho">來</rdg></app>。來本亦等。
+<lb n="0533c29"/>中本亦等。無有分別。計此諸等。以一切諸法
+<pb ed="T" id="T13.0401.0534a" n="0534a"/>
+<lb n="0534a01"/>本際。如是如真。本際無本。本際如真。本際
+<lb n="0534a02"/>如審。本際無本。本際等無有異。是則名曰無
+<lb n="0534a03"/>有二際亦無若干。何謂言二。用計吾我則名
+<lb n="0534a04"/>曰二。若不貪身不計吾我。則無有二。何謂
+<lb n="0534a05"/>有二。有眼有色則名曰二。耳聲鼻香舌味身
+<lb n="0534a06"/>更意法。是名曰二。取要言之。若有計著一切
+<lb n="0534a07"/>諸法。故名曰二。從使有二亦不可得。所以者
+<lb n="0534a08"/>何。觀無所<note n="0534001" resp="Taisho" type="orig" place="foot text">此＝比【元】【明】</note><app n="0534001"><lem>此</lem><rdg wit="【元】【明】" resp="Taisho">比</rdg></app>得則無二。亦無言辭。其法心
+<lb n="0534a09"/>意及所有識。假使不修於此三事。是名無二。
+<lb n="0534a10"/>此之無二不當講說。所以者何。有所說者不
+<lb n="0534a11"/>離於二。無<note n="0534002" resp="Taisho" type="orig" place="foot text">所＝有【三】【宮】</note><note n="0534002" resp="CBETA" type="mod">所＝有【宋】【元】【明】【宮】</note><app n="0534002"><lem>所</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">有</rdg></app>言者乃無有二。又問。所云無
+<lb n="0534a12"/>二誰為<note n="0534003" resp="Taisho" type="orig" place="foot text">造＝之【宮】</note><app n="0534003"><lem>造</lem><rdg wit="【宮】" resp="Taisho">之</rdg></app>二。答曰其無二者不可造二。所
+<lb n="0534a13"/>以者何。正使興發若干方便。欲變無二使有
+<lb n="0534a14"/>二者。終不可<note n="0534004" resp="Taisho" type="orig" place="foot text">辯＝辦【宮】</note><app n="0534004"><lem>辯</lem><rdg wit="【宮】" resp="Taisho">辦</rdg></app>。又問。所說法律為是二乎
+<lb n="0534a15"/>為無二耶。答曰。其法律者無有二也。堅固難
+<lb n="0534a16"/>移。所以者何。無言<note n="0534005" resp="Taisho" type="orig" place="foot text">亂＝辭【三】</note><note n="0534005" resp="CBETA" type="mod">亂＝辭【宋】【元】【明】</note><app n="0534005"><lem>亂</lem><rdg wit="【宋】【元】【明】" resp="Taisho">辭</rdg></app>相亦無所御。以無言
+<lb n="0534a17"/>說而開導之。無能破壞。不可毀缺用不可壞。
+<lb n="0534a18"/>是故名曰堅固導御。則無有二。於是金剛齊
+<lb n="0534a19"/>菩薩前白佛言。唯然世尊。無言菩薩所可宣
+<lb n="0534a20"/>暢。皆是慧明三昧勇猛之恩德也。佛言。汝
+<lb n="0534a21"/>所言皆慧明三昧之威恩也。爾時執慧曜國
+<lb n="0534a22"/>土諸菩薩來者。問於無言。仁族姓子。為學
+<lb n="0534a23"/>何法。辯才之慧巍巍無量乃如是乎。無言答
+<lb n="0534a24"/>曰。如佛所說。一切諸法皆從<note n="0534006" resp="Taisho" type="orig" place="foot text">誡＝戒【元】【明】＊</note><app n="0534006"><lem>誡</lem><rdg wit="【元】【明】" resp="Taisho">戒</rdg></app>立。又復問
+<lb n="0534a25"/>曰。<anchor id="fxT13p0534a01"/>唯族姓子。寧可垂意顧愍我等。分別敷
+<lb n="0534a26"/>演建立<anchor id="fxT13p0534a02"/>誡者。答曰。賢者其不住身。不住
+<lb n="0534a27"/>口心。是為立<anchor id="fxT13p0534a03"/>誡。不住內外亦無中間。是為
+<lb n="0534a28"/>立<anchor id="fxT13p0534a04"/>誡。若無思想無所惟念。及與教令言辭之
+<lb n="0534a29"/>事。是曰立<anchor id="fxT13p0534a05"/>誡。無應不應。無念不念。亦無異
+<pb ed="T" id="T13.0401.0534b" n="0534b"/>
+<lb n="0534b01"/>念。是曰立<anchor id="fxT13p0534b01"/>誡。不住於善亦無不善。不處於
+<lb n="0534b02"/>世亦不度世。無在不在。無害不害。無漏不漏。
+<lb n="0534b03"/>無為不為。無生死無滅度。此曰立<anchor id="fxT13p0534b02"/>誡。假使
+<lb n="0534b04"/>建立如是比像。住於<anchor id="fxT13p0534b03"/>誡者。於一切法則無所
+<lb n="0534b05"/>住。不住諸法。不作是念。吾有所說宣暢分
+<lb n="0534b06"/>別。是故賢者。是名曰<anchor id="fxT13p0534b04"/>誡。有所說者則住於
+<lb n="0534b07"/>二。其真本際。及其住處并至無本。又法界處。
+<lb n="0534b08"/>吾以住彼而有所論。有所論者永不可得。斯
+<lb n="0534b09"/>所語者亦無所念。其所宣暢亦無所想。又問。
+<lb n="0534b10"/>族姓子。其不可得無所念者及無所想。有何
+<lb n="0534b11"/>言說。答曰自然之數而不可獲。亦無所念無
+<lb n="0534b12"/>有思想。自然說之。又問。其所辭者誰為說
+<lb n="0534b13"/>之。答曰。賢者吾所辭者。即時滅盡亦無所
+<lb n="0534b14"/>生。所以者何。向者諸所講法皆歸於盡。一
+<lb n="0534b15"/>切諸法悉無所生。<note n="0534007" resp="Taisho" type="orig" place="foot text">（諸）＋所【宋】【宮】，（無）＋所【元】【明】</note><app n="0534007"><lem>所</lem><rdg wit="【宋】【宮】" resp="Taisho">諸所</rdg><rdg wit="【元】【明】" resp="Taisho">無所</rdg></app>生法不可知處。現在
+<lb n="0534b16"/>有形悉無有形。不可得處。所以者何。<note n="0534008" resp="Taisho" type="orig" place="foot text">斯＋（悉）【三】【宮】</note><note n="0534008" resp="CBETA" type="mod">斯＋（悉）【宋】【元】【明】【宮】</note><app n="0534008"><lem>斯</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">斯悉</rdg></app>閑
+<lb n="0534b17"/>盡而無諸相。其本際者無有言教。故世尊曰。
+<lb n="0534b18"/>不可想像取過去心。當來現在亦復如之。<note n="0534009" resp="Taisho" type="orig" place="foot text">即＝有【三】【宮】</note><note n="0534009" resp="CBETA" type="mod">即＝有【宋】【元】【明】【宮】</note><app n="0534009"><lem>即</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">有</rdg></app>
+<lb n="0534b19"/>起即滅碎散消盡。卒暴易轉。不可捉持形像
+<lb n="0534b20"/>何類。彼欲取想著念虛偽。倚受思想<note n="0534010" resp="Taisho" type="orig" place="foot text">（皆）＋悉【三】【宮】</note><note n="0534010" resp="CBETA" type="mod">（皆）＋悉【宋】【元】【明】【宮】</note><app n="0534010"><lem>悉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">皆悉</rdg></app>如
+<lb n="0534b21"/><note n="0534011" resp="Taisho" type="orig" place="foot text">〔化〕－【三】【宮】</note><note n="0534011" resp="CBETA" type="mod">〔化〕－【宋】【元】【明】【宮】</note><app n="0534011"><lem>化</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>幻。是故推極一切所言。悉虛無實其義
+<lb n="0534b22"/>無獲。亦不可以有所講說。不可口宣若心念
+<lb n="0534b23"/>矣。所以者何。無所造作亦無所行。其有解
+<lb n="0534b24"/>識興趣此義。則<note n="0534012" resp="Taisho" type="orig" place="foot text">〔不〕－【宮】</note><app n="0534012"><lem>不</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>復用口之言辭。亦不以心
+<lb n="0534b25"/>有所念也。有所宣暢分別說者。猶如呼響音
+<lb n="0534b26"/>聲之報。如化如來有所頒宣。其人所講亦復
+<lb n="0534b27"/>如茲。是為諸佛及眾菩薩一切世人所可保
+<lb n="0534b28"/>義。不可思議。善權方便無能制止。辯才之
+<lb n="0534b29"/>辭所建立法。不可動移。時諸菩薩讚無言曰。
+<pb ed="T" id="T13.0401.0534c" n="0534c"/>
+<lb n="0534c01"/>善哉善哉族姓子。快說斯言。是入法門我等
+<lb n="0534c02"/>亦聞。所歸於門實無有門。等如虛空。其佛
+<lb n="0534c03"/>世尊及諸菩薩。現說如是。吾等所受亦復如
+<lb n="0534c04"/>此</p>
+<lb n="0534c05"/><p>於是金剛齊菩薩問無言曰。來族姓子。俱共
+<lb n="0534c06"/>往至住於堅固金剛根世界。見執慧曜如來
+<lb n="0534c07"/>至真等正覺。觀彼國土。無言答曰。又族姓子。
+<lb n="0534c08"/>斯聞則是住於堅固金剛根世界。執慧曜世
+<lb n="0534c09"/>尊亦復在此。吾身何為捨此就彼。金剛齊問
+<lb n="0534c10"/>曰。今此世界泥土所成。非為金剛。無言答
+<lb n="0534c11"/>曰。汝族姓子。發意之頃。越&M010527;沙等諸佛國土。
+<lb n="0534c12"/>通過鐵圍無所蔽礙。為能堪任取是佛土舉
+<lb n="0534c13"/>一土塵。不爾乃當知而此世界泥土所成。無
+<lb n="0534c14"/>言菩薩。尋聲則以金剛道場三昧正受。應時
+<lb n="0534c15"/>於此三千大千世界自然化成。甚大堅固不
+<lb n="0534c16"/>可傷毀。悉為金剛。於是金剛齊。作大威力興
+<lb n="0534c17"/>顯神變。被大堅固<anchor id="fxT13p0534c01"/>誡德之鎧。欲舉此地一
+<lb n="0534c18"/>土之塵而不能勝。心自念言。怪未曾有。為
+<lb n="0534c19"/>是大聖之所建立巍巍之變。斯是無言之所
+<lb n="0534c20"/>感興。前白佛言。唯然世尊。我者前時發心
+<lb n="0534c21"/>之頃。通過鐵圍大鐵圍山。越&M010527;沙等諸佛國
+<lb n="0534c22"/>土。今者欲舉於此土地一土之塵而不能勝。
+<lb n="0534c23"/>唯天中天。此誰威神之所興立。是天中天。
+<lb n="0534c24"/>慈恩聖旨。為是無言之所變動乎。佛言。無
+<lb n="0534c25"/>言菩薩之所建立也。所以者何。無言菩薩。
+<lb n="0534c26"/>金剛道場三昧正受。使此三千大千世界甚
+<lb n="0534c27"/>大堅固。不可毀缺悉成金剛。若有菩薩住是
+<lb n="0534c28"/>三昧。自恣其意。欲變幾何諸佛國土悉成金
+<lb n="0534c29"/>剛。輒如所志。智慧聖心興顯道德。以是三
+<pb ed="T" id="T13.0401.0535a" n="0535a"/>
+<lb n="0535a01"/>昧而以正受。令諸佛土悉成金剛無能毀觸。
+<lb n="0535a02"/>皆是三昧威神境界。於是金剛齊及其所從
+<lb n="0535a03"/>六十億&CB00108;菩薩前白佛言。菩薩行何法。乃能
+<lb n="0535a04"/>逮得金剛道場三昧。佛告族姓子。菩薩有四
+<lb n="0535a05"/>法。逮得於此金剛道場三昧。何謂為四。一
+<lb n="0535a06"/>曰持志堅如金剛。常懷道心超越一切諸功
+<lb n="0535a07"/>德本。二曰性行具足無央數劫修治方便莊
+<lb n="0535a08"/>嚴大<note n="0535001" resp="Taisho" type="orig" place="foot text">業＝乘【宮】</note><app n="0535001"><lem>業</lem><rdg wit="【宮】" resp="Taisho">乘</rdg></app>。三曰入於深法分別十二緣起之原。
+<lb n="0535a09"/>四曰聖慧備悉無所缺漏。是為四。復有四而
+<lb n="0535a10"/>自歡娛。何謂為四。一曰超度慧德具足五通。
+<lb n="0535a11"/>二曰空無相願一心脫門。三昧正受心不戲
+<lb n="0535a12"/>逸而自娛樂。三曰建立於戒而住法界。所處
+<lb n="0535a13"/>無<anchor id="fxT13p0535a01"/>源成就慧明。四曰究竟至誠如深之義。曉
+<lb n="0535a14"/>了經義寂滅諸法靡所不達。復有四。何謂為
+<lb n="0535a15"/>四。一曰遵于大哀修四梵行。二曰奉行般若
+<lb n="0535a16"/>波羅蜜及六度無極。三曰行善權方便三十
+<lb n="0535a17"/>有七道品之法。四曰為諸眾生修諸脫門及四
+<lb n="0535a18"/>聖諦。是為四。復有四。何謂為四。一曰身所造
+<lb n="0535a19"/>業猶如金剛。二曰口之所言<note n="0535002" resp="Taisho" type="orig" place="foot text">清＝精【元】【明】</note><app n="0535002"><lem>清</lem><rdg wit="【元】【明】" resp="Taisho">精</rdg></app>微柔和亦如
+<lb n="0535a20"/>金剛。三曰執心堅固不可動轉亦如金剛。四曰
+<lb n="0535a21"/>志性秉毅不可毀壞。是為四法。菩薩所行速
+<lb n="0535a22"/>疾逮是金剛道場三昧。說是語時。是諸菩薩
+<lb n="0535a23"/>尋即獲此金剛道場三昧。於是無言菩薩自
+<lb n="0535a24"/>白其父師子將軍。大人豈見諸佛興出。德馨
+<lb n="0535a25"/>之稱威聖無量。道慧高遠超絕無侶。得未曾
+<lb n="0535a26"/>有難及難及。如是比像不可譬喻。本<note n="0535003" resp="Taisho" type="orig" place="foot text">所＝無【明】</note><app n="0535003"><lem>所</lem><rdg wit="【明】" resp="Taisho">無</rdg></app>悲
+<lb n="0535a27"/>憶今悉現矣。為無央數眾生之類。導示滅度
+<lb n="0535a28"/>至<note n="0535004" resp="Taisho" type="orig" place="foot text">于＝於【明】＊</note><app n="0535004"><lem>于</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>大安。惟願大人。發於無上正真道意。
+<lb n="0535a29"/>師子將軍報無言曰。子當知之。生七日後天
+<pb ed="T" id="T13.0401.0535b" n="0535b"/>
+<lb n="0535b01"/>來相<note n="0535005" resp="Taisho" type="orig" place="foot text">令＝命【三】【宮】</note><note n="0535005" resp="CBETA" type="mod">令＝命【宋】【元】【明】【宮】</note><app n="0535005"><lem>令</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">命</rdg></app>而見告語發大道意。佛天中天。道目
+<lb n="0535b02"/>所觀知我志操。其心夙夜念於佛道。無復異
+<lb n="0535b03"/>師發心可歸。惟當歸命無極大聖。師子將軍
+<lb n="0535b04"/>及正夫人。男女內外親屬五百群從。皆發
+<lb n="0535b05"/>無上正真道意。無言菩薩自報父母兄弟姊
+<lb n="0535b06"/>妹及其親族并大眾人。仁者今日以發大意。
+<lb n="0535b07"/>當精進行莊嚴道心。即時問言。何謂發意莊
+<lb n="0535b08"/>嚴道心。無言答曰。有四十事莊嚴道心。何
+<lb n="0535b09"/>謂四十事。至信佛道心不疑毀<note place="inline">一</note>。喜樂於法
+<lb n="0535b10"/>而令久存<note place="inline">二</note>。不慢聖眾恭敬謙遜<note place="inline">三</note>。常<note n="0535006" resp="Taisho" type="orig" place="foot text">〔當〕－【元】【明】</note><app n="0535006"><lem>當</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>習善
+<lb n="0535b11"/>友<note place="inline">四</note>。見諸菩薩視之如佛<note place="inline">五</note>。未曾懷害向於眾
+<lb n="0535b12"/>生<note place="inline">六</note>。恭敬奉事尊長眾祐<note place="inline">七</note>。等心愛憎<note place="inline">八</note>。入法
+<lb n="0535b13"/>無厭<note place="inline">九</note>。勤聽經典<note place="inline">十</note>。聞趣尊習<note n="0535007" resp="Taisho" type="orig" place="foot text">一作十一下准之【元】【明】</note><note n="0535007" resp="CBETA" type="mod"><todo type="a"/>一作十一下准之【元】【明】</note><note place="inline">一</note>。為他人說<note place="inline">二</note>。
+<lb n="0535b14"/>無希翼心<note place="inline">三</note>。法無有師<note place="inline">四</note>。所念如應<note place="inline">五</note>。奉行無
+<lb n="0535b15"/>本<note place="inline">六</note>。一切所愛而不珍惜<note place="inline">七</note>。奉順禁戒未曾缺
+<lb n="0535b16"/>漏<note place="inline">八</note>。宣暢分布忍辱之力<note place="inline">九</note>。所行精進靡<note n="0535008" resp="Taisho" type="orig" place="foot text">（所）＋不【三】【宮】</note><note n="0535008" resp="CBETA" type="mod">（所）＋不【宋】【元】【明】【宮】</note><app n="0535008"><lem>不</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">所不</rdg></app>
+<lb n="0535b17"/>周<note n="0535009" resp="Taisho" type="orig" place="foot text">〔遍〕－【三】</note><note n="0535009" resp="CBETA" type="mod">〔遍〕－【宋】【元】【明】</note><app n="0535009"><lem>遍</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app><note place="inline">二十</note>。<note n="0535010" resp="Taisho" type="orig" place="foot text">令備＝合集【元】【明】</note><app n="0535010"><lem>令備</lem><rdg wit="【元】【明】" resp="Taisho">合集</rdg></app>修習禪定一心
+<lb n="0535b18"/><note n="0535011" resp="Taisho" type="orig" place="foot text">（一）記數＋而【宋】【宮】，（廿一）記數＋而【元】【明】</note><note n="0535011" resp="CBETA" type="mod">（(一)）＋而【宋】【宮】，（(廿一)）＋【元】【明】</note><app n="0535011"><lem>而</lem><rdg wit="【宋】【宮】" resp="Taisho"><note place="inline">一</note>而</rdg><rdg wit="【元】【明】" resp="Taisho"><note place="inline">廿一</note>而</rdg></app>順念于智慧之品<note n="0535012" resp="Taisho" type="orig" place="foot text">二作廿二下准之【元】【明】</note><note n="0535012" resp="CBETA" type="mod"><todo type="a"/>二作廿二下准之【元】【明】</note><note place="inline">二</note>。以權方便開化眾生
+<lb n="0535b19"/><note place="inline">三</note>。所可勸助未曾忘捨<note place="inline">四</note>。隨護群黎<note place="inline">五</note>。自調其
+<lb n="0535b20"/>心降伏他意<note place="inline">六<note n="0535013" resp="Taisho" type="orig" place="foot text">〔本…七〕六字－【元】【明】【宮】，（京本闕第七一法）七字【宋】</note><note n="0535013" resp="CBETA" type="mod">〔本…七〕六字－【元】【明】【宮】，＝（京本闕第七一法）七字【宋】</note><app n="0535013" word-count="6"><lem>本闕一法第七</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg><rdg wit="【宋】" resp="Taisho">京本闕第七一法</rdg></app></note>。於欲教授不著塵勞<note n="0535014" resp="Taisho" type="orig" place="foot text">八作廿七下准之【元】【明】</note><note n="0535014" resp="CBETA" type="mod"><todo type="a"/>八作廿七下准之【元】【明】</note><note place="inline">八</note>。
+<lb n="0535b21"/>常棄憒&CB00436;樂於寂靜<note place="inline">九</note>。思處閑居以為德稱<note place="inline">三十</note>。
+<lb n="0535b22"/>修賢聖行而知節限<note n="0535015" resp="Taisho" type="orig" place="foot text">一作三十下准之【元】【明】</note><note n="0535015" resp="CBETA" type="mod"><todo type="a"/>一作三十下准之【元】【明】</note><note place="inline">一</note>。常行止足不可動移<note place="inline">二</note>。
+<lb n="0535b23"/>在於俗法不與同塵<note place="inline">三</note>。而以順從六堅之法<note place="inline">四</note>。
+<lb n="0535b24"/>又不捨廢於四恩行<note place="inline">五</note>。而常奉遵堅固志願<note place="inline">六</note>。
+<lb n="0535b25"/>&M010527;不毀失善德之本<note place="inline">七</note>。所學業者而不放逸<note place="inline">八</note>。
+<lb n="0535b26"/>不樂小乘<note place="inline">九</note>。道心無動<note place="inline">四十</note>。篤信微妙志不怯
+<lb n="0535b27"/>弱。捨一切惡無所犯負。皆悉具足一切功勳。
+<lb n="0535b28"/>合集名稱無量福會。懷佩道法處於道場。而
+<lb n="0535b29"/>不退<note n="0535016" resp="Taisho" type="orig" place="foot text">轉＋（四十）記數【元】【明】</note><note n="0535016" resp="CBETA" type="mod">轉＋（(四十)）【元】【明】</note><app n="0535016"><lem>轉</lem><rdg wit="【元】【明】" resp="Taisho">轉<note place="inline">四十</note></rdg></app>是為丈夫四十事行。顯發一切諸通
+<pb ed="T" id="T13.0401.0535c" n="0535c"/>
+<lb n="0535c01"/>慧矣。珍寶道心。以此功德而自莊嚴。發意之
+<lb n="0535c02"/>頃三千大千佛之境界所興德本悉現目前不
+<lb n="0535c03"/>復遠求。譬如日殿處於虛空靡所不曜。師子
+<lb n="0535c04"/>將軍報其子曰。正士汝當數數往來念親相
+<lb n="0535c05"/>見。因告示誡將濟擁護。令不退轉究竟無上
+<lb n="0535c06"/>正真之道。無言答曰。大人欲知。復有十法菩
+<lb n="0535c07"/>薩所行。諸佛大士所見常念。何謂為十。&M010527;行
+<lb n="0535c08"/>精進欲安眾生。不念己身獨獲大安。身力堅
+<lb n="0535c09"/>強多所誘進。見羸弱人而以慰喻。所造德本
+<lb n="0535c10"/>皆以放捨施一切人。未曾懷憂。所可化人勸
+<lb n="0535c11"/>發道者。被大德鎧而自誓願。此諸眾生若得
+<lb n="0535c12"/>佛道受于正法。當以供養而奉事之。然後我
+<lb n="0535c13"/>乃取最正覺。用正法故沒棄身命。不捨正典。
+<lb n="0535c14"/>宣暢分別一品之義。於百千劫流布一切。被
+<lb n="0535c15"/>大德鎧不以懈<note n="0535017" resp="Taisho" type="orig" place="foot text">惓＝倦【三】</note><note n="0535017" resp="CBETA" type="mod">惓＝倦【宋】【元】【明】</note><app n="0535017"><lem>惓</lem><rdg wit="【宋】【元】【明】" resp="Taisho">倦</rdg></app>不懷怯弱。一切諸法皆悉
+<lb n="0535c16"/>本淨。設聞此言不以恐懼。不限大道。不捨
+<lb n="0535c17"/>佛法。不以為空。所觀&CB00418;者適知不虛。等於
+<lb n="0535c18"/>吾我亦等眾生。已等眾生則等於法。以等經
+<lb n="0535c19"/>法則便信樂。虛空平等不墮止觀。不復墮落
+<lb n="0535c20"/>生老病死惱患之<note n="0535018" resp="Taisho" type="orig" place="foot text">徑＝纏【元】【明】</note><app n="0535018"><lem>徑</lem><rdg wit="【元】【明】" resp="Taisho">纏</rdg></app>。為諸世間所見動轉。
+<lb n="0535c21"/>無央數眾勤苦瑕穢。諸魔波旬所可興者來
+<lb n="0535c22"/>說眾難故誡誹謗。佛道難得。經法難遇。不
+<lb n="0535c23"/>如早求聲聞而速度矣。菩薩聞此。堅持一心
+<lb n="0535c24"/>發無極志。不以懈厭。不退不轉。不捨大乘。
+<lb n="0535c25"/><note n="0535019" resp="Taisho" type="orig" place="foot text">住於＝於住【宮】</note><app n="0535019"><lem>住於</lem><rdg wit="【宮】" resp="Taisho">於住</rdg></app>真正審諦之法。言行相應未曾虛妄。身
+<lb n="0535c26"/>行至誠不欺己身。諸天眾生及十方佛。是為
+<lb n="0535c27"/>大人十法之事。菩薩所行則為諸佛及諸正
+<lb n="0535c28"/>士所見常念。說是語時。師子將軍及與眷屬。
+<lb n="0535c29"/>尋時逮得柔順法忍</p>
+<pb ed="T" id="T13.0401.0536a" n="0536a"/>
+<lb n="0536a01"/><p>爾時世尊告賢者何難。受是經法持諷誦讀。
+<lb n="0536a02"/>具足廣普為他人說。所以者何。過去當來今
+<lb n="0536a03"/>諸佛大聖道德所興。皆出是法經典藏門。無
+<lb n="0536a04"/>言菩薩今來至此。思惟真諦宣暢於斯無量
+<lb n="0536a05"/>法門。勸化無數一切人民。令學佛道也。是故
+<lb n="0536a06"/>阿難。欲奉過去當來現在諸佛世尊啟受法
+<lb n="0536a07"/>藏。當奉此經懷抱在心。廣為人說是法藏門
+<lb n="0536a08"/>發無央數眾生人民。使成佛道。如來在世滅
+<lb n="0536a09"/>度之後。假使有人受此<note n="0536001" resp="Taisho" type="orig" place="foot text">經＝法【三】【宮】</note><note n="0536001" resp="CBETA" type="mod">經＝法【宋】【元】【明】【宮】</note><app n="0536001"><lem>經</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">法</rdg></app>者。悉是佛旨建立
+<lb n="0536a10"/>所致。持諷誦讀行如上教。佛語阿難則有三
+<lb n="0536a11"/>事福不可量。何謂為三。一曰將護正法。二曰
+<lb n="0536a12"/>身知道心。三曰未發意者勸發道心。是為三。
+<lb n="0536a13"/>功德之福不可限量。假使如來歎其功勳而
+<lb n="0536a14"/>不可盡。何況聲聞。爾時會中有七億&CB00108;諸菩
+<lb n="0536a15"/>薩眾。聞佛所說皆從坐起。欲護正法。各各說
+<lb n="0536a16"/>言。我等輩類。當共奉持世尊正典廣遠流布。
+<lb n="0536a17"/>持此經卷為他人說勸發道意。無言菩薩前
+<lb n="0536a18"/>白佛言。唯然世尊。所可解暢<note n="0536002" resp="Taisho" type="orig" place="foot text">&CB06382;＝逮【三】【宮】</note><note n="0536002" resp="CBETA" type="mod">&CB06382;＝逮【宋】【元】【明】【宮】</note><app n="0536002"><lem>&CB06382;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">逮</rdg></app>正覺者。彼
+<lb n="0536a19"/>法寧可受取持乎。佛言不也。又問。佛言。以
+<lb n="0536a20"/>何等故。諸族姓子。向者佛說此。諸菩薩悉起
+<lb n="0536a21"/>住立。欲護正法。佛言。吾以將育諸族姓子故。
+<lb n="0536a22"/>以是像欲有所護。彼無為事不可得法而為
+<lb n="0536a23"/>頒宣。因文字教言護於法將順其意。所言護
+<lb n="0536a24"/>者。不以言問。不用文字而行道也。是則名曰
+<lb n="0536a25"/>護於正法。又族姓子則有二事護於正法。何
+<lb n="0536a26"/>謂為二。一曰不可得者乃逮正法。所當擁護
+<lb n="0536a27"/>常將順之。不以所說而擁護也。二曰亦不將
+<lb n="0536a28"/>濟於諸虛妄。<note n="0536003" resp="Taisho" type="orig" place="foot text">聞＝間【宮】</note><app n="0536003"><lem>聞</lem><rdg wit="【宮】" resp="Taisho">間</rdg></app>所說者即能奉行。不以慢
+<lb n="0536a29"/>恣求於名稱。是為二。時諸菩薩欲供養佛無
+<pb ed="T" id="T13.0401.0536b" n="0536b"/>
+<lb n="0536b01"/>言菩薩及此經典。普雨天華散於佛上及諸
+<lb n="0536b02"/>菩薩。周遍大會。口宣此言。願令世尊釋迦
+<lb n="0536b03"/>文尼久在世間。使此經法自然流布遍閻浮
+<lb n="0536b04"/>利。佛說如是。無言菩薩師子將軍與諸群從
+<lb n="0536b05"/>金剛齊菩薩及六十億&CB00108;諸菩薩等舍利弗大
+<lb n="0536b06"/>目揵連阿難諸天世人阿須倫。聞佛所說莫
+<lb n="0536b07"/>不歡喜</p>
+<lb n="0536b08"/><juan fun="close" n="002"><jhead><title>無言童子經</title>卷下</jhead></juan></div1>
+</body></text></TEI.2>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T47n1978.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1978 讚阿彌陀佛偈</title>
+			<author>後魏 曇鸞撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:10:32 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 47, No. 1978 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000810/15:07:52</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/24)</item>
+	</change>
+<!--
+$Log: T47n1978.xml,v $
+Revision 1.1  2003/05/05 04:10:32  ray
+Initial revision
+
+Revision 1.17  2002/12/05 12:37:50  eva
+modified
+
+Revision 1.16  2002/11/04 10:58:39  ray
+tei.2 => TEI.2
+
+Revision 1.15  2002/10/07 13:28:44  moved
+modified
+
+Revision 1.14  2002/07/29 10:15:33  vinking
+modified lang
+
+Revision 1.13  2002/04/08 09:42:49  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.12  2001/11/05 06:20:37  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.11  2001/07/24 07:00:45  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/06/28 12:07:54  vinking
+modified for app
+
+Revision 1.9  2001/03/30 06:32:11  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.8  2001/03/25 10:36:04  ray
+add <milestone>
+
+Revision 1.7  2001/02/07 07:23:54  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.6  2001/02/03 08:08:13  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:10:32 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0420c11"/>
+<milestone unit="juan" n="1"/>
+<lb n="0420c12"/><head type="no">No. 1978</head>
+<lb n="0420c13"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0420001" resp="Taisho" type="orig" place="foot text">【原】明和六年刊大谷大學藏本，【甲】延寶五年刊宗教大學藏本，【乙】天保十五年寫大谷大學藏深草圓空本模寫</note>讚阿彌陀佛<note n="0420002" resp="Taisho" type="orig" place="foot text">偈＋（一卷）【乙】</note><app n="0420002"><lem>偈</lem><rdg wit="【乙】" resp="Taisho">偈一卷</rdg></app></jhead></juan>
+<lb n="0420c14"/>
+<lb n="0420c15"/><byline type="Author">曇鸞法師作</byline>
+<lb n="0420c16"/><div1 type="other"><p><note n="0420003" resp="Taisho" type="orig" place="foot text">（南無阿彌陀佛）六字∞（釋名…養）十三字【乙】</note><note n="0420003" resp="CBETA" type="mod">（南無阿彌陀佛）六字∞（釋名無量壽傍經奉讚亦曰安養）十三字【乙】</note><app n="0420003"><lem>南無阿彌陀佛</lem><rdg wit="【乙】" resp="Taisho">釋名無量壽傍經奉讚亦曰安養</rdg></app><note n="0420004" resp="Taisho" type="orig" place="foot text">（南無阿彌陀佛）六字∞（釋名…養）十三字【乙】，〔釋名…養〕十三字－【甲】</note><note n="0420004" resp="CBETA" type="mod">（南無阿彌陀佛）六字∞（釋名無量壽傍經奉讚亦曰安養）十三字【乙】，〔釋名無量壽傍經奉讚亦曰安養〕十三字－【甲】</note><app n="0420004"><lem><note place="inline">釋名無量壽傍經奉讚亦曰安養</note></lem><rdg wit="【乙】" resp="Taisho"><note place="inline">南無阿彌陀佛</note></rdg><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0420c17"/><p><note n="0420005" resp="Taisho" type="orig" place="foot text">〔南無至…佛〕十三字－【乙】下同</note><app n="0420005" word-count="13"><lem>南無至心歸命禮西方阿彌陀佛</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0420c18"/><lg><l>現在西方去此界</l><l>十萬億剎安<note n="0420006" resp="Taisho" type="orig" place="foot text">樂＝養【甲】【乙】</note><app n="0420006"><lem>樂</lem><rdg wit="【甲】【乙】" resp="Taisho">養</rdg></app>土</l>
+<lb n="0420c19"/><l>佛世尊號阿彌陀</l><l>我願往生歸命禮</l></lg>
+<lb n="0420c20"/><p rend="margin-left:1"><note n="0420007" resp="Taisho" type="orig" place="foot text">〔願共…國〕十字－【乙】下同</note><app n="0420007" word-count="10"><lem>願共諸眾生往生安樂國</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0420c21"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0420c22"/><lg><l>成佛已來歷十劫</l><l>壽命方將無有量</l>
+<lb n="0420c23"/><l>法身光輪遍法界</l><l>照世盲冥故頂禮</l></lg>
+<lb n="0420c24"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0420c25"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0420c26"/><lg><l>智慧光明不可量</l><l>故佛又號無量光</l>
+<lb n="0420c27"/><l>有量諸相蒙光曉</l><l>是故稽首真實明</l></lg>
+<lb n="0420c28"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0420c29"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<pb ed="T" id="T47.1978.0421a" n="0421a"/>
+<lb n="0421a01"/><lg><l>解脫光輪無限齊</l><l>故佛又號無邊光</l>
+<lb n="0421a02"/><l>蒙光觸者離有無</l><l>是故稽首平等覺</l></lg>
+<lb n="0421a03"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a04"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a05"/><lg><l>光雲無礙如虛空</l><l>故佛又號無礙光</l>
+<lb n="0421a06"/><l>一切有礙蒙光澤</l><l>是故頂禮難思議</l></lg>
+<lb n="0421a07"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a08"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a09"/><lg><l>清淨光明<note n="0421001" resp="Taisho" type="orig" place="foot text">無＝滅【乙】</note><app n="0421001"><lem>無</lem><rdg wit="【乙】" resp="Taisho">滅</rdg></app>有對</l><l>故佛又號無對光</l>
+<lb n="0421a10"/><l>遇斯光者業繫除</l><l>是故稽首畢竟依</l></lg>
+<lb n="0421a11"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a12"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a13"/><lg><l>佛光照耀最第一</l><l>故佛又號光<note n="0421002" resp="Taisho" type="orig" place="foot text">炎＝艷【乙】</note><app n="0421002"><lem>炎</lem><rdg wit="【乙】" resp="Taisho">艷</rdg></app>王</l>
+<lb n="0421a14"/><l>三塗黑闇蒙光啟</l><l>是故頂禮大應供</l></lg>
+<lb n="0421a15"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a16"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a17"/><lg><l>道光明朗色超絕</l><l>故佛又號清淨光</l>
+<lb n="0421a18"/><l>一蒙光照<note n="0421003" resp="Taisho" type="orig" place="foot text">罪垢除＝除罪垢【乙】</note><app n="0421003"><lem>罪垢除</lem><rdg wit="【乙】" resp="Taisho">除罪垢</rdg></app></l><l>皆得解脫故頂禮</l></lg>
+<lb n="0421a19"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a20"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a21"/><lg><l>慈光遐被施安樂</l><l>故佛又號歡喜光</l>
+<lb n="0421a22"/><l>光所至處得法喜</l><l>稽首頂禮大安慰</l></lg>
+<lb n="0421a23"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a24"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a25"/><lg><l>佛光能破無明闇</l><l>故佛又號智慧光</l>
+<lb n="0421a26"/><l>一切諸佛三乘眾</l><l>咸共歎譽故稽首</l></lg>
+<lb n="0421a27"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421a28"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421a29"/><lg><l>光明一切時普照</l><l>故佛又號不斷光</l>
+<pb ed="T" id="T47.1978.0421b" n="0421b"/>
+<lb n="0421b01"/><l>聞光力故心不斷</l><l>皆得往生故頂禮</l></lg>
+<lb n="0421b02"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b03"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421b04"/><lg><l>其光<note n="0421004" resp="Taisho" type="orig" place="foot text">除＝降【乙】</note><app n="0421004"><lem>除</lem><rdg wit="【乙】" resp="Taisho">降</rdg></app>佛莫能測</l><l>故佛又號難思光</l>
+<lb n="0421b05"/><l>十方諸佛<note n="0421005" resp="Taisho" type="orig" place="foot text">歎＝讚【乙】＊</note><app n="0421005"><lem>歎</lem><rdg wit="【乙】" resp="Taisho">讚</rdg></app>往生</l><l>稱其功德故稽首</l></lg>
+<lb n="0421b06"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b07"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421b08"/><lg><l>神光離相不可名</l><l>故佛又號無稱光</l>
+<lb n="0421b09"/><l><note n="0421006" resp="Taisho" type="orig" place="foot text">因光成佛＝恩光感佛【乙】</note><app n="0421006"><lem>因光成佛</lem><rdg wit="【乙】" resp="Taisho">恩光感佛</rdg></app>光赫然</l><l>諸佛所<anchor id="fxT47p0421b01"/>歎故頂禮</l></lg>
+<lb n="0421b10"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b11"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421b12"/><lg><l>光明照耀<note n="0421007" resp="Taisho" type="orig" place="foot text">過＝超【乙】</note><app n="0421007"><lem>過</lem><rdg wit="【乙】" resp="Taisho">超</rdg></app>日月</l><l>故佛號超日月光</l>
+<lb n="0421b13"/><l>釋迦佛<anchor id="fxT47p0421b02"/>歎尚不盡</l><l>故我稽首無等等</l></lg>
+<lb n="0421b14"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b15"/><note n="0421008" resp="Taisho" type="orig" place="foot text">〔南無…佛〕百七十四字－【乙】</note><app n="0421008" word-count="174"><lem><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421b16"/><lg><l>哀愍覆護我</l><l>令法種增長</l><l>此世及後生</l>
+<lb n="0421b17"/><l>願佛常攝受</l></lg>
+<lb n="0421b18"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b19"/><p>南無至心歸命禮西方極樂世界觀世音菩薩</p>
+<lb n="0421b20"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b21"/><p>南無至心歸命禮西方極樂世界大勢至菩薩</p>
+<lb n="0421b22"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b23"/><p>南無至心歸命禮西方極樂世界諸菩薩清淨
+<lb n="0421b24"/>大海眾</p>
+<lb n="0421b25"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421b26"/><p>普為師僧父母及善知識法界眾生。斷除三
+<lb n="0421b27"/>障。同得往生阿彌陀佛國。歸命懺悔</p>
+<lb n="0421b28"/><p>南無至心歸命禮西方阿彌陀佛</p></lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>
+<lb n="0421b29"/><lg><l>阿彌陀佛初會眾</l><l>聲聞菩薩數無量</l>
+<pb ed="T" id="T47.1978.0421c" n="0421c"/>
+<lb n="0421c01"/><l>神通巧妙不能算</l><l>是故稽首廣大<note n="0421009" resp="Taisho" type="orig" place="foot text">會＝依【乙】</note><app n="0421009"><lem>會</lem><rdg wit="【乙】" resp="Taisho">依</rdg></app></l></lg>
+<lb n="0421c02"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421c03"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421c04"/><lg><l>安樂無量摩訶薩</l><l>咸當一生補佛處</l>
+<lb n="0421c05"/><l>除其本願大弘誓</l><l>普欲度脫諸眾生</l>
+<lb n="0421c06"/><l>斯等寶林功德聚</l><l>一心合掌頭面禮</l></lg>
+<lb n="0421c07"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421c08"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421c09"/><lg><l>安樂國土諸聲聞</l><l>皆光一尋若流星</l>
+<lb n="0421c10"/><l>菩薩光輪四千里</l><l>若秋滿月映紫金</l>
+<lb n="0421c11"/><l>集佛法藏為眾生</l><l>故我頂禮大心海</l></lg>
+<lb n="0421c12"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421c13"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421c14"/><lg><l>又觀世音大勢至</l><l>於諸聖眾最第一</l>
+<lb n="0421c15"/><l>慈光照曜大千界</l><l>侍佛左右<note n="0421010" resp="Taisho" type="orig" place="foot text">顯＝頂【甲】</note><app n="0421010"><lem>顯</lem><rdg wit="【甲】" resp="Taisho">頂</rdg></app>神<note n="0421011" resp="Taisho" type="orig" place="foot text">儀＝通【乙】</note><app n="0421011"><lem>儀</lem><rdg wit="【乙】" resp="Taisho">通</rdg></app></l>
+<lb n="0421c16"/><l>度諸有緣不暫息</l><l>如大海潮不失時</l>
+<lb n="0421c17"/><l>如是大悲大勢<note n="0421012" resp="Taisho" type="orig" place="foot text">至＝力【乙】</note><app n="0421012"><lem>至</lem><rdg wit="【乙】" resp="Taisho">力</rdg></app></l><l>一心稽首頭面禮</l></lg>
+<lb n="0421c18"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421c19"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421c20"/><lg><l>其有眾生生安樂</l><l>悉具三十有二相</l>
+<lb n="0421c21"/><l>智慧滿足入深法</l><l>究暢道要無障礙</l>
+<lb n="0421c22"/><l>隨根利鈍成就忍</l><l><note n="0421013" resp="Taisho" type="orig" place="foot text">二＝三【甲】【乙】</note><app n="0421013"><lem>二</lem><rdg wit="【甲】【乙】" resp="Taisho">三</rdg></app>忍乃至不可計</l>
+<lb n="0421c23"/><l>宿命五通常自在</l><l>至佛不更雜惡趣</l>
+<lb n="0421c24"/><l>除生他方五濁世</l><l>示現同如大牟尼</l>
+<lb n="0421c25"/><l><note n="0421014" resp="Taisho" type="orig" place="foot text">生安樂國成大利＝如是功德無邊量【乙】</note><app n="0421014"><lem>生安樂國成大利</lem><rdg wit="【乙】" resp="Taisho">如是功德無邊量</rdg></app></l><l>是故至心頭面禮</l></lg>
+<lb n="0421c26"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0421c27"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0421c28"/><lg><l>安樂菩薩承佛神</l><l>於一食頃詣十方</l>
+<lb n="0421c29"/><l>不可算數佛世界</l><l>恭敬供養諸如來</l>
+<pb ed="T" id="T47.1978.0422a" n="0422a"/>
+<lb n="0422a01"/><l>華香伎樂從念現</l><l>寶蓋幢幡隨意出</l>
+<lb n="0422a02"/><l>珍奇絕世無能<note n="0422001" resp="Taisho" type="orig" place="foot text">名＝絕【乙】</note><app n="0422001"><lem>名</lem><rdg wit="【乙】" resp="Taisho">絕</rdg></app></l><l>散華供養殊異寶</l>
+<lb n="0422a03"/><l>化成華蓋光晃耀</l><l>香氣普薰莫不周</l>
+<lb n="0422a04"/><l>華蓋小者四百里</l><l>乃有遍覆一佛界</l>
+<lb n="0422a05"/><l>隨其前後次化去</l><l>是諸菩薩僉欣悅</l>
+<lb n="0422a06"/><l>於虛空中奏天樂</l><l>雅讚德頌揚佛慧</l>
+<lb n="0422a07"/><l>聽受經法供養已</l><l>未食之前騰虛還</l>
+<lb n="0422a08"/><l>神力自在不可測</l><l>故我頂禮無上<note n="0422002" resp="Taisho" type="orig" place="foot text">尊＝道【甲】，導【乙】</note><note n="0422002" resp="CBETA" type="mod">尊＝道【甲】，＝導【乙】</note><app n="0422002"><lem>尊</lem><rdg wit="【甲】" resp="Taisho">道</rdg><rdg wit="【乙】" resp="Taisho">導</rdg></app></l></lg>
+<lb n="0422a09"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422a10"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422a11"/><lg><l>安樂佛國諸菩薩</l><l>夫可宣說隨智慧</l>
+<lb n="0422a12"/><l>於己萬物亡我所</l><l>淨若蓮華不受塵</l>
+<lb n="0422a13"/><l>往來進止若汎舟</l><l>利安為務捨適莫</l>
+<lb n="0422a14"/><l>彼已猶空斷二想</l><l><note n="0422003" resp="Taisho" type="orig" place="foot text">然＝燃【甲】【乙】</note><app n="0422003"><lem>然</lem><rdg wit="【甲】【乙】" resp="Taisho">燃</rdg></app>智慧炬照長夜</l>
+<lb n="0422a15"/><l>三明六通皆已足</l><l>菩薩萬行貫心眼</l>
+<lb n="0422a16"/><l>如是功德無邊量</l><l>是故至心頭面禮</l></lg>
+<lb n="0422a17"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422a18"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422a19"/><lg><l>安樂聲聞菩薩眾</l><l>人天智慧咸洞達</l>
+<lb n="0422a20"/><l>身相莊嚴無殊異</l><l>但順他方故<note n="0422004" resp="Taisho" type="orig" place="foot text">列＝別【乙】</note><app n="0422004"><lem>列</lem><rdg wit="【乙】" resp="Taisho">別</rdg></app>名</l>
+<lb n="0422a21"/><l>顏容端正無可比</l><l>精微妙軀非人天</l>
+<lb n="0422a22"/><l>虛無之身無極體</l><l>是故頂禮平等力</l></lg>
+<lb n="0422a23"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422a24"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422a25"/><lg><l>敢能得生安樂國</l><l>皆悉住於正定聚</l>
+<lb n="0422a26"/><l>邪定不定其國無</l><l>諸佛咸讚故頂禮</l></lg>
+<lb n="0422a27"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422a28"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422a29"/><lg><l>諸聞阿彌陀佛號</l><l>信心歡喜慶所聞</l>
+<pb ed="T" id="T47.1978.0422b" n="0422b"/>
+<lb n="0422b01"/><l>乃暨一念至心者</l><l>迴向願生皆得往</l>
+<lb n="0422b02"/><l>唯除五逆謗正法</l><l>故我頂禮願往生</l></lg>
+<lb n="0422b03"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422b04"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422b05"/><lg><l>安樂菩薩聲聞輩</l><l>於此世界無比方</l>
+<lb n="0422b06"/><l>釋迦無礙大辯才</l><l>設諸假令示少分</l>
+<lb n="0422b07"/><l>最賤乞人&CB00278;帝王</l><l>帝王復比金輪<note n="0422005" resp="Taisho" type="orig" place="foot text">王＝主【乙】</note><app n="0422005"><lem>王</lem><rdg wit="【乙】" resp="Taisho">主</rdg></app></l>
+<lb n="0422b08"/><l>如是展轉至六天</l><l>次第相形皆如始</l>
+<lb n="0422b09"/><l>以天色像喻於<note n="0422006" resp="Taisho" type="orig" place="foot text">彼＝後【乙】</note><app n="0422006"><lem>彼</lem><rdg wit="【乙】" resp="Taisho">後</rdg></app></l><l>千萬億倍非其類</l>
+<lb n="0422b10"/><l>皆是法藏願力<note n="0422007" resp="Taisho" type="orig" place="foot text">為＝故【乙】</note><app n="0422007"><lem>為</lem><rdg wit="【乙】" resp="Taisho">故</rdg></app></l><l>稽首頂禮大心力</l></lg>
+<lb n="0422b11"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422b12"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422b13"/><lg><l>天人一切有所須</l><l>無不稱<note n="0422008" resp="Taisho" type="orig" place="foot text">欲＝歎【乙】</note><app n="0422008"><lem>欲</lem><rdg wit="【乙】" resp="Taisho">歎</rdg></app>應念至</l>
+<lb n="0422b14"/><l>一寶二寶無量寶</l><l>隨心化造受用具</l>
+<lb n="0422b15"/><l>堂宇飲食悉如此</l><l>故我稽首無稱佛</l></lg>
+<lb n="0422b16"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422b17"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422b18"/><lg><l>諸往生者悉具足</l><l>清淨色身無可比</l>
+<lb n="0422b19"/><l>神通功德及宮殿</l><l>服飾莊嚴如六天</l>
+<lb n="0422b20"/><l>應器寶&CB00425;自然至</l><l>百味嘉餚倏已滿</l>
+<lb n="0422b21"/><l>見色聞香意為食</l><l>忽然飽足受適悅</l>
+<lb n="0422b22"/><l>所味清淨無所著</l><l>事已化去須復現</l>
+<lb n="0422b23"/><l>晏安快樂次泥洹</l><l>是故至心頭面禮</l></lg>
+<lb n="0422b24"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422b25"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422b26"/><lg><l>十方佛土菩薩眾</l><l>及諸比丘生安樂</l>
+<lb n="0422b27"/><l>無量無數不可計</l><l>已生今生當亦然</l>
+<lb n="0422b28"/><l>皆曾供養無量佛</l><l>攝取百千堅固法</l>
+<lb n="0422b29"/><l>如是大士悉往生</l><l>是故頂禮阿彌陀</l></lg>
+<pb ed="T" id="T47.1978.0422c" n="0422c"/>
+<lb n="0422c01"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422c02"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422c03"/><lg><l>若聞阿彌陀德<note n="0422009" resp="Taisho" type="orig" place="foot text">號＝名【乙】</note><app n="0422009"><lem>號</lem><rdg wit="【乙】" resp="Taisho">名</rdg></app></l><l>歡喜讚仰心歸依</l>
+<lb n="0422c04"/><l>下至一念得大利</l><l>則為具足功德寶</l>
+<lb n="0422c05"/><l>設滿大千世界火</l><l>亦應直過聞佛名</l>
+<lb n="0422c06"/><l>聞阿彌陀不復退</l><l>是故至心稽首禮</l></lg>
+<lb n="0422c07"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422c08"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422c09"/><lg><l>神力無極阿彌陀</l><l>十方無量佛所歎</l>
+<lb n="0422c10"/><l>東方&M010527;沙諸佛國</l><l>菩薩無數悉往覲</l>
+<lb n="0422c11"/><l>亦復供養安樂國</l><l>菩薩聲聞諸大眾</l>
+<lb n="0422c12"/><l>聽受經法宣道化</l><l>自餘九方亦如是</l>
+<lb n="0422c13"/><l>釋迦如來說偈頌</l><l>無量功德故頂禮</l></lg>
+<lb n="0422c14"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422c15"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422c16"/><lg><l>諸來無量菩薩眾</l><l>為植德本致虔恭</l>
+<lb n="0422c17"/><l>或奏音樂歌歎佛</l><l>或頌佛慧照世間</l>
+<lb n="0422c18"/><l>或以天華衣供養</l><l>或&CB00418;淨土興等願</l>
+<lb n="0422c19"/><l>如是聖眾悉現前</l><l>蒙<note n="0422010" resp="Taisho" type="orig" place="foot text">八＝入【乙】</note><app n="0422010"><lem>八</lem><rdg wit="【乙】" resp="Taisho">入</rdg></app>梵聲授佛記</l>
+<lb n="0422c20"/><l>一切菩薩增願行</l><l>故我頂禮婆伽婆</l></lg>
+<lb n="0422c21"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0422c22"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0422c23"/><lg><l>聖主世尊說法時</l><l>大眾雲集七寶堂</l>
+<lb n="0422c24"/><l>聽佛開示咸悟入</l><l>歡喜充遍皆得道</l>
+<lb n="0422c25"/><l>于時四面起清風</l><l>擊動寶樹出妙響</l>
+<lb n="0422c26"/><l>和韻清徹<note n="0422011" resp="Taisho" type="orig" place="foot text">遏＝過【甲】【乙】</note><app n="0422011"><lem>遏</lem><rdg wit="【甲】【乙】" resp="Taisho">過</rdg></app>糸竹</l><l>踰於金石無倫比</l>
+<lb n="0422c27"/><l>天華繽紛逐香風</l><l>自然供養常不息</l>
+<lb n="0422c28"/><l>諸天復持天華香</l><l>百千伎樂用致敬</l>
+<lb n="0422c29"/><l>如是功德三寶聚</l><l>故我運想禮講堂</l></lg>
+<pb ed="T" id="T47.1978.0423a" n="0423a"/>
+<lb n="0423a01"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a02"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423a03"/><lg><l>妙土廣大超數限</l><l>自然七寶所合成</l>
+<lb n="0423a04"/><l>佛本願力莊嚴起</l><l>稽首清淨大攝受</l></lg>
+<lb n="0423a05"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a06"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423a07"/><lg><l>世界光曜妙殊絕</l><l>適悅<note n="0423001" resp="Taisho" type="orig" place="foot text">宴＝晏【甲】【乙】</note><app n="0423001"><lem>宴</lem><rdg wit="【甲】【乙】" resp="Taisho">晏</rdg></app>安無四時</l>
+<lb n="0423a08"/><l>自利利他力圓滿</l><l>歸命方便巧莊嚴</l>
+<lb n="0423a09"/><l>寶地澄靜平如掌</l><l>無有山川陵谷阻</l>
+<lb n="0423a10"/><l>若佛神力須則見</l><l>稽首不可思議尊</l></lg>
+<lb n="0423a11"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a12"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423a13"/><lg><l>道樹高四百萬里</l><l>周圍由旬有五十</l>
+<lb n="0423a14"/><l>枝葉布里二十萬</l><l>自然眾寶所合成</l>
+<lb n="0423a15"/><l>月光摩尼海輪寶</l><l>眾寶之王而莊嚴</l>
+<lb n="0423a16"/><l>周匝垂間寶瓔珞</l><l>百千萬種色變異</l>
+<lb n="0423a17"/><l>光焰<note n="0423002" resp="Taisho" type="orig" place="foot text">照＝超【乙】</note><app n="0423002"><lem>照</lem><rdg wit="【乙】" resp="Taisho">超</rdg></app>曜超千日</l><l>無極寶網覆其上</l>
+<lb n="0423a18"/><l>一切莊嚴隨應現</l><l>稽首頂禮道場樹</l></lg>
+<lb n="0423a19"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a20"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423a21"/><lg><l>微風吹樹出法音</l><l>普流十方諸佛剎</l>
+<lb n="0423a22"/><l>聞斯音得深法忍</l><l>至成佛道不遭苦</l>
+<lb n="0423a23"/><l>神力廣大不可量</l><l>稽首頂禮道場樹</l></lg>
+<lb n="0423a24"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a25"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423a26"/><lg><l>樹香樹色樹音聲</l><l>樹觸樹味及樹法</l>
+<lb n="0423a27"/><l>六情遇者得法忍</l><l>故我頂禮道場樹</l></lg>
+<lb n="0423a28"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423a29"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<pb ed="T" id="T47.1978.0423b" n="0423b"/>
+<lb n="0423b01"/><lg><l>蒙道場樹對六根</l><l>乃至成佛根清徹</l>
+<lb n="0423b02"/><l>音響柔順無生忍</l><l>隨力淺深咸得證</l>
+<lb n="0423b03"/><l>此樹威德所由來</l><l>皆是如來五種力</l>
+<lb n="0423b04"/><l>神力本願及滿足</l><l>明了堅固究竟願</l>
+<lb n="0423b05"/><l>慈悲方便不可稱</l><l>歸命稽首真無量</l></lg>
+<lb n="0423b06"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423b07"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423b08"/><lg><l>從世帝王至六天</l><l>音樂轉妙有八重</l>
+<lb n="0423b09"/><l>展轉勝前億萬倍</l><l>寶樹音麗倍亦然</l>
+<lb n="0423b10"/><l>復有自然妙伎樂</l><l>法音清和悅心神</l>
+<lb n="0423b11"/><l>哀婉雅亮超十方</l><l>故我稽首清淨樂</l></lg>
+<lb n="0423b12"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423b13"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423b14"/><lg><l>七寶樹林周世界</l><l>光耀鮮明相映發</l>
+<lb n="0423b15"/><l>華果枝葉更互為</l><l>稽首本願功德聚</l></lg>
+<lb n="0423b16"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423b17"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423b18"/><lg><l>清風時時吹寶樹</l><l>出五音聲宮商和</l>
+<lb n="0423b19"/><l>微妙雅曲自然成</l><l>故我頂禮清淨薰</l></lg>
+<lb n="0423b20"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423b21"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423b22"/><lg><l>其土廣大無崖際</l><l>眾寶羅網遍覆上</l>
+<lb n="0423b23"/><l>金縷珠璣奇異珍</l><l>不可名寶為挍飾</l>
+<lb n="0423b24"/><l>周匝四面垂寶鈴</l><l>調風吹動出妙法</l>
+<lb n="0423b25"/><l>和雅德香常流布</l><l>聞者塵勞習不起</l>
+<lb n="0423b26"/><l>此風觸身受快樂</l><l>如比丘得滅盡定</l>
+<lb n="0423b27"/><l>風吹散華滿佛土</l><l>隨色次第不雜亂</l>
+<lb n="0423b28"/><l>華質柔軟<note n="0423003" resp="Taisho" type="orig" place="foot text">烈＝列【甲】【乙】</note><app n="0423003"><lem>烈</lem><rdg wit="【甲】【乙】" resp="Taisho">列</rdg></app>芬芳</l><l>足履其上下四指</l>
+<lb n="0423b29"/><l>隨舉足時還如故</l><l>用訖地開沒無遺</l>
+<pb ed="T" id="T47.1978.0423c" n="0423c"/>
+<lb n="0423c01"/><l>隨其時節華六返</l><l>不可<note n="0423004" resp="Taisho" type="orig" place="foot text">議＝誼【乙】＊</note><app n="0423004"><lem>議</lem><rdg wit="【乙】" resp="Taisho">誼</rdg></app>報故頂禮</l></lg>
+<lb n="0423c02"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423c03"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423c04"/><lg><l>眾寶蓮華盈世界</l><l>一一華百千億葉</l>
+<lb n="0423c05"/><l>其華光明色無量</l><l>朱紫紅綠間五色</l>
+<lb n="0423c06"/><l>煒燁煥爛曜日光</l><l>是故一心稽首禮</l></lg>
+<lb n="0423c07"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423c08"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423c09"/><lg><l>一一華中所出光</l><l>三十六百有千億</l>
+<lb n="0423c10"/><l>一一光中有佛身</l><l>多少亦如所出光</l>
+<lb n="0423c11"/><l>佛身相好如金山</l><l>一一又放百千光</l>
+<lb n="0423c12"/><l>普為十方說妙法</l><l>各安眾生於佛道</l>
+<lb n="0423c13"/><l>如是神力無邊量</l><l>故我歸命阿彌陀</l></lg>
+<lb n="0423c14"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423c15"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423c16"/><lg><l>樓閣殿堂非工造</l><l>七寶彫綺化所成</l>
+<lb n="0423c17"/><l>明月珠璫交露幔</l><l>各有浴池形相稱</l>
+<lb n="0423c18"/><l>八功德水滿<note n="0423005" resp="Taisho" type="orig" place="foot text">池＝其【乙】</note><app n="0423005"><lem>池</lem><rdg wit="【乙】" resp="Taisho">其</rdg></app>中</l><l>色味香潔如甘露</l>
+<lb n="0423c19"/><l>黃金池者白銀沙</l><l>七寶池沙互如此</l>
+<lb n="0423c20"/><l>池岸香樹垂布上</l><l>栴檀芬馥常流<note n="0423006" resp="Taisho" type="orig" place="foot text">馨＝聲【乙】</note><app n="0423006"><lem>馨</lem><rdg wit="【乙】" resp="Taisho">聲</rdg></app></l>
+<lb n="0423c21"/><l>天華<note n="0423007" resp="Taisho" type="orig" place="foot text">璀璨＝彩璨【甲】，彩際【乙】</note><note n="0423007" resp="CBETA" type="mod">璀璨＝彩璨【甲】，＝彩際【乙】</note><app n="0423007"><lem>璀璨</lem><rdg wit="【甲】" resp="Taisho">彩璨</rdg><rdg wit="【乙】" resp="Taisho">彩際</rdg></app>為映飾</l><l>水上熠燿若景雲</l>
+<lb n="0423c22"/><l>無漏依果難思<anchor id="fxT47p0423c01"/>議</l><l>是故稽首功德藏</l></lg>
+<lb n="0423c23"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0423c24"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0423c25"/><lg><l>菩薩聲聞入寶池</l><l>隨意淺深如所欲</l>
+<lb n="0423c26"/><l>若須灌身自然注</l><l>欲令旋復水尋還</l>
+<lb n="0423c27"/><l>調和冷暖無不稱</l><l>神開體悅蕩心垢</l>
+<lb n="0423c28"/><l>清明澄潔若無形</l><l>寶沙映徹如不深</l>
+<lb n="0423c29"/><l>澹淡迴轉相注灌</l><l><note n="0423008" resp="Taisho" type="orig" place="foot text">婥＝綽【乙】</note><app n="0423008"><lem>婥</lem><rdg wit="【乙】" resp="Taisho">綽</rdg></app>約容豫和人神</l>
+<pb ed="T" id="T47.1978.0424a" n="0424a"/>
+<lb n="0424a01"/><l>微波無量出妙響</l><l>隨其所應聞法語</l>
+<lb n="0424a02"/><l>或聞三寶之妙章</l><l>或聞寂靜空無我</l>
+<lb n="0424a03"/><l>或聞無量波羅蜜</l><l>力不共法<note n="0424001" resp="Taisho" type="orig" place="foot text">諸＝隨【乙】</note><app n="0424001"><lem>諸</lem><rdg wit="【乙】" resp="Taisho">隨</rdg></app>通慧</l>
+<lb n="0424a04"/><l>或聞無作無生忍</l><l>乃至甘露灌頂法</l>
+<lb n="0424a05"/><l>隨根性欲皆歡喜</l><l>順三寶相真實義</l>
+<lb n="0424a06"/><l>菩薩聲聞所行道</l><l>於是一切悉具聞</l>
+<lb n="0424a07"/><l>三塗苦難名永閉</l><l>但有自然快樂音</l>
+<lb n="0424a08"/><l>是故其國號安樂</l><l>頭面頂禮無極尊</l></lg>
+<lb n="0424a09"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424a10"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0424a11"/><lg><l><note n="0424002" resp="Taisho" type="orig" place="foot text">本＝大【甲】【乙】</note><app n="0424002"><lem>本</lem><rdg wit="【甲】【乙】" resp="Taisho">大</rdg></app>師龍樹摩訶薩</l><l>誕形像始理頹<note n="0424003" resp="Taisho" type="orig" place="foot text">綱＝網【甲】【乙】</note><app n="0424003"><lem>綱</lem><rdg wit="【甲】【乙】" resp="Taisho">網</rdg></app></l>
+<lb n="0424a12"/><l>關閉邪扇開正轍</l><l>是閻浮提一切眼</l>
+<lb n="0424a13"/><l>伏承尊悟歡喜地</l><l>歸阿彌陀生安樂</l></lg>
+<lb n="0424a14"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424a15"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0424a16"/><lg><l>譬如龍動雲必隨</l><l>閻浮<note n="0424004" resp="Taisho" type="orig" place="foot text">提＝檀【乙】</note><app n="0424004"><lem>提</lem><rdg wit="【乙】" resp="Taisho">檀</rdg></app>放百卉舒</l>
+<lb n="0424a17"/><l>南無慈悲龍樹尊</l><l>至心歸命頭面禮</l></lg>
+<lb n="0424a18"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424a19"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0424a20"/><lg><l>我從無始循三界</l><l>為虛妄輪所迴轉</l>
+<lb n="0424a21"/><l>一念一時所造業</l><l>足繫<note n="0424005" resp="Taisho" type="orig" place="foot text">大地＝六道【甲】【乙】</note><app n="0424005"><lem>大地</lem><rdg wit="【甲】【乙】" resp="Taisho">六道</rdg></app>滯三塗</l>
+<lb n="0424a22"/><l>唯願慈光護念我</l><l>令我不失菩提心</l>
+<lb n="0424a23"/><l>我讚佛<note n="0424006" resp="Taisho" type="orig" place="foot text">慧＝果【甲】</note><app n="0424006"><lem>慧</lem><rdg wit="【甲】" resp="Taisho">果</rdg></app>功德音</l><note n="0424007" resp="Taisho" type="orig" place="foot text">〔願聞…者〕十四字－【乙】</note><app n="0424007" word-count="14"><lem><l>願聞十方諸有緣</l>
+<lb n="0424a24"/><l>欲得往生安樂者</l></lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app><l>普皆如意無障礙</l>
+<lb n="0424a25"/><l>所有功德若大<note n="0424008" resp="Taisho" type="orig" place="foot text">少＝小【乙】</note><app n="0424008"><lem>少</lem><rdg wit="【乙】" resp="Taisho">小</rdg></app></l><l>迴施一切共往生</l>
+<lb n="0424a26"/><l>南無不可思<anchor id="fxT47p0424a01"/>議光</l><l>一心歸命稽首禮</l></lg>
+<lb n="0424a27"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424a28"/><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0424a29"/><lg><l>十方三世無量慧</l><l>同乘一如號正覺</l>
+<pb ed="T" id="T47.1978.0424b" n="0424b"/>
+<lb n="0424b01"/><l>二智圓滿道平等</l><l>攝化隨緣故若干</l>
+<lb n="0424b02"/><l>我歸阿彌陀淨土</l><l>即是歸命諸佛國</l>
+<lb n="0424b03"/><l>我以一心讚一佛</l><l>願遍十方無礙人</l>
+<lb n="0424b04"/><l>如是十方無量佛</l><l>咸各至心頭面禮</l></lg>
+<lb n="0424b05"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424b06"/><note n="0424009" resp="Taisho" type="orig" place="foot text">（（南無…懺悔））百六十一字＝（（讚有百九十五行禮有五十一拜竟））十四字【乙】</note><app n="0424009" word-count="161"><lem><p>南無至心歸命禮西方阿彌陀佛</p>
+<lb n="0424b07"/><lg><l>哀愍覆護我</l><l>令法種增長</l><l>此世及後生</l>
+<lb n="0424b08"/><l>願佛常攝受</l></lg>
+<lb n="0424b09"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424b10"/><p>南無至心歸命禮西方極樂世界觀世音菩薩</p>
+<lb n="0424b11"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424b12"/><p>南無至心歸命禮西方極樂世界大勢至菩薩</p>
+<lb n="0424b13"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424b14"/><p>南無至心歸命禮西方極樂世界諸菩薩清淨
+<lb n="0424b15"/>大海眾</p>
+<lb n="0424b16"/><p rend="margin-left:1">願共諸眾生往生安樂國</p>
+<lb n="0424b17"/><p>普為師僧父母及善知識法界眾生。斷除三
+<lb n="0424b18"/>障。同得往生阿彌陀佛國。歸命懺悔</p></lem><rdg wit="【乙】" resp="Taisho">讚有百九十五行禮有五十一拜竟</rdg></app>
+<lb n="0424b19"/><juan fun="close" n="001"><jhead>讚阿彌陀佛<note n="0424010" resp="Taisho" type="orig" place="foot text">偈＋（終）【甲】，（一卷）【乙】，此下乙本奧書曰願以書寫力早生彌陀國，寬元元年後七月二十一日書寫了一校了釋圓空，深草霞谷真宗律院開祖立信上人真本摸寫功了，天保十五辰四月二十三日同所善福寺住僧良實</note><app n="0424010"><lem>偈</lem><rdg wit="【甲】" resp="Taisho">偈終</rdg><rdg wit="【乙】" resp="Taisho">偈一卷</rdg></app><note n="0424010" place="foot" type="rest">此下乙本奧書曰願以書寫力早生彌陀國，寬元元年後七月二十一日書寫了一校了釋圓空，深草霞谷真宗律院開祖立信上人真本摸寫功了，天保十五辰四月二十三日同所善福寺住僧良實</note></jhead></juan></div1><div1 type="W">
+<lb n="0424b20"/><p rend="　　　　"><note n="0424011" resp="Taisho" type="orig" place="foot text">〔讚一…拜〕十一字－【甲】【乙】</note><app n="0424011" word-count="11"><lem>讚一百九十五　禮五十一拜</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></p></div1>
+</body></text></TEI.2>

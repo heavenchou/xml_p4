@@ -1,0 +1,154 @@
+<!-- CBETA project DTD, generated with FRED 31.12.98  (CW)
+
+converted to XML form 2.1.99 (CW)
+
+-->
+
+<!ELEMENT tei.2            (teiheader, text )>
+<!ELEMENT teiheader        (filedesc, encodingdesc, revisiondesc )>
+<!ELEMENT text             (body)>
+<!ELEMENT filedesc         (titlestmt, editionstmt?, publicationstmt, sourcedesc )>
+<!ELEMENT encodingdesc     (projectdesc)>
+<!ELEMENT revisiondesc     (change)+>
+<!ELEMENT change           (date, respstmt, item)>
+<!ELEMENT titlestmt        (title, respstmt)>
+<!ELEMENT title            (#PCDATA | gaiji)*>
+<!ELEMENT respstmt         (resp | name)*>
+<!ELEMENT resp             (#PCDATA)>
+<!ELEMENT name             (#PCDATA)>
+<!ELEMENT editionstmt      (edition)>
+<!ELEMENT publicationstmt  (distributor, availability, date )>
+<!ELEMENT sourcedesc       (bibl, p?)>
+<!ELEMENT edition          (#PCDATA)>
+<!ELEMENT distributor      ( name, address )>
+<!ELEMENT availability     (p)>
+<!ELEMENT date             (#PCDATA)>
+<!ELEMENT address          (addrline)>
+<!ELEMENT addrline         (#PCDATA)>
+<!ELEMENT p                (#PCDATA | gaiji | lb |pb | skgloss | note | corr | fan | app | anchor | span)*>
+<!ATTLIST p                n    CDATA  #IMPLIED 
+                           lang    CDATA  #IMPLIED   
+                           type    CDATA  #IMPLIED   
+                           rend    CDATA  #IMPLIED   >
+
+<!ELEMENT bibl             (#PCDATA)>
+<!ELEMENT projectdesc      (p+)>
+<!ELEMENT body             ((gaiji | lb |pb | head | juan | byline | div1)*)>
+<!ELEMENT lb               EMPTY>
+<!ATTLIST lb               n    CDATA  #IMPLIED >
+<!ELEMENT head             ( #PCDATA | app | skgloss | corr | gaiji | lb |pb | note | anchor)*>
+<!ATTLIST head             type CDATA  #IMPLIED >
+<!ELEMENT byline           ( #PCDATA | gaiji | lb |pb | app | corr | note)*>
+<!ATTLIST byline           type CDATA  #IMPLIED >
+<!ELEMENT div1             ( head?, (div2 | (p | lg | juan | gaiji | lb |pb | byline | trailer | app | list | anchor)*)*) >
+<!ATTLIST div1             type CDATA  #IMPLIED 
+                           n CDATA #IMPLIED>
+<!ELEMENT div2             (head?, (p | lg | juan | gaiji | lb |pb | byline | trailer | app)*) >
+<!ATTLIST div2             type CDATA  #IMPLIED 
+						   n CDATA #IMPLIED >
+<!ELEMENT term             ( #PCDATA | gaiji | lb |app)*>
+<!ELEMENT lg               ( ( gaiji | lb |l | pb | app | anchor)* )>
+<!ATTLIST lg               type CDATA  #IMPLIED >
+<!ELEMENT pb               EMPTY>
+<!ATTLIST pb               ed   CDATA  #IMPLIED 
+                           id   CDATA  #IMPLIED 
+                           n    CDATA  #IMPLIED >
+<!ELEMENT note             (#PCDATA | app | p | corr | gaiji | lb |pb | lg)*>
+<!ATTLIST note             n    CDATA  #IMPLIED 
+                           type CDATA  #IMPLIED >
+<!ELEMENT l                (#PCDATA | gaiji | skgloss | corr | app | note)*>
+<!ELEMENT trailer          (#PCDATA | gaiji | lb |corr | app)*>
+<!ELEMENT app              ( lem?, rdg+ )>
+<!ATTLIST app 
+						    wit CDATA #IMPLIED
+						    ana IDREFS #IMPLIED 
+     						corresp IDREFS #IMPLIED 
+     						from IDREF #IMPLIED 
+						    to IDREF #IMPLIED 
+     						yuan CDATA #IMPLIED
+						     next IDREF #IMPLIED 
+						     prev IDREF #IMPLIED 
+						     id ID #IMPLIED 
+						     n CDATA #IMPLIED 
+						     lang IDREF #IMPLIED 
+						     rend CDATA #IMPLIED 
+						     TEIform CDATA "app" >
+
+
+<!ELEMENT lem              (#PCDATA | app | gaiji | lb |byline | note | l | pb | corr | lg | fan | head | p | juan)*>
+<!ATTLIST lem 
+						     wit CDATA #IMPLIED
+						     ana IDREFS #IMPLIED 
+						     corresp IDREFS #IMPLIED 
+						     from IDREF #IMPLIED 
+						     to IDREF #IMPLIED 
+						     next IDREF #IMPLIED 
+						     prev IDREF #IMPLIED 
+						     id ID #IMPLIED 
+						     n CDATA #IMPLIED 
+						     lang IDREF #IMPLIED 
+						     rend CDATA #IMPLIED 
+						     TEIform CDATA "lem" >
+
+<!ELEMENT rdg              (#PCDATA | note | juan | head | byline | gaiji)*>
+<!ATTLIST rdg                wit  CDATA  #IMPLIED
+						     ana IDREFS #IMPLIED 
+						     corresp IDREFS #IMPLIED 
+						     from IDREF #IMPLIED 
+						     to IDREF #IMPLIED 
+						     next IDREF #IMPLIED 
+						     prev IDREF #IMPLIED 
+						     id ID #IMPLIED 
+						     n CDATA #IMPLIED 
+						     lang IDREF #IMPLIED 
+						     rend CDATA #IMPLIED 
+						     TEIform CDATA "rdg"  >
+
+<!ELEMENT anchor           EMPTY>
+<!ATTLIST anchor           id  ID  #IMPLIED >
+
+<!ELEMENT list              (head?, (item | gaiji | lb |pb)*)>
+<!ELEMENT item              (#PCDATA | gaiji | lb |app | pb)*>
+
+<!ELEMENT span              (#PCDATA | gaiji | lb |app | pb)*>
+<!ATTLIST span             id  ID  #IMPLIED 
+                           n CDATA  #IMPLIED 
+                           rend CDATA  #IMPLIED >
+
+<!-- CBETA specific elements -->
+
+<!ELEMENT jhead            ( #PCDATA | app | skgloss | corr | gaiji | lb |pb | note | anchor)*>
+<!ATTLIST jhead            type CDATA  #IMPLIED >
+<!ELEMENT juan             ( #PCDATA | skgloss | app | corr | gaiji | lb |pb | note | jhead | head | byline)*>
+<!ATTLIST juan             fun  CDATA  #IMPLIED 
+                           n    CDATA  #IMPLIED >
+
+
+<!ELEMENT fan              ( zi, yin )>
+<!ELEMENT zi               ( #PCDATA )>
+<!ELEMENT yin              ( #PCDATA | app)*>
+
+<!-- GLOSS is from the TEI set, but the attribute alt has been added (CW, 18.11.98) -->
+
+<!ELEMENT skgloss          ( gloss, term )>
+<!ATTLIST skgloss          n    CDATA  #IMPLIED >
+<!ELEMENT gloss            ( #PCDATA | corr | skgloss)*>
+<!ATTLIST gloss            n    CDATA  #IMPLIED
+		                   alt CDATA #IMPLIED >
+
+<!-- CORR is from the TEI set, but the attributes cf1, cf2 has been added (CW, 1.7.98) -->
+
+<!ELEMENT corr             (#PCDATA)>
+<!ATTLIST corr             cf1  CDATA  #IMPLIED 
+                           cf2  CDATA  #IMPLIED 
+                           resp CDATA  #IMPLIED 
+                           sic  CDATA  #IMPLIED >
+
+<!ELEMENT gaiji            EMPTY>
+<!ATTLIST gaiji            id ID #IMPLIED
+                           mojikyo CDATA #IMPLIED
+                           mofont CDATA #IMPLIED
+                           mochar CDATA #IMPLIED
+                           cb CDATA #IMPLIED
+                           des CDATA #IMPLIED
+                           nor CDATA #IMPLIED >

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T22n1429.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+%ENTY;
+%CBENT;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1429 四分律比丘戒本</title>
+			<author>後秦 佛陀耶舍譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:36 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 22, No. 1429</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p type="ly" lang="eng">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous, USA</p>
+		<p type="ly" lang="chi">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19990512/22:09:40</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/5/12)</item>
+	</change>
+<!--
+$Log: T22n1429.xml,v $
+Revision 1.1  2003/05/05 04:09:36  ray
+Initial revision
+
+Revision 1.20  2002/12/05 12:31:36  eva
+modified
+
+Revision 1.19  2002/11/04 10:47:07  ray
+tei.2 => TEI.2
+
+Revision 1.18  2002/10/21 08:14:11  ray
+移動 <anchor>+<note>, <anchor>+雙圈
+
+Revision 1.17  2002/10/07 13:13:55  moved
+modified
+
+Revision 1.16  2002/07/29 09:57:57  vinking
+modified lang
+
+Revision 1.15  2002/04/08 09:13:18  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.14  2001/11/05 06:14:55  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.13  2001/10/16 05:36:49  vinking
+modified [識>織]
+
+Revision 1.12  2001/07/27 07:12:56  ray
+去除多餘的 <author>
+
+Revision 1.11  2001/07/24 06:54:19  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/06/27 03:18:35  vinking
+no message
+
+Revision 1.9  2001/04/01 08:19:31  ray
+CB00380 => CB00308
+
+Revision 1.8  2001/03/30 05:58:49  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 09:22:03  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:59:25  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:49:12  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:36 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T22.1429.1015a" n="1015a"/>
+<lb n="1015a01"/>
+<milestone unit="juan" n="1"/>
+<lb n="1015a02"/><head>No. 1429 [No. 1430; cf. No. 1428]</head>
+<lb n="1015a03"/><div1 type="xu"><mulu type="序" level="1" n="1" label="序"/><head><title>四分<note n="1015001" resp="Taisho" type="orig" place="foot text">〔比丘〕－【聖】</note><app n="1015001"><lem>比丘</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>戒本</title><note place="inline"><note n="1015002" resp="Taisho" type="orig" place="foot text">〔并〕－【明】</note><app n="1015002"><lem>并</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>序</note></head>
+<lb n="1015a04"/>
+<lb n="1015a05"/><byline type="Author"><note n="1015003" resp="Taisho" type="orig" place="foot text">（大唐）＋西【宋】【元】【宮】，（唐）＋西【明】</note><app n="1015003"><lem>西</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">大唐西</rdg><rdg wit="【明】" resp="Taisho">唐西</rdg></app><note n="1015004" resp="Taisho" type="orig" place="foot text">太＝大【聖】</note><app n="1015004"><lem>太</lem><rdg wit="【聖】" resp="Taisho">大</rdg></app>原寺沙門<note n="1015005" resp="Taisho" type="orig" place="foot text">懷＝壞【聖】</note><app n="1015005"><lem>懷</lem><rdg wit="【聖】" resp="Taisho">壞</rdg></app>素<note n="1015006" resp="Taisho" type="orig" place="foot text">集＝依律集出【三】【宮】</note><note n="1015006" resp="CBETA" type="mod">集＝依律集出【宋】【元】【明】【宮】</note><app n="1015006"><lem>集</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">依律集出</rdg></app></byline>
+<lb n="1015a06"/><p><note n="1015007" resp="Taisho" type="orig" place="foot text">以下序文宮本缺</note>夫戒者。迺是定慧之宏基。聖賢之妙趾。窮
+<lb n="1015a07"/>八正之道。盡七覺之源。然既樹五制之良規。
+<lb n="1015a08"/>傳須獲實。揚六和之清訓。<note n="1015008" resp="Taisho" type="orig" place="foot text">學＝覺【宋】【元】</note><app n="1015008"><lem>學</lem><rdg wit="【宋】【元】" resp="Taisho">覺</rdg></app>者知詮。竊尋
+<lb n="1015a09"/>流行。總有四本。據其理雖復同。會其文則有
+<lb n="1015a10"/>異。致使弘揚失於宗敘。修奉乖於行儀。虧鹿
+<lb n="1015a11"/>野之微言。紊龍城之要旨。故今詳撿律本參
+<lb n="1015a12"/>驗戒心。依於正文錄之如左。庶使順菩提之
+<lb n="1015a13"/><note n="1015009" resp="Taisho" type="orig" place="foot text">妙業＝妙道【明】</note><app n="1015009"><lem>妙業</lem><rdg wit="【明】" resp="Taisho">妙道</rdg></app>。成實相之嘉謀。作六趣之舟航。為三
+<lb n="1015a14"/>乘之軌躅者<note n="1015010" resp="Taisho" type="orig" place="foot text">也字次行明本有四分比丘戒本序七字後題，也＋（今除稽首頌者為非本文斯是律序後德取來又此戒經雖彰律部頌旨既別不可妄增）三十四字夾註【聖】</note><app n="1015010"><lem>也</lem><rdg wit="【聖】" resp="Taisho">也<note place="inline">今除稽首頌者為非本文斯是律序後德取來又此戒經雖彰律部頌旨既別不可妄增</note></rdg></app><note n="1015010" place="foot" type="rest">也字次行明本有四分比丘戒本序七字後題</note></p></div1>
+<lb n="1015a15"/><div1 type="jing">
+<lb n="1015a16"/>
+<lb n="1015a17"/>
+<lb n="1015a18"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="1015011" resp="Taisho" type="orig" place="foot text">〔四分…本〕七字－【聖】</note><app n="1015011" word-count="7"><lem><title>四分<note n="1015012" resp="Taisho" type="orig" place="foot text">〔律比丘〕－【三】【宮】</note><note n="1015012" resp="CBETA" type="mod">〔律比丘〕－【宋】【元】【明】【宮】</note><app n="1015012"><lem>律比丘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>戒<note n="1015013" resp="Taisho" type="orig" place="foot text">本＋（二）【宋】【元】，（卷上）【明】，明本以此本為上卷以次本四分僧戒本為下卷為一本上下二卷</note><app n="1015013"><lem>本</lem><rdg wit="【宋】【元】" resp="Taisho">本二</rdg><rdg wit="【明】" resp="Taisho">本卷上</rdg></app><note n="1015013" place="foot" type="rest">明本以此本為上卷以次本四分僧戒本為下卷為一本上下二卷</note></title></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="1015a19"/>
+<lb n="1015a20"/><byline type="Translator"><note n="1015014" resp="Taisho" type="orig" place="foot text">〔後秦…譯〕九字－【三】【宮】【聖】</note><note n="1015014" resp="CBETA" type="mod">〔後秦…譯〕九字－【宋】【元】【明】【宮】【聖】</note><app n="1015014" word-count="9"><lem>後秦三藏佛陀耶舍譯</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></byline>
+<lb n="1015a21"/><lg><note n="1015015" resp="Taisho" type="orig" place="foot text">〔稽首…住〕四句二十字－【聖】</note><note n="1015015" resp="CBETA" type="mod">〔稽首…住〕二十字－【聖】</note><app n="1015015" word-count="20"><lem><l>稽首禮諸佛</l><l>及法比丘僧</l>
+<lb n="1015a22"/><l>今演毘尼法</l><l>令正法久住</l></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
+<lb n="1015a23"/><l>戒如海無涯</l><l>如<note n="1015016" resp="Taisho" type="orig" place="foot text">寶＝實【聖】</note><app n="1015016"><lem>寶</lem><rdg wit="【聖】" resp="Taisho">實</rdg></app>求無厭</l>
+<lb n="1015a24"/><l>欲護聖法財</l><l>眾集聽我說</l>
+<lb n="1015a25"/><l>欲除四棄法</l><l>及滅僧殘法</l>
+<lb n="1015a26"/><l>障三十捨墮</l><l>眾集聽我說</l>
+<lb n="1015a27"/><l>毘婆尸式棄</l><l>毘舍拘<note n="1015017" resp="Taisho" type="orig" place="foot text">樓＝留【三】【宮】</note><note n="1015017" resp="CBETA" type="mod">樓＝留【宋】【元】【明】【宮】</note><app n="1015017"><lem>樓</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">留</rdg></app>孫</l>
+<lb n="1015a28"/><l>拘那含牟尼</l><l>迦葉釋迦文</l>
+<lb n="1015a29"/><l>諸世尊大德</l><l>為我說是事</l>
+<pb ed="T" id="T22.1429.1015b" n="1015b"/>
+<lb n="1015b01"/><l>我今欲善說</l><l>諸賢咸共聽</l>
+<lb n="1015b02"/><l>譬如人毀足</l><l>不堪有所涉</l>
+<lb n="1015b03"/><l>毀戒亦如是</l><l>不得生天人</l>
+<lb n="1015b04"/><l>欲得生天上</l><l>若生人間者</l>
+<lb n="1015b05"/><l>常當護戒足</l><l>勿令有毀損</l>
+<lb n="1015b06"/><l>如御入險道</l><l>失<note n="1015018" resp="Taisho" type="orig" place="foot text">轄＝&CB00429;【宮】【聖】</note><app n="1015018"><lem>轄</lem><rdg wit="【宮】【聖】" resp="Taisho">&CB00429;</rdg></app>折軸憂</l>
+<lb n="1015b07"/><l>毀戒亦如是</l><l>死時懷恐懼</l>
+<lb n="1015b08"/><l>如人自照鏡</l><l>好醜生欣慼</l>
+<lb n="1015b09"/><l>說戒亦如是</l><l>全毀生憂喜</l>
+<lb n="1015b10"/><l>如兩陣共戰</l><l>勇怯有進退</l>
+<lb n="1015b11"/><l>說戒亦如是</l><l>淨穢生安畏</l>
+<lb n="1015b12"/><l>世間王為最</l><l>眾流海為最</l>
+<lb n="1015b13"/><l>眾星月為最</l><l>眾聖佛為最</l>
+<lb n="1015b14"/><l>一切眾律中</l><l>戒經為上最</l>
+<lb n="1015b15"/><l>如來立禁戒</l><l>半月半月說</l></lg>
+<lb n="1015b16"/><p><note n="1015019" resp="Taisho" type="orig" place="foot text">（（僧集…和合））十二字＝（（和合僧集會））五字【三】【宮】【聖】</note><note n="1015019" resp="CBETA" type="mod">（（僧集…和合））十二字＝（（和合僧集會））五字【宋】【元】【明】【宮】【聖】</note><app n="1015019" word-count="12"><lem>僧集<note place="inline">答言僧集</note>和合<note place="inline">答言和合</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">和合僧集會</rdg></app>未受大戒者出<note place="inline"><note n="1015020" resp="Taisho" type="orig" place="foot text">（（有者…者））二十五字＝（（答言僧集和合有未受戒者遣出已答言已出無答言無））二十二字【三】【宮】，（（有者遣出遣已答言已出無者答無））十四字【聖】</note><note n="1015020" resp="CBETA" type="mod">（（有者…者））二十五字＝（（答言僧集和合有未受戒者遣出已答言已出無答言無））二十二字【宋】【元】【明】【宮】，（（有者遣出遣已答言已出無者答無））十四字【聖】</note><app n="1015020" word-count="25"><lem>有者遣出。答言。未受
+<lb n="1015b17"/>大戒者已出。無者答言。此中無未受大戒者</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">答言僧集和合有未受戒者遣出已答言已出無答言無</rdg><rdg wit="【聖】" resp="Taisho">有者遣出遣已答言已出無者答無</rdg></app></note>不來諸比丘。說欲及清
+<lb n="1015b18"/>淨<note place="inline"><note n="1015021" resp="Taisho" type="orig" place="foot text">（（有依…者））十九字＝（（有依法說無答言無））八字【三】【宮】【聖】</note><note n="1015021" resp="CBETA" type="mod">（（有依…者））十九字＝（（有依法說無答言無））八字【宋】【元】【明】【宮】【聖】</note><app n="1015021" word-count="19"><lem>有依法竟答言。說欲已。無者答言。此中無說欲者</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">有依法說無答言無</rdg></app></note>誰<note n="1015022" resp="Taisho" type="orig" place="foot text">遣＝與【聖】</note><app n="1015022"><lem>遣</lem><rdg wit="【聖】" resp="Taisho">與</rdg></app>比丘尼來請教
+<lb n="1015b19"/>誡<note n="1015023" resp="Taisho" type="orig" place="foot text">（（有受…誡））二十六字＝（（有者言請已依請具答無者答云此處無尼來請教誡））二十一字【三】【宮】，（（有者為請請已依請具答無者答云此處無尼來請教誡））二十二字【聖】</note><note n="1015023" resp="CBETA" type="mod">（（有受…誡））二十六字＝（（有者言請已依請具答無者答云此處無尼來請教誡））二十一字【宋】【元】【明】【宮】，（（有者為請請已依請具答無者答云此處無尼來請教誡））二十二字【聖】</note><app n="1015023" word-count="26"><lem><note place="inline">有受尼囑者。為說訖答言。請教誡。已無者答云。此中無尼來請教誡</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><note place="inline">有者言請已依請具答無者答云此處無尼來請教誡</note></rdg><rdg wit="【聖】" resp="Taisho"><note place="inline">有者為請請已依請具答無者答云此處無尼來請教誡</note></rdg></app>僧今和合
+<lb n="1015b20"/>何所作為<note place="inline">答云說戒羯磨</note>大德僧聽。今十五日眾僧
+<lb n="1015b21"/>說戒。若僧時到僧忍聽。和合說戒。白如是。
+<lb n="1015b22"/><note n="1015024" resp="Taisho" type="orig" place="foot text">〔作白…成〕十六字－【三】【宮】【聖】</note><note n="1015024" resp="CBETA" type="mod">〔作白…成〕十六字－【宋】【元】【明】【宮】【聖】</note><app n="1015024" word-count="16"><lem>作白成不<note place="inline">若成答云成若不成答云不成</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>諸大德。我今欲說
+<lb n="1015b23"/>波羅提木叉戒汝等諦聽善<note n="1015025" resp="Taisho" type="orig" place="foot text">思＝心【聖】</note><app n="1015025"><lem>思</lem><rdg wit="【聖】" resp="Taisho">心</rdg></app>念之。若自知
+<lb n="1015b24"/>有犯者。即應自懺悔不犯者默然。默然者知
+<lb n="1015b25"/>諸大德清淨。若有他問者亦如是答。如是比
+<lb n="1015b26"/>丘在眾中乃至三問。憶念有罪<note n="1015026" resp="Taisho" type="orig" place="foot text">〔而〕－【三】【宮】【聖】</note><note n="1015026" resp="CBETA" type="mod">〔而〕－【宋】【元】【明】【宮】【聖】</note><app n="1015026"><lem>而</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>不懺悔者。
+<lb n="1015b27"/>得故妄語罪。故妄語者。佛說障道法。若彼比
+<lb n="1015b28"/>丘憶念有罪。欲求清淨者應懺悔懺悔得安
+<lb n="1015b29"/>樂</p>
+<pb ed="T" id="T22.1429.1015c" n="1015c"/>
+<lb n="1015c01"/><p>諸大德。我已說戒經序今問諸大德。是中清
+<lb n="1015c02"/>淨不<note n="1015027" resp="Taisho" type="orig" place="foot text">第二第三亦如是說＝如是三說【三】【宮】，如是至三【聖】</note><note n="1015027" resp="CBETA" type="mod">第二第三亦如是說＝如是三說【宋】【元】【明】【宮】，＝如是至三【聖】</note><app n="1015027"><lem><note place="inline">第二第三亦如是說</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><note place="inline">如是三說</note></rdg><rdg wit="【聖】" resp="Taisho"><note place="inline">如是至三</note></rdg></app></p>
+<lb n="1015c03"/><p>諸大德。是中清淨。默然故。是事如是持</p>
+<lb n="1015c04"/><p>諸大德。是四波羅夷法。半月半月說戒經中
+<lb n="1015c05"/>來</p>
+<lb n="1015c06"/><p>若比丘共比丘同戒。若不還戒戒羸不自悔。
+<lb n="1015c07"/>犯不淨行。乃至共畜生。是比丘波羅夷不共
+<lb n="1015c08"/>住</p>
+<lb n="1015c09"/><p>若比丘。若在村落。若閑靜處。不與盜心取。隨
+<lb n="1015c10"/>不與取法若為王王大臣所捉若殺若縛若驅
+<lb n="1015c11"/>出國。汝是賊汝癡汝無所知。是比丘波羅夷
+<lb n="1015c12"/>不共住</p>
+<lb n="1015c13"/><p>若比丘。故自手斷人命。持刀<note n="1015028" resp="Taisho" type="orig" place="foot text">〔授〕－【三】【宮】</note><note n="1015028" resp="CBETA" type="mod">〔授〕－【宋】【元】【明】【宮】</note><app n="1015028"><lem>授</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>與人。歎譽
+<lb n="1015c14"/>死快<note n="1015029" resp="Taisho" type="orig" place="foot text">勸＝勤【聖】</note><app n="1015029"><lem>勸</lem><rdg wit="【聖】" resp="Taisho">勤</rdg></app>死咄男子。用此惡活為。寧死不生。
+<lb n="1015c15"/>作如是心。思惟種種方便歎譽死快勸死是
+<lb n="1015c16"/>比丘波羅夷不共住</p>
+<lb n="1015c17"/><p>若比丘。實無所知。自稱言。我得上人法。我已
+<lb n="1015c18"/>入聖智勝法。我知是我見是。彼於異時。若
+<lb n="1015c19"/>問若不問。欲自清淨故。作是說。我實不知不
+<lb n="1015c20"/>見。言知言見虛誑妄語。除增上慢。是比丘波
+<lb n="1015c21"/>羅夷不共住</p>
+<lb n="1015c22"/><p>諸大德。我已說四波羅夷法。若比丘犯一一
+<pb ed="T" id="T22.1429.1016a" n="1016a"/>
+<lb n="1016a01"/>波羅夷法。不得與諸比丘共住。如前後亦如
+<lb n="1016a02"/>是。是比丘得波羅夷罪不應共住</p>
+<lb n="1016a03"/><p>今問諸大德。是中清淨不<note n="1016001" resp="Taisho" type="orig" place="foot text">第二第三亦如是說＝三說【三】【宮】，如是至三【聖】</note><note n="1016001" resp="CBETA" type="mod">第二第三亦如是說＝三說【宋】【元】【明】【宮】，＝如是至三【聖】</note><app n="1016001"><lem><note place="inline">第二第三亦如是說</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><note place="inline">三說</note></rdg><rdg wit="【聖】" resp="Taisho"><note place="inline">如是至三</note></rdg></app></p>
+<lb n="1016a04"/><p>諸大德。是中清淨。默然故。是事如是持</p>
+<lb n="1016a05"/><p>諸大德。是十三僧伽婆尸沙法半月半月說
+<lb n="1016a06"/>戒經中來</p>
+<lb n="1016a07"/><p>若比丘故弄陰出精。除夢中僧伽婆尸沙</p>
+<lb n="1016a08"/><p>若比丘婬欲意。與女人身相觸。若捉手若捉
+<lb n="1016a09"/>髮。若觸一一身分者。僧伽婆尸沙</p>
+<lb n="1016a10"/><p>若比丘婬欲意。與女人&CB00308;惡婬欲語。隨<note n="1016002" resp="Taisho" type="orig" place="foot text">〔所說〕－【三】【宮】【聖】</note><note n="1016002" resp="CBETA" type="mod">〔所說〕－【宋】【元】【明】【宮】【聖】</note><app n="1016002"><lem>所
+<lb n="1016a11"/>說</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>&CB00308;惡婬欲語。僧伽婆尸沙</p>
+<lb n="1016a12"/><p>若比丘婬欲意。於女人前自歎身言。大妹。我
+<lb n="1016a13"/>修梵行持戒。精進修善法。可持是婬欲法供
+<lb n="1016a14"/>養我。如是供養第一最。僧伽婆尸沙</p>
+<lb n="1016a15"/><p>若比丘。往來彼此媒嫁。持男意語女。持女意
+<lb n="1016a16"/>語男。若為成婦事。若為私通<note n="1016003" resp="Taisho" type="orig" place="foot text">〔事〕－【聖】</note><app n="1016003"><lem>事</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。乃至須臾
+<lb n="1016a17"/>頃。僧伽婆尸沙</p>
+<lb n="1016a18"/><p>若比丘。自求作屋。無主自為己。當應量作。是
+<lb n="1016a19"/>中量者。長佛十二磔手。內廣七磔手。當將餘
+<lb n="1016a20"/>比丘指授處所。彼比丘當指示處所。無難處
+<lb n="1016a21"/>無妨處。若比丘有難處妨處。自求作屋。無主
+<lb n="1016a22"/>自為己。不將<note n="1016004" resp="Taisho" type="orig" place="foot text">餘＝諸【三】【宮】</note><note n="1016004" resp="CBETA" type="mod">餘＝諸【宋】【元】【明】【宮】</note><app n="1016004"><lem>餘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">諸</rdg></app>比丘指授處所。若過量作
+<lb n="1016a23"/>者。僧伽婆尸沙</p>
+<lb n="1016a24"/><p>若比丘欲作大房。有主為己作。當將餘比丘
+<lb n="1016a25"/>往指授處所。彼比丘應指授處所。無難處無
+<lb n="1016a26"/>妨處。若比丘有難處妨處作大房。有主為己
+<lb n="1016a27"/>作。不將餘比丘指授處所。僧伽婆尸沙</p>
+<lb n="1016a28"/><p>若比丘瞋恚所覆故。非波羅夷比丘。以無根
+<lb n="1016a29"/>波羅夷法謗。欲壞彼清淨行。彼於異時。若問
+<pb ed="T" id="T22.1429.1016b" n="1016b"/>
+<lb n="1016b01"/>若不問。知此事無根說。我瞋恚故作是語。
+<lb n="1016b02"/>若比丘作是語者。僧伽婆尸沙</p>
+<lb n="1016b03"/><p>若比丘以瞋恚故。於異分事中取片。非波羅
+<lb n="1016b04"/>夷比丘。以無根波羅夷法謗。欲壞彼清淨行。
+<lb n="1016b05"/>彼於異時。若問若不問知是異分事中取片。
+<lb n="1016b06"/>是比丘自言。我瞋恚故作是語。作是語者僧
+<lb n="1016b07"/>伽婆尸沙</p>
+<lb n="1016b08"/><p>若比丘欲壞和合僧。方便受壞和合僧法。堅
+<lb n="1016b09"/>持不捨。彼比丘應諫是比丘<note n="1016005" resp="Taisho" type="orig" place="foot text">〔言〕－【聖】＊</note><app n="1016005"><lem>言</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。大德。莫壞
+<lb n="1016b10"/>和合僧。莫方便壞和合僧。莫受壞僧法堅持
+<lb n="1016b11"/>不捨。<note n="1016006" resp="Taisho" type="orig" place="foot text">大德＝彼比丘【三】【宮】</note><note n="1016006" resp="CBETA" type="mod">大德＝彼比丘【宋】【元】【明】【宮】</note><app n="1016006"><lem>大德</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">彼比丘</rdg></app>。應與僧和<note n="1016007" resp="Taisho" type="orig" place="foot text">合＋（與僧和合）【三】【宮】【聖】</note><note n="1016007" resp="CBETA" type="mod">合＋（與僧和合）【宋】【元】【明】【宮】【聖】</note><app n="1016007"><lem>合</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">合與僧和合</rdg></app>歡喜不諍。同一師
+<lb n="1016b12"/>學如水乳合。於佛法中。有增益安樂住。是
+<lb n="1016b13"/>比丘如是諫時堅持不捨。彼比丘應三諫。捨
+<lb n="1016b14"/>此事故。乃至三諫捨者善不捨者僧伽婆尸
+<lb n="1016b15"/>沙</p>
+<lb n="1016b16"/><p>若比丘<note n="1016008" resp="Taisho" type="orig" place="foot text">〔有餘〕－【三】【宮】【聖】</note><note n="1016008" resp="CBETA" type="mod">〔有餘〕－【宋】【元】【明】【宮】【聖】</note><app n="1016008"><lem>有餘</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>伴黨。若一若二若三乃至無數。
+<lb n="1016b17"/>彼比丘語是比丘<anchor id="fxT22p1016b01"/>言。大德。莫諫此比丘。此
+<lb n="1016b18"/>比丘是法語。比丘律語比丘。此比丘所說
+<lb n="1016b19"/><note n="1016009" resp="Taisho" type="orig" place="foot text">我＝戒【聖】</note><app n="1016009"><lem>我</lem><rdg wit="【聖】" resp="Taisho">戒</rdg></app>等喜樂。此比丘所說我等忍可。彼比丘
+<lb n="1016b20"/>言。大德。莫作是<note n="1016010" resp="Taisho" type="orig" place="foot text">語＝說【三】【宮】【聖】</note><note n="1016010" resp="CBETA" type="mod">語＝說【宋】【元】【明】【宮】【聖】</note><app n="1016010"><lem>語</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">說</rdg></app>言。此比丘<note n="1016011" resp="Taisho" type="orig" place="foot text">〔是〕－【聖】</note><app n="1016011"><lem>是</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>法語比丘
+<lb n="1016b21"/>律語比丘。此比丘所說我等喜樂。此比丘
+<lb n="1016b22"/>所說我等忍可。然此比丘。非法語比丘非律
+<lb n="1016b23"/>語比丘。大德。莫欲破壞和合僧。汝等當樂欲
+<lb n="1016b24"/>和合僧。大德。<note n="1016012" resp="Taisho" type="orig" place="foot text">〔應〕－【三】【宮】【聖】＊</note><note n="1016012" resp="CBETA" type="mod">〔應〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1016012"><lem>應</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>與僧和合歡喜不諍。同一
+<lb n="1016b25"/>師學如水乳合。於佛法中。有<note n="1016013" resp="Taisho" type="orig" place="foot text">增＝僧【明】＊</note><app n="1016013"><lem>增</lem><rdg wit="【明】" resp="Taisho">僧</rdg></app>益安樂住。
+<lb n="1016b26"/>是比丘如是諫時堅持不捨。彼比丘應三諫。
+<lb n="1016b27"/>捨此事故。乃至三諫捨者善。不捨者僧伽婆
+<lb n="1016b28"/>尸沙</p>
+<lb n="1016b29"/><p>若比丘。依聚落若城邑住。污他家行惡行。
+<pb ed="T" id="T22.1429.1016c" n="1016c"/>
+<lb n="1016c01"/>污他家亦見亦聞。行惡行亦見亦聞。諸比丘
+<lb n="1016c02"/>當語是比丘言。大德。污他家行惡行。污他家
+<lb n="1016c03"/>亦見亦聞。行惡行亦見亦聞。大德。汝污他家
+<lb n="1016c04"/>行惡行。今可遠此聚落去。不須住此。是比丘
+<lb n="1016c05"/>語彼比丘。作是語。大德。諸比丘有愛有恚有
+<lb n="1016c06"/>怖有癡。有如是同罪比丘。有驅者有不驅者。
+<lb n="1016c07"/>諸比丘報言。大德。莫作是語。有愛有恚有怖
+<lb n="1016c08"/>有癡。有如是同罪比丘有驅者有不驅者。而
+<lb n="1016c09"/>諸比丘不愛不恚不怖不癡。大德。污他家行
+<lb n="1016c10"/>惡行。污他家亦見亦聞。行惡行亦見亦聞。是
+<lb n="1016c11"/>比丘如是諫時。堅持不捨。彼比丘應<note n="1016014" resp="Taisho" type="orig" place="foot text">（再）＋三【聖】</note><app n="1016014"><lem>三</lem><rdg wit="【聖】" resp="Taisho">再三</rdg></app>諫。
+<lb n="1016c12"/>捨此事故乃至三諫捨者善。不捨者僧伽婆
+<lb n="1016c13"/>尸沙</p>
+<lb n="1016c14"/><p>若比丘惡性不受人語。於戒法中。諸比丘如
+<lb n="1016c15"/>法諫已。自身不受諫語言。諸大德。莫向我說
+<lb n="1016c16"/>若好若惡。我亦不向諸大德說若好若惡。諸
+<lb n="1016c17"/>大德。且止莫諫我。彼比丘<anchor id="fxT22p1016c01"/>應諫是比丘言。
+<lb n="1016c18"/>大德。莫自身不受諫語。大德。自身當受諫語。
+<lb n="1016c19"/>大德如法諫諸比丘。諸比丘亦如法諫大德。
+<lb n="1016c20"/>如是佛弟子眾<note n="1016015" resp="Taisho" type="orig" place="foot text">得＝等【明】</note><app n="1016015"><lem>得</lem><rdg wit="【明】" resp="Taisho">等</rdg></app><anchor id="fxT22p1016c02"/>增益。展轉相諫。展轉相
+<lb n="1016c21"/>教。展轉懺悔。是比丘如是諫時。堅持不捨。彼
+<lb n="1016c22"/>比丘應三諫。捨此事故。乃至三諫捨者善。不
+<lb n="1016c23"/>捨者僧伽婆尸沙</p>
+<lb n="1016c24"/><p>諸大德。我已說十三僧伽婆尸沙法。九初犯
+<lb n="1016c25"/>四乃至三諫。若比丘犯一一法。知而覆藏。應
+<lb n="1016c26"/>強與波利婆沙。行波利婆沙竟。增上與六
+<lb n="1016c27"/><note n="1016016" resp="Taisho" type="orig" place="foot text">夜＋（行）【宮】</note><app n="1016016"><lem>夜</lem><rdg wit="【宮】" resp="Taisho">夜行</rdg></app>摩那埵。行摩那埵已。餘有出罪。應二十
+<lb n="1016c28"/>人僧中出是比丘罪。若少一人不滿二十眾。
+<lb n="1016c29"/>出是比丘罪。是比丘罪不得除。諸比丘亦可
+<pb ed="T" id="T22.1429.1017a" n="1017a"/>
+<lb n="1017a01"/>呵。此是時。今問諸大德。是中清淨不<note n="1017001" resp="Taisho" type="orig" place="foot text">如是三說＝三說【三】【宮】＊，至三【聖】＊</note><note n="1017001" resp="CBETA" type="mod">如是三說＝三說【宋】【元】【明】【宮】＊，＝至三【聖】＊</note><app n="1017001"><lem><note place="inline">如是三說</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho"><note place="inline">三說</note></rdg><rdg wit="【聖】" resp="Taisho"><note place="inline">至三</note></rdg></app></p>
+<lb n="1017a02"/><p>諸大德。是中清淨。默然故。是事如是持</p>
+<lb n="1017a03"/><p>諸大德是二不定法。半月半月說戒經中來</p>
+<lb n="1017a04"/><p>若比丘共女人。獨在屏<note n="1017002" resp="Taisho" type="orig" place="foot text">〔處〕－【聖】</note><app n="1017002"><lem>處</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>覆處障處可作婬
+<lb n="1017a05"/>處坐。說非法語。有住信優婆<note n="1017003" resp="Taisho" type="orig" place="foot text">夷＝私【三】【宮】【聖】＊</note><note n="1017003" resp="CBETA" type="mod">夷＝私【宋】【元】【明】【宮】【聖】＊</note><app n="1017003"><lem>夷</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">私</rdg></app>。<note n="1017004" resp="Taisho" type="orig" place="foot text">〔於〕－【聖】</note><app n="1017004"><lem>於</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>三法中
+<lb n="1017a06"/>一一法說。若波羅夷若僧伽婆尸沙若波逸
+<lb n="1017a07"/>提。是坐比丘自言。我犯是罪。於三法中應一
+<lb n="1017a08"/>一<note n="1017005" resp="Taisho" type="orig" place="foot text">（法）＋治【三】【宮】</note><note n="1017005" resp="CBETA" type="mod">（法）＋治【宋】【元】【明】【宮】</note><app n="1017005"><lem>治</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">法治</rdg></app>。若波羅夷。若僧伽婆尸沙。若波逸提。
+<lb n="1017a09"/>如住信優婆<anchor id="fxT22p1017a01"/>夷所說。應如法治是比丘。是名
+<lb n="1017a10"/>不定法</p>
+<lb n="1017a11"/><p>若比丘共女人。在露現處不可作婬處坐。作
+<lb n="1017a12"/>&CB00308;惡語。有住信優婆夷。於二法中一一法說。
+<lb n="1017a13"/>若僧伽婆尸沙若波逸提。是坐比丘自言。我
+<lb n="1017a14"/>犯是事。於二法中應一一法治。若僧伽婆尸
+<lb n="1017a15"/>沙若波逸提。如住信優婆夷所說。應如法治
+<lb n="1017a16"/>是比丘。是名不定法</p>
+<lb n="1017a17"/><p>諸大德。我已說二不定法。今問諸大德。是中
+<lb n="1017a18"/>清淨不<anchor id="fxT22p1017a02"/><note place="inline">如是三說</note>諸大德。是中清淨。默然故。是事
+<lb n="1017a19"/>如是持</p>
+<lb n="1017a20"/><p>諸大德。是三十尼薩耆波逸提法。半月半月
+<lb n="1017a21"/>說戒經中來</p>
+<lb n="1017a22"/><p>若比丘衣已竟。迦絺那衣已出。畜長衣經十
+<lb n="1017a23"/>日。不淨施得畜。若過十日尼薩耆波逸提</p>
+<lb n="1017a24"/><p>若比丘衣已竟。迦絺那衣已出三衣中離一
+<lb n="1017a25"/>一衣異處宿。除僧羯磨尼薩耆波逸提</p>
+<lb n="1017a26"/><p>若比丘衣已竟。迦絺那衣已出。若比丘得非
+<lb n="1017a27"/>時衣。欲須便受。受已疾疾成衣。若足者善。若
+<lb n="1017a28"/>不足者。得畜一月。為滿足故。若過畜尼薩耆
+<lb n="1017a29"/>波逸提</p>
+<pb ed="T" id="T22.1429.1017b" n="1017b"/>
+<lb n="1017b01"/><p>若比丘從非親里比丘尼取衣。除貿易尼薩
+<lb n="1017b02"/>耆波逸提</p>
+<lb n="1017b03"/><p>若比丘。令非親里比丘尼浣故衣。若染若打。
+<lb n="1017b04"/>尼薩耆波逸提</p>
+<lb n="1017b05"/><p>若比丘。從非親里居士若居士婦乞衣除餘
+<lb n="1017b06"/>時尼薩耆波逸提餘時者。若比丘奪衣失衣
+<lb n="1017b07"/>燒衣漂衣。是謂餘時</p>
+<lb n="1017b08"/><p>若比丘失衣奪衣燒衣漂衣。若非親里居士
+<lb n="1017b09"/>居士婦。自恣請多與衣。是比丘當知<note n="1017006" resp="Taisho" type="orig" place="foot text">足＝是【聖】</note><app n="1017006"><lem>足</lem><rdg wit="【聖】" resp="Taisho">是</rdg></app>受
+<lb n="1017b10"/>衣。若過<note n="1017007" resp="Taisho" type="orig" place="foot text">〔受〕－【三】【宮】，受者＝耆【聖】</note><note n="1017007" resp="CBETA" type="mod">受者＝耆【聖】，〔受〕－【宋】【元】【明】【宮】</note><app n="1017007"><lem>受者</lem><rdg wit="【聖】" resp="Taisho">耆</rdg><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">者</rdg></app>尼薩耆波逸提</p>
+<lb n="1017b11"/><p>若比丘居士居士婦。為比丘辦衣價。買如是
+<lb n="1017b12"/>衣與某甲比丘。是比丘先不受自恣請。到居
+<lb n="1017b13"/>士家<note n="1017008" resp="Taisho" type="orig" place="foot text">〔作〕－【三】【宮】【聖】＊</note><note n="1017008" resp="CBETA" type="mod">〔作〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1017008"><lem>作</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>如是說。善哉居士。為我買如是如是
+<lb n="1017b14"/>衣與我。為好故。若得衣者尼薩耆波逸提</p>
+<lb n="1017b15"/><p>若比丘。二居士居士婦。與比丘辦衣價。持如
+<lb n="1017b16"/>是衣價買如是衣。與某甲比丘。是比丘先不
+<lb n="1017b17"/>受居士自恣請。到二居士家作如是言。善哉
+<lb n="1017b18"/><note n="1017009" resp="Taisho" type="orig" place="foot text">〔居士〕－【聖】</note><app n="1017009"><lem>居士</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。辦如是如是衣價。與我共作一衣。為
+<lb n="1017b19"/>好故。若得衣者尼薩耆波逸提</p>
+<lb n="1017b20"/><p>若比丘。若王若大臣若婆羅門。若居士居士
+<lb n="1017b21"/>婦。遣使為比丘送衣價。持如是衣價與某甲
+<lb n="1017b22"/>比丘。彼使人至比丘所。語比丘言。大德。今為
+<lb n="1017b23"/>汝故。送是衣價受取。是比丘應語彼使如是
+<lb n="1017b24"/>言。我不應受此衣價我若須衣。合時清淨當
+<lb n="1017b25"/>受。彼使語比丘言。大德。有執事人不。須衣比
+<lb n="1017b26"/>丘應語言。有。若僧伽藍民。若優婆塞。此是比
+<lb n="1017b27"/>丘執事人。常為諸比丘執事。時彼使往至執
+<lb n="1017b28"/>事人所。與衣價已還至比丘所。<anchor id="fxT22p1017b01"/>作如是言。
+<lb n="1017b29"/>大德所示某甲執事人。我已與衣價。大德。知
+<pb ed="T" id="T22.1429.1017c" n="1017c"/>
+<lb n="1017c01"/>時往彼當得衣。須衣比丘當往執事人所。若
+<lb n="1017c02"/>二反三反為作憶念。應語言我須衣。若二反
+<lb n="1017c03"/>三反為作憶念。若得衣者善。若不得衣。<anchor id="fxT22p1017c01"/>應
+<lb n="1017c04"/>四反五反六反在前默然<note n="1017010" resp="Taisho" type="orig" place="foot text">住令彼憶念＝立【三】【宮】【聖】</note><note n="1017010" resp="CBETA" type="mod">住令彼憶念＝立【宋】【元】【明】【宮】【聖】</note><app n="1017010"><lem>住。令彼憶念</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">立</rdg></app>。若四
+<lb n="1017c05"/>反五反六反在前默然住。得衣者善。若不得
+<lb n="1017c06"/>衣。過是求得衣者。尼薩耆波逸提。若不得
+<lb n="1017c07"/>衣。從所得衣價處。若自往若遣使往。語言汝
+<lb n="1017c08"/>先遣使持衣價。與某甲比丘。是比丘竟不得
+<lb n="1017c09"/><note n="1017011" resp="Taisho" type="orig" place="foot text">〔衣〕－【三】【宮】【聖】</note><note n="1017011" resp="CBETA" type="mod">〔衣〕－【宋】【元】【明】【宮】【聖】</note><app n="1017011"><lem>衣</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。汝還取莫使失。此是時<note n="1017012" resp="Taisho" type="orig" place="foot text">〔一十〕－【三】【宮】【聖】＊</note><note n="1017012" resp="CBETA" type="mod">〔一十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1017012"><lem><note place="inline">一十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1017c10"/><p>若比丘雜野蠶綿。作新臥具。尼薩耆波逸
+<lb n="1017c11"/>提</p>
+<lb n="1017c12"/><p>若比丘。以新純黑羺羊毛。作新臥具。尼薩耆
+<lb n="1017c13"/>波逸提</p>
+<lb n="1017c14"/><p>若比丘作新臥具。應用二分純黑羊毛。三分
+<lb n="1017c15"/>白四分<note n="1017013" resp="Taisho" type="orig" place="foot text">尨＝牻【三】【宮】【聖】＊</note><note n="1017013" resp="CBETA" type="mod">尨＝牻【宋】【元】【明】【宮】【聖】＊</note><app n="1017013"><lem>尨</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">牻</rdg></app>。若比丘不用二分黑三分白四分
+<lb n="1017c16"/><anchor id="fxT22p1017c02"/>尨。作新臥具者尼薩耆波逸提</p>
+<lb n="1017c17"/><p>若比丘作新臥具持至六年。若減六年不捨
+<lb n="1017c18"/>故。更作新者。除僧羯磨。尼薩耆波逸提</p>
+<lb n="1017c19"/><p>若比丘作新坐具。當取故者。縱廣一磔手<note n="1017014" resp="Taisho" type="orig" place="foot text">帖＝拈【聖】</note><app n="1017014"><lem>帖</lem><rdg wit="【聖】" resp="Taisho">拈</rdg></app>
+<lb n="1017c20"/>著新者上。<note n="1017015" resp="Taisho" type="orig" place="foot text">〔用〕－【聖】</note><app n="1017015"><lem>用</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>壞色故。若作新坐具。不取故
+<lb n="1017c21"/>者縱廣一磔手帖。著新者上用壞色故。尼薩
+<lb n="1017c22"/>耆波逸提</p>
+<lb n="1017c23"/><p>若比丘道路行得羊毛。若無人持。得自持乃
+<lb n="1017c24"/>至三由旬。若無人持自持過三由旬尼薩耆
+<lb n="1017c25"/>波逸提</p>
+<lb n="1017c26"/><p>若比丘使非親里比丘尼浣<note n="1017016" resp="Taisho" type="orig" place="foot text">染＝深【聖】</note><app n="1017016"><lem>染</lem><rdg wit="【聖】" resp="Taisho">深</rdg></app>擘羊毛者。尼
+<lb n="1017c27"/>薩耆波逸提</p>
+<lb n="1017c28"/><p>若比丘。自手捉錢若金銀。若教人捉若置地
+<lb n="1017c29"/>受者。尼薩耆波逸提</p>
+<pb ed="T" id="T22.1429.1018a" n="1018a"/>
+<lb n="1018a01"/><p>若比丘種種賣買<note n="1018001" resp="Taisho" type="orig" place="foot text">〔寶物〕－【三】【宮】【聖】</note><note n="1018001" resp="CBETA" type="mod">〔寶物〕－【宋】【元】【明】【宮】【聖】</note><app n="1018001"><lem>寶物</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>者。尼薩耆波逸提</p>
+<lb n="1018a02"/><p>若比丘種種販賣者尼薩耆波逸提<note n="1018002" resp="Taisho" type="orig" place="foot text">〔二十〕－【三】【宮】【聖】＊</note><note n="1018002" resp="CBETA" type="mod">〔二十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1018002"><lem><note place="inline">二十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1018a03"/><p>若比丘畜長&CB00425;。不淨施得齊十日<note n="1018003" resp="Taisho" type="orig" place="foot text">〔若〕－【三】【宮】</note><note n="1018003" resp="CBETA" type="mod">〔若〕－【宋】【元】【明】【宮】</note><app n="1018003"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>過者尼
+<lb n="1018a04"/>薩耆波逸提</p>
+<lb n="1018a05"/><p>若比丘畜&CB00425;。減五綴不漏。更求新&CB00425;。為好故。
+<lb n="1018a06"/><note n="1018004" resp="Taisho" type="orig" place="foot text">〔若得者〕－【三】【宮】【聖】</note><note n="1018004" resp="CBETA" type="mod">〔若得者〕－【宋】【元】【明】【宮】【聖】</note><app n="1018004"><lem>若得者</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>尼薩耆波逸提。彼比丘應往僧中捨。
+<lb n="1018a07"/>展轉取最下&CB00425;。與之令持。乃至破應持。此是
+<lb n="1018a08"/>時</p>
+<lb n="1018a09"/><p>若比丘自乞縷線。使非親里織師織作衣者。
+<lb n="1018a10"/>尼薩耆波逸提</p>
+<lb n="1018a11"/><p>若比丘。居士居士婦。使織師為比丘織作衣。
+<lb n="1018a12"/>彼比丘先不受自恣請。便往織師所語言。此
+<lb n="1018a13"/>衣為我作。與我極好<corr resp="cp" sic="識">織</corr>令廣大堅緻。我當少
+<lb n="1018a14"/>多與汝價。是比丘與價乃至一食直。若得衣
+<lb n="1018a15"/><note n="1018005" resp="Taisho" type="orig" place="foot text">〔者〕－【三】【宮】【聖】＊</note><note n="1018005" resp="CBETA" type="mod">〔者〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1018005"><lem>者</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>尼薩耆波逸提</p>
+<lb n="1018a16"/><p>若比丘先與比丘衣。後瞋恚<note n="1018006" resp="Taisho" type="orig" place="foot text">〔故〕－【三】【宮】【聖】</note><note n="1018006" resp="CBETA" type="mod">〔故〕－【宋】【元】【明】【宮】【聖】</note><app n="1018006"><lem>故</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。若自奪若教
+<lb n="1018a17"/>人奪取。還我衣來不與汝。<note n="1018007" resp="Taisho" type="orig" place="foot text">是＝若【三】【宮】【聖】</note><note n="1018007" resp="CBETA" type="mod">是＝若【宋】【元】【明】【宮】【聖】</note><app n="1018007"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">若</rdg></app>比丘還衣。彼
+<lb n="1018a18"/>取<note n="1018008" resp="Taisho" type="orig" place="foot text">〔衣〕－【三】【宮】</note><note n="1018008" resp="CBETA" type="mod">〔衣〕－【宋】【元】【明】【宮】</note><app n="1018008"><lem>衣</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>者尼薩耆波逸提</p>
+<lb n="1018a19"/><p>若比丘有病。殘藥<note n="1018009" resp="Taisho" type="orig" place="foot text">酥＝蘇【三】【宮】【聖】＊</note><note n="1018009" resp="CBETA" type="mod">酥＝蘇【宋】【元】【明】【宮】【聖】＊</note><app n="1018009"><lem>酥</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">蘇</rdg></app>油生<anchor id="fxT22p1018a01"/>酥蜜石蜜。齊七
+<lb n="1018a20"/>日得服。若過七日服者。尼薩耆波逸提</p>
+<lb n="1018a21"/><p>若比丘春殘一月在。當求雨浴衣。半月應用
+<lb n="1018a22"/>浴。若比丘過一月前求雨浴衣。過半月前用
+<lb n="1018a23"/>浴。尼薩耆波逸提</p>
+<lb n="1018a24"/><p>若比丘十日未竟夏三月。諸比丘得急施衣。
+<lb n="1018a25"/>比丘知是急施衣。當受。受已乃至衣時應畜。
+<lb n="1018a26"/>若過畜者尼薩耆波逸提</p>
+<lb n="1018a27"/><p>若比丘夏三月竟。後迦提一月滿。在阿蘭若
+<lb n="1018a28"/>有疑恐<note n="1018010" resp="Taisho" type="orig" place="foot text">怖＝懼【三】【宮】【聖】</note><note n="1018010" resp="CBETA" type="mod">怖＝懼【宋】【元】【明】【宮】【聖】</note><app n="1018010"><lem>怖</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">懼</rdg></app>處住。比丘在如是處住。三衣中欲
+<lb n="1018a29"/>留一一衣置<note n="1018011" resp="Taisho" type="orig" place="foot text">〔村〕－【三】【宮】【聖】</note><note n="1018011" resp="CBETA" type="mod">〔村〕－【宋】【元】【明】【宮】【聖】</note><app n="1018011"><lem>村</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>舍內。諸比丘有因緣<note n="1018012" resp="Taisho" type="orig" place="foot text">〔得〕－【三】【宮】【聖】</note><note n="1018012" resp="CBETA" type="mod">〔得〕－【宋】【元】【明】【宮】【聖】</note><app n="1018012"><lem>得</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>離
+<pb ed="T" id="T22.1429.1018b" n="1018b"/>
+<lb n="1018b01"/>衣宿。乃至六夜。若過者尼薩耆波逸提</p>
+<lb n="1018b02"/><p>若比丘知是僧物。自求入己者。尼薩耆波逸
+<lb n="1018b03"/>提<note n="1018013" resp="Taisho" type="orig" place="foot text">〔三十〕－【三】【宮】【聖】＊</note><note n="1018013" resp="CBETA" type="mod">〔三十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1018013"><lem><note place="inline">三十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1018b04"/><p>諸大德我已說三十尼薩耆波逸提法。今問
+<lb n="1018b05"/>諸大德。是中清淨不<anchor id="fxT22p1018b01"/><note place="inline">如是三說</note>諸大德。是中清
+<lb n="1018b06"/>淨。默然故。是事如是持</p>
+<lb n="1018b07"/><p>諸大德。是九十波逸提法。半月半月說戒經
+<lb n="1018b08"/>中來</p>
+<lb n="1018b09"/><p>若比丘。知而妄語者。波逸提</p>
+<lb n="1018b10"/><p>若比丘。種類毀<note n="1018014" resp="Taisho" type="orig" place="foot text">呰＝訾【明】</note><app n="1018014"><lem>呰</lem><rdg wit="【明】" resp="Taisho">訾</rdg></app>語者。波逸提</p>
+<lb n="1018b11"/><p>若比丘。兩舌語者。波逸提</p>
+<lb n="1018b12"/><p>若比丘。與<note n="1018015" resp="Taisho" type="orig" place="foot text">女人＝婦女【三】【宮】【聖】</note><note n="1018015" resp="CBETA" type="mod">女人＝婦女【宋】【元】【明】【宮】【聖】</note><app n="1018015"><lem>女人</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">婦女</rdg></app>同室宿者。波逸提</p>
+<lb n="1018b13"/><p>若比丘。與未受大戒人共宿。過二宿至三宿
+<lb n="1018b14"/><anchor id="fxT22p1018b02"/>者。波逸提</p>
+<lb n="1018b15"/><p>若比丘。與未受<note n="1018016" resp="Taisho" type="orig" place="foot text">〔大〕－【聖】</note><app n="1018016"><lem>大</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>戒人共誦者。波逸提</p>
+<lb n="1018b16"/><p>若比丘知他<note n="1018017" resp="Taisho" type="orig" place="foot text">〔比丘〕－【三】【宮】【聖】＊</note><note n="1018017" resp="CBETA" type="mod">〔比丘〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1018017"><lem>比丘</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>有&CB00308;惡罪。向未受大戒人
+<lb n="1018b17"/>說。除僧羯磨波逸提</p>
+<lb n="1018b18"/><p>若比丘向未受大戒人。說過人法言。我見是
+<lb n="1018b19"/>我知是。實者波逸提</p>
+<lb n="1018b20"/><p>若比丘。與女人說法。過五六語。除有知男子
+<lb n="1018b21"/>波逸提</p>
+<lb n="1018b22"/><p>若比丘。自手掘地若教人掘者。波逸提<anchor id="fxT22p1018b03"/><note place="inline">一十</note></p>
+<lb n="1018b23"/><p>若比丘壞鬼神村<anchor id="fxT22p1018b04"/>者波逸提</p>
+<lb n="1018b24"/><p>若比丘妄作異語。惱他者波逸提</p>
+<lb n="1018b25"/><p>若比丘嫌罵<anchor id="fxT22p1018b05"/>者波逸提</p>
+<lb n="1018b26"/><p>若比丘。取僧繩床木床若臥具坐蓐。露地敷
+<lb n="1018b27"/>若教人敷捨去。不自舉不教人舉。波逸提</p>
+<lb n="1018b28"/><p>若比丘於僧房中。敷僧臥具。若自敷若教人
+<lb n="1018b29"/>敷。若坐若臥。去時不自舉不教人舉。波逸
+<pb ed="T" id="T22.1429.1018c" n="1018c"/>
+<lb n="1018c01"/>提</p>
+<lb n="1018c02"/><p>若比丘知先比丘住處。後來強於中間敷臥
+<lb n="1018c03"/>具止宿。念言。彼若嫌迮者。自當避我去。作如
+<lb n="1018c04"/>是因緣非餘非威儀。波逸提</p>
+<lb n="1018c05"/><p>若比丘瞋他比丘不喜。僧房中若自牽出。教
+<lb n="1018c06"/>他牽出。波逸提</p>
+<lb n="1018c07"/><p>若比丘。若房若重閣上脫&CB00560;繩床<note n="1018018" resp="Taisho" type="orig" place="foot text">（若）＋木【三】【宮】【聖】</note><note n="1018018" resp="CBETA" type="mod">（若）＋木【宋】【元】【明】【宮】【聖】</note><app n="1018018"><lem>木</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">若木</rdg></app>床。若
+<lb n="1018c08"/>坐若臥。波逸提</p>
+<lb n="1018c09"/><p>若比丘知水有蟲。若<note n="1018019" resp="Taisho" type="orig" place="foot text">〔自〕－【三】【宮】【聖】</note><note n="1018019" resp="CBETA" type="mod">〔自〕－【宋】【元】【明】【宮】【聖】</note><app n="1018019"><lem>自</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>澆泥。若<note n="1018020" resp="Taisho" type="orig" place="foot text">〔澆〕－【三】【宮】【聖】</note><note n="1018020" resp="CBETA" type="mod">〔澆〕－【宋】【元】【明】【宮】【聖】</note><app n="1018020"><lem>澆</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>草。若教
+<lb n="1018c10"/>人澆者。波逸提</p>
+<lb n="1018c11"/><p>若比丘作大<note n="1018021" resp="Taisho" type="orig" place="foot text">房＋（舍）【三】【宮】</note><note n="1018021" resp="CBETA" type="mod">房＋（舍）【宋】【元】【明】【宮】</note><app n="1018021"><lem>房</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">房舍</rdg></app>。戶扉&CB00275;牖及餘<note n="1018022" resp="Taisho" type="orig" place="foot text">莊＝裝【元】【明】＊</note><app n="1018022"><lem>莊</lem><rdg wit="【元】【明】" resp="Taisho">裝</rdg></app>飾具。指
+<lb n="1018c12"/>授覆苫齊二三節。若過<anchor id="fxT22p1018c01"/>者波逸提<anchor id="fxT22p1018c02"/><note place="inline">二十</note></p>
+<lb n="1018c13"/><p>若比丘僧不差。教誡比丘尼者。波逸提</p>
+<lb n="1018c14"/><p>若比丘。為僧差教授比丘尼。乃至日暮者。波
+<lb n="1018c15"/>逸提</p>
+<lb n="1018c16"/><p>若比丘語<note n="1018023" resp="Taisho" type="orig" place="foot text">餘＝諸【三】【宮】</note><note n="1018023" resp="CBETA" type="mod">餘＝諸【宋】【元】【明】【宮】</note><app n="1018023"><lem>餘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">諸</rdg></app>比丘。作如是語。<note n="1018024" resp="Taisho" type="orig" place="foot text">〔諸〕－【三】【宮】【聖】</note><note n="1018024" resp="CBETA" type="mod">〔諸〕－【宋】【元】【明】【宮】【聖】</note><app n="1018024"><lem>諸</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>比丘為飲
+<lb n="1018c17"/>食故。教授比丘尼者。波逸提</p>
+<lb n="1018c18"/><p>若比丘與非親里比丘尼衣。除貿易波逸提</p>
+<lb n="1018c19"/><p>若比丘。與非親里比丘尼作衣者。波逸提</p>
+<lb n="1018c20"/><p>若比丘與比丘尼。在屏處坐者。波逸提</p>
+<lb n="1018c21"/><p>若比丘與比丘尼。<note n="1018025" resp="Taisho" type="orig" place="foot text">〔共〕－【三】【宮】【聖】</note><note n="1018025" resp="CBETA" type="mod">〔共〕－【宋】【元】【明】【宮】【聖】</note><app n="1018025"><lem>共</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>期同一道行。從一村
+<lb n="1018c22"/>乃至一村<note n="1018026" resp="Taisho" type="orig" place="foot text">〔間〕－【三】【宮】【聖】</note><note n="1018026" resp="CBETA" type="mod">〔間〕－【宋】【元】【明】【宮】【聖】</note><app n="1018026"><lem>間</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。除異時波逸提。異時者。與估
+<lb n="1018c23"/>客行若疑畏怖時。是謂異時</p>
+<lb n="1018c24"/><p>若比丘與比丘尼。共期同乘一船。上水下水。
+<lb n="1018c25"/>除直渡者波逸提</p>
+<lb n="1018c26"/><p>若比丘。知比丘尼讚歎教化因緣得食食。除
+<lb n="1018c27"/>檀越先<note n="1018027" resp="Taisho" type="orig" place="foot text">〔有〕－【三】【宮】【聖】</note><note n="1018027" resp="CBETA" type="mod">〔有〕－【宋】【元】【明】【宮】【聖】</note><app n="1018027"><lem>有</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>意者。波逸提</p>
+<lb n="1018c28"/><p>若比丘與婦女。共期同一道行。乃至<note n="1018028" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】【聖】</note><note n="1018028" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】【聖】</note><app n="1018028"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>村
+<lb n="1018c29"/>間。波逸提<anchor id="fxT22p1018c03"/><note place="inline">三十</note></p>
+<pb ed="T" id="T22.1429.1019a" n="1019a"/>
+<lb n="1019a01"/><p>若<anchor id="fxT22p1019a01"/>比丘施一食處。無病比丘應一食。若過受
+<lb n="1019a02"/>者波逸提</p>
+<lb n="1019a03"/><p>若比丘展轉食。除餘時波逸提。餘時者。病時
+<lb n="1019a04"/>施衣時。是謂餘時</p>
+<lb n="1019a05"/><p>若比丘別眾食。除餘時波逸提。餘時者。病時。
+<lb n="1019a06"/>作衣時。施衣時。道行時。乘船時。大眾集時。
+<lb n="1019a07"/>沙門施食時。此是時</p>
+<lb n="1019a08"/><p>若比丘至白衣家。請比丘與餅&CB00595;<note n="1019001" resp="Taisho" type="orig" place="foot text">飯＝食【三】【宮】【聖】</note><note n="1019001" resp="CBETA" type="mod">飯＝食【宋】【元】【明】【宮】【聖】</note><app n="1019001"><lem>飯</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">食</rdg></app>。若比丘
+<lb n="1019a09"/>欲須者。當二三&CB00425;受。還至僧伽藍中。應分與
+<lb n="1019a10"/>餘比丘食。若比丘無病。過<note n="1019002" resp="Taisho" type="orig" place="foot text">二＝兩【三】【宮】【聖】</note><note n="1019002" resp="CBETA" type="mod">二＝兩【宋】【元】【明】【宮】【聖】</note><app n="1019002"><lem>二</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">兩</rdg></app>三&CB00425;受持。還
+<lb n="1019a11"/>至僧伽藍中。不分與餘比丘食者。波逸提</p>
+<lb n="1019a12"/><p>若比丘足食竟。或時受請不作餘食法而食
+<lb n="1019a13"/>者。波逸提</p>
+<lb n="1019a14"/><p>若比丘。知他比丘足食己若受請不作餘食
+<lb n="1019a15"/>法。慇懃請與食。長老取是食。以是因緣非餘。
+<lb n="1019a16"/>欲使他犯<anchor id="fxT22p1019a02"/>者。波逸提</p>
+<lb n="1019a17"/><p>若比丘非時。受食食者波逸提</p>
+<lb n="1019a18"/><p>若比丘殘宿食。而食者波逸提</p>
+<lb n="1019a19"/><p>若比丘。不受食若藥著口中除水及楊枝。
+<lb n="1019a20"/>波逸提</p>
+<lb n="1019a21"/><p>若<anchor id="fxT22p1019a03"/>比丘得好美飲食乳酪魚及肉。若比丘如
+<lb n="1019a22"/>此美飲食。無病自為已索者。波逸提<note n="1019003" resp="Taisho" type="orig" place="foot text">〔四十〕－【三】【宮】【聖】＊</note><note n="1019003" resp="CBETA" type="mod">〔四十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1019003"><lem><note place="inline">四十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1019a23"/><p>若比丘外道男外道女。自手與食者。<note n="1019004" resp="Taisho" type="orig" place="foot text">〔皆〕－【三】【宮】</note><note n="1019004" resp="CBETA" type="mod">〔皆〕－【宋】【元】【明】【宮】</note><app n="1019004"><lem>皆</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>波
+<lb n="1019a24"/>逸提</p>
+<lb n="1019a25"/><p>若比丘先受請已。前食後食<note n="1019005" resp="Taisho" type="orig" place="foot text">〔行〕－【三】【宮】【聖】</note><note n="1019005" resp="CBETA" type="mod">〔行〕－【宋】【元】【明】【宮】【聖】</note><app n="1019005"><lem>行</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>詣餘家。不
+<lb n="1019a26"/><note n="1019006" resp="Taisho" type="orig" place="foot text">囑＝屬【聖】＊</note><app n="1019006"><lem>囑</lem><rdg wit="【聖】" resp="Taisho">屬</rdg></app>授餘比丘。除餘時波逸提。餘時者。病時。
+<lb n="1019a27"/>作衣時。施衣時。是謂<note n="1019007" resp="Taisho" type="orig" place="foot text">〔餘〕－【聖】</note><app n="1019007"><lem>餘</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>時</p>
+<lb n="1019a28"/><p>若比丘。在食家中有寶。強安坐者。波逸提</p>
+<lb n="1019a29"/><p>若比丘。食家中有寶。在屏處坐者。波逸提</p>
+<pb ed="T" id="T22.1429.1019b" n="1019b"/>
+<lb n="1019b01"/><p>若比丘。獨與女人露地坐者。波逸提</p>
+<lb n="1019b02"/><p>若比丘。語餘比丘<note n="1019008" resp="Taisho" type="orig" place="foot text">〔作〕－【聖】</note><app n="1019008"><lem>作</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>如是語。大德。共至聚
+<lb n="1019b03"/>落當與汝食。彼比丘竟不教與是比丘食。語
+<lb n="1019b04"/>言。汝去。我與汝一處。若坐若語不樂。我獨坐
+<lb n="1019b05"/>獨語樂。以此因緣非餘。方便遣去<anchor id="fxT22p1019b01"/>者。波逸
+<lb n="1019b06"/>提</p>
+<lb n="1019b07"/><p>若比丘<note n="1019009" resp="Taisho" type="orig" place="foot text">請四月＝受四月請【三】【宮】【聖】</note><note n="1019009" resp="CBETA" type="mod">請四月＝受四月請【宋】【元】【明】【宮】【聖】</note><app n="1019009"><lem>請四月</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">受四月請</rdg></app>與藥。無病比丘應受。若過
+<lb n="1019b08"/>受。除常請更請分請盡形壽請<anchor id="fxT22p1019b02"/>者。波逸提</p>
+<lb n="1019b09"/><p>若比丘往觀軍陣。除時因緣。波逸提</p>
+<lb n="1019b10"/><p>若比丘有因緣。聽至軍中二宿三宿。<note n="1019010" resp="Taisho" type="orig" place="foot text">〔若〕－【三】【宮】【聖】</note><note n="1019010" resp="CBETA" type="mod">〔若〕－【宋】【元】【明】【宮】【聖】</note><app n="1019010"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>過者
+<lb n="1019b11"/>波逸提</p>
+<lb n="1019b12"/><p>若比丘二宿三宿軍中住。或時觀軍陣&CB00508;戰。
+<lb n="1019b13"/>若觀遊軍象馬力勢者。波逸提<note n="1019011" resp="Taisho" type="orig" place="foot text">〔五十〕－【三】【宮】【聖】＊</note><note n="1019011" resp="CBETA" type="mod">〔五十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1019011"><lem><note place="inline">五十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1019b14"/><p>若比丘飲酒者波逸提</p>
+<lb n="1019b15"/><p>若比丘水中嬉戲者波逸提</p>
+<lb n="1019b16"/><p>若比丘以指。相擊&CB00255;者波逸提</p>
+<lb n="1019b17"/><p>若比丘不受諫者波逸提</p>
+<lb n="1019b18"/><p>若比丘恐怖他比丘者波逸提</p>
+<lb n="1019b19"/><p>若比丘半月洗浴。無病比丘應受。不得過。除
+<lb n="1019b20"/>餘時波逸提。餘時者。熱時。病時。作時。風<note n="1019012" resp="Taisho" type="orig" place="foot text">〔時〕－【聖】</note><app n="1019012"><lem>時</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。
+<lb n="1019b21"/>雨時。道行時。此是餘時</p>
+<lb n="1019b22"/><p>若比丘無病。自為炙<note n="1019013" resp="Taisho" type="orig" place="foot text">〔身〕－【聖】</note><app n="1019013"><lem>身</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>故。在露地然火。若
+<lb n="1019b23"/>教人然。除時因緣波逸提</p>
+<lb n="1019b24"/><p>若比丘藏他比丘衣&CB00425;坐具針筒。若自藏教
+<lb n="1019b25"/>人藏。下至戲笑者波逸提</p>
+<lb n="1019b26"/><p>若比丘與<note n="1019014" resp="Taisho" type="orig" place="foot text">〔比丘〕－【三】【宮】</note><note n="1019014" resp="CBETA" type="mod">〔比丘〕－【宋】【元】【明】【宮】</note><app n="1019014"><lem>比丘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>比丘尼式叉摩那沙彌沙彌
+<lb n="1019b27"/>尼衣。後不語主還取著者。波逸提</p>
+<lb n="1019b28"/><p>若比丘得新衣。應<note n="1019015" resp="Taisho" type="orig" place="foot text">〔作〕－【三】【宮】【聖】</note><note n="1019015" resp="CBETA" type="mod">〔作〕－【宋】【元】【明】【宮】【聖】</note><app n="1019015"><lem>作</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>三種壞色。一一色中隨
+<lb n="1019b29"/>意壞。若青若黑若木蘭。若比丘不以三種壞
+<pb ed="T" id="T22.1429.1019c" n="1019c"/>
+<lb n="1019c01"/>色。若青若黑若木蘭。著餘新衣者。波逸提
+<lb n="1019c02"/><note n="1019016" resp="Taisho" type="orig" place="foot text">〔六十〕－【三】【宮】【聖】＊</note><note n="1019016" resp="CBETA" type="mod">〔六十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1019016"><lem><note place="inline">六十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1019c03"/><p>若比丘。故殺畜生命者波逸提</p>
+<lb n="1019c04"/><p>若比丘知水有蟲。飲用者波逸提</p>
+<lb n="1019c05"/><p>若比丘。故惱他比丘。令須臾間不樂<note n="1019017" resp="Taisho" type="orig" place="foot text">〔者〕－【三】【宮】＊</note><note n="1019017" resp="CBETA" type="mod">〔者〕－【宋】【元】【明】【宮】＊</note><app n="1019017"><lem>者</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。波
+<lb n="1019c06"/>逸提</p>
+<lb n="1019c07"/><p>若比丘。知他比丘犯&CB00308;罪。覆藏者波逸提</p>
+<lb n="1019c08"/><p><note n="1019018" resp="Taisho" type="orig" place="foot text">（年滿二十應受大戒）＋若【三】【宮】【聖】</note><note n="1019018" resp="CBETA" type="mod">（年滿二十應受大戒）＋若【宋】【元】【明】【宮】【聖】</note><app n="1019018"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">年滿二十應受大戒若</rdg></app>比丘知年不滿二十與受大戒此人不得
+<lb n="1019c09"/>戒。彼比丘可呵癡故。波逸提</p>
+<lb n="1019c10"/><p>若比丘。知諍事如法懺悔已。後更發<note n="1019019" resp="Taisho" type="orig" place="foot text">起＝舉【聖】</note><app n="1019019"><lem>起</lem><rdg wit="【聖】" resp="Taisho">舉</rdg></app>者。
+<lb n="1019c11"/>波逸提</p>
+<lb n="1019c12"/><p>若比丘知<note n="1019020" resp="Taisho" type="orig" place="foot text">〔是〕－【三】【宮】【聖】</note><note n="1019020" resp="CBETA" type="mod">〔是〕－【宋】【元】【明】【宮】【聖】</note><app n="1019020"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>賊伴結要。共同<note n="1019021" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】【聖】</note><note n="1019021" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】【聖】</note><app n="1019021"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>道行。乃至
+<lb n="1019c13"/>一村間<anchor id="fxT22p1019c01"/>者波逸提</p>
+<lb n="1019c14"/><p>若比丘作如是語。我知佛所說法。行婬欲非
+<lb n="1019c15"/>障道法。彼比丘諫此比丘言。大德。莫作是
+<lb n="1019c16"/>語。莫謗世尊。謗世尊者不善。世尊不作是
+<lb n="1019c17"/>語。世尊無數方便說<note n="1019022" resp="Taisho" type="orig" place="foot text">行婬欲＝犯婬欲者【三】【宮】【聖】</note><note n="1019022" resp="CBETA" type="mod">行婬欲＝犯婬欲者【宋】【元】【明】【宮】【聖】</note><app n="1019022"><lem>行婬欲</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">犯婬欲者</rdg></app>。<note n="1019023" resp="Taisho" type="orig" place="foot text">〔是〕－【聖】</note><app n="1019023"><lem>是</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>障道法。彼
+<lb n="1019c18"/>比丘諫此比丘時。堅持不捨。彼比丘乃至三
+<lb n="1019c19"/>諫。捨此事故。若<note n="1019024" resp="Taisho" type="orig" place="foot text">（再）＋三【三】【宮】</note><note n="1019024" resp="CBETA" type="mod">（再）＋三【宋】【元】【明】【宮】</note><app n="1019024"><lem>三</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">再三</rdg></app>諫捨者善。不捨者波逸
+<lb n="1019c20"/>提</p>
+<lb n="1019c21"/><p>若比丘。知如是語人<note n="1019025" resp="Taisho" type="orig" place="foot text">未＝來【三】【宮】</note><note n="1019025" resp="CBETA" type="mod">未＝來【宋】【元】【明】【宮】</note><app n="1019025"><lem>未</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">來</rdg></app>作法如是邪見而不
+<lb n="1019c22"/>捨。供給所須。共同羯磨止宿言語者。波逸
+<lb n="1019c23"/>提</p>
+<lb n="1019c24"/><p>若比丘知沙彌作如是<note n="1019026" resp="Taisho" type="orig" place="foot text">語＝言【三】【宮】【聖】</note><note n="1019026" resp="CBETA" type="mod">語＝言【宋】【元】【明】【宮】【聖】</note><app n="1019026"><lem>語</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">言</rdg></app>。我從佛聞法。<note n="1019027" resp="Taisho" type="orig" place="foot text">（若）＋行【聖】</note><app n="1019027"><lem>行</lem><rdg wit="【聖】" resp="Taisho">若行</rdg></app>
+<lb n="1019c25"/>婬欲非障道法。彼比丘諫此沙彌如是言。汝
+<lb n="1019c26"/>莫誹謗世尊。謗世尊者不善。世尊不作是語。
+<lb n="1019c27"/>沙彌。世尊無數方便說婬欲是障道法。彼比
+<lb n="1019c28"/>丘諫此沙彌時。堅持不捨。彼比丘應乃至再
+<lb n="1019c29"/>三呵諫。令捨此事故。乃至三<note n="1019028" resp="Taisho" type="orig" place="foot text">諫＋（而）【三】【宮】【聖】</note><note n="1019028" resp="CBETA" type="mod">諫＋（而）【宋】【元】【明】【宮】【聖】</note><app n="1019028"><lem>諫</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">諫而</rdg></app>捨者善。</p>
+<pb ed="T" id="T22.1429.1020a" n="1020a"/>
+<lb n="1020a01"/><p>不捨者彼比丘應語<note n="1020001" resp="Taisho" type="orig" place="foot text">此＝彼【三】【宮】</note><note n="1020001" resp="CBETA" type="mod">此＝彼【宋】【元】【明】【宮】</note><app n="1020001"><lem>此</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">彼</rdg></app>沙彌言。汝自今已去。
+<lb n="1020a02"/>不得言佛是我世尊。不得隨逐餘比丘。如諸
+<lb n="1020a03"/>沙彌得與比丘二三宿。汝今無是事。汝出
+<lb n="1020a04"/>去滅去。不應住此。若比丘知如是眾中被
+<lb n="1020a05"/>擯沙彌。而誘將畜養共止宿<note n="1020002" resp="Taisho" type="orig" place="foot text">〔言語〕－【三】【宮】【聖】</note><note n="1020002" resp="CBETA" type="mod">〔言語〕－【宋】【元】【明】【宮】【聖】</note><app n="1020002"><lem>言語</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>者。波逸提
+<lb n="1020a06"/><note n="1020003" resp="Taisho" type="orig" place="foot text">〔七十〕－【三】【宮】【聖】＊</note><note n="1020003" resp="CBETA" type="mod">〔七十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1020003"><lem><note place="inline">七十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1020a07"/><p>若比丘。餘比丘如法諫時。<note n="1020004" resp="Taisho" type="orig" place="foot text">〔作〕－【三】【宮】</note><note n="1020004" resp="CBETA" type="mod">〔作〕－【宋】【元】【明】【宮】</note><app n="1020004"><lem>作</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>如是語。我今
+<lb n="1020a08"/>不學此戒。當難問餘智慧持律比丘者。波逸
+<lb n="1020a09"/>提。若為知為學故。應難問</p>
+<lb n="1020a10"/><p>若比丘說戒時。作如是語。大德。何用說是
+<lb n="1020a11"/><note n="1020005" resp="Taisho" type="orig" place="foot text">雜＝親【聖】</note><app n="1020005"><lem>雜</lem><rdg wit="【聖】" resp="Taisho">親</rdg></app>碎戒為。說是戒時。令人惱愧懷疑。輕呵
+<lb n="1020a12"/>戒故。波逸提</p>
+<lb n="1020a13"/><p>若比丘說戒時。作如是語。我今始知此法戒
+<lb n="1020a14"/>經所載。半月半月說戒經<note n="1020006" resp="Taisho" type="orig" place="foot text">〔中〕－【聖】</note><app n="1020006"><lem>中</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>來。餘比丘知
+<lb n="1020a15"/>是比丘。若二若三說戒中坐何況多。彼比丘
+<lb n="1020a16"/>無知無解。若犯罪應如法治。更重增無知罪。
+<lb n="1020a17"/>語言。長老。汝無利不善得。汝說戒時不用心
+<lb n="1020a18"/>念不一心<note n="1020007" resp="Taisho" type="orig" place="foot text">攝＝兩【三】【宮】【聖】</note><note n="1020007" resp="CBETA" type="mod">攝＝兩【宋】【元】【明】【宮】【聖】</note><app n="1020007"><lem>攝</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">兩</rdg></app>耳聽法。彼無知故。波逸提</p>
+<lb n="1020a19"/><p>若比丘。共同羯磨已。後如是語。諸比丘隨親
+<lb n="1020a20"/>厚。以眾僧物與者。波逸提</p>
+<lb n="1020a21"/><p>若比丘。眾僧斷事未竟。不與欲而起去<note n="1020008" resp="Taisho" type="orig" place="foot text">〔者〕－【三】【宮】【聖】</note><note n="1020008" resp="CBETA" type="mod">〔者〕－【宋】【元】【明】【宮】【聖】</note><app n="1020008"><lem>者</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。
+<lb n="1020a22"/>波逸提</p>
+<lb n="1020a23"/><p>若比丘與欲已。後悔者波逸提</p>
+<lb n="1020a24"/><p>若比丘<note n="1020009" resp="Taisho" type="orig" place="foot text">（與）＋比丘【三】【聖】</note><note n="1020009" resp="CBETA" type="mod">（與）＋比丘【宋】【元】【明】【聖】</note><app n="1020009"><lem>比丘</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">與比丘</rdg></app>共&CB00508;諍已。聽此語向彼<note n="1020010" resp="Taisho" type="orig" place="foot text">說＋（者）【聖】</note><app n="1020010"><lem>說</lem><rdg wit="【聖】" resp="Taisho">說者</rdg></app>。波
+<lb n="1020a25"/>逸提</p>
+<lb n="1020a26"/><p>若比丘。瞋恚故不喜。打比丘者。波逸提</p>
+<lb n="1020a27"/><p>若比丘。瞋恚不喜。以手<note n="1020011" resp="Taisho" type="orig" place="foot text">搏＝博【聖】</note><app n="1020011"><lem>搏</lem><rdg wit="【聖】" resp="Taisho">博</rdg></app>比丘者。波逸提</p>
+<lb n="1020a28"/><p>若比丘瞋恚故。以無根僧伽婆尸沙<note n="1020012" resp="Taisho" type="orig" place="foot text">〔法〕－【三】【宮】【聖】</note><note n="1020012" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【宮】【聖】</note><app n="1020012"><lem>法</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>謗者。
+<lb n="1020a29"/>波逸提<note n="1020013" resp="Taisho" type="orig" place="foot text">〔八十〕－【三】【宮】【聖】＊</note><note n="1020013" resp="CBETA" type="mod">〔八十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1020013"><lem><note place="inline">八十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<pb ed="T" id="T22.1429.1020b" n="1020b"/>
+<lb n="1020b01"/><p>若比丘剎利水澆頭王種。王未出未藏寶而
+<lb n="1020b02"/>入。若過宮門閾者。波逸提</p>
+<lb n="1020b03"/><p>若比丘<note n="1020014" resp="Taisho" type="orig" place="foot text">若寶中＝寶及【三】【宮】</note><note n="1020014" resp="CBETA" type="mod">若寶中＝寶及【宋】【元】【明】【宮】</note><app n="1020014"><lem>若寶<note n="1020015" resp="Taisho" type="orig" place="foot text">中＝及【聖】</note><app n="1020015"><lem>中</lem><rdg wit="【聖】" resp="Taisho">及</rdg></app></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">寶及</rdg></app>寶莊飾<note n="1020016" resp="Taisho" type="orig" place="foot text">〔具若〕－【聖】</note><app n="1020016"><lem>具。<note n="1020017" resp="Taisho" type="orig" place="foot text">〔若〕－【三】【宮】</note><note n="1020017" resp="CBETA" type="mod">〔若〕－【宋】【元】【明】【宮】</note><app n="1020017"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>自捉若教
+<lb n="1020b04"/>人捉。除僧伽藍中及寄宿處。波逸提。若比丘
+<lb n="1020b05"/>在僧伽藍中。若寄宿處。捉寶<note n="1020018" resp="Taisho" type="orig" place="foot text">若＋（以）【三】【宮】【聖】</note><note n="1020018" resp="CBETA" type="mod">若＋（以）【宋】【元】【明】【宮】【聖】</note><app n="1020018"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">若以</rdg></app>寶<anchor id="fxT22p1020b01"/>莊飾
+<lb n="1020b06"/><note n="1020019" resp="Taisho" type="orig" place="foot text">〔具〕－【三】【宮】【聖】</note><note n="1020019" resp="CBETA" type="mod">〔具〕－【宋】【元】【明】【宮】【聖】</note><app n="1020019"><lem>具</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。自捉教人捉。當作是意。若有主識者當
+<lb n="1020b07"/>取。作如是因緣非餘若比丘。非時入聚落。
+<lb n="1020b08"/>不<anchor id="fxT22p1020b02"/>囑比丘者。波逸提</p>
+<lb n="1020b09"/><p>若比丘作繩床木床。足應高如來八指。除入
+<lb n="1020b10"/>梐孔上。截竟若過者波逸提</p>
+<lb n="1020b11"/><p>若比丘。作兜羅綿<note n="1020020" resp="Taisho" type="orig" place="foot text">貯＝&CB01728;【聖】</note><app n="1020020"><lem>貯</lem><rdg wit="【聖】" resp="Taisho">&CB01728;</rdg></app>繩床木床大小蓐。成者
+<lb n="1020b12"/>波逸提</p>
+<lb n="1020b13"/><p>若比丘作骨牙角針筒刳刮。<note n="1020021" resp="Taisho" type="orig" place="foot text">〔成〕－【聖】</note><app n="1020021"><lem>成</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>者波逸提</p>
+<lb n="1020b14"/><p>若比丘作尼師<note n="1020022" resp="Taisho" type="orig" place="foot text">檀＝壇【三】【宮】【聖】</note><note n="1020022" resp="CBETA" type="mod">檀＝壇【宋】【元】【明】【宮】【聖】</note><app n="1020022"><lem>檀</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">壇</rdg></app>。當應量作。是中量者。長
+<lb n="1020b15"/>佛二磔手。廣一磔手半。更增廣長各半磔手。
+<lb n="1020b16"/>若過裁竟波逸提</p>
+<lb n="1020b17"/><p>若比丘作覆瘡衣。當應量作。是中量者。長佛
+<lb n="1020b18"/>四磔手。廣二磔手。裁竟過者波逸提</p>
+<lb n="1020b19"/><p>若比丘作雨浴衣。當應量作。是中量者。長佛
+<lb n="1020b20"/>六磔手。廣二磔手半。過者裁竟波逸提</p>
+<lb n="1020b21"/><p>若比丘與如來等量作衣。<note n="1020023" resp="Taisho" type="orig" place="foot text">若＝或【三】【宮】【聖】</note><note n="1020023" resp="CBETA" type="mod">若＝或【宋】【元】【明】【宮】【聖】</note><app n="1020023"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">或</rdg></app>過量作者。波逸
+<lb n="1020b22"/>提。是中如來衣量者。長佛<note n="1020024" resp="Taisho" type="orig" place="foot text">九＝十【三】【宮】【聖】</note><note n="1020024" resp="CBETA" type="mod">九＝十【宋】【元】【明】【宮】【聖】</note><app n="1020024"><lem>九</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">十</rdg></app>磔手。廣六磔
+<lb n="1020b23"/>手。是謂如來衣量<note n="1020025" resp="Taisho" type="orig" place="foot text">〔九十〕－【三】【宮】【聖】＊</note><note n="1020025" resp="CBETA" type="mod">〔九十〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1020025"><lem><note place="inline">九十</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1020b24"/><p>諸大德。我已說九十波逸提法。今問諸大德。
+<lb n="1020b25"/>是中清淨不<anchor id="fxT22p1020b03"/><note place="inline">如是三說</note>諸大德。是中清淨。默然故。
+<lb n="1020b26"/>是事如是持</p>
+<lb n="1020b27"/><p>諸大德。是四波羅提提舍尼法。半月半月說
+<lb n="1020b28"/>戒經中來</p>
+<lb n="1020b29"/><p>若比丘入村中。從非親里比丘尼。<note n="1020026" resp="Taisho" type="orig" place="foot text">（若）＋無病【三】【宮】【聖】</note><note n="1020026" resp="CBETA" type="mod">（若）＋無病【宋】【元】【明】【宮】【聖】</note><app n="1020026"><lem>無病</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">若無病</rdg></app>自手
+<pb ed="T" id="T22.1429.1020c" n="1020c"/>
+<lb n="1020c01"/>取食食者。是比丘應向餘比丘悔過言。大德。
+<lb n="1020c02"/>我犯可呵法所不應為。我今向大德悔過。<note n="1020027" resp="Taisho" type="orig" place="foot text">是＋（法）【三】【宮】【聖】＊</note><note n="1020027" resp="CBETA" type="mod">是＋（法）【宋】【元】【明】【宮】【聖】＊</note><app n="1020027"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">是法</rdg></app>
+<lb n="1020c03"/>名悔過法</p>
+<lb n="1020c04"/><p>若比丘至白衣家內食。是中有比丘尼指示。
+<lb n="1020c05"/>與某甲羹與某甲飯。<note n="1020028" resp="Taisho" type="orig" place="foot text">〔是〕－【聖】</note><app n="1020028"><lem>是</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>比丘應語彼比丘尼
+<lb n="1020c06"/>如是言。大姊。且止須<note n="1020029" resp="Taisho" type="orig" place="foot text">〔諸〕－【三】【宮】＊，【聖】</note><note n="1020029" resp="CBETA" type="mod">〔諸〕－【宋】【元】【明】【宮】＊，【聖】</note><app n="1020029"><lem>諸</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>比丘食竟。若無一
+<lb n="1020c07"/>比丘語彼比丘尼如是言。大姊。且止須<anchor id="fxT22p1020c01"/>諸比
+<lb n="1020c08"/>丘食竟者。是比丘應向餘比丘悔過言。大德。
+<lb n="1020c09"/>我犯可呵法所不應為。我今向<note n="1020030" resp="Taisho" type="orig" place="foot text">（諸）＋大【三】【宮】</note><note n="1020030" resp="CBETA" type="mod">（諸）＋大【宋】【元】【明】【宮】</note><app n="1020030"><lem>大</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">諸大</rdg></app>德悔過。
+<lb n="1020c10"/><anchor id="fxT22p1020c02"/>是名悔過法</p>
+<lb n="1020c11"/><p>若先作學家羯磨。若比丘於如是學<note n="1020031" resp="Taisho" type="orig" place="foot text">家＝處【三】【宮】</note><note n="1020031" resp="CBETA" type="mod">家＝處【宋】【元】【明】【宮】</note><app n="1020031"><lem>家</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">處</rdg></app>。先不
+<lb n="1020c12"/><note n="1020032" resp="Taisho" type="orig" place="foot text">（受）＋請【三】【宮】</note><note n="1020032" resp="CBETA" type="mod">（受）＋請【宋】【元】【明】【宮】</note><app n="1020032"><lem>請</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">受請</rdg></app>無病自手受食食者。是比丘應向餘比丘
+<lb n="1020c13"/>悔過言。大德。我犯可呵法所不應為。我今
+<lb n="1020c14"/><note n="1020033" resp="Taisho" type="orig" place="foot text">向＝阿【宋】</note><app n="1020033"><lem>向</lem><rdg wit="【宋】" resp="Taisho">阿</rdg></app>大德悔過。<anchor id="fxT22p1020c03"/>是名悔過法</p>
+<lb n="1020c15"/><p>若比丘在阿蘭若&CB00529;遠有疑恐怖處<note n="1020034" resp="Taisho" type="orig" place="foot text">〔住〕－【三】【宮】【聖】</note><note n="1020034" resp="CBETA" type="mod">〔住〕－【宋】【元】【明】【宮】【聖】</note><app n="1020034"><lem>住</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。若比
+<lb n="1020c16"/>丘在如是阿蘭若處住。先不語檀越。<note n="1020035" resp="Taisho" type="orig" place="foot text">若＋（在）【三】【宮】</note><note n="1020035" resp="CBETA" type="mod">若＋（在）【宋】【元】【明】【宮】</note><app n="1020035"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">若在</rdg></app>僧伽
+<lb n="1020c17"/>藍外不受食。在僧伽藍內。無病自手受食食
+<lb n="1020c18"/>者。<note n="1020036" resp="Taisho" type="orig" place="foot text">〔是比丘〕－【聖】</note><app n="1020036"><lem>是比丘</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>應向餘比丘悔過言。大德。我
+<lb n="1020c19"/>犯可呵法所不應為。我今向大德悔過。<anchor id="fxT22p1020c04"/>是名
+<lb n="1020c20"/>悔過法</p>
+<lb n="1020c21"/><p>諸大德我已說四波<note n="1020037" resp="Taisho" type="orig" place="foot text">羅＝罪【聖】</note><app n="1020037"><lem>羅</lem><rdg wit="【聖】" resp="Taisho">罪</rdg></app>提提舍尼法。今問諸
+<lb n="1020c22"/>大德。是中清淨不<anchor id="fxT22p1020c05"/><note place="inline">如是三說</note>諸大德。是中清淨。
+<lb n="1020c23"/>默然故。是事如是持</p>
+<lb n="1020c24"/><p>諸大德。<note n="1020038" resp="Taisho" type="orig" place="foot text">此＝是【三】【宮】</note><note n="1020038" resp="CBETA" type="mod">此＝是【宋】【元】【明】【宮】</note><app n="1020038"><lem>此</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是</rdg></app>眾學<note n="1020039" resp="Taisho" type="orig" place="foot text">戒＝我【聖】＊</note><app n="1020039"><lem>戒</lem><rdg wit="【聖】" resp="Taisho">我</rdg></app>法。半月半月說<anchor id="fxT22p1020c06"/>戒。經
+<lb n="1020c25"/>中來</p>
+<lb n="1020c26"/><p>當齊整著涅槃僧。應當學</p>
+<lb n="1020c27"/><p>當齊整著三衣。應當學</p>
+<lb n="1020c28"/><p>不得反抄衣行入白衣舍。應當學</p>
+<lb n="1020c29"/><p>不得反抄衣入白衣舍坐。應當學</p>
+<pb ed="T" id="T22.1429.1021a" n="1021a"/>
+<lb n="1021a01"/><p>不得衣纏頸入白衣舍。應當學</p>
+<lb n="1021a02"/><p>不得衣纏頸入白衣舍坐。應當學</p>
+<lb n="1021a03"/><p>不得覆頭入白衣舍。應當學</p>
+<lb n="1021a04"/><p>不得覆頭入白衣舍坐應當學</p>
+<lb n="1021a05"/><p>不得跳行入白衣舍。應當學</p>
+<lb n="1021a06"/><p>不得跳行入白衣舍坐。應當學<anchor id="fxT22p1021a01"/><note place="inline">一十</note></p>
+<lb n="1021a07"/><p>不得白衣舍內蹲坐。應當學</p>
+<lb n="1021a08"/><p>不得叉腰行入白衣舍。應當學</p>
+<lb n="1021a09"/><p>不得叉<note n="1021001" resp="Taisho" type="orig" place="foot text">腰＋（行）【三】【宮】</note><note n="1021001" resp="CBETA" type="mod">腰＋（行）【宋】【元】【明】【宮】</note><app n="1021001"><lem>腰</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">腰行</rdg></app>入白衣舍坐。應當學</p>
+<lb n="1021a10"/><p>不得搖身行入白衣舍。應當學</p>
+<lb n="1021a11"/><p>不得搖身行入白衣舍坐。應當學</p>
+<lb n="1021a12"/><p>不得掉臂行入白衣舍。應當學</p>
+<lb n="1021a13"/><p>不得掉臂行入白衣舍坐。應當學</p>
+<lb n="1021a14"/><p>好覆身入白衣舍。應當學</p>
+<lb n="1021a15"/><p>好覆身入白衣舍坐。應當學</p>
+<lb n="1021a16"/><p>不得左右顧視行入白衣舍。應當學<anchor id="fxT22p1021a02"/><note place="inline">二十</note></p>
+<lb n="1021a17"/><p>不得左右顧視行入白衣舍坐。應當學</p>
+<lb n="1021a18"/><p>靜默入白衣舍。應當學</p>
+<lb n="1021a19"/><p>靜默入白衣舍坐。應當學</p>
+<lb n="1021a20"/><p>不得戲笑行入白衣舍。應當學</p>
+<lb n="1021a21"/><p>不得戲笑行入白衣舍坐。應當學</p>
+<lb n="1021a22"/><p>用意受食。應當學</p>
+<lb n="1021a23"/><p>平&CB00425;受食。應當學</p>
+<lb n="1021a24"/><p>平&CB00425;受羹。應當學</p>
+<lb n="1021a25"/><p>羹飯等食。應當學</p>
+<lb n="1021a26"/><p>以次食。應當學<anchor id="fxT22p1021a03"/><note place="inline">三十</note></p>
+<lb n="1021a27"/><p>不得挑&CB00425;<note n="1021002" resp="Taisho" type="orig" place="foot text">中＋（央）【三】【宮】</note><note n="1021002" resp="CBETA" type="mod">中＋（央）【宋】【元】【明】【宮】</note><app n="1021002"><lem>中</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">中央</rdg></app>而食。應當學</p>
+<lb n="1021a28"/><p>若比丘<note n="1021003" resp="Taisho" type="orig" place="foot text">無＝不【三】【宮】【聖】</note><note n="1021003" resp="CBETA" type="mod">無＝不【宋】【元】【明】【宮】【聖】</note><app n="1021003"><lem>無</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">不</rdg></app>病。不得<note n="1021004" resp="Taisho" type="orig" place="foot text">（自）＋為【聖】</note><app n="1021004"><lem>為</lem><rdg wit="【聖】" resp="Taisho">自為</rdg></app>己索羹飯。應當學</p>
+<lb n="1021a29"/><p>不得以飯覆羹更望得。應當學</p>
+<pb ed="T" id="T22.1429.1021b" n="1021b"/>
+<lb n="1021b01"/><p>不得視比坐&CB00425;中<note n="1021005" resp="Taisho" type="orig" place="foot text">〔食〕－【三】【宮】【聖】</note><note n="1021005" resp="CBETA" type="mod">〔食〕－【宋】【元】【明】【宮】【聖】</note><app n="1021005"><lem>食</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。應當學</p>
+<lb n="1021b02"/><p>當繫&CB00425;想食。應當學</p>
+<lb n="1021b03"/><p>不得大摶飯食。應當學</p>
+<lb n="1021b04"/><p>不得大張口待<note n="1021006" resp="Taisho" type="orig" place="foot text">（飯）＋食【三】【宮】【聖】</note><note n="1021006" resp="CBETA" type="mod">（飯）＋食【宋】【元】【明】【宮】【聖】</note><app n="1021006"><lem>食</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">飯食</rdg></app>。應當學</p>
+<lb n="1021b05"/><p>不得含飯語。應當學</p>
+<lb n="1021b06"/><p>不得摶飯遙擲口中。應當學</p>
+<lb n="1021b07"/><p>不得遺落飯食。應當學<anchor id="fxT22p1021b01"/><note place="inline">四十</note></p>
+<lb n="1021b08"/><p>不得頰食食。應當學</p>
+<lb n="1021b09"/><p>不得嚼飯作聲食。應當學</p>
+<lb n="1021b10"/><p>不得大&CB00078;飯食。應當學</p>
+<lb n="1021b11"/><p>不得舌舐食。應當學</p>
+<lb n="1021b12"/><p>不得振手食。應當學</p>
+<lb n="1021b13"/><p>不得手把散飯食。應當學</p>
+<lb n="1021b14"/><p>不得污手捉<note n="1021007" resp="Taisho" type="orig" place="foot text">飲＝食【三】【宮】</note><note n="1021007" resp="CBETA" type="mod">飲＝食【宋】【元】【明】【宮】</note><app n="1021007"><lem>飲</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">食</rdg></app>器。應當學</p>
+<lb n="1021b15"/><p>不得洗&CB00425;水棄白衣舍內。應當學</p>
+<lb n="1021b16"/><p>不得生草<note n="1021008" resp="Taisho" type="orig" place="foot text">葉＝菜【三】【宮】【聖】</note><note n="1021008" resp="CBETA" type="mod">葉＝菜【宋】【元】【明】【宮】【聖】</note><app n="1021008"><lem>葉</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">菜</rdg></app>上大小便涕唾。除病。應當學</p>
+<lb n="1021b17"/><p>不得<note n="1021009" resp="Taisho" type="orig" place="foot text">（淨）＋水【聖】</note><app n="1021009"><lem>水</lem><rdg wit="【聖】" resp="Taisho">淨水</rdg></app>中大小便涕唾。除病。應當學<anchor id="fxT22p1021b02"/><note place="inline">五十</note></p>
+<lb n="1021b18"/><p>不得立大小便。除病。應當學</p>
+<lb n="1021b19"/><p>不得與反抄衣不恭敬人說法。除病。應當學</p>
+<lb n="1021b20"/><p>不得為衣纏頸者說法。除病。應當學</p>
+<lb n="1021b21"/><p>不得為覆頭者說法。除病。應當學</p>
+<lb n="1021b22"/><p>不得為裹頭者說法。除病。應當學</p>
+<lb n="1021b23"/><p>不得為叉腰者說法。除病。應當學</p>
+<lb n="1021b24"/><p>不得為著革屣者說法。除病。應當學</p>
+<lb n="1021b25"/><p>不得為著木屐者說法。除病。應當學</p>
+<lb n="1021b26"/><p>不得為騎乘者說法。除病。應當學</p>
+<lb n="1021b27"/><p>不得在佛塔中止宿。除為守護<note n="1021010" resp="Taisho" type="orig" place="foot text">〔故〕－【聖】</note><app n="1021010"><lem>故</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。應當學
+<lb n="1021b28"/><anchor id="fxT22p1021b03"/><note place="inline">六十</note></p>
+<lb n="1021b29"/><p>不得藏財物置佛塔中。除為堅牢<note n="1021011" resp="Taisho" type="orig" place="foot text">〔故〕－【三】【宮】</note><note n="1021011" resp="CBETA" type="mod">〔故〕－【宋】【元】【明】【宮】</note><app n="1021011"><lem>故</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。應當
+<pb ed="T" id="T22.1429.1021c" n="1021c"/>
+<lb n="1021c01"/>學</p>
+<lb n="1021c02"/><p>不得著<note n="1021012" resp="Taisho" type="orig" place="foot text">革＝草【元】【明】＊</note><app n="1021012"><lem>革</lem><rdg wit="【元】【明】" resp="Taisho">草</rdg></app>屣入佛塔中。應當學</p>
+<lb n="1021c03"/><p>不得手捉<anchor id="fxT22p1021c01"/>革屣入佛塔中。應當學</p>
+<lb n="1021c04"/><p>不得著<anchor id="fxT22p1021c02"/>革屣繞佛塔行。應當學</p>
+<lb n="1021c05"/><p>不得著富羅入佛塔中。應當學</p>
+<lb n="1021c06"/><p>不得手捉富羅入佛塔中。應當學</p>
+<lb n="1021c07"/><p>不得<note n="1021013" resp="Taisho" type="orig" place="foot text">〔佛〕－【三】【宮】【聖】＊</note><note n="1021013" resp="CBETA" type="mod">〔佛〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1021013"><lem>佛</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>塔下坐食留草及食污地。應當學</p>
+<lb n="1021c08"/><p>不得擔死屍從<anchor id="fxT22p1021c03"/>佛塔下過。應當學</p>
+<lb n="1021c09"/><p>不得<note n="1021014" resp="Taisho" type="orig" place="foot text">〔在〕－【三】【宮】【聖】</note><note n="1021014" resp="CBETA" type="mod">〔在〕－【宋】【元】【明】【宮】【聖】</note><app n="1021014"><lem>在</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app><anchor id="fxT22p1021c04"/>佛塔下埋死屍。應當學</p>
+<lb n="1021c10"/><p>不得在<anchor id="fxT22p1021c05"/>佛塔下燒死屍。應當學<anchor id="fxT22p1021c06"/><note place="inline">七十</note></p>
+<lb n="1021c11"/><p>不得向<anchor id="fxT22p1021c07"/>佛塔燒死屍。應當學</p>
+<lb n="1021c12"/><p>不得佛塔四邊燒死屍使臭氣來入。應當學</p>
+<lb n="1021c13"/><p>不得持死人衣及床從<anchor id="fxT22p1021c08"/>佛塔下過。除浣染香
+<lb n="1021c14"/><note n="1021015" resp="Taisho" type="orig" place="foot text">熏＝重【宋】【元】，董【明】</note><note n="1021015" resp="CBETA" type="mod">董＝熏【宋】【元】，＝熏【明】</note><app n="1021015"><lem>董</lem><rdg wit="【宋】【元】" resp="Taisho">熏</rdg><rdg wit="【明】" resp="Taisho"><todo/>熏</rdg></app>。應當學</p>
+<lb n="1021c15"/><p>不得佛塔下大小便。應當學</p>
+<lb n="1021c16"/><p>不得向佛塔大小便。應當學</p>
+<lb n="1021c17"/><p>不得繞佛塔四邊大小便使臭氣來入。應當
+<lb n="1021c18"/>學</p>
+<lb n="1021c19"/><p>不得持佛像至大小便處。應當學</p>
+<lb n="1021c20"/><p>不得在佛塔下嚼楊枝。應當學</p>
+<lb n="1021c21"/><p>不得向佛塔嚼楊枝。應當學</p>
+<lb n="1021c22"/><p>不得佛塔四邊嚼楊枝。應當學<anchor id="fxT22p1021c09"/><note place="inline">八十</note></p>
+<lb n="1021c23"/><p>不得在佛塔下<note n="1021016" resp="Taisho" type="orig" place="foot text">涕＝洟【三】【宮】＊</note><note n="1021016" resp="CBETA" type="mod">涕＝洟【宋】【元】【明】【宮】＊</note><app n="1021016"><lem>涕</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">洟</rdg></app>唾。應當學</p>
+<lb n="1021c24"/><p>不得向佛塔<note n="1021017" resp="Taisho" type="orig" place="foot text">涕＝洟【宮】</note><app n="1021017"><lem>涕</lem><rdg wit="【宮】" resp="Taisho">洟</rdg></app>唾。應當學</p>
+<lb n="1021c25"/><p>不得<anchor id="fxT22p1021c10"/>佛塔四邊<anchor id="fxT22p1021c11"/>涕唾。應當學</p>
+<lb n="1021c26"/><p>不得向<anchor id="fxT22p1021c12"/>佛塔舒<note n="1021018" resp="Taisho" type="orig" place="foot text">&CB00560;＝&CB01962;【聖】</note><app n="1021018"><lem>&CB00560;</lem><rdg wit="【聖】" resp="Taisho">&CB01962;</rdg></app>坐。應當學</p>
+<lb n="1021c27"/><p>不得安佛<note n="1021019" resp="Taisho" type="orig" place="foot text">像＝塔【聖】【宮】</note><app n="1021019"><lem>像</lem><rdg wit="【聖】【宮】" resp="Taisho">塔</rdg></app>在下房。己在上房住。應當學</p>
+<lb n="1021c28"/><p>人坐己立。不得為說法。除病。應當學</p>
+<lb n="1021c29"/><p>人臥己坐。不得為說法。除病。應當學</p>
+<pb ed="T" id="T22.1429.1022a" n="1022a"/>
+<lb n="1022a01"/><p>人在座己在非座。不得為說法。除病。應當學</p>
+<lb n="1022a02"/><p>人在高坐己在下坐。不得為說法。除病。應當
+<lb n="1022a03"/>學</p>
+<lb n="1022a04"/><p>人在前<note n="1022001" resp="Taisho" type="orig" place="foot text">〔行〕－【聖】</note><app n="1022001"><lem>行</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>己在後。不得為說法。除病。應當
+<lb n="1022a05"/>學<anchor id="fxT22p1022a01"/><note place="inline">九十</note></p>
+<lb n="1022a06"/><p>人在高經行處己在下經行處。不<note n="1022002" resp="Taisho" type="orig" place="foot text">得＝應【三】【宮】＊，【聖】</note><note n="1022002" resp="CBETA" type="mod">得＝應【宋】【元】【明】【宮】＊，【聖】</note><app n="1022002"><lem>得</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">應</rdg></app>為說法。
+<lb n="1022a07"/>除病。應當學</p>
+<lb n="1022a08"/><p>人在道已<note n="1022003" resp="Taisho" type="orig" place="foot text">在非＝非在【明】</note><app n="1022003"><lem>在非</lem><rdg wit="【明】" resp="Taisho">非在</rdg></app>道。不<anchor id="fxT22p1022a02"/>得為說法。除病。應當
+<lb n="1022a09"/>學</p>
+<lb n="1022a10"/><p>不得&CB00234;手在道行。應當學</p>
+<lb n="1022a11"/><p>不得上樹過人<note n="1022004" resp="Taisho" type="orig" place="foot text">〔頭〕－【三】【宮】【聖】</note><note n="1022004" resp="CBETA" type="mod">〔頭〕－【宋】【元】【明】【宮】【聖】</note><app n="1022004"><lem>頭</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。除時因緣。應當學</p>
+<lb n="1022a12"/><p>不得絡囊盛&CB00425;貫。<note n="1022005" resp="Taisho" type="orig" place="foot text">扙＝杖【宋】【元】【聖】</note><app n="1022005"><lem>扙</lem><rdg wit="【宋】【元】【聖】" resp="Taisho">杖</rdg></app>頭著肩上而行。應當
+<lb n="1022a13"/>學</p>
+<lb n="1022a14"/><p>人持杖不恭敬。不應為說法。除病。應當學</p>
+<lb n="1022a15"/><p>人持劍。不應為說法。除病。應當學</p>
+<lb n="1022a16"/><p>人持鉾。不應為說法。除病。應當學</p>
+<lb n="1022a17"/><p>人持刀。不應為說法。除病。應當學</p>
+<lb n="1022a18"/><p>人持蓋。不應為說法。除病。應當學<note n="1022006" resp="Taisho" type="orig" place="foot text">〔一百〕－【三】【宮】【聖】</note><note n="1022006" resp="CBETA" type="mod">〔一百〕－【宋】【元】【明】【宮】【聖】</note><app n="1022006"><lem><note place="inline">一百</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="1022a19"/><p>諸大德。我已說眾學戒法。今問。諸大德。是中
+<lb n="1022a20"/>清淨不<anchor id="fxT22p1022a03"/><note place="inline">如是三說</note>諸大德。是中清淨。默然故。是事
+<lb n="1022a21"/>如是持</p>
+<lb n="1022a22"/><p>諸大德。是七滅諍法。半月半月說戒經中來。
+<lb n="1022a23"/><note n="1022007" resp="Taisho" type="orig" place="foot text">若＋（比丘）【三】【宮】【聖】</note><note n="1022007" resp="CBETA" type="mod">若＋（比丘）【宋】【元】【明】【宮】【聖】</note><app n="1022007"><lem>若</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">若比丘</rdg></app>有諍事起。即應除滅</p>
+<lb n="1022a24"/><p>應與現前毘尼。當與現前毘尼</p>
+<lb n="1022a25"/><p>應與憶念毘尼。當與憶念毘尼</p>
+<lb n="1022a26"/><p>應與不癡毘尼。當與不癡毘尼</p>
+<lb n="1022a27"/><p>應與自言治。當與自言治</p>
+<lb n="1022a28"/><p><note n="1022008" resp="Taisho" type="orig" place="foot text">（應與多人語當與多人語）＋應【聖】</note><app n="1022008"><lem>應</lem><rdg wit="【聖】" resp="Taisho">應與多人語當與多人語應</rdg></app>與覓罪相。當與覓罪相</p>
+<lb n="1022a29"/><p><note n="1022009" resp="Taisho" type="orig" place="foot text">（（應與…罪））十二字＝（（應與多人語當與多人語））十字【宮】，〔應與…罪〕十二字－【聖】</note><app n="1022009" word-count="12"><lem>應與多人覓罪。當與多人覓罪</lem><rdg wit="【宮】" resp="Taisho">應與多人語當與多人語</rdg><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p>
+<pb ed="T" id="T22.1429.1022b" n="1022b"/>
+<lb n="1022b01"/><p>應與如草覆地。當與如草覆地</p>
+<lb n="1022b02"/><p>諸大德。我已說七滅諍法。今問。諸大德。是中
+<lb n="1022b03"/>清淨不<anchor id="fxT22p1022b01"/><note place="inline">如是三說</note>諸大德。是中清淨。默然故。是事
+<lb n="1022b04"/>如是持</p>
+<lb n="1022b05"/><p>諸大德。我已說戒經序已。說四波羅夷法已。
+<lb n="1022b06"/>說十三僧伽婆尸沙法已。說二不定法已。說
+<lb n="1022b07"/>三十尼薩耆波逸提法已。說九十波逸提法
+<lb n="1022b08"/>已。說四波羅提提舍尼法已。說眾學戒法已。
+<lb n="1022b09"/>說七滅諍法。此是佛所說<note n="1022010" resp="Taisho" type="orig" place="foot text">〔戒經〕－【三】【宮】</note><note n="1022010" resp="CBETA" type="mod">〔戒經〕－【宋】【元】【明】【宮】</note><app n="1022010"><lem>戒經</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。<note n="1022011" resp="Taisho" type="orig" place="foot text">〔半月…經〕七字－【聖】</note><app n="1022011" word-count="7"><lem>半月半月
+<lb n="1022b10"/>說戒經</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>中來</p>
+<lb n="1022b11"/><p>若更有餘佛法。是中皆共和合應當學</p>
+<lb n="1022b12"/><lg><l>忍辱第一道</l><l>佛說無為最</l>
+<lb n="1022b13"/><l>出家惱他人</l><l>不名為沙門</l></lg>
+<lb n="1022b14"/><p>此是毘婆尸如來無所著等正覺。說是戒經</p>
+<lb n="1022b15"/><lg><l>譬如明眼人</l><l>能避嶮惡道</l>
+<lb n="1022b16"/><l>世有聰明人</l><l>能遠離諸惡</l></lg>
+<lb n="1022b17"/><p>此是尸棄如來無所著等正覺。說是戒經</p>
+<lb n="1022b18"/><lg><l>不謗亦不嫉</l><l>當奉行於戒</l>
+<lb n="1022b19"/><l>飲食知止足</l><l>常樂在空閑</l>
+<lb n="1022b20"/><l>心定樂精進</l><l>是名諸佛教</l></lg>
+<lb n="1022b21"/><p>此是毘葉羅如來無所著等正覺。說是戒經</p>
+<lb n="1022b22"/><lg><l>譬如蜂採華</l><l>不壞色與香</l>
+<lb n="1022b23"/><l>但取其味去</l><l>比丘入聚<note n="1022012" resp="Taisho" type="orig" place="foot text">然＝落【明】【宮】</note><app n="1022012"><lem>然</lem><rdg wit="【明】【宮】" resp="Taisho">落</rdg></app></l>
+<lb n="1022b24"/><l>不違戾他事</l><l>不觀作不作</l>
+<lb n="1022b25"/><l>但自觀身行</l><l>若正若不正</l></lg>
+<lb n="1022b26"/><p>此是拘<note n="1022013" resp="Taisho" type="orig" place="foot text">樓＝留【三】【宮】</note><note n="1022013" resp="CBETA" type="mod">樓＝留【宋】【元】【明】【宮】</note><app n="1022013"><lem>樓</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">留</rdg></app>孫如來無所著等正覺。說是戒經</p>
+<lb n="1022b27"/><lg><l>心莫作放逸</l><l>聖法當勤學</l>
+<lb n="1022b28"/><l>如是無憂愁</l><l>心定入涅槃</l></lg>
+<lb n="1022b29"/><p>此是拘那含牟尼如來無所著等正覺。說是
+<pb ed="T" id="T22.1429.1022c" n="1022c"/>
+<lb n="1022c01"/>戒經</p>
+<lb n="1022c02"/><lg><l>一切惡莫作</l><l>當奉行諸善</l>
+<lb n="1022c03"/><l>自淨其志意</l><l>是則諸佛教</l></lg>
+<lb n="1022c04"/><p>此是迦葉如來無所著等正覺。說是戒經</p>
+<lb n="1022c05"/><lg><l>善護於口言</l><l>自淨其志意</l>
+<lb n="1022c06"/><l>身莫作諸惡</l><l>此三業道淨</l>
+<lb n="1022c07"/><l>能得如是行</l><l>是大仙人道</l></lg>
+<lb n="1022c08"/><p>此是釋迦牟尼如來無所著等正覺。於十二
+<lb n="1022c09"/>年中。為無事僧說是戒經。從是已後廣分別
+<lb n="1022c10"/>說。諸比丘。自為樂法樂沙門者。有慚有愧樂
+<lb n="1022c11"/>學戒者。當於中學</p>
+<lb n="1022c12"/><lg><l>明人能護戒</l><l>能得三種樂</l>
+<lb n="1022c13"/><l>名譽及利養</l><l>死得生天上</l>
+<lb n="1022c14"/><l>當觀如是處</l><l>有智勤護戒</l>
+<lb n="1022c15"/><l>戒淨有智慧</l><l>便得第一道</l>
+<lb n="1022c16"/><l>如過去諸佛</l><l>及以未來者</l>
+<lb n="1022c17"/><l>現在諸世尊</l><l>能勝一切憂</l>
+<lb n="1022c18"/><l>皆共尊敬戒</l><l>此是諸佛法</l>
+<lb n="1022c19"/><l>若有自為身</l><l>欲求於佛道</l>
+<lb n="1022c20"/><l>當尊重正法</l><l>此是諸佛教</l>
+<lb n="1022c21"/><l>七佛為世尊</l><l><note n="1022014" resp="Taisho" type="orig" place="foot text">滅除＝除滅【宮】</note><app n="1022014"><lem>滅除</lem><rdg wit="【宮】" resp="Taisho">除滅</rdg></app>諸結使</l>
+<lb n="1022c22"/><l>說是七戒經</l><l>諸縛得解脫</l>
+<lb n="1022c23"/><l>已入於涅槃</l><l>諸戲永滅盡</l>
+<lb n="1022c24"/><l>尊行大仙說</l><l>聖賢稱譽戒</l>
+<lb n="1022c25"/><l>弟子之所行</l><l>入寂滅涅槃</l>
+<lb n="1022c26"/><l>世尊涅槃時</l><l>興起於大悲</l>
+<lb n="1022c27"/><l>集諸比丘眾</l><l>與如是教誡</l>
+<lb n="1022c28"/><l>莫謂我涅槃</l><l>淨行者無護</l>
+<lb n="1022c29"/><l>我今說戒經</l><l>亦善說毘尼</l>
+<pb ed="T" id="T22.1429.1023a" n="1023a"/>
+<lb n="1023a01"/><l>我雖般涅槃</l><l>當視如世尊</l>
+<lb n="1023a02"/><l>此經久住世</l><l>佛法得熾盛</l>
+<lb n="1023a03"/><l>以是熾盛故</l><l>得入於涅槃</l>
+<lb n="1023a04"/><l>若不持此戒</l><l>如所應布薩</l>
+<lb n="1023a05"/><l>喻如日沒時</l><l>世界皆闇冥</l>
+<lb n="1023a06"/><l>當護持是戒</l><l>如<note n="1023001" resp="Taisho" type="orig" place="foot text">&CB01738;＝&CB01960;【三】【宮】</note><note n="1023001" resp="CBETA" type="mod">&CB01738;＝&CB01960;【宋】【元】【明】【宮】</note><app n="1023001"><lem>&CB01738;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB01960;</rdg></app>牛愛尾</l>
+<lb n="1023a07"/><l>和合一處坐</l><l>如佛之所說</l>
+<lb n="1023a08"/><l>我已說戒經</l><l>眾僧布薩竟</l>
+<lb n="1023a09"/><l>我今說戒經</l><l>所說諸功德</l>
+<lb n="1023a10"/><l>施一切眾生</l><l>皆共成佛道</l></lg>
+<lb n="1023a11"/><juan fun="close" n="001"><jhead><title>四分<note n="1023002" resp="Taisho" type="orig" place="foot text">〔比丘〕－【三】【宮】【聖】</note><note n="1023002" resp="CBETA" type="mod">〔比丘〕－【宋】【元】【明】【宮】【聖】</note><app n="1023002"><lem>比丘</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>戒<note n="1023003" resp="Taisho" type="orig" place="foot text">本＋（二）細註【宋】【宮】，（卷上）【明】</note><app n="1023003"><lem>本</lem><rdg wit="【宋】【宮】" resp="Taisho">本<note place="inline">二</note></rdg><rdg wit="【明】" resp="Taisho">本卷上</rdg></app></title></jhead></juan></div1>
+</body></text></TEI.2>

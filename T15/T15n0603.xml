@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T15n0603.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+%ENTY;
+%CBENT;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0603 陰持入經</title>
+			<author>後漢 安世高譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>2卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:08:54 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 15, No. 603 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Christian Wittern, Text as provided by SAT, Japan, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供，日本 SAT 組織提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991011/23:56:06</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T15n0603.xml,v $
+Revision 1.1  2003/05/05 04:08:54  ray
+Initial revision
+
+Revision 1.19  2002/12/25 06:42:18  eva
+modified
+
+Revision 1.18  2002/12/05 12:30:39  eva
+modified
+
+Revision 1.17  2002/11/04 10:41:11  ray
+tei.2 => TEI.2
+
+Revision 1.16  2002/10/21 08:10:39  ray
+移動 <anchor>+<note>, <anchor>+雙圈
+
+Revision 1.15  2002/10/07 13:07:34  moved
+modified
+
+Revision 1.14  2002/07/29 09:54:42  vinking
+modified lang
+
+Revision 1.13  2002/04/04 07:44:15  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.12  2001/07/27 07:11:28  ray
+去除多餘的 <author>
+
+Revision 1.11  2001/07/24 06:51:17  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.10  2001/06/05 11:05:05  saywhat
+HH版檢測：品名後加上卷數
+
+Revision 1.9  2001/05/25 08:56:15  ray
+經號統一為四碼
+
+Revision 1.8  2001/03/30 05:43:38  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 09:03:43  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:50:18  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:39:47  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:54 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<pb ed="T" id="T15.0603.0173b" n="0173b"/>
+<lb n="0173b01"/>
+<milestone unit="juan" n="1"/><head type="no">No. 603</head><div1 type="jing">
+<lb n="0173b02"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>除持<note n="0173009" resp="Taisho" type="orig" place="foot text">入＋（解）【宋】</note><app n="0173009"><lem>入</lem><rdg wit="【宋】" resp="Taisho">入解</rdg></app>經</title><note n="0173010" resp="Taisho" type="orig" place="foot text">卷上＝上下同卷【宮】</note><app n="0173010"><lem>卷上</lem><rdg wit="【宮】" resp="Taisho">上下同卷</rdg></app></jhead></juan>
+<lb n="0173b03"/>
+<lb n="0173b04"/><byline type="Translator">後漢<note n="0173011" resp="Taisho" type="orig" place="foot text">安息國三藏＝沙門【宮】＊</note><app n="0173011"><lem>安息國三藏</lem><rdg wit="【宮】" resp="Taisho">沙門</rdg></app>安世高譯</byline>
+<lb n="0173b05"/><p>佛經所<note n="0173012" resp="Taisho" type="orig" place="foot text">&CB02959;＝行【三】【宮】下同</note><note n="0173012" resp="CBETA" type="mod">&CB02959;＝行【宋】【元】【明】【宮】下同</note><app n="0173012"><lem>&CB02959;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">行</rdg></app>。<note n="0173013" resp="Taisho" type="orig" place="foot text">亦＝示【明】</note><app n="0173013"><lem>亦</lem><rdg wit="【明】" resp="Taisho">示</rdg></app>教<note n="0173014" resp="Taisho" type="orig" place="foot text">誡＝誠【宮】</note><app n="0173014"><lem>誡</lem><rdg wit="【宮】" resp="Taisho">誠</rdg></app>。皆在三部為合&CB02959;。何等
+<lb n="0173b06"/>為三。一為五陰。二為六本。三為<note n="0173015" resp="Taisho" type="orig" place="foot text">（從）＋所【明】</note><app n="0173015"><lem>所</lem><rdg wit="【明】" resp="Taisho">從所</rdg></app>入。五陰
+<lb n="0173b07"/>為何等。一為色。二為痛。三為想。四為&CB02959;。五為
+<lb n="0173b08"/>識是為五陰。<note n="0173016" resp="Taisho" type="orig" place="foot text">〔色陰〕－【宋】【元】</note><app n="0173016"><lem>色陰</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>名為十現色入。十現色入
+<lb n="0173b09"/>為何等。一眼。二色。三耳。四聲。五鼻。六香。七
+<lb n="0173b10"/>舌。八味。九身。十樂。是為十<note n="0173017" resp="Taisho" type="orig" place="foot text">〔現〕－【宋】【元】</note><app n="0173017"><lem>現</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>色入。是名為
+<lb n="0173b11"/>色種。痛種為何等。痛種為身六痛。一眼知痛。
+<lb n="0173b12"/>二耳知痛。三鼻知痛。四舌知痛。五身知痛。六
+<lb n="0173b13"/>心知痛。是為身六痛。名為痛種。思想種為何
+<lb n="0173b14"/>等。思想種為身六思想。一色想。二聲想三香
+<lb n="0173b15"/>想。四味想。五更想。六法想。<note n="0173018" resp="Taisho" type="orig" place="foot text">是＋（名）【宮】</note><app n="0173018"><lem>是</lem><rdg wit="【宮】" resp="Taisho">是名</rdg></app>為身六思想。
+<lb n="0173b16"/>名為思想種。<note n="0173019" resp="Taisho" type="orig" place="foot text">〔行種〕－【宋】【元】</note><app n="0173019"><lem>行種</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>為何等。&CB02959;種名為身六
+<lb n="0173b17"/>更。一色所更二聲所更。三香所更。四味所更。
+<lb n="0173b18"/>五<note n="0173020" resp="Taisho" type="orig" place="foot text">觸＝通【宋】【元】</note><app n="0173020"><lem>觸</lem><rdg wit="【宋】【元】" resp="Taisho">通</rdg></app>所更。六法所更。是為身六更。是名為
+<lb n="0173b19"/>行種。識種為何等。識種名為身六識。眼識耳
+<lb n="0173b20"/>識鼻識舌識身識心識。是為身六識。是<note n="0173021" resp="Taisho" type="orig" place="foot text">〔名〕－【三】</note><note n="0173021" resp="CBETA" type="mod">〔名〕－【宋】【元】【明】</note><app n="0173021"><lem>名</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>為
+<lb n="0173b21"/>識種。名為五陰種。當知。是是從何知。為非常
+<lb n="0173b22"/>苦空非身。從是知亦有二知。一為慧知。二為
+<lb n="0173b23"/>斷知。從慧知為何等。為非常苦空非身。是為
+<lb n="0173b24"/>從慧知。從斷知為何等。愛欲已斷是為<note n="0173022" resp="Taisho" type="orig" place="foot text">〔從〕－【宋】【元】</note><app n="0173022"><lem>從</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>斷
+<lb n="0173b25"/>知。<note n="0173023" resp="Taisho" type="orig" place="foot text">陰貌＝陰根【三】下同</note><note n="0173023" resp="CBETA" type="mod">陰貌＝陰根【宋】下同【元】下同【明】下同</note><app n="0173023"><lem>陰貌</lem><rdg wit="【宋】【元】【明】" resp="Taisho">陰根</rdg></app>為何等。積為陰貌。足為陰貌。譬如
+<lb n="0173b26"/>物種名為物種。木種名為木種。火種名為火
+<lb n="0173b27"/>種。水種名為水種。一切五陰亦如是。有十八
+<lb n="0173b28"/>本持。十八本持為何等。一眼二色三識。四耳。
+<lb n="0173b29"/>五聲。六識。七鼻。八香。九識。十舌。十一味。十
+<pb ed="T" id="T15.0603.0173c" n="0173c"/>
+<lb n="0173c01"/>二識。十三身。十四更。十五識。十六心。十七
+<lb n="0173c02"/>法。十八識。是名為十八本持。已知是從何知
+<lb n="0173c03"/>為非常苦空非身。是為知。從是知亦有二知。
+<lb n="0173c04"/>一為從慧知。二為從已斷知。從慧知為何等。
+<lb n="0173c05"/><note n="0173024" resp="Taisho" type="orig" place="foot text">〔為〕－【三】</note><note n="0173024" resp="CBETA" type="mod">〔為〕－【宋】【元】【明】</note><app n="0173024"><lem>為</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>非常苦空非身。是為從慧知。從斷知為何
+<lb n="0173c06"/>等。愛欲已斷是為從斷知。彼為具足。具足為
+<lb n="0173c07"/>何等。或言無有餘具足。已無有餘。令眼明見
+<lb n="0173c08"/>明。一&CB02959;者。說是已為斷眼本耳本。遍說如是。
+<lb n="0173c09"/>為本持。譬是人為多熱如是<note n="0173025" resp="Taisho" type="orig" place="foot text">名＝各【宋】【元】</note><app n="0173025"><lem>名</lem><rdg wit="【宋】【元】" resp="Taisho">各</rdg></app>遍。譬喻是為
+<lb n="0173c10"/>具足。亦有十二入。何等為十二。自身六外有
+<lb n="0173c11"/>六。自身六為何等。<note n="0173026" resp="Taisho" type="orig" place="foot text">〔一為〕－【明】【宮】</note><app n="0173026"><lem>一為</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>眼。耳鼻舌身心。
+<lb n="0173c12"/>是為自身六入。外有六為何等。色聲香味更
+<lb n="0173c13"/>法。是為十二入。一切從何知。為非常苦空非
+<lb n="0173c14"/>身。是從是知。亦有二知。一從慧知。二從斷
+<lb n="0173c15"/>知。從慧解知為何等。為非常苦空非身。是為
+<lb n="0173c16"/>從慧知。從斷知為何等。愛欲已斷是為從斷
+<lb n="0173c17"/>知。何等為入。解從是致名為入。從入解。譬從
+<lb n="0173c18"/>金入名為金地。從銀入名為銀地。如是各各
+<lb n="0173c19"/>應是譬喻所從所入。是從是有。如是從所意
+<lb n="0173c20"/>念。有行罪苦法如是。從所致。是名為從是入。
+<lb n="0173c21"/>亦有從是入。譬如王有入所有<note n="0173027" resp="Taisho" type="orig" place="foot text">〔名〕－【宋】【元】</note><app n="0173027"><lem>名</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。是亦如
+<lb n="0173c22"/>是。為有四諦苦習盡道。苦名為要語。身亦念。
+<lb n="0173c23"/>習名為要。癡亦所<note n="0173028" resp="Taisho" type="orig" place="foot text">〔世〕－【宋】【元】</note><app n="0173028"><lem>世</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>間愛。盡名為要。慧亦
+<lb n="0173c24"/>解脫。道名為要止亦觀。亦有三十七品經法。
+<lb n="0173c25"/>四意止。四意斷。四神足。五根。五力。七覺意。
+<lb n="0173c26"/>賢者八種道&CB02959;。是為三十七品經法。過<note n="0173029" resp="Taisho" type="orig" place="foot text">〔去〕－【宋】【元】</note><app n="0173029"><lem>去</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>佛
+<lb n="0173c27"/>亦有是。現在佛亦有是。未來佛亦有是。辟支
+<lb n="0173c28"/>佛亦從是得度世道。佛弟子亦從是。<note n="0173030" resp="Taisho" type="orig" place="foot text">〔是〕－【明】【宮】</note><app n="0173030"><lem>是</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>為度
+<lb n="0173c29"/>世無為道。四意止為何等。或見比丘自身身
+<pb ed="T" id="T15.0603.0174a" n="0174a"/>
+<lb n="0174a01"/><note n="0174001" resp="Taisho" type="orig" place="foot text">〔身〕－【明】【宮】＊</note><app n="0174001"><lem>身</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>相觀行止。外身身<note n="0174002" resp="Taisho" type="orig" place="foot text">〔身〕－【三】【宮】</note><note n="0174002" resp="CBETA" type="mod">〔身〕－【宋】【元】【明】【宮】</note><app n="0174002"><lem>身</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>相觀&CB02959;止。內外身
+<lb n="0174a02"/>身<anchor id="fxT15p0174a01"/>身相觀<note n="0174003" resp="Taisho" type="orig" place="foot text">〔行止〕－【宋】【元】</note><app n="0174003"><lem>行止</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。盡意念以&CB00230;世間癡心。<note n="0174004" resp="Taisho" type="orig" place="foot text">不＝方【明】</note><app n="0174004"><lem>不</lem><rdg wit="【明】" resp="Taisho">方</rdg></app>
+<lb n="0174a03"/>便。自<note n="0174005" resp="Taisho" type="orig" place="foot text">痛＝身【宋】【元】，〔痛〕－【明】</note><app n="0174005"><lem>痛</lem><rdg wit="【宋】【元】" resp="Taisho">身</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>痛痛相觀&CB02959;止。外<note n="0174006" resp="Taisho" type="orig" place="foot text">〔痛〕－【三】【宮】＊</note><note n="0174006" resp="CBETA" type="mod">〔痛〕－【宋】【元】【明】【宮】＊</note><app n="0174006"><lem>痛</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>痛痛相觀&CB02959;
+<lb n="0174a04"/>止。內外<anchor id="fxT15p0174a02"/>痛痛痛相觀&CB02959;止。盡意念。以&CB00230;世
+<lb n="0174a05"/>間癡心。不便。自意意<note n="0174007" resp="Taisho" type="orig" place="foot text">〔意〕－【宮】＊</note><app n="0174007"><lem>意</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>相觀&CB02959;止。外<note n="0174008" resp="Taisho" type="orig" place="foot text">〔意〕－【明】【宮】＊</note><app n="0174008"><lem>意</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>意
+<lb n="0174a06"/>意相觀&CB02959;止。內外<anchor id="fxT15p0174a03"/>意意意相觀&CB02959;止。盡意
+<lb n="0174a07"/>念。以&CB00230;世間癡心。不便。自法法<note n="0174009" resp="Taisho" type="orig" place="foot text">〔法〕－【三】【宮】</note><note n="0174009" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【宮】</note><app n="0174009"><lem>法</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>相觀&CB02959;
+<lb n="0174a08"/>止。<note n="0174010" resp="Taisho" type="orig" place="foot text">〔外法…不便〕二十六字－【宋】【元】</note><app n="0174010" word-count="26"><lem>外法法<note n="0174011" resp="Taisho" type="orig" place="foot text">法＝相【明】【宮】＊</note><app n="0174011"><lem>法</lem><rdg wit="【明】【宮】" resp="Taisho">相</rdg></app>觀&CB02959;止。內外法法<anchor id="fxT15p0174a04"/>法相觀
+<lb n="0174a09"/>&CB02959;止。盡意念。以&CB00230;世間<note n="0174012" resp="Taisho" type="orig" place="foot text">癡＋（心）【明】【宮】</note><app n="0174012"><lem>癡</lem><rdg wit="【明】【宮】" resp="Taisho">癡心</rdg></app>。不便</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0174a10"/><p>何等為從四意正斷。或比丘有未生弊惡。意
+<lb n="0174a11"/>法發方便令不生。勸意不<note n="0174013" resp="Taisho" type="orig" place="foot text">捨＝舍【宋】【元】下同</note><app n="0174013"><lem>捨</lem><rdg wit="【宋】【元】" resp="Taisho">舍</rdg></app>方便&CB02959;。精進攝
+<lb n="0174a12"/>制意。捨散惡意。是為一斷意。已生弊惡意發。
+<lb n="0174a13"/>清淨法欲斷。勸意求方便&CB02959;。精進攝制意。捨
+<lb n="0174a14"/>散惡意。是為二斷意。未生清淨<note n="0174014" resp="Taisho" type="orig" place="foot text">〔法〕－【宋】【元】</note><app n="0174014"><lem>法</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。勸意發
+<lb n="0174a15"/>方便令生&CB02959;。精進攝制意。<note n="0174015" resp="Taisho" type="orig" place="foot text">〔捨〕－【宋】【元】</note><app n="0174015"><lem>捨</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>散惡意。是為
+<lb n="0174a16"/>三斷意。已生清淨法。令止不忘令不減。令&CB02959;
+<lb n="0174a17"/>不<note n="0174016" resp="Taisho" type="orig" place="foot text">啻＝翅【三】下同</note><note n="0174016" resp="CBETA" type="mod">啻＝翅【宋】下同【元】下同【明】下同</note><app n="0174016"><lem>啻</lem><rdg wit="【宋】【元】【明】" resp="Taisho">翅</rdg></app>令&CB02959;足。發方便&CB02959;。精進攝制意。捨散
+<lb n="0174a18"/>惡意。是為四意正斷。何等為四神足。或有比
+<lb n="0174a19"/>丘。為欲定斷生死。隨&CB02959;增神足。惡生死猗。
+<lb n="0174a20"/>&CB00230;欲猗<note n="0174017" resp="Taisho" type="orig" place="foot text">〔盡猗〕－【三】【宮】</note><note n="0174017" resp="CBETA" type="mod">〔盡猗〕－【宋】【元】【明】【宮】</note><app n="0174017"><lem>盡猗</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。是為一神足精進定。斷生死。
+<lb n="0174a21"/>隨&CB02959;增神足。惡生死猗。&CB00230;欲猗盡猗。從不
+<lb n="0174a22"/>便。意生遣離去。是為二神足。意定斷生死。
+<lb n="0174a23"/>隨&CB02959;增神足。惡生死猗。&CB00230;欲猗盡猗。從不便。
+<lb n="0174a24"/>意生遣離去。是為三神足。戒定斷生死。隨&CB02959;
+<lb n="0174a25"/>增神足。惡生死猗。&CB00230;欲猗盡猗。從不便。意生
+<lb n="0174a26"/>遣離去。是為四神足。四意止四意斷四神足。
+<lb n="0174a27"/>為已說具</p>
+<lb n="0174a28"/><p>何等為五根。信根精進根念根定根慧根。是
+<lb n="0174a29"/>名為五根。彼根應何義根為根義。屬為根義。
+<lb n="0174a30"/>可喜為根義。不為同事為根義。是名為根義。
+<pb ed="T" id="T15.0603.0174b" n="0174b"/>
+<lb n="0174b01"/>何等為五力。信力精進力念力定力慧力。是
+<lb n="0174b02"/>名為五力。彼力應何義。無有能得壞為力義。
+<lb n="0174b03"/>有所益為力義。有膽為力義。能得依為力義。
+<lb n="0174b04"/>是名為力義。有七<note n="0174018" resp="Taisho" type="orig" place="foot text">〔覺意〕－【宋】【元】</note><app n="0174018"><lem>覺意</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。何等為七覺意。一
+<lb n="0174b05"/>念覺意。二法分別觀<note n="0174019" resp="Taisho" type="orig" place="foot text">〔覺〕－【宋】【元】</note><app n="0174019"><lem>覺</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>意。三精進覺意。四
+<lb n="0174b06"/>愛可覺意。五猗覺意。六定覺意。七護覺意。是
+<lb n="0174b07"/>名為七覺意</p>
+<lb n="0174b08"/><p>有得道者八種道&CB02959;。<note n="0174020" resp="Taisho" type="orig" place="foot text">何等為八＝為何等【宋】【元】</note><app n="0174020"><lem>何等為八</lem><rdg wit="【宋】【元】" resp="Taisho">為何等</rdg></app>。一直見。二
+<lb n="0174b09"/>直&CB02959;。三直語。四<note n="0174021" resp="Taisho" type="orig" place="foot text">直治＝直業【明】【宮】</note><app n="0174021"><lem>直治</lem><rdg wit="【明】【宮】" resp="Taisho">直業</rdg></app>。五直利。六直方便。七
+<lb n="0174b10"/><note n="0174022" resp="Taisho" type="orig" place="foot text">直意＝直念【明】【宮】</note><app n="0174022"><lem>直意</lem><rdg wit="【明】【宮】" resp="Taisho">直念</rdg></app>。八直定。是名為八道&CB02959;。八種道&CB02959;為
+<lb n="0174b11"/>墮<note n="0174023" resp="Taisho" type="orig" place="foot text">合＝念【宮】</note><app n="0174023"><lem>合</lem><rdg wit="【宮】" resp="Taisho">念</rdg></app>三種。一戒種。二定種。三慧種。彼所直
+<lb n="0174b12"/>語直業<note n="0174024" resp="Taisho" type="orig" place="foot text">直治＝直利【宮】</note><app n="0174024"><lem>直治</lem><rdg wit="【宮】" resp="Taisho">直利</rdg></app>。是名為戒種。彼所直方便直念
+<lb n="0174b13"/>直定。是名為定種。彼所直見直&CB02959;。是名為慧
+<lb n="0174b14"/>種。皆從是<note n="0174025" resp="Taisho" type="orig" place="foot text">教誡＝教戒【三】【宮】下同</note><note n="0174025" resp="CBETA" type="mod">教誡＝教戒【宋】【元】【明】【宮】下同</note><app n="0174025"><lem>教誡</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">教戒</rdg></app>。令不<note n="0174026" resp="Taisho" type="orig" place="foot text">啻＝翅【三】【宮】下同</note><note n="0174026" resp="CBETA" type="mod">啻＝翅【宋】【元】【明】【宮】下同</note><app n="0174026"><lem>啻</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">翅</rdg></app>教誡。令不啻教意。
+<lb n="0174b15"/>令不啻慧教誡。彼戒種比丘。為拔瞋恚亦<note n="0174027" resp="Taisho" type="orig" place="foot text">&CB02911;＝惡【宮】＊</note><app n="0174027"><lem>&CB02911;</lem><rdg wit="【宮】" resp="Taisho">惡</rdg></app>
+<lb n="0174b16"/>本。為散瞋恚結。為合恚瘡。為識苦痛。為度欲
+<lb n="0174b17"/>界。彼定種比丘。為拔慳&CB02911;本。為散欲結。為合
+<lb n="0174b18"/>欲瘡。為知樂痛。為度色界</p>
+<lb n="0174b19"/><p>彼慧種比丘。為拔癡<anchor id="fxT15p0174b01"/>&CB02911;本。為散癡結為合憍
+<lb n="0174b20"/>慢瘡。為知不樂不苦痛。為得度無<note n="0174028" resp="Taisho" type="orig" place="foot text">〔有〕－【明】</note><app n="0174028"><lem>有</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>色界。
+<lb n="0174b21"/>是為三種。比丘止為拔三<note n="0174029" resp="Taisho" type="orig" place="foot text">&CB02911;＝惡【三】【宮】下同</note><note n="0174029" resp="CBETA" type="mod">&CB02911;＝惡【宋】【元】【明】【宮】下同</note><app n="0174029"><lem>&CB02911;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">惡</rdg></app>本。散三&CB02911;使。
+<lb n="0174b22"/>合四瘡。知三痛。度三界</p>
+<lb n="0174b23"/><p>何等為十二種。從求如<note n="0174030" resp="Taisho" type="orig" place="foot text">求＝來【宋】【元】</note><app n="0174030"><lem>求</lem><rdg wit="【宋】【元】" resp="Taisho">來</rdg></app>等生。從癡因緣令
+<lb n="0174b24"/>有&CB02959;。從&CB02959;<note n="0174031" resp="Taisho" type="orig" place="foot text">〔令〕－【宋】【元】＊</note><app n="0174031"><lem>令</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>有識。從識令有名字。從名字令
+<lb n="0174b25"/>有六入。從六入令有致。從致<anchor id="fxT15p0174b02"/>令有痛痒。從
+<lb n="0174b26"/>痛痒令有愛。從愛令有受。從受令<note n="0174032" resp="Taisho" type="orig" place="foot text">後＝有【明】，復【宮】</note><note n="0174032" resp="CBETA" type="mod">後＝有【明】，＝復【宮】</note><app n="0174032"><lem>後</lem><rdg wit="【明】" resp="Taisho">有</rdg><rdg wit="【宮】" resp="Taisho">復</rdg></app>有。從
+<lb n="0174b27"/>有令<note n="0174033" resp="Taisho" type="orig" place="foot text">〔有〕－【宋】【元】</note><app n="0174033"><lem>有</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>生。從生令有老死憂悲苦。不可<note n="0174034" resp="Taisho" type="orig" place="foot text">心致＋（心致）【宋】【元】</note><app n="0174034"><lem>心
+<lb n="0174b28"/>致</lem><rdg wit="【宋】【元】" resp="Taisho">心致心致</rdg></app><note n="0174035" resp="Taisho" type="orig" place="foot text">　　　　【宮】下同</note><note n="0174035" resp="CBETA" type="mod"><todo type="a"/>&lac-space;&lac-space;&lac-space;&lac-space;【宮】下同</note>&CB00478;。如是具足苦種。為致習。癡已盡便&CB02959;
+<lb n="0174b29"/>盡。已&CB02959;盡便識盡。已識盡便名字盡。已名字
+<lb n="0174b30"/>盡便六入盡。已六入盡便致盡。已致盡便痛
+<pb ed="T" id="T15.0603.0174c" n="0174c"/>
+<lb n="0174c01"/>痒盡。已痛痒盡便愛盡。已愛盡便受盡。已受
+<lb n="0174c02"/>盡便有盡。已有盡便生盡。已生盡便老死盡。
+<lb n="0174c03"/>已老死盡。憂悲苦不可<note n="0174036" resp="Taisho" type="orig" place="foot text">心＝盡【宋】【元】</note><app n="0174036"><lem>心</lem><rdg wit="【宋】【元】" resp="Taisho">盡</rdg></app>&CB00478;便盡。如是具足
+<lb n="0174c04"/>苦種便得盡。彼癡名為不知四諦如有。不解
+<lb n="0174c05"/>不見。不相應不受。不解不解<note n="0174037" resp="Taisho" type="orig" place="foot text">根＝狠【宋】【元】，貌【明】【宮】</note><note n="0174037" resp="CBETA" type="mod">根＝狠【宋】【元】，＝貌【明】【宮】</note><app n="0174037"><lem>根</lem><rdg wit="【宋】【元】" resp="Taisho">狠</rdg><rdg wit="【明】【宮】" resp="Taisho">貌</rdg></app>。是名為癡。
+<lb n="0174c06"/>彼癡因緣&CB02959;為何等。為六望受。何等為六。色
+<lb n="0174c07"/>聲香味<note n="0174038" resp="Taisho" type="orig" place="foot text">觸＝身【三】【宮】＊</note><note n="0174038" resp="CBETA" type="mod">觸＝身【宋】【元】【明】【宮】＊</note><app n="0174038"><lem>觸</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">身</rdg></app>法。是為身六望受。是名為&CB02959;</p>
+<lb n="0174c08"/><p>彼&CB02959;因緣識為六身識。眼耳鼻舌身心。是名
+<lb n="0174c09"/>為六身識</p>
+<lb n="0174c10"/><p>彼識因緣名字。字為色名為<note n="0174039" resp="Taisho" type="orig" place="foot text">四不＝四大【明】</note><app n="0174039"><lem>四不</lem><rdg wit="【明】" resp="Taisho">四大</rdg></app>色陰。痛想
+<lb n="0174c11"/>&CB02959;識是為名。色為四大本。謂地水火風是。上
+<lb n="0174c12"/>為名。是四為色。是二相連共為名字。彼名字
+<lb n="0174c13"/>因緣身六入受。眼耳鼻舌身心。是名身六入
+<lb n="0174c14"/>受。彼六入因緣身六思望。眼耳鼻舌身心。是
+<lb n="0174c15"/>名為身六思望</p>
+<lb n="0174c16"/><p>彼思望因緣身六痛。眼耳鼻舌身心。是名為
+<lb n="0174c17"/><note n="0174040" resp="Taisho" type="orig" place="foot text">身六＝六身【宋】【元】</note><app n="0174040"><lem>身六</lem><rdg wit="【宋】【元】" resp="Taisho">六身</rdg></app>痛</p>
+<lb n="0174c18"/><p>彼痛因緣<note n="0174041" resp="Taisho" type="orig" place="foot text">六身＝六入【三】</note><note n="0174041" resp="CBETA" type="mod">六身＝六入【宋】【元】【明】</note><app n="0174041"><lem>六身</lem><rdg wit="【宋】【元】【明】" resp="Taisho">六入</rdg></app>愛。色愛聲愛香愛味愛<anchor id="fxT15p0174c01"/>觸
+<lb n="0174c19"/>愛法愛。是名為六身愛。彼愛因緣受為四受。
+<lb n="0174c20"/>一欲<note n="0174042" resp="Taisho" type="orig" place="foot text">〔受〕－【宮】</note><app n="0174042"><lem>受</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。二見結受。三戒願受。四身結&CB02959;受。
+<lb n="0174c21"/>是名為四受</p>
+<lb n="0174c22"/><p>彼受因緣有為三有。一欲界。二色界。三<note n="0174043" resp="Taisho" type="orig" place="foot text">無＝不【宮】</note><app n="0174043"><lem>無</lem><rdg wit="【宮】" resp="Taisho">不</rdg></app>色
+<lb n="0174c23"/>界。是名為三有。彼有因緣生。為上五陰六持
+<lb n="0174c24"/>六入。己有如有。生聚。已往墮致分別根。已入
+<lb n="0174c25"/>得有。是名為生死。為何等名為人人所在。在
+<lb n="0174c26"/>所往。已往壞已過。死<note n="0174044" resp="Taisho" type="orig" place="foot text">時是＝是時【三】【宮】</note><note n="0174044" resp="CBETA" type="mod">時是＝是時【宋】【元】【明】【宮】</note><app n="0174044"><lem>時是</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">是時</rdg></app>命<note n="0174045" resp="Taisho" type="orig" place="foot text">亦＝六【明】【宮】</note><app n="0174045"><lem>亦</lem><rdg wit="【明】【宮】" resp="Taisho">六</rdg></app>根已閉塞
+<pb ed="T" id="T15.0603.0175a" n="0175a"/>
+<lb n="0175a01"/>是為死。上本為老。後要為死。是故名為老
+<lb n="0175a02"/>死</p>
+<lb n="0175a03"/><p>癡相為何等。為冥中見冥。如有不解。令從是
+<lb n="0175a04"/>致墮行<note n="0175001" resp="Taisho" type="orig" place="foot text">〔相〕－【宋】【元】</note><app n="0175001"><lem>相</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>處。&CB02959;相為何等。為令後復有是為
+<lb n="0175a05"/>&CB02959;相。上從是發起。令從是致墮識處。識相為
+<lb n="0175a06"/>何等。為識物識事是為識相。令從是致墮名
+<lb n="0175a07"/>字處。名字相為何等。為俱猗。是<note n="0175002" resp="Taisho" type="orig" place="foot text">為名＝名為【宋】【元】</note><app n="0175002"><lem>為名</lem><rdg wit="【宋】【元】" resp="Taisho">名為</rdg></app>字相。
+<lb n="0175a08"/>令從是<note n="0175003" resp="Taisho" type="orig" place="foot text">〔致〕－【宋】【元】</note><app n="0175003"><lem>致</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>墮六入處。六入相為何等。為分別
+<lb n="0175a09"/>根是為六入<note n="0175004" resp="Taisho" type="orig" place="foot text">相＝處【三】</note><note n="0175004" resp="CBETA" type="mod">相＝處【宋】【元】【明】</note><app n="0175004"><lem>相</lem><rdg wit="【宋】【元】【明】" resp="Taisho">處</rdg></app>。令從是致墮思望處。思望相
+<lb n="0175a10"/>為何等。為相會更生。是為思望相。令從是致
+<lb n="0175a11"/>墮痛處。痛相為何等。為更覺是為痛相。令從
+<lb n="0175a12"/>是致墮愛處。愛相為何等。為發往是為愛相。
+<lb n="0175a13"/>令從是致墮受處。受相為何等。為受持是為
+<lb n="0175a14"/><note n="0175005" resp="Taisho" type="orig" place="foot text">〔受〕－【宋】【元】</note><app n="0175005"><lem>受</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>相。令從是致墮有處。有相為<note n="0175006" resp="Taisho" type="orig" place="foot text">何等＋（為致）【明】</note><app n="0175006"><lem>何等</lem><rdg wit="【明】" resp="Taisho">何等為致</rdg></app>。令墮
+<lb n="0175a15"/>若干處。是為有相。令從是致墮生處。生相為
+<lb n="0175a16"/>何等。為已有五陰是為生相。令從是致墮老
+<lb n="0175a17"/>處。老相為何等。為轉熟是為老相。令從是致
+<lb n="0175a18"/>墮死處。死相為何等。為命根盡。<note n="0175007" resp="Taisho" type="orig" place="foot text">是＋（名）【宮】</note><app n="0175007"><lem>是</lem><rdg wit="【宮】" resp="Taisho">是名</rdg></app>為死相。
+<lb n="0175a19"/>令從是致墮苦處。苦相為何等。為身急是為
+<lb n="0175a20"/>苦相。令從是致墮不可處。不可相為何等。為
+<lb n="0175a21"/>心意急。是為不可相。令<note n="0175008" resp="Taisho" type="orig" place="foot text">〔幹〕－【明】</note><app n="0175008"><lem>幹</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>從是致墮<note n="0175009" resp="Taisho" type="orig" place="foot text">悒悒＝邑邑【宋】【元】</note><app n="0175009"><lem>悒悒</lem><rdg wit="【宋】【元】" resp="Taisho">邑邑</rdg></app>
+<lb n="0175a22"/>憂。<note n="0175010" resp="Taisho" type="orig" place="foot text">悒悒＝邑邑【宋】【元】</note><app n="0175010"><lem>悒悒</lem><rdg wit="【宋】【元】" resp="Taisho">邑邑</rdg></app>相為何等。為憂<note n="0175011" resp="Taisho" type="orig" place="foot text">〔五陰〕－【宮】</note><app n="0175011"><lem>五陰</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。令從是致墮
+<lb n="0175a23"/>愁&CB00478;處。悲愁相為何等。口出聲言。令致悲&CB00478;
+<lb n="0175a24"/>懣。懣為&CB00478;&CB00478;亦為懣</p>
+<lb n="0175a25"/><p>九絕處。為一切&CB02911;&CB02959;<note n="0175012" resp="Taisho" type="orig" place="foot text">令＝合【三】</note><note n="0175012" resp="CBETA" type="mod">令＝合【宋】【元】【明】</note><app n="0175012"><lem>令</lem><rdg wit="【宋】【元】【明】" resp="Taisho">合</rdg></app>部伴。從流行。為有
+<lb n="0175a26"/>二本從有結罪。為三&CB02911;本。亦有四倒。彼二本
+<lb n="0175a27"/>罪&CB00478;為何等。一為癡。二為墮。有愛名為二
+<lb n="0175a28"/>本。三&CB02911;本為何等。一為貪欲。二為瞋恚。三為
+<lb n="0175a29"/>癡惑。是名為三&CB02911;本。有四倒。四倒為何等。非
+<pb ed="T" id="T15.0603.0175b" n="0175b"/>
+<lb n="0175b01"/>常念常。是為思想倒。為意倒。為見倒。是為一
+<lb n="0175b02"/>倒。計苦為樂。非身為身。不淨為淨。思想<note n="0175013" resp="Taisho" type="orig" place="foot text">意＝竟【宮】</note><app n="0175013"><lem>意</lem><rdg wit="【宮】" resp="Taisho">竟</rdg></app>
+<lb n="0175b03"/>見倒如上說。是名為四倒。彼癡名為不解四
+<lb n="0175b04"/>諦。不慧。不見。不相應。不解受為&CB02911;。是為癡。
+<lb n="0175b05"/>彼有愛為何等。為所世間欲發往不捨。是為
+<lb n="0175b06"/><note n="0175014" resp="Taisho" type="orig" place="foot text">〔有〕－【宋】【元】</note><app n="0175014"><lem>有</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>愛。是名為二本。彼欲貪本為何等。為<note n="0175015" resp="Taisho" type="orig" place="foot text">所在＝在所【三】【宮】</note><note n="0175015" resp="CBETA" type="mod">所在＝在所【宋】【元】【明】【宮】</note><app n="0175015"><lem>所
+<lb n="0175b07"/>在</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">在所</rdg></app>所種貪。為奇珍寶。<note n="0175016" resp="Taisho" type="orig" place="foot text">〔為〕－【三】【宮】＊</note><note n="0175016" resp="CBETA" type="mod">〔為〕－【宋】【元】【明】【宮】＊</note><app n="0175016"><lem>為</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>奇財產。<anchor id="fxT15p0175b01"/>為奇嚴事。
+<lb n="0175b08"/>為有嫉在奇。貪可貪欲。可往愛相。愛哀相。往
+<lb n="0175b09"/>不捨。是為貪&CB02911;本。是本為誰。為所有貪。為身
+<lb n="0175b10"/>非法&CB02959;。口非法&CB02959;。<note n="0175017" resp="Taisho" type="orig" place="foot text">〔心非法行〕－【宋】【元】</note><app n="0175017"><lem>心非法行</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。亦餘俱相連。
+<lb n="0175b11"/>&CB02911;種所作。意念是法本。是故名為貪&CB02911;本。彼
+<lb n="0175b12"/>瞋恚非法本為何等。為在人為在&CB02959;。恚<note n="0175018" resp="Taisho" type="orig" place="foot text">相＝想【明】【宮】</note><app n="0175018"><lem>相</lem><rdg wit="【明】【宮】" resp="Taisho">想</rdg></app>
+<lb n="0175b13"/>恚。不忍不識。因緣<note n="0175019" resp="Taisho" type="orig" place="foot text">瞋瞋恚發評諄＝瞑瞑恚發評諄【宋】【元】，瞋恚發訐諦【明】【宮】</note><note n="0175019" resp="CBETA" type="mod">瞋瞋恚發評諄＝瞑瞑恚發評諄【宋】【元】，＝瞋恚發訐諦【明】【宮】</note><app n="0175019"><lem>瞋瞋恚發評諄</lem><rdg wit="【宋】【元】" resp="Taisho">瞑瞑恚發評諄</rdg><rdg wit="【明】【宮】" resp="Taisho">瞋恚發訐諦</rdg></app>。念不可。
+<lb n="0175b14"/>說不可。所念<note n="0175020" resp="Taisho" type="orig" place="foot text">說＝念【三】，令【宮】</note><note n="0175020" resp="CBETA" type="mod">說＝念【宋】【元】【明】，＝令【宮】</note><app n="0175020"><lem>說</lem><rdg wit="【宋】【元】【明】" resp="Taisho">念</rdg><rdg wit="【宮】" resp="Taisho">令</rdg></app>不好令意&CB00230;。是為恚非法
+<lb n="0175b15"/>本。是本為誰。為非法本。所身罪。所言罪。所
+<lb n="0175b16"/>心罪。亦餘所相連意念。為是法本。是故為瞋。
+<lb n="0175b17"/><note n="0175021" resp="Taisho" type="orig" place="foot text">名為＝為名【宋】【元】</note><app n="0175021"><lem>名為</lem><rdg wit="【宋】【元】" resp="Taisho">為名</rdg></app>非法本。彼癡惑非法本為何等。不知
+<lb n="0175b18"/><note n="0175022" resp="Taisho" type="orig" place="foot text">〔四〕－【宮】</note><app n="0175022"><lem>四</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>賢者諦如有。不解不見。不相應不解受非
+<lb n="0175b19"/>法。或隨或受。或在或不識。或癡冥在冥。蔽覆
+<lb n="0175b20"/>令冥令無眼。令慧壞。知盡不能致無為度世。
+<lb n="0175b21"/><note n="0175023" resp="Taisho" type="orig" place="foot text">是癡惑＝是為癡或【宮】</note><app n="0175023"><lem>是癡惑</lem><rdg wit="【宮】" resp="Taisho">是為癡或</rdg></app>非法&CB02959;本。是本為誰。為惑非法。身
+<lb n="0175b22"/>&CB02959;作。口&CB02959;作。心&CB02959;作。亦所共相助非法。意所
+<lb n="0175b23"/>念非法本。是名為<note n="0175024" resp="Taisho" type="orig" place="foot text">（癡）＋惑【明】，惑＝或【宮】</note><app n="0175024"><lem>惑</lem><rdg wit="【明】" resp="Taisho">癡惑</rdg><rdg wit="【宮】" resp="Taisho">或</rdg></app>非法本</p>
+<lb n="0175b24"/><p>彼當知。倒亦當知。所倒當知。從所倒當知是</p>
+<lb n="0175b25"/><p>彼有一倒。從一倒為四倒。從所有為三倒。何
+<lb n="0175b26"/>等為一倒。為對或受。非常為常。<note n="0175025" resp="Taisho" type="orig" place="foot text">（為）＋苦【三】</note><note n="0175025" resp="CBETA" type="mod">（為）＋苦【宋】【元】【明】</note><app n="0175025"><lem>苦</lem><rdg wit="【宋】【元】【明】" resp="Taisho">為苦</rdg></app>為樂。非
+<lb n="0175b27"/>身為身。不淨為淨。是為一倒。何等為四倒。所
+<lb n="0175b28"/>有身痛意法。是為四倒。何等為三倒。一為想。
+<lb n="0175b29"/>二<note n="0175026" resp="Taisho" type="orig" place="foot text">〔為〕－【宋】【元】＊</note><app n="0175026"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>意。三<anchor id="fxT15p0175b02"/>為見。是為三倒使。彼所可意根
+<pb ed="T" id="T15.0603.0175c" n="0175c"/>
+<lb n="0175c01"/>相連著。若色若像為受想。是為欲想。以為有
+<lb n="0175c02"/>欲想。相隨久不斷。在意念是。為欲念種。若彼
+<lb n="0175c03"/>所想分別受。是名為想倒。彼<note n="0175027" resp="Taisho" type="orig" place="foot text">惑＝或【明】【宮】</note><app n="0175027"><lem>惑</lem><rdg wit="【明】【宮】" resp="Taisho">或</rdg></app>意不如有
+<lb n="0175c04"/>受。所從不應受解。是名為意倒。<note n="0175028" resp="Taisho" type="orig" place="foot text">所以＝以所【明】【宮】</note><app n="0175028"><lem>所以</lem><rdg wit="【明】【宮】" resp="Taisho">以所</rdg></app>受不
+<lb n="0175c05"/>捨在意。念在色。不淨意計淨。聽可意念已快
+<lb n="0175c06"/>所見受往。是名為見倒。<note n="0175029" resp="Taisho" type="orig" place="foot text">（聽）＋彼【宮】</note><app n="0175029"><lem>彼</lem><rdg wit="【宮】" resp="Taisho">聽彼</rdg></app>所見已為相分
+<lb n="0175c07"/>別。應當為十二倒。何等為<note n="0175030" resp="Taisho" type="orig" place="foot text">十二＋（倒）【明】【宮】</note><app n="0175030"><lem>十二</lem><rdg wit="【明】【宮】" resp="Taisho">十二倒</rdg></app>。在身有三。
+<lb n="0175c08"/>在痛有三。在意有三。在法有三。有四想倒。意
+<lb n="0175c09"/>倒亦有四。見倒亦有四。亦為在入因緣相會
+<lb n="0175c10"/>色。令為十二倒。身三痛三意三法。三<note n="0175031" resp="Taisho" type="orig" place="foot text">合為＝為合【宋】【元】</note><app n="0175031"><lem>合為</lem><rdg wit="【宋】【元】" resp="Taisho">為合</rdg></app>
+<lb n="0175c11"/>十二倒。為如是六。為七十二倒。從本得因
+<lb n="0175c12"/>緣。起<note n="0175032" resp="Taisho" type="orig" place="foot text">隨＝墮【宋】【元】</note><app n="0175032"><lem>隨</lem><rdg wit="【宋】【元】" resp="Taisho">墮</rdg></app>因緣。多少無有量。不可數在人無
+<lb n="0175c13"/><note n="0175033" resp="Taisho" type="orig" place="foot text">有數無有＝無有有【宋】【元】</note><app n="0175033"><lem>有數無有</lem><rdg wit="【宋】【元】" resp="Taisho">無有有</rdg></app>數倒。彼五陰為四身有。從所有色
+<lb n="0175c14"/>陰。是屬身。從有痛陰是屬痛身。從有識陰是
+<lb n="0175c15"/>屬意身。從有想陰<note n="0175034" resp="Taisho" type="orig" place="foot text">〔亦&CB02959;陰〕－【宮】</note><app n="0175034"><lem>亦&CB02959;陰</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。是屬法身。從有
+<lb n="0175c16"/>是五陰。令受四身因緣有</p>
+<lb n="0175c17"/><p>彼身不淨計淨。是為身倒。彼痛苦計為樂。是
+<lb n="0175c18"/>為痛倒。彼意非常計為常。是為意倒。彼法不
+<lb n="0175c19"/>為身計為身。是為法倒。為欲<note n="0175035" resp="Taisho" type="orig" place="foot text">正＝政【宋】【元】，止【明】</note><note n="0175035" resp="CBETA" type="mod">正＝政【宋】【元】，＝止【明】</note><app n="0175035"><lem>正</lem><rdg wit="【宋】【元】" resp="Taisho">政</rdg><rdg wit="【明】" resp="Taisho">止</rdg></app>四倒故。佛
+<lb n="0175c20"/>為現四意止為說分別</p>
+<lb n="0175c21"/><p>彼為身身相觀&CB02959;止。為不淨意念淨倒得解。
+<lb n="0175c22"/>彼為痛痛相觀為苦計為樂倒。得解彼為意
+<lb n="0175c23"/>意相觀。非常計為常倒得解彼。為法法相觀
+<lb n="0175c24"/>非身計為身倒得解彼。冥中冥如有不解是
+<lb n="0175c25"/>為癡相。令<note n="0175036" resp="Taisho" type="orig" place="foot text">墮＝隨【三】</note><note n="0175036" resp="CBETA" type="mod">墮＝隨【宋】【元】【明】</note><app n="0175036"><lem>墮</lem><rdg wit="【宋】【元】【明】" resp="Taisho">隨</rdg></app>所倒處。<note n="0175037" resp="Taisho" type="orig" place="foot text">欲＝彼【三】</note><note n="0175037" resp="CBETA" type="mod">欲＝彼【宋】【元】【明】</note><app n="0175037"><lem>欲</lem><rdg wit="【宋】【元】【明】" resp="Taisho">彼</rdg></app>得往是為<note n="0175038" resp="Taisho" type="orig" place="foot text">愛＝受【明】【宮】</note><app n="0175038"><lem>愛</lem><rdg wit="【明】【宮】" resp="Taisho">受</rdg></app>相。
+<lb n="0175c26"/>令從是受色為身。故令欺奇。是為貪相。令墮
+<lb n="0175c27"/>不與取。所可不如意是為恚相。令墮殺處。為
+<lb n="0175c28"/>不解事。<note n="0175039" resp="Taisho" type="orig" place="foot text">〔是為〕－【宋】【元】</note><app n="0175039"><lem>是為</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>癡惑相令受邪墮邪處。<note n="0175040" resp="Taisho" type="orig" place="foot text">為＝受【宋】【元】</note><app n="0175040"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">受</rdg></app>作
+<lb n="0175c29"/><note n="0175041" resp="Taisho" type="orig" place="foot text">彼＝從【明】【宮】</note><app n="0175041"><lem>彼</lem><rdg wit="【明】【宮】" resp="Taisho">從</rdg></app>所&CB02959;法不&CB00230;受相。是為令墮有常想不知
+<pb ed="T" id="T15.0603.0176a" n="0176a"/>
+<lb n="0176a01"/>身。<note n="0176001" resp="Taisho" type="orig" place="foot text">軀＝體【三】</note><note n="0176001" resp="CBETA" type="mod">軀＝體【宋】【元】【明】</note><app n="0176001"><lem>軀</lem><rdg wit="【宋】【元】【明】" resp="Taisho">體</rdg></app>。物。<note n="0176002" resp="Taisho" type="orig" place="foot text">（物）＋為【宮】</note><app n="0176002"><lem>為</lem><rdg wit="【宮】" resp="Taisho">物為</rdg></app>更相會相。令計樂想為墮身
+<lb n="0176a02"/>處。為不解。所法相為有身想。令墮。是為是我
+<lb n="0176a03"/>所處為墮。受色像相令計是為淨想。令從是
+<lb n="0176a04"/>墮不攝守根處。是為九品為已分別為一切
+<lb n="0176a05"/>不可&CB02959;非法伴已說。<note n="0176003" resp="Taisho" type="orig" place="foot text">竟＝意【宮】</note><app n="0176003"><lem>竟</lem><rdg wit="【宮】" resp="Taisho">意</rdg></app>是多聞者能解。不多
+<lb n="0176a06"/>聞者。卒不解。是為慧人能解。不慧卒不解。是
+<lb n="0176a07"/>&CB02959;者能解。不<note n="0176004" resp="Taisho" type="orig" place="foot text">隨＝墮【三】【宮】</note><note n="0176004" resp="CBETA" type="mod">隨＝墮【宋】【元】【明】【宮】</note><app n="0176004"><lem>隨</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">墮</rdg></app>行不解。有<note n="0176005" resp="Taisho" type="orig" place="foot text">卷上終【明】</note><note n="0176005" resp="CBETA" type="mod"><todo type="a"/>卷上終【明】</note>◎<note n="0176006" resp="Taisho" type="orig" place="foot text">卷下首【明】</note><note n="0176006" resp="CBETA" type="mod"><todo type="a"/>卷下首【明】</note>九絕處。令一
+<lb n="0176a08"/>切淨法部墮聚合。何等為九。一止二觀三不
+<lb n="0176a09"/>貪四不恚五不癡六非常七為苦八非身九不
+<lb n="0176a10"/>淨。是為九。彼止名為意止。在處能<note n="0176007" resp="Taisho" type="orig" place="foot text">〔止已〕－【宋】【元】</note><app n="0176007"><lem>止已</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>止
+<lb n="0176a11"/><note n="0176008" resp="Taisho" type="orig" place="foot text">正＝止【宋】【元】</note><app n="0176008"><lem>正</lem><rdg wit="【宋】【元】" resp="Taisho">止</rdg></app>止攝止不失止。不志心寂然<note n="0176009" resp="Taisho" type="orig" place="foot text">〔一〕－【宮】</note><app n="0176009"><lem>一</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>一向念是
+<lb n="0176a12"/>名為止。何等為觀。觀名為了陰。為了持。為了
+<lb n="0176a13"/>入。了名字。了從本生。了從本法已生。了苦了
+<lb n="0176a14"/>習了盡了道&CB02959;。了從善&CB02911;從是法生。了<note n="0176010" resp="Taisho" type="orig" place="foot text">增復＝了增優【宋】【元】</note><app n="0176010"><lem>增復</lem><rdg wit="【宋】【元】" resp="Taisho">了增優</rdg></app>
+<lb n="0176a15"/>增。了白黑。了是可隨。不可隨。如有分別。為
+<lb n="0176a16"/><note n="0176011" resp="Taisho" type="orig" place="foot text">&CB00243;＝施【明】【宮】＊</note><app n="0176011"><lem>&CB00243;</lem><rdg wit="【明】【宮】" resp="Taisho">施</rdg></app>。不<anchor id="fxT15p0176a01"/>&CB00243;。為下。復下。為念。復念。為思觀。為
+<lb n="0176a17"/><note n="0176012" resp="Taisho" type="orig" place="foot text">識＝志【宋】【元】【宮】</note><app n="0176012"><lem>識</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">志</rdg></app>。為慧。為眼。為謀。為滿。為解。為慧。<note n="0176013" resp="Taisho" type="orig" place="foot text">（為明）＋為明【宋】【元】，（為眼）＋為明【宮】</note><app n="0176013"><lem>為明</lem><rdg wit="【宋】【元】" resp="Taisho">為明為明</rdg><rdg wit="【宮】" resp="Taisho">為眼為明</rdg></app>。
+<lb n="0176a18"/>為欲。為光。為敢不離。為觀法。為覺意。為直
+<lb n="0176a19"/>見。為道種。是名為觀。亦有若干二輩觀。一為
+<lb n="0176a20"/>淨觀。二為不淨觀。三為清淨觀。四為不清淨
+<lb n="0176a21"/>觀。五為黑觀。六為白觀。七為可&CB02959;觀。八為不
+<lb n="0176a22"/>可&CB02959;觀。九為罪&CB02959;觀。十為殃福觀。十一為縛
+<lb n="0176a23"/>觀。十二為解脫觀。十三為有所益觀。十四為
+<lb n="0176a24"/>失無所益觀。十五為往觀。十六為還觀。十七
+<lb n="0176a25"/>為受罪觀。十八為除罪觀。是故名為觀。亦為
+<lb n="0176a26"/>二因緣令有是說止。為一切天下人有二病。
+<lb n="0176a27"/>何等為二。一為癡。二為愛。是二病故佛現二
+<lb n="0176a28"/>藥。何等為二。一為止。二為觀。若用二藥為愈
+<lb n="0176a29"/>二病。令自證。貪愛欲不復貪。念意得解脫。癡
+<pb ed="T" id="T15.0603.0176b" n="0176b"/>
+<lb n="0176b01"/>已解令從慧得解脫</p><note n="0176014" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0176014" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>◎
+<lb n="0176b02"/><juan fun="close" n="001"><jhead><note n="0176015" resp="Taisho" type="orig" place="foot text">〔陰持入經卷上〕－【宋】</note><app n="0176015"><lem><title>陰持入經</title>卷上</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="0176b03"/>
+<milestone unit="juan" n="2"/>
+<lb n="0176b04"/>
+<lb n="0176b05"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>陰持入經</title>卷下</jhead></juan>
+<lb n="0176b06"/>
+<lb n="0176b07"/><byline type="Translator">後漢<anchor id="fxT15p0176b01"/>安息國三藏安世高譯</byline>
+<lb n="0176b08"/><p>◎<note n="0176016" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0176016" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>彼愛欲藥為何等。為止。愛已解意。亦解
+<lb n="0176b09"/>意已解病便愈。彼癡藥為何等。為觀。癡已&CB00230;
+<lb n="0176b10"/>解。從慧解脫為病愈。如是佛說。如是二法。當
+<lb n="0176b11"/>知一為字。二為色。二法當<note n="0176017" resp="Taisho" type="orig" place="foot text">捨＝舍【宋】【元】下同</note><app n="0176017"><lem>捨</lem><rdg wit="【宋】【元】" resp="Taisho">舍</rdg></app>。一為癡。二
+<lb n="0176b12"/>為愛</p>
+<lb n="0176b13"/><p>二法當自知。一為慧。二為解脫。二法可<note n="0176018" resp="Taisho" type="orig" place="foot text">&CB02959;＝行【三】【宮】下同</note><note n="0176018" resp="CBETA" type="mod">&CB02959;＝行【宋】【元】【明】【宮】下同</note><app n="0176018"><lem>&CB02959;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">行</rdg></app>。
+<lb n="0176b14"/>一為止。二為觀</p>
+<lb n="0176b15"/><p>彼止已行令識色。已識令愛得捨。愛已解意。
+<lb n="0176b16"/>便得解脫。自證知。止已行滿足便得捨癡。已
+<lb n="0176b17"/>得捨癡。便從慧得解脫。自證知。若比丘<note n="0176019" resp="Taisho" type="orig" place="foot text">已＝以【明】【宮】＊</note><app n="0176019"><lem>已</lem><rdg wit="【明】【宮】" resp="Taisho">以</rdg></app>
+<lb n="0176b18"/>二法自知字亦色。<anchor id="fxT15p0176b02"/>已二法捨癡亦愛。如是齊
+<lb n="0176b19"/>是便無所著。<note n="0176020" resp="Taisho" type="orig" place="foot text">應＝癡【三】【宮】</note><note n="0176020" resp="CBETA" type="mod">應＝癡【宋】【元】【明】【宮】</note><app n="0176020"><lem>應</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">癡</rdg></app>行畢。欲度世。是為尚有餘
+<lb n="0176b20"/>無為未度。已無為竟。命已竟畢。便為苦盡。令
+<lb n="0176b21"/>後無苦。彼以有是陰。亦持亦入。已盡止寂然。
+<lb n="0176b22"/>從後無陰亦持亦入。無相連不復起。是為無
+<lb n="0176b23"/>餘。已得度世無為。畢是為二無為種。彼不貪
+<lb n="0176b24"/>清淨本為何等。為三界中不得不望不求。是
+<lb n="0176b25"/>名為不貪清淨本。是本為誰。為不貪身清淨
+<lb n="0176b26"/>言清淨。<note n="0176021" resp="Taisho" type="orig" place="foot text">亦＝法【明】【宮】</note><app n="0176021"><lem>亦</lem><rdg wit="【明】【宮】" resp="Taisho">法</rdg></app>餘相連清淨法意所念為本。是為
+<lb n="0176b27"/>不貪清淨本。亦有清淨本。佛說為八種行。是
+<lb n="0176b28"/>清淨本。彼為三清淨道種。是為不貪本。何等
+<lb n="0176b29"/>為三。一為直方便治。二為直念。三為直定。是
+<pb ed="T" id="T15.0603.0176c" n="0176c"/>
+<lb n="0176c01"/>為三清淨道種本。是故名為不貪清淨本。彼
+<lb n="0176c02"/>無恚不犯法本為何等。若忍所&CB02959;。未來為不
+<lb n="0176c03"/>出恚忍因緣。為不恚不恚不受殃。無恚無瞋
+<lb n="0176c04"/>亦不瞋。無怨亦不想怨。是為無恚不犯法本。
+<lb n="0176c05"/>是故名為無恚不犯法本</p>
+<lb n="0176c06"/><p>亦有三清淨道種。一無恚不犯法本。為正語。
+<lb n="0176c07"/>二為正業。三為正致利。是為三清淨道種。是
+<lb n="0176c08"/>故名為無恚不犯法本</p>
+<lb n="0176c09"/><p>彼不惑清淨本為何等。為從慧見四諦如<note n="0176022" resp="Taisho" type="orig" place="foot text">有如＝如有【宋】【元】</note><app n="0176022"><lem>有
+<lb n="0176c10"/>如</lem><rdg wit="【宋】【元】" resp="Taisho">如有</rdg></app>有應受清淨。不愚不惑不隨惑。亦不墮惑
+<lb n="0176c11"/>慧明明相見。從清淨法。是<note n="0176023" resp="Taisho" type="orig" place="foot text">為＋（為）【宋】【元】＊</note><app n="0176023"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">為為</rdg></app>不惑清淨本。
+<lb n="0176c12"/>是本為誰。為不惑清淨。所身&CB02959;。所言&CB02959;。所心
+<lb n="0176c13"/>&CB02959;。亦<note n="0176024" resp="Taisho" type="orig" place="foot text">所＝隨【宮】</note><app n="0176024"><lem>所</lem><rdg wit="【宮】" resp="Taisho">隨</rdg></app>相連清淨法。為意思惟相念所法
+<lb n="0176c14"/>本。亦為從二清淨道種。為不惑本。<note n="0176025" resp="Taisho" type="orig" place="foot text">一＝我【宋】【元】，〔一為直見…種本〕十七字－【宮】</note><note n="0176025" resp="CBETA" type="mod">〔一為直見二為直&CB02959;是為從二清淨道種本〕十七字－【宮】，一＝我【宋】【元】</note><app n="0176025"><lem>一為直
+<lb n="0176c15"/>見。二為直&CB02959;。是為從二清淨道種本</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">我為直見二為直&CB02959;是為從二清淨道種本</rdg></app>。是故
+<lb n="0176c16"/>名為不惑清淨本。是為三清淨。為八種道。已
+<lb n="0176c17"/>份在所隨應。非常為如是</p>
+<lb n="0176c18"/><p>彼非常想<anchor id="fxT15p0176c01"/>為何等。<note n="0176026" resp="Taisho" type="orig" place="foot text">一切＝一物【元】【宮】</note><app n="0176026"><lem>一切</lem><rdg wit="【元】【宮】" resp="Taisho">一物</rdg></app>所&CB02959;是非常想。所
+<lb n="0176c19"/>想計知是為受。是為非常想。亦從有世間八
+<lb n="0176c20"/>法。何等為八。有利。無利。名聞。不名聞。有論
+<lb n="0176c21"/>議。無論議。若<note n="0176027" resp="Taisho" type="orig" place="foot text">苦＋（殖志守道而艱患相紹或有灰滅之禍三塗之罪謂之苦）二十二字【宋】【元】，作夾註【明】</note><note n="0176027" resp="CBETA" type="mod">苦＋（殖志守道而艱患相紹或有灰滅之禍三塗之罪謂之苦）二十二字【宋】【元】，＋（殖志守道而艱患相紹或有灰滅之禍三塗之罪謂之苦）夾註【明】</note><app n="0176027"><lem>苦</lem><rdg wit="【宋】【元】" resp="Taisho">苦殖志守道而艱患相紹或有灰滅之禍三塗之罪謂之苦</rdg><rdg wit="【明】" resp="Taisho">苦<note place="inline">殖志守道而艱患相紹或有灰滅之禍三塗之罪謂之苦</note></rdg></app>。若樂。為意不墮不受。從若
+<lb n="0176c22"/>干思不受。止護觀思<note n="0176028" resp="Taisho" type="orig" place="foot text">惡＝德【宋】【元】＊</note><app n="0176028"><lem>惡</lem><rdg wit="【宋】【元】" resp="Taisho">德</rdg></app>得止。是名為非常
+<lb n="0176c23"/>想。彼苦想為何等。為一切世間行是為苦所
+<lb n="0176c24"/>想覺知受。是名為苦想。從是要為何等。望苦
+<lb n="0176c25"/>想為已習已增所念已多。為貪。已<note n="0176029" resp="Taisho" type="orig" place="foot text">足＋（貪從萬物生望從危生瞋從嫉生愚從不問生癡從冥生貪望瞋恚愚癡是為足也）三十二字【宋】【元】【宮】，作夾註【明】</note><note n="0176029" resp="CBETA" type="mod">足＋（貪從萬物生望從危生瞋從嫉生愚從不問生癡從冥生貪望瞋恚愚癡是為足也）三十二字【宋】【元】【宮】，＋（貪從萬物生望從危生瞋從嫉生愚從不問生癡從冥生貪望瞋恚愚癡是為足也）夾註【明】</note><app n="0176029"><lem>足</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">足貪從萬物生望從危生瞋從嫉生愚從不問生癡從冥生貪望瞋恚愚癡是為足也</rdg><rdg wit="【明】" resp="Taisho">足<note place="inline">貪從萬物生望從危生瞋從嫉生愚從不問生癡從冥生貪望瞋恚愚癡是為足也</note></rdg></app>。為不
+<lb n="0176c26"/>墮<note n="0176030" resp="Taisho" type="orig" place="foot text">貪＋（謂人從食望得老從瞋恚從病從愚癡得死從福德生故行家已得三十七品妙行即不墮貪）三十六字【宋】【元】，作夾註【明】</note><note n="0176030" resp="CBETA" type="mod">貪＋（謂人從食望得老從瞋恚從病從愚癡得死從福德生故行家已得三十七品妙行即不墮貪）三十六字【宋】【元】，＋（謂人從食望得老從瞋恚從病從愚癡得死從福德生故行家已得三十七品妙行即不墮貪）夾註【明】</note><app n="0176030"><lem>貪</lem><rdg wit="【宋】【元】" resp="Taisho">貪謂人從食望得老從瞋恚從病從愚癡得死從福德生故行家已得三十七品妙行即不墮貪</rdg><rdg wit="【明】" resp="Taisho">貪<note place="inline">謂人從食望得老從瞋恚從病從愚癡得死從福德生故行家已得三十七品妙行即不墮貪</note></rdg></app>。為意不受不<note n="0176031" resp="Taisho" type="orig" place="foot text">墮＝隨【三】【宮】</note><note n="0176031" resp="CBETA" type="mod">墮＝隨【宋】【元】【明】【宮】</note><app n="0176031"><lem>墮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app>。相牽不墮。不念。若干
+<pb ed="T" id="T15.0603.0177a" n="0177a"/>
+<lb n="0177a01"/>意護觀為已。<note n="0177001" resp="Taisho" type="orig" place="foot text">惡＝得【三】</note><note n="0177001" resp="CBETA" type="mod">惡＝得【宋】【元】【明】</note><app n="0177001"><lem>惡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">得</rdg></app>為得止。從是思望致是要。
+<lb n="0177a02"/>彼非<note n="0177002" resp="Taisho" type="orig" place="foot text">〔身〕－【宮】</note><app n="0177002"><lem>身</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>想為何等。為一切法不計身不墮
+<lb n="0177a03"/><note n="0177003" resp="Taisho" type="orig" place="foot text">身＋（言一切四大法不計為身身者非常之物明者不墮身想也）二十三字【宋】【元】，作夾註【明】</note><note n="0177003" resp="CBETA" type="mod">身＋（言一切四大法不計為身身者非常之物明者不墮身想也）二十三字【宋】【元】，＋（言一切四大法不計為身身者非常之物明者不墮身想也）夾註【明】</note><app n="0177003"><lem>身</lem><rdg wit="【宋】【元】" resp="Taisho">身言一切四大法不計為身身者非常之物明者不墮身想也</rdg><rdg wit="【明】" resp="Taisho">身<note place="inline">言一切四大法不計為身身者非常之物明者不墮身想也</note></rdg></app>。為想知想受。是名為非身想。從是為何
+<lb n="0177a04"/>等。望致非身想。已為念<note n="0177004" resp="Taisho" type="orig" place="foot text">（為）＋思【三】【宮】</note><note n="0177004" resp="CBETA" type="mod">（為）＋思【宋】【元】【明】【宮】</note><app n="0177004"><lem>思</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">為思</rdg></app>。為已<note n="0177005" resp="Taisho" type="orig" place="foot text">增令＝憎命【宋】【元】</note><app n="0177005"><lem>增。令</lem><rdg wit="【宋】【元】" resp="Taisho">憎命</rdg></app>是是
+<lb n="0177a05"/>自計我。為是為意不受捨若干態。不受<note n="0177006" resp="Taisho" type="orig" place="foot text">跓＝&CB13503;【宋】【元】</note><app n="0177006"><lem>跓</lem><rdg wit="【宋】【元】" resp="Taisho">&CB13503;</rdg></app>為
+<lb n="0177a06"/>觀。<note n="0177007" resp="Taisho" type="orig" place="foot text">&CB00983;＝穢【三】【宮】下同</note><note n="0177007" resp="CBETA" type="mod">&CB00983;＝穢【宋】【元】【明】【宮】下同</note><app n="0177007"><lem>&CB00983;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">穢</rdg></app><anchor id="fxT15p0177a01"/>惡得<note n="0177008" resp="Taisho" type="orig" place="foot text">止＋（不受&CB13503;者不&CB13503;息也所以能&CB00230;八十四態者正從觀惡露得止息也）二十六字【宋】【元】，作夾註。但文中&CB13503;字作跓【明】</note><note n="0177008" resp="CBETA" type="mod">止＋（不受&CB13503;者不&CB13503;息也所以能&CB00230;八十四態者正從觀惡露得止息也）二十六字【宋】【元】，＋（不受跓者不跓息也所以能&CB00230;八十四態者正從觀惡露得止息也）夾註【明】</note><app n="0177008"><lem>止</lem><rdg wit="【宋】【元】" resp="Taisho">止不受&CB13503;者不&CB13503;息也所以能&CB00230;八十四態者正從觀惡露得止息也</rdg><rdg wit="【明】" resp="Taisho">止<note place="inline">不受跓者不跓息也所以能&CB00230;八十四態者正從觀惡露得止息也</note></rdg></app></p>
+<lb n="0177a07"/><p>是為從是要致。彼惡不淨<note n="0177009" resp="Taisho" type="orig" place="foot text">（不）＋想【宋】【元】</note><app n="0177009"><lem>想</lem><rdg wit="【宋】【元】" resp="Taisho">不想</rdg></app>為何等。為一切
+<lb n="0177a08"/>世間&CB02959;。為不淨所想。自知受是名為不淨想。
+<lb n="0177a09"/>從是想為何等。望致不淨想已為念為思為
+<lb n="0177a10"/>已增。令世間五樂意&CB00230;捨意。不<note n="0177010" resp="Taisho" type="orig" place="foot text">牽＝幸【宋】【元】</note><app n="0177010"><lem>牽</lem><rdg wit="【宋】【元】" resp="Taisho">幸</rdg></app>不受不復
+<lb n="0177a11"/>墮。若干念<note n="0177011" resp="Taisho" type="orig" place="foot text">以＝已【宋】【元】</note><app n="0177011"><lem>以</lem><rdg wit="【宋】【元】" resp="Taisho">已</rdg></app>得護。為&CB00983;<anchor id="fxT15p0177a02"/>惡得跓。是為從是
+<lb n="0177a12"/>要致。彼為四思想念行。何以故。令知五陰。
+<lb n="0177a13"/>故佛說是分別見彼不淨想&CB02959;。為令色陰從
+<lb n="0177a14"/>是解。彼苦想&CB02959;令痛陰從是解。彼非身想&CB02959;。
+<lb n="0177a15"/>令思想陰亦&CB02959;陰。<note n="0177012" resp="Taisho" type="orig" place="foot text">從＝行【宋】【元】</note><app n="0177012"><lem>從</lem><rdg wit="【宋】【元】" resp="Taisho">行</rdg></app>是解</p>
+<lb n="0177a16"/><p>彼非常想&CB02959;。令識陰從是解</p>
+<lb n="0177a17"/><p>彼從止&CB02959;。令愛從是解。彼從觀<note n="0177013" resp="Taisho" type="orig" place="foot text">〔&CB02959;〕－【宋】【元】</note><app n="0177013"><lem>&CB02959;</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>令癡從
+<lb n="0177a18"/><note n="0177014" resp="Taisho" type="orig" place="foot text">是解＋（彼從不貪為捨貪）【宋】【元】</note><app n="0177014"><lem>是解</lem><rdg wit="【宋】【元】" resp="Taisho">是解彼從不貪為捨貪</rdg></app>。彼從不貪為捨貪</p>
+<lb n="0177a19"/><p>彼從不恚為捨恚</p>
+<lb n="0177a20"/><p>彼從不惑為捨癡</p>
+<lb n="0177a21"/><p>彼從非常想。令解有常</p>
+<lb n="0177a22"/><p>彼從苦想為解樂想</p>
+<lb n="0177a23"/><p>彼從非身想為解身想</p>
+<lb n="0177a24"/><p>彼從不淨想</p>
+<lb n="0177a25"/><p>為解淨想。彼從止攝意能得還。是為止想。<note n="0177015" resp="Taisho" type="orig" place="foot text">令＝命【三】【宮】</note><note n="0177015" resp="CBETA" type="mod">令＝命【宋】【元】【明】【宮】</note><app n="0177015"><lem>令</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">命</rdg></app>
+<lb n="0177a26"/>從是止禪。</p>
+<lb n="0177a27"/><p>彼從一切法。寂然能得解受。是為觀想。令止
+<lb n="0177a28"/>跓一切知</p>
+<lb n="0177a29"/><p>從欲<note n="0177016" resp="Taisho" type="orig" place="foot text">〔能〕－【宮】</note><app n="0177016"><lem>能</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app><note n="0177017" resp="Taisho" type="orig" place="foot text">〔得〕－【三】</note><note n="0177017" resp="CBETA" type="mod">〔得〕－【宋】【元】【明】</note><app n="0177017"><lem>得</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>還想。是為不貪相。令還不與取
+<pb ed="T" id="T15.0603.0177b" n="0177b"/>
+<lb n="0177b01"/><note n="0177018" resp="Taisho" type="orig" place="foot text">止＋（色聲香味細滑邪念名之曰不與取也行家已得四禪還六情不復受外六欲故言還不與取止）三十七字【宋】【元】，作夾註【明】</note><note n="0177018" resp="CBETA" type="mod">止＋（色聲香味細滑邪念名之曰不與取也行家已得四禪還六情不復受外六欲故言還不與取止）三十七字【宋】【元】，＋（色聲香味細滑邪念名之曰不與取也行家已得四禪還六情不復受外六欲故言還不與取止）夾註【明】</note><app n="0177018"><lem>止</lem><rdg wit="【宋】【元】" resp="Taisho">止色聲香味細滑邪念名之曰不與取也行家已得四禪還六情不復受外六欲故言還不與取止</rdg><rdg wit="【明】" resp="Taisho">止<note place="inline">色聲香味細滑邪念名之曰不與取也行家已得四禪還六情不復受外六欲故言還不與取止</note></rdg></app></p>
+<lb n="0177b02"/><p>已後不復生癡。是為無有恚<note n="0177019" resp="Taisho" type="orig" place="foot text">想＝相【三】【宮】＊</note><note n="0177019" resp="CBETA" type="mod">想＝相【宋】【元】【明】【宮】＊</note><app n="0177019"><lem>想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">相</rdg></app>。令從殺還得
+<lb n="0177b03"/>止。識事亦物是為不惑相。為令得止止<note n="0177020" resp="Taisho" type="orig" place="foot text">所世間＋（所世間）【三】</note><note n="0177020" resp="CBETA" type="mod">所世間＋（所世間）【宋】【元】【明】</note><app n="0177020"><lem>所世
+<lb n="0177b04"/>間</lem><rdg wit="【宋】【元】【明】" resp="Taisho">所世間所世間</rdg></app>所&CB02959;為所法能受相。是為非常想。令知從
+<lb n="0177b05"/>生。亦知從滅。識為是處。為世間&CB02959;。作世間
+<lb n="0177b06"/>更。所<note n="0177021" resp="Taisho" type="orig" place="foot text">〔所〕－【三】【宮】</note><note n="0177021" resp="CBETA" type="mod">〔所〕－【宋】【元】【明】【宮】</note><app n="0177021"><lem>所</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>識<note n="0177022" resp="Taisho" type="orig" place="foot text">想＝相【宋】【元】</note><app n="0177022"><lem>想</lem><rdg wit="【宋】【元】" resp="Taisho">相</rdg></app>是為苦。為所思想。是為痛種
+<lb n="0177b07"/>處。一切所法不住<anchor id="fxT15p0177b01"/>想。是為非身想。是為思
+<lb n="0177b08"/>想。<note n="0177023" resp="Taisho" type="orig" place="foot text">是＝處【三】【宮】</note><note n="0177023" resp="CBETA" type="mod">是＝處【宋】【元】【明】【宮】</note><app n="0177023"><lem>是</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">處</rdg></app>已見身屍已壞。青&CB00167;為受是相。是為
+<lb n="0177b09"/>不淨思想。從是為悔。&CB00230;令寂然。止是為九品
+<lb n="0177b10"/>處。已分別說見。為一切無為部。說具足是為
+<lb n="0177b11"/>誰。知多聞。少聞不為慧者。不慧不為常意在
+<lb n="0177b12"/>經。為意<note n="0177024" resp="Taisho" type="orig" place="foot text">相＝想【宋】【元】</note><app n="0177024"><lem>相</lem><rdg wit="【宋】【元】" resp="Taisho">想</rdg></app>連生。為從不分別觀。令不得非
+<lb n="0177b13"/>常想。不受非常想。令從是墮五樂。令五樂覆
+<lb n="0177b14"/>蓋。從所應&CB02959;。失令不解苦想。令墮<note n="0177025" resp="Taisho" type="orig" place="foot text">五陰＝陰五【宋】【元】</note><app n="0177025"><lem>五陰</lem><rdg wit="【宋】【元】" resp="Taisho">陰五</rdg></app>受
+<lb n="0177b15"/>入。令<note n="0177026" resp="Taisho" type="orig" place="foot text">為＝受【宋】【元】</note><app n="0177026"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">受</rdg></app>意計是身。若干本非一本。不捨不
+<lb n="0177b16"/>觀令不墮非身想。為意在顏色。樂計是身為
+<lb n="0177b17"/><note n="0177027" resp="Taisho" type="orig" place="foot text">淨不＝不淨【宋】【元】</note><app n="0177027"><lem>淨。不</lem><rdg wit="【宋】【元】" resp="Taisho">不淨</rdg></app>計是<note n="0177028" resp="Taisho" type="orig" place="foot text">皮肌＝皮膚【三】【宮】</note><note n="0177028" resp="CBETA" type="mod">皮肌＝皮膚【宋】【元】【明】【宮】</note><app n="0177028"><lem>皮肌</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">皮膚</rdg></app>覆。令不墮不淨想。不<note n="0177029" resp="Taisho" type="orig" place="foot text">住＝往【三】【宮】</note><note n="0177029" resp="CBETA" type="mod">住＝往【宋】【元】【明】【宮】</note><app n="0177029"><lem>住</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">往</rdg></app>
+<lb n="0177b18"/>受。止。是想不信令無有想。不受喜。為從是
+<lb n="0177b19"/>四種已除。<note n="0177030" resp="Taisho" type="orig" place="foot text">墮得＝得墮【宮】</note><app n="0177030"><lem>墮得</lem><rdg wit="【宮】" resp="Taisho">得墮</rdg></app>無為種處。佛說信根比丘欲
+<lb n="0177b20"/>見知。當求在四溝港種為清淨法。不捨方便
+<lb n="0177b21"/>相。令致清淨。從清淨發起令墮四意止</p>
+<lb n="0177b22"/><p>佛說精進根。比丘欲見知。當在四意斷。過去
+<lb n="0177b23"/>所更。相念不忘。為從不忘發生<note n="0177031" resp="Taisho" type="orig" place="foot text">墮四＝四墮【宋】【元】</note><app n="0177031"><lem>墮四</lem><rdg wit="【宋】【元】" resp="Taisho">四墮</rdg></app>意止</p>
+<lb n="0177b24"/><p>佛說念根。比丘欲見<note n="0177032" resp="Taisho" type="orig" place="foot text">知當＝當知【宋】【元】</note><app n="0177032"><lem>知。當</lem><rdg wit="【宋】【元】" resp="Taisho">當知</rdg></app>觀在四意止。為
+<lb n="0177b25"/>一<note n="0177033" resp="Taisho" type="orig" place="foot text">意想＝意根【明】【宮】</note><app n="0177033"><lem>意想</lem><rdg wit="【明】【宮】" resp="Taisho">意根</rdg></app>。是為定從不惑起。令墮四禪處</p>
+<lb n="0177b26"/><p>佛說是比丘欲知定根。當知在四<note n="0177034" resp="Taisho" type="orig" place="foot text">禪＋（數息為身意止相隨為痛痒意止止為意意止觀為法意止是四身止五陰便止是為還還淨是應四禪也）四十一字【宋】【元】，作夾註【明】</note><note n="0177034" resp="CBETA" type="mod">禪＋（數息為身意止相隨為痛痒意止止為意意止觀為法意止是四身止五陰便止是為還還淨是應四禪也）四十一字【宋】【元】，＋（數息為身意止相隨為痛痒意止止為意意止觀為法意止是四身止五陰便止是為還還淨是應四禪也）夾註【明】</note><app n="0177034"><lem>禪</lem><rdg wit="【宋】【元】" resp="Taisho">禪數息為身意止相隨為痛痒意止止為意意止觀為法意止是四身止五陰便止是為還還淨是應四禪也</rdg><rdg wit="【明】" resp="Taisho">禪<note place="inline">數息為身意止相隨為痛痒意止止為意意止觀為法意止是四身止五陰便止是為還還淨是應四禪也</note></rdg></app>。從本校
+<lb n="0177b27"/>計為慧。如有能得持。從是發起<note n="0177035" resp="Taisho" type="orig" place="foot text">令＝今【三】</note><note n="0177035" resp="CBETA" type="mod">令＝今【宋】【元】【明】</note><app n="0177035"><lem>令</lem><rdg wit="【宋】【元】【明】" resp="Taisho">今</rdg></app>墮四諦</p>
+<lb n="0177b28"/><p>佛說慧根。比丘欲見。當在四諦。為有四輪。好
+<lb n="0177b29"/>郡縣居輪。依慧人輪。自本正願輪。宿命有福
+<pb ed="T" id="T15.0603.0177c" n="0177c"/>
+<lb n="0177c01"/><note n="0177036" resp="Taisho" type="orig" place="foot text">輪＋（輪者喻車輪也能載致物言人有是四輪亦載致人於道也四輪應四諦四禪為屬道行也百法四輪義同也）四十二字【宋】【元】，作夾註【明】</note><note n="0177036" resp="CBETA" type="mod">輪＋（輪者喻車輪也能載致物言人有是四輪亦載致人於道也四輪應四諦四禪為屬道行也百法四輪義同也）四十二字【宋】【元】，＋（輪者喻車輪也能載致物言人有是四輪亦載致人於道也四輪應四諦四禪為屬道行也百法四輪義同也）夾註【明】</note><app n="0177036"><lem>輪</lem><rdg wit="【宋】【元】" resp="Taisho">輪輪者喻車輪也能載致物言人有是四輪亦載致人於道也四輪應四諦四禪為屬道行也百法四輪義同也</rdg><rdg wit="【明】" resp="Taisho">輪<note place="inline">輪者喻車輪也能載致物言人有是四輪亦載致人於道也四輪應四諦四禪為屬道行也百法四輪義同也</note></rdg></app>。彼為道德共居相。是為好郡縣居。令<note n="0177037" resp="Taisho" type="orig" place="foot text">得＝賢【三】</note><note n="0177037" resp="CBETA" type="mod">得＝賢【宋】【元】【明】</note><app n="0177037"><lem>得</lem><rdg wit="【宋】【元】【明】" resp="Taisho">賢</rdg></app>
+<lb n="0177c02"/>賢者依止處。以得道德依猗相。是為依慧人。
+<lb n="0177c03"/>從是為墮有正願處。以得正願<note n="0177038" resp="Taisho" type="orig" place="foot text">〔相是為身正願〕－【宋】【元】</note><app n="0177038"><lem>相。是為身
+<lb n="0177c04"/>正願</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。令墮福處。從清淨行有所入相。是名為
+<lb n="0177c05"/>福。令致墮五樂處</p>
+<lb n="0177c06"/><p><note n="0177039" resp="Taisho" type="orig" place="foot text">〔彼〕－【宮】</note><app n="0177039"><lem>彼</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>為戒法十一本。一為色持戒無悔。二為已
+<lb n="0177c07"/>不悔令得喜意。三為已有喜令愛生。四為<note n="0177040" resp="Taisho" type="orig" place="foot text">已＝以【宋】【元】</note><app n="0177040"><lem>已</lem><rdg wit="【宋】【元】" resp="Taisho">以</rdg></app>
+<lb n="0177c08"/>意得愛為身得猗。五為已身得猗便得樂。六
+<lb n="0177c09"/>為已意得樂。便得<note n="0177041" resp="Taisho" type="orig" place="foot text">正＝止【宋】【元】＊</note><app n="0177041"><lem>正</lem><rdg wit="【宋】【元】" resp="Taisho">止</rdg></app>止。七為已意得<anchor id="fxT15p0177c01"/>正止。
+<lb n="0177c10"/>便知<note n="0177042" resp="Taisho" type="orig" place="foot text">〔如〕－【宋】【元】</note><app n="0177042"><lem>如</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>有。八為已知如有便寂然。九為已寂
+<lb n="0177c11"/>然便得離。十為已得離便得解脫。十一為已
+<lb n="0177c12"/>得解脫便見慧。有慧便知生死已盡。道&CB02959;已
+<lb n="0177c13"/>畢。所作&CB02959;已竟。不復還受<note n="0177043" resp="Taisho" type="orig" place="foot text">苦＋（得三活謂之畢淨行足意漏盡謂之竟直入泥洹不還三界受眾苦也）二十七字【宋】【元】，作夾註【明】</note><note n="0177043" resp="CBETA" type="mod">苦＋（得三活謂之畢淨行足意漏盡謂之竟直入泥洹不還三界受眾苦也）二十七字【宋】【元】，＋（得三活謂之畢淨行足意漏盡謂之竟直入泥洹不還三界受眾苦也）夾註【明】</note><app n="0177043"><lem>苦</lem><rdg wit="【宋】【元】" resp="Taisho">苦得三活謂之畢淨行足意漏盡謂之竟直入泥洹不還三界受眾苦也</rdg><rdg wit="【明】" resp="Taisho">苦<note place="inline">得三活謂之畢淨行足意漏盡謂之竟直入泥洹不還三界受眾苦也</note></rdg></app></p>
+<lb n="0177c14"/><p>戒相為何等。至<note n="0177044" resp="Taisho" type="orig" place="foot text">命＝令【宮】</note><app n="0177044"><lem>命</lem><rdg wit="【宮】" resp="Taisho">令</rdg></app>盡持戒。令從是致無悔。
+<lb n="0177c15"/>身不增罪相為無悔。從是致喜令得喜處。可
+<lb n="0177c16"/>意相為喜。令致愛處喜足<note n="0177045" resp="Taisho" type="orig" place="foot text">相＋（相）【三】</note><note n="0177045" resp="CBETA" type="mod">相＋（相）【宋】【元】【明】</note><app n="0177045"><lem>相</lem><rdg wit="【宋】【元】【明】" resp="Taisho">相相</rdg></app>為處。令致有猗
+<pb ed="T" id="T15.0603.0178a" n="0178a"/>
+<lb n="0178a01"/>處。從&CB02959;為是為得猗相。令致樂處。已無<note n="0178001" resp="Taisho" type="orig" place="foot text">&CB00478;＝惱【三】【宮】下同</note><note n="0178001" resp="CBETA" type="mod">&CB00478;＝惱【宋】【元】【明】【宮】下同</note><app n="0178001"><lem>&CB00478;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">惱</rdg></app>為
+<lb n="0178a02"/>樂相。令從是致定<note n="0178002" resp="Taisho" type="orig" place="foot text">處＋（致定處者謂在所得定處也一說言滅去惡意致善意著之處）二十四字【宋】【元】，作夾註【明】【宮】</note><note n="0178002" resp="CBETA" type="mod">處＋（致定處者謂在所得定處也一說言滅去惡意致善意著之處）二十四字【宋】【元】，＋（致定處者謂在所得定處也一說言滅去惡意致善意著之處）夾註【明】【宮】</note><app n="0178002"><lem>處</lem><rdg wit="【宋】【元】" resp="Taisho">處致定處者謂在所得定處也一說言滅去惡意致善意著之處</rdg><rdg wit="【明】【宮】" resp="Taisho">處<note place="inline">致定處者謂在所得定處也一說言滅去惡意致善意著之處</note></rdg></app>。意隨使不忘為定相
+<lb n="0178a03"/>令致如有慧處不惑。如有相隨相。是為寂然
+<lb n="0178a04"/>處。若知非身是為寂然相。令從是<note n="0178003" resp="Taisho" type="orig" place="foot text">〔致〕－【宋】【元】</note><app n="0178003"><lem>致</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>相別離
+<lb n="0178a05"/>處。不近會為相別離。為從是致解脫。已為非
+<lb n="0178a06"/>行法不受殃。是為解脫相。令致解脫慧見</p>
+<lb n="0178a07"/><p>為有四道德地。何等為四。<note n="0178004" resp="Taisho" type="orig" place="foot text">〔為〕－【宋】【元】，〔為四〕－【明】【宮】</note><note n="0178004" resp="CBETA" type="mod">〔為四〕－【明】【宮】，〔為〕－【宋】【元】</note><app n="0178004"><lem>為四</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">四</rdg></app>行者。福彼
+<lb n="0178a08"/>若如有知智。是為見地。為得道&CB00528;。是為得道
+<lb n="0178a09"/>福。彼如<note n="0178005" resp="Taisho" type="orig" place="foot text">〔有〕－【三】【宮】</note><note n="0178005" resp="CBETA" type="mod">〔有〕－【宋】【元】【明】【宮】</note><app n="0178005"><lem>有</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>如有知是為<anchor id="fxT15p0178a01"/>惡&CB00230;離。是名為薄
+<lb n="0178a10"/>地。為<note n="0178006" resp="Taisho" type="orig" place="foot text">〔有〕－【宮】</note><app n="0178006"><lem>有</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>往來福。彼以<anchor id="fxT15p0178a02"/>惡&CB00230;為不用。是名為
+<lb n="0178a11"/>相離地。<note n="0178007" resp="Taisho" type="orig" place="foot text">〔彼已相離〕－【宮】</note><app n="0178007"><lem>彼已相離</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。是為不復還福。是名為
+<lb n="0178a12"/>欲竟地無所著。亦&CB02959;者福是何義。<note n="0178008" resp="Taisho" type="orig" place="foot text">為＝謂【三】</note><note n="0178008" resp="CBETA" type="mod">為＝謂【宋】【元】【明】</note><app n="0178008"><lem>為</lem><rdg wit="【宋】【元】【明】" resp="Taisho">謂</rdg></app>道弟子
+<lb n="0178a13"/>有八種道&CB02959;。是名為&CB02959;者。<note n="0178009" resp="Taisho" type="orig" place="foot text">（行）＋為【宮】</note><app n="0178009"><lem>為</lem><rdg wit="【宮】" resp="Taisho">行為</rdg></app>是是福。是故
+<lb n="0178a14"/>名為&CB02959;者福。何以故。為&CB02959;清淨為名。是為清
+<lb n="0178a15"/>淨福。是為道德有八種清淨道&CB02959;。為是是福。
+<lb n="0178a16"/>是故名為清淨福。彼為應得道&CB00528;。云何已諦
+<lb n="0178a17"/>相應<note n="0178010" resp="Taisho" type="orig" place="foot text">〔道〕－【宋】【元】</note><app n="0178010"><lem>道</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。弟子便斷三縛結。彼為三縛結為何
+<lb n="0178a18"/>等。一為知身非身。二為無疑。三為不貿易&CB02959;
+<lb n="0178a19"/>戒。已斷是三縛結。道弟子便墮道&CB00528;。不復墮
+<lb n="0178a20"/>惡道。畢竟道七更天上。亦人間已更。所在往
+<lb n="0178a21"/>來便斷苦。<note n="0178011" resp="Taisho" type="orig" place="foot text">〔從苦〕－【宋】【元】</note><app n="0178011"><lem>從苦</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>得解。是名為見地為得道
+<lb n="0178a22"/><note n="0178012" resp="Taisho" type="orig" place="foot text">&CB00528;＝亦【宮】</note><app n="0178012"><lem>&CB00528;</lem><rdg wit="【宮】" resp="Taisho">亦</rdg></app>福。彼何等為令意墮是身。亦知是<note n="0178013" resp="Taisho" type="orig" place="foot text">身＋（問何行令心或存身以為有乎答曰五陰令惑矣）十九字【宋】【元】，作夾註【明】</note><note n="0178013" resp="CBETA" type="mod">身＋（問何行令心或存身以為有乎答曰五陰令惑矣）十九字【宋】【元】，＋（問何行令心或存身以為有乎答曰五陰令惑矣）夾註【明】</note><app n="0178013"><lem>身</lem><rdg wit="【宋】【元】" resp="Taisho">身問何行令心或存身以為有乎答曰五陰令惑矣</rdg><rdg wit="【明】" resp="Taisho">身<note place="inline">問何行令心或存身以為有乎答曰五陰令惑矣</note></rdg></app>。癡
+<lb n="0178a23"/>為以不聞。為世間人。不見<note n="0178014" resp="Taisho" type="orig" place="foot text">覺＝學【宮】</note><app n="0178014"><lem>覺</lem><rdg wit="【宮】" resp="Taisho">學</rdg></app>者。亦不從聞
+<lb n="0178a24"/>者。受教戒聞者。亦為未分別。現正法為意念。
+<lb n="0178a25"/>是色為身。遍<note n="0178015" resp="Taisho" type="orig" place="foot text">&CB00418;＝都【三】【宮】</note><note n="0178015" resp="CBETA" type="mod">&CB00418;＝都【宋】【元】【明】【宮】</note><app n="0178015"><lem>&CB00418;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">都</rdg></app>色為身。是色亦為身。色亦
+<lb n="0178a26"/>是我身。痛想&CB02959;識。亦如上說。已如是得觀。便
+<lb n="0178a27"/>受五<note n="0178016" resp="Taisho" type="orig" place="foot text">樂＋（得觀謂愚者邪見墮五陰為身即悅五欲以為樂也了本曰為在疑中令疑正要如是佛說為癡斯其義矣）四十一字【宋】【元】，作夾註【明】</note><note n="0178016" resp="CBETA" type="mod">樂＋（得觀謂愚者邪見墮五陰為身即悅五欲以為樂也了本曰為在疑中令疑正要如是佛說為癡斯其義矣）四十一字【宋】【元】，＋（得觀謂愚者邪見墮五陰為身即悅五欲以為樂也了本曰為在疑中令疑正要如是佛說為癡斯其義矣）夾註【明】</note><app n="0178016"><lem>樂</lem><rdg wit="【宋】【元】" resp="Taisho">樂得觀謂愚者邪見墮五陰為身即悅五欲以為樂也了本曰為在疑中令疑正要如是佛說為癡斯其義矣</rdg><rdg wit="【明】" resp="Taisho">樂<note place="inline">得觀謂愚者邪見墮五陰為身即悅五欲以為樂也了本曰為在疑中令疑正要如是佛說為癡斯其義矣</note></rdg></app>。令為受是<note n="0178017" resp="Taisho" type="orig" place="foot text">身＋（愚者以五樂為榮樂受身想如是捨身受身輪轉苦也）二十一字【宋】【元】，作夾註【明】</note><note n="0178017" resp="CBETA" type="mod">身＋（愚者以五樂為榮樂受身想如是捨身受身輪轉苦也）二十一字【宋】【元】，＋（愚者以五樂為榮樂受身想如是捨身受身輪轉苦也）夾註【明】</note><app n="0178017"><lem>身</lem><rdg wit="【宋】【元】" resp="Taisho">身愚者以五樂為榮樂受身想如是捨身受身輪轉苦也</rdg><rdg wit="【明】" resp="Taisho">身<note place="inline">愚者以五樂為榮樂受身想如是捨身受身輪轉苦也</note></rdg></app>。為墮身。令意念我為
+<lb n="0178a28"/>是。我為以是<note n="0178018" resp="Taisho" type="orig" place="foot text">〔著〕－【宮】</note><app n="0178018"><lem>著</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。相連不得自在。牽<note n="0178019" resp="Taisho" type="orig" place="foot text">相＋（連）【三】</note><note n="0178019" resp="CBETA" type="mod">相＋（連）【宋】【元】【明】</note><app n="0178019"><lem>相</lem><rdg wit="【宋】【元】【明】" resp="Taisho">相連</rdg></app>隨如
+<lb n="0178a29"/>是有所<note n="0178020" resp="Taisho" type="orig" place="foot text">忍＋（者自可以為己志之所尚者是也縛著于俗隨之生死忍受罪庶無所顏矣）二十九字【宋】【元】，作夾註。但無初出者字【明】</note><note n="0178020" resp="CBETA" type="mod">忍＋（者自可以為己志之所尚者是也縛著于俗隨之生死忍受罪庶無所顏矣）二十九字【宋】【元】，＋（自可以為己志之所尚者是也縛著于俗隨之生死忍受罪庶無所顏矣）二十八字夾註【明】</note><app n="0178020"><lem>忍</lem><rdg wit="【宋】【元】" resp="Taisho">忍者自可以為己志之所尚者是也縛著于俗隨之生死忍受罪庶無所顏矣</rdg><rdg wit="【明】" resp="Taisho">忍<note place="inline">自可以為己志之所尚者是也縛著于俗隨之生死忍受罪庶無所顏矣</note></rdg></app>。所可為<note n="0178021" resp="Taisho" type="orig" place="foot text">（為）＋意【三】</note><note n="0178021" resp="CBETA" type="mod">（為）＋意【宋】【元】【明】</note><app n="0178021"><lem>意</lem><rdg wit="【宋】【元】【明】" resp="Taisho">為意</rdg></app>。為可受。已受見隨&CB02959;。
+<pb ed="T" id="T15.0603.0178b" n="0178b"/>
+<lb n="0178b01"/>是為邪見。墮受是身。彼為見是五邪令墮疑
+<lb n="0178b02"/>無有。何等為五。若為所色為見。是身比前。
+<lb n="0178b03"/><note n="0178022" resp="Taisho" type="orig" place="foot text">更＝受【明】【宮】</note><app n="0178022"><lem>更</lem><rdg wit="【明】【宮】" resp="Taisho">受</rdg></app>想行識亦爾。是為五邪見。令墮無有。後有
+<lb n="0178b04"/>餘十五。令墮常。如是見。是身已斷。便六十二
+<lb n="0178b05"/>邪見已<note n="0178023" resp="Taisho" type="orig" place="foot text">捨＋（謂已得道者五陰斷已五陰斷六十二邪見便滅也）二十字【宋】【元】，作夾註【明】</note><note n="0178023" resp="CBETA" type="mod">捨＋（謂已得道者五陰斷已五陰斷六十二邪見便滅也）二十字【宋】【元】，＋（謂已得道者五陰斷已五陰斷六十二邪見便滅也）夾註【明】</note><app n="0178023"><lem>捨</lem><rdg wit="【宋】【元】" resp="Taisho">捨謂已得道者五陰斷已五陰斷六十二邪見便滅也</rdg><rdg wit="【明】" resp="Taisho">捨<note place="inline">謂已得道者五陰斷已五陰斷六十二邪見便滅也</note></rdg></app>。令不墮常非常。已非常常為捨。便
+<lb n="0178b06"/>道弟子無<note n="0178024" resp="Taisho" type="orig" place="foot text">倒＝行【三】【宮】</note><note n="0178024" resp="CBETA" type="mod">倒＝行【宋】【元】【明】【宮】</note><app n="0178024"><lem>倒</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">行</rdg></app>邪見。但為度<note n="0178025" resp="Taisho" type="orig" place="foot text">世＋（夫五陰滅者諸念寂盡無常非常之想大明度經曰汝無念者令&CB00418;明度明度所謂度世者也）三十六字【宋】【元】，作夾註【明】</note><note n="0178025" resp="CBETA" type="mod">世＋（夫五陰滅者諸念寂盡無常非常之想大明度經曰汝無念者令&CB00418;明度明度所謂度世者也）三十六字【宋】【元】，＋（夫五陰滅者諸念寂盡無常非常之想大明度經曰汝無念者令&CB00418;明度明度所謂度世者也）夾註【明】</note><app n="0178025"><lem>世</lem><rdg wit="【宋】【元】" resp="Taisho">世夫五陰滅者諸念寂盡無常非常之想大明度經曰汝無念者令&CB00418;明度明度所謂度世者也</rdg><rdg wit="【明】" resp="Taisho">世<note place="inline">夫五陰滅者諸念寂盡無常非常之想大明度經曰汝無念者令&CB00418;明度明度所謂度世者也</note></rdg></app>。直見為何等。
+<lb n="0178b07"/>令不墮邪見身。<note n="0178026" resp="Taisho" type="orig" place="foot text">若＝苦【宋】【元】</note><app n="0178026"><lem>若</lem><rdg wit="【宋】【元】" resp="Taisho">苦</rdg></app>道弟子為聞。為直見。見
+<lb n="0178b08"/>通經家。為已受度世無為。為已解度世法。不
+<lb n="0178b09"/>復見是色為身。遍睹色為身。是色亦為身色。
+<lb n="0178b10"/>色亦是<note n="0178027" resp="Taisho" type="orig" place="foot text">我身＋（色色亦是我身）【三】</note><note n="0178027" resp="CBETA" type="mod">我身＋（色色亦是我身）【宋】【元】【明】</note><app n="0178027"><lem>我身</lem><rdg wit="【宋】【元】【明】" resp="Taisho">我身色色亦是我身</rdg></app>。痛想行<note n="0178028" resp="Taisho" type="orig" place="foot text">識＝誡【宮】</note><app n="0178028"><lem>識</lem><rdg wit="【宮】" resp="Taisho">誡</rdg></app>已不見如<note n="0178029" resp="Taisho" type="orig" place="foot text">是＋（如是如上所說五陰之害得四意止者五陰即滅下三結便都解矣）二十六【宋】【元】【宮】，作夾註。但如是二字作本文【明】</note><note n="0178029" resp="CBETA" type="mod">是＋（如是如上所說五陰之害得四意止者五陰即滅下三結便都解矣）二十六【宋】【元】【宮】，＋（如是(如上所說五陰之害得四意止者五陰即滅下三結便都解矣)）【明】</note><app n="0178029"><lem>是</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">是如是如上所說五陰之害得四意止者五陰即滅下三結便都解矣</rdg><rdg wit="【明】" resp="Taisho">是如是<note place="inline">如上所說五陰之害得四意止者五陰即滅下三結便都解矣</note></rdg></app>。便解
+<lb n="0178b11"/>三結使。何等為三。一為不見是身。二為不恚。
+<lb n="0178b12"/>三為不疑。已如是道弟子為無疑。在佛亦無
+<lb n="0178b13"/><note n="0178030" resp="Taisho" type="orig" place="foot text">疑＋（在佛者佛巍巍至尊其為無量淨行弟子亦無疑焉故偈云已無所復淨然始不疑不轉斯義如之也）三十七字【宋】【元】，作夾註【明】</note><note n="0178030" resp="CBETA" type="mod">疑＋（在佛者佛巍巍至尊其為無量淨行弟子亦無疑焉故偈云已無所復淨然始不疑不轉斯義如之也）三十七字【宋】【元】，＋（在佛者佛巍巍至尊其為無量淨行弟子亦無疑焉故偈云已無所復淨然始不疑不轉斯義如之也）夾註【明】</note><app n="0178030"><lem>疑</lem><rdg wit="【宋】【元】" resp="Taisho">疑在佛者佛巍巍至尊其為無量淨行弟子亦無疑焉故偈云已無所復淨然始不疑不轉斯義如之也</rdg><rdg wit="【明】" resp="Taisho">疑<note place="inline">在佛者佛巍巍至尊其為無量淨行弟子亦無疑焉故偈云已無所復淨然始不疑不轉斯義如之也</note></rdg></app>。為信為喜為佛。如是如來無所著正覺慧
+<lb n="0178b14"/>行已足為樂。為世間已解。無有過。是法馭法
+<lb n="0178b15"/>隨為師。為教天上天下為佛最上。是得信不
+<lb n="0178b16"/>疑。為隨是法&CB02959;為在法。無結無疑為信為喜。
+<lb n="0178b17"/>佛說是法。現可學可致。現自更見。已解為慧。
+<lb n="0178b18"/>為是所貪飢渴相近已斷。隨<note n="0178031" resp="Taisho" type="orig" place="foot text">已＝以【三】【宮】</note><note n="0178031" resp="CBETA" type="mod">已＝以【宋】【元】【明】【宮】</note><app n="0178031"><lem>已</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">以</rdg></app>斷。空無所應
+<lb n="0178b19"/><note n="0178032" resp="Taisho" type="orig" place="foot text">得＋（空其心淨其內志興補違故曰不應不應邪也得受不受不受&CB03217;也）二十六字【宋】【元】【宮】，作夾註。但&CB03217;字作禍【明】</note><note n="0178032" resp="CBETA" type="mod">得＋（空其心淨其內志興補違故曰不應不應邪也得受不受不受&CB03217;也）二十六字【宋】【元】【宮】，＋（空其心淨其內志興補違故曰不應不應邪也得受不受不受禍也）夾註【明】</note><app n="0178032"><lem>得</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">得空其心淨其內志興補違故曰不應不應邪也得受不受不受&CB03217;也</rdg><rdg wit="【明】" resp="Taisho">得<note place="inline">空其心淨其內志興補違故曰不應不應邪也得受不受不受禍也</note></rdg></app>。愛已壞。已離已盡。為無<note n="0178033" resp="Taisho" type="orig" place="foot text">為＋（謂欲無欲志寂無三界想矣法鏡經曰不以意存求於泥洹何況有勞想哉斯無為之云矣）三十五字【宋】【元】，作夾註【明】</note><note n="0178033" resp="CBETA" type="mod">為＋（謂欲無欲志寂無三界想矣法鏡經曰不以意存求於泥洹何況有勞想哉斯無為之云矣）三十五字【宋】【元】，＋（謂欲無欲志寂無三界想矣法鏡經曰不以意存求於泥洹何況有勞想哉斯無為之云矣）夾註【明】</note><app n="0178033"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">為謂欲無欲志寂無三界想矣法鏡經曰不以意存求於泥洹何況有勞想哉斯無為之云矣</rdg><rdg wit="【明】" resp="Taisho">為<note place="inline">謂欲無欲志寂無三界想矣法鏡經曰不以意存求於泥洹何況有勞想哉斯無為之云矣</note></rdg></app>。以是第二
+<lb n="0178b20"/>無<note n="0178034" resp="Taisho" type="orig" place="foot text">結＋（一謂飢渴二相延比第二結為無有無十二因緣五陰之結也）二十四字【宋】【元】，作夾註【明】</note><note n="0178034" resp="CBETA" type="mod">結＋（一謂飢渴二相延比第二結為無有無十二因緣五陰之結也）二十四字【宋】【元】，＋（一謂飢渴二相延比第二結為無有無十二因緣五陰之結也）夾註【明】</note><app n="0178034"><lem>結</lem><rdg wit="【宋】【元】" resp="Taisho">結一謂飢渴二相延比第二結為無有無十二因緣五陰之結也</rdg><rdg wit="【明】" resp="Taisho">結<note place="inline">一謂飢渴二相延比第二結為無有無十二因緣五陰之結也</note></rdg></app>。無疑。得法隨法&CB02959;。為同學聚。為無結
+<lb n="0178b21"/>無疑。已有<note n="0178035" resp="Taisho" type="orig" place="foot text">受＝信【三】【宮】</note><note n="0178035" resp="CBETA" type="mod">受＝信【宋】【元】【明】【宮】</note><app n="0178035"><lem>受</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">信</rdg></app><note n="0178036" resp="Taisho" type="orig" place="foot text">有喜＋（如是）【宋】</note><app n="0178036"><lem>有喜</lem><rdg wit="【宋】" resp="Taisho">有喜如是</rdg></app>。<note n="0178037" resp="Taisho" type="orig" place="foot text">〔如是受〕－【宋】</note><app n="0178037"><lem>如是<note n="0178038" resp="Taisho" type="orig" place="foot text">〔受〕－【元】【明】</note><app n="0178038"><lem>受</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>得道弟子。為
+<lb n="0178b22"/>學<note n="0178039" resp="Taisho" type="orig" place="foot text">聚＋（聚會也謂與同志尚偕三界欲學還本無之聚會也）二十字【宋】【元】，作夾註【明】</note><note n="0178039" resp="CBETA" type="mod">聚＋（聚會也謂與同志尚偕三界欲學還本無之聚會也）二十字【宋】【元】，＋（聚會也謂與同志尚偕三界欲學還本無之聚會也）夾註【明】</note><app n="0178039"><lem>聚</lem><rdg wit="【宋】【元】" resp="Taisho">聚聚會也謂與同志尚偕三界欲學還本無之聚會也</rdg><rdg wit="【明】" resp="Taisho">聚<note place="inline">聚會也謂與同志尚偕三界欲學還本無之聚會也</note></rdg></app>。正受&CB02959;為如應受。戒已立。定已定。慧
+<lb n="0178b23"/>已得<note n="0178040" resp="Taisho" type="orig" place="foot text">解脫＋（慧）【宮】</note><app n="0178040"><lem>解脫</lem><rdg wit="【宮】" resp="Taisho">解脫慧</rdg></app>。已成解脫慧。已現已<note n="0178041" resp="Taisho" type="orig" place="foot text">致＋（正受行謂受止行也如如下事相應受之謂戒定慧解脫度知見事行者正受也）三十一字【宋】【元】，作夾註【明】</note><note n="0178041" resp="CBETA" type="mod">致＋（正受行謂受止行也如如下事相應受之謂戒定慧解脫度知見事行者正受也）三十一字【宋】【元】，＋（正受行謂受止行也如如下事相應受之謂戒定慧解脫度知見事行者正受也）夾註【明】</note><app n="0178041"><lem>致</lem><rdg wit="【宋】【元】" resp="Taisho">致正受行謂受止行也如如下事相應受之謂戒定慧解脫度知見事行者正受也</rdg><rdg wit="【明】" resp="Taisho">致<note place="inline">正受行謂受止行也如如下事相應受之謂戒定慧解脫度知見事行者正受也</note></rdg></app>。是為
+<lb n="0178b24"/>佛弟子&CB02959;者。聚為四人。從&CB02959;四雙。名為八人
+<lb n="0178b25"/>道<note n="0178042" resp="Taisho" type="orig" place="foot text">&CB02959;＋（四雙八人者謂以得應儀向應儀道已得不還向不還者得頻來向頻來者得溝港向溝港者是謂四雙八人者也）四十四字【宋】【元】，作夾註【明】</note><note n="0178042" resp="CBETA" type="mod">&CB02959;＋（四雙八人者謂以得應儀向應儀道已得不還向不還者得頻來向頻來者得溝港向溝港者是謂四雙八人者也）四十四字【宋】【元】，＋（四雙八人者謂以得應儀向應儀道已得不還向不還者得頻來向頻來者得溝港向溝港者是謂四雙八人者也）夾註【明】</note><app n="0178042"><lem>&CB02959;</lem><rdg wit="【宋】【元】" resp="Taisho">&CB02959;四雙八人者謂以得應儀向應儀道已得不還向不還者得頻來向頻來者得溝港向溝港者是謂四雙八人者也</rdg><rdg wit="【明】" resp="Taisho">&CB02959;<note place="inline">四雙八人者謂以得應儀向應儀道已得不還向不還者得頻來向頻來者得溝港向溝港者是謂四雙八人者也</note></rdg></app>。為世間所重所<note n="0178043" resp="Taisho" type="orig" place="foot text">尊＋（謂斯八人為世明者所重愛敬而尊之）十五字【宋】【元】，作夾註【明】</note><note n="0178043" resp="CBETA" type="mod">尊＋（謂斯八人為世明者所重愛敬而尊之）十五字【宋】【元】，＋（謂斯八人為世明者所重愛敬而尊之）夾註【明】</note><app n="0178043"><lem>尊</lem><rdg wit="【宋】【元】" resp="Taisho">尊謂斯八人為世明者所重愛敬而尊之</rdg><rdg wit="【明】" resp="Taisho">尊<note place="inline">謂斯八人為世明者所重愛敬而尊之</note></rdg></app>。為無所。比可祠可
+<lb n="0178b26"/>事可恭。為福地無過。是天亦人所<note n="0178044" resp="Taisho" type="orig" place="foot text">事＋（祠神以望福莫若供養斯人聖其福大也）十六字【宋】【元】，作夾註【明】</note><note n="0178044" resp="CBETA" type="mod">事＋（祠神以望福莫若供養斯人聖其福大也）十六字【宋】【元】，＋（祠神以望福莫若供養斯人聖其福大也）夾註【明】</note><app n="0178044"><lem>事</lem><rdg wit="【宋】【元】" resp="Taisho">事祠神以望福莫若供養斯人聖其福大也</rdg><rdg wit="【明】" resp="Taisho">事<note place="inline">祠神以望福莫若供養斯人聖其福大也</note></rdg></app>。是為
+<lb n="0178b27"/>第三。已為無疑<note n="0178045" resp="Taisho" type="orig" place="foot text">法＋（安般解曰頻來在欲果中已捨四廣倒無餘疑結也）二十字【宋】【元】，作夾註【明】</note><note n="0178045" resp="CBETA" type="mod">法＋（安般解曰頻來在欲果中已捨四廣倒無餘疑結也）二十字【宋】【元】，＋（安般解曰頻來在欲果中已捨四廣倒無餘疑結也）夾註【明】</note><app n="0178045"><lem>法</lem><rdg wit="【宋】【元】" resp="Taisho">法安般解曰頻來在欲果中已捨四廣倒無餘疑結也</rdg><rdg wit="【明】" resp="Taisho">法<note place="inline">安般解曰頻來在欲果中已捨四廣倒無餘疑結也</note></rdg></app>。隨法&CB02959;一切&CB02959;為苦。已
+<lb n="0178b28"/>無疑結。已受已喜。從愛為<note n="0178046" resp="Taisho" type="orig" place="foot text">習＋（信佛言即結解受法喜愛之無倦為習習道習也道得道矣）二十三字【宋】【元】，作夾註【明】</note><note n="0178046" resp="CBETA" type="mod">習＋（信佛言即結解受法喜愛之無倦為習習道習也道得道矣）二十三字【宋】【元】，＋（信佛言即結解受法喜愛之無倦為習習道習也道得道矣）夾註【明】</note><app n="0178046"><lem>習</lem><rdg wit="【宋】【元】" resp="Taisho">習信佛言即結解受法喜愛之無倦為習習道習也道得道矣</rdg><rdg wit="【明】" resp="Taisho">習<note place="inline">信佛言即結解受法喜愛之無倦為習習道習也道得道矣</note></rdg></app>。苦亦從愛<note n="0178047" resp="Taisho" type="orig" place="foot text">習＋（苦由愛欲生不知苦之為苦者以其習之又矣）十八字【宋】【元】，作夾註。但又字作久【明】</note><note n="0178047" resp="CBETA" type="mod">習＋（苦由愛欲生不知苦之為苦者以其習之又矣）十八字【宋】【元】，＋（苦由愛欲生不知苦之為苦者以其習之久矣）夾註【明】</note><app n="0178047"><lem>習</lem><rdg wit="【宋】【元】" resp="Taisho">習苦由愛欲生不知苦之為苦者以其習之又矣</rdg><rdg wit="【明】" resp="Taisho">習<note place="inline">苦由愛欲生不知苦之為苦者以其習之久矣</note></rdg></app>。
+<lb n="0178b29"/>已無疑結。已受已解。已喜已愛盡。是為苦盡。
+<pb ed="T" id="T15.0603.0178c" n="0178c"/>
+<lb n="0178c01"/>便無疑無結。已得是受。便得喜已愛盡。是為
+<lb n="0178c02"/>苦盡。無疑結。已解受便得喜。為八種道&CB02959;。從
+<lb n="0178c03"/>是受&CB02959;<note n="0178048" resp="Taisho" type="orig" place="foot text">令＝名【三】，命【宮】</note><note n="0178048" resp="CBETA" type="mod">令＝名【宋】【元】【明】，＝命【宮】</note><app n="0178048"><lem>令</lem><rdg wit="【宋】【元】【明】" resp="Taisho">名</rdg><rdg wit="【宮】" resp="Taisho">命</rdg></app>苦盡。便不<note n="0178049" resp="Taisho" type="orig" place="foot text">疑不＝不疑【三】</note><note n="0178049" resp="CBETA" type="mod">疑不＝不疑【宋】【元】【明】</note><app n="0178049"><lem>疑。不</lem><rdg wit="【宋】【元】【明】" resp="Taisho">不疑</rdg></app>疑不復結。墮解
+<lb n="0178c04"/>得喜。若本有疑不解。在佛不解。在法不解。在
+<lb n="0178c05"/>&CB02959;者聚。若本有疑。在苦在習在盡在道。&CB02959;所
+<lb n="0178c06"/><note n="0178050" resp="Taisho" type="orig" place="foot text">惑＝或【宮】</note><app n="0178050"><lem>惑</lem><rdg wit="【宮】" resp="Taisho">或</rdg></app>所不解。隨志所疑惑。是如是云何是瘡。為
+<pb ed="T" id="T15.0603.0179a" n="0179a"/>
+<lb n="0179a01"/>是已解本已斷。樹不復<note n="0179001" resp="Taisho" type="orig" place="foot text">住＋（瘡疑惑瘡也謂是五陰六衰三毒經曰六衰所向夫受之者劇被三百豸瘡人但不覺之耳一人身中凡千八百豸瘡謂眼受色命身得苦為眼罪也六情俱爾如是無數五陰本已解斷譬如樹已避地不復住立也）八十二字【宋】【元】，作夾註【明】</note><note n="0179001" resp="CBETA" type="mod">住＋（瘡疑惑瘡也謂是五陰六衰三毒經曰六衰所向夫受之者劇被三百豸瘡人但不覺之耳一人身中凡千八百豸瘡謂眼受色命身得苦為眼罪也六情俱爾如是無數五陰本已解斷譬如樹已避地不復住立也）八十二字【宋】【元】，＋（瘡疑惑瘡也謂是五陰六衰三毒經曰六衰所向夫受之者劇被三百豸瘡人但不覺之耳一人身中凡千八百豸瘡謂眼受色命身得苦為眼罪也六情俱爾如是無數五陰本已解斷譬如樹已避地不復住立也）夾註【明】</note><app n="0179001"><lem>住</lem><rdg wit="【宋】【元】" resp="Taisho">住瘡疑惑瘡也謂是五陰六衰三毒經曰六衰所向夫受之者劇被三百豸瘡人但不覺之耳一人身中凡千八百豸瘡謂眼受色命身得苦為眼罪也六情俱爾如是無數五陰本已解斷譬如樹已避地不復住立也</rdg><rdg wit="【明】" resp="Taisho">住<note place="inline">瘡疑惑瘡也謂是五陰六衰三毒經曰六衰所向夫受之者劇被三百豸瘡人但不覺之耳一人身中凡千八百豸瘡謂眼受色命身得苦為眼罪也六情俱爾如是無數五陰本已解斷譬如樹已避地不復住立也</note></rdg></app>。已散不復現。從
+<lb n="0179a02"/>來本法不復生</p>
+<lb n="0179a03"/><p>彼持&CB02959;戒轉摸貿為二輩。一為渴愛<note n="0179002" resp="Taisho" type="orig" place="foot text">墮＝隨【三】【宮】</note><note n="0179002" resp="CBETA" type="mod">墮＝隨【宋】【元】【明】【宮】</note><app n="0179002"><lem>墮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app>。二
+<lb n="0179a04"/>為不解避持&CB02959;戒轉模<note n="0179003" resp="Taisho" type="orig" place="foot text">貿＋（當以戒行道而轉意貿易天上故言不解避也又安般解曰轉戒本願當以戒求道反求天上榮樂也是謂轉戒矣本願求道而違道就耶不還之行無復有之故曰盡也）【宋】【元】</note><app n="0179003"><lem>貿</lem><rdg wit="【宋】【元】" resp="Taisho">貿當以戒行道而轉意貿易天上故言不解避也又安般解曰轉戒本願當以戒求道反求天上榮樂也是謂轉戒矣本願求道而違道就耶不還之行無復有之故曰盡也</rdg></app>。為意向。從是&CB02959;戒
+<lb n="0179a05"/>攝守。從是當為得天亦天<note n="0179004" resp="Taisho" type="orig" place="foot text">比＋（丘）【宋】【元】</note><app n="0179004"><lem>比</lem><rdg wit="【宋】【元】" resp="Taisho">比丘</rdg></app>。當為天上。彼
+<lb n="0179a06"/>字為甲玉女。當為是俱相樂共居。如是望。如
+<lb n="0179a07"/>是可。如是思結相見意向。是為渴愛。<note n="0179005" resp="Taisho" type="orig" place="foot text">雖＝隨【三】【宮】</note><note n="0179005" resp="CBETA" type="mod">雖＝隨【宋】【元】【明】【宮】</note><app n="0179005"><lem>雖</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app>持
+<lb n="0179a08"/>&CB02959;戒。為<note n="0179006" resp="Taisho" type="orig" place="foot text">墮＝隨【三】【宮】</note><note n="0179006" resp="CBETA" type="mod">墮＝隨【宋】【元】【明】【宮】</note><app n="0179006"><lem>墮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app>摸貿。彼為不解持&CB02959;戒。轉摸貿
+<lb n="0179a09"/>為何等。<note n="0179007" resp="Taisho" type="orig" place="foot text">戒＝或【宋】【元】</note><app n="0179007"><lem>戒</lem><rdg wit="【宋】【元】" resp="Taisho">或</rdg></app>&CB02959;者為轉貿戒。轉貿為何等。為
+<lb n="0179a10"/>意生從戒得淨。從戒得解脫。從戒得要。為從
+<lb n="0179a11"/>苦樂得度。或意生從願得度。是為不解持<note n="0179008" resp="Taisho" type="orig" place="foot text">〔&CB02959;〕－【宮】</note><app n="0179008"><lem>&CB02959;</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0179a12"/>戒轉摸<note n="0179009" resp="Taisho" type="orig" place="foot text">貿＋（已行戒當轉上行三十七品而止戒願求望度世故言不辭）二十三【宋】【元】，作夾註【明】</note><note n="0179009" resp="CBETA" type="mod">貿＋（已行戒當轉上行三十七品而止戒願求望度世故言不辭）二十三【宋】【元】，＋（已行戒當轉上行三十七品而止戒願求望度世故言不辭）夾註【明】</note><app n="0179009"><lem>貿</lem><rdg wit="【宋】【元】" resp="Taisho">貿已行戒當轉上行三十七品而止戒願求望度世故言不辭</rdg><rdg wit="【明】" resp="Taisho">貿<note place="inline">已行戒當轉上行三十七品而止戒願求望度世故言不辭</note></rdg></app>。何因緣為不解轉摸貿。意生從
+<lb n="0179a13"/>被服。亦從願得度世。從苦樂得&CB00230;離。為從是
+<lb n="0179a14"/>二業被服。亦願為摸。何等為摸。為是二戒被
+<lb n="0179a15"/>服。願意計。從是得解脫。從是得要。從是得過
+<lb n="0179a16"/>苦樂。從是苦樂為得無為從是不正計法。不
+<lb n="0179a17"/>從是解脫。意計從是解脫。不正計為是正。隨
+<lb n="0179a18"/>是&CB02959;如是有。忍可意望結見。是從是為解。是
+<lb n="0179a19"/>為不解持<note n="0179010" resp="Taisho" type="orig" place="foot text">（行）＋戒【三】【宮】</note><note n="0179010" resp="CBETA" type="mod">（行）＋戒【宋】【元】【明】【宮】</note><app n="0179010"><lem>戒</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">行戒</rdg></app>轉摸貿。是為二結。得<note n="0179011" resp="Taisho" type="orig" place="foot text">道＋（道）【三】</note><note n="0179011" resp="CBETA" type="mod">道＋（道）【宋】【元】【明】</note><app n="0179011"><lem>道</lem><rdg wit="【宋】【元】【明】" resp="Taisho">道道</rdg></app>弟子
+<lb n="0179a20"/>已捨。為無有本已斷。樹已拔不復現。從後不
+<lb n="0179a21"/>復生。是法便為已淨。戒如得道戒。隨&CB02959;不為
+<lb n="0179a22"/>破。不為<note n="0179012" resp="Taisho" type="orig" place="foot text">穿＋（穿漏也謂已已具足三十七品其行不漏又安般解曰精進在行首尾相屬邪念不得入其中間謂之不漏是之謂矣）四十五字【宋】【元】，作夾註【明】</note><note n="0179012" resp="CBETA" type="mod">穿＋（穿漏也謂已已具足三十七品其行不漏又安般解曰精進在行首尾相屬邪念不得入其中間謂之不漏是之謂矣）四十五字【宋】【元】，＋（穿漏也謂已已具足三十七品其行不漏又安般解曰精進在行首尾相屬邪念不得入其中間謂之不漏是之謂矣）夾註【明】</note><app n="0179012"><lem>穿</lem><rdg wit="【宋】【元】" resp="Taisho">穿穿漏也謂已已具足三十七品其行不漏又安般解曰精進在行首尾相屬邪念不得入其中間謂之不漏是之謂矣</rdg><rdg wit="【明】" resp="Taisho">穿<note place="inline">穿漏也謂已已具足三十七品其行不漏又安般解曰精進在行首尾相屬邪念不得入其中間謂之不漏是之謂矣</note></rdg></app>。不為失。不為悔。但有<note n="0179013" resp="Taisho" type="orig" place="foot text">增＝憎【宋】【元】</note><app n="0179013"><lem>增</lem><rdg wit="【宋】【元】" resp="Taisho">憎</rdg></app>如。慧
+<lb n="0179a23"/>者可無有能奪。為得從是致定。是為三縛結。
+<lb n="0179a24"/>道弟子為已斷。已墮道&CB00528;。不復墮惡法。必度
+<lb n="0179a25"/>世在七往來。天上亦人中。往來<note n="0179014" resp="Taisho" type="orig" place="foot text">期＝斯【元】</note><app n="0179014"><lem>期</lem><rdg wit="【元】" resp="Taisho">斯</rdg></app><note n="0179015" resp="Taisho" type="orig" place="foot text">畢＋（謂溝港七生七死&CB01191;來天上人中如是七反乃得應儀也言&CB01191;來生死期畢矣）三十字【宋】【元】，作夾註【明】</note><note n="0179015" resp="CBETA" type="mod">畢＋（謂溝港七生七死&CB01191;來天上人中如是七反乃得應儀也言&CB01191;來生死期畢矣）三十字【宋】【元】，＋（謂溝港七生七死&CB01191;來天上人中如是七反乃得應儀也言&CB01191;來生死期畢矣）夾註【明】</note><app n="0179015"><lem>畢</lem><rdg wit="【宋】【元】" resp="Taisho">畢謂溝港七生七死&CB01191;來天上人中如是七反乃得應儀也言&CB01191;來生死期畢矣</rdg><rdg wit="【明】" resp="Taisho">畢<note place="inline">謂溝港七生七死&CB01191;來天上人中如是七反乃得應儀也言&CB01191;來生死期畢矣</note></rdg></app>。便得
+<lb n="0179a26"/>出苦要。有四相應。何謂四相應。一為已解相
+<lb n="0179a27"/>應。二為已斷捨相應。三為自證相應。四為增
+<lb n="0179a28"/>滿相應。彼道德弟子。從苦為已解相應。從習
+<lb n="0179a29"/>為已斷捨相應從盡為自證相應。從道為增
+<pb ed="T" id="T15.0603.0179b" n="0179b"/>
+<lb n="0179b01"/>滿相應。彼為止觀俱隨行。一處一時一意。
+<lb n="0179b02"/><note n="0179016" resp="Taisho" type="orig" place="foot text">本來＝本末【明】【宮】</note><app n="0179016"><lem>本來</lem><rdg wit="【明】【宮】" resp="Taisho">本末</rdg></app>有是有意。令為作四事。何等為四。一
+<lb n="0179b03"/>為苦。從苦已解為苦相應。二為習。從<note n="0179017" resp="Taisho" type="orig" place="foot text">〔習已…故從〕二十字－【明】</note><note n="0179017" resp="CBETA" type="mod">〔習已…故從〕<corr sic="二十" resp="CBETA．eva">三十四</corr>字－【明】</note><app n="0179017" word-count="34"><lem>習已
+<lb n="0179b04"/>斷捨為習相應。三為盡。從盡自證為盡相
+<lb n="0179b05"/>應。四為道。從道增滿令道相應。何以故。從</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>苦
+<lb n="0179b06"/>已解相應。何以故。從習已斷捨相應。何以故。
+<lb n="0179b07"/>從盡已自證相應。何以故。從道已增滿相應。
+<lb n="0179b08"/>為有譬喻。如水中沫行。上至竟為有四&CB02959;。從
+<lb n="0179b09"/>是岸邊。致度岸邊。度<note n="0179018" resp="Taisho" type="orig" place="foot text">就＝負【宋】【元】</note><app n="0179018"><lem>就</lem><rdg wit="【宋】【元】" resp="Taisho">負</rdg></app>斷脈。是亦如是。止
+<lb n="0179b10"/>觀雙俱行。一處一時一意。上要至<note n="0179019" resp="Taisho" type="orig" place="foot text">竟＝意【宋】【元】＊，＋（謂行家以止觀二劍斷十二因緣之脈截流取道矣一處者泥洹一時一意亦然）三十一字【宋】【元】，作夾註【明】</note><note n="0179019" resp="CBETA" type="mod">竟＝意【宋】【元】＊，<todo type="i"/>＋（謂行家以止觀二劍斷十二因緣之脈截流取道矣一處者泥洹一時一意亦然）三十一字【宋】【元】，作夾註【明】</note><app n="0179019"><lem>竟</lem><rdg wit="【宋】【元】" resp="Taisho">意</rdg></app>。為成
+<lb n="0179b11"/>四事。譬如日出。上至<anchor id="fxT15p0179b01"/>竟。為現作四事。致明
+<lb n="0179b12"/><note n="0179020" resp="Taisho" type="orig" place="foot text">壞＝懷【宋】【元】</note><app n="0179020"><lem>壞</lem><rdg wit="【宋】【元】" resp="Taisho">懷</rdg></app>冥現色現竟。譬如<note n="0179021" resp="Taisho" type="orig" place="foot text">（般）＋船【宋】【元】</note><app n="0179021"><lem>船</lem><rdg wit="【宋】【元】" resp="Taisho">般船</rdg></app>渡。捨是岸邊致渡
+<lb n="0179b13"/>岸<note n="0179022" resp="Taisho" type="orig" place="foot text">邊＋（謂菩薩作行如度船（度船＝度舡【宋】），師致人物於彼岸也菩薩所度亦如是）二十三字【宋】【元】，作夾註【明】</note><note n="0179022" resp="CBETA" type="mod">邊＋（謂菩薩作行如度舡，師致人物於彼岸也菩薩所度亦如是）二十三字【宋】，＋（謂菩薩作行如度船，師致人物於彼岸也菩薩所度亦如是）二十三字【元】，＋（謂菩薩作行如度船，師致人物於彼岸也菩薩所度亦如是）夾註【明】</note><app n="0179022"><lem>邊</lem><rdg wit="【宋】" resp="Taisho">邊謂菩薩作行如度舡，師致人物於彼岸也菩薩所度亦如是</rdg><rdg wit="【元】" resp="Taisho">邊謂菩薩作行如度船，師致人物於彼岸也菩薩所度亦如是</rdg><rdg wit="【明】" resp="Taisho">邊<note place="inline">謂菩薩作行如度船，師致人物於彼岸也菩薩所度亦如是</note></rdg></app>。致物斷脈。止觀亦如是。雙發行。為一
+<lb n="0179b14"/>處一時一意。上要至竟為作四事為解苦。如
+<lb n="0179b15"/>應相<note n="0179023" resp="Taisho" type="orig" place="foot text">燭＝應【三】【宮】</note><note n="0179023" resp="CBETA" type="mod">燭＝應【宋】【元】【明】【宮】</note><app n="0179023"><lem>燭</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">應</rdg></app>為斷習。如應相應為盡自證。如應
+<lb n="0179b16"/><note n="0179024" resp="Taisho" type="orig" place="foot text">〔解〕－【明】</note><app n="0179024"><lem>解</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>相應為&CB02959;道。要<note n="0179025" resp="Taisho" type="orig" place="foot text">如＝知【宋】【元】</note><app n="0179025"><lem>如</lem><rdg wit="【宋】【元】" resp="Taisho">知</rdg></app>應相應。何以故。為苦
+<lb n="0179b17"/>從更解相應。習從斷解相應。盡從<note n="0179026" resp="Taisho" type="orig" place="foot text">苦＝自【三】【宮】</note><note n="0179026" resp="CBETA" type="mod">苦＝自【宋】【元】【明】【宮】</note><app n="0179026"><lem>苦</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">自</rdg></app>證解
+<lb n="0179b18"/>相應。<note n="0179027" resp="Taisho" type="orig" place="foot text">道＋（從）【明】</note><app n="0179027"><lem>道</lem><rdg wit="【明】" resp="Taisho">道從</rdg></app>&CB02959;要解相應。止觀亦<note n="0179028" resp="Taisho" type="orig" place="foot text">如是＋（觀）【宋】【元】</note><app n="0179028"><lem>如是</lem><rdg wit="【宋】【元】" resp="Taisho">如是觀</rdg></app>雙相連
+<lb n="0179b19"/>行。一處一時一意。<note n="0179029" resp="Taisho" type="orig" place="foot text">止＝上【三】【宮】＊</note><note n="0179029" resp="CBETA" type="mod">止＝上【宋】【元】【明】【宮】＊</note><app n="0179029"><lem>止</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">上</rdg></app>要至竟為&CB02959;竟四事為
+<lb n="0179b20"/>苦。更為習斷。為盡自證為&CB02959;道滿。譬如然
+<lb n="0179b21"/><note n="0179030" resp="Taisho" type="orig" place="foot text">〔燈〕－【宋】【元】</note><app n="0179030"><lem>燈</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app><note n="0179031" resp="Taisho" type="orig" place="foot text">〔燭〕－【明】</note><app n="0179031"><lem>燭</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。上至竟為作四事。為作明。為去冥。為
+<lb n="0179b22"/><note n="0179032" resp="Taisho" type="orig" place="foot text">現＝見【明】【宮】下同</note><app n="0179032"><lem>現</lem><rdg wit="【明】【宮】" resp="Taisho">見</rdg></app>色。為&CB00230;疑。止觀亦如是。為作四事。為識
+<lb n="0179b23"/>苦。<note n="0179033" resp="Taisho" type="orig" place="foot text">〔為斷集〕－【宋】【元】</note><app n="0179033"><lem>為斷集</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。為盡自證。為&CB02959;道滿。譬如然
+<lb n="0179b24"/>燈上至竟。為有四義。為現明。為去冥。為現
+<lb n="0179b25"/>色。為盡膏炷。止觀亦如是。雙隨行。一處一時
+<lb n="0179b26"/>一意<anchor id="fxT15p0179b02"/>止至竟。為作四事。為識苦苦相應為斷
+<lb n="0179b27"/>習習相應。為盡自證盡相應。為&CB02959;道滿道相
+<lb n="0179b28"/>應。何以故。為識苦苦相應。何以故。為斷習習
+<lb n="0179b29"/>相應。何以故。<note n="0179034" resp="Taisho" type="orig" place="foot text">〔為盡…何以故〕十字－【宋】【元】</note><app n="0179034" word-count="10"><lem>為盡自證盡相應。何以故</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。為
+<pb ed="T" id="T15.0603.0179c" n="0179c"/>
+<lb n="0179c01"/>&CB02959;道滿道相應。為從誰應為從止觀。何等為
+<lb n="0179c02"/>應。應云何持。意繫觀已<note n="0179035" resp="Taisho" type="orig" place="foot text">意＝竟【宋】【元】</note><app n="0179035"><lem>意</lem><rdg wit="【宋】【元】" resp="Taisho">竟</rdg></app>繫觀。便見五陰
+<lb n="0179c03"/>苦。<note n="0179036" resp="Taisho" type="orig" place="foot text">〔彼所…為苦〕十三字－【宋】【元】</note><app n="0179036" word-count="13"><lem>彼所意繫是為止。已見五陰為苦</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>。是為
+<lb n="0179c04"/>觀。彼所為五陰相近。可發往欲著。願得相往
+<lb n="0179c05"/>不捨習所。是已斷已盡。止觀道亦如是。令是
+<lb n="0179c06"/>道德四諦。一處一時一意上至竟。為<note n="0179037" resp="Taisho" type="orig" place="foot text">令＝命【宋】【元】</note><app n="0179037"><lem>令</lem><rdg wit="【宋】【元】" resp="Taisho">命</rdg></app>四諦
+<lb n="0179c07"/>相應。如是<note n="0179038" resp="Taisho" type="orig" place="foot text">道道德＝德道【宋】【元】，得道【明】【宮】</note><note n="0179038" resp="CBETA" type="mod">道道德＝德道【宋】【元】，＝得道【明】【宮】</note><app n="0179038"><lem>道。道德</lem><rdg wit="【宋】【元】" resp="Taisho">德道</rdg><rdg wit="【明】【宮】" resp="Taisho">得道</rdg></app>弟子為是<note n="0179039" resp="Taisho" type="orig" place="foot text">法相法已＝法已法相【三】【宮】</note><note n="0179039" resp="CBETA" type="mod">法相法已＝法已法相【宋】【元】【明】【宮】</note><app n="0179039"><lem>法相法。已</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">法已法相</rdg></app>
+<lb n="0179c08"/>應是名為見地。已得道脈。至道&CB00528;跓。為復止
+<lb n="0179c09"/>觀。令是欲<note n="0179040" resp="Taisho" type="orig" place="foot text">恚＝寺【宮】</note><app n="0179040"><lem>恚</lem><rdg wit="【宮】" resp="Taisho">寺</rdg></app>使縛為復除。得道弟子為往來
+<lb n="0179c10"/>受。以是&CB02959;足。已從往來便壞苦。本是為薄
+<lb n="0179c11"/>地。便<note n="0179041" resp="Taisho" type="orig" place="foot text">已＝以【宋】【元】</note><app n="0179041"><lem>已</lem><rdg wit="【宋】【元】" resp="Taisho">以</rdg></app>竟往來福已<note n="0179042" resp="Taisho" type="orig" place="foot text">來＋（復）【明】【宮】</note><app n="0179042"><lem>來</lem><rdg wit="【明】【宮】" resp="Taisho">來復</rdg></app>得在<note n="0179043" resp="Taisho" type="orig" place="foot text">德＝得【三】</note><note n="0179043" resp="CBETA" type="mod">德＝得【宋】【元】【明】</note><app n="0179043"><lem>德</lem><rdg wit="【宋】【元】【明】" resp="Taisho">得</rdg></app>止。復增止
+<lb n="0179c12"/>觀。令餘愛欲恚所使為畢<note n="0179044" resp="Taisho" type="orig" place="foot text">捨＋（已）【三】【宮】</note><note n="0179044" resp="CBETA" type="mod">捨＋（已）【宋】【元】【明】【宮】</note><app n="0179044"><lem>捨</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">捨已</rdg></app>。欲恚未畢捨。
+<lb n="0179c13"/>使結令畢已畢。為<note n="0179045" resp="Taisho" type="orig" place="foot text">得＋（德）【宋】【元】</note><app n="0179045"><lem>得</lem><rdg wit="【宋】【元】" resp="Taisho">得德</rdg></app>道弟子。便解下五結已
+<lb n="0179c14"/>畢。何等為五。一為見身是<note n="0179046" resp="Taisho" type="orig" place="foot text">非＝苦【元】【明】</note><app n="0179046"><lem>非</lem><rdg wit="【元】【明】" resp="Taisho">苦</rdg></app>。二為解疑。三
+<lb n="0179c15"/>為不惑不貿戒。四為不望。五為不恚。是為五
+<lb n="0179c16"/>結已畢。<note n="0179047" resp="Taisho" type="orig" place="foot text">〔便〕－【宮】</note><app n="0179047"><lem>便</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>得道弟子。不復<note n="0179048" resp="Taisho" type="orig" place="foot text">還＝是【元】</note><app n="0179048"><lem>還</lem><rdg wit="【元】" resp="Taisho">是</rdg></app>世間。彼度世
+<pb ed="T" id="T15.0603.0180a" n="0180a"/>
+<lb n="0180a01"/>不復還。是世間是名為&CB00230;地。是為不還福。已
+<lb n="0180a02"/>致得止不還福。復增翅止觀。令為<note n="0180001" resp="Taisho" type="orig" place="foot text">解＋（結）【元】</note><app n="0180001"><lem>解</lem><rdg wit="【元】" resp="Taisho">解結</rdg></app>捨上
+<lb n="0180a03"/>五結。何等為五。一為色欲。二為不<note n="0180002" resp="Taisho" type="orig" place="foot text">色欲＝欲色【宋】【元】</note><app n="0180002"><lem>色欲</lem><rdg wit="【宋】【元】" resp="Taisho">欲色</rdg></app>。三
+<lb n="0180a04"/>為癡。四為憍慢。五為不解。已上五&CB02959;足。為已
+<lb n="0180a05"/>捨五結。便無所著。已度世無有漏。已竟從正
+<lb n="0180a06"/>得解脫。是為畢<note n="0180003" resp="Taisho" type="orig" place="foot text">地＋（言應儀處世如虛空故曰無所著上五結行皆已消盡故曰解脫畢）二十六字【宋】【元】，作夾註【明】</note><note n="0180003" resp="CBETA" type="mod">地＋（言應儀處世如虛空故曰無所著上五結行皆已消盡故曰解脫畢）二十六字【宋】【元】，＋（言應儀處世如虛空故曰無所著上五結行皆已消盡故曰解脫畢）夾註【明】</note><app n="0180003"><lem>地</lem><rdg wit="【宋】【元】" resp="Taisho">地言應儀處世如虛空故曰無所著上五結行皆已消盡故曰解脫畢</rdg><rdg wit="【明】" resp="Taisho">地<note place="inline">言應儀處世如虛空故曰無所著上五結行皆已消盡故曰解脫畢</note></rdg></app>。無所著尚有妙無為。<note n="0180004" resp="Taisho" type="orig" place="foot text">〔為〕－【宋】【元】</note><app n="0180004"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>
+<lb n="0180a07"/><note n="0180005" resp="Taisho" type="orig" place="foot text">捨畢＝畢捨【明】【宮】</note><app n="0180005"><lem>捨畢</lem><rdg wit="【明】【宮】" resp="Taisho">畢捨</rdg></app>已。世間命根盡。亦世間苦盡。不復生
+<lb n="0180a08"/>苦。彼<note n="0180006" resp="Taisho" type="orig" place="foot text">以＝已【三】【宮】</note><note n="0180006" resp="CBETA" type="mod">以＝已【宋】【元】【明】【宮】</note><app n="0180006"><lem>以</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">已</rdg></app>為是陰持入。已盡寂然。不有陰持
+<lb n="0180a09"/><note n="0180007" resp="Taisho" type="orig" place="foot text">入＋（已盡寂然不有陰持入）【元】</note><app n="0180007"><lem>入</lem><rdg wit="【元】" resp="Taisho">入已盡寂然不有陰持入</rdg></app>。不相連不復<note n="0180008" resp="Taisho" type="orig" place="foot text">發＋（解之不復相連者謂與五陰六入絕不復發者不復發起五陰六入也是謂寂然矣故曰不復發也）【元】，作夾註【明】</note><note n="0180008" resp="CBETA" type="mod">發＋（解之不復相連者謂與五陰六入絕不復發者不復發起五陰六入也是謂寂然矣故曰不復發也）【元】，＋（解之不復相連者謂與五陰六入絕不復發者不復發起五陰六入也是謂寂然矣故曰不復發也）夾註【明】</note><app n="0180008"><lem>發</lem><rdg wit="【元】" resp="Taisho">發解之不復相連者謂與五陰六入絕不復發者不復發起五陰六入也是謂寂然矣故曰不復發也</rdg><rdg wit="【明】" resp="Taisho">發<note place="inline">解之不復相連者謂與五陰六入絕不復發者不復發起五陰六入也是謂寂然矣故曰不復發也</note></rdg></app>。是名為已畢無為。為
+<lb n="0180a10"/>已說諦相應。亦說份相應。亦說地。亦說福說
+<lb n="0180a11"/>斷。說罪說離。說二無為。為一切如是<note n="0180009" resp="Taisho" type="orig" place="foot text">說佛＝佛說【宮】</note><app n="0180009"><lem>說。佛</lem><rdg wit="【宮】" resp="Taisho">佛說</rdg></app>
+<lb n="0180a12"/>已更度世畢。<note n="0180010" resp="Taisho" type="orig" place="foot text">〔若〕－【宋】【元】</note><app n="0180010"><lem>若</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>人欲度世。當&CB02959;是彼</p>
+<lb n="0180a13"/><p>何等為九次第思惟正定。為四禪亦無色正
+<lb n="0180a14"/>四定亦已盡畢定。為九次第正定。彼第一禪
+<lb n="0180a15"/>已捨五種。隨正五種。已捨五種為何等。為五
+<lb n="0180a16"/>蓋。一愛欲。二瞋恚。三睡眠。四不了悔。五為
+<lb n="0180a17"/>疑。是為五種。上禪已捨彼愛欲蓋。為何等。
+<lb n="0180a18"/><note n="0180011" resp="Taisho" type="orig" place="foot text">愛欲＋（蓋為何等愛欲）【三】</note><note n="0180011" resp="CBETA" type="mod">愛欲＋（蓋為何等愛欲）【宋】【元】【明】</note><app n="0180011"><lem>愛欲</lem><rdg wit="【宋】【元】【明】" resp="Taisho">愛欲蓋為何等愛欲</rdg></app><note n="0180012" resp="Taisho" type="orig" place="foot text">名為所為＝所謂【明】</note><app n="0180012"><lem>名為所為</lem><rdg wit="【明】" resp="Taisho">所謂</rdg></app>。五樂愛著。發往可求。隨願
+<lb n="0180a19"/>發不捨使發起。是<note n="0180013" resp="Taisho" type="orig" place="foot text">〔名〕－【宋】【元】</note><app n="0180013"><lem>名</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>為愛欲<note n="0180014" resp="Taisho" type="orig" place="foot text">蓋彼＝盡使【宋】【元】</note><app n="0180014"><lem>蓋。彼</lem><rdg wit="【宋】【元】" resp="Taisho">盡使</rdg></app>瞋恚蓋
+<lb n="0180a20"/>為何等。<note n="0180015" resp="Taisho" type="orig" place="foot text">〔為〕－【宋】【元】</note><app n="0180015"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>若人為發行<note n="0180016" resp="Taisho" type="orig" place="foot text">&CB00243;＝地【明】【宮】</note><app n="0180016"><lem>&CB00243;</lem><rdg wit="【明】【宮】" resp="Taisho">地</rdg></app>。&CB00478;恚相恚非法
+<lb n="0180a21"/>本所使所從起。是名為瞋恚蓋。彼睡<note n="0180017" resp="Taisho" type="orig" place="foot text">瞑＝眠【明】【宮】下同</note><app n="0180017"><lem>瞑</lem><rdg wit="【明】【宮】" resp="Taisho">眠</rdg></app>蓋為
+<lb n="0180a22"/>何等。睡為身跓。為意跓。為身<note n="0180018" resp="Taisho" type="orig" place="foot text">止＝跓【宮】＊</note><app n="0180018"><lem>止</lem><rdg wit="【宮】" resp="Taisho">跓</rdg></app>。為意<anchor id="fxT15p0180a01"/>止
+<lb n="0180a23"/>為身癡。為意癡。為身重。為意重。為身不便。
+<lb n="0180a24"/>為意不便。為身不使。為意不使。是為睡瞑。
+<lb n="0180a25"/>為何等為意相。<note n="0180019" resp="Taisho" type="orig" place="foot text">從＝促【宋】【元】</note><app n="0180019"><lem>從</lem><rdg wit="【宋】【元】" resp="Taisho">促</rdg></app>令瞑動相<note n="0180020" resp="Taisho" type="orig" place="foot text">（不）＋動【明】</note><app n="0180020"><lem>動</lem><rdg wit="【明】" resp="Taisho">不動</rdg></app>。令不作事。
+<lb n="0180a26"/>是為瞑。上頭為睡後為瞑。是共名為睡瞑<note n="0180021" resp="Taisho" type="orig" place="foot text">〔蓋〕－【宋】【元】</note><app n="0180021"><lem>蓋</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>
+<lb n="0180a27"/>彼不了悔蓋為何等。為身不止悔為何等。為
+<lb n="0180a28"/>所念可不可不得悔。是上頭。為不了。後為悔。
+<lb n="0180a29"/>是<note n="0180022" resp="Taisho" type="orig" place="foot text">共＝苦【三】【宮】</note><note n="0180022" resp="CBETA" type="mod">共＝苦【宋】【元】【明】【宮】</note><app n="0180022"><lem>共</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">苦</rdg></app>名為不了悔蓋。彼疑蓋為何等。若<note n="0180023" resp="Taisho" type="orig" place="foot text">不＋（能）【三】</note><note n="0180023" resp="CBETA" type="mod">不＋（能）【宋】【元】【明】</note><app n="0180023"><lem>不</lem><rdg wit="【宋】【元】【明】" resp="Taisho">不能</rdg></app>
+<pb ed="T" id="T15.0603.0180b" n="0180b"/>
+<lb n="0180b01"/>信佛。不信法。不信&CB02959;者<note n="0180024" resp="Taisho" type="orig" place="foot text">聚＝眾【宋】【元】【宮】</note><app n="0180024"><lem>聚</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">眾</rdg></app>。不解苦習盡道
+<lb n="0180b02"/>比結使。亦從發是名為疑蓋。亦有五疑。有縣
+<lb n="0180b03"/>聚疑。有發教疑。有道分別疑。有欲&CB02959;定<note n="0180025" resp="Taisho" type="orig" place="foot text">疑＋（者）【宋】【元】</note><app n="0180025"><lem>疑</lem><rdg wit="【宋】【元】" resp="Taisho">疑者</rdg></app>
+<lb n="0180b04"/>有得道福疑。如是是為說定疑。是為五蓋。蓋
+<lb n="0180b05"/>說為何等。蓋為&CB00230;對。<note n="0180026" resp="Taisho" type="orig" place="foot text">為＋（為）【宋】【元】</note><app n="0180026"><lem>為</lem><rdg wit="【宋】【元】" resp="Taisho">為為</rdg></app>&CB00230;一切清淨法。&CB00230;
+<lb n="0180b06"/>云何。愛欲為&CB00230;清淨。瞋恚為&CB00230;等意。睡為&CB00230;
+<lb n="0180b07"/><note n="0180027" resp="Taisho" type="orig" place="foot text">止＝仙【宮】＊</note><app n="0180027"><lem>止</lem><rdg wit="【宮】" resp="Taisho">仙</rdg></app>。<note n="0180028" resp="Taisho" type="orig" place="foot text">瞑＝瞋【明】</note><app n="0180028"><lem>瞑</lem><rdg wit="【明】" resp="Taisho">瞋</rdg></app>為&CB00230;精進。五樂為&CB00230;&CB02959;。亦<anchor id="fxT15p0180b01"/>止結為
+<lb n="0180b08"/>&CB00230;不悔。疑為&CB00230;慧。不知本從起。為&CB00230;解明</p>
+<lb n="0180b09"/><juan fun="close" n="002"><jhead><title>陰持入經</title>卷下</jhead></juan></div1>
+<lb n="0180b10"/><div1 type="w"><mulu type="附文" level="1" n="2" label="（附文）佛說慧印百六十三定解"/><note n="0180029" resp="Taisho" type="orig" place="foot text">〔佛說慧印…非不遊〕四百三字－【三】【宮】</note><note n="0180029" resp="CBETA" type="mod">〔佛說慧印…非不遊〕四百三字－【宋】【元】【明】【宮】</note><app n="0180029" word-count="403"><lem><head>佛說慧印百六十三定解</head>
+<lb n="0180b11"/><p>當知舍利弗如來之身為無身無作無起無滅
+<lb n="0180b12"/>無從有未曾造無合無遊無至無知無習都清
+<lb n="0180b13"/>淨無畜無憎無行無止無生無報無見無間無
+<lb n="0180b14"/>臭無&CB00573;無更無識無曉無喻無知忍無志無思
+<lb n="0180b15"/>非意離意意平無平去意無所與無五道五道
+<lb n="0180b16"/>斷要具無閨無惱無有無畏無可無不可無業
+<lb n="0180b17"/>無成無言無耎不現非明非冥非滅不滅離滅
+<lb n="0180b18"/>已滅為淨極淨彼淨不用非悅非愛非負離負
+<lb n="0180b19"/>已住應於無處非逝非亡非沒非法非無法非
+<lb n="0180b20"/>土非無土非盡無有盡捨盡無怒離於天離於
+<lb n="0180b21"/>嚮離於說離於思非合非不合非極非不極非
+<lb n="0180b22"/>去非不去非二非不樂無彼受無所視無相離
+<lb n="0180b23"/>相不求相明安徐無著離著造信亦無二稱如
+<lb n="0180b24"/>為審如審如義不負人度無度除無除救無救
+<lb n="0180b25"/>說無說二無有等無比等與空等無處等無生
+<lb n="0180b26"/>等無得等無休息離息已寂而寂滿寂散解心
+<lb n="0180b27"/>善行轉至要一切報斷成具甚真身明質淨無
+<lb n="0180b28"/>自惟無所行行解無解無應不齊不長不圓不
+<lb n="0180b29"/>方不讚陰不稱種不譽入不是數不致數不復
+<pb ed="T" id="T15.0603.0180c" n="0180c"/>
+<lb n="0180c01"/>生不可見不有知亦不死不世因無不因身然
+<lb n="0180c02"/>不趺無有居處非終非始非念非憂非事非諍
+<lb n="0180c03"/>非惡相非滅度非滅訖非所造非不遊</p></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></div1>
+</body></text></TEI.2>

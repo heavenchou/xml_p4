@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T15n0612.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+%ENTY;
+%CBENT;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0612 身觀經</title>
+			<author>西晉 竺法護譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:08:55 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 15, No. 612 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991011/23:56:10</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T15n0612.xml,v $
+Revision 1.1  2003/05/05 04:08:55  ray
+Initial revision
+
+Revision 1.18  2003/04/09 09:38:07  eva
+modified：HH比對差異修訂
+
+Revision 1.17  2002/12/25 06:42:19  eva
+modified
+
+Revision 1.16  2002/12/05 12:30:41  eva
+modified
+
+Revision 1.15  2002/11/04 10:41:11  ray
+tei.2 => TEI.2
+
+Revision 1.14  2002/10/07 13:07:35  moved
+modified
+
+Revision 1.13  2002/07/29 09:54:42  vinking
+modified lang
+
+Revision 1.12  2002/04/04 07:44:16  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.11  2001/07/27 07:11:30  ray
+去除多餘的 <author>
+
+Revision 1.10  2001/07/24 06:51:19  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.9  2001/05/25 08:56:16  ray
+經號統一為四碼
+
+Revision 1.8  2001/03/30 05:43:40  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 09:03:44  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:50:23  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:39:53  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:55 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0242a22"/>
+<milestone unit="juan" n="1"/>
+<lb n="0242a23"/>
+<lb n="0242a24"/><head type="no">No. 612</head>
+<lb n="0242a25"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0242004" resp="Taisho" type="orig" place="foot text">（佛說）＋身【三】【宮】＊</note><note n="0242004" resp="CBETA" type="mod">（佛說）＋身【宋】【元】【明】【宮】＊</note><app n="0242004"><lem>身</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說身</rdg></app>觀經</title></jhead></juan>
+<lb n="0242a26"/>
+<lb n="0242a27"/><byline type="Translator">西晉<note n="0242005" resp="Taisho" type="orig" place="foot text">〔月氏國〕－【三】【宮】</note><note n="0242005" resp="CBETA" type="mod">〔月<corr sic="氏" resp="CBETA.Maha">支</corr>國〕－【宋】【元】【明】【宮】</note><app n="0242005"><lem>月支國</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app><note n="0242006" resp="Taisho" type="orig" place="foot text">三藏＋（法師）【三】</note><note n="0242006" resp="CBETA" type="mod">三藏＋（法師）【宋】【元】【明】</note><app n="0242006"><lem>三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">三藏法師</rdg></app>竺法護譯</byline>
+<lb n="0242a28"/><div1 type="jing"><p>聞如是。一時佛在舍衛國祇樹給孤獨園。是
+<lb n="0242a29"/>時佛告諸比丘。是身有肌膚<note n="0242007" resp="Taisho" type="orig" place="foot text">髓＝體【宮】</note><app n="0242007"><lem>髓</lem><rdg wit="【宮】" resp="Taisho">體</rdg></app>血<note n="0242008" resp="Taisho" type="orig" place="foot text">（生）＋肉【三】【宮】</note><note n="0242008" resp="CBETA" type="mod">（生）＋肉【宋】【元】【明】【宮】</note><app n="0242008"><lem>肉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">生肉</rdg></app>。含滿
+<pb ed="T" id="T15.0612.0242b" n="0242b"/>
+<lb n="0242b01"/><note n="0242009" resp="Taisho" type="orig" place="foot text">&CB01424;溺＝屎尿【三】【宮】</note><note n="0242009" resp="CBETA" type="mod">&CB01424;溺＝屎尿【宋】【元】【明】【宮】</note><app n="0242009"><lem>&CB01424;溺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">屎尿</rdg></app>。自視身見何等好。常有九孔惡病。常不
+<lb n="0242b02"/>淨常<note n="0242010" resp="Taisho" type="orig" place="foot text">流＝洗【三】【宮】</note><note n="0242010" resp="CBETA" type="mod">流＝洗【宋】【元】【明】【宮】</note><app n="0242010"><lem>流</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">洗</rdg></app>。可足慚。常與<note n="0242011" resp="Taisho" type="orig" place="foot text">冤＝怨【三】【宮】</note><note n="0242011" resp="CBETA" type="mod">冤＝怨【宋】【元】【明】【宮】</note><app n="0242011"><lem>冤</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">怨</rdg></app>家合。為至老死。亦
+<lb n="0242b03"/>與病俱。何以不惡。身會當墮。會當敗以棄屍
+<lb n="0242b04"/>地中不復用。為狐狼所噉。何以見是不慚。誰
+<lb n="0242b05"/>說貪婬。如佛言。少<note n="0242012" resp="Taisho" type="orig" place="foot text">可＝樂【元】【明】</note><app n="0242012"><lem>可</lem><rdg wit="【元】【明】" resp="Taisho">樂</rdg></app>多罪。自心觀是。如屠
+<lb n="0242b06"/><note n="0242013" resp="Taisho" type="orig" place="foot text">杆＝屠【元】【明】</note><app n="0242013"><lem>杆</lem><rdg wit="【元】【明】" resp="Taisho">屠</rdg></app>屠机為骨聚。如然熾火。如毒藥痛為旋。
+<lb n="0242b07"/>癡人喜為喜不自知。何以不畏羅網。貪婬為
+<lb n="0242b08"/>癡。財錢穀金銀牛馬奴婢。人為命故求。命在
+<lb n="0242b09"/>呼吸。本命亦自少極壽百餘歲。亦苦合會。觀
+<lb n="0242b10"/>是誰為可者。如時過去。便命稍少。命日俱盡。
+<lb n="0242b11"/>如疾河水。如日月盡。命疾是過去。人命去不
+<lb n="0242b12"/>復還。如是為不可得。人死時命去。設使若干
+<lb n="0242b13"/>財。索天下<note n="0242014" resp="Taisho" type="orig" place="foot text">奇＝琦【三】【宮】</note><note n="0242014" resp="CBETA" type="mod">奇＝琦【宋】【元】【明】【宮】</note><app n="0242014"><lem>奇</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">琦</rdg></app>物。亦一切有。死時對來亦不
+<lb n="0242b14"/>樂。亦不可厭。亦不可樂。亦不可自樂無餘。但
+<lb n="0242b15"/>可自作善。所自作善。所應自然。若以知會當
+<lb n="0242b16"/>死。當有何等樂。人可墮貪婬。設使久壽。設使
+<lb n="0242b17"/>亡去會當死。何以意愛俱樂。何以故。不念自
+<lb n="0242b18"/>靜。極意<note n="0242015" resp="Taisho" type="orig" place="foot text">受＝愛【三】【宮】</note><note n="0242015" resp="CBETA" type="mod">受＝愛【宋】【元】【明】【宮】</note><app n="0242015"><lem>受</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">愛</rdg></app>悅。<note n="0242016" resp="Taisho" type="orig" place="foot text">兒＋（兒）【三】【宮】</note><note n="0242016" resp="CBETA" type="mod">兒＋（兒）【宋】【元】【明】【宮】</note><app n="0242016"><lem>兒</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">兒兒</rdg></app>已死<note n="0242017" resp="Taisho" type="orig" place="foot text">啼＝號【三】【宮】</note><note n="0242017" resp="CBETA" type="mod">啼＝號【宋】【元】【明】【宮】</note><app n="0242017"><lem>啼</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">號</rdg></app>哭。不過十日。過
+<lb n="0242b19"/>十日已<note n="0242018" resp="Taisho" type="orig" place="foot text">後＋（後）【三】【宮】</note><note n="0242018" resp="CBETA" type="mod">後＋（後）【宋】【元】【明】【宮】</note><app n="0242018"><lem>後</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">後後</rdg></app>。便稍忘之。愛兒婦亦爾。為家室
+<lb n="0242b20"/>親屬知識亦爾。以勤苦治生致財物。自愛身
+<lb n="0242b21"/>命<note n="0242019" resp="Taisho" type="orig" place="foot text">綺＝奇【元】【明】</note><app n="0242019"><lem>綺</lem><rdg wit="【元】【明】" resp="Taisho">奇</rdg></app>好。人死時皆棄所有。身僵在地。下<note n="0242020" resp="Taisho" type="orig" place="foot text">〔入〕－【宋】【宮】，入＝腐【明】</note><app n="0242020"><lem>入</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho">腐</rdg></app>
+<lb n="0242b22"/>於土。但為<note n="0242021" resp="Taisho" type="orig" place="foot text">陰＝除【三】【宮】</note><note n="0242021" resp="CBETA" type="mod">陰＝除【宋】【元】【明】【宮】</note><app n="0242021"><lem>陰</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">除</rdg></app>去生隨行受形人。譬如樹果實
+<lb n="0242b23"/>已見。如是為有人意墮有中。天下一切<note n="0242022" resp="Taisho" type="orig" place="foot text">果＝萬【三】【宮】</note><note n="0242022" resp="CBETA" type="mod">果＝萬【宋】【元】【明】【宮】</note><app n="0242022"><lem>果</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">萬</rdg></app>
+<lb n="0242b24"/>物。一人得不自足。若得一分。當那得自厭。無
+<lb n="0242b25"/>有數三十五樂自樂遍之當為有何等益。人
+<lb n="0242b26"/>已<note n="0242023" resp="Taisho" type="orig" place="foot text">逢＝途【三】【宮】</note><note n="0242023" resp="CBETA" type="mod">逢＝途【宋】【元】【明】【宮】</note><app n="0242023"><lem>逢</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">途</rdg></app>苦索受罪人意為是所好。謂有所益不
+<lb n="0242b27"/>欲受靜索為毒。&CB02934;自身如少多亦爾。如多少
+<lb n="0242b28"/>亦爾。如病為大小亦苦。譬如骨無有肉。狗得
+<lb n="0242b29"/>&CB00599;之不厭。如是欲狗習。是亦難得。已得當多
+<pb ed="T" id="T15.0612.0242c" n="0242c"/>
+<lb n="0242c01"/>畏之。是習所不久。人亦墮惡。如人見夢。已寤
+<lb n="0242c02"/>不復得。貪婬亦如是。劇夢如夢為有樂。如黑
+<lb n="0242c03"/>&CB02934;如<note n="0242024" resp="Taisho" type="orig" place="foot text">&CB00424;＝釣【三】【宮】</note><note n="0242024" resp="CBETA" type="mod">&CB00424;＝釣【宋】【元】【明】【宮】</note><app n="0242024"><lem>&CB00424;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">釣</rdg></app>餌肉。如樹果實。實少味多。亡為增
+<lb n="0242c04"/>結。為惡作本。道家常不用。是人在天上舍樂。
+<lb n="0242c05"/>亦天上色樹。亦在端正好苑園。亦得天上玉
+<lb n="0242c06"/>女。已得天人。不厭天上五樂。今當那得厭天
+<lb n="0242c07"/>下樂耶。為取二百日骨。骨百二十段為筋纏。
+<lb n="0242c08"/>為九孔常漏。為六十三種。為百病極。為肉血
+<lb n="0242c09"/>和。為生革肌。為中寒熱風。為屎<note n="0242025" resp="Taisho" type="orig" place="foot text">溺＝尿【三】＊【宮】</note><note n="0242025" resp="CBETA" type="mod">溺＝尿【宋】＊【元】＊【明】＊【宮】</note><app n="0242025"><lem>溺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">尿</rdg></app>為千蟲。
+<lb n="0242c10"/>皆從身起。中亦有千孔。亦有劇為親已壞他
+<lb n="0242c11"/>為。從是不淨出。從鼻中涕出。從口<note n="0242026" resp="Taisho" type="orig" place="foot text">&CB01698;＝涎【三】，涕【宮】</note><note n="0242026" resp="CBETA" type="mod">&CB01698;＝涎【宋】【元】【明】，＝涕【宮】</note><app n="0242026"><lem>&CB01698;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">涎</rdg><rdg wit="【宮】" resp="Taisho">涕</rdg></app>唾出。
+<lb n="0242c12"/>從腋下汗流出。從<note n="0242027" resp="Taisho" type="orig" place="foot text">下＝九【三】【宮】</note><note n="0242027" resp="CBETA" type="mod">下＝九【宋】【元】【明】【宮】</note><app n="0242027"><lem>下</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">九</rdg></app>孔處屎<anchor id="fxT15p0242c01"/>溺出。如是皆
+<lb n="0242c13"/>從身出。劇&CB00093;間死人。誠可惡劇舍後可惡處。
+<lb n="0242c14"/>身所有不淨如是為不淨種為從是本來如金
+<lb n="0242c15"/>塗餘物為衣故香粉脂澤赤絮紺黛。為癡人
+<lb n="0242c16"/>見是為是意亂。如畫瓶<note n="0242028" resp="Taisho" type="orig" place="foot text">赤＝亦【三】【宮】</note><note n="0242028" resp="CBETA" type="mod">赤＝亦【宋】【元】【明】【宮】</note><app n="0242028"><lem>赤</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">亦</rdg></app>如坑覆草。人所抱
+<lb n="0242c17"/>愛後會悔。比丘聞經跪拜受。道教如是</p>
+<lb n="0242c18"/><trailer><title><anchor id="fxT15p0242c02"/>身觀經</title></trailer><juan fun="close" n="001"></juan></div1>
+</body></text></TEI.2>

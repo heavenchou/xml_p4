@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T21n1203.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1203 聖無動尊安鎮家國等法</title>
+			<author></author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:25 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 21, No. 1203 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="san-sd">Sanskrit-Siddam</language>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000131/09:31:23</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/05)</item>
+	</change>
+<!--
+$Log: T21n1203.xml,v $
+Revision 1.1  2003/05/05 04:09:25  ray
+Initial revision
+
+Revision 1.25  2002/11/28 10:06:33  saywhat
+校勘插入處理
+
+Revision 1.24  2002/11/19 06:46:27  saywhat
+modified footnote
+
+Revision 1.23  2002/11/04 10:46:11  ray
+tei.2 => TEI.2
+
+Revision 1.22  2002/10/07 13:13:00  moved
+modified
+
+Revision 1.21  2002/07/29 09:57:17  vinking
+modified lang
+
+Revision 1.20  2002/04/08 09:07:10  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.19  2001/11/05 06:14:08  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.18  2001/07/24 06:53:32  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.17  2001/07/10 09:57:54  vinking
+run cbent
+
+Revision 1.16  2001/05/29 09:21:33  saywhat
+modified <note type='inline"> under </t>
+
+Revision 1.15  2001/05/29 02:37:51  ray
+悉漢行行對照, 兩行行號都標
+
+Revision 1.14  2001/05/28 07:52:57  vinking
+modified <sg><note place="inline"> to <sg>
+
+Revision 1.13  2001/03/30 05:57:20  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.12  2001/03/25 09:18:32  ray
+add <milestone>
+
+Revision 1.11  2001/03/06 01:58:11  RAY
+<lb n="0030c24"/>delete space
+
+Revision 1.10  2001/02/07 06:56:59  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.9  2001/02/03 07:46:53  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:25 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0027b23"/>
+<milestone unit="juan" n="1"/>
+<lb n="0027b24"/>
+<lb n="0027b25"/><head type="no">No. 1203</head><div1 type="jing">
+<lb n="0027b26"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0027056" resp="Taisho" type="orig" place="foot text">【原】享和元年刊長谷寺藏本，原本校異中略符（&M062404;）者秀陽阿闍梨本，（&M062304;）者宣雄比丘本，【甲】大治三年寫東寺三密藏本</note>聖<note n="0027057" resp="Taisho" type="orig" place="foot text">無＝不【甲】</note><app n="0027057"><lem>無</lem><rdg wit="【甲】" resp="Taisho">不</rdg></app>動尊安鎮家國等<note n="0027058" resp="Taisho" type="orig" place="foot text">此下甲本有金剛三藏傳五字</note><note n="0027058" resp="CBETA" type="mod"><todo type="a"/>此下甲本有金剛三藏傳五字</note>法</jhead></juan>
+<lb n="0027b27"/>
+<lb n="0027b28"/><p>爾時毘盧遮那如來。為愍念一切有情。常於
+<lb n="0027b29"/>煩惱苦海之中。流浪生死不出三界。受眾<note n="0027059" resp="Taisho" type="orig" place="foot text">苦＋（難為受苦）【甲】</note><app n="0027059"><lem>苦</lem><rdg wit="【甲】" resp="Taisho">苦難為受苦</rdg></app>
+<pb ed="T" id="T21.1203.0027c" n="0027c"/>
+<lb n="0027c01"/>故。展轉造作無量苦業相續不絕。我為拔濟
+<lb n="0027c02"/>一切有情。於三界中現威德光明自在之身。
+<lb n="0027c03"/>號曰不動金剛明王。能與人天安樂利益。安
+<lb n="0027c04"/>鎮家國<note n="0027060" resp="Taisho" type="orig" place="foot text">（令）＋無【甲】</note><app n="0027060"><lem>無</lem><rdg wit="【甲】" resp="Taisho">令無</rdg></app>衰患。若有國<note n="0027061" resp="Taisho" type="orig" place="foot text">土＝王&M062303;【原】</note><app n="0027061"><lem>土</lem><rdg wit="【Ｂ】" resp="【原】">王</rdg></app>多諸災難。日月
+<lb n="0027c05"/>失度惡星變怪。互相陵逼水旱不調。眾生薄
+<lb n="0027c06"/>福天龍捨離。遇此之時。不祥競起無有休息
+<lb n="0027c07"/>穀貴飢凍鬼魅流行。疫病妖邪虎狼殘害。暴
+<lb n="0027c08"/>風霜雹毒惡虫蝗。怨敵頻興群<note n="0027062" resp="Taisho" type="orig" place="foot text">君＝臣&M062303;【原】</note><app n="0027062"><lem>君</lem><rdg wit="【Ｂ】" resp="【原】">臣</rdg></app>背版。多
+<lb n="0027c09"/>諸盜賊征戰屢興。<note n="0027063" resp="Taisho" type="orig" place="foot text">處＋（處）&M062303;【原】</note><app n="0027063"><lem>處</lem><rdg wit="【Ｂ】" resp="【原】">處處</rdg></app>災興相續不絕。其國
+<lb n="0027c10"/><note n="0027064" resp="Taisho" type="orig" place="foot text">〔仁〕－【甲】</note><app n="0027064"><lem>仁</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>王。若知有此持明之人。應鎮起大慈悲之
+<lb n="0027c11"/>心。哀愍國界一切有情。行大明王威德祕法。
+<lb n="0027c12"/>令諸有情增加福德。起慚愧心離諸苦業。其
+<lb n="0027c13"/>王爾時生大信樂決定之意。召請如是持明
+<lb n="0027c14"/>大士。應捨財帛衣服珍玩園林屋宅。象馬車
+<pb ed="T" id="T21.1203.0028a" n="0028a"/>
+<lb n="0028a01"/>乘奴婢僕從種種上妙吉祥等物而告之言。
+<lb n="0028a02"/>我為一切有情及國土不安。仁當為我成就
+<lb n="0028a03"/>此法。我聞此法威力難思。汝當為我<note n="0028001" resp="Taisho" type="orig" place="foot text">我＝等&M062485;【原】，及&M062485;【原】，為&M062485;【原】，〔我〕－【甲】</note><app n="0028001"><lem>我</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0028001" place="foot" type="rest">我＝等&M062485;【原】，及&M062485;【原】，為&M062485;【原】</note>一
+<lb n="0028a04"/>切有情。速可建立此殊勝法除眾災殃。所要
+<lb n="0028a05"/>之物當隨意取終不違汝。時持明者受是請
+<lb n="0028a06"/>已。勿生厭倦。依教修崇。當須清淨造立不動
+<lb n="0028a07"/><note n="0028002" resp="Taisho" type="orig" place="foot text">〔尊〕&M062403;－【原】</note><app n="0028002"><lem>尊</lem><rdg wit="【Ａ】" resp="【原】">&lac;</rdg></app>明王形像。及八方天王并其眷屬。如法修
+<lb n="0028a08"/>造隨其自力。或金或銀乃至銅鐵泥木彩畫。
+<lb n="0028a09"/>身長八指。其兩臂身俱摩羅相。其身洪滿其
+<lb n="0028a10"/>色如金。頭髮左垂威容極忿。右持智劍左執
+<lb n="0028a11"/>&CB00559;索。坐金盤石光焰熾然。其焰多有<note n="0028003" resp="Taisho" type="orig" place="foot text">伽＝迦&M062403;【原】＊</note><app n="0028003"><lem>伽</lem><rdg wit="【Ａ】" resp="【原】">迦</rdg></app>樓
+<lb n="0028a12"/>羅狀。此之形像王宮中置。乃至百官黎庶人
+<lb n="0028a13"/>民所居莊<note n="0028004" resp="Taisho" type="orig" place="foot text">室＝宅【甲】</note><app n="0028004"><lem>室</lem><rdg wit="【甲】" resp="Taisho">宅</rdg></app>房舍。<note n="0028005" resp="Taisho" type="orig" place="foot text">皆＋（於）【甲】</note><app n="0028005"><lem>皆</lem><rdg wit="【甲】" resp="Taisho">皆於</rdg></app>於中心取少分處安
+<lb n="0028a14"/>置此像。其八方鎮處即作四臂大<note n="0028006" resp="Taisho" type="orig" place="foot text">〔嚴〕－【甲】</note><app n="0028006"><lem>嚴</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>忿怒身。
+<lb n="0028a15"/>紺青色洪滿端嚴。目口皆張利牙上出。右劍
+<lb n="0028a16"/>左索。其上二臂在口兩邊作忿怒印。身處八
+<lb n="0028a17"/>幅金剛輪。內其輪。四外現八三股金剛杵頭。
+<lb n="0028a18"/><note n="0028007" resp="Taisho" type="orig" place="foot text">輪＝輻【甲】</note><app n="0028007"><lem>輪</lem><rdg wit="【甲】" resp="Taisho">輻</rdg></app>復有<anchor id="fxT21p0028a01"/>伽樓羅炎。坐<note n="0028008" resp="Taisho" type="orig" place="foot text">四大＝大四【甲】</note><app n="0028008"><lem>四大</lem><rdg wit="【甲】" resp="Taisho">大四</rdg></app>寶須彌山上。及
+<lb n="0028a19"/>八<note n="0028009" resp="Taisho" type="orig" place="foot text">天＋（王）【甲】</note><app n="0028009"><lem>天</lem><rdg wit="【甲】" resp="Taisho">天王</rdg></app>并諸眷屬。及鑄金輪自有圖樣。上從王
+<lb n="0028a20"/>宮下至黎庶悉行此法。若不遍行無有是處。
+<lb n="0028a21"/>皆於所居安置形像勿生怖畏。我本先願不
+<lb n="0028a22"/>捨眾生。常居一處渾同穢濁悉令清淨。及施
+<lb n="0028a23"/>殘食而為供養。并受大日如來五字心真言。
+<lb n="0028a24"/>并軍旅眾生亦帶此<note n="0028010" resp="Taisho" type="orig" place="foot text">〔悉〕－【甲】，悉＝心&M062485;【原】</note><app n="0028010"><lem><sic corr="心" resp="【原】">悉</sic></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0028011" resp="Taisho" type="orig" place="foot text">真言＝受真言誦&M062303;【原】</note><app n="0028011"><lem>真言</lem><rdg wit="【Ｂ】" resp="【原】">受真言誦</rdg></app>及施殘食。令
+<lb n="0028a25"/>增勝福。其王宮中每月一日及十五日依法
+<lb n="0028a26"/>供養。以諸香華上<note n="0028012" resp="Taisho" type="orig" place="foot text">妙＋（幢蓋繒）&M062403;【原】</note><app n="0028012"><lem>妙</lem><rdg wit="【Ａ】" resp="【原】">妙幢蓋繒</rdg></app><note n="0028013" resp="Taisho" type="orig" place="foot text">幡＋（蓋山）【甲】</note><app n="0028013"><lem>幡</lem><rdg wit="【甲】" resp="Taisho">幡蓋山</rdg></app>寶網。蘇燈閼伽寶
+<lb n="0028a27"/>瓶寶器微妙塗香。<note n="0028014" resp="Taisho" type="orig" place="foot text">（種種）＋上【甲】</note><app n="0028014"><lem>上</lem><rdg wit="【甲】" resp="Taisho">種種上</rdg></app>味珍妙甘&CB00498;及諸湯藥。
+<lb n="0028a28"/>并陳種種上妙音樂。其王爾時捨憍慢心生
+<lb n="0028a29"/>謙下心。普為國界及諸人民親自祈哀。恭敬
+<pb ed="T" id="T21.1203.0028b" n="0028b"/>
+<lb n="0028b01"/>供養<note n="0028015" resp="Taisho" type="orig" place="foot text">施＝旋&M062403;【原】</note><app n="0028015"><lem>施</lem><rdg wit="【Ａ】" resp="【原】">旋</rdg></app>繞禮拜。殷勤祈請發殊勝願。增加福
+<lb n="0028b02"/>力人民安樂不受諸難。每年春秋依教戶摩。
+<lb n="0028b03"/>如法供養表王志重。於諸有情不生疲倦。為
+<lb n="0028b04"/>我國界求勝上福。如是陳設八鎮之後。其國
+<lb n="0028b05"/>永斷一切災禍。天龍歡喜愍念眾生。諸佛常
+<lb n="0028b06"/><note n="0028016" resp="Taisho" type="orig" place="foot text">〔當〕－【甲】</note><app n="0028016"><lem>當</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>護念一切有情。為加持故俱修慚愧共行
+<lb n="0028b07"/>十善。國界自然安穩豐饒。其諸人民受諸快
+<lb n="0028b08"/>樂。仁王所化倍增福德相繼不絕。壽命增
+<lb n="0028b09"/>長國土榮盛。有<note n="0028017" resp="Taisho" type="orig" place="foot text">〔大〕－【甲】</note><app n="0028017"><lem>大</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>威力如師子王無能勝者。
+<lb n="0028b10"/>爾時世尊以偈讚曰</p>
+<lb n="0028b11"/><lg><l>我大日如來</l><l>安鎮家國法</l>
+<lb n="0028b12"/><l>現威德自在</l><l>號不動明王</l>
+<lb n="0028b13"/><l>於一切有情</l><l>斷三惡道業</l>
+<lb n="0028b14"/><l>能離諸八難</l><l>使三界獲安</l>
+<lb n="0028b15"/><l>故贊說修行</l><l>及戶摩儀軌</l>
+<lb n="0028b16"/><l>供養當時分</l><l>宿曜日相應</l>
+<lb n="0028b17"/><l>一一悉加持</l><l>清淨無雜染</l>
+<lb n="0028b18"/><l>住三密觀行</l><l>所作<note n="0028018" resp="Taisho" type="orig" place="foot text">俱＝具&M062403;【原】</note><app n="0028018"><lem>俱</lem><rdg wit="【Ａ】" resp="【原】">具</rdg></app>威儀</l>
+<lb n="0028b19"/><l>三日午前起</l><l>五日午後成</l>
+<lb n="0028b20"/><l>中夜後戶摩</l><l>大陽安鎮畢</l>
+<lb n="0028b21"/><l>大悲根本號</l><l>五字心真言</l>
+<lb n="0028b22"/><l>王&CB00330;普流行</l><l>軍眾皆帶受</l>
+<lb n="0028b23"/><l>建立尊形像</l><l>印契具分明</l>
+<lb n="0028b24"/><l>童子威怒身</l><l>面貌皆充滿</l>
+<lb n="0028b25"/><l>儀軌及供養</l><l>教令悉相應</l>
+<lb n="0028b26"/><l>曼<note n="0028019" resp="Taisho" type="orig" place="foot text">拏＝荼&M062403;【原】＊</note><app n="0028019"><lem>拏</lem><rdg wit="【Ａ】" resp="【原】">荼</rdg></app>羅普通</l><l>根本自差別</l>
+<lb n="0028b27"/><l>如上次第法</l><l>每鎮畫像前</l>
+<lb n="0028b28"/><l>起從憍尸迦</l><l>右旋伊舍畢</l>
+<lb n="0028b29"/><l>周百由旬內</l><l>四臂大怒王</l>
+<pb ed="T" id="T21.1203.0028c" n="0028c"/>
+<lb n="0028c01"/><l>一髻左下垂</l><l>身作紺青色</l>
+<lb n="0028c02"/><l>半跏彌盧上</l><l>成就斫羯羅</l>
+<lb n="0028c03"/><l>猛焰從心生</l><l>狀如金翅鳥</l>
+<lb n="0028c04"/><l>八天依本位</l><l>面向聖尊前</l>
+<lb n="0028c05"/><l>持自契真言</l><l>眷屬皆奉獻</l>
+<lb n="0028c06"/><l>龍神咸歡喜</l><l>稱美讚<note n="0028020" resp="Taisho" type="orig" place="foot text">人＝仁&M062485;【原】</note><sic n="0028020" corr="仁" resp="【原】">人</sic>王</l>
+<lb n="0028c07"/><l>八難不能侵</l><l>一切同安樂</l>
+<lb n="0028c08"/><l>所有難調者</l><l>災變自消除</l>
+<lb n="0028c09"/><l>設使軍陳中</l><l>斷彼人身命</l>
+<lb n="0028c10"/><l>為帶真言故</l><l>大士力加持</l>
+<lb n="0028c11"/><l>永絕怨害因</l><l>生勝不動國</l>
+<lb n="0028c12"/><l>其王安近處</l><l>兩臂根本身</l>
+<lb n="0028c13"/><l>黃色坐金山</l><l>作俱摩羅相</l>
+<lb n="0028c14"/><l>以幡華<note n="0028021" resp="Taisho" type="orig" place="foot text">縵＝鬘&M062403;【原】，繒【甲】</note><note n="0028021" resp="CBETA" type="mod">縵＝鬘&M062403;【原】，＝繒【甲】</note><app n="0028021"><lem>縵</lem><rdg wit="【Ａ】" resp="【原】">鬘</rdg><rdg wit="【甲】" resp="Taisho">繒</rdg></app>蓋</l><l>種種妙莊嚴</l>
+<lb n="0028c15"/><l>初<note n="0028022" resp="Taisho" type="orig" place="foot text">月＝日&M062303;【原】，白【甲】</note><note n="0028022" resp="CBETA" type="mod">月＝日&M062303;【原】，＝白【甲】</note><app n="0028022"><lem>月</lem><rdg wit="【Ｂ】" resp="【原】">日</rdg><rdg wit="【甲】" resp="Taisho">白</rdg></app>十五晨</l><l>王親自瞻仰</l>
+<lb n="0028c16"/><l>所捨於殘食</l><l>奉獻不動尊</l>
+<lb n="0028c17"/><l>供養勿生疑</l><l>成真實上味</l>
+<lb n="0028c18"/><l>迴奉十方佛</l><l>我願滿眾生</l>
+<lb n="0028c19"/><l>大千國土中</l><l>一切同安樂</l></lg>
+<lb n="0028c20"/><p>次說<note n="0028023" resp="Taisho" type="orig" place="foot text">隨＋（方）【甲】</note><app n="0028023"><lem>隨</lem><rdg wit="【甲】" resp="Taisho">隨方</rdg></app>安鎮法。當欲鎮時。先起東方。<note n="0028024" resp="Taisho" type="orig" place="foot text">〔東方〕－【甲】</note><app n="0028024"><lem>東方</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>
+<lb n="0028c21"/>擇勝上地。無諸穢惡結界加持。當其鎮處
+<lb n="0028c22"/>掘深三肘廣亦三肘。以瞿<note n="0028025" resp="Taisho" type="orig" place="foot text">摩＋（夷）【甲】</note><app n="0028025"><lem>摩</lem><rdg wit="【甲】" resp="Taisho">摩夷</rdg></app>塗飾。辦備塗
+<lb n="0028c23"/>香閼伽燈明飲食蘇乳&CB00031;子。別作一<note n="0028026" resp="Taisho" type="orig" place="foot text">（一）＋肘【甲】</note><app n="0028026"><lem>肘</lem><rdg wit="【甲】" resp="Taisho">一肘</rdg></app>方曼
+<lb n="0028c24"/><anchor id="fxT21p0028c01"/>拏羅。於此壇上置本尊像。幡華嚴飾廣設供
+<lb n="0028c25"/>養。當於中夜作戶摩業。其<note n="0028027" resp="Taisho" type="orig" place="foot text">所＋（鎮）【甲】</note><app n="0028027"><lem>所</lem><rdg wit="【甲】" resp="Taisho">所鎮</rdg></app>處以金銀&CB00222;璃
+<lb n="0028c26"/>珊瑚馬瑙真珠琥珀及以七寶布輪上。於輪
+<lb n="0028c27"/>齊中下鑌鐵橛加持一千八十遍。一遍<note n="0028028" resp="Taisho" type="orig" place="foot text">一下＝下一【甲】</note><app n="0028028"><lem>一下</lem><rdg wit="【甲】" resp="Taisho">下一</rdg></app>
+<lb n="0028c28"/>槌乃至遍數畢。四角散五穀。即下土填平。欲
+<lb n="0028c29"/>鎮之時。從午後至夜半前候取吉祥時分。即
+<pb ed="T" id="T21.1203.0029a" n="0029a"/>
+<lb n="0029a01"/>當下鎮了後夜戶摩。其壇四傍。依五方色。繒
+<lb n="0029a02"/>綵錢帛鎮之。取明相分修功德了。於其鎮處
+<lb n="0029a03"/>其上置一素不動明王四臂者。及本方天眷
+<lb n="0029a04"/>屬。各執本契香華向尊供養。其素像取囉惹
+<lb n="0029a05"/>身量長短為之。其功<note n="0029001" resp="Taisho" type="orig" place="foot text">未＝已&M062303;【原】</note><app n="0029001"><lem>未</lem><rdg wit="【Ｂ】" resp="【原】">已</rdg></app>畢。且開眼目。廣大
+<lb n="0029a06"/>供養設大<note n="0029002" resp="Taisho" type="orig" place="foot text">音＝意【甲】</note><app n="0029002"><lem>音</lem><rdg wit="【甲】" resp="Taisho">意</rdg></app>樂。悉令殊勝依此鎮已。如是周
+<lb n="0029a07"/>遍八方。並如上<note n="0029003" resp="Taisho" type="orig" place="foot text">說＝訖【甲】</note><app n="0029003"><lem>說</lem><rdg wit="【甲】" resp="Taisho">訖</rdg></app>。即<note n="0029004" resp="Taisho" type="orig" place="foot text">（於）＋王【甲】</note><app n="0029004"><lem>王</lem><rdg wit="【甲】" resp="Taisho">於王</rdg></app>宮置兩臂根本不
+<lb n="0029a08"/>動明王。依法建立如教安置已。即&CB00330;下四方
+<lb n="0029a09"/>王<note n="0029005" resp="Taisho" type="orig" place="foot text">令＝命【甲】</note><app n="0029005"><lem>令</lem><rdg wit="【甲】" resp="Taisho">命</rdg></app>及處。上從宰相百官下至黎庶所居室
+<lb n="0029a10"/>內。如前安立不<note n="0029006" resp="Taisho" type="orig" place="foot text">動＋（明王）【甲】</note><app n="0029006"><lem>動</lem><rdg wit="【甲】" resp="Taisho">動明王</rdg></app>像。及令誦五字心真言并
+<lb n="0029a11"/>行。當制嚴令彌加<note n="0029007" resp="Taisho" type="orig" place="foot text">戒＝誡&M062403;【原】</note><app n="0029007"><lem>戒</lem><rdg wit="【Ａ】" resp="【原】">誡</rdg></app>勸。殘食供養勿令斷絕。
+<lb n="0029a12"/>共持國界安<note n="0029008" resp="Taisho" type="orig" place="foot text">鎮＝樂【甲】</note><app n="0029008"><lem>鎮</lem><rdg wit="【甲】" resp="Taisho">樂</rdg></app>普同。設有於此大聖尊前。歌
+<lb n="0029a13"/>舞戲笑生輕慢心。此大明王亦不生厭離。我
+<lb n="0029a14"/>施勝福。若諸有情施少殘食供養我者。即同
+<lb n="0029a15"/>以十方無量勝妙珍玩。百味飲食衣服臥具。
+<lb n="0029a16"/>上妙湯藥七寶宮殿。象馬車乘僮僕。奉施功
+<lb n="0029a17"/>德無異。復過於此百千萬倍。即成真實廣大
+<lb n="0029a18"/>供養。修供養時最相應者。<note n="0029009" resp="Taisho" type="orig" place="foot text">（&CB00473;）＋赤【甲】</note><app n="0029009"><lem>赤</lem><rdg wit="【甲】" resp="Taisho">&CB00473;赤</rdg></app>色衣服皆大吉
+<lb n="0029a19"/>祥。次說作戶摩鑪及所用物。若戶摩時。於
+<lb n="0029a20"/>明王前作戶摩鑪廣一肘深半肘。取本處城
+<lb n="0029a21"/>邑四邊順流水及彼河<note n="0029010" resp="Taisho" type="orig" place="foot text">摩＝岸【甲】</note><app n="0029010"><lem>摩</lem><rdg wit="【甲】" resp="Taisho">岸</rdg></app>土。及雜香加持和
+<lb n="0029a22"/><note n="0029011" resp="Taisho" type="orig" place="foot text">以＝為【甲】</note><app n="0029011"><lem>以</lem><rdg wit="【甲】" resp="Taisho">為</rdg></app>泥。以用泥鑪壇。復以瞿摩塗拭。中心劍
+<lb n="0029a23"/>契。行者左邊囉惹位。次大臣位。次大將位。次
+<lb n="0029a24"/>地主<note n="0029012" resp="Taisho" type="orig" place="foot text">位＋（此地主）【甲】</note><app n="0029012"><lem>位</lem><rdg wit="【甲】" resp="Taisho">位此地主</rdg></app>。應須親入道場發至誠心。<note n="0029013" resp="Taisho" type="orig" place="foot text">本＝大【甲】</note><app n="0029013"><lem>本</lem><rdg wit="【甲】" resp="Taisho">大</rdg></app>位中
+<lb n="0029a25"/>坐道場內不得過三人。於壇外四面七步外。
+<lb n="0029a26"/>嚴整甲兵執持器仗一如法。及奏種種上妙
+<lb n="0029a27"/>伎樂。大陳供養廣宣王命。於大聖尊前為一
+<lb n="0029a28"/>切有情。如法安<note n="0029014" resp="Taisho" type="orig" place="foot text">〔立〕－【甲】</note><app n="0029014"><lem>立</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>本方天像并諸眷屬。修功
+<lb n="0029a29"/>德時當<note n="0029015" resp="Taisho" type="orig" place="foot text">見＝占【甲】</note><app n="0029015"><lem>見</lem><rdg wit="【甲】" resp="Taisho">占</rdg></app>火相。如有不祥依教攘之。既安鎮
+<pb ed="T" id="T21.1203.0029b" n="0029b"/>
+<lb n="0029b01"/>了。即於當處召取三人能修行者令彼受持。
+<lb n="0029b02"/>三時焚香灑掃供養。每月一日及十五日。燈
+<lb n="0029b03"/>明飲食種種音樂如法供養。諸天歡喜護持
+<lb n="0029b04"/>此界。無有衰難一<note n="0029016" resp="Taisho" type="orig" place="foot text">切安＝安切【甲】</note><app n="0029016"><lem>切安</lem><rdg wit="【甲】" resp="Taisho">安切</rdg></app>樂。其戶摩時。用牛蘇
+<lb n="0029b05"/>四斤<note n="0029017" resp="Taisho" type="orig" place="foot text">或＋（用）【甲】</note><app n="0029017"><lem>或</lem><rdg wit="【甲】" resp="Taisho">或用</rdg></app>二斤。五穀巨勝乳酪飲食。&CB00031;子蠟燭
+<lb n="0029b06"/>菉豆子。塗香五味<note n="0029018" resp="Taisho" type="orig" place="foot text">沈香＝香沈【甲】</note><app n="0029018"><lem>沈香</lem><rdg wit="【甲】" resp="Taisho">香沈</rdg></app>檀蘇合。龍腦&CB00614;金安
+<lb n="0029b07"/>悉乳頭白芥子蜜。隨施主年記。乳木長十二
+<lb n="0029b08"/>指。菉豆白<note n="0029019" resp="Taisho" type="orig" place="foot text">膠＋（草白豆）【甲】</note><app n="0029019"><lem>膠</lem><rdg wit="【甲】" resp="Taisho">膠草白豆</rdg></app>&CB04287;子及羅惹上服以<note n="0029020" resp="Taisho" type="orig" place="foot text">代＝伐【甲】</note><app n="0029020"><lem>代</lem><rdg wit="【甲】" resp="Taisho">伐</rdg></app>其位。
+<lb n="0029b09"/>如同道場將用所表。如親自供養瞻仰無異。
+<lb n="0029b10"/>每鎮鑌鐵橛銅輪。各一橛長八指一半已上。
+<lb n="0029b11"/>作獨股形仍具<note n="0029021" resp="Taisho" type="orig" place="foot text">（八）＋楞【甲】</note><app n="0029021"><lem>楞</lem><rdg wit="【甲】" resp="Taisho">八楞</rdg></app>。已下橛形可入輪齊。四指
+<lb n="0029b12"/>輪廣一肘。內八輻外八方各出三股半金剛杵
+<lb n="0029b13"/>頭。輪齊有孔可容鑌橛金銅。戶摩杓二。每鎮
+<lb n="0029b14"/>不動尊旗一口。本方天王旗一口。軍馬行時。
+<lb n="0029b15"/>即將引前。大將隨後。若不行時。於本像處安
+<lb n="0029b16"/>置勿令穢污。<note n="0029022" resp="Taisho" type="orig" place="foot text">若＝其【甲】</note><app n="0029022"><lem>若</lem><rdg wit="【甲】" resp="Taisho">其</rdg></app>戶摩時。若初若末皆投蘇三
+<lb n="0029b17"/>杓。審看其相。若土地人民。役災變善惡有不
+<lb n="0029b18"/>祥相。依教攘之。如有惡相。不作<note n="0029023" resp="Taisho" type="orig" place="foot text">功＋（德）【甲】</note><app n="0029023"><lem>功</lem><rdg wit="【甲】" resp="Taisho">功德</rdg></app>。三年之
+<lb n="0029b19"/>內必有應驗。不然別作大福。隨處迴援即須
+<lb n="0029b20"/>為之。若戶摩時。<note n="0029024" resp="Taisho" type="orig" place="foot text">火＝大【甲】</note><app n="0029024"><lem>火</lem><rdg wit="【甲】" resp="Taisho">大</rdg></app>相右旋<note n="0029025" resp="Taisho" type="orig" place="foot text">光＋（明）【甲】</note><app n="0029025"><lem>光</lem><rdg wit="【甲】" resp="Taisho">光明</rdg></app>焰直上。或作
+<lb n="0029b21"/>音樂鐘鈴妙聲。及形像者為大善相。若復左
+<lb n="0029b22"/><note n="0029026" resp="Taisho" type="orig" place="foot text">施＝旋【甲】</note><app n="0029026"><lem>施</lem><rdg wit="【甲】" resp="Taisho">旋</rdg></app>作不祥鳥獸形。又作呵呵之聲。於其土地
+<lb n="0029b23"/><note n="0029027" resp="Taisho" type="orig" place="foot text">亦＝必【甲】＊</note><app n="0029027"><lem>亦</lem><rdg wit="【甲】" resp="Taisho">必</rdg></app>有災難。眾生飢凍水旱不時人民<note n="0029028" resp="Taisho" type="orig" place="foot text">飢＝餓【甲】</note><app n="0029028"><lem>飢</lem><rdg wit="【甲】" resp="Taisho">餓</rdg></app>死。
+<lb n="0029b24"/>應作息災法攘<note n="0029029" resp="Taisho" type="orig" place="foot text">之＋（若火星迸散雷霹之聲必有兵甲流散不相順伏作增益法攘之）【甲】</note><app n="0029029"><lem>之</lem><rdg wit="【甲】" resp="Taisho">之若火星迸散雷霹之聲必有兵甲流散不相順伏作增益法攘之</rdg></app>。若戶摩時。火成雲霧黑闇
+<lb n="0029b25"/>向下垂布。鑪中火滅供養不成者。其地<anchor id="fxT21p0029b01"/>亦有
+<lb n="0029b26"/>隱相謀害。作調伏法攘之。已上四種善惡之
+<lb n="0029b27"/>相<note n="0029030" resp="Taisho" type="orig" place="foot text">極＋（須）【甲】</note><app n="0029030"><lem>極</lem><rdg wit="【甲】" resp="Taisho">極須</rdg></app>用意。審細詳察隨相攘之。若息災時用
+<lb n="0029b28"/>乳木。鑪中輪印。<note n="0029031" resp="Taisho" type="orig" place="foot text">句食＝白食衣【甲】</note><app n="0029031"><lem>句食</lem><rdg wit="【甲】" resp="Taisho">白食衣</rdg></app>衣白衣。若增益時用
+<lb n="0029b29"/>白<note n="0029032" resp="Taisho" type="orig" place="foot text">壇＝檀&M062403;【原】</note><app n="0029032"><lem>壇</lem><rdg wit="【Ａ】" resp="【原】">檀</rdg></app>木。鑪中幢印。衣食俱赤。若敬愛時用
+<pb ed="T" id="T21.1203.0029c" n="0029c"/>
+<lb n="0029c01"/>蓮華投火。如無雜華代之。鑪中蓮華印。衣食
+<lb n="0029c02"/>俱紅色。若調伏時投苦練木棘針皂莢刺及
+<lb n="0029c03"/>毒藥等。衣食皆<note n="0029033" resp="Taisho" type="orig" place="foot text">黑＝青【甲】</note><app n="0029033"><lem>黑</lem><rdg wit="【甲】" resp="Taisho">青</rdg></app>。若金輪王為四天下有情
+<lb n="0029c04"/>安鎮者。可<note n="0029034" resp="Taisho" type="orig" place="foot text">周＝用&M062303;【原】</note><app n="0029034"><lem>周</lem><rdg wit="【Ｂ】" resp="【原】">用</rdg></app>一萬由旬內鎮。若銀輪王<note n="0029035" resp="Taisho" type="orig" place="foot text">〔為〕－【甲】</note><app n="0029035"><lem>為</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>
+<lb n="0029c05"/>八千由旬內鎮。若銅輪王六<note n="0029036" resp="Taisho" type="orig" place="foot text">十＝千【甲】</note><app n="0029036"><lem>十</lem><rdg wit="【甲】" resp="Taisho">千</rdg></app>由旬內鎮。若
+<lb n="0029c06"/>鐵輪王三千由旬內鎮。<note n="0029037" resp="Taisho" type="orig" place="foot text">（若）＋為【甲】</note><app n="0029037"><lem>為</lem><rdg wit="【甲】" resp="Taisho">若為</rdg></app>當國眾生周百由
+<lb n="0029c07"/>旬內鎮之。於王城每方面一千里內。<note n="0029038" resp="Taisho" type="orig" place="foot text">王＋（城）&M062485;【原】，王＝五【甲】</note><app n="0029038"><lem><sic corr="王城" resp="【原】">王</sic></lem><rdg wit="【甲】" resp="Taisho">五</rdg></app>百里
+<lb n="0029c08"/>外當取所便處安鎮。但不過其位。即得如是。
+<lb n="0029c09"/>安鎮儀式及曼<anchor id="fxT21p0029c01"/>拏羅并其形像。所用諸物皆
+<lb n="0029c10"/>已略說。汝諸有情發菩提心。為一切有情。依
+<lb n="0029c11"/>教修學戶摩鑪<note n="0029039" resp="Taisho" type="orig" place="foot text">樣＝橛【甲】</note><app n="0029039"><lem>樣</lem><rdg wit="【甲】" resp="Taisho">橛</rdg></app>及布列<note n="0029040" resp="Taisho" type="orig" place="foot text">像＝儀軌&M062303;【原】，儀【甲】</note><note n="0029040" resp="CBETA" type="mod">像＝儀軌&M062303;【原】，＝儀【甲】</note><app n="0029040"><lem>像</lem><rdg wit="【Ｂ】" resp="【原】">儀軌</rdg><rdg wit="【甲】" resp="Taisho">儀</rdg></app>。若調伏時不應
+<lb n="0029c12"/>顯名目作。必須祕密為之。勿使當處知。唯監
+<lb n="0029c13"/>者知之。藥物先須備擬。自將行要即用之</p></div1><div1 type="W">
+<lb n="0029c14"/><p>如此祕法不許出家人行。持此法者。所作
+<lb n="0029c15"/>供養皆須自禮拜諸天。出<note n="0029041" resp="Taisho" type="orig" place="foot text">家＋（之）【甲】</note><app n="0029041"><lem>家</lem><rdg wit="【甲】" resp="Taisho">家之</rdg></app>人具佛禁戒。
+<lb n="0029c16"/>令諸<note n="0029042" resp="Taisho" type="orig" place="foot text">人＝天【甲】</note><app n="0029042"><lem>人</lem><rdg wit="【甲】" resp="Taisho">天</rdg></app>不安不敢受<note n="0029043" resp="Taisho" type="orig" place="foot text">拜＝禮【甲】</note><app n="0029043"><lem>拜</lem><rdg wit="【甲】" resp="Taisho">禮</rdg></app>。所求福德悉不
+<lb n="0029c17"/>成就故。違行者當犯大罪。是以<note n="0029044" resp="Taisho" type="orig" place="foot text">不＋（得）&M062403;【原】</note><app n="0029044"><lem>不</lem><rdg wit="【Ａ】" resp="【原】">不得</rdg></app>傳出家
+<lb n="0029c18"/>之人。本法金剛智三藏。於天竺大師所受
+<lb n="0029c19"/>得。勿令傳之。只許授與白衣。修行者祕之
+<lb n="0029c20"/>祕之。西方深重此法。設欲行<note n="0029045" resp="Taisho" type="orig" place="foot text">密之＝祕密行之&M062403;【原】，之密&M062303;【原】，密行之【甲】</note><note n="0029045" resp="CBETA" type="mod">密之＝祕密行之&M062403;【原】，＝之密&M062303;【原】，＝密行之【甲】</note><app n="0029045"><lem>密之</lem><rdg wit="【Ａ】" resp="【原】">祕密行之</rdg><rdg wit="【Ｂ】" resp="【原】">之密</rdg><rdg wit="【甲】" resp="Taisho">密行之</rdg></app>不令諸
+<lb n="0029c21"/>國知有。是以西國相承繼嗣不絕。又西方
+<lb n="0029c22"/>慳法只流<note n="0029046" resp="Taisho" type="orig" place="foot text">尊＋（身）【甲】</note><app n="0029046"><lem>尊</lem><rdg wit="【甲】" resp="Taisho">尊身</rdg></app>樣。於諸部中以為大護。殊不
+<lb n="0029c23"/>知有安鎮家國等法。金剛智三藏<note n="0029047" resp="Taisho" type="orig" place="foot text">受＝授&M062403;【原】</note><app n="0029047"><lem>受</lem><rdg wit="【Ａ】" resp="【原】">授</rdg></app>與行
+<lb n="0029c24"/>者王<note n="0029048" resp="Taisho" type="orig" place="foot text">光＝先【甲】</note><app n="0029048"><lem>光</lem><rdg wit="【甲】" resp="Taisho">先</rdg></app>此儀軌法</p></div1><div1 type="jing">
+<pb ed="T" id="T21.1203.0030a" n="0030a"/>
+<lb n="0030a01"/><p>不動尊摧他敵八方天王旗幡并八方天降怨
+<lb n="0030a02"/>真言法</p>
+<lb n="0030a03"/><p>東方作白色旗。旗上畫帝釋天王。右手持獨
+<lb n="0030a04"/>股杵。左手叉腰。乘六牙白象。持白旗人誦天
+<lb n="0030a05"/>帝釋降怨真言。明曰</p>
+<lb n="0030a06"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd"><note n="0030001" resp="Taisho" type="orig" place="foot text">〔&SD-CFC8;〕&M062403;－【原】</note><app n="0030001"><lem>&SD-CFC8;</lem><rdg wit="【Ａ】" resp="【原】">&lac;</rdg></app></t><t lang="chi"><note n="0030002" resp="Taisho" type="orig" place="foot text">因＝印【甲】</note><app n="0030002"><lem>因</lem><rdg wit="【甲】" resp="Taisho">印</rdg></app></t></tt><tt><t lang="san-sd">&SD-E04B;</t><t lang="chi"><yin><zi>捺羅</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi"><note n="0030003" resp="Taisho" type="orig" place="foot text">野泥＝夜提【甲】</note>野</t></tt><tt><t lang="san-sd">&SD-A56F;</t><t lang="chi">泥</t></tt><tt><t lang="san-sd">&SD-A656;</t><t lang="chi">&CB00085;</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><note n="0030004" resp="Taisho" type="orig" place="foot text">地婆多＝底婆哆【甲】</note>地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">婆</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt>
+<lb n="0030a07"/>
+<lb n="0030a08"/><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030a09"/>
+<lb n="0030a10"/><p>若東行時。先引此旗。想天帝釋領無量眷屬
+<lb n="0030a11"/>天眾。持種種器仗衝彼賊眾</p>
+<lb n="0030a12"/><p>東南方作黃色旗。旗上畫四臂火天。乘<note n="0030005" resp="Taisho" type="orig" place="foot text">青＝白【甲】</note><app n="0030005"><lem>青</lem><rdg wit="【甲】" resp="Taisho">白</rdg></app>羊
+<lb n="0030a13"/>遍身火焰。右手作<note n="0030006" resp="Taisho" type="orig" place="foot text">施＋（願）【甲】</note><app n="0030006"><lem>施</lem><rdg wit="【甲】" resp="Taisho">施願</rdg></app>無畏。第二持念珠。左
+<lb n="0030a14"/>手持仙杖。第二持澡瓶。持<note n="0030007" resp="Taisho" type="orig" place="foot text">（黃）&M062403;＋旗【原】</note><app n="0030007"><lem>旗</lem><rdg wit="【Ａ】" resp="【原】">黃旗</rdg></app>人誦火天降怨
+<lb n="0030a15"/>真言。明曰</p>
+<lb n="0030a16"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">阿</t></tt><tt><t lang="san-sd">&SD-B349;</t><t lang="chi"><yin><zi>&CB00344;曩</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-B7BE;</t><t lang="chi"><yin><note n="0030008" resp="Taisho" type="orig" place="foot text">&CB00069;旨二合＝哩只二合【甲】</note><note n="0030008" resp="CBETA" type="mod"><todo type="a"/>&CB00069;旨二合＝哩只二合【甲】</note><zi>&CB00069;旨</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">阿</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><note n="0030009" resp="Taisho" type="orig" place="foot text">地頗多＝底婆哆【甲】</note>地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt>
+<lb n="0030a17"/>
+<lb n="0030a18"/><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030a19"/>
+<lb n="0030a20"/><p>若東南行時。先引此旗。想火天領無量<note n="0030010" resp="Taisho" type="orig" place="foot text">火＋（天）&M062403;【原】</note><app n="0030010"><lem>火</lem><rdg wit="【Ａ】" resp="【原】">火天</rdg></app>仙
+<lb n="0030a21"/>軍持種種器仗衝彼賊眾</p>
+<lb n="0030a22"/><p>南方作黑色旗。旗上畫焰摩羅天。乘水牛。右
+<lb n="0030a23"/>手持焰摩幢。左手叉腰。持<note n="0030011" resp="Taisho" type="orig" place="foot text">（黑）&M062403;＋旗【原】</note><app n="0030011"><lem>旗</lem><rdg wit="【Ａ】" resp="【原】">黑旗</rdg></app>人誦焰摩王降
+<lb n="0030a24"/>怨真言。明曰</p>
+<lb n="0030a25"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-A5FB;</t><t lang="chi">閻</t></tt><tt><t lang="san-sd">&SD-A5E6;</t><t lang="chi">摩</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi"><note n="0030012" resp="Taisho" type="orig" place="foot text">野波&CB03947;三合＝夜比&CB14670;【甲】</note><note n="0030012" resp="CBETA" type="mod">野波<corr sic="＆CB03947；" resp="CBETA.Maha">&CB01418;</corr>三合＝夜比&CB14670;【甲】</note>野</t></tt><tt><t lang="san-sd">&SD-AABC;</t><t lang="chi"><yin><zi>波&CB01418;</zi><sg><note n="0030013" resp="Taisho" type="orig" place="foot text">三＝二&M062403;【原】</note><app n="0030013"><lem>三</lem><rdg wit="【Ａ】" resp="【原】">二</rdg></app>合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A558;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><note n="0030014" resp="Taisho" type="orig" place="foot text">地頗多＝底波哆【甲】</note>地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt>
+<lb n="0030a26"/>
+<lb n="0030a27"/><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030a28"/>
+<lb n="0030a29"/><p>若<note n="0030015" resp="Taisho" type="orig" place="foot text">南＋（方）【甲】</note><app n="0030015"><lem>南</lem><rdg wit="【甲】" resp="Taisho">南方</rdg></app>行時。先引此旗。想炎摩王領無量鬼
+<pb ed="T" id="T21.1203.0030b" n="0030b"/>
+<lb n="0030b01"/>軍。持種種器仗衝彼賊眾</p>
+<lb n="0030b02"/><p>西南方作<note n="0030016" resp="Taisho" type="orig" place="foot text">慘＝燥&M062485;【原】</note><sic n="0030016" corr="燥" resp="【原】">慘</sic>色旗。旗上畫羅剎主。乘師子。
+<lb n="0030b03"/>右手持<note n="0030017" resp="Taisho" type="orig" place="foot text">（煙）&M062403;＋劍【原】</note><app n="0030017"><lem>劍</lem><rdg wit="【Ａ】" resp="【原】">煙劍</rdg></app>。左手叉腰。持<note n="0030018" resp="Taisho" type="orig" place="foot text">（煙）&M062403;＋旗【原】</note><app n="0030018"><lem>旗</lem><rdg wit="【Ａ】" resp="【原】">煙旗</rdg></app>人誦羅剎主降
+<lb n="0030b04"/>怨真言。明曰</p>
+<lb n="0030b05"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-A559;</t><t lang="chi">底</t></tt><tt><t lang="san-sd">&SD-A640;</t><t lang="chi">哩</t></tt><tt><t lang="san-sd">&SD-B770;</t><t lang="chi"><yin><zi>地曳</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A5FD;</t><t lang="chi">羅</t></tt><tt><t lang="san-sd">&SD-A6B4;</t><t lang="chi"><yin><zi>乞<note n="0030019" resp="Taisho" type="orig" place="foot text">剎＝叉&M062403;【原】，剎二合沙地頗多＝叉娑底波吒【甲】</note>剎</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A67B;</t><t lang="chi">沙</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><note n="0030020" resp="Taisho" type="orig" place="foot text">地頗＝底婆&M062403;【原】</note>地</t></tt>
+<lb n="0030b06"/>
+<lb n="0030b07"/><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030b08"/>
+<lb n="0030b09"/><p>若西南行時。先引此旗。想羅剎主領無量羅
+<lb n="0030b10"/>剎。持種種器仗衝彼賊眾</p>
+<lb n="0030b11"/><p>西方作赤色旗。旗上畫水天。乘龜。<note n="0030021" resp="Taisho" type="orig" place="foot text">右＋（手）【甲】</note><app n="0030021"><lem>右</lem><rdg wit="【甲】" resp="Taisho">右手</rdg></app>執蛇
+<lb n="0030b12"/>索。左手叉腰。其天頭上有七龍頭狀如蛇形。
+<lb n="0030b13"/>持<note n="0030022" resp="Taisho" type="orig" place="foot text">（赤）&M062403;＋旗【原】</note><app n="0030022"><lem>旗</lem><rdg wit="【Ａ】" resp="【原】">赤旗</rdg></app>人誦水天降怨真言。明曰</p>
+<lb n="0030b14"/><p type="dharani">
+<tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt>
+<tt><t lang="san-sd">&SD-A656;</t><t lang="chi">&CB00085;</t></tt>
+<tt><t lang="san-sd">&SD-A642;</t><t lang="chi">嚕</t></tt>
+<tt><t lang="san-sd">&SD-A54B;</t><t lang="chi">拏</t></tt>
+<tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi"><note n="0030023" resp="Taisho" type="orig" place="foot text">野曩&CB00344;地頗多＝夜那伽底婆多&M062403;【原】，夜那&CB00344;底波哆【甲】</note>野</t></tt>
+<tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt>
+<tt><t lang="san-sd">&SD-A459;</t><t lang="chi">&CB00344;</t></tt>
+<tt><t lang="san-sd">&SD-A57D;</t><t lang="chi">地</t></tt>
+<tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt>
+<tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt>
+<tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt>
+<tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt>
+<lb n="0030b15"/>
+<lb n="0030b16"/><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030b17"/>
+<lb n="0030b18"/><p>若西行時。先引此旗。想水天領無量毒龍。持
+<lb n="0030b19"/>種種器仗衝彼賊眾</p>
+<lb n="0030b20"/><p>西北方作青色旗。旗上畫風天。乘&CB00538;。右手持
+<lb n="0030b21"/>旗。左手叉腰。持<note n="0030024" resp="Taisho" type="orig" place="foot text">（青）&M062403;＋旗【原】</note><app n="0030024"><lem>旗</lem><rdg wit="【Ａ】" resp="【原】">青旗</rdg></app>人誦風天降怨真言。明
+<lb n="0030b22"/>曰</p>
+<lb n="0030b23"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-A657;</t><t lang="chi">&CB00085;</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi"><note n="0030025" resp="Taisho" type="orig" place="foot text">野＝夜&M062403;【原】，野吠佉左嚕地頗多＝夜吠捨車羅底波哆【甲】</note>野</t></tt><tt><t lang="san-sd">&SD-A65C;</t><t lang="chi">吠</t></tt><tt><t lang="san-sd">&SD-A44C;</t><t lang="chi">佉</t></tt><tt><t lang="san-sd">&SD-A47C;</t><t lang="chi"><note n="0030026" resp="Taisho" type="orig" place="foot text">左嚕地頗＝車羅底婆&M062403;【原】</note>左</t></tt><tt><t lang="san-sd">&SD-A5FE;</t><t lang="chi">嚕</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi">地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt>
+<lb n="0030b24"/>
+<lb n="0030b25"/><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030b26"/>
+<lb n="0030b27"/><p>若<note n="0030027" resp="Taisho" type="orig" place="foot text">西＋（北）&M062403;【原】，西方＝西北【甲】</note><note n="0030027" resp="CBETA" type="mod">西方＝西北【甲】，西＋（北）&M062403;【原】</note><app n="0030027"><lem>西方</lem><rdg wit="【甲】" resp="Taisho">西北</rdg><rdg wit="【Ａ】" resp="【原】">西北方</rdg></app>行時。先引此旗。想風天領無量金翅
+<lb n="0030b28"/>鳥王。持種種器仗衝彼賊眾</p>
+<lb n="0030b29"/><p>北方作黃色旗。旗上畫毘沙門天王。乘鬼。右
+<pb ed="T" id="T21.1203.0030c" n="0030c"/>
+<lb n="0030c01"/>手持<note n="0030028" resp="Taisho" type="orig" place="foot text">寶塔＝花棒【甲】</note><app n="0030028"><lem>寶塔</lem><rdg wit="【甲】" resp="Taisho">花棒</rdg></app>。左手叉腰。持旗人誦毘沙門天王
+<lb n="0030c02"/>降怨真言。明曰</p>
+<lb n="0030c03"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-A444;</t><t lang="chi"><note n="0030029" resp="Taisho" type="orig" place="foot text">俱吠囉＝矩伏羅【甲】</note>俱</t></tt><tt><t lang="san-sd">&SD-A65D;</t><t lang="chi">吠</t></tt><tt><t lang="san-sd">&SD-A5FD;</t><t lang="chi">囉</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">夜</t></tt><tt><t lang="san-sd">&SD-A6B5;</t><t lang="chi"><yin><zi>乞叉</zi><sg><note n="0030030" resp="Taisho" type="orig" place="foot text">〔二合〕－【甲】</note><app n="0030030"><lem>二合</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></sg></yin></t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><note n="0030031" resp="Taisho" type="orig" place="foot text">地頗多＝底婆多&M062403;【原】＊，底波多【甲】＊</note>地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt>
+<lb n="0030c04"/>
+<lb n="0030c05"/><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt></p>
+<lb n="0030c06"/>
+<lb n="0030c07"/><p>若<note n="0030032" resp="Taisho" type="orig" place="foot text">北＋（方）&M062403;【原】</note><app n="0030032"><lem>北</lem><rdg wit="【Ａ】" resp="【原】">北方</rdg></app>行時。先引此旗。想毘沙門天王領無量
+<lb n="0030c08"/>藥叉軍眾。持種種器仗衝彼賊眾</p>
+<lb n="0030c09"/><p>東北方作<note n="0030033" resp="Taisho" type="orig" place="foot text">線＝綠【甲】</note><app n="0030033"><lem>線</lem><rdg wit="【甲】" resp="Taisho">綠</rdg></app>色旗。<note n="0030034" resp="Taisho" type="orig" place="foot text">（旗）＋上【甲】</note><app n="0030034"><lem>上</lem><rdg wit="【甲】" resp="Taisho">旗上</rdg></app>畫伊舍那天。乘&CB01738;牛。
+<lb n="0030c10"/>右手持三股叉。在手叉腰。持旗人誦伊舍那
+<lb n="0030c11"/>天降怨真言。明曰</p>
+<lb n="0030c12"/><p type="dharani"><tt><t lang="san-sd">&SD-DA42;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-CFC8;</t><t lang="chi">伊</t></tt><tt><t lang="san-sd">&SD-A663;</t><t lang="chi">舍</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi"><note n="0030035" resp="Taisho" type="orig" place="foot text">那野步多＝曩夜捺囉吒【甲】</note>那</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野</t></tt><tt><t lang="san-sd">&SD-A5DD;</t><t lang="chi">步</t></tt><tt><t lang="san-sd">&SD-A558;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A57D;</t><t lang="chi"><anchor id="fxT21p0030c01"/>地</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">頗</t></tt><tt><t lang="san-sd">&SD-A557;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A5F7;</t><t lang="chi">曳</t></tt>
+<lb n="0030c13"/>
+<lb n="0030c14"/><tt><t lang="san-sd">&SD-DA74;</t>
+<t lang="chi">吽</t>
+</tt>
+<tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">發</t></tt>
+<tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt>
+<tt><t lang="san-sd">&SD-B065;</t><t lang="chi"><yin><zi>娑&CB00085;</zi><sg>二合</sg></yin></t></tt>
+<tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">賀</t></tt>
+</p>
+<lb n="0030c15"/>
+<lb n="0030c16"/><p>若東北方行時。先引此旗。想伊舍那天領無
+<lb n="0030c17"/>量鬼軍將士。持種種器仗衝彼賊眾</p>
+<lb n="0030c18"/><p>大將自誦不動尊明王真言。想自身成不動
+<lb n="0030c19"/>明王。又想不動尊明王號令八方天王云。
+<lb n="0030c20"/>汝等各領無量軍眾摧彼逆賊。其大將不
+<lb n="0030c21"/>斷絕。誦不動尊明王真言。若作此法。彼賊
+<lb n="0030c22"/>自當殄滅決定無疑。即說聖不動明王真言。
+<lb n="0030c23"/><note n="0030036" resp="Taisho" type="orig" place="foot text">〔明〕－【甲】</note><app n="0030036"><lem>明</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>曰</p>
+<lb n="0030c24"/><p type="dharani"><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-A5F0;</t><t lang="chi">莫</t></tt><tt><t lang="san-sd">&SD-A67A;</t><t lang="chi">三</t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">滿</t></tt><tt><t lang="san-sd">&SD-CA56;</t><t lang="chi">多</t></tt><tt><t lang="san-sd">&SD-A656;</t><t lang="chi">&CB00085;</t></tt><tt><t lang="san-sd">&SD-A9BD;</t><t lang="chi"><yin><zi>日囉</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A555;</t><t lang="chi">&CB00718;</t></tt><tt><t lang="san-sd">&SD-A47C;</t><t lang="chi">戰</t></tt><tt><t lang="san-sd">&SD-C9FD;</t><t lang="chi">荼</t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">摩</t></tt>
+<lb n="0030c25"/>
+<lb n="0030c26"/><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">訶</t></tt><tt><t lang="san-sd">&SD-A646;</t><t lang="chi">嚕</t></tt><tt><t lang="san-sd">&SD-A66E;</t><t lang="chi">灑</t></tt><tt><t lang="san-sd">&SD-A54B;</t><t lang="chi">拏<note place="inline">發願某甲軍眾摧彼逆賊。願彼逆賊大敗。仍稱逆人名</note></t></tt>
+<lb n="0030c27"/>
+<lb n="0030c28"/><tt><t lang="san-sd">&SD-CDF1;</t><t lang="chi"><yin><zi>沙頗</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">吽</t></tt><tt><t lang="san-sd">&SD-AA5E;</t><t lang="chi">怛囉</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒</t></tt><tt><t lang="san-sd">&SD-E1A2;</t><t lang="chi">憾&CB00805;</t></tt></p>
+<lb n="0030c29"/>
+<pb ed="T" id="T21.1203.0031a" n="0031a"/>
+<lb n="0031a01"/><p>若行營所八旗在外。各依本方圍諸軍將士
+<lb n="0031a02"/>卒所下營<note n="0031001" resp="Taisho" type="orig" place="foot text">止＝上【甲】</note><app n="0031001"><lem>止</lem><rdg wit="【甲】" resp="Taisho">上</rdg></app>宿。亦各依本方&CB00594;立八旗。執旗
+<lb n="0031a03"/>人燒安息香。以諸素淨飲食供養。本方旗幡
+<lb n="0031a04"/>大將於中止宿。燒沈水香真妙上者。亦以淨
+<lb n="0031a05"/>食供養。作一石不動尊明王像。高十二指畫
+<lb n="0031a06"/>彼人形。及<note n="0031002" resp="Taisho" type="orig" place="foot text">書＝畫【甲】</note><app n="0031002"><lem>書</lem><rdg wit="【甲】" resp="Taisho">畫</rdg></app>彼姓<note n="0031003" resp="Taisho" type="orig" place="foot text">〔名〕－【甲】</note><app n="0031003"><lem>名</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>。以此石像當上<note n="0031004" resp="Taisho" type="orig" place="foot text">厭＝壓&M062303;【原】</note><app n="0031004"><lem>厭</lem><rdg wit="【Ｂ】" resp="【原】">壓</rdg></app>
+<lb n="0031a07"/>之。如是不久自當消滅<note n="0031005" resp="Taisho" type="orig" place="foot text">〔矣〕－【甲】</note><app n="0031005"><lem>矣</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0031a08"/><juan fun="close" n="001"><jhead>不動明王安鎮家國<note n="0031006" resp="Taisho" type="orig" place="foot text">法＋（一卷）【甲】，此下甲本有大治三年五月十八日高野山奧院實海本</note><app n="0031006"><lem>法</lem><rdg wit="【甲】" resp="Taisho">法一卷</rdg></app><note n="0031006" place="foot" type="rest">此下甲本有大治三年五月十八日高野山奧院實海本</note></jhead></juan>
+<lb n="0031a09"/><p type="W"><note n="0031007" resp="Taisho" type="orig" place="foot text">以下甲本無之</note><note n="0031007" resp="CBETA" type="mod"><todo type="a"/>以下甲本無之</note>八家祕錄云。不動明王安鎮家國等法一
+<lb n="0031a10"/>卷金剛智三藏付王<note n="0031008" resp="Taisho" type="orig" place="foot text">無＝光&M062485;【原】</note><sic n="0031008" corr="光" resp="【原】">無</sic>海錄外</p>
+<lb n="0031a11"/><p type="W">享和元辛酉天後秋月索此本於洛東智積
+<lb n="0031a12"/>教院更校餘本點國字鏤版</p>
+<lb n="0031a13"/><p type="W">　　和州豐山長谷歡喜院沙門快道誌</p>
+<lb n="0031a14"/><p type="W">　文政三年庚辰秋八月二十七日以秀陽
+<lb n="0031a15"/>闍梨本墨校了　龍肝</p>
+<lb n="0031a16"/><p type="W">　文政四年辛巳秋九月二十三日以板橋
+<lb n="0031a17"/>日曜寺宣雄比丘本朱再校了</p></div1>
+</body></text></TEI.2>

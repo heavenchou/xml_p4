@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T19n1028A.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1028A 佛說護諸童子陀羅尼經</title>
+			<author>元魏 菩提流支譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:09:18 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 19, No. 1028A &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>20000127/11:51:18</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (00/01/05)</item>
+	</change>
+<!--
+$Log: T19n1028A.xml,v $
+Revision 1.1  2003/05/05 04:09:18  ray
+Initial revision
+
+Revision 1.14  2002/12/25 08:27:56  saywhat
+【三】＊取代
+
+Revision 1.13  2002/11/27 11:26:35  saywhat
+校勘插入處理
+
+Revision 1.12  2002/11/04 10:45:02  ray
+tei.2 => TEI.2
+
+Revision 1.11  2002/10/07 13:10:59  moved
+modified
+
+Revision 1.10  2002/07/29 09:56:13  vinking
+modified lang
+
+Revision 1.9  2002/04/08 09:03:16  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.8  2001/07/24 06:52:56  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.7  2001/03/30 06:45:24  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.6  2001/03/25 09:13:04  ray
+add <milestone>
+
+Revision 1.5  2001/02/07 06:55:17  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.4  2001/02/03 07:45:14  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:18 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0741b16"/>
+<milestone unit="juan" n="1"/>
+<lb n="0741b17"/>
+<lb n="0741b18"/><head type="no">No. 1028A</head><div1 type="jing">
+<lb n="0741b19"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0741004" resp="Taisho" type="orig" place="foot text">【原】麗本，【甲】天平時代寫越前西福寺藏本，【乙】黃檗版淨嚴等加筆本</note>佛說護諸童子陀羅<note n="0741005" resp="Taisho" type="orig" place="foot text">尼＋（&CB00057;）【三】【甲】【乙】</note><note n="0741005" resp="CBETA" type="mod">尼＋（&CB00057;）【宋】【元】【明】【甲】【乙】</note><app n="0741005"><lem>尼</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">尼&CB00057;</rdg></app>經</jhead></juan>
+<lb n="0741b20"/>
+<lb n="0741b21"/><byline type="Translator"><note n="0741006" resp="Taisho" type="orig" place="foot text">〔元魏天竺〕－【甲】</note><app n="0741006"><lem>元魏<note n="0741007" resp="Taisho" type="orig" place="foot text">〔天竺〕－【三】</note><note n="0741007" resp="CBETA" type="mod">〔天竺〕－【宋】【元】【明】</note><app n="0741007"><lem>天竺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>三<note n="0741008" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】</note><note n="0741008" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】</note><app n="0741008"><lem>藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">藏法師</rdg></app>菩提<note n="0741009" resp="Taisho" type="orig" place="foot text">流＝留【三】【乙】</note><note n="0741009" resp="CBETA" type="mod">流＝留【宋】【元】【明】【乙】</note><app n="0741009"><lem>流</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">留</rdg></app>支譯</byline>
+<lb n="0741b22"/><p>爾時如來初成正覺。有一大梵天王。來詣佛
+<lb n="0741b23"/>所敬禮佛足。而作是言</p>
+<lb n="0741b24"/><lg><l>南無佛陀耶</l><l>南無達摩耶</l>
+<lb n="0741b25"/><l>南無僧伽耶</l><l>我禮佛<note n="0741010" resp="Taisho" type="orig" place="foot text">世＝足【三】【甲】</note><note n="0741010" resp="CBETA" type="mod">世＝足【宋】【元】【明】【甲】</note><app n="0741010"><lem>世</lem><rdg wit="【宋】【元】【明】【甲】" resp="Taisho">足</rdg></app>尊</l>
+<lb n="0741b26"/><l>照世大法王</l><l>在於閻浮提</l>
+<lb n="0741b27"/><l>最初說神&CB00057;</l><l>甘露淨勝法</l>
+<lb n="0741b28"/><l>及禮無著僧</l><l>已禮牟尼足</l>
+<lb n="0741b29"/><l>即時說偈言</l><l>世尊諸如來</l>
+<pb ed="T" id="T19.1028A.0741c" n="0741c"/>
+<lb n="0741c01"/><l>聲聞及辟支</l><l>諸仙護世王</l>
+<lb n="0741c02"/><l>大力龍天神</l><l>如是等諸眾</l>
+<lb n="0741c03"/><l>皆於人中生</l><l>有夜叉羅剎</l>
+<lb n="0741c04"/><l>常&CB00540;噉人胎</l><l>非人王境界</l>
+<lb n="0741c05"/><l>強力所不制</l><l>能令人無子</l>
+<lb n="0741c06"/><l>傷害於胞胎</l><l>男女交會時</l>
+<lb n="0741c07"/><l>使其意迷亂</l><l>懷<note n="0741011" resp="Taisho" type="orig" place="foot text">任＝妊【三】【乙】</note><note n="0741011" resp="CBETA" type="mod">任＝妊【宋】【元】【明】【乙】</note><app n="0741011"><lem>任</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">妊</rdg></app>不成就</l>
+<lb n="0741c08"/><l>或歌羅安<note n="0741012" resp="Taisho" type="orig" place="foot text">浮＝陀【三】</note><note n="0741012" resp="CBETA" type="mod">浮＝陀【宋】【元】【明】</note><app n="0741012"><lem>浮</lem><rdg wit="【宋】【元】【明】" resp="Taisho">陀</rdg></app></l><l>無子以傷胎</l>
+<lb n="0741c09"/><l>及生時奪命</l><l><note n="0741013" resp="Taisho" type="orig" place="foot text">〔皆是諸惡鬼〕－【甲】</note><app n="0741013"><lem>皆是諸惡鬼</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></l>
+<lb n="0741c10"/><l>為其作嬈害</l><l>我今說彼名</l>
+<lb n="0741c11"/><l>願佛聽我說</l></lg>
+<lb n="0741c12"/><p>第一名彌酬迦　第二名彌伽王　第三名騫
+<lb n="0741c13"/>陀　第四名阿波悉魔羅　第五名牟致迦
+<lb n="0741c14"/>　第六名魔致迦　第七名<note n="0741014" resp="Taisho" type="orig" place="foot text">閻＝闍&M062485;【乙】＊</note><sic n="0741014" corr="闍" resp="【乙】">閻</sic>彌迦　第八名迦
+<lb n="0741c15"/>彌尼　第九名<note n="0741015" resp="Taisho" type="orig" place="foot text">黎＝梨【三】【乙】＊</note><note n="0741015" resp="CBETA" type="mod">黎＝梨【宋】【元】【明】【乙】＊</note><app n="0741015"><lem>黎</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">梨</rdg></app><note n="0741016" resp="Taisho" type="orig" place="foot text">婆＝波【三】【乙】＊</note><note n="0741016" resp="CBETA" type="mod">婆＝波【宋】【元】【明】【乙】＊</note><app n="0741016"><lem>婆</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">波</rdg></app>坻　第十名富多那
+<lb n="0741c16"/>　第十一名曼多難提　第十二名舍究尼　第
+<lb n="0741c17"/>十三名揵吒波尼<note n="0741017" resp="Taisho" type="orig" place="foot text">〔尼〕－【乙】</note><app n="0741017"><lem>尼</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>　第十四名目佉曼荼
+<lb n="0741c18"/>　第十五名藍婆</p>
+<lb n="0741c19"/><p>此十五鬼神。常遊行世間。為嬰孩小兒。而作
+<lb n="0741c20"/>於恐怖。我今當說此諸鬼神恐怖形相。以此
+<lb n="0741c21"/>形相。令諸小兒皆生驚畏</p>
+<lb n="0741c22"/><p>彌酬迦者其形如牛</p>
+<lb n="0741c23"/><p>彌迦王者其形如師子</p>
+<lb n="0741c24"/><p>騫陀者其形如鳩魔<note n="0741018" resp="Taisho" type="orig" place="foot text">〔羅〕－【甲】</note><app n="0741018"><lem>羅</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>天</p>
+<lb n="0741c25"/><p>阿波悉魔羅者其形如野狐</p>
+<lb n="0741c26"/><p>牟致迦者其形如獼猴</p>
+<lb n="0741c27"/><p>魔致迦者其形如羅剎女</p>
+<lb n="0741c28"/><p><anchor id="fxT19p0741c01"/>閻彌迦者其形如馬</p>
+<lb n="0741c29"/><p>迦彌尼者其形如婦女</p>
+<pb ed="T" id="T19.1028A.0742a" n="0742a"/>
+<lb n="0742a01"/><p><anchor id="fxT19p0742a01"/>黎<anchor id="fxT19p0742a02"/>婆坻者其形如狗</p>
+<lb n="0742a02"/><p>富多那者其形如&CB00337;</p>
+<lb n="0742a03"/><p>曼多難提者其形如&CB00339;兒</p>
+<lb n="0742a04"/><p><note n="0742001" resp="Taisho" type="orig" place="foot text">舍＝金【甲】</note><app n="0742001"><lem>舍</lem><rdg wit="【甲】" resp="Taisho">金</rdg></app>究尼者其形如<note n="0742002" resp="Taisho" type="orig" place="foot text">鳥＝烏【三】【乙】</note><note n="0742002" resp="CBETA" type="mod">鳥＝烏【宋】【元】【明】【乙】</note><app n="0742002"><lem>鳥</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">烏</rdg></app></p>
+<lb n="0742a05"/><p><note n="0742003" resp="Taisho" type="orig" place="foot text">乾＝揵【三】【甲】＊</note><note n="0742003" resp="CBETA" type="mod">乾＝揵【宋】【元】【明】【甲】＊</note><app n="0742003"><lem>乾</lem><rdg wit="【宋】【元】【明】【甲】" resp="Taisho">揵</rdg></app>吒<anchor id="fxT19p0742a03"/>婆尼尼者其形如<note n="0742004" resp="Taisho" type="orig" place="foot text">雉＝&CB00470;【三】【乙】</note><note n="0742004" resp="CBETA" type="mod">雉＝&CB00470;【宋】【元】【明】【乙】</note><app n="0742004"><lem>雉</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">&CB00470;</rdg></app></p>
+<lb n="0742a06"/><p>目佉曼荼者其形如<note n="0742005" resp="Taisho" type="orig" place="foot text">獯＝熏【三】</note><note n="0742005" resp="CBETA" type="mod">獯＝熏【宋】【元】【明】</note><app n="0742005"><lem>獯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">熏</rdg></app>狐</p>
+<lb n="0742a07"/><p>藍婆者其形如蛇</p>
+<lb n="0742a08"/><p>此十五鬼。神著諸小兒令其驚怖。我今當<note n="0742006" resp="Taisho" type="orig" place="foot text">復＝與【三】【乙】</note><note n="0742006" resp="CBETA" type="mod">復＝與【宋】【元】【明】【乙】</note><app n="0742006"><lem>復</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">與</rdg></app>
+<lb n="0742a09"/>說諸小兒怖畏之相</p>
+<lb n="0742a10"/><p>彌酬迦鬼<note n="0742007" resp="Taisho" type="orig" place="foot text">者著＝著者【三】＊</note><note n="0742007" resp="CBETA" type="mod">者著＝著者【宋】＊【元】＊【明】＊</note><app n="0742007"><lem>者著</lem><rdg wit="【宋】【元】【明】" resp="Taisho">著者</rdg></app>小兒眼睛迴轉</p>
+<lb n="0742a11"/><p>彌<note n="0742008" resp="Taisho" type="orig" place="foot text">迦＝伽【乙】</note><app n="0742008"><lem>迦</lem><rdg wit="【乙】" resp="Taisho">伽</rdg></app>王鬼<anchor id="fxT19p0742a04"/>者著小兒數數嘔吐</p>
+<lb n="0742a12"/><p>騫陀鬼<anchor id="fxT19p0742a05"/>者著小兒其兩肩動</p>
+<lb n="0742a13"/><p>阿波悉魔羅鬼<anchor id="fxT19p0742a06"/>者著小兒口中<note n="0742009" resp="Taisho" type="orig" place="foot text">沫＝味【甲】</note><app n="0742009"><lem>沫</lem><rdg wit="【甲】" resp="Taisho">味</rdg></app>出</p>
+<lb n="0742a14"/><p>牟致迦鬼<anchor id="fxT19p0742a07"/>者著小兒把<note n="0742010" resp="Taisho" type="orig" place="foot text">捲＝拳【三】【乙】</note><note n="0742010" resp="CBETA" type="mod">捲＝拳【宋】【元】【明】【乙】</note><app n="0742010"><lem>捲</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">拳</rdg></app>不展</p>
+<lb n="0742a15"/><p>魔致迦鬼<anchor id="fxT19p0742a08"/>者著小兒自齧其舌</p>
+<lb n="0742a16"/><p><anchor id="fxT19p0742a09"/>閻彌迦鬼<anchor id="fxT19p0742a10"/>者著小兒&CB00540;啼喜笑</p>
+<lb n="0742a17"/><p>迦彌尼鬼<anchor id="fxT19p0742a11"/>者著小兒<note n="0742011" resp="Taisho" type="orig" place="foot text">樂＋（喜）【甲】</note><app n="0742011"><lem>樂</lem><rdg wit="【甲】" resp="Taisho">樂喜</rdg></app>著女人</p>
+<lb n="0742a18"/><p><anchor id="fxT19p0742a12"/>黎<anchor id="fxT19p0742a13"/>婆坻鬼<anchor id="fxT19p0742a14"/>者著小兒<note n="0742012" resp="Taisho" type="orig" place="foot text">見＝現【三】【乙】</note><note n="0742012" resp="CBETA" type="mod">見＝現【宋】【元】【明】【乙】</note><app n="0742012"><lem>見</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">現</rdg></app>種種雜<note n="0742013" resp="Taisho" type="orig" place="foot text">相＝想【甲】</note><app n="0742013"><lem>相</lem><rdg wit="【甲】" resp="Taisho">想</rdg></app></p>
+<lb n="0742a19"/><p>富多那鬼<anchor id="fxT19p0742a15"/>者著小兒眠中驚怖啼哭</p>
+<lb n="0742a20"/><p>曼多難提鬼者著小<note n="0742014" resp="Taisho" type="orig" place="foot text">兒＋（眠中）【三】</note><note n="0742014" resp="CBETA" type="mod">兒＋（眠中）【宋】【元】【明】</note><app n="0742014"><lem>兒</lem><rdg wit="【宋】【元】【明】" resp="Taisho">兒眠中</rdg></app>&CB00540;啼喜笑</p>
+<lb n="0742a21"/><p><note n="0742015" resp="Taisho" type="orig" place="foot text">金＝舍【三】【乙】</note><note n="0742015" resp="CBETA" type="mod">金＝舍【宋】【元】【明】【乙】</note><app n="0742015"><lem>金</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">舍</rdg></app>究尼鬼者著小兒不肯飲乳</p>
+<lb n="0742a22"/><p><anchor id="fxT19p0742a16"/>乾吒波尼尼鬼<anchor id="fxT19p0742a17"/>者著小兒咽喉聲塞</p>
+<lb n="0742a23"/><p>目佉曼荼鬼<anchor id="fxT19p0742a18"/>者著小兒時氣熱病下痢</p>
+<lb n="0742a24"/><p>藍婆鬼<anchor id="fxT19p0742a19"/>者著小兒數<note n="0742016" resp="Taisho" type="orig" place="foot text">數噫＝噫數【三】【乙】，數【甲】</note><note n="0742016" resp="CBETA" type="mod">數噫＝噫數【宋】【元】【明】【乙】，＝數【甲】</note><app n="0742016"><lem>數噫</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">噫數</rdg><rdg wit="【甲】" resp="Taisho">數</rdg></app>噦</p>
+<lb n="0742a25"/><p>此十五鬼神。以如是等形。怖諸小兒。及其小
+<lb n="0742a26"/>兒驚怖之相。我皆已說。復有大鬼神王。名栴
+<lb n="0742a27"/>檀乾闥婆於諸鬼神最為上首。當以五色綖。
+<lb n="0742a28"/>誦此陀羅尼一遍一結。作一百<note n="0742017" resp="Taisho" type="orig" place="foot text">〔八〕－【甲】</note><app n="0742017"><lem>八</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>結。并書其
+<lb n="0742a29"/>鬼神名字。使人齎此書綖。語彼使言。汝今疾
+<pb ed="T" id="T19.1028A.0742b" n="0742b"/>
+<lb n="0742b01"/>去<note n="0742018" resp="Taisho" type="orig" place="foot text">急＝行【三】【甲】【乙】</note><note n="0742018" resp="CBETA" type="mod">急＝行【宋】【元】【明】【甲】【乙】</note><app n="0742018"><lem>急</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">行</rdg></app>速如風到於四方。隨彼十五鬼神所住
+<lb n="0742b02"/>之處。與栴檀乾闥婆大鬼神王。令以五色<note n="0742019" resp="Taisho" type="orig" place="foot text">線＝綖【三】【乙】，縛【甲】</note><note n="0742019" resp="CBETA" type="mod">線＝綖【宋】【元】【明】【乙】，＝縛【甲】</note><app n="0742019"><lem>線</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">綖</rdg><rdg wit="【甲】" resp="Taisho">縛</rdg></app>
+<lb n="0742b03"/>縛彼鬼神<note n="0742020" resp="Taisho" type="orig" place="foot text">〔勿嬈眾生〕－【三】【甲】【乙】</note><note n="0742020" resp="CBETA" type="mod">〔勿嬈眾生〕－【宋】【元】【明】【甲】【乙】</note><app n="0742020"><lem>勿嬈眾生</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">&lac;</rdg></app>。兼以種種美味飲食香
+<lb n="0742b04"/>華燈明。及以乳粥供養神王</p>
+<lb n="0742b05"/><p>爾時。大梵天王。復白佛言。世尊若有女人不
+<lb n="0742b06"/>生男女。或在胎中失壞墮落。或生已奪命。此
+<lb n="0742b07"/>諸女等欲求子息保命長壽者。<note n="0742021" resp="Taisho" type="orig" place="foot text">常當＝當常【三】</note><note n="0742021" resp="CBETA" type="mod">常當＝當常【宋】【元】【明】</note><app n="0742021"><lem>常當</lem><rdg wit="【宋】【元】【明】" resp="Taisho">當常</rdg></app>繫念修
+<lb n="0742b08"/>行善法。於月八日十五日受持八戒。清淨洗
+<lb n="0742b09"/>浴著新淨衣。禮十方佛至於中夜。取少芥子
+<lb n="0742b10"/>置已頂上。誦我所說陀羅尼&CB00057;者。令此女人
+<lb n="0742b11"/>即得如願。所生童子安隱無患。盡其形壽終
+<lb n="0742b12"/>不中夭。若有鬼神不<note n="0742022" resp="Taisho" type="orig" place="foot text">順＝慎【甲】</note><app n="0742022"><lem>順</lem><rdg wit="【甲】" resp="Taisho">慎</rdg></app>我&CB00057;者。我當令其頭
+<lb n="0742b13"/>破<note n="0742023" resp="Taisho" type="orig" place="foot text">作＝為【三】【乙】</note><note n="0742023" resp="CBETA" type="mod">作＝為【宋】【元】【明】【乙】</note><app n="0742023"><lem>作</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">為</rdg></app>七分<note n="0742024" resp="Taisho" type="orig" place="foot text">〔如阿梨樹枝〕－【甲】</note><app n="0742024"><lem>如阿梨樹枝</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>。即說<note n="0742025" resp="Taisho" type="orig" place="foot text">〔護諸童子〕－【甲】</note><app n="0742025"><lem>護諸童子</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>陀
+<lb n="0742b14"/>羅尼&CB00057;</p>
+<lb n="0742b15"/><p type="dharani"><note n="0742026" resp="Taisho" type="orig" place="foot text">多&CB02977;＝多緻【宋】＊</note><app n="0742026"><lem>多&CB02977;</lem><rdg wit="【宋】" resp="Taisho">多緻</rdg></app>他　阿伽羅　伽甯　<note n="0742027" resp="Taisho" type="orig" place="foot text">那＝耶【宋】</note><app n="0742027"><lem>那</lem><rdg wit="【宋】" resp="Taisho">耶</rdg></app>伽　伽甯
+<lb n="0742b16"/>　婆漏&CB00619;　秖&CB00619;　伽婆&CB00619;　婆&CB00619;　<note n="0742028" resp="Taisho" type="orig" place="foot text">（婆&CB00619;不&CB00619;）＋不【三】【乙】</note><note n="0742028" resp="CBETA" type="mod">（婆&CB00619;不&CB00619;）＋不【宋】【元】【明】【乙】</note><app n="0742028"><lem>不</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">婆&CB00619;不&CB00619;不</rdg></app>&CB00619;　羅
+<lb n="0742b17"/>扠禰　修羅俾　遮羅<note n="0742029" resp="Taisho" type="orig" place="foot text">俾＋（婆陀尼）【三】【乙】，（娑尼）&M062403;【乙】</note><note n="0742029" resp="CBETA" type="mod">俾＋（婆陀尼）【宋】【元】【明】【乙】，（娑尼）&M062403;【乙】</note><app n="0742029"><lem>俾</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">俾婆陀尼</rdg><rdg wit="【？】" resp="【乙】">俾娑尼</rdg></app>　<note n="0742030" resp="Taisho" type="orig" place="foot text">娑＝沙【三】，婆陀【甲】，娑尼波羅呵＝婆囉呵沙尼&M062403;【乙】</note><note n="0742030" resp="CBETA" type="mod">娑尼波羅呵＝婆囉呵沙尼&M062403;【乙】，娑＝沙【宋】【元】【明】，娑＝婆陀【甲】</note><app n="0742030"><lem>娑尼　<note n="0742031" resp="Taisho" type="orig" place="foot text">波羅＝婆囉【三】【乙】</note><note n="0742031" resp="CBETA" type="mod">波羅＝婆囉【宋】【元】【明】【乙】</note><app n="0742031"><lem>波羅</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">婆囉</rdg></app>呵</lem><rdg wit="【？】" resp="【乙】">婆囉呵沙尼</rdg><rdg wit="【宋】【元】【明】" resp="Taisho">沙尼波羅呵</rdg><rdg wit="【甲】" resp="Taisho">婆陀尼波羅呵</rdg></app>
+<lb n="0742b18"/>　<note n="0742032" resp="Taisho" type="orig" place="foot text">〔沙尼〕－【三】【乙】</note><note n="0742032" resp="CBETA" type="mod">〔沙尼〕－【宋】【元】【明】【乙】</note><app n="0742032"><lem>沙尼</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">&lac;</rdg></app>　那易　彌那易　<note n="0742033" resp="Taisho" type="orig" place="foot text">穌＝蘇【三】【甲】＊</note><note n="0742033" resp="CBETA" type="mod">穌＝蘇【宋】【元】【明】【甲】＊</note><app n="0742033"><lem>穌</lem><rdg wit="【宋】【元】【明】【甲】" resp="Taisho">蘇</rdg></app><note n="0742034" resp="Taisho" type="orig" place="foot text">婆＝波【三】</note><note n="0742034" resp="CBETA" type="mod">婆＝波【宋】【元】【明】</note><app n="0742034"><lem>婆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">波</rdg></app>呵</p>
+<lb n="0742b19"/><p>世尊我今說此陀羅尼&CB00057;護諸童子。令得安
+<lb n="0742b20"/>隱獲其長壽故</p>
+<lb n="0742b21"/><p>爾時世尊一切種智。即說&CB00057;曰</p>
+<lb n="0742b22"/><p type="dharani"><anchor id="fxT19p0742b01"/>多&CB02977;他　菩陀菩陀　菩陀&CB00145;摩帝　菩提
+<lb n="0742b23"/>菩提　摩&CB00619;　式叉夜　婆舍利　婆多禰
+<lb n="0742b24"/>　婆羅陀　頭&CB00619;　頭&CB00619;　婆臘多頭&CB00619;　舍摩
+<lb n="0742b25"/>膩　<note n="0742035" resp="Taisho" type="orig" place="foot text">收&CB00619;＝扠鞞扠&CB00619;婆&CB00168;帝扠藍舍彌帝槃他槃絺【三】【乙】</note><note n="0742035" resp="CBETA" type="mod">收&CB00619;＝扠鞞扠&CB00619;婆&CB00168;帝扠藍舍彌帝槃他槃絺【宋】【元】【明】【乙】</note><app n="0742035"><lem>收&CB00619;</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">扠鞞扠&CB00619;婆&CB00168;帝扠藍舍彌帝槃他槃絺</rdg></app>　婆呵膩　<note n="0742036" resp="Taisho" type="orig" place="foot text">（祇摩膩）＋陀【三】</note><note n="0742036" resp="CBETA" type="mod">（祇摩膩）＋陀【宋】【元】【明】</note><app n="0742036"><lem>陀</lem><rdg wit="【宋】【元】【明】" resp="Taisho">祇摩膩陀</rdg></app>波膩　穌婆呵
+<lb n="0742b26"/>　<anchor id="fxT19p0742b02"/>膩婆羅膩　<anchor id="fxT19p0742b03"/>穌婆呵</p>
+<lb n="0742b27"/><p>此十五鬼神常食<note n="0742037" resp="Taisho" type="orig" place="foot text">血肉＝肉血【三】</note><note n="0742037" resp="CBETA" type="mod">血肉＝肉血【宋】【元】【明】</note><app n="0742037"><lem>血肉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">肉血</rdg></app>。以此陀羅尼&CB00057;力故。
+<lb n="0742b28"/>悉皆遠離不生惡心。令諸童子離於恐怖安
+<lb n="0742b29"/>隱無患。處胎初生無諸患難。誦此&CB00057;者。或於
+<pb ed="T" id="T19.1028A.0742c" n="0742c"/>
+<lb n="0742c01"/>城邑聚落隨其住處。亦能令彼嬰孩小兒。長
+<lb n="0742c02"/>得安隱終保年壽。南無佛陀成就此&CB00057;。護諸
+<lb n="0742c03"/>童子不為諸惡鬼神之所嬈害。一切諸難一
+<lb n="0742c04"/>切恐怖。悉皆遠離<anchor id="fxT19p0742c01"/>穌婆呵。時此梵天聞說此
+<lb n="0742c05"/><note n="0742038" resp="Taisho" type="orig" place="foot text">經歡欣＝&CB00057;歡喜【三】【甲】【乙】</note><note n="0742038" resp="CBETA" type="mod">經歡欣＝&CB00057;歡喜【宋】【元】【明】【甲】【乙】</note><app n="0742038"><lem>經歡欣</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">&CB00057;歡喜</rdg></app>奉<note n="0742039" resp="Taisho" type="orig" place="foot text">此下宋本有乞夢陀羅尼&CB00057;誦一百八遍誦&CB00057;訖已頭東向眠南無匐伽婆帝阿池多耶多緻他須留須留利毘利彌利彌利娑婆呵</note><note n="0742039" resp="CBETA" type="mod">行＋（乞夢陀羅尼&CB00057;誦一百八遍誦&CB00057;訖已頭東向眠南無匐伽婆帝阿池多耶多緻他須留須留利毘利彌利彌利娑婆呵）【宋】</note><app n="0742039"><lem>行</lem><rdg wit="【宋】" resp="Taisho">行乞夢陀羅尼&CB00057;誦一百八遍誦&CB00057;訖已頭東向眠南無匐伽婆帝阿池多耶多緻他須留須留利毘利彌利彌利娑婆呵</rdg></app></p>
+<lb n="0742c06"/><juan fun="close" n="001"><jhead>佛說護諸童子<note n="0742040" resp="Taisho" type="orig" place="foot text">〔陀羅尼〕－【宋】</note><app n="0742040"><lem>陀羅<note n="0742041" resp="Taisho" type="orig" place="foot text">尼＋（&CB00057;）【元】【明】【乙】</note><app n="0742041"><lem>尼</lem><rdg wit="【元】【明】【乙】" resp="Taisho">尼&CB00057;</rdg></app></lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>經<note n="0742042" resp="Taisho" type="orig" place="foot text">乙本奧書云元祿十六年三月二十八日以淨嚴和上之本再校了尊教</note>◎</jhead></juan></div1>
+</body></text></TEI.2>

@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
+<?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
+<!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
+[<!ENTITY % ENTY  SYSTEM "T15n0614.ent" >
+<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+%ENTY;
+%CBENT;
+%JAP;
+]>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0614 坐禪三昧經</title>
+			<author>姚秦 鳩摩羅什譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.1 $ (Big5)</edition>
+	</editionStmt>
+	<extent>2卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>cbeta@ccbs.ntu.edu.tw</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2003/05/05 04:08:55 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 15, No. 614 &desc;</bibl>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+	<change>
+		<date>19991011/23:56:12</date>
+		<respStmt><name>CW</name><resp>ed.</resp></respStmt>
+		<item>Created initial TEI XML version with BASICX.BAT (99/10/12)</item>
+	</change>
+<!--
+$Log: T15n0614.xml,v $
+Revision 1.1  2003/05/05 04:08:55  ray
+Initial revision
+
+Revision 1.21  2002/12/05 12:30:41  eva
+modified
+
+Revision 1.20  2002/11/04 10:41:11  ray
+tei.2 => TEI.2
+
+Revision 1.19  2002/10/07 13:07:35  moved
+modified
+
+Revision 1.18  2002/07/29 09:54:43  vinking
+modified lang
+
+Revision 1.17  2002/04/04 07:44:16  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.16  2002/03/06 04:05:23  vinking
+modified CBa0026 TO CB13416
+
+Revision 1.15  2002/01/23 10:21:50  vinking
+modified for the reporter of maha
+
+Revision 1.14  2001/11/05 06:12:04  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.13  2001/07/27 07:11:30  ray
+去除多餘的 <author>
+
+Revision 1.12  2001/07/24 06:51:19  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.11  2001/05/25 08:56:16  ray
+經號統一為四碼
+
+Revision 1.10  2001/05/09 08:36:26  vinking
+modified gaiji
+
+Revision 1.9  2001/04/01 08:16:36  ray
+CB00380 => CB00308
+
+Revision 1.8  2001/03/30 05:43:41  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/03/25 09:03:44  ray
+add <milestone>
+
+Revision 1.6  2001/02/07 06:50:25  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.5  2001/02/03 07:39:55  chris
+Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:55 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0269c23"/>
+<milestone unit="juan" n="1"/>
+<lb n="0269c24"/>
+<lb n="0269c25"/><head type="no">No. 614</head>
+<lb n="0269c26"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>◎<note n="0269008" resp="Taisho" type="orig" place="foot text">增上寺經藏宋本闕此經，坐禪三昧＋（法門）【元】【明】【宮】＊</note><app n="0269008"><lem>坐禪三昧</lem><rdg wit="【元】【明】【宮】" resp="Taisho">坐禪三昧法門</rdg></app><note n="0269008" place="foot" type="rest">增上寺經藏宋本闕此經</note>經</title>卷上</jhead></juan>
+<lb n="0269c27"/>
+<lb n="0269c28"/><byline type="Translator"><note n="0269009" resp="Taisho" type="orig" place="foot text">姚秦三藏鳩摩羅什譯＝僧伽羅剎造姚秦法師羅什譯【元】【明】＊</note><app n="0269009"><lem>姚秦<note n="0269010" resp="Taisho" type="orig" place="foot text">三藏＝法師【宮】＊</note><app n="0269010"><lem>三藏</lem><rdg wit="【宮】" resp="Taisho">法師</rdg></app>鳩摩羅什譯</lem><rdg wit="【元】【明】" resp="Taisho">僧伽羅剎造姚秦法師羅什譯</rdg></app></byline>
+<lb n="0269c29"/><div1 type="jing"><lg><l>導師說難遇</l><l>聞者喜亦難</l>
+<pb ed="T" id="T15.0614.0270a" n="0270a"/>
+<lb n="0270a01"/><l>大人所樂聽</l><l>小人所惡聞</l>
+<lb n="0270a02"/><l>眾生可愍傷</l><l>墜老死嶮路</l>
+<lb n="0270a03"/><l><note n="0270001" resp="Taisho" type="orig" place="foot text">野人＝常為【元】【明】【宮】</note><app n="0270001"><lem>野人</lem><rdg wit="【元】【明】【宮】" resp="Taisho">常為</rdg></app>恩愛奴</l><l>處畏癡不懼</l>
+<lb n="0270a04"/><l>世界若<note n="0270002" resp="Taisho" type="orig" place="foot text">大小＝小大【元】【明】【宮】</note><app n="0270002"><lem>大小</lem><rdg wit="【元】【明】【宮】" resp="Taisho">小大</rdg></app></l><l>法無有常者</l>
+<lb n="0270a05"/><l>一切不久留</l><l>暫現如電光</l>
+<lb n="0270a06"/><l>是身屬老死</l><l>眾病之所歸</l>
+<lb n="0270a07"/><l>薄皮覆不淨</l><l>愚惑為所欺</l>
+<lb n="0270a08"/><l>汝常為老賊</l><l>吞滅盛壯色</l>
+<lb n="0270a09"/><l>如華鬘枯朽</l><l>毀敗無所直</l>
+<lb n="0270a10"/><l>頂生王功德</l><l>共釋天王坐</l>
+<lb n="0270a11"/><l>報利福弘多</l><l>今日悉安在</l>
+<lb n="0270a12"/><l>此王天人中</l><l>欲樂具為最</l>
+<lb n="0270a13"/><l>死時極苦痛</l><l>以此可悟意</l>
+<lb n="0270a14"/><l>諸欲初軟樂</l><l>後皆成大苦</l>
+<lb n="0270a15"/><l>亦如怨初善</l><l>滅族禍在後</l>
+<lb n="0270a16"/><l>是身為穢器</l><l>九孔常流惡</l>
+<lb n="0270a17"/><l>亦如那利瘡</l><l>絕治於醫藥</l>
+<lb n="0270a18"/><l>骨車力甚少</l><l>筋脈纏識轉</l>
+<lb n="0270a19"/><l>汝以為妙乘</l><l>忍著無羞恥</l>
+<lb n="0270a20"/><l>死人所聚處</l><l>委棄滿&CB00093;間</l>
+<lb n="0270a21"/><l>生時所保惜</l><l>死則皆棄捐</l>
+<lb n="0270a22"/><l>常當念如是</l><l>一心觀莫亂</l>
+<lb n="0270a23"/><l>破癡倒黑暝</l><l>執炬以明觀</l>
+<lb n="0270a24"/><l>若捨四念止</l><l>心無惡不造</l>
+<lb n="0270a25"/><l>如<note n="0270003" resp="Taisho" type="orig" place="foot text">象逸＝逸象【元】【明】【宮】</note><app n="0270003"><lem>象逸</lem><rdg wit="【元】【明】【宮】" resp="Taisho">逸象</rdg></app>無鉤</l><l>終不順調道</l>
+<lb n="0270a26"/><l>今日營此業</l><l>明日造彼事</l>
+<lb n="0270a27"/><l>樂著不觀苦</l><l>不覺死賊至</l>
+<lb n="0270a28"/><l>&CB00229;&CB00229;為己務</l><l>他事亦不閑</l>
+<lb n="0270a29"/><l>死賊不待時</l><l>至則無脫緣</l>
+<pb ed="T" id="T15.0614.0270b" n="0270b"/>
+<lb n="0270b01"/><l>如鹿渴赴泉</l><l><note n="0270004" resp="Taisho" type="orig" place="foot text">已＝以【元】【明】【宮】</note><app n="0270004"><lem>已</lem><rdg wit="【元】【明】【宮】" resp="Taisho">以</rdg></app>飲方向水</l>
+<lb n="0270b02"/><l>獵師無慈惠</l><l>不聽飲竟殺</l>
+<lb n="0270b03"/><l>癡人亦如是</l><l>懃修諸事務</l>
+<lb n="0270b04"/><l>死至不待時</l><l>誰當為汝護</l>
+<lb n="0270b05"/><l>人心期富貴</l><l>五欲情未滿</l>
+<lb n="0270b06"/><l>諸大國王輩</l><l>無得免此患</l>
+<lb n="0270b07"/><l>仙人持&CB00057;箭</l><l>亦不免<note n="0270005" resp="Taisho" type="orig" place="foot text">死生＝死王【元】【明】【宮】</note><app n="0270005"><lem>死生</lem><rdg wit="【元】【明】【宮】" resp="Taisho">死王</rdg></app></l>
+<lb n="0270b08"/><l>無常大象蹈</l><l>蟻蛭與地同</l>
+<lb n="0270b09"/><l>且置一切人</l><l>諸佛正真覺</l>
+<lb n="0270b10"/><l>越度生死流</l><l>亦復不常在</l>
+<lb n="0270b11"/><l>以是故當知</l><l>汝所可愛樂</l>
+<lb n="0270b12"/><l>悉應早捨離</l><l>一心求涅槃</l>
+<lb n="0270b13"/><l>後捨身死時</l><l>誰當證知我</l>
+<lb n="0270b14"/><l>復得遇法寶</l><l>及以不遇者</l>
+<lb n="0270b15"/><l>久久佛日出</l><l>破大無明<note n="0270006" resp="Taisho" type="orig" place="foot text">暝＝冥【元】【明】【宮】</note><app n="0270006"><lem>暝</lem><rdg wit="【元】【明】【宮】" resp="Taisho">冥</rdg></app></l>
+<lb n="0270b16"/><l>以放諸光明</l><l>示人道非道</l>
+<lb n="0270b17"/><l>我從何所來</l><l>從何處而<note n="0270007" resp="Taisho" type="orig" place="foot text">生＝去【元】【明】</note><app n="0270007"><lem>生</lem><rdg wit="【元】【明】" resp="Taisho">去</rdg></app></l>
+<lb n="0270b18"/><l>何處得解脫</l><l>此疑誰當明</l>
+<lb n="0270b19"/><l>佛聖一切智</l><l>久違乃出世</l>
+<lb n="0270b20"/><l>一心莫放逸</l><l>能破汝疑結</l>
+<lb n="0270b21"/><l>彼不樂實利</l><l>好著弊惡心</l>
+<lb n="0270b22"/><l>汝為眾生長</l><l>當求實法相</l>
+<lb n="0270b23"/><l>誰能知死時</l><l>所<note n="0270008" resp="Taisho" type="orig" place="foot text">趣＝趨【元】【明】【宮】＊</note><app n="0270008"><lem>趣</lem><rdg wit="【元】【明】【宮】" resp="Taisho">趨</rdg></app>從何道</l>
+<lb n="0270b24"/><l>譬如風中燈</l><l>不知滅時節</l>
+<lb n="0270b25"/><l>至道法不難</l><l>大聖指事說</l>
+<lb n="0270b26"/><l>說智及智處</l><l>此二不假外</l>
+<lb n="0270b27"/><l>汝若不放逸</l><l>一心常行道</l>
+<lb n="0270b28"/><l>不久得涅槃</l><l>第一常樂處</l>
+<lb n="0270b29"/><l>利智親善人</l><l>盡心敬佛法</l>
+<pb ed="T" id="T15.0614.0270c" n="0270c"/>
+<lb n="0270c01"/><l>厭穢不淨身</l><l>離苦得解脫</l>
+<lb n="0270c02"/><l>閑靜修寂志</l><l>結跏坐林間</l>
+<lb n="0270c03"/><l>撿心不放逸</l><l>悟意覺諸緣</l>
+<lb n="0270c04"/><l>若不厭有中</l><l>安睡不自<note n="0270009" resp="Taisho" type="orig" place="foot text">悟＝寤【宮】</note><app n="0270009"><lem>悟</lem><rdg wit="【宮】" resp="Taisho">寤</rdg></app></l>
+<lb n="0270c05"/><l>不念世非常</l><l>可畏而不懼</l>
+<lb n="0270c06"/><l>煩惱深無底</l><l>生死海無邊</l>
+<lb n="0270c07"/><l>度苦<note n="0270010" resp="Taisho" type="orig" place="foot text">舡＝船【元】【明】【宮】</note><app n="0270010"><lem>舡</lem><rdg wit="【元】【明】【宮】" resp="Taisho">船</rdg></app>未辦</l><l>安得樂睡眠</l>
+<lb n="0270c08"/><l>是以當覺悟</l><l>莫以睡覆心</l>
+<lb n="0270c09"/><l>於四供養中</l><l>知量知止足</l>
+<lb n="0270c10"/><l>大怖俱未免</l><l>當宜懃精進</l>
+<lb n="0270c11"/><l>一切苦至時</l><l>悔恨無所及</l>
+<lb n="0270c12"/><l>衲衣<note n="0270011" resp="Taisho" type="orig" place="foot text">樹下坐＝坐樹下【元】【明】【宮】</note><app n="0270011"><lem>樹下坐</lem><rdg wit="【元】【明】【宮】" resp="Taisho">坐樹下</rdg></app></l><l>如所應得食</l>
+<lb n="0270c13"/><l>勿為貪味故</l><l>而自致毀敗</l>
+<lb n="0270c14"/><l>食過知味處</l><l>美惡都無異</l>
+<lb n="0270c15"/><l>愛好生憂苦</l><l>是以莫造愛</l>
+<lb n="0270c16"/><l>行業世界中</l><l>美惡無不更</l>
+<lb n="0270c17"/><l>一切已具受</l><l>當以是自抑</l>
+<lb n="0270c18"/><l>若在畜獸中</l><l><note n="0270012" resp="Taisho" type="orig" place="foot text">唌＝&CB00058;【元】，飼【明】</note><note n="0270012" resp="CBETA" type="mod">唌＝&CB00058;【元】，＝飼【明】</note><app n="0270012"><lem>唌</lem><rdg wit="【元】" resp="Taisho">&CB00058;</rdg><rdg wit="【明】" resp="Taisho">飼</rdg></app>草為具味</l>
+<lb n="0270c19"/><l>地獄吞鐵丸</l><l>燃熱劇迸鐵</l>
+<lb n="0270c20"/><l>若<note n="0270013" resp="Taisho" type="orig" place="foot text">在＝生【元】【明】【宮】</note><app n="0270013"><lem>在</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生</rdg></app>薜荔中</l><l>膿吐火糞<note n="0270014" resp="Taisho" type="orig" place="foot text">屎＝尿【元】【明】</note><app n="0270014"><lem>屎</lem><rdg wit="【元】【明】" resp="Taisho">尿</rdg></app></l>
+<lb n="0270c21"/><l><note n="0270015" resp="Taisho" type="orig" place="foot text">涕＝洟【元】【明】【宮】</note><app n="0270015"><lem>涕</lem><rdg wit="【元】【明】【宮】" resp="Taisho">洟</rdg></app>唾諸不淨</l><l>以此為上味</l>
+<lb n="0270c22"/><l>若在天宮殿</l><l>七寶宮觀中</l>
+<lb n="0270c23"/><l>天食<note n="0270016" resp="Taisho" type="orig" place="foot text">蘇陀＝酥酡【明】</note><app n="0270016"><lem>蘇陀</lem><rdg wit="【明】" resp="Taisho">酥酡</rdg></app>味</l><l>天女以娛心</l>
+<lb n="0270c24"/><l>人中<note n="0270017" resp="Taisho" type="orig" place="foot text">務＝豪【元】【明】【宮】</note><app n="0270017"><lem>務</lem><rdg wit="【元】【明】【宮】" resp="Taisho">豪</rdg></app>貴處</l><l>七饌備眾味</l>
+<lb n="0270c25"/><l>一切曾所更</l><l>今復何以<note n="0270018" resp="Taisho" type="orig" place="foot text">愛＝受【明】</note><app n="0270018"><lem>愛</lem><rdg wit="【明】" resp="Taisho">受</rdg></app></l>
+<lb n="0270c26"/><l>往返世界中</l><l>厭更苦樂事</l>
+<lb n="0270c27"/><l>雖未得涅槃</l><l>當懃求此利</l></lg>
+<lb n="0270c28"/><p>學禪之人初至師所。師應問言。汝持戒淨不。
+<lb n="0270c29"/>非重罪惡邪不。若言五眾戒淨無重罪惡邪。
+<pb ed="T" id="T15.0614.0271a" n="0271a"/>
+<lb n="0271a01"/>次教道法。若言破戒。應重問言。汝破何戒。若
+<lb n="0271a02"/>言重戒。師言如人被截耳鼻不須照鏡。汝且
+<lb n="0271a03"/>還去。精懃誦經勸化作福。可種後世道法因
+<lb n="0271a04"/>緣。此生永棄。譬如枯樹雖加溉灌不生華葉
+<lb n="0271a05"/>及其果實。若破餘戒。是時應教如法懺悔。若
+<lb n="0271a06"/>已清淨。師若得天眼他心智。即為隨病說<note n="0271001" resp="Taisho" type="orig" place="foot text">趣＝取【宮】</note><app n="0271001"><lem>趣</lem><rdg wit="【宮】" resp="Taisho">取</rdg></app>
+<lb n="0271a07"/>道之法。若未得通應當觀相。或復問之。三毒
+<lb n="0271a08"/>之中何者偏重。婬欲多耶。瞋恚多耶。愚癡多
+<lb n="0271a09"/>耶。云何觀相。若多婬相為人輕便。多畜妻妾
+<lb n="0271a10"/>多語多信。顏色和悅言語便易。少於瞋恨亦
+<lb n="0271a11"/>少愁憂。多能<note n="0271002" resp="Taisho" type="orig" place="foot text">技術＝伎術【元】【宮】</note><app n="0271002"><lem>技術</lem><rdg wit="【元】【宮】" resp="Taisho">伎術</rdg></app>好聞多識。愛著文頌善能
+<lb n="0271a12"/>談論。能察人情多諸畏怖。心在房室好著薄
+<lb n="0271a13"/>衣渴欲女色愛著臥具服飾香華。心多柔軟
+<lb n="0271a14"/>能有憐愍。美於言語好修福業。意樂生天處
+<lb n="0271a15"/>眾無難。別人好醜信任婦女。欲火熾盛心多
+<lb n="0271a16"/>悔變。&CB00540;自莊飾好觀<note n="0271003" resp="Taisho" type="orig" place="foot text">綵畫＝彩畫【元】【明】【宮】</note><app n="0271003"><lem>綵畫</lem><rdg wit="【元】【明】【宮】" resp="Taisho">彩畫</rdg></app>。慳惜己物僥倖他
+<lb n="0271a17"/>財。好結親友不&CB00540;獨處。樂著所止隨逐流俗。
+<lb n="0271a18"/>乍驚乍懼志如獼猴。所見淺近作事無慮。輕
+<lb n="0271a19"/>志所為趣得適意。&CB00540;啼&CB00540;哭。身體細軟不堪
+<lb n="0271a20"/>寒苦。易<note n="0271004" resp="Taisho" type="orig" place="foot text">阻＝沮【元】【明】【宮】</note><app n="0271004"><lem>阻</lem><rdg wit="【元】【明】【宮】" resp="Taisho">沮</rdg></app>易悅不能忍事。少得大喜少失大
+<lb n="0271a21"/>憂。自發伏匿。身溫汗臭薄膚細髮。多皺多白
+<lb n="0271a22"/>剪爪治鬚。白齒<anchor id="fxT15p0271a01"/>趣行&CB00540;潔淨衣。學不專一好
+<lb n="0271a23"/>遊林苑。多情多求意著常見。附近有德先意
+<lb n="0271a24"/>問訊。&CB00540;用他語強顏耐辱。聞事速解所為事
+<lb n="0271a25"/>業。分別好醜愍傷苦厄。自大好勝不受侵
+<lb n="0271a26"/><note n="0271005" resp="Taisho" type="orig" place="foot text">&CB00654;＝陵【元】【明】【宮】</note><app n="0271005"><lem>&CB00654;</lem><rdg wit="【元】【明】【宮】" resp="Taisho">陵</rdg></app>。&CB00540;行施惠接引善人。得美飲食與人共
+<lb n="0271a27"/>之。不<note n="0271006" resp="Taisho" type="orig" place="foot text">存＝在【元】【明】</note><app n="0271006"><lem>存</lem><rdg wit="【元】【明】" resp="Taisho">在</rdg></app>近細志在遠大。眼著色欲事不究
+<lb n="0271a28"/>竟。無有遠慮知世方俗觀察顏色逆探人心。
+<lb n="0271a29"/>美言辯慧結友不固。頭髮稀&CB00520;少於睡眠。坐
+<pb ed="T" id="T15.0614.0271b" n="0271b"/>
+<lb n="0271b01"/>臥行立不失容儀。所有財物能速救急。尋後
+<lb n="0271b02"/>悔惜<note n="0271007" resp="Taisho" type="orig" place="foot text">受＝愛【元】【明】【宮】</note><app n="0271007"><lem>受</lem><rdg wit="【元】【明】【宮】" resp="Taisho">愛</rdg></app>義疾得。尋復&CB00540;忘惜於舉動。難自改
+<lb n="0271b03"/>變難得離欲。作罪輕微。如是種種是婬欲相。
+<lb n="0271b04"/>瞋恚人相。多於憂惱。卒暴懷忿身口&CB00308;<note n="0271008" resp="Taisho" type="orig" place="foot text">&CB00597;＝獷【元】【明】【宮】</note><app n="0271008"><lem>&CB00597;</lem><rdg wit="【元】【明】【宮】" resp="Taisho">獷</rdg></app>能
+<lb n="0271b05"/>忍眾苦觸事不可。多愁少歡能作大惡無憐
+<lb n="0271b06"/>愍心&CB00540;為&CB00508;訟。顏貌毀悴皺眉眄睞。難語難
+<lb n="0271b07"/>悅難事難可。其心如瘡而宣人闕。義論強梁
+<lb n="0271b08"/>不可折伏。難可傾動難親難沮。含毒難吐受
+<lb n="0271b09"/>誦不失。多能多巧心不懶墮。造事疾<note n="0271009" resp="Taisho" type="orig" place="foot text">速＝成【元】【明】【宮】</note><app n="0271009"><lem>速</lem><rdg wit="【元】【明】【宮】" resp="Taisho">成</rdg></app>持望
+<lb n="0271b10"/>不語。意深難知受恩能報。<note n="0271010" resp="Taisho" type="orig" place="foot text">有＝又【元】【明】【宮】</note><app n="0271010"><lem>有</lem><rdg wit="【元】【明】【宮】" resp="Taisho">又</rdg></app>能聚眾自伏事
+<lb n="0271b11"/>人。不可沮敗能究竟事。難可干亂少所畏難。
+<lb n="0271b12"/>譬如師子不可屈伏。一向不迴直造直進。憶
+<lb n="0271b13"/>念不忘多慮思惟誦習憶持。能多施與小利
+<lb n="0271b14"/>不迴。為師利根離欲獨處少於婬欲。心常懷
+<lb n="0271b15"/>勝愛著斷見。眼常惡視真實言語說事分了。
+<lb n="0271b16"/>少於親<note n="0271011" resp="Taisho" type="orig" place="foot text">友＝厚【元】【明】【宮】</note><app n="0271011"><lem>友</lem><rdg wit="【元】【明】【宮】" resp="Taisho">厚</rdg></app>為事堅著。堅憶不忘多於筋力。肩
+<lb n="0271b17"/>胸姝大廣額齊髮。心堅難伏疾得難忘。能自
+<lb n="0271b18"/>離欲&CB00540;作重罪。如是種種是瞋恚相。愚癡人
+<lb n="0271b19"/>相。多疑多悔懶墮無見。自滿難屈憍慢難受
+<lb n="0271b20"/>可信不信非信而信。不知恭敬處處信向。多
+<lb n="0271b21"/>師輕躁無羞搪<note n="0271012" resp="Taisho" type="orig" place="foot text">突＝&CB00247;【元】【明】【宮】</note><app n="0271012"><lem>突</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&CB00247;</rdg></app>。作事無慮反教<note n="0271013" resp="Taisho" type="orig" place="foot text">渾戾＝很&CB00128;【元】【宮】，狠戾【明】</note><note n="0271013" resp="CBETA" type="mod">渾戾＝很&CB00128;【元】【宮】，＝狠戾【明】</note><app n="0271013"><lem>渾戾</lem><rdg wit="【元】【宮】" resp="Taisho">很&CB00128;</rdg><rdg wit="【明】" resp="Taisho">狠戾</rdg></app>。不
+<lb n="0271b22"/>擇親友不自修飾。好師異道不別善惡。難受
+<lb n="0271b23"/>易忘鈍根懈怠。訶謗行施心無憐愍破壞法
+<lb n="0271b24"/>橋觸事不了。瞋目不視無有智巧。多求<note n="0271014" resp="Taisho" type="orig" place="foot text">悕＝希【元】【明】【宮】</note><app n="0271014"><lem>悕</lem><rdg wit="【元】【明】【宮】" resp="Taisho">希</rdg></app>望
+<lb n="0271b25"/>多疑少信。憎惡好人破罪福報。不別善言不
+<lb n="0271b26"/>能解過。不受誨喻親離憎怨。不知禮節&CB00540;作
+<lb n="0271b27"/>惡口。鬚髮<note n="0271015" resp="Taisho" type="orig" place="foot text">爪＝瓜【明】</note><app n="0271015"><lem>爪</lem><rdg wit="【明】" resp="Taisho">瓜</rdg></app>長齒衣多垢。為人驅役畏處不
+<lb n="0271b28"/>畏。樂處而憂憂處而喜。悲處反笑笑處反悲。
+<lb n="0271b29"/>牽而後隨能忍苦事。不別諸味難得離欲。為
+<pb ed="T" id="T15.0614.0271c" n="0271c"/>
+<lb n="0271c01"/>罪深重。如是種種是愚癡相</p>
+<lb n="0271c02"/><p>若多婬欲人不淨法門治。若多瞋恚人慈心
+<lb n="0271c03"/>法門治。若多愚癡人思惟觀因緣法門治。若
+<lb n="0271c04"/>多思覺人念息法門治。若多等分人念佛法
+<lb n="0271c05"/>門治。諸如是等種種病。種種法門治</p>
+<lb n="0271c06"/><lg><l>第一治<note n="0271016" resp="Taisho" type="orig" place="foot text">貪＝婬【元】【明】【宮】</note><app n="0271016"><lem>貪</lem><rdg wit="【元】【明】【宮】" resp="Taisho">婬</rdg></app>欲法門</l></lg>
+<lb n="0271c07"/><p>婬欲多人習不淨觀。從足至髮不淨充滿。髮
+<lb n="0271c08"/>毛爪齒薄皮厚皮血肉筋脈骨髓肝肺心脾腎
+<lb n="0271c09"/>胃大腸小腸屎尿洟唾汗淚垢<note n="0271017" resp="Taisho" type="orig" place="foot text">坋＝&CB00945;【元】【明】【宮】</note><app n="0271017"><lem>坋</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&CB00945;</rdg></app>膿腦<note n="0271018" resp="Taisho" type="orig" place="foot text">胞＝脬【宮】</note><app n="0271018"><lem>胞</lem><rdg wit="【宮】" resp="Taisho">脬</rdg></app>膽
+<lb n="0271c10"/><note n="0271019" resp="Taisho" type="orig" place="foot text">（痰）＋水【元】【明】，（澹）＋水【宮】</note><app n="0271019"><lem>水</lem><rdg wit="【元】【明】" resp="Taisho">痰水</rdg><rdg wit="【宮】" resp="Taisho">澹水</rdg></app>微<note n="0271020" resp="Taisho" type="orig" place="foot text">膚＝實【元】</note><app n="0271020"><lem>膚</lem><rdg wit="【元】" resp="Taisho">實</rdg></app>脂肪腦膜。身中如是種種不淨。復
+<lb n="0271c11"/>次不淨漸者。觀青瘀<note n="0271021" resp="Taisho" type="orig" place="foot text">&CB00167;＝&CB00955;【元】【明】【宮】＊</note><app n="0271021"><lem>&CB00167;</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&CB00955;</rdg></app>脹破爛血流塗漫臭
+<lb n="0271c12"/>膿噉食不盡骨散燒焦。是謂不淨觀。復次多
+<lb n="0271c13"/>婬人有七種愛。或著好色。或著端正。或著儀
+<lb n="0271c14"/>容。或著音聲。或著細滑。或著眾生。或都愛
+<lb n="0271c15"/>著。若著好色當習青瘀觀法。黃赤不淨色等
+<lb n="0271c16"/>亦復如是。若著端正。當習<anchor id="fxT15p0271c01"/>&CB00167;脹身散觀法。若
+<lb n="0271c17"/>著儀容。當觀新死血流塗骨觀法。若著音聲。
+<lb n="0271c18"/>當習<note n="0271022" resp="Taisho" type="orig" place="foot text">咽＝噎【元】【明】【宮】</note><app n="0271022"><lem>咽</lem><rdg wit="【元】【明】【宮】" resp="Taisho">噎</rdg></app>塞命斷觀法。若著細滑。當習骨<note n="0271023" resp="Taisho" type="orig" place="foot text">見＝觀【元】【明】【宮】</note><app n="0271023"><lem>見</lem><rdg wit="【元】【明】【宮】" resp="Taisho">觀</rdg></app>
+<lb n="0271c19"/>及乾枯病觀法若愛眾生。當習六種觀。若都
+<lb n="0271c20"/>愛著。一切遍觀。或時作種種更作異觀是名
+<lb n="0271c21"/>不淨觀。問曰。若身不淨如臭腐屍者。何從生
+<lb n="0271c22"/>著。若著淨身。臭腐爛身亦當應著。若不著臭
+<lb n="0271c23"/>身淨身亦應不著。二身等故。<note n="0271024" resp="Taisho" type="orig" place="foot text">若＝答【元】【明】【宮】</note><app n="0271024"><lem>若</lem><rdg wit="【元】【明】【宮】" resp="Taisho">答</rdg></app>求二實淨俱
+<lb n="0271c24"/>不。可得。人心狂惑為顛倒所覆。非淨計淨。若
+<lb n="0271c25"/><note n="0271025" resp="Taisho" type="orig" place="foot text">（顛）＋倒【元】【明】【宮】</note><app n="0271025"><lem>倒</lem><rdg wit="【元】【明】【宮】" resp="Taisho">顛倒</rdg></app>心破便得實相法觀。便知不淨虛誑不真。
+<lb n="0271c26"/>復次死屍。無火無命無識無有諸根。人諦知
+<lb n="0271c27"/><note n="0271026" resp="Taisho" type="orig" place="foot text">〔之〕－【元】【明】【宮】</note><app n="0271026"><lem>之</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>心不生著。以身有暖有命有識諸根完具
+<lb n="0271c28"/>心倒惑著。復次心著色時謂以為淨。愛著心
+<lb n="0271c29"/>息即知不淨。若是實淨應當常淨。而今不然。
+<pb ed="T" id="T15.0614.0272a" n="0272a"/>
+<lb n="0272a01"/>如狗食糞謂之為淨。以人觀之甚為不淨。是
+<lb n="0272a02"/>身內外無一淨處。若著身外。身外薄皮舉身取
+<lb n="0272a03"/>之<note n="0272001" resp="Taisho" type="orig" place="foot text">纔＝裁【元】【明】【宮】</note><app n="0272001"><lem>纔</lem><rdg wit="【元】【明】【宮】" resp="Taisho">裁</rdg></app>得如&CB00178;是亦不淨。何況身內三十六物。
+<lb n="0272a04"/>復次推身因緣種種不淨。父母精血不淨合
+<lb n="0272a05"/>成。既得為身常出不淨。衣服床褥亦臭不淨。
+<lb n="0272a06"/>何況死處。以是當知。生死內外都是不淨<note n="0272002" resp="Taisho" type="orig" place="foot text">〔此下…初〕夾註－【宮】</note><app n="0272002" word-count="8"><lem><note place="inline">此下
+<lb n="0272a07"/>經本至二門初</note></lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></p>
+<lb n="0272a08"/><p>復次<note n="0272003" resp="Taisho" type="orig" place="foot text">（淨）＋觀【元】【明】【宮】</note><app n="0272003"><lem>觀</lem><rdg wit="【元】【明】【宮】" resp="Taisho">淨觀</rdg></app>亦有三品。或初習行。或已習行或
+<lb n="0272a09"/>久習行。若初習行當教言。作破皮想。除&CB00230;
+<lb n="0272a10"/>不淨當觀赤骨人。繁意觀行不令外念。外
+<lb n="0272a11"/>念諸緣攝念令還。若已習行當教言。想&CB00230;皮
+<lb n="0272a12"/>肉。盡觀頭骨不令外念。外念諸緣攝念令還。
+<lb n="0272a13"/>若久習行當教言。身中一寸心&CB00230;皮肉。繫意
+<lb n="0272a14"/>五處。<note n="0272004" resp="Taisho" type="orig" place="foot text">頂額＝頂上額上【元】【明】【宮】</note><app n="0272004"><lem>頂額</lem><rdg wit="【元】【明】【宮】" resp="Taisho">頂上額上</rdg></app>眉間鼻端心處。如是五處住意觀
+<lb n="0272a15"/>骨不令外念。外念諸緣攝念令還。常念觀心
+<lb n="0272a16"/>心出制持。若心疲極住念所緣捨外守住。譬
+<lb n="0272a17"/>如獼猴被繫在柱極乃住息。所緣如柱。念
+<lb n="0272a18"/>如繩鎖。心喻獼猴。亦如乳母。常觀嬰兒不令
+<lb n="0272a19"/>墮落。行者觀心亦復如是。漸漸制心令住緣
+<lb n="0272a20"/>處。若心久住是應禪法。若得禪定即有三相。
+<lb n="0272a21"/>身體和悅柔軟輕便。白骨流光猶如白珂。心
+<lb n="0272a22"/>得靜住。是為<note n="0272005" resp="Taisho" type="orig" place="foot text">觀淨＝淨觀【元】【明】【宮】</note><app n="0272005"><lem>觀淨</lem><rdg wit="【元】【明】【宮】" resp="Taisho">淨觀</rdg></app>。是時便得色界中心。是
+<lb n="0272a23"/>名初學禪法得色界心。心應禪法即是色界
+<lb n="0272a24"/>法。心得此法身在欲界。四大極大<note n="0272006" resp="Taisho" type="orig" place="foot text">柔軟＝柔和【元】【明】【宮】</note><app n="0272006"><lem>柔軟</lem><rdg wit="【元】【明】【宮】" resp="Taisho">柔和</rdg></app>快
+<lb n="0272a25"/>樂。色澤淨潔光潤和悅。<note n="0272007" resp="Taisho" type="orig" place="foot text">（是）＋謂【元】【明】【宮】</note><app n="0272007"><lem>謂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">是謂</rdg></app>悅樂。二者向者
+<lb n="0272a26"/>骨觀白骨相中光明遍照淨白色。三者心住
+<lb n="0272a27"/>一處是名淨觀。除肉觀骨故名淨觀。如上三
+<lb n="0272a28"/>相皆自知之。他所不見。上三品者初習行先
+<lb n="0272a29"/>未發意。已習行三四身修。久習行百年身學</p>
+<pb ed="T" id="T15.0614.0272b" n="0272b"/>
+<lb n="0272b01"/><lg><l>第二治瞋恚法門</l></lg>
+<lb n="0272b02"/><p>若瞋恚偏多。當學三種慈心法門。或初習行。
+<lb n="0272b03"/>或已習行。或久習行。若初習行者當教言。慈
+<lb n="0272b04"/>及親愛。云何<note n="0272008" resp="Taisho" type="orig" place="foot text">親及＝及親【元】【明】【宮】</note><app n="0272008"><lem>親及</lem><rdg wit="【元】【明】【宮】" resp="Taisho">及親</rdg></app>願與親樂。行者若得種種
+<lb n="0272b05"/>身心快樂。寒時得衣熱時得涼。飢渴得飲食。
+<lb n="0272b06"/>貧賤得富貴。行極時得止息。如是種種樂願
+<lb n="0272b07"/>親愛。得繫心在慈不令異念。異念諸緣攝之
+<lb n="0272b08"/>令還。若已習行當教言。慈及中人。云何及中
+<lb n="0272b09"/>人而<note n="0272009" resp="Taisho" type="orig" place="foot text">（願）＋與【元】【明】【宮】</note><app n="0272009"><lem>與</lem><rdg wit="【元】【明】【宮】" resp="Taisho">願與</rdg></app>樂。行者若得種種身心快樂。願中
+<lb n="0272b10"/>人。得繫心在慈不令異念。異念諸緣攝之令
+<lb n="0272b11"/>還。若久習行當教言。慈及怨憎。云何及彼而
+<lb n="0272b12"/>與其樂。行者若得種種身心快樂。願怨憎得。
+<lb n="0272b13"/>得與親同。同得一心。心大清淨。親中怨等廣
+<lb n="0272b14"/>及世界。無量眾生皆令得樂。周遍十方靡不
+<lb n="0272b15"/>同等大心清淨。見十方眾生皆如自見。在心
+<lb n="0272b16"/>目前了了見之受得快樂。是時即得慈心三
+<lb n="0272b17"/>昧。問曰。親愛中人願令得樂。怨憎惡人云何
+<lb n="0272b18"/>憐愍復願與樂。答曰。應與彼樂。所以者何。
+<lb n="0272b19"/>其人更有種種<note n="0272010" resp="Taisho" type="orig" place="foot text">好＋（事）【元】【明】【宮】</note><app n="0272010"><lem>好</lem><rdg wit="【元】【明】【宮】" resp="Taisho">好事</rdg></app>清淨法因。我今云何豈可
+<lb n="0272b20"/>以一怨故而沒其善。復次思惟。是人過去世
+<lb n="0272b21"/>時或是我親善。豈以今瞋<note n="0272011" resp="Taisho" type="orig" place="foot text">更＝便【元】【明】【宮】</note><app n="0272011"><lem>更</lem><rdg wit="【元】【明】【宮】" resp="Taisho">便</rdg></app>生怨惡。我當忍
+<lb n="0272b22"/>彼是我善利。又念行法仁德含弘慈力無量
+<lb n="0272b23"/>此不可失。復思惟言。若無怨憎何因生忍。生
+<lb n="0272b24"/>忍由怨怨則我之親善。復次瞋報最重眾惡
+<lb n="0272b25"/>中上無有過是。以瞋加物其毒難制。雖欲燒
+<lb n="0272b26"/>他實是自害。復自念言。外被法服內習忍行。
+<lb n="0272b27"/>是謂沙門豈可惡聲<note n="0272012" resp="Taisho" type="orig" place="foot text">縱此變色憋＝變色縱此蔽【元】【明】【宮】</note><app n="0272012"><lem>縱此變色憋</lem><rdg wit="【元】【明】【宮】" resp="Taisho">變色縱此蔽</rdg></app>心。復次五
+<lb n="0272b28"/>受陰者。眾苦林藪受惡之的。苦惱惡來何由
+<lb n="0272b29"/>可免。如刺刺身<note n="0272013" resp="Taisho" type="orig" place="foot text">苦刺＝刺有【元】【明】【宮】</note><app n="0272013"><lem>苦刺</lem><rdg wit="【元】【明】【宮】" resp="Taisho">刺有</rdg></app>無量。眾怨甚多不可
+<lb n="0272b30"/><note n="0272014" resp="Taisho" type="orig" place="foot text">得＝悉【元】【明】【宮】</note><app n="0272014"><lem>得</lem><rdg wit="【元】【明】【宮】" resp="Taisho">悉</rdg></app>除。當自守護著忍革屣。如佛言曰</p>
+<pb ed="T" id="T15.0614.0272c" n="0272c"/>
+<lb n="0272c01"/><lg><l>以瞋報瞋</l><l>瞋還著之</l><l>瞋恚不報</l>
+<lb n="0272c02"/><l>能破大軍</l><l>能不瞋恚</l><l>是大人法</l>
+<lb n="0272c03"/><l>小人瞋恚</l><l>難動如山</l><l>瞋為重毒</l>
+<lb n="0272c04"/><l>多所殘害</l><l>不得害彼</l><l>自害乃滅</l>
+<lb n="0272c05"/><l>瞋為大瞑</l><l>有目無&CB00418;</l><l>瞋為塵垢</l>
+<lb n="0272c06"/><l>染污淨心</l><l>如是瞋<note n="0272015" resp="Taisho" type="orig" place="foot text">恚＝毒【元】【明】【宮】</note><app n="0272015"><lem>恚</lem><rdg wit="【元】【明】【宮】" resp="Taisho">毒</rdg></app></l><l>當急除滅</l>
+<lb n="0272c07"/><l>毒蛇在室</l><l>不除害人</l><l>如是種種</l>
+<lb n="0272c08"/><l>瞋<note n="0272016" resp="Taisho" type="orig" place="foot text">毒＝恚【元】【明】【宮】</note><app n="0272016"><lem>毒</lem><rdg wit="【元】【明】【宮】" resp="Taisho">恚</rdg></app>無量</l><l>常習慈心</l><l>除滅瞋恚</l>
+<lb n="0272c09"/><l>是為慈三昧門</l>
+<lb n="0272c10"/><l>第三治愚癡法門</l></lg>
+<lb n="0272c11"/><p>若愚癡偏多。當學三種思惟法門。或初習行。
+<lb n="0272c12"/>或已習行。或久習行。若初習行當教言。生緣
+<lb n="0272c13"/>老死無明緣行。如是思惟不令外念。外念諸
+<lb n="0272c14"/>緣攝之令還。若已習行當教言。行緣識識緣
+<lb n="0272c15"/>名色。名色緣六入六入緣觸觸緣受受緣愛。
+<lb n="0272c16"/>愛緣取取緣有。如是思惟不令外念。外念諸
+<lb n="0272c17"/>緣攝之令還。若久習行當教言。無明緣行行
+<lb n="0272c18"/>緣識。識緣名色名色緣六入。六入緣觸觸緣
+<lb n="0272c19"/>受。受緣愛愛緣取。取緣有有緣生。生緣老死。
+<lb n="0272c20"/>如是思惟不令外念。外念諸緣攝之令還。問
+<lb n="0272c21"/>曰。一切智人是有明。一切<note n="0272017" resp="Taisho" type="orig" place="foot text">餘＝愚【明】</note><app n="0272017"><lem>餘</lem><rdg wit="【明】" resp="Taisho">愚</rdg></app>人是無明。是
+<lb n="0272c22"/>中云何無明。答曰。無明名一切不知。此中無
+<lb n="0272c23"/>明能造後世有。有者無無者有棄諸善取諸
+<lb n="0272c24"/>惡。破實相著虛妄。如無明相品中說</p>
+<lb n="0272c25"/><lg><l>不明<note n="0272018" resp="Taisho" type="orig" place="foot text">白益＝自蓋【元】【明】【宮】</note><app n="0272018"><lem>白益</lem><rdg wit="【元】【明】【宮】" resp="Taisho">自蓋</rdg></app>法</l><l>不知道德業</l>
+<lb n="0272c26"/><l>而作結使因</l><l>如火鑽燧生</l>
+<lb n="0272c27"/><l>惡法而心著</l><l>遠棄於善法</l>
+<lb n="0272c28"/><l>奪眾生明賊</l><l>去來明亦劫</l>
+<lb n="0272c29"/><l>常樂我淨想</l><l>計於五陰中</l>
+<pb ed="T" id="T15.0614.0273a" n="0273a"/>
+<lb n="0273a01"/><l>苦<note n="0273001" resp="Taisho" type="orig" place="foot text">習＝集【元】【明】</note><app n="0273001"><lem>習</lem><rdg wit="【元】【明】" resp="Taisho">集</rdg></app>盡道法</l><l>亦復不能知</l>
+<lb n="0273a02"/><l>種種惱險道</l><l>盲人入中行</l>
+<lb n="0273a03"/><l>煩惱故業集</l><l>業故苦流迴</l>
+<lb n="0273a04"/><l>不應取而取</l><l>應取而反棄</l>
+<lb n="0273a05"/><l>馳闇逐非道</l><l>蹴株而&CB00570;地</l>
+<lb n="0273a06"/><l>有目而無慧</l><l>其喻亦如是</l>
+<lb n="0273a07"/><l>是因緣滅故</l><l>智明如日出</l></lg>
+<lb n="0273a08"/><p>如是略說。無明乃至老死亦如是。問曰。佛法
+<lb n="0273a09"/>中因緣甚深。云何癡多人能觀因緣。答曰。二
+<lb n="0273a10"/>種癡人。<note n="0273002" resp="Taisho" type="orig" place="foot text">一如＝亦如【明】</note><app n="0273002"><lem>一如</lem><rdg wit="【明】" resp="Taisho">亦如</rdg></app>牛羊。二種種邪見。<note n="0273003" resp="Taisho" type="orig" place="foot text">癡惑＝疑惑【元】【明】【宮】</note><app n="0273003"><lem>癡惑</lem><rdg wit="【元】【明】【宮】" resp="Taisho">疑惑</rdg></app>闇蔽
+<lb n="0273a11"/>邪見癡人。佛為此說當觀因緣以習三昧</p>
+<lb n="0273a12"/><lg><l>第四治思覺法門</l></lg>
+<lb n="0273a13"/><p>若思覺偏多。當習阿那般那三昧法門。有三
+<lb n="0273a14"/>種學人或初習行。或已習行。或久習行。若初
+<lb n="0273a15"/>習行當教言。一心念數入息出息。若長若短
+<lb n="0273a16"/>數一至十。若已習行當教言。數一至十隨息
+<lb n="0273a17"/>入出。念與息俱<note n="0273004" resp="Taisho" type="orig" place="foot text">止＝上【元】</note><app n="0273004"><lem>止</lem><rdg wit="【元】" resp="Taisho">上</rdg></app>心一處。若久習行當教
+<lb n="0273a18"/>言。數隨止觀轉觀清淨。阿那般那三昧六
+<lb n="0273a19"/>種門十六分。云何為數一心念入息。入息至
+<lb n="0273a20"/>竟數一。出息至竟數二。若未竟而數為非數。
+<lb n="0273a21"/>若數二至九而誤更從一數起。譬如算人一
+<lb n="0273a22"/>一為二二二為四三三為九。問曰。何以故數。
+<lb n="0273a23"/>答曰。無常觀易得故。亦斷諸思覺故。得一心
+<lb n="0273a24"/>故。身心生滅無常相似相續難見。入息出息
+<lb n="0273a25"/>生滅無常易知易見故。復次心繫在數。斷諸
+<lb n="0273a26"/>思<note n="0273005" resp="Taisho" type="orig" place="foot text">〔諸〕－【元】【明】【宮】</note><app n="0273005"><lem>諸</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>覺。思覺者。欲思覺。恚思覺。惱思覺。親
+<lb n="0273a27"/>里思覺。國土思覺。不死思覺。欲求淨心入正
+<lb n="0273a28"/>道者。先當除&CB00230;三種&CB00308;<note n="0273006" resp="Taisho" type="orig" place="foot text">思覺＝病【元】【明】【宮】＊</note><app n="0273006"><lem>思覺</lem><rdg wit="【元】【明】【宮】" resp="Taisho">病</rdg></app>。次除三種細
+<lb n="0273a29"/><anchor id="fxT15p0273a01"/>思覺。除六覺已。當得一切清淨法。譬如採
+<pb ed="T" id="T15.0614.0273b" n="0273b"/>
+<lb n="0273b01"/>金<note n="0273007" resp="Taisho" type="orig" place="foot text">人＝沙【元】【明】【宮】</note><app n="0273007"><lem>人</lem><rdg wit="【元】【明】【宮】" resp="Taisho">沙</rdg></app>先除&CB00308;石<note n="0273008" resp="Taisho" type="orig" place="foot text">砂＝沙【元】【明】【宮】＊</note><app n="0273008"><lem>砂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">沙</rdg></app>。然後除細石<anchor id="fxT15p0273b01"/>砂。次第得
+<lb n="0273b02"/>細金砂。問曰。云何為&CB00308;病。云何為細病。答
+<lb n="0273b03"/>曰。欲瞋惱覺是三名&CB00308;病。親里國土及不死
+<lb n="0273b04"/>覺是三名細病。除此覺已。得一切清淨法。問
+<lb n="0273b05"/>曰。未得道者結使未斷。六思覺強從心生亂。
+<lb n="0273b06"/>云何能除。答曰。心厭世間。正觀能遮而未能
+<lb n="0273b07"/>拔。後得無漏道。能拔結使根本。何<note n="0273009" resp="Taisho" type="orig" place="foot text">謂＝為【明】</note><app n="0273009"><lem>謂</lem><rdg wit="【明】" resp="Taisho">為</rdg></app>正觀</p>
+<lb n="0273b08"/><lg><l>見多欲人求欲苦</l><l>得之守護是亦苦</l>
+<lb n="0273b09"/><l>失之憂惱亦大苦</l><l>心得欲時無滿苦</l>
+<lb n="0273b10"/><l>欲無常空憂惱因</l><l>眾共有此當覺棄</l>
+<lb n="0273b11"/><l>譬如毒蛇入人室</l><l>不急除之害必至</l>
+<lb n="0273b12"/><l>不定不實不貴重</l><l>種種欲求顛倒樂</l>
+<lb n="0273b13"/><l>如六神通阿羅漢</l><l>教誨欲覺弟子言</l>
+<lb n="0273b14"/><l>汝不破戒戒清淨</l><l>不共女人同室宿</l>
+<lb n="0273b15"/><l>欲結毒蛇滿心室</l><l>纏綿愛喜不相離</l>
+<lb n="0273b16"/><l>既知身戒不可毀</l><l><note n="0273010" resp="Taisho" type="orig" place="foot text">汝＝而【元】【明】【宮】</note><app n="0273010"><lem>汝</lem><rdg wit="【元】【明】【宮】" resp="Taisho">而</rdg></app>心常共欲火宿</l>
+<lb n="0273b17"/><l>汝是出家求道人</l><l>何緣縱心乃如是</l>
+<lb n="0273b18"/><l>父母生養長育汝</l><l>宗親恩愛共成就</l>
+<lb n="0273b19"/><l>咸皆涕泣戀惜汝</l><l>汝能捨離不顧念</l>
+<lb n="0273b20"/><l>而心常在欲覺中</l><l>共欲嬉戲無厭心</l>
+<lb n="0273b21"/><l>常樂欲火共一處</l><l>歡喜愛樂不暫離</l></lg>
+<lb n="0273b22"/><p>如是種種呵欲覺。如是種種正觀除欲覺。問
+<lb n="0273b23"/>曰。云何滅瞋恚覺。答曰</p>
+<lb n="0273b24"/><lg><l>從胎中來生常苦</l><l>是中眾生莫瞋惱</l>
+<lb n="0273b25"/><l>若念瞋惱慈悲滅</l><l>慈悲瞋惱不相<note n="0273011" resp="Taisho" type="orig" place="foot text">比＝離【元】</note><app n="0273011"><lem>比</lem><rdg wit="【元】" resp="Taisho">離</rdg></app></l>
+<lb n="0273b26"/><l>汝念慈悲瞋惱滅</l><l>譬如明闇不同處</l>
+<lb n="0273b27"/><l>若持淨戒念瞋恚</l><l>是人自毀破法利</l>
+<lb n="0273b28"/><l>譬如諸象入水浴</l><l>復以泥土塗<note n="0273012" resp="Taisho" type="orig" place="foot text">坌＝分【宮】</note><app n="0273012"><lem>坌</lem><rdg wit="【宮】" resp="Taisho">分</rdg></app>身</l>
+<lb n="0273b29"/><l>一切常有老病死</l><l>種種鞭笞百千苦</l>
+<pb ed="T" id="T15.0614.0273c" n="0273c"/>
+<lb n="0273c01"/><l>云何善人念眾生</l><l>而復加益以瞋惱</l>
+<lb n="0273c02"/><l>若起瞋恚欲害彼</l><l>未及前人先自燒</l>
+<lb n="0273c03"/><l>是故常念行慈悲</l><l>瞋惱惡念內不生</l>
+<lb n="0273c04"/><l>若人常念行善法</l><l>是心常習佛所念</l>
+<lb n="0273c05"/><l>是故不應念不善</l><l>常念善法<note n="0273013" resp="Taisho" type="orig" place="foot text">歡樂＝勸樂【元】【明】【宮】</note><app n="0273013"><lem>歡樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">勸樂</rdg></app>心</l>
+<lb n="0273c06"/><l>今世得樂後亦然</l><l>得道常樂是涅槃</l>
+<lb n="0273c07"/><l>若心積聚不善覺</l><l>自失己利并害他</l>
+<lb n="0273c08"/><l><note n="0273014" resp="Taisho" type="orig" place="foot text">是謂不善彼我＝既自心中善法【元】【明】【宮】</note><app n="0273014"><lem>是謂不善彼我</lem><rdg wit="【元】【明】【宮】" resp="Taisho">既自心中善法</rdg></app>失</l><l>他有淨心亦復沒</l>
+<lb n="0273c09"/><l>譬如阿蘭若道人</l><l>舉手哭言賊劫我</l></lg>
+<lb n="0273c10"/><p><note n="0273015" resp="Taisho" type="orig" place="foot text">有人問言…無處避（五十六字）【元】【明】俱作七字一句八句之偈文</note><note n="0273015" resp="CBETA" type="mod"><todo type="a"/>有人問言…無處避（五十六字）【元】【明】俱作七字一句八句之偈文</note>有人問言。誰劫汝。答言。財賊我不畏。我不
+<lb n="0273c11"/>聚財求世利。誰有財賊能侵我。我集善根諸
+<lb n="0273c12"/>法寶。覺觀賊來破我利。財賊可避。多藏處。劫
+<lb n="0273c13"/>善賊來無處避。如是種種呵瞋恚。如是種種
+<lb n="0273c14"/>正觀除瞋恚覺</p>
+<lb n="0273c15"/><p>問曰。云何除惱<note n="0273016" resp="Taisho" type="orig" place="foot text">覺＋（答曰）【元】【明】【宮】</note><app n="0273016"><lem>覺</lem><rdg wit="【元】【明】【宮】" resp="Taisho">覺答曰</rdg></app></p>
+<lb n="0273c16"/><lg><l><note n="0273017" resp="Taisho" type="orig" place="foot text">答曰＝世間【元】【明】【宮】</note><app n="0273017"><lem>答曰</lem><rdg wit="【元】【明】【宮】" resp="Taisho">世間</rdg></app>眾生百千種</l><l>諸病更互&M010527;來惱</l>
+<lb n="0273c17"/><l>死賊捕伺常欲殺</l><l>無量眾苦自沈沒</l>
+<lb n="0273c18"/><l>云何善人復加惱</l><l>讒謗謀害無慈仁</l>
+<lb n="0273c19"/><l>未及傷彼被殃身</l><l>俗人起惱是可恕</l>
+<lb n="0273c20"/><l>此事世法惡業<note n="0273018" resp="Taisho" type="orig" place="foot text">因＝固【元】【明】【宮】</note><app n="0273018"><lem>因</lem><rdg wit="【元】【明】【宮】" resp="Taisho">固</rdg></app></l><l>亦不自言我修善</l>
+<lb n="0273c21"/><l>求清淨道出家人</l><l>而生瞋恚懷嫉心</l>
+<lb n="0273c22"/><l>清冷雲中放毒火</l><l>當知此惡罪極深</l>
+<lb n="0273c23"/><l>阿蘭若人興嫉&CB00107;</l><l>有阿羅漢他心智</l>
+<lb n="0273c24"/><l>教誡苦責汝何愚</l><l>嫉&CB00107;自破功德本</l>
+<lb n="0273c25"/><l>若求供養當自集</l><l>諸功德本莊嚴身</l>
+<lb n="0273c26"/><l>若不持戒禪多聞</l><l>虛假染衣壞法身</l>
+<lb n="0273c27"/><l>實是乞兒弊惡人</l><l>云<note n="0273019" resp="Taisho" type="orig" place="foot text">何＋（而）【元】【明】【宮】</note><app n="0273019"><lem>何</lem><rdg wit="【元】【明】【宮】" resp="Taisho">何而</rdg></app>求供養利<note n="0273020" resp="Taisho" type="orig" place="foot text">〔身〕－【元】【明】【宮】</note><app n="0273020"><lem>身</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></l>
+<lb n="0273c28"/><l>飢渴寒熱百千苦</l><l>眾生常<note n="0273021" resp="Taisho" type="orig" place="foot text">困＝因【元】【明】【宮】</note><app n="0273021"><lem>困</lem><rdg wit="【元】【明】【宮】" resp="Taisho">因</rdg></app>此諸惱</l>
+<lb n="0273c29"/><l>身心苦厄無窮盡</l><l>云何善人加諸惱</l>
+<pb ed="T" id="T15.0614.0274a" n="0274a"/>
+<lb n="0274a01"/><l>譬如病瘡以針刺</l><l>亦如獄囚<note n="0274001" resp="Taisho" type="orig" place="foot text">考＝拷【元】【明】【宮】</note><app n="0274001"><lem>考</lem><rdg wit="【元】【明】【宮】" resp="Taisho">拷</rdg></app>未決</l>
+<lb n="0274a02"/><l>苦厄纏身眾惱集</l><l>云何慈悲更令劇</l></lg>
+<lb n="0274a03"/><p>如是種種呵惱覺。如是種種正觀除惱覺</p>
+<lb n="0274a04"/><p>問曰。云何除親里覺</p>
+<lb n="0274a05"/><p>答曰。應如是念。世界生死中自業緣牽。何者
+<lb n="0274a06"/>是親何者非親。但以愚癡故橫生著心計為
+<lb n="0274a07"/>我親。過去世非親為親。未來世非親為親。今
+<lb n="0274a08"/>世是親過去非親。譬如鳥栖暮集一樹晨<note n="0274002" resp="Taisho" type="orig" place="foot text">飛各隨緣去＝則隨緣各自飛去【元】【明】【宮】</note><app n="0274002"><lem>飛
+<lb n="0274a09"/>各隨緣去</lem><rdg wit="【元】【明】【宮】" resp="Taisho">則隨緣各自飛去</rdg></app>。家屬親里亦復如是。生世界中各
+<lb n="0274a10"/>各自異心。緣會故親緣散故&CB00565;。無有定實因
+<lb n="0274a11"/>緣果報。共相親近。譬如乾沙緣手團握。緣捉
+<lb n="0274a12"/>故合緣放故散。父母養子老當得報。子蒙懷
+<lb n="0274a13"/>抱養育故應報。若順其意則親。若逆其意是
+<lb n="0274a14"/>賊。有親不能益而反害。有非親無損而大益。
+<lb n="0274a15"/>人以因緣故而生愛。愛因緣故而更斷。譬如
+<lb n="0274a16"/>畫師作婦女像還自愛著。此亦如是。自生染
+<lb n="0274a17"/>著染著於外。過去世中汝有親里。今世於汝
+<lb n="0274a18"/>復何所作。汝亦不能益過去親。過去親不益
+<lb n="0274a19"/>汝。兩不相益。空念之為是親非親。世界中不
+<lb n="0274a20"/>定無邊。如阿羅漢教新出家戀親弟子言。如
+<lb n="0274a21"/>惡人吐食更欲還噉。汝亦如是。汝已得出家。
+<lb n="0274a22"/>何以還欲愛著。是剃髮染衣是解脫相。汝著
+<lb n="0274a23"/>親里不得解脫還為愛所繫。三界無常流轉
+<lb n="0274a24"/>不定。若親非親。雖今親里久久則滅。如是十
+<lb n="0274a25"/>方眾生迴轉。親里無定是非我親。人欲死時
+<lb n="0274a26"/>無心無識。直視不轉<note n="0274003" resp="Taisho" type="orig" place="foot text">閉＝行【元】【明】【宮】</note><app n="0274003"><lem>閉</lem><rdg wit="【元】【明】【宮】" resp="Taisho">行</rdg></app>氣命絕如墮闇坑。是
+<lb n="0274a27"/>時親里家屬安在。若初生時先世非親今強
+<lb n="0274a28"/>和合作親。若當死時復非<note n="0274004" resp="Taisho" type="orig" place="foot text">親＋（里）【元】【明】【宮】</note><app n="0274004"><lem>親</lem><rdg wit="【元】【明】【宮】" resp="Taisho">親里</rdg></app>。如是思惟不當
+<lb n="0274a29"/>著親。如人兒死。一時三處父母俱時啼哭。<note n="0274005" resp="Taisho" type="orig" place="foot text">〔誑〕－【元】【明】【宮】</note><app n="0274005"><lem>誑</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+<pb ed="T" id="T15.0614.0274b" n="0274b"/>
+<lb n="0274b01"/>天上父母妻子。<note n="0274006" resp="Taisho" type="orig" place="foot text">（謂）＋人【元】【明】【宮】</note><app n="0274006"><lem>人</lem><rdg wit="【元】【明】【宮】" resp="Taisho">謂人</rdg></app>中<note n="0274007" resp="Taisho" type="orig" place="foot text">亦為＝為虛【元】【明】【宮】</note><app n="0274007"><lem>亦為</lem><rdg wit="【元】【明】【宮】" resp="Taisho">為虛</rdg></app>誑。龍中父母<note n="0274008" resp="Taisho" type="orig" place="foot text">亦＋（以人中）【元】【明】【宮】</note><app n="0274008"><lem>亦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">亦以人中</rdg></app>
+<lb n="0274b02"/>為<note n="0274009" resp="Taisho" type="orig" place="foot text">（虛）＋誑【元】【明】【宮】</note><app n="0274009"><lem>誑</lem><rdg wit="【元】【明】【宮】" resp="Taisho">虛誑</rdg></app>。如是種種正觀除親里覺</p>
+<lb n="0274b03"/><p>問曰。云何除國土覺。答曰。行者若念是國土
+<lb n="0274b04"/>豐樂安隱多諸好人。&M010527;為國<corr resp="cp" sic="上">土</corr>覺繩所牽。將
+<lb n="0274b05"/>去罪處覺心如是。若有智人不應念著。何以
+<lb n="0274b06"/>故。國土種種過罪所燒時節轉故。亦有飢餓
+<lb n="0274b07"/>身疲極故。一切國土無常安者。復次老病死
+<lb n="0274b08"/>苦無國不有。從是間身苦去得彼處身苦。一
+<lb n="0274b09"/>切國土去無不苦。假有國土安隱豐樂。而有
+<lb n="0274b10"/>結惱心生苦患。是非好國土。能除雜惡國土
+<lb n="0274b11"/>能薄結使令心不惱。是謂好國土。一切眾生
+<lb n="0274b12"/>有二種苦。身苦心苦常有苦惱。無有國土無
+<lb n="0274b13"/>此二惱。復次有國土大寒。有國土大熱。有國
+<lb n="0274b14"/>土飢餓。有國土多病。有國土多賊。有國土王
+<lb n="0274b15"/>法不理。如是種種國土之惡心不應著。如是
+<lb n="0274b16"/>正觀除國土覺</p>
+<lb n="0274b17"/><p>問曰。云何除不死覺。答曰。應教行者。若好家
+<lb n="0274b18"/>生。若種族<note n="0274010" resp="Taisho" type="orig" place="foot text">〔子〕－【元】【明】【宮】</note><app n="0274010"><lem>子</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>才<note n="0274011" resp="Taisho" type="orig" place="foot text">技力＝伎力【元】【明】【宮】＊</note><app n="0274011"><lem>技力</lem><rdg wit="【元】【明】【宮】" resp="Taisho">伎力</rdg></app>勢勝人。一切莫念。何
+<lb n="0274b19"/>以故。一切死時不<note n="0274012" resp="Taisho" type="orig" place="foot text">觀＝覺【宮】</note><app n="0274012"><lem>觀</lem><rdg wit="【宮】" resp="Taisho">覺</rdg></app>老少貴賤才<anchor id="fxT15p0274b01"/>技力勢。
+<lb n="0274b20"/>是身是一切憂惱諸因緣。<note n="0274013" resp="Taisho" type="orig" place="foot text">因＝本【元】【明】【宮】＊</note><app n="0274013"><lem>因</lem><rdg wit="【元】【明】【宮】" resp="Taisho">本</rdg></app>自見少多壽若
+<lb n="0274b21"/>得安隱。是為癡人。何以故。是謂憂惱<anchor id="fxT15p0274b02"/>因依
+<lb n="0274b22"/>是四大。四大造色如四毒蛇。共不相應。誰得
+<lb n="0274b23"/>安隱者。出息期入是不可信。復次人睡時欲
+<lb n="0274b24"/>期必覺。是事難信。受胎至老死事&M010527;來。求死
+<lb n="0274b25"/>時節言常不死。云何可信。譬如殺賊拔刀注
+<lb n="0274b26"/>箭常求殺人無憐愍心。人生世間死力最大。
+<lb n="0274b27"/>一切無勝死力強者。若過去世第一妙人無
+<lb n="0274b28"/>能<note n="0274014" resp="Taisho" type="orig" place="foot text">脫＝勝【元】【明】【宮】</note><app n="0274014"><lem>脫</lem><rdg wit="【元】【明】【宮】" resp="Taisho">勝</rdg></app>此死者。現在亦無大智人能勝死者。亦
+<lb n="0274b29"/>非軟語求。非巧言誑可得避脫。亦非<note n="0274015" resp="Taisho" type="orig" place="foot text">持戒＝特戒【明】</note><app n="0274015"><lem>持戒</lem><rdg wit="【明】" resp="Taisho">特戒</rdg></app>精
+<pb ed="T" id="T15.0614.0274c" n="0274c"/>
+<lb n="0274c01"/>進能&CB00230;此死。以是故當知。人<note n="0274016" resp="Taisho" type="orig" place="foot text">常＝命【元】【明】【宮】</note><app n="0274016"><lem>常</lem><rdg wit="【元】【明】【宮】" resp="Taisho">命</rdg></app>危脆不可怙
+<lb n="0274c02"/>恃。莫信計常我<note n="0274017" resp="Taisho" type="orig" place="foot text">壽＝當【元】【明】【宮】</note><app n="0274017"><lem>壽</lem><rdg wit="【元】【明】【宮】" resp="Taisho">當</rdg></app>久活。是諸死賊常將人
+<lb n="0274c03"/>去。不<note n="0274018" resp="Taisho" type="orig" place="foot text">付＝待【元】【明】【宮】</note><app n="0274018"><lem>付</lem><rdg wit="【元】【明】【宮】" resp="Taisho">待</rdg></app>老竟然後當殺。如阿羅漢教諸覺所
+<lb n="0274c04"/>惱弟子言。汝何以不知厭世入道。何以作此
+<lb n="0274c05"/>覺。有人未生便死。有生時死者。有乳餔時。有
+<lb n="0274c06"/>斷乳時。有小兒時。有盛壯時。有老時。一切時
+<lb n="0274c07"/>中間死法界。譬如樹<note n="0274019" resp="Taisho" type="orig" place="foot text">華＝有【元】【明】【宮】</note><app n="0274019"><lem>華</lem><rdg wit="【元】【明】【宮】" resp="Taisho">有</rdg></app>華時便墮。有果時
+<lb n="0274c08"/>墮。有未熟時墮。是故<note n="0274020" resp="Taisho" type="orig" place="foot text">當知＝應當【元】【明】【宮】</note><app n="0274020"><lem>當知</lem><rdg wit="【元】【明】【宮】" resp="Taisho">應當</rdg></app>。勤力精進求安
+<lb n="0274c09"/>隱道。大力賊共住不可信。此賊如虎巧覆藏
+<lb n="0274c10"/>身。如是死賊常求殺人。世界所有空如水泡。
+<lb n="0274c11"/>云何當言待時入道。<note n="0274021" resp="Taisho" type="orig" place="foot text">何＝阿【元】【明】【宮】</note><app n="0274021"><lem>何</lem><rdg wit="【元】【明】【宮】" resp="Taisho">阿</rdg></app>誰能證言汝必老可
+<lb n="0274c12"/>得行道。譬如嶮岸大樹上有大風下有大水
+<lb n="0274c13"/>崩其根土。誰當信此樹得久住者。人命亦如
+<lb n="0274c14"/>是。少時不可信。父如穀子。母如好田。先世因
+<lb n="0274c15"/>緣罪福如雨澤。眾生如穀。生死如收刈。種種
+<lb n="0274c16"/>諸天子人王智德。如天王佐天&CB00508;破諸阿須
+<lb n="0274c17"/>倫軍。種種受樂極高大明。還沒在黑闇。以
+<lb n="0274c18"/>是故莫信命活言。我今日當作此。明後當作
+<lb n="0274c19"/>是。如是<note n="0274022" resp="Taisho" type="orig" place="foot text">正觀種種＝種種正觀【元】【明】【宮】</note><app n="0274022"><lem>正觀種種</lem><rdg wit="【元】【明】【宮】" resp="Taisho">種種正觀</rdg></app>除不死覺。如是先除&CB00308;
+<lb n="0274c20"/>思覺。&CB00230;後除細思覺。心清淨<note n="0274023" resp="Taisho" type="orig" place="foot text">生＝先【明】</note><app n="0274023"><lem>生</lem><rdg wit="【明】" resp="Taisho">先</rdg></app>得正道。一
+<lb n="0274c21"/>切結使盡。從是得安隱處。是謂出家果。心得
+<lb n="0274c22"/>自在。三業第一清淨不復受胎。讀種種經多
+<lb n="0274c23"/>聞。是時得<note n="0274024" resp="Taisho" type="orig" place="foot text">報果＝果報【元】【明】【宮】</note><app n="0274024"><lem>報果</lem><rdg wit="【元】【明】【宮】" resp="Taisho">果報</rdg></app>。如是得時。不空破魔王軍。
+<lb n="0274c24"/>便得第一勇猛名稱。世界中煩惱將去。是不
+<lb n="0274c25"/>名健。能破煩惱賊滅三毒火涼樂清淨。涅槃
+<lb n="0274c26"/>林中安隱高枕。種種禪定根力七覺清風四
+<lb n="0274c27"/>起。顧念眾生沒三毒海。<note n="0274025" resp="Taisho" type="orig" place="foot text">〔德〕－【元】【明】【宮】</note><app n="0274025"><lem>德</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>妙力如是。乃名
+<lb n="0274c28"/>為健。如是等散心。當念阿那般那學六種法
+<lb n="0274c29"/>斷諸思覺。以是故念數息</p>
+<pb ed="T" id="T15.0614.0275a" n="0275a"/>
+<lb n="0275a01"/><p>問曰。若餘不淨念佛<note n="0275001" resp="Taisho" type="orig" place="foot text">四等＝等四【元】【明】【宮】</note><app n="0275001"><lem>四等</lem><rdg wit="【元】【明】【宮】" resp="Taisho">等四</rdg></app>觀中。亦得斷思
+<lb n="0275a02"/>覺。何以故。獨數息。答曰。餘觀法寬難失故。
+<lb n="0275a03"/>數息法急易轉故。譬如放牛。以牛難失故守
+<lb n="0275a04"/>之少事。如放獼猴易失故守之多事。此亦如
+<lb n="0275a05"/>是。數息心數不得少時他念。少時他念則
+<lb n="0275a06"/>失數。以是故初斷思覺應數息。已得數法當
+<lb n="0275a07"/>行隨法斷諸思覺。入息至竟當隨莫數一。出
+<lb n="0275a08"/>息至竟當隨莫數二。譬如負債人債主隨逐
+<lb n="0275a09"/>初不捨離。如是思惟。是入息是還出更有
+<lb n="0275a10"/>異。出息是還入更有異。是時知入息異出息
+<lb n="0275a11"/>異。何以故。出息<note n="0275002" resp="Taisho" type="orig" place="foot text">暖＝煖【元】【宮】</note><app n="0275002"><lem>暖</lem><rdg wit="【元】【宮】" resp="Taisho">煖</rdg></app>入息冷。問曰。入出息是
+<lb n="0275a12"/>一息。何以故。出息還更入故。譬如含水水暖
+<lb n="0275a13"/>吐水水冷。冷者還<note n="0275003" resp="Taisho" type="orig" place="foot text">暖＝煖【元】【明】【宮】下同</note><app n="0275003"><lem>暖</lem><rdg wit="【元】【明】【宮】" resp="Taisho">煖</rdg></app>暖者還冷故。答曰。不
+<lb n="0275a14"/>爾。內心動故有息出。出已即滅。鼻口引外則
+<lb n="0275a15"/>有息入。入故息滅。亦無將出亦無將入。復次
+<lb n="0275a16"/>少壯老人。少者入息長。壯者入出息等。老者
+<lb n="0275a17"/>出息長。是故非一息。復次臍邊風發相似相
+<lb n="0275a18"/>續。息出至口鼻邊。出已便滅。譬如<note n="0275004" resp="Taisho" type="orig" place="foot text">&CB02170;＝&CB02021;【元】【宮】，&CB00469;【明】＊</note><note n="0275004" resp="CBETA" type="mod">&CB02170;＝&CB02021;【元】【宮】，＝&CB00469;【明】＊</note><app n="0275004"><lem>&CB02170;</lem><rdg wit="【元】【宮】" resp="Taisho">&CB02021;</rdg><rdg wit="【明】" resp="Taisho">&CB00469;</rdg></app>囊中
+<lb n="0275a19"/>風開時即滅。若以口鼻因緣引之則風入。是
+<lb n="0275a20"/>從新因緣邊生。譬如扇眾緣合故則有風。是
+<lb n="0275a21"/>時知入出息因緣而有虛誑不真生滅無常。
+<lb n="0275a22"/>如是思惟。出息從口鼻因緣引之。而有入息
+<lb n="0275a23"/>因緣心動令生。而惑者不知以為我息。息者
+<lb n="0275a24"/>是風。與外風無異。地水火空亦復如是。是五
+<lb n="0275a25"/>大因緣合故生識。識亦如是非我有也。五陰
+<lb n="0275a26"/>十二入十八<note n="0275005" resp="Taisho" type="orig" place="foot text">持＝界【元】【明】【宮】</note><app n="0275005"><lem>持</lem><rdg wit="【元】【明】【宮】" resp="Taisho">界</rdg></app>亦復如是。如是知之逐息入
+<lb n="0275a27"/>息出。是以名隨。已得隨法當行止法。止法者
+<lb n="0275a28"/>數隨心極住意風門念入出息。問曰。何以故
+<lb n="0275a29"/>止。答曰。斷諸思覺故。心不散故。數隨息時心
+<pb ed="T" id="T15.0614.0275b" n="0275b"/>
+<lb n="0275b01"/>不定心多劇故止則心閑少事故心住一處故
+<lb n="0275b02"/>念息出入。譬如守門人門邊住。觀人入出。止
+<lb n="0275b03"/>心亦爾。知息出時。從臍心胸咽至口鼻。息入
+<lb n="0275b04"/>時從口鼻咽胸心至臍。如是繫心一處。是名
+<lb n="0275b05"/>為止。復次心止法中住觀。入息時五陰生滅
+<lb n="0275b06"/>異。出息時五陰生滅異。如是心亂便除&CB00230;。一
+<lb n="0275b07"/>心思惟令觀增長。是名為觀法。捨風門住離
+<lb n="0275b08"/>&CB00308;觀法。離&CB00308;觀法知息無常。此名轉觀。觀五
+<lb n="0275b09"/>陰無常。亦念入息出息生滅無常。見初頭息
+<lb n="0275b10"/>無所從來。次觀後息亦無跡處。因緣合故有。
+<lb n="0275b11"/>因緣散故無。是名轉觀法。除滅五蓋及諸
+<lb n="0275b12"/>煩惱。雖先得止觀煩惱不淨心雜今此淨法
+<lb n="0275b13"/>心獨得清淨。復次前觀異學相似行道念息
+<lb n="0275b14"/>入出。今無漏道相似行善有漏道。是謂清淨。
+<lb n="0275b15"/>復次初觀身念止分。漸漸一切身念止。次行
+<lb n="0275b16"/>痛心念止。是中非清淨無漏道遠故今法念
+<lb n="0275b17"/>止中。觀十六行念入出息。得煖法頂法忍法
+<lb n="0275b18"/>世間第一法苦法忍乃至無學盡智。是名清
+<lb n="0275b19"/>淨。是十六分中初入息分。六種安那般那行。
+<lb n="0275b20"/>出息分亦如是。一心念息入出若長若短。譬
+<lb n="0275b21"/>如人怖走上山若擔負重若上氣。如是比是
+<lb n="0275b22"/>息短。若人極時得安息歡喜。又如得利從獄
+<lb n="0275b23"/>中出。如是為息長。一切息<note n="0275006" resp="Taisho" type="orig" place="foot text">隨＝墮【元】【明】【宮】</note><app n="0275006"><lem>隨</lem><rdg wit="【元】【明】【宮】" resp="Taisho">墮</rdg></app>二處。若長若
+<lb n="0275b24"/>短處。是故言息長息短。是中亦行安那般那
+<lb n="0275b25"/>六事。念諸息遍身。亦念息出入。悉觀身中諸
+<lb n="0275b26"/>出息入息。覺知遍至身中乃至足指遍諸毛孔
+<lb n="0275b27"/>如水入沙。息出覺知從足至髮遍諸毛孔亦
+<lb n="0275b28"/>如水入沙。譬如<anchor id="fxT15p0275b01"/>&CB02170;囊入出皆滿。口鼻風入出
+<lb n="0275b29"/>亦爾。觀身周遍見風行處。如藕根孔亦如魚
+<pb ed="T" id="T15.0614.0275c" n="0275c"/>
+<lb n="0275c01"/>網。復心非獨口鼻觀息入出。一切毛孔及九
+<lb n="0275c02"/>孔中。亦見息入息出。是故知息遍諸身除諸
+<lb n="0275c03"/>身行。亦念入出息。初學息時。若身懈怠睡眠
+<lb n="0275c04"/>體重悉除棄之。身輕柔軟隨禪定心受喜。亦
+<lb n="0275c05"/>念息入出。除懈<note n="0275007" resp="Taisho" type="orig" place="foot text">怠＋（&CB00230;）【元】【明】【宮】</note><app n="0275007"><lem>怠</lem><rdg wit="【元】【明】【宮】" resp="Taisho">怠&CB00230;</rdg></app>睡眠心重。得心輕柔軟。
+<lb n="0275c06"/>隨禪定心受喜。復次入<note n="0275008" resp="Taisho" type="orig" place="foot text">息＝身【元】【明】【宮】</note><app n="0275008"><lem>息</lem><rdg wit="【元】【明】【宮】" resp="Taisho">身</rdg></app>念止中竟。次行痛
+<lb n="0275c07"/>念止已得身念止。實今更得痛念止實受喜。
+<lb n="0275c08"/>復次已知身實相。今欲知心心數法實相。是
+<lb n="0275c09"/>故受喜。亦念息入出<note n="0275009" resp="Taisho" type="orig" place="foot text">愛樂＝受樂【宮】</note><app n="0275009"><lem>愛樂</lem><rdg wit="【宮】" resp="Taisho">受樂</rdg></app>。亦念息入出是喜
+<lb n="0275c10"/>增長。名為樂。復次初心中生悅是名喜。後遍
+<lb n="0275c11"/>身喜是名樂。復次初禪二禪中樂痛名喜。三
+<lb n="0275c12"/>禪中樂痛名受樂受諸心行。亦念息入出。諸
+<lb n="0275c13"/>心生滅法。心染法心不染法。心散法心攝法。
+<lb n="0275c14"/>心正法心邪法。如是等諸心相名為心行。心
+<lb n="0275c15"/>作喜時亦念息入出先受喜。自生不故作念
+<lb n="0275c16"/>心故作喜。問曰。何以故故作喜。答曰。欲治二
+<lb n="0275c17"/>種心。或散心或攝心。如是作心得出煩惱。是
+<lb n="0275c18"/>故念法心作喜。復次若心不悅勸勉令喜。心
+<lb n="0275c19"/>作攝時亦念息入出。設心不定強伏令定。如
+<lb n="0275c20"/>經中說。心定是道心散非道。心作解脫時亦
+<lb n="0275c21"/>念息入出。若意不解強伏令解。譬如羊入蒼
+<lb n="0275c22"/>耳。蒼耳著身。人為漸漸出之。心作解脫諸煩
+<lb n="0275c23"/>惱結亦復如是。是名心念止作解脫。觀無常
+<lb n="0275c24"/>亦念息入出。觀諸法無常生滅空無吾我。生
+<lb n="0275c25"/>時諸法空生。滅時諸法空滅。是中無男無女
+<lb n="0275c26"/>無人無作無受。是名隨無常觀。觀有為法出
+<lb n="0275c27"/>散亦念息入出無常。是名出散。諸有為法現
+<lb n="0275c28"/>世中出。從過去因緣和合故集。因緣壞故散。
+<lb n="0275c29"/>如是隨觀是名出散觀。觀離欲結。亦念息入
+<pb ed="T" id="T15.0614.0276a" n="0276a"/>
+<lb n="0276a01"/>出。心離諸結。是法第一。是名隨離欲觀。觀盡
+<lb n="0276a02"/>亦念息入出。諸結使苦在在處盡。是處安隱。
+<lb n="0276a03"/>是名隨盡觀。觀棄捨亦念息入出。諸染愛煩
+<lb n="0276a04"/>惱身心五陰諸有為法棄捨。是第一安隱。如
+<lb n="0276a05"/>是觀是名隨<note n="0276001" resp="Taisho" type="orig" place="foot text">法意止觀是名十六分＝棄捨觀息入出是名數息十六分也【元】【明】【宮】</note><app n="0276001"><lem>法意止觀。是名十六分</lem><rdg wit="【元】【明】【宮】" resp="Taisho">棄捨觀息入出是名數息十六分也</rdg></app></p>
+<lb n="0276a06"/><lg><l><note n="0276002" resp="Taisho" type="orig" place="foot text">〔第五治等分法門〕－【宮】</note><app n="0276002"><lem>第五治等分法門</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></l></lg>
+<lb n="0276a07"/><p>第五法門治等分行。及重罪人求索佛。如是
+<lb n="0276a08"/>人等當教一心念佛三昧。念佛三昧有三種
+<lb n="0276a09"/>人或初習行。或已習行。或久習行。若初習行
+<lb n="0276a10"/>人。將至佛像所。或教令自往諦觀佛像相好。
+<lb n="0276a11"/>相相明了。一心<note n="0276003" resp="Taisho" type="orig" place="foot text">取＝憶【元】【明】</note><app n="0276003"><lem>取</lem><rdg wit="【元】【明】" resp="Taisho">憶</rdg></app>持還至靜處。心眼觀佛
+<lb n="0276a12"/>像。令意不轉繫念在像不令他念。他念攝之
+<lb n="0276a13"/>令常在像。若心不住。師當教言。汝當責心。由
+<lb n="0276a14"/>汝受罪不可稱計。無際生死種種苦惱無不
+<lb n="0276a15"/>更受。若在地獄。吞飲洋銅食燒鐵丸。若在畜
+<lb n="0276a16"/>生。食糞噉草。若在餓鬼受飢餓苦。若在人中
+<lb n="0276a17"/>貧窮困<note n="0276004" resp="Taisho" type="orig" place="foot text">厄＋（苦）【元】【明】【宮】</note><app n="0276004"><lem>厄</lem><rdg wit="【元】【明】【宮】" resp="Taisho">厄苦</rdg></app>。若在天上失欲憂惱。常隨汝故令
+<lb n="0276a18"/>我受此種種身惱心惱無量苦惱。今當制汝。
+<lb n="0276a19"/>汝當隨我。我今繫汝一處。我終不復為汝所
+<lb n="0276a20"/>困更受苦毒也。汝常困我。我今要當以事困
+<lb n="0276a21"/>汝。如是不已心不散亂。是時便得心眼見佛
+<lb n="0276a22"/>像相光明。如眼所見無有異也。如是心住。是
+<lb n="0276a23"/>名初習行者思惟。是時當更念言。是誰像相。
+<lb n="0276a24"/>則是過去釋迦牟尼佛像相。如我今見佛形
+<lb n="0276a25"/>像。像亦不來我亦不往。如是心想見過去佛。
+<lb n="0276a26"/>初降神時震動天地。有三十二<note n="0276005" resp="Taisho" type="orig" place="foot text">〔相〕－【元】【明】【宮】</note><app n="0276005"><lem>相</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>大人相。一
+<lb n="0276a27"/>者足下安平<note n="0276006" resp="Taisho" type="orig" place="foot text">〔立〕－【元】【明】【宮】</note><app n="0276006"><lem>立</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。二者足下千輻輪。三者指長
+<lb n="0276a28"/>好。四者足跟廣。五者手足指合縵網。六者足
+<lb n="0276a29"/>趺高平好。七者伊<note n="0276007" resp="Taisho" type="orig" place="foot text">尼＝泥【元】【明】【宮】</note><app n="0276007"><lem>尼</lem><rdg wit="【元】【明】【宮】" resp="Taisho">泥</rdg></app>延鹿&CB13416;。八者平住手過
+<pb ed="T" id="T15.0614.0276b" n="0276b"/>
+<lb n="0276b01"/>膝。九者陰馬藏相。十者尼俱盧陀身。十一者
+<lb n="0276b02"/>一一孔一<note n="0276008" resp="Taisho" type="orig" place="foot text">〔一〕－【元】【明】【宮】</note><app n="0276008"><lem>一</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>毛生。十二者毛生上向而右旋。
+<lb n="0276b03"/>十三者身色勝上金。十四者身光面一丈。十
+<lb n="0276b04"/>五者皮薄好。十六者七處滿。十七者兩腋下
+<lb n="0276b05"/>平好。十八者上身如師子。十九者身大好端
+<lb n="0276b06"/>直。二十者肩圓好。二十一者四十齒。二十二
+<lb n="0276b07"/>者齒白齊密等而根深。二十三者四牙白而
+<lb n="0276b08"/>大。二十四者頰方如師子。二十五者味中得
+<lb n="0276b09"/>上味。二十六者舌大廣長而薄。二十七者梵
+<lb n="0276b10"/>音深遠。二十八者<note n="0276009" resp="Taisho" type="orig" place="foot text">迦蘭＝迦陵【元】【明】【宮】</note><app n="0276009"><lem>迦蘭</lem><rdg wit="【元】【明】【宮】" resp="Taisho">迦陵</rdg></app>頻伽聲。二十九者眼
+<lb n="0276b11"/>紺青色。三十者眼<note n="0276010" resp="Taisho" type="orig" place="foot text">&CB00263;＝睫【元】【明】【宮】</note><app n="0276010"><lem>&CB00263;</lem><rdg wit="【元】【明】【宮】" resp="Taisho">睫</rdg></app>如牛王。三十一者<note n="0276011" resp="Taisho" type="orig" place="foot text">頂髮＝頂髻【元】【明】【宮】</note><app n="0276011"><lem>頂髮</lem><rdg wit="【元】【明】【宮】" resp="Taisho">頂髻</rdg></app>
+<lb n="0276b12"/>肉骨成。三十二者眉間<note n="0276012" resp="Taisho" type="orig" place="foot text">白毛＝白毫【元】【明】【宮】</note><app n="0276012"><lem>白毛</lem><rdg wit="【元】【明】【宮】" resp="Taisho">白毫</rdg></app>長好右旋。復次
+<lb n="0276b13"/>八十種小相。一者無見頂。二者鼻直高好孔
+<lb n="0276b14"/>不現。三者眉如初生月紺琉璃色。四者耳好。
+<lb n="0276b15"/>五者身如那羅延。六者骨際如<note n="0276013" resp="Taisho" type="orig" place="foot text">鉤鎖＝鉤瑣【宮】</note><app n="0276013"><lem>鉤鎖</lem><rdg wit="【宮】" resp="Taisho">鉤瑣</rdg></app>。七者身
+<lb n="0276b16"/>一時迴如象王。八者行時足去地四寸而<note n="0276014" resp="Taisho" type="orig" place="foot text">印文＝印紋【宮】</note><app n="0276014"><lem>印
+<lb n="0276b17"/>文</lem><rdg wit="【宮】" resp="Taisho">印紋</rdg></app>現。九者爪如赤銅色薄而潤澤。十者膝圓
+<lb n="0276b18"/>好。十一者身淨潔。十二者身柔軟。十三者身
+<lb n="0276b19"/>不曲。十四者指長圓纖十五者指紋如畫雜
+<lb n="0276b20"/>色莊嚴。十六者脈深不現。十七者踝深不現。
+<lb n="0276b21"/>十八者<note n="0276015" resp="Taisho" type="orig" place="foot text">身潤光澤＝身光潤澤【元】【明】【宮】</note><app n="0276015"><lem>身潤光澤</lem><rdg wit="【元】【明】【宮】" resp="Taisho">身光潤澤</rdg></app>。十九者身自持不<note n="0276016" resp="Taisho" type="orig" place="foot text">委陀＝逶迤【元】【明】【宮】</note><app n="0276016"><lem>委陀</lem><rdg wit="【元】【明】【宮】" resp="Taisho">逶迤</rdg></app>。二
+<lb n="0276b22"/>十者身滿足<note place="inline"><note n="0276017" resp="Taisho" type="orig" place="foot text">三月＝五月【元】【明】【宮】</note><app n="0276017"><lem>三月</lem><rdg wit="【元】【明】【宮】" resp="Taisho">五月</rdg></app>受胎二月生</note>。二十一者容儀備足。二
+<lb n="0276b23"/>十二者住處安<note place="inline">如牛王立不動</note>。二十三者威<note n="0276018" resp="Taisho" type="orig" place="foot text">振＝震【元】【明】【宮】</note><app n="0276018"><lem>振</lem><rdg wit="【元】【明】【宮】" resp="Taisho">震</rdg></app>一切。
+<lb n="0276b24"/>二十四者一切樂觀。二十五者面不長。二十
+<lb n="0276b25"/>六者正容貌不撓色。二十七者脣如<note n="0276019" resp="Taisho" type="orig" place="foot text">頻＋（夫針反）夾註【元】【明】【宮】</note><app n="0276019"><lem>頻</lem><rdg wit="【元】【明】【宮】" resp="Taisho">頻<note place="inline">夫針反</note></rdg></app>婆果
+<lb n="0276b26"/>色。二十八者面圓滿。二十九者響聲深。三十
+<lb n="0276b27"/>者臍圓深不出。三十一者毛處處右旋。三十
+<lb n="0276b28"/>二者手足滿。三十三者手足如意<note place="inline">舊言內外握者是</note>。三
+<lb n="0276b29"/>十四者手足<note n="0276020" resp="Taisho" type="orig" place="foot text">文＝紋【元】【明】【宮】＊</note><app n="0276020"><lem>文</lem><rdg wit="【元】【明】【宮】" resp="Taisho">紋</rdg></app>明直。三十五者手<anchor id="fxT15p0276b01"/>文長。三
+<pb ed="T" id="T15.0614.0276c" n="0276c"/>
+<lb n="0276c01"/>十六者手<anchor id="fxT15p0276c01"/>文不斷。三十七者一切惡心眾生
+<lb n="0276c02"/>見者皆得和悅色。三十八者面廣姝。三十九
+<lb n="0276c03"/>者面如月。四十者眾生見者不怖不懼。四十
+<lb n="0276c04"/>一者毛孔出香風。四十二者口出香氣眾生
+<lb n="0276c05"/>遇者樂法七日。四十三者儀容如師子。四十
+<lb n="0276c06"/>四者進止如象王。四十五者行法如&CB00328;王。四
+<lb n="0276c07"/>十六者頭如磨陀羅果<note place="inline">此果不圓不長</note>。四十七者聲分
+<lb n="0276c08"/>滿足<note place="inline">聲有六十種分佛皆具足</note>。四十八者牙利。四十九<note n="0276021" resp="Taisho" type="orig" place="foot text">〔者〕－【元】【明】【宮】</note><app n="0276021"><lem>者</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app><note place="inline">無漢
+<lb n="0276c09"/>名故不得出也</note>。五十者舌大而赤。五十一者舌薄。五十
+<lb n="0276c10"/>二者毛純紅色色淨潔。五十三者廣長眼。五
+<lb n="0276c11"/>十四者孔門滿<note place="inline">九孔門相具足滿</note>。五十五者手足赤白如
+<lb n="0276c12"/>蓮華色。五十六者腹不<note n="0276022" resp="Taisho" type="orig" place="foot text">見＝現【元】【明】【宮】</note><app n="0276022"><lem>見</lem><rdg wit="【元】【明】【宮】" resp="Taisho">現</rdg></app>不出。五十七者不
+<lb n="0276c13"/><note n="0276023" resp="Taisho" type="orig" place="foot text">凸＝失【元】【明】【宮】</note><app n="0276023"><lem>凸</lem><rdg wit="【元】【明】【宮】" resp="Taisho">失</rdg></app>腹。五十八者不動身。五十九者身重。六
+<lb n="0276c14"/>十者大<note n="0276024" resp="Taisho" type="orig" place="foot text">身＋（身）【元】【明】【宮】</note><app n="0276024"><lem>身</lem><rdg wit="【元】【明】【宮】" resp="Taisho">身身</rdg></app>。六十一者身長。六十二者手足
+<lb n="0276c15"/><note n="0276025" resp="Taisho" type="orig" place="foot text">滿淨＝清淨【宮】</note><app n="0276025"><lem>滿淨</lem><rdg wit="【宮】" resp="Taisho">清淨</rdg></app>。六十三者四邊遍<note n="0276026" resp="Taisho" type="orig" place="foot text">大＝丈【元】【明】【宮】</note><app n="0276026"><lem>大</lem><rdg wit="【元】【明】【宮】" resp="Taisho">丈</rdg></app><note n="0276027" resp="Taisho" type="orig" place="foot text">〔光〕－【宮】</note><app n="0276027"><lem>光</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>光明自照而
+<lb n="0276c16"/>行。六十四者等視眾生。六十五者不著教化
+<lb n="0276c17"/>不貪弟子。六十六者隨眾聲滿不減不過。六
+<lb n="0276c18"/>十七者隨眾音聲而為說法。六十八者語言
+<lb n="0276c19"/>無礙。六十九者次第相續說法。七十者一切
+<lb n="0276c20"/>眾生目不能諦視相知盡。七十一者視無厭
+<lb n="0276c21"/>足。七十二者髮長好。七十三者髮<note n="0276028" resp="Taisho" type="orig" place="foot text">（旋）＋好【元】【明】【宮】</note><app n="0276028"><lem>好</lem><rdg wit="【元】【明】【宮】" resp="Taisho">旋好</rdg></app>。七十四
+<lb n="0276c22"/>者髮不亂。七十五者髮不破。七十六者髮柔
+<lb n="0276c23"/>軟。七十七者髮青毘琉璃色。七十八者髮<note n="0276029" resp="Taisho" type="orig" place="foot text">絞＋（柔）【元】【明】【宮】</note><app n="0276029"><lem>絞</lem><rdg wit="【元】【明】【宮】" resp="Taisho">絞柔</rdg></app>
+<lb n="0276c24"/>上。七十九者髮不稀。八十者胸有德字手足
+<lb n="0276c25"/>有吉字。光明徹照無量世界。初生行七步發
+<lb n="0276c26"/>口演要言。出家勤苦行菩提樹下降伏魔軍。
+<lb n="0276c27"/>後夜初明成等正覺。光相分明遠照十方靡
+<lb n="0276c28"/>不周遍諸天空中弦歌供養散華雨香。一切
+<lb n="0276c29"/>眾生咸敬無量。獨步三界還顧轉身如象王
+<pb ed="T" id="T15.0614.0277a" n="0277a"/>
+<lb n="0277a01"/>迴。觀視道樹初轉法輪。天人得悟以道自證
+<lb n="0277a02"/>得至涅槃。佛身如是感發無量。專心念佛不
+<lb n="0277a03"/>令外念。外念諸緣攝之令還。如是不亂。是時
+<lb n="0277a04"/>便得見一佛二佛乃至十方無量世界諸佛色
+<lb n="0277a05"/>身。以心想故皆得見之。既得見佛又聞說法
+<lb n="0277a06"/>言。或自請問。佛為說法解諸疑網。既得佛念。
+<lb n="0277a07"/>當復念佛功德法身。無量<note n="0277001" resp="Taisho" type="orig" place="foot text">大慧＝深慧【元】【明】【宮】</note><app n="0277001"><lem>大慧</lem><rdg wit="【元】【明】【宮】" resp="Taisho">深慧</rdg></app>。無崖底智。
+<lb n="0277a08"/>不可計德。多陀阿伽度<note place="inline">多陀<note n="0277002" resp="Taisho" type="orig" place="foot text">秦＝此【明】下同</note><app n="0277002"><lem>秦</lem><rdg wit="【明】" resp="Taisho">此</rdg></app>言如阿伽度言解亦言實語又言諸餘聖人安隱
+<lb n="0277a09"/>道來佛如是來復次<note n="0277003" resp="Taisho" type="orig" place="foot text">更＝反【宮】</note><app n="0277003"><lem>更</lem><rdg wit="【宮】" resp="Taisho">反</rdg></app>不來後有<note n="0277004" resp="Taisho" type="orig" place="foot text">〔中〕－【明】</note><app n="0277004"><lem>中</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>也</note>阿<note n="0277005" resp="Taisho" type="orig" place="foot text">犁＝黎【元】【明】【宮】＊</note><app n="0277005"><lem>犁</lem><rdg wit="【元】【明】【宮】" resp="Taisho">黎</rdg></app><note place="inline">魯迷<note n="0277006" resp="Taisho" type="orig" place="foot text">反＝切【明】下同</note><app n="0277006"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app></note>呵<note place="inline">阿<anchor id="fxT15p0277a01"/>犁秦言賊呵言殺佛以忍
+<lb n="0277a10"/>辱為鎧精進為堅牢禪定為弓智慧為箭殺憍慢等賊故<note n="0277007" resp="Taisho" type="orig" place="foot text">名殺賊＝殺賊也【元】，云殺賊也【明】</note><note n="0277007" resp="CBETA" type="mod">名殺賊＝殺賊也【元】，＝云殺賊也【明】</note><app n="0277007"><lem>名殺賊</lem><rdg wit="【元】" resp="Taisho">殺賊也</rdg><rdg wit="【明】" resp="Taisho">云殺賊也</rdg></app></note>三藐<note place="inline">無灼反</note>三佛陀<note place="inline">三藐
+<lb n="0277a11"/>秦言真實三佛陀言一切覺覺苦因習涅槃因道正解見四實不可轉了盡無餘故言真實覺一切</note>鞞伽<note place="inline">除夜反</note>
+<lb n="0277a12"/>遮羅那<note place="inline">鞞<note n="0277008" resp="Taisho" type="orig" place="foot text">伽＝多【元】【明】【宮】</note><app n="0277008"><lem>伽</lem><rdg wit="【元】【明】【宮】" resp="Taisho">多</rdg></app>秦言明遮羅那言善行明三明也行清淨之行<note n="0277009" resp="Taisho" type="orig" place="foot text">〔以之〕－【元】【明】【宮】</note><app n="0277009"><lem>以之</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>獨成無師大覺故言明善行也</note>三
+<lb n="0277a13"/>般那<note place="inline">秦言滿成</note>宿伽陀<note place="inline">秦言善解亦名善<note n="0277010" resp="Taisho" type="orig" place="foot text">自＝因【元】【明】【宮】</note><app n="0277010"><lem>自</lem><rdg wit="【元】【明】【宮】" resp="Taisho">因</rdg></app>得又<note n="0277011" resp="Taisho" type="orig" place="foot text">言善＝善言【元】【明】【宮】</note><app n="0277011"><lem>言善</lem><rdg wit="【元】【明】【宮】" resp="Taisho">善言</rdg></app>說無患</note>路伽憊<note place="inline"><note n="0277012" resp="Taisho" type="orig" place="foot text">皮＝夫【元】【明】【宮】</note><app n="0277012"><lem>皮</lem><rdg wit="【元】【明】【宮】" resp="Taisho">夫</rdg></app>拜
+<lb n="0277a14"/><note n="0277013" resp="Taisho" type="orig" place="foot text">反＝切【明】下同</note><app n="0277013"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app>路<note n="0277014" resp="Taisho" type="orig" place="foot text">加＝伽【元】【明】【宮】</note><app n="0277014"><lem>加</lem><rdg wit="【元】【明】【宮】" resp="Taisho">伽</rdg></app>秦言智<note n="0277015" resp="Taisho" type="orig" place="foot text">〔智〕－【元】【明】【宮】</note><app n="0277015"><lem>智</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>者知世因知盡道故名世智<note n="0277016" resp="Taisho" type="orig" place="foot text">〔世智〕－【元】【明】【宮】</note><app n="0277016"><lem>世智</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>知世也</note>阿耨多羅<note place="inline">秦言無上善法聖智
+<lb n="0277a15"/>示導一切大德無量梵魔眾聖莫有及者何況能過佛尊德大故言無<note n="0277017" resp="Taisho" type="orig" place="foot text">上＋（者也）【元】【明】【宮】</note><app n="0277017"><lem>上</lem><rdg wit="【元】【明】【宮】" resp="Taisho">上者也</rdg></app></note>富樓
+<lb n="0277a16"/>沙曇藐<note place="inline">富樓沙秦言大丈夫曇藐言可<note n="0277018" resp="Taisho" type="orig" place="foot text">（化）＋言【元】【明】【宮】</note><app n="0277018"><lem>言</lem><rdg wit="【元】【明】【宮】" resp="Taisho">化言</rdg></app>可化丈夫調御師佛以大慈大悲大<note n="0277019" resp="Taisho" type="orig" place="foot text">智＝福【元】【明】【宮】</note><app n="0277019"><lem>智</lem><rdg wit="【元】【明】【宮】" resp="Taisho">福</rdg></app>故有<note n="0277020" resp="Taisho" type="orig" place="foot text">〔時〕－【元】【明】【宮】</note><app n="0277020"><lem>時</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>軟美語有時苦切語或以親<note n="0277021" resp="Taisho" type="orig" place="foot text">教＝救【宮】</note><app n="0277021"><lem>教</lem><rdg wit="【宮】" resp="Taisho">救</rdg></app>以
+<lb n="0277a17"/>此調御令不失道故名佛為可化丈夫調御<note n="0277022" resp="Taisho" type="orig" place="foot text">〔師〕－【宮】</note><app n="0277022"><lem>師</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app><note n="0277023" resp="Taisho" type="orig" place="foot text">〔法〕－【元】【明】</note><app n="0277023"><lem>法</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>也</note>舍<note place="inline">賒<note n="0277024" resp="Taisho" type="orig" place="foot text">〔音〕－【元】【明】</note><app n="0277024"><lem>音</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></note>多<note place="inline"><note n="0277025" resp="Taisho" type="orig" place="foot text">都＝郁【元】【明】</note><app n="0277025"><lem>都</lem><rdg wit="【元】【明】" resp="Taisho">郁</rdg></app>餓反</note>提婆魔&CB00145;
+<lb n="0277a18"/>舍<note n="0277026" resp="Taisho" type="orig" place="foot text">喃＝諵【元】【明】【宮】</note><app n="0277026"><lem>喃</lem><rdg wit="【元】【明】【宮】" resp="Taisho">諵</rdg></app><note place="inline"><note n="0277027" resp="Taisho" type="orig" place="foot text">奴甘＝奴鑒【元】【明】【宮】</note><app n="0277027"><lem>奴甘</lem><rdg wit="【元】【明】【宮】" resp="Taisho">奴鑒</rdg></app>反秦言天人<note n="0277028" resp="Taisho" type="orig" place="foot text">師＋（佛）【元】【明】【宮】</note><app n="0277028"><lem>師</lem><rdg wit="【元】【明】【宮】" resp="Taisho">師佛</rdg></app><note n="0277029" resp="Taisho" type="orig" place="foot text">〔盡〕－【元】【明】【宮】</note><app n="0277029"><lem>盡</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>能解脫一切人煩惱常住不退<note n="0277030" resp="Taisho" type="orig" place="foot text">上法＝上【元】【宮】，也【明】</note><note n="0277030" resp="CBETA" type="mod">上法＝上【元】【宮】，＝也【明】</note><app n="0277030"><lem>上法</lem><rdg wit="【元】【宮】" resp="Taisho">上</rdg><rdg wit="【明】" resp="Taisho">也</rdg></app></note>佛婆伽婆
+<lb n="0277a19"/><note place="inline">過去未來現在行不行知行盡不盡一切諸法菩提樹下一切了了知故名佛婆伽婆言有大名聲復次<note n="0277031" resp="Taisho" type="orig" place="foot text">婆＋（伽）【元】【明】【宮】</note><app n="0277031"><lem>婆</lem><rdg wit="【元】【明】【宮】" resp="Taisho">婆伽</rdg></app>名女根婆名
+<lb n="0277a20"/>吐永棄女根故女根<note n="0277032" resp="Taisho" type="orig" place="foot text">吐＋（者）【元】【明】【宮】</note><app n="0277032"><lem>吐</lem><rdg wit="【元】【明】【宮】" resp="Taisho">吐者</rdg></app>也</note></p>
+<lb n="0277a21"/><p>爾時復念二佛神德三四五佛乃至無量盡虛
+<lb n="0277a22"/>空界皆悉如是。復還見一佛。能見一佛作十
+<lb n="0277a23"/>方佛。能見十方佛作一佛。能令一色作金銀
+<lb n="0277a24"/>水精毘琉璃色。隨人意樂悉令見之。爾時<note n="0277033" resp="Taisho" type="orig" place="foot text">惟＝唯【元】【明】【宮】</note><app n="0277033"><lem>惟</lem><rdg wit="【元】【明】【宮】" resp="Taisho">唯</rdg></app>
+<lb n="0277a25"/>觀<note n="0277034" resp="Taisho" type="orig" place="foot text">二事＝三事【元】【明】【宮】</note><app n="0277034"><lem>二事</lem><rdg wit="【元】【明】【宮】" resp="Taisho">三事</rdg></app>。虛空佛身及佛功德。更無異念。心
+<lb n="0277a26"/>得自在意不馳散。是時得成念佛三昧。<note n="0277035" resp="Taisho" type="orig" place="foot text">若＋（行者）【元】【明】【宮】</note><app n="0277035"><lem>若</lem><rdg wit="【元】【明】【宮】" resp="Taisho">若行者</rdg></app>心
+<lb n="0277a27"/>馳散念在五塵。<note n="0277036" resp="Taisho" type="orig" place="foot text">若在六覺＝及六思覺【元】【明】【宮】</note><app n="0277036"><lem>若在六覺</lem><rdg wit="【元】【明】【宮】" resp="Taisho">及六思覺</rdg></app>者。當自勗勉剋勵
+<lb n="0277a28"/>其心強制伏之。如是思惟人身難得佛法難
+<lb n="0277a29"/>遇。故曰眾明日為最。諸智佛為最。所以者何。
+<pb ed="T" id="T15.0614.0277b" n="0277b"/>
+<lb n="0277b01"/>佛興大悲常為一切故。頭目髓腦救濟眾生。
+<lb n="0277b02"/>何可放心不專念佛而<note n="0277037" resp="Taisho" type="orig" place="foot text">孤＝辜【元】【明】【宮】</note><app n="0277037"><lem>孤</lem><rdg wit="【元】【明】【宮】" resp="Taisho">辜</rdg></app>負重恩。若佛不出
+<lb n="0277b03"/>世。則無人道天道涅槃之道。若人香華供養。
+<lb n="0277b04"/>以骨肉血髓起塔供養。未若行人以法供養
+<lb n="0277b05"/>得至涅槃。雖然猶負佛恩。設當念佛空無所
+<lb n="0277b06"/>獲。猶應勤心專念不忘以報佛恩。何況念佛
+<lb n="0277b07"/>得諸三昧智慧成佛。而不專念。是故行者。常
+<lb n="0277b08"/>當專心令意不散。既得見佛請<note n="0277038" resp="Taisho" type="orig" place="foot text">質＝決【元】【明】【宮】</note><app n="0277038"><lem>質</lem><rdg wit="【元】【明】【宮】" resp="Taisho">決</rdg></app>所疑。是
+<lb n="0277b09"/><note n="0277039" resp="Taisho" type="orig" place="foot text">名＋（曰）【元】【明】【宮】</note><app n="0277039"><lem>名</lem><rdg wit="【元】【明】【宮】" resp="Taisho">名曰</rdg></app>念佛三昧除滅等分<note n="0277040" resp="Taisho" type="orig" place="foot text">及餘重罪＝及重罪法門念佛三昧【宮】</note><app n="0277040"><lem>及餘重罪</lem><rdg wit="【宮】" resp="Taisho">及重罪法門念佛三昧</rdg></app></p>
+<lb n="0277b10"/><juan fun="close" n="001"><jhead><title>坐禪三<anchor id="fxT15p0277b01"/>昧經</title>卷上</jhead></juan>
+<lb n="0277b11"/>
+<milestone unit="juan" n="2"/>
+<lb n="0277b12"/>
+<lb n="0277b13"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>坐禪三<anchor id="fxT15p0277b02"/>昧經</title>卷下</jhead></juan>
+<lb n="0277b14"/>
+<lb n="0277b15"/><byline type="Translator"><anchor id="fxT15p0277b03"/>姚秦<anchor id="fxT15p0277b04"/>三藏鳩摩羅什譯</byline>
+<lb n="0277b16"/><p>爾時行者雖得一心定力未成。猶為欲界煩
+<lb n="0277b17"/>惱所亂。當作方便進學初禪呵棄愛欲。云何
+<lb n="0277b18"/>呵棄。觀欲界過欲為不淨種種不善。當念初
+<lb n="0277b19"/>禪安隱快樂。觀欲云何。知欲無常功德怨家。
+<lb n="0277b20"/>如幻如化空無所得。念之未得癡心已亂。何
+<lb n="0277b21"/>況已得婬欲纏覆。天上樂處猶不常安。何況
+<lb n="0277b22"/>人中。人心著欲無有厭足。如火得薪如海吞
+<lb n="0277b23"/>流。如頂生王雖雨七寶王四天下。帝釋分座
+<lb n="0277b24"/>猶不如足。如那&CB00264;沙。<note n="0277041" resp="Taisho" type="orig" place="foot text">姓也二字作夾註【元】【明】【宮】</note><note n="0277041" resp="CBETA" type="mod">（姓也）本文＝（姓也）夾註【元】【明】【宮】</note><app n="0277041"><lem>姓也</lem><rdg wit="【元】【明】【宮】" resp="Taisho"><note place="inline">姓也</note></rdg></app>。轉金輪王為欲
+<lb n="0277b25"/>所逼墮蟒蛇中。又如仙人食果衣草隱居深
+<lb n="0277b26"/>山被髮求道。猶復不免欲賊所壞。欲樂甚少
+<lb n="0277b27"/>怨毒甚多。著欲之人惡友相近善人&CB00565;遠欲
+<lb n="0277b28"/>為毒酒愚惑醉死。欲為欺誑走使愚人。疲苦
+<lb n="0277b29"/>萬端不得自在。唯有離欲身心安隱快樂無
+<pb ed="T" id="T15.0614.0277c" n="0277c"/>
+<lb n="0277c01"/>極。欲無所得如狗&CB00599;枯骨。求欲勤勞極苦乃
+<lb n="0277c02"/>得。得之甚難失之甚易。如假借須臾勢不得
+<lb n="0277c03"/>久。如夢所見恍惚即滅。欲之為患。求<note n="0277042" resp="Taisho" type="orig" place="foot text">之＝時【元】【明】【宮】</note><app n="0277042"><lem>之</lem><rdg wit="【元】【明】【宮】" resp="Taisho">時</rdg></app>既
+<lb n="0277c04"/>苦得之亦苦。多得多苦。如火得薪多益多熾。
+<lb n="0277c05"/>欲如<note n="0277043" resp="Taisho" type="orig" place="foot text">搏＝段【元】【明】【宮】</note><app n="0277043"><lem>搏</lem><rdg wit="【元】【明】【宮】" resp="Taisho">段</rdg></app>肉眾鳥競逐。以要言之。如蛾赴火如
+<lb n="0277c06"/>魚吞鉤。如鹿逐聲如渴飲&CB00367;水。一切眾生為
+<lb n="0277c07"/>欲致患無苦不至。是故當知。欲為毒害。當求
+<lb n="0277c08"/>初禪滅斷欲火。行者一心精懃信樂。令心增
+<lb n="0277c09"/>進意不散亂。觀欲心厭除結惱<note n="0277044" resp="Taisho" type="orig" place="foot text">盡＝蓋【宮】</note><app n="0277044"><lem>盡</lem><rdg wit="【宮】" resp="Taisho">蓋</rdg></app>。得初禪定
+<lb n="0277c10"/>離欲盛火得清涼定。如熱得<note n="0277045" resp="Taisho" type="orig" place="foot text">蔭＝陰【元】【明】【宮】</note><app n="0277045"><lem>蔭</lem><rdg wit="【元】【明】【宮】" resp="Taisho">陰</rdg></app>如貧得富。是
+<lb n="0277c11"/>時便得初禪喜覺。思惟禪中種種功德。觀分
+<lb n="0277c12"/>別好醜便得一心</p>
+<lb n="0277c13"/><p>問曰。修行禪人得一心相。云何可知。答曰。面
+<lb n="0277c14"/>色悅澤徐行靖正不失一心目不著色。神德
+<lb n="0277c15"/>定力不貪名利擊破憍慢其性柔軟不懷毒害
+<lb n="0277c16"/>無復慳嫉。直信心淨論議不諍。身無欺誑易
+<lb n="0277c17"/>可與語。柔軟慚愧心常在法。懃修精進持戒
+<lb n="0277c18"/>完具。誦經正憶念隨法行。意常喜悅瞋處不
+<lb n="0277c19"/>瞋四供養中不淨不受。淨施則受知量止足。
+<lb n="0277c20"/>寤起輕利能行二施忍辱除邪。論議<note n="0277046" resp="Taisho" type="orig" place="foot text">（而）＋不【元】【明】【宮】</note><app n="0277046"><lem>不</lem><rdg wit="【元】【明】【宮】" resp="Taisho">而不</rdg></app>自滿
+<lb n="0277c21"/>言語&CB00458;少。謙恪恭敬上中下座。善師善知識
+<lb n="0277c22"/><note n="0277047" resp="Taisho" type="orig" place="foot text">〔常〕－【元】【明】【宮】</note><app n="0277047"><lem>常</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>親近隨順。飲食知節不著<note n="0277048" resp="Taisho" type="orig" place="foot text">欲味＝好味【元】【明】【宮】</note><app n="0277048"><lem>欲味</lem><rdg wit="【元】【明】【宮】" resp="Taisho">好味</rdg></app>。樂獨靜
+<lb n="0277c23"/>處若苦若樂心忍不動。無怨無競不喜&CB00508;訟。
+<lb n="0277c24"/>如是<note n="0277049" resp="Taisho" type="orig" place="foot text">〔等〕－【元】【明】【宮】</note><app n="0277049"><lem>等</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>種種相得知一心<note n="0277050" resp="Taisho" type="orig" place="foot text">相＋（如是得入初禪觀分別好醜知）【元】【明】【宮】</note><app n="0277050"><lem>相</lem><rdg wit="【元】【明】【宮】" resp="Taisho">相如是得入初禪觀分別好醜知</rdg></app>。此覺觀二事
+<pb ed="T" id="T15.0614.0278a" n="0278a"/>
+<lb n="0278a01"/>亂禪定心。如水澄靜波蕩則濁。行者如是內
+<lb n="0278a02"/><note n="0278001" resp="Taisho" type="orig" place="foot text">已＝以【元】【明】【宮】</note><app n="0278001"><lem>已</lem><rdg wit="【元】【明】【宮】" resp="Taisho">以</rdg></app>一心覺觀所惱。如極得息如睡得安。是時
+<lb n="0278a03"/>次<note n="0278002" resp="Taisho" type="orig" place="foot text">第＝學【元】【明】</note><app n="0278002"><lem>第</lem><rdg wit="【元】【明】" resp="Taisho">學</rdg></app>無覺無觀生清淨定。內淨喜樂得入二
+<lb n="0278a04"/>禪。心靜默然本所不得。今得此喜。是時心觀
+<lb n="0278a05"/>以喜為患。如上覺觀行無喜法。<note n="0278003" resp="Taisho" type="orig" place="foot text">乃離＝離捨【元】【明】【宮】</note><app n="0278003"><lem>乃離</lem><rdg wit="【元】【明】【宮】" resp="Taisho">離捨</rdg></app>喜地得
+<lb n="0278a06"/>賢聖<note n="0278004" resp="Taisho" type="orig" place="foot text">〔所說〕－【元】【明】【宮】</note><app n="0278004"><lem>所說</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>樂。一心諦知念護得入三禪。已棄
+<lb n="0278a07"/>喜故諦知憶念樂護。聖人言樂護。餘人難捨
+<lb n="0278a08"/>樂中第一。過此以往無復樂也。是故一切聖
+<lb n="0278a09"/>人。於一切淨地中。說慈為第一樂。樂則是患。
+<lb n="0278a10"/>所以者何。第一禪中心不動轉。以無事故有
+<lb n="0278a11"/>動則有轉。有轉則有苦。是故三禪以樂為患。
+<lb n="0278a12"/><note n="0278005" resp="Taisho" type="orig" place="foot text">復＝欲【元】【明】【宮】</note><app n="0278005"><lem>復</lem><rdg wit="【元】【明】【宮】" resp="Taisho">欲</rdg></app>以善妙捨此苦樂。先棄憂喜除苦樂意。護
+<lb n="0278a13"/>念清淨<note n="0278006" resp="Taisho" type="orig" place="foot text">〔得〕－【元】【明】【宮】</note><app n="0278006"><lem>得</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>入第四禪。不苦不樂護清淨念一
+<lb n="0278a14"/>心。是故佛言。護最清淨<note n="0278007" resp="Taisho" type="orig" place="foot text">〔第一〕－【元】【明】【宮】</note><app n="0278007"><lem>第一</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>名第四禪。以
+<lb n="0278a15"/>第三禪樂動故名之為苦。是故四禪除滅苦
+<lb n="0278a16"/>樂名不動處。漸觀空處破內外色想。滅有對
+<lb n="0278a17"/>想。不念種種色想。觀無量空處。常觀色過。念
+<lb n="0278a18"/>空處定上妙功德。習念是法逮得空<note n="0278008" resp="Taisho" type="orig" place="foot text">處＝定【元】【明】【宮】＊</note><app n="0278008"><lem>處</lem><rdg wit="【元】【明】【宮】" resp="Taisho">定</rdg></app>。念無
+<lb n="0278a19"/>量識處觀空處過。念無量識處功德。習念是
+<lb n="0278a20"/>法逮得識<anchor id="fxT15p0278a01"/>處。念無所有處觀識處過。念無所
+<lb n="0278a21"/>有處功德。習念是法便得無所有處。念非有
+<lb n="0278a22"/>想非無想處。若一切想其患甚多。若病若瘡
+<lb n="0278a23"/>若無想是愚癡處。是故非有想非無想。是第
+<lb n="0278a24"/>一安隱善處。觀無所有處過。念非有想非無
+<lb n="0278a25"/>想功德。習念是法便得非有想非無想處。或
+<lb n="0278a26"/>有行者。先從初地乃至上地。復於上地習行
+<lb n="0278a27"/>慈心。先自得樂破瞋恚毒。次及十方無量眾
+<lb n="0278a28"/>生。是時便得慈心三昧。悲心憐愍眾生之苦。
+<lb n="0278a29"/>能破眾惱。廣及無量眾生。是時便得悲心三
+<pb ed="T" id="T15.0614.0278b" n="0278b"/>
+<lb n="0278b01"/>昧。能破不悅。令無量眾生皆得喜悅。是時便
+<lb n="0278b02"/>得喜心三昧。能破苦樂。直觀十方無量眾生。
+<lb n="0278b03"/>是時便得護心三昧。二禪亦復如是。三禪四
+<lb n="0278b04"/>禪除喜。次學五通。身能飛行變化自在。行者
+<lb n="0278b05"/>一心欲定精進定一心定慧定。一心觀身常
+<lb n="0278b06"/>作輕想欲成飛行。若大若小<note place="inline">以欲定過為大以欲定<note n="0278009" resp="Taisho" type="orig" place="foot text">減＝滅【元】【明】【宮】</note><app n="0278009"><lem><corr resp="cp" sic="滅">減</corr></lem><rdg wit="【元】【明】【宮】" resp="Taisho">滅</rdg></app>為小</note>。此
+<lb n="0278b07"/>二俱患精進翹懃。常能一心思惟輕觀。如能
+<lb n="0278b08"/>浮人心<note n="0278010" resp="Taisho" type="orig" place="foot text">力＝慾【元】【明】，欲【宮】</note><note n="0278010" resp="CBETA" type="mod">力＝慾【元】【明】，＝欲【宮】</note><app n="0278010"><lem>力</lem><rdg wit="【元】【明】" resp="Taisho">慾</rdg><rdg wit="【宮】" resp="Taisho">欲</rdg></app>強故而不沈沒。亦如猿猴從高上
+<lb n="0278b09"/>墮。心力強故身無痛患。此亦如是。欲力精進
+<lb n="0278b10"/>力一心力慧力令其廣大。而身更小便能運
+<lb n="0278b11"/>身</p>
+<lb n="0278b12"/><p>復次觀身空界。常習此觀。欲力精進力一心
+<lb n="0278b13"/>力慧力極為廣大。便能舉身。如大風力致重
+<lb n="0278b14"/>達遠。此亦如是。初當自試。離地一尺二尺。漸
+<lb n="0278b15"/>至一丈還來本處。如鳥子學飛小兒學行。思
+<lb n="0278b16"/>惟自審知心力大必能至遠。學觀四大。除&CB00230;
+<lb n="0278b17"/>地大但觀三大。心念不散便得自在。身無罣
+<lb n="0278b18"/>礙如鳥飛行。當復學習。遠作近想是故近滅
+<lb n="0278b19"/>遠出。復能變化諸物。如觀木地種除&CB00230;餘種。
+<lb n="0278b20"/>此木便變為地。所以者何。木有地種分故。水
+<lb n="0278b21"/>火風空金銀寶物悉皆如是。何以故。木有諸
+<lb n="0278b22"/>種分故。是初神通根本。四禪有十四變化心。
+<lb n="0278b23"/>初禪二果。一者初禪。二者欲界。二禪三果。一
+<lb n="0278b24"/>者二禪。二者初禪。三者欲界。三禪四果。一者
+<lb n="0278b25"/>三禪。二者二禪。三者初禪。四者欲界。四禪五
+<lb n="0278b26"/>果。一者四禪。二者三禪。三者二禪。四者初
+<lb n="0278b27"/>禪。五者欲界。餘通<note n="0278011" resp="Taisho" type="orig" place="foot text">〔如〕－【元】【明】【宮】</note><app n="0278011"><lem>如</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>摩訶衍論中說。世尊
+<lb n="0278b28"/>弟子<note n="0278012" resp="Taisho" type="orig" place="foot text">〔習〕－【元】【明】【宮】</note><app n="0278012"><lem>習</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>學五法門志求涅槃。有二種人。或好
+<lb n="0278b29"/>定多以<note n="0278013" resp="Taisho" type="orig" place="foot text">快樂＝著樂【元】【明】【宮】</note><app n="0278013"><lem>快樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">著樂</rdg></app>故。或好智多畏苦患故。定多者
+<pb ed="T" id="T15.0614.0278c" n="0278c"/>
+<lb n="0278c01"/>先學禪法後學涅槃。智多者直趣涅槃。直趣
+<lb n="0278c02"/>涅槃者未斷煩惱亦未得禪。專心不散直求
+<lb n="0278c03"/>涅槃越愛等<note n="0278014" resp="Taisho" type="orig" place="foot text">〔諸〕－【元】【明】【宮】＊</note><app n="0278014"><lem>諸</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>煩惱。是名涅槃。身實無常苦
+<lb n="0278c04"/>不淨無我。<note n="0278015" resp="Taisho" type="orig" place="foot text">〔以〕－【元】【明】【宮】</note><app n="0278015"><lem>以</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>身顛倒故常樂<note n="0278016" resp="Taisho" type="orig" place="foot text">我淨＝淨我【元】【明】【宮】</note><app n="0278016"><lem>我淨</lem><rdg wit="【元】【明】【宮】" resp="Taisho">淨我</rdg></app>。以是故
+<lb n="0278c05"/>事事愛著其身。是則底下眾生。行者欲破顛
+<lb n="0278c06"/>倒故。<note n="0278017" resp="Taisho" type="orig" place="foot text">〔當〕－【元】【明】【宮】</note><app n="0278017"><lem>當</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>習四念止觀。觀身種種多諸苦患。
+<lb n="0278c07"/>從因緣生故無常種種惱故苦。身有三十六
+<lb n="0278c08"/>物故不淨。以不得自在故無我。習如是觀。觀
+<lb n="0278c09"/>內身觀外身觀內外身。習如是觀。是謂身念
+<lb n="0278c10"/>止。<note n="0278018" resp="Taisho" type="orig" place="foot text">〔身〕－【元】【明】【宮】</note><app n="0278018"><lem>身</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>實相如是。何故於此而起顛倒愛著此
+<lb n="0278c11"/>身。諦思惟念身邊樂痛。以愛樂痛故著此身。
+<lb n="0278c12"/>當觀樂痛實不可得。云何不<note n="0278019" resp="Taisho" type="orig" place="foot text">（可）＋得【元】【明】【宮】</note><app n="0278019"><lem>得</lem><rdg wit="【元】【明】【宮】" resp="Taisho">可得</rdg></app>因衣食故致
+<lb n="0278c13"/>樂。樂過則苦生。非實樂故。如患瘡苦以藥塗
+<lb n="0278c14"/>治痛止為樂。以大苦故謂小苦為樂。非實樂
+<lb n="0278c15"/>也。復次以故苦為苦。<note n="0278020" resp="Taisho" type="orig" place="foot text">新＝斷【宮】＊</note><app n="0278020"><lem>新</lem><rdg wit="【宮】" resp="Taisho">斷</rdg></app>苦為樂。如擔重易
+<lb n="0278c16"/><note n="0278021" resp="Taisho" type="orig" place="foot text">肩＋（輕為樂）【元】，＋（肩輕為樂）【明】【宮】</note><app n="0278021"><lem>肩</lem><rdg wit="【元】" resp="Taisho">肩輕為樂</rdg><rdg wit="【明】【宮】" resp="Taisho">肩肩輕為樂</rdg></app>而以<anchor id="fxT15p0278c01"/>新重為樂。<note n="0278022" resp="Taisho" type="orig" place="foot text">非實常＝實非【元】【明】【宮】</note><app n="0278022"><lem>非實常</lem><rdg wit="【元】【明】【宮】" resp="Taisho">實非</rdg></app>樂也。如火性熱
+<lb n="0278c17"/>無暫冷時。若是實樂不應<note n="0278023" resp="Taisho" type="orig" place="foot text">〔有〕－【宮】</note><app n="0278023"><lem>有</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>不樂。<note n="0278024" resp="Taisho" type="orig" place="foot text">（時）＋或【元】【明】</note><app n="0278024"><lem>或</lem><rdg wit="【元】【明】" resp="Taisho">時或</rdg></app>曰。外
+<lb n="0278c18"/>事是樂因緣不必是樂。或時樂因或時苦因。
+<lb n="0278c19"/>若使心法與愛相應爾時是樂。與恚相應爾時
+<lb n="0278c20"/>是苦。與癡相應不苦不樂。以此<note n="0278025" resp="Taisho" type="orig" place="foot text">〔推之〕－【元】【明】【宮】</note><app n="0278025"><lem>推之</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。可知
+<lb n="0278c21"/>有樂無<note n="0278026" resp="Taisho" type="orig" place="foot text">樂＋（耶）【元】【明】【宮】</note><app n="0278026"><lem>樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">樂耶</rdg></app>。答曰。無也。婬欲不應是樂。何以
+<lb n="0278c22"/>故。若婬欲在內。不應外求女色。外求女色當
+<lb n="0278c23"/>知婬苦。若婬是樂不應時時棄。若棄<note n="0278027" resp="Taisho" type="orig" place="foot text">不應是樂＝非樂也【元】【明】【宮】</note><app n="0278027"><lem>不應是
+<lb n="0278c24"/>樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">非樂也</rdg></app>。於大苦中<note n="0278028" resp="Taisho" type="orig" place="foot text">〔以〕－【元】【明】【宮】</note><app n="0278028"><lem>以</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>小苦為樂也。如人應死全命
+<lb n="0278c25"/>受鞭。以是為樂。欲心熾盛以欲為樂。老時厭
+<lb n="0278c26"/>欲知欲非樂。若實樂相不應生厭。<note n="0278029" resp="Taisho" type="orig" place="foot text">〔如是〕－【元】【明】【宮】</note><app n="0278029"><lem>如是</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>種種
+<lb n="0278c27"/>因緣欲樂相實不可得。<note n="0278030" resp="Taisho" type="orig" place="foot text">樂失＝失樂【元】【明】【宮】</note><app n="0278030"><lem>樂失</lem><rdg wit="【元】【明】【宮】" resp="Taisho">失樂</rdg></app>則苦。佛言。樂
+<lb n="0278c28"/>痛應觀苦。苦痛應觀樂。如箭在體。不苦不樂
+<lb n="0278c29"/>應觀生滅無常。是謂痛念止。當知心受苦樂
+<pb ed="T" id="T15.0614.0279a" n="0279a"/>
+<lb n="0279a01"/>受不苦不樂。云何心。是心無常從因緣生故。
+<lb n="0279a02"/>生滅不住相似生故。但顛倒故謂是為一。本
+<lb n="0279a03"/>無今有已有還無。是故無常。觀知心空云何
+<lb n="0279a04"/>為空。從因緣生有眼<note n="0279001" resp="Taisho" type="orig" place="foot text">有色＋（有色）【元】【明】【宮】</note><app n="0279001"><lem>有色</lem><rdg wit="【元】【明】【宮】" resp="Taisho">有色有色</rdg></app>可見憶念。欲見如
+<lb n="0279a05"/>是等和合<note n="0279002" resp="Taisho" type="orig" place="foot text">眼識生＝生眼識【元】【明】【宮】</note><app n="0279002"><lem>眼識生</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生眼識</rdg></app>。如日愛珠。有日有珠。<note n="0279003" resp="Taisho" type="orig" place="foot text">〔有〕－【元】【明】【宮】</note><app n="0279003"><lem>有</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0279a06"/>乾草牛屎眾緣和合於是<note n="0279004" resp="Taisho" type="orig" place="foot text">火生＝生火【元】【明】【宮】</note><app n="0279004"><lem>火生</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生火</rdg></app>。一一推求火
+<lb n="0279a07"/>不可得。緣合有火。眼識亦爾。不住眼中亦非
+<lb n="0279a08"/>色中住。不兩中間住。無有住處亦復不無。是
+<lb n="0279a09"/>故佛言。如幻如化現在心觀過去心。或苦或
+<lb n="0279a10"/>樂或不苦不樂。心各各異各各滅。有欲心無
+<lb n="0279a11"/>欲心亦如是。各各異各各滅。觀內心觀外心
+<lb n="0279a12"/>觀內外心亦如是。是名心念止。復次觀心<note n="0279005" resp="Taisho" type="orig" place="foot text">〔為〕－【元】【明】【宮】</note><app n="0279005"><lem>為</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0279a13"/>屬誰。觀想思<note n="0279006" resp="Taisho" type="orig" place="foot text">惟＝憶【元】【明】【宮】</note><app n="0279006"><lem>惟</lem><rdg wit="【元】【明】【宮】" resp="Taisho">憶</rdg></app>念欲等諸心相應法不相應
+<lb n="0279a14"/>法。諦觀其主主不可得。何以故。從因緣生故
+<lb n="0279a15"/>無常。無常故苦。苦故不自在。不自在故無主。
+<lb n="0279a16"/>無主故空。前別觀身痛心法不可得。今更總
+<lb n="0279a17"/>觀四念止中主不可得。離此處求亦不可得。
+<lb n="0279a18"/>若常不可得。無常亦不可得。若常應當常苦
+<lb n="0279a19"/>常樂亦不應忘。若常有神者。無殺惱罪亦無
+<lb n="0279a20"/>涅槃。若身是神。無常身滅神亦應滅。亦無後
+<lb n="0279a21"/>世亦無罪福。如是遍觀無主。諸法皆空不自
+<lb n="0279a22"/>在。因緣合故生。因緣壞故滅。如是緣合法是
+<lb n="0279a23"/>名法念止。若行者得法念止。厭世間空老病
+<lb n="0279a24"/>死法都無少許常樂我淨。<note n="0279007" resp="Taisho" type="orig" place="foot text">我於＝於我【元】【明】【宮】</note><app n="0279007"><lem>我於</lem><rdg wit="【元】【明】【宮】" resp="Taisho">於我</rdg></app>此空法復何
+<lb n="0279a25"/>所求。應當入涅槃最善法中住。建精進力得
+<lb n="0279a26"/>深舍摩陀故<note place="inline">深舍摩陀者住心一處名也此土無是名</note>。是<note n="0279008" resp="Taisho" type="orig" place="foot text">〔時〕－【元】【明】【宮】</note><app n="0279008"><lem>時</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>得深舍摩
+<lb n="0279a27"/>陀。住第四法念止中。觀諸法相皆苦無樂。無
+<lb n="0279a28"/>樂是實餘者妄語。<note n="0279009" resp="Taisho" type="orig" place="foot text">（是）＋苦【元】【明】【宮】</note><app n="0279009"><lem>苦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">是苦</rdg></app>因愛等<anchor id="fxT15p0279a01"/>諸煩惱及業。
+<lb n="0279a29"/>是非天非時非塵等種種妄語中生。是煩惱
+<pb ed="T" id="T15.0614.0279b" n="0279b"/>
+<lb n="0279b01"/>及業出生此苦。是苦入涅槃時一切滅盡。非
+<lb n="0279b02"/>色無色界及世界始<note n="0279010" resp="Taisho" type="orig" place="foot text">〔世界始〕－【元】【明】【宮】</note><app n="0279010"><lem>世界始</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app><note place="inline">外道謂一切有法之初<note n="0279011" resp="Taisho" type="orig" place="foot text">色＝名【元】【明】【宮】</note><app n="0279011"><lem>色</lem><rdg wit="【元】【明】【宮】" resp="Taisho">名</rdg></app>為世界始外道
+<lb n="0279b03"/>謂涅槃<note n="0279012" resp="Taisho" type="orig" place="foot text">〔也〕－【元】【明】【宮】</note><app n="0279012"><lem>也</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>以<note n="0279013" resp="Taisho" type="orig" place="foot text">〔此〕－【元】【明】【宮】</note><app n="0279013"><lem>此</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>有始能化作萬物即名造化也</note>等種種妄語能滅此苦。正
+<lb n="0279b04"/>見等八<note n="0279014" resp="Taisho" type="orig" place="foot text">直＋（道）【元】【明】</note><app n="0279014"><lem>直</lem><rdg wit="【元】【明】" resp="Taisho">直道</rdg></app>是涅槃道。非餘<note n="0279015" resp="Taisho" type="orig" place="foot text">外道苦行＝斷食等種種苦行亦非【元】【明】【宮】</note><app n="0279015"><lem>外道苦行</lem><rdg wit="【元】【明】【宮】" resp="Taisho">斷食等種種苦行亦非</rdg></app>種種
+<lb n="0279b05"/>空持戒空禪定空智慧。何以故。佛法中戒定
+<lb n="0279b06"/>慧三法合行能入涅槃。譬如人立平地持好弓
+<lb n="0279b07"/>箭能射殺怨賊。三法合行亦如是。戒為平地。
+<lb n="0279b08"/>禪定為快弓。智慧為利箭。三事備足能殺煩
+<lb n="0279b09"/>惱賊。<note n="0279016" resp="Taisho" type="orig" place="foot text">〔以〕－【元】【明】【宮】</note><app n="0279016"><lem>以</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>是故外道輩不得涅槃。行者是時作
+<lb n="0279b10"/>四法緣觀緣如射博。觀苦四種。因緣生故無
+<lb n="0279b11"/>常。身心惱故苦。無一可得故空。無作無受故
+<lb n="0279b12"/>無我。觀<note n="0279017" resp="Taisho" type="orig" place="foot text">習＝集【元】【明】</note><app n="0279017"><lem>習</lem><rdg wit="【元】【明】" resp="Taisho">集</rdg></app>四種。煩惱有漏業和合故集。相
+<lb n="0279b13"/>似果生故因。是中得一切行故生。非相似果
+<lb n="0279b14"/>相續故緣。觀盡四種。一切煩惱覆故閉。除煩
+<lb n="0279b15"/>惱火故滅一切法中第一故妙。世間過去故
+<lb n="0279b16"/>出。觀道四種。能到涅槃故道。不顛倒故正。一
+<lb n="0279b17"/>切聖人去處故跡。得脫世愁惱故離。如是觀
+<lb n="0279b18"/>者得無漏相似法。名為煖法。云何<note n="0279018" resp="Taisho" type="orig" place="foot text">〔名〕－【宮】</note><app n="0279018"><lem>名</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>煖。常
+<lb n="0279b19"/>懃精進故名煖法。諸煩惱薪無漏智火。燒火
+<lb n="0279b20"/>欲出初相名為煖法。譬如鑽火初鑽煙出。是
+<lb n="0279b21"/><note n="0279019" resp="Taisho" type="orig" place="foot text">名＋（為）【元】【明】【宮】</note><app n="0279019"><lem>名</lem><rdg wit="【元】【明】【宮】" resp="Taisho">名為</rdg></app>煖。是為涅槃道初相。佛弟子中有二種
+<lb n="0279b22"/>人。一者多好一心求禪定。是人有漏道。二者
+<lb n="0279b23"/>多除愛著好實智慧。<note n="0279020" resp="Taisho" type="orig" place="foot text">〔是人〕－【元】【明】【宮】</note><app n="0279020"><lem>是人</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>直趣涅槃入煖法
+<lb n="0279b24"/>中。有煖相者深得一心。實法鏡到無漏界邊
+<lb n="0279b25"/><note place="inline">鏡中像似面界邊非中故以為喻</note>。行者是時大得安隱。自念。我定
+<lb n="0279b26"/>當得涅槃。<note n="0279021" resp="Taisho" type="orig" place="foot text">（以）＋見【元】【明】【宮】</note><app n="0279021"><lem>見</lem><rdg wit="【元】【明】【宮】" resp="Taisho">以見</rdg></app>此道故。如人穿井得至濕泥。
+<lb n="0279b27"/>知當得水不久。如人擊賊賊已退散。自知得
+<lb n="0279b28"/>勝意中安隱。<note n="0279022" resp="Taisho" type="orig" place="foot text">如人＝譬如病人【元】【明】，譬如病死【宮】</note><note n="0279022" resp="CBETA" type="mod">如人＝譬如病人【元】【明】，＝譬如病死【宮】</note><app n="0279022"><lem>如人</lem><rdg wit="【元】【明】" resp="Taisho">譬如病人</rdg><rdg wit="【宮】" resp="Taisho">譬如病死</rdg></app>怖死。人欲知活不。當先
+<lb n="0279b29"/>試之以杖打身。若<note n="0279023" resp="Taisho" type="orig" place="foot text">隱＝&CB06708;【元】【明】</note><app n="0279023"><lem>隱</lem><rdg wit="【元】【明】" resp="Taisho">&CB06708;</rdg></app><note n="0279024" resp="Taisho" type="orig" place="foot text">胗脈＝&CB10508;【元】【宮】</note><app n="0279024"><lem>胗脈</lem><rdg wit="【元】【宮】" resp="Taisho">&CB10508;</rdg></app>起<note n="0279025" resp="Taisho" type="orig" place="foot text">〔者〕－【元】【明】【宮】</note><app n="0279025"><lem>者</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。知是有煖
+<pb ed="T" id="T15.0614.0279c" n="0279c"/>
+<lb n="0279c01"/>必可得活。亦如聽法人思惟喜悅心著是<note n="0279026" resp="Taisho" type="orig" place="foot text">〔時〕－【宮】</note><app n="0279026"><lem>時</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0279c02"/>心熱。行者如是有煖法故名為有煖。亦名能
+<lb n="0279c03"/>得涅槃分善根。是善根法有十六行四諦緣。
+<lb n="0279c04"/>六地中一智慧一切無漏法基。野人能行安
+<lb n="0279c05"/>隱<note place="inline">於無漏&CB00565;故名為野人<note n="0279027" resp="Taisho" type="orig" place="foot text">〔案梵本…人非〕十字－【元】【明】【宮】</note><app n="0279027" word-count="10"><lem>案梵本爾先言凡夫人非</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>。是名有煖法。增進轉
+<lb n="0279c06"/>上更名頂法。如乳變為酪。是人觀<note n="0279028" resp="Taisho" type="orig" place="foot text">（諸）＋法【元】【明】【宮】</note><app n="0279028"><lem>法</lem><rdg wit="【元】【明】【宮】" resp="Taisho">諸法</rdg></app>實相。
+<lb n="0279c07"/><note n="0279029" resp="Taisho" type="orig" place="foot text">我當得苦脫＝我當離苦得解脫門【元】【明】【宮】</note><app n="0279029"><lem>我當得苦脫</lem><rdg wit="【元】【明】【宮】" resp="Taisho">我當離苦得解脫門</rdg></app>。心愛是法是為真法能除種種
+<lb n="0279c08"/>苦患及老病死。是時思惟此法誰說。是佛世
+<lb n="0279c09"/>尊。從是得佛寶中信心清淨大歡喜悅。若無
+<lb n="0279c10"/>此法一切煩惱誰當能遮。我當云何得實智
+<lb n="0279c11"/>慧少許明。從是得法寶中信心清淨大歡喜
+<lb n="0279c12"/>悅。若我不得佛弟子輩好伴。云何當得實智
+<lb n="0279c13"/>慧少許明。從是得僧寶中信心清淨大歡喜
+<lb n="0279c14"/>悅。是三寶中<note n="0279030" resp="Taisho" type="orig" place="foot text">〔得〕－【元】【明】【宮】</note><app n="0279030"><lem>得</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>一心清淨合實智慧。是頂善
+<lb n="0279c15"/>根。亦名頂法。亦名能得涅槃分善根。<note n="0279031" resp="Taisho" type="orig" place="foot text">（亦）＋如【元】【明】【宮】</note><app n="0279031"><lem>如</lem><rdg wit="【元】【明】【宮】" resp="Taisho">亦如</rdg></app>波
+<lb n="0279c16"/>羅延經中說</p>
+<lb n="0279c17"/><lg><l>佛寶法僧寶</l><l>誰有少信淨</l>
+<lb n="0279c18"/><l>是名頂善根</l><l>汝曹一心持</l></lg>
+<lb n="0279c19"/><p>云何為少信。於<note n="0279032" resp="Taisho" type="orig" place="foot text">〔佛〕－【元】【明】【宮】</note><app n="0279032"><lem>佛</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>菩薩辟支佛阿羅漢邊為
+<lb n="0279c20"/>少。於野人邊為多。復次此可破可失是故名少。
+<lb n="0279c21"/>如法句說</p>
+<lb n="0279c22"/><lg><l>芭蕉生實死</l><l>竹生實亦然</l>
+<lb n="0279c23"/><l>騾<note n="0279033" resp="Taisho" type="orig" place="foot text">有＝妊【元】【明】【宮】</note><app n="0279033"><lem>有</lem><rdg wit="【元】【明】【宮】" resp="Taisho">妊</rdg></app>子則死</l><l>小人得養死</l>
+<lb n="0279c24"/><l>破失非利故</l><l>小人得名譽</l>
+<lb n="0279c25"/><l>白淨分失盡</l><l>乃至頂法墮</l></lg>
+<lb n="0279c26"/><p>復次未斷諸結使。未得無漏無量慧心。以是
+<lb n="0279c27"/>故名少。復次懃精進一心入涅槃道中。更了
+<lb n="0279c28"/>了觀五陰四諦十六行。是時心不縮不悔不
+<lb n="0279c29"/>退。愛樂入忍是名忍善根。忍何等。隨四諦
+<pb ed="T" id="T15.0614.0280a" n="0280a"/>
+<lb n="0280a01"/>行是名為忍。是善根三種上中下三時。云何
+<lb n="0280a02"/>名忍。觀五陰無常苦空無我。心忍不退是名
+<lb n="0280a03"/>忍。復次觀諸世間盡<note n="0280001" resp="Taisho" type="orig" place="foot text">〔苦〕－【元】【明】【宮】</note><app n="0280001"><lem>苦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>空無有樂。是苦因
+<lb n="0280a04"/><anchor id="fxT15p0280a01"/>習愛等諸煩惱。<note n="0280002" resp="Taisho" type="orig" place="foot text">〔是〕－【元】【明】【宮】</note><app n="0280002"><lem>是</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app><anchor id="fxT15p0280a02"/>習智緣盡是名上法更
+<lb n="0280a05"/>無有上。八直道能令行人得至涅槃更無有
+<lb n="0280a06"/>上。<note n="0280003" resp="Taisho" type="orig" place="foot text">如是信心＝信心如是【元】【明】【宮】</note><app n="0280003"><lem>如是信心</lem><rdg wit="【元】【明】【宮】" resp="Taisho">信心如是</rdg></app>不悔不疑忍是名忍。是中更
+<lb n="0280a07"/>有忍。種種結使種種煩惱疑悔。來入心中不
+<lb n="0280a08"/>能令破。譬如石山種種風水不能漂動。是故
+<lb n="0280a09"/>名忍。是事得名真好野人。如佛說法句中</p>
+<lb n="0280a10"/><lg><l>世界正見上</l><l>誰有得多者</l>
+<lb n="0280a11"/><l>乃至千萬歲</l><l>終不墮惡道</l></lg>
+<lb n="0280a12"/><p>是世間正見是名為忍<note n="0280004" resp="Taisho" type="orig" place="foot text">善根＝善相【元】【明】</note><app n="0280004"><lem>善根</lem><rdg wit="【元】【明】" resp="Taisho">善相</rdg></app>。是人多增進一
+<lb n="0280a13"/>心極厭世界行。欲了了四諦相作證趣涅槃。
+<lb n="0280a14"/>如是一心中是名世間第一法。一時住四行
+<lb n="0280a15"/>無常苦空無我。觀一諦苦法忍<note n="0280005" resp="Taisho" type="orig" place="foot text">共＝苦【元】【明】【宮】</note><app n="0280005"><lem>共</lem><rdg wit="【元】【明】【宮】" resp="Taisho">苦</rdg></app>緣故。何以
+<lb n="0280a16"/>故觀欲界五受陰無常苦空無我。是中心忍
+<lb n="0280a17"/>入慧。亦是<note n="0280006" resp="Taisho" type="orig" place="foot text">（心）＋相【元】【明】【宮】</note><app n="0280006"><lem>相</lem><rdg wit="【元】【明】【宮】" resp="Taisho">心相</rdg></app>應心心數法。是名苦法忍。身
+<lb n="0280a18"/>業口業及心不相應<anchor id="fxT15p0280a03"/>諸行。現在未來世一切
+<lb n="0280a19"/>無漏法初門。是名苦法忍<note place="inline">法無漏法忍信受也</note>。次第生苦
+<lb n="0280a20"/>法智苦法忍斷結使苦法智作證。譬如一人
+<lb n="0280a21"/><note n="0280007" resp="Taisho" type="orig" place="foot text">刈一人束亦如利＝能刈一人能束如【元】【明】，刈＝割【宮】</note><app n="0280007"><lem>刈一人束。亦如<note n="0280008" resp="Taisho" type="orig" place="foot text">〔利〕－【宮】</note><app n="0280008"><lem>利</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【元】【明】" resp="Taisho">能刈一人能束如</rdg><rdg wit="【宮】" resp="Taisho">割一人束亦如利</rdg></app>刀斫竹得風即偃。忍智
+<lb n="0280a22"/>功夫故。是事得辦欲界繫見苦斷十結得<note n="0280009" resp="Taisho" type="orig" place="foot text">〔得〕－【元】【明】【宮】</note><app n="0280009"><lem>得</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0280a23"/>爾時異等智得<note n="0280010" resp="Taisho" type="orig" place="foot text">（以）＋無【元】【明】【宮】</note><app n="0280010"><lem>無</lem><rdg wit="【元】【明】【宮】" resp="Taisho">以無</rdg></app>漏智未得無漏慧得是時
+<lb n="0280a24"/>成就<note n="0280011" resp="Taisho" type="orig" place="foot text">一＋（等）【元】【明】【宮】</note><app n="0280011"><lem>一</lem><rdg wit="【元】【明】【宮】" resp="Taisho">一等</rdg></app>智<note place="inline">等智未來成就</note>。第二心中成就法智苦智等
+<lb n="0280a25"/>智。過第三心第四心。成就四智苦智法智比
+<lb n="0280a26"/>智等智。<anchor id="fxT15p0280a04"/>習盡道法<note n="0280012" resp="Taisho" type="orig" place="foot text">〔智〕－【元】【明】【宮】</note><app n="0280012"><lem>智</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>中。一一智增。離欲
+<lb n="0280a27"/>人知他心智成就增。苦比忍苦比智斷十八
+<lb n="0280a28"/>結。是四心苦諦能得。<anchor id="fxT15p0280a05"/>習法忍<anchor id="fxT15p0280a06"/>習法智斷欲
+<lb n="0280a29"/>界繫七結。<anchor id="fxT15p0280a07"/>習比忍習<anchor id="fxT15p0280a08"/>比智斷色無色界繫
+<pb ed="T" id="T15.0614.0280b" n="0280b"/>
+<lb n="0280b01"/><note n="0280013" resp="Taisho" type="orig" place="foot text">十三＝十一【元】，十二【明】【宮】</note><note n="0280013" resp="CBETA" type="mod">十三＝十一【元】，＝十二【明】【宮】</note><app n="0280013"><lem>十三</lem><rdg wit="【元】" resp="Taisho">十一</rdg><rdg wit="【明】【宮】" resp="Taisho">十二</rdg></app>結。盡法忍盡法智斷欲界繫七結。盡比
+<lb n="0280b02"/>忍盡比智斷色。無色界繫十二結。道法忍道
+<lb n="0280b03"/>法智斷欲界繫八結。道比忍道比智斷色無
+<lb n="0280b04"/>色界繫十四結。道比智是名須陀般那<note n="0280014" resp="Taisho" type="orig" place="foot text">下子上子＝秦言流入涅槃【元】【宮】，此言流入涅槃【明】</note><note n="0280014" resp="CBETA" type="mod">下子上子＝秦言流入涅槃【元】【宮】，＝此言流入涅槃【明】</note><app n="0280014"><lem><note place="inline">下子上子</note></lem><rdg wit="【元】【宮】" resp="Taisho"><note place="inline">秦言流入涅槃</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">此言流入涅槃</note></rdg></app>。
+<lb n="0280b05"/>實知諸法相。是十六心能十五心中利根名
+<lb n="0280b06"/>隨法行。鈍根名隨信行。是二人未離欲。名初
+<lb n="0280b07"/>果向先未斷結得十六心。名須陀般那。若先
+<lb n="0280b08"/>斷六品結得十六心。名息忌陀伽迷<note place="inline"><note n="0280015" resp="Taisho" type="orig" place="foot text">秦＝此【明】下同</note><app n="0280015"><lem>秦</lem><rdg wit="【明】" resp="Taisho">此</rdg></app>言<note n="0280016" resp="Taisho" type="orig" place="foot text">一來＝往來【宮】</note><app n="0280016"><lem>一來</lem><rdg wit="【宮】" resp="Taisho">往來</rdg></app></note>。<note n="0280017" resp="Taisho" type="orig" place="foot text">（一）＋若【宮】</note><app n="0280017"><lem>若</lem><rdg wit="【宮】" resp="Taisho">一若</rdg></app>
+<lb n="0280b09"/>先斷九品結得十六心。名阿那<note n="0280018" resp="Taisho" type="orig" place="foot text">迦＝伽【元】【明】【宮】</note><app n="0280018"><lem>迦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">伽</rdg></app>迷<note place="inline">秦言不來</note>。先
+<lb n="0280b10"/>未離欲斷八十八結故。名須陀般那。復次無
+<lb n="0280b11"/>漏果善根得。得故名須陀般那。利根名見得。
+<lb n="0280b12"/>鈍根名信愛。思惟結未斷。餘殘七世生。若思
+<lb n="0280b13"/>惟結三種斷。名家家三世生。聖道八分三十
+<lb n="0280b14"/>七品名流<note n="0280019" resp="Taisho" type="orig" place="foot text">〔流〕－【元】【明】【宮】</note><app n="0280019"><lem>流</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>向涅槃。隨是流行故名須陀般
+<lb n="0280b15"/>那。是<note n="0280020" resp="Taisho" type="orig" place="foot text">〔為〕－【元】【明】【宮】</note><app n="0280020"><lem>為</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>佛初功德子<note n="0280021" resp="Taisho" type="orig" place="foot text">惡道得脫三結斷三毒薄＝得脫惡道斷三結薄三毒【元】【明】【宮】</note><app n="0280021"><lem>惡道得脫。三結斷三
+<lb n="0280b16"/>毒薄</lem><rdg wit="【元】【明】【宮】" resp="Taisho">得脫惡道斷三結薄三毒</rdg></app>。名息忌陀伽迷。復次欲界結九種<note place="inline">上上上中
+<lb n="0280b17"/>上下中上中中中下下上下中下下</note>。見諦斷思惟斷。若凡夫人。先以
+<lb n="0280b18"/>有漏道斷欲界繫六種結入見諦道。十六心
+<lb n="0280b19"/>中得名息忌陀伽迷。若八種斷入見諦道。第
+<lb n="0280b20"/>十六心中一種名息忌陀伽迷果向<note n="0280022" resp="Taisho" type="orig" place="foot text">呵＝阿【元】【明】【宮】</note><app n="0280022"><lem>呵</lem><rdg wit="【元】【明】【宮】" resp="Taisho">阿</rdg></app>那伽
+<lb n="0280b21"/>迷。若佛弟子得須陀般那。單斷三結欲得息
+<lb n="0280b22"/>忌陀伽迷。是思惟斷欲界繫九種結六種斷。
+<lb n="0280b23"/>是名息忌陀伽迷八種斷。是名一種息忌陀
+<lb n="0280b24"/>伽迷果向阿那伽迷。若凡夫人先斷欲界繫
+<lb n="0280b25"/>九種結入見諦道。第十六心<note n="0280023" resp="Taisho" type="orig" place="foot text">〔中〕－【元】【明】【宮】</note><app n="0280023"><lem>中</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>名阿那伽迷。
+<lb n="0280b26"/>若得息忌陀伽迷進。斷三種思惟結。第九解
+<lb n="0280b27"/>脫道名阿那伽迷。阿那伽迷有九種。今世必
+<lb n="0280b28"/>入涅槃阿那<corr sic="迦">伽</corr>迷。中陰入涅槃阿那<corr sic="迦">伽</corr>迷。生
+<lb n="0280b29"/>已入涅槃阿那伽迷。懃求入涅槃阿那伽迷。
+<pb ed="T" id="T15.0614.0280c" n="0280c"/>
+<lb n="0280c01"/>不懃求入涅槃阿那伽迷。上行入涅槃阿那
+<lb n="0280c02"/>伽迷。至阿迦尼吒入涅槃阿那伽迷。<note n="0280024" resp="Taisho" type="orig" place="foot text">到＋（色）【元】【明】【宮】</note><app n="0280024"><lem>到</lem><rdg wit="【元】【明】【宮】" resp="Taisho">到色</rdg></app>無色
+<lb n="0280c03"/>定入涅槃阿那伽迷。身證阿那伽迷。行向阿
+<lb n="0280c04"/>羅漢阿那伽迷。色無色界九種結。以第九無
+<lb n="0280c05"/>礙道金剛三昧破一切結。第九解脫道盡智
+<lb n="0280c06"/>修一切善根。是名阿羅漢果。是阿羅漢有九
+<lb n="0280c07"/>種。退法不退法死法守法住法必知法不壞法
+<lb n="0280c08"/>慧脫共脫<note n="0280025" resp="Taisho" type="orig" place="foot text">濡＝煖【元】下同，軟【明】【宮】下同</note><note n="0280025" resp="CBETA" type="mod">濡＝煖【元】下同，＝軟【明】【宮】下同</note><app n="0280025"><lem>濡</lem><rdg wit="【元】" resp="Taisho">煖</rdg><rdg wit="【明】【宮】" resp="Taisho">軟</rdg></app>智濡進。行五種法退是名退法。
+<lb n="0280c09"/>利智利進行五種法不退。是名不退法。濡智
+<lb n="0280c10"/>濡進利厭思惟自殺身。是名死法。濡智大進
+<lb n="0280c11"/>自護身。是名守法。中智中進不增不減處中
+<lb n="0280c12"/>而住。是名住法。少利智懃精進能得不壞心
+<lb n="0280c13"/>解脫。是名必知法。利智大進初得不壞心解
+<lb n="0280c14"/>脫。是名不壞法。不能入諸禪未到地中諸漏
+<lb n="0280c15"/>盡。是名慧解脫。得諸禪亦得滅禪諸漏盡。是
+<lb n="0280c16"/>名共解脫。有阿羅漢。一切有為法常厭滿足。
+<lb n="0280c17"/>更不求功德。待時入涅槃。有阿羅漢。求四禪
+<lb n="0280c18"/>四無色定四等心。八解脫八勝處十一切入
+<lb n="0280c19"/>九次第六神通。願智阿蘭若那三昧<note place="inline">秦言無諍阿蘭若言無事
+<lb n="0280c20"/>或言空寂舊言須菩提常行空寂行非也自是無諍行<note n="0280026" resp="Taisho" type="orig" place="foot text">〔耳〕－【元】【明】【宮】＊</note><app n="0280026"><lem>耳</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>無諍者將護眾生<note n="0280027" resp="Taisho" type="orig" place="foot text">〔不〕－【宮】</note><app n="0280027"><lem>不</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>令起諍於我<anchor id="fxT15p0280c01"/>耳起諍如舍利弗目
+<lb n="0280c21"/>連<note n="0280028" resp="Taisho" type="orig" place="foot text">〔夜〕－【元】【明】【宮】</note><app n="0280028"><lem>夜</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>入陶屋中宿致拘迦離起諍者是也</note>。超越三昧熏禪三解脫門及
+<lb n="0280c22"/>放捨<note n="0280029" resp="Taisho" type="orig" place="foot text">放捨者…者也（二十五字）＝三昧門空無願無相【元】【明】【宮】</note><note n="0280029" resp="CBETA" type="mod">放捨者三脫門空無願無相空無願無相即十二門念反著者也＝三昧門空無願無相【元】【明】【宮】</note><app n="0280029"><lem><note place="inline">放捨者三脫門空無願無相空無願無相即十二門念反著者也</note></lem><rdg wit="【元】【明】【宮】" resp="Taisho"><note place="inline">三昧門空無願無相</note></rdg></app>。更<note n="0280030" resp="Taisho" type="orig" place="foot text">作＝住【元】【明】【宮】</note><app n="0280030"><lem>作</lem><rdg wit="【元】【明】【宮】" resp="Taisho">住</rdg></app>利智懃
+<lb n="0280c23"/>精進。入如是諸禪功德。是名得不退法不壞
+<lb n="0280c24"/>法。若佛不出世無佛法無弟子時。是時離欲
+<lb n="0280c25"/>人辟支佛出。辟支佛有三種。上中下下者本
+<lb n="0280c26"/>得須陀般那若息忌陀伽迷。是須陀般那於
+<lb n="0280c27"/><note n="0280031" resp="Taisho" type="orig" place="foot text">〔第〕－【元】【明】【宮】</note><app n="0280031"><lem>第</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>七世生人中。是時無佛法不得作弟子。復
+<lb n="0280c28"/>不應八世生。是時作辟支佛。若息忌陀伽迷
+<lb n="0280c29"/>二世<note n="0280032" resp="Taisho" type="orig" place="foot text">生＋（時）【元】【明】【宮】</note><app n="0280032"><lem>生</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生時</rdg></app>。是時無佛法不得作弟子。復不應三
+<pb ed="T" id="T15.0614.0281a" n="0281a"/>
+<lb n="0281a01"/>世生。是時作辟支佛。有人願作辟支佛。種辟
+<lb n="0281a02"/>支佛善根時。無佛法善根熟。爾時厭世出家
+<lb n="0281a03"/>得道名辟支佛。是名中辟支佛。有人求佛道。
+<lb n="0281a04"/>智力<note n="0281001" resp="Taisho" type="orig" place="foot text">進力＝盡力【明】</note><app n="0281001"><lem>進力</lem><rdg wit="【明】" resp="Taisho">盡力</rdg></app>少以因緣退<note place="inline">如舍利弗<note n="0281002" resp="Taisho" type="orig" place="foot text">是＝退【元】【明】【宮】</note><app n="0281002"><lem>是</lem><rdg wit="【元】【明】【宮】" resp="Taisho">退</rdg></app>也</note>。是時佛不出
+<lb n="0281a05"/>世無佛法亦無弟子。而善根行熟作辟支佛。
+<lb n="0281a06"/>有相好若少若多。厭世出家得道是名上辟
+<lb n="0281a07"/>支佛。於諸法中智慧淺入名阿羅漢。中入名
+<lb n="0281a08"/>辟支佛。深入名佛。如遙見樹不能分別<note n="0281003" resp="Taisho" type="orig" place="foot text">枝＋（葉）【元】【明】＊</note><app n="0281003"><lem>枝</lem><rdg wit="【元】【明】" resp="Taisho">枝葉</rdg></app>。
+<lb n="0281a09"/>小近能分別<anchor id="fxT15p0281a01"/>枝。不能分別華葉。到樹下盡能
+<lb n="0281a10"/><note n="0281004" resp="Taisho" type="orig" place="foot text">〔分〕－【元】【明】【宮】</note><app n="0281004"><lem>分</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>別知樹枝<note n="0281005" resp="Taisho" type="orig" place="foot text">葉華＝華葉【元】【明】【宮】</note><app n="0281005"><lem>葉華</lem><rdg wit="【元】【明】【宮】" resp="Taisho">華葉</rdg></app>實。聲聞能知一切諸行
+<lb n="0281a11"/>無常一切諸法無主<note n="0281006" resp="Taisho" type="orig" place="foot text">唯＝惟【元】【明】【宮】</note><app n="0281006"><lem>唯</lem><rdg wit="【元】【明】【宮】" resp="Taisho">惟</rdg></app>涅槃善安隱。聲聞能
+<lb n="0281a12"/>如是觀。不能分別深入深知辟支佛少能分
+<lb n="0281a13"/>別。<note n="0281007" resp="Taisho" type="orig" place="foot text">〔亦〕－【元】【明】【宮】</note><app n="0281007"><lem>亦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>不能深入深知。佛知諸法分別究暢。
+<lb n="0281a14"/>深入深知也。如波羅奈國王。夏<note n="0281008" resp="Taisho" type="orig" place="foot text">〔暑〕－【元】【明】【宮】</note><app n="0281008"><lem>暑</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>熱時處高
+<lb n="0281a15"/>樓上坐七寶床。令青衣磨牛頭栴檀香塗身。
+<lb n="0281a16"/>青衣臂多著釧。摩王身時釧聲滿耳。王甚患
+<lb n="0281a17"/>之。<note n="0281009" resp="Taisho" type="orig" place="foot text">〔教〕－【元】【明】【宮】</note><app n="0281009"><lem>教</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>次第令脫。釧少聲微。唯獨一釧寂然
+<lb n="0281a18"/>無聲。王時悟曰。國家臣民宮人<note n="0281010" resp="Taisho" type="orig" place="foot text">婇女＝綵女【明】</note><app n="0281010"><lem>婇女</lem><rdg wit="【明】" resp="Taisho">綵女</rdg></app>。多事
+<lb n="0281a19"/>多惱亦復如是。即時離欲獨處思惟得辟支
+<lb n="0281a20"/>佛。鬚髮自落著自然衣。從樓閣去。以己神足
+<lb n="0281a21"/>力出家入山。如是因緣中品辟支佛也</p>
+<lb n="0281a22"/><p>若行者<note n="0281011" resp="Taisho" type="orig" place="foot text">（欲）＋求【元】【宮】，（入）＋求【明】</note><app n="0281011"><lem>求</lem><rdg wit="【元】【宮】" resp="Taisho">欲求</rdg><rdg wit="【明】" resp="Taisho">入求</rdg></app>佛道。入禪先當繫心專念十方三
+<lb n="0281a23"/>世諸佛生身。莫念地水火風山樹草木。天地
+<lb n="0281a24"/>之中有形之類及諸餘法一切莫念。但念諸
+<lb n="0281a25"/>佛生身處在虛空。譬如大海清水中央金山
+<lb n="0281a26"/>王須彌。如夜闇中然大火如大施祠中七寶
+<lb n="0281a27"/>幢。佛身如是。有三十二相八十種好。常出無
+<lb n="0281a28"/>量清淨光明於虛空相青色中。常念佛身相
+<lb n="0281a29"/>如是。行者便得十方三世諸佛悉在心目前
+<pb ed="T" id="T15.0614.0281b" n="0281b"/>
+<lb n="0281b01"/>一切悉見三昧。若心餘處緣還攝令住念在
+<lb n="0281b02"/>佛身。是時便見東方三百千萬<note n="0281012" resp="Taisho" type="orig" place="foot text">〔千萬〕－【元】【明】【宮】</note><app n="0281012"><lem>千萬</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>億種無
+<lb n="0281b03"/>量諸佛。如是南方西方北方四維上下。隨所
+<lb n="0281b04"/>念方見一切佛。如人夜觀星宿。百千無量種
+<lb n="0281b05"/>星宿悉見。菩薩得是三昧。除無量劫厚罪令
+<lb n="0281b06"/>薄。薄者令滅。得是三昧已。當念佛種種無量
+<lb n="0281b07"/>功德一切智一切解一切見一切德。得大慈
+<lb n="0281b08"/>大悲自在。自初出無明&CB00592;四無畏五眼十力
+<lb n="0281b09"/>十八不共法。能除無量苦救老死畏。與常樂
+<lb n="0281b10"/>涅槃。佛有如是等種種無量功德。作是念已
+<lb n="0281b11"/>自發願言。我何時當得佛身佛功德巍巍如
+<lb n="0281b12"/>是。復作大誓。過去一切福。現在一切福。盡持
+<lb n="0281b13"/>求佛道不用餘報。復作是念。一切眾生甚可
+<lb n="0281b14"/>憐愍。諸佛身功德巍巍如是。眾生云何更求
+<lb n="0281b15"/>餘業而不求佛。譬如貴家盲子墮大深坑飢
+<lb n="0281b16"/>窮困苦食糞食泥。父甚愍之。為求方便。拯之
+<lb n="0281b17"/>於深坑。<note n="0281013" resp="Taisho" type="orig" place="foot text">食＝飼【元】【明】【宮】</note><app n="0281013"><lem>食</lem><rdg wit="【元】【明】【宮】" resp="Taisho">飼</rdg></app>之以上饌。行者念言。佛二種身
+<lb n="0281b18"/>功德甘露如是。而諸眾生墮生死深坑食諸
+<lb n="0281b19"/>不淨。以大悲心我當拯濟一切眾生。令得佛
+<lb n="0281b20"/>道度生死岸。以佛種種功德法味悉令飽滿。
+<lb n="0281b21"/>一切佛法願悉得之。聞誦持問觀行得果為
+<lb n="0281b22"/>作階梯。立大要誓被三願鎧。外破魔眾內擊
+<lb n="0281b23"/>結賊。直入不迴。如是三願。比無量諸願願皆
+<lb n="0281b24"/>住之。為度眾生得佛道故。如是念如是願。是
+<lb n="0281b25"/>為菩薩念佛三昧</p>
+<lb n="0281b26"/><p>行菩薩道者於三毒中若婬欲偏多。先自觀
+<lb n="0281b27"/>身。骨肉皮膚筋脈流血。肝肺腸胃屎尿<note n="0281014" resp="Taisho" type="orig" place="foot text">涕＝洟【元】【明】【宮】</note><app n="0281014"><lem>涕</lem><rdg wit="【元】【明】【宮】" resp="Taisho">洟</rdg></app>唾。
+<lb n="0281b28"/>三十六物九想不淨。專心內觀不令外念。外
+<lb n="0281b29"/>念諸緣攝之令還。如人執燭入雜穀倉。種種
+<pb ed="T" id="T15.0614.0281c" n="0281c"/>
+<lb n="0281c01"/>分別豆麥黍粟無不識知。復次觀身六分。堅
+<lb n="0281c02"/>為地分。濕為水分。熱為火分。動為風分。孔為
+<lb n="0281c03"/>空分。知為識分。亦如屠牛分為六分。身首
+<lb n="0281c04"/><note n="0281015" resp="Taisho" type="orig" place="foot text">四支＝四肢【元】【明】【宮】</note><app n="0281015"><lem>四支</lem><rdg wit="【元】【明】【宮】" resp="Taisho">四肢</rdg></app>各自異處。身有九孔常流不淨革囊盛
+<lb n="0281c05"/>屎。常作是觀不令外念。外念諸緣攝之令還。
+<lb n="0281c06"/>若得一心。意生厭患求離此身。欲令速滅早
+<lb n="0281c07"/>入涅槃。是時當發大慈大悲。以大功德拔濟
+<lb n="0281c08"/>眾生興前三願。以諸眾生不知不淨起諸罪
+<lb n="0281c09"/>垢。我當拔置於甘露地。復次欲界眾生樂著
+<lb n="0281c10"/>不淨如狗食糞。我當度脫至清淨道。復次我
+<lb n="0281c11"/>當學求諸法實相。不有常不無常。非淨非不
+<lb n="0281c12"/>淨。我當云何著此不淨。觀<note n="0281016" resp="Taisho" type="orig" place="foot text">（此）＋不【元】【明】</note><app n="0281016"><lem>不</lem><rdg wit="【元】【明】" resp="Taisho">此不</rdg></app>淨智從因緣
+<lb n="0281c13"/>生。如我法者當求實相。云何厭患身中不淨
+<lb n="0281c14"/>而取涅槃。當如大象度駛流水窮盡源底。得
+<lb n="0281c15"/>實法相<note n="0281017" resp="Taisho" type="orig" place="foot text">滅＝而【元】【明】【宮】</note><app n="0281017"><lem>滅</lem><rdg wit="【元】【明】【宮】" resp="Taisho">而</rdg></app>入涅槃。豈可如獼猴諸兔畏怖駛
+<lb n="0281c16"/>流趣自度身。我今當學如菩薩法。行不淨觀
+<lb n="0281c17"/>除&CB00230;婬欲。廣化眾生令離欲患。不為不淨觀
+<lb n="0281c18"/>所厭沒。復次既觀不淨則厭生死。當觀淨門
+<lb n="0281c19"/>繫心三處。鼻端眉間額上。當於是中開一寸
+<lb n="0281c20"/>皮淨除血肉。繫心白骨不令外念。外念諸緣
+<lb n="0281c21"/>攝之令還。著三緣中&M010527;與心&CB00508;。如二人相撲。
+<lb n="0281c22"/>行者若勝心。則不如制之令住。是名一心。若
+<lb n="0281c23"/>以厭患起大悲心愍念眾生。為此空骨遠離
+<lb n="0281c24"/>涅槃入三惡道。我當懃力作諸功德教化眾
+<lb n="0281c25"/>生令解身相空。骨以<note n="0281018" resp="Taisho" type="orig" place="foot text">（薄）＋皮【元】【明】【宮】</note><app n="0281018"><lem>皮</lem><rdg wit="【元】【明】【宮】" resp="Taisho">薄皮</rdg></app>覆實聚不淨。為眾生
+<lb n="0281c26"/>故。徐當分別此諸法相。有少淨<note n="0281019" resp="Taisho" type="orig" place="foot text">想＝相【元】【明】【宮】＊</note><app n="0281019"><lem>想</lem><rdg wit="【元】【明】【宮】" resp="Taisho">相</rdg></app>心生愛
+<lb n="0281c27"/>著。不淨<anchor id="fxT15p0281c01"/>想多心生厭患。有出法相故生實
+<lb n="0281c28"/>法。諸法<note n="0281020" resp="Taisho" type="orig" place="foot text">〔實〕－【元】【明】【宮】</note><app n="0281020"><lem>實</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>相中無淨無不淨。亦無閉亦無出
+<lb n="0281c29"/>觀諸法等。不可壞不可動。是名諸法實相<note place="inline">出遇
+<pb ed="T" id="T15.0614.0282a" n="0282a"/>
+<lb n="0282a01"/>羅漢法也</note>。行菩薩道者。若瞋恚偏多當行慈心。念東
+<lb n="0282a02"/>方眾生。慈心清淨無怨無恚廣大無量。見諸
+<lb n="0282a03"/>眾生悉在目前。南西北方四維上下亦復如
+<lb n="0282a04"/>是。制心行慈不令外念。外念異緣攝之令還。
+<lb n="0282a05"/>持心目觀一切眾生。悉見了了皆在目前。若
+<lb n="0282a06"/>得一心當發願言。我以涅槃實清淨法。度脫
+<lb n="0282a07"/>眾生使得實樂。行慈三昧心如此者。是菩薩
+<lb n="0282a08"/>道。住慈三昧以觀諸法實相。清淨不壞不動。
+<lb n="0282a09"/>願令眾生得此法利。以此三昧慈念東方一
+<lb n="0282a10"/>切眾生使得佛樂。十方亦爾。心不轉亂。是謂
+<lb n="0282a11"/>菩薩慈三昧門</p>
+<lb n="0282a12"/><p>問曰。何不一時總念十方眾生。答曰。先念一
+<lb n="0282a13"/>方一心易得。然後次第周遍諸方。問曰。人有
+<lb n="0282a14"/>怨家&M010527;欲相害。云何行慈欲令彼樂。答曰。慈
+<lb n="0282a15"/>是心法出生於心。先從所親。所親轉增乃及
+<lb n="0282a16"/>怨家。如火燒薪盛能然濕。問曰。或時眾生遭
+<lb n="0282a17"/>種種苦。或在人中或地獄中。菩薩雖慈彼那
+<lb n="0282a18"/>得樂。答曰。先從樂人取其樂相。令彼苦人得
+<lb n="0282a19"/>如彼樂。如敗軍將怖懼失<note n="0282001" resp="Taisho" type="orig" place="foot text">膽視＝瞻視【元】【明】【宮】</note><app n="0282001"><lem>膽。視</lem><rdg wit="【元】【明】【宮】" resp="Taisho">瞻視</rdg></app>彼敵人皆謂
+<lb n="0282a20"/>勇士。問曰。行慈三昧有何善利。答曰。行者自
+<lb n="0282a21"/>念。出家離俗應行慈心。又思惟言。食人信施
+<lb n="0282a22"/>宜行利益如佛所言。須臾行慈是隨佛教。則
+<lb n="0282a23"/>為入道不空受施。復次身著染服心應不染。
+<lb n="0282a24"/>慈三昧力能令不染。復次我心行慈於破法
+<lb n="0282a25"/>世。我有法人非法眾中。我有法人<note n="0282002" resp="Taisho" type="orig" place="foot text">如＝知【明】</note><app n="0282002"><lem>如</lem><rdg wit="【明】" resp="Taisho">知</rdg></app>法無
+<lb n="0282a26"/>惱。慈定力故。菩薩行道趣甘露門。種種熱惱
+<lb n="0282a27"/>慈涼冷樂。如佛所言。人熱極時入清涼池樂。
+<lb n="0282a28"/>復次被大慈鎧遮煩惱箭。慈為法藥消怨結
+<lb n="0282a29"/>毒。煩惱燒心慈能除滅。慈為法梯登解脫臺。
+<pb ed="T" id="T15.0614.0282b" n="0282b"/>
+<lb n="0282b01"/>慈為法船渡生死海。<note n="0282003" resp="Taisho" type="orig" place="foot text">貧＝求【元】【明】【宮】</note><app n="0282003"><lem>貧</lem><rdg wit="【元】【明】【宮】" resp="Taisho">求</rdg></app>善法財慈為上寶。行
+<lb n="0282b02"/>趣涅槃慈為道糧。慈為駿足度入涅槃。慈為
+<lb n="0282b03"/>猛將越三惡道。能行慈者消伏眾惡。諸天善
+<lb n="0282b04"/>神常隨擁護。問曰。若當行人得慈三昧。云何
+<lb n="0282b05"/>不失而復增益。答曰學戒清淨<note n="0282004" resp="Taisho" type="orig" place="foot text">善信倚樂＝喜信猗樂【元】【明】【宮】</note><app n="0282004"><lem>善信倚樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">喜信猗樂</rdg></app>。學
+<lb n="0282b06"/>諸禪定一心智慧。樂處閑靜常不放逸。少欲知
+<lb n="0282b07"/>足行順慈教。節身少食減損睡眠。初夜後夜
+<lb n="0282b08"/>思惟不廢。省煩言語默然守靜。坐臥行住知
+<lb n="0282b09"/>時消息。不令失度致疲苦極。調和寒溫不令
+<lb n="0282b10"/>惱亂。是謂益慈。復次以佛道樂涅槃之樂與
+<lb n="0282b11"/>一切人。是名大慈。行者思惟。現在未來大人
+<lb n="0282b12"/>行慈利益一切。我亦<note n="0282005" resp="Taisho" type="orig" place="foot text">被蒙＝蒙濟【元】【明】【宮】</note><app n="0282005"><lem>被蒙</lem><rdg wit="【元】【明】【宮】" resp="Taisho">蒙濟</rdg></app>是我良祐。我當行
+<lb n="0282b13"/>慈畢報施恩。復更念言。大德慈心愍念一切
+<lb n="0282b14"/>以此為樂。我亦當爾。念彼眾生令得佛樂涅
+<lb n="0282b15"/>槃之樂。是為報恩。復次慈力能令一切心得
+<lb n="0282b16"/>快樂。身離熱惱得清涼樂。持行慈福念安一
+<lb n="0282b17"/>切以報其恩。復次慈有善利。斷瞋恚法開名
+<lb n="0282b18"/>稱門。施主良田生梵天因。<note n="0282006" resp="Taisho" type="orig" place="foot text">住＝生【元】【明】【宮】</note><app n="0282006"><lem>住</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生</rdg></app>離欲處除&CB00230;怨
+<lb n="0282b19"/>對及&CB00508;諍<note n="0282007" resp="Taisho" type="orig" place="foot text">根＝恨【元】【明】【宮】</note><app n="0282007"><lem>根</lem><rdg wit="【元】【明】【宮】" resp="Taisho">恨</rdg></app>。諸佛稱揚智人愛敬。能持淨戒
+<lb n="0282b20"/>生智慧明。能聞法利。功德醍醐決定好人。出
+<lb n="0282b21"/>家猛力消滅諸惡。罵辱不善慈報能伏。結集
+<lb n="0282b22"/>悅樂生精進法。富貴根因<note n="0282008" resp="Taisho" type="orig" place="foot text">辦＝辯【明】</note><app n="0282008"><lem>辦</lem><rdg wit="【明】" resp="Taisho">辯</rdg></app>智慧府。誠信庫
+<lb n="0282b23"/>藏諸善法門。致稱譽法敬畏根本佛正真道。
+<lb n="0282b24"/>若人持惡<note n="0282009" resp="Taisho" type="orig" place="foot text">向＋（之）【元】【明】【宮】</note><app n="0282009"><lem>向</lem><rdg wit="【元】【明】【宮】" resp="Taisho">向之</rdg></app>還自受其殃。五種惡語。非時語
+<lb n="0282b25"/>非實語。非利語。非慈語。非軟語。是五惡語不
+<lb n="0282b26"/>能傾動。一切毒害亦不能傷。譬如小火不能
+<lb n="0282b27"/>熱大海<note place="inline">此下應出優填王持五百發箭</note>。如毘羅經中優填王阿婆
+<lb n="0282b28"/>陀那說。有二夫人。一名無比。二名舍迷婆帝。
+<lb n="0282b29"/>無比誹謗舍迷婆帝。舍迷婆帝有五百直人。
+<pb ed="T" id="T15.0614.0282c" n="0282c"/>
+<lb n="0282c01"/>王以五百箭欲一一射殺之。舍迷婆帝語諸
+<lb n="0282c02"/>直人。在我後立。是時舍迷婆帝入慈三昧。王
+<lb n="0282c03"/>挽弓射之。箭墮足下。第二箭還向王&CB00560;下。王
+<lb n="0282c04"/>大驚怖。復欲放箭。舍迷婆帝語王言。止止。夫
+<lb n="0282c05"/>婦之義是故相語。若放此箭當直破汝心。王
+<lb n="0282c06"/>時恐畏投弓捨射。問言。汝有何術。答言。我無
+<lb n="0282c07"/>異術。我是佛弟子入慈三昧故也。是慈三昧
+<lb n="0282c08"/>略說有三種緣生緣法緣無緣。諸未得道是
+<lb n="0282c09"/>名生緣。阿羅漢辟支佛是名法緣。諸佛世尊
+<lb n="0282c10"/>是名無緣。是<note n="0282010" resp="Taisho" type="orig" place="foot text">〔故〕－【元】【明】【宮】</note><app n="0282010"><lem>故</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>略說慈三昧門</p>
+<lb n="0282c11"/><p>行菩薩道者。於三毒中若愚癡偏多。當觀十
+<lb n="0282c12"/>二分破二種癡。內破身癡外破眾生癡。思惟
+<lb n="0282c13"/>念言。我及眾生俱在厄難。常生常老常病常
+<lb n="0282c14"/>死常滅常出。眾生可憐不知出道從何得脫。
+<lb n="0282c15"/>一心思惟。生老病死從因緣生。當復思惟何
+<lb n="0282c16"/>因緣生。一心思惟。生因緣有。有因緣取。取因
+<lb n="0282c17"/>緣愛。愛因緣受。受因緣觸。觸因緣六入。六入
+<lb n="0282c18"/>因緣名色。名色因緣識。識因緣行。行因緣
+<lb n="0282c19"/><note n="0282011" resp="Taisho" type="orig" place="foot text">無明＝癡【元】【明】【宮】</note><app n="0282011"><lem>無明</lem><rdg wit="【元】【明】【宮】" resp="Taisho">癡</rdg></app>。如是復思惟。當何因緣滅生老死。一
+<lb n="0282c20"/>心思惟。生滅故老死滅。有滅故生滅。取滅故
+<lb n="0282c21"/>有滅。愛滅故取滅。受滅故愛滅。觸滅故受滅。
+<lb n="0282c22"/>六入滅故觸滅。名色滅故六入滅。識滅故名
+<lb n="0282c23"/>色滅。行滅故識滅。癡滅故行滅。此中十二分
+<lb n="0282c24"/>云何。無明分不知前不知後不知前後。不知
+<lb n="0282c25"/>內不知外不知內外。不知佛不知法不知僧
+<lb n="0282c26"/>不知苦不知<anchor id="fxT15p0282c01"/>習不知盡不知道。不知業不知
+<lb n="0282c27"/>果不知業果。不知因不知緣不知因緣。不知
+<lb n="0282c28"/>罪不知福不知罪福。不知善不知不善不知
+<lb n="0282c29"/>善不善。不知有罪法不知無罪法。不知應近
+<pb ed="T" id="T15.0614.0283a" n="0283a"/>
+<lb n="0283a01"/>法不知應遠法。不知有漏法不知無漏法。不
+<lb n="0283a02"/>知世間法。不知出世間法。不知過去法不知
+<lb n="0283a03"/>未來法不知現在法。不知黑法不知白法。不
+<lb n="0283a04"/>知分別因緣法。不知六觸法。不知實證法。如
+<lb n="0283a05"/>是種種不知不慧不見闇黑無明。是名無明。
+<lb n="0283a06"/>無明緣行。云何名行。行有三種。身行口行意
+<lb n="0283a07"/>行。云何身行。入息出息是身行法。所以者何。
+<lb n="0283a08"/>是法屬身故名身行。云何口行有覺有觀。是
+<lb n="0283a09"/>作覺觀已然後口語。若無覺觀則無言說。是
+<lb n="0283a10"/>謂口行。云何意<note n="0283001" resp="Taisho" type="orig" place="foot text">行＋（痛想）【元】【明】【宮】</note><app n="0283001"><lem>行</lem><rdg wit="【元】【明】【宮】" resp="Taisho">行痛想</rdg></app><note place="inline">痛名世界人所著三種痛痛應為受受則隨界受苦樂上界所無故
+<lb n="0283a11"/><note n="0283002" resp="Taisho" type="orig" place="foot text">宜＝且【宮】</note><app n="0283002"><lem>宜</lem><rdg wit="【宮】" resp="Taisho">且</rdg></app>言受想出家所患也</note>。<note n="0283003" resp="Taisho" type="orig" place="foot text">〔痛想〕－【元】【明】【宮】</note><app n="0283003"><lem>痛想</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>是意法。繫屬意故。是名意
+<lb n="0283a12"/>行。復次欲界繫行色界繫行無色界繫行。復
+<lb n="0283a13"/>次善行不善行不動行。云何善行。欲界一切
+<lb n="0283a14"/>善行。亦色界三地。云何不善行。諸不善法。云
+<lb n="0283a15"/>何不動行。第四禪有漏善行及無色定善有
+<lb n="0283a16"/>漏行。是名行。行因緣識。云何名識。六種識
+<lb n="0283a17"/>界。眼識乃至意識。是名六識。識因緣名色。云
+<lb n="0283a18"/>何為名。無色四分痛想行識。是謂名。云何為
+<lb n="0283a19"/>色。一切色四大及造色。是謂色。云何四大。地
+<lb n="0283a20"/>水火風。云何地。堅重相者地。<note n="0283004" resp="Taisho" type="orig" place="foot text">濡＝軟【元】【明】【宮】</note><app n="0283004"><lem>濡</lem><rdg wit="【元】【明】【宮】" resp="Taisho">軟</rdg></app>濕相者水。
+<lb n="0283a21"/>熱相者火。輕動相者風。餘色可見。有對無對
+<lb n="0283a22"/>是名造色。名色和合是謂名色。名色因緣六
+<lb n="0283a23"/>入。云何六入。內六入。眼內入乃至意內入。是
+<lb n="0283a24"/>名六入。六入因緣觸。云何觸。六種觸界。眼觸
+<lb n="0283a25"/>乃至意觸。云何眼觸。眼緣色生眼識。三法和
+<lb n="0283a26"/>合是名眼觸。乃至意觸<note n="0283005" resp="Taisho" type="orig" place="foot text">亦＋（復）【元】【明】【宮】</note><app n="0283005"><lem>亦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">亦復</rdg></app>如是。觸因緣受。云
+<lb n="0283a27"/>何受。三種受。樂受苦受不苦不樂受。云何樂
+<lb n="0283a28"/>受。愛使。云何苦受。恚使。云何不苦不樂受。
+<lb n="0283a29"/>癡使。復次樂受生樂住樂滅苦。苦受生苦住
+<pb ed="T" id="T15.0614.0283b" n="0283b"/>
+<lb n="0283b01"/>苦滅樂。不苦不樂受不知苦不知樂。受因緣
+<lb n="0283b02"/>愛。云何愛。眼觸色生愛。乃至意觸法生愛。愛
+<lb n="0283b03"/>因緣取。云何取。欲取見取戒取我語取。取因
+<lb n="0283b04"/>緣有。云何有。三種有。欲有色有無色有。下從
+<lb n="0283b05"/>阿鼻大<note n="0283006" resp="Taisho" type="orig" place="foot text">泥梨＝泥犁【元】【明】【宮】</note><app n="0283006"><lem>泥梨</lem><rdg wit="【元】【明】【宮】" resp="Taisho">泥犁</rdg></app>上至他化自在天。是名欲有。及
+<lb n="0283b06"/>其能生業。云何色有。從下梵世上至阿迦尼
+<lb n="0283b07"/>吒天。是名色有。云何無色有。從虛空乃至非
+<lb n="0283b08"/>有想非無想處。是名無色有。有因緣生。云何
+<lb n="0283b09"/>生。種種眾生處處生出。有受陰得持得入得
+<lb n="0283b10"/>命。是名生。生因緣老死。云何老。齒落髮白多
+<lb n="0283b11"/>皺。根熟根破氣噎。身僂拄杖行步。陰身朽故。
+<lb n="0283b12"/>是名老。云何死。一切眾生處處退<note n="0283007" resp="Taisho" type="orig" place="foot text">〔落〕－【元】【明】【宮】</note><app n="0283007"><lem>落</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>墮滅。斷
+<lb n="0283b13"/>死失壽命盡。是名死。先老後死故名老死。
+<lb n="0283b14"/>是中十二因緣。一切世間非無因緣<note n="0283008" resp="Taisho" type="orig" place="foot text">〔邊〕－【元】【明】【宮】</note><app n="0283008"><lem>邊</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。非天
+<lb n="0283b15"/>邊非人邊非種種等邪緣邊出。菩薩觀十二
+<lb n="0283b16"/>因緣。繫心不動不令外念。外念諸緣攝之令
+<lb n="0283b17"/>還。觀十二分生三世中。前生今生後生。菩薩
+<lb n="0283b18"/>若得心住。當觀十二分空無有主。癡不知我
+<lb n="0283b19"/>作行。行不知我從癡有。但無明緣故行生。如
+<lb n="0283b20"/>草木種從子芽出。子亦不知我生芽。芽亦不
+<lb n="0283b21"/>知從子出。乃至老死亦復如是。是十二分中
+<lb n="0283b22"/>一一觀知無主無我。如外草木無主。但從倒
+<lb n="0283b23"/>見計有吾我。問曰。若無吾我無主無作。云何
+<lb n="0283b24"/>去來言說死此生彼。答曰。雖無吾我。六情作
+<lb n="0283b25"/>因六塵作緣中生六識。三事和合故觸法生
+<lb n="0283b26"/>念知諸業。<note n="0283009" resp="Taisho" type="orig" place="foot text">由＝出【元】【明】【宮】</note><app n="0283009"><lem>由</lem><rdg wit="【元】【明】【宮】" resp="Taisho">出</rdg></app>是去來言說從是有生死。譬如
+<lb n="0283b27"/>日愛珠<note n="0283010" resp="Taisho" type="orig" place="foot text">〔因〕－【元】【明】【宮】</note><app n="0283010"><lem>因</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>日乾牛屎<note n="0283011" resp="Taisho" type="orig" place="foot text">和合＝緣合【明】</note><app n="0283011"><lem>和合</lem><rdg wit="【明】" resp="Taisho">緣合</rdg></app>方便故火出。五
+<lb n="0283b28"/>陰亦爾。因此五陰生。後世五陰出。非此五陰
+<lb n="0283b29"/>至後世。亦不離此五陰得後世五陰。五陰但
+<pb ed="T" id="T15.0614.0283c" n="0283c"/>
+<lb n="0283c01"/>從因緣出譬如穀子中芽出。是子非芽亦非
+<lb n="0283c02"/>餘芽邊生。非異非一。得後世身亦爾。譬如樹
+<lb n="0283c03"/>未有莖節枝葉華實。得時節因緣華葉具足。
+<lb n="0283c04"/>善惡行報亦復如是。種子壞故非常非一。芽
+<lb n="0283c05"/>莖葉等生故不斷不異。死生相續亦復如是。
+<lb n="0283c06"/>行者<note n="0283012" resp="Taisho" type="orig" place="foot text">謂＝知諸【元】【明】【宮】</note><app n="0283012"><lem>謂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">知諸</rdg></app>法無常苦空無我自生自滅。知因愛
+<lb n="0283c07"/>等有。知因滅是盡。知盡是道。以四種智知十
+<lb n="0283c08"/>二分是正見道。眾生為縛著所誑。如人有無
+<lb n="0283c09"/>價寶珠。不別其真為他欺誑。是時菩薩發大
+<lb n="0283c10"/>悲心。我當作佛以正真法化彼眾生令見正
+<lb n="0283c11"/>道。問曰。如摩訶衍般若波羅蜜中言。諸法不
+<lb n="0283c12"/>生不滅空無所有。一相無相是名正見。云何
+<lb n="0283c13"/>言無常等觀名為正見。答曰。若摩訶衍中說
+<lb n="0283c14"/>諸法空無相。云何言無常苦空等不實。若言
+<lb n="0283c15"/>不生不滅空是實相者。不應言無相。汝言前
+<lb n="0283c16"/>後不相應。復次佛說四顛倒。無常中常顛倒
+<lb n="0283c17"/>亦有道理。一切有為無常。何以故因緣生故。
+<lb n="0283c18"/>無常因無常緣。所生果云何常。先無而今有
+<lb n="0283c19"/>已有便無。一切眾生皆見無常。內有老病死。
+<lb n="0283c20"/>外見萬物<note n="0283013" resp="Taisho" type="orig" place="foot text">凋落＝彫落【元】【明】【宮】</note><app n="0283013"><lem>凋落</lem><rdg wit="【元】【明】【宮】" resp="Taisho">彫落</rdg></app>。云何言無常不實。問曰。我
+<lb n="0283c21"/>不言有常為實無常為不實。我言有常無常
+<lb n="0283c22"/>俱是不實。何以故。佛言。空中有常無常二事
+<lb n="0283c23"/>不可得。若著此二事是俱顛倒。答曰。汝言不
+<lb n="0283c24"/>與法相應。何以故。言無法云何復言二俱顛
+<lb n="0283c25"/>倒。一切空無所有是為實不顛倒。若我破有
+<lb n="0283c26"/>常著無常。我法應破而不實我。有常顛倒破
+<lb n="0283c27"/>故觀無常。何以故。無常力能破有常。如毒能
+<lb n="0283c28"/>破餘毒。如藥除病。藥亦俱去。當知藥妙能除
+<lb n="0283c29"/>病故。若藥不去後藥為病。此亦如是。若無常
+<pb ed="T" id="T15.0614.0284a" n="0284a"/>
+<lb n="0284a01"/>法著應當破不實故。我不受無常法云何破。
+<lb n="0284a02"/>佛言。<note n="0284001" resp="Taisho" type="orig" place="foot text">〔苦是〕－【元】【明】【宮】</note><app n="0284001"><lem>苦是</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>四真諦中言實苦。誰能使<note n="0284002" resp="Taisho" type="orig" place="foot text">樂＝藥【元】【明】【宮】</note><app n="0284002"><lem>樂</lem><rdg wit="【元】【明】【宮】" resp="Taisho">藥</rdg></app>。苦
+<lb n="0284a03"/>因是實因。誰能令非因。苦盡是實盡。誰能令
+<lb n="0284a04"/>不盡。盡道是實道。誰能令非道。如日或可令
+<lb n="0284a05"/>冷。月或可令熱。風可令不動。是四真諦終不
+<lb n="0284a06"/>可動轉。汝於摩訶衍中不能了但著言聲。摩
+<lb n="0284a07"/>訶衍中諸法實相。實相不可破無有作者。若
+<lb n="0284a08"/>可破可作此非摩訶衍。如月初生。一日二日
+<lb n="0284a09"/>其生時甚微細。有明眼人能見<note n="0284003" resp="Taisho" type="orig" place="foot text">指示＝指視【元】【明】【宮】</note><app n="0284003"><lem>指示</lem><rdg wit="【元】【明】【宮】" resp="Taisho">指視</rdg></app>不見者。
+<lb n="0284a10"/>此不見人但視其指而迷於月。明者語言。癡
+<lb n="0284a11"/>人何以但視我指。指為月緣指非彼月。汝亦
+<lb n="0284a12"/>如是。言音非實相。但假言表實理。汝更著言
+<lb n="0284a13"/>聲闇於實相。<note n="0284004" resp="Taisho" type="orig" place="foot text">行＋（者）【元】【明】【宮】</note><app n="0284004"><lem>行</lem><rdg wit="【元】【明】【宮】" resp="Taisho">行者</rdg></app>若得如是正<note n="0284005" resp="Taisho" type="orig" place="foot text">〔知〕－【元】【明】【宮】</note><app n="0284005"><lem>知</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>見。觀十二
+<lb n="0284a14"/>分和合為因果二分。果時十二分為苦諦。因
+<lb n="0284a15"/>時十二分為<anchor id="fxT15p0284a01"/>習諦。因滅是盡諦。見因果盡是
+<lb n="0284a16"/>道諦。四種觀果無常苦空無我。四種觀因集
+<lb n="0284a17"/>因緣生。問曰。果有四種但名苦諦。餘者無
+<lb n="0284a18"/>諦名也。答曰。若言無常諦復疑。苦諦亦疑。
+<lb n="0284a19"/>無我諦亦疑。一種難處。復次若言無常諦無
+<lb n="0284a20"/>咎。空非我諦亦無咎。若無常苦空無我諦。於
+<lb n="0284a21"/>說為重故。是故於四說一。問曰。苦有何異相。
+<lb n="0284a22"/>於三中獨得名。答曰。苦是一切眾生所厭患。
+<lb n="0284a23"/>眾生所怖畏。無常不爾。或有人為苦所逼。思
+<lb n="0284a24"/>得無常。無有欲得苦者。問曰。有人欲得捉刀
+<lb n="0284a25"/>自殺針<note n="0284006" resp="Taisho" type="orig" place="foot text">炙＝疚【宮】</note><app n="0284006"><lem>炙</lem><rdg wit="【宮】" resp="Taisho">疚</rdg></app>苦藥入賊。如是種種非求苦也。答
+<lb n="0284a26"/>曰。非為欲得苦欲存大樂。畏<note n="0284007" resp="Taisho" type="orig" place="foot text">（大）＋苦【元】【明】【宮】</note><app n="0284007"><lem>苦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">大苦</rdg></app>故取死。苦
+<lb n="0284a27"/>為第一患樂為第一利。以是故離<note n="0284008" resp="Taisho" type="orig" place="foot text">實苦＝苦實【元】【明】【宮】</note><app n="0284008"><lem>實苦</lem><rdg wit="【元】【明】【宮】" resp="Taisho">苦實</rdg></app>得快
+<lb n="0284a28"/>樂。是故佛以果分獨名苦諦。非無常空無我
+<lb n="0284a29"/>諦。是於四諦中了了實智慧不疑不悔。是名
+<pb ed="T" id="T15.0614.0284b" n="0284b"/>
+<lb n="0284b01"/>正見。思惟是事種種增益故。是名正覺。除邪
+<lb n="0284b02"/>命攝四種邪語。離餘四種邪語攝四種正語。
+<lb n="0284b03"/>除邪命攝身三種業除餘三種邪業名正業。
+<lb n="0284b04"/>離餘種種邪命。是名正命。如是觀時精進。是
+<lb n="0284b05"/>正方便。是事念不散。是名正念。是事思惟不
+<lb n="0284b06"/>動是名正定。<note n="0284009" resp="Taisho" type="orig" place="foot text">正覺＝正見【元】【明】【宮】</note><app n="0284009"><lem>正覺</lem><rdg wit="【元】【明】【宮】" resp="Taisho">正見</rdg></app>如王七事隨從。是名道
+<lb n="0284b07"/>諦。是事一心實信不動。是名信根。一心精懃
+<lb n="0284b08"/>求道。是名精進根。一心念不忘失。是名念根。
+<lb n="0284b09"/>心住一處亦不馳散。是名定根。思惟分別無
+<lb n="0284b10"/>常等覺。是名慧根。是<note n="0284010" resp="Taisho" type="orig" place="foot text">名＝根【元】【明】【宮】</note><app n="0284010"><lem>名</lem><rdg wit="【元】【明】【宮】" resp="Taisho">根</rdg></app>增長得力。是名五
+<lb n="0284b11"/>力。問曰。八正道中皆說<note n="0284011" resp="Taisho" type="orig" place="foot text">慧念＝是名【元】【明】</note><app n="0284011"><lem>慧念</lem><rdg wit="【元】【明】" resp="Taisho">是名</rdg></app>定等。根力中
+<lb n="0284b12"/>何以重說。答曰。隨入行時初得小利。是時名
+<lb n="0284b13"/>為根。是五事增長得力。是時得名為力。初入
+<lb n="0284b14"/>無漏見諦道中。是功德名八正道。入思惟道
+<lb n="0284b15"/>時名七覺意。初入道中觀念身痛心法常一
+<lb n="0284b16"/>心念。是名四念止。如是得善法味四種精懃。
+<lb n="0284b17"/>是名四正懃。如是欲精進定慧初門。懃精進
+<lb n="0284b18"/>求如意自在。是名四神足。雖名四念止四正
+<lb n="0284b19"/>懃四神足五根等。皆攝隨行時初後少多行
+<lb n="0284b20"/>地緣各各得名。譬如四大各各有四大。但多
+<lb n="0284b21"/>得名。若地種多水火風少處名為地大。水火
+<lb n="0284b22"/>風亦如是。如是三十七品中各各有諸品。如
+<lb n="0284b23"/>四念止中有四正勤四神足五根五力七覺八
+<lb n="0284b24"/>道等。如是觀十二分四諦行四念止四正懃
+<lb n="0284b25"/>四神足五根五力七覺意八正道。其心安樂。
+<lb n="0284b26"/>復以此法度脫眾生。一心誓願精進求佛。是
+<lb n="0284b27"/>時心中思惟觀念。我了了觀知此道不應取
+<lb n="0284b28"/>證。有二事力故未入涅槃。一者大悲不捨眾
+<lb n="0284b29"/>生。二者深知諸法實相。諸心心數法從因緣
+<pb ed="T" id="T15.0614.0284c" n="0284c"/>
+<lb n="0284c01"/>生。我今云何隨此不實。當自思惟欲入深觀
+<lb n="0284c02"/>十二因緣知因緣是何法。復更思惟。是四種
+<lb n="0284c03"/>緣。因緣。次第緣。緣緣。增上緣。五因為因緣。
+<lb n="0284c04"/>除過去現在阿羅漢最後心。<note n="0284012" resp="Taisho" type="orig" place="foot text">餘＝除【元】【明】</note><app n="0284012"><lem>餘</lem><rdg wit="【元】【明】" resp="Taisho">除</rdg></app>過去現在心
+<lb n="0284c05"/>心數法。是次第緣。緣緣增上緣緣一切法。復
+<lb n="0284c06"/>自思惟。言若法<note n="0284013" resp="Taisho" type="orig" place="foot text">先＝失【元】</note><app n="0284013"><lem>先</lem><rdg wit="【元】" resp="Taisho">失</rdg></app>因緣中有。則不應言是法
+<lb n="0284c07"/>因緣生。若無亦不應言因緣中生。<note n="0284014" resp="Taisho" type="orig" place="foot text">生＝半【元】【明】【宮】</note><app n="0284014"><lem>生</lem><rdg wit="【元】【明】【宮】" resp="Taisho">半</rdg></app>有半無
+<lb n="0284c08"/>亦不<note n="0284015" resp="Taisho" type="orig" place="foot text">應＋（言）【元】【明】【宮】</note><app n="0284015"><lem>應</lem><rdg wit="【元】【明】【宮】" resp="Taisho">應言</rdg></app>因緣生。云何有因緣。若法未生。若
+<lb n="0284c09"/>過去心心數法失。云何能作次第緣。若佛法
+<lb n="0284c10"/>中妙法無緣。涅槃云何為緣緣若諸法實無
+<lb n="0284c11"/>性。有法不可<note n="0284016" resp="Taisho" type="orig" place="foot text">得＝佛【宮】</note><app n="0284016"><lem>得</lem><rdg wit="【宮】" resp="Taisho">佛</rdg></app>。若因緣果生因此有彼。是
+<lb n="0284c12"/>說則不然。若因緣中各各別。若和合一處是
+<lb n="0284c13"/>果不可得。云何因緣邊出果。因緣中無果
+<lb n="0284c14"/>故。若因緣中先無果而出者。何以不非因緣
+<lb n="0284c15"/>邊出果。二俱無故。果屬因緣因緣邊出。是因
+<lb n="0284c16"/>緣不自在屬餘因緣。是果屬餘因緣云何不
+<lb n="0284c17"/>自在。因緣能生果。是故果不從因緣有。亦
+<lb n="0284c18"/>不從非因緣有。則為非果。果無故緣與非緣
+<lb n="0284c19"/>亦無也</p>
+<lb n="0284c20"/><p>問曰。佛言十二因緣無明緣諸行。汝云何
+<lb n="0284c21"/>言無因果。答曰。先<note n="0284017" resp="Taisho" type="orig" place="foot text">以被＝已【元】【明】【宮】</note><app n="0284017"><lem>以被</lem><rdg wit="【元】【明】【宮】" resp="Taisho">已</rdg></app>答不應更難。若難
+<lb n="0284c22"/>者更當答。佛言眼因色緣癡邊生邪憶念癡
+<lb n="0284c23"/>是無明。是中無明何所依住。若依眼<note n="0284018" resp="Taisho" type="orig" place="foot text">邪＝耶【元】【明】【宮】</note><app n="0284018"><lem>邪</lem><rdg wit="【元】【明】【宮】" resp="Taisho">耶</rdg></app>若
+<lb n="0284c24"/>色中<note n="0284019" resp="Taisho" type="orig" place="foot text">若識邪＝耶若識中耶【元】【明】【宮】</note><app n="0284019"><lem>若識邪</lem><rdg wit="【元】【明】【宮】" resp="Taisho">耶若識中耶</rdg></app>。不應依眼住。若依眼住。不應
+<lb n="0284c25"/>待色常應癡。若依色住。不應待眼是則外癡
+<lb n="0284c26"/>何<note n="0284020" resp="Taisho" type="orig" place="foot text">豫＝預【元】【明】【宮】</note><app n="0284020"><lem>豫</lem><rdg wit="【元】【明】【宮】" resp="Taisho">預</rdg></app>我事。若依識住。識無色無對無觸無
+<lb n="0284c27"/>分無處。無明亦爾云何可住。是故無明非內
+<lb n="0284c28"/>非外非兩中間。不從前世來亦不<note n="0284021" resp="Taisho" type="orig" place="foot text">住＝往【元】【明】【宮】</note><app n="0284021"><lem>住</lem><rdg wit="【元】【明】【宮】" resp="Taisho">往</rdg></app>後世。非
+<lb n="0284c29"/>東西南北四維上下來。無有實法。無明性爾
+<pb ed="T" id="T15.0614.0285a" n="0285a"/>
+<lb n="0285a01"/>了無明性。則變為明。一一推之癡不可得。云
+<lb n="0285a02"/>何無明緣行。如虛空不生不滅不有不盡本
+<lb n="0285a03"/>性清淨。無明亦如是。不生不滅不有不盡本
+<lb n="0285a04"/>性清淨。乃至生緣老死亦爾。菩薩如是觀十
+<lb n="0285a05"/>二因緣。知眾生虛誑繫在苦患易<note n="0285001" resp="Taisho" type="orig" place="foot text">（可）＋度【元】【明】【宮】</note><app n="0285001"><lem>度</lem><rdg wit="【元】【明】【宮】" resp="Taisho">可度</rdg></app>耳。諸法
+<lb n="0285a06"/>若有實相難可得度。思惟如是則破愚癡。若
+<lb n="0285a07"/>菩薩心多思覺。常念阿那波那。入時出時數
+<lb n="0285a08"/>一乃至十。<note n="0285002" resp="Taisho" type="orig" place="foot text">一＝五【元】【明】【宮】</note><app n="0285002"><lem>一</lem><rdg wit="【元】【明】【宮】" resp="Taisho">五</rdg></app>一心不令馳散。菩薩從此門得
+<lb n="0285a09"/>一心除五蓋欲行。菩薩見道應行三種忍。法
+<lb n="0285a10"/>生忍柔順法忍無生忍。云何生忍。一切眾生
+<lb n="0285a11"/>或罵或打或殺。種種惡事心不動轉不瞋不
+<lb n="0285a12"/>恚。<note n="0285003" resp="Taisho" type="orig" place="foot text">〔不唯〕－【元】【明】【宮】</note><app n="0285003"><lem>不唯</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>忍之而更慈悲。此諸眾生求諸好事
+<lb n="0285a13"/>願一切得。心不捨放。是時<note n="0285004" resp="Taisho" type="orig" place="foot text">漸＋（漸）【元】【明】【宮】</note><app n="0285004"><lem>漸</lem><rdg wit="【元】【明】【宮】" resp="Taisho">漸漸</rdg></app>得解諸法實
+<lb n="0285a14"/>相。如氣熏著。譬如慈母愛其赤子乳哺養育。
+<lb n="0285a15"/>種種不淨不以為惡。倍加憐念欲令得樂。行
+<lb n="0285a16"/>者如是。一切眾生作種種惡。淨不淨行心不
+<lb n="0285a17"/><note n="0285005" resp="Taisho" type="orig" place="foot text">增惡＝增減【元】【明】【宮】</note><app n="0285005"><lem>增惡</lem><rdg wit="【元】【明】【宮】" resp="Taisho">增減</rdg></app>不退不轉。復次十方無量眾生。我一人
+<lb n="0285a18"/>應當悉度使得佛道。心忍不退不悔不&CB00230;。不
+<lb n="0285a19"/>懈不厭不畏不難。是生忍中一心繫念。三種
+<lb n="0285a20"/>思惟不令外念。外念諸緣攝之令還。是名生
+<lb n="0285a21"/>忍。云何柔順法忍。菩薩既得生忍功德無量。
+<lb n="0285a22"/>知是功德福報無常。是時厭無常自求常福。
+<lb n="0285a23"/>亦為眾生求常住法。一切諸法色無色法。可
+<lb n="0285a24"/>見不可見法。有對無對法。有漏無漏有為無
+<lb n="0285a25"/>為上中下法。求其實相。實相云何非有常非
+<lb n="0285a26"/>無常。非樂非不樂。非空非不空。非有神非無
+<lb n="0285a27"/>神。何以故非有常。因緣生故。先無今有。故已
+<lb n="0285a28"/>有還無故。是<note n="0285006" resp="Taisho" type="orig" place="foot text">故＝無【明】</note><app n="0285006"><lem>故</lem><rdg wit="【明】" resp="Taisho">無</rdg></app>非有常。云何非無常。業報
+<lb n="0285a29"/>不失故。受外塵故。因緣增長故。<note n="0285007" resp="Taisho" type="orig" place="foot text">（是故）＋非【元】【明】【宮】</note><app n="0285007"><lem>非</lem><rdg wit="【元】【明】【宮】" resp="Taisho">是故非</rdg></app>無常。云
+<pb ed="T" id="T15.0614.0285b" n="0285b"/>
+<lb n="0285b01"/>何非樂。新苦中生樂想故。一切無常性故。緣
+<lb n="0285b02"/>欲生故。是故非樂。云何非不樂。<note n="0285008" resp="Taisho" type="orig" place="foot text">樂有＝有樂【元】【明】【宮】</note><app n="0285008"><lem>樂有</lem><rdg wit="【元】【明】【宮】" resp="Taisho">有樂</rdg></app>受故。
+<lb n="0285b03"/><note n="0285009" resp="Taisho" type="orig" place="foot text">欲＝彼【元】【明】【宮】</note><app n="0285009"><lem>欲</lem><rdg wit="【元】【明】【宮】" resp="Taisho">彼</rdg></app>染生故。求樂不惜身故。<note n="0285010" resp="Taisho" type="orig" place="foot text">是＋（故）【元】【明】【宮】</note><app n="0285010"><lem>是</lem><rdg wit="【元】【明】【宮】" resp="Taisho">是故</rdg></app>非不樂。云何
+<lb n="0285b04"/>非空。內外入各各受了了故。有<note n="0285011" resp="Taisho" type="orig" place="foot text">罪＝非【元】【明】</note><app n="0285011"><lem>罪</lem><rdg wit="【元】【明】" resp="Taisho">非</rdg></app>福報故。
+<lb n="0285b05"/>一切眾生信故。是故非空。云何非不空。和合
+<lb n="0285b06"/>等<note n="0285012" resp="Taisho" type="orig" place="foot text">實＝生【元】【明】【宮】</note><app n="0285012"><lem>實</lem><rdg wit="【元】【明】【宮】" resp="Taisho">生</rdg></app>故。分別求不可得故。心力轉故。是故非
+<lb n="0285b07"/>不空。云何非有神。不自在故。第七識界不可
+<lb n="0285b08"/>得故。神相不可得故。是故非有神。云何非無
+<lb n="0285b09"/>神。有後世故。得解脫故。各各我心生不計餘
+<lb n="0285b10"/>處故。是故非無神。如是不生不滅。不不生不
+<lb n="0285b11"/>不滅。非有非無。不受不著。言說悉滅心行處
+<lb n="0285b12"/>斷。如涅槃性。是法實相。於此法中信心清淨
+<lb n="0285b13"/>無滯無礙。軟知軟信軟進。是謂柔順法忍。云
+<lb n="0285b14"/>何無生法忍。如上實相法中智慧信進增長
+<lb n="0285b15"/>根利。是名無生法忍。譬如聲聞法中煖法頂
+<lb n="0285b16"/>法智慧信精進增長得忍法。忍者忍涅槃忍
+<lb n="0285b17"/>無漏法故名為忍。新得新見故名為忍。法忍
+<lb n="0285b18"/>亦如是。時解脫阿羅漢不得無生智。增進廣
+<lb n="0285b19"/>利轉成不時解脫得無生智。無生法忍亦如
+<lb n="0285b20"/>是。未得菩薩果得無生法忍。得菩薩<note n="0285013" resp="Taisho" type="orig" place="foot text">真行＝具行【元】【明】【宮】</note><app n="0285013"><lem>真行</lem><rdg wit="【元】【明】【宮】" resp="Taisho">具行</rdg></app>果
+<lb n="0285b21"/>是名菩薩道果。是時得<note n="0285014" resp="Taisho" type="orig" place="foot text">般舟＋（般）【元】【明】【宮】</note><app n="0285014"><lem>般舟</lem><rdg wit="【元】【明】【宮】" resp="Taisho">般舟般</rdg></app>三昧。於眾生中
+<lb n="0285b22"/>得大悲。入般若波羅蜜門。爾時諸佛便<note n="0285015" resp="Taisho" type="orig" place="foot text">受＝授【元】【明】【宮】</note><app n="0285015"><lem>受</lem><rdg wit="【元】【明】【宮】" resp="Taisho">授</rdg></app>其
+<lb n="0285b23"/>號。<note n="0285016" resp="Taisho" type="orig" place="foot text">墮＝隨【元】【明】【宮】</note><app n="0285016"><lem>墮</lem><rdg wit="【元】【明】【宮】" resp="Taisho">隨</rdg></app>生佛界中。為諸佛所念。一切重罪薄。
+<lb n="0285b24"/>薄者滅。三惡道<note n="0285017" resp="Taisho" type="orig" place="foot text">〔斷〕－【元】【明】【宮】</note><app n="0285017"><lem>斷</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。常生天上人中。名不退
+<lb n="0285b25"/>轉到不動處。末後肉身盡入法身中。能作種
+<lb n="0285b26"/>種變化。度脫一切眾生。具足六度供養諸佛。
+<lb n="0285b27"/>淨佛國土教化眾生。立十地中功德成滿。次
+<lb n="0285b28"/>第得阿耨多羅三藐三菩提。為菩薩禪法<note n="0285018" resp="Taisho" type="orig" place="foot text">〔中〕－【元】【明】【宮】</note><app n="0285018"><lem>中</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+<lb n="0285b29"/>初門</p>
+<pb ed="T" id="T15.0614.0285c" n="0285c"/>
+<lb n="0285c01"/><lg><l>行者定心求道時</l><l>常當觀察時方便</l>
+<lb n="0285c02"/><l>若不得時無方便</l><l>是應為失不為利</l>
+<lb n="0285c03"/><l>如犢未生&CB00014;牛乳</l><l>乳不可得非時故</l>
+<lb n="0285c04"/><l>若犢生已&CB00014;牛角</l><l>乳不可得無智故</l>
+<lb n="0285c05"/><l>如鑽濕木求出火</l><l>火不可得非時故</l>
+<lb n="0285c06"/><l>若折乾木以求火</l><l>火不可得無智故</l>
+<lb n="0285c07"/><l>得處知時量己行</l><l>觀心方便力多少</l>
+<lb n="0285c08"/><l>宜應精進及不宜</l><l>道相宜時及不宜</l>
+<lb n="0285c09"/><l>若心<note n="0285019" resp="Taisho" type="orig" place="foot text">調動＝掉動【元】【明】【宮】</note><app n="0285019"><lem>調動</lem><rdg wit="【元】【明】【宮】" resp="Taisho">掉動</rdg></app>不應勇</l><l>如是勇過不得定</l>
+<lb n="0285c10"/><l>譬如多薪熾大火</l><l>大風來吹不肯滅</l>
+<lb n="0285c11"/><l>若能以定自調心</l><l>如是動息心得定</l>
+<lb n="0285c12"/><l>譬如大火大風吹</l><l>大水來澆無不滅</l>
+<lb n="0285c13"/><l>若人心軟復懈怠</l><l>如是厭沒不應行</l>
+<lb n="0285c14"/><l>譬如少薪無焰火</l><l>不得風吹便自滅</l>
+<lb n="0285c15"/><l>若有精進勇猛心</l><l>如是轉健得道疾</l>
+<lb n="0285c16"/><l>譬如小火多益薪</l><l>風吹轉熾無滅時</l>
+<lb n="0285c17"/><l>若行放捨止調縮</l><l>設復<note n="0285020" resp="Taisho" type="orig" place="foot text">發捨＝癈捨【元】【明】【宮】</note><app n="0285020"><lem>發捨</lem><rdg wit="【元】【明】【宮】" resp="Taisho">癈捨</rdg></app>失護法</l>
+<lb n="0285c18"/><l>譬如病人宜將養</l><l>若復放捨無得活</l>
+<lb n="0285c19"/><l>若有捨想正等心</l><l>宜時懃行得道疾</l>
+<lb n="0285c20"/><l>譬如有人乘調象</l><l>如意至湊無躓礙</l>
+<lb n="0285c21"/><l>若多婬欲愛亂心</l><l>是時不應行慈等</l>
+<lb n="0285c22"/><l>婬人行慈益癡悶</l><l>如人冷病服冷藥</l>
+<lb n="0285c23"/><l>婬人心亂觀不淨</l><l>諦觀不淨心得定</l>
+<lb n="0285c24"/><l>行法如是相應故</l><l>如人冷病服熱藥</l>
+<lb n="0285c25"/><l>若多瞋恚忿亂心</l><l>是時不應觀不淨</l>
+<lb n="0285c26"/><l>瞋人觀惡增恚心</l><l>如人熱病服熱藥</l>
+<lb n="0285c27"/><l>若人瞋怒行慈心</l><l>行慈不捨瞋心滅</l>
+<lb n="0285c28"/><l>行法如是相應故</l><l>如人熱病服冷藥</l>
+<lb n="0285c29"/><l>若多愚癡心<note n="0285021" resp="Taisho" type="orig" place="foot text">闇＝悶【元】【明】【宮】</note><app n="0285021"><lem>闇</lem><rdg wit="【元】【明】【宮】" resp="Taisho">悶</rdg></app>淺</l><l>不淨行慈<note n="0285022" resp="Taisho" type="orig" place="foot text">悲＝非【元】【明】【宮】</note><app n="0285022"><lem>悲</lem><rdg wit="【元】【明】【宮】" resp="Taisho">非</rdg></app>行法</l>
+<pb ed="T" id="T15.0614.0286a" n="0286a"/>
+<lb n="0286a01"/><l>二行增癡無益故</l><l>如人風病服&CB00595;藥</l>
+<lb n="0286a02"/><l>人心癡闇觀因緣</l><l>分別諦觀癡心滅</l>
+<lb n="0286a03"/><l>法行如是相應故</l><l>如人病風服膩藥</l>
+<lb n="0286a04"/><l>譬如金師<note n="0286001" resp="Taisho" type="orig" place="foot text">排＝&CB00469;【元】【明】【宮】</note><app n="0286001"><lem>排</lem><rdg wit="【元】【明】【宮】" resp="Taisho">&CB00469;</rdg></app>扇炭</l><l>用<note n="0286002" resp="Taisho" type="orig" place="foot text">功＝巧【元】【明】【宮】</note><app n="0286002"><lem>功</lem><rdg wit="【元】【明】【宮】" resp="Taisho">巧</rdg></app>非時失<note n="0286003" resp="Taisho" type="orig" place="foot text">&CB02170;＝&CB00469;【宮】下同</note><app n="0286003"><lem>&CB02170;</lem><rdg wit="【宮】" resp="Taisho">&CB00469;</rdg></app>法</l>
+<lb n="0286a05"/><l>&CB00229;&CB00229;急&CB02170;不知時</l><l>或時水澆或放捨</l>
+<lb n="0286a06"/><l>金融急&CB02170;則消過</l><l>未融便止則不消</l>
+<lb n="0286a07"/><l>非時水澆金則生</l><l>非時放置則不熟</l>
+<lb n="0286a08"/><l>精進攝心及放捨</l><l>應當觀察行道法</l>
+<lb n="0286a09"/><l>非時方便失法利</l><l>若非法利為非利</l>
+<lb n="0286a10"/><l>譬如藥師三種病</l><l>冷熱風病除滅故</l>
+<lb n="0286a11"/><l>應病與藥佛如是</l><l>婬怒癡病隨藥滅</l></lg>
+<lb n="0286a12"/><juan fun="close" n="002"><jhead><title>坐禪三<anchor id="fxT15p0286a01"/>昧經</title>卷下</jhead></juan></div1>
+</body></text></TEI.2>
