@@ -22,7 +22,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.14 $ (Big5)<date>$Date: 2004/06/07 03:04:45 $</date></edition>
+		<edition>$Revision: 1.15 $ (Big5)<date>$Date: 2004/06/16 09:23:46 $</date></edition>
 	</editionStmt>
 	<extent>36卷</extent>
 	<publicationStmt>
@@ -35,7 +35,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/06/07 03:04:45 $</date>
+		<date>$Date: 2004/06/16 09:23:46 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 51, No. 2077 &desc;</bibl>
@@ -61,6 +61,9 @@
 	</change>
 <!--
 $Log: T51n2077.xml,v $
+Revision 1.15  2004/06/16 09:23:46  saywhat
+修訂 juan, div & mulu位置
+
 Revision 1.14  2004/06/07 03:04:45  saywhat
 p0611b15 [遠>達]
 
@@ -192,7 +195,7 @@ Revision 1.4  2001/02/07 07:38:05  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.3  2001/02/03 08:12:00  chris
-Added keywords $Revision: 1.14 $, $Date: 2004/06/07 03:04:45 $ and $Log.
+Added keywords $Revision: 1.15 $, $Date: 2004/06/16 09:23:46 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -204,7 +207,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0469a02"/><head type="no">No. 2077</head>
 <lb n="0469a03"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十世"/>
-<div2 type="other"><mulu type="其他" level="2" label="卷第一目錄"/><head><note n="0469001" resp="Taisho" type="orig" place="foot text">【原】增上寺報恩藏明本</note>續傳燈錄卷第一目錄</head>
+<div2 type="other"><mulu type="其他" level="2" label="卷第一目錄"/><note n="0469001" resp="Taisho" type="orig" place="foot text">【原】增上寺報恩藏明本</note><head>續傳燈錄卷第一目錄</head>
 <lb n="0469a04"/>
 <lb n="0469a05"/><list><head>大鑑下第十世</head>
 <lb n="0469a06"/><item><list><head>汝州首山念禪師法嗣一十六人</head>
@@ -219,10 +222,10 @@ Added comment  for Emacs
 <lb n="0469a15"/><item>南臺契曠禪師</item><item>契聰上座<note place="inline">已上四人不錄</note></item></list></item></list>
 <lb n="0469a16"/><trailer>續傳燈錄卷第一目錄<note place="inline">終</note></trailer></div2>
 <lb n="0469a17"/>
-<lb n="0469a18"/><div2 type="other">
+<lb n="0469a18"/>
 <lb n="0469a19"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>續傳燈錄卷第一</jhead></juan>
 <lb n="0469a20"/>
-<lb n="0469a21"/><head>大鑑下第十世</head>
+<lb n="0469a21"/><div2 type="other"><head>大鑑下第十世</head>
 <lb n="0469a22"/><mulu type="其他" level="2" label="首山念禪師法嗣"/><head>首山念禪師法嗣</head>
 <lb n="0469a23"/><div3 type="other"><mulu type="其他" level="3" label="（汾陽善昭禪師）"/><p>汾陽太子院善昭禪師太原俞氏子。器識沈
 <lb n="0469a24"/>邃。少緣飾有大智。於一切文字不由師訓自
@@ -626,11 +629,11 @@ Added comment  for Emacs
 <lb n="0473c02"/>小。曰如何是山中人。師曰。橫眠&CB00594;臥</p></div3>
 <lb n="0473c03"/><div3 type="other"><mulu type="其他" level="3" label="（丞相王隨居士）"/><p>丞相王隨居士。謁首山得言外之旨。自爾履
 <lb n="0473c04"/>踐深相大法。臨終書偈曰。畫堂燈已滅。彈指
-<lb n="0473c05"/>向誰說。去住本尋常。春風掃殘雪</p>
-<lb n="0473c06"/><juan fun="close" n="001"><jhead>續傳燈錄卷第一</jhead></juan></div3></div2>
+<lb n="0473c05"/>向誰說。去住本尋常。春風掃殘雪</p></div3></div2>
+<lb n="0473c06"/><juan fun="close" n="001"><jhead>續傳燈錄卷第一</jhead></juan>
 <lb n="0473c07"/>
-<lb n="0473c08"/><div2 type="other">
-<lb n="0473c09"/><mulu type="其他" level="2" label="卷第二目錄"/><head>續傳燈錄卷第二目錄</head>
+<lb n="0473c08"/>
+<lb n="0473c09"/><div2 type="other"><mulu type="其他" level="2" label="卷第二目錄"/><head>續傳燈錄卷第二目錄</head>
 <lb n="0473c10"/>
 <lb n="0473c11"/><list><head>大鑑下第十世</head><item></item></list>
 <lb n="0473c12"/><list><head>智門祚禪師法嗣三十人</head>
@@ -1363,8 +1366,8 @@ Added comment  for Emacs
 <lb n="0481c15"/><div2 type="other"><mulu type="其他" level="2" label="谷隱儼禪師法嗣"/><head>谷隱儼禪師法嗣</head>
 <lb n="0481c16"/><div3 type="other"><mulu type="其他" level="3" label="（谷隱契崇禪師）"/><p>襄州谷隱契崇禪師。僧問。如何是祖師西來
 <lb n="0481c17"/>意。師曰。番人皮裘胡人著。曰學人不會此理
-<lb n="0481c18"/>如何。師曰。聾人側耳&CB00484;人歌</p>
-<lb n="0481c19"/><juan fun="close" n="002"><jhead>續傳燈錄卷第二</jhead></juan></div3></div2></div1>
+<lb n="0481c18"/>如何。師曰。聾人側耳&CB00484;人歌</p></div3></div2></div1>
+<lb n="0481c19"/><juan fun="close" n="002"><jhead>續傳燈錄卷第二</jhead></juan>
 <lb n="0481c20"/>
 <lb n="0481c21"/>
 <lb n="0481c22"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十一世"/>
@@ -1387,13 +1390,13 @@ Added comment  for Emacs
 <lb n="0482a08"/><item>大乘慧果禪師<note place="inline">已上三人見錄</note></item><item>石門守進禪師</item>
 <lb n="0482a09"/><item>廣慧懷慶禪師</item><item>承天遐猛禪師</item>
 <lb n="0482a10"/><item>什邡方水禪師</item>
-<lb n="0482a11"/><item>香巖海仙禪師<note place="inline">已上五人無錄</note></item></list>
+<lb n="0482a11"/><item>香巖海仙禪師<note place="inline">已上五人無錄</note></item></list></div2>
 <lb n="0482a12"/>
 <milestone unit="juan" n="3"/>
 <lb n="0482a13"/>
-<lb n="0482a14"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>續傳燈錄卷第三</jhead></juan></div2>
-<lb n="0482a15"/><div2 type="other">
-<lb n="0482a16"/><head>大鑑下第十一世</head>
+<lb n="0482a14"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>續傳燈錄卷第三</jhead></juan>
+<lb n="0482a15"/>
+<lb n="0482a16"/><div2 type="other"><head>大鑑下第十一世</head>
 <lb n="0482a17"/><mulu type="其他" level="2" label="汾陽昭禪師法嗣"/><head>汾陽昭禪師法嗣</head>
 <lb n="0482a18"/><div3 type="other"><mulu type="其他" level="3" label="（石霜楚圓禪師）"/><p>潭州石霜楚圓慈明禪師全州李氏子。少為
 <lb n="0482a19"/>書生。年二十二依湘山隱靜寺出家。其母有
@@ -1929,8 +1932,8 @@ Added comment  for Emacs
 <lb n="0488a09"/>窄處窄。曰如何是道中人。師曰。苦處若樂處
 <lb n="0488a10"/>樂。曰道與道中人相去多少。師曰。十萬八千。
 <lb n="0488a11"/>問如何是祖師西來意。曰天晴日出。曰學人
-<lb n="0488a12"/>不會。師曰。雨下泥生</p>
-<lb n="0488a13"/><juan fun="close" n="003"><jhead>續傳燈錄卷第三</jhead></juan></div3></div2>
+<lb n="0488a12"/>不會。師曰。雨下泥生</p></div3></div2>
+<lb n="0488a13"/><juan fun="close" n="003"><jhead>續傳燈錄卷第三</jhead></juan>
 <lb n="0488a14"/>
 <lb n="0488a15"/>
 <lb n="0488a16"/><div2 type="other"><mulu type="其他" level="2" label="卷第四目錄"/><head>續傳燈錄卷第四目錄</head>
@@ -2000,13 +2003,13 @@ Added comment  for Emacs
 <lb n="0488c20"/><list><head>石霜誠禪師法嗣一人</head>
 <lb n="0488c21"/><item>岳麓珪禪師<note place="inline">無錄</note></item></list>
 <lb n="0488c22"/><list><head>羅漢仁禪師法嗣一人</head>
-<lb n="0488c23"/><item>龍潭從曉禪師<note place="inline">無錄</note></item></list>
-<pb ed="T" id="T51.2077.0489a" n="0489a"/></div2>
+<lb n="0488c23"/><item>龍潭從曉禪師<note place="inline">無錄</note></item></list></div2>
+<pb ed="T" id="T51.2077.0489a" n="0489a"/>
 <lb n="0489a01"/>
-<milestone unit="juan" n="4"/><div2 type="other">
+<milestone unit="juan" n="4"/>
 <lb n="0489a02"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>續傳燈錄卷第四</jhead></juan>
 <lb n="0489a03"/>
-<lb n="0489a04"/><head>大鑑下第十一世</head>
+<lb n="0489a04"/><div2 type="other"><head>大鑑下第十一世</head>
 <lb n="0489a05"/><mulu type="其他" level="2" label="谷隱聰禪師法嗣"/><head>谷隱聰禪師法嗣</head>
 <lb n="0489a06"/><div3 type="other"><mulu type="其他" level="3" label="（金山曇CB00002禪師）"/><p>潤州金山曇&CB00002;達觀禪師。杭州丘氏子。首謁
 <lb n="0489a07"/>大陽玄禪師。遂問。洞山特設偏正君臣意明
@@ -2348,8 +2351,8 @@ Added comment  for Emacs
 <lb n="0492c13"/>性命</p></div3>
 <lb n="0492c14"/><div3 type="other"><mulu type="其他" level="3" label="（清化志超禪師）"/><p>越州清化志超禪師杭州董氏子。僧問。如何
 <lb n="0492c15"/>是佛。師曰。汝是甚麼人。曰莫便是也無。師
-<lb n="0492c16"/>曰。是即沒交涉</p>
-<lb n="0492c17"/><juan fun="close" n="004"><jhead>續傳燈錄卷第四</jhead></juan></div3></div2>
+<lb n="0492c16"/>曰。是即沒交涉</p></div3></div2>
+<lb n="0492c17"/><juan fun="close" n="004"><jhead>續傳燈錄卷第四</jhead></juan>
 <lb n="0492c18"/>
 <lb n="0492c19"/><div2 type="other"><mulu type="其他" level="2" label="卷第五目錄"/><head>續傳燈錄卷第五目錄</head>
 <lb n="0492c20"/>
@@ -2435,10 +2438,10 @@ Added comment  for Emacs
 <lb n="0493c10"/><trailer>續傳燈錄卷第五目錄</trailer></div2>
 <lb n="0493c11"/>
 <milestone unit="juan" n="5"/>
-<lb n="0493c12"/><div2 type="other">
+<lb n="0493c12"/>
 <lb n="0493c13"/><juan fun="open" n="005"><mulu type="卷" n="5"/><jhead>續傳燈錄卷第五</jhead></juan>
 <lb n="0493c14"/>
-<lb n="0493c15"/><head>大鑑下第十一世</head>
+<lb n="0493c15"/><div2 type="other"><head>大鑑下第十一世</head>
 <lb n="0493c16"/><mulu type="其他" level="2" label="洞山曉聰禪師法嗣"/><head>洞山曉聰禪師法嗣</head>
 <lb n="0493c17"/><div3 type="other"><mulu type="其他" level="3" label="（雲居曉舜禪師）"/><p>南康軍雲居曉舜禪師瑞州人也。少年&CB00308;猛。
 <lb n="0493c18"/>忽悟浮幻投師出家。乃修細行參洞山。一
@@ -2892,11 +2895,11 @@ Added comment  for Emacs
 <lb n="0498c16"/>師曰。大眾分明記取話頭</p></div3></div2>
 <lb n="0498c17"/><div2 type="other"><mulu type="其他" level="2" label="欽山悟勤禪師法嗣"/><head>欽山悟勤禪師法嗣</head>
 <lb n="0498c18"/><div3 type="other"><mulu type="其他" level="3" label="（梁山應圓禪師）"/><p>鼎州梁山圓應禪師。僧問。如何是超佛越祖
-<lb n="0498c19"/>之談。師曰。喫粥喫飯</p>
-<lb n="0498c20"/><juan fun="close" n="005"><jhead>續傳燈錄卷第五</jhead></juan></div3></div2>
+<lb n="0498c19"/>之談。師曰。喫粥喫飯</p></div3></div2>
+<lb n="0498c20"/><juan fun="close" n="005"><jhead>續傳燈錄卷第五</jhead></juan>
 <lb n="0498c21"/>
-<lb n="0498c22"/><div2 type="other"><mulu type="其他" level="2" label="卷第六目錄"/>
-<lb n="0498c23"/><head>續傳燈錄卷第六目錄</head>
+<lb n="0498c22"/>
+<lb n="0498c23"/><div2 type="other"><mulu type="其他" level="2" label="卷第六目錄"/><head>續傳燈錄卷第六目錄</head>
 <lb n="0498c24"/>
 <lb n="0498c25"/><list><head>大鑑下第十一世</head><item></item></list>
 <lb n="0498c26"/><list><head>大陽玄禪師法嗣二十五人</head>
@@ -2981,11 +2984,11 @@ Added comment  for Emacs
 <lb n="0499c15"/><item>圓通居訥禪師<note place="inline">一人見錄</note></item><item>延慶法珠禪師<note place="inline">一人無錄</note></item></list>
 <lb n="0499c16"/><trailer>續傳燈錄卷第六目錄</trailer></div2>
 <lb n="0499c17"/>
-<milestone unit="juan" n="6"/><div2 type="other">
+<milestone unit="juan" n="6"/>
 <lb n="0499c18"/>
 <lb n="0499c19"/><juan fun="open" n="006"><mulu type="卷" n="6"/><jhead>續傳燈錄卷第六</jhead></juan>
 <lb n="0499c20"/>
-<lb n="0499c21"/><head>大鑑下第十一世</head>
+<lb n="0499c21"/><div2 type="other"><head>大鑑下第十一世</head>
 <lb n="0499c22"/><mulu type="其他" level="2" label="大陽玄禪師法嗣"/><head>大陽玄禪師法嗣</head>
 <lb n="0499c23"/><div3 type="other"><mulu type="其他" level="3" label="（投子義青禪師）"/><p>舒州投子山義青禪師青社。李氏子。七齡&CB00002;
 <lb n="0499c24"/>異。往妙相寺出家。試經得度。習百法論。未幾
@@ -3459,8 +3462,8 @@ Added comment  for Emacs
 <lb n="0505a11"/>忽辭劉公歸。沐浴端坐示寂。劉公率緇俗送
 <lb n="0505a12"/>往茶毘。火焰中白氣上貫太陽。大眾驚仰。歐
 <lb n="0505a13"/>陽文忠公貶異教者。獨尊敬師。每問南來士
-<lb n="0505a14"/>人。曾見訥禪師否。又與老蘇明允遊相好云</p>
-<lb n="0505a15"/><juan fun="close" n="006"><jhead>續傳燈錄卷第六</jhead></juan></div3></div2></div1>
+<lb n="0505a14"/>人。曾見訥禪師否。又與老蘇明允遊相好云</p></div3></div2></div1>
+<lb n="0505a15"/><juan fun="close" n="006"><jhead>續傳燈錄卷第六</jhead></juan>
 <lb n="0505a16"/>
 <lb n="0505a17"/>
 <lb n="0505a18"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十二世"/>
@@ -3515,11 +3518,11 @@ Added comment  for Emacs
 <lb n="0505c06"/><item>待制查公居士<note place="inline">已上十八人無錄</note></item></list>
 <lb n="0505c07"/><trailer>續傳燈錄卷第七目錄</trailer></div2>
 <lb n="0505c08"/>
-<milestone unit="juan" n="7"/><div2 type="other">
+<milestone unit="juan" n="7"/>
 <lb n="0505c09"/>
 <lb n="0505c10"/><juan fun="open" n="007"><mulu type="卷" n="7"/><jhead>續傳燈錄卷第七</jhead></juan>
 <lb n="0505c11"/>
-<lb n="0505c12"/><head>大鑑下第十二世</head>
+<lb n="0505c12"/><div2 type="other"><head>大鑑下第十二世</head>
 <lb n="0505c13"/><mulu type="其他" level="2" label="石霜圓禪師法嗣"/><head>石霜圓禪師法嗣</head>
 <lb n="0505c14"/><div3 type="other"><mulu type="其他" level="3" label="（黃龍慧南禪師）"/><p>黃龍南禪師章氏諱惠南。其先信州玉山人
 <lb n="0505c15"/>也。童齠深沈有大人相。不茹葷不嬉戲。年十
@@ -4030,8 +4033,8 @@ Added comment  for Emacs
 <lb n="0511b09"/>持報佛恩德。勿以殊宗為介也。乃如教再拜
 <lb n="0511b10"/>以辭。後住長水承稟日顧眾曰。道非言象得。
 <lb n="0511b11"/>禪非擬議知。會意通宗曾無別致。由是二宗
-<lb n="0511b12"/>仰之。嘗疏楞嚴等經。盛行於世</p>
-<lb n="0511b13"/><juan fun="close" n="007"><jhead>續傳燈錄卷第七<note place="inline">終</note></jhead></juan></div3></div2>
+<lb n="0511b12"/>仰之。嘗疏楞嚴等經。盛行於世</p></div3></div2>
+<lb n="0511b13"/><juan fun="close" n="007"><jhead>續傳燈錄卷第七<note place="inline">終</note></jhead></juan>
 <lb n="0511b14"/>
 <lb n="0511b15"/>
 <lb n="0511b16"/><div2 type="other"><mulu type="其他" level="2" label="卷第八目錄"/><head>續傳燈錄卷第八目錄</head>
@@ -4085,11 +4088,11 @@ Added comment  for Emacs
 <lb n="0512a04"/><item>全詠和尚<note place="inline">已上四十二人無錄</note></item></list>
 <lb n="0512a05"/><trailer>續傳燈錄卷第八目錄</trailer></div2>
 <lb n="0512a06"/>
-<milestone unit="juan" n="8"/><div2 type="other">
+<milestone unit="juan" n="8"/>
 <lb n="0512a07"/>
 <lb n="0512a08"/><juan fun="open" n="008"><mulu type="卷" n="8"/><jhead>續傳燈錄卷<app><lem>第</lem><rdg wit="【大】">卷</rdg></app>八</jhead></juan>
 <lb n="0512a09"/>
-<lb n="0512a10"/><head>大鑑下第十二世</head>
+<lb n="0512a10"/><div2 type="other"><head>大鑑下第十二世</head>
 <lb n="0512a11"/><mulu type="其他" level="2" label="天衣懷禪師法嗣"/><head>天衣懷禪師法嗣</head>
 <lb n="0512a12"/><div3 type="other"><mulu type="其他" level="3" label="（慧林圓照本禪師）"/><p>東京慧林宗本圓照禪師。常州無錫管氏子。
 <lb n="0512a13"/>體貌厖碩所事淳厚。年十九依姑蘇承天永
@@ -4551,8 +4554,8 @@ Added comment  for Emacs
 <lb n="0517a19"/>曰。不打這鼓笛。公曰。恁麼則空游山水百無
 <lb n="0517a20"/>所能也。蓉曰。別來未久善能高鑒。公大笑。公
 <lb n="0517a21"/>有辭世偈曰。無一可戀。無一可捨。太虛空中。
-<lb n="0517a22"/>之乎者也。將錯就錯。西方極樂</p>
-<lb n="0517a23"/><juan fun="close" n="008"><jhead>續傳燈錄卷第八</jhead></juan></div3></div2>
+<lb n="0517a22"/>之乎者也。將錯就錯。西方極樂</p></div3></div2>
+<lb n="0517a23"/><juan fun="close" n="008"><jhead>續傳燈錄卷第八</jhead></juan>
 <lb n="0517a24"/>
 <lb n="0517a25"/>
 <lb n="0517a26"/><div2 type="other"><mulu type="其他" level="2" label="卷第九目錄"/><head>續傳燈錄卷第九目錄</head>
@@ -4625,11 +4628,11 @@ Added comment  for Emacs
 <lb n="0518a03"/><item>太子同廣禪師<note place="inline">無錄</note></item></list>
 <lb n="0518a04"/><trailer>續傳燈錄卷第九目錄<note place="inline">終</note></trailer></div2>
 <lb n="0518a05"/>
-<milestone unit="juan" n="9"/><div2 type="other">
+<milestone unit="juan" n="9"/>
 <lb n="0518a06"/>
 <lb n="0518a07"/><juan fun="open" n="009"><mulu type="卷" n="9"/><jhead>續傳燈錄卷第九</jhead></juan>
 <lb n="0518a08"/>
-<lb n="0518a09"/><head>大鑑下第十二世</head>
+<lb n="0518a09"/><div2 type="other"><head>大鑑下第十二世</head>
 <lb n="0518a10"/><mulu type="其他" level="2" label="大愚芝禪師法嗣"/><head>大愚芝禪師法嗣</head>
 <lb n="0518a11"/><div3 type="other"><mulu type="其他" level="3" label="（雲CB00123文悅禪師）"/><p>南嶽雲&CB00123;文悅禪師南昌徐氏子。初造大愚。
 <lb n="0518a12"/>聞示眾曰。大家相聚喫莖齏。若喚作一莖虀。
@@ -5022,8 +5025,8 @@ Added comment  for Emacs
 <lb n="0522b07"/>堂。靈山師子雲間哮吼。佛法無可商量。不如
 <lb n="0522b08"/>打箇筋斗。便下座。問羚羊未挂角時如何。師
 <lb n="0522b09"/>曰怕。曰既是善知識因何&CB00230;怕。師曰。山僧不
-<lb n="0522b10"/>曾見恁麼差異畜生</p>
-<lb n="0522b11"/><juan fun="close" n="009"><jhead>續傳燈錄卷第九<note place="inline">終</note></jhead></juan></div3></div2>
+<lb n="0522b10"/>曾見恁麼差異畜生</p></div3></div2>
+<lb n="0522b11"/><juan fun="close" n="009"><jhead>續傳燈錄卷第九<note place="inline">終</note></jhead></juan>
 <lb n="0522b12"/>
 <lb n="0522b13"/>
 <lb n="0522b14"/><div2 type="other"><mulu type="其他" level="2" label="卷第十目錄"/><head>續傳燈錄卷第十目錄</head>
@@ -5106,11 +5109,11 @@ Added comment  for Emacs
 <lb n="0523b01"/><item>李林宗中書<note place="inline">無錄</note></item></list>
 <lb n="0523b02"/><trailer>續傳燈錄卷第十目錄<note place="inline">終</note></trailer></div2>
 <lb n="0523b03"/>
-<milestone unit="juan" n="10"/><div2 type="other">
+<milestone unit="juan" n="10"/>
 <lb n="0523b04"/>
 <lb n="0523b05"/><juan fun="open" n="010"><mulu type="卷" n="10"/><jhead>續傳燈錄卷第十</jhead></juan>
 <lb n="0523b06"/>
-<lb n="0523b07"/><head>大鑑下第十二世</head>
+<lb n="0523b07"/><div2 type="other"><head>大鑑下第十二世</head>
 <lb n="0523b08"/><mulu type="其他" level="2" label="投子青禪師法嗣"/><head>投子青禪師法嗣</head>
 <lb n="0523b09"/><div3 type="other"><mulu type="其他" level="3" label="（芙容道楷禪師）"/><p>芙容道楷禪師。沂州沂水人。生崔氏。為人剛
 <lb n="0523b10"/>勁孤硬。自其少時即能辟穀學道。隱伊陽山
@@ -5541,8 +5544,8 @@ Added comment  for Emacs
 <lb n="0528a14"/>意。師曰。雲收千嶽翠。云如何領會。師曰。雨
 <lb n="0528a15"/>洗百花鮮。問學人上來請師垂示。師曰。江澄
 <lb n="0528a16"/>秋夜月。風掃曉天霞。云一句纔聞流通萬古。
-<lb n="0528a17"/>師曰。汝作麼生會。僧喝。師便打</p>
-<lb n="0528a18"/><juan fun="close" n="010"><jhead>續傳燈錄卷第十</jhead></juan></div3></div2>
+<lb n="0528a17"/>師曰。汝作麼生會。僧喝。師便打</p></div3></div2>
+<lb n="0528a18"/><juan fun="close" n="010"><jhead>續傳燈錄卷第十</jhead></juan>
 <lb n="0528a19"/>
 <lb n="0528a20"/>
 <lb n="0528a21"/><div2 type="other"><mulu type="其他" level="2" label="卷第十一目錄"/><head>續傳燈錄卷第十一目錄</head>
@@ -5671,13 +5674,13 @@ Added comment  for Emacs
 <lb n="0529b24"/><item>雙池智常禪師</item><item>含珠洞禪師</item>
 <lb n="0529b25"/><item>普寧常瑩禪師</item>
 <lb n="0529b26"/><item>南臺善圓禪師<note place="inline">已上四人無錄</note></item></list>
-<lb n="0529b27"/><trailer>續傳燈錄卷第十一目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0529c" n="0529c"/></div2>
+<lb n="0529b27"/><trailer>續傳燈錄卷第十一目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0529c" n="0529c"/>
 <lb n="0529c01"/>
-<milestone unit="juan" n="11"/><div2 type="other">
+<milestone unit="juan" n="11"/>
 <lb n="0529c02"/><juan fun="open" n="011"><mulu type="卷" n="11"/><jhead>續傳燈錄卷第十一</jhead></juan>
 <lb n="0529c03"/>
-<lb n="0529c04"/><head>大鑑下第十二世</head>
+<lb n="0529c04"/><div2 type="other"><head>大鑑下第十二世</head>
 <lb n="0529c05"/><mulu type="其他" level="2" label="雲居舜禪師法嗣"/><head>雲居舜禪師法嗣</head>
 <lb n="0529c06"/><div3 type="other"><mulu type="其他" level="3" label="（蔣山法泉禪師）"/><p>金陵蔣山法泉佛慧禪師。隨州時氏子。僧問。
 <lb n="0529c07"/>古人說不到處請師說。師曰。夫子入太廟。曰
@@ -6164,8 +6167,8 @@ Added comment  for Emacs
 <lb n="0535a07"/>老子有甚麼長處。雖然如是莫錯會好。拍手
 <lb n="0535a08"/>一下便下座。問承古有言。東山西嶺青。未審
 <lb n="0535a09"/>意旨如何。師曰。東山西嶺青。雨下&CB00230;天晴。更
-<lb n="0535a10"/>問箇中意。鵓鳩生鷂鷹</p>
-<lb n="0535a11"/><juan fun="close" n="011"><jhead>續傳燈錄卷第十一<note place="inline">終</note></jhead></juan></div3></div2></div1>
+<lb n="0535a10"/>問箇中意。鵓鳩生鷂鷹</p></div3></div2></div1>
+<lb n="0535a11"/><juan fun="close" n="011"><jhead>續傳燈錄卷第十一<note place="inline">終</note></jhead></juan>
 <lb n="0535a12"/>
 <lb n="0535a13"/>
 <lb n="0535a14"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十三世"/>
@@ -6272,13 +6275,13 @@ Added comment  for Emacs
 <lb n="0536a23"/><item>清獻趙抃居士<note place="inline">一人見錄</note></item><item>幽谷祐禪師</item>
 <lb n="0536a24"/><item>興國法雲禪師</item><item>九&CB00123;殊甫禪師</item>
 <lb n="0536a25"/><item>薦福忠實禪師<note place="inline">已上四人無錄</note></item></list>
-<lb n="0536a26"/><trailer>續傳燈錄卷第十二目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0536b" n="0536b"/></div2>
+<lb n="0536a26"/><trailer>續傳燈錄卷第十二目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0536b" n="0536b"/>
 <lb n="0536b01"/>
-<milestone unit="juan" n="12"/><div2 type="other">
+<milestone unit="juan" n="12"/>
 <lb n="0536b02"/><juan fun="open" n="012"><mulu type="卷" n="12"/><jhead>續傳燈錄卷第十二</jhead></juan>
 <lb n="0536b03"/>
-<lb n="0536b04"/><head>大鑑下第十三世</head>
+<lb n="0536b04"/><div2 type="other"><head>大鑑下第十三世</head>
 <lb n="0536b05"/><mulu type="其他" level="2" label="法雲秀禪師法嗣"/><head>法雲秀禪師法嗣</head>
 <lb n="0536b06"/><div3 type="other"><mulu type="其他" level="3" label="（法雲惟白禪師）"/><p>東京法雲惟白佛國禪師靖江人。上堂。離婁
 <lb n="0536b07"/>有意白浪徒以滔天。罔象無心明珠忽然在
@@ -7118,8 +7121,8 @@ Added comment  for Emacs
 <lb n="0545c01"/>曰。非師平昔警誨。至此必不得力矣。慧悼以
 <lb n="0545c02"/>偈曰。仕也邦為瑞。歸歟世作程。人間金粟去。
 <lb n="0545c03"/>天上玉樓成。慧劍無纖缺。&CB00457;壺徹底清。春風
-<lb n="0545c04"/>瀫水路。孤月照雲明</p>
-<lb n="0545c05"/><juan fun="close" n="012"><jhead>續傳燈錄卷第十二</jhead></juan></div3></div2>
+<lb n="0545c04"/>瀫水路。孤月照雲明</p></div3></div2>
+<lb n="0545c05"/><juan fun="close" n="012"><jhead>續傳燈錄卷第十二</jhead></juan>
 <lb n="0545c06"/>
 <lb n="0545c07"/>
 <lb n="0545c08"/><div2 type="other"><mulu type="其他" level="2" label="卷第十三目錄"/><head>續傳燈錄卷第十三目錄</head>
@@ -7259,13 +7262,13 @@ Added comment  for Emacs
 <lb n="0547a22"/><item>隱山法燦禪師<note place="inline">無錄</note></item></list>
 <lb n="0547a23"/><list><head>言首座禪師法嗣一人</head>
 <lb n="0547a24"/><item>招提惟湛禪師<note place="inline">見錄</note></item></list>
-<lb n="0547a25"/><trailer>續傳燈錄卷第十三目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0547b" n="0547b"/></div2>
+<lb n="0547a25"/><trailer>續傳燈錄卷第十三目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0547b" n="0547b"/>
 <lb n="0547b01"/>
-<milestone unit="juan" n="13"/><div2 type="other">
+<milestone unit="juan" n="13"/>
 <lb n="0547b02"/><juan fun="open" n="013"><mulu type="卷" n="13"/><jhead>續傳燈錄卷第十三</jhead></juan>
 <lb n="0547b03"/>
-<lb n="0547b04"/><head>大鑑下第十三世</head>
+<lb n="0547b04"/><div2 type="other"><head>大鑑下第十三世</head>
 <lb n="0547b05"/><mulu type="其他" level="2" label="楊岐會禪師法嗣"/><head>楊岐會禪師法嗣</head>
 <lb n="0547b06"/><div3 type="other"><mulu type="其他" level="3" label="（白雲守端禪師）"/><p>舒州白雲守端禪師。衡陽葛氏子。幼事翰墨。
 <lb n="0547b07"/>冠依茶陵郁山主披削。往參楊岐。岐一日忽
@@ -7855,9 +7858,9 @@ Added comment  for Emacs
 <lb n="0553c20"/>家白面郎。穿花折柳垂巾角。夜來一醉明月
 <lb n="0553c21"/>樓。呼盧輸&CB00230;黃金宅。臂鷹走犬歸不歸。娥眉
 <lb n="0553c22"/>皓齒嗔無力。此心能有幾人知。黃頭碧眼非
-<lb n="0553c23"/>相識。囉囉哩拍手一下。下座</p>
+<lb n="0553c23"/>相識。囉囉哩拍手一下。下座</p></div3></div2>
 <lb n="0553c24"/><juan fun="close" n="013"><jhead>續傳燈錄卷第十三</jhead></juan>
-<pb ed="T" id="T51.2077.0554a" n="0554a"/></div3></div2>
+<pb ed="T" id="T51.2077.0554a" n="0554a"/>
 <lb n="0554a01"/>
 <lb n="0554a02"/><div2 type="other"><mulu type="其他" level="2" label="卷第十四目錄"/><head>續傳燈錄卷第十四目錄</head>
 <lb n="0554a03"/>
@@ -7969,11 +7972,11 @@ Added comment  for Emacs
 <lb n="0555a19"/><item>雞&CB00123;止首座<note place="inline">已上一百五十三人無錄</note></item></list>
 <lb n="0555a20"/><trailer>續傳燈錄卷第十四目錄<note place="inline">終</note></trailer></div2>
 <lb n="0555a21"/>
-<milestone unit="juan" n="14"/><div2 type="other">
+<milestone unit="juan" n="14"/>
 <lb n="0555a22"/>
 <lb n="0555a23"/><juan fun="open" n="014"><mulu type="卷" n="14"/><jhead>續傳燈錄卷第十四</jhead></juan>
 <lb n="0555a24"/>
-<lb n="0555a25"/><head>大鑑下第十三世</head>
+<lb n="0555a25"/><div2 type="other"><head>大鑑下第十三世</head>
 <lb n="0555a26"/><mulu type="其他" level="2" label="東京慧林圓照宗本禪師法嗣"/><head>東京慧林圓照宗本禪師法嗣</head>
 <lb n="0555a27"/><div3 type="other"><mulu type="其他" level="3" label="（法雲善本禪師）"/><p>東京法雲大通善本禪師。姓董氏其先家於
 <lb n="0555a28"/>太康仲舒村。師之父祖皆官&CB00002;遂為&CB00002;州人
@@ -8744,8 +8747,8 @@ Added comment  for Emacs
 <lb n="0563c13"/>河屬帝家</p></div3>
 <lb n="0563c14"/><div3 type="other"><mulu type="其他" level="3" label="（褒親祥禪師）"/><p>東京褒親慈濟祥禪師<note place="inline">祥亦作翔</note>上堂曰。梅花新綻
 <lb n="0563c15"/>柳眼初開。雪散長空風恬浪靜。文殊性海普
-<lb n="0563c16"/>賢行門。直下分明更無餘事。良久曰。莫錯認</p>
-<lb n="0563c17"/><juan fun="close" n="014"><jhead>續傳燈錄卷第十四<note place="inline">終</note></jhead></juan></div3></div2>
+<lb n="0563c16"/>賢行門。直下分明更無餘事。良久曰。莫錯認</p></div3></div2>
+<lb n="0563c17"/><juan fun="close" n="014"><jhead>續傳燈錄卷第十四<note place="inline">終</note></jhead></juan>
 <lb n="0563c18"/>
 <lb n="0563c19"/>
 <lb n="0563c20"/>
@@ -8769,11 +8772,11 @@ Added comment  for Emacs
 <lb n="0564a08"/><item>潘清一居士<note place="inline">已上十三人無錄</note></item></list>
 <lb n="0564a09"/><trailer>續傳燈錄卷第十五目錄<note place="inline">終</note></trailer></div2>
 <lb n="0564a10"/>
-<milestone unit="juan" n="15"/><div2 type="other">
+<milestone unit="juan" n="15"/>
 <lb n="0564a11"/>
 <lb n="0564a12"/><juan fun="open" n="015"><mulu type="卷" n="15"/><jhead>續傳燈錄卷第十五</jhead></juan>
 <lb n="0564a13"/>
-<lb n="0564a14"/><head>大鑑下第十三世</head>
+<lb n="0564a14"/><div2 type="other"><head>大鑑下第十三世</head>
 <lb n="0564a15"/><mulu type="其他" level="2" label="1 黃龍慧南禪師法嗣"/><head>黃龍慧南禪師法嗣</head>
 <lb n="0564a16"/><div3 type="other"><mulu type="其他" level="3" label="（黃龍祖心禪師）"/><p>洪州黃龍晦堂寶覺祖心禪師。南雄始興人
 <lb n="0564a17"/>生於鄔氏。少為書生有聲。年十九而目盲。父
@@ -9338,8 +9341,8 @@ Added comment  for Emacs
 <lb n="0570b06"/><div3 type="other"><mulu type="其他" level="3" label="（福嚴慈感禪師）"/><p>南嶽福嚴慈感禪師潼川杜氏子。上堂。古佛
 <lb n="0570b07"/>心祇如今。若不會若沈吟。秋雨微微秋風颯
 <lb n="0570b08"/>颯。乍此乍彼若為酬答。沙岸蘆花青黃交雜。
-<lb n="0570b09"/>禪者何依。良久曰。&CB05263;</p>
-<lb n="0570b10"/><juan fun="close" n="015"><jhead>續傳燈錄卷第十五</jhead></juan></div3></div2>
+<lb n="0570b09"/>禪者何依。良久曰。&CB05263;</p></div3></div2>
+<lb n="0570b10"/><juan fun="close" n="015"><jhead>續傳燈錄卷第十五</jhead></juan>
 <lb n="0570b11"/>
 <lb n="0570b12"/>
 <lb n="0570b13"/><div2 type="other"><mulu type="其他" level="2" label="卷第十六目錄"/><head>續傳燈錄卷第十六目錄</head>
@@ -9399,11 +9402,11 @@ Added comment  for Emacs
 <lb n="0571a07"/><item>臨安居潤禪師<note place="inline">一人見錄</note></item><item>甘露明廣禪師<note place="inline">一人無錄</note></item></list>
 <lb n="0571a08"/><trailer>續傳燈錄卷第十六目錄<note place="inline">終</note></trailer></div2>
 <lb n="0571a09"/>
-<milestone unit="juan" n="16"/><div2 type="other">
+<milestone unit="juan" n="16"/>
 <lb n="0571a10"/>
 <lb n="0571a11"/><juan fun="open" n="016"><mulu type="卷" n="16"/><jhead>續傳燈錄卷第十六</jhead></juan>
 <lb n="0571a12"/>
-<lb n="0571a13"/><head>大鑑下第十三世</head>
+<lb n="0571a13"/><div2 type="other"><head>大鑑下第十三世</head>
 <lb n="0571a14"/><mulu type="其他" level="2" label="2 黃龍慧南禪師法嗣"/><head>黃龍南禪師法嗣</head>
 <lb n="0571a15"/><div3 type="other"><mulu type="其他" level="3" label="（石霜琳禪師）"/><p>潭州石霜琳禪師。初行&CB00560;時與夾山齡同行。
 <lb n="0571a16"/>久依佛日才禪師罷參矣。因與齡同遊黃蘗。
@@ -10033,8 +10036,8 @@ Added comment  for Emacs
 <lb n="0578a10"/>忽然瞥地。始知刀是鐵。做一時放下。便乃天
 <lb n="0578a11"/>台普請南岳遊山。左之右之不居惑地。諸仁
 <lb n="0578a12"/>者。古人既恁麼會。今日欠少箇什麼。良久曰。
-<lb n="0578a13"/>多虛不如少實</p>
-<lb n="0578a14"/><juan fun="close" n="016"><jhead>續傳燈錄卷第十六<note place="inline">終</note></jhead></juan></div3></div2></div1>
+<lb n="0578a13"/>多虛不如少實</p></div3></div2></div1>
+<lb n="0578a14"/><juan fun="close" n="016"><jhead>續傳燈錄卷第十六<note place="inline">終</note></jhead></juan>
 <lb n="0578a15"/>
 <lb n="0578a16"/>
 <lb n="0578a17"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十四世"/><div2 type="other"><mulu type="其他" level="2" label="卷第十七目錄"/><head>續傳燈錄卷第十七目錄</head>
@@ -10117,11 +10120,11 @@ Added comment  for Emacs
 <lb n="0579a04"/><item>大洪慶顯禪師<note place="inline">見錄</note></item><item>荊州公安愍<note place="inline">無錄</note></item></list>
 <lb n="0579a05"/><trailer>續傳燈錄卷第十七目錄<note place="inline">終</note></trailer></div2>
 <lb n="0579a06"/>
-<milestone unit="juan" n="17"/><div2 type="other">
+<milestone unit="juan" n="17"/>
 <lb n="0579a07"/>
 <lb n="0579a08"/><juan fun="open" n="017"><mulu type="卷" n="17"/><jhead>續傳燈錄卷第十七</jhead></juan>
 <lb n="0579a09"/>
-<lb n="0579a10"/><head>大鑑下第十四世</head>
+<lb n="0579a10"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0579a11"/><mulu type="其他" level="2" label="丹霞淳禪師法嗣"/><head>丹霞淳禪師法嗣</head>
 <lb n="0579a12"/><div3 type="other"><mulu type="其他" level="3" label="（天童正覺禪師）"/><p>明州天童宏智正覺禪師。隰州李氏子。母夢
 <lb n="0579a13"/>五臺一僧解環與環其右臂。乃孕遂齋戒。及
@@ -10587,11 +10590,11 @@ Added comment  for Emacs
 <lb n="0584a23"/><div3 type="other"><mulu type="其他" level="3" label="（大洪慶顯禪師）"/><p>隨州大洪慶顯禪師。廣安楊氏子。僧問。須菩
 <lb n="0584a24"/>提岩中宴坐帝釋雨華。和尚新據洪&CB00123;有何
 <lb n="0584a25"/>祥瑞。師曰。鐵牛耕破扶桑國。迸出金烏照海
-<lb n="0584a26"/>門。曰未審是何宗旨。師曰。熨斗煎茶銚不同</p>
+<lb n="0584a26"/>門。曰未審是何宗旨。師曰。熨斗煎茶銚不同</p></div3></div2>
 <lb n="0584a27"/><juan fun="close" n="017"><jhead>續傳燈錄卷第十七</jhead></juan>
-<pb ed="T" id="T51.2077.0584b" n="0584b"/></div3></div2>
-<lb n="0584b01"/><div2 type="other">
-<lb n="0584b02"/><mulu type="其他" level="2" label="卷第十八目錄"/><head>續傳燈錄卷第十八目錄</head>
+<pb ed="T" id="T51.2077.0584b" n="0584b"/>
+<lb n="0584b01"/>
+<lb n="0584b02"/><div2 type="other"><mulu type="其他" level="2" label="卷第十八目錄"/><head>續傳燈錄卷第十八目錄</head>
 <lb n="0584b03"/>
 <lb n="0584b04"/><list><head>大鑑下第十四世</head><item></item></list>
 <lb n="0584b05"/><list><head>泐潭英禪師下法嗣一十一人</head>
@@ -10695,11 +10698,11 @@ Added comment  for Emacs
 <lb n="0585b13"/><item>報恩覺然禪師<note place="inline">見錄</note></item></list>
 <lb n="0585b14"/><trailer>續傳燈錄卷第十八目錄<note place="inline">終</note></trailer></div2>
 <lb n="0585b15"/>
-<milestone unit="juan" n="18"/><div2 type="other">
+<milestone unit="juan" n="18"/>
 <lb n="0585b16"/>
 <lb n="0585b17"/><juan fun="open" n="018"><mulu type="卷" n="18"/><jhead>續傳燈錄卷第十八</jhead></juan>
 <lb n="0585b18"/>
-<lb n="0585b19"/><head>大鑑下第十四世</head>
+<lb n="0585b19"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0585b20"/><mulu type="其他" level="2" label="泐潭洪英禪師法嗣"/><head>泐潭洪英禪師法嗣</head>
 <lb n="0585b21"/><div3 type="other"><mulu type="其他" level="3" label="（法輪齊添禪師）"/><p>南嶽法輪齊添禪師。僧問。學人上來乞師指
 <lb n="0585b22"/>示。師曰。汝適來聞鼓聲麼。僧云聞。師曰。還
@@ -11115,11 +11118,11 @@ Added comment  for Emacs
 <lb n="0590a12"/>學者無事空言。須求妙悟。去妙悟而事空言。
 <lb n="0590a13"/>其猶逐臭耳。然雖如是。罕逢穿耳客多遇刻
 <lb n="0590a14"/>舟人。一日謂眾曰。世緣易染道業難辦。汝等
-<lb n="0590a15"/>勉之。語卒而逝</p>
+<lb n="0590a15"/>勉之。語卒而逝</p></div3></div2>
 <lb n="0590a16"/><juan fun="close" n="018"><jhead>續傳燈錄卷第十八</jhead></juan>
-<pb ed="T" id="T51.2077.0591a" n="0591a"/></div3></div2>
-<lb n="0591a01"/><div2 type="other">
-<lb n="0591a02"/><mulu type="其他" level="2" label="卷第十九目錄"/><head>續傳燈錄卷第十九目錄</head>
+<pb ed="T" id="T51.2077.0591a" n="0591a"/>
+<lb n="0591a01"/>
+<lb n="0591a02"/><div2 type="other"><mulu type="其他" level="2" label="卷第十九目錄"/><head>續傳燈錄卷第十九目錄</head>
 <lb n="0591a03"/>
 <lb n="0591a04"/><list><head>大鑑下第十四世</head><item></item></list>
 <lb n="0591a05"/><list><head>法雲善本禪師法嗣六十九人</head>
@@ -11198,11 +11201,11 @@ Added comment  for Emacs
 <lb n="0591c18"/><item>僧忍和尚<note place="inline">已上九人無錄</note></item></list>
 <lb n="0591c19"/><trailer>續傳燈錄卷第十九目錄<note place="inline">終</note></trailer></div2>
 <lb n="0591c20"/>
-<milestone unit="juan" n="19"/><div2 type="other">
+<milestone unit="juan" n="19"/>
 <lb n="0591c21"/>
 <lb n="0591c22"/><juan fun="open" n="019"><mulu type="卷" n="19"/><jhead>續傳燈錄卷第十九</jhead></juan>
 <lb n="0591c23"/>
-<lb n="0591c24"/><head>大鑑下第十四世</head>
+<lb n="0591c24"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0591c25"/><mulu type="其他" level="2" label="法雲善本禪師法嗣"/><head>法雲善本禪師法嗣</head>
 <lb n="0591c26"/><div3 type="other"><mulu type="其他" level="3" label="（淨慈楚明禪師）"/><p>臨安府淨慈楚明寶印禪師。百粵張氏。上堂。
 <lb n="0591c27"/>祖師心印非長非短非方非圓非內非外亦非
@@ -11665,11 +11668,11 @@ Added comment  for Emacs
 <lb n="0597a04"/>座</p></div3>
 <lb n="0597a05"/><div3 type="other"><mulu type="其他" level="3" label="（建隆原禪師）"/><p>揚州建隆原禪師。姑蘇夏氏子。上堂拈柱杖
 <lb n="0597a06"/>曰。買帽相頭依模畫樣。從他野老自顰眉。誌
-<lb n="0597a07"/>公不是閑和尚。卓拄杖下座</p>
-<lb n="0597a08"/><juan fun="close" n="019"><jhead>續傳燈錄卷第十九</jhead></juan></div3></div2>
+<lb n="0597a07"/>公不是閑和尚。卓拄杖下座</p></div3></div2>
+<lb n="0597a08"/><juan fun="close" n="019"><jhead>續傳燈錄卷第十九</jhead></juan>
 <lb n="0597a09"/>
-<lb n="0597a10"/><div2 type="other">
-<lb n="0597a11"/><mulu type="其他" level="2" label="卷第二十目錄"/><head>續傳燈錄卷第二十目錄</head>
+<lb n="0597a10"/>
+<lb n="0597a11"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十目錄"/><head>續傳燈錄卷第二十目錄</head>
 <lb n="0597a12"/>
 <lb n="0597a13"/><list><head>大鑑下第十四世</head><item></item></list>
 <lb n="0597a14"/><list><head>東林照覺常總禪師法嗣六十二人</head>
@@ -11725,11 +11728,11 @@ Added comment  for Emacs
 <lb n="0597c04"/><item>香山慧常禪師</item><item>甘露歸善禪師</item></list>
 <lb n="0597c05"/><trailer>續傳燈錄卷第二十目錄<note place="inline">終</note></trailer></div2>
 <lb n="0597c06"/>
-<milestone unit="juan" n="20"/><div2 type="other">
+<milestone unit="juan" n="20"/>
 <lb n="0597c07"/>
 <lb n="0597c08"/><juan fun="open" n="020"><mulu type="卷" n="20"/><jhead>續傳燈錄卷第二十</jhead></juan>
 <lb n="0597c09"/>
-<lb n="0597c10"/><head>大鑑下第十四世</head>
+<lb n="0597c10"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0597c11"/><mulu type="其他" level="2" label="東林照覺常總禪師法嗣"/><head>東林照覺常總禪師法嗣</head>
 <lb n="0597c12"/><div3 type="other"><mulu type="其他" level="3" label="（泐潭應乾禪師）"/><p>洪州泐潭寶&CB00123;應乾禪師。姓彭氏袁州萍鄉
 <lb n="0597c13"/>人。遍歷諸方。晚至照覺禪師泐潭法席。久之
@@ -12428,11 +12431,11 @@ Added comment  for Emacs
 <lb n="0605b16"/>徑深。借與一龍騎出洞。若逢天旱便為霖。擲
 <lb n="0605b17"/>拄杖下座。公拜起。印曰。收得龍麼。公曰。已
 <lb n="0605b18"/>在這&M034294;。印曰。作麼生騎。公擺手作舞便行。印
-<lb n="0605b19"/>拊掌曰。秖有這漢猶較些子</p>
-<lb n="0605b20"/><juan fun="close" n="020"><jhead>續傳燈錄卷第二十</jhead></juan></div3></div2>
+<lb n="0605b19"/>拊掌曰。秖有這漢猶較些子</p></div3></div2>
+<lb n="0605b20"/><juan fun="close" n="020"><jhead>續傳燈錄卷第二十</jhead></juan>
 <lb n="0605b21"/>
-<lb n="0605b22"/><div2 type="other">
-<lb n="0605b23"/><mulu type="其他" level="2" label="卷第二十一目錄"/><head>續傳燈錄卷第二十一目錄</head>
+<lb n="0605b22"/>
+<lb n="0605b23"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十一目錄"/><head>續傳燈錄卷第二十一目錄</head>
 <lb n="0605b24"/>
 <lb n="0605b25"/><list><head>大鑑下第十四世</head><item></item></list>
 <lb n="0605b26"/><list><head>保寧仁勇禪師法嗣十二人</head>
@@ -12539,11 +12542,11 @@ Added comment  for Emacs
 <lb n="0606c07"/><item>鼎州慶和懷悚禪師<note place="inline">已上二人無錄</note></item></list>
 <lb n="0606c08"/><trailer>續傳燈錄卷第二十一<note place="inline">終</note></trailer></div2>
 <lb n="0606c09"/>
-<milestone unit="juan" n="21"/><div2 type="other">
+<milestone unit="juan" n="21"/>
 <lb n="0606c10"/>
 <lb n="0606c11"/><juan fun="open" n="021"><mulu type="卷" n="21"/><jhead>續傳燈錄卷第二十一</jhead></juan>
 <lb n="0606c12"/>
-<lb n="0606c13"/><head>大鑑下第十四世</head>
+<lb n="0606c13"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0606c14"/><mulu type="其他" level="2" label="保寧仁勇禪師法嗣"/><head>保寧仁勇禪師法嗣</head>
 <lb n="0606c15"/><div3 type="other"><mulu type="其他" level="3" label="（上方日益禪師）"/><p>安吉州上方日益禪師。開堂日上首白槌罷。
 <lb n="0606c16"/>師曰。白槌前觀一又不成。白槌後觀二又不
@@ -13072,11 +13075,11 @@ Added comment  for Emacs
 <lb n="0612b29"/>因僧請益。師以頌答之曰。我有一柄拂子。用
 <pb ed="T" id="T51.2077.0612c" n="0612c"/>
 <lb n="0612c01"/>處別無調度。有時挂在松枝。任他頭垂角
-<lb n="0612c02"/>露</p>
-<lb n="0612c03"/><juan fun="close" n="021"><jhead>續傳燈錄卷第二十一</jhead></juan></div3></div2>
+<lb n="0612c02"/>露</p></div3></div2>
+<lb n="0612c03"/><juan fun="close" n="021"><jhead>續傳燈錄卷第二十一</jhead></juan>
 <lb n="0612c04"/>
-<lb n="0612c05"/><div2 type="other">
-<lb n="0612c06"/><mulu type="其他" level="2" label="卷第二十二目錄"/><head>續傳燈錄卷第二十二目錄</head>
+<lb n="0612c05"/>
+<lb n="0612c06"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十二目錄"/><head>續傳燈錄卷第二十二目錄</head>
 <lb n="0612c07"/>
 <lb n="0612c08"/><list><head>大鑑下第十四世</head><item></item></list>
 <lb n="0612c09"/><list><head>黃龍晦堂心禪師法嗣四十七人</head>
@@ -13127,13 +13130,13 @@ Added comment  for Emacs
 <lb n="0613a24"/><item>北禪慧昭禪師</item><item>石霜紹珂禪師</item>
 <lb n="0613a25"/><item>慈雲敦雅禪師</item><item>湯泉禪禪師</item>
 <lb n="0613a26"/><item>寶&CB00123;楚原首座</item><item>安石王荊公<note place="inline">已上十八人無錄</note></item></list>
-<lb n="0613a27"/><trailer>續傳燈錄卷第二十二目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0613b" n="0613b"/></div2>
+<lb n="0613a27"/><trailer>續傳燈錄卷第二十二目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0613b" n="0613b"/>
 <lb n="0613b01"/>
-<milestone unit="juan" n="22"/><div2 type="other">
+<milestone unit="juan" n="22"/>
 <lb n="0613b02"/><juan fun="open" n="022"><mulu type="卷" n="22"/><jhead>續傳燈錄卷第二十二</jhead></juan>
 <lb n="0613b03"/>
-<lb n="0613b04"/><head>大鑑下第十四世</head>
+<lb n="0613b04"/><div2 type="other"><head>大鑑下第十四世</head>
 <lb n="0613b05"/><mulu type="其他" level="2" label="黃龍心禪師法嗣"/><head>黃龍心禪師法嗣</head>
 <lb n="0613b06"/><div3 type="other"><mulu type="其他" level="3" label="（黃龍悟新禪師）"/><p>黃龍悟新禪師。王氏。韶州曲江人也。魁岸黑
 <lb n="0613b07"/>面如梵僧狀。依佛陀院落髮。以氣節蓋眾好
@@ -13863,8 +13866,8 @@ Added comment  for Emacs
 <lb n="0621b11"/>宿便行。師後納於慧安。闍維六根不壞者三。
 <lb n="0621b12"/>獲舍利無數。異香滿室累月不絕。奉新後遭
 <lb n="0621b13"/>兵火殘破無孑遺。獨慧安諸殿嶷然獨存。蓋
-<lb n="0621b14"/>願力成就神物護持所致云</p>
-<lb n="0621b15"/><juan fun="close" n="022"><jhead>續傳燈錄卷第二十二</jhead></juan></div3></div2></div1>
+<lb n="0621b14"/>願力成就神物護持所致云</p></div3></div2></div1>
+<lb n="0621b15"/><juan fun="close" n="022"><jhead>續傳燈錄卷第二十二</jhead></juan>
 <lb n="0621b16"/>
 <lb n="0621b17"/>
 <lb n="0621b18"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十五世"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十三目錄"/><head>續傳燈錄卷第二十三目錄</head>
@@ -13945,11 +13948,11 @@ Added comment  for Emacs
 <lb n="0622b03"/><item>大溈智禪師<note place="inline">見錄</note></item></list>
 <lb n="0622b04"/><trailer>續傳燈錄卷第二十三目錄<note place="inline">終</note></trailer></div2>
 <lb n="0622b05"/>
-<milestone unit="juan" n="23"/><div2 type="other">
+<milestone unit="juan" n="23"/>
 <lb n="0622b06"/>
 <lb n="0622b07"/><juan fun="open" n="023"><mulu type="卷" n="23"/><jhead>續傳燈錄卷第二十三</jhead></juan>
 <lb n="0622b08"/>
-<lb n="0622b09"/><head>大鑑下第十五世</head>
+<lb n="0622b09"/><div2 type="other"><head>大鑑下第十五世</head>
 <lb n="0622b10"/><mulu type="其他" level="2" label="黃龍清禪師法嗣"/><head>黃龍清禪師法嗣</head>
 <lb n="0622b11"/><div3 type="other"><mulu type="其他" level="3" label="（長靈守卓禪師）"/><p>東京天寧長靈守卓禪師。泉州莊氏子。上堂
 <lb n="0622b12"/>曰。三千劍客獨許莊周。為甚麼跳不出。良醫
@@ -14482,11 +14485,11 @@ Added comment  for Emacs
 <lb n="0628a29"/>見灼然。須知向上有知有底人始得。且作麼
 <pb ed="T" id="T51.2077.0628b" n="0628b"/>
 <lb n="0628b01"/>生是知有底人。喫官酒臥官街。當處死當處
-<lb n="0628b02"/>埋。沙場無限英靈漢。堆山積嶽露屍骸</p>
-<lb n="0628b03"/><juan fun="close" n="023"><jhead>續傳燈錄卷第二十三</jhead></juan></div3></div2>
+<lb n="0628b02"/>埋。沙場無限英靈漢。堆山積嶽露屍骸</p></div3></div2>
+<lb n="0628b03"/><juan fun="close" n="023"><jhead>續傳燈錄卷第二十三</jhead></juan>
 <lb n="0628b04"/>
-<lb n="0628b05"/><div2 type="other">
-<lb n="0628b06"/><mulu type="其他" level="2" label="卷第二十四目錄"/><head>續傳燈錄卷第二十四目錄</head>
+<lb n="0628b05"/>
+<lb n="0628b06"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十四目錄"/><head>續傳燈錄卷第二十四目錄</head>
 <lb n="0628b07"/>
 <lb n="0628b08"/><list><head>大鑑下第十五世</head><item></item></list>
 <lb n="0628b09"/><list><head>淨慈明禪師法嗣五人</head>
@@ -14589,11 +14592,11 @@ Added comment  for Emacs
 <lb n="0629b16"/><item>揚州石塔和尚<note place="inline">二人俱無錄</note></item></list>
 <lb n="0629b17"/><trailer>續傳燈錄卷第二十四目錄<note place="inline">終</note></trailer></div2>
 <lb n="0629b18"/>
-<milestone unit="juan" n="24"/><div2 type="other">
+<milestone unit="juan" n="24"/>
 <lb n="0629b19"/>
 <lb n="0629b20"/><juan fun="open" n="024"><mulu type="卷" n="24"/><jhead>續傳燈錄卷第二十四</jhead></juan>
 <lb n="0629b21"/>
-<lb n="0629b22"/><head>大鑑下第十五世</head>
+<lb n="0629b22"/><div2 type="other"><head>大鑑下第十五世</head>
 <lb n="0629b23"/><mulu type="其他" level="2" label="淨慈明禪師法嗣"/><head>淨慈明禪師法嗣</head>
 <lb n="0629b24"/><div3 type="other"><mulu type="其他" level="3" label="（淨慈象禪師）"/><p>臨安府淨慈象禪師。越州山陰人也。上堂。古
 <lb n="0629b25"/>者道。一翳在眼空花亂墜。拈拄杖曰。淨慈拈
@@ -14937,8 +14940,8 @@ Added comment  for Emacs
 <lb n="0633b03"/><div3 type="other"><mulu type="其他" level="3" label="（承天仲顏禪師）"/><p>婺州承天仲顏禪師。僧問。梵王請佛蓋為群
 <lb n="0633b04"/>生。今日使君請師當為何事。師曰。大眾知有
 <lb n="0633b05"/>恩僧云。恁麼則人天交接去也。師曰。不妨具
-<lb n="0633b06"/>眼</p>
-<lb n="0633b07"/><juan fun="close" n="024"><jhead>續傳燈錄卷第二十四</jhead></juan></div3></div2>
+<lb n="0633b06"/>眼</p></div3></div2>
+<lb n="0633b07"/><juan fun="close" n="024"><jhead>續傳燈錄卷第二十四</jhead></juan>
 <lb n="0633b08"/>
 <lb n="0633b09"/>
 <lb n="0633b10"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十五目錄"/><head>續傳燈錄卷第二十五目錄</head>
@@ -14984,11 +14987,11 @@ Added comment  for Emacs
 <lb n="0633c20"/><item>君山普淨禪師<note place="inline">見錄</note></item></list>
 <lb n="0633c21"/><trailer>續傳燈錄卷第二十五目錄<note place="inline">終</note></trailer></div2>
 <lb n="0633c22"/>
-<milestone unit="juan" n="25"/><div2 type="other">
+<milestone unit="juan" n="25"/>
 <lb n="0633c23"/>
 <lb n="0633c24"/><juan fun="open" n="025"><mulu type="卷" n="25"/><jhead>續傳燈錄卷第二十五</jhead></juan>
 <lb n="0633c25"/>
-<lb n="0633c26"/><head>大鑑下第十五世</head>
+<lb n="0633c26"/><div2 type="other"><head>大鑑下第十五世</head>
 <lb n="0633c27"/><mulu type="其他" level="2" label="五祖演禪師法嗣"/><head>五祖演禪師法嗣</head>
 <lb n="0633c28"/><div3 type="other"><mulu type="其他" level="3" label="（昭覺克勤禪師）"/><p>成都府昭覺寺克勤佛果禪師。彭州駱氏子。
 <lb n="0633c29"/>世宗儒。師兒時日記千言。偶游妙寂寺見佛
@@ -15768,11 +15771,11 @@ Added comment  for Emacs
 <lb n="0642b23"/>老輥毬禾山打鼓。祕巖擎杈清平拽石。此一
 <lb n="0642b24"/>隊漢各逞伎倆。總不措一言教。後人如何摸
 <lb n="0642b25"/>&CB01857;。莫怪山僧不會說禪。秖是修造院門。一粥
-<lb n="0642b26"/>一飯接待往來。若是說禪說道自有諸方</p>
+<lb n="0642b26"/>一飯接待往來。若是說禪說道自有諸方</p></div3></div2>
 <lb n="0642b27"/><juan fun="close" n="025"><jhead>續傳燈錄卷第二十五</jhead></juan>
-<pb ed="T" id="T51.2077.0642c" n="0642c"/></div3></div2>
-<lb n="0642c01"/><div2 type="other">
-<lb n="0642c02"/><mulu type="其他" level="2" label="卷第二十六目錄"/><head>續傳燈錄卷第二十六目錄</head>
+<pb ed="T" id="T51.2077.0642c" n="0642c"/>
+<lb n="0642c01"/>
+<lb n="0642c02"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十六目錄"/><head>續傳燈錄卷第二十六目錄</head>
 <lb n="0642c03"/>
 <lb n="0642c04"/><list><head>大鑑下第十五世</head><item></item></list>
 <lb n="0642c05"/><list><head>兜率悅禪師法嗣十二人</head>
@@ -15856,13 +15859,13 @@ Added comment  for Emacs
 <lb n="0643b23"/><item>慧力洞源禪師<note place="inline">一人見錄</note></item><item>福勝常極禪師</item>
 <lb n="0643b24"/><item>慧燈擇英禪師</item>
 <lb n="0643b25"/><item>雲溪文慶禪師<note place="inline">已上三人無錄</note></item></list>
-<lb n="0643b26"/><trailer>續傳燈錄卷第二十六目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0643c" n="0643c"/></div2>
+<lb n="0643b26"/><trailer>續傳燈錄卷第二十六目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0643c" n="0643c"/>
 <lb n="0643c01"/>
-<milestone unit="juan" n="26"/><div2 type="other">
+<milestone unit="juan" n="26"/>
 <lb n="0643c02"/><juan fun="open" n="026"><mulu type="卷" n="26"/><jhead>續傳燈錄卷第二十六</jhead></juan>
 <lb n="0643c03"/>
-<lb n="0643c04"/><head>大鑑下第十五世</head>
+<lb n="0643c04"/><div2 type="other"><head>大鑑下第十五世</head>
 <lb n="0643c05"/><mulu type="其他" level="2" label="兜率悅禪師法嗣"/><head>兜率悅禪師法嗣</head>
 <lb n="0643c06"/><div3 type="other"><mulu type="其他" level="3" label="（兜率慧照禪師）"/><p>隆興府兜率慧照禪師。南安郭氏子。上堂。龍
 <lb n="0643c07"/>安山下道路縱橫。兜率宮中樓閣重疊。雖非
@@ -16337,9 +16340,9 @@ Added comment  for Emacs
 <lb n="0648c26"/>落街頭自濕。凡聖何依。晴乾自是無泥。方知
 <lb n="0648c27"/>頭頭皆是道。法法本圓成。休說趙州七斤衫
 <lb n="0648c28"/>曹溪一滴水。須彌頂上浪滔天。大洋海底紅
-<lb n="0648c29"/>塵起。喝一喝。是何道理參</p>
+<lb n="0648c29"/>塵起。喝一喝。是何道理參</p></div3></div2></div1>
 <pb ed="T" id="T51.2077.0649a" n="0649a"/>
-<lb n="0649a01"/><juan fun="close" n="026"><jhead>續傳燈錄卷第二十六</jhead></juan></div3></div2></div1>
+<lb n="0649a01"/><juan fun="close" n="026"><jhead>續傳燈錄卷第二十六</jhead></juan>
 <lb n="0649a02"/>
 <lb n="0649a03"/>
 <lb n="0649a04"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十六世"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十七目錄"/><head>續傳燈錄卷第二十七目錄</head>
@@ -16357,11 +16360,11 @@ Added comment  for Emacs
 <lb n="0649a16"/><item>九頂希問禪師<note place="inline">已上十人無錄</note></item></list>
 <lb n="0649a17"/><trailer>續傳燈錄卷第二十七目錄<note place="inline">終</note></trailer></div2>
 <lb n="0649a18"/>
-<milestone unit="juan" n="27"/><div2 type="other">
+<milestone unit="juan" n="27"/>
 <lb n="0649a19"/>
 <lb n="0649a20"/><juan fun="open" n="027"><mulu type="卷" n="27"/><jhead>續傳燈錄卷第二十七</jhead></juan>
 <lb n="0649a21"/>
-<lb n="0649a22"/><head>大鑑下第十六世</head>
+<lb n="0649a22"/><div2 type="other"><head>大鑑下第十六世</head>
 <lb n="0649a23"/><mulu type="其他" level="2" label="昭覺圓悟克勤禪師法嗣"/><head>昭覺圓悟克勤禪師法嗣</head>
 <lb n="0649a24"/><div3 type="other"><mulu type="其他" level="3" label="（徑山宗杲禪師）"/><p>臨安府徑山妙喜大慧宗杲禪師。生於宣州
 <lb n="0649a25"/>寧國奚氏。年十三方從學發蒙。未半月棄去
@@ -16966,9 +16969,9 @@ Added comment  for Emacs
 <lb n="0655c24"/>萬過南州。後住台州護國示寂于木山</p></div3>
 <lb n="0655c25"/><div3 type="other"><mulu type="其他" level="3" label="（玄沙僧昭禪師）"/><p>福州玄沙僧昭禪師上堂。天上無彌勒。地下
 <lb n="0655c26"/>無彌勒。且道彌勒在甚麼處。良久曰。夜行莫
-<lb n="0655c27"/>踏白。不是水便是石</p>
+<lb n="0655c27"/>踏白。不是水便是石</p></div3></div2>
 <lb n="0655c28"/><juan fun="close" n="027"><jhead>續傳燈錄卷第二十七</jhead></juan>
-<pb ed="T" id="T51.2077.0656a" n="0656a"/></div3></div2>
+<pb ed="T" id="T51.2077.0656a" n="0656a"/>
 <lb n="0656a01"/>
 <lb n="0656a02"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十八目錄"/><head>續傳燈錄卷第二十八目錄</head>
 <lb n="0656a03"/>
@@ -17008,11 +17011,11 @@ Added comment  for Emacs
 <lb n="0656b07"/><item>雲頂宗正禪師<note place="inline">已上三十四人無錄</note></item></list>
 <lb n="0656b08"/><trailer>續傳燈錄卷第二十八目錄<note place="inline">終</note></trailer></div2>
 <lb n="0656b09"/>
-<milestone unit="juan" n="28"/><div2 type="other">
+<milestone unit="juan" n="28"/>
 <lb n="0656b10"/>
 <lb n="0656b11"/><juan fun="open" n="028"><mulu type="卷" n="28"/><jhead>續傳燈錄卷第二十八</jhead></juan>
 <lb n="0656b12"/>
-<lb n="0656b13"/><head>大鑑下第十六世</head>
+<lb n="0656b13"/><div2 type="other"><head>大鑑下第十六世</head>
 <lb n="0656b14"/><mulu type="其他" level="2" label="昭覺圓悟克勤禪師法嗣"/><head>昭覺圓悟克勤禪師法嗣</head>
 <lb n="0656b15"/><div3 type="other"><mulu type="其他" level="3" label="（南CB00123雲辯禪師）"/><p>平江府南&CB00123;雲辯禪師。本郡人。依閩之瑞&CB00123;
 <lb n="0656b16"/>章得度。旋里謁穹窿圓。忽有得遂通所見。圓
@@ -17743,9 +17746,9 @@ Added comment  for Emacs
 <lb n="0664b21"/>蒙　聖訓。謝恩下殿</p></div3>
 <lb n="0664b22"/><div3 type="other"><mulu type="其他" level="3" label="（洪福子文禪師）"/><p>台州洪福子文禪師上堂。不昧不落作麼會。
 <lb n="0664b23"/>會得依前墮野狐。一夜涼風生畫角。滿船明
-<lb n="0664b24"/>月泛江湖</p>
+<lb n="0664b24"/>月泛江湖</p></div3></div2>
 <lb n="0664b25"/><juan fun="close" n="028"><jhead>續傳燈錄卷第二十八</jhead></juan>
-<pb ed="T" id="T51.2077.0664c" n="0664c"/></div3></div2>
+<pb ed="T" id="T51.2077.0664c" n="0664c"/>
 <lb n="0664c01"/>
 <lb n="0664c02"/><div2 type="other"><mulu type="其他" level="2" label="卷第二十九目錄"/><head>續傳燈錄卷第二十九目錄</head>
 <lb n="0664c03"/>
@@ -17784,11 +17787,11 @@ Added comment  for Emacs
 <lb n="0665a06"/><item>泰岳久禪師</item><item>陳與義居士<note place="inline">已上四人無錄</note></item></list>
 <lb n="0665a07"/><trailer>續傳燈錄卷第二十九目錄<note place="inline">終</note></trailer></div2>
 <lb n="0665a08"/>
-<milestone unit="juan" n="29"/><div2 type="other">
+<milestone unit="juan" n="29"/>
 <lb n="0665a09"/>
 <lb n="0665a10"/><juan fun="open" n="029"><mulu type="卷" n="29"/><jhead>續傳燈錄卷第二十九</jhead></juan>
 <lb n="0665a11"/>
-<lb n="0665a12"/><head>大鑑下第十六世</head>
+<lb n="0665a12"/><div2 type="other"><head>大鑑下第十六世</head>
 <lb n="0665a13"/><mulu type="其他" level="2" label="太平懃禪師法嗣"/><head>太平懃禪師法嗣</head>
 <lb n="0665a14"/><div3 type="other"><mulu type="其他" level="3" label="（文殊心道禪師）"/><p>常德府文殊心道禪師。眉州徐氏子。年三十
 <lb n="0665a15"/>得度。詣成都習唯識自以為至。同舍詰之曰。
@@ -18414,11 +18417,11 @@ Added comment  for Emacs
 <lb n="0672a05"/>師。曰今日足見老師七通八達。師曰。仰面哭
 <lb n="0672a06"/>蒼天。僧禮拜。師曰過。問蓮花未出水時如何。
 <lb n="0672a07"/>師曰。乾坤無異色。曰出水後如何。師曰。遍界
-<lb n="0672a08"/>有清香</p></div3>
-<lb n="0672a09"/><juan fun="close" n="029"><jhead>續傳燈錄卷第二十九</jhead></juan></div2>
+<lb n="0672a08"/>有清香</p></div3></div2>
+<lb n="0672a09"/><juan fun="close" n="029"><jhead>續傳燈錄卷第二十九</jhead></juan>
 <lb n="0672a10"/>
-<lb n="0672a11"/><div2 type="other">
-<lb n="0672a12"/><mulu type="其他" level="2" label="卷第三十目錄"/><head>續傳燈錄卷第三十目錄</head>
+<lb n="0672a11"/>
+<lb n="0672a12"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十目錄"/><head>續傳燈錄卷第三十目錄</head>
 <lb n="0672a13"/>
 <lb n="0672a14"/><list><head>大鑑下第十六世</head><item></item></list>
 <lb n="0672a15"/><list><head>雪竇明禪師法嗣一人</head>
@@ -18521,10 +18524,10 @@ Added comment  for Emacs
 <lb n="0673a22"/>
 <milestone unit="juan" n="30"/>
 <lb n="0673a23"/>
-<lb n="0673a24"/><div2 type="other">
+<lb n="0673a24"/>
 <lb n="0673a25"/><juan fun="open" n="030"><mulu type="卷" n="30"/><jhead>續傳燈錄卷第三十</jhead></juan>
 <lb n="0673a26"/>
-<lb n="0673a27"/><head>大鑑下第十六世</head>
+<lb n="0673a27"/><div2 type="other"><head>大鑑下第十六世</head>
 <lb n="0673a28"/><mulu type="其他" level="2" label="雪竇明禪師法嗣"/><head>雪竇明禪師法嗣</head>
 <lb n="0673a29"/><div3 type="other"><mulu type="其他" level="3" label="（嗜山寧禪師）"/><p>密州嗜山寧禪師上堂。有時孤&CB00123;頂上嘯月
 <pb ed="T" id="T51.2077.0673b" n="0673b"/>
@@ -19027,8 +19030,8 @@ Added comment  for Emacs
 <lb n="0678c17"/><div3 type="other"><mulu type="其他" level="3" label="（龍華高禪師）"/><p>蘄州龍華高禪師上堂。象王行師子住。赤&CB00560;
 <lb n="0678c18"/>崑崙眉卓&CB00594;。寒山拾得笑呵呵。指點門前老
 <lb n="0678c19"/>松樹。且道他指點箇甚麼。忽然風吹倒時好
-<lb n="0678c20"/>一堆柴</p>
-<lb n="0678c21"/><juan fun="close" n="030"><jhead>續傳燈錄卷第三十</jhead></juan></div3></div2></div1>
+<lb n="0678c20"/>一堆柴</p></div3></div2></div1>
+<lb n="0678c21"/><juan fun="close" n="030"><jhead>續傳燈錄卷第三十</jhead></juan>
 <lb n="0678c22"/>
 <lb n="0678c23"/>
 <lb n="0678c24"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十七世"/>
@@ -19077,11 +19080,11 @@ Added comment  for Emacs
 <lb n="0679b06"/><item>無為守緣禪師<note place="inline">見錄</note></item></list>
 <lb n="0679b07"/><trailer>續傳燈錄卷第三十一目錄<note place="inline">終</note></trailer></div2>
 <lb n="0679b08"/>
-<milestone unit="juan" n="31"/><div2 type="other">
+<milestone unit="juan" n="31"/>
 <lb n="0679b09"/>
 <lb n="0679b10"/><juan fun="open" n="031"><mulu type="卷" n="31"/><jhead>續傳燈錄卷第三十一</jhead></juan>
 <lb n="0679b11"/>
-<lb n="0679b12"/><head>大鑑下第十七世</head>
+<lb n="0679b12"/><div2 type="other"><head>大鑑下第十七世</head>
 <lb n="0679b13"/><mulu type="其他" level="2" label="虎丘隆禪師法嗣"/><head>虎丘隆禪師法嗣</head>
 <lb n="0679b14"/><div3 type="other"><mulu type="其他" level="3" label="（天童曇華禪師）"/><p>明州天童應菴曇華禪師。蘄州江氏子。生而
 <lb n="0679b15"/>奇傑。年十七於東禪去髮。首依水南遂禪師
@@ -19605,9 +19608,9 @@ Added comment  for Emacs
 <lb n="0685a23"/>造次顛沛必於是。經行坐臥在其中。既有如
 <lb n="0685a24"/>是奇特。更有如是光輝。既有如是廣大。又有
 <lb n="0685a25"/>如是周遍。爾輩諸人因甚麼&CB00230;有迷有悟。要
-<lb n="0685a26"/>知麼。幸無偏照處。剛有不明時</p>
+<lb n="0685a26"/>知麼。幸無偏照處。剛有不明時</p></div3></div2>
 <lb n="0685a27"/><juan fun="close" n="031"><jhead>續傳燈錄卷第三十一</jhead></juan>
-<pb ed="T" id="T51.2077.0685b" n="0685b"/></div3></div2>
+<pb ed="T" id="T51.2077.0685b" n="0685b"/>
 <lb n="0685b01"/>
 <lb n="0685b02"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十二目錄"/><head>續傳燈錄卷第三十二目錄</head>
 <lb n="0685b03"/>
@@ -19662,13 +19665,13 @@ Added comment  for Emacs
 <lb n="0685c22"/><item>大明廣容禪師</item><item>昭覺祖明禪師</item>
 <lb n="0685c23"/><item>正法秀禪師</item><item>仰山圓禪師</item>
 <lb n="0685c24"/><item>正煥首座</item><item>關西尼真如<note place="inline">已上六十人無錄</note></item></list>
-<lb n="0685c25"/><trailer>續傳燈錄卷第三十二目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0686a" n="0686a"/></div2>
+<lb n="0685c25"/><trailer>續傳燈錄卷第三十二目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0686a" n="0686a"/>
 <lb n="0686a01"/>
-<milestone unit="juan" n="32"/><div2 type="other">
+<milestone unit="juan" n="32"/>
 <lb n="0686a02"/><juan fun="open" n="032"><mulu type="卷" n="32"/><jhead>續傳燈錄卷第三十二</jhead></juan>
 <lb n="0686a03"/>
-<lb n="0686a04"/><head>大鑑下第十七世</head>
+<lb n="0686a04"/><div2 type="other"><head>大鑑下第十七世</head>
 <lb n="0686a05"/><mulu type="其他" level="2" label="徑山杲禪師法嗣"/><head>徑山杲禪師法嗣</head>
 <lb n="0686a06"/><div3 type="other"><mulu type="其他" level="3" label="（教忠彌光禪師）"/><p>泉州教忠晦菴彌光禪師。閩之李氏子。兒時
 <lb n="0686a07"/>寡言笑。聞梵唄則喜。十五依幽巖文慧禪師
@@ -20483,11 +20486,11 @@ Added comment  for Emacs
 <lb n="0695a06"/>牛舟車。解庫應用百事具足。復有蠲賦之恩
 <lb n="0695a07"/>至今蒙其利。師於緇素有大因緣。所在施供
 <lb n="0695a08"/>雲委衲子臻萃佛事殊勝。江淛兩湖皆號之
-<lb n="0695a09"/>為布袋和尚再出焉</p>
-<lb n="0695a10"/><juan fun="close" n="032"><jhead>續傳燈錄卷第三十二</jhead></juan></div3></div2>
+<lb n="0695a09"/>為布袋和尚再出焉</p></div3></div2>
+<lb n="0695a10"/><juan fun="close" n="032"><jhead>續傳燈錄卷第三十二</jhead></juan>
 <lb n="0695a11"/>
-<lb n="0695a12"/><div2 type="other">
-<lb n="0695a13"/><mulu type="其他" level="2" label="卷第三十三目錄"/><head>續傳燈錄卷第三十三目錄</head>
+<lb n="0695a12"/>
+<lb n="0695a13"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十三目錄"/><head>續傳燈錄卷第三十三目錄</head>
 <lb n="0695a14"/>
 <lb n="0695a15"/><list><head>大鑑下第十七世</head><item></item></list>
 <lb n="0695a16"/><list><head>龍翔珪禪師法嗣二人</head>
@@ -20577,11 +20580,11 @@ Added comment  for Emacs
 <lb n="0696a10"/><item>天童如淨禪師<note place="inline">一人無錄</note></item></list>
 <lb n="0696a11"/><trailer>續傳燈錄卷第三十三目錄<note place="inline">終</note></trailer></div2>
 <lb n="0696a12"/>
-<milestone unit="juan" n="33"/><div2 type="other">
+<milestone unit="juan" n="33"/>
 <lb n="0696a13"/>
 <lb n="0696a14"/><juan fun="open" n="033"><mulu type="卷" n="33"/><jhead>續傳燈錄卷第三十三</jhead></juan>
 <lb n="0696a15"/>
-<lb n="0696a16"/><head>大鑑下第十七世</head>
+<lb n="0696a16"/><div2 type="other"><head>大鑑下第十七世</head>
 <lb n="0696a17"/><mulu type="其他" level="2" label="龍翔珪禪師法嗣"/><head>龍翔珪禪師法嗣</head>
 <lb n="0696a18"/><div3 type="other"><mulu type="其他" level="3" label="（雲居德昇禪師）"/><p>南康軍雲居頑菴德昇禪師。漢州何氏子。二
 <lb n="0696a19"/>十得度習講。久之辭謁文殊道禪師問佛法
@@ -20952,9 +20955,9 @@ Added comment  for Emacs
 <lb n="0700a24"/>羅蜜。上堂。維摩默然普賢廣說。歷代聖人互
 <lb n="0700a25"/>呈醜拙。君不見。落花三月子規啼。一聲聲是
 <lb n="0700a26"/>一點血。上堂。風蕭蕭葉飄飄。雲片片水茫茫。
-<lb n="0700a27"/>江干獨立向誰說。天外飛鴻三兩行</p>
+<lb n="0700a27"/>江干獨立向誰說。天外飛鴻三兩行</p></div3></div2></div1>
 <lb n="0700a28"/><juan fun="close" n="033"><jhead>續傳燈錄卷第三十三</jhead></juan>
-<pb ed="T" id="T51.2077.0700b" n="0700b"/></div3></div2></div1>
+<pb ed="T" id="T51.2077.0700b" n="0700b"/>
 <lb n="0700b01"/>
 <lb n="0700b02"/><div1 type="other"><mulu type="其他" level="1" label="大鑑下第十八世"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十四目錄"/><head>續傳燈錄卷第三十四目錄</head>
 <lb n="0700b03"/>
@@ -21051,11 +21054,11 @@ Added comment  for Emacs
 <lb n="0701b04"/><item>雪竇僧彥禪師</item><item>太平詔和尚<note place="inline">已上二人無錄</note></item></list>
 <lb n="0701b05"/><trailer>續傳燈錄卷第三十四目錄<note place="inline">終</note></trailer></div2>
 <lb n="0701b06"/>
-<milestone unit="juan" n="34"/><div2 type="other">
+<milestone unit="juan" n="34"/>
 <lb n="0701b07"/>
 <lb n="0701b08"/><juan fun="open" n="034"><mulu type="卷" n="34"/><jhead>續傳燈錄卷第三十四</jhead></juan>
 <lb n="0701b09"/>
-<lb n="0701b10"/><head>大鑑下第十八世</head>
+<lb n="0701b10"/><div2 type="other"><head>大鑑下第十八世</head>
 <lb n="0701b11"/><mulu type="其他" level="2" label="東林顏禪師法嗣"/><head>東林顏禪師法嗣</head>
 <lb n="0701b12"/><div3 type="other"><mulu type="其他" level="3" label="（公安祖珠禪師）"/><p>荊南府公安遯庵祖珠禪師。南平人。上堂。不
 <lb n="0701b13"/>是心不是佛不是物。瀝盡野狐涎。趯翻山鬼
@@ -21446,8 +21449,8 @@ Added comment  for Emacs
 <lb n="0705c08"/>甚共語處。上堂舉。罽賓國王問師子尊者蘊
 <lb n="0705c09"/>空公案。師頌曰。尊者何曾得蘊空。罽賓徒
 <lb n="0705c10"/>自斬春風。桃花雨後已零落。染得一溪流水
-<lb n="0705c11"/>紅</p>
-<lb n="0705c12"/><juan fun="close" n="034"><jhead>續傳燈錄卷第三十四</jhead></juan></div3></div2>
+<lb n="0705c11"/>紅</p></div3></div2>
+<lb n="0705c12"/><juan fun="close" n="034"><jhead>續傳燈錄卷第三十四</jhead></juan>
 <lb n="0705c13"/>
 <lb n="0705c14"/>
 <lb n="0705c15"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十五目錄"/><head>續傳燈錄卷第三十五目錄</head>
@@ -21516,11 +21519,11 @@ Added comment  for Emacs
 <lb n="0706b18"/><item>大慈道儔禪師<note place="inline">已上二人無錄</note></item></list>
 <lb n="0706b19"/><trailer>續傳燈錄卷第三十五目錄<note place="inline">終</note></trailer></div2>
 <lb n="0706b20"/>
-<milestone unit="juan" n="35"/><div2 type="other">
+<milestone unit="juan" n="35"/>
 <lb n="0706b21"/>
 <lb n="0706b22"/><juan fun="open" n="035"><mulu type="卷" n="35"/><jhead>續傳燈錄卷第三十五</jhead></juan>
 <lb n="0706b23"/>
-<lb n="0706b24"/><head>大鑑下第十八世</head>
+<lb n="0706b24"/><div2 type="other"><head>大鑑下第十八世</head>
 <lb n="0706b25"/><mulu type="其他" level="2" label="育王光禪師法嗣"/><head>育王光禪師法嗣</head>
 <lb n="0706b26"/><div3 type="other"><mulu type="其他" level="3" label="（靈隱之善禪師）"/><p>杭州靈隱妙&CB00123;善禪師。吳興劉氏子。其先居
 <lb n="0706b27"/>彭城後徙吳興。高曾大父父皆登膴仕。師生
@@ -21863,8 +21866,8 @@ Added comment  for Emacs
 <lb n="0710b04"/>十有二年。撙節而足用。審量而計功。雖有大
 <lb n="0710b05"/>興建。一毫不以干人。見他處持疏鷺俟人門
 <lb n="0710b06"/>呫囁以希施與者。直鄙而笑之。而土木金碧
-<lb n="0710b07"/>在處成就云</p>
-<lb n="0710b08"/><juan fun="close" n="035"><jhead>續傳燈錄卷第三十五</jhead></juan></div3></div2>
+<lb n="0710b07"/>在處成就云</p></div3></div2>
+<lb n="0710b08"/><juan fun="close" n="035"><jhead>續傳燈錄卷第三十五</jhead></juan>
 <lb n="0710b09"/>
 <lb n="0710b10"/>
 <lb n="0710b11"/><div2 type="other"><mulu type="其他" level="2" label="卷第三十六目錄"/><head>續傳燈錄卷第三十六目錄</head>
@@ -21911,13 +21914,13 @@ Added comment  for Emacs
 <lb n="0710c22"/><item>淨慈谷原道禪師</item><item>瑞岩雲巢岩禪師</item>
 <lb n="0710c23"/><item>虎丘蒺藜曇禪師</item><item>北海心禪師</item>
 <lb n="0710c24"/><item>諾菴肇禪師</item></list>
-<lb n="0710c25"/><trailer>續傳燈錄卷第三十六目錄<note place="inline">終</note></trailer>
-<pb ed="T" id="T51.2077.0711a" n="0711a"/></div2>
+<lb n="0710c25"/><trailer>續傳燈錄卷第三十六目錄<note place="inline">終</note></trailer></div2>
+<pb ed="T" id="T51.2077.0711a" n="0711a"/>
 <lb n="0711a01"/>
-<milestone unit="juan" n="36"/><div2 type="other">
+<milestone unit="juan" n="36"/>
 <lb n="0711a02"/><juan fun="open" n="036"><mulu type="卷" n="36"/><jhead>續傳燈錄卷第三十六</jhead></juan>
 <lb n="0711a03"/>
-<lb n="0711a04"/><head>大鑑下第二十世</head>
+<lb n="0711a04"/><div2 type="other"><head>大鑑下第二十世</head>
 <lb n="0711a05"/><mulu type="其他" level="2" label="薦福道生禪師法嗣"/><head>薦福道生禪師法嗣</head>
 <lb n="0711a06"/><div3 type="other"><mulu type="其他" level="3" label="（徑山道CB00287禪師）"/><p>徑山癡絕禪師諱道&CB00287;。武信長江荀氏子。母
 <lb n="0711a07"/>郭氏。生而豐上短下資性絕人。少長以進士
@@ -22257,6 +22260,6 @@ Added comment  for Emacs
 <lb n="0714c11"/>塔樣。師云。盡力畫不出。乃怡然脫去。闍維弟
 <lb n="0714c12"/>子收舍利并遺骨。&CB05845;葬于天童應菴塔左。壽
 <lb n="0714c13"/>八十四。臘六十八。紹其傳者有橫川珙石林
-<lb n="0714c14"/>鞏。稱二甘露門云</p>
-<lb n="0714c15"/><juan fun="close" n="036"><jhead>續傳燈錄卷第三十六<note place="inline">終</note></jhead></juan></div3></div2></div1>
+<lb n="0714c14"/>鞏。稱二甘露門云</p></div3></div2></div1>
+<lb n="0714c15"/><juan fun="close" n="036"><jhead>續傳燈錄卷第三十六<note place="inline">終</note></jhead></juan>
 </body></text></TEI.2>
