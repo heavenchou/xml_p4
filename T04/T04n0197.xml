@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/04/20 08:37:02 $</date></edition>
+		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2004/05/19 02:33:03 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:37:02 $</date>
+		<date>$Date: 2004/05/19 02:33:03 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 4, No. 197 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T04n0197.xml,v $
+Revision 1.8  2004/05/19 02:33:03  saywhat
+處理<div1 type="xu">包含<juan>的問題
+
 Revision 1.7  2004/04/20 08:37:02  maha
 「版本日期」標記修訂
 
@@ -121,7 +124,7 @@ Revision 1.7  2001/02/07 06:41:34  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:30:20  chris
-Added keywords $Revision: 1.7 $, $Date: 2004/04/20 08:37:02 $ and $Log.
+Added keywords $Revision: 1.8 $, $Date: 2004/05/19 02:33:03 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -148,13 +151,13 @@ Added comment  for Emacs
 <lb n="0163c24"/>之。對人間償之欲示人。宿緣不可逃避故也。
 <lb n="0163c25"/>又阿耨泉中。非有漏礙形所可周<note n="0163034" resp="Taisho" type="orig" place="foot text">旋＝遊【三】</note><note n="0163034" resp="CBETA" type="mod">旋＝遊【宋】【元】【明】</note><app n="0163034"><lem>旋</lem><rdg wit="【宋】【元】【明】" resp="Taisho">遊</rdg></app>。<note n="0163035" resp="Taisho" type="orig" place="foot text">唯＝雖【三】</note><note n="0163035" resp="CBETA" type="mod">唯＝雖【宋】【元】【明】</note><app n="0163035"><lem>唯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">雖</rdg></app>有
 <lb n="0163c26"/>阿難為如來所接也。所以慇懃告舍利弗者。
-<lb n="0163c27"/>欲化諸龍故也</p>
+<lb n="0163c27"/>欲化諸龍故也</p></div1>
 <pb ed="T" id="T04.0197.0164a" n="0164a"/>
 <lb n="0164a01"/>
 <lb n="0164a02"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>佛說興起行經</title><note n="0164001" resp="Taisho" type="orig" place="foot text">〔卷上〕－【宋】【元】＊</note><note n="0164001" resp="CBETA" type="mod"><todo type="＊"/>〔卷上〕－【宋】【元】＊</note><app n="0164001"><lem>卷上</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app><note place="inline"><note n="0164002" resp="Taisho" type="orig" place="foot text">一＝亦【明】，－【宋】</note><app n="0164002"><lem>一</lem><rdg wit="【明】" resp="Taisho">亦</rdg><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>名嚴<note n="0164003" resp="Taisho" type="orig" place="foot text">誠＝成【三】</note><note n="0164003" resp="CBETA" type="mod">誠＝成【宋】【元】【明】</note><app n="0164003"><lem>誠</lem><rdg wit="【宋】【元】【明】" resp="Taisho">成</rdg></app>宿緣經出雜藏</note></jhead></juan>
 <lb n="0164a03"/>
 <lb n="0164a04"/><byline type="Translator">後漢外國三藏康孟詳譯</byline>
-<lb n="0164a05"/><lg><l>聞如是一時</l><l>佛在摩竭國</l>
+<lb n="0164a05"/><div1><lg><l>聞如是一時</l><l>佛在摩竭國</l>
 <lb n="0164a06"/><l>普為眾生故</l><l>止於竹園中</l>
 <lb n="0164a07"/><l>佛語諸比丘</l><l>及神足羅漢</l>
 <lb n="0164a08"/><l>各齎所乞<note n="0164004" resp="Taisho" type="orig" place="foot text">食＋（器）【三】</note><note n="0164004" resp="CBETA" type="mod">食＋（器）【宋】【元】【明】</note><app n="0164004"><lem>食</lem><rdg wit="【宋】【元】【明】" resp="Taisho">食器</rdg></app></l><l>共至阿耨泉</l>
@@ -723,15 +726,15 @@ Added comment  for Emacs
 <lb n="0170b01"/>諸天龍神。帝王臣民。一切眾生。皆欲度之。猶
 <lb n="0170b02"/>不免此對。況復愚冥未得道者。是故舍利弗。
 <lb n="0170b03"/><note n="0170005" resp="Taisho" type="orig" place="foot text">當＝意【元】</note><app n="0170005"><lem>當</lem><rdg wit="【元】" resp="Taisho">意</rdg></app>護身口意。莫犯是三事舍利弗。汝等當學
-<lb n="0170b04"/>如是。佛說是已。舍利弗。歡喜受行</p>
-<lb n="0170b05"/><juan fun="close" n="001"><jhead><title>佛說興起行經</title>卷上</jhead></juan></div1>
+<lb n="0170b04"/>如是。佛說是已。舍利弗。歡喜受行</p></div1>
+<lb n="0170b05"/><juan fun="close" n="001"><jhead><title>佛說興起行經</title>卷上</jhead></juan>
 <lb n="0170b06"/>
 <milestone unit="juan" n="2"/>
-<lb n="0170b07"/><div1 type="jing">
+<lb n="0170b07"/>
 <lb n="0170b08"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>佛說興起行經</title>卷下</jhead></juan>
 <lb n="0170b09"/>
 <lb n="0170b10"/><byline type="Translator">後漢外國三藏康孟詳譯</byline>
-<lb n="0170b11"/><mulu type="經" level="1" n="7" label="7 佛說地婆達兜擲石緣經"/><head>佛說地婆達兜擲石緣經第七</head>
+<lb n="0170b11"/><div1 type="jing"><mulu type="經" level="1" n="7" label="7 佛說地婆達兜擲石緣經"/><head>佛說地婆達兜擲石緣經第七</head>
 <lb n="0170b12"/><p>聞如是。一時佛在阿耨大泉。與大比丘眾五
 <lb n="0170b13"/>百人俱。皆是阿羅漢。六通神足。唯除一比丘。
 <lb n="0170b14"/>阿難也。是時佛告舍利弗。往昔過去世。於羅
@@ -1083,6 +1086,6 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0197.0174b" n="0174b"/>
 <lb n="0174b01"/>足飛行。猶鳥翔雲。徐徐而還。在羅閱祇竹園
 <lb n="0174b02"/>精舍。佛說是已。舍利弗。及五百羅漢。阿耨大
-<lb n="0174b03"/>龍王八部鬼神。歡喜受行</p>
-<lb n="0174b04"/><juan fun="close" n="002"><jhead><title>佛說興起行經</title>卷下</jhead></juan></div1>
+<lb n="0174b03"/>龍王八部鬼神。歡喜受行</p></div1>
+<lb n="0174b04"/><juan fun="close" n="002"><jhead><title>佛說興起行經</title>卷下</jhead></juan>
 </body></text></TEI.2>
