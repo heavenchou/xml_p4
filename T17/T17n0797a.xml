@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2004/05/11 14:39:03 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/09/13 05:15:12 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 14:39:03 $</date>
+		<date>$Date: 2004/09/13 05:15:12 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 797a &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T17n0797a.xml,v $
+Revision 1.4  2004/09/13 05:15:12  saywhat
+<trailer> => <juan fun="close"><jhead>
+
 Revision 1.3  2004/05/11 14:39:03  saywhat
 修訂經號的<head> → <head type="no">
 
@@ -102,7 +105,7 @@ Revision 1.6  2001/02/07 06:52:32  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:42:12  chris
-Added keywords $Revision: 1.3 $, $Date: 2004/05/11 14:39:03 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2004/09/13 05:15:12 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -112,11 +115,11 @@ Added comment  for Emacs
 <pb ed="T" id="T17.0797a.0742c" n="0742c"/>
 <lb n="0742c01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0742c02"/><head type="no">No. 797</head><div1 type="jing">
-<lb n="0742c03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0742011" resp="Taisho" type="orig" place="foot text">此經與三本大異今以宋本元本對校明本別附卷末 cf. p. 743</note>◎<title>佛說貧窮老公經</title></jhead></juan>
+<lb n="0742c02"/><head type="no">No. 797</head>
+<lb n="0742c03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0742011" resp="Taisho" type="orig" place="foot text">此經與三本大異今以宋本元本對校明本別附卷末 cf. p. 743</note>◎<jhead><title>佛說貧窮老公經</title></jhead></juan>
 <lb n="0742c04"/>
 <lb n="0742c05"/><byline type="Translator">宋沙門慧簡譯</byline>
-<lb n="0742c06"/><p>聞如是。一時佛在舍衛國祇樹給孤獨園。與
+<lb n="0742c06"/><div1 type="jing"><p>聞如是。一時佛在舍衛國祇樹給孤獨園。與
 <lb n="0742c07"/>千二百五十沙門俱。菩薩萬人。爾時天龍鬼
 <lb n="0742c08"/>神無央數大眾共會恭敬圍繞。聞佛說法無
 <lb n="0742c09"/>不歡喜。時有一貧窮老公。年二百歲。眉生秀
@@ -189,6 +192,6 @@ Added comment  for Emacs
 <lb n="0743b16"/><note n="0743001" resp="Taisho" type="orig" place="foot text">尊下空位增上寺本&CB00541;損</note>尊語阿難。若有誦斯經者。當見賢劫千佛。
 <lb n="0743b17"/>行斯經者。令後世宣傳。當從彌勒佛受決。如
 <lb n="0743b18"/>來廣長舌所語無有異。一切大眾聞佛說已。
-<lb n="0743b19"/>歡喜受持為佛作禮</p>
-<lb n="0743b20"/><trailer><title>佛說貧窮老公經</title></trailer><juan fun="close" n="001"></juan></div1>
+<lb n="0743b19"/>歡喜受持為佛作禮</p></div1>
+<lb n="0743b20"/><juan fun="close" n="001"><jhead><title>佛說貧窮老公經</title></jhead></juan>
 </body></text></TEI.2>
