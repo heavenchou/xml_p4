@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)</edition>
+		<edition>$Revision: 1.12 $ (Big5)</edition>
 	</editionStmt>
 	<extent>20卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/25 06:27:46 $</date>
+		<date>$Date: 2003/07/21 03:37:37 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2154 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2154.xml,v $
+Revision 1.12  2003/07/21 03:37:37  ray
+app版100字以上長行斷詞
+
 Revision 1.11  2003/06/25 06:27:46  eva
 modified: 執行 corr2app.pl
 
@@ -253,7 +256,7 @@ Revision 1.3  2001/02/07 07:46:14  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:19  chris
-Added keywords $Revision: 1.11 $, $Date: 2003/06/25 06:27:46 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2003/07/21 03:37:37 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -4146,8 +4149,8 @@ Added comment  for Emacs
 <lb n="0522a16"/>綜覽梵文義承高旨。并獲婆沙梵本十萬餘
 <lb n="0522a17"/>偈及諸經論。東歸於涼。遂遇浮陀跋摩。共翻
 <lb n="0522a18"/>毘婆沙論。泰後自譯大丈夫論等二部<note place="inline">又長房內典二
-<lb n="0522a19"/>錄云於其涼代復有沙門曇覺於高昌國譯賢愚經一部即當宋元嘉二十二年也今謂不然元嘉十六年己卯涼國已
-<lb n="0522a20"/>絕如何二十二年乙酉仍有譯經故知二錄誤也今依靖邁<note n="0522001" resp="Taisho" type="orig" place="foot text">經＝國【明】</note><app n="0522001"><lem>經</lem><rdg wit="【明】" resp="Taisho">國</rdg></app>圖<note n="0522002" resp="Taisho" type="orig" place="foot text">〔編〕－【三】</note><note n="0522002" resp="CBETA" type="mod">〔編〕－【宋】【元】【明】</note><app n="0522002"><lem>編</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>在元魏<note n="0522003" resp="Taisho" type="orig" place="foot text">〔之代魏〕－【宋】</note><app n="0522003"><lem>之代魏</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>宋雖並宋<note n="0522004" resp="Taisho" type="orig" place="foot text">居＝君【宋】【元】</note><app n="0522004"><lem>居</lem><rdg wit="【宋】【元】" resp="Taisho">君</rdg></app>建業魏都&M010527;安以
+<lb n="0522a19"/>錄云於其涼代復有沙門曇覺於高昌國譯賢愚經一部。即當宋元嘉二十二年也。今謂不然。元嘉十六年己卯涼國已
+<lb n="0522a20"/>絕如何二十二年乙酉仍有譯經。故知二錄誤也。今依靖邁<note n="0522001" resp="Taisho" type="orig" place="foot text">經＝國【明】</note><app n="0522001"><lem>經</lem><rdg wit="【明】" resp="Taisho">國</rdg></app>圖<note n="0522002" resp="Taisho" type="orig" place="foot text">〔編〕－【三】</note><note n="0522002" resp="CBETA" type="mod">〔編〕－【宋】【元】【明】</note><app n="0522002"><lem>編</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>在元魏<note n="0522003" resp="Taisho" type="orig" place="foot text">〔之代魏〕－【宋】</note><app n="0522003"><lem>之代魏</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>宋雖並宋<note n="0522004" resp="Taisho" type="orig" place="foot text">居＝君【宋】【元】</note><app n="0522004"><lem>居</lem><rdg wit="【宋】【元】" resp="Taisho">君</rdg></app>建業魏都&M010527;安以
 <lb n="0522a21"/>地而論合屬魏錄</note></p></item>
 <lb n="0522a22"/><item><title>菩薩投身餓虎起塔因緣經一卷</title><note place="inline">僧祐錄云以身施餓虎經見經
 <lb n="0522a23"/>後記</note>
@@ -6639,9 +6642,14 @@ Added comment  for Emacs
 <lb n="0550b13"/>詣。士庶欽重道俗崇敬。隋滕王遵仰戒範奉
 <lb n="0550b14"/>以為師。因事塵染流擯東越。又在甌閩道聲
 <lb n="0550b15"/>載洽。身心兩救為益極多。至開皇二十年便
-<lb n="0550b16"/>從物故。春秋七十有八<note place="inline">准添品法華序仁壽元年辛酉崛多笈多二法師於
-<lb n="0550b17"/>大興善寺重勘梵本闕者添譯既在仁壽之元出此添品即非開皇二十年卒<note n="0550008" resp="Taisho" type="orig" place="foot text">也＝地【宋】</note><app n="0550008"><lem>也</lem><rdg wit="【宋】" resp="Taisho">地</rdg></app><note n="0550009" resp="Taisho" type="orig" place="foot text">（於）＋又【三】</note><note n="0550009" resp="CBETA" type="mod">（於）＋又【宋】【元】【明】</note><app n="0550009"><lem>又</lem><rdg wit="【宋】【元】【明】" resp="Taisho">於又</rdg></app>內典錄云仁壽之末崛多以緣他
-<lb n="0550b18"/>事流擯東越續高僧傳即云開皇二十年卒傳錄俱宣所撰而自相矛盾何也</note>崛多自從西
+<lb n="0550b16"/>從物故。春秋七十有八<note place="inline">准添品法華序。仁壽元年辛酉崛多笈多二法師於
+<lb n="0550b17"/>大興善寺重勘梵本闕者添譯。既在仁壽之元出此添品即非開皇二十年卒
+<note n="0550008" resp="Taisho" type="orig" place="foot text">也＝地【宋】</note>
+<app n="0550008"><lem>也</lem><rdg wit="【宋】" resp="Taisho">地</rdg></app>。
+<note n="0550009" resp="Taisho" type="orig" place="foot text">（於）＋又【三】</note>
+<note n="0550009" resp="CBETA" type="mod">（於）＋又【宋】【元】【明】</note>
+<app n="0550009"><lem>又</lem><rdg wit="【宋】【元】【明】" resp="Taisho">於又</rdg></app>內典錄云仁壽之末崛多以緣他
+<lb n="0550b18"/>事流擯東越。續高僧傳即云開皇二十年卒。傳錄俱宣所撰而自相矛盾何也</note>。崛多自從西
 <lb n="0550b19"/>服來至東華循歷翻傳。自開皇五年訖仁壽
 <lb n="0550b20"/>之末出護國等經。總三十九部合一百九十
 <lb n="0550b21"/>二卷。並詳括陶冶理教圓通。文明義結具流
@@ -6765,9 +6773,9 @@ Added comment  for Emacs
 <lb n="0551c20"/>住三年。就師學問。師之所得略窺戶牖。後以
 <lb n="0551c21"/>普照師為<note n="0551024" resp="Taisho" type="orig" place="foot text">吒＝叱【明】</note><app n="0551024"><lem>吒</lem><rdg wit="【明】" resp="Taisho">叱</rdg></app>迦國王所請。從師至彼經停一
 <lb n="0551c22"/>載師還本國。笈多更留四年。住於提婆鼻何
-<lb n="0551c23"/>囉<note place="inline">隋云天遊也天謂國王遊謂僧處其所王立故名天遊舊以寺代之寺乃此土公院之名<note n="0551025" resp="Taisho" type="orig" place="foot text">所謂＝謂之【三】</note><note n="0551025" resp="CBETA" type="mod">所謂＝謂之【宋】【元】【明】</note><app n="0551025"><lem>所謂</lem><rdg wit="【宋】【元】【明】" resp="Taisho">謂之</rdg></app>司也廷也又云招
-<lb n="0551c24"/>提者亦訛略也世依字解招謂招引提謂提&CB00234;並浪語也此乃西言耳正音云招&CB00508;提奢此云四方謂處所為四方眾僧
-<lb n="0551c25"/>之所依住也</note>於是歷諸大小乘國及以僧寺聞見倍
+<lb n="0551c23"/>囉<note place="inline">隋云天遊也。天謂國王遊謂僧處其所王立故名天遊舊以寺代之。寺乃此土公院之名<note n="0551025" resp="Taisho" type="orig" place="foot text">所謂＝謂之【三】</note><note n="0551025" resp="CBETA" type="mod">所謂＝謂之【宋】【元】【明】</note><app n="0551025"><lem>所謂</lem><rdg wit="【宋】【元】【明】" resp="Taisho">謂之</rdg></app>司也廷也。又云招
+<lb n="0551c24"/>提者亦訛略也。世依字解。招謂招引。提謂提&CB00234;。並浪語也。此乃西言耳。正音云招&CB00508;提奢。此云四方。謂處所為四方眾僧
+<lb n="0551c25"/>之所依住也</note>。於是歷諸大小乘國及以僧寺聞見倍
 <lb n="0551c26"/>多。北路商人頗至於彼。遠傳東域有大支那
 <lb n="0551c27"/>國焉<note place="inline">舊名真丹振旦者並非正音無義可譯<app type="＊" source="0551006"><lem>惟</lem><rdg resp="Taisho" wit="【宋】【元】【明】">唯</rdg></app>知是此神州之總名<note n="0551026" resp="Taisho" type="orig" place="foot text">〔也〕－【三】</note><note n="0551026" resp="CBETA" type="mod">〔也〕－【宋】【元】【明】</note><app n="0551026"><lem>也</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></note>初雖傳述不
 <lb n="0551c28"/>甚明信未作來心。但以志在遊方情無所繫。
@@ -10025,14 +10033,19 @@ Added comment  for Emacs
 <lb n="0588a25"/>未詳所以。今從陀羅尼自在王品至日密
 <lb n="0588a26"/>分總十一分。其日藏經與日密分同本異
 <lb n="0588a27"/>譯。亦是第十一分<note place="inline">日密日藏初俱云說虛空目安那般那甘露門已次說此
-<lb n="0588a28"/>經又日密分既於虛空目後說准義不合隔寶髻品今經本中有此品隔未詳所以又日密日藏雖是同本其日密
+<lb n="0588a28"/>經。又日密分既於虛空目後說。准義不合隔寶髻品今經本中有此品隔未詳所以。又日密日藏雖是同本其日密
 <pb ed="T" id="T55.2154.0588b" n="0588b"/>
-<lb n="0588b01"/><note n="0588012" resp="Taisho" type="orig" place="foot text">分＋（又）【三】</note><note n="0588012" resp="CBETA" type="mod">分＋（又）【宋】【元】【明】</note><app n="0588012"><lem>分</lem><rdg wit="【宋】【元】【明】" resp="Taisho">分又</rdg></app>文極撮略後文復闕可少卷餘</note>月藏經是第十二分<note place="inline">或有經本題云大乘
-<lb n="0588b02"/>大集經月藏分第十二經初又云化諸龍眾說日藏經已次說此經</note>十輪經是第十三
-<lb n="0588b03"/>分<note place="inline">初云說月藏經已次說此經此十輪後第十四分本在西方未流於此</note>須彌藏經是
-<lb n="0588b04"/>第十五分<note place="inline">經初題云大乘大集經須彌藏分第十五</note>第十六分合是虛
-<lb n="0588b05"/>空朵經<note place="inline">初云授功德天記<note n="0588013" resp="Taisho" type="orig" place="foot text">別＝&CB00028;【三】</note><note n="0588013" resp="CBETA" type="mod">別＝&CB00028;【宋】【元】【明】</note><app n="0588013"><lem>別</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00028;</rdg></app>法已次說此經然須彌藏經因功德天問如來方說故知此經合居其
-<lb n="0588b06"/>次</note>其日藏經初在迦蘭陀竹園說。次昇須
+<lb n="0588b01"/><note n="0588012" resp="Taisho" type="orig" place="foot text">分＋（又）【三】</note>
+<note n="0588012" resp="CBETA" type="mod">分＋（又）【宋】【元】【明】</note>
+<app n="0588012"><lem>分</lem><rdg wit="【宋】【元】【明】" resp="Taisho">分又</rdg></app>文極撮略後文復闕可少卷餘</note>。月藏經是第十二分<note place="inline">或有經本題云大乘
+<lb n="0588b02"/>大集經月藏分第十二經初又云化諸龍眾說日藏經已次說此經</note>。十輪經是第十三
+<lb n="0588b03"/>分<note place="inline">初云說月藏經已次說此經此十輪後第十四分本在西方未流於此</note>。須彌藏經是
+<lb n="0588b04"/>第十五分<note place="inline">經初題云大乘大集經須彌藏分第十五</note>。第十六分合是虛
+<lb n="0588b05"/>空朵經<note place="inline">初云授功德天記
+<note n="0588013" resp="Taisho" type="orig" place="foot text">別＝&CB00028;【三】</note>
+<note n="0588013" resp="CBETA" type="mod">別＝&CB00028;【宋】【元】【明】</note>
+<app n="0588013"><lem>別</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00028;</rdg></app>法已次說此經。然須彌藏經因功德天問如來方說。故知此經合居其
+<lb n="0588b06"/>次</note>。其日藏經初在迦蘭陀竹園說。次昇須
 <lb n="0588b07"/>彌頂。後因龍請往佉羅帝耶山。月藏等四
 <lb n="0588b08"/>經並在佉羅帝耶山說。次第如是。其念
 <lb n="0588b09"/>佛三昧賢護譬喻王無盡意經等。雖是大
@@ -10239,9 +10252,9 @@ Added comment  for Emacs
 <lb n="0590c06"/><item><title>如來興顯經四卷</title><note place="inline">一名興顯如幻經</note>
 <lb n="0590c07"/><p rend="margin-left:2">西晉三藏竺法護譯</p>
 <lb n="0590c08"/><p rend="margin-left:1">右一經是舊華嚴寶王如來性起品及十忍
-<lb n="0590c09"/>品異譯<note place="inline">從第三十五卷半至第三十七卷盡其十忍品在第三十卷此略無偈不知何故前後差異</note>
-<lb n="0590c10"/>新經名如來出現品<note place="inline">從第五十卷至第五十二其十忍品在第四十四舊錄中
-<lb n="0590c11"/>又有如來性起微密藏經二卷即是舊經性起品抄出別行其文不異但取第二會初緣<note n="0590009" resp="Taisho" type="orig" place="foot text">〔起〕－【三】</note><note n="0590009" resp="CBETA" type="mod">〔起〕－【宋】【元】【明】</note><app n="0590009"><lem>起</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>標於經首加證信序
+<lb n="0590c09"/>品異譯<note place="inline">從第三十五卷半至第三十七卷盡。其十忍品在第三十卷。此略無偈不知何故前後差異</note>。
+<lb n="0590c10"/>新經名如來出現品<note place="inline">從第五十卷至第五十二。其十忍品在第四十四。舊錄中
+<lb n="0590c11"/>又有如來性起微密藏經二卷。即是舊經性起品抄出別行。其文不異但取第二會初緣<note n="0590009" resp="Taisho" type="orig" place="foot text">〔起〕－【三】</note><note n="0590009" resp="CBETA" type="mod">〔起〕－【宋】【元】【明】</note><app n="0590009"><lem>起</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>標於經首加證信序。
 <lb n="0590c12"/>既非別翻故不重載</note></p>
 <lb n="0590c13"/><p rend="margin-left:1">上四經十一卷同帙</p></item>
 <lb n="0590c14"/><item><title>度世品經六卷</title><note place="inline">或五卷</note>
@@ -16014,9 +16027,9 @@ Added comment  for Emacs
 <lb n="0655c04"/>兄弟詣佛經亦云抄雜阿含第三十</note></item>
 <lb n="0655c05"/><item><title><note n="0655012" resp="Taisho" type="orig" place="foot text">&CB00178;＝柰【三】</note><note n="0655012" resp="CBETA" type="mod">&CB00178;＝柰【宋】【元】【明】</note><app n="0655012"><lem>&CB00178;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">柰</rdg></app>女經一卷</title><note place="inline">祐錄云抄中阿<note n="0655013" resp="Taisho" type="orig" place="foot text">含＝舍【明】＊</note><app n="0655013"><lem>含</lem><rdg wit="【明】" resp="Taisho">舍</rdg></app>新編上</note>
 <lb n="0655c06"/><p rend="margin-left:1">福行經下二十四部二十四卷並出中阿含
-<lb n="0655c07"/>經<note place="inline">准隋開皇仁壽二眾經錄中更有七知經離睡經受歲經梵志計水淨經苦陰經苦陰因事經樂想經阿耨風
-<lb n="0655c08"/>經伏婬經黃竹園經尊上經意經應法經鞞摩肅經邪見經箭喻經上十六經亦云出中阿含今與本經文勘乃是
-<lb n="0655c09"/>異譯非是別<note n="0655014" resp="Taisho" type="orig" place="foot text">生＋（也）【三】</note><note n="0655014" resp="CBETA" type="mod">生＋（也）【宋】【元】【明】</note><app n="0655014"><lem>生</lem><rdg wit="【宋】【元】【明】" resp="Taisho">生也</rdg></app>已編入正錄訖其父母恩難報經亦云別生今勘文不同且編見錄</note></p></item>
+<lb n="0655c07"/>經<note place="inline">准隋開皇仁壽二眾經錄中更有七知經．離睡經．受歲經．梵志計水淨經．苦陰經．苦陰因事經．樂想經．阿耨風
+<lb n="0655c08"/>經．伏婬經．黃竹園經．尊上經．意經．應法經．鞞摩肅經．邪見經．箭喻經。上十六經亦云出中阿含。今與本經文勘乃是
+<lb n="0655c09"/>異譯非是別<note n="0655014" resp="Taisho" type="orig" place="foot text">生＋（也）【三】</note><note n="0655014" resp="CBETA" type="mod">生＋（也）【宋】【元】【明】</note><app n="0655014"><lem>生</lem><rdg wit="【宋】【元】【明】" resp="Taisho">生也</rdg></app>已編入正錄訖。其父母恩難報經亦云別生今勘文不同且編見錄</note></p></item>
 <lb n="0655c10"/><item><title>飛鳥喻經一卷</title><note place="inline">抄第十五卷</note></item>
 <lb n="0655c11"/><item><title>三十三天園觀經一卷</title><note place="inline">抄第十五卷</note></item>
 <lb n="0655c12"/><item><title>五戰&CB00508;人經一卷</title><note place="inline">抄第十八卷</note></item>
