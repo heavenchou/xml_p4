@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2004/04/20 08:38:18 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/09/13 09:39:21 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:38:18 $</date>
+		<date>$Date: 2004/09/13 09:39:21 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 16, No. 662 &desc;</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T16n0662.xml,v $
+Revision 1.4  2004/09/13 09:39:21  saywhat
+<trailer> => <juan fun="close"><jhead>
+
 Revision 1.3  2004/04/20 08:38:18  maha
 「版本日期」標記修訂
 
@@ -109,7 +112,7 @@ Revision 1.6  2001/02/07 06:51:11  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:40:47  chris
-Added keywords $Revision: 1.3 $, $Date: 2004/04/20 08:38:18 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2004/09/13 09:39:21 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -118,11 +121,11 @@ Added comment  for Emacs
 <text><body>
 <lb n="0330c18"/>
 <milestone unit="juan" n="1"/>
-<lb n="0330c19"/><head type="no">No. 662 [No. 661]</head><div1 type="jing">
+<lb n="0330c19"/><head type="no">No. 662 [No. 661]</head>
 <lb n="0330c20"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0330005" resp="Taisho" type="orig" place="foot text">（佛說）＋大乘【明】＊</note><app n="0330005"><lem>大乘</lem><rdg wit="【明】" resp="Taisho">佛說大乘</rdg></app>百福莊嚴相經</title></jhead></juan>
 <lb n="0330c21"/>
 <lb n="0330c22"/><byline type="Translator"><note n="0330006" resp="Taisho" type="orig" place="foot text">（（大唐…譯））十二字＝大唐三藏地婆訶羅等奉詔譯【宋】【宮】，唐中天竺三藏法師地婆訶羅等奉詔再譯【元】【明】</note><note n="0330006" resp="CBETA" type="mod">（（大唐…譯））十二字＝大唐三藏地婆訶羅等奉詔譯【宋】【宮】，＝唐中天竺三藏法師地婆訶羅等奉詔再譯【元】【明】</note><app n="0330006" word-count="12"><lem>大唐天竺三藏地婆訶羅再譯</lem><rdg wit="【宋】【宮】" resp="Taisho">大唐三藏地婆訶羅等奉詔譯</rdg><rdg wit="【元】【明】" resp="Taisho">唐中天竺三藏法師地婆訶羅等奉詔再譯</rdg></app></byline>
-<lb n="0330c23"/><p>如是我聞。一時婆伽婆在舍衛大城普妙宮
+<lb n="0330c23"/><div1 type="jing"><p>如是我聞。一時婆伽婆在舍衛大城普妙宮
 <lb n="0330c24"/>殿。為欲化導無量眾生。坐寶莊嚴師子之座。
 <lb n="0330c25"/>與大比丘等千二百五十人俱。菩薩摩訶薩
 <lb n="0330c26"/>無央數眾。皆共恭敬周匝圍繞。瞻仰世尊身
@@ -351,6 +354,6 @@ Added comment  for Emacs
 <lb n="0333b09"/>來於世間中為諸眾生作大依止。清淨不動
 <lb n="0333b10"/>猶如虛空。難遇難遭我今得見。佛說是經已。
 <lb n="0333b11"/>彼諸比丘及諸菩薩摩訶薩等。歡喜合掌信
-<lb n="0333b12"/>受奉行</p>
-<lb n="0333b13"/><trailer><title><app type="＊" source="0330005"><lem>大乘</lem><rdg resp="Taisho" wit="【明】">佛說大乘</rdg></app>百福莊嚴相經</title></trailer><juan fun="close" n="001"></juan></div1>
+<lb n="0333b12"/>受奉行</p></div1>
+<lb n="0333b13"/><juan fun="close" n="001"><jhead><title><app type="＊" source="0330005"><lem>大乘</lem><rdg resp="Taisho" wit="【明】">佛說大乘</rdg></app>百福莊嚴相經</title></jhead></juan>
 </body></text></TEI.2>
