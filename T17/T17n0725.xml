@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/11 14:39:02 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/09/12 07:01:06 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 14:39:02 $</date>
+		<date>$Date: 2004/09/12 07:01:06 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 725 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T17n0725.xml,v $
+Revision 1.6  2004/09/12 07:01:06  saywhat
+<trailer> => <juan fun="close"><jhead>
+
 Revision 1.5  2004/05/11 14:39:02  saywhat
 修訂經號的<head> → <head type="no">
 
@@ -117,7 +120,7 @@ Revision 1.6  2001/02/07 06:52:04  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:41:42  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/05/11 14:39:02 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/09/12 07:01:06 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -347,9 +350,5 @@ Added comment  for Emacs
 <lb n="0455a09"/><l>審觀此三種</l><l>勿愛須棄捨</l>
 <lb n="0455a10"/><l>求福遠離罪</l><l>了絕於色聲</l>
 <lb n="0455a11"/><l>通達真實義</l><l>必至大解脫</l></lg></div1>
-<lb n="0455a12"/><trailer><title>
-<note n="0455001" resp="Taisho" type="orig" place="foot text">（天趣道頌竟）＋佛【明】，〔佛說〕－【三】【宮】</note>
-<note n="0455001" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【宮】，（天趣道頌竟）＋佛【明】</note>
-<app n="0455001"><lem>佛說</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg>
-<rdg wit="【明】" resp="Taisho">天趣道頌竟</rdg></app>六道伽陀經</title></trailer><juan fun="close" n="001"></juan>
+<lb n="0455a12"/><juan fun="close" n="001"><jhead><title><note n="0455001" resp="Taisho" type="orig" place="foot text">（天趣道頌竟）＋佛【明】，〔佛說〕－【三】【宮】</note><note n="0455001" resp="CBETA" type="mod">〔佛說〕－【宋】【元】【明】【宮】，（天趣道頌竟）＋佛【明】</note><app n="0455001"><lem>佛說</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho">天趣道頌竟</rdg></app>六道伽陀經</title></jhead></juan>
 </body></text></TEI.2>
