@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.21 $ (Big5)<date>$Date: 2004/04/20 08:44:32 $</date></edition>
+		<edition>$Revision: 1.22 $ (Big5)<date>$Date: 2004/06/16 03:22:51 $</date></edition>
 	</editionStmt>
 	<extent>20卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:44:32 $</date>
+		<date>$Date: 2004/06/16 03:22:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2154 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2154.xml,v $
+Revision 1.22  2004/06/16 03:22:51  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.21  2004/04/20 08:44:32  maha
 「版本日期」標記修訂
 
@@ -283,7 +286,7 @@ Revision 1.3  2001/02/07 07:46:14  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:19  chris
-Added keywords $Revision: 1.21 $, $Date: 2004/04/20 08:44:32 $ and $Log.
+Added keywords $Revision: 1.22 $, $Date: 2004/06/16 03:22:51 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -292,11 +295,11 @@ Added comment  for Emacs
 <text><body>
 <pb ed="T" id="T55.2154.0477a" n="0477a"/>
 <lb n="0477a01"/><milestone unit="juan" n="1"/>
-<lb n="0477a02"/><head type="no">No. 2154</head><div1 type="xu">
-<lb n="0477a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0477001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>開元釋教錄卷第<note n="0477002" resp="Taisho" type="orig" place="foot text">一＋（序）夾註【宋】【元】，（并序）夾註【明】</note><app n="0477002"><lem>一</lem><rdg wit="【宋】【元】" resp="Taisho">一<note place="inline">序</note></rdg><rdg wit="【明】" resp="Taisho">一<note place="inline">并序</note></rdg></app></jhead></juan>
+<lb n="0477a02"/><head type="no">No. 2154</head>
+<lb n="0477a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0477001" resp="Taisho" type="orig" place="foot text">【原】麗本</note><jhead>開元釋教錄卷第<note n="0477002" resp="Taisho" type="orig" place="foot text">一＋（序）夾註【宋】【元】，（并序）夾註【明】</note><app n="0477002"><lem>一</lem><rdg wit="【宋】【元】" resp="Taisho">一<note place="inline">序</note></rdg><rdg wit="【明】" resp="Taisho">一<note place="inline">并序</note></rdg></app></jhead></juan>
 <lb n="0477a04"/>
 <lb n="0477a05"/><byline type="Author"><note n="0477003" resp="Taisho" type="orig" place="foot text">（唐）＋庚【宋】【元】，庚午歲＝唐【明】</note><note n="0477003" resp="CBETA" type="mod">庚午歲＝唐【明】，（唐）＋庚【宋】【元】</note><app n="0477003"><lem>庚午歲</lem><rdg wit="【明】" resp="Taisho">唐</rdg><rdg wit="【宋】【元】" resp="Taisho">唐庚午歲</rdg></app>西崇福寺沙門智昇撰</byline>
-<lb n="0477a06"/><mulu type="序" level="1" label="（序）"/><p>夫目錄之興也。蓋所以別真偽明是非。記人
+<lb n="0477a06"/><div1 type="xu"><mulu type="序" level="1" label="（序）"/><p>夫目錄之興也。蓋所以別真偽明是非。記人
 <lb n="0477a07"/>代之古今。標卷部之多少。摭拾遺漏刪夷<note n="0477004" resp="Taisho" type="orig" place="foot text">駢＝胼【元】【明】</note><app n="0477004"><lem>駢</lem><rdg wit="【元】【明】" resp="Taisho">胼</rdg></app>
 <lb n="0477a08"/>贅。欲使正教綸理金言有緒。提綱舉要歷然
 <lb n="0477a09"/>可觀也。但以法門幽邃化網恢弘。前後翻傳
@@ -9487,16 +9490,16 @@ Added comment  for Emacs
 <lb n="0581c20"/>總一千七十六部。合五千四十八卷。四百
 <lb n="0581c21"/>八十帙<note place="inline">此入藏中大乘經部數與前廣錄<note n="0581018" resp="Taisho" type="orig" place="foot text">部＝都【宋】</note><app n="0581018"><lem>部</lem><rdg wit="【宋】" resp="Taisho">都</rdg></app>數不同者前以大寶積經諸部合成故存本數為四十
 <lb n="0581c22"/>九部上錄此中合為一部故欠四十八不同</note></p>
-<lb n="0581c23"/><p rend="margin-left:1">右為第二十卷</p></item></list></item></list></item></list></div3></div2>
-<lb n="0581c24"/><juan fun="close" n="010"><jhead>開元釋教錄卷第十<note n="0581019" resp="Taisho" type="orig" place="foot text">〔總錄之十〕－【明】</note><app n="0581019"><lem><note place="inline">總錄之十</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></jhead></juan></div1>
+<lb n="0581c23"/><p rend="margin-left:1">右為第二十卷</p></item></list></item></list></item></list></div3></div2></div1>
+<lb n="0581c24"/><juan fun="close" n="010"><jhead>開元釋教錄卷第十<note n="0581019" resp="Taisho" type="orig" place="foot text">〔總錄之十〕－【明】</note><app n="0581019"><lem><note place="inline">總錄之十</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <pb ed="T" id="T55.2154.0582a" n="0582a"/>
-<lb n="0582a01"/><milestone unit="juan" n="11"/><div1 type="other">
+<lb n="0582a01"/><milestone unit="juan" n="11"/>
 <lb n="0582a02"/>
 <lb n="0582a03"/>
 <lb n="0582a04"/><juan fun="open" n="011"><mulu type="卷" n="11"/><jhead>開元釋教<note n="0582001" resp="Taisho" type="orig" place="foot text">（目）＋錄【三】＊</note><note n="0582001" resp="CBETA" type="mod">（目）＋錄【宋】＊【元】＊【明】＊</note><app n="0582001"><lem>錄</lem><rdg wit="【宋】【元】【明】" resp="Taisho">目錄</rdg></app>卷第十<note n="0582002" resp="Taisho" type="orig" place="foot text">一＋（上）【明】</note><app n="0582002"><lem>一</lem><rdg wit="【明】" resp="Taisho">一上</rdg></app><note place="inline">別錄之一</note></jhead></juan>
 <lb n="0582a05"/>
 <lb n="0582a06"/><byline type="Author"><anchor id="fxT55p0582a01"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0582a07"/><mulu type="其他" level="1" label="2 別分乘藏錄"/><head>別分乘藏錄下</head>
+<lb n="0582a07"/><div1 type="other"><mulu type="其他" level="1" label="2 別分乘藏錄"/><head>別分乘藏錄下</head>
 <lb n="0582a08"/><p rend="margin-left:1">就別錄中更分為七</p>
 <lb n="0582a09"/><list><item>有譯有本錄第一<note place="inline">一千一百二十四部五千四十八卷</note></item>
 <lb n="0582a10"/><item>有譯無本錄第二<note place="inline">一千一百四十八部一千九百八十卷</note></item>
@@ -10614,11 +10617,11 @@ Added comment  for Emacs
 <lb n="0594a08"/><item><title>放&CB00425;經一卷</title><note place="inline">是普超經舉&CB00425;品異譯出第一卷</note>
 <lb n="0594a09"/><p rend="margin-left:2">僧祐錄云安公錄中失譯經<note place="inline">安公云出方等部今附西晉錄</note></p>
 <lb n="0594a10"/><p rend="margin-left:1">右三經同本異譯<note place="inline">前後六譯三譯闕本</note><note n="0594005" resp="Taisho" type="orig" place="foot text">〔上六…帙〕七字－【明】</note><app n="0594005" word-count="7"><lem>上六經十卷同
-<lb n="0594a11"/>帙</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></p></item></list>
-<lb n="0594a12"/><juan fun="close" n="011"><jhead>開元釋教錄卷第十一<note place="inline"><note n="0594006" resp="Taisho" type="orig" place="foot text">別錄之一＝下【明】</note><app n="0594006"><lem>別錄之一</lem><rdg wit="【明】" resp="Taisho">下</rdg></app></note></jhead></juan></div6>
-<lb n="0594a13"/><div6 type="W">
-<lb n="0594a14"/><mulu type="其他" level="6" label="（附錄）"/>
-<lb n="0594a15"/><list><item><title>◎<note n="0594007" resp="Taisho" type="orig" place="foot text">以下依明本載之以宋元二本對校，cf. P. 582b [15].</note>大般若波羅<note n="0594008" resp="Taisho" type="orig" place="foot text">密＝蜜【宋】【元】＊</note><note n="0594008" resp="CBETA" type="mod"><todo type="＊"/>密＝蜜【宋】【元】＊</note><app n="0594008"><lem>密</lem><rdg wit="【宋】【元】" resp="Taisho">蜜</rdg></app>多經</title><note place="inline">六百卷六十帙<note n="0594009" resp="Taisho" type="orig" place="foot text">（大）＋唐【宋】【元】</note><app n="0594009"><lem>唐</lem><rdg wit="【宋】【元】" resp="Taisho">大唐</rdg></app>三藏玄奘於玉華宮寺譯出翻經圖</note>
+<lb n="0594a11"/>帙</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></p></item></list></div6>
+<lb n="0594a12"/><juan fun="close" n="011"><jhead>開元釋教錄卷第十一<note place="inline"><note n="0594006" resp="Taisho" type="orig" place="foot text">別錄之一＝下【明】</note><app n="0594006"><lem>別錄之一</lem><rdg wit="【明】" resp="Taisho">下</rdg></app></note></jhead></juan>
+<lb n="0594a13"/>
+<lb n="0594a14"/>
+<lb n="0594a15"/><div6 type="W"><mulu type="其他" level="6" label="（附錄）"/>◎<note n="0594007" resp="Taisho" type="orig" place="foot text">以下依明本載之以宋元二本對校，cf. P. 582b [15].</note><list><item><title>大般若波羅<note n="0594008" resp="Taisho" type="orig" place="foot text">密＝蜜【宋】【元】＊</note><note n="0594008" resp="CBETA" type="mod"><todo type="＊"/>密＝蜜【宋】【元】＊</note><app n="0594008"><lem>密</lem><rdg wit="【宋】【元】" resp="Taisho">蜜</rdg></app>多經</title><note place="inline">六百卷六十帙<note n="0594009" resp="Taisho" type="orig" place="foot text">（大）＋唐【宋】【元】</note><app n="0594009"><lem>唐</lem><rdg wit="【宋】【元】" resp="Taisho">大唐</rdg></app>三藏玄奘於玉華宮寺譯出翻經圖</note>
 <lb n="0594a16"/><p rend="margin-left:1">右此經。梵本都有二十萬頌。總四處十六
 <lb n="0594a17"/>會。唐言譯之成六百卷。重單合譯具列如
 <lb n="0594a18"/>左</p></item>
@@ -10694,13 +10697,13 @@ Added comment  for Emacs
 <lb n="0594c29"/><p rend="margin-left:1">右新譯單本。梵文二千五百頌。譯成八卷。
 <pb ed="T" id="T55.2154.0595a" n="0595a"/>
 <lb n="0595a01"/>無品。從五百九十三卷至第六百卷</p></item></list></div6>
-<lb n="0595a02"/><milestone unit="juan" n="12"/><div6 type="other">
+<lb n="0595a02"/><milestone unit="juan" n="12"/>
 <lb n="0595a03"/>
 <lb n="0595a04"/>
 <lb n="0595a05"/><juan fun="open" n="012"><mulu type="卷" n="12"/><jhead>開元釋教<anchor id="fxT55p0595a01"/>錄卷第十<note n="0595001" resp="Taisho" type="orig" place="foot text">二＋（上）【明】</note><app n="0595001"><lem>二</lem><rdg wit="【明】" resp="Taisho">二上</rdg></app><note place="inline">別錄之二</note></jhead></juan>
 <lb n="0595a06"/>
 <lb n="0595a07"/><byline type="Author"><anchor id="fxT55p0595a02"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0595a08"/><head>有譯有本錄中菩薩三藏<note n="0595002" resp="Taisho" type="orig" place="foot text">〔錄〕－【三】</note><note n="0595002" resp="CBETA" type="mod">〔錄〕－【宋】【元】【明】</note><app n="0595002"><lem>錄</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>之二<note place="inline">大乘經重單合譯下</note></head>
+<lb n="0595a08"/><div6 type="other"><head>有譯有本錄中菩薩三藏<note n="0595002" resp="Taisho" type="orig" place="foot text">〔錄〕－【三】</note><note n="0595002" resp="CBETA" type="mod">〔錄〕－【宋】【元】【明】</note><app n="0595002"><lem>錄</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>之二<note place="inline">大乘經重單合譯下</note></head>
 <lb n="0595a09"/><mulu type="其他" level="6" label="（五大部外諸重譯經之餘）"/><list><item><title>月燈三昧經</title>十一卷<note place="inline">或十卷一帙</note>
 <lb n="0595a10"/><p rend="margin-left:2">高齊天竺三藏那連提耶舍譯<note place="inline"><note n="0595003" resp="Taisho" type="orig" place="foot text">全＝合【三】</note><note n="0595003" resp="CBETA" type="mod">全＝合【宋】【元】【明】</note><app n="0595003"><lem>全</lem><rdg wit="【宋】【元】【明】" resp="Taisho">合</rdg></app>本後出單重合譯</note></p></item>
 <lb n="0595a11"/><item><title>月燈三昧經一卷</title><note place="inline">一名文殊師利菩薩十事行經</note>
@@ -12078,8 +12081,8 @@ Added comment  for Emacs
 <lb n="0610b04"/><p rend="margin-left:1">上十六論十六卷同帙</p>
 <lb n="0610b05"/><p rend="margin-left:1">都計大乘經律論見流行者。總六百八十
 <lb n="0610b06"/>六部。二千七百四十五卷。二百五十八
-<lb n="0610b07"/>帙</p></item></list>
-<lb n="0610b08"/><juan fun="close" n="012"><jhead>開元釋教錄卷第十二<note place="inline"><note n="0610007" resp="Taisho" type="orig" place="foot text">別錄之二＝下【明】</note><app n="0610007"><lem>別錄之二</lem><rdg wit="【明】" resp="Taisho">下</rdg></app></note></jhead></juan></div5></div4></div3>
+<lb n="0610b07"/>帙</p></item></list></div5></div4></div3>
+<lb n="0610b08"/><juan fun="close" n="012"><jhead>開元釋教錄卷第十二<note place="inline"><note n="0610007" resp="Taisho" type="orig" place="foot text">別錄之二＝下【明】</note><app n="0610007"><lem>別錄之二</lem><rdg wit="【明】" resp="Taisho">下</rdg></app></note></jhead></juan>
 <lb n="0610b09"/><milestone unit="juan" n="13"/>
 <lb n="0610b10"/>
 <lb n="0610b11"/><juan fun="open" n="013"><mulu type="卷" n="13"/><jhead>開元釋教<anchor id="fxT55p0610b07"/>錄卷第十三<note place="inline">別錄之<note n="0610008" resp="Taisho" type="orig" place="foot text">三＋（上）【明】</note><app n="0610008"><lem>三</lem><rdg wit="【明】" resp="Taisho">三上</rdg></app></note></jhead></juan>
@@ -13424,17 +13427,17 @@ Added comment  for Emacs
 <lb n="0625b10"/>護法者此中不錄</p>
 <lb n="0625b11"/><p rend="margin-left:1">都計小乘經律論及賢聖集傳見流行者。
 <lb n="0625b12"/>總四百三十八部。合二千三百三卷。二百
-<lb n="0625b13"/>二十二帙</p></item></list>
-<lb n="0625b14"/><juan fun="close" n="013"><jhead>開元釋教錄卷第十三<note place="inline">別錄之<note n="0625005" resp="Taisho" type="orig" place="foot text">三＋（下）【明】</note><app n="0625005"><lem>三</lem><rdg wit="【明】" resp="Taisho">三下</rdg></app></note></jhead></juan></div4></div3></div2>
+<lb n="0625b13"/>二十二帙</p></item></list></div4></div3></div2>
+<lb n="0625b14"/><juan fun="close" n="013"><jhead>開元釋教錄卷第十三<note place="inline">別錄之<note n="0625005" resp="Taisho" type="orig" place="foot text">三＋（下）【明】</note><app n="0625005"><lem>三</lem><rdg wit="【明】" resp="Taisho">三下</rdg></app></note></jhead></juan>
 <lb n="0625b15"/><div2 type="W"><list><item><title>漢法本內傳</title>五卷<note place="inline">未詳撰者</note></item>
 <lb n="0625b16"/><item><title><note n="0625006" resp="Taisho" type="orig" place="foot text">沙＝法【三】</note><note n="0625006" resp="CBETA" type="mod">沙＝法【宋】【元】【明】</note><app n="0625006"><lem>沙</lem><rdg wit="【宋】【元】【明】" resp="Taisho">法</rdg></app>門法琳傳</title>三卷<byline type="author">沙門彥悰<note n="0625007" resp="Taisho" type="orig" place="foot text">撰＝譯【明】</note><app n="0625007"><lem>撰</lem><rdg wit="【明】" resp="Taisho">譯</rdg></app></byline>
 <lb n="0625b17"/><p rend="margin-left:1">右二部傳明&CB00330;禁斷不許流行故不編載</p></item></list></div2>
 <pb ed="T" id="T55.2154.0626a" n="0626a"/>
-<lb n="0626a01"/><milestone unit="juan" n="14"/><div2 type="other">
+<lb n="0626a01"/><milestone unit="juan" n="14"/>
 <lb n="0626a02"/><juan fun="open" n="014"><mulu type="卷" n="14"/><jhead>開元釋教<anchor id="fxT55p0626a01"/>錄卷第十四<note place="inline">別錄之<note n="0626001" resp="Taisho" type="orig" place="foot text">四＋（上）【明】</note><app n="0626001"><lem>四</lem><rdg wit="【明】" resp="Taisho">四上</rdg></app></note></jhead></juan>
 <lb n="0626a03"/>
 <lb n="0626a04"/><byline type="Author"><anchor id="fxT55p0626a02"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0626a05"/><mulu type="其他" level="2" label="2 有譯無本錄"/><div3 type="other"><mulu type="其他" level="3" label="之一"/><head>別錄中有譯無本錄第二之一</head>
+<lb n="0626a05"/><div2 type="other"><mulu type="其他" level="2" label="2 有譯無本錄"/><div3 type="other"><mulu type="其他" level="3" label="之一"/><head>別錄中有譯無本錄第二之一</head>
 <lb n="0626a06"/><p>有譯無本者。謂三藏教文及聖賢集傳。名存
 <lb n="0626a07"/>本闕之類也。自聖教東移殆乎千祀。質文亟
 <lb n="0626a08"/><note n="0626002" resp="Taisho" type="orig" place="foot text">改＝故【三】</note><note n="0626002" resp="CBETA" type="mod">改＝故【宋】【元】【明】</note><app n="0626002"><lem>改</lem><rdg wit="【宋】【元】【明】" resp="Taisho">故</rdg></app>鍾鼎屢遷。重以周武陵夷緇徒喪滅。致使
@@ -14472,8 +14475,8 @@ Added comment  for Emacs
 <lb n="0637c04"/><p rend="margin-left:1"><note place="inline">又法上錄云。梁太清二年真諦三藏譯攝大乘論二十卷者。此應誤也。多是十二。傳寫者錯。今按長房等
 <lb n="0637c05"/>錄。諦譯攝論在於陳代。梁錄既無。故不<note n="0637011" resp="Taisho" type="orig" place="foot text">存＝在【三】</note><note n="0637011" resp="CBETA" type="mod">存＝在【宋】【元】【明】</note><app n="0637011"><lem>存</lem><rdg wit="【宋】【元】【明】" resp="Taisho">在</rdg></app>也</note></p>
 <lb n="0637c06"/><p rend="margin-left:1">都計大乘經律論闕本者總四百五十部八
-<lb n="0637c07"/>百七十四卷</p></item></list></div4>
-<lb n="0637c08"/><juan fun="close" n="014"><jhead>開元釋教<note n="0637012" resp="Taisho" type="orig" place="foot text">（目）＋錄【明】＊</note><app n="0637012"><lem>錄</lem><rdg wit="【明】" resp="Taisho">目錄</rdg></app>卷第十四<note place="inline">別錄之<note n="0637013" resp="Taisho" type="orig" place="foot text">四＋（下）【明】</note><app n="0637013"><lem>四</lem><rdg wit="【明】" resp="Taisho">四下</rdg></app></note></jhead></juan></div3>
+<lb n="0637c07"/>百七十四卷</p></item></list></div4></div3>
+<lb n="0637c08"/><juan fun="close" n="014"><jhead>開元釋教<note n="0637012" resp="Taisho" type="orig" place="foot text">（目）＋錄【明】＊</note><app n="0637012"><lem>錄</lem><rdg wit="【明】" resp="Taisho">目錄</rdg></app>卷第十四<note place="inline">別錄之<note n="0637013" resp="Taisho" type="orig" place="foot text">四＋（下）【明】</note><app n="0637013"><lem>四</lem><rdg wit="【明】" resp="Taisho">四下</rdg></app></note></jhead></juan>
 <lb n="0637c09"/><milestone unit="juan" n="15"/>
 <lb n="0637c10"/>
 <lb n="0637c11"/>
@@ -15675,15 +15678,15 @@ Added comment  for Emacs
 <lb n="0651a05"/><note place="inline">今附安錄</note></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></p></item>
 <lb n="0651a06"/><item><title>雜譬喻經一卷</title><note place="inline">凡十一事</note><p rend="margin-left:1"><note n="0651004" resp="Taisho" type="orig" place="foot text">（已上）＋僧【明】</note><app n="0651004"><lem>僧</lem><rdg wit="【明】" resp="Taisho">已上僧</rdg></app>祐錄中失譯經<note place="inline">今附宋錄</note></p>
 <lb n="0651a07"/><p rend="margin-left:1">都計小乘經律論。及聖賢集傳闕本者。總
-<lb n="0651a08"/>六百九十八部一千一百六卷</p></item></list></div4></div3>
+<lb n="0651a08"/>六百九十八部一千一百六卷</p></item></list></div4></div3></div2>
 <lb n="0651a09"/><juan fun="close" n="015"><jhead>開元釋教<anchor id="fxT55p0651a02"/>錄卷第十五<note place="inline">別錄之<note n="0651005" resp="Taisho" type="orig" place="foot text">五＋（下）【明】</note><app n="0651005"><lem>五</lem><rdg wit="【明】" resp="Taisho">五下</rdg></app></note></jhead></juan>
-<lb n="0651a10"/></div2>
-<lb n="0651a11"/><milestone unit="juan" n="16"/><div2 type="other">
+<lb n="0651a10"/>
+<lb n="0651a11"/><milestone unit="juan" n="16"/>
 <lb n="0651a12"/>
 <lb n="0651a13"/><juan fun="open" n="016"><mulu type="卷" n="16"/><jhead>開元釋教<anchor id="fxT55p0651a03"/>錄卷第十六<note place="inline">別錄之六</note></jhead></juan>
 <lb n="0651a14"/>
 <lb n="0651a15"/><byline type="Author"><anchor id="fxT55p0651a04"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0651a16"/><mulu type="其他" level="2" label="3 支派別行經"/><head>別錄中支派別行<note n="0651006" resp="Taisho" type="orig" place="foot text">經＝錄【三】</note><note n="0651006" resp="CBETA" type="mod">經＝錄【宋】【元】【明】</note><app n="0651006"><lem>經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">錄</rdg></app>第三</head><p place="inline"><note place="inline">六百八十二部八百<note n="0651007" resp="Taisho" type="orig" place="foot text">一＝二【三】</note><note n="0651007" resp="CBETA" type="mod">一＝二【宋】【元】【明】</note><app n="0651007"><lem>一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">二</rdg></app>十二卷</note></p>
+<lb n="0651a16"/><div2 type="other"><mulu type="其他" level="2" label="3 支派別行經"/><head>別錄中支派別行<note n="0651006" resp="Taisho" type="orig" place="foot text">經＝錄【三】</note><note n="0651006" resp="CBETA" type="mod">經＝錄【宋】【元】【明】</note><app n="0651006"><lem>經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">錄</rdg></app>第三</head><p place="inline"><note place="inline">六百八十二部八百<note n="0651007" resp="Taisho" type="orig" place="foot text">一＝二【三】</note><note n="0651007" resp="CBETA" type="mod">一＝二【宋】【元】【明】</note><app n="0651007"><lem>一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">二</rdg></app>十二卷</note></p>
 <lb n="0651a17"/><p>支派經者。謂大部之中抄出別行。大般若第
 <lb n="0651a18"/>二會之類是也。夫法門浩廣罕究津涯。典籍
 <lb n="0651a19"/>紛綸靡窮邊際。故有隨宜化誘應物施緣。多
@@ -16595,15 +16598,15 @@ Added comment  for Emacs
 <lb n="0662a20"/>二本撿並無此等經。應出八十卷者或可出護公所譯雜譬喻三百五十首經。其經並在闕本錄
 <note n="0662009" resp="Taisho" type="orig" place="foot text">內＋（也）【三】</note>
 <note n="0662009" resp="CBETA" type="mod">內＋（也）【宋】【元】【明】</note>
-<app n="0662009"><lem>內</lem><rdg wit="【宋】【元】【明】" resp="Taisho">內也</rdg></app></note></p></item></list></div3>
+<app n="0662009"><lem>內</lem><rdg wit="【宋】【元】【明】" resp="Taisho">內也</rdg></app></note></p></item></list></div3></div2>
 <lb n="0662a21"/><juan fun="close" n="016"><jhead>開元釋教<anchor id="fxT55p0662a01"/>錄卷第十六<note place="inline">別錄之六</note></jhead></juan>
-<lb n="0662a22"/></div2>
-<lb n="0662a23"/><milestone unit="juan" n="17"/><div2 type="other">
+<lb n="0662a22"/>
+<lb n="0662a23"/><milestone unit="juan" n="17"/>
 <lb n="0662a24"/>
 <lb n="0662a25"/><juan fun="open" n="017"><mulu type="卷" n="17"/><jhead>開元釋教<anchor id="fxT55p0662a02"/>錄卷第十七<note place="inline">別錄之七</note></jhead></juan>
 <lb n="0662a26"/>
 <lb n="0662a27"/><byline type="Author"><anchor id="fxT55p0662a03"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0662a28"/><mulu type="其他" level="2" label="4 刪略繁重錄"/><head>別錄中刪略繁重錄第四<note place="inline">一百四十七部四百八卷</note></head>
+<lb n="0662a28"/><div2 type="other"><mulu type="其他" level="2" label="4 刪略繁重錄"/><head>別錄中刪略繁重錄第四<note place="inline">一百四十七部四百八卷</note></head>
 <lb n="0662a29"/><p>刪繁錄者。謂同本異名。或廣中略出。以為繁
 <pb ed="T" id="T55.2154.0662b" n="0662b"/>
 <lb n="0662b01"/><note n="0662010" resp="Taisho" type="orig" place="foot text">&CB03449;＝賸【三】＊</note><note n="0662010" resp="CBETA" type="mod">&CB03449;＝賸【宋】＊【元】＊【明】＊</note><app n="0662010"><lem>&CB03449;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">賸</rdg></app>今並刪除。但以年歲久淹共傳訛替。徒盈
@@ -17420,12 +17423,12 @@ Added comment  for Emacs
 <lb n="0671b11"/>此方所撰傳記然於大法裨助光揚故補先
 <lb n="0671b12"/>闕編之見錄</p></item></list></div2>
 <lb n="0671b13"/><juan fun="close" n="017"><jhead>開元釋教<anchor id="fxT55p0671b03"/>錄卷第十七<note place="inline">別錄之七</note></jhead></juan>
-<lb n="0671b14"/><milestone unit="juan" n="18"/><div2 type="other">
+<lb n="0671b14"/><milestone unit="juan" n="18"/>
 <lb n="0671b15"/>
 <lb n="0671b16"/><juan fun="open" n="018"><mulu type="卷" n="18"/><jhead>開元釋教<anchor id="fxT55p0671b04"/>錄卷第十八<note place="inline">別錄之八</note></jhead></juan>
 <lb n="0671b17"/>
 <lb n="0671b18"/><byline type="Author"><anchor id="fxT55p0671b05"/>庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0671b19"/><mulu type="其他" level="2" label="6 疑惑再詳錄"/><head>別錄中疑惑再詳錄第六<note place="inline">一十四部一十九卷</note></head>
+<lb n="0671b19"/><div2 type="other"><mulu type="其他" level="2" label="6 疑惑再詳錄"/><head>別錄中疑惑再詳錄第六<note place="inline">一十四部一十九卷</note></head>
 <lb n="0671b20"/><p>疑惑錄者。自梵經東闡年將七百。教有興廢
 <lb n="0671b21"/>時復遷移。先後翻傳卷將萬計。部帙既廣尋
 <lb n="0671b22"/>閱難周。定錄之人隨聞便上。而不細尋宗旨
@@ -18202,15 +18205,15 @@ Added comment  for Emacs
 <lb n="0680a18"/>名濫真經文句增減。或雜糅異義別立名
 <lb n="0680a19"/>題。若從正收恐<note n="0680008" resp="Taisho" type="orig" place="foot text">玉＝王【三】</note><note n="0680008" resp="CBETA" type="mod">玉＝王【宋】【元】【明】</note><app n="0680008"><lem>玉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">王</rdg></app>石斯濫。若一例為偽而
 <lb n="0680a20"/>推本有憑。進退二途實難詮定。<note n="0680009" resp="Taisho" type="orig" place="foot text">且＝具【宋】【元】</note><app n="0680009"><lem>且</lem><rdg wit="【宋】【元】" resp="Taisho">具</rdg></app>依舊錄
-<lb n="0680a21"/>編之偽末。後學尋覽幸詳得失耳</p></item></list>
+<lb n="0680a21"/>編之偽末。後學尋覽幸詳得失耳</p></item></list></div2></div1>
 <lb n="0680a22"/><juan fun="close" n="018"><jhead>開元釋教<anchor id="fxT55p0680a01"/>錄卷第十八<note place="inline">別錄之八</note></jhead></juan>
-<lb n="0680a23"/></div2></div1>
-<lb n="0680a24"/><milestone unit="juan" n="19"/><div1 type="other"><mulu type="其他" level="1" label="入藏錄"/>
+<lb n="0680a23"/>
+<lb n="0680a24"/><milestone unit="juan" n="19"/>
 <lb n="0680a25"/>
-<lb n="0680a26"/><juan fun="open" n="019"><mulu type="卷" n="19"/><jhead><note n="0680010" resp="Taisho" type="orig" place="foot text">卷第十九及第二十宋元明三本與麗本異同甚繁故別載之，cf. P. 700c [07]</note>開元釋教錄卷第十九<note place="inline">入藏錄上</note></jhead></juan>
+<lb n="0680a26"/><juan fun="open" n="019"><mulu type="卷" n="19"/><note n="0680010" resp="Taisho" type="orig" place="foot text">卷第十九及第二十宋元明三本與麗本異同甚繁故別載之，cf. P. 700c [07]</note><jhead>開元釋教錄卷第十九<note place="inline">入藏錄上</note></jhead></juan>
 <lb n="0680a27"/>
 <lb n="0680a28"/><byline type="Author">庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0680a29"/><p>合大小乘經律論及聖賢集傳見入藏者。總
+<lb n="0680a29"/><div1 type="other"><mulu type="其他" level="1" label="入藏錄"/><p>合大小乘經律論及聖賢集傳見入藏者。總
 <pb ed="T" id="T55.2154.0680b" n="0680b"/>
 <lb n="0680b01"/>一千七十六部。合五千四十八卷。成四百八
 <lb n="0680b02"/>十帙</p>
@@ -19134,14 +19137,14 @@ Added comment  for Emacs
 <lb n="0691a03"/>帙</p>
 <lb n="0691a04"/><p rend="margin-left:1">與前廣錄部數不同者。前廣錄中以大寶
 <lb n="0691a05"/>積經諸部合成分為四十九部上錄。此合
-<lb n="0691a06"/>為一部。故欠四十八部不同</p></item></list></div3>
+<lb n="0691a06"/>為一部。故欠四十八部不同</p></item></list></div3></div2>
 <lb n="0691a07"/><juan fun="close" n="019"><jhead>開元釋教錄卷第十九　入藏錄卷上</jhead></juan>
-<lb n="0691a08"/></div2>
-<lb n="0691a09"/><milestone unit="juan" n="20"/><div2 type="other">
+<lb n="0691a08"/>
+<lb n="0691a09"/><milestone unit="juan" n="20"/>
 <lb n="0691a10"/><juan fun="open" n="020"><mulu type="卷" n="20"/><jhead>開元釋教錄卷第二十<note place="inline">入藏錄下</note></jhead></juan>
 <lb n="0691a11"/>
 <lb n="0691a12"/><byline type="Author">庚午歲西崇福寺沙門智昇撰</byline>
-<lb n="0691a13"/><mulu type="其他" level="2" label="小乘入藏錄"/><head>小乘入藏錄下<note place="inline">小乘經律論總三百三十部一千七百六十二卷一百六十五帙賢聖集傳附
+<lb n="0691a13"/><div2 type="other"><mulu type="其他" level="2" label="小乘入藏錄"/><head>小乘入藏錄下<note place="inline">小乘經律論總三百三十部一千七百六十二卷一百六十五帙賢聖集傳附
 <lb n="0691a14"/>此卷末此直列經名及標紙數餘如廣錄</note></head>
 <lb n="0691a15"/><list><item>小乘經　二百四十部　六百一十八卷　四
 <lb n="0691a16"/>十八帙</item>
@@ -19987,11 +19990,11 @@ Added comment  for Emacs
 <lb n="0700c17"/><p rend="margin-left:1">興元元年八月一日於正覺寺新寫入藏便
 <lb n="0700c18"/>作此目錄</p>
 <lb n="0700c19"/><p rend="margin-left:1">已上并目一百四卷用紙總一千二百一十
-<lb n="0700c20"/>紙</p></item></list></div3></div2>
-<lb n="0700c21"/><juan fun="close" n="020"><jhead>開元釋教錄卷第二十</jhead></juan></div1>
-<lb n="0700c22"/><div1 type="W">
+<lb n="0700c20"/>紙</p></item></list></div3></div2></div1>
+<lb n="0700c21"/><juan fun="close" n="020"><jhead>開元釋教錄卷第二十</jhead></juan>
+<lb n="0700c22"/>
 <lb n="0700c23"/>
-<lb n="0700c24"/><mulu type="附文" level="1" label="（附文）"/><head>◎<note n="0700001" resp="Taisho" type="orig" place="foot text">以下依明本載之以宋元二本對校，cf. P. 680a [10].</note>開元釋教目錄卷第十九<note place="inline">入藏錄上<note n="0700002" resp="Taisho" type="orig" place="foot text">〔之上〕－【宋】【元】</note><app n="0700002"><lem>之上</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></note></head>
+<lb n="0700c24"/><div1 type="W"><mulu type="附文" level="1" label="（附文）"/>◎<note n="0700001" resp="Taisho" type="orig" place="foot text">以下依明本載之以宋元二本對校，cf. P. 680a [10].</note><head>開元釋教目錄卷第十九<note place="inline">入藏錄上<note n="0700002" resp="Taisho" type="orig" place="foot text">〔之上〕－【宋】【元】</note><app n="0700002"><lem>之上</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></note></head>
 <lb n="0700c25"/>
 <lb n="0700c26"/><byline type="Author"><note n="0700003" resp="Taisho" type="orig" place="foot text">唐＝庚午歲【宋】【元】</note><app n="0700003"><lem>唐</lem><rdg wit="【宋】【元】" resp="Taisho">庚午歲</rdg></app>西崇福寺沙門智昇撰</byline>
 <lb n="0700c27"/><p>合大小乘經律論及聖賢集傳見入藏者。總
@@ -21222,11 +21225,11 @@ Added comment  for Emacs
 <lb n="0714c19"/><p rend="margin-left:1">上十六論十六卷同帙</p>
 <lb n="0714c20"/><p rend="margin-left:1">都計大乘經律論見入藏者總六百三十八
 <lb n="0714c21"/>部合二千七百四十五卷二百五十八帙<note place="inline">與前
-<lb n="0714c22"/>廣錄部數不同者前廣錄中以大寶積經諸部合成分為四十九部上錄此合為一部故欠四十八不同</note></p></item></list></div3>
-<lb n="0714c23"/><juan fun="close" n="019"><jhead>開元釋教<note n="0714010" resp="Taisho" type="orig" place="foot text">〔目〕－【宋】【元】</note><app n="0714010"><lem>目</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>錄卷第十九<note place="inline">入藏錄<note n="0714011" resp="Taisho" type="orig" place="foot text">上之下＝卷上【宋】【元】</note><app n="0714011"><lem>上之下</lem><rdg wit="【宋】【元】" resp="Taisho">卷上</rdg></app></note></jhead></juan></div2>
-<lb n="0714c24"/><div2 type="W">
+<lb n="0714c22"/>廣錄部數不同者前廣錄中以大寶積經諸部合成分為四十九部上錄此合為一部故欠四十八不同</note></p></item></list></div3></div2>
+<lb n="0714c23"/><juan fun="close" n="019"><jhead>開元釋教<note n="0714010" resp="Taisho" type="orig" place="foot text">〔目〕－【宋】【元】</note><app n="0714010"><lem>目</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>錄卷第十九<note place="inline">入藏錄<note n="0714011" resp="Taisho" type="orig" place="foot text">上之下＝卷上【宋】【元】</note><app n="0714011"><lem>上之下</lem><rdg wit="【宋】【元】" resp="Taisho">卷上</rdg></app></note></jhead></juan>
+<lb n="0714c24"/>
 <lb n="0714c25"/>
-<lb n="0714c26"/><head>開元釋教<note n="0714012" resp="Taisho" type="orig" place="foot text">〔目〕－【宋】【元】</note><app n="0714012"><lem>目</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>錄卷第二十<note place="inline">入藏錄下</note></head>
+<lb n="0714c26"/><div2 type="W"><head>開元釋教<note n="0714012" resp="Taisho" type="orig" place="foot text">〔目〕－【宋】【元】</note><app n="0714012"><lem>目</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>錄卷第二十<note place="inline">入藏錄下</note></head>
 <lb n="0714c27"/>
 <lb n="0714c28"/><byline type="Author"><note n="0714013" resp="Taisho" type="orig" place="foot text">唐＝庚午歲【宋】【元】</note><app n="0714013"><lem>唐</lem><rdg wit="【宋】【元】" resp="Taisho">庚午歲</rdg></app>西崇福寺沙門智昇撰</byline>
 <lb n="0714c29"/><mulu type="其他" level="2" label="小乘入藏錄"/><head>小乘入藏錄下<note place="inline">小乘經律總三百三十部一千七百六十二卷一百六十五帙賢聖集傳附此
