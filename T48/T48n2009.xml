@@ -21,7 +21,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/07/16 09:12:57 $</date></edition>
+		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/09/09 03:39:17 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -34,7 +34,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/07/16 09:12:57 $</date>
+		<date>$Date: 2004/09/09 03:39:17 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 48, No. 2009 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T48n2009.xml,v $
+Revision 1.11  2004/09/09 03:39:17  saywhat
+刪除空的 juan close
+
 Revision 1.10  2004/07/16 09:12:57  moved
 modified：執行 margin.pl，加入 em 單位。
 
@@ -119,7 +122,7 @@ Revision 1.12  2001/02/07 07:27:22  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.11  2001/02/03 08:09:12  chris
-Added keywords $Revision: 1.10 $, $Date: 2004/07/16 09:12:57 $ and $Log.
+Added keywords $Revision: 1.11 $, $Date: 2004/09/09 03:39:17 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -130,7 +133,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0365a06"/>
 <lb n="0365a07"/><head type="no">No. 2009</head>
-<lb n="0365a08"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0365003" resp="Taisho" type="orig" place="foot text">【原】德川時代刊宗教大學藏本</note>小室六門</jhead></juan>
+<lb n="0365a08"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0365003" resp="Taisho" type="orig" place="foot text">【原】德川時代刊宗教大學藏本</note><jhead>小室六門</jhead></juan>
 <lb n="0365a09"/>
 <lb n="0365a10"/><div1 type="other"><mulu type="其他" level="1" label="1 心經頌"/><head>第一門心經頌</head>
 <lb n="0365a11"/><p>摩訶般若波羅蜜多心經</p>
@@ -1156,5 +1159,5 @@ Added comment  for Emacs
 <lb n="0376b11"/><l>一華開五葉</l><l>結果自然成</l>
 <lb n="0376b12"/><l>江槎分玉浪</l><l>管炬開金鎖</l>
 <lb n="0376b13"/><l>五口相共行</l><l>九十無彼我</l></lg>
-<lb n="0376b14"/><p>血脈論終</p><juan fun="close" n="001"></juan></div1>
+<lb n="0376b14"/><p>血脈論終</p></div1>
 </body></text></TEI.2>
