@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)</edition>
+		<edition>$Revision: 1.3 $ (Big5)</edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/26 11:41:34 $</date>
+		<date>$Date: 2003/06/23 06:17:19 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 28, No. 1553</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T28n1553.xml,v $
+Revision 1.3  2003/06/23 06:17:19  saywhat
+[＊]校勘插入XML
+
 Revision 1.2  2003/05/26 11:41:34  saywhat
 【宋】【元】【明】＊改成【宋】＊【元】＊【明】＊
 
@@ -97,7 +100,7 @@ Revision 1.6  2001/02/07 07:04:03  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:53:49  chris
-Added keywords $Revision: 1.2 $, $Date: 2003/05/26 11:41:34 $ and $Log.
+Added keywords $Revision: 1.3 $, $Date: 2003/06/23 06:17:19 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -111,7 +114,7 @@ Added comment  for Emacs
 <lb n="0966a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/>阿毘曇甘露味論卷上</juan>
 <lb n="0966a04"/>
 <lb n="0966a05"/><byline type="Author"><note n="0966001" resp="Taisho" type="orig" place="foot text">〔尊者瞿沙造〕－【宮】＊</note><app n="0966001"><lem>尊者瞿沙造</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></byline>
-<lb n="0966a06"/><byline type="Translator"><note n="0966002" resp="Taisho" type="orig" place="foot text">（（曹魏…名））八字＝（（失譯））二字【宮】＊</note><app n="0966002" word-count="8"><lem>曹魏代譯失<note n="0966003" resp="Taisho" type="orig" place="foot text">三藏＝人【明】＊</note><app n="0966003"><lem>三藏</lem><rdg wit="【明】" resp="Taisho">人</rdg></app>名</lem><rdg wit="【宮】" resp="Taisho">失譯</rdg></app></byline>
+<lb n="0966a06"/><byline type="Translator"><note n="0966002" resp="Taisho" type="orig" place="foot text">（（曹魏…名））八字＝（（失譯））二字【宮】＊</note><app n="0966002" word-count="8"><lem>曹魏代譯失<note n="0966003" resp="Taisho" type="orig" place="foot text">三藏＝人【明】＊</note><note n="0966003" resp="CBETA" type="mod"><todo type="＊"/>三藏＝人【明】＊</note><app n="0966003"><lem>三藏</lem><rdg wit="【明】" resp="Taisho">人</rdg></app>名</lem><rdg wit="【宮】" resp="Taisho">失譯</rdg></app></byline>
 <lb n="0966a07"/><mulu type="品" level="1" n="1" label="1 布施持戒品"/><head>布施持戒品第一</head>
 <lb n="0966a08"/><p>云何布施。自持財物施與。為三種故。自為身
 <lb n="0966a09"/>故。為他人故。為彼我故。供養塔寺佛辟支佛
@@ -196,33 +199,33 @@ Added comment  for Emacs
 <lb n="0966c28"/>二月為一歲。四天王壽天上五百歲。當人間
 <lb n="0966c29"/><note n="0966011" resp="Taisho" type="orig" place="foot text">一＝九【三】【宮】</note><note n="0966011" resp="CBETA" type="mod">一＝九【宋】【元】【明】【宮】</note><app n="0966011"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">九</rdg></app>萬歲。是僧<note n="0966012" resp="Taisho" type="orig" place="foot text">時＋（披）【三】【宮】＊</note><note n="0966012" resp="CBETA" type="mod">時＋（披）【宋】【元】【明】【宮】＊</note><app n="0966012"><lem>時</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">時披</rdg></app>泥<note n="0966013" resp="Taisho" type="orig" place="foot text">犁＝黎【宋】【元】【宮】＊</note><app n="0966013"><lem>犁</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">黎</rdg></app>中一日一夜。如是三
 <pb ed="T" id="T28.1553.0967a" n="0967a"/>
-<lb n="0967a01"/>十日為一月。十二月為一歲。僧<anchor id="fxT28p0967a01"/>時泥<anchor id="fxT28p0967a02"/>犁壽五
+<lb n="0967a01"/>十日為一月。十二月為一歲。僧<app type="＊" source="0966012"><lem>時</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">時披</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>壽五
 <lb n="0967a02"/>百歲。復次人中百歲是忉利天一日一夜。如是
 <lb n="0967a03"/>三十日為一月。十二月為一歲。忉利天壽天
-<lb n="0967a04"/>上千歲。當人間三億六萬歲。是黑繩泥<anchor id="fxT28p0967a03"/>犁中
+<lb n="0967a04"/>上千歲。當人間三億六萬歲。是黑繩泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中
 <lb n="0967a05"/>一日一夜。如是三十日為一月。十二月為一
-<lb n="0967a06"/>歲。黑繩泥<anchor id="fxT28p0967a04"/>犁壽千歲。復次人中二百歲是鹽
+<lb n="0967a06"/>歲。黑繩泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>壽千歲。復次人中二百歲是鹽
 <lb n="0967a07"/>天一日一夜。如是三十日為一月。十二月為
 <lb n="0967a08"/>一歲。鹽天壽<note n="0967001" resp="Taisho" type="orig" place="foot text">〔天上〕－【三】【宮】</note><note n="0967001" resp="CBETA" type="mod">〔天上〕－【宋】【元】【明】【宮】</note><app n="0967001"><lem>天上</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>二千歲。當人間數十四億
-<lb n="0967a09"/>四萬歲。是<note n="0967002" resp="Taisho" type="orig" place="foot text">魯臘＝合會【三】【宮】＊</note><note n="0967002" resp="CBETA" type="mod">魯臘＝合會【宋】【元】【明】【宮】＊</note><app n="0967002"><lem>魯臘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">合會</rdg></app>泥<anchor id="fxT28p0967a05"/>犁中一日一夜。如是三
-<lb n="0967a10"/>十日為一月。十二月為一歲。<anchor id="fxT28p0967a06"/>魯臘泥<anchor id="fxT28p0967a07"/>犁壽
+<lb n="0967a09"/>四萬歲。是<note n="0967002" resp="Taisho" type="orig" place="foot text">魯臘＝合會【三】【宮】＊</note><note n="0967002" resp="CBETA" type="mod">魯臘＝合會【宋】【元】【明】【宮】＊</note><app n="0967002"><lem>魯臘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">合會</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中一日一夜。如是三
+<lb n="0967a10"/>十日為一月。十二月為一歲。<app type="＊" source="0967002"><lem>魯臘</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">合會</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>壽
 <lb n="0967a11"/>二千歲。復次人中四百歲是兜術天一日一
 <lb n="0967a12"/>夜。如是三十日為一月。十二月為一歲。兜術
 <lb n="0967a13"/>天上壽四千歲。當人間數五十七億六萬歲。
-<lb n="0967a14"/>是<note n="0967003" resp="Taisho" type="orig" place="foot text">〔摩呵〕－【三】【宮】＊</note><note n="0967003" resp="CBETA" type="mod">〔摩呵〕－【宋】【元】【明】【宮】＊</note><app n="0967003"><lem>摩呵</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>魯臘泥<anchor id="fxT28p0967a08"/>犁中一日一夜。如是三十日
-<lb n="0967a15"/>為一月。十二月為一歲。<anchor id="fxT28p0967a09"/>摩呵魯臘泥<anchor id="fxT28p0967a10"/>犁壽
+<lb n="0967a14"/>是<note n="0967003" resp="Taisho" type="orig" place="foot text">〔摩呵〕－【三】【宮】＊</note><note n="0967003" resp="CBETA" type="mod">〔摩呵〕－【宋】【元】【明】【宮】＊</note><app n="0967003"><lem>摩呵</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>魯臘泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中一日一夜。如是三十日
+<lb n="0967a15"/>為一月。十二月為一歲。<app type="＊" source="0967003"><lem>摩呵</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>魯臘泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>壽
 <lb n="0967a16"/>四千歲。復次人中八百歲是化應聲天一日一
 <lb n="0967a17"/>夜。如是三十日為一月。十二月為一歲。化應
 <lb n="0967a18"/>聲天上壽八千歲。當人間數二百三十億四
-<lb n="0967a19"/>萬歲是<note n="0967004" resp="Taisho" type="orig" place="foot text">多般＝摩訶魯臘【三】【宮】＊</note><note n="0967004" resp="CBETA" type="mod">多般＝摩訶魯臘【宋】【元】【明】【宮】＊</note><app n="0967004"><lem>多般</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">摩訶魯臘</rdg></app>泥<anchor id="fxT28p0967a11"/>犁中一日一夜。如是三十
-<lb n="0967a20"/>日為一月。十二月為一歲。<anchor id="fxT28p0967a12"/>多般泥<anchor id="fxT28p0967a13"/>犁中壽
+<lb n="0967a19"/>萬歲是<note n="0967004" resp="Taisho" type="orig" place="foot text">多般＝摩訶魯臘【三】【宮】＊</note><note n="0967004" resp="CBETA" type="mod">多般＝摩訶魯臘【宋】【元】【明】【宮】＊</note><app n="0967004"><lem>多般</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">摩訶魯臘</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中一日一夜。如是三十
+<lb n="0967a20"/>日為一月。十二月為一歲。<app type="＊" source="0967004"><lem>多般</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">摩訶魯臘</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中壽
 <lb n="0967a21"/>八千歲。復次人中千六百歲是他化自在天
 <lb n="0967a22"/>一日一夜。如是三十日為一月。十二月為一
 <lb n="0967a23"/>歲。他化自在天上壽萬六千歲。當人間數九
-<lb n="0967a24"/>百二十一億六萬歲。是般<note n="0967005" resp="Taisho" type="orig" place="foot text">多槃＝那【三】【宮】＊</note><note n="0967005" resp="CBETA" type="mod">多槃＝那【宋】【元】【明】【宮】＊</note><app n="0967005"><lem>多槃</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">那</rdg></app>泥<anchor id="fxT28p0967a14"/>犁中一
+<lb n="0967a24"/>百二十一億六萬歲。是般<note n="0967005" resp="Taisho" type="orig" place="foot text">多槃＝那【三】【宮】＊</note><note n="0967005" resp="CBETA" type="mod">多槃＝那【宋】【元】【明】【宮】＊</note><app n="0967005"><lem>多槃</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">那</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中一
 <lb n="0967a25"/>日一夜。如是三十日為一月。十二月為一歲。
-<lb n="0967a26"/>般<anchor id="fxT28p0967a15"/>多槃泥<anchor id="fxT28p0967a16"/>犁中壽萬六千<note n="0967006" resp="Taisho" type="orig" place="foot text">歲＋（波多般泥黎）【宋】【元】【宮】，（波多般泥犁）【明】</note><app n="0967006"><lem>歲</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">歲波多般泥黎</rdg><rdg wit="【明】" resp="Taisho">歲波多般泥犁</rdg></app><note n="0967007" resp="Taisho" type="orig" place="foot text">僧渴＝增【三】【宮】</note><note n="0967007" resp="CBETA" type="mod">僧渴＝增【宋】【元】【明】【宮】</note><app n="0967007"><lem>僧渴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">增</rdg></app>半劫
-<lb n="0967a27"/>壽。阿鼻泥<anchor id="fxT28p0967a17"/>犁壽一劫。畜生中壽有彈指頃。
+<lb n="0967a26"/>般<app type="＊" source="0967005"><lem>多槃</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">那</rdg></app>泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>中壽萬六千<note n="0967006" resp="Taisho" type="orig" place="foot text">歲＋（波多般泥黎）【宋】【元】【宮】，（波多般泥犁）【明】</note><app n="0967006"><lem>歲</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">歲波多般泥黎</rdg><rdg wit="【明】" resp="Taisho">歲波多般泥犁</rdg></app><note n="0967007" resp="Taisho" type="orig" place="foot text">僧渴＝增【三】【宮】</note><note n="0967007" resp="CBETA" type="mod">僧渴＝增【宋】【元】【明】【宮】</note><app n="0967007"><lem>僧渴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">增</rdg></app>半劫
+<lb n="0967a27"/>壽。阿鼻泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>壽一劫。畜生中壽有彈指頃。
 <lb n="0967a28"/>半日一日一月一歲十歲一百千萬億歲乃至
 <lb n="0967a29"/>一劫壽。餓鬼中壽乃至七萬歲。人中閻浮提
 <pb ed="T" id="T28.1553.0967b" n="0967b"/>
@@ -242,7 +245,7 @@ Added comment  for Emacs
 <lb n="0967b14"/>二萬劫。識處壽四萬劫。不用處壽六萬劫。有
 <lb n="0967b15"/>想無想處壽八萬劫。是謂無色界壽。如是三
 <lb n="0967b16"/>界眾生壽</p></div1>
-<lb n="0967b17"/><div1 type="pin"><mulu type="品" level="1" n="3" label="3 住食生品"/><head><anchor id="fxT28p0967b01"/><title>阿毘曇甘露味</title>住食生品第三</head>
+<lb n="0967b17"/><div1 type="pin"><mulu type="品" level="1" n="3" label="3 住食生品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>住食生品第三</head>
 <lb n="0967b18"/><p>有四識住。云何四。色<note n="0967010" resp="Taisho" type="orig" place="foot text">痛想＝想痛【三】【宮】</note><note n="0967010" resp="CBETA" type="mod">痛想＝想痛【宋】【元】【明】【宮】</note><app n="0967010"><lem>痛想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">想痛</rdg></app>行。欲界色界中識
 <lb n="0967b19"/>多緣色住。空處識處識多緣痛住。不用處識
 <lb n="0967b20"/>多緣想住。有想無<note n="0967011" resp="Taisho" type="orig" place="foot text">想＋（處）【三】【宮】</note><note n="0967011" resp="CBETA" type="mod">想＋（處）【宋】【元】【明】【宮】</note><app n="0967011"><lem>想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">想處</rdg></app>識。多緣行住。有四種食
@@ -258,7 +261,7 @@ Added comment  for Emacs
 <pb ed="T" id="T28.1553.0967c" n="0967c"/>
 <lb n="0967c01"/>界中。餘三食多色無色界中。揣食第一&CB00308;。樂
 <lb n="0967c02"/>食細。意思食次細。識食最細。四種生卵生胎
-<lb n="0967c03"/>生濕生化生。泥<anchor id="fxT28p0967c01"/>犁天中陰一切化生。鬼神二
+<lb n="0967c03"/>生濕生化生。泥<app type="＊" source="0966013"><lem>犁</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">黎</rdg></app>天中陰一切化生。鬼神二
 <lb n="0967c04"/>種生。胎生及化生。餘眾生四種生。化中<note n="0967013" resp="Taisho" type="orig" place="foot text">〔眾〕－【宮】</note><app n="0967013"><lem>眾</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>
 <lb n="0967c05"/>生一時得六情根。餘殘生最初得身根命根。
 <lb n="0967c06"/>諸餘根次第得。四有。生有死有本有中有。死
@@ -266,7 +269,7 @@ Added comment  for Emacs
 <lb n="0967c08"/>作字。如父子相似。除無色界餘一切受中陰。
 <lb n="0967c09"/>無色界終生欲色界受中陰。譬如中阿那含
 <lb n="0967c10"/>有中陰。餘生中有生有亦如是</p></div1>
-<lb n="0967c11"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 業品"/><head><anchor id="fxT28p0967c02"/><title>阿毘曇甘露味</title>業品第四</head>
+<lb n="0967c11"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 業品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>業品第四</head>
 <lb n="0967c12"/><p>雜心中緣雜垢起雜行。雜行中雜受報。云何
 <lb n="0967c13"/>雜行。有三種行。身行口行意行。善行不善行
 <lb n="0967c14"/>無記行。學行無學行非學非無學行。見諦斷
@@ -304,7 +307,7 @@ Added comment  for Emacs
 <lb n="0968a16"/>善不善心<note n="0968007" resp="Taisho" type="orig" place="foot text">不＝中【三】【宮】</note><note n="0968007" resp="CBETA" type="mod">不＝中【宋】【元】【明】【宮】</note><app n="0968007"><lem>不</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">中</rdg></app>生無記心不生無教色。所以者
 <lb n="0968a17"/>何。無記心力劣故。無記有二種。有隱沒不隱
 <lb n="0968a18"/>沒。結使所覆是隱沒。不覆是不隱沒。云何隱
-<lb n="0968a19"/>沒無記法。欲界中身<note n="0968008" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】＊</note><note n="0968008" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】＊</note><app n="0968008"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app>邊<anchor id="fxT28p0968a01"/>耶。及彼相應無
+<lb n="0968a19"/>沒無記法。欲界中身<note n="0968008" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】＊</note><note n="0968008" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】＊</note><app n="0968008"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app>邊<app type="＊" source="0968008"><lem>耶</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">邪</rdg></app>。及彼相應無
 <lb n="0968a20"/>明共有法。色無色界一切結使。及色界身口
 <lb n="0968a21"/>行。是謂隱沒無記法。云何不隱沒無記法。坐
 <lb n="0968a22"/>臥立行<note n="0968009" resp="Taisho" type="orig" place="foot text">伎＝技【三】【宮】</note><note n="0968009" resp="CBETA" type="mod">伎＝技【宋】【元】【明】【宮】</note><app n="0968009"><lem>伎</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">技</rdg></app>巧報法變化心虛空非智緣盡。是
@@ -366,7 +369,7 @@ Added comment  for Emacs
 <lb n="0968c18"/>地。即彼地四大造若生無色界。如是本得無
 <lb n="0968c19"/>漏身口業。即彼地四大造。三種命終。有命盡
 <lb n="0968c20"/>福不盡。有福盡命不盡。有福盡命盡也</p></div1>
-<lb n="0968c21"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 陰持入品"/><head><anchor id="fxT28p0968c01"/><title>阿毘曇甘露味</title>陰持入品第五</head>
+<lb n="0968c21"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 陰持入品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>陰持入品第五</head>
 <lb n="0968c22"/><p>諸有漏法四事離。云何四。無常無我無樂無
 <lb n="0968c23"/>淨煩惱諸漏。何以故。趣一切生處。心漏連注
 <lb n="0968c24"/><note n="0968012" resp="Taisho" type="orig" place="foot text">隨＝墮【三】【宮】</note><note n="0968012" resp="CBETA" type="mod">隨＝墮【宋】【元】【明】【宮】</note><app n="0968012"><lem>隨</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">墮</rdg></app>世界故。是謂有漏。三界有百八煩惱。九
@@ -469,7 +472,7 @@ Added comment  for Emacs
 <lb n="0970a01"/>分別。或有為或無為。云何有為。法持攝身口
 <lb n="0970a02"/>業痛想行陰是謂有為。智緣盡非智緣盡虛
 <lb n="0970a03"/>空。是謂無為</p></div1>
-<lb n="0970a04"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 行品"/><head><anchor id="fxT28p0970a01"/><title>阿毘曇甘露味</title>行品第六</head>
+<lb n="0970a04"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 行品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>行品第六</head>
 <lb n="0970a05"/><p>一切有為法無勢力起。因他力共生。是諸法
 <lb n="0970a06"/>有四相起住老無常。問若有四相。是應更復
 <lb n="0970a07"/>有相。答更有四相。彼相中餘四相俱生。生為
@@ -549,7 +552,7 @@ Added comment  for Emacs
 <lb n="0970c21"/>所以者何。有三不善根。一切結使煩惱。此三
 <lb n="0970c22"/>毒。生能斷三善根。能惱亂三界眾生。是故三
 <lb n="0970c23"/>毒所攝</p></div1>
-<lb n="0970c24"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 因緣種品"/><head><anchor id="fxT28p0970c01"/><title>阿毘曇甘露味</title>因緣種品第七</head>
+<lb n="0970c24"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 因緣種品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>因緣種品第七</head>
 <lb n="0970c25"/><p>十二因緣者。無明行識名色六入更樂痛愛
 <lb n="0970c26"/>受有生老死。是十二因緣有三種。一煩惱二
 <lb n="0970c27"/>業三苦。三種煩惱無明愛受。二種業行及有。
@@ -607,7 +610,7 @@ Added comment  for Emacs
 <lb n="0971b19"/>六種。堅高地。水潤<note n="0971004" resp="Taisho" type="orig" place="foot text">合＝洽【三】【宮】</note><note n="0971004" resp="CBETA" type="mod">合＝洽【宋】【元】【明】【宮】</note><app n="0971004"><lem>合</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">洽</rdg></app>。火煮除爛臭。風動坐
 <lb n="0971b20"/>起動作。生長因空。<note n="0971005" resp="Taisho" type="orig" place="foot text">餘＝飲【三】【宮】</note><note n="0971005" resp="CBETA" type="mod">餘＝飲【宋】【元】【明】【宮】</note><app n="0971005"><lem>餘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">飲</rdg></app>食消化風持去。識力
 <lb n="0971b21"/>有命。是謂人</p></div1>
-<lb n="0971b22"/><div1 type="pin"><mulu type="品" level="1" n="8" label="8 淨根品"/><head><anchor id="fxT28p0971b01"/><title>阿毘曇甘露味</title>淨根品第八</head>
+<lb n="0971b22"/><div1 type="pin"><mulu type="品" level="1" n="8" label="8 淨根品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>淨根品第八</head>
 <lb n="0971b23"/><p>婬怒癡心相應。是謂煩惱。是謂結縛。欲除是
 <lb n="0971b24"/>三種者。一制二除三智斷。云何制。若未得無
 <lb n="0971b25"/>漏心。持戒思惟&CB00230;婬怒癡心不受是謂制。云
@@ -653,7 +656,7 @@ Added comment  for Emacs
 <lb n="0972a05"/>樂喜護根憂根。或見諦斷或思惟斷。信等五
 <lb n="0972a06"/>根或思惟斷或不斷。三無漏根不斷。餘殘根
 <lb n="0972a07"/>思惟斷</p></div1>
-<lb n="0972a08"/><div1 type="pin"><mulu type="品" level="1" n="9" label="9 結使禪智品"/><head><anchor id="fxT28p0972a01"/><title>阿毘曇甘露味</title>結使禪智品第九</head>
+<lb n="0972a08"/><div1 type="pin"><mulu type="品" level="1" n="9" label="9 結使禪智品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>結使禪智品第九</head>
 <lb n="0972a09"/><p>九十八使二種斷。見諦斷思惟斷。二十八見
 <lb n="0972a10"/>苦斷。十九見習斷。十九見盡斷。二十二見道
 <lb n="0972a11"/>斷。十思惟斷。欲界繫見苦斷十使見習斷。七
@@ -683,7 +686,7 @@ Added comment  for Emacs
 <lb n="0972b04"/>如是。無色界一切遍使自界一切遍。餘殘一
 <lb n="0972b05"/>切遍使自界一切遍亦緣他界。無明一切使
 <lb n="0972b06"/>相應因。及不共無明。三界盡諦道諦所斷。邪
-<lb n="0972b07"/><anchor id="fxT28p0972b01"/>邪疑無明。是十八使無漏緣。餘有漏緣。諸
+<lb n="0972b07"/><app type="＊" source="0972004"><lem>邪</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">見</rdg></app>疑無明。是十八使無漏緣。餘有漏緣。諸
 <lb n="0972b08"/>有漏緣使及彼。相應無明有漏緣。餘殘無明
 <lb n="0972b09"/>無漏緣。一切三界結使護根相應。梵天光<note n="0972005" resp="Taisho" type="orig" place="foot text">耀＝曜【三】【宮】</note><note n="0972005" resp="CBETA" type="mod">耀＝曜【宋】【元】【明】【宮】</note><app n="0972005"><lem>耀</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">曜</rdg></app>
 <lb n="0972b10"/>天中諸使護根相應及喜根。遍淨天諸使護
@@ -727,7 +730,7 @@ Added comment  for Emacs
 <lb n="0972c18"/>柔軟。常護不受諸心。是故時時勤精進。時時
 <lb n="0972c19"/>一心定。時時護。如是心和調。一切結使中得
 <lb n="0972c20"/>解脫</p></div1>
-<lb n="0972c21"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 三十七無漏人品"/><head><anchor id="fxT28p0972c01"/><title>阿毘曇甘露味</title>三十七無漏人品第十</head>
+<lb n="0972c21"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 三十七無漏人品"/><head><app type="＊" source="0966006"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>三十七無漏人品第十</head>
 <lb n="0972c22"/><p>坐禪法先繫心一處。若頂上若額端若眉間
 <lb n="0972c23"/>若鼻頭若心中。令心一處住。若念走攝來還
 <lb n="0972c24"/>著<note n="0972009" resp="Taisho" type="orig" place="foot text">處＝一【三】【宮】</note><note n="0972009" resp="CBETA" type="mod">處＝一【宋】【元】【明】【宮】</note><app n="0972009"><lem>處</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">一</rdg></app>處。是心者譬如獼猴。繫頸著柱繞柱走
@@ -745,10 +748,10 @@ Added comment  for Emacs
 <lb n="0973a06"/>患閉故盡。除一切結使火故<note n="0973003" resp="Taisho" type="orig" place="foot text">止＝上【元】【明】</note><app n="0973003"><lem>止</lem><rdg wit="【元】【明】" resp="Taisho">上</rdg></app>。勝一切法故
 <lb n="0973a07"/>妙。出三界故度。四行觀道諦。能到涅槃故道。
 <lb n="0973a08"/>非顛倒故應。聖人所行故住。能離世間惱故
-<lb n="0973a09"/>出。觀十六行善法常勤精進。是謂<anchor id="fxT28p0973a01"/>煖法。從
-<lb n="0973a10"/>是<anchor id="fxT28p0973a02"/>煖善根增<note n="0973004" resp="Taisho" type="orig" place="foot text">〔勝〕－【三】【宮】</note><note n="0973004" resp="CBETA" type="mod">〔勝〕－【宋】【元】【明】【宮】</note><app n="0973004"><lem>勝</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>長。是謂頂善根。信三寶。若
+<lb n="0973a09"/>出。觀十六行善法常勤精進。是謂<app type="＊" source="0972013"><lem>煖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暖</rdg></app>法。從
+<lb n="0973a10"/>是<app type="＊" source="0972013"><lem>煖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暖</rdg></app>善根增<note n="0973004" resp="Taisho" type="orig" place="foot text">〔勝〕－【三】【宮】</note><note n="0973004" resp="CBETA" type="mod">〔勝〕－【宋】【元】【明】【宮】</note><app n="0973004"><lem>勝</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>長。是謂頂善根。信三寶。若
 <lb n="0973a11"/>信<note n="0973005" resp="Taisho" type="orig" place="foot text">五＋（受）【三】【宮】</note><note n="0973005" resp="CBETA" type="mod">五＋（受）【宋】【元】【明】【宮】</note><app n="0973005"><lem>五</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">五受</rdg></app>陰無常若苦空非我。如是緣四諦十六
-<lb n="0973a12"/>行。勝<anchor id="fxT28p0973a03"/>煖法故說頂已增上。頂隨諦忍名忍善
+<lb n="0973a12"/>行。勝<app type="＊" source="0972013"><lem>煖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暖</rdg></app>法故說頂已增上。頂隨諦忍名忍善
 <lb n="0973a13"/>根。是有三種上中下。緣四諦觀。觀十六行。順
 <lb n="0973a14"/>諦增上善根。是名世間第一法。一心時心心
 <lb n="0973a15"/>數法。是謂世間第一善根。有言信等五根是
@@ -756,7 +759,7 @@ Added comment  for Emacs
 <lb n="0973a17"/>間第一善根。能開涅槃門。是凡夫法中第一
 <lb n="0973a18"/>緣。觀一諦四行。無常苦空非我。何以故。第一
 <lb n="0973a19"/>無漏心緣苦諦。世間第一法亦如是。六禪地
-<lb n="0973a20"/>未到禪中間禪四禪。是忍頂<anchor id="fxT28p0973a04"/>煖善根。六地中
+<lb n="0973a20"/>未到禪中間禪四禪。是忍頂<app type="＊" source="0972013"><lem>煖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暖</rdg></app>善根。六地中
 <lb n="0973a21"/>有世間第一法。次第起無漏人。是名苦法忍。
 <lb n="0973a22"/>未曾見<note n="0973006" resp="Taisho" type="orig" place="foot text">始＝婬【三】【宮】</note><note n="0973006" resp="CBETA" type="mod">始＝婬【宋】【元】【明】【宮】</note><app n="0973006"><lem>始</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">婬</rdg></app>見能忍故說忍。是初忍無礙道。次
 <lb n="0973a23"/>第苦法智生。實知苦相。苦法智解脫道。是二
@@ -811,7 +814,7 @@ Added comment  for Emacs
 <lb n="0973c12"/>脫。隨信行五種阿羅漢名時解脫。是諸阿羅
 <lb n="0973c13"/>漢二智滅智無學<note n="0973014" resp="Taisho" type="orig" place="foot text">直＝真【三】【宮】＊</note><note n="0973014" resp="CBETA" type="mod">直＝真【宋】【元】【明】【宮】＊</note><app n="0973014"><lem>直</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">真</rdg></app>見。隨法行一種阿羅漢
 <lb n="0973c14"/>利根是名不時解脫。是阿羅漢三智滅智無
-<lb n="0973c15"/>生智無學<anchor id="fxT28p0973c01"/>直見。八阿羅漢愛時解脫成就不
+<lb n="0973c15"/>生智無學<app type="＊" source="0973014"><lem>直</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">真</rdg></app>見。八阿羅漢愛時解脫成就不
 <lb n="0973c16"/>動法。成就隨信行見諦道十五心中無漏九
 <lb n="0973c17"/>根。是名未知根。十六心得果。是無漏九根。
 <lb n="0973c18"/>是名已知根。是九根俱無學法。是名大知根。
@@ -976,15 +979,15 @@ Added comment  for Emacs
 <lb n="0975b28"/>無欲想。憶念五受陰更不生盡止妙離涅槃。
 <lb n="0975b29"/>是謂盡想。是十想常憶念得盡苦際</p></div1>
 <pb ed="T" id="T28.1553.0975c" n="0975c"/>
-<lb n="0975c01"/><div1 type="pin"><mulu type="品" level="1" n="13" label="13 雜定品"/><head><anchor id="fxT28p0975c01"/><title>阿毘曇甘露味</title>雜定品第十三</head>
+<lb n="0975c01"/><div1 type="pin"><mulu type="品" level="1" n="13" label="13 雜定品"/><head><app type="＊" source="0974008"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>雜定品第十三</head>
 <lb n="0975c02"/><p>三昧等通一切<note n="0975009" resp="Taisho" type="orig" place="foot text">入＝人【宮】</note><app n="0975009"><lem>入</lem><rdg wit="【宮】" resp="Taisho">人</rdg></app>。陰<note n="0975010" resp="Taisho" type="orig" place="foot text">入＝人【明】</note><app n="0975010"><lem>入</lem><rdg wit="【明】" resp="Taisho">人</rdg></app>智解脫禪。三三昧
 <lb n="0975c03"/>空三昧無願三昧無<note n="0975011" resp="Taisho" type="orig" place="foot text">想＝相【三】【宮】＊</note><note n="0975011" resp="CBETA" type="mod">想＝相【宋】【元】【明】【宮】＊</note><app n="0975011"><lem>想</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">相</rdg></app>三昧。心繫緣無漏故
 <lb n="0975c04"/>是謂三昧。一心觀五受陰空無我非我。是謂
 <lb n="0975c05"/>空三昧。入是三昧不願婬怒癡更有生。是謂
-<lb n="0975c06"/>無願三昧。是三昧緣離十<anchor id="fxT28p0975c02"/>想法。云何十<anchor id="fxT28p0975c03"/>想。
-<lb n="0975c07"/>色等五塵。男女生老無常。是謂無<anchor id="fxT28p0975c04"/>想三昧。
+<lb n="0975c06"/>無願三昧。是三昧緣離十<app type="＊" source="0975011"><lem>想</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">相</rdg></app>法。云何十<app type="＊" source="0975011"><lem>想</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">相</rdg></app>。
+<lb n="0975c07"/>色等五塵。男女生老無常。是謂無<app type="＊" source="0975011"><lem>想</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">相</rdg></app>三昧。
 <lb n="0975c08"/>空三昧二行。空行無我行。無願三昧十行。無
-<lb n="0975c09"/>常苦行亦習道行。無<anchor id="fxT28p0975c05"/>想三昧盡四行。四等
+<lb n="0975c09"/>常苦行亦習道行。無<app type="＊" source="0975011"><lem>想</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">相</rdg></app>三昧盡四行。四等
 <lb n="0975c10"/>慈悲喜護。自得快樂事念與一切眾生。是有
 <lb n="0975c11"/>三種心。先所親眷屬。次及中人後怨家賊。一
 <lb n="0975c12"/>心思惟。一切三界眾生身及怨家等無異。除
@@ -1059,7 +1062,7 @@ Added comment  for Emacs
 <lb n="0976b21"/>就。求得五通四等下地結垢不成就。世俗道
 <lb n="0976b22"/>依未到禪地離下地欲。如是一切地無漏道
 <lb n="0976b23"/>依根本禪地。自地亦上地離欲。如是一切地。
-<lb n="0976b24"/>是故凡夫有頂中不能離欲。<anchor id="fxT28p0976b01"/>煖法頂法忍法
+<lb n="0976b24"/>是故凡夫有頂中不能離欲。<app type="＊" source="0974002"><lem>煖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暖</rdg></app>法頂法忍法
 <lb n="0976b25"/>世間第一法離欲。人修有漏禪定<note n="0976002" resp="Taisho" type="orig" place="foot text">二＝三【宮】</note><app n="0976002"><lem>二</lem><rdg wit="【宮】" resp="Taisho">三</rdg></app>時。現在
 <lb n="0976b26"/>未來。見諦道中苦習盡。未知智中現在前修
 <lb n="0976b27"/>無漏智。未來二種有漏無漏智。餘殘心中現
@@ -1117,7 +1120,7 @@ Added comment  for Emacs
 <lb n="0977a19"/>界一。何等禪成就。是果下地變化心。成就三
 <lb n="0977a20"/>禪地住。梵天識現在前能見聞。爾時成就。即
 <lb n="0977a21"/>滅爾時不成就</p></div1>
-<lb n="0977a22"/><div1 type="pin"><mulu type="品" level="1" n="14" label="14 三十七品"/><head><anchor id="fxT28p0977a01"/><title>阿毘曇甘露味</title>三十七品第十四</head>
+<lb n="0977a22"/><div1 type="pin"><mulu type="品" level="1" n="14" label="14 三十七品"/><head><app type="＊" source="0974008"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>三十七品第十四</head>
 <lb n="0977a23"/><p>意止意斷神足根力覺道。是七法到涅槃。是
 <lb n="0977a24"/>中七覺無漏。六當分別或有漏或無漏。有言。
 <lb n="0977a25"/>七覺意八直道一切無漏。餘殘當分別。四意
@@ -1182,7 +1185,7 @@ Added comment  for Emacs
 <lb n="0977c24"/>三空定三十二除喜覺直思直語直業直命。
 <lb n="0977c25"/>有頂中二十二除七覺八道。欲界亦二十二
 <lb n="0977c26"/>除七覺八道</p></div1>
-<lb n="0977c27"/><div1 type="pin"><mulu type="品" level="1" n="15" label="15 四諦品"/><head><anchor id="fxT28p0977c01"/><title>阿毘曇甘露味</title>四諦品第十五</head>
+<lb n="0977c27"/><div1 type="pin"><mulu type="品" level="1" n="15" label="15 四諦品"/><head><app type="＊" source="0974008"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>四諦品第十五</head>
 <lb n="0977c28"/><p>四諦苦諦習盡道諦。云何苦諦。一種惱相為
 <lb n="0977c29"/>苦。二種身苦心苦。三種苦苦別離苦行無常
 <pb ed="T" id="T28.1553.0978a" n="0978a"/>
@@ -1283,7 +1286,7 @@ Added comment  for Emacs
 <lb n="0979a05"/>惡道。或有惡人生好道。先世大力因緣餘報
 <lb n="0979a06"/>未盡。若死時最後心善不善。是故善墮惡道。
 <lb n="0979a07"/>不善人生好道</p></div1>
-<lb n="0979a08"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 雜品"/><head><anchor id="fxT28p0979a01"/><title>阿毘曇甘露味</title>雜品第十六</head>
+<lb n="0979a08"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 雜品"/><head><app type="＊" source="0974008"><lem><title>阿毘曇甘露味</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>雜品第十六</head>
 <lb n="0979a09"/><p>四沙門果六法五陰智緣盡。是謂分別四果。
 <lb n="0979a10"/>阿羅漢果九地所攝。除有頂中。第三果六地
 <lb n="0979a11"/>所攝。除四無色。以無法智故。須陀洹斯陀含
@@ -1299,7 +1302,7 @@ Added comment  for Emacs
 <lb n="0979a21"/>遙看。謂是人。是見盜。非因見因非道見道是
 <lb n="0979a22"/>戒盜。身見苦諦斷。五陰中計我故。常想斷想。
 <lb n="0979a23"/>苦諦斷緣現在五陰故邪見。若<note n="0979002" resp="Taisho" type="orig" place="foot text">諦＝謗【三】＊【宮】</note><note n="0979002" resp="CBETA" type="mod">諦＝謗【宋】＊【元】＊【明】＊【宮】</note><app n="0979002"><lem>諦</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">謗</rdg></app>苦見苦斷。
-<lb n="0979a24"/>如是<anchor id="fxT28p0979a02"/>諦習盡道見習盡道斷見盜。若苦諦中
+<lb n="0979a24"/>如是<app type="＊" source="0979002"><lem>諦</lem><rdg resp="Taisho" wit="【宋】【元】【明】">謗</rdg></app>習盡道見習盡道斷見盜。若苦諦中
 <lb n="0979a25"/>計有樂淨等見苦斷。如是習盡道中計有樂淨
 <lb n="0979a26"/>等見習盡道斷。戒盜非道求涅槃。及非因見
 <lb n="0979a27"/>因是戒盜。見苦見道斷。六修得修行修斷修
@@ -1415,4 +1418,4 @@ Added comment  for Emacs
 <lb n="0980b17"/>一切苦盡。得一切智甘露味。得道聖人名瞿
 <lb n="0980b18"/>沙造</p>
 <lb n="0980b19"/><juan fun="close" n="002">阿毘曇甘露味論卷下</juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

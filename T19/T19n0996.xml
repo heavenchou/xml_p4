@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:16 $</date>
+		<date>$Date: 2003/06/23 06:14:03 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 996 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T19n0996.xml,v $
-Revision 1.1  2003/05/05 04:09:16  ray
-Initial revision
+Revision 1.2  2003/06/23 06:14:03  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:16  ray
+recover cvs
 
 Revision 1.16  2002/11/27 11:26:29  saywhat
 校勘插入處理
@@ -100,7 +103,7 @@ Revision 1.5  2001/02/07 06:54:58  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:44:55  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:16 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:14:03 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -152,7 +155,7 @@ Added comment  for Emacs
 <lb n="0522b13"/>切魔怨菩薩。是故此菩薩手<note n="0522013" resp="Taisho" type="orig" place="foot text">持＝執【明】</note><app n="0522013"><lem>持</lem><rdg wit="【明】" resp="Taisho">執</rdg></app>金剛鈴</p>
 <lb n="0522b14"/><p>金剛<note n="0522014" resp="Taisho" type="orig" place="foot text">（般若）＋波【明】</note><app n="0522014"><lem>波</lem><rdg wit="【明】" resp="Taisho">般若波</rdg></app>羅蜜多菩薩者。金剛義如前釋。波羅
 <lb n="0522b15"/>蜜多如先輩所釋。到彼岸義。今依聲明論分
-<lb n="0522b16"/>句釋。波藍伊<note place="inline"><note n="0522015" resp="Taisho" type="orig" place="foot text">上＋（聲）【明】【乙】＊</note><app n="0522015"><lem>上</lem><rdg wit="【明】【乙】" resp="Taisho">上聲</rdg></app></note>多。波藍彼岸義。伊<anchor id="fxT19p0522b01"/><note place="inline">上</note>多此
+<lb n="0522b16"/>句釋。波藍伊<note place="inline"><note n="0522015" resp="Taisho" type="orig" place="foot text">上＋（聲）【明】【乙】＊</note><app n="0522015"><lem>上</lem><rdg wit="【明】【乙】" resp="Taisho">上聲</rdg></app></note>多。波藍彼岸義。伊<note place="inline"><app type="＊" source="0522015"><lem>上</lem><rdg resp="Taisho" wit="【明】【乙】">上聲</rdg></app></note>多此
 <lb n="0522b17"/>岸義。此菩薩由持金剛輪。毘盧遮那佛於上
 <lb n="0522b18"/>界成佛已。此菩薩請如來轉金剛乘法輪。由
 <lb n="0522b19"/>乘此法輪般若船。從此岸運載無量無邊有
@@ -169,19 +172,19 @@ Added comment  for Emacs
 <pb ed="T" id="T19.0996.0522c" n="0522c"/>
 <lb n="0522c01"/>并聲聞僧眾。常居彼天現法樂住。梵天等悉
 <lb n="0522c02"/>皆貴重</p>
-<lb n="0522c03"/><p>娜<anchor id="fxT19p0522c01"/>莫阿哩夜吠<note n="0522019" resp="Taisho" type="orig" place="foot text">&CB00080;＝路【明】【乙】＊</note><app n="0522019"><lem>&CB00080;</lem><rdg wit="【明】【乙】" resp="Taisho">路</rdg></app>者娜野怛他<note n="0522020" resp="Taisho" type="orig" place="foot text">&CB00753;＝&CB00344;【明】【乙】＊</note><note n="0522020" resp="CBETA" type="mod"><corr sic="＆CB00753；" resp="CBETA.Maha">孽</corr>＝&CB00344;【明】【乙】＊</note><app n="0522020"><lem>孽</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00344;</rdg></app>多夜囉
-<lb n="0522c04"/>訶<note n="0522021" resp="Taisho" type="orig" place="foot text">諦＝帝【明】【乙】＊</note><app n="0522021"><lem>諦</lem><rdg wit="【明】【乙】" resp="Taisho">帝</rdg></app>三藐三沒馱野。娜<anchor id="fxT19p0522c02"/>莫者歸命義。亦云
+<lb n="0522c03"/><p>娜<app type="＊" source="0522016"><lem>莫</lem><rdg resp="Taisho" wit="【明】">謨</rdg></app>阿哩夜吠<note n="0522019" resp="Taisho" type="orig" place="foot text">&CB00080;＝路【明】【乙】＊</note><app n="0522019"><lem>&CB00080;</lem><rdg wit="【明】【乙】" resp="Taisho">路</rdg></app>者娜野怛他<note n="0522020" resp="Taisho" type="orig" place="foot text">&CB00753;＝&CB00344;【明】【乙】＊</note><note n="0522020" resp="CBETA" type="mod"><todo type="＊"/><corr sic="＆CB00753；" resp="CBETA.Maha">孽</corr>＝&CB00344;【明】【乙】＊</note><app n="0522020"><lem>孽</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00344;</rdg></app>多夜囉
+<lb n="0522c04"/>訶<note n="0522021" resp="Taisho" type="orig" place="foot text">諦＝帝【明】【乙】＊</note><app n="0522021"><lem>諦</lem><rdg wit="【明】【乙】" resp="Taisho">帝</rdg></app>三藐三沒馱野。娜<app type="＊" source="0522016"><lem>莫</lem><rdg resp="Taisho" wit="【明】">謨</rdg></app>者歸命義。亦云
 <lb n="0522c05"/>稽首亦云頂禮。阿哩夜遠惡義。此方會釋云
-<lb n="0522c06"/>聖者。吠<anchor id="fxT19p0522c03"/>&CB00080;者娜野。遍照義亦云大日。義如
+<lb n="0522c06"/>聖者。吠<app type="＊" source="0522019"><lem>&CB00080;</lem><rdg resp="Taisho" wit="【明】【乙】">路</rdg></app>者娜野。遍照義亦云大日。義如
 <lb n="0522c07"/>世間日。照一邊不照一邊照晝不照夜。照一
 <lb n="0522c08"/>世界不照餘世界。但得名日不得名大日。毘
 <lb n="0522c09"/>盧遮那大日者。色身法身。普周法界<note n="0522022" resp="Taisho" type="orig" place="foot text">及＋（盡）【明】【乙】</note><app n="0522022"><lem>及</lem><rdg wit="【明】【乙】" resp="Taisho">及盡</rdg></app>虛空
 <lb n="0522c10"/>界無邊十方世界。普皆照曜。若人知此佛功
 <lb n="0522c11"/>德利。歸命禮拜。則得盡虛空遍法界一切諸
 <lb n="0522c12"/>佛菩薩諸賢聖八部悉共加持護念也</p>
-<lb n="0522c13"/><p>怛<anchor id="fxT19p0522c04"/>他孽多夜囉訶<anchor id="fxT19p0522c05"/>諦三藐三沒馱野。如來
+<lb n="0522c13"/><p>怛<anchor id="fxT19p0522c04"/>他孽多夜囉訶<app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>三藐三沒馱野。如來
 <lb n="0522c14"/>應供正遍知義。先已釋</p>
-<lb n="0522c15"/><p>娜<anchor id="fxT19p0522c06"/>莫阿哩野。已釋</p>
+<lb n="0522c15"/><p>娜<app type="＊" source="0522016"><lem>莫</lem><rdg resp="Taisho" wit="【明】">謨</rdg></app>阿哩野。已釋</p>
 <lb n="0522c16"/><p>三滿多跋捺囉野。三滿多者是普義。跋捺囉
 <lb n="0522c17"/>者賢義。野字者聲明中七例八轉聲中<note n="0522023" resp="Taisho" type="orig" place="foot text">謂＝為【乙】</note><app n="0522023"><lem>謂</lem><rdg wit="【乙】" resp="Taisho">為</rdg></app>聲
 <lb n="0522c18"/>也。下同。此菩薩說三密門普賢行願。一切
@@ -190,7 +193,7 @@ Added comment  for Emacs
 <lb n="0522c21"/>者。亦無是處</p>
 <lb n="0522c22"/><p>冒地薩怛&CB00085;野。菩薩義</p>
 <lb n="0522c23"/><p>摩賀薩怛&CB00085;野。<note n="0522024" resp="Taisho" type="orig" place="foot text">大菩＝摩賀【甲】</note><app n="0522024"><lem>大菩</lem><rdg wit="【甲】" resp="Taisho">摩賀</rdg></app>薩義</p>
-<lb n="0522c24"/><p>摩<anchor id="fxT19p0522c07"/>賀迦嚕抳迦野。大悲者。若歸命聖普賢菩
+<lb n="0522c24"/><p>摩<app type="＊" source="0522008"><lem>賀</lem><rdg resp="Taisho" wit="【明】【甲】">訶</rdg></app>迦嚕抳迦野。大悲者。若歸命聖普賢菩
 <lb n="0522c25"/>薩。則十方諸佛菩薩悉皆<note n="0522025" resp="Taisho" type="orig" place="foot text">加＝迦【明】</note><app n="0522025"><lem>加</lem><rdg wit="【明】" resp="Taisho">迦</rdg></app>護。一切諸佛菩
 <lb n="0522c26"/>薩。皆<note n="0522026" resp="Taisho" type="orig" place="foot text">因＝同【甲】</note><app n="0522026"><lem>因</lem><rdg wit="【甲】" resp="Taisho">同</rdg></app>修三密門行普賢行。得證聖果。是
 <lb n="0522c27"/>故尊貴</p>
@@ -247,7 +250,7 @@ Added comment  for Emacs
 <lb n="0523b18"/>真如。同體大悲。是故不染不著。則於空中一
 <lb n="0523b19"/>切如來法水灌頂。則獲三業加持。於無量修
 <lb n="0523b20"/>多羅藏。說法自在</p>
-<lb n="0523b21"/><p>達<note n="0523015" resp="Taisho" type="orig" place="foot text">摩＝磨【甲】</note><app n="0523015"><lem>摩</lem><rdg wit="【甲】" resp="Taisho">磨</rdg></app>娑&CB00344;囉三步<anchor id="fxT19p0523b01"/>諦。顯句釋法海出生義。
+<lb n="0523b21"/><p>達<note n="0523015" resp="Taisho" type="orig" place="foot text">摩＝磨【甲】</note><app n="0523015"><lem>摩</lem><rdg wit="【甲】" resp="Taisho">磨</rdg></app>娑&CB00344;囉三步<app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>。顯句釋法海出生義。
 <lb n="0523b22"/>密句釋達字一字為種子。達字者一切法界
 <lb n="0523b23"/>無所得義。由住無所得心。阿賴耶識中俱生
 <lb n="0523b24"/>我執。俱生法執種子。以文殊大聖金剛利劍。
@@ -260,7 +263,7 @@ Added comment  for Emacs
 <lb n="0523c01"/>種子。阿字者一切法本來寂靜本來涅槃。由
 <lb n="0523c02"/>證此解脫法印。遍周法界及諸佛剎大集會
 <lb n="0523c03"/>中。於佛前所聞教法。悉皆住持永不忘失</p>
-<lb n="0523c04"/><p>摩<note n="0523018" resp="Taisho" type="orig" place="foot text">訶＝賀【甲】</note><app n="0523018"><lem>訶</lem><rdg wit="【甲】" resp="Taisho">賀</rdg></app>三滿多跋捺囉步彌涅哩野<anchor id="fxT19p0523c01"/>諦。顯句
+<lb n="0523c04"/><p>摩<note n="0523018" resp="Taisho" type="orig" place="foot text">訶＝賀【甲】</note><app n="0523018"><lem>訶</lem><rdg wit="【甲】" resp="Taisho">賀</rdg></app>三滿多跋捺囉步彌涅哩野<app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>。顯句
 <lb n="0523c05"/>釋出大普賢地義。密句釋摩字一字為種子。
 <lb n="0523c06"/>摩字者一切法無我義。無我有二種。人無我
 <lb n="0523c07"/>法無我。瑜伽者若證二無我。則出大普賢地。
@@ -270,7 +273,7 @@ Added comment  for Emacs
 <lb n="0523c11"/>為種子。尾野字者一切法遍滿不可得義即
 <lb n="0523c12"/>知一切法自性寂靜自性涅槃。能證所證皆
 <lb n="0523c13"/>同一性。不增不減圓證法界</p>
-<lb n="0523c14"/><p>薩&CB00085;悉馱娜<note n="0523021" resp="Taisho" type="orig" place="foot text">麼＝謨【明】【乙】</note><app n="0523021"><lem>麼</lem><rdg wit="【明】【乙】" resp="Taisho">謨</rdg></app>塞訖哩<note place="inline"><note n="0523022" resp="Taisho" type="orig" place="foot text">三＝二【甲】</note><app n="0523022"><lem>三</lem><rdg wit="【甲】" resp="Taisho">二</rdg></app>合</note><anchor id="fxT19p0523c02"/>諦。顯句釋一
+<lb n="0523c14"/><p>薩&CB00085;悉馱娜<note n="0523021" resp="Taisho" type="orig" place="foot text">麼＝謨【明】【乙】</note><app n="0523021"><lem>麼</lem><rdg wit="【明】【乙】" resp="Taisho">謨</rdg></app>塞訖哩<note place="inline"><note n="0523022" resp="Taisho" type="orig" place="foot text">三＝二【甲】</note><app n="0523022"><lem>三</lem><rdg wit="【甲】" resp="Taisho">二</rdg></app>合</note><app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>。顯句釋一
 <lb n="0523c15"/>切成就者禮敬義。成就者菩薩之異名。密句
 <lb n="0523c16"/>釋薩字一字為種子。薩字者一切法無堅固
 <lb n="0523c17"/>義。念念四相遷流滅壞。薩字中有婀字。若證
@@ -281,7 +284,7 @@ Added comment  for Emacs
 <lb n="0523c22"/>字者一切法無等義。由觀此字。心與般若平
 <lb n="0523c23"/>等平等。前剎那後剎那一相清淨。能生一切
 <lb n="0523c24"/>波羅蜜一切地。即名般若佛母</p>
-<lb n="0523c25"/><p>婆&CB00344;&CB00085;底沒馱麼<anchor id="fxT19p0523c03"/>諦。顯句釋世尊佛母。婆
+<lb n="0523c25"/><p>婆&CB00344;&CB00085;底沒馱麼<app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>。顯句釋世尊佛母。婆
 <lb n="0523c26"/>伽梵男聲。婆<note n="0523024" resp="Taisho" type="orig" place="foot text">伽＝&CB00344;【明】【乙】</note><app n="0523024"><lem>伽</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00344;</rdg></app>&CB00085;底女聲。二俱會意釋名世
 <lb n="0523c27"/>尊義。依聲明對敵釋不如是。婆伽者破義。梵
 <lb n="0523c28"/>能義。能破四魔名婆伽梵。又一釋薄阿梵。依
@@ -302,7 +305,7 @@ Added comment  for Emacs
 <lb n="0524a13"/>法本不生。<note n="0524004" resp="Taisho" type="orig" place="foot text">〔由知…生〕八字－【明】</note><app n="0524004" word-count="8"><lem>由知一切法本不生</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>即入一切法
 <lb n="0524a14"/>離塵。是故囉字門一切<note n="0524005" resp="Taisho" type="orig" place="foot text">〔法〕－【明】＊，【乙】</note><app n="0524005"><lem>法</lem><rdg wit="【明】【乙】" resp="Taisho">&lac;</rdg></app>離塵義。由知一切
 <lb n="0524a15"/>法離塵故。即入一切法無諍。是故嬭字門一
-<lb n="0524a16"/>切法無諍。由知一切法無諍故。即入一切<anchor id="fxT19p0524a01"/>法
+<lb n="0524a16"/>切法無諍。由知一切法無諍故。即入一切<app type="＊" source="0524005"><lem>法</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>
 <lb n="0524a17"/>無造作。是故迦字門一切法無造作。由知一
 <lb n="0524a18"/>切法無造作故。即入一切法清淨。是故囉字
 <lb n="0524a19"/>門一切法清淨。由知一切法清淨故。即入一
@@ -317,12 +320,12 @@ Added comment  for Emacs
 <lb n="0524a28"/>別智。是故囉字門一切法無分別。由知一切
 <lb n="0524a29"/>法無分別故。即入一切法無動。是故嬭字門
 <pb ed="T" id="T19.0996.0524b" n="0524b"/>
-<lb n="0524b01"/>一切法無動。由知一切法無動故。即證摩<anchor id="fxT19p0524b01"/>賀
+<lb n="0524b01"/>一切法無動。由知一切法無動故。即證摩<app type="＊" source="0522008"><lem>賀</lem><rdg resp="Taisho" wit="【明】【甲】">訶</rdg></app>
 <lb n="0524b02"/>般若波羅蜜</p>
-<lb n="0524b03"/><p>摩<anchor id="fxT19p0524b02"/>賀&CB00425;囉枳<note n="0524007" resp="Taisho" type="orig" place="foot text">穰＝孃【甲】</note><app n="0524007"><lem>穰</lem><rdg wit="【甲】" resp="Taisho">孃</rdg></app>播囉弭<anchor id="fxT19p0524b03"/>諦。顯句釋摩<anchor id="fxT19p0524b04"/>賀
+<lb n="0524b03"/><p>摩<app type="＊" source="0522008"><lem>賀</lem><rdg resp="Taisho" wit="【明】【甲】">訶</rdg></app>&CB00425;囉枳<note n="0524007" resp="Taisho" type="orig" place="foot text">穰＝孃【甲】</note><app n="0524007"><lem>穰</lem><rdg wit="【甲】" resp="Taisho">孃</rdg></app>播囉弭<app type="＊" source="0522021"><lem>諦</lem><rdg resp="Taisho" wit="【明】【乙】">帝</rdg></app>。顯句釋摩<app type="＊" source="0522008"><lem>賀</lem><rdg resp="Taisho" wit="【明】【甲】">訶</rdg></app>
 <lb n="0524b04"/>大慧到彼岸。證得大般若波羅蜜故。即依無
-<lb n="0524b05"/>住涅槃。娑&CB00085;<note place="inline">二合<note n="0524008" resp="Taisho" type="orig" place="foot text">〔引〕－【明】【乙】</note><app n="0524008"><lem>引</lem><rdg wit="【明】【乙】" resp="Taisho">&lac;</rdg></app></note><anchor id="fxT19p0524b05"/>賀<note place="inline">引</note>顯句釋無住涅槃。
+<lb n="0524b05"/>住涅槃。娑&CB00085;<note place="inline">二合<note n="0524008" resp="Taisho" type="orig" place="foot text">〔引〕－【明】【乙】</note><app n="0524008"><lem>引</lem><rdg wit="【明】【乙】" resp="Taisho">&lac;</rdg></app></note><app type="＊" source="0522008"><lem>賀</lem><rdg resp="Taisho" wit="【明】【甲】">訶</rdg></app><note place="inline">引</note>顯句釋無住涅槃。
 <lb n="0524b06"/>則依無住涅槃。乃至盡未來際。廣利樂無邊
 <lb n="0524b07"/>有情</p>
 <lb n="0524b08"/><juan fun="close" n="001"><jhead>仁王般若<note n="0524009" resp="Taisho" type="orig" place="foot text">陀羅尼＝波羅蜜經真言【甲】</note><app n="0524009"><lem>陀羅尼</lem><rdg wit="【甲】" resp="Taisho">波羅蜜經真言</rdg></app>釋<note n="0524010" resp="Taisho" type="orig" place="foot text">〔一卷〕－【明】【乙】，乙本奧書曰元祿十六年二月四日以淨嚴和上之本再校了尊教</note><app n="0524010"><lem>一卷</lem><rdg wit="【明】【乙】" resp="Taisho">&lac;</rdg></app><note n="0524010" place="foot" type="rest">乙本奧書曰元祿十六年二月四日以淨嚴和上之本再校了尊教</note></jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:22 $</date>
+		<date>$Date: 2003/06/23 06:16:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1145 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T20n1145.xml,v $
-Revision 1.1  2003/05/05 04:09:22  ray
-Initial revision
+Revision 1.2  2003/06/23 06:16:04  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:22  ray
+recover cvs
 
 Revision 1.16  2002/12/05 05:20:25  saywhat
 校勘插入處理
@@ -100,7 +103,7 @@ Revision 1.5  2001/02/07 06:56:24  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:20  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:22 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:16:04 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -119,22 +122,22 @@ Added comment  for Emacs
 <lb n="0601c13"/><p>爾時薄伽梵。入諸波羅<note n="0601003" resp="Taisho" type="orig" place="foot text">蜜＝密【甲】【丙】【丁】</note><app n="0601003"><lem>蜜</lem><rdg wit="【甲】【丙】【丁】" resp="Taisho">密</rdg></app>平等性三摩地。從
 <lb n="0601c14"/>定起已即說此能滿諸願虛空藏菩薩最勝心
 <lb n="0601c15"/>陀羅尼曰</p>
-<lb n="0601c16"/><p type="dharani">南<note n="0601004" resp="Taisho" type="orig" place="foot text">牟＝無【甲】</note><app n="0601004"><lem>牟</lem><rdg wit="【甲】" resp="Taisho">無</rdg></app><note place="inline">一</note>阿迦<note place="inline"><note n="0601005" resp="Taisho" type="orig" place="foot text">去＋（聲）【明】【乙】</note><app n="0601005"><lem>去</lem><rdg wit="【明】【乙】" resp="Taisho">去聲</rdg></app>引</note>捨<note place="inline">舒可<note n="0601006" resp="Taisho" type="orig" place="foot text">反＝切【明】【乙】＊</note><app n="0601006"><lem>反</lem><rdg wit="【明】【乙】" resp="Taisho">切</rdg></app>二</note>揭<note place="inline">魚羯<anchor id="fxT20p0601c01"/>反</note>婆<note place="inline">去引</note>耶<note place="inline">余可
-<lb n="0601c17"/><anchor id="fxT20p0601c02"/>反三</note>唵<note place="inline">四</note>阿唎<note place="inline">五</note>迦<note n="0601007" resp="Taisho" type="orig" place="foot text">入＝叭【明】【乙】此字明本乙本俱作本行</note><note n="0601007" resp="CBETA" type="mod">入＝叭【明】【乙】此字明本乙本俱作本<corr sic="行" resp="CBETA.say">文</corr></note><app n="0601007"><lem><note place="inline">入</note></lem><rdg wit="【明】【乙】" resp="Taisho">叭</rdg></app>麼唎<note place="inline">六</note>慕唎<note place="inline">七</note>莎<note n="0601008" resp="Taisho" type="orig" place="foot text">&CB00085;＝縛【三】【乙】【丙】</note><note n="0601008" resp="CBETA" type="mod">&CB00085;＝縛【宋】【元】【明】【乙】【丙】</note><app n="0601008"><lem>&CB00085;</lem><rdg wit="【宋】【元】【明】【乙】【丙】" resp="Taisho">縛</rdg></app>訶
+<lb n="0601c16"/><p type="dharani">南<note n="0601004" resp="Taisho" type="orig" place="foot text">牟＝無【甲】</note><app n="0601004"><lem>牟</lem><rdg wit="【甲】" resp="Taisho">無</rdg></app><note place="inline">一</note>阿迦<note place="inline"><note n="0601005" resp="Taisho" type="orig" place="foot text">去＋（聲）【明】【乙】</note><app n="0601005"><lem>去</lem><rdg wit="【明】【乙】" resp="Taisho">去聲</rdg></app>引</note>捨<note place="inline">舒可<note n="0601006" resp="Taisho" type="orig" place="foot text">反＝切【明】【乙】＊</note><app n="0601006"><lem>反</lem><rdg wit="【明】【乙】" resp="Taisho">切</rdg></app>二</note>揭<note place="inline">魚羯<app type="＊" source="0601006"><lem>反</lem><rdg resp="Taisho" wit="【明】【乙】">切</rdg></app></note>婆<note place="inline">去引</note>耶<note place="inline">余可
+<lb n="0601c17"/><app type="＊" source="0601006"><lem>反</lem><rdg resp="Taisho" wit="【明】【乙】">切</rdg></app>三</note>唵<note place="inline">四</note>阿唎<note place="inline">五</note>迦<note n="0601007" resp="Taisho" type="orig" place="foot text">入＝叭【明】【乙】此字明本乙本俱作本行</note><note n="0601007" resp="CBETA" type="mod">入＝叭【明】【乙】此字明本乙本俱作本<corr sic="行" resp="CBETA.say">文</corr></note><app n="0601007"><lem><note place="inline">入</note></lem><rdg wit="【明】【乙】" resp="Taisho">叭</rdg></app>麼唎<note place="inline">六</note>慕唎<note place="inline">七</note>莎<note n="0601008" resp="Taisho" type="orig" place="foot text">&CB00085;＝縛【三】【乙】【丙】</note><note n="0601008" resp="CBETA" type="mod">&CB00085;＝縛【宋】【元】【明】【乙】【丙】</note><app n="0601008"><lem>&CB00085;</lem><rdg wit="【宋】【元】【明】【乙】【丙】" resp="Taisho">縛</rdg></app>訶
 <lb n="0601c18"/><note n="0601009" resp="Taisho" type="orig" place="foot text">〔八〕－【丙】</note><app n="0601009"><lem><note place="inline">八</note></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></p>
 <lb n="0601c19"/><p>薄伽梵言。此陀羅尼。是過去現在一切諸佛
 <lb n="0601c20"/>之所同說。若能常誦此陀羅尼者。從無始來
 <lb n="0601c21"/>五無間等一切罪障悉皆<note n="0601010" resp="Taisho" type="orig" place="foot text">銷＝消【甲】【乙】【丁】＊</note><app n="0601010"><lem>銷</lem><rdg wit="【甲】【乙】【丁】" resp="Taisho">消</rdg></app>滅。常得一切諸
 <lb n="0601c22"/>佛菩薩共所護念。乃至未成佛來。所生之處。
 <lb n="0601c23"/>虛空藏菩薩&M010527;隨守護。令諸有情常所樂見。
-<lb n="0601c24"/>諸有善願無不滿足。一切苦患皆悉<anchor id="fxT20p0601c03"/>銷除。常
+<lb n="0601c24"/>諸有善願無不滿足。一切苦患皆悉<app type="＊" source="0601010"><lem>銷</lem><rdg resp="Taisho" wit="【甲】【乙】【丁】">消</rdg></app>除。常
 <lb n="0601c25"/>生人天不墮惡趣。生生之處常憶宿命。設不
-<lb n="0601c26"/><note n="0601011" resp="Taisho" type="orig" place="foot text">加＝如【甲】【丙】＊，（如）＋加【丁】</note><app n="0601011"><lem>加</lem><rdg wit="【甲】【丙】" resp="Taisho">如</rdg><rdg wit="【丁】" resp="Taisho">如加</rdg></app>法但能常誦獲福如是。若欲<anchor id="fxT20p0601c04"/>加法持此陀
+<lb n="0601c26"/><note n="0601011" resp="Taisho" type="orig" place="foot text">加＝如【甲】【丙】＊，（如）＋加【丁】</note><app n="0601011"><lem>加</lem><rdg wit="【甲】【丙】" resp="Taisho">如</rdg><rdg wit="【丁】" resp="Taisho">如加</rdg></app>法但能常誦獲福如是。若欲<app type="＊" source="0601011"><lem>加</lem><rdg resp="Taisho" wit="【甲】【丙】">如</rdg></app>法持此陀
 <lb n="0601c27"/>羅尼求聞持者。當於絹<note n="0601012" resp="Taisho" type="orig" place="foot text">素＝索【甲】【丁】</note><app n="0601012"><lem>素</lem><rdg wit="【甲】【丁】" resp="Taisho">索</rdg></app>白&CB00626;或淨板上。先
 <lb n="0601c28"/>畫滿月。於中畫虛空藏菩薩像。其量下至不
 <lb n="0601c29"/>減一肘。或復過此任其力辦。菩薩滿月增減
 <pb ed="T" id="T20.1145.0602a" n="0602a"/>
-<lb n="0602a01"/>相稱。身作金色。寶蓮華上半<note n="0602001" resp="Taisho" type="orig" place="foot text">加＝跏【甲】【丙】【丁】＊</note><app n="0602001"><lem>加</lem><rdg wit="【甲】【丙】【丁】" resp="Taisho">跏</rdg></app>而坐。以右
+<lb n="0602a01"/>相稱。身作金色。寶蓮華上半<note n="0602001" resp="Taisho" type="orig" place="foot text">加＝跏【甲】【丙】【丁】＊</note><note n="0602001" resp="CBETA" type="mod"><todo type="＊"/>加＝跏【甲】【丙】【丁】＊</note><app n="0602001"><lem>加</lem><rdg wit="【甲】【丙】【丁】" resp="Taisho">跏</rdg></app>而坐。以右
 <lb n="0602a02"/><note n="0602002" resp="Taisho" type="orig" place="foot text">壓＝押【甲】【丙】【丁】</note><app n="0602002"><lem>壓</lem><rdg wit="【甲】【丙】【丁】" resp="Taisho">押</rdg></app>左。容顏殊妙作熙怡喜悅之相。於寶冠上
 <lb n="0602a03"/>有五佛像。結加趺坐。菩薩左手執白蓮華。微
 <lb n="0602a04"/>作紅色。於華臺上有如意寶珠。吠琉璃色黃
@@ -178,7 +181,7 @@ Added comment  for Emacs
 <lb n="0602b12"/>尼七遍。隨其自心遠近分<note n="0602019" resp="Taisho" type="orig" place="foot text">劑＝齊【三】【甲】【乙】【丙】【丁】</note><note n="0602019" resp="CBETA" type="mod">劑＝齊【宋】【元】【明】【甲】【乙】【丙】【丁】</note><app n="0602019"><lem>劑</lem><rdg wit="【宋】【元】【明】【甲】【乙】【丙】【丁】" resp="Taisho">齊</rdg></app>。結十方界。次
 <lb n="0602b13"/>應閉目思惟。虛空藏菩薩真身即與此像等
 <lb n="0602b14"/>無有異。復用護身印作意。請虛空藏菩薩。誦
-<lb n="0602b15"/>陀羅尼二十五遍已。即舉大<anchor id="fxT20p0602b01"/>母指向&M034294;招一
+<lb n="0602b15"/>陀羅尼二十五遍已。即舉大<app type="＊" source="0602015"><lem>母</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">拇</rdg></app>指向&M034294;招一
 <lb n="0602b16"/>度。頭指如舊。復作此印誦陀羅尼三遍。<note n="0602020" resp="Taisho" type="orig" place="foot text">&CB01251;＝楨【宋】【甲】【丙】【丁】</note><app n="0602020"><lem>&CB01251;</lem><rdg wit="【宋】【甲】【丙】【丁】" resp="Taisho">楨</rdg></app>
 <lb n="0602b17"/>上蓮華以之為座。復想菩薩來坐此華。即便
 <lb n="0602b18"/>開目見菩薩已。生希有心作真身解。又誦三
@@ -203,7 +206,7 @@ Added comment  for Emacs
 <lb n="0602c07"/>坐禮拜。閉目復觀滿月菩薩。極明了已。應更
 <lb n="0602c08"/>運心令漸增長周遍法界。復漸略觀。於最後
 <lb n="0602c09"/>時量如本已。方始出觀。又作前手印誦陀羅
-<lb n="0602c10"/>尼三<note n="0602028" resp="Taisho" type="orig" place="foot text">遍＝返【丙】＊</note><app n="0602028"><lem>遍</lem><rdg wit="【丙】" resp="Taisho">返</rdg></app>已。舉大<anchor id="fxT20p0602c01"/>母指發遣菩薩。作是念言
+<lb n="0602c10"/>尼三<note n="0602028" resp="Taisho" type="orig" place="foot text">遍＝返【丙】＊</note><app n="0602028"><lem>遍</lem><rdg wit="【丙】" resp="Taisho">返</rdg></app>已。舉大<app type="＊" source="0602015"><lem>母</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">拇</rdg></app>指發遣菩薩。作是念言
 <lb n="0602c11"/>唯願慈悲布施歡喜。後會法事復垂降赴。如
 <lb n="0602c12"/>是誦陀羅尼。隨其力能或一日一上。或一日
 <lb n="0602c13"/>兩上。從始至終每<note n="0602029" resp="Taisho" type="orig" place="foot text">（始）＋如【丁】</note><app n="0602029"><lem>如</lem><rdg wit="【丁】" resp="Taisho">始如</rdg></app>初日。遍數多少亦如初
@@ -215,7 +218,7 @@ Added comment  for Emacs
 <lb n="0602c19"/>條。置在壇邊。華香等物加常數倍。供養之法
 <lb n="0602c20"/>一一同前。供養畢已。<note n="0602033" resp="Taisho" type="orig" place="foot text">取＝收【三】【乙】</note><note n="0602033" resp="CBETA" type="mod">取＝收【宋】【元】【明】【乙】</note><app n="0602033"><lem>取</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">收</rdg></app>前樹葉重布壇中。
 <lb n="0602c21"/>復於葉上安置酥器。還作手印誦陀羅尼三
-<lb n="0602c22"/><anchor id="fxT20p0602c02"/>遍。護持此酥。又以樹枝攪酥。勿停其手。目
+<lb n="0602c22"/><app type="＊" source="0602028"><lem>遍</lem><rdg resp="Taisho" wit="【丙】">返</rdg></app>。護持此酥。又以樹枝攪酥。勿停其手。目
 <lb n="0602c23"/>觀日月兼亦看酥。誦陀羅尼無限遍數。初蝕
 <lb n="0602c24"/>後退未圓已來。其酥即有三種相現。一者氣。
 <lb n="0602c25"/>二者煙。三者火。此下中上三品相中。隨得一
@@ -224,8 +227,8 @@ Added comment  for Emacs
 <lb n="0602c28"/>無遺忘。諸餘福利無量無邊。今且略說少分
 <lb n="0602c29"/>功德。<note n="0602034" resp="Taisho" type="orig" place="foot text">如＝始【丁】</note><app n="0602034"><lem>如</lem><rdg wit="【丁】" resp="Taisho">始</rdg></app>至&CB00230;退圓滿已來。三相若無法不成
 <pb ed="T" id="T20.1145.0603a" n="0603a"/>
-<lb n="0603a01"/>就。復應更從初首而作。乃至七<anchor id="fxT20p0603a01"/>遍。縱有五
-<lb n="0603a02"/>逆等極重罪障。亦皆<anchor id="fxT20p0603a02"/>銷滅法定成就</p>
+<lb n="0603a01"/>就。復應更從初首而作。乃至七<app type="＊" source="0602028"><lem>遍</lem><rdg resp="Taisho" wit="【丙】">返</rdg></app>。縱有五
+<lb n="0603a02"/>逆等極重罪障。亦皆<app type="＊" source="0601010"><lem>銷</lem><rdg resp="Taisho" wit="【甲】【乙】【丁】">消</rdg></app>滅法定成就</p>
 <lb n="0603a03"/><juan fun="close" n="001"><jhead><note n="0603001" resp="Taisho" type="orig" place="foot text">（佛說）＋虛【明】【乙】，（虛空…法）十九字＝（能滿聞持虛空藏菩薩儀軌）十一字【丙】，（能滿虛空藏菩薩求聞持法）十一字【丁】</note><note n="0603001" resp="CBETA" type="mod">（虛空藏菩薩能滿諸願最勝心陀羅尼求聞持法）十九字＝（能滿聞持虛空藏菩薩儀軌）十一字【丙】，＝（能滿虛空藏菩薩求聞持法）十一字【丁】，（佛說）＋虛【明】【乙】</note><app n="0603001"><lem>虛空藏菩薩<note n="0603002" resp="Taisho" type="orig" place="foot text">〔能滿…尼〕十字－【甲】</note><app n="0603002" word-count="10"><lem>能滿諸願最勝心陀羅尼</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>求聞
 <lb n="0603a04"/>持<note n="0603003" resp="Taisho" type="orig" place="foot text">丙本丁本俱有右大唐中天竺三藏輸波迦羅唐言善無畏開元五年於西明寺菩提院譯無&CB00473;法師轉文三十五字，尚丁本之異本三藏之下有沙門二字，無&CB00473;法師轉文六字作沙門悉達譯語沙門無&CB00473;綴文筆受十四字，丁本奧書曰寬治二年十一月二十四日快禪阿闍梨受了</note>法</lem><rdg wit="【丙】" resp="Taisho">能滿聞持虛空藏菩薩儀軌</rdg><rdg wit="【丁】" resp="Taisho">能滿虛空藏菩薩求聞持法</rdg><rdg wit="【明】【乙】" resp="Taisho">佛說虛空藏菩薩能滿諸願最勝心陀羅尼求聞持法</rdg></app></jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)</edition>
+		<edition>$Revision: 1.3 $ (Big5)</edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/02 05:30:22 $</date>
+		<date>$Date: 2003/06/23 06:14:01 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 939 &desc;</bibl>
@@ -58,6 +58,9 @@
 	</change>
 <!--
 $Log: T19n0939.xml,v $
+Revision 1.3  2003/06/23 06:14:01  saywhat
+[＊]校勘插入XML
+
 Revision 1.2  2003/06/02 05:30:22  saywhat
 CVS與2003/04版比對修訂
 
@@ -117,7 +120,7 @@ Revision 1.6  2001/02/07 06:54:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:44:15  chris
-Added keywords $Revision: 1.2 $, $Date: 2003/06/02 05:30:22 $ and $Log.
+Added keywords $Revision: 1.3 $, $Date: 2003/06/23 06:14:01 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -131,8 +134,8 @@ Added comment  for Emacs
 <lb n="0088a19"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0088013" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說大乘觀想曼拏羅淨諸惡
 <lb n="0088a20"/>趣經卷上</jhead></juan>
 <lb n="0088a21"/>
-<lb n="0088a22"/><byline type="Translator"><note n="0088014" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】＊</note><app n="0088014"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0088015" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】＊</note><app n="0088015"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫試光祿卿
-<lb n="0088a23"/>明教大師<note n="0088016" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】＊</note><app n="0088016"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline>
+<lb n="0088a22"/><byline type="Translator"><note n="0088014" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】＊</note><app n="0088014"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0088015" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】＊</note><note n="0088015" resp="CBETA" type="mod"><todo type="＊"/>〔譯經〕－【明】＊</note><app n="0088015"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫試光祿卿
+<lb n="0088a23"/>明教大師<note n="0088016" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】＊</note><note n="0088016" resp="CBETA" type="mod"><todo type="＊"/>〔臣〕－【明】＊</note><app n="0088016"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline>
 <lb n="0088a24"/><lg><l>歸命淨諸惡趣王</l><l>如來應供正等覺</l>
 <lb n="0088a25"/><l>一心敬禮釋師子</l><l>說曼拏羅滅惡趣</l></lg>
 <lb n="0088a26"/><p>我今為利益諸眾生故。於如來所說根本大
@@ -245,14 +248,14 @@ Added comment  for Emacs
 <lb n="0089b13"/>好具足。其身白色光焰熾盛。手作觸地印。安
 <lb n="0089b14"/>曼拏羅輪東輻之位</p>
 <lb n="0089b15"/><p>復誦真言曰</p>
-<lb n="0089b16"/><p type="dharani">唵<note place="inline">引</note>囉怛那<note place="inline">二合</note>滿怛&CB00772;<note place="inline">二合引<anchor id="fxT19p0089b02"/>一</note></p>
+<lb n="0089b16"/><p type="dharani">唵<note place="inline">引</note>囉怛那<note place="inline">二合</note>滿怛&CB00772;<note place="inline">二合引<app type="＊" source="0089002"><lem>一</lem><rdg resp="Taisho" wit="【明】">一句</rdg></app></note></p>
 <lb n="0089b17"/><p>誦此真言時。同前口門出光與真言。普照一
 <lb n="0089b18"/>切世間。息滅眾生<note n="0089003" resp="Taisho" type="orig" place="foot text">苦＝菩【明】</note><app n="0089003"><lem>苦</lem><rdg wit="【明】" resp="Taisho">菩</rdg></app>惱已。還復入於本心。
 <lb n="0089b19"/>復從心中化出寶生頂如來。身大青色相好
 <lb n="0089b20"/>具足光明熾盛。手作施願印。能與三界一切
 <lb n="0089b21"/>眾生授其灌頂。安曼拏羅輪南輻之位</p>
 <lb n="0089b22"/><p>復誦真言曰</p>
-<lb n="0089b23"/><p type="dharani">唵<note place="inline">引</note>&CB00425;訥謨<note place="inline">二合引</note>怛摩紇陵<note place="inline">二合<anchor id="fxT19p0089b03"/>一</note></p>
+<lb n="0089b23"/><p type="dharani">唵<note place="inline">引</note>&CB00425;訥謨<note place="inline">二合引</note>怛摩紇陵<note place="inline">二合<app type="＊" source="0089002"><lem>一</lem><rdg resp="Taisho" wit="【明】">一句</rdg></app></note></p>
 <lb n="0089b24"/><p>誦此真言時。同前於口門出光與真言。普照
 <lb n="0089b25"/>三界一切世間。息滅眾生苦惱已。還復入於
 <lb n="0089b26"/>本心。復化出蓮花頂如來。身赤色相好具足
@@ -442,7 +445,7 @@ Added comment  for Emacs
 <lb n="0091b29"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>尾咄<note place="inline">半音一</note>吽<note place="inline">引</note>吽<note place="inline">引二</note></p>
 <pb ed="T" id="T19.0939.0091c" n="0091c"/>
 <lb n="0091c01"/><p>寶生佛頂真言曰</p>
-<lb n="0091c02"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>尾咄<note place="inline">半音一</note>怛&CB00772;<note place="inline">二合</note>怛<anchor id="fxT19p0091c01"/>囉<note place="inline">二合</note>
+<lb n="0091c02"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>尾咄<note place="inline">半音一</note>怛&CB00772;<note place="inline">二合</note>怛<app type="＊" source="0091003"><lem>囉</lem><rdg resp="Taisho" wit="【宋】【元】【明】">羅</rdg></app><note place="inline">二合</note>
 <lb n="0091c03"/>吒<note place="inline">半音二</note></p>
 <lb n="0091c04"/><p>蓮花佛頂真言曰</p>
 <lb n="0091c05"/><p type="dharani">唵<note place="inline">引</note>薩哩&CB00085;<note place="inline">二合</note>尾咄<note place="inline">半音一</note>紇陵<note place="inline">二合引二</note></p>
@@ -530,7 +533,7 @@ Added comment  for Emacs
 <lb n="0092b28"/>多&CB00085;底吽<note place="inline">引二</note></p>
 <lb n="0092b29"/><p>月光菩薩真言曰</p>
 <pb ed="T" id="T19.0939.0092c" n="0092c"/>
-<lb n="0092c01"/><p type="dharani">唵<note place="inline">引</note>贊捺<anchor id="fxT19p0092c01"/>囉<note place="inline">二合</note>悉梯<note place="inline">二合引一</note>贊捺囉<note place="inline">二合</note>藐&CB00085;
+<lb n="0092c01"/><p type="dharani">唵<note place="inline">引</note>贊捺<app type="＊" source="0092004"><lem>囉</lem><rdg resp="Taisho" wit="【明】">羅</rdg></app><note place="inline">二合</note>悉梯<note place="inline">二合引一</note>贊捺囉<note place="inline">二合</note>藐&CB00085;
 <lb n="0092c02"/>路吉帝<note place="inline">引</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引<note n="0092007" resp="Taisho" type="orig" place="foot text">二＝一【宋】【元】</note><app n="0092007"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">一</rdg></app></note></p>
 <lb n="0092c03"/><p>賢護菩薩真言曰</p>
 <lb n="0092c04"/><p type="dharani">唵<note place="inline">引</note>跋捺囉<note place="inline">二合</note>&CB00085;底<note place="inline">一</note>跋捺囉<note place="inline">二合</note>播<note place="inline">引</note>里吽<note place="inline">引
@@ -642,7 +645,7 @@ Added comment  for Emacs
 <lb n="0093c20"/>佛頂　西輻位畫蓮花佛頂。北輻位畫羯磨佛
 <lb n="0093c21"/>頂。如是畫四如來已。次從東南隅畫光明佛
 <lb n="0093c22"/>頂。西南隅畫寶幢佛頂。西北隅畫金剛利佛
-<lb n="0093c23"/>頂。東北隅畫白繖蓋佛頂。如是於輪八<anchor id="fxT19p0093c01"/>輻。
+<lb n="0093c23"/>頂。東北隅畫白繖蓋佛頂。如是於輪八<app type="＊" source="0093005"><lem>輻</lem><rdg resp="Taisho" wit="【明】">幅</rdg></app>。
 <lb n="0093c24"/>畫八如來已。次於輪四隅畫四親近菩薩。於
 <lb n="0093c25"/>第二重四隅畫戲鬘歌舞四菩薩。於第三重
 <lb n="0093c26"/>四隅。畫香花燈塗四菩薩。於四門畫四護門
@@ -695,7 +698,7 @@ Added comment  for Emacs
 <lb n="0094b13"/>種花果樹枝葉等。於瓶項上繫一青衣。然以
 <lb n="0094b14"/>本真言加持願以此水作大利益。又誦本真
 <lb n="0094b15"/>言加持白芥子及白花等。口誦真言。以白芥
-<lb n="0094b16"/>子及白花。<note n="0094002" resp="Taisho" type="orig" place="foot text">擊＝繫【三】＊</note><note n="0094002" resp="CBETA" type="mod">擊＝繫【宋】＊【元】＊【明】＊</note><app n="0094002"><lem>擊</lem><rdg wit="【宋】【元】【明】" resp="Taisho">繫</rdg></app>人或<anchor id="fxT19p0094b01"/>擊人名及衣等。復以閼
+<lb n="0094b16"/>子及白花。<note n="0094002" resp="Taisho" type="orig" place="foot text">擊＝繫【三】＊</note><note n="0094002" resp="CBETA" type="mod">擊＝繫【宋】＊【元】＊【明】＊</note><app n="0094002"><lem>擊</lem><rdg wit="【宋】【元】【明】" resp="Taisho">繫</rdg></app>人或<app type="＊" source="0094002"><lem>擊</lem><rdg resp="Taisho" wit="【宋】【元】【明】">繫</rdg></app>人名及衣等。復以閼
 <lb n="0094b17"/>伽水灌灑。如是所作息災增益等事皆獲功
 <lb n="0094b18"/>德無量無邊。乃至擊亡人身骨及名。當使亡
 <lb n="0094b19"/>人離諸惡趣往生天界真言曰</p>
@@ -728,7 +731,7 @@ Added comment  for Emacs
 <lb n="0094c16"/>吒<note place="inline">半音四</note></p>
 <lb n="0094c17"/><p type="dharani">唵<note place="inline">引</note>那賀那賀<note place="inline">一</note>薩哩&CB00085;<note place="inline">二合</note>那囉哥&CB00344;底呬
 <lb n="0094c18"/><note n="0094006" resp="Taisho" type="orig" place="foot text">引＋（二）夾註【明】</note><app n="0094006"><lem><note place="inline">引</note></lem><rdg wit="【明】" resp="Taisho"><note place="inline">引二</note></rdg></app>東吽<note place="inline">引</note>發吒<note place="inline">半音<note n="0094007" resp="Taisho" type="orig" place="foot text">〔二〕－【宋】【元】，二＝三【明】</note><app n="0094007"><lem>二</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho">三</rdg></app></note></p>
-<lb n="0094c19"/><p type="dharani">唵<note place="inline">引</note>&CB00425;<note n="0094008" resp="Taisho" type="orig" place="foot text">左＝佐【三】＊</note><note n="0094008" resp="CBETA" type="mod">左＝佐【宋】＊【元】＊【明】＊</note><app n="0094008"><lem>左</lem><rdg wit="【宋】【元】【明】" resp="Taisho">佐</rdg></app>&CB00425;<anchor id="fxT19p0094c01"/>左<note place="inline">一</note>薩哩&CB00085;<note place="inline">二合</note>必&CB00942;<note place="inline">二合引</note>多&CB00344;
+<lb n="0094c19"/><p type="dharani">唵<note place="inline">引</note>&CB00425;<note n="0094008" resp="Taisho" type="orig" place="foot text">左＝佐【三】＊</note><note n="0094008" resp="CBETA" type="mod">左＝佐【宋】＊【元】＊【明】＊</note><app n="0094008"><lem>左</lem><rdg wit="【宋】【元】【明】" resp="Taisho">佐</rdg></app>&CB00425;<app type="＊" source="0094008"><lem>左</lem><rdg resp="Taisho" wit="【宋】【元】【明】">佐</rdg></app><note place="inline">一</note>薩哩&CB00085;<note place="inline">二合</note>必&CB00942;<note place="inline">二合引</note>多&CB00344;
 <lb n="0094c20"/>底<note place="inline">二</note>呬<note place="inline">引</note>東吽<note n="0094009" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0094009" resp="CBETA" type="mod">〔引〕－【宋】【元】【明】</note><app n="0094009"><lem><note place="inline">引</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>發吒<note place="inline">半音三</note></p>
 <lb n="0094c21"/><p type="dharani">唵<note place="inline">引</note>摩他摩他<note place="inline">一</note>薩哩&CB00085;<note place="inline">二合引</note>帝哩野<note place="inline">二合</note>&CB00344;
 <lb n="0094c22"/>底<note place="inline">二</note>呬<note place="inline">引</note>東吽<note place="inline">引</note>發吒<note place="inline">半音三</note></p>
@@ -801,4 +804,4 @@ Added comment  for Emacs
 <pb ed="T" id="T19.0939.0095c" n="0095c"/>
 <lb n="0095c01"/>利益眾生。乃至隨喜見聞皆獲無量功德</p>
 <lb n="0095c02"/><juan fun="close" n="002"><jhead>佛說大乘觀想曼拏羅淨諸惡趣經卷下</jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

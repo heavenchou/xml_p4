@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:03 $</date>
+		<date>$Date: 2003/06/23 06:10:29 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 796 &desc;</bibl>
@@ -57,8 +57,11 @@
 	</change>
 <!--
 $Log: T17n0796.xml,v $
-Revision 1.1  2003/05/05 04:09:03  ray
-Initial revision
+Revision 1.2  2003/06/23 06:10:29  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:03  ray
+recover cvs
 
 Revision 1.17  2002/12/05 06:38:00  saywhat
 校勘插入處理
@@ -98,7 +101,7 @@ Revision 1.6  2001/02/07 06:52:32  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:42:11  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:03 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:10:29 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -160,7 +163,7 @@ Added comment  for Emacs
 <lb n="0740c21"/>故。譬如冶家<note n="0740016" resp="Taisho" type="orig" place="foot text">洋＝烊【明】＊</note><app n="0740016"><lem>洋</lem><rdg wit="【明】" resp="Taisho">烊</rdg></app>石作鐵。已成鐵便鑄以為
 <lb n="0740c22"/>器。已成器可復還使作石乎。見正言實不可。
 <lb n="0740c23"/>石已成鐵。終不得復還作石。佛言。識之轉徙。
-<lb n="0740c24"/>住在中陰。如石已<anchor id="fxT17p0740c01"/>洋成鐵。從中陰轉受他
+<lb n="0740c24"/>住在中陰。如石已<app type="＊" source="0740016"><lem>洋</lem><rdg resp="Taisho" wit="【明】">烊</rdg></app>成鐵。從中陰轉受他
 <lb n="0740c25"/>體。如鐵已鑄成器。形消體易。不得復還故識。
 <lb n="0740c26"/>何以故。行之善惡。識往受之。轉化變改。如石
 <lb n="0740c27"/>成鐵。修行五善。稟受人身。則更有父母。已有
@@ -182,7 +185,7 @@ Added comment  for Emacs
 <lb n="0741a13"/>使還作土也。佛言。諸弟子識神轉徙。隨行受
 <lb n="0741a14"/>身。如土成瓦。人無道行。不復識故。不得復還
 <lb n="0741a15"/>相報答也。比丘。復譬如樹大數十圍。巧匠便
-<lb n="0741a16"/>規<note n="0741007" resp="Taisho" type="orig" place="foot text">&CB00550;＝斫【三】【宮】＊</note><note n="0741007" resp="CBETA" type="mod">&CB00550;＝斫【宋】【元】【明】【宮】＊</note><app n="0741007"><lem>&CB00550;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">斫</rdg></app>。刻鏤奇巧百種。若人欲復集聚<anchor id="fxT17p0741a01"/>&CB00550;<note n="0741008" resp="Taisho" type="orig" place="foot text">柿＝樹【明】</note><app n="0741008"><lem>柿</lem><rdg wit="【明】" resp="Taisho">樹</rdg></app>
+<lb n="0741a16"/>規<note n="0741007" resp="Taisho" type="orig" place="foot text">&CB00550;＝斫【三】【宮】＊</note><note n="0741007" resp="CBETA" type="mod">&CB00550;＝斫【宋】【元】【明】【宮】＊</note><app n="0741007"><lem>&CB00550;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">斫</rdg></app>。刻鏤奇巧百種。若人欲復集聚<app type="＊" source="0741007"><lem>&CB00550;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">斫</rdg></app><note n="0741008" resp="Taisho" type="orig" place="foot text">柿＝樹【明】</note><app n="0741008"><lem>柿</lem><rdg wit="【明】" resp="Taisho">樹</rdg></app>
 <lb n="0741a17"/>及所刻。巧還使成樹可得乎。諸弟子言。實不
 <lb n="0741a18"/>可。樹已斷破。段段刻盡。枝葉&CB00506;朽。不復可集
 <lb n="0741a19"/>使成樹也。佛言諸弟子。識神於是世。作行善
@@ -204,9 +207,9 @@ Added comment  for Emacs
 <lb n="0741b05"/>面相答報也。諸弟子。譬如<note n="0741011" resp="Taisho" type="orig" place="foot text">蝮&CB03052;＝復育【宮】＊</note><app n="0741011"><lem>蝮&CB03052;</lem><rdg wit="【宮】" resp="Taisho">復育</rdg></app>生在土中。無
 <lb n="0741b06"/>聲無翼。得時節氣。轉化成蟬。飛行著樹。鳴聲
 <lb n="0741b07"/>不休。佛問諸弟子。寧可還蟬使入土成蝮<anchor id="fxT17p0741b01"/>&CB03052;
-<lb n="0741b08"/>乎。諸弟子言。實不可也。<anchor id="fxT17p0741b02"/>蝮&CB03052;已變。去陰在
+<lb n="0741b08"/>乎。諸弟子言。實不可也。<app type="＊" source="0741011"><lem>蝮&CB03052;</lem><rdg resp="Taisho" wit="【宮】">復育</rdg></app>已變。去陰在
 <lb n="0741b09"/>陽。身形化異日當死亡。或為眾鳥所噉。不得
-<lb n="0741b10"/>還作<anchor id="fxT17p0741b03"/>蝮&CB03052;也。佛言諸弟子。生死亦如此。命
+<lb n="0741b10"/>還作<app type="＊" source="0741011"><lem>蝮&CB03052;</lem><rdg resp="Taisho" wit="【宮】">復育</rdg></app>也。佛言諸弟子。生死亦如此。命
 <lb n="0741b11"/>訖身死。識神轉徙。更受新身。五陰覆障。見習
 <lb n="0741b12"/>各異。於彼亦當老死。不得復還。不復識故面
 <lb n="0741b13"/>相答報也。如蟬在樹不可復還作<note n="0741012" resp="Taisho" type="orig" place="foot text">蝮&CB03052;＝復育【宋】【宮】</note><app n="0741012"><lem>蝮&CB03052;</lem><rdg wit="【宋】【宮】" resp="Taisho">復育</rdg></app><note n="0741013" resp="Taisho" type="orig" place="foot text">〔也〕－【三】【宮】</note><note n="0741013" resp="CBETA" type="mod">〔也〕－【宋】【元】【明】【宮】</note><app n="0741013"><lem>也</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></p>
@@ -264,7 +267,7 @@ Added comment  for Emacs
 <lb n="0742a05"/>盈。牽著殃<note n="0742003" resp="Taisho" type="orig" place="foot text">福＝禍【三】【宮】＊</note><note n="0742003" resp="CBETA" type="mod">福＝禍【宋】【元】【明】【宮】＊</note><app n="0742003"><lem>福</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">禍</rdg></app>。不復識故。如<note n="0742004" resp="Taisho" type="orig" place="foot text">&CB00440;＝視【明】</note><app n="0742004"><lem>&CB00440;</lem><rdg wit="【明】" resp="Taisho">視</rdg></app>穢鏡。復譬如
 <lb n="0742a06"/>深濁之水。雖有魚虫。了不得見。生死錯亂。憂
 <lb n="0742a07"/><note n="0742005" resp="Taisho" type="orig" place="foot text">思＝畏【三】【宮】</note><note n="0742005" resp="CBETA" type="mod">思＝畏【宋】【元】【明】【宮】</note><app n="0742005"><lem>思</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">畏</rdg></app>蔽塞。轉生忘故。亦如濁水。譬如冥夜閉
-<lb n="0742a08"/>眼而行。都無所見。生死闇昧。流隨殃<anchor id="fxT17p0742a01"/>福。或
+<lb n="0742a08"/>眼而行。都無所見。生死闇昧。流隨殃<app type="＊" source="0742003"><lem>福</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">禍</rdg></app>。或
 <lb n="0742a09"/>喜或惱。綴制所受。不復識故。如夜閉眼</p>
 <lb n="0742a10"/><p>佛告諸弟子。今我為佛。慧眼清淨。一切生死。
 <lb n="0742a11"/>往來三界。佛悉知見。譬如水精琉璃寶珠綵
@@ -312,5 +315,5 @@ Added comment  for Emacs
 <lb n="0742b23"/>百人。及諸優婆塞。悉得須陀洹。諸菩薩皆得
 <lb n="0742b24"/>不傾迴三昧。各起遶佛三匝。頭面著地。作禮
 <lb n="0742b25"/>畢竟。悉從佛俱還精舍</p>
-<lb n="0742b26"/><trailer><title>佛說見正經</title><anchor id="fxT17p0742b01"/><note place="inline">亦名生死變識經</note></trailer><juan fun="close" n="001"></juan></div1>
-</body></text></TEI.2>
+<lb n="0742b26"/><trailer><title>佛說見正經</title><app type="＊" source="0740007"><lem><note place="inline">亦名生死變識經</note></lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app></trailer><juan fun="close" n="001"></juan></div1>
+</body></text></TEI.2>

@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:23 $</date>
+		<date>$Date: 2003/06/23 06:16:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1151 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T20n1151.xml,v $
-Revision 1.1  2003/05/05 04:09:23  ray
-Initial revision
+Revision 1.2  2003/06/23 06:16:04  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:23  ray
+recover cvs
 
 Revision 1.15  2002/12/05 05:20:25  saywhat
 校勘插入處理
@@ -97,7 +100,7 @@ Revision 1.5  2001/02/07 06:56:26  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:22  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:23 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:16:04 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -175,7 +178,7 @@ Added comment  for Emacs
 <lb n="0611b10"/><p><note n="0611006" resp="Taisho" type="orig" place="foot text">〔真言曰〕&M062403;－【甲】＊</note><app n="0611006"><lem>真言曰</lem><rdg wit="【？】" resp="【甲】">&lac;</rdg></app></p>
 <lb n="0611b11"/><p type="dharani"><note n="0611007" resp="Taisho" type="orig" place="foot text">〔唵〕&M062403;－【甲】＊</note><app n="0611007"><lem>唵</lem><rdg wit="【？】" resp="【甲】">&lac;</rdg></app>&CB00085;日<note n="0611008" resp="Taisho" type="orig" place="foot text">&CB03298;一＝囉二【甲】</note><note n="0611008" resp="CBETA" type="mod"><todo type="a"/>&CB03298;一＝囉二【甲】</note>&CB03298;<note place="inline">一合引</note>惹禮</p>
 <lb n="0611b12"/><p>次結金剛縛。十度外相叉。密縛成印相。金剛
-<lb n="0611b13"/>縛真言。<anchor id="fxT20p0611b01"/>真言曰</p>
+<lb n="0611b13"/>縛真言。<app type="＊" source="0611006"><lem>真言曰</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app></p>
 <lb n="0611b14"/><p type="dharani">&CB00085;日囉<note place="inline">二合</note>滿馱</p>
 <lb n="0611b15"/><lg><l>如前金剛縛</l><l>掣擊於心上</l>
 <lb n="0611b16"/><l>能滅諸結使</l><l>開顯解脫宮</l></lg>
@@ -185,7 +188,7 @@ Added comment  for Emacs
 <lb n="0611b20"/><l>定慧入於掌</l><l>召入圓寂智</l>
 <lb n="0611b21"/><l><note n="0611010" resp="Taisho" type="orig" place="foot text">召入於＝即誦召入&M062403;【甲】</note><app n="0611010"><lem>召入於</lem><rdg wit="【？】" resp="【甲】">即誦召入</rdg></app>種智</l></lg>
 <lb n="0611b22"/><p>真言曰</p>
-<lb n="0611b23"/><p type="dharani"><anchor id="fxT20p0611b02"/>唵&CB00085;日囉<note place="inline">二合引</note>吠舍惡</p>
+<lb n="0611b23"/><p type="dharani"><app type="＊" source="0611007"><lem>唵</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app>&CB00085;日囉<note place="inline">二合引</note>吠舍惡</p>
 <lb n="0611b24"/><lg><l>次結金剛拳</l><l>進力<note n="0611011" resp="Taisho" type="orig" place="foot text">跓＝拄【甲】</note><app n="0611011"><lem>跓</lem><rdg wit="【甲】" resp="Taisho">拄</rdg></app>禪<note n="0611012" resp="Taisho" type="orig" place="foot text">智＋（以附拄心門）&M062403;【甲】</note><app n="0611012"><lem>智</lem><rdg wit="【？】" resp="【甲】">智以附拄心門</rdg></app></l>
 <lb n="0611b25"/><l>金剛身語意</l><l>密合不傾動</l></lg>
 <lb n="0611b26"/><p><note n="0611013" resp="Taisho" type="orig" place="foot text">（即）&M062403;＋誦【甲】＊</note><app n="0611013"><lem>誦</lem><rdg wit="【？】" resp="【甲】">即誦</rdg></app>金剛拳真言曰</p>
@@ -194,23 +197,23 @@ Added comment  for Emacs
 <lb n="0611b29"/><l><note n="0611015" resp="Taisho" type="orig" place="foot text">結已＝縛以&M062403;【甲】</note><app n="0611015"><lem>結已</lem><rdg wit="【？】" resp="【甲】">縛以</rdg></app>&CB00594;忍願</l><l>身處於月輪</l></lg>
 <pb ed="T" id="T20.1151.0611c" n="0611c"/>
 <lb n="0611c01"/><p>即誦三昧耶真言曰</p>
-<lb n="0611c02"/><p type="dharani"><anchor id="fxT20p0611c01"/>唵三麼野薩怛&CB00680;<note place="inline">三合</note></p>
+<lb n="0611c02"/><p type="dharani"><app type="＊" source="0611007"><lem>唵</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app>三麼野薩怛&CB00680;<note place="inline">三合</note></p>
 <lb n="0611c03"/><lg><l>次結大真誓</l><l>忍願<note n="0611016" resp="Taisho" type="orig" place="foot text">反＝交&M062403;【甲】</note><app n="0611016"><lem>反</lem><rdg wit="【？】" resp="【甲】">交</rdg></app>入縛</l>
 <lb n="0611c04"/><l>檀慧定智&CB00594;</l><l>二度三觸心</l>
 <lb n="0611c05"/><l>藏識厭離種</l><l>能除悲增長</l></lg>
 <lb n="0611c06"/><p><note n="0611017" resp="Taisho" type="orig" place="foot text">〔復當誦真言曰〕－【甲】</note><app n="0611017"><lem>復當誦真言曰</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></p>
-<lb n="0611c07"/><p type="dharani"><anchor id="fxT20p0611c02"/>唵三麼野護素囉多薩怛&CB00680;<note place="inline">三合</note></p>
+<lb n="0611c07"/><p type="dharani"><app type="＊" source="0611007"><lem>唵</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app>三麼野護素囉多薩怛&CB00680;<note place="inline">三合</note></p>
 <lb n="0611c08"/><lg><l>次應作辟除</l><l>結金剛藥叉</l>
 <lb n="0611c09"/><l>二羽金剛拳</l><l>檀慧進力屈</l>
 <lb n="0611c10"/><l>置於口兩頰</l><l>想身同彼尊</l>
 <lb n="0611c11"/><l>厲聲誦真言</l><l>左右而顧視</l></lg>
 <lb n="0611c12"/><p><note n="0611018" resp="Taisho" type="orig" place="foot text">（即誦）&M062403;＋金【甲】＊</note><app n="0611018"><lem>金</lem><rdg wit="【？】" resp="【甲】">即誦金</rdg></app>剛藥叉真言曰</p>
-<lb n="0611c13"/><p type="dharani"><anchor id="fxT20p0611c03"/>唵&CB00085;日囉<note place="inline">二合</note>藥乞叉<note place="inline">二合</note>&CB00292;</p>
+<lb n="0611c13"/><p type="dharani"><app type="＊" source="0611007"><lem>唵</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app>&CB00085;日囉<note place="inline">二合</note>藥乞叉<note place="inline">二合</note>&CB00292;</p>
 <lb n="0611c14"/><lg><l>所有諸障者</l><l>悉皆四馳散</l>
 <lb n="0611c15"/><l>二目想麼吒</l><l>轉如日月輪</l>
 <lb n="0611c16"/><l>止觀金剛拳</l><l>各安於二&CB03437;</l>
 <lb n="0611c17"/><l>隨日作旋視</l><l>以成十方界</l></lg>
-<lb n="0611c18"/><p><anchor id="fxT20p0611c04"/>誦金剛眼真言曰</p>
+<lb n="0611c18"/><p><app type="＊" source="0611013"><lem>誦</lem><rdg resp="【甲】" wit="【？】">即誦</rdg></app>金剛眼真言曰</p>
 <lb n="0611c19"/><p type="dharani">唵&CB00085;日囉<note place="inline">二合引</note>涅哩<note place="inline">二合</note>瑟知<note place="inline">二合</note>麼<note n="0611019" resp="Taisho" type="orig" place="foot text">吒＋（半音呼）細註&M062403;【甲】</note><app n="0611019"><lem>吒</lem><rdg wit="【？】" resp="【甲】">吒<note place="inline">半音呼</note></rdg></app></p>
 <lb n="0611c20"/><lg><l>當入三摩地</l><l>縛印相如前</l>
 <lb n="0611c21"/><l>仰安結跏上</l><l>端身須正直</l>
@@ -275,7 +278,7 @@ Added comment  for Emacs
 <lb n="0612b20"/><p>次誦般若波羅蜜觀念心真言曰</p>
 <lb n="0612b21"/><p type="dharani">唵達麼&CB00085;日&CB00942;<note place="inline">二合</note>涅哩<note place="inline">二合</note>捨野<note place="inline">二合</note>弱吽&CB00680;
 <lb n="0612b22"/>斛</p>
-<lb n="0612b23"/><p><note n="0612012" resp="Taisho" type="orig" place="foot text">（印契如前相觀身同本尊）&M062403;＋此【甲】</note><app n="0612012"><lem>此</lem><rdg wit="【？】" resp="【甲】">印契如前相觀身同本尊此</rdg></app>是大薩埵鉤召引入縛令心喜悅<anchor id="fxT20p0612b01"/>誦三昧
+<lb n="0612b23"/><p><note n="0612012" resp="Taisho" type="orig" place="foot text">（印契如前相觀身同本尊）&M062403;＋此【甲】</note><app n="0612012"><lem>此</lem><rdg wit="【？】" resp="【甲】">印契如前相觀身同本尊此</rdg></app>是大薩埵鉤召引入縛令心喜悅<app type="＊" source="0611013"><lem>誦</lem><rdg resp="【甲】" wit="【？】">即誦</rdg></app>三昧
 <lb n="0612b24"/>耶薩怛&CB00680;<note place="inline">三合</note>遍入背後而月輪。於中應觀
 <lb n="0612b25"/><note n="0612013" resp="Taisho" type="orig" place="foot text">〔後面〕&M062403;－【甲】</note><app n="0612013"><lem>後面</lem><rdg wit="【？】" resp="【甲】">&lac;</rdg></app>薩埵。我三昧耶薩怛&CB00680;<note place="inline">三合</note>隨彼印薩
 <lb n="0612b26"/>埵。修習觀自身。金剛語已成。能成就諸印。行
@@ -298,14 +301,14 @@ Added comment  for Emacs
 <lb n="0612c13"/><lg><l>次當結四攝</l><l>二羽金剛拳</l>
 <lb n="0612c14"/><l>交腕結檀慧</l><l>頭指如大鉤</l>
 <lb n="0612c15"/><l>如索亦如鎖</l><l>手背而相<note n="0612015" resp="Taisho" type="orig" place="foot text">逼＋（次腕合而振禪智入於掌）&M062403;【甲】</note><app n="0612015"><lem>逼</lem><rdg wit="【？】" resp="【甲】">逼次腕合而振禪智入於掌</rdg></app></l></lg>
-<lb n="0612c16"/><p><anchor id="fxT20p0612c01"/>金剛鉤真言曰</p>
+<lb n="0612c16"/><p><app type="＊" source="0611018"><lem>金</lem><rdg resp="【甲】" wit="【？】">即誦金</rdg></app>剛鉤真言曰</p>
 <lb n="0612c17"/><p type="dharani">&CB00085;日&CB03298;<note place="inline">二合</note>矩勢<note place="inline">一</note>弱</p>
-<lb n="0612c18"/><p><anchor id="fxT20p0612c02"/>金剛索真言曰</p>
-<lb n="0612c19"/><p type="dharani">&CB00085;日囉<note place="inline">二合<anchor id="fxT20p0612c03"/>引</note>播勢&CB00292;<note place="inline">二合</note></p>
-<lb n="0612c20"/><p><anchor id="fxT20p0612c04"/>金剛鎖真言曰</p>
+<lb n="0612c18"/><p><app type="＊" source="0611018"><lem>金</lem><rdg resp="【甲】" wit="【？】">即誦金</rdg></app>剛索真言曰</p>
+<lb n="0612c19"/><p type="dharani">&CB00085;日囉<note place="inline">二合<app type="＊" source="0612009"><lem>引</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app></note>播勢&CB00292;<note place="inline">二合</note></p>
+<lb n="0612c20"/><p><app type="＊" source="0611018"><lem>金</lem><rdg resp="【甲】" wit="【？】">即誦金</rdg></app>剛鎖真言曰</p>
 <lb n="0612c21"/><p type="dharani">&CB00085;日囉<note place="inline">二合</note>餉迦麗<note place="inline">一</note>&CB00805;</p>
-<lb n="0612c22"/><p><anchor id="fxT20p0612c05"/>金剛鈴真言曰</p>
-<lb n="0612c23"/><p type="dharani">&CB00085;日囉<note place="inline">二合<anchor id="fxT20p0612c06"/>引</note>巘滯<note place="inline">一</note>斛</p>
+<lb n="0612c22"/><p><app type="＊" source="0611018"><lem>金</lem><rdg resp="【甲】" wit="【？】">即誦金</rdg></app>剛鈴真言曰</p>
+<lb n="0612c23"/><p type="dharani">&CB00085;日囉<note place="inline">二合<app type="＊" source="0612009"><lem>引</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app></note>巘滯<note place="inline">一</note>斛</p>
 <lb n="0612c24"/><lg><l>由金剛鉤召</l><l>能作諸事業</l>
 <lb n="0612c25"/><l>由金剛索儀</l><l>能一切引入</l>
 <lb n="0612c26"/><l>金剛鎖相應</l><l>堪任一切縛</l>
@@ -330,31 +333,31 @@ Added comment  for Emacs
 <lb n="0613a15"/>音</note></p>
 <lb n="0613a16"/><p><note n="0613002" resp="Taisho" type="orig" place="foot text">次＋（誦）&M062403;【甲】＊</note><app n="0613002"><lem>次</lem><rdg wit="【？】" resp="【甲】">次誦</rdg></app>金剛鬘真言曰</p>
 <lb n="0613a17"/><p type="dharani">系囉底&CB00085;日囉<note place="inline">二合引一</note>賀細<note place="inline">二</note>訶訶<note place="inline">三</note></p>
-<lb n="0613a18"/><p><anchor id="fxT20p0613a01"/>次金剛歌真言曰</p>
+<lb n="0613a18"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛歌真言曰</p>
 <lb n="0613a19"/><p type="dharani">系囉底&CB00085;日囉<note place="inline">二合引一</note>擬諦諦<note n="0613003" resp="Taisho" type="orig" place="foot text">諦＋（三）細註【甲】</note><app n="0613003"><lem>諦</lem><rdg wit="【甲】" resp="Taisho">諦<note place="inline">三</note></rdg></app></p>
-<lb n="0613a20"/><p><anchor id="fxT20p0613a02"/>次金剛舞真言曰</p>
+<lb n="0613a20"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛舞真言曰</p>
 <lb n="0613a21"/><p type="dharani">系囉底&CB00085;日囉<note place="inline">二合引一</note>&CB00135;哩<note place="inline">二合</note>底曳<note place="inline">二合二</note>吠波吠
 <lb n="0613a22"/>波<note place="inline">三</note></p>
 <lb n="0613a23"/><p>復作外四供養而奉獻之</p>
-<lb n="0613a24"/><p><anchor id="fxT20p0613a03"/>次金剛花鬘真言曰</p>
+<lb n="0613a24"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛花鬘真言曰</p>
 <lb n="0613a25"/><p type="dharani">系<note place="inline">一</note>&CB00085;日囉<note place="inline">二合引二</note>囉底<note place="inline">三</note></p>
-<lb n="0613a26"/><p><anchor id="fxT20p0613a04"/>次金剛<note n="0613004" resp="Taisho" type="orig" place="foot text">（燒）&M062403;＋香【甲】</note><app n="0613004"><lem>香</lem><rdg wit="【？】" resp="【甲】">燒香</rdg></app>真言曰</p>
+<lb n="0613a26"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛<note n="0613004" resp="Taisho" type="orig" place="foot text">（燒）&M062403;＋香【甲】</note><app n="0613004"><lem>香</lem><rdg wit="【？】" resp="【甲】">燒香</rdg></app>真言曰</p>
 <lb n="0613a27"/><p type="dharani">摩訶囉多&CB00085;日哩<note place="inline">二合一</note>斛<note place="inline">二</note></p>
-<lb n="0613a28"/><p><anchor id="fxT20p0613a05"/>次金剛燈真言曰</p>
+<lb n="0613a28"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛燈真言曰</p>
 <lb n="0613a29"/><p type="dharani">唵<note place="inline">一</note>&CB00085;日囉<note place="inline">二合引二</note>路者寧<note place="inline">三</note></p>
 <pb ed="T" id="T20.1151.0613b" n="0613b"/>
-<lb n="0613b01"/><p><anchor id="fxT20p0613b01"/>次金剛塗香真言曰</p>
+<lb n="0613b01"/><p><app type="＊" source="0613002"><lem>次</lem><rdg resp="【甲】" wit="【？】">次誦</rdg></app>金剛塗香真言曰</p>
 <lb n="0613b02"/><p type="dharani">摩訶室唎<note place="inline">二合一</note>&CB00085;日哩<note place="inline">二合二</note>呬<note place="inline">三</note></p>
 <lb n="0613b03"/><p>修行者纔住是八供養菩薩三摩地。即能出
 <lb n="0613b04"/>生盡十方界一切佛剎廣大雲海供養儀式。
 <lb n="0613b05"/>次即結本尊三昧耶印。二羽金剛合掌。以大
 <lb n="0613b06"/>指各捻二頭指<note n="0613005" resp="Taisho" type="orig" place="foot text">側＝初則&M062403;【甲】</note><app n="0613005"><lem>側</lem><rdg wit="【？】" resp="【甲】">初則</rdg></app>誦本尊真言七遍</p>
 <lb n="0613b07"/><p>真言曰</p>
-<lb n="0613b08"/><p type="dharani">娜謨婆<note place="inline">去</note>&CB00344;&CB00085;怛曳<note place="inline">二合引一</note>&CB00425;囉<note place="inline">二合<anchor id="fxT20p0613b02"/>引</note>枳孃<note place="inline">二合</note>播
+<lb n="0613b08"/><p type="dharani">娜謨婆<note place="inline">去</note>&CB00344;&CB00085;怛曳<note place="inline">二合引一</note>&CB00425;囉<note place="inline">二合<app type="＊" source="0612009"><lem>引</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app></note>枳孃<note place="inline">二合</note>播
 <lb n="0613b09"/><note place="inline">引</note>囉弭跢<note place="inline">引</note>曳<note place="inline"><note n="0613006" resp="Taisho" type="orig" place="foot text">二＋（引）&M062403;【甲】</note><app n="0613006"><lem>二</lem><rdg wit="【？】" resp="【甲】">二引</rdg></app></note>唵<note place="inline">三</note>紇唎<note place="inline">二合入引</note>地<note place="inline">引入</note>室哩
 <lb n="0613b10"/><note place="inline">二合引四</note>&CB02122;嚕<note place="inline">二合</note>底尾惹曳<note place="inline">五</note>娑&CB00085;<note place="inline">二合引</note><note n="0613007" resp="Taisho" type="orig" place="foot text">賀＋（引六）細註&M062403;【甲】</note><app n="0613007"><lem>賀</lem><rdg wit="【？】" resp="【甲】">賀<note place="inline">引六</note></rdg></app></p>
 <lb n="0613b11"/><p>次當誦念珠真言曰</p>
-<lb n="0613b12"/><p type="dharani">唵&CB00085;日囉<note place="inline">二合<anchor id="fxT20p0613b03"/>引</note>愚呬耶<note place="inline">二合引</note>惹跛三麼<note n="0613008" resp="Taisho" type="orig" place="foot text">曳＝野【甲】</note><app n="0613008"><lem>曳</lem><rdg wit="【甲】" resp="Taisho">野</rdg></app>吽</p>
+<lb n="0613b12"/><p type="dharani">唵&CB00085;日囉<note place="inline">二合<app type="＊" source="0612009"><lem>引</lem><rdg resp="【甲】" wit="【？】">&lac;</rdg></app></note>愚呬耶<note place="inline">二合引</note>惹跛三麼<note n="0613008" resp="Taisho" type="orig" place="foot text">曳＝野【甲】</note><app n="0613008"><lem>曳</lem><rdg wit="【甲】" resp="Taisho">野</rdg></app>吽</p>
 <lb n="0613b13"/><p>由誦此真言加持念珠七遍故。念誦一遍則
 <lb n="0613b14"/>成千遍。如是加持畢已。四時三時乃至二時。
 <lb n="0613b15"/>或一百八遍或一千遍。凡時分遍數一則常
@@ -410,4 +413,4 @@ Added comment  for Emacs
 <lb n="0614a05"/>悉能摧滅一切障礙。悉能住持一切諸佛菩
 <lb n="0614a06"/>薩功德。故名金剛般若心也</p>
 <lb n="0614a07"/><juan fun="close" n="001"><jhead>修習般若波羅蜜菩薩觀行念誦儀軌<note n="0614001" resp="Taisho" type="orig" place="foot text">〔一卷〕－【甲】，甲本奧書曰丙午歲高麗國大藏都監奉&CB00330;雕造，貞享三年九月十九日一校正了淨嚴四十八載，元祿十六年二月十六日以淨嚴和上之本再校了尊教</note><app n="0614001"><lem>一卷</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0614001" place="foot" type="rest">甲本奧書曰丙午歲高麗國大藏都監奉&CB00330;雕造，貞享三年九月十九日一校正了淨嚴四十八載，元祿十六年二月十六日以淨嚴和上之本再校了尊教</note></jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

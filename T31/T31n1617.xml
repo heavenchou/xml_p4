@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:57 $</date>
+		<date>$Date: 2003/06/23 06:18:22 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 31, No. 1617 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T31n1617.xml,v $
-Revision 1.1  2003/05/05 04:09:57  ray
-Initial revision
+Revision 1.2  2003/06/23 06:18:22  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:57  ray
+recover cvs
 
 Revision 1.16  2002/12/05 09:00:53  saywhat
 校勘插入處理
@@ -97,7 +100,7 @@ Revision 1.6  2001/02/07 07:06:11  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:56:57  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:57 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:18:22 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -258,7 +261,7 @@ Added comment  for Emacs
 <pb ed="T" id="T31.1617.0869a" n="0869a"/>
 <lb n="0869a01"/>無名字者。謂此何物<note n="0869001" resp="Taisho" type="orig" place="foot text">〔為〕－【三】【宮】</note><note n="0869001" resp="CBETA" type="mod">〔為〕－【宋】【元】【明】【宮】</note><app n="0869001"><lem>為</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。此云何。何所以。云
 <lb n="0869a02"/>何如此。此四句分別。初一<note n="0869002" resp="Taisho" type="orig" place="foot text">覓＝覺【三】【宮】＊</note><note n="0869002" resp="CBETA" type="mod">覓＝覺【宋】【元】【明】【宮】＊</note><app n="0869002"><lem>覓</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">覺</rdg></app>體性。次<note n="0869003" resp="Taisho" type="orig" place="foot text">一＝二【明】</note><app n="0869003"><lem>一</lem><rdg wit="【明】" resp="Taisho">二</rdg></app>求
-<lb n="0869a03"/>因。謂何因緣故有如此。三<anchor id="fxT31p0869a01"/>覓體差別。四求
+<lb n="0869a03"/>因。謂何因緣故有如此。三<app type="＊" source="0869002"><lem>覓</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">覺</rdg></app>體差別。四求
 <lb n="0869a04"/>因差別。此四皆是無名字分別。此依名分別
 <lb n="0869a05"/>義自性五種。又有五種所分別自性。一依名
 <lb n="0869a06"/>分別義自性。二依義分別名自性。三依名分
@@ -341,10 +344,10 @@ Added comment  for Emacs
 <lb n="0869c23"/>依止類。起虛妄分別。是名我所分別也。所執
 <lb n="0869c24"/>境界義不異第四。但能分別有我執及我所
 <lb n="0869c25"/>執為異耳。<note n="0869012" resp="Taisho" type="orig" place="foot text">（名）＋六【元】</note><app n="0869012"><lem>六</lem><rdg wit="【元】" resp="Taisho">名六</rdg></app>愛分別。謂緣可愛淨類。虛妄
-<lb n="0869c26"/>分別。名愛分別也。七<note n="0869013" resp="Taisho" type="orig" place="foot text">憎＝增【宋】【宮】＊</note><app n="0869013"><lem>憎</lem><rdg wit="【宋】【宮】" resp="Taisho">增</rdg></app>憶分別。謂緣可<anchor id="fxT31p0869c01"/>憎
-<lb n="0869c27"/>不淨類。虛妄分別。名<anchor id="fxT31p0869c02"/>憎憶分別也。八非愛
-<lb n="0869c28"/>非<anchor id="fxT31p0869c03"/>憎分別。謂緣非可愛<anchor id="fxT31p0869c04"/>憎類。翻前二分別。
-<lb n="0869c29"/>名非愛非<anchor id="fxT31p0869c05"/>憎分別也。若略說分別。唯有兩
+<lb n="0869c26"/>分別。名愛分別也。七<note n="0869013" resp="Taisho" type="orig" place="foot text">憎＝增【宋】【宮】＊</note><app n="0869013"><lem>憎</lem><rdg wit="【宋】【宮】" resp="Taisho">增</rdg></app>憶分別。謂緣可<app type="＊" source="0869013"><lem>憎</lem><rdg resp="Taisho" wit="【宋】【宮】">增</rdg></app>
+<lb n="0869c27"/>不淨類。虛妄分別。名<app type="＊" source="0869013"><lem>憎</lem><rdg resp="Taisho" wit="【宋】【宮】">增</rdg></app>憶分別也。八非愛
+<lb n="0869c28"/>非<app type="＊" source="0869013"><lem>憎</lem><rdg resp="Taisho" wit="【宋】【宮】">增</rdg></app>分別。謂緣非可愛<app type="＊" source="0869013"><lem>憎</lem><rdg resp="Taisho" wit="【宋】【宮】">增</rdg></app>類。翻前二分別。
+<lb n="0869c29"/>名非愛非<app type="＊" source="0869013"><lem>憎</lem><rdg resp="Taisho" wit="【宋】【宮】">增</rdg></app>分別也。若略說分別。唯有兩
 <pb ed="T" id="T31.1617.0870a" n="0870a"/>
 <lb n="0870a01"/>種。一分別依止。二分別境界。於八種分別中。
 <lb n="0870a02"/>自性及差別并辨聚中一執。此三分別能作
@@ -395,13 +398,13 @@ Added comment  for Emacs
 <lb n="0870b17"/>覺知隨眠通三性。加行唯不善。是上心惑離
 <lb n="0870b18"/>有五種。隨愛生貪。隨憎起瞋。隨捨生無明。此
 <lb n="0870b19"/>三是煩惱體。和合遠離是煩惱用。由貪故和
-<lb n="0870b20"/>合。由瞋故遠離。由無明故通成此<anchor id="fxT31p0870b01"/>兩。不立別
+<lb n="0870b20"/>合。由瞋故遠離。由無明故通成此<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>。不立別
 <lb n="0870b21"/>能。貪是引<note n="0870007" resp="Taisho" type="orig" place="foot text">境＋（界）【三】【宮】</note><note n="0870007" resp="CBETA" type="mod">境＋（界）【宋】【元】【明】【宮】</note><app n="0870007"><lem>境</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">境界</rdg></app>故和合。瞋是棄境故遠離。由
 <lb n="0870b22"/>有無明故有引棄。是故通成二用。次依名分
 <lb n="0870b23"/>別義等。五種分別。為顯分別依止及境界。差
 <lb n="0870b24"/>別依止及境界。但分別性攝後八種分別。為
 <lb n="0870b25"/>顯三種障事。謂自性<note n="0870008" resp="Taisho" type="orig" place="foot text">差＝分【三】【宮】</note><note n="0870008" resp="CBETA" type="mod">差＝分【宋】【元】【明】【宮】</note><app n="0870008"><lem>差</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">分</rdg></app>別聚中一執。此三分
-<lb n="0870b26"/>別能生心煩惱。為一切智障。我及我所。此<anchor id="fxT31p0870b02"/>兩
+<lb n="0870b26"/>別能生心煩惱。為一切智障。我及我所。此<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>
 <lb n="0870b27"/>分別能生肉煩惱。為解脫障。可愛可憎及翻
 <lb n="0870b28"/>前二。此三分別能生皮煩惱。為禪定障。此三
 <lb n="0870b29"/>煩惱即三事類。心煩惱即戲論事類。肉煩惱
@@ -433,7 +436,7 @@ Added comment  for Emacs
 <lb n="0870c25"/>曰邪見。由此邪見能障治道。今既見理即達
 <lb n="0870c26"/>昔所見非有故。云分別性。即無由此正道能
 <lb n="0870c27"/>除昔邪見故。云依他性。即滅昔分別依他。更
-<lb n="0870c28"/>無兩體。今見除二道。亦一而無<anchor id="fxT31p0870c01"/>兩也</p>
+<lb n="0870c28"/>無兩體。今見除二道。亦一而無<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>也</p>
 <lb n="0870c29"/><p>論曰。是名分別性功用成立。分別性有四義
 <pb ed="T" id="T31.1617.0871a" n="0871a"/>
 <lb n="0871a01"/>畢。此次明成立依他性。此性體相已如前說
@@ -452,7 +455,7 @@ Added comment  for Emacs
 <lb n="0871a14"/><p>論曰。此性體相云何。答曰。唯是相類及&CB00308;重
 <lb n="0871a15"/>惑類。問曰。此類云何說為依他<note n="0871001" resp="Taisho" type="orig" place="foot text">〔也〕－【三】【宮】</note><note n="0871001" resp="CBETA" type="mod">〔也〕－【宋】【元】【明】【宮】</note><app n="0871001"><lem>也</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></p><p type="inline">答曰。
 <lb n="0871a16"/>互為因緣共相成故。所以然者。由緣相故&CB00308;
-<lb n="0871a17"/>重得成。由緣&CB00308;重相類得成故。說此<anchor id="fxT31p0871a01"/>兩類名
+<lb n="0871a17"/>重得成。由緣&CB00308;重相類得成故。說此<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>類名
 <lb n="0871a18"/>依他性。何以故。無異體故。並名依他性約義
 <lb n="0871a19"/>終不同也</p>
 <lb n="0871a20"/><p>問曰。若爾云何此性由無生故名無生性。
@@ -464,7 +467,7 @@ Added comment  for Emacs
 <lb n="0871a26"/>向無故非無。若解意者。則一切種名並皆可
 <lb n="0871a27"/>說。亦可說有亦可說無。亦可說亦有亦無。亦
 <lb n="0871a28"/>可說非有非無。皆不相違</p><p type="inline">問曰。此言有
-<lb n="0871a29"/>者為是物有。為假名有</p><p type="inline">答曰。具有<anchor id="fxT31p0871a02"/>兩義
+<lb n="0871a29"/>者為是物有。為假名有</p><p type="inline">答曰。具有<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>義
 <pb ed="T" id="T31.1617.0871b" n="0871b"/>
 <lb n="0871b01"/>故可說有。不如是有名假名有。非一向無故
 <lb n="0871b02"/>名物有。謂有物也</p><p type="inline">問曰。既說為有。為是
@@ -485,7 +488,7 @@ Added comment  for Emacs
 <lb n="0871b17"/>多義生。如如中明分別依他用。因果生滅無
 <lb n="0871b18"/>前後義。真諦者謂七種如如。一生二相三識
 <lb n="0871b19"/>四依止五邪行六清淨七正行。一生如如者。
-<lb n="0871b20"/>謂有為法無前無後。有為法者但<anchor id="fxT31p0871b01"/>兩性攝。謂
+<lb n="0871b20"/>謂有為法無前無後。有為法者但<app type="＊" source="0870006"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>性攝。謂
 <lb n="0871b21"/>分別依他。此法無前無後。凡有三種。一約
 <lb n="0871b22"/><note n="0871006" resp="Taisho" type="orig" place="foot text">二＝一【元】</note><app n="0871006"><lem>二</lem><rdg wit="【元】" resp="Taisho">一</rdg></app>性辨無前後。若說依他性在前無有分別
 <lb n="0871b23"/>性。依他不成。若說分別性在前無有依他性。
@@ -582,7 +585,7 @@ Added comment  for Emacs
 <lb n="0872b24"/>諦者。謂真似兩集。真集者。謂諸煩惱能令五
 <lb n="0872b25"/>陰相續是有。似集者。謂諸業能得諸道差別。
 <lb n="0872b26"/>集有三種。一熏習集。謂分別性類<note n="0872005" resp="Taisho" type="orig" place="foot text">惑＝或【三】【宮】＊</note><note n="0872005" resp="CBETA" type="mod">惑＝或【宋】【元】【明】【宮】＊</note><app n="0872005"><lem>惑</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">或</rdg></app>能熏起
-<lb n="0872b27"/><note n="0872006" resp="Taisho" type="orig" place="foot text">集＝執【三】【宮】＊</note><note n="0872006" resp="CBETA" type="mod">集＝執【宋】【元】【明】【宮】＊</note><app n="0872006"><lem>集</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">執</rdg></app>。何以故。由分別類<anchor id="fxT31p0872b01"/>惑能作<anchor id="fxT31p0872b02"/>集家因。二
+<lb n="0872b27"/><note n="0872006" resp="Taisho" type="orig" place="foot text">集＝執【三】【宮】＊</note><note n="0872006" resp="CBETA" type="mod">集＝執【宋】【元】【明】【宮】＊</note><app n="0872006"><lem>集</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">執</rdg></app>。何以故。由分別類<app type="＊" source="0872005"><lem>惑</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">或</rdg></app>能作<app type="＊" source="0872006"><lem>集</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">執</rdg></app>家因。二
 <lb n="0872b28"/>發起集。謂煩惱及業。何以故。由此生起成
 <lb n="0872b29"/>故</p>
 <pb ed="T" id="T31.1617.0872c" n="0872c"/>
@@ -675,7 +678,7 @@ Added comment  for Emacs
 <lb n="0873b26"/>何以故。分別依他非真實故<note n="0873011" resp="Taisho" type="orig" place="foot text">兩＝而【三】【宮】【聖】</note><note n="0873011" resp="CBETA" type="mod">兩＝而【宋】【元】【明】【宮】【聖】</note><app n="0873011"><lem>兩</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">而</rdg></app>體是無性。
 <lb n="0873b27"/>若不無性則分別依他成真實有。若說分別
 <lb n="0873b28"/>依他是真實。則無無性義。是故不得具說<note n="0873012" resp="Taisho" type="orig" place="foot text">真＝具【聖】</note><app n="0873012"><lem>真</lem><rdg wit="【聖】" resp="Taisho">具</rdg></app>
-<lb n="0873b29"/>實無性<anchor id="fxT31p0873b01"/>兩義也。若說無性真實性義可然。
+<lb n="0873b29"/>實無性<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>義也。若說無性真實性義可然。
 <pb ed="T" id="T31.1617.0873c" n="0873c"/>
 <lb n="0873c01"/>若說依他分別真實無性。此即不可。真實之
 <lb n="0873c02"/>名濫分別依他故</p><p type="inline">問曰。經中說有五相一
@@ -707,7 +710,7 @@ Added comment  for Emacs
 <lb n="0873c28"/>一一性中皆有五事分別性具。五事用者。一
 <lb n="0873c29"/>能生依他性。二於依他性中能立名言。三能
 <pb ed="T" id="T31.1617.0874a" n="0874a"/>
-<lb n="0874a01"/>起人法<anchor id="fxT31p0874a01"/>兩執。四能成立二執&CB00308;重。五能作
+<lb n="0874a01"/>起人法<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>執。四能成立二執&CB00308;重。五能作
 <lb n="0874a02"/><note n="0874001" resp="Taisho" type="orig" place="foot text">（但）＋入【三】【宮】【聖】</note><note n="0874001" resp="CBETA" type="mod">（但）＋入【宋】【元】【明】【宮】【聖】</note><app n="0874001"><lem>入</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">但入</rdg></app>真實性依止事</p><p type="inline">釋曰。初即能生義體。
 <lb n="0874a03"/>次能生義<note n="0874002" resp="Taisho" type="orig" place="foot text">上＝一【元】，立【明】</note><note n="0874002" resp="CBETA" type="mod">上＝一【元】，＝立【明】</note><app n="0874002"><lem>上</lem><rdg wit="【元】" resp="Taisho">一</rdg><rdg wit="【明】" resp="Taisho">立</rdg></app>名言。第三即能生起人法二相。
 <lb n="0874a04"/>第四即能生煩惱。第五即能解脫。前三明能
@@ -814,7 +817,7 @@ Added comment  for Emacs
 <lb n="0875a15"/>盡通。令離苦斷集證滅修道。宿命一通通有
 <lb n="0875a16"/>後兩輪也。四成熟眾生行。謂四攝法。總說為
 <lb n="0875a17"/>一成熟眾生行。此明為已入理眾生。更以財
-<lb n="0875a18"/>法<anchor id="fxT31p0875a01"/>兩施攝令成熟。財攝者是利<note n="0875003" resp="Taisho" type="orig" place="foot text">益＋（利）【三】【宮】</note><note n="0875003" resp="CBETA" type="mod">益＋（利）【宋】【元】【明】【宮】</note><app n="0875003"><lem>益</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">益利</rdg></app>方便為
+<lb n="0875a18"/>法<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>施攝令成熟。財攝者是利<note n="0875003" resp="Taisho" type="orig" place="foot text">益＋（利）【三】【宮】</note><note n="0875003" resp="CBETA" type="mod">益＋（利）【宋】【元】【明】【宮】</note><app n="0875003"><lem>益</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">益利</rdg></app>方便為
 <lb n="0875a19"/>令成熟。法攝者覺悟起行隨順方便為令成
 <lb n="0875a20"/>熟</p>
 <lb n="0875a21"/><p>釋曰。布施攝令其成熟。成熟者逐位淺深也。
@@ -867,7 +870,7 @@ Added comment  for Emacs
 <lb n="0875c08"/>離相者離分別性。離生者離依他性也。此假
 <lb n="0875c09"/>名但增<note n="0875011" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】【聖】</note><note n="0875011" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】【聖】</note><app n="0875011"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>加所作者。若究尋陰體。唯一如如
 <lb n="0875c10"/>體無增減。若立為亂識。已是一重增加。就亂
-<lb n="0875c11"/>識中更復分別立為五陰。復是<anchor id="fxT31p0875c01"/>兩重增加。菩
+<lb n="0875c11"/>識中更復分別立為五陰。復是<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>重增加。菩
 <lb n="0875c12"/>薩尋思。<note n="0875012" resp="Taisho" type="orig" place="foot text">惟＝唯【宋】【元】【宮】【聖】</note><app n="0875012"><lem>惟</lem><rdg wit="【宋】【元】【宮】【聖】" resp="Taisho">唯</rdg></app>見自性家假。不見假家自性也</p>
 <lb n="0875c13"/><p>論曰。四尋思差別假者。謂菩薩尋思。但見差
 <lb n="0875c14"/>別假不見餘物。何以故。此假無名<note n="0875013" resp="Taisho" type="orig" place="foot text">〔無〕－【宮】【聖】</note><app n="0875013"><lem>無</lem><rdg wit="【宮】【聖】" resp="Taisho">&lac;</rdg></app>相故。
@@ -908,7 +911,7 @@ Added comment  for Emacs
 <lb n="0876a19"/>若不能想則不能起增益見執。若無見無執
 <lb n="0876a20"/>則不能宣說。以是義故世間立名菩薩如實
 <lb n="0876a21"/>知此名。是名尋思名得如實智也</p>
-<lb n="0876a22"/><p>釋曰。如實知此名者。有兩種如實<anchor id="fxT31p0876a01"/>知。一約
+<lb n="0876a22"/><p>釋曰。如實知此名者。有兩種如實<app type="＊" source="0875001"><lem>知</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】【聖】">智</rdg></app>。一約
 <lb n="0876a23"/>世間如實知。為三義故立名。二約出世如實
 <lb n="0876a24"/>觀。此名約類故起。類不可得故名亦不可得
 <lb n="0876a25"/>也</p>
@@ -950,7 +953,7 @@ Added comment  for Emacs
 <lb n="0876c01"/>通以如理故。<note n="0876007" resp="Taisho" type="orig" place="foot text">〔故〕－【聖】</note><app n="0876007"><lem>故</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>名等分。稱為遍滿也。是靜
 <lb n="0876c02"/>定境界者。過凡夫二乘所得定故名為靜。非
 <lb n="0876c03"/>散心所緣境故名為定。若菩薩入甚深觀方
-<lb n="0876c04"/>見此理。故言靜定<anchor id="fxT31p0876c01"/>位境也。此中若毘&CB00425;舍那
+<lb n="0876c04"/>見此理。故言靜定<app type="＊" source="0876005"><lem>位</lem><rdg resp="Taisho" wit="【聖】">主</rdg></app>境也。此中若毘&CB00425;舍那
 <lb n="0876c05"/>勝立名分別。若奢摩他勝立<note n="0876008" resp="Taisho" type="orig" place="foot text">〔名〕－【宮】</note><app n="0876008"><lem>名</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>無分別。此言
 <lb n="0876c06"/>分別者。非分別性但說無分別智名分別。第
 <lb n="0876c07"/>三種類究竟者。於前分別無分別境。如量如
@@ -966,7 +969,7 @@ Added comment  for Emacs
 <lb n="0876c17"/>也</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">明</rdg><rdg wit="【明】" resp="Taisho">名</rdg></app>。分別界<note n="0876012" resp="Taisho" type="orig" place="foot text">者＝六【宋】【元】</note><app n="0876012"><lem>者</lem><rdg wit="【宋】【元】" resp="Taisho">六</rdg></app>即界入觀。除我我所也。出入
 <lb n="0876c18"/>息念者除覺觀也。廣解如諸義科釋也。第
 <lb n="0876c19"/>三勝智境界者。自有五種。一<note n="0876013" resp="Taisho" type="orig" place="foot text">陰＝除【三】【宮】＊</note><note n="0876013" resp="CBETA" type="mod">陰＝除【宋】【元】【明】【宮】＊</note><app n="0876013"><lem>陰</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">除</rdg></app>勝智。為除
-<lb n="0876c20"/>聚中執一我見。<anchor id="fxT31p0876c02"/>陰有三義。一多謂三世不一。
+<lb n="0876c20"/>聚中執一我見。<app type="＊" source="0876013"><lem>陰</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">除</rdg></app>有三義。一多謂三世不一。
 <lb n="0876c21"/>二異謂色等差別。三和合謂聚集一處。是故
 <lb n="0876c22"/>若多若異和合為一世間。說名為集。外道執
 <lb n="0876c23"/>我有三義。一執<note n="0876014" resp="Taisho" type="orig" place="foot text">我＋（有三義一執我）【聖】</note><app n="0876014"><lem>我</lem><rdg wit="【聖】" resp="Taisho">我有三義一執我</rdg></app>常故以三世義破。二執我
@@ -1057,7 +1060,7 @@ Added comment  for Emacs
 <lb n="0877c18"/>及佛。是所至得繫屬大丈夫。故七行者。謂具
 <lb n="0877c19"/>正見人不作殺等惡行。但凡夫能作。何以故。
 <lb n="0877c20"/>繫屬見諦故。此七略說有三繫屬。謂業惑生。
-<lb n="0877c21"/>初<anchor id="fxT31p0877c01"/>兩繫屬業。次一繫屬惑。後四繫屬生。若
+<lb n="0877c21"/>初<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>繫屬業。次一繫屬惑。後四繫屬生。若
 <lb n="0877c22"/>人了達此七處非處者。即能除我自在執。故
 <lb n="0877c23"/>名處非處勝智。此五名為勝智境界也。勝智
 <lb n="0877c24"/>者。即是人空智也。此五法門。為顯五種人我
@@ -1093,7 +1096,7 @@ Added comment  for Emacs
 <lb n="0878a24"/>別功用也。四由觀眾生事滅除生死者。若菩
 <lb n="0878a25"/>薩但觀自利滅除生死。則同二乘。若菩薩但
 <lb n="0878a26"/>觀眾生不滅除生死。則同世間凡夫父母等。
-<lb n="0878a27"/>若翻此<anchor id="fxT31p0878a01"/>兩行。則通能自他俱利。是名觀眾生
+<lb n="0878a27"/>若翻此<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>行。則通能自他俱利。是名觀眾生
 <lb n="0878a28"/>事也。五為求無比無上智。無比者謂如來智。
 <lb n="0878a29"/>此智非有為以真如為體故。非無為以知見
 <pb ed="T" id="T31.1617.0878b" n="0878b"/>
@@ -1105,22 +1108,22 @@ Added comment  for Emacs
 <lb n="0878b06"/>真諦為體。第二方便俗諦為體。此二並據境
 <lb n="0878b07"/>能生智取。能生之境為方便體也。第三方
 <lb n="0878b08"/>便正<note n="0878006" resp="Taisho" type="orig" place="foot text">行＋（行）【聖】</note><app n="0878006"><lem>行</lem><rdg wit="【聖】" resp="Taisho">行行</rdg></app>為體。第四方便<note n="0878007" resp="Taisho" type="orig" place="foot text">〔共〕－【聖】</note><app n="0878007"><lem>共</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>利為體。第五方
-<lb n="0878b09"/>便依止為體。雖有五意亦不出四義。前<anchor id="fxT31p0878b01"/>兩是
+<lb n="0878b09"/>便依止為體。雖有五意亦不出四義。前<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>是
 <lb n="0878b10"/>方便緣緣。次一是正方便。第四是方便果。由
-<lb n="0878b11"/>此方便得自他<anchor id="fxT31p0878b02"/>兩利故。第五是方便依止。亦
+<lb n="0878b11"/>此方便得自他<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>利故。第五是方便依止。亦
 <lb n="0878b12"/>名為因因。依此智方便得成故。依止無二智
 <lb n="0878b13"/>者。在因位中於生死涅槃二處無礙。何以故。
 <lb n="0878b14"/>由愛眾生不愛生死故。在果位中入涅槃有
 <lb n="0878b15"/>更起心。如小乘說<note n="0878008" resp="Taisho" type="orig" place="foot text">〔佛〕－【三】【宮】【聖】</note><note n="0878008" resp="CBETA" type="mod">〔佛〕－【宋】【元】【明】【宮】【聖】</note><app n="0878008"><lem>佛</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>入無心定還更起心也。
-<lb n="0878b16"/>此智於因果<anchor id="fxT31p0878b03"/>兩位。無著不著。無在不在無著
+<lb n="0878b16"/>此智於因果<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>位。無著不著。無在不在無著
 <lb n="0878b17"/>不著者。異凡夫二乘故。不著生死涅槃。無在
 <lb n="0878b18"/>不在者。據於果地。二乘所在有餘無餘涅槃
 <lb n="0878b19"/>涅槃故不在有更起心故非不在是故應知佛
 <lb n="0878b20"/>智無等。何以故。餘人智者或著生死或著涅
 <lb n="0878b21"/>槃。佛則不爾。此智能利益一切眾生。何以故。
 <lb n="0878b22"/>能成就自利利他故。餘人智者或但自利或
-<lb n="0878b23"/>不<anchor id="fxT31p0878b04"/>兩利。以是義故。佛智不可思惟。二處不
+<lb n="0878b23"/>不<app type="＊" source="0873009"><lem>兩</lem><rdg resp="Taisho" wit="【元】【明】">二</rdg></app>利。以是義故。佛智不可思惟。二處不
 <lb n="0878b24"/>著故。為利益自他功能。為解脫涅槃不般涅
 <lb n="0878b25"/>槃故三無性品。究竟</p>
 <lb n="0878b26"/><juan fun="close" n="002"><note n="0878009" resp="Taisho" type="orig" place="foot text">〔三無性論卷下〕－【明】</note><app n="0878009"><lem>三無性論卷下</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

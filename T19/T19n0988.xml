@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:16 $</date>
+		<date>$Date: 2003/06/23 06:14:03 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 988 &desc;</bibl>
@@ -57,8 +57,11 @@
 	</change>
 <!--
 $Log: T19n0988.xml,v $
-Revision 1.1  2003/05/05 04:09:16  ray
-Initial revision
+Revision 1.2  2003/06/23 06:14:03  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:16  ray
+recover cvs
 
 Revision 1.17  2002/12/25 08:27:51  saywhat
 【三】＊取代
@@ -101,7 +104,7 @@ Revision 1.5  2001/02/07 06:54:54  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:44:51  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:16 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:14:03 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -135,13 +138,13 @@ Added comment  for Emacs
 <lb n="0482a12"/><p>東方檀殿軍頭廣百步口開谷山十十五五合
 <lb n="0482a13"/>依<note n="0482002" resp="Taisho" type="orig" place="foot text">吞＝天【三】＊</note><note n="0482002" resp="CBETA" type="mod">吞＝天【宋】＊【元】＊【明】＊</note><app n="0482002"><lem>吞</lem><rdg wit="【宋】【元】【明】" resp="Taisho">天</rdg></app></p>
 <lb n="0482a14"/><p>南方檀殿軍頭廣百步口開谷山十十五五合
-<lb n="0482a15"/>依<anchor id="fxT19p0482a01"/>吞</p>
+<lb n="0482a15"/>依<app type="＊" source="0482002"><lem>吞</lem><rdg resp="Taisho" wit="【宋】【元】【明】">天</rdg></app></p>
 <lb n="0482a16"/><p>西方檀殿軍頭廣百步口開谷山十十五五合
-<lb n="0482a17"/>依<anchor id="fxT19p0482a02"/>吞</p>
+<lb n="0482a17"/>依<app type="＊" source="0482002"><lem>吞</lem><rdg resp="Taisho" wit="【宋】【元】【明】">天</rdg></app></p>
 <lb n="0482a18"/><p>北方檀殿軍頭廣百步口開谷山十十五五合
-<lb n="0482a19"/>依<anchor id="fxT19p0482a03"/>吞</p>
+<lb n="0482a19"/>依<app type="＊" source="0482002"><lem>吞</lem><rdg resp="Taisho" wit="【宋】【元】【明】">天</rdg></app></p>
 <lb n="0482a20"/><p>中央檀殿軍頭廣百步口開谷山十十五五合
-<lb n="0482a21"/>依<anchor id="fxT19p0482a04"/>吞</p>
+<lb n="0482a21"/>依<app type="＊" source="0482002"><lem>吞</lem><rdg resp="Taisho" wit="【宋】【元】【明】">天</rdg></app></p>
 <lb n="0482a22"/><p>東方薄鳩深山沙羅佉收汝百鬼項著枷</p>
 <lb n="0482a23"/><p>南方薄鳩深山沙羅佉收汝百鬼項著枷</p>
 <lb n="0482a24"/><p>西方薄鳩深山沙羅佉收汝百鬼項著枷</p>
@@ -163,7 +166,7 @@ Added comment  for Emacs
 <lb n="0482b10"/><p>南方大神龍王名訶樓勒叉提於佛大會時自
 <lb n="0482b11"/>言我當護是汝摩訶般若波羅<note n="0482004" resp="Taisho" type="orig" place="foot text">蜜＝密【宋】【元】</note><app n="0482004"><lem>蜜</lem><rdg wit="【宋】【元】" resp="Taisho">密</rdg></app>神&CB00057;</p>
 <lb n="0482b12"/><p>西方大神龍王名那頭華於佛大會時自言我
-<lb n="0482b13"/>當護是汝摩訶般若波羅<anchor id="fxT19p0482b01"/>蜜神&CB00057;</p>
+<lb n="0482b13"/>當護是汝摩訶般若波羅<app type="＊" source="0482003"><lem>蜜</lem><rdg resp="Taisho" wit="【宋】">密</rdg></app>神&CB00057;</p>
 <lb n="0482b14"/><p>北方大神龍王名訶梨勒叉提於佛大會時自
 <lb n="0482b15"/>言我當護是汝摩訶般若波羅蜜神&CB00057;</p>
 <lb n="0482b16"/><p>清修菩薩入身求魔。淨藏菩薩折髓求魔。
@@ -235,7 +238,7 @@ Added comment  for Emacs
 <lb n="0483a22"/>茶四名白居。五名華眼六名取子。七名取髮
 <lb n="0483a23"/>八名作黃。九名垂下十名極垂下。十一名<note n="0483006" resp="Taisho" type="orig" place="foot text">伺＝同【三】</note><note n="0483006" resp="CBETA" type="mod">伺＝同【宋】【元】【明】</note><app n="0483006"><lem>伺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">同</rdg></app>
 <lb n="0483a24"/>便十二名闍羅使。十三名闍羅剎十四名噉
-<lb n="0483a25"/>鬼。汝等受我香華飲食。擁護<anchor id="fxT19p0483a01"/><note place="inline">某乙</note>及諸眷屬。
+<lb n="0483a25"/>鬼。汝等受我香華飲食。擁護<note place="inline"><app type="＊" source="0483001"><lem>某乙</lem><rdg resp="Taisho" wit="【宋】【元】【明】">某甲</rdg></app></note>及諸眷屬。
 <lb n="0483a26"/>使我&CB00057;句如意成吉</p>
 <lb n="0483a27"/><p>爾時佛告阿難。汝持如來大孔雀王&CB00057;。擁護
 <lb n="0483a28"/><note place="inline">某甲</note>吉祥比丘。與結界&CB00057;使毒不能害。刀<note n="0483007" resp="Taisho" type="orig" place="foot text">仗＝杖【三】</note><note n="0483007" resp="CBETA" type="mod">仗＝杖【宋】【元】【明】</note><app n="0483007"><lem>仗</lem><rdg wit="【宋】【元】【明】" resp="Taisho">杖</rdg></app>
@@ -278,7 +281,7 @@ Added comment  for Emacs
 <lb n="0483c05"/>迦禰　僧迦梨　噬<note n="0483016" resp="Taisho" type="orig" place="foot text">囉＝羅【三】</note><note n="0483016" resp="CBETA" type="mod">囉＝羅【宋】【元】【明】</note><app n="0483016"><lem>囉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羅</rdg></app>禰　頭末禰　婆究
 <lb n="0483c06"/>禰　求羅耶　毘羅耶　毘羅耶　莎訶</p>
 <lb n="0483c07"/><p>四天王及諸大鬼神王。亦以孔雀王&CB00057;。擁護
-<lb n="0483c08"/><note place="inline">某甲</note><anchor id="fxT19p0483c01"/>之身即說&CB00057;曰</p>
+<lb n="0483c08"/><note place="inline">某甲</note><app type="＊" source="0483013"><lem>之身</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&lac;</rdg></app>即說&CB00057;曰</p>
 <lb n="0483c09"/><p type="dharani">阿迦帝　毘迦帝　闍羅膩闍羅膩　陀羅尼
 <lb n="0483c10"/>陀羅尼陀羅尼陀羅尼陀羅尼陀羅尼陀羅尼
 <lb n="0483c11"/>陀羅尼陀羅尼陀羅尼　吼翅吼翅吼翅　阿
@@ -304,7 +307,7 @@ Added comment  for Emacs
 <lb n="0484a01"/>翅醯翅醯翅醯翅醯翅醯翅醯翅醯翅　彌翅
 <lb n="0484a02"/>彌翅彌翅彌翅彌翅彌翅摩翅摩翅摩翅摩
 <lb n="0484a03"/>翅</p>
-<lb n="0484a04"/><p>得<note n="0484001" resp="Taisho" type="orig" place="foot text">普＝善【元】【明】＊</note><app n="0484001"><lem>普</lem><rdg wit="【元】【明】" resp="Taisho">善</rdg></app>賢吉祥<anchor id="fxT19p0484a01"/>普賢成一切事無垢淨妙月賢
+<lb n="0484a04"/><p>得<note n="0484001" resp="Taisho" type="orig" place="foot text">普＝善【元】【明】＊</note><app n="0484001"><lem>普</lem><rdg wit="【元】【明】" resp="Taisho">善</rdg></app>賢吉祥<app type="＊" source="0484001"><lem>普</lem><rdg resp="Taisho" wit="【元】【明】">善</rdg></app>賢成一切事無垢淨妙月賢
 <lb n="0484a05"/>日愛曇備社曇備毘蠅迦&CB00619;擁護<note place="inline">某甲</note>命受百
 <lb n="0484a06"/>歲得見百秋<note n="0484002" resp="Taisho" type="orig" place="foot text">〔即說&CB00057;曰〕－【三】</note><note n="0484002" resp="CBETA" type="mod">〔即說&CB00057;曰〕－【宋】【元】【明】</note><app n="0484002"><lem>即說&CB00057;曰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></p>
 <lb n="0484a07"/><p><note n="0484003" resp="Taisho" type="orig" place="foot text">〔大金…經〕八字－【三】</note><note n="0484003" resp="CBETA" type="mod">〔大金…經〕八字－【宋】【元】【明】</note><app n="0484003" word-count="8"><lem>大金色孔雀王&CB00057;經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></p>
@@ -323,7 +326,7 @@ Added comment  for Emacs
 <lb n="0484a20"/>濘<note n="0484008" resp="Taisho" type="orig" place="foot text">嚀＝吒【三】下同</note><note n="0484008" resp="CBETA" type="mod">嚀＝吒【宋】下同【元】下同【明】下同</note><app n="0484008"><lem>嚀</lem><rdg wit="【宋】【元】【明】" resp="Taisho">吒</rdg></app>嚀嚀嚀嚀嚀嚀嚀嚀嚀　摩訶吒吒　阿
 <lb n="0484a21"/>毘利　阿毘利　摩訶阿毘利　阿毘利　阿
 <lb n="0484a22"/>毘利　摩訶阿毘利　阿婆阿<note n="0484009" resp="Taisho" type="orig" place="foot text">婆＝毘【三】＊</note><note n="0484009" resp="CBETA" type="mod">婆＝毘【宋】＊【元】＊【明】＊</note><app n="0484009"><lem>婆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">毘</rdg></app>　阿<note n="0484010" resp="Taisho" type="orig" place="foot text">毘＝婆【三】＊</note><note n="0484010" resp="CBETA" type="mod">毘＝婆【宋】＊【元】＊【明】＊</note><app n="0484010"><lem>毘</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婆</rdg></app>阿
-<lb n="0484a23"/>毘　阿婆阿<anchor id="fxT19p0484a02"/>婆　阿<anchor id="fxT19p0484a03"/>毘阿毘　陀徙陀徙
+<lb n="0484a23"/>毘　阿婆阿<app type="＊" source="0484009"><lem>婆</lem><rdg resp="Taisho" wit="【宋】【元】【明】">毘</rdg></app>　阿<app type="＊" source="0484010"><lem>毘</lem><rdg resp="Taisho" wit="【宋】【元】【明】">婆</rdg></app>阿毘　陀徙陀徙
 <lb n="0484a24"/>陀徙陀徙陀徙陀徙陀徙陀徙陀<note n="0484011" resp="Taisho" type="orig" place="foot text">徙＋（陀徙）【三】</note><note n="0484011" resp="CBETA" type="mod">徙＋（陀徙）【宋】【元】【明】</note><app n="0484011"><lem>徙</lem><rdg wit="【宋】【元】【明】" resp="Taisho">徙陀徙</rdg></app>　<note n="0484012" resp="Taisho" type="orig" place="foot text">（摩訶）＋尼【三】</note><note n="0484012" resp="CBETA" type="mod">（摩訶）＋尼【宋】【元】【明】</note><app n="0484012"><lem>尼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">摩訶尼</rdg></app>利
 <lb n="0484a25"/>尼　<note n="0484013" resp="Taisho" type="orig" place="foot text">利＋（尼）【三】</note><note n="0484013" resp="CBETA" type="mod">利＋（尼）【宋】【元】【明】</note><app n="0484013"><lem>利</lem><rdg wit="【宋】【元】【明】" resp="Taisho">利尼</rdg></app>　摩訶利尼利尼利尼利尼利尼利尼
 <lb n="0484a26"/>利尼利尼利尼利<note n="0484014" resp="Taisho" type="orig" place="foot text">〔尼〕－【三】</note><note n="0484014" resp="CBETA" type="mod">〔尼〕－【宋】【元】【明】</note><app n="0484014"><lem>尼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>首婁首婁首婁首婁首
@@ -370,4 +373,4 @@ Added comment  for Emacs
 <lb n="0484c07"/><note n="0484028" resp="Taisho" type="orig" place="foot text">番＝幡【三】</note><note n="0484028" resp="CBETA" type="mod">番＝幡【宋】【元】【明】</note><app n="0484028"><lem>番</lem><rdg wit="【宋】【元】【明】" resp="Taisho">幡</rdg></app>。然七油燈。酪一器&CB00595;漿一器。飯一器薄
 <lb n="0484c08"/>餅一器。安石<note n="0484029" resp="Taisho" type="orig" place="foot text">榴＝蜜【三】</note><note n="0484029" resp="CBETA" type="mod">榴＝蜜【宋】【元】【明】</note><app n="0484029"><lem>榴</lem><rdg wit="【宋】【元】【明】" resp="Taisho">蜜</rdg></app>一器華一器</p>
 <lb n="0484c09"/><juan fun="close" n="001"><jhead><note n="0484030" resp="Taisho" type="orig" place="foot text">（大金色）＋孔【三】</note><note n="0484030" resp="CBETA" type="mod">（大金色）＋孔【宋】【元】【明】</note><app n="0484030"><lem>孔</lem><rdg wit="【宋】【元】【明】" resp="Taisho">大金色孔</rdg></app>雀王<note n="0484031" resp="Taisho" type="orig" place="foot text">〔&CB00057;〕－【宋】</note><app n="0484031"><lem>&CB00057;</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>經</jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

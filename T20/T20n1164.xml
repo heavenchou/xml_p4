@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:23 $</date>
+		<date>$Date: 2003/06/23 06:16:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1164 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T20n1164.xml,v $
-Revision 1.1  2003/05/05 04:09:23  ray
-Initial revision
+Revision 1.2  2003/06/23 06:16:04  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:23  ray
+recover cvs
 
 Revision 1.17  2002/12/05 05:20:27  saywhat
 校勘插入處理
@@ -103,7 +106,7 @@ Revision 1.5  2001/02/07 06:56:33  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:28  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:23 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:16:04 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -184,17 +187,17 @@ Added comment  for Emacs
 <lb n="0670b20"/><note place="inline">五</note>娑<note place="inline">引</note>&CB00344;囉<note place="inline">六</note>&CB00575;<note place="inline">寧吉反下同</note>&CB00069;&CB03765;<note place="inline">苦姑反二合引</note>灑<note place="inline">引</note>野<note place="inline">七</note>
 <lb n="0670b21"/>怛他<note place="inline">去引</note>&CB00344;跢<note place="inline"><note n="0670006" resp="Taisho" type="orig" place="foot text">引＋（下賀反）【三】</note><note n="0670006" resp="CBETA" type="mod">引＋（下賀反）【宋】【元】【明】</note><app n="0670006"><lem>引</lem><rdg wit="【宋】【元】【明】" resp="Taisho">引下賀反</rdg></app></note>野<note place="inline">引八</note>&CB00069;賀<note place="inline">二合</note>帝<note place="inline">引九</note>三<note place="inline">去</note>
 <lb n="0670b22"/>藐訖三<note place="inline">二合</note>沒馱<note place="inline">引</note>野<note place="inline">十</note>怛&CB00135;也<note place="inline">二合引</note>他<note place="inline">去引十一</note>素嚕
-<lb n="0670b23"/><note place="inline">引</note>閉<note place="inline">引十二</note>素&CB00085;<note place="inline"><anchor id="fxT20p0670b01"/>准上</note>娜&CB00576;<note place="inline">引十三</note>婆<note place="inline">去</note>&CB00178;<note n="0670007" resp="Taisho" type="orig" place="foot text">黎＝&CB00769;【三】</note><note n="0670007" resp="CBETA" type="mod">黎＝&CB00769;【宋】【元】【明】</note><app n="0670007"><lem>黎</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00769;</rdg></app><note place="inline">二合引十四</note>
-<lb n="0670b24"/>素婆<note place="inline">去</note>捺&CB00769;<note place="inline">二合引十五</note>婆<note place="inline">去</note>捺囉<note place="inline">二合</note>&CB00085;<note place="inline"><anchor id="fxT20p0670b02"/>准上</note>底<note place="inline">十
-<lb n="0670b25"/>六</note>讚捺囉<note place="inline">二合</note>&CB00085;<note place="inline"><anchor id="fxT20p0670b03"/>准上</note>底<note place="inline">丁<note n="0670008" resp="Taisho" type="orig" place="foot text">壹＝里【明】</note><app n="0670008"><lem>壹</lem><rdg wit="【明】" resp="Taisho">里</rdg></app>反下同十七</note>懵&CB00344;&CB00942;<note place="inline">引</note>
+<lb n="0670b23"/><note place="inline">引</note>閉<note place="inline">引十二</note>素&CB00085;<note place="inline"><app type="＊" source="0670005"><lem>准</lem><rdg resp="Taisho" wit="【明】">同</rdg></app>上</note>娜&CB00576;<note place="inline">引十三</note>婆<note place="inline">去</note>&CB00178;<note n="0670007" resp="Taisho" type="orig" place="foot text">黎＝&CB00769;【三】</note><note n="0670007" resp="CBETA" type="mod">黎＝&CB00769;【宋】【元】【明】</note><app n="0670007"><lem>黎</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00769;</rdg></app><note place="inline">二合引十四</note>
+<lb n="0670b24"/>素婆<note place="inline">去</note>捺&CB00769;<note place="inline">二合引十五</note>婆<note place="inline">去</note>捺囉<note place="inline">二合</note>&CB00085;<note place="inline"><app type="＊" source="0670005"><lem>准</lem><rdg resp="Taisho" wit="【明】">同</rdg></app>上</note>底<note place="inline">十
+<lb n="0670b25"/>六</note>讚捺囉<note place="inline">二合</note>&CB00085;<note place="inline"><app type="＊" source="0670005"><lem>准</lem><rdg resp="Taisho" wit="【明】">同</rdg></app>上</note>底<note place="inline">丁<note n="0670008" resp="Taisho" type="orig" place="foot text">壹＝里【明】</note><app n="0670008"><lem>壹</lem><rdg wit="【明】" resp="Taisho">里</rdg></app>反下同十七</note>懵&CB00344;&CB00942;<note place="inline">引</note>
 <lb n="0670b26"/>懵&CB00344;&CB00942;<note place="inline">引十八</note>素懵&CB00344;&CB00619;<note place="inline">引十九</note>懵&CB00344;&CB00256;&CB00085;<note place="inline">無鏺反</note>底
-<lb n="0670b27"/><note place="inline">上同二十</note>阿<note place="inline"><note n="0670009" resp="Taisho" type="orig" place="foot text">上＋（聲）【明】＊</note><app n="0670009"><lem>上</lem><rdg wit="【明】" resp="Taisho">上聲</rdg></app></note>&CB00942;<note place="inline">引二十一</note>阿<anchor id="fxT20p0670b04"/><note place="inline">上</note>左&CB00942;<note place="inline">引二十二</note>阿<anchor id="fxT20p0670b05"/><note place="inline">上</note>左播&CB00942;<note place="inline">二十
+<lb n="0670b27"/><note place="inline">上同二十</note>阿<note place="inline"><note n="0670009" resp="Taisho" type="orig" place="foot text">上＋（聲）【明】＊</note><app n="0670009"><lem>上</lem><rdg wit="【明】" resp="Taisho">上聲</rdg></app></note>&CB00942;<note place="inline">引二十一</note>阿<note place="inline"><app type="＊" source="0670009"><lem>上</lem><rdg resp="Taisho" wit="【明】">上聲</rdg></app></note>左&CB00942;<note place="inline">引二十二</note>阿<note place="inline"><app type="＊" source="0670009"><lem>上</lem><rdg resp="Taisho" wit="【明】">上聲</rdg></app></note>左播&CB00942;<note place="inline">二十
 <lb n="0670b28"/>三</note>嗢耨伽<note place="inline">二合引</note>哆&CB00575;<note place="inline">寧<note n="0670010" resp="Taisho" type="orig" place="foot text">逸＝吉【明】</note><app n="0670010"><lem>逸</lem><rdg wit="【明】" resp="Taisho">吉</rdg></app>反二十四</note>嗢&CB00135;庾<note place="inline">二合</note>怛&CB00575;
 <pb ed="T" id="T20.1164.0670c" n="0670c"/>
 <lb n="0670c01"/><note place="inline">二十五</note>嗢耨避<note place="inline">二合引</note>娜&CB00575;<note place="inline">同前二十六</note>鄔砌<note place="inline">引</note>那&CB00575;<note place="inline">二十七</note>薩
 <lb n="0670c02"/>寫&CB00085;<note place="inline">上同</note>底<note place="inline">二十八</note>馱曩&CB00085;<note place="inline">同前</note>底<note place="inline">二十九</note>馱<note place="inline">引</note>寧也
-<lb n="0670c03"/><note place="inline">二合</note>&CB00085;<note place="inline"><anchor id="fxT20p0670c01"/>准上</note>底<note place="inline">三十</note>室哩<note place="inline">二合引</note>沫底<note place="inline">三十一</note>&CB00425;囉<note place="inline">二合</note>
-<lb n="0670c04"/>婆<note place="inline">引去</note>沫底<note place="inline">三十二</note>阿<anchor id="fxT20p0670c02"/><note place="inline">上</note>麼&CB00942;<note place="inline">引三十三</note>尾麼&CB00942;<note place="inline">引三十四</note>
+<lb n="0670c03"/><note place="inline">二合</note>&CB00085;<note place="inline"><app type="＊" source="0670005"><lem>准</lem><rdg resp="Taisho" wit="【明】">同</rdg></app>上</note>底<note place="inline">三十</note>室哩<note place="inline">二合引</note>沫底<note place="inline">三十一</note>&CB00425;囉<note place="inline">二合</note>
+<lb n="0670c04"/>婆<note place="inline">引去</note>沫底<note place="inline">三十二</note>阿<note place="inline"><app type="＊" source="0670009"><lem>上</lem><rdg resp="Taisho" wit="【明】">上聲</rdg></app></note>麼&CB00942;<note place="inline">引三十三</note>尾麼&CB00942;<note place="inline">引三十四</note>
 <lb n="0670c05"/>&CB00575;&CB00069;麼<note place="inline">二合</note>&CB00942;<note place="inline">引三十五</note>嚕嚕<note place="inline">三十六</note>嚕嚕<note place="inline">三十七</note>嚕嚕&CB00085;
 <lb n="0670c06"/><note place="inline">同前</note>底<note place="inline">三十八</note>素嚕<note place="inline">引</note>閉<note place="inline">引三十九</note>拶跛&CB00942;<note place="inline">引四十</note>懵&CB00344;&CB00942;
 <lb n="0670c07"/><note place="inline">引四十一</note>阿<note place="inline">去引</note>&CB00069;半<note place="inline">二合</note>曩悉帝<note place="inline">二合引四十二</note>尾怛曩悉帝
@@ -202,7 +205,7 @@ Added comment  for Emacs
 <lb n="0670c09"/>尾哆曩悉帝<note place="inline">二合引四十六</note>遏馱曩悉帝<note place="inline">二合引四十七</note>唧怛囉
 <lb n="0670c10"/><note place="inline">二合</note>曩悉帝<note place="inline">二合引四十八</note>尾濕&CB00085;<note place="inline">二合</note>計<note place="inline">引</note>始&CB00575;<note place="inline">四十九</note>
 <lb n="0670c11"/>尾濕&CB00085;<note place="inline">二合</note>嚕<note place="inline">引</note>錍<note place="inline">音卑五十</note>尾&CB02122;曩始<note place="inline">五十一</note>尾舜馱
-<lb n="0670c12"/>施&CB00942;<note place="inline">引五十二</note>尾麌抳&CB00576;<note place="inline">引</note>&CB03928;<note place="inline">引五十三</note>阿<anchor id="fxT20p0670c03"/><note place="inline">上</note>努<note place="inline">鼻音</note>哆<note place="inline">重
+<lb n="0670c12"/>施&CB00942;<note place="inline">引五十二</note>尾麌抳&CB00576;<note place="inline">引</note>&CB03928;<note place="inline">引五十三</note>阿<note place="inline"><app type="＊" source="0670009"><lem>上</lem><rdg resp="Taisho" wit="【明】">上聲</rdg></app></note>努<note place="inline">鼻音</note>哆<note place="inline">重
 <lb n="0670c13"/>呼</note>&CB00769;<note place="inline">引五十四</note>盎<note place="inline">烏&CB00040;反</note>矩&CB00769;<note place="inline">五十五</note>懵矩&CB00769;<note place="inline">引五十六</note>&CB00425;囉<note place="inline">二合</note>
 <lb n="0670c14"/>龐<note place="inline">去</note>矩&CB00769;<note place="inline">引五十七</note>尾囉銘<note place="inline">引五十八</note>尾馱銘<note place="inline">引五十九</note>度銘<note place="inline">引六
 <lb n="0670c15"/>十</note>度度銘<note place="inline">引六十一</note>哩哩銘<note place="inline">引六十二</note>佉佉&CB00942;<note place="inline">引六十三</note>企企銘
@@ -219,10 +222,10 @@ Added comment  for Emacs
 <pb ed="T" id="T20.1164.0671a" n="0671a"/>
 <lb n="0671a01"/><note place="inline">八十八</note>薩底也<note place="inline">二合反</note>麼努<note place="inline">鼻音</note>娑麼<note place="inline">二合</note>囉<note place="inline">八十九</note>達&CB00069;
 <lb n="0671a02"/>麼<note place="inline">二合</note>薩底也<note place="inline"><note n="0671001" resp="Taisho" type="orig" place="foot text">三＝二【三】</note><note n="0671001" resp="CBETA" type="mod">三＝二【宋】【元】【明】</note><app n="0671001"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">二</rdg></app>合<note n="0671002" resp="Taisho" type="orig" place="foot text">〔反〕－【明】＊</note><app n="0671002"><lem>反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>九十</note>麼努娑麼<note place="inline">二合</note>囉<note place="inline">九十一</note>
-<lb n="0671a03"/>僧<note place="inline">去</note>伽薩底也<note place="inline">二合<anchor id="fxT20p0671a01"/>反九十二</note>麼努<note place="inline">鼻音</note><note n="0671003" resp="Taisho" type="orig" place="foot text">娑＝婆【明】</note><app n="0671003"><lem>娑</lem><rdg wit="【明】" resp="Taisho">婆</rdg></app>麼<note place="inline">二合</note>囉
+<lb n="0671a03"/>僧<note place="inline">去</note>伽薩底也<note place="inline">二合<app type="＊" source="0671002"><lem>反</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>九十二</note>麼努<note place="inline">鼻音</note><note n="0671003" resp="Taisho" type="orig" place="foot text">娑＝婆【明】</note><app n="0671003"><lem>娑</lem><rdg wit="【明】" resp="Taisho">婆</rdg></app>麼<note place="inline">二合</note>囉
 <lb n="0671a04"/><note place="inline">九十三</note>怛吒怛吒<note place="inline">九十四</note>布囉野布囉野<note place="inline">九十五</note>布囉抳
 <lb n="0671a05"/>布囉抳<note place="inline">九十六</note>薩&CB00069;&CB00085;<note place="inline">二合引</note>&CB00765;<note place="inline">引九十七</note>薩&CB00069;&CB00085;<note place="inline">二合</note>薩
-<lb n="0671a06"/>怛&CB00085;<note place="inline">二合引</note>難<note place="inline"><anchor id="fxT20p0671a02"/>上引</note>左<note place="inline">九十八</note>婆<note place="inline">去</note>囉婆<note place="inline">去</note>囉<note place="inline">九十九</note>懵
+<lb n="0671a06"/>怛&CB00085;<note place="inline">二合引</note>難<note place="inline"><app type="＊" source="0670009"><lem>上</lem><rdg resp="Taisho" wit="【明】">上聲</rdg></app>引</note>左<note place="inline">九十八</note>婆<note place="inline">去</note>囉婆<note place="inline">去</note>囉<note place="inline">九十九</note>懵
 <lb n="0671a07"/>&CB00344;&CB00942;<note place="inline">引一百</note>扇<note place="inline">引</note>哆沫底<note place="inline">一百一</note>&CB02122;婆沫底<note place="inline">一百二</note>麼賀
 <lb n="0671a08"/><note place="inline">引</note>麼底<note place="inline">一百三</note>懵&CB00344;&CB00256;麼底<note place="inline">一百四</note>&CB00425;囉<note place="inline">二合</note>婆<note place="inline">引</note>&CB00085;
 <lb n="0671a09"/>底<note place="inline">一百五</note>婆<note place="inline">去</note>捺囉<note place="inline">二合</note>&CB00085;底<note place="inline">一百六</note>素讚捺囉<note place="inline">二合</note>
@@ -248,8 +251,8 @@ Added comment  for Emacs
 <lb n="0671b03"/>室哩<note place="inline">二合引</note>&CB00085;<note place="inline"><note n="0671005" resp="Taisho" type="orig" place="foot text">上同＝同上【明】＊</note><app n="0671005"><lem>上同</lem><rdg wit="【明】" resp="Taisho">同上</rdg></app></note>素母&CB00575;<note place="inline">七</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引八</note></p>
 <lb n="0671b04"/><p>心明曰</p>
 <lb n="0671b05"/><p type="dharani">曩謨<note place="inline">去引一</note>囉怛曩<note place="inline">二合</note>怛囉<note place="inline">二合</note>夜<note place="inline">引</note>野<note place="inline">二</note>唵<note place="inline">引三</note>
-<lb n="0671b06"/>&CB00085;<anchor id="fxT20p0671b01"/><note place="inline">上同</note>素室哩<note place="inline">二合</note>&CB03928;<note place="inline">引四</note>娑<note n="0671006" resp="Taisho" type="orig" place="foot text">縛＝&CB00085;【三】</note><note n="0671006" resp="CBETA" type="mod">縛＝&CB00085;【宋】【元】【明】</note><app n="0671006"><lem>縛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00085;</rdg></app><note place="inline">二合引</note>賀<note place="inline">引五</note>
-<lb n="0671b07"/>唵<note place="inline">引六</note>室哩<note place="inline">二合引七</note>&CB00085;<note place="inline"><anchor id="fxT20p0671b02"/>准上</note>素麼底<note place="inline">八</note>室<note n="0671007" resp="Taisho" type="orig" place="foot text">里＝哩【三】</note><note n="0671007" resp="CBETA" type="mod">里＝哩【宋】【元】【明】</note><app n="0671007"><lem>里</lem><rdg wit="【宋】【元】【明】" resp="Taisho">哩</rdg></app><note place="inline">二合引</note>
+<lb n="0671b06"/>&CB00085;<note place="inline"><app type="＊" source="0671005"><lem>上同</lem><rdg resp="Taisho" wit="【明】">同上</rdg></app></note>素室哩<note place="inline">二合</note>&CB03928;<note place="inline">引四</note>娑<note n="0671006" resp="Taisho" type="orig" place="foot text">縛＝&CB00085;【三】</note><note n="0671006" resp="CBETA" type="mod">縛＝&CB00085;【宋】【元】【明】</note><app n="0671006"><lem>縛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00085;</rdg></app><note place="inline">二合引</note>賀<note place="inline">引五</note>
+<lb n="0671b07"/>唵<note place="inline">引六</note>室哩<note place="inline">二合引七</note>&CB00085;<note place="inline"><app type="＊" source="0670005"><lem>准</lem><rdg resp="Taisho" wit="【明】">同</rdg></app>上</note>素麼底<note place="inline">八</note>室<note n="0671007" resp="Taisho" type="orig" place="foot text">里＝哩【三】</note><note n="0671007" resp="CBETA" type="mod">里＝哩【宋】【元】【明】</note><app n="0671007"><lem>里</lem><rdg wit="【宋】【元】【明】" resp="Taisho">哩</rdg></app><note place="inline">二合引</note>
 <lb n="0671b08"/>&CB03928;<note place="inline">引九</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引十</note>唵<note place="inline">引十一</note>&CB00085;<note place="inline">無鏺反</note>素<note place="inline">十二</note>
 <lb n="0671b09"/>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引十三</note>唵<note place="inline">引十四</note>&CB02255;乞芻弭<note place="inline">三合引</note>&CB01835;<note place="inline">引</note>哆&CB02255;
 <lb n="0671b10"/>&CB00575;<note place="inline">十五</note>&CB00085;<note place="inline">引</note>悉寧<note place="inline">引</note>&CB03928;<note place="inline">引十六</note>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline">引十七</note>曩謨
@@ -335,4 +338,4 @@ Added comment  for Emacs
 <lb n="0672b01"/>一切世間天人阿素囉彥達&CB00085;等。皆大歡喜
 <lb n="0672b02"/>信受奉行作禮而退</p>
 <lb n="0672b03"/><juan fun="close" n="001"><jhead>佛說大乘聖吉祥持世陀羅尼經</jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:24 $</date>
+		<date>$Date: 2003/06/23 06:16:05 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1174 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T20n1174.xml,v $
-Revision 1.1  2003/05/05 04:09:24  ray
-Initial revision
+Revision 1.2  2003/06/23 06:16:05  saywhat
+[＊]校勘插入XML
+
+Revision 1.1.1.1  2003/05/05 04:09:24  ray
+recover cvs
 
 Revision 1.15  2002/12/05 05:20:27  saywhat
 校勘插入處理
@@ -97,7 +100,7 @@ Revision 1.5  2001/02/07 06:56:39  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:34  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:24 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 06:16:05 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -224,7 +227,7 @@ Added comment  for Emacs
 <lb n="0714c08"/><l>觀密&CB00528;等眾</l><l>受教而侍立</l>
 <lb n="0714c09"/><l>左旋成辟除</l><l>右旋成結界</l></lg>
 <lb n="0714c10"/><p type="dharani">唵遜婆&CB00135;遜婆&CB00135;吽<note n="0714022" resp="Taisho" type="orig" place="foot text">吃＝屹【明】【乙】，紇【甲】</note><note n="0714022" resp="CBETA" type="mod">吃＝屹【明】【乙】，＝紇【甲】</note><app n="0714022"><lem>吃</lem><rdg wit="【明】【乙】" resp="Taisho">屹</rdg><rdg wit="【甲】" resp="Taisho">紇</rdg></app>哩<note place="inline">二合</note>恨拏<note place="inline">二合</note><note n="0714023" resp="Taisho" type="orig" place="foot text">仡＝屹【明】【乙】＊，紇【甲】＊</note><note n="0714023" resp="CBETA" type="mod">仡＝屹【明】【乙】＊，＝紇【甲】＊</note><app n="0714023"><lem>仡</lem><rdg wit="【明】【乙】" resp="Taisho">屹</rdg><rdg wit="【甲】" resp="Taisho">紇</rdg></app>
-<lb n="0714c11"/><note n="0714024" resp="Taisho" type="orig" place="foot text">哩＝里【明】</note><app n="0714024"><lem>哩</lem><rdg wit="【明】" resp="Taisho">里</rdg></app><note place="inline">二合</note>恨拏<note place="inline">二合</note>吽<anchor id="fxT20p0714c01"/>仡哩<note place="inline">二合</note>恨拏<note place="inline">二<note n="0714025" resp="Taisho" type="orig" place="foot text">合＋（引）【乙】＊</note><app n="0714025"><lem>合</lem><rdg wit="【乙】" resp="Taisho">合引</rdg></app></note>播耶
+<lb n="0714c11"/><note n="0714024" resp="Taisho" type="orig" place="foot text">哩＝里【明】</note><app n="0714024"><lem>哩</lem><rdg wit="【明】" resp="Taisho">里</rdg></app><note place="inline">二合</note>恨拏<note place="inline">二合</note>吽<app type="＊" source="0714023"><lem>仡</lem><rdg resp="Taisho" wit="【明】【乙】">屹</rdg><rdg resp="Taisho" wit="【甲】">紇</rdg></app>哩<note place="inline">二合</note>恨拏<note place="inline">二<note n="0714025" resp="Taisho" type="orig" place="foot text">合＋（引）【乙】＊</note><app n="0714025"><lem>合</lem><rdg wit="【乙】" resp="Taisho">合引</rdg></app></note>播耶
 <lb n="0714c12"/>吽阿曩耶縠薄伽&CB00680;&CB00085;日囉<note place="inline">二合</note>吽發吒<note place="inline">半音</note></p>
 <lb n="0714c13"/><lg><l>次結三昧印</l><l>行者住三昧</l>
 <lb n="0714c14"/><l>二羽外相叉</l><l>仰於<note n="0714026" resp="Taisho" type="orig" place="foot text">跏＝加【明】【乙】</note><app n="0714026"><lem>跏</lem><rdg wit="【明】【乙】" resp="Taisho">加</rdg></app>坐上</l>
@@ -241,11 +244,11 @@ Added comment  for Emacs
 <lb n="0714c25"/><p type="dharani">唵底瑟&CB00109;<note place="inline">二合</note>&CB00085;日囉<note place="inline">二合</note>底乞瑟拏<note place="inline"><note n="0714030" resp="Taisho" type="orig" place="foot text">三＝二【明】【乙】＊</note><app n="0714030"><lem>三</lem><rdg wit="【明】【乙】" resp="Taisho">二</rdg></app>合</note></p>
 <lb n="0714c26"/><lg><l>於清淨月輪</l><l>銳利至光徹</l>
 <lb n="0714c27"/><l>次應漸周遍</l><l>引量同虛空</l></lg>
-<lb n="0714c28"/><p type="dharani">唵薩頗<note place="inline">二合</note>囉&CB00085;日囉<note place="inline">二合</note>底<note place="inline">引</note>乞瑟拏<note place="inline"><anchor id="fxT20p0714c02"/>三合</note></p>
+<lb n="0714c28"/><p type="dharani">唵薩頗<note place="inline">二合</note>囉&CB00085;日囉<note place="inline">二合</note>底<note place="inline">引</note>乞瑟拏<note place="inline"><app type="＊" source="0714030"><lem>三</lem><rdg resp="Taisho" wit="【明】【乙】">二</rdg></app>合</note></p>
 <lb n="0714c29"/><lg><l>亦不見己身</l><l>及與一切相</l>
 <pb ed="T" id="T20.1174.0715a" n="0715a"/>
 <lb n="0715a01"/><l>次應漸觀<note n="0715001" resp="Taisho" type="orig" place="foot text">劍＝斂【乙】</note><app n="0715001"><lem>劍</lem><rdg wit="【乙】" resp="Taisho">斂</rdg></app></l><l>誦此收攝言</l></lg>
-<lb n="0715a02"/><p type="dharani">唵僧賀囉&CB00085;日囉<note place="inline">二合</note>底乞瑟拏<note place="inline"><anchor id="fxT20p0715a01"/>三合</note></p>
+<lb n="0715a02"/><p type="dharani">唵僧賀囉&CB00085;日囉<note place="inline">二合</note>底乞瑟拏<note place="inline"><app type="＊" source="0714030"><lem>三</lem><rdg resp="Taisho" wit="【明】【乙】">二</rdg></app>合</note></p>
 <lb n="0715a03"/><lg><l>虛空諸如來</l><l>悉隨劍而歛</l>
 <lb n="0715a04"/><l>量同己身已</l><l>便成本聖形</l>
 <lb n="0715a05"/><l>身色如紫金</l><l>作妙童子相</l>
@@ -281,7 +284,7 @@ Added comment  for Emacs
 <lb n="0715b05"/><lg><l>次結寶鬘印</l><l>前印解而分</l>
 <lb n="0715b06"/><l>額前與頂後</l><l>以印皆三繞</l>
 <lb n="0715b07"/><l><note n="0715011" resp="Taisho" type="orig" place="foot text">先從壇＝前慧禪【甲】</note><app n="0715011"><lem>先從壇</lem><rdg wit="【甲】" resp="Taisho">前慧禪</rdg></app>慧開</l><l>如垂鬘帶勢</l></lg>
-<lb n="0715b08"/><p type="dharani">唵囉怛娜<note place="inline">二合</note>句舍阿<anchor id="fxT20p0715b01"/>仡哩耶<note place="inline">三合</note>麼<note n="0715012" resp="Taisho" type="orig" place="foot text">&CB00619;＝&CB01417;【明】【甲】</note><app n="0715012"><lem>&CB00619;</lem><rdg wit="【明】【甲】" resp="Taisho">&CB01417;</rdg></app></p>
+<lb n="0715b08"/><p type="dharani">唵囉怛娜<note place="inline">二合</note>句舍阿<app type="＊" source="0715010"><lem>仡</lem><rdg resp="Taisho" wit="【明】【甲】【乙】">紇</rdg></app>哩耶<note place="inline">三合</note>麼<note n="0715012" resp="Taisho" type="orig" place="foot text">&CB00619;＝&CB01417;【明】【甲】</note><app n="0715012"><lem>&CB00619;</lem><rdg wit="【明】【甲】" resp="Taisho">&CB01417;</rdg></app></p>
 <lb n="0715b09"/><lg><l>次被堅固甲</l><l>二羽金剛拳</l>
 <lb n="0715b10"/><l>交舒進<note n="0715013" resp="Taisho" type="orig" place="foot text">力＝中【明】</note><app n="0715013"><lem>力</lem><rdg wit="【明】" resp="Taisho">中</rdg></app>度</l><l>唵砧想指面</l>
 <lb n="0715b11"/><l>綠色光不絕</l><l>猶如抽藕絲</l>
@@ -291,7 +294,7 @@ Added comment  for Emacs
 <lb n="0715b15"/><l>二手垂天衣</l><l>此名慈悲甲</l></lg>
 <lb n="0715b16"/><p type="dharani">唵&CB00085;日囉<note place="inline">二合</note>迦&CB00085;制&CB00085;日囉<note place="inline">二合</note>句嚧&CB00085;日囉
 <lb n="0715b17"/><note place="inline">二合</note>&CB00085;日哩<note place="inline">二合</note>含</p>
-<lb n="0715b18"/><lg><l>次<note n="0715017" resp="Taisho" type="orig" place="foot text">於＝及【甲】</note><app n="0715017"><lem>於</lem><rdg wit="【甲】" resp="Taisho">及</rdg></app>畫像心</l><l>觀<anchor id="fxT20p0715b02"/>淡字為劍</l>
+<lb n="0715b18"/><lg><l>次<note n="0715017" resp="Taisho" type="orig" place="foot text">於＝及【甲】</note><app n="0715017"><lem>於</lem><rdg wit="【甲】" resp="Taisho">及</rdg></app>畫像心</l><l>觀<app type="＊" source="0715004"><lem>淡</lem><rdg resp="Taisho" wit="【明】【乙】">澹</rdg></app>字為劍</l>
 <lb n="0715b19"/><l>復成本尊體</l><l>如前之所觀</l>
 <lb n="0715b20"/><l>即以<note n="0715018" resp="Taisho" type="orig" place="foot text">鉤＝劍【甲】</note><app n="0715018"><lem>鉤</lem><rdg wit="【甲】" resp="Taisho">劍</rdg></app>印請</l><l>二羽金剛拳</l>
 <lb n="0715b21"/><l>檀慧反相鉤</l><l><note n="0715019" resp="Taisho" type="orig" place="foot text">力&CB00594;進＝進力&CB00594;【明】</note><app n="0715019"><lem>力&CB00594;進</lem><rdg wit="【明】" resp="Taisho">進力&CB00594;</rdg></app>招屈</l></lg>
@@ -334,16 +337,16 @@ Added comment  for Emacs
 <lb n="0715c28"/><lg><l>次獻智燈印</l><l>普燎諸幽冥</l>
 <lb n="0715c29"/><l>禪智前相逼</l><l>普此智慧光</l></lg>
 <pb ed="T" id="T20.1174.0716a" n="0716a"/>
-<lb n="0716a01"/><p type="dharani">唵&CB00085;日囉<note place="inline">二<anchor id="fxT20p0716a01"/>合</note>魯計</p>
+<lb n="0716a01"/><p type="dharani">唵&CB00085;日囉<note place="inline">二<app type="＊" source="0714025"><lem>合</lem><rdg resp="Taisho" wit="【乙】">合引</rdg></app></note>魯計</p>
 <lb n="0716a02"/><lg><l>次獻塗香印</l><l>當胸塗香勢</l>
 <lb n="0716a03"/><l>以解脫香雲</l><l>普淨眾生界</l></lg>
 <lb n="0716a04"/><p type="dharani">唵&CB00085;日囉<note place="inline">二合</note>巘提</p>
 <lb n="0716a05"/><lg><l>內外供養已</l><l>次第當<note n="0716001" resp="Taisho" type="orig" place="foot text">順＝須【乙】</note><app n="0716001"><lem>順</lem><rdg wit="【乙】" resp="Taisho">須</rdg></app>念</l>
 <lb n="0716a06"/><l>結祕根本印</l><l>誦百字真言</l></lg>
 <lb n="0716a07"/><p type="dharani">唵<note n="0716002" resp="Taisho" type="orig" place="foot text">〔引〕－【甲】</note><app n="0716002"><lem><note place="inline">引</note></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0716003" resp="Taisho" type="orig" place="foot text">朅哩＝渴&CB00069;【明】【甲】【乙】＊</note><app n="0716003"><lem>朅哩</lem><rdg wit="【明】【甲】【乙】" resp="Taisho">渴&CB00069;</rdg></app>&CB00344;<note place="inline">二合</note>薩怛&CB00085;<note place="inline">二<note n="0716004" resp="Taisho" type="orig" place="foot text">合＋（一）【明】【乙】</note><app n="0716004"><lem>合</lem><rdg wit="【明】【乙】" resp="Taisho">合一</rdg></app></note><note n="0716005" resp="Taisho" type="orig" place="foot text">參＝三【明】【甲】【乙】</note><app n="0716005"><lem>參</lem><rdg wit="【明】【甲】【乙】" resp="Taisho">三</rdg></app>摩耶摩
-<lb n="0716a08"/><note n="0716006" resp="Taisho" type="orig" place="foot text">弩＝拏【明】【甲】，努【乙】</note><note n="0716006" resp="CBETA" type="mod">弩＝拏【明】【甲】，＝努【乙】</note><app n="0716006"><lem>弩</lem><rdg wit="【明】【甲】" resp="Taisho">拏</rdg><rdg wit="【乙】" resp="Taisho">努</rdg></app>播<note n="0716007" resp="Taisho" type="orig" place="foot text">&CB00256;＝羅【甲】</note><app n="0716007"><lem>&CB00256;</lem><rdg wit="【甲】" resp="Taisho">羅</rdg></app><note n="0716008" resp="Taisho" type="orig" place="foot text">野＝耶二【明】【乙】，耶【甲】</note><note n="0716008" resp="CBETA" type="mod">野＝耶二【明】【乙】，＝耶【甲】</note><app n="0716008"><lem>野</lem><rdg wit="【明】【乙】" resp="Taisho">耶二</rdg><rdg wit="【甲】" resp="Taisho">耶</rdg></app><anchor id="fxT20p0716a02"/>朅哩&CB00344;<anchor id="fxT20p0716a03"/><note place="inline">二合</note>薩怛&CB00085;<note place="inline">二<note n="0716009" resp="Taisho" type="orig" place="foot text">合＋（三）【明】【乙】</note><app n="0716009"><lem>合</lem><rdg wit="【明】【乙】" resp="Taisho">合三</rdg></app></note><note n="0716010" resp="Taisho" type="orig" place="foot text">怛尾＝底吠【明】【乙】，帝尾【甲】</note><note n="0716010" resp="CBETA" type="mod">怛尾＝底吠【明】【乙】，＝帝尾【甲】</note><app n="0716010"><lem>怛
+<lb n="0716a08"/><note n="0716006" resp="Taisho" type="orig" place="foot text">弩＝拏【明】【甲】，努【乙】</note><note n="0716006" resp="CBETA" type="mod">弩＝拏【明】【甲】，＝努【乙】</note><app n="0716006"><lem>弩</lem><rdg wit="【明】【甲】" resp="Taisho">拏</rdg><rdg wit="【乙】" resp="Taisho">努</rdg></app>播<note n="0716007" resp="Taisho" type="orig" place="foot text">&CB00256;＝羅【甲】</note><app n="0716007"><lem>&CB00256;</lem><rdg wit="【甲】" resp="Taisho">羅</rdg></app><note n="0716008" resp="Taisho" type="orig" place="foot text">野＝耶二【明】【乙】，耶【甲】</note><note n="0716008" resp="CBETA" type="mod">野＝耶二【明】【乙】，＝耶【甲】</note><app n="0716008"><lem>野</lem><rdg wit="【明】【乙】" resp="Taisho">耶二</rdg><rdg wit="【甲】" resp="Taisho">耶</rdg></app><app type="＊" source="0716003"><lem>朅哩</lem><rdg resp="Taisho" wit="【明】【甲】【乙】">渴&CB00069;</rdg></app>&CB00344;<app type="＊" source="0715007"><lem><note place="inline">二合</note></lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>薩怛&CB00085;<note place="inline">二<note n="0716009" resp="Taisho" type="orig" place="foot text">合＋（三）【明】【乙】</note><app n="0716009"><lem>合</lem><rdg wit="【明】【乙】" resp="Taisho">合三</rdg></app></note><note n="0716010" resp="Taisho" type="orig" place="foot text">怛尾＝底吠【明】【乙】，帝尾【甲】</note><note n="0716010" resp="CBETA" type="mod">怛尾＝底吠【明】【乙】，＝帝尾【甲】</note><app n="0716010"><lem>怛
 <lb n="0716a09"/>尾</lem><rdg wit="【明】【乙】" resp="Taisho">底吠</rdg><rdg wit="【甲】" resp="Taisho">帝尾</rdg></app><note n="0716011" resp="Taisho" type="orig" place="foot text">〔二合〕－【甲】</note><app n="0716011"><lem><note place="inline">二合</note></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app><note n="0716012" resp="Taisho" type="orig" place="foot text">弩引＝怒【明】【乙】，努【甲】</note><note n="0716012" resp="CBETA" type="mod">弩引＝怒【明】【乙】，＝努【甲】</note><app n="0716012"><lem>弩<note place="inline">引</note></lem><rdg wit="【明】【乙】" resp="Taisho">怒</rdg><rdg wit="【甲】" resp="Taisho">努</rdg></app><note n="0716013" resp="Taisho" type="orig" place="foot text">跛＝播【甲】</note><app n="0716013"><lem>跛</lem><rdg wit="【甲】" resp="Taisho">播</rdg></app>底瑟&CB00109;<note place="inline">二<note n="0716014" resp="Taisho" type="orig" place="foot text">合＋（四）【明】【乙】</note><app n="0716014"><lem>合</lem><rdg wit="【明】【乙】" resp="Taisho">合四</rdg></app></note><note n="0716015" resp="Taisho" type="orig" place="foot text">&CB00135;＝涅【明】【甲】【乙】</note><app n="0716015"><lem>&CB00135;</lem><rdg wit="【明】【甲】【乙】" resp="Taisho">涅</rdg></app>哩<note place="inline">二合</note>住
-<lb n="0716a10"/><note n="0716016" resp="Taisho" type="orig" place="foot text">引＝茶護切【明】【乙】，茶護反【甲】</note><note n="0716016" resp="CBETA" type="mod">引＝茶護切【明】【乙】，＝茶護反【甲】</note><app n="0716016"><lem><note place="inline">引</note></lem><rdg wit="【明】【乙】" resp="Taisho"><note place="inline">茶護切</note></rdg><rdg wit="【甲】" resp="Taisho"><note place="inline">茶護反</note></rdg></app><note n="0716017" resp="Taisho" type="orig" place="foot text">銘＝寐【明】【甲】【乙】＊</note><app n="0716017"><lem>銘</lem><rdg wit="【明】【甲】【乙】" resp="Taisho">寐</rdg></app>婆<note n="0716018" resp="Taisho" type="orig" place="foot text">&CB00085;＋（五）細註【明】【乙】</note><app n="0716018"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">五</note></rdg></app>素&CB00418;<note n="0716019" resp="Taisho" type="orig" place="foot text">〔引〕－【明】【甲】【乙】</note><app n="0716019"><lem><note place="inline">引</note></lem><rdg wit="【明】【甲】【乙】" resp="Taisho">&lac;</rdg></app>瑟諭<note place="inline">二合</note><anchor id="fxT20p0716a04"/>銘婆<note n="0716020" resp="Taisho" type="orig" place="foot text">&CB00085;＋（二合六）細註【明】【乙】</note><app n="0716020"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">二合六</note></rdg></app>阿怒
+<lb n="0716a10"/><note n="0716016" resp="Taisho" type="orig" place="foot text">引＝茶護切【明】【乙】，茶護反【甲】</note><note n="0716016" resp="CBETA" type="mod">引＝茶護切【明】【乙】，＝茶護反【甲】</note><app n="0716016"><lem><note place="inline">引</note></lem><rdg wit="【明】【乙】" resp="Taisho"><note place="inline">茶護切</note></rdg><rdg wit="【甲】" resp="Taisho"><note place="inline">茶護反</note></rdg></app><note n="0716017" resp="Taisho" type="orig" place="foot text">銘＝寐【明】【甲】【乙】＊</note><app n="0716017"><lem>銘</lem><rdg wit="【明】【甲】【乙】" resp="Taisho">寐</rdg></app>婆<note n="0716018" resp="Taisho" type="orig" place="foot text">&CB00085;＋（五）細註【明】【乙】</note><app n="0716018"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">五</note></rdg></app>素&CB00418;<note n="0716019" resp="Taisho" type="orig" place="foot text">〔引〕－【明】【甲】【乙】</note><app n="0716019"><lem><note place="inline">引</note></lem><rdg wit="【明】【甲】【乙】" resp="Taisho">&lac;</rdg></app>瑟諭<note place="inline">二合</note><app type="＊" source="0716017"><lem>銘</lem><rdg resp="Taisho" wit="【明】【甲】【乙】">寐</rdg></app>婆<note n="0716020" resp="Taisho" type="orig" place="foot text">&CB00085;＋（二合六）細註【明】【乙】</note><app n="0716020"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">二合六</note></rdg></app>阿怒
 <lb n="0716a11"/>囉訖<note n="0716021" resp="Taisho" type="orig" place="foot text">都＝&CB00418;【甲】</note><app n="0716021"><lem>都</lem><rdg wit="【甲】" resp="Taisho">&CB00418;</rdg></app><note place="inline">二合</note>寐婆<note n="0716022" resp="Taisho" type="orig" place="foot text">&CB00085;＋（七）細註【明】【乙】</note><app n="0716022"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">七</note></rdg></app>素補瑟諭<note place="inline">二合</note>寐婆<note n="0716023" resp="Taisho" type="orig" place="foot text">&CB00085;＋（八）細註【明】【乙】</note><app n="0716023"><lem>&CB00085;</lem><rdg wit="【明】【乙】" resp="Taisho">&CB00085;<note place="inline">八</note></rdg></app>
 <lb n="0716a12"/>薩婆悉地弭<note n="0716024" resp="Taisho" type="orig" place="foot text">以＝二合【明】，〔以〕－【乙】</note><app n="0716024"><lem>以</lem><rdg wit="【明】" resp="Taisho">二合</rdg><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>&CB00425;囉<note place="inline">二合</note>也<note n="0716025" resp="Taisho" type="orig" place="foot text">瑳＋（九）細註【明】【乙】</note><app n="0716025"><lem>瑳</lem><rdg wit="【明】【乙】" resp="Taisho">瑳<note place="inline">九</note></rdg></app>薩&CB00085;羯麼素
 <lb n="0716a13"/>者<note n="0716026" resp="Taisho" type="orig" place="foot text">寐＋（十）細註【明】【乙】</note><app n="0716026"><lem>寐</lem><rdg wit="【明】【乙】" resp="Taisho">寐<note place="inline">十</note></rdg></app>止多室<note n="0716027" resp="Taisho" type="orig" place="foot text">唎＝利【明】【乙】</note><app n="0716027"><lem>唎</lem><rdg wit="【明】【乙】" resp="Taisho">利</rdg></app><note place="inline">二合</note>藥句嚕<note n="0716028" resp="Taisho" type="orig" place="foot text">〔二合十一吽〕－【甲】</note><app n="0716028"><lem><note place="inline">二合十一</note>吽</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>呵呵呵
@@ -404,4 +407,4 @@ Added comment  for Emacs
 <lb n="0716c08"/><l>願以此功德</l><l>普覺諸群有</l>
 <lb n="0716c09"/><l>我得離世網</l><l>隨說而修習</l></lg>
 <lb n="0716c10"/><juan fun="close" n="001"><jhead>五字陀羅尼頌<note n="0716039" resp="Taisho" type="orig" place="foot text">乙本奧書云貞享四丁卯正月二十六日訓點一校了淨嚴四十九載元祿十六年正月十八日以淨嚴和上之本再校了尊教</note></jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>
