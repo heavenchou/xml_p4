@@ -376,12 +376,12 @@ converted to XML form 2.1.99 (CW)
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div3 (#PCDATA | div4 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | xref | tt)*>
+<!ELEMENT div3 (#PCDATA | div4 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | xref | tt)*>
 <!ATTLIST div3
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div4 (#PCDATA | div5 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | tt| xref)*>
+<!ELEMENT div4 (#PCDATA | div5 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | tt| xref)*>
 <!ATTLIST div4
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -621,6 +621,10 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST todo
 	type CDATA #IMPLIED
 >
+
+<!ELEMENT qa (answer | lb | question)*>
+<!ELEMENT question (#PCDATA|lb|p)*>
+<!ELEMENT answer (#PCDATA|lb|p)*>
 
 <!-- Notations -->
 <!NOTATION doc SYSTEM "uedit32.exe">
