@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/05/13 08:19:12 $</date></edition>
+		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/07/05 09:23:59 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/13 08:19:12 $</date>
+		<date>$Date: 2004/07/05 09:23:59 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 983B &desc;</bibl>
@@ -58,6 +58,9 @@
 	</change>
 <!--
 $Log: T19n0983B.xml,v $
+Revision 1.11  2004/07/05 09:23:59  saywhat
+修訂 div 位置
+
 Revision 1.10  2004/05/13 08:19:12  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -141,7 +144,7 @@ Revision 1.9  2001/02/07 06:54:51  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.8  2001/02/03 07:44:47  chris
-Added keywords $Revision: 1.10 $, $Date: 2004/05/13 08:19:12 $ and $Log.
+Added keywords $Revision: 1.11 $, $Date: 2004/07/05 09:23:59 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -151,10 +154,10 @@ Added comment  for Emacs
 <lb n="0441b12"/>
 <milestone unit="juan" n="1"/>
 <lb n="0441b13"/>
-<lb n="0441b14"/><head type="no">No. 983B</head><div1 type="pin">
+<lb n="0441b14"/><head type="no">No. 983B</head>
 <lb n="0441b15"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead>孔雀經真言等梵本</jhead></juan>
 <lb n="0441b16"/>
-<lb n="0441b17"/><mulu type="其他" level="1" n="1" label="上"/><head><title><note n="0441048" resp="Taisho" type="orig" place="foot text">【原】高野山高室院藏，【甲】平安時代寫石山寺藏本</note>孔雀經</title>上</head>
+<lb n="0441b17"/><div1 type="pin"><mulu type="其他" level="1" n="1" label="上"/><note n="0441048" resp="Taisho" type="orig" place="foot text">【原】高野山高室院藏，【甲】平安時代寫石山寺藏本</note><head><title>孔雀經</title>上</head>
 <lb n="0441b18"/><p type="dharani" lang="san-sd">&SD-A557;&SD-DA4A;&SD-A564;&SD-D7C4;&SD-A441;&SD-A64C;&SD-A440;<note n="0441049" resp="Taisho" type="orig" place="foot text">&SD-A5FD;＝&SD-A5FE;【甲】</note><app n="0441049"><lem>&SD-A5FD;</lem><rdg wit="【甲】" resp="Taisho">&SD-A5FE;</rdg></app>&SD-A64C;&SD-D7C4;&SD-A444;&SD-E2AC;&SD-CA40;&SD-D7C4;
 <lb n="0441b19"/>&SD-A66C;&SD-A44E;&SD-A5AB;&SD-D7C4;&SD-A440;&SD-A5E5;&SD-A64B;&SD-A6B6;&SD-A6A9;&SD-A641;&SD-A559;&SD-D7C4;&SD-A6A8;&SD-A640;
 <lb n="0441b20"/>&SD-A446;&SD-A664;&SD-AB60;&SD-A5E5;&SD-A559;&SD-D7C4;&SD-A6A8;&SD-A640;&SD-A5B7;&SD-C97B;&SD-A650;&SD-A654;&SD-E2AC;&SD-AABC;
@@ -596,9 +599,9 @@ Added comment  for Emacs
 <lb n="0446b09"/>&SD-A656;&SD-E14E;&SD-D7C4;&SD-A656;&SD-E1FC;&SD-A577;&SD-A55D;&SD-D7C4;&SD-A656;&SD-B7C7;&SD-A5A9;<note n="0446009" resp="Taisho" type="orig" place="foot text">&SD-A6A2;＝&SD-A5DF;【甲】</note><app n="0446009"><lem>&SD-A6A2;</lem><rdg wit="【甲】" resp="Taisho">&SD-A5DF;</rdg></app>&SD-D7C4;&SD-A5E5;
 <lb n="0446b10"/>&SD-A6A9;&SD-A458;&SD-A644;&SD-D7C4;&SD-A55B;&SD-A654;&SD-A65C;&SD-D7C4;&SD-E0BC;&SD-A654;&SD-A65C;&SD-D5B4;
 <lb n="0446b11"/>&SD-A557;&SD-A7EF;&SD-A564;&SD-D7C4;&SD-A5F1;&SD-A656;&SD-A559;&SD-D7C4;&SD-A57B;&SD-A5AB;&SD-D7C4;&SD-A57B;&SD-A5FD;&SD-A442;
-<lb n="0446b12"/>&SD-D7C4;&SD-A444;&SD-A642;&SD-A55B;&SD-A642;&SD-A5EB;&SD-B065;&SD-A6A9;</p>
-<lb n="0446b13"/><juan fun="close" n="001"><jhead>孔雀經一部真言</jhead></juan></div1><div1 type="W">
-<lb n="0446b14"/><p>寶曆八<note place="inline">戊寅</note>歲三月日令沙門王開書寫焉
+<lb n="0446b12"/>&SD-D7C4;&SD-A444;&SD-A642;&SD-A55B;&SD-A642;&SD-A5EB;&SD-B065;&SD-A6A9;</p></div1>
+<lb n="0446b13"/><juan fun="close" n="001"><jhead>孔雀經一部真言</jhead></juan>
+<lb n="0446b14"/><div1 type="W"><p>寶曆八<note place="inline">戊寅</note>歲三月日令沙門王開書寫焉
 <lb n="0446b15"/>了</p>
 <lb n="0446b16"/><p>南嶽金剛&CB00123;寺沙門本初<term lang="san-sd">&SD-A656;&SD-A9BD;</term>密門<term lang="san-sd">&SD-E15B;</term>謹
 <lb n="0446b17"/>誌</p>
