@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2004/10/29 01:22:43 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2004/11/11 11:01:15 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/10/29 01:22:43 $</date>
+		<date>$Date: 2004/11/11 11:01:15 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 87, No. 1623 &desc;</bibl>
@@ -51,6 +51,9 @@
 	</change>
 <!--
 $Log: X87n1623.xml,v $
+Revision 1.2  2004/11/11 11:01:15  amtbgrace
+modified: X87 xml 標記作業
+
 Revision 1.1  2004/10/29 01:22:43  ray
 basicx 程式 讀取 簡單標記版 產生 xml
 
@@ -143,7 +146,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0227b06"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>釋氏蒙求<note place="inline">并序</note>　上冊</jhead></juan>
 <lb ed="X" n="0227b07"/>
 <lb ed="X" n="0227b08"/><byline type="author">霅水　講學沙門　靈操　撰</byline>
-<lb ed="X" n="0227b09"/><div1><p id="pX87p0227b0901" rend="margin-left:1em">余固覽慧皎澄照通慧高僧傳三本總八十卷披
+<lb ed="X" n="0227b09"/><div1 type="other"><mulu type="其他" level="1" label="（序）"/><p id="pX87p0227b0901" rend="margin-left:1em">余固覽慧皎澄照通慧高僧傳三本總八十卷披
 <lb ed="X" n="0227b10"/>其文&CB00418;其事今古之異聖賢之跡非周公之才董
 <lb ed="X" n="0227b11"/>狐之筆無以能為也然而義旨縱橫卷軸繁廣覽
 <lb ed="X" n="0227b12"/>之者無強記而有忘是故集其事類討其異常以
@@ -224,14 +227,14 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0228b12"/>來遇進云昨見碩公在市中一&CB00560;著履語云小子無
 <lb ed="X" n="0228b13"/>宜適失我履一隻進驚曰與碩&CB00560;繫急右&CB00560;繫寬不
 <lb ed="X" n="0228b14"/>好所以致失也<note place="inline">此中云字當作曰遇進疑當作過進</note>。</p></div1>
-<lb ed="X" n="0228b15"/><div1 type="other"><mulu type="其他" level="1" label="慧滿息火　植真唾水(數軌切)"/><head>慧滿息火　植真唾水<note place="inline">數軌切</note></head>
+<lb ed="X" n="0228b15"/><div1 type="other"><mulu type="其他" level="1" label="慧滿息火　植真唾水"/><head>慧滿息火　植真唾水<note place="inline">數軌切</note></head>
 <lb ed="X" n="0228b16"/><p id="pX87p0228b1601">慧滿博通經律多著文疏&CB00573;在鄜城行化時寓居魏
 <lb ed="X" n="0228b17"/>兵曹家別院講羯磨法所居艸堂忽為火燒風焰俱
 <lb ed="X" n="0228b18"/>盛滿乃索水噀之隨便息焉。</p>
 <lb ed="X" n="0228b19"/><p id="pX87p0228b1901">植相節行清苦人皆仰之寓于巴西興揚教法行至
 <lb ed="X" n="0228b20"/>弘農水側見垂釣化勸止之不從其言即唾水中忽
 <lb ed="X" n="0228b21"/>有大蛇擎頭來趣釣者驚而悔過便投相出家。</p></div1>
-<lb ed="X" n="0228b22"/><div1 type="other"><mulu type="其他" level="1" label="敬脫誓筆(誓疑當作擔)　賈逸贈紙"/><head>敬脫誓筆<note place="inline">誓疑當作擔</note>　賈逸贈紙</head>
+<lb ed="X" n="0228b22"/><div1 type="other"><mulu type="其他" level="1" label="敬脫誓筆　賈逸贈紙"/><head>敬脫誓筆<note place="inline">誓疑當作擔</note>　賈逸贈紙</head>
 <lb ed="X" n="0228b23"/><p id="pX87p0228b2301">敬脫深通經義大有儀範時共目之為僧中之傑隋
 <lb ed="X" n="0228b24"/>帝召入內講說&CB00320;經賜大竹扇&CB04583;三尺餘令執用出
 <pb ed="X" id="X87.1623.0228c" n="0228c"/>
@@ -383,7 +386,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0230b21"/>代汝摩他日&CB00827;油設澆其指謂母曰代兒忍痛母曰
 <lb ed="X" n="0230b22"/>痛在汝身吾何能代摩曰眼前之苦尚不能代況三
 <lb ed="X" n="0230b23"/>途耶母即禮拜悔過終身不殺因茲信重於摩。</p></div1>
-<lb ed="X" n="0230b24"/><div1 type="other"><mulu type="其他" level="1" label="陀勒乞油　道冏採乳(橤生切音汝)"/><head>陀勒乞油　道冏採乳<note place="inline">橤生切音汝</note></head>
+<lb ed="X" n="0230b24"/><div1 type="other"><mulu type="其他" level="1" label="陀勒乞油　道冏採乳"/><head>陀勒乞油　道冏採乳<note place="inline">橤生切音汝</note></head>
 <pb ed="X" id="X87.1623.0230c" n="0230c"/>
 <lb ed="X" n="0230c01"/><p id="pX87p0230c0101">犍陀勒者西域人來至洛陽人莫能識一日謂眾曰
 <lb ed="X" n="0230c02"/>洛東有盤鴟山有古寺基存焉眾則不信乃往掘之
@@ -624,7 +627,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0233c12"/>此必是歟。</p>
 <lb ed="X" n="0233c13"/><p id="pX87p0233c1301">曇憑善於唱導其聲雄大無以比方一聲發時便象
 <lb ed="X" n="0233c14"/>馬悲鳴行途駐步矣。</p></div1>
-<lb ed="X" n="0233c15"/><div1 type="other"><mulu type="其他" level="1" label="僧慧二傑　明琰三英(明疑當作智本傳亦爾)"/><head>僧慧二傑　明琰三英<note place="inline">明疑當作智本傳亦爾</note></head>
+<lb ed="X" n="0233c15"/><div1 type="other"><mulu type="其他" level="1" label="僧慧二傑　明琰三英"/><head>僧慧二傑　明琰三英<note place="inline">明疑當作智本傳亦爾</note></head>
 <lb ed="X" n="0233c16"/><p id="pX87p0233c1601">僧慧少有雋才大撰義疏而辨說縱橫長講三藏教
 <lb ed="X" n="0233c17"/>典與玄暢法師同時振譽世號黑衣二傑。</p>
 <lb ed="X" n="0233c18"/><p id="pX87p0233c1801">智琰在家朝宰棄榮求寂興揚教法琰常與陳臨海
@@ -841,9 +844,9 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0236c04"/>藥封久後得差也。</p></div1>
 <lb ed="X" n="0236c05"/>
 <lb ed="X" n="0236c06"/><juan fun="close" n="1"><jhead>釋氏蒙求</jhead></juan>
-<lb ed="X" n="0236c07"/>
+<lb ed="X" n="0236c07"/><milestone unit="juan" n="2"/>
 <lb ed="X" n="0236c08"/>
-<lb ed="X" n="0236c09"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>釋氏蒙求　下冊</jhead></juan>
+<lb ed="X" n="0236c09"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>釋氏蒙求　下冊</jhead></juan>
 <lb ed="X" n="0236c10"/>
 <lb ed="X" n="0236c11"/><byline type="author">霅水　講學沙門　靈操　撰</byline>
 <lb ed="X" n="0236c12"/><div1 type="other"><mulu type="其他" level="1" label="(錫)琳祜會郊　可育面壁"/><head><note place="inline">錫</note>琳祜會郊　可育面壁</head>
@@ -882,7 +885,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0237a20"/>眾曰我去解其殺戮乃擲錫空中飛身而去屆兩陳
 <lb ed="X" n="0237a21"/>之上戰士各觀空中神僧飛騰盡乃抽戈匣刃驚怪
 <lb ed="X" n="0237a22"/>而退焉。</p></div1>
-<lb ed="X" n="0237a23"/><div1 type="other"><mulu type="其他" level="1" label="(陌)甯師食荷　僧喜噉石(＆CB00549；譯集作僧善)"/><head><note place="inline">陌</note>甯師食荷　僧喜噉石<note place="inline">&CB00549;譯集作僧善</note></head>
+<lb ed="X" n="0237a23"/><div1 type="other"><mulu type="其他" level="1" label="(陌)甯師食荷　僧喜噉石"/><head><note place="inline">陌</note>甯師食荷　僧喜噉石<note place="inline">&CB00549;譯集作僧善</note></head>
 <lb ed="X" n="0237a24"/><p id="pX87p0237a2401">甯師者亡其名以姓呼之常居山野學道一日忽死
 <pb ed="X" id="X87.1623.0237b" n="0237b"/>
 <lb ed="X" n="0237b01"/>經三日而蘇眾驚&CB00383;問之答曰我入冥間見諸地獄
@@ -906,7 +909,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0237b19"/>軍兵張旗十里村落盡劫殺者眾璡乃入陳其賊群
 <lb ed="X" n="0237b20"/>莫敢當鋒賊各執璡手曰健道人也善能戰敵也<note place="inline">偏明
 <lb ed="X" n="0237b21"/>疑當作&CB05155;彳普&CB00642;之字</note>。</p></div1>
-<lb ed="X" n="0237b22"/><div1 type="other"><mulu type="其他" level="1" label="(〔麻〕)世高化蟒　明琛變蛇"/><head><note place="inline"><anchor id="fnX87p0237b01"/>〔麻〕</note>世高化蟒　明琛變蛇</head>
+<lb ed="X" n="0237b22"/><div1 type="other"><mulu type="其他" level="1" label="(麻)世高化蟒　明琛變蛇"/><head><note place="inline"><anchor id="fnX87p0237b01"/>〔麻〕</note>世高化蟒　明琛變蛇</head>
 <lb ed="X" n="0237b23"/><p id="pX87p0237b2301">安清字世高安息王之太子廣集墳典大有知見王
 <lb ed="X" n="0237b24"/>薨便當嗣位清乃潛形出家備曉經論前身之事一
 <pb ed="X" id="X87.1623.0237c" n="0237c"/>
@@ -1002,7 +1005,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0238c15"/>登其墓所自掘之于時墓上五色雲起祥瑞可觀及
 <lb ed="X" n="0238c16"/>取其骨皆作金色連環若&CB00430;可五丈許鏗然嚮高靜
 <lb ed="X" n="0238c17"/>乃持掛杖頭別鄉人而去<note place="inline">嚮當作響字</note>。</p></div1>
-<lb ed="X" n="0238c18"/><div1 type="other"><mulu type="其他" level="1" label="遂端生蓮　耆域治樹(殊遇切)"/><head>遂端生蓮　耆域治樹<note place="inline">殊遇切</note></head>
+<lb ed="X" n="0238c18"/><div1 type="other"><mulu type="其他" level="1" label="遂端生蓮　耆域治樹"/><head>遂端生蓮　耆域治樹<note place="inline">殊遇切</note></head>
 <lb ed="X" n="0238c19"/><p id="pX87p0238c1901">遂端不知何來為人質直常誦法華經為業至于老
 <lb ed="X" n="0238c20"/>齒曾無暫罷後忽跏趺坐而卒須臾口中出青蓮華
 <lb ed="X" n="0238c21"/>七莖。</p>
@@ -1094,7 +1097,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0240a07"/>永不許永過日既將夕永以錫杖指馬馬走營主擲
 <lb ed="X" n="0240a08"/>地永捧慰還營營主至明日來寺悔過永曰非貧道
 <lb ed="X" n="0240a09"/>本意使然恐戒神所為爾。</p></div1>
-<lb ed="X" n="0240a10"/><div1 type="other"><mulu type="其他" level="1" label="僧達□＆CB00497；(達下蠹滅疑＆CB00230；字歟)　世瑜受＆CB00031；"/><head>僧達□&CB00497;<note place="inline">達下蠹滅疑&CB00230;字歟</note>　世瑜受&CB00031;</head>
+<lb ed="X" n="0240a10"/><div1 type="other"><mulu type="其他" level="1" label="僧達□＆CB00497；　世瑜受＆CB00031；"/><head>僧達□&CB00497;<note place="inline">達下蠹滅疑&CB00230;字歟</note>　世瑜受&CB00031;</head>
 <lb ed="X" n="0240a11"/><p id="pX87p0240a1101">僧達游學諸方習禪傳法齒長過寸奇相莫同為魏
 <lb ed="X" n="0240a12"/>孝文禮重後居林慮華黃嶺時有山神頻來聽法忽
 <lb ed="X" n="0240a13"/>一夜有推戶者而入曰山神妻白日無暇禮拜禪師
@@ -1320,7 +1323,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0243a08"/>之應矣遂牽上立剎。</p>
 <lb ed="X" n="0243a09"/><p id="pX87p0243a0901">道洪事曇延為師學通內外志行清高後於寶昌寺
 <lb ed="X" n="0243a10"/>講涅槃經時一白雉每來伏聽馴狎隨人忽終講次。</p></div1>
-<lb ed="X" n="0243a11"/><div1 type="other"><mulu type="其他" level="1" label="慧安古杖　僧群靈水(數軌切)"/><head>慧安古杖　僧群靈水<note place="inline">數軌切</note></head>
+<lb ed="X" n="0243a11"/><div1 type="other"><mulu type="其他" level="1" label="慧安古杖　僧群靈水"/><head>慧安古杖　僧群靈水<note place="inline">數軌切</note></head>
 <lb ed="X" n="0243a12"/><p id="pX87p0243a1201">慧安未詳何許人止于廬山學徒湊集講說群經安
 <lb ed="X" n="0243a13"/>常卓一杖曰是西域僧施其杖光色瑩徹頗有異香
 <lb ed="X" n="0243a14"/>上有胡書人莫能識後入關詣羅什捉杖而自隨什
@@ -1382,7 +1385,7 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0243c20"/>巖之上衣服鮮潔姿容悅暢皆驚喜禮拜曰和尚在
 <lb ed="X" n="0243c21"/>耶調曰吾常在耳良久不見八人乃苦發&CB00093;開棺看
 <lb ed="X" n="0243c22"/>不見屍唯衣屨存焉。</p></div1>
-<lb ed="X" n="0243c23"/><div1 type="other"><mulu type="其他" level="1" label="玄高入魏　帛遠□□(二字＆CB16627；滅疑是死秦二字)"/><head>玄高入魏　帛遠□□<note place="inline">二字&CB16627;滅疑是死秦二字</note></head>
+<lb ed="X" n="0243c23"/><div1 type="other"><mulu type="其他" level="1" label="玄高入魏　帛遠□□"/><head>玄高入魏　帛遠□□<note place="inline">二字&CB16627;滅疑是死秦二字</note></head>
 <lb ed="X" n="0243c24"/><p id="pX87p0243c2401">秦玄高居河北林陽堂山深窮教典學徒千有餘人
 <pb ed="X" id="X87.1623.0244a" n="0244a"/>
 <lb ed="X" n="0244a01"/>時魏虜拓&CB02494;燾據平城燾聞高之名請入魏都後燾
@@ -1451,6 +1454,6 @@ basicx 程式 讀取 簡單標記版 產生 xml
 <lb ed="X" n="0244c14"/>也今於東土高僧傳中略採靈異之事撰為蒙求志
 <lb ed="X" n="0244c15"/>欲勉誘後進童儒繼聖賢之蹤者也。</p></div1>
 <lb ed="X" n="0244c16"/>
-<lb ed="X" n="0244c17"/><juan fun="close" n="1"><jhead>釋氏蒙求<note place="inline">終</note></jhead></juan>
+<lb ed="X" n="0244c17"/><juan fun="close" n="2"><jhead>釋氏蒙求<note place="inline">終</note></jhead></juan>
 <lb ed="X" n="0244c18"/><div1 type="w"><p id="pX87p0244c1801" rend="margin-left:5em">大僧都釋　義空四擇　校訂</p></div1>
 </body></text></TEI.2>
