@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/12 05:35:10 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/06/30 03:15:53 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/12 05:35:10 $</date>
+		<date>$Date: 2004/06/30 03:15:53 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1484</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1484.xml,v $
+Revision 1.6  2004/06/30 03:15:53  saywhat
+juan 加上 jhead & title
+
 Revision 1.5  2004/05/12 05:35:10  saywhat
 經號的<head> → <head type="no">
 
@@ -102,7 +105,7 @@ Revision 1.6  2001/02/07 07:01:10  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:50  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/05/12 05:35:10 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/06/30 03:15:53 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -111,8 +114,8 @@ Added comment  for Emacs
 <text><body>
 <pb ed="T" id="T24.1484.0997a" n="0997a"/>
 <lb n="0997a01"/>
-<milestone unit="juan" n="1"/><head type="no">No. 1484</head><div1 type="xu">
-<lb n="0997a02"/><mulu type="序" level="1" label="序"/><head><note n="0997001" resp="Taisho" type="orig" place="foot text">此序宋元明宮四本俱無</note><title>梵網經</title>序</head>
+<milestone unit="juan" n="1"/><head type="no">No. 1484</head>
+<lb n="0997a02"/><div1 type="xu"><mulu type="序" level="1" label="序"/><note n="0997001" resp="Taisho" type="orig" place="foot text">此序宋元明宮四本俱無</note><head><title>梵網經</title>序</head>
 <lb n="0997a03"/>
 <lb n="0997a04"/><p>夫宗本湛然。理不可易。是以妙窮於玄原
 <lb n="0997a05"/>之境。萬行起於深信之宅。是以天竺法師鳩
@@ -128,7 +131,7 @@ Added comment  for Emacs
 <lb n="0997a15"/>代持誦相授。囑諸後學好道君子。願來劫
 <lb n="0997a16"/>不絕。共見龍華</p></div1>
 <lb n="0997a17"/>
-<lb n="0997a18"/><div1 type="xu"><mulu type="序" level="1" label="序"/><head><note n="0997002" resp="Taisho" type="orig" place="foot text">此序依明本載今以宋元宮三本對校明本</note><title>梵網經</title>序</head>
+<lb n="0997a18"/><div1 type="xu"><mulu type="序" level="1" label="序"/><note n="0997002" resp="Taisho" type="orig" place="foot text">此序依明本載今以宋元宮三本對校明本</note><head><title>梵網經</title>序</head>
 <lb n="0997a19"/>
 <lb n="0997a20"/><byline type="Author"><note n="0997003" resp="Taisho" type="orig" place="foot text">〔沙門僧肇作〕－【宋】【宮】</note><app n="0997003"><lem>沙門僧肇作</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app></byline>
 <lb n="0997a21"/><p>夫梵網經者。蓋是萬法之玄宗。眾經之要旨。
@@ -147,12 +150,12 @@ Added comment  for Emacs
 <lb n="0997b04"/>八十一部。流通於世。欲使仰希菩提者。
 <lb n="0997b05"/>追蹤以悟理故。冀於後代同聞焉</p></div1>
 <lb n="0997b06"/>
-<lb n="0997b07"/><div1 type="other">
-<lb n="0997b08"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0997007" resp="Taisho" type="orig" place="foot text">（（梵網…十））十六字＝（（佛說梵網經））五字【三】【宮】＊</note><note n="0997007" resp="CBETA" type="mod">（（梵網…十））十六字＝（（佛說梵網經））五字【宋】【元】【明】【宮】＊</note><app n="0997007" word-count="16"><lem>梵網經盧舍那佛說菩薩心地
-<lb n="0997b09"/>戒品第十</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說梵網經</rdg></app>卷上</juan>
+<lb n="0997b07"/>
+<lb n="0997b08"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0997007" resp="Taisho" type="orig" place="foot text">（（梵網…十））十六字＝（（佛說梵網經））五字【三】【宮】＊</note><note n="0997007" resp="CBETA" type="mod">（（梵網…十））十六字＝（（佛說梵網經））五字【宋】【元】【明】【宮】＊</note><app n="0997007" word-count="16"><lem>梵網經盧舍那佛說菩薩心地
+<lb n="0997b09"/>戒品第十</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說梵網經</rdg></app>卷上</jhead></juan>
 <lb n="0997b10"/>
 <lb n="0997b11"/><byline type="Translator"><note n="0997008" resp="Taisho" type="orig" place="foot text">（（後秦…譯））十二字＝（（姚秦三藏法師鳩摩羅什譯））十一字【宋】【明】【宮】＊，（（姚秦三藏法師鳩摩羅什第二譯））十三字【元】＊</note><note n="0997008" resp="CBETA" type="mod">（（後秦…譯））十二字＝（（姚秦三藏法師鳩摩羅什譯））十一字【宋】【明】【宮】＊，＝（（姚秦三藏法師鳩摩羅什第二譯））十三字【元】＊</note><app n="0997008" word-count="12"><lem>後秦龜茲國三藏鳩摩羅什譯</lem><rdg wit="【宋】【明】【宮】" resp="Taisho">姚秦三藏法師鳩摩羅什譯</rdg><rdg wit="【元】" resp="Taisho">姚秦三藏法師鳩摩羅什第二譯</rdg></app></byline>
-<lb n="0997b12"/><p><note n="0997009" resp="Taisho" type="orig" place="foot text">（菩薩心地品之上）七字＋爾【三】【宮】</note><note n="0997009" resp="CBETA" type="mod">（菩薩心地品之上）七字＋爾【宋】【元】【明】【宮】</note><app n="0997009"><lem>爾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">菩薩心地品之上爾</rdg></app>時釋迦牟尼佛。在第四禪地中摩醯首羅
+<lb n="0997b12"/><div1 type="other"><p><note n="0997009" resp="Taisho" type="orig" place="foot text">（菩薩心地品之上）七字＋爾【三】【宮】</note><note n="0997009" resp="CBETA" type="mod">（菩薩心地品之上）七字＋爾【宋】【元】【明】【宮】</note><app n="0997009"><lem>爾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">菩薩心地品之上爾</rdg></app>時釋迦牟尼佛。在第四禪地中摩醯首羅
 <lb n="0997b13"/>天王宮。與無量大梵天王不可說不可說菩
 <lb n="0997b14"/>薩眾說蓮花臺藏世界盧舍那佛所說心地
 <lb n="0997b15"/>法門品。是時釋迦身放慧光所照。從此天
@@ -662,11 +665,11 @@ Added comment  for Emacs
 <lb n="1003a09"/>奇妙法門品。奇妙三明三昧門陀羅尼門。非
 <lb n="1003a10"/>下地凡夫心識所知。唯佛佛無量身口心意
 <lb n="1003a11"/>可盡其原。如光音天品中說十無畏與佛
-<lb n="1003a12"/>道同</p>
-<lb n="1003a13"/><juan fun="close" n="001"><note n="1003002" resp="Taisho" type="orig" place="foot text">（佛說）＋梵【明】</note><app n="1003002"><lem>梵</lem><rdg wit="【明】" resp="Taisho">佛說梵</rdg></app>網經卷上</juan></div1>
+<lb n="1003a12"/>道同</p></div1>
+<lb n="1003a13"/><juan fun="close" n="001"><jhead><title><note n="1003002" resp="Taisho" type="orig" place="foot text">（佛說）＋梵【明】</note><app n="1003002"><lem>梵</lem><rdg wit="【明】" resp="Taisho">佛說梵</rdg></app>網經</title>卷上</jhead></juan>
 <lb n="1003a14"/>
 <milestone unit="juan" n="2"/><juan fun="open" n="002"><mulu type="卷" n="002"/></juan>
-<lb n="1003a15"/><div1 type="xu"><mulu type="序" level="1" label="菩薩戒序"/><head><note n="1003003" resp="Taisho" type="orig" place="foot text">此序宋元明宮四本俱無</note><title>梵網經</title>菩薩戒序</head>
+<lb n="1003a15"/><div1 type="xu"><mulu type="序" level="1" label="菩薩戒序"/><note n="1003003" resp="Taisho" type="orig" place="foot text">此序宋元明宮四本俱無</note><head><title>梵網經</title>菩薩戒序</head>
 <lb n="1003a16"/><p>諸佛子等。合掌至心聽。我今欲說諸佛大戒
 <lb n="1003a17"/>序。眾集默然聽。自知有罪當懺悔。懺悔即
 <lb n="1003a18"/>安樂。不懺悔罪益深。無罪者默然。默然故
@@ -685,13 +688,13 @@ Added comment  for Emacs
 <lb n="1003b01"/>心存念三寶。莫以空過徒設疲勞後代深
 <lb n="1003b02"/>悔。眾等各各一心謹依此戒。如法修行應當
 <lb n="1003b03"/>學</p></div1>
-<lb n="1003b04"/><div1 type="other">
+<lb n="1003b04"/>
 <lb n="1003b05"/>
 <lb n="1003b06"/><juan n="002"><jhead><anchor id="fxT24p1003b01"/>梵網經盧舍那佛說菩薩心地
 <lb n="1003b07"/>戒品第十卷下</jhead></juan>
 <lb n="1003b08"/>
 <lb n="1003b09"/><byline type="Translator"><anchor id="fxT24p1003b02"/>後秦龜茲國三藏鳩摩羅什譯</byline>
-<lb n="1003b10"/><p><note n="1003004" resp="Taisho" type="orig" place="foot text">（菩薩心地品之下）＋爾【三】【宮】</note><note n="1003004" resp="CBETA" type="mod">（菩薩心地品之下）＋爾【宋】【元】【明】【宮】</note><app n="1003004"><lem>爾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">菩薩心地品之下爾</rdg></app>時盧舍那佛。為此大眾。略開百千&M010527;河
+<lb n="1003b10"/><div1 type="other"><p><note n="1003004" resp="Taisho" type="orig" place="foot text">（菩薩心地品之下）＋爾【三】【宮】</note><note n="1003004" resp="CBETA" type="mod">（菩薩心地品之下）＋爾【宋】【元】【明】【宮】</note><app n="1003004"><lem>爾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">菩薩心地品之下爾</rdg></app>時盧舍那佛。為此大眾。略開百千&M010527;河
 <lb n="1003b11"/>沙不可說法門中心地。如毛頭許。是過去一
 <lb n="1003b12"/>切佛已說。未來佛當說。現在佛今說。三世菩
 <lb n="1003b13"/>薩已學當學今學。我已百劫修行是心地。
@@ -1276,7 +1279,7 @@ Added comment  for Emacs
 <lb n="1010a18"/><l>此是佛行處</l><l>聖主所稱歎</l>
 <lb n="1010a19"/><l>我已隨順說</l><l>福德無量聚</l>
 <lb n="1010a20"/><l>迴<note n="1010008" resp="Taisho" type="orig" place="foot text">以＝已【宋】【元】【宮】</note><app n="1010008"><lem>以</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">已</rdg></app>施眾生</l><l>共向一切智</l>
-<lb n="1010a21"/><l>願聞是法者</l><l>疾得成佛道</l></lg>
-<lb n="1010a22"/><juan fun="close" n="002"><note n="1010009" resp="Taisho" type="orig" place="foot text">（（梵網…下））十八字＝（（梵網經卷下））五字【宋】【宮】，（（佛說梵網經卷下））七字【元】【明】</note><app n="1010009" word-count="18"><lem>梵網經盧舍那佛說菩薩心地戒品第十之
-<lb n="1010a23"/>下</lem><rdg wit="【宋】【宮】" resp="Taisho">梵網經卷下</rdg><rdg wit="【元】【明】" resp="Taisho">佛說梵網經卷下</rdg></app></juan></div1>
+<lb n="1010a21"/><l>願聞是法者</l><l>疾得成佛道</l></lg></div1>
+<lb n="1010a22"/><juan fun="close" n="002"><jhead><note n="1010009" resp="Taisho" type="orig" place="foot text">（（梵網…下））十八字＝（（梵網經卷下））五字【宋】【宮】，（（佛說梵網經卷下））七字【元】【明】</note><app n="1010009" word-count="18"><lem>梵網經盧舍那佛說菩薩心地戒品第十之
+<lb n="1010a23"/>下</lem><rdg wit="【宋】【宮】" resp="Taisho">梵網經卷下</rdg><rdg wit="【元】【明】" resp="Taisho">佛說梵網經卷下</rdg></app></jhead></juan>
 </body></text></TEI.2>

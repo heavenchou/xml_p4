@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/04/20 08:39:48 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/06/30 03:20:04 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:39:48 $</date>
+		<date>$Date: 2004/06/30 03:20:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1483b</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1483b.xml,v $
+Revision 1.5  2004/06/30 03:20:04  saywhat
+juan 加上 jhead & title
+
 Revision 1.4  2004/04/20 08:39:48  maha
 「版本日期」標記修訂
 
@@ -102,7 +105,7 @@ Revision 1.6  2001/02/07 07:01:10  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:49  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/04/20 08:39:48 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/06/30 03:20:04 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -110,13 +113,13 @@ Added comment  for Emacs
 </teiHeader>
 <text><body>
 <lb n="0983c17"/>
-<milestone unit="juan" n="1"/><div1 type="pin">
+<milestone unit="juan" n="1"/>
 <lb n="0983c18"/>
-<lb n="0983c19"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0983001" resp="Taisho" type="orig" place="foot text">此律明本與宋本元本宮本對校 cf. p. 972</note>佛說目連問戒律中五百
-<lb n="0983c20"/>輕重事經<note n="0983002" resp="Taisho" type="orig" place="foot text">〔卷上〕－【宋】【元】【宮】</note><app n="0983002"><lem>卷上</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="0983c19"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0983001" resp="Taisho" type="orig" place="foot text">此律明本與宋本元本宮本對校 cf. p. 972</note><jhead><title>佛說目連問戒律中五百
+<lb n="0983c20"/>輕重事經</title><note n="0983002" resp="Taisho" type="orig" place="foot text">〔卷上〕－【宋】【元】【宮】</note><app n="0983002"><lem>卷上</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0983c21"/>
 <lb n="0983c22"/><byline type="Translator">失譯<note n="0983003" resp="Taisho" type="orig" place="foot text">〔人名〕－【宮】</note><app n="0983003"><lem>人名</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>今附東晉錄</byline>
-<lb n="0983c23"/><mulu type="品" level="1" n="1" label="1 五篇事品"/><head>五<note n="0983004" resp="Taisho" type="orig" place="foot text">篇＝偏【宋】【元】【宮】</note><app n="0983004"><lem>篇</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">偏</rdg></app>事品第一</head>
+<lb n="0983c23"/><div1 type="pin"><mulu type="品" level="1" n="1" label="1 五篇事品"/><head>五<note n="0983004" resp="Taisho" type="orig" place="foot text">篇＝偏【宋】【元】【宮】</note><app n="0983004"><lem>篇</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">偏</rdg></app>事品第一</head>
 <lb n="0983c24"/><p>如是我聞一時。佛住王舍城迦蘭陀竹園。
 <lb n="0983c25"/>是時目連從坐而起。白佛言。世尊。我今欲
 <lb n="0983c26"/>有所問<note n="0983005" resp="Taisho" type="orig" place="foot text">惟＝唯【宋】【元】【宮】</note><app n="0983005"><lem>惟</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">唯</rdg></app>願世尊。為我演說。佛言。善哉
@@ -675,16 +678,16 @@ Added comment  for Emacs
 <lb n="0990a09"/>敬禮拜有何過也</p>
 <lb n="0990a10"/><p>問分物時羯磨已訖。更有僧來得分不答
 <lb n="0990a11"/>若羯磨訖。不與無咎。若及後羯磨猶故得
-<lb n="0990a12"/>分</p>
-<lb n="0990a13"/><juan fun="close" n="001">佛說目連問戒律中五百輕重事經卷上◎<note n="0990001" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】【宮】</note><note n="0990001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【宮】</note></juan></div1>
+<lb n="0990a12"/>分</p></div1>
+<lb n="0990a13"/><juan fun="close" n="001"><jhead><title>佛說目連問戒律中五百輕重事經</title>卷上</jhead>◎<note n="0990001" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】【宮】</note><note n="0990001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【宮】</note></juan>
 <lb n="0990a14"/>
 <milestone unit="juan" n="2"/>
-<lb n="0990a15"/><div1 type="pin">
-<lb n="0990a16"/><juan fun="open" n="002"><mulu type="卷" n="002"/>佛說目連問戒律中五百
-<lb n="0990a17"/>輕重事經卷下</juan>
+<lb n="0990a15"/>
+<lb n="0990a16"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>佛說目連問戒律中五百
+<lb n="0990a17"/>輕重事經</title>卷下</jhead></juan>
 <lb n="0990a18"/>
 <lb n="0990a19"/><byline type="Translator">失譯人名今附東晉錄</byline>
-<lb n="0990a20"/><mulu type="品" level="1" n="11" label="11 三衣事品"/><head>◎<note n="0990002" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】【宮】</note><note n="0990002" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【宮】</note>問三衣事品<note n="0990003" resp="Taisho" type="orig" place="foot text">〔第十一〕－【宮】</note><app n="0990003"><lem>第十一</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></head>
+<lb n="0990a20"/><div1 type="pin"><mulu type="品" level="1" n="11" label="11 三衣事品"/>◎<note n="0990002" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】【宮】</note><note n="0990002" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【宮】</note><head>問三衣事品<note n="0990003" resp="Taisho" type="orig" place="foot text">〔第十一〕－【宮】</note><app n="0990003"><lem>第十一</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></head>
 <lb n="0990a21"/><p>問三衣事浣要須捨不。答須捨。若不捨犯
 <lb n="0990a22"/>捨墮。當施<note n="0990004" resp="Taisho" type="orig" place="foot text">與＝人【宮】</note><app n="0990004"><lem>與</lem><rdg wit="【宮】" resp="Taisho">人</rdg></app>人。還乃得更受</p>
 <lb n="0990a23"/><p>問三衣盡得<note n="0990005" resp="Taisho" type="orig" place="foot text">條＝徐【宋】【元】【宮】</note><app n="0990005"><lem>條</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">徐</rdg></app>成不。答大衣得。中衣小衣
@@ -1184,7 +1187,6 @@ Added comment  for Emacs
 <lb n="0995c07"/>尼。誹謗如是毘尼者。當知是人是魔朋侶。
 <lb n="0995c08"/>非吾弟子。如是人輩。世世學道不成。不出
 <lb n="0995c09"/>三界。吾今憐愍諸眾生輩。是時目連。聞佛
-<lb n="0995c10"/>所說。歡喜奉行</p>
-<lb n="0995c11"/><juan fun="close" n="002">佛說目連問戒律中五百輕重事經<note n="0995004" resp="Taisho" type="orig" place="foot text">〔卷下〕－【宋】【元】【宮】</note><app n="0995004"><lem>卷下</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></juan>
-</div1>
-</body></text></TEI.2>
+<lb n="0995c10"/>所說。歡喜奉行</p></div1>
+<lb n="0995c11"/><juan fun="close" n="002"><jhead><title>佛說目連問戒律中五百輕重事經</title><note n="0995004" resp="Taisho" type="orig" place="foot text">〔卷下〕－【宋】【元】【宮】</note><app n="0995004"><lem>卷下</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+</body></text></TEI.2>
