@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/04/20 08:44:30 $</date></edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/06/16 04:14:24 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:44:30 $</date>
+		<date>$Date: 2004/06/16 04:14:24 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2150 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2150.xml,v $
+Revision 1.12  2004/06/16 04:14:24  saywhat
+修訂 juan, div & mulu位置
+
 Revision 1.11  2004/04/20 08:44:30  maha
 「版本日期」標記修訂
 
@@ -142,7 +145,7 @@ Revision 1.3  2001/02/07 07:46:06  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:09  chris
-Added keywords $Revision: 1.11 $, $Date: 2004/04/20 08:44:30 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2004/06/16 04:14:24 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -152,7 +155,7 @@ Added comment  for Emacs
 <lb n="0342a19"/><milestone unit="juan" n="1"/>
 <lb n="0342a20"/>
 <lb n="0342a21"/><head type="no">No. 2150</head>
-<lb n="0342a22"/><div1 type="xu"><mulu type="序" level="1" label="續大唐內典錄讚序"/><head><note n="0342006" resp="Taisho" type="orig" place="foot text">【原】麗本</note>續大唐內典錄讚<note n="0342007" resp="Taisho" type="orig" place="foot text">此次行宋本有唐釋智昇撰五字，元本有大唐西明寺沙門釋道宣撰十一字，明本有唐沙門釋道宣撰七字</note>序</head>
+<lb n="0342a22"/><div1 type="xu"><mulu type="序" level="1" label="續大唐內典錄讚序"/><note n="0342006" resp="Taisho" type="orig" place="foot text">【原】麗本</note><head>續大唐內典錄讚<note n="0342007" resp="Taisho" type="orig" place="foot text">此次行宋本有唐釋智昇撰五字，元本有大唐西明寺沙門釋道宣撰十一字，明本有唐沙門釋道宣撰七字</note>序</head>
 <lb n="0342a23"/>
 <lb n="0342a24"/><p>夫以大聖者體辯而長幽寂。普霑動植同熟氣
 <lb n="0342a25"/>而登焉。幽蔽而不光。能異變而不養不謂親相
@@ -190,9 +193,8 @@ Added comment  for Emacs
 <app n="0342011"><lem>寔</lem><rdg wit="【宋】【元】【明】" resp="Taisho">實</rdg></app>所留意畫像
 <lb n="0342b17"/>序讚一體不隱集遠無餘定秀每人前後相繼
 <lb n="0342b18"/>於賢難方卓異絕群。是法師之曠度耳者也</p></div1>
-<div1 type="other"><mulu type="其他" level="1" label="續大唐內典錄"/><div2 type="xu"><mulu type="序" level="2" label="序"/>
-<lb n="0342b19"/><head>續大唐內典錄<note n="0342012" resp="Taisho" type="orig" place="foot text">〔一卷并〕－【三】</note><note n="0342012" resp="CBETA" type="mod">〔一卷并〕－【宋】【元】【明】</note><app n="0342012"><lem>一卷并</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>序<note place="inline">麟德元年於西明寺起首移總持寺釋氏撰<note n="0342013" resp="Taisho" type="orig" place="foot text">〔畢〕－【元】【明】</note><app n="0342013"><lem>畢</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></note></head>
-<lb n="0342b20"/><p>若正於法名寶崇誠或有由賢是通俗法<note n="0342014" resp="Taisho" type="orig" place="foot text">津＝律【三】</note><note n="0342014" resp="CBETA" type="mod">津＝律【宋】【元】【明】</note><app n="0342014"><lem>津</lem><rdg wit="【宋】【元】【明】" resp="Taisho">律</rdg></app>
+<lb n="0342b19"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>續大唐內典錄<note n="0342012" resp="Taisho" type="orig" place="foot text">〔一卷并〕－【三】</note><note n="0342012" resp="CBETA" type="mod">〔一卷并〕－【宋】【元】【明】</note><app n="0342012"><lem>一卷并</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>序<note place="inline">麟德元年於西明寺起首移總持寺釋氏撰<note n="0342013" resp="Taisho" type="orig" place="foot text">〔畢〕－【元】【明】</note><app n="0342013"><lem>畢</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></note></jhead></juan>
+<lb n="0342b20"/><div1 type="other"><mulu type="其他" level="1" label="續大唐內典錄"/><div2 type="xu"><mulu type="序" level="2" label="序"/><p>若正於法名寶崇誠或有由賢是通俗法<note n="0342014" resp="Taisho" type="orig" place="foot text">津＝律【三】</note><note n="0342014" resp="CBETA" type="mod">津＝律【宋】【元】【明】</note><app n="0342014"><lem>津</lem><rdg wit="【宋】【元】【明】" resp="Taisho">律</rdg></app>
 <lb n="0342b21"/>之真海聖之高廣以歷於方如尊卑在日月明
 <lb n="0342b22"/>存道隆之美豈得不以凶我倒之筌蹄須證貧
 <lb n="0342b23"/>生之珍位者也自仙苑告就名水淨濟演字群
@@ -647,6 +649,6 @@ Added comment  for Emacs
 <lb n="0347c01"/><p rend="margin-left:1">右中<note n="0347011" resp="Taisho" type="orig" place="foot text">〔本〕－【三】</note><note n="0347011" resp="CBETA" type="mod">〔本〕－【宋】【元】【明】</note><app n="0347011"><lem>本</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>起經。亦是沙門曇果。於迦維羅衛
 <lb n="0347c02"/>國得此梵本。於雒陽以建安十二年翻。孟
 <lb n="0347c03"/>詳度語。見始興錄及長房錄。余以詳公所
-<lb n="0347c04"/>譯與前無異。故兩別來由耳</p></item></list>
-<lb n="0347c05"/><juan fun="close" n="001"><jhead>續大唐內典錄<note n="0347012" resp="Taisho" type="orig" place="foot text">一卷＝畢【明】</note><app n="0347012"><lem>一卷</lem><rdg wit="【明】" resp="Taisho">畢</rdg></app></jhead></juan></div1>
+<lb n="0347c04"/>譯與前無異。故兩別來由耳</p></item></list></div1>
+<lb n="0347c05"/><juan fun="close" n="001"><jhead>續大唐內典錄<note n="0347012" resp="Taisho" type="orig" place="foot text">一卷＝畢【明】</note><app n="0347012"><lem>一卷</lem><rdg wit="【明】" resp="Taisho">畢</rdg></app></jhead></juan>
 </body></text></TEI.2>
