@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:08:29 $</date>
+		<date>$Date: 2003/06/23 03:58:38 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 4, No. 213 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T04n0213.xml,v $
-Revision 1.1  2003/05/05 04:08:29  ray
-Initial revision
+Revision 1.2  2003/06/23 03:58:38  moved
+＊校勘插入 xml 作業
+
+Revision 1.1.1.1  2003/05/05 04:08:29  ray
+recover cvs
 
 Revision 1.21  2002/12/06 02:58:09  moved
 modified
@@ -108,7 +111,7 @@ Revision 1.7  2001/02/07 06:42:04  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:30:52  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:29 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 03:58:38 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -123,7 +126,7 @@ Added comment  for Emacs
 <lb n="0777a03"/>
 <lb n="0777a04"/><byline type="Collector">尊者法救集</byline>
 <lb n="0777a05"/><byline type="Translator"><note n="0777002" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】</note><app n="0777002"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天中印度惹爛&CB00499;
-<lb n="0777a06"/>囉國<note n="0777003" resp="Taisho" type="orig" place="foot text">〔密林寺〕－【明】＊</note><app n="0777003"><lem>密林寺</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏明教大師<note n="0777004" resp="Taisho" type="orig" place="foot text">〔賜紫沙門臣〕－【明】＊</note><app n="0777004"><lem>賜紫
+<lb n="0777a06"/>囉國<note n="0777003" resp="Taisho" type="orig" place="foot text">〔密林寺〕－【明】＊</note><note n="0777003" resp="CBETA" type="mod"><todo type="＊"/>〔密林寺〕－【明】＊</note><app n="0777003"><lem>密林寺</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏明教大師<note n="0777004" resp="Taisho" type="orig" place="foot text">〔賜紫沙門臣〕－【明】＊</note><note n="0777004" resp="CBETA" type="mod"><todo type="＊"/>〔賜紫沙門臣〕－【明】＊</note><app n="0777004"><lem>賜紫
 <lb n="0777a07"/>沙門臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>天息災奉　詔譯</byline>
 <lb n="0777a08"/><mulu type="品" level="1" n="1" label="1 有為品"/><lg><l><note n="0777005" resp="Taisho" type="orig" place="foot text">譯號次行＋（有為品第一）【明】</note>能覺悟煩惱</l><l>宜發歡喜心</l>
 <lb n="0777a09"/><l>今聽我所集</l><l>佛所宣法頌</l>
@@ -252,7 +255,7 @@ Added comment  for Emacs
 <lb n="0778b12"/><l>此猶無厭足</l><l>正覺盡能知</l>
 <lb n="0778b13"/><l>世間苦果報</l><l>皆因於貪欲</l>
 <lb n="0778b14"/><l>智者善調伏</l><l>應依此中學</l></lg></div1>
-<lb n="0778b15"/><div1 type="pin"><mulu type="品" level="1" n="3" label="3 貪品"/><head><title><anchor id="fxT04p0778b01"/>法集要頌經</title>貪品第三</head>
+<lb n="0778b15"/><div1 type="pin"><mulu type="品" level="1" n="3" label="3 貪品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>貪品第三</head>
 <lb n="0778b16"/><lg><l>極貪善顯現</l><l>有情懷疑慮</l>
 <lb n="0778b17"/><l>若復增貪意</l><l>自作堅固縛</l>
 <lb n="0778b18"/><l>離貪善觀察</l><l>疑慮得消除</l>
@@ -296,7 +299,7 @@ Added comment  for Emacs
 <lb n="0778c26"/><l>內箭亦如是</l><l>愛箭傷有情</l>
 <lb n="0778c27"/><l>能覺知是者</l><l>愛苦共生有</l>
 <lb n="0778c28"/><l>無欲無有想</l><l>苾芻真度世</l></lg></div1>
-<lb n="0778c29"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 放逸品"/><head><title><anchor id="fxT04p0778c01"/>法集要頌經</title>放逸品第四</head>
+<lb n="0778c29"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 放逸品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>放逸品第四</head>
 <pb ed="T" id="T04.0213.0779a" n="0779a"/>
 <lb n="0779a01"/><lg><l>戒為甘露道</l><l>放逸為死徑</l>
 <lb n="0779a02"/><l>不貪則不死</l><l>失道乃自喪</l>
@@ -379,7 +382,7 @@ Added comment  for Emacs
 <lb n="0779c19"/><l>抖擻無常軍</l><l>如象出蓮池</l>
 <lb n="0779c20"/><l>依此毘尼法</l><l>不懷放逸行</l>
 <lb n="0779c21"/><l>消除生死輪</l><l>永得盡苦惱</l></lg></div1>
-<lb n="0779c22"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 愛樂品"/><head><title><anchor id="fxT04p0779c01"/>法集要頌經</title>愛樂品第五</head>
+<lb n="0779c22"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 愛樂品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>愛樂品第五</head>
 <lb n="0779c23"/><lg><l>愛處生憂愁</l><l>愛處生怖畏</l>
 <lb n="0779c24"/><l>若無所愛樂</l><l>何愁何怖畏</l>
 <lb n="0779c25"/><l>由愛生憂愁</l><l>由愛生怖畏</l>
@@ -432,7 +435,7 @@ Added comment  for Emacs
 <lb n="0780b12"/><l>善者之所念</l><l>惡者當遠離</l>
 <lb n="0780b13"/><l>善與不善者</l><l>此二俱不別</l>
 <lb n="0780b14"/><l>善者生天上</l><l>不善墮地獄</l></lg></div1>
-<lb n="0780b15"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 持戒品"/><head><title><anchor id="fxT04p0780b01"/>法集要頌經</title>持戒品第六</head>
+<lb n="0780b15"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 持戒品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>持戒品第六</head>
 <lb n="0780b16"/><lg><l>智者能護戒</l><l>福致三種報</l>
 <lb n="0780b17"/><l>現名聞得利</l><l>終後生天上</l>
 <lb n="0780b18"/><l>當見持戒者</l><l>護之為明智</l>
@@ -476,7 +479,7 @@ Added comment  for Emacs
 <lb n="0780c26"/><l>正智得解脫</l><l>是名安樂處</l>
 <lb n="0780c27"/><l>此道無有上</l><l>消除禪定魔</l>
 <lb n="0780c28"/><l>賢聖德難量</l><l>得達八正路</l></lg></div1>
-<lb n="0780c29"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 善行品"/><head><title><anchor id="fxT04p0780c01"/>法集要頌經</title>善行品第七</head>
+<lb n="0780c29"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 善行品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>善行品第七</head>
 <pb ed="T" id="T04.0213.0781a" n="0781a"/>
 <lb n="0781a01"/><lg><l>守護身惡行</l><l>自正護身行</l>
 <lb n="0781a02"/><l>守護身惡者</l><l>常修身善行</l>
@@ -501,7 +504,7 @@ Added comment  for Emacs
 <lb n="0781a21"/><l>過去意惡業</l><l>應當自悔恨</l>
 <lb n="0781a22"/><l>今意常清淨</l><l>智生罪除滅</l>
 <lb n="0781a23"/><l>慎身為勇捍</l><l>慎口<note n="0781001" resp="Taisho" type="orig" place="foot text">捍＝悍【元】【明】＊</note><app n="0781001"><lem>捍</lem><rdg wit="【元】【明】" resp="Taisho">悍</rdg></app>亦然</l>
-<lb n="0781a24"/><l>慎意為勇<anchor id="fxT04p0781a01"/>捍</l><l>一切結亦然</l>
+<lb n="0781a24"/><l>慎意為勇<app type="＊" source="0781001"><lem>捍</lem><rdg resp="Taisho" wit="【元】【明】">悍</rdg></app></l><l>一切結亦然</l>
 <lb n="0781a25"/><l>此處名不死</l><l>所適無憂患</l>
 <lb n="0781a26"/><l>護身為善哉</l><l>護口善亦然</l>
 <lb n="0781a27"/><l>護意為善哉</l><l>護一切亦然</l>
@@ -509,7 +512,7 @@ Added comment  for Emacs
 <lb n="0781a29"/><l>護口意清淨</l><l>身終不為惡</l>
 <pb ed="T" id="T04.0213.0781b" n="0781b"/>
 <lb n="0781b01"/><l>能淨此三業</l><l>是道大仙說</l></lg></div1>
-<lb n="0781b02"/><div1 type="pin"><mulu type="品" level="1" n="8" label="8 語言品"/><head><title><anchor id="fxT04p0781b01"/>法集要頌經</title>語言品第八</head>
+<lb n="0781b02"/><div1 type="pin"><mulu type="品" level="1" n="8" label="8 語言品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>語言品第八</head>
 <lb n="0781b03"/><lg><l>妄語入地獄</l><l>作之言不作</l>
 <lb n="0781b04"/><l>二罪後俱受</l><l>是行自牽去</l>
 <lb n="0781b05"/><l>&M010527;懷暴惡人</l><l>斧在口中出</l>
@@ -546,7 +549,7 @@ Added comment  for Emacs
 <lb n="0781c06"/><l>諦說義如法</l><l>是為立道本</l>
 <lb n="0781c07"/><l>如說佛言者</l><l>是吉得滅度</l>
 <lb n="0781c08"/><l>為能斷苦際</l><l>是謂言中上</l></lg></div1>
-<lb n="0781c09"/><div1 type="pin"><mulu type="品" level="1" n="9" label="9 業品"/><head><title><anchor id="fxT04p0781c01"/>法集要頌經</title>業品第九</head>
+<lb n="0781c09"/><div1 type="pin"><mulu type="品" level="1" n="9" label="9 業品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>業品第九</head>
 <lb n="0781c10"/><lg><l>應遠離一法</l><l>所謂妄語人</l>
 <lb n="0781c11"/><l>無惡不經歷</l><l>不免後世苦</l>
 <lb n="0781c12"/><l>寧吞熱鐵丸</l><l>渴飲洋銅汁</l>
@@ -585,7 +588,7 @@ Added comment  for Emacs
 <lb n="0782a15"/><l>至惡知惡至</l><l>受惡惡根源</l>
 <lb n="0782a16"/><l>如鐵生翳垢</l><l>反食其自身</l>
 <lb n="0782a17"/><l>惡生於自心</l><l>還當壞其體</l></lg></div1>
-<lb n="0782a18"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 正信品"/><head><title><anchor id="fxT04p0782a01"/>法集要頌經</title>正信品第十</head>
+<lb n="0782a18"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 正信品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>正信品第十</head>
 <lb n="0782a19"/><lg><l>信慚戒布施</l><l>上士譽此法</l>
 <lb n="0782a20"/><l>斯道明智說</l><l>得生於天界</l>
 <lb n="0782a21"/><l>愚不修天行</l><l>亦不讚布施</l>
@@ -628,7 +631,7 @@ Added comment  for Emacs
 <lb n="0782b28"/><lg><l>無常及欲貪</l><l>放逸與愛樂</l>
 <lb n="0782b29"/><l>戒善行語言</l><l>業信為第十</l></lg></div1>
 <pb ed="T" id="T04.0213.0782c" n="0782c"/>
-<lb n="0782c01"/><div1 type="pin"><mulu type="品" level="1" n="11" label="11 沙門品"/><head><title><anchor id="fxT04p0782c01"/>法集要頌經</title>沙門品第十一</head>
+<lb n="0782c01"/><div1 type="pin"><mulu type="品" level="1" n="11" label="11 沙門品"/><head><title><app type="＊" source="0778001"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>沙門品第十一</head>
 <lb n="0782c02"/><lg><l>斷漏降伏他</l><l>離欲名梵行</l>
 <lb n="0782c03"/><l>不犯牟尼戒</l><l>無一願不滿</l>
 <lb n="0782c04"/><l>行力若緩慢</l><l>作善與不善</l>
@@ -721,7 +724,7 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0213.0783c" n="0783c"/>
 <lb n="0783c01"/><l>讚歎得名譽</l><l>逮賢聖八品</l>
 <lb n="0783c02"/><l>修道甘露果</l></lg></div1>
-<lb n="0783c03"/><div1 type="pin"><mulu type="品" level="1" n="13" label="13 利養品"/><head><title><anchor id="fxT04p0783c01"/>法集要頌經</title>利養品第十三</head>
+<lb n="0783c03"/><div1 type="pin"><mulu type="品" level="1" n="13" label="13 利養品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>利養品第十三</head>
 <lb n="0783c04"/><lg><l>芭蕉以實死</l><l>竹蘆實亦然</l>
 <lb n="0783c05"/><l>駏驉坐妊終</l><l>人為貪利喪</l>
 <lb n="0783c06"/><l>如是貪無利</l><l>當知從癡生</l>
@@ -791,7 +794,7 @@ Added comment  for Emacs
 <lb n="0784b10"/><l>寧獨守善行</l><l>不與愚人偕</l>
 <lb n="0784b11"/><l>樂戒學法行</l><l>奚用伴侶為</l>
 <lb n="0784b12"/><l>如龍好深淵</l><l>如象樂曠野</l></lg></div1>
-<lb n="0784b13"/><div1 type="pin"><mulu type="品" level="1" n="15" label="15 憶念品"/><head><title><anchor id="fxT04p0784b01"/>法集要頌經</title>憶念品第十五</head>
+<lb n="0784b13"/><div1 type="pin"><mulu type="品" level="1" n="15" label="15 憶念品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>憶念品第十五</head>
 <lb n="0784b14"/><lg><l>入息出息念</l><l>具滿諦思惟</l>
 <lb n="0784b15"/><l>常依次第行</l><l>按如佛所說</l>
 <lb n="0784b16"/><l>是則照世間</l><l>如雲開月現</l>
@@ -852,7 +855,7 @@ Added comment  for Emacs
 <lb n="0785a11"/><l>應當於晝夜</l><l>一心念意樂</l>
 <lb n="0785a12"/><l>善知自覺者</l><l>是能仁弟子</l>
 <lb n="0785a13"/><l>應當於晝夜</l><l>一心念圓寂</l></lg></div1>
-<lb n="0785a14"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 清淨品"/><head><title><anchor id="fxT04p0785a01"/>法集要頌經</title>清淨品第十六</head>
+<lb n="0785a14"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 清淨品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>清淨品第十六</head>
 <lb n="0785a15"/><lg><l>當念自覺悟</l><l>作時勿虛妄</l>
 <lb n="0785a16"/><l>行要修亦安</l><l>所造時真實</l>
 <lb n="0785a17"/><l>人當求方便</l><l>自致獲財寶</l>
@@ -899,7 +902,7 @@ Added comment  for Emacs
 <lb n="0785b28"/><l>有緣則增苦</l><l>觀彼二因緣</l>
 <lb n="0785b29"/><l>滅之由賢眾</l><l>不從外愚除</l></lg></div1>
 <pb ed="T" id="T04.0213.0785c" n="0785c"/>
-<lb n="0785c01"/><div1 type="pin"><mulu type="品" level="1" n="17" label="17 水喻品"/><head><title><anchor id="fxT04p0785c01"/>法集要頌經</title>水喻品第十七</head>
+<lb n="0785c01"/><div1 type="pin"><mulu type="品" level="1" n="17" label="17 水喻品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>水喻品第十七</head>
 <lb n="0785c02"/><lg><l>淨心常憶念</l><l>無所有貪愛</l>
 <lb n="0785c03"/><l>已度愚癡淵</l><l>如鵝守枯池</l>
 <lb n="0785c04"/><l>彼心既棄捨</l><l>翱翔昇虛空</l>
@@ -929,7 +932,7 @@ Added comment  for Emacs
 <lb n="0785c28"/><l>忍心如大地</l><l>不動如虛空</l>
 <lb n="0785c29"/><l>聞法喻金剛</l><l>獲味免輪迴</l></lg></div1>
 <pb ed="T" id="T04.0213.0786a" n="0786a"/>
-<lb n="0786a01"/><div1 type="pin"><mulu type="品" level="1" n="18" label="18 華喻品"/><head><title><anchor id="fxT04p0786a01"/>法集要頌經</title>華喻品第十八</head>
+<lb n="0786a01"/><div1 type="pin"><mulu type="品" level="1" n="18" label="18 華喻品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>華喻品第十八</head>
 <lb n="0786a02"/><lg><l>何人能擇地</l><l>捨地獄取天</l>
 <lb n="0786a03"/><l>惟說善法句</l><l>如採善妙華</l>
 <lb n="0786a04"/><l>學人能擇地</l><l>捨地獄取天</l>
@@ -990,7 +993,7 @@ Added comment  for Emacs
 <lb n="0786b29"/><l>若無煩惱根</l><l>獲報善因果</l>
 <pb ed="T" id="T04.0213.0786c" n="0786c"/>
 <lb n="0786c01"/><l>苾芻到彼岸</l><l>如蛇脫故皮</l></lg></div1>
-<lb n="0786c02"/><div1 type="pin"><mulu type="品" level="1" n="19" label="19 馬喻品"/><head><title><anchor id="fxT04p0786c01"/>法集要頌經</title>馬喻品第十九</head>
+<lb n="0786c02"/><div1 type="pin"><mulu type="品" level="1" n="19" label="19 馬喻品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>馬喻品第十九</head>
 <lb n="0786c03"/><lg><l>譬馬調能軟</l><l>隨意如所行</l>
 <lb n="0786c04"/><l>信戒及精進</l><l>定法要具足</l>
 <lb n="0786c05"/><l>獲法第一義</l><l>利用故無窮</l>
@@ -1026,7 +1029,7 @@ Added comment  for Emacs
 <lb n="0787a05"/><l>亦如善象龍</l><l><note n="0787001" resp="Taisho" type="orig" place="foot text">意＝念【明】</note><app n="0787001"><lem>意</lem><rdg wit="【明】" resp="Taisho">念</rdg></app>念到彼岸</l>
 <lb n="0787a06"/><l>自師自衛護</l><l>自歸求自度</l>
 <lb n="0787a07"/><l>是故躬謹慎</l><l>如商賈智馬</l></lg></div1>
-<lb n="0787a08"/><div1 type="pin"><mulu type="品" level="1" n="20" label="20 瞋恚品"/><head><title><anchor id="fxT04p0787a01"/>法集要頌經</title>瞋恚品第二十</head>
+<lb n="0787a08"/><div1 type="pin"><mulu type="品" level="1" n="20" label="20 瞋恚品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>瞋恚品第二十</head>
 <lb n="0787a09"/><lg><l>除瞋去我慢</l><l>遠離諸煩惱</l>
 <lb n="0787a10"/><l>不染彼名色</l><l>冤家無有伴</l>
 <lb n="0787a11"/><l>除恚得善眠</l><l>恚盡不懷憂</l>
@@ -1069,7 +1072,7 @@ Added comment  for Emacs
 <lb n="0787b18"/><l>是為善調御</l><l>去冥入光明</l>
 <lb n="0787b19"/><l>沙門及正道</l><l>利養怨憶念</l>
 <lb n="0787b20"/><l>清淨水兼華</l><l>馬恚為第十</l></lg></div1>
-<lb n="0787b21"/><div1 type="pin"><mulu type="品" level="1" n="21" label="21 如來品"/><head><title><anchor id="fxT04p0787b01"/>法集要頌經</title>如來品第二十一</head>
+<lb n="0787b21"/><div1 type="pin"><mulu type="品" level="1" n="21" label="21 如來品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>如來品第二十一</head>
 <lb n="0787b22"/><lg><l>自獲正覺最無等</l><l><note n="0787004" resp="Taisho" type="orig" place="foot text">一＝不【三】</note><note n="0787004" resp="CBETA" type="mod">一＝不【宋】【元】【明】</note><app n="0787004"><lem>一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">不</rdg></app>染世間一切法</l>
 <lb n="0787b23"/><l>具一切智力無畏</l><l>自然無師亦無證</l>
 <lb n="0787b24"/><l>自獲正覺最無等</l><l>不染<note n="0787005" resp="Taisho" type="orig" place="foot text">一切世間＝世間一切【明】</note><app n="0787005"><lem>一切世間</lem><rdg wit="【明】" resp="Taisho">世間一切</rdg></app>法</l>
@@ -1112,7 +1115,7 @@ Added comment  for Emacs
 <lb n="0788a01"/><l>審觀法如是</l><l>如登樓觀園</l>
 <lb n="0788a02"/><l>若人&M010527;觀察</l><l>煩惱永不生</l>
 <lb n="0788a03"/><l>降甘露法雨</l><l>連注無窮盡</l></lg></div1>
-<lb n="0788a04"/><div1 type="pin"><mulu type="品" level="1" n="22" label="22 多聞品"/><head><title><anchor id="fxT04p0788a01"/>法集要頌經</title>多聞品第二十二</head>
+<lb n="0788a04"/><div1 type="pin"><mulu type="品" level="1" n="22" label="22 多聞品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>多聞品第二十二</head>
 <lb n="0788a05"/><lg><l>多聞善能行</l><l>修善無煩惱</l>
 <lb n="0788a06"/><l>所行業障消</l><l>沙門獲妙果</l>
 <lb n="0788a07"/><l>愚迷不覺知</l><l>好行不死法</l>
@@ -1156,7 +1159,7 @@ Added comment  for Emacs
 <lb n="0788b15"/><l>彼不用智定</l><l>速行放逸者</l>
 <lb n="0788b16"/><l>賢聖樂於法</l><l>所行應於口</l>
 <lb n="0788b17"/><l>以忍思惟空</l><l>聞意則牢固</l></lg></div1>
-<lb n="0788b18"/><div1 type="pin"><mulu type="品" level="1" n="23" label="23 己身品"/><head><title><anchor id="fxT04p0788b01"/>法集要頌經</title>己身品第二十三</head>
+<lb n="0788b18"/><div1 type="pin"><mulu type="品" level="1" n="23" label="23 己身品"/><head><title><app type="＊" source="0783005"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>己身品第二十三</head>
 <lb n="0788b19"/><lg><l>常習善語言</l><l>沙門思坐起</l>
 <lb n="0788b20"/><l>一坐而所樂</l><l>欲求於息心</l>
 <lb n="0788b21"/><l>一坐而一臥</l><l>獨步而無伴</l>
@@ -1283,7 +1286,7 @@ Added comment  for Emacs
 <lb n="0789c21"/><l>雖終百歲壽</l><l>奉事祀火神</l>
 <lb n="0789c22"/><l>不如須臾間</l><l>供養佛法僧</l>
 <lb n="0789c23"/><l>一念供養福</l><l>勝彼終身祀</l></lg></div1>
-<lb n="0789c24"/><div1 type="pin"><mulu type="品" level="1" n="25" label="25 善友品"/><head><title><anchor id="fxT04p0789c01"/>法集要頌經</title>善友品第二十五</head>
+<lb n="0789c24"/><div1 type="pin"><mulu type="品" level="1" n="25" label="25 善友品"/><head><title><app type="＊" source="0789006"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>善友品第二十五</head>
 <lb n="0789c25"/><lg><l>無信懷憎嫉</l><l>&CB00508;亂彼此人</l>
 <lb n="0789c26"/><l>智者所棄嫌</l><l>愚習以為樂</l>
 <lb n="0789c27"/><l>有信無憎嫉</l><l>精進信多聞</l>
@@ -1334,7 +1337,7 @@ Added comment  for Emacs
 <lb n="0790b12"/><l>當選擇共居</l><l>如與親親會</l>
 <lb n="0790b13"/><l>是故事多聞</l><l>并及持戒者</l>
 <lb n="0790b14"/><l>如是人中上</l><l>如月在眾星</l></lg></div1>
-<lb n="0790b15"/><div1 type="pin"><mulu type="品" level="1" n="26" label="26 圓寂品"/><head><title><anchor id="fxT04p0790b01"/>法集要頌經</title>圓寂品第二十六</head>
+<lb n="0790b15"/><div1 type="pin"><mulu type="品" level="1" n="26" label="26 圓寂品"/><head><title><app type="＊" source="0789006"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>圓寂品第二十六</head>
 <lb n="0790b16"/><lg><l>如龜藏其六</l><l>苾芻攝意想</l>
 <lb n="0790b17"/><l>無倚無害彼</l><l>圓寂無言說</l>
 <lb n="0790b18"/><l>忍辱第一道</l><l>佛說圓寂最</l>
@@ -1411,7 +1414,7 @@ Added comment  for Emacs
 <lb n="0791a29"/><l>眾施法施勝</l><l>眾樂法樂上</l>
 <pb ed="T" id="T04.0213.0791b" n="0791b"/>
 <lb n="0791b01"/><l>眾力忍力最</l><l>愛盡圓寂樂</l></lg></div1>
-<lb n="0791b02"/><div1 type="pin"><mulu type="品" level="1" n="27" label="27 觀察品"/><head><title><anchor id="fxT04p0791b01"/>法集要頌經</title>觀察品第二十七</head>
+<lb n="0791b02"/><div1 type="pin"><mulu type="品" level="1" n="27" label="27 觀察品"/><head><title><app type="＊" source="0789006"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>觀察品第二十七</head>
 <lb n="0791b03"/><lg><l>善觀己瑕隙</l><l>使己不露外</l>
 <lb n="0791b04"/><l>彼彼自有隙</l><l>如彼飛輕塵</l>
 <lb n="0791b05"/><l>若己稱無瑕</l><l>罪福俱并至</l>
@@ -1485,7 +1488,7 @@ Added comment  for Emacs
 <lb n="0792a13"/><l>以解苦根原</l><l>是為明妙觀</l>
 <lb n="0792a14"/><l>誰令凡夫人</l><l>不觀眾行本</l>
 <lb n="0792a15"/><l>因彼而觀察</l><l>去冥見大明</l></lg></div1>
-<lb n="0792a16"/><div1 type="pin"><mulu type="品" level="1" n="28" label="28 罪障品"/><head><title><anchor id="fxT04p0792a01"/>法集要頌經</title>罪障品第二十八</head>
+<lb n="0792a16"/><div1 type="pin"><mulu type="品" level="1" n="28" label="28 罪障品"/><head><title><app type="＊" source="0789006"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>罪障品第二十八</head>
 <lb n="0792a17"/><lg><l>諸惡業莫作</l><l>諸善業奉行</l>
 <lb n="0792a18"/><l>自淨其意行</l><l>是名諸佛教</l>
 <lb n="0792a19"/><l><note n="0792001" resp="Taisho" type="orig" place="foot text">惠＝慧【三】</note><note n="0792001" resp="CBETA" type="mod">惠＝慧【宋】【元】【明】</note><app n="0792001"><lem>惠</lem><rdg wit="【宋】【元】【明】" resp="Taisho">慧</rdg></app>施獲福報</l><l>不藏恚怒懷</l>
@@ -1557,7 +1560,7 @@ Added comment  for Emacs
 <lb n="0792c25"/><l>彼煮彼受報</l><l>見行自有驗</l>
 <lb n="0792c26"/><l>作福不作惡</l><l>皆由宿行法</l>
 <lb n="0792c27"/><l>終不畏死徑</l><l>如船截流渡</l></lg></div1>
-<lb n="0792c28"/><div1 type="pin"><mulu type="品" level="1" n="29" label="29 相應品"/><head><title><anchor id="fxT04p0792c01"/>法集要頌經</title>相應品第二十九</head>
+<lb n="0792c28"/><div1 type="pin"><mulu type="品" level="1" n="29" label="29 相應品"/><head><title><app type="＊" source="0789006"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>相應品第二十九</head>
 <lb n="0792c29"/><lg><l>夜光照于冥</l><l>至日未出間</l>
 <pb ed="T" id="T04.0213.0793a" n="0793a"/>
 <lb n="0793a01"/><l>日光布大明</l><l>夜光便黤黮</l>
@@ -1875,7 +1878,7 @@ Added comment  for Emacs
 <lb n="0796b12"/><l>降心則致樂</l><l>護心勿復調</l>
 <lb n="0796b13"/><l>護心勿復調</l><l>心為眾妙門</l>
 <lb n="0796b14"/><l>護而不漏失</l><l>便在圓寂道</l></lg></div1>
-<lb n="0796b15"/><div1 type="pin"><mulu type="品" level="1" n="31" label="32 苾芻品"/><head><title><anchor id="fxT04p0796b01"/>法集要頌經</title>苾芻品第三十二</head>
+<lb n="0796b15"/><div1 type="pin"><mulu type="品" level="1" n="31" label="32 苾芻品"/><head><title><app type="＊" source="0795002"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>苾芻品第三十二</head>
 <lb n="0796b16"/><lg><l>苾芻若乞食</l><l>以得勿積聚</l>
 <lb n="0796b17"/><l>天人所歎譽</l><l>生淨無瑕穢</l>
 <lb n="0796b18"/><l>苾芻為慈愍</l><l>愛敬於佛教</l>
@@ -2009,7 +2012,7 @@ Added comment  for Emacs
 <lb n="0797c26"/><l>無為最為樂</l><l>苾芻忍所憂</l>
 <lb n="0797c27"/><l>分別床臥具</l><l>當習無放逸</l>
 <lb n="0797c28"/><l>斷有愛無餘</l></lg></div1>
-<lb n="0797c29"/><div1 type="pin"><mulu type="品" level="1" n="32" label="33 梵志品"/><head><title><anchor id="fxT04p0797c01"/>法集要頌經</title>梵志品第三十三</head>
+<lb n="0797c29"/><div1 type="pin"><mulu type="品" level="1" n="32" label="33 梵志品"/><head><title><app type="＊" source="0795002"><lem>法集要頌經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>梵志品第三十三</head>
 <pb ed="T" id="T04.0213.0798a" n="0798a"/>
 <lb n="0798a01"/><lg><l>所謂梵志者</l><l>不但在裸形</l>
 <lb n="0798a02"/><l>居險臥荊棘</l><l>而名為梵志</l>
@@ -2092,7 +2095,7 @@ Added comment  for Emacs
 <lb n="0798c19"/><l><note n="0798004" resp="Taisho" type="orig" place="foot text">于＝無【三】</note><note n="0798004" resp="CBETA" type="mod">于＝無【宋】【元】【明】</note><app n="0798004"><lem>于</lem><rdg wit="【宋】【元】【明】" resp="Taisho">無</rdg></app>前及于後</l><l>及中則無有</l>
 <lb n="0798c20"/><l>無操無捨行</l><l>是名為梵志</l>
 <lb n="0798c21"/><l>去其婬怒癡</l><l>憍慢諸惡行</l>
-<lb n="0798c22"/><l><anchor id="fxT04p0798c01"/>針貫於芥子</l><l>是名為梵志</l>
+<lb n="0798c22"/><l><app type="＊" source="0798002"><lem>針</lem><rdg resp="Taisho" wit="【明】">鍼</rdg></app>貫於芥子</l><l>是名為梵志</l>
 <lb n="0798c23"/><l>城以塹為固</l><l>來往受其苦</l>
 <lb n="0798c24"/><l>欲適度彼岸</l><l>不宜受他語</l>
 <lb n="0798c25"/><l>惟能滅不起</l><l>是名為梵志</l>

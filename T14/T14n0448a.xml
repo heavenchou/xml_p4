@@ -20,7 +20,7 @@
                         </respStmt>
                 </titleStmt>
         <editionStmt>
-                <edition>$Revision: 1.1 $ (Big5)</edition>
+                <edition>$Revision: 1.2 $ (Big5)</edition>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -33,7 +33,7 @@
                 <availability>
                         <p>Available for non-commercial use when distributed with this header intact.</p>
                 </availability>
-                <date>$Date: 2003/05/05 04:08:49 $</date>
+                <date>$Date: 2003/06/23 04:00:33 $</date>
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taisho Tripitaka Vol. 14, No. 448a &desc;</bibl>
@@ -59,8 +59,11 @@
         </change>
 <!--
 $Log: T14n0448a.xml,v $
-Revision 1.1  2003/05/05 04:08:49  ray
-Initial revision
+Revision 1.2  2003/06/23 04:00:33  moved
+＊校勘插入 xml 作業
+
+Revision 1.1.1.1  2003/05/05 04:08:49  ray
+recover cvs
 
 Revision 1.19  2002/12/05 05:24:04  saywhat
 校勘插入處理
@@ -103,7 +106,7 @@ Revision 1.5  2001/02/07 06:49:17  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:38:43  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:49 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 04:00:33 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -153,7 +156,7 @@ Added comment  for Emacs
 <lb n="0388b24"/>月光如來　南無無動如來　南無大淨如來
 <lb n="0388b25"/>　南無香音如來　南無常光明佛　南無栴檀
 <lb n="0388b26"/>相好佛　南無無限高佛　南無蓮華幢佛
-<lb n="0388b27"/>　南無蓮華化生佛　南無寶<note n="0388009" resp="Taisho" type="orig" place="foot text">巖＝嚴【元】＊</note><app n="0388009"><lem>巖</lem><rdg wit="【元】" resp="Taisho">嚴</rdg></app>如來　南無
+<lb n="0388b27"/>　南無蓮華化生佛　南無寶<note n="0388009" resp="Taisho" type="orig" place="foot text">巖＝嚴【元】＊</note><note n="0388009" resp="CBETA" type="mod"><todo type="＊"/>巖＝嚴【元】＊</note><app n="0388009"><lem>巖</lem><rdg wit="【元】" resp="Taisho">嚴</rdg></app>如來　南無
 <lb n="0388b28"/>阿竭留香佛　南無大勇如來　南無栴檀相
 <lb n="0388b29"/><note n="0388010" resp="Taisho" type="orig" place="foot text">好＋（光明）【宋】【元】</note><app n="0388010"><lem>好</lem><rdg wit="【宋】【元】" resp="Taisho">好光明</rdg></app>佛　南無海意如來　南無大海意佛
 <pb ed="T" id="T14.0448a.0388c" n="0388c"/>
@@ -233,14 +236,14 @@ Added comment  for Emacs
 <lb n="0389b14"/>來　南無尊<note n="0389012" resp="Taisho" type="orig" place="foot text">取＝聚【宮】</note><app n="0389012"><lem>取</lem><rdg wit="【宮】" resp="Taisho">聚</rdg></app>如來　南無無量德鎧<note n="0389013" resp="Taisho" type="orig" place="foot text">〔丹燈〕－【宋】【元】【宮】＊</note><app n="0389013"><lem><note place="inline">丹燈</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>佛
 <lb n="0389b15"/>　南無世音如來　南無須彌山光佛　南無過
 <lb n="0389b16"/>上步佛　南無由寶蓮華德佛　南無作際如
-<lb n="0389b17"/>來　南無眾生所&CB00540;鎧<anchor id="fxT14p0389b01"/><note place="inline">丹燈</note>佛　南無上寶蓋
+<lb n="0389b17"/>來　南無眾生所&CB00540;鎧<app type="＊" source="0389013"><lem><note place="inline">丹燈</note></lem><rdg resp="Taisho" wit="【宋】【元】【宮】">&lac;</rdg></app>佛　南無上寶蓋
 <lb n="0389b18"/>佛　南無尊聚如來　南無無量蓋佛　南無
 <lb n="0389b19"/>翼從如來　南無月現德佛　南無<note n="0389014" resp="Taisho" type="orig" place="foot text">即＝以【宮】</note><app n="0389014"><lem>即</lem><rdg wit="【宮】" resp="Taisho">以</rdg></app>發意
 <lb n="0389b20"/>能轉輪佛　南無稱遠方佛　南無離曠野王
 <lb n="0389b21"/>佛　南無日輪光佛　南無寶上如來　南無
 <lb n="0389b22"/>慧功德佛　南無眾生王中立佛　南無無能
 <lb n="0389b23"/>屈<note n="0389015" resp="Taisho" type="orig" place="foot text">眼＝服【宋】【元】【宮】</note><app n="0389015"><lem>眼</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">服</rdg></app>佛　南無無畏如來　南無慧聚如來
-<lb n="0389b24"/>　南無無比鎧<anchor id="fxT14p0389b02"/><note place="inline">丹燈</note>佛　南無光輪幢德王佛
+<lb n="0389b24"/>　南無無比鎧<app type="＊" source="0389013"><lem><note place="inline">丹燈</note></lem><rdg resp="Taisho" wit="【宋】【元】【宮】">&lac;</rdg></app>佛　南無光輪幢德王佛
 <lb n="0389b25"/>　南無因緣助佛　南無人乘力士佛　南無淨
 <lb n="0389b26"/>幢如來　南無金剛所須用佛　南無慧淨如
 <lb n="0389b27"/>來　南無善求如來　南無善討鎧佛　南無
@@ -386,8 +389,8 @@ Added comment  for Emacs
 <lb n="0391a17"/>　南無無稱不散誓鎧佛　南無無量光佛　南無
 <lb n="0391a18"/>善眼如<note n="0391002" resp="Taisho" type="orig" place="foot text">〔丹本無如〕－【宋】【元】【宮】</note><app n="0391002"><lem><note place="inline">丹本無如</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app><note n="0391003" resp="Taisho" type="orig" place="foot text">佛＝來【宋】【元】【宮】</note><app n="0391003"><lem>佛</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">來</rdg></app>　南無一寶無憂佛　南無無
 <lb n="0391a19"/>垢離度佛　南無於三世礙誓鎧佛　南無無
-<lb n="0391a20"/><note n="0391004" resp="Taisho" type="orig" place="foot text">礙＝量【宋】【元】＊</note><app n="0391004"><lem>礙</lem><rdg wit="【宋】【元】" resp="Taisho">量</rdg></app><note n="0391005" resp="Taisho" type="orig" place="foot text">〔丹量〕－【宋】【元】【宮】＊</note><app n="0391005"><lem><note place="inline">丹量</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>華佛　南無無量光明佛　南無無
-<lb n="0391a21"/><note n="0391006" resp="Taisho" type="orig" place="foot text">礙＝量【宮】</note><app n="0391006"><lem>礙</lem><rdg wit="【宮】" resp="Taisho">量</rdg></app><anchor id="fxT14p0391a01"/><note place="inline">丹量</note>明佛　南無無量雄佛　南無無量勇
+<lb n="0391a20"/><note n="0391004" resp="Taisho" type="orig" place="foot text">礙＝量【宋】【元】＊</note><note n="0391004" resp="CBETA" type="mod"><todo type="＊"/>礙＝量【宋】【元】＊</note><app n="0391004"><lem>礙</lem><rdg wit="【宋】【元】" resp="Taisho">量</rdg></app><note n="0391005" resp="Taisho" type="orig" place="foot text">〔丹量〕－【宋】【元】【宮】＊</note><app n="0391005"><lem><note place="inline">丹量</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>華佛　南無無量光明佛　南無無
+<lb n="0391a21"/><note n="0391006" resp="Taisho" type="orig" place="foot text">礙＝量【宮】</note><app n="0391006"><lem>礙</lem><rdg wit="【宮】" resp="Taisho">量</rdg></app><app type="＊" source="0391005"><lem><note place="inline">丹量</note></lem><rdg resp="Taisho" wit="【宋】【元】【宮】">&lac;</rdg></app>明佛　南無無量雄佛　南無無量勇
 <lb n="0391a22"/>佛　南無一蓋如來　南無蓋實如來　南無
 <lb n="0391a23"/>寶蓋如來　南無星王如來　南無善星如來
 <lb n="0391a24"/>　南無光輪場佛　南無光明如來　南無極上
@@ -543,7 +546,7 @@ Added comment  for Emacs
 <lb n="0392c24"/>如來　南無<note n="0392034" resp="Taisho" type="orig" place="foot text">施無＝放天【宋】【元】</note><app n="0392034"><lem>施無</lem><rdg wit="【宋】【元】" resp="Taisho">放天</rdg></app>威佛　南無雜華如來
 <lb n="0392c25"/>　南無施寶光佛　南無悲慈意佛　南無無
 <pb ed="T" id="T14.0448a.0393a" n="0393a"/>
-<lb n="0393a01"/><note n="0393001" resp="Taisho" type="orig" place="foot text">墮＝隨【元】＊</note><app n="0393001"><lem>墮</lem><rdg wit="【元】" resp="Taisho">隨</rdg></app>落佛　南無蓮華葉眼佛　南無名稱如
+<lb n="0393a01"/><note n="0393001" resp="Taisho" type="orig" place="foot text">墮＝隨【元】＊</note><note n="0393001" resp="CBETA" type="mod"><todo type="＊"/>墮＝隨【元】＊</note><app n="0393001"><lem>墮</lem><rdg wit="【元】" resp="Taisho">隨</rdg></app>落佛　南無蓮華葉眼佛　南無名稱如
 <lb n="0393a02"/><note n="0393002" resp="Taisho" type="orig" place="foot text">來＝佛【宋】【元】【宮】</note><app n="0393002"><lem>來</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">佛</rdg></app>　南無<note n="0393003" resp="Taisho" type="orig" place="foot text">哀＝懷【宋】【元】【宮】</note><app n="0393003"><lem>哀</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">懷</rdg></app>眼如來　南無執敷飾佛　南
 <lb n="0393a03"/>無虛空意佛　南無世師如來　南無不墮
 <lb n="0393a04"/>落佛　南無普觀如來　南無施豐德佛　南
