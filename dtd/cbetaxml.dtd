@@ -364,7 +364,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | qa | tt)*>
+<!ELEMENT div1 (#PCDATA | div2 | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | qa | tt)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -412,6 +412,12 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST byline
 	type CDATA #IMPLIED
 >
+
+<!--  12:  Print Dictionaries -->
+<!ELEMENT entry (form | def)*>
+<!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | pb)*>
+<!ELEMENT def (#PCDATA | gaiji | lb | p)*>
+
 <!--  14.2.1:  Extended pointers                               -->
 <!-- XREF is from the TEI set, but the attributes loc, rend has been added (Chou, Ray, 2000/9/5 10:18AM) -->
 <!ELEMENT xref (#PCDATA | anchor | app | lb | note)*>
