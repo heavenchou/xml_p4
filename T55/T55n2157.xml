@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)</edition>
+		<edition>$Revision: 1.8 $ (Big5)</edition>
 	</editionStmt>
 	<extent>30卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/19 03:48:12 $</date>
+		<date>$Date: 2003/06/24 05:40:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2157 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2157.xml,v $
+Revision 1.8  2003/06/24 05:40:20  eva
+modified: 執行corr2app.pl
+
 Revision 1.7  2003/06/19 03:48:12  eva
 modified: 插入星號校勘
 
@@ -202,7 +205,7 @@ Revision 1.3  2001/02/07 07:46:28  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:38  chris
-Added keywords $Revision: 1.7 $, $Date: 2003/06/19 03:48:12 $ and $Log.
+Added keywords $Revision: 1.8 $, $Date: 2003/06/24 05:40:20 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -1382,8 +1385,8 @@ Added comment  for Emacs
 <lb n="0784c06"/><byline type="Author"><anchor id="fxT55p0784c02"/>西京西明寺沙門圓照撰</byline>
 <lb n="0784c07"/><head>總集群經錄上之三</head>
 <lb n="0784c08"/><mulu type="其他" level="3" label="吳"/><p>吳孫氏前都武昌後都建業</p>
-<lb n="0784c09"/><p>從孫權<note place="inline"><corr sic="謚">諡</corr>太祖文皇帝</note></p>
-<lb n="0784c10"/><p>黃武元年壬寅至孫皓<note place="inline">無<corr sic="謚">諡</corr></note></p>
+<lb n="0784c09"/><p>從孫權<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>太祖文皇帝</note></p>
+<lb n="0784c10"/><p>黃武元年壬寅至孫皓<note place="inline">無<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app></note></p>
 <lb n="0784c11"/><p>天紀四年庚子。凡經四主五十九年</p>
 <lb n="0784c12"/><p>緇素五人。所出經等并及失譯。總一百八十
 <lb n="0784c13"/>九部四百一十七卷<note place="inline">於中六十一部九十二卷見在一百二十八部三百二十五卷闕本</note></p>
@@ -1437,7 +1440,7 @@ Added comment  for Emacs
 <lb n="0785b03"/><item><title>老女人<note n="0785010" resp="Taisho" type="orig" place="foot text">經＝祝【聖】</note><app n="0785010"><lem>經</lem><rdg wit="【聖】" resp="Taisho">祝</rdg></app>一卷</title><note place="inline">安公云出阿毘曇吳錄直云老女經或云老母經初出見僧祐錄</note></item>
 <lb n="0785b04"/><item><title>犢子經一卷</title><note place="inline">見法上錄初出與乳光佛經等同本</note></item>
 <lb n="0785b05"/><item><title><note n="0785011" resp="Taisho" type="orig" place="foot text">貝＝見【聖】</note><app n="0785011"><lem>貝</lem><rdg wit="【聖】" resp="Taisho">見</rdg></app>多樹下思惟十二因緣經一卷</title><note place="inline">見長房錄第三出與唐譯
-<lb n="0785b06"/><corr sic="綠">緣</corr>起聖道經等<note n="0785012" resp="Taisho" type="orig" place="foot text">本同＝同本【聖】</note><app n="0785012"><lem>本同</lem><rdg wit="【聖】" resp="Taisho">同本</rdg></app></note></item>
+<lb n="0785b06"/><app><lem>緣</lem><rdg wit="【大】">綠</rdg></app>起聖道經等<note n="0785012" resp="Taisho" type="orig" place="foot text">本同＝同本【聖】</note><app n="0785012"><lem>本同</lem><rdg wit="【聖】" resp="Taisho">同本</rdg></app></note></item>
 <lb n="0785b07"/><item><title>了本生死經一卷</title><note place="inline">安公云出生經祐按五卷生經無此名見僧祐錄與稻&CB00023;經同本異出謙
 <lb n="0785b08"/>自注并製序云漢末出謙注</note></item>
 <lb n="0785b09"/><item><title>龍施女經一卷</title><note place="inline">初出與龍施菩薩本起經同本祐云別錄所載安錄無</note></item>
@@ -2597,7 +2600,7 @@ Added comment  for Emacs
 <lb n="0799a20"/><item><title>失利越經一卷</title><note place="inline">第二出與月光童子經等同本</note></item>
 <lb n="0799a21"/><item><title>異了本生死經一卷</title><note place="inline">與稻竿經等同本</note></item>
 <lb n="0799a22"/><item><title>內藏大方等經一卷</title><note place="inline">今疑是佛藏大方等經</note></item>
-<lb n="0799a23"/><item><title>小阿闍世經一<corr sic="經">卷</corr></title></item>
+<lb n="0799a23"/><item><title>小阿闍世經一<app><lem>卷</lem><rdg wit="【大】">經</rdg></app></title></item>
 <lb n="0799a24"/><item><title>小須賴經一卷</title></item>
 <lb n="0799a25"/><item><title>因佉經一卷</title><note place="inline">安公云出方等部今疑是阿難目佉經</note></item>
 <lb n="0799a26"/><item><title>彌勒經一卷</title><note place="inline">安公云出長阿含</note></item>
@@ -3135,7 +3138,7 @@ Added comment  for Emacs
 <lb n="0805a29"/>牢山南岸。獵人還以告太守李嶷。<note n="0805007" resp="Taisho" type="orig" place="foot text">〔嶷〕－【聖】</note><app n="0805007"><lem>嶷</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>素敬
 <pb ed="T" id="T55.2157.0805b" n="0805b"/>
 <lb n="0805b01"/>信。忽聞沙門遠至躬自迎勞。顯持經像頃之
-<lb n="0805b02"/>欲<note n="0805008" resp="Taisho" type="orig" place="foot text">〔南〕－【聖】</note><app n="0805008"><lem>南</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>歸。時<corr sic="剌">刺</corr>史請留過冬。顯曰。貧道投身
+<lb n="0805b02"/>欲<note n="0805008" resp="Taisho" type="orig" place="foot text">〔南〕－【聖】</note><app n="0805008"><lem>南</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>歸。時<app><lem>刺</lem><rdg wit="【大】">剌</rdg></app>史請留過冬。顯曰。貧道投身
 <lb n="0805b03"/>於不反之地志在弘通。所期未果不得久停。
 <lb n="0805b04"/>遂南造建康。於道場寺就外國禪師佛陀跋
 <lb n="0805b05"/>陀羅。譯大般泥洹等經六部。撰遊天竺傳一
@@ -3296,7 +3299,7 @@ Added comment  for Emacs
 <lb n="0807a22"/><p rend="margin-left:1">通前舊失譯經二部三卷。總四十部四十
 <lb n="0807a23"/>八卷。並為東晉失源云</p></item></list></div3>
 <lb n="0807a24"/><div3 type="other"><mulu type="其他" level="3" label="符秦"/><p rend="margin-left:1">秦符氏都長安<note place="inline">亦云前秦</note></p>
-<lb n="0807a25"/><p>起苻健<note place="inline"><corr sic="謚">諡</corr>為明帝</note>皇始元年辛亥。至苻登<note place="inline">無<corr sic="謚">諡</corr></note>太
+<lb n="0807a25"/><p>起苻健<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>為明帝</note>皇始元年辛亥。至苻登<note place="inline">無<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app></note>太
 <lb n="0807a26"/>初九年甲午。凡經五主四十四年。沙門六
 <lb n="0807a27"/>人。所譯經律論等。總一十五部合一百九
 <lb n="0807a28"/>十七卷<note place="inline">於中七部六十五卷見八部一百三十二卷闕本房云元始元年甲寅延初元年丁酉與諸家
@@ -3314,7 +3317,7 @@ Added comment  for Emacs
 <lb n="0807b11"/>譯語惠常筆受見寶唱錄</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
 <lb n="0807b12"/><p rend="margin-left:1">右三部三卷其本並闕</p>
 <lb n="0807b13"/><p>沙門曇摩持。或云侍。秦言法慧。亦云法海。
-<lb n="0807b14"/>西域人。善持律藏<note n="0807009" resp="Taisho" type="orig" place="foot text">抄＝妙&M062403;【乙】</note><app n="0807009"><lem>抄</lem><rdg wit="【？】" resp="【乙】">妙</rdg></app>入契經。以苻堅<note place="inline"><corr sic="謚">諡</corr>莊烈天王</note>
+<lb n="0807b14"/>西域人。善持律藏<note n="0807009" resp="Taisho" type="orig" place="foot text">抄＝妙&M062403;【乙】</note><app n="0807009"><lem>抄</lem><rdg wit="【？】" resp="【乙】">妙</rdg></app>入契經。以苻堅<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>莊烈天王</note>
 <lb n="0807b15"/>建元三年丁卯四年戊辰。於長安譯十誦
 <lb n="0807b16"/>戒本等三部。竺佛念傳語。慧常筆受<note place="inline">安公僧戒序云。
 <lb n="0807b17"/>佛念寫其梵文。道賢為譯。惠常筆受其比丘尼戒。僧祐錄云。晉
@@ -3413,8 +3416,8 @@ Added comment  for Emacs
 <lb n="0808b19"/>
 <lb n="0808b20"/><byline type="Author"><anchor id="fxT55p0808b01"/>西京西明寺沙門圓照撰</byline>
 <lb n="0808b21"/><head>總集群經錄上之六</head>
-<lb n="0808b22"/><mulu type="其他" level="3" label="姚秦"/><p>秦姚氏都常安<note place="inline">亦云後秦</note></p><p type="inline">起姚萇<note place="inline"><corr sic="謚">諡</corr>為照武皇帝</note><note n="0808014" resp="Taisho" type="orig" place="foot text">白＝自【聖】</note><app n="0808014"><lem>白</lem><rdg wit="【聖】" resp="Taisho">自</rdg></app>雀元
-<lb n="0808b23"/>年<note n="0808015" resp="Taisho" type="orig" place="foot text">〔甲申至〕－【聖】</note><app n="0808015"><lem>甲申至</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>姚<note n="0808016" resp="Taisho" type="orig" place="foot text">泓＝&CB14238;【聖】</note><app n="0808016"><lem>泓</lem><rdg wit="【聖】" resp="Taisho">&CB14238;</rdg></app><note place="inline"><note n="0808017" resp="Taisho" type="orig" place="foot text">兼＝無【聖】</note><app n="0808017"><lem>兼</lem><rdg wit="【聖】" resp="Taisho">無</rdg></app><corr sic="謚">諡</corr></note>永和三年丁巳。凡經
+<lb n="0808b22"/><mulu type="其他" level="3" label="姚秦"/><p>秦姚氏都常安<note place="inline">亦云後秦</note></p><p type="inline">起姚萇<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>為照武皇帝</note><note n="0808014" resp="Taisho" type="orig" place="foot text">白＝自【聖】</note><app n="0808014"><lem>白</lem><rdg wit="【聖】" resp="Taisho">自</rdg></app>雀元
+<lb n="0808b23"/>年<note n="0808015" resp="Taisho" type="orig" place="foot text">〔甲申至〕－【聖】</note><app n="0808015"><lem>甲申至</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>姚<note n="0808016" resp="Taisho" type="orig" place="foot text">泓＝&CB14238;【聖】</note><app n="0808016"><lem>泓</lem><rdg wit="【聖】" resp="Taisho">&CB14238;</rdg></app><note place="inline"><note n="0808017" resp="Taisho" type="orig" place="foot text">兼＝無【聖】</note><app n="0808017"><lem>兼</lem><rdg wit="【聖】" resp="Taisho">無</rdg></app><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app></note>永和三年丁巳。凡經
 <lb n="0808b24"/>三主三十四年。沙門五人。所出經律論等。總
 <lb n="0808b25"/>九十四部。合六百二十四卷<note place="inline">於中六十六部五百二十八卷見在二十
 <lb n="0808b26"/>八部九十六卷闕本準大智度論後記云弘始三年歲在辛丑王<note n="0808018" resp="Taisho" type="orig" place="foot text">珪＝理【聖】＊</note><app n="0808018"><lem>珪</lem><rdg wit="【聖】" resp="Taisho">理</rdg></app>云歲在辛丑<note n="0808019" resp="Taisho" type="orig" place="foot text">〔房〕－【聖】</note><app n="0808019"><lem>房</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>及甄鸞差其二歲今依道<app type="＊" source="0808018"><lem>珪</lem><rdg resp="Taisho" wit="【聖】">理</rdg></app>
@@ -3656,7 +3659,7 @@ Added comment  for Emacs
 <lb n="0811b23"/>未然後皆如說。呂光父子既不弘道。故蘊其
 <lb n="0811b24"/>經法無所宣化。符堅已亡竟不相見。姚萇聞
 <lb n="0811b25"/>其高名虛心要請。諸呂以什智計多解。恐為
-<lb n="0811b26"/>姚謀不許東入。萇卒子興<corr sic="謚">諡</corr>為文祖皇帝襲
+<lb n="0811b26"/>姚謀不許東入。萇卒子興<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>為文祖皇帝襲
 <lb n="0811b27"/>位。復遣<note n="0811012" resp="Taisho" type="orig" place="foot text">敦＝熟【聖】＊</note><app n="0811012"><lem>敦</lem><rdg wit="【聖】" resp="Taisho">熟</rdg></app>請。弘始三年歲次辛丑三月。有
 <lb n="0811b28"/>樹連理生于廟庭。逍遙一園&CB00024;變為&CB05886;。以為
 <lb n="0811b29"/>美瑞謂智人應入。其年十二月二十日什至
@@ -3923,7 +3926,7 @@ Added comment  for Emacs
 <lb n="0814b07"/>沙律。人咸號為大毘婆沙。時有<note n="0814009" resp="Taisho" type="orig" place="foot text">清＋（淨）【聖】</note><app n="0814009"><lem>清</lem><rdg wit="【聖】" resp="Taisho">清淨</rdg></app>信女張
 <lb n="0814b08"/>普明諮受佛法。耶舍為說佛生緣起。并為譯
 <lb n="0814b09"/>出差摩經一卷。至義熙中來入常安。時姚興
-<lb n="0814b10"/><corr sic="僣">僭</corr>號甚崇佛法耶。舍既至深加禮異。會有天
+<lb n="0814b10"/><app><lem>僭</lem><rdg wit="【大】">僣</rdg></app>號甚崇佛法耶。舍既至深加禮異。會有天
 <lb n="0814b11"/>竺沙門曇摩崛多<note place="inline">秦言法藏</note>來入關中。同氣相求宛
 <lb n="0814b12"/>然若舊因共出舍利弗阿毘曇。以秦弘始九
 <lb n="0814b13"/>年丁未書出梵文。停至十六年甲寅。經師漸
@@ -3939,8 +3942,8 @@ Added comment  for Emacs
 <lb n="0814b23"/>時人咸謂已階聖果。至宋元嘉中辭還西域
 <lb n="0814b24"/>而不知所終</p></item></list></div3>
 <lb n="0814b25"/><div3 type="other"><mulu type="其他" level="3" label="西秦"/><p>秦乞伏氏都菀川<note place="inline">亦云西秦</note></p>
-<lb n="0814b26"/><p>從乞伏國仁<note place="inline"><corr sic="謚">諡</corr>宣列王</note>建義元年乙酉。至乞伏幕末
-<lb n="0814b27"/><note place="inline">無<corr sic="謚">諡</corr></note>永弘四年辛未。凡經四主四十七年。沙門
+<lb n="0814b26"/><p>從乞伏國仁<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>宣列王</note>建義元年乙酉。至乞伏幕末
+<lb n="0814b27"/><note place="inline">無<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app></note>永弘四年辛未。凡經四主四十七年。沙門
 <lb n="0814b28"/>一人。所譯經及三秦代新舊失譯經律論等。
 <lb n="0814b29"/>總五十六部一百一十卷<note place="inline">於中三十二部七十九卷見在二十四部三十一卷
 <pb ed="T" id="T55.2157.0814c" n="0814c"/>
@@ -3973,7 +3976,7 @@ Added comment  for Emacs
 <lb n="0815a03"/>一十二卷闕本</note></p>
 <lb n="0815a04"/><p>沙門釋聖堅。或云法堅。亦謂堅公。未詳孰是。
 <lb n="0815a05"/>是故備列之。器量弘普利物為心。以乞伏秦
-<lb n="0815a06"/>太初年間。於河南國為乾歸<note place="inline"><corr sic="謚">諡</corr>武元王</note>譯羅摩伽等
+<lb n="0815a06"/>太初年間。於河南國為乾歸<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>武元王</note>譯羅摩伽等
 <lb n="0815a07"/>經一十五部。尋其聖堅遊化隨處出經既適
 <lb n="0815a08"/>無停所。弗知附見何代世錄為正。今依法上
 <lb n="0815a09"/>總注入乞伏秦世錄云</p></item>
@@ -4044,7 +4047,7 @@ Added comment  for Emacs
 <lb n="0815c17"/><p rend="margin-left:1">通前舊失譯經七部七卷。及新附安公關
 <lb n="0815c18"/>中異經等。總四十一部合八十六卷。並為
 <lb n="0815c19"/>三秦失譯云</p></item></list></div3>
-<lb n="0815c20"/><div3 type="other"><mulu type="其他" level="3" label="前涼"/><p>前涼張氏都姑臧<note place="inline"><note n="0815009" resp="Taisho" type="orig" place="foot text">新＝雜【聖】</note><app n="0815009"><lem>新</lem><rdg wit="【聖】" resp="Taisho">雜</rdg></app>上餘錄無年依<note n="0815010" resp="Taisho" type="orig" place="foot text">&CB07039;＝甄&M062403;【乙】</note><app n="0815010"><lem>&CB07039;</lem><rdg wit="【？】" resp="【乙】">甄</rdg></app>鸞錄多從晉年號</note></p><p type="inline">從張軌<note place="inline"><corr sic="謚">諡</corr>為
+<lb n="0815c20"/><div3 type="other"><mulu type="其他" level="3" label="前涼"/><p>前涼張氏都姑臧<note place="inline"><note n="0815009" resp="Taisho" type="orig" place="foot text">新＝雜【聖】</note><app n="0815009"><lem>新</lem><rdg wit="【聖】" resp="Taisho">雜</rdg></app>上餘錄無年依<note n="0815010" resp="Taisho" type="orig" place="foot text">&CB07039;＝甄&M062403;【乙】</note><app n="0815010"><lem>&CB07039;</lem><rdg wit="【？】" resp="【乙】">甄</rdg></app>鸞錄多從晉年號</note></p><p type="inline">從張軌<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>為
 <lb n="0815c21"/>武王</note>永寧元年<note n="0815011" resp="Taisho" type="orig" place="foot text">新譯＝辛酉&M062403;【乙】</note><app n="0815011"><lem>新譯</lem><rdg wit="【？】" resp="【乙】">辛酉</rdg></app>。至天錫<note place="inline">秦封驃騎大將軍涼州牧</note>咸安六
 <lb n="0815c22"/>年景子。凡經八主七十六年。外國優婆塞一
 <lb n="0815c23"/>人。譯經四部合六卷於中一部一卷見在。三
@@ -4069,7 +4072,7 @@ Added comment  for Emacs
 <lb n="0816a13"/>不加文飾也。出須賴經後記及首楞嚴經後
 <lb n="0816a14"/>記<note place="inline">前涼之代應更出經後進遇之幸續編附</note></p></item></list></div3>
 <lb n="0816a15"/><div3 type="other"><mulu type="其他" level="3" label="北涼"/><p>北涼沮渠氏初都張掖後徙姑臧</p>
-<lb n="0816a16"/><p>自蒙遜<note place="inline"><corr sic="謚">諡</corr>武宣王</note>永安元年辛丑。至茂虔<note place="inline">魏封河西王</note>承
+<lb n="0816a16"/><p>自蒙遜<note place="inline"><app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>武宣王</note>永安元年辛丑。至茂虔<note place="inline">魏封河西王</note>承
 <lb n="0816a17"/>和七年己卯。凡經二主三十九年。緇素九人。
 <lb n="0816a18"/>所出經律論等并新舊集失譯諸經。總八十
 <lb n="0816a19"/>二部合三百一十卷<note place="inline">於中二十五部二百九卷見五十七部一百二卷闕本</note></p>
@@ -4089,7 +4092,7 @@ Added comment  for Emacs
 <lb n="0816b05"/>龔更刪改今疑即無讖出者是</note>
 <lb n="0816b06"/><p rend="margin-left:1">右二部一十二卷<note place="inline">前寶梁經一部二卷見在後悲華經一部十卷闕本</note></p>
 <lb n="0816b07"/><p>沙門釋道龔。虛心廣運弘利為道。以北涼河
-<lb n="0816b08"/>西王<note place="inline">蒙遜<corr sic="僣">僭</corr>號</note>永安年間。於張掖為蒙遜譯寶梁等
+<lb n="0816b08"/>西王<note place="inline">蒙遜<app><lem>僭</lem><rdg wit="【大】">僣</rdg></app>號</note>永安年間。於張掖為蒙遜譯寶梁等
 <lb n="0816b09"/>經二部</p></item>
 <lb n="0816b10"/><item><title>大方等陀羅尼經四卷</title><note place="inline">或無大字一名方等檀<app type="＊" source="0816004"><lem>特</lem><rdg resp="Taisho" wit="【聖】">持</rdg></app>陀羅尼經或直云檀<app type="＊" source="0816004"><lem>特</lem><rdg resp="Taisho" wit="【聖】">持</rdg></app>陀
 <lb n="0816b11"/>羅尼經見竺道祖晉世<note n="0816011" resp="Taisho" type="orig" place="foot text">雜＝新【聖】</note><app n="0816011"><lem>雜</lem><rdg wit="【聖】" resp="Taisho">新</rdg></app>錄及僧祐錄</note>
@@ -4141,7 +4144,7 @@ Added comment  for Emacs
 <lb n="0817a03"/><p>沙門曇無讖。或云曇摩讖。亦云曇<note n="0817003" resp="Taisho" type="orig" place="foot text">&CB02802;＝慕【聖】</note><app n="0817003"><lem>&CB02802;</lem><rdg wit="【聖】" resp="Taisho">慕</rdg></app>讖。蓋
 <lb n="0817a04"/>取梵音不同故也。涼云法豐。中印度人。婆羅
 <lb n="0817a05"/>門種。讖六歲父亡。母以傭織養讖。見沙門達
-<lb n="0817a06"/>摩耶舍<note place="inline">此言法稱</note>道俗宗敬豐於利養。其母<corr sic="羡">羨</corr>之故
+<lb n="0817a06"/>摩耶舍<note place="inline">此言法稱</note>道俗宗敬豐於利養。其母<app><lem>羨</lem><rdg wit="【大】">羡</rdg></app>之故
 <lb n="0817a07"/>以讖為弟子。十歲與同學數人誦&CB00057;。聰敏出
 <lb n="0817a08"/>群誦經日得萬餘言。初學小乘兼覽五明諸
 <lb n="0817a09"/>論。講說精辯莫能酬抗。後遇白頭禪師共讖
@@ -4840,7 +4843,7 @@ Added comment  for Emacs
 <lb n="0824c22"/>其終</p></item>
 <lb n="0824c23"/><item><title>勝鬘師子吼一乘大方便方廣經一卷</title><note place="inline"><note n="0824021" resp="Taisho" type="orig" place="foot text">第＝佛【聖】</note><app n="0824021"><lem>第</lem><rdg wit="【聖】" resp="Taisho">佛</rdg></app>二出與寶積
 <lb n="0824c24"/>勝<note n="0824022" resp="Taisho" type="orig" place="foot text">〔鬘〕－【聖】</note><app n="0824022"><lem>鬘</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>夫人會等同本元嘉十<note n="0824023" resp="Taisho" type="orig" place="foot text">三＝二&M062403;【乙】</note><app n="0824023"><lem>三</lem><rdg wit="【？】" resp="【乙】">二</rdg></app>年八月十四日於丹陽郡出寶雲傳譯惠觀筆受兼製序見道<app type="＊" source="0820015"><lem>慧</lem><rdg resp="Taisho" wit="【聖】">惠</rdg></app>僧祐李廓等錄</note></item>
-<lb n="0824c25"/><item><title>大方廣寶篋經三卷</title><note place="inline">第四出或<note n="0824024" resp="Taisho" type="orig" place="foot text">二＝三&M062403;【乙】＊</note><note n="0824024" resp="CBETA" type="mod"><todo type="＊"/>二＝三&M062403;【乙】＊</note><app n="0824024"><lem>二</lem><rdg wit="【？】" resp="【乙】">三</rdg></app>卷與文<corr sic="珠">殊</corr>現寶藏經等同本見李廓錄</note></item>
+<lb n="0824c25"/><item><title>大方廣寶篋經三卷</title><note place="inline">第四出或<note n="0824024" resp="Taisho" type="orig" place="foot text">二＝三&M062403;【乙】＊</note><note n="0824024" resp="CBETA" type="mod"><todo type="＊"/>二＝三&M062403;【乙】＊</note><app n="0824024"><lem>二</lem><rdg wit="【？】" resp="【乙】">三</rdg></app>卷與文<app><lem>殊</lem><rdg wit="【大】">珠</rdg></app>現寶藏經等同本見李廓錄</note></item>
 <lb n="0824c26"/><item><title>相續解脫地波羅蜜了義經一卷</title><note place="inline">或二卷亦名<note n="0824025" resp="Taisho" type="orig" place="foot text">解＋（脫）【聖】</note><app n="0824025"><lem>解</lem><rdg wit="【聖】" resp="Taisho">解脫</rdg></app>了義經亦
 <lb n="0824c27"/>直云相續解脫經於東安寺出是解深密經後二品見道慧僧祐李廓法上等四錄高僧傳云於荊州出</note></item>
 <lb n="0824c28"/><item><title>楞伽阿跋多羅寶經四卷</title><note place="inline">第二出元嘉<note n="0824026" resp="Taisho" type="orig" place="foot text">二＋（十）【聖】</note><app n="0824026"><lem>二</lem><rdg wit="【聖】" resp="Taisho">二十</rdg></app>年於道場寺譯慧觀筆受與入
@@ -5763,7 +5766,7 @@ Added comment  for Emacs
 <lb n="0835b06"/>世界記師資傳等。以非入藏故闕不論。並如
 <lb n="0835b07"/>三藏記等具顯</p></item>
 <lb n="0835b08"/><item><title>文殊師利所說摩訶般若波羅蜜經二卷</title><note place="inline">或一卷亦
-<lb n="0835b09"/>直云文<corr sic="珠">殊</corr>般若波羅蜜經初出與僧伽婆羅出者<note n="0835017" resp="Taisho" type="orig" place="foot text">同＝及【聖】</note><app n="0835017"><lem>同</lem><rdg wit="【聖】" resp="Taisho">及</rdg></app>大般若第七會曼殊室利分同本編入寶積當<note n="0835018" resp="Taisho" type="orig" place="foot text">〔第〕－【聖】</note><app n="0835018"><lem>第</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>四十六
+<lb n="0835b09"/>直云文<app><lem>殊</lem><rdg wit="【大】">珠</rdg></app>般若波羅蜜經初出與僧伽婆羅出者<note n="0835017" resp="Taisho" type="orig" place="foot text">同＝及【聖】</note><app n="0835017"><lem>同</lem><rdg wit="【聖】" resp="Taisho">及</rdg></app>大般若第七會曼殊室利分同本編入寶積當<note n="0835018" resp="Taisho" type="orig" place="foot text">〔第〕－【聖】</note><app n="0835018"><lem>第</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>四十六
 <lb n="0835b10"/>會見李廓錄及續高僧傳</note></item>
 <lb n="0835b11"/><item><title>法界體性無分別經二卷</title><note place="inline">第二出今編入寶積當第八會見李廓寶唱二錄及
 <lb n="0835b12"/>續高僧傳</note></item>
@@ -5879,7 +5882,7 @@ Added comment  for Emacs
 <lb n="0836c07"/>以大同十二年八月十五日達于南海。&CB00403;歷
 <lb n="0836c08"/>險闊仍滯兩春。以太清二年閏八月始屆都
 <lb n="0836c09"/>邑。武皇面申禮敬安置於寶雲殿竭誠供養。
-<lb n="0836c10"/>帝欲傳翻經教不<corr sic="羡">羨</corr>秦時。更出新文有逾齊
+<lb n="0836c10"/>帝欲傳翻經教不<app><lem>羨</lem><rdg wit="【大】">羡</rdg></app>秦時。更出新文有逾齊
 <lb n="0836c11"/>日。屬道銷梁季寇羯憑凌法為時崩。不果宣
 <lb n="0836c12"/>述乃步入東土。又往富春令<note n="0836039" resp="Taisho" type="orig" place="foot text">陸＝墮【聖】</note><app n="0836039"><lem>陸</lem><rdg wit="【聖】" resp="Taisho">墮</rdg></app>元哲創奉問
 <lb n="0836c13"/>律將事傳譯。<note n="0836040" resp="Taisho" type="orig" place="foot text">招＝哲【聖】</note><app n="0836040"><lem>招</lem><rdg wit="【聖】" resp="Taisho">哲</rdg></app>延英秀沙門寶瓊等二十餘
@@ -6422,7 +6425,7 @@ Added comment  for Emacs
 <lb n="0842c08"/>為翻經三藏。殿內梵本千有餘夾</p>
 <lb n="0842c09"/><p>&CB00330;送於寺處以上房。為建道場供窮珍妙。別
 <lb n="0842c10"/>立廚庫以表尊崇。舍從文宣帝天保八年丁
-<lb n="0842c11"/>丑。至高緯<note place="inline">無<corr sic="謚">諡</corr></note>天統四年戊子。於鄴城天平寺
+<lb n="0842c11"/>丑。至高緯<note place="inline">無<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app></note>天統四年戊子。於鄴城天平寺
 <lb n="0842c12"/>譯菩薩見實經等七部。&CB00330;<note n="0842038" resp="Taisho" type="orig" place="foot text">照＝昭【聖】＊</note><app n="0842038"><lem>照</lem><rdg wit="【聖】" resp="Taisho">昭</rdg></app>玄大統沙門法
 <lb n="0842c13"/>上等二十餘人監掌翻譯。<app type="＊" source="0842038"><lem>照</lem><rdg resp="Taisho" wit="【聖】">昭</rdg></app>玄都瞿曇般若
 <lb n="0842c14"/>流支長子沙門達摩闍那<note place="inline">齊言法智</note>及居士萬懿傳
@@ -6512,7 +6515,7 @@ Added comment  for Emacs
 <lb n="0843c10"/>譯金色仙人問經。後隨譙王宇文儉往益州。
 <lb n="0843c11"/>於龍淵寺復譯普門偈等三部。崛多入隋更
 <lb n="0843c12"/>廣翻譯。備如後述</p></item></list></div3>
-<lb n="0843c13"/><div3 type="other"><mulu type="其他" level="3" label="陳"/><p><note n="0843020" resp="Taisho" type="orig" place="foot text">陳＋（陳）【聖】</note><app n="0843020"><lem>陳</lem><rdg wit="【聖】" resp="Taisho">陳陳</rdg></app>氏都建<note n="0843021" resp="Taisho" type="orig" place="foot text">業＝葉【聖】</note><app n="0843021"><lem>業</lem><rdg wit="【聖】" resp="Taisho">葉</rdg></app></p><p type="inline">自武帝永定元年丁丑。至<corr sic="CB00792">煬</corr>
+<lb n="0843c13"/><div3 type="other"><mulu type="其他" level="3" label="陳"/><p><note n="0843020" resp="Taisho" type="orig" place="foot text">陳＋（陳）【聖】</note><app n="0843020"><lem>陳</lem><rdg wit="【聖】" resp="Taisho">陳陳</rdg></app>氏都建<note n="0843021" resp="Taisho" type="orig" place="foot text">業＝葉【聖】</note><app n="0843021"><lem>業</lem><rdg wit="【聖】" resp="Taisho">葉</rdg></app></p><p type="inline">自武帝永定元年丁丑。至<app><lem>煬</lem><rdg wit="【大】">&CB00792;</rdg></app>
 <lb n="0843c14"/>帝禎明三年己酉。凡經五主三十三年。緇素
 <lb n="0843c15"/>三人所出經律論及集傳等。總四十部一百
 <lb n="0843c16"/>三十三卷<note place="inline">於中二<note n="0843022" resp="Taisho" type="orig" place="foot text">十＋（六）【聖】</note><app n="0843022"><lem>十</lem><rdg wit="【聖】" resp="Taisho">十六</rdg></app>部八十九卷見在一十四部四十四卷闕本</note></p>
@@ -7878,7 +7881,7 @@ Added comment  for Emacs
 <lb n="0860b12"/><p>中宗孝和皇帝初生之瑞號也。創登皇極&CB00330;
 <lb n="0860b13"/>為法師。於兩京各置一佛光寺。并度人居
 <lb n="0860b14"/><note n="0860007" resp="Taisho" type="orig" place="foot text">〔之〕－【聖】</note><app n="0860007"><lem>之</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>。其東都佛光寺即法師之故宅也。復內出
-<lb n="0860b15"/>畫影奘之寶輿。送慈恩寺翻譯堂中。追<corr sic="謚">諡</corr>法
+<lb n="0860b15"/>畫影奘之寶輿。送慈恩寺翻譯堂中。追<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>法
 <lb n="0860b16"/>師稱大遍覺。顯慶二年春二月　駕幸洛陽
 <lb n="0860b17"/>宮。法師與佛光王駕前而發。并翻經僧五人。
 <lb n="0860b18"/>陪從弟子各一事<note n="0860008" resp="Taisho" type="orig" place="foot text">〔事〕－【聖】</note><app n="0860008"><lem>事</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>公給。既到安置積<note n="0860009" resp="Taisho" type="orig" place="foot text">翠＝卒【聖】</note><app n="0860009"><lem>翠</lem><rdg wit="【聖】" resp="Taisho">卒</rdg></app>
@@ -9051,7 +9054,7 @@ Added comment  for Emacs
 <lb n="0873c19"/>勿喧聲。遂於淨室之中右&CB00169;而臥奄然而卒。
 <lb n="0873c20"/>春秋一百五十有六。自非積修勝業脫屣塵
 <lb n="0873c21"/>勞。焉能保此遐齡。去留專己者也。既聞</p>
-<lb n="0873c22"/><p>天聽皇哀感慕慟歎久之。追贈鴻臚大卿。<corr sic="謚">諡</corr>
+<lb n="0873c22"/><p>天聽皇哀感慕慟歎久之。追贈鴻臚大卿。<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>
 <lb n="0873c23"/>曰。<note n="0873038" resp="Taisho" type="orig" place="foot text">開＝關【聖】</note><app n="0873038"><lem>開</lem><rdg wit="【聖】" resp="Taisho">關</rdg></app>元一切遍知三藏詔遣內侍杜懷敬往
 <lb n="0873c24"/>東都監葬。&CB00330;內庫出物供葬所須務。令優贍
 <lb n="0873c25"/>無限其數。於是鹵薄羽儀幡幢花蓋。闐塞衢
@@ -9362,7 +9365,7 @@ Added comment  for Emacs
 <pb ed="T" id="T55.2157.0877b" n="0877b"/>
 <lb n="0877b01"/>取登壇散花號也。代宗馭曆加號及官位鴻
 <lb n="0877b02"/>臚卿品。加特進號大廣智三藏不空。追贈先
-<lb n="0877b03"/>師錫<corr sic="謚">諡</corr>官號。永泰元年歲在乙巳十一月一
+<lb n="0877b03"/>師錫<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>官號。永泰元年歲在乙巳十一月一
 <lb n="0877b04"/>日乃頒制曰</p>
 <lb n="0877b05"/><p>&CB00330;不空三藏和尚。故金剛三藏天資秀異氣
 <lb n="0877b06"/>稟&CB00287;和。識洞四生心依六度。爰自西域杖錫
@@ -9684,7 +9687,7 @@ Added comment  for Emacs
 <lb n="0881a07"/>誦儀軌一卷<note n="0881002" resp="Taisho" type="orig" place="foot text">〔此一卷…者〕十一字－【聖】</note><app n="0881002" word-count="11"><lem><note place="inline">此一卷先進經數中元欠者</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></title>
 <lb n="0881a08"/><p rend="margin-left:1">右一百一十部一百四十<note n="0881003" resp="Taisho" type="orig" place="foot text">三＝一【聖】</note><app n="0881003"><lem>三</lem><rdg wit="【聖】" resp="Taisho">一</rdg></app>卷其本見在
 <lb n="0881a09"/>大唐特進試鴻臚卿加開府儀同三司封肅
-<lb n="0881a10"/>國公贈司空<corr sic="謚">諡</corr>大辯正<note n="0881004" resp="Taisho" type="orig" place="foot text">〔大〕－【聖】</note><app n="0881004"><lem>大</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>廣智不空三藏
+<lb n="0881a10"/>國公贈司空<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>大辯正<note n="0881004" resp="Taisho" type="orig" place="foot text">〔大〕－【聖】</note><app n="0881004"><lem>大</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>廣智不空三藏
 <lb n="0881a11"/>和上者。南天竺執師子國人也。法諱智藏。
 <lb n="0881a12"/>號不空金剛。不聞氏族故不書之。計當</p>
 <lb n="0881a13"/><p>大唐神龍元年乙巳之歲而誕跡焉。天假聰
@@ -10556,7 +10559,7 @@ Added comment  for Emacs
 <lb n="0890c09"/>如無<note n="0890020" resp="Taisho" type="orig" place="foot text">〔准擬〕－【聖】</note><app n="0890020"><lem>准擬</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>奏來當別支送。至其月二十八日
 <lb n="0890c10"/>&CB00330;。內侍韋守宗送絹七百五十二匹。充先師
 <lb n="0890c11"/>造靈塔直。洎七月五日追贈司空。聖睠殊深。
-<lb n="0890c12"/>又錫<corr sic="謚">諡</corr>號&CB00330;。寂滅為樂。所以歸於真。付屬有
+<lb n="0890c12"/>又錫<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>號&CB00330;。寂滅為樂。所以歸於真。付屬有
 <lb n="0890c13"/>緣。所以尊其稱。修其故事其或強名故開府
 <lb n="0890c14"/>儀同三司試鴻臚卿肅國公大興善寺三藏大
 <lb n="0890c15"/>廣智不空。德盛道高朕所師仰。心密法印行
@@ -10564,8 +10567,8 @@ Added comment  for Emacs
 <lb n="0890c17"/>於群生。百燈所傳遍明於正覺。傍達義趣博
 <lb n="0890c18"/>通儒玄。聖人之情合若符契。朕順風前席積
 <lb n="0890c19"/>有歲年。慈航不留梁木其壞。徽音永隔震悼
-<lb n="0890c20"/>殊深。論道之官追嚴師禮。仍加<corr sic="謚">諡</corr>號用副名
-<lb n="0890c21"/>實。可贈司空仍<corr sic="謚">諡</corr>號大<note n="0890022" resp="Taisho" type="orig" place="foot text">辯＝辨【聖】＊</note><app n="0890022"><lem>辯</lem><rdg wit="【聖】" resp="Taisho">辨</rdg></app>正廣智不空三藏
+<lb n="0890c20"/>殊深。論道之官追嚴師禮。仍加<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>號用副名
+<lb n="0890c21"/>實。可贈司空仍<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>號大<note n="0890022" resp="Taisho" type="orig" place="foot text">辯＝辨【聖】＊</note><app n="0890022"><lem>辯</lem><rdg wit="【聖】" resp="Taisho">辨</rdg></app>正廣智不空三藏
 <lb n="0890c22"/>和上。洎六日癸卯陳設葬儀。遷神城南<note n="0890023" resp="Taisho" type="orig" place="foot text">荼＝恭【聖】</note><app n="0890023"><lem>荼</lem><rdg wit="【聖】" resp="Taisho">恭</rdg></app>毘
 <lb n="0890c23"/>供養。皇帝遣內給事劉仙鶴。以香<note n="0890024" resp="Taisho" type="orig" place="foot text">茶＝恭【聖】＊</note><app n="0890024"><lem>茶</lem><rdg wit="【聖】" resp="Taisho">恭</rdg></app>之<note n="0890025" resp="Taisho" type="orig" place="foot text">奠＝賈【聖】＊</note><app n="0890025"><lem>奠</lem><rdg wit="【聖】" resp="Taisho">賈</rdg></app>
 <lb n="0890c24"/>敬祭于故大<app type="＊" source="0890022"><lem>辯</lem><rdg resp="Taisho" wit="【聖】">辨</rdg></app>正廣智三藏和上之靈。惟靈
@@ -10580,7 +10583,7 @@ Added comment  for Emacs
 <lb n="0891a03"/>僕射侍郎列卿諸衛將軍各申<app type="＊" source="0890025"><lem>奠</lem><rdg resp="Taisho" wit="【聖】">賈</rdg></app>祭。其餘緇
 <lb n="0891a04"/>素不可具陳。七日平晨又陳表謝。草<note n="0891001" resp="Taisho" type="orig" place="foot text">堂＝土【聖】</note><app n="0891001"><lem>堂</lem><rdg wit="【聖】" resp="Taisho">土</rdg></app>沙門
 <lb n="0891a05"/>惠朗等言。昨六日先師<app type="＊" source="0890024"><lem>茶</lem><rdg resp="Taisho" wit="【聖】">恭</rdg></app>毘之夕。聖慈哀
-<lb n="0891a06"/>悼追贈司空。仍<corr sic="謚">諡</corr>號大<app type="＊" source="0890022"><lem>辯</lem><rdg resp="Taisho" wit="【聖】">辨</rdg></app>正廣智不空三藏
+<lb n="0891a06"/>悼追贈司空。仍<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>號大<app type="＊" source="0890022"><lem>辯</lem><rdg resp="Taisho" wit="【聖】">辨</rdg></app>正廣智不空三藏
 <lb n="0891a07"/>和上。昭宣國禮寵光神道。三公之贈有越舊
 <lb n="0891a08"/>章。和上之稱先經未載是知高天之澤浸江
 <lb n="0891a09"/>海而無涯。幽途之靈蒙日月而下照。凡<note n="0891002" resp="Taisho" type="orig" place="foot text">百＝曰【聖】</note><app n="0891002"><lem>百</lem><rdg wit="【聖】" resp="Taisho">曰</rdg></app>弟
@@ -10588,7 +10591,7 @@ Added comment  for Emacs
 <lb n="0891a11"/>李<app type="＊" source="0888014"><lem>憲</lem><rdg resp="Taisho" wit="【聖】">愚</rdg></app>誠奉表陳謝以聞。沙門惠朗等誠惶誠
 <lb n="0891a12"/>愧謹言。寶應元聖文武皇帝批曰。和上發&CB00528;
 <lb n="0891a13"/>五天周遊萬里。宣演正法<app type="＊" source="0886013"><lem>拯</lem><rdg resp="Taisho" wit="【聖】">極</rdg></app>晤生靈。涅槃
-<lb n="0891a14"/>歸常<note n="0891003" resp="Taisho" type="orig" place="foot text">考＝孝【聖】</note><app n="0891003"><lem>考</lem><rdg wit="【聖】" resp="Taisho">孝</rdg></app>行崇<corr sic="謚">諡</corr>。禮經斯在煩以謝恩。同日又
+<lb n="0891a14"/>歸常<note n="0891003" resp="Taisho" type="orig" place="foot text">考＝孝【聖】</note><app n="0891003"><lem>考</lem><rdg wit="【聖】" resp="Taisho">孝</rdg></app>行崇<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>。禮經斯在煩以謝恩。同日又
 <lb n="0891a15"/>奉&CB00330;語僧惠朗。<note n="0891004" resp="Taisho" type="orig" place="foot text">專＝惠【聖】</note><app n="0891004"><lem>專</lem><rdg wit="【聖】" resp="Taisho">惠</rdg></app>知撿挍院事兼及教授後
 <lb n="0891a16"/>學。一尊一契有次第者聞奏。其日僧惠勝附
 <lb n="0891a17"/>奏請於塔所供養三年。敢&CB00283;<note n="0891005" resp="Taisho" type="orig" place="foot text">丹＝舟【聖】</note><app n="0891005"><lem>丹</lem><rdg wit="【聖】" resp="Taisho">舟</rdg></app>勤常修香火。
@@ -10614,7 +10617,7 @@ Added comment  for Emacs
 <lb n="0891b07"/>恩渥歷事三朝。授以列卿品加特進。及臥疾
 <lb n="0891b08"/>也勞問相仍。中使名醫晨夕相繼。特加開府
 <lb n="0891b09"/>封肅國公。洎乎薨焉上彌震悼。輟朝三日錫
-<lb n="0891b10"/>贈<note n="0891010" resp="Taisho" type="orig" place="foot text">〔增〕－【聖】</note><app n="0891010"><lem>增</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>優。授以司空<corr sic="謚">諡</corr>大<app type="＊" source="0890022"><lem>辯</lem><rdg resp="Taisho" wit="【聖】">辨</rdg></app>正仍號和上。先
+<lb n="0891b10"/>贈<note n="0891010" resp="Taisho" type="orig" place="foot text">〔增〕－【聖】</note><app n="0891010"><lem>增</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>優。授以司空<app><lem>諡</lem><rdg wit="【大】">謚</rdg></app>大<app type="＊" source="0890022"><lem>辯</lem><rdg resp="Taisho" wit="【聖】">辨</rdg></app>正仍號和上。先
 <lb n="0891b11"/>古未聞。城外茶毘寺中起塔不日不月悉成
 <lb n="0891b12"/>就焉。兼樹豐碑紀其德行。冠絕今古。首出僧
 <lb n="0891b13"/><note n="0891011" resp="Taisho" type="orig" place="foot text">論亞＝倫匹【聖】</note><app n="0891011"><lem>論。亞</lem><rdg wit="【聖】" resp="Taisho">倫匹</rdg></app>相作文。王傅書字。斯乃萬代不朽也。
@@ -12175,7 +12178,7 @@ Added comment  for Emacs
 <lb n="0907c13"/><p rend="margin-left:1">增壹阿含中別譯經<note place="inline"><note n="0907033" resp="Taisho" type="orig" place="foot text">五十一卷＝二十四部二十四卷【聖】</note><app n="0907033"><lem>五十一卷</lem><rdg wit="【聖】" resp="Taisho">二十四部二十四卷</rdg></app></note></p>
 <lb n="0907c14"/><p rend="margin-left:1">雜阿含中別譯經<note place="inline"><note n="0907034" resp="Taisho" type="orig" place="foot text">五十卷＝一十六部一十六卷【聖】</note><app n="0907034"><lem>五十卷</lem><rdg wit="【聖】" resp="Taisho">一十六部一十六卷</rdg></app></note></p>
 <lb n="0907c15"/><p rend="margin-left:1"><note n="0907035" resp="Taisho" type="orig" place="foot text">〔別譯…卷〕九字－【聖】</note><app n="0907035" word-count="9"><lem>別譯雜阿含經<note place="inline">二十卷</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p>
-<lb n="0907c16"/><p rend="margin-left:1">四<corr sic="">阿</corr>含外諸重譯經<note place="inline"><note n="0907036" resp="Taisho" type="orig" place="foot text">（（一百…卷））十二字＝（（四十二部五十六卷））八字【聖】</note><app n="0907036" word-count="12"><lem>一百四十八部一百九十一卷</lem><rdg wit="【聖】" resp="Taisho">四十二部五十六卷</rdg></app></note></p>
+<lb n="0907c16"/><p rend="margin-left:1">四<app><lem>阿</lem><rdg wit="【大】"></rdg></app>含外諸重譯經<note place="inline"><note n="0907036" resp="Taisho" type="orig" place="foot text">（（一百…卷））十二字＝（（四十二部五十六卷））八字【聖】</note><app n="0907036" word-count="12"><lem>一百四十八部一百九十一卷</lem><rdg wit="【聖】" resp="Taisho">四十二部五十六卷</rdg></app></note></p>
 <lb n="0907c17"/><p rend="margin-left:1">小乘經單譯<note place="inline">總八十七部二百二十四卷</note></p>
 <lb n="0907c18"/><p rend="margin-left:1">聲聞調伏藏<note place="inline">六十一部四百九十<note n="0907037" resp="Taisho" type="orig" place="foot text">三＝六【聖】</note><app n="0907037"><lem>三</lem><rdg wit="【聖】" resp="Taisho">六</rdg></app>卷</note></p>
 <lb n="0907c19"/><p rend="margin-left:1">正調伏藏<note place="inline">四十八部四百<note n="0907038" resp="Taisho" type="orig" place="foot text">五＝八【聖】</note><app n="0907038"><lem>五</lem><rdg wit="【聖】" resp="Taisho">八</rdg></app>卷<note n="0907039" resp="Taisho" type="orig" place="foot text">〔內欠…本〕七字－【聖】</note><app n="0907039" word-count="7"><lem>內欠三卷未獲本</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></note></p>
@@ -12405,7 +12408,7 @@ Added comment  for Emacs
 <lb n="0910b23"/><p rend="margin-left:1">右新譯重本梵文二千<note n="0910019" resp="Taisho" type="orig" place="foot text">五＋（百）【聖】</note><app n="0910019"><lem>五</lem><rdg wit="【聖】" resp="Taisho">五百</rdg></app>頌。譯成八卷一
 <lb n="0910b24"/>十七品。與舊勝天王般若同本異譯。從五
 <lb n="0910b25"/>百六十六卷至五百七十三</p>
-<lb n="0910b26"/><p>第七<corr sic="曾">會</corr>室羅筏城給孤獨園曼殊室利分　第
+<lb n="0910b26"/><p>第七<app><lem>會</lem><rdg wit="【大】">曾</rdg></app>室羅筏城給孤獨園曼殊室利分　第
 <lb n="0910b27"/><note n="0910020" resp="Taisho" type="orig" place="foot text">二＝三【聖】</note><app n="0910020"><lem>二</lem><rdg wit="【聖】" resp="Taisho">三</rdg></app>譯</p>
 <lb n="0910b28"/><p rend="margin-left:1">右新譯重本梵文八百頌。譯成二卷無品。
 <lb n="0910b29"/>與舊兩譯文殊般若同本異譯</p>
@@ -12951,7 +12954,7 @@ Added comment  for Emacs
 <lb n="0916c02"/><byline type="translator">元魏婆羅門瞿曇般若流支譯</byline><p rend="nopunc;margin-left:1">出序記
 <lb n="0916c03"/>　第一譯</p>
 <lb n="0916c04"/><p rend="margin-left:1">右一經與寶積第四十九廣博仙人會同本
-<lb n="0916c05"/>異譯<note place="inline">其序記云魏興和四年歲次壬<corr sic="戍">戌</corr>月建在申朔次乙丑婆羅門客瞿曇流支沙門曇林於尚書令儀
+<lb n="0916c05"/>異譯<note place="inline">其序記云魏興和四年歲次壬<app><lem>戌</lem><rdg wit="【大】">戍</rdg></app>月建在申朔次乙丑婆羅門客瞿曇流支沙門曇林於尚書令儀
 <lb n="0916c06"/>同高公第譯建初辛巳甲午<note n="0916004" resp="Taisho" type="orig" place="foot text">單＝畢【聖】</note><app n="0916004"><lem>單</lem><rdg wit="【聖】" resp="Taisho">畢</rdg></app>功凡有一萬四千四百五十七字諸錄皆云勒那摩<note n="0916005" resp="Taisho" type="orig" place="foot text">提＋（譯）【聖】</note><app n="0916005"><lem>提</lem><rdg wit="【聖】" resp="Taisho">提譯</rdg></app>或云菩提<note n="0916006" resp="Taisho" type="orig" place="foot text">留＝流【聖】</note><app n="0916006"><lem>留</lem><rdg wit="【聖】" resp="Taisho">流</rdg></app>支譯者
 <lb n="0916c07"/>二俱誤也今依序記為正此毗耶<app type="＊" source="0916003"><lem>娑</lem><rdg resp="Taisho" wit="【聖】">婆</rdg></app>經舊錄為小乘單本今勘為大乘重譯</note></p>
 <lb n="0916c08"/><p rend="margin-left:1">上八經十一卷同帙</p></item></list></div7>
@@ -13969,7 +13972,7 @@ Added comment  for Emacs
 <lb n="0928b07"/>元新入目錄</p>
 <lb n="0928b08"/><p rend="margin-left:1">上三十六經三十七卷同帙</p></item>
 <lb n="0928b09"/><item><title>不空&CB00559;索神變真言經</title>三十卷<p rend="nopunc">三帙</p>
-<lb n="0928b10"/><byline type="translator">南天竺三藏菩提流志譯</byline><p rend="nopunc;margin-left:1">新編入錄</p><p rend="nopunc;margin-left:1"><corr sic="等">第</corr>
+<lb n="0928b10"/><byline type="translator">南天竺三藏菩提流志譯</byline><p rend="nopunc;margin-left:1">新編入錄</p><p rend="nopunc;margin-left:1"><app><lem>第</lem><rdg wit="【大】">等</rdg></app>
 <lb n="0928b11"/>四譯</p></item>
 <lb n="0928b12"/><item><title>不空&CB00559;索&CB00057;經一卷</title>
 <lb n="0928b13"/><byline type="translator">隋天竺三藏闍那崛多譯</byline><p rend="nopunc;margin-left:1">第一譯</p></item>
@@ -14309,7 +14312,7 @@ Added comment  for Emacs
 <lb n="0932a21"/><item><title>除一切疾病陀羅尼經一卷</title>
 <lb n="0932a22"/><byline type="translator">大興善寺三藏沙門大廣智不空奉詔譯</byline>
 <lb n="0932a23"/><p>貞元新入目錄</p></item>
-<lb n="0932a24"/><item><title>能淨一切眼陀羅尼經一卷</title><note place="inline">經內題云能淨<corr sic="　">一</corr>切眼疾病陀羅尼經</note>
+<lb n="0932a24"/><item><title>能淨一切眼陀羅尼經一卷</title><note place="inline">經內題云能淨<app><lem>一</lem><rdg wit="【大】">　</rdg></app>切眼疾病陀羅尼經</note>
 <lb n="0932a25"/><byline type="translator">大興善寺三藏沙門大廣智不空奉詔譯</byline>
 <lb n="0932a26"/><p>貞元新入錄</p></item>
 <lb n="0932a27"/><item><title>雨寶陀羅尼經一卷</title><note place="inline">經內題加佛說字</note>
@@ -15855,7 +15858,7 @@ Added comment  for Emacs
 <lb n="0949c01"/><item><title>本事經七卷</title>　大唐三藏法師玄奘譯　出內
 <lb n="0949c02"/>典錄</item>
 <lb n="0949c03"/><item><title>興起行經二卷</title><note place="inline">亦名嚴誡宿緣題云出雜藏</note>　後漢外國三藏康
-<lb n="0949c04"/>孟詳譯<note place="inline">右此興起行經大周錄云經為重譯云與木槍<corr sic="剌">刺</corr>&CB00560;因緣經同本異譯者誤也比尋經本總有
+<lb n="0949c04"/>孟詳譯<note place="inline">右此興起行經大周錄云經為重譯云與木槍<app><lem>刺</lem><rdg wit="【大】">剌</rdg></app>&CB00560;因緣經同本異譯者誤也比尋經本總有
 <lb n="0949c05"/>十緣其木槍&CB00560;經即十緣之一緣也鈔出別行如觀世音等類既非再翻故為單本</note></item>
 <lb n="0949c06"/><item><title>業報差別經一卷</title>　隋洋川郡字瞿曇法智譯
 <lb n="0949c07"/><p rend="margin-left:1">上三經十卷同帙<note place="inline">其業報差別經大周錄云與罪福報應經同本異譯者非也尋其文
@@ -15999,7 +16002,7 @@ Added comment  for Emacs
 <lb n="0951b02"/>入錄<note place="inline">右此療痔病經根本說一切有部尼陀那第二卷中亦有此&CB00057;或有編為重譯今謂不然彼云告諸
 <lb n="0951b03"/>苾芻此痔病經我於餘處已曾宣說而所為復別處亦不同此是重說非重譯也</note>
 <lb n="0951b04"/><p rend="margin-left:1">上三十經三十卷同帙</p></item></list></div6></div5>
-<lb n="0951b05"/><div5 type="other"><mulu type="其他" level="5" label="聲聞調伏藏"/><head>聲聞調伏<corr sic="處">藏</corr></head><p>　六十一部四百九十三卷五十帙</p>
+<lb n="0951b05"/><div5 type="other"><mulu type="其他" level="5" label="聲聞調伏藏"/><head>聲聞調伏<app><lem>藏</lem><rdg wit="【大】">處</rdg></app></head><p>　六十一部四百九十三卷五十帙</p>
 <lb n="0951b06"/><p>調伏藏者。經云。勝故祕故佛獨制故。如契經
 <lb n="0951b07"/>中。諸弟子說法。或諸天說法律則不爾。一切
 <lb n="0951b08"/>佛說。自古群錄皆將摩得勒伽善見論等。編
@@ -16822,7 +16825,7 @@ Added comment  for Emacs
 <lb n="0960b29"/><item><title>嚴淨佛土經二卷</title><note place="inline">亦云淨土經</note>
 <pb ed="T" id="T55.2157.0960c" n="0960c"/>
 <lb n="0960c01"/>西晉河內沙門白法祖譯<p rend="nopunc;margin-left:1">第二譯</p>
-<lb n="0960c02"/><p rend="margin-left:1">右一經與第十五文<corr sic="珠">殊</corr>授記會同本。前後
+<lb n="0960c02"/><p rend="margin-left:1">右一經與第十五文<app><lem>殊</lem><rdg wit="【大】">珠</rdg></app>授記會同本。前後
 <lb n="0960c03"/>三譯。二存一闕</p></item>
 <lb n="0960c04"/><item><title>菩薩藏經三卷</title>西晉三藏竺法護譯　第一譯
 <lb n="0960c05"/><p rend="margin-left:1">右一經與第十七富<note n="0960001" resp="Taisho" type="orig" place="foot text">樓＋（那）&M062403;【乙】</note><app n="0960001"><lem>樓</lem><rdg wit="【？】" resp="【乙】">樓那</rdg></app>會同本。前後兩譯。
@@ -17360,7 +17363,7 @@ Added comment  for Emacs
 <lb n="0966c02"/>多是錄家相傳誤也。其南齊末年太學博士江泌女小而出家。名為僧佉。閉目誦出二十一部。凡三十五卷。於中有
 <lb n="0966c03"/>益意經三卷。長房以為熏習有由。編在正錄。諸錄以非梵本傳譯。置在偽中。存此一經恐將乖也。其名或云僧佉尼
 <lb n="0966c04"/>或云尼僧佉。此之尼字或上或下故使然也。祐是齊人錄中不載。故知諸錄&CB00278;誤周入藏中有益意經兩卷。尋其文
-<lb n="0966c05"/>義亦沙人謀下卷初有一紙半許。文與前卷文句全同。其益意菩薩兩重受記。名字國<corr sic="士">土</corr>各異不同。諸經之中皆無
+<lb n="0966c05"/>義亦沙人謀下卷初有一紙半許。文與前卷文句全同。其益意菩薩兩重受記。名字國<app><lem>土</lem><rdg wit="【大】">士</rdg></app>各異不同。諸經之中皆無
 <lb n="0966c06"/>此類。故編疑品更訪真經</note></p></item>
 <lb n="0966c07"/><item><title>照明三昧經一卷</title>
 <lb n="0966c08"/>西晉三藏竺法護譯　第一譯</item>
@@ -20889,7 +20892,7 @@ Added comment  for Emacs
 <lb n="1007a17"/>東晉沙門竺曇無蘭譯</item>
 <lb n="1007a18"/><item><title>四泥犁經一卷</title>
 <lb n="1007a19"/>東晉沙門竺曇無蘭譯</item>
-<lb n="1007a20"/><item><title>水<corr sic="沬">沫</corr>所漂經一卷</title>
+<lb n="1007a20"/><item><title>水<app><lem>沫</lem><rdg wit="【大】">沬</rdg></app>所漂經一卷</title>
 <lb n="1007a21"/>東晉沙門竺曇無蘭譯</item>
 <lb n="1007a22"/><item><title>中心經一卷</title>
 <lb n="1007a23"/>東晉沙門竺曇無蘭譯</item>
@@ -22735,7 +22738,7 @@ Added comment  for Emacs
 <lb n="1028a14"/><item><title>解節經一卷</title><p rend="nopunc;margin-left:1">一十紙</p></item>
 <lb n="1028a15"/><item><title>相續解脫地波羅蜜了義經<note n="1028006" resp="Taisho" type="orig" place="foot text">〔一卷〕－【甲】</note><app n="1028006"><lem>一卷</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></title><note place="inline">或二卷亦名解脫了<note n="1028007" resp="Taisho" type="orig" place="foot text">義＋（經）【甲】</note><app n="1028007"><lem>義</lem><rdg wit="【甲】" resp="Taisho">義經</rdg></app>亦直
 <lb n="1028a16"/><note n="1028008" resp="Taisho" type="orig" place="foot text">〔云〕－【甲】</note><app n="1028008"><lem>云</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>相續解脫經</note><p rend="nopunc;margin-left:1">一十八紙</p></item>
-<lb n="1028a17"/><item><title>緣生初勝分法本經二卷</title><note place="inline">亦直云<corr sic="綠">緣</corr>生經</note><p rend="nopunc;margin-left:1">二十三紙</p></item>
+<lb n="1028a17"/><item><title>緣生初勝分法本經二卷</title><note place="inline">亦直云<app><lem>緣</lem><rdg wit="【大】">綠</rdg></app>生經</note><p rend="nopunc;margin-left:1">二十三紙</p></item>
 <lb n="1028a18"/><item><title>分別緣起初勝法門經二卷</title><note place="inline">亦直云分別緣起經</note><p rend="nopunc;margin-left:1">二十二紙</p></item>
 <lb n="1028a19"/><item><title>楞伽阿跋多羅寶經四卷</title><p rend="nopunc;margin-left:1">九十二紙</p>
 <lb n="1028a20"/><p rend="margin-left:1">上五經十卷同帙</p></item>
@@ -22771,7 +22774,7 @@ Added comment  for Emacs
 <lb n="1028b21"/><item><title>藥師&CB00222;璃光七佛本願功德經二卷</title><p rend="nopunc;margin-left:1">三十一
 <lb n="1028b22"/>紙</p></item>
 <lb n="1028b23"/><item><title>阿闍世王經二卷</title><p rend="nopunc;margin-left:1">五十五紙</p></item>
-<lb n="1028b24"/><item><title>普超三昧經三<corr sic="紙">卷</corr></title><note place="inline">或四卷<note n="1028017" resp="Taisho" type="orig" place="foot text">（或）＋上【甲】</note><app n="1028017"><lem>上</lem><rdg wit="【甲】" resp="Taisho">或上</rdg></app>加文殊師利字<note n="1028018" resp="Taisho" type="orig" place="foot text">（亦直）＋云【甲】</note><app n="1028018"><lem>云</lem><rdg wit="【甲】" resp="Taisho">亦直云</rdg></app>普<note n="1028019" resp="Taisho" type="orig" place="foot text">起＝超【甲】</note><app n="1028019"><lem>起</lem><rdg wit="【甲】" resp="Taisho">超</rdg></app>經一名阿闍世王品安<note n="1028020" resp="Taisho" type="orig" place="foot text">〔公錄〕－【甲】</note><app n="1028020"><lem>公錄</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>
+<lb n="1028b24"/><item><title>普超三昧經三<app><lem>卷</lem><rdg wit="【大】">紙</rdg></app></title><note place="inline">或四卷<note n="1028017" resp="Taisho" type="orig" place="foot text">（或）＋上【甲】</note><app n="1028017"><lem>上</lem><rdg wit="【甲】" resp="Taisho">或上</rdg></app>加文殊師利字<note n="1028018" resp="Taisho" type="orig" place="foot text">（亦直）＋云【甲】</note><app n="1028018"><lem>云</lem><rdg wit="【甲】" resp="Taisho">亦直云</rdg></app>普<note n="1028019" resp="Taisho" type="orig" place="foot text">起＝超【甲】</note><app n="1028019"><lem>起</lem><rdg wit="【甲】" resp="Taisho">超</rdg></app>經一名阿闍世王品安<note n="1028020" resp="Taisho" type="orig" place="foot text">〔公錄〕－【甲】</note><app n="1028020"><lem>公錄</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>
 <lb n="1028b25"/>云<note n="1028021" resp="Taisho" type="orig" place="foot text">〔更〕－【甲】</note><app n="1028021"><lem>更</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>出阿闍世王經</note><p rend="nopunc;margin-left:1">六十八紙</p></item>
 <lb n="1028b26"/><item><title>放&CB00425;經一<note n="1028022" resp="Taisho" type="orig" place="foot text">卷＋（是普超經眾&CB00425;品）【甲】</note><app n="1028022"><lem>卷</lem><rdg wit="【甲】" resp="Taisho">卷是普超經眾&CB00425;品</rdg></app></title><p rend="nopunc;margin-left:1">七紙</p>
 <lb n="1028b27"/><p rend="margin-left:1">上六經十卷同帙</p></item>
@@ -24246,7 +24249,7 @@ Added comment  for Emacs
 <lb n="1046a08"/><p rend="margin-left:1">上一集三十卷　分為四帙　第一第二各
 <lb n="1046a09"/>八　下二帙各七</p></item>
 <lb n="1046a10"/><item><title>辯正論八卷</title><p rend="nopunc">一帙</p><p rend="nopunc;margin-left:1">一百七十八紙</p></item>
-<lb n="1046a11"/><item><title>破邪論二卷</title><note place="inline">或一卷</note><p rend="nopunc;margin-left:1">四十五<corr sic="卷">紙</corr></p></item>
+<lb n="1046a11"/><item><title>破邪論二卷</title><note place="inline">或一卷</note><p rend="nopunc;margin-left:1">四十五<app><lem>紙</lem><rdg wit="【大】">卷</rdg></app></p></item>
 <lb n="1046a12"/><item><title>別傳三卷</title><note place="inline">貞觀年中僧法琳撰</note><p rend="nopunc;margin-left:1">四十五紙</p>
 <lb n="1046a13"/><p>開元錄不入目今於貞元十五年奉&CB00330;編入
 <lb n="1046a14"/>目錄流行</p></item>
