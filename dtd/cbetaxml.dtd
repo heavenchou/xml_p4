@@ -172,6 +172,7 @@ converted to XML form 2.1.99 (CW)
 	lang CDATA #IMPLIED
 	type CDATA #IMPLIED
 	rend CDATA #IMPLIED
+	place CDATA #IMPLIED
 >
 <!ELEMENT foreign 
 	(#PCDATA | ident | code | kw | abbr | address | date | name 
@@ -353,6 +354,7 @@ converted to XML form 2.1.99 (CW)
 	id ID #IMPLIED
 	type CDATA #IMPLIED
 	rend CDATA #IMPLIED
+	place CDATA #IMPLIED
 >
 <!--  7:  Top-level parts of default structure                 -->
 <!ELEMENT text (body)>
@@ -602,6 +604,7 @@ converted to XML form 2.1.99 (CW)
 	rend CDATA #IMPLIED
 	n CDATA #IMPLIED
 	word-count CDATA #IMPLIED
+	place CDATA #IMPLIED
 >
 <!ELEMENT t (#PCDATA | corr | foreign | gaiji | yin | app | note | lb | l | lg | anchor | pb | sic | title)*>
 <!ATTLIST t
