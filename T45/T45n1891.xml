@@ -74,7 +74,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/04/20 08:42:40 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/09/09 04:10:56 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -87,7 +87,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:42:40 $</date>
+		<date>$Date: 2004/09/09 04:10:56 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 45, No. 1891 &desc;</bibl>
@@ -113,6 +113,9 @@
 	</change>
 <!--
 $Log: T45n1891.xml,v $
+Revision 1.5  2004/09/09 04:10:56  saywhat
+刪除空的 juan close
+
 Revision 1.4  2004/04/20 08:42:40  maha
 「版本日期」標記修訂
 
@@ -157,7 +160,7 @@ Revision 1.5  2001/02/07 07:16:53  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 08:06:46  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/04/20 08:42:40 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/09/09 04:10:56 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -168,11 +171,11 @@ Added comment  for Emacs
 <lb n="0793a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0793a02"/>
-<lb n="0793a03"/><head type="no">No. 1891</head><div1 type="jing">
-<lb n="0793a04"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0793001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經，【甲】建長三年寫小野玄妙氏藏本</note>佛國禪師文殊指南圖讚</jhead></juan>
+<lb n="0793a03"/><head type="no">No. 1891</head>
+<lb n="0793a04"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0793001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經，【甲】建長三年寫小野玄妙氏藏本</note><jhead>佛國禪師文殊指南圖讚</jhead></juan>
 <lb n="0793a05"/>
 <lb n="0793a06"/><byline type="Author">中書舍人張商英述</byline>
-<lb n="0793a07"/><p>華嚴性海納香水之百川。法界義天森寶光
+<lb n="0793a07"/><div1 type="jing"><p>華嚴性海納香水之百川。法界義天森寶光
 <lb n="0793a08"/>之萬像。極佛陀之真智。盡含識之靈源。故世
 <lb n="0793a09"/>主妙嚴文殊結集。龍宮誦出。雞嶺傳來。繼踵
 <lb n="0793a10"/>流通普聞華夏。李長者合論四十軸。觀國師
@@ -1366,5 +1369,5 @@ Added comment  for Emacs
 <lb n="0806b10"/>
 <lb n="0806b11"/>
 <lb n="0806b12"/><lg><l>而今到此休分別</l><l>直下承當得也麼</l>
-<lb n="0806b13"/><l>忽若更云南北去</l><l>分明&CB00470;子過新羅</l></lg><juan fun="close" n="001"></juan></div1>
+<lb n="0806b13"/><l>忽若更云南北去</l><l>分明&CB00470;子過新羅</l></lg></div1>
 </body></text></TEI.2>
