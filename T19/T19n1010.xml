@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/04/20 08:38:49 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/07/05 08:51:25 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:38:49 $</date>
+		<date>$Date: 2004/07/05 08:51:25 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 1010 &desc;</bibl>
@@ -58,6 +58,9 @@
 	</change>
 <!--
 $Log: T19n1010.xml,v $
+Revision 1.5  2004/07/05 08:51:25  saywhat
+修訂 div 位置
+
 Revision 1.4  2004/04/20 08:38:49  maha
 「版本日期」標記修訂
 
@@ -105,7 +108,7 @@ Revision 1.7  2001/02/07 06:55:09  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:45:06  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/04/20 08:38:49 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/07/05 08:51:25 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -115,11 +118,11 @@ Added comment  for Emacs
 <lb n="0679c02"/>
 <milestone unit="juan" n="1"/>
 <lb n="0679c03"/>
-<lb n="0679c04"/><head type="no">No. 1010</head><div1 type="jing">
-<lb n="0679c05"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0679010" resp="Taisho" type="orig" place="foot text">【原】黃檗版淨嚴等加筆本，【甲】三十帖策子，此經麗宋元明四本俱欠</note>佛說出生無邊門陀羅尼儀<note n="0679011" resp="Taisho" type="orig" place="foot text">〔軌〕－【甲】</note><app n="0679011"><lem>軌</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="0679c04"/><head type="no">No. 1010</head>
+<lb n="0679c05"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0679010" resp="Taisho" type="orig" place="foot text">【原】黃檗版淨嚴等加筆本，【甲】三十帖策子，此經麗宋元明四本俱欠</note><jhead>佛說出生無邊門陀羅尼儀<note n="0679011" resp="Taisho" type="orig" place="foot text">〔軌〕－【甲】</note><app n="0679011"><lem>軌</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0679c06"/>
 <lb n="0679c07"/><byline type="Translator">不空三藏譯</byline>
-<lb n="0679c08"/><p>真言如經</p>
+<lb n="0679c08"/><div1 type="jing"><p>真言如經</p>
 <lb n="0679c09"/><lg><l>修行此出生</l><l>無邊門總持</l>
 <lb n="0679c10"/><l>轉目三種業</l><l>依三祕密門</l>
 <lb n="0679c11"/><l>所謂三金剛</l><l>身印語真言</l>
@@ -157,9 +160,9 @@ Added comment  for Emacs
 <lb n="0680a13"/><l>四攝八供養</l><l>次第而布列</l>
 <lb n="0680a14"/><l>成祕曼荼羅</l><l>誦持真言經</l>
 <lb n="0680a15"/><l>所成如本教</l><l>修行諸儀則</l>
-<lb n="0680a16"/><l>結集決擇竟</l></lg>
-<lb n="0680a17"/><juan fun="close" n="001"><jhead>出生無邊門陀羅尼儀軌</jhead></juan></div1><div1 type="W">
-<lb n="0680a18"/><p><note n="0680004" resp="Taisho" type="orig" place="foot text">以下甲本欠</note><note n="0680004" resp="CBETA" type="mod"><todo type="a"/>以下甲本欠</note><term lang="san-sd">&SD-A5B5;</term><note place="inline">勝義</note><term lang="san-sd">&SD-A64A;</term><note place="inline">無相隨形好故是則法身</note><term lang="san-sd">&SD-A656;</term><note place="inline">愚夫法聖人法無二</note><term lang="san-sd">&SD-A4B6;</term><note place="inline">無生無滅</note><term lang="san-sd">&SD-A440;</term><note place="inline">非業異熟</note><term lang="san-sd">&SD-A57B;</term><note place="inline">陀羅
+<lb n="0680a16"/><l>結集決擇竟</l></lg></div1>
+<lb n="0680a17"/><juan fun="close" n="001"><jhead>出生無邊門陀羅尼儀軌</jhead></juan>
+<lb n="0680a18"/><div1 type="W"><p><note n="0680004" resp="Taisho" type="orig" place="foot text">以下甲本欠</note><note n="0680004" resp="CBETA" type="mod"><todo type="a"/>以下甲本欠</note><term lang="san-sd">&SD-A5B5;</term><note place="inline">勝義</note><term lang="san-sd">&SD-A64A;</term><note place="inline">無相隨形好故是則法身</note><term lang="san-sd">&SD-A656;</term><note place="inline">愚夫法聖人法無二</note><term lang="san-sd">&SD-A4B6;</term><note place="inline">無生無滅</note><term lang="san-sd">&SD-A440;</term><note place="inline">非業異熟</note><term lang="san-sd">&SD-A57B;</term><note place="inline">陀羅
 <lb n="0680a19"/>尼法要空無相無願隨入法界</note><term lang="san-sd">&SD-A662;</term><note place="inline">非奢摩他毘&CB00425;舍那一切法隨入真如</note><term lang="san-sd">&SD-A6B4;</term><note place="inline">一切法剎那無盡無壤無身本寂故
 <lb n="0680a20"/>隨入一切法涅槃</note></p>
 <lb n="0680a21"/><p>元祿十六年正月二十九日以淨嚴上人
