@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)</edition>
+		<edition>$Revision: 1.13 $ (Big5)</edition>
 	</editionStmt>
 	<extent>8卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/01/02 05:52:44 $</date>
+		<date>$Date: 2004/03/16 02:17:43 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 3, No. 152 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T03n0152.xml,v $
+Revision 1.13  2004/03/16 02:17:43  ray
+resp 屬性 統一格式為 CBETA.xxx
+
 Revision 1.12  2004/01/02 05:52:44  maha
 <note mod>裡的corr2app
 
@@ -151,7 +154,7 @@ Revision 1.7  2001/02/07 06:40:36  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:29:19  chris
-Added keywords $Revision: 1.12 $, $Date: 2004/01/02 05:52:44 $ and $Log.
+Added keywords $Revision: 1.13 $, $Date: 2004/03/16 02:17:43 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -1068,7 +1071,7 @@ Added comment  for Emacs
 <lb n="0011a05"/>臥地。使者到乃起拜王命矣。使者曰。王逮
 <lb n="0011a06"/>皇后<note n="0011002" resp="Taisho" type="orig" place="foot text">捐＝損【元】【明】</note><app n="0011002"><lem>捐</lem><rdg wit="【元】【明】" resp="Taisho">損</rdg></app>食<note n="0011003" resp="Taisho" type="orig" place="foot text">銜＝&CB00081;【三】</note><note n="0011003" resp="CBETA" type="mod">銜＝&CB00081;【宋】【元】【明】</note><app n="0011003"><lem>銜</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00081;</rdg></app>泣。身命日衰。思&CB00418;太子。
 <lb n="0011a07"/>太子左右顧望。戀慕山中樹木流泉。<note n="0011004" resp="Taisho" type="orig" place="foot text">收＝抆【三】</note><note n="0011004" resp="CBETA" type="mod">收＝抆【宋】【元】【明】</note><app n="0011004"><lem>收</lem><rdg wit="【宋】【元】【明】" resp="Taisho">抆</rdg></app>淚
-<lb n="0011a08"/>昇車。自使者發舉國歡喜。治道掃除<note n="0011005" resp="Taisho" type="orig" place="foot text">&CB01495;＝預【三】</note><note n="0011005" resp="CBETA" type="mod"><app><lem resp="Maha">豫</lem><rdg wit="【大】">&CB01495;</rdg></app>＝預【宋】【元】【明】</note><app n="0011005"><lem>豫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">預</rdg></app>
+<lb n="0011a08"/>昇車。自使者發舉國歡喜。治道掃除<note n="0011005" resp="Taisho" type="orig" place="foot text">&CB01495;＝預【三】</note><note n="0011005" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">豫</lem><rdg wit="【大】">&CB01495;</rdg></app>＝預【宋】【元】【明】</note><app n="0011005"><lem>豫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">預</rdg></app>
 <lb n="0011a09"/>施帳幔。燒香散<note n="0011006" resp="Taisho" type="orig" place="foot text">華＝化【明】</note><app n="0011006"><lem>華</lem><rdg wit="【明】" resp="Taisho">化</rdg></app>伎樂幢蓋。舉國趍蹌。
 <lb n="0011a10"/>稱壽無量。<app type="＊" source="0008030"><lem>大</lem><rdg resp="Taisho" wit="【宋】【元】【明】">太</rdg></app>子入城頓首謝過。退<note n="0011007" resp="Taisho" type="orig" place="foot text">勞＝僗【宋】【元】</note><app n="0011007"><lem>勞</lem><rdg wit="【宋】【元】" resp="Taisho">僗</rdg></app>起
 <lb n="0011a11"/>居。王復以國藏珍寶都付太子勸令布
@@ -1093,7 +1096,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="3"/>
 <lb n="0011b02"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>六度集經</title>卷第三</jhead>
 <lb n="0011b03"/>
-<lb n="0011b04"/><byline type="Translator"><note n="0011018" resp="Taisho" type="orig" place="foot text">康居國沙門＝天竺三藏法師【三】</note><note n="0011018" resp="CBETA" type="mod"><app><lem resp="Maha">吳</lem><rdg wit="【大】"></rdg></app>康居國沙門＝天竺三藏法師【宋】【元】【明】</note><app n="0011018"><lem>吳康居國沙門</lem><rdg wit="【宋】【元】【明】" resp="Taisho">天竺三藏法師</rdg></app>康僧會譯</byline>
+<lb n="0011b04"/><byline type="Translator"><note n="0011018" resp="Taisho" type="orig" place="foot text">康居國沙門＝天竺三藏法師【三】</note><note n="0011018" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">吳</lem><rdg wit="【大】"></rdg></app>康居國沙門＝天竺三藏法師【宋】【元】【明】</note><app n="0011018"><lem>吳康居國沙門</lem><rdg wit="【宋】【元】【明】" resp="Taisho">天竺三藏法師</rdg></app>康僧會譯</byline>
 <lb n="0011b05"/><head type="ping">布施度無極<note n="0011019" resp="Taisho" type="orig" place="foot text">經＝下【元】【明】</note><app n="0011019"><lem>經</lem><rdg wit="【元】【明】" resp="Taisho">下</rdg></app><note place="inline"><note n="0011020" resp="Taisho" type="orig" place="foot text">此有＝凡【三】</note><note n="0011020" resp="CBETA" type="mod">此有＝凡【宋】【元】【明】</note><app n="0011020"><lem>此有</lem><rdg wit="【宋】【元】【明】" resp="Taisho">凡</rdg></app>十一章</note></head></juan></div2>
 <lb n="0011b06"/><div2 type="jing"><mulu type="經" level="2" n="15" label="15 〔和默王本生〕"/><head>（一五）</head><p type="inline">聞如是。一時佛在舍衛國祇樹給孤獨
 <lb n="0011b07"/>園。佛告諸比丘。昔<note n="0011021" resp="Taisho" type="orig" place="foot text">〔者〕－【三】</note><note n="0011021" resp="CBETA" type="mod">〔者〕－【宋】【元】【明】</note><app n="0011021"><lem>者</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>有國王<note n="0011022" resp="Taisho" type="orig" place="foot text">號＋（曰）【三】</note><note n="0011022" resp="CBETA" type="mod">號＋（曰）【宋】【元】【明】</note><app n="0011022"><lem>號</lem><rdg wit="【宋】【元】【明】" resp="Taisho">號曰</rdg></app>和默。王
@@ -1393,7 +1396,7 @@ Added comment  for Emacs
 <lb n="0014c01"/>聲曰。夫逆之大。其有三矣。不遠群邪
 <lb n="0014c02"/>招二世咎。斯一也。生不識親而逆孝行。
 <lb n="0014c03"/>斯二也。恃勢殺親毒向三尊。斯三也。懷
-<lb n="0014c04"/>斯三逆其惡無蓋。爾等張口。信現<note n="0014030" resp="Taisho" type="orig" place="foot text">干＝乎【三】</note><note n="0014030" resp="CBETA" type="mod"><app><lem resp="Maha">于</lem><rdg wit="【大】">干</rdg></app>＝乎【宋】【元】【明】</note><app n="0014030"><lem>于</lem><rdg wit="【宋】【元】【明】" resp="Taisho">乎</rdg></app>今。母
+<lb n="0014c04"/>斯三逆其惡無蓋。爾等張口。信現<note n="0014030" resp="Taisho" type="orig" place="foot text">干＝乎【三】</note><note n="0014030" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">于</lem><rdg wit="【大】">干</rdg></app>＝乎【宋】【元】【明】</note><app n="0014030"><lem>于</lem><rdg wit="【宋】【元】【明】" resp="Taisho">乎</rdg></app>今。母
 <lb n="0014c05"/>捉其乳天令湩射遍百子口。精誠之感飲
 <lb n="0014c06"/>乳情哀。僉然俱曰。斯<note n="0014031" resp="Taisho" type="orig" place="foot text">則＝即【三】</note><note n="0014031" resp="CBETA" type="mod">則＝即【宋】【元】【明】</note><app n="0014031"><lem>則</lem><rdg wit="【宋】【元】【明】" resp="Taisho">即</rdg></app>吾<note n="0014032" resp="Taisho" type="orig" place="foot text">親＋（矣）【三】</note><note n="0014032" resp="CBETA" type="mod">親＋（矣）【宋】【元】【明】</note><app n="0014032"><lem>親</lem><rdg wit="【宋】【元】【明】" resp="Taisho">親矣</rdg></app>。泣涕交頸。
 <lb n="0014c07"/>叉手步進。叩頭悔過。親嗣始會。靡不哀慟。
@@ -1577,7 +1580,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="4"/><div1 type="other">
 <lb n="0016c05"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead><title>六度集經</title>卷第四</jhead></juan>
 <lb n="0016c06"/>
-<lb n="0016c07"/><byline type="Translator"><note n="0016020" resp="Taisho" type="orig" place="foot text">康居國沙門＝天竺三藏法師【三】</note><note n="0016020" resp="CBETA" type="mod"><app><lem resp="Maha">吳</lem><rdg wit="【大】"></rdg></app>康居國沙門＝天竺三藏法師【宋】【元】【明】</note><app n="0016020"><lem>吳康居國沙門</lem><rdg wit="【宋】【元】【明】" resp="Taisho">天竺三藏法師</rdg></app>康僧會譯</byline>
+<lb n="0016c07"/><byline type="Translator"><note n="0016020" resp="Taisho" type="orig" place="foot text">康居國沙門＝天竺三藏法師【三】</note><note n="0016020" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">吳</lem><rdg wit="【大】"></rdg></app>康居國沙門＝天竺三藏法師【宋】【元】【明】</note><app n="0016020"><lem>吳康居國沙門</lem><rdg wit="【宋】【元】【明】" resp="Taisho">天竺三藏法師</rdg></app>康僧會譯</byline>
 <lb n="0016c08"/><mulu type="其他" level="1" n="2" label="2 戒度無極章"/><head>戒度無極<note n="0016021" resp="Taisho" type="orig" place="foot text">〔章〕－【三】</note><note n="0016021" resp="CBETA" type="mod">〔章〕－【宋】【元】【明】</note><app n="0016021"><lem>章</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app><note n="0016022" resp="Taisho" type="orig" place="foot text">第二＝經【宋】</note><app n="0016022"><lem>第二</lem><rdg wit="【宋】" resp="Taisho">經</rdg></app><note place="inline"><note n="0016023" resp="Taisho" type="orig" place="foot text">此有＝凡【三】</note><note n="0016023" resp="CBETA" type="mod">此有＝凡【宋】【元】【明】</note><app n="0016023"><lem>此有</lem><rdg wit="【宋】【元】【明】" resp="Taisho">凡</rdg></app>十五章</note></head>
 <lb n="0016c09"/><p>戒度無極者。厥則云何。狂愚兇虐。好殘
 <lb n="0016c10"/>生命。貪<note n="0016024" resp="Taisho" type="orig" place="foot text">餘＝饕【元】【明】</note><app n="0016024"><lem>餘</lem><rdg wit="【元】【明】" resp="Taisho">饕</rdg></app>盜竊。婬&CB00105;穢濁。兩舌惡罵。妄
@@ -1844,7 +1847,7 @@ Added comment  for Emacs
 <lb n="0019c01"/>情<note n="0019012" resp="Taisho" type="orig" place="foot text">泆＝姝【宋】，逸【元】【明】</note><note n="0019012" resp="CBETA" type="mod">泆＝姝【宋】，＝逸【元】【明】</note><app n="0019012"><lem>泆</lem><rdg wit="【宋】" resp="Taisho">姝</rdg><rdg wit="【元】【明】" resp="Taisho">逸</rdg></app>豫兄心存曰。&CB01753;伯即父。叔妻即子。斯
 <lb n="0019c02"/>有父子之親。豈有嫁娶之道乎。斯王處人
 <lb n="0019c03"/>君之尊。而為禽<note n="0019013" resp="Taisho" type="orig" place="foot text">獸＝狩【宋】</note><app n="0019013"><lem>獸</lem><rdg wit="【宋】" resp="Taisho">狩</rdg></app>之行。即引弟退。女登臺
-<lb n="0019c04"/>望曰。吾為<note n="0019014" resp="Taisho" type="orig" place="foot text">&CB05653;＝魅【元】【明】</note><note n="0019014" resp="CBETA" type="mod"><app><lem resp="Maha">&CB02372;</lem><rdg wit="【大】">&CB05653;</rdg></app>＝魅【元】【明】</note><app n="0019014"><lem>&CB02372;</lem><rdg wit="【元】【明】" resp="Taisho">魅</rdg></app>蠱食兄肝可乎。展轉生死。
+<lb n="0019c04"/>望曰。吾為<note n="0019014" resp="Taisho" type="orig" place="foot text">&CB05653;＝魅【元】【明】</note><note n="0019014" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">&CB02372;</lem><rdg wit="【大】">&CB05653;</rdg></app>＝魅【元】【明】</note><app n="0019014"><lem>&CB02372;</lem><rdg wit="【元】【明】" resp="Taisho">魅</rdg></app>蠱食兄肝可乎。展轉生死。
 <lb n="0019c05"/>兄為獼猴。女與弟俱為<note n="0019015" resp="Taisho" type="orig" place="foot text">&CB00516;＝鱉【三】＊</note><note n="0019015" resp="CBETA" type="mod">&CB00516;＝鱉【宋】＊【元】＊【明】＊</note><app n="0019015"><lem>&CB00516;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">鱉</rdg></app>。<app type="＊" source="0019015"><lem>&CB00516;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">鱉</rdg></app>妻有疾。思
 <lb n="0019c06"/>食獼猴肝。雄行求焉。&CB00418;獼猴下飲。<app type="＊" source="0019015"><lem>&CB00516;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">鱉</rdg></app>曰。
 <lb n="0019c07"/>爾&CB00573;&CB00418;樂乎。答曰。未也。曰吾舍有妙樂。爾
@@ -2402,7 +2405,7 @@ Added comment  for Emacs
 <lb n="0025c18"/>爾以兒貢可獲眾寶。母曰。可留錢送兒從
 <lb n="0025c19"/>欲索貨。母獲如志。育兒數月。而婦&CB00775;<note n="0025034" resp="Taisho" type="orig" place="foot text">身＝娠【三】</note><note n="0025034" resp="CBETA" type="mod">身＝娠【宋】【元】【明】</note><app n="0025034"><lem>身</lem><rdg wit="【宋】【元】【明】" resp="Taisho">娠</rdg></app>。
 <lb n="0025c20"/>曰吾以無嗣故育異<note n="0025035" resp="Taisho" type="orig" place="foot text">姓＝族【三】</note><note n="0025035" resp="CBETA" type="mod">姓＝族【宋】【元】【明】</note><app n="0025035"><lem>姓</lem><rdg wit="【宋】【元】【明】" resp="Taisho">族</rdg></app>。天授余祚。今<note n="0025036" resp="Taisho" type="orig" place="foot text">以＝用【元】【明】</note><app n="0025036"><lem>以</lem><rdg wit="【元】【明】" resp="Taisho">用</rdg></app>
-<lb n="0025c21"/>子為。以<app type="＊" source="0025025"><lem>褻</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB00626;</rdg></app>裹之夜著<note n="0025037" resp="Taisho" type="orig" place="foot text">汫＝井【宋】，坑【元】【明】</note><note n="0025037" resp="CBETA" type="mod">汫＝井【宋】，＝坑【元】【明】</note><app n="0025037"><lem resp="maha">汫</lem><rdg wit="【大】">洴</rdg><rdg wit="【宋】" resp="Taisho">井</rdg><rdg wit="【元】【明】" resp="Taisho">坑</rdg></app>中。家羊日就而
+<lb n="0025c21"/>子為。以<app type="＊" source="0025025"><lem>褻</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB00626;</rdg></app>裹之夜著<note n="0025037" resp="Taisho" type="orig" place="foot text">汫＝井【宋】，坑【元】【明】</note><note n="0025037" resp="CBETA" type="mod">汫＝井【宋】，＝坑【元】【明】</note><app n="0025037"><lem resp="CBETA.maha">汫</lem><rdg wit="【大】">洴</rdg><rdg wit="【宋】" resp="Taisho">井</rdg><rdg wit="【元】【明】" resp="Taisho">坑</rdg></app>中。家羊日就而
 <lb n="0025c22"/>乳。牧人尋察&CB00418;兒。即歎曰。上帝何緣落其
 <lb n="0025c23"/>子<note n="0025038" resp="Taisho" type="orig" place="foot text">於＝于【三】</note><note n="0025038" resp="CBETA" type="mod">於＝于【宋】【元】【明】</note><app n="0025038"><lem>於</lem><rdg wit="【宋】【元】【明】" resp="Taisho">于</rdg></app>茲乎。取歸育之以羊湩乳。四姓覺
 <lb n="0025c24"/><note n="0025039" resp="Taisho" type="orig" place="foot text">知＝之【明】</note><app n="0025039"><lem>知</lem><rdg wit="【明】" resp="Taisho">之</rdg></app>。<note n="0025040" resp="Taisho" type="orig" place="foot text">誥＝詰【三】</note><note n="0025040" resp="CBETA" type="mod">誥＝詰【宋】【元】【明】</note><app n="0025040"><lem>誥</lem><rdg wit="【宋】【元】【明】" resp="Taisho">詰</rdg></app>曰。緣竊<note n="0025041" resp="Taisho" type="orig" place="foot text">湩＝潼【明】＊</note><note n="0025041" resp="CBETA" type="mod"><todo type="＊"/>湩＝潼【明】＊</note><app n="0025041"><lem>湩</lem><rdg wit="【明】" resp="Taisho">潼</rdg></app>乎。對曰。吾獲天之
@@ -2462,7 +2465,7 @@ Added comment  for Emacs
 <lb n="0026b18"/>命具禮詣梵志家。梵志夫妻議曰。夫婚姻
 <lb n="0026b19"/>之儀始之於擇行問<note n="0026026" resp="Taisho" type="orig" place="foot text">咎＝名【三】</note><note n="0026026" resp="CBETA" type="mod">咎＝名【宋】【元】【明】</note><app n="0026026"><lem>咎</lem><rdg wit="【宋】【元】【明】" resp="Taisho">名</rdg></app>占兆。彼善禮&CB02458;即
 <lb n="0026b20"/>吾許焉。今現男不媒禮娉便臻。<note n="0026027" resp="Taisho" type="orig" place="foot text">彼豈＝豈彼【三】</note><note n="0026027" resp="CBETA" type="mod">彼豈＝豈彼【宋】【元】【明】</note><app n="0026027"><lem>彼豈</lem><rdg wit="【宋】【元】【明】" resp="Taisho">豈彼</rdg></app>將慢
-<lb n="0026b21"/>乎。又退<note n="0026028" resp="Taisho" type="orig" place="foot text">讌患＝宴思【三】</note><note n="0026028" resp="CBETA" type="mod">讌<app><lem resp="Maha">息</lem><rdg wit="【大】">患</rdg></app>＝宴思【宋】【元】【明】</note><app n="0026028"><lem>讌息</lem><rdg wit="【宋】【元】【明】" resp="Taisho">宴思</rdg></app>曰。男女為偶自古然矣。男
+<lb n="0026b21"/>乎。又退<note n="0026028" resp="Taisho" type="orig" place="foot text">讌患＝宴思【三】</note><note n="0026028" resp="CBETA" type="mod">讌<app><lem resp="CBETA.Maha">息</lem><rdg wit="【大】">患</rdg></app>＝宴思【宋】【元】【明】</note><app n="0026028"><lem>讌息</lem><rdg wit="【宋】【元】【明】" resp="Taisho">宴思</rdg></app>曰。男女為偶自古然矣。男
 <lb n="0026b22"/>賢女貞誠亦難值。遂納禮會宗。九族歎曰。
 <lb n="0026b23"/>斯榮傳世。納妻禮成。邸閣馳啟。四姓聞之
 <lb n="0026b24"/>結疾殊篤。兒聞親疾哽<note n="0026029" resp="Taisho" type="orig" place="foot text">咽＝噎【三】</note><note n="0026029" resp="CBETA" type="mod">咽＝噎【宋】【元】【明】</note><app n="0026029"><lem>咽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">噎</rdg></app>而言。<note n="0026030" resp="Taisho" type="orig" place="foot text">夫＝天【元】</note><app n="0026030"><lem>夫</lem><rdg wit="【元】" resp="Taisho">天</rdg></app>命難
@@ -2512,7 +2515,7 @@ Added comment  for Emacs
 <lb n="0027a12"/>病翼。鳥曰。爾等奚求乎。曰。人王亡其正妃。
 <lb n="0027a13"/>吾等尋之。鳥曰。龍盜之矣。吾勢無如。今在
 <lb n="0027a14"/>海中大洲之上。言畢鳥絕。猴王率眾。由徑
-<lb n="0027a15"/>臨海。憂無以<note n="0027010" resp="Taisho" type="orig" place="foot text">渡＝度【三】</note><note n="0027010" resp="CBETA" type="mod">渡＝度【宋】【元】【明】</note><app n="0027010"><lem>渡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">度</rdg></app>。天帝釋即化為<note n="0027011" resp="Taisho" type="orig" place="foot text">〔獮〕－【三】</note><note n="0027011" resp="CBETA" type="mod">〔<app><lem resp="Maha">獼</lem><rdg wit="【大】">獮</rdg></app>〕－【宋】【元】【明】</note><app n="0027011"><lem>獼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>猴。身
+<lb n="0027a15"/>臨海。憂無以<note n="0027010" resp="Taisho" type="orig" place="foot text">渡＝度【三】</note><note n="0027010" resp="CBETA" type="mod">渡＝度【宋】【元】【明】</note><app n="0027010"><lem>渡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">度</rdg></app>。天帝釋即化為<note n="0027011" resp="Taisho" type="orig" place="foot text">〔獮〕－【三】</note><note n="0027011" resp="CBETA" type="mod">〔<app><lem resp="CBETA.Maha">獼</lem><rdg wit="【大】">獮</rdg></app>〕－【宋】【元】【明】</note><app n="0027011"><lem>獼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>猴。身
 <lb n="0027a16"/>病疥<note n="0027012" resp="Taisho" type="orig" place="foot text">&CB02475;＝廯【三】</note><note n="0027012" resp="CBETA" type="mod">&CB02475;＝廯【宋】【元】【明】</note><app n="0027012"><lem>&CB02475;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">廯</rdg></app>。來進曰。今士眾之多。其<note n="0027013" resp="Taisho" type="orig" place="foot text">踰＝喻【三】</note><note n="0027013" resp="CBETA" type="mod">踰＝喻【宋】【元】【明】</note><app n="0027013"><lem>踰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">喻</rdg></app>海沙。
 <lb n="0027a17"/>何憂不達於彼洲乎。今各<note n="0027014" resp="Taisho" type="orig" place="foot text">復＝使【宋】，使眾【元】【明】</note><note n="0027014" resp="CBETA" type="mod">復＝使【宋】，＝使眾【元】【明】</note><app n="0027014"><lem>復</lem><rdg wit="【宋】" resp="Taisho">使</rdg><rdg wit="【元】【明】" resp="Taisho">使眾</rdg></app>負石杜海。
 <lb n="0027a18"/>可以為高山。何但通洲而已。猴王即封之
@@ -2533,7 +2536,7 @@ Added comment  for Emacs
 <lb n="0027b03"/>寬政。民心欣欣含笑且行。王曰。婦離所
 <lb n="0027b04"/><note n="0027024" resp="Taisho" type="orig" place="foot text">天＝夫【三】</note><note n="0027024" resp="CBETA" type="mod">天＝夫【宋】【元】【明】</note><app n="0027024"><lem>天</lem><rdg wit="【宋】【元】【明】" resp="Taisho">夫</rdg></app>隻行一宿。眾有疑望。豈況旬朔乎。還<note n="0027025" resp="Taisho" type="orig" place="foot text">于爾＝爾女【三】</note><note n="0027025" resp="CBETA" type="mod">于爾＝爾女【宋】【元】【明】</note><app n="0027025"><lem>于
 <lb n="0027b05"/>爾</lem><rdg wit="【宋】【元】【明】" resp="Taisho">爾女</rdg></app>宗事合古儀。妃曰。吾雖在穢蟲之窟。猶
-<lb n="0027b06"/>蓮<note n="0027026" resp="Taisho" type="orig" place="foot text">〔華〕－【三】</note><note n="0027026" resp="CBETA" type="mod">〔華〕－【宋】【元】【明】</note><app n="0027026"><lem>華</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>居于<note n="0027027" resp="Taisho" type="orig" place="foot text">汙＝淤【三】</note><note n="0027027" resp="CBETA" type="mod"><app><lem resp="Maha">污</lem><rdg wit="【大】">汙</rdg></app>＝淤【宋】【元】【明】</note><app n="0027027"><lem>污</lem><rdg wit="【宋】【元】【明】" resp="Taisho">淤</rdg></app>泥。吾言有信。地其<note n="0027028" resp="Taisho" type="orig" place="foot text">坼＝拆【元】【明】</note><app n="0027028"><lem>坼</lem><rdg wit="【元】【明】" resp="Taisho">拆</rdg></app>矣。言
+<lb n="0027b06"/>蓮<note n="0027026" resp="Taisho" type="orig" place="foot text">〔華〕－【三】</note><note n="0027026" resp="CBETA" type="mod">〔華〕－【宋】【元】【明】</note><app n="0027026"><lem>華</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>居于<note n="0027027" resp="Taisho" type="orig" place="foot text">汙＝淤【三】</note><note n="0027027" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">污</lem><rdg wit="【大】">汙</rdg></app>＝淤【宋】【元】【明】</note><app n="0027027"><lem>污</lem><rdg wit="【宋】【元】【明】" resp="Taisho">淤</rdg></app>泥。吾言有信。地其<note n="0027028" resp="Taisho" type="orig" place="foot text">坼＝拆【元】【明】</note><app n="0027028"><lem>坼</lem><rdg wit="【元】【明】" resp="Taisho">拆</rdg></app>矣。言
 <lb n="0027b07"/>畢地裂。曰吾信現矣。王曰善哉。夫貞潔者沙
 <lb n="0027b08"/>門之行。自斯國內。商人讓利。<note n="0027029" resp="Taisho" type="orig" place="foot text">士＝仁【宋】，仕【元】【明】</note><note n="0027029" resp="CBETA" type="mod">士＝仁【宋】，＝仕【元】【明】</note><app n="0027029"><lem>士</lem><rdg wit="【宋】" resp="Taisho">仁</rdg><rdg wit="【元】【明】" resp="Taisho">仕</rdg></app>者辭位。
 <lb n="0027b09"/>豪能忍賤。強不陵弱。王之化也。婬婦改操。
@@ -2670,7 +2673,7 @@ Added comment  for Emacs
 <lb n="0028c20"/>兒身。兒驚大呼。王則問其所以。云池中有
 <lb n="0028c21"/>物。觸怖我等。王怒曰。池為兒設。何物
 <lb n="0028c22"/>處之。而恐吾兒。令施罛取之。鬼龍奇怪。
-<lb n="0028c23"/>趣使得之。<note n="0028035" resp="Taisho" type="orig" place="foot text">&CB05321;＝罛【三】＊</note><note n="0028035" resp="CBETA" type="mod"><todo type="＊"/><app><lem resp="Maha">罟</lem><rdg wit="【大】">&CB05321;</rdg></app>＝罛【宋】＊【元】＊【明】＊</note><app n="0028035"><lem>罟</lem><rdg wit="【宋】【元】【明】" resp="Taisho">罛</rdg></app>師得龜。王曰。當作何殺
+<lb n="0028c23"/>趣使得之。<note n="0028035" resp="Taisho" type="orig" place="foot text">&CB05321;＝罛【三】＊</note><note n="0028035" resp="CBETA" type="mod"><todo type="＊"/><app><lem resp="CBETA.Maha">罟</lem><rdg wit="【大】">&CB05321;</rdg></app>＝罛【宋】＊【元】＊【明】＊</note><app n="0028035"><lem>罟</lem><rdg wit="【宋】【元】【明】" resp="Taisho">罛</rdg></app>師得龜。王曰。當作何殺
 <lb n="0028c24"/>之。群臣或言。斬首。或言。生燒。或言。
 <lb n="0028c25"/>剉之作羹。一臣曰。斯殺不酷。<note n="0028036" resp="Taisho" type="orig" place="foot text">唯＝惟【三】＊</note><note n="0028036" resp="CBETA" type="mod">唯＝惟【宋】＊【元】＊【明】＊</note><app n="0028036"><lem>唯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惟</rdg></app>以投大
 <lb n="0028c26"/><note n="0028037" resp="Taisho" type="orig" place="foot text">海＝江【三】</note><note n="0028037" resp="CBETA" type="mod">海＝江【宋】【元】【明】</note><app n="0028037"><lem>海</lem><rdg wit="【宋】【元】【明】" resp="Taisho">江</rdg></app>中。斯所謂酷者也。龜笑曰。<app type="＊" source="0028036"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】">惟</rdg></app>斯酷<note n="0028038" resp="Taisho" type="orig" place="foot text">矣＋（惟斯酷矣）【三】</note><note n="0028038" resp="CBETA" type="mod">矣＋（惟斯酷矣）【宋】【元】【明】</note><app n="0028038"><lem>矣</lem><rdg wit="【宋】【元】【明】" resp="Taisho">矣惟斯酷矣</rdg></app>。
@@ -3089,7 +3092,7 @@ Added comment  for Emacs
 <lb n="0033b18"/>王曰。凶訛保國。不若守信之喪矣。釋曰。
 <lb n="0033b19"/>王真信矣。遣鹿各去。穀豐<note n="0033017" resp="Taisho" type="orig" place="foot text">十＝千【三】</note><note n="0033017" resp="CBETA" type="mod">十＝千【宋】【元】【明】</note><app n="0033017"><lem>十</lem><rdg wit="【宋】【元】【明】" resp="Taisho">千</rdg></app>倍。毒害消
 <lb n="0033b20"/><note n="0033018" resp="Taisho" type="orig" place="foot text">歇＝竭【三】</note><note n="0033018" resp="CBETA" type="mod">歇＝竭【宋】【元】【明】</note><app n="0033018"><lem>歇</lem><rdg wit="【宋】【元】【明】" resp="Taisho">竭</rdg></app>。諸患自滅。佛告諸比丘。時鹿王者吾身
-<lb n="0033b21"/>是也。烏者阿難是也。<note n="0033019" resp="Taisho" type="orig" place="foot text">王＝國王【三】</note><note n="0033019" resp="CBETA" type="mod">王＝國王【宋】【元】【明】</note><app n="0033019"><lem>王</lem><rdg wit="【宋】【元】【明】" resp="Taisho">國王</rdg></app>者<note n="0033020" resp="Taisho" type="orig" place="foot text">鶖鷺＝秋露【宋】</note><note n="0033020" resp="CBETA" type="mod">鶖鷺＝秋露【宋】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0033020"><lem>鶖鷺</lem><rdg wit="【宋】" resp="Taisho">秋露</rdg></app>子是也。
+<lb n="0033b21"/>是也。烏者阿難是也。<note n="0033019" resp="Taisho" type="orig" place="foot text">王＝國王【三】</note><note n="0033019" resp="CBETA" type="mod">王＝國王【宋】【元】【明】</note><app n="0033019"><lem>王</lem><rdg wit="【宋】【元】【明】" resp="Taisho">國王</rdg></app>者<note n="0033020" resp="Taisho" type="orig" place="foot text">鶖鷺＝秋露【宋】</note><note n="0033020" resp="CBETA" type="mod">鶖鷺＝秋露【宋】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0033020"><lem>鶖鷺</lem><rdg wit="【宋】" resp="Taisho">秋露</rdg></app>子是也。
 <lb n="0033b22"/>溺人者調達是也。王妻者今調達妻<note n="0033021" resp="Taisho" type="orig" place="foot text">是＋（也）【三】</note><note n="0033021" resp="CBETA" type="mod">是＋（也）【宋】【元】【明】</note><app n="0033021"><lem>是</lem><rdg wit="【宋】【元】【明】" resp="Taisho">是也</rdg></app>。菩薩
 <lb n="0033b23"/>銳志度無極精進如是</p></div2>
 <lb n="0033b24"/><div2 type="jing"><mulu type="經" level="2" n="5" label="59 〔驅耶馬王本生〕"/><head>（五九）</head><p type="inline">昔者菩薩。身為馬王。名曰<note n="0033022" resp="Taisho" type="orig" place="foot text">&CB00502;＝&CB05634;【三】</note><note n="0033022" resp="CBETA" type="mod">&CB00502;＝&CB05634;【宋】【元】【明】</note><app n="0033022"><lem>&CB00502;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB05634;</rdg></app>耶。常處
@@ -3177,7 +3180,7 @@ Added comment  for Emacs
 <lb n="0034b16"/>名一切度王如來無所著最正覺。時為一切
 <lb n="0034b17"/>諸天人民不可計數而說經法。是時眾中有
 <lb n="0034b18"/>兩比丘。其一比丘名精進辯。一比丘名德
-<lb n="0034b19"/>樂<note n="0034021" resp="Taisho" type="orig" place="foot text">正＝止【三】</note><note n="0034021" resp="CBETA" type="mod">正＝止【宋】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0034021"><lem>正</lem><rdg wit="【宋】【元】【明】" resp="Taisho">止</rdg></app>。共聽經法。精進辯者聞經歡喜。應時
+<lb n="0034b19"/>樂<note n="0034021" resp="Taisho" type="orig" place="foot text">正＝止【三】</note><note n="0034021" resp="CBETA" type="mod">正＝止【宋】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0034021"><lem>正</lem><rdg wit="【宋】【元】【明】" resp="Taisho">止</rdg></app>。共聽經法。精進辯者聞經歡喜。應時
 <lb n="0034b20"/>即得阿惟越致。神通具足。德樂<app type="＊" source="0034021"><lem>正</lem><rdg resp="Taisho" wit="【宋】【元】【明】">止</rdg></app>者。睡眠
 <lb n="0034b21"/>不覺獨無所得。時精進辯謂德樂<app type="＊" source="0034021"><lem>正</lem><rdg resp="Taisho" wit="【宋】【元】【明】">止</rdg></app>言。佛
 <lb n="0034b22"/>者難值。億百千世時乃一出耳。當曼精進為
@@ -3186,7 +3189,7 @@ Added comment  for Emacs
 <lb n="0034b25"/>即經行。於祇樹間甫始經行復住睡眠。如
 <lb n="0034b26"/>是煩亂不能自定。詣泉水側坐欲思惟。復
 <lb n="0034b27"/>坐睡眠。時精進辯。便以善權往而度之。化
-<lb n="0034b28"/>作蜜蜂王。飛趣其眼如欲<note n="0034022" resp="Taisho" type="orig" place="foot text">螫＝蜇【三】</note><note n="0034022" resp="CBETA" type="mod">螫＝蜇【宋】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0034022"><lem>螫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">蜇</rdg></app>之。時<note n="0034023" resp="Taisho" type="orig" place="foot text">德＝得【宋】</note><app n="0034023"><lem>德</lem><rdg wit="【宋】" resp="Taisho">得</rdg></app>樂
+<lb n="0034b28"/>作蜜蜂王。飛趣其眼如欲<note n="0034022" resp="Taisho" type="orig" place="foot text">螫＝蜇【三】</note><note n="0034022" resp="CBETA" type="mod">螫＝蜇【宋】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0034022"><lem>螫</lem><rdg wit="【宋】【元】【明】" resp="Taisho">蜇</rdg></app>之。時<note n="0034023" resp="Taisho" type="orig" place="foot text">德＝得【宋】</note><app n="0034023"><lem>德</lem><rdg wit="【宋】" resp="Taisho">得</rdg></app>樂
 <lb n="0034b29"/><app type="＊" source="0034021"><lem>正</lem><rdg resp="Taisho" wit="【宋】【元】【明】">止</rdg></app>驚覺而坐。畏此蜂王須臾復睡。時蜜蜂
 <pb ed="T" id="T03.0152.0034c" n="0034c"/>
 <lb n="0034c01"/>王飛入腋下<app type="＊" source="0034022"><lem>螫</lem><rdg resp="Taisho" wit="【宋】【元】【明】">蜇</rdg></app>其胸腹。德樂<app type="＊" source="0034021"><lem>正</lem><rdg resp="Taisho" wit="【宋】【元】【明】">止</rdg></app>驚心中懅
@@ -3291,7 +3294,7 @@ Added comment  for Emacs
 <lb n="0035c10"/>譴祟。無所不至無能知者。長者甚愁。不
 <lb n="0035c11"/>知夫人那得此病。家中內外皆悉憂惶。是
 <lb n="0035c12"/>時比丘入城分衛詣長者門。遙聞經聲心
-<lb n="0035c13"/>甚喜悅。住門有頃<note n="0035019" resp="Taisho" type="orig" place="foot text">主人遇＝長者適【三】</note><note n="0035019" resp="CBETA" type="mod">主人<app><lem resp="Maha">偶</lem><rdg wit="【大】">遇</rdg></app>＝長者適【宋】【元】【明】</note><app n="0035019"><lem>主人偶</lem><rdg wit="【宋】【元】【明】" resp="Taisho">長者適</rdg></app>出。見此比丘亦
+<lb n="0035c13"/>甚喜悅。住門有頃<note n="0035019" resp="Taisho" type="orig" place="foot text">主人遇＝長者適【三】</note><note n="0035019" resp="CBETA" type="mod">主人<app><lem resp="CBETA.Maha">偶</lem><rdg wit="【大】">遇</rdg></app>＝長者適【宋】【元】【明】</note><app n="0035019"><lem>主人偶</lem><rdg wit="【宋】【元】【明】" resp="Taisho">長者適</rdg></app>出。見此比丘亦
 <lb n="0035c14"/>不作禮。比丘怪之。此賢者家內<note n="0035020" resp="Taisho" type="orig" place="foot text">說經聲妙乃爾乎＝中說經音聲乃爾【三】</note><note n="0035020" resp="CBETA" type="mod">說經聲妙乃爾乎＝中說經音聲乃爾【宋】【元】【明】</note><app n="0035020"><lem>說經聲
 <lb n="0035c15"/>妙乃爾乎</lem><rdg wit="【宋】【元】【明】" resp="Taisho">中說經音聲乃爾</rdg></app>。今此長者不與我語。即問長者。
 <lb n="0035c16"/>內中誰有說深經者。音聲微妙乃如是耶。
@@ -3945,7 +3948,7 @@ Added comment  for Emacs
 <lb n="0043a03"/>&CB00330;從者曰。內藏金織成衣有千領。擇取妙
 <lb n="0043a04"/>者來。吾欲上佛。從者承命歸家取來。胞
 <lb n="0043a05"/>罽自手以衣被佛身上。退稽首曰。自今願
-<lb n="0043a06"/>世尊屈<note n="0043001" resp="Taisho" type="orig" place="foot text">影＝景【元】【明】＊</note><note n="0043001" resp="CBETA" type="mod"><todo type="＊"/>影＝景【元】【明】＊</note><app n="0043001"><lem>影</lem><rdg wit="【元】【明】" resp="Taisho">景</rdg></app>靈。之吾鄉諸清信士所。并<note n="0043002" resp="Taisho" type="orig" place="foot text">顛＝&unrec;【元】【明】</note><note n="0043002" resp="CBETA" type="mod"><app><lem resp="Maha">顧</lem><rdg wit="【大】">顛</rdg></app>＝&unrec;【元】【明】</note><app n="0043002"><lem>顧</lem><rdg wit="【元】【明】" resp="Taisho">&unrec;</rdg></app>
+<lb n="0043a06"/>世尊屈<note n="0043001" resp="Taisho" type="orig" place="foot text">影＝景【元】【明】＊</note><note n="0043001" resp="CBETA" type="mod"><todo type="＊"/>影＝景【元】【明】＊</note><app n="0043001"><lem>影</lem><rdg wit="【元】【明】" resp="Taisho">景</rdg></app>靈。之吾鄉諸清信士所。并<note n="0043002" resp="Taisho" type="orig" place="foot text">顛＝&unrec;【元】【明】</note><note n="0043002" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">顧</lem><rdg wit="【大】">顛</rdg></app>＝&unrec;【元】【明】</note><app n="0043002"><lem>顧</lem><rdg wit="【元】【明】" resp="Taisho">&unrec;</rdg></app>
 <lb n="0043a07"/>下吾家。宗門巨細。各自親身供養於佛。
 <lb n="0043a08"/>畢天地之壽以至恭之心。奉養天龍鬼神
 <lb n="0043a09"/>蜎飛蚑行蠕動之類者。不如一日飯一沙
@@ -4113,7 +4116,7 @@ Added comment  for Emacs
 <lb n="0044c20"/>山乃之香山。&CB00418;大池水。縱廣三十里。池
 <lb n="0044c21"/>邊平地有<note n="0044027" resp="Taisho" type="orig" place="foot text">〔大〕－【三】</note><note n="0044027" resp="CBETA" type="mod">〔大〕－【宋】【元】【明】</note><app n="0044027"><lem>大</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>寶城。縱廣起高各八十里。寶
 <lb n="0044c22"/>樹周城<note n="0044028" resp="Taisho" type="orig" place="foot text">曜曜＝耀耀【三】</note><note n="0044028" resp="CBETA" type="mod">曜曜＝耀耀【宋】【元】【明】</note><app n="0044028"><lem>曜曜</lem><rdg wit="【宋】【元】【明】" resp="Taisho">耀耀</rdg></app>光國。池中蓮華華有千葉。
-<lb n="0044c23"/>其有五色光光相照。異類之鳥<note n="0044029" resp="Taisho" type="orig" place="foot text">唱＝倡【宋】</note><note n="0044029" resp="CBETA" type="mod">唱＝倡【宋】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0044029"><lem>唱</lem><rdg wit="【宋】" resp="Taisho">倡</rdg></app>和而鳴。
+<lb n="0044c23"/>其有五色光光相照。異類之鳥<note n="0044029" resp="Taisho" type="orig" place="foot text">唱＝倡【宋】</note><note n="0044029" resp="CBETA" type="mod">唱＝倡【宋】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0044029"><lem>唱</lem><rdg wit="【宋】" resp="Taisho">倡</rdg></app>和而鳴。
 <lb n="0044c24"/>城門七重。樓閣宮殿。更相因仍。幢幡<note n="0044030" resp="Taisho" type="orig" place="foot text">&CB02368;＝暐【三】</note><note n="0044030" resp="CBETA" type="mod">&CB02368;＝暐【宋】【元】【明】</note><app n="0044030"><lem>&CB02368;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">暐</rdg></app>
 <lb n="0044c25"/>曄。鍾鈴五音。天帝處中<app type="＊" source="0044029"><lem>唱</lem><rdg resp="Taisho" wit="【宋】">倡</rdg></app>人相娛。七日
 <lb n="0044c26"/>之後。釋出遊戲。於池沐浴。快樂已畢。當
@@ -4138,7 +4141,7 @@ Added comment  for Emacs
 <lb n="0045a15"/><note n="0045007" resp="Taisho" type="orig" place="foot text">間＋（解）【三】</note><note n="0045007" resp="CBETA" type="mod">間＋（解）【宋】【元】【明】</note><app n="0045007"><lem>間</lem><rdg wit="【宋】【元】【明】" resp="Taisho">間解</rdg></app>逮<note n="0045008" resp="Taisho" type="orig" place="foot text">於＝于【三】</note><note n="0045008" resp="CBETA" type="mod">於＝于【宋】【元】【明】</note><app n="0045008"><lem>於</lem><rdg wit="【宋】【元】【明】" resp="Taisho">于</rdg></app>本無。王曰。吾當昇天呼皇孫
 <lb n="0045a16"/>辭。孫至稽首。<note n="0045009" resp="Taisho" type="orig" place="foot text">受＝虔【三】</note><note n="0045009" resp="CBETA" type="mod">受＝虔【宋】【元】【明】</note><app n="0045009"><lem>受</lem><rdg wit="【宋】【元】【明】" resp="Taisho">虔</rdg></app>辭畢退就座。王曰。爾
 <lb n="0045a17"/>親逮民安乎。對曰。蒙潤<note n="0045010" resp="Taisho" type="orig" place="foot text">普＝並【三】</note><note n="0045010" resp="CBETA" type="mod">普＝並【宋】【元】【明】</note><app n="0045010"><lem>普</lem><rdg wit="【宋】【元】【明】" resp="Taisho">並</rdg></app>寧。孫曰。吾不
-<lb n="0045a18"/>求天女為妃者。王必殺其。<note n="0045011" resp="Taisho" type="orig" place="foot text">&CB02483;因＝儻國【宋】，黨國【元】【明】</note><note n="0045011" resp="CBETA" type="mod"><app><lem resp="Maha">儻</lem><rdg wit="【大】">&CB02483;</rdg></app>因＝儻國【宋】，＝黨國【元】【明】</note><app n="0045011"><lem>儻因</lem><rdg wit="【宋】" resp="Taisho">儻國</rdg><rdg wit="【元】【明】" resp="Taisho">黨國</rdg></app>人以
+<lb n="0045a18"/>求天女為妃者。王必殺其。<note n="0045011" resp="Taisho" type="orig" place="foot text">&CB02483;因＝儻國【宋】，黨國【元】【明】</note><note n="0045011" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">儻</lem><rdg wit="【大】">&CB02483;</rdg></app>因＝儻國【宋】，＝黨國【元】【明】</note><app n="0045011"><lem>儻因</lem><rdg wit="【宋】" resp="Taisho">儻國</rdg><rdg wit="【元】【明】" resp="Taisho">黨國</rdg></app>人以
 <lb n="0045a19"/>聞。王曰。吾當以其血為陛昇天。孫即絕
 <lb n="0045a20"/>食。退寢不悅。王懼其喪即以妃焉。內外
 <lb n="0045a21"/>欣懌<note n="0045012" resp="Taisho" type="orig" place="foot text">所＝眾【三】</note><note n="0045012" resp="CBETA" type="mod">所＝眾【宋】【元】【明】</note><app n="0045012"><lem>所</lem><rdg wit="【宋】【元】【明】" resp="Taisho">眾</rdg></app>患都歇。四月之後。梵志復聞曰。
@@ -4303,7 +4306,7 @@ Added comment  for Emacs
 <pb ed="T" id="T03.0152.0047a" n="0047a"/>
 <lb n="0047a01"/>王懼曰。斯禍弘矣。將宿行所招乎。謂月
 <lb n="0047a02"/>光曰。爾為人妃。若婿明愚吉凶好醜。厥由
-<lb n="0047a03"/>宿命。孰能<note n="0047001" resp="Taisho" type="orig" place="foot text">禳＝攘【三】</note><note n="0047001" resp="CBETA" type="mod">禳＝攘【宋】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0047001"><lem>禳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">攘</rdg></app>之。而不貞一盡孝奉尊。薄
+<lb n="0047a03"/>宿命。孰能<note n="0047001" resp="Taisho" type="orig" place="foot text">禳＝攘【三】</note><note n="0047001" resp="CBETA" type="mod">禳＝攘【宋】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="CBETA.eva">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0047001"><lem>禳</lem><rdg wit="【宋】【元】【明】" resp="Taisho">攘</rdg></app>之。而不貞一盡孝奉尊。薄
 <lb n="0047a04"/>婿還國。禍至于茲。吾今當七分爾尸
 <lb n="0047a05"/>以謝七王耳。月光泣曰。願假吾命漏<note n="0047002" resp="Taisho" type="orig" place="foot text">刻＝剋【宋】</note><app n="0047002"><lem>刻</lem><rdg wit="【宋】" resp="Taisho">剋</rdg></app>
 <lb n="0047a06"/>之期。募求智士。必有能&CB00230;七國之患者
@@ -4400,7 +4403,7 @@ Added comment  for Emacs
 <lb n="0048a07"/>答曰。道高者厥德淵。吾欲無欲之道。厥欲
 <lb n="0048a08"/>珍矣。以道傳神。以德授聖。神聖相傳。
 <lb n="0048a09"/>影化不朽。可謂良嗣者乎。<note n="0048004" resp="Taisho" type="orig" place="foot text">汝＝女【三】</note><note n="0048004" resp="CBETA" type="mod">汝＝女【宋】【元】【明】</note><app n="0048004"><lem>汝</lem><rdg wit="【宋】【元】【明】" resp="Taisho">女</rdg></app>欲<note n="0048005" resp="Taisho" type="orig" place="foot text">填＝&CB00418;【宋】【元】，&CB00107;【明】</note><note n="0048005" resp="CBETA" type="mod">填＝&CB00418;【宋】【元】，＝&CB00107;【明】</note><app n="0048005"><lem>填</lem><rdg wit="【宋】【元】" resp="Taisho">&CB00418;</rdg><rdg wit="【明】" resp="Taisho">&CB00107;</rdg></app>道之
-<lb n="0048a10"/><note n="0048006" resp="Taisho" type="orig" place="foot text">恧＝源【三】</note><note n="0048006" resp="CBETA" type="mod"><app><lem resp="Maha">原</lem><rdg wit="【大】">恧</rdg></app>＝源【宋】【元】【明】</note><app n="0048006"><lem>原</lem><rdg wit="【宋】【元】【明】" resp="Taisho">源</rdg></app>伐德之根。可謂無後者乎。說畢即退。
+<lb n="0048a10"/><note n="0048006" resp="Taisho" type="orig" place="foot text">恧＝源【三】</note><note n="0048006" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">原</lem><rdg wit="【大】">恧</rdg></app>＝源【宋】【元】【明】</note><app n="0048006"><lem>原</lem><rdg wit="【宋】【元】【明】" resp="Taisho">源</rdg></app>伐德之根。可謂無後者乎。說畢即退。
 <lb n="0048a11"/>眾儒<note n="0048007" resp="Taisho" type="orig" place="foot text">恧＝&CB00718;【三】</note><note n="0048007" resp="CBETA" type="mod">恧＝&CB00718;【宋】【元】【明】</note><app n="0048007"><lem>恧</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00718;</rdg></app>然而有&CB00302;焉。女曰。彼高士者即<note n="0048008" resp="Taisho" type="orig" place="foot text">吾＋（始）【三】</note><note n="0048008" resp="CBETA" type="mod">吾＋（始）【宋】【元】【明】</note><app n="0048008"><lem>吾</lem><rdg wit="【宋】【元】【明】" resp="Taisho">吾始</rdg></app>
 <lb n="0048a12"/>之君子矣。褰衣<note n="0048009" resp="Taisho" type="orig" place="foot text">徒＝塗【三】</note><note n="0048009" resp="CBETA" type="mod">徒＝塗【宋】【元】【明】</note><app n="0048009"><lem>徒</lem><rdg wit="【宋】【元】【明】" resp="Taisho">塗</rdg></app>步尋厥跡涉諸國。力
 <lb n="0048a13"/>疲足瘡。頓息道側。到&CB00425;摩國。王號制

@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.15 $ (Big5)</edition>
+		<edition>$Revision: 1.16 $ (Big5)</edition>
 	</editionStmt>
 	<extent>30卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/01/02 05:55:45 $</date>
+		<date>$Date: 2004/03/16 02:21:10 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 52, No. 2103 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T52n2103.xml,v $
+Revision 1.16  2004/03/16 02:21:10  ray
+resp 屬性 統一格式為 CBETA.xxx
+
 Revision 1.15  2004/01/02 05:55:45  maha
 <note mod>裡的corr2app
 
@@ -278,7 +281,7 @@ Revision 1.13  2001/02/07 07:40:48  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.12  2001/02/03 08:13:43  chris
-Added keywords $Revision: 1.15 $, $Date: 2004/01/02 05:55:45 $ and $Log.
+Added keywords $Revision: 1.16 $, $Date: 2004/03/16 02:21:10 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -9721,7 +9724,7 @@ Added comment  for Emacs
 <lb n="0202a15"/>失基所在</p>
 <lb n="0202a16"/><p>并州榆社縣郭下育王寺小塔。見有僧住</p>
 <lb n="0202a17"/><p>代州城東育王塔</p>
-<lb n="0202a18"/><p>洛州故都西白馬寺<note n="0202004" resp="Taisho" type="orig" place="foot text">東＝南【三】【宮】</note><note n="0202004" resp="CBETA" type="mod">東＝南【宋】【元】【明】【宮】</note><app n="0202004"><lem>東</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">南</rdg></app>一里育王<note n="0202005" resp="Taisho" type="orig" place="foot text">塔＝堆【明】</note><note n="0202005" resp="CBETA" type="mod">塔＝堆【明】<app><lem resp="march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0202005"><lem>塔</lem><rdg wit="【明】" resp="Taisho">堆</rdg></app></p>
+<lb n="0202a18"/><p>洛州故都西白馬寺<note n="0202004" resp="Taisho" type="orig" place="foot text">東＝南【三】【宮】</note><note n="0202004" resp="CBETA" type="mod">東＝南【宋】【元】【明】【宮】</note><app n="0202004"><lem>東</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">南</rdg></app>一里育王<note n="0202005" resp="Taisho" type="orig" place="foot text">塔＝堆【明】</note><note n="0202005" resp="CBETA" type="mod">塔＝堆【明】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0202005"><lem>塔</lem><rdg wit="【明】" resp="Taisho">堆</rdg></app></p>
 <lb n="0202a19"/><p>甘州東百二十里刪丹縣城東弱水北土堆。</p>
 <lb n="0202a20"/><p>古老云育王古<app type="＊" source="0202005"><lem>塔</lem><rdg resp="Taisho" wit="【明】">堆</rdg></app></p>
 <lb n="0202a21"/><p>沙州城內廢大乘寺塔基。云是育王塔</p>
@@ -9866,7 +9869,7 @@ Added comment  for Emacs
 <lb n="0203c10"/><div3 type="other"><mulu type="其他" level="3" label="6 出古育王塔下佛舍利詔(梁武帝)(一五)"/><head><note n="0203023" resp="Taisho" type="orig" place="foot text">（出古…之）二百六十七字∞（大同…養）百七十四字【明】</note><note n="0203023" resp="CBETA" type="mod"><todo type="a"/>（出古…之）二百六十七字∞（大同…養）百七十四字【明】</note>出古育王塔下佛舍利詔<note n="0203024" resp="Taisho" type="orig" place="foot text">〔又牙像詔〕－【明】</note><app n="0203024"><lem><note place="inline">又牙像詔</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></head>
 <lb n="0203c11"/><byline type="Author"><note n="0203025" resp="Taisho" type="orig" place="foot text">〔梁高祖〕－【明】〔又牙像詔〕－【明】</note><app n="0203025"><lem>梁高祖</lem><rdg wit="【明】【明】" resp="Taisho">&lac;</rdg></app></byline>
 <lb n="0203c12"/><p>大同四年八月。月犯五車。老人星見。改造長
-<lb n="0203c13"/>干寺阿育王塔。出<note n="0203026" resp="Taisho" type="orig" place="foot text">舍利佛＝佛舍利【三】</note><note n="0203026" resp="CBETA" type="mod">舍利佛＝佛舍利【宋】【元】【明】</note><app n="0203026"><lem>舍<app><lem resp="march">利</lem><rdg wit="【大】">別</rdg></app>佛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">佛舍利</rdg></app>髮爪。阿育鐵輪王
+<lb n="0203c13"/>干寺阿育王塔。出<note n="0203026" resp="Taisho" type="orig" place="foot text">舍利佛＝佛舍利【三】</note><note n="0203026" resp="CBETA" type="mod">舍利佛＝佛舍利【宋】【元】【明】</note><app n="0203026"><lem>舍<app><lem resp="CBETA.march">利</lem><rdg wit="【大】">別</rdg></app>佛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">佛舍利</rdg></app>髮爪。阿育鐵輪王
 <lb n="0203c14"/>也。王閻浮一天下。一日夜役鬼神造八萬四
 <lb n="0203c15"/>千塔。此其一焉。乘輿幸長干寺。設無礙法喜
 <lb n="0203c16"/>食。詔曰。天地盈虛與時消息。萬物不得齊其
@@ -11691,7 +11694,7 @@ Added comment  for Emacs
 <lb n="0224c26"/><p>同遊諸道人。並業心神道求解言外。余枕疾
 <lb n="0224c27"/>務寡頗多暇日。聊伸由來之意。庶定求宗之
 <lb n="0224c28"/>悟</p>
-<lb n="0224c29"/><p>釋氏之論。聖道雖遠積學能至。累盡鑒生<note n="0224022" resp="Taisho" type="orig" place="foot text">方＝不【元】【明】</note><app n="0224022"><lem resp="march">方</lem><rdg wit="【大】">万</rdg><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>
+<lb n="0224c29"/><p>釋氏之論。聖道雖遠積學能至。累盡鑒生<note n="0224022" resp="Taisho" type="orig" place="foot text">方＝不【元】【明】</note><app n="0224022"><lem resp="CBETA.march">方</lem><rdg wit="【大】">万</rdg><rdg wit="【元】【明】" resp="Taisho">不</rdg></app>
 <pb ed="T" id="T52.2103.0225a" n="0225a"/>
 <lb n="0225a01"/>應漸悟。孔氏之論。聖道既妙。雖顏殆庶體無
 <lb n="0225a02"/>鑒周。理歸一極</p>
@@ -17061,7 +17064,7 @@ Added comment  for Emacs
 <lb n="0284c03"/>共陳啟狀。聞諸寮寀云</p></div6>
 <lb n="0284c04"/><div6 type="other"><mulu type="其他" level="6" label="西明寺僧道宣等上雍州牧沛王論沙門不應拜俗啟"/><head><note n="0284018" resp="Taisho" type="orig" place="foot text">〔西明寺僧道宣等〕－【明】＊</note><app n="0284018"><lem>西明寺僧道宣等</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>上雍州牧沛王論沙門
 <lb n="0284c05"/>不應拜俗啟<note n="0284019" resp="Taisho" type="orig" place="foot text">一首＝釋道宣等【明】</note><app n="0284019"><lem>一首</lem><rdg wit="【明】" resp="Taisho">釋道宣等</rdg></app></head>
-<lb n="0284c06"/><p><note n="0284020" resp="Taisho" type="orig" place="foot text">〔僧道宣等啟〕－【明】</note><note n="0284020" resp="CBETA" type="mod">〔僧道宣等啟〕－【明】<app><lem resp="march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0284020"><lem>僧道宣等啟</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。自金河徙轍玉<note n="0284021" resp="Taisho" type="orig" place="foot text">門＝關【三】【宮】</note><note n="0284021" resp="CBETA" type="mod">門＝關【宋】【元】【明】【宮】</note><app n="0284021"><lem>門</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">關</rdg></app>揚化。歷經
+<lb n="0284c06"/><p><note n="0284020" resp="Taisho" type="orig" place="foot text">〔僧道宣等啟〕－【明】</note><note n="0284020" resp="CBETA" type="mod">〔僧道宣等啟〕－【明】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0284020"><lem>僧道宣等啟</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。自金河徙轍玉<note n="0284021" resp="Taisho" type="orig" place="foot text">門＝關【三】【宮】</note><note n="0284021" resp="CBETA" type="mod">門＝關【宋】【元】【明】【宮】</note><app n="0284021"><lem>門</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">關</rdg></app>揚化。歷經
 <lb n="0284c07"/>英聖載隆良輔。莫不拜首請道歸向知津。故
 <lb n="0284c08"/>得列剎相望仁祠&CB00743;布。天人仰福田之路。幽
 <lb n="0284c09"/>明懷正道之儀。清信之士林蒸。高尚之賓雲
@@ -19242,7 +19245,7 @@ Added comment  for Emacs
 <lb n="0308c24"/><div4 type="other"><mulu type="其他" level="4" label="生老病死門頌"/><head><note n="0308015" resp="Taisho" type="orig" place="foot text">生老病死門頌＝頌白【明】</note><app n="0308015"><lem>生老病死門頌</lem><rdg wit="【明】" resp="Taisho">頌白</rdg></app></head>
 <lb n="0308c25"/><p>穠華易遷。繁蕉不實。星髮鮐肌。<note n="0308016" resp="Taisho" type="orig" place="foot text">憐＝&CB00444;【三】【宮】</note><note n="0308016" resp="CBETA" type="mod">憐＝&CB00444;【宋】【元】【明】【宮】</note><app n="0308016"><lem>憐</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB00444;</rdg></app>光愒日。
 <lb n="0308c26"/>二&CB00594;潛言。十巫空術。生之往矣。高松蕭瑟。即
-<lb n="0308c27"/>化翻靈。從緣墜質。噬臍有譏。嗟然何<note n="0308017" resp="Taisho" type="orig" place="foot text">汨＝&CB05227;【元】</note><note n="0308017" resp="CBETA" type="mod"><app><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg></app>＝&CB05227;【元】</note><app n="0308017"><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg><rdg wit="【元】" resp="Taisho">&CB05227;</rdg></app></p></div4></div3>
+<lb n="0308c27"/>化翻靈。從緣墜質。噬臍有譏。嗟然何<note n="0308017" resp="Taisho" type="orig" place="foot text">汨＝&CB05227;【元】</note><note n="0308017" resp="CBETA" type="mod"><app><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg></app>＝&CB05227;【元】</note><app n="0308017"><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg><rdg wit="【元】" resp="Taisho">&CB05227;</rdg></app></p></div4></div3>
 <lb n="0308c28"/><div3 type="other"><mulu type="其他" level="3" label="6 剋責身心門"/><head>剋責身心門<app type="＊" source="0306015"><lem>第</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>六</head>
 <lb n="0308c29"/><p>身為苦本。自所造集。於生死中復增惡業。不
 <pb ed="T" id="T52.2103.0309a" n="0309a"/>
@@ -20254,7 +20257,7 @@ Added comment  for Emacs
 <lb n="0320a16"/><p>俟河之清逢聖朝。靈智俯接一其遙。白日馳
 <lb n="0320a17"/>光不流照。葵藿微志徒傾翹。遍盈空有盡三
 <lb n="0320a18"/>界。綿塞宇宙罄八遼。德光業遂升至覺。寂寞
-<lb n="0320a19"/>常住獨能超。煎灼欲火思雲露。沈<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app><note n="0320002" resp="Taisho" type="orig" place="foot text">使水＝永使【宮】</note><app n="0320002"><lem>使水</lem><rdg wit="【宮】" resp="Taisho">永使</rdg></app>望
+<lb n="0320a19"/>常住獨能超。煎灼欲火思雲露。沈<app><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg></app><note n="0320002" resp="Taisho" type="orig" place="foot text">使水＝永使【宮】</note><app n="0320002"><lem>使水</lem><rdg wit="【宮】" resp="Taisho">永使</rdg></app>望
 <lb n="0320a20"/>舟橋。弘慈廣度昔有誓。法輪道御且徐<note n="0320003" resp="Taisho" type="orig" place="foot text">鏕＝&CB05801;【三】【宮】</note><note n="0320003" resp="CBETA" type="mod">鏕＝&CB05801;【宋】【元】【明】【宮】</note><app n="0320003"><lem>鏕</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB05801;</rdg></app></p></div4></div3>
 <lb n="0320a21"/><div3 type="other"><mulu type="其他" level="3" label="29 隨喜萬善門"/><head>隨喜萬善門<app type="＊" source="0306015"><lem>第</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>二十九</head>
 <lb n="0320a22"/><p>眾生以愚惑故。多懷嫉&CB00107;增上之心。是以見
@@ -21613,7 +21616,7 @@ Added comment  for Emacs
 <lb n="0335b04"/>
 <milestone unit="juan" n="29"/><div1 type="other">
 <lb n="0335b05"/>
-<lb n="0335b06"/><juan fun="open" n="029"><mulu type="卷" n="29"/><jhead>廣弘明集統歸篇序<note n="0335008" resp="Taisho" type="orig" place="foot text">卷＋（第）【宋】【元】，〔卷二十九〕－【明】</note><note n="0335008" resp="CBETA" type="mod">〔卷第二十九〕－【明】，卷＋（第）【宋】【元】</note><app n="0335008"><lem><app><lem resp="march">卷</lem><rdg wit="【大】"></rdg></app>第二十九</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">卷第第二十九</rdg></app></jhead></juan>
+<lb n="0335b06"/><juan fun="open" n="029"><mulu type="卷" n="29"/><jhead>廣弘明集統歸篇序<note n="0335008" resp="Taisho" type="orig" place="foot text">卷＋（第）【宋】【元】，〔卷二十九〕－【明】</note><note n="0335008" resp="CBETA" type="mod">〔卷第二十九〕－【明】，卷＋（第）【宋】【元】</note><app n="0335008"><lem><app><lem resp="CBETA.march">卷</lem><rdg wit="【大】"></rdg></app>第二十九</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】" resp="Taisho">卷第第二十九</rdg></app></jhead></juan>
 <lb n="0335b07"/>
 <lb n="0335b08"/><byline type="Author"><note n="0335009" resp="Taisho" type="orig" place="foot text">（（大唐…撰））十一字＝（（大唐西明寺釋道宣撰））九字【宋】【元】【宮】，（（唐終南山釋道宣撰））八字【明】</note><note n="0335009" resp="CBETA" type="mod">（（大唐…撰））十一字＝（（大唐西明寺釋道宣撰））九字【宋】【元】【宮】，＝（（唐終南山釋道宣撰））八字【明】</note><app n="0335009" word-count="11"><lem>大唐西明寺沙門釋道宣撰</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">大唐西明寺釋道宣撰</rdg><rdg wit="【明】" resp="Taisho">唐終南山釋道宣撰</rdg></app></byline>
 <lb n="0335b09"/><mulu type="其他" level="1" label="（序）"/>
@@ -21831,7 +21834,7 @@ Added comment  for Emacs
 <lb n="0337c10"/>翱翔。去來候於節物。飛鳴應於陰陽。何在我
 <lb n="0337c11"/>而不爾。與二氣而乖張。常茹酷而輪迴。歷日
 <lb n="0337c12"/>夜<note n="0337022" resp="Taisho" type="orig" place="foot text">〔而〕－【宮】</note><app n="0337022"><lem>而</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>不忘。既視丹而成綠。亦見白而為黃。
-<lb n="0337c13"/>擾性情以翻覆。<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>神慮而迷荒。想鳴鶴而魂
+<lb n="0337c13"/>擾性情以翻覆。<app><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg></app>神慮而迷荒。想鳴鶴而魂
 <lb n="0337c14"/>斷。聽孤鶵而心死。慟終天而無怙。號畢世而
 <lb n="0337c15"/>靡恃。觀休屠之日磾。豈教義之所及。見甘泉
 <lb n="0337c16"/>之畫像。每下拜而垂泣。忽心動而不安。遽入
