@@ -415,6 +415,9 @@ converted to XML form 2.1.99 (CW)
 
 <!--  12:  Print Dictionaries -->
 <!ELEMENT entry (form | def)*>
+<!ATTLIST entry
+	rend CDATA #IMPLIED
+>
 <!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | pb)*>
 <!ELEMENT def (#PCDATA | gaiji | lb | p)*>
 
