@@ -384,44 +384,44 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | qa | tt)*>
+<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | tt)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | qa | trailer | xref | tt)*>
+<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | tt)*>
 <!ATTLIST div2
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div3 (#PCDATA | div4 | anchor | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | xref | tt)*>
+<!ELEMENT div3 (#PCDATA | div4 | anchor | dialog | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | xref | tt)*>
 <!ATTLIST div3
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div4 (#PCDATA | div5 | anchor | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | qa | mulu | tt| xref)*>
+<!ELEMENT div4 (#PCDATA | div5 | anchor | dialog | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | tt| xref)*>
 <!ATTLIST div4
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div5 (#PCDATA | div6 | anchor | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | qa | tt)*>
+<!ELEMENT div5 (#PCDATA | div6 | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | tt)*>
 <!ATTLIST div5
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div6 (#PCDATA | div7 | anchor | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | qa | tt)*>
+<!ELEMENT div6 (#PCDATA | div7 | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | tt)*>
 <!ATTLIST div6
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div7 (#PCDATA | div8 | anchor | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | milestone | mulu | qa | tt)*>
+<!ELEMENT div7 (#PCDATA | div8 | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | milestone | mulu | tt)*>
 <!ATTLIST div7
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div8 (#PCDATA | anchor | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | qa | tt)*>
+<!ELEMENT div8 (#PCDATA | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | tt)*>
 <!ATTLIST div8
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
