@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)</edition>
+		<edition>$Revision: 1.5 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/01/02 05:53:58 $</date>
+		<date>$Date: 2004/04/20 03:25:32 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1204 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T21n1204.xml,v $
+Revision 1.5  2004/04/20 03:25:32  maha
+將 type="inline" 或 rend="inline" 改成 place="inline"
+
 Revision 1.4  2004/01/02 05:53:58  maha
 <note mod>裡的corr2app
 
@@ -125,7 +128,7 @@ Revision 1.10  2001/02/07 06:57:00  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.9  2001/02/03 07:46:54  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/01/02 05:53:58 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/04/20 03:25:32 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -159,10 +162,10 @@ Added comment  for Emacs
 <lb n="0031b11"/>可有隨不動弘誓之使者。<note n="0031013" resp="Taisho" type="orig" place="foot text">爰＝受【甲】</note><app n="0031013"><lem>爰</lem><rdg wit="【甲】" resp="Taisho">受</rdg></app><note n="0031014" resp="Taisho" type="orig" place="foot text">有＋（中）【乙】</note><app n="0031014"><lem>有</lem><rdg wit="【乙】" resp="Taisho">有中</rdg></app>三藏不空
 <lb n="0031b12"/>能達明道。即披見祕藏要文。有不動明<note n="0031015" resp="Taisho" type="orig" place="foot text">〔王〕－【乙】</note><app n="0031015"><lem>王</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>一
 <lb n="0031b13"/>字心密語。即以八字而嚴一字。其八字者即
-<lb n="0031b14"/>歸命<note n="0031016" resp="Taisho" type="orig" place="foot text">（以）＋句【甲】</note><app n="0031016"><lem>句</lem><rdg wit="【甲】" resp="Taisho">以句</rdg></app>也。<tt rend="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><note n="0031017" resp="Taisho" type="orig" place="foot text">〔唅〕－【乙】＊</note><app n="0031017"><lem>唅</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt>字為本尊。若爾寧上八字
-<lb n="0031b15"/>無其形哉。所以者何。<tt rend="inline"><t lang="san-sd">&SD-A5A9;</t><t lang="chi"><note n="0031018" resp="Taisho" type="orig" place="foot text">〔那〕－【乙】</note><app n="0031018"><lem>那</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt><tt rend="inline"><t lang="san-sd">&SD-A5F0;</t><t lang="chi"><note n="0031019" resp="Taisho" type="orig" place="foot text">〔莫〕－【乙】</note><app n="0031019"><lem>莫</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt>等八字。一
-<lb n="0031b16"/>一皆歸敬於<tt rend="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><app type="＊" source="0031017"><lem>唅</lem><rdg resp="Taisho" wit="【乙】">&lac;</rdg></app></t></tt>之一字。是故從其八字出
-<lb n="0031b17"/>生歸敬使者。圍繞於<tt rend="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><app type="＊" source="0031017"><lem>唅</lem><rdg resp="Taisho" wit="【乙】">&lac;</rdg></app></t></tt>之本尊。所以有
+<lb n="0031b14"/>歸命<note n="0031016" resp="Taisho" type="orig" place="foot text">（以）＋句【甲】</note><app n="0031016"><lem>句</lem><rdg wit="【甲】" resp="Taisho">以句</rdg></app>也。<tt place="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><note n="0031017" resp="Taisho" type="orig" place="foot text">〔唅〕－【乙】＊</note><app n="0031017"><lem>唅</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt>字為本尊。若爾寧上八字
+<lb n="0031b15"/>無其形哉。所以者何。<tt place="inline"><t lang="san-sd">&SD-A5A9;</t><t lang="chi"><note n="0031018" resp="Taisho" type="orig" place="foot text">〔那〕－【乙】</note><app n="0031018"><lem>那</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt><tt place="inline"><t lang="san-sd">&SD-A5F0;</t><t lang="chi"><note n="0031019" resp="Taisho" type="orig" place="foot text">〔莫〕－【乙】</note><app n="0031019"><lem>莫</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></t></tt>等八字。一
+<lb n="0031b16"/>一皆歸敬於<tt place="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><app type="＊" source="0031017"><lem>唅</lem><rdg resp="Taisho" wit="【乙】">&lac;</rdg></app></t></tt>之一字。是故從其八字出
+<lb n="0031b17"/>生歸敬使者。圍繞於<tt place="inline"><t lang="san-sd">&SD-E045;</t><t lang="chi"><app type="＊" source="0031017"><lem>唅</lem><rdg resp="Taisho" wit="【乙】">&lac;</rdg></app></t></tt>之本尊。所以有
 <lb n="0031b18"/>八大童子。一慧光菩薩<note place="inline">金剛云。迴光即以慧如<note n="0031020" resp="Taisho" type="orig" place="foot text">〔光〕－【乙】</note><app n="0031020"><lem>光</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>照迴一切故</note>。二慧
 <lb n="0031b19"/>喜菩薩<note place="inline">金剛云。<note n="0031021" resp="Taisho" type="orig" place="foot text">慧＝迴【甲】【乙】</note><app n="0031021"><lem>慧</lem><rdg wit="【甲】【乙】" resp="Taisho">迴</rdg></app>喜即迴慧為喜</note>。三阿耨達菩薩。四指德
 <lb n="0031b20"/>菩薩。五烏俱婆&CB00344;。六清淨比丘。七矜羯羅。八

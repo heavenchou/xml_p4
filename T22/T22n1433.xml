@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)</edition>
+		<edition>$Revision: 1.10 $ (Big5)</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/03/16 02:19:04 $</date>
+		<date>$Date: 2004/04/20 03:25:39 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 22, No. 1433</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T22n1433.xml,v $
+Revision 1.10  2004/04/20 03:25:39  maha
+將 type="inline" 或 rend="inline" 改成 place="inline"
+
 Revision 1.9  2004/03/16 02:19:04  ray
 resp 屬性 統一格式為 CBETA.xxx
 
@@ -127,7 +130,7 @@ Revision 1.6  2001/02/07 06:59:28  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:49:14  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/03/16 02:19:04 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/04/20 03:25:39 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -213,7 +216,7 @@ Added comment  for Emacs
 <lb n="1052b11"/>說。僧已<app type="＊" source="1052009"><lem>忍</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">忍聽</rdg></app>。爾許比丘集結小界竟。僧忍默
 <lb n="1052b12"/>然故。是事如是持<note n="1052013" resp="Taisho" type="orig" place="foot text">〔四人…集〕二十四字－【聖】</note><app n="1052013" word-count="24"><lem><note place="inline">四人言四人。五人言五人。等亦如是。不定數故。言爾許
 <lb n="1052b13"/>比丘集</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p>
-<lb n="1052b14"/><p>解小界羯磨文</p><p type="inline">大德僧聽。今有爾許比丘
+<lb n="1052b14"/><p>解小界羯磨文</p><p place="inline">大德僧聽。今有爾許比丘
 <lb n="1052b15"/>集。若僧時到僧忍聽。解此處小界。白如是</p>
 <lb n="1052b16"/><p>大德僧聽。今有爾許比丘集。解此處小界。誰
 <lb n="1052b17"/>諸長老忍僧解此處小界者默然。誰不忍者
@@ -250,7 +253,7 @@ Added comment  for Emacs
 <lb n="1052c18"/>僧已忍於此四方相內結。同一說戒別利養
 <lb n="1052c19"/>竟。僧忍默然故。是事如是持<note place="inline">若二住處。先共同說戒同利養。或
 <lb n="1052c20"/><note n="1052023" resp="Taisho" type="orig" place="foot text">〔同說戒〕－【三】【宮】</note><note n="1052023" resp="CBETA" type="mod">〔同說戒〕－【宋】【元】【明】【宮】</note><app n="1052023"><lem>同說戒</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>別利養。後還欲別<note n="1052024" resp="Taisho" type="orig" place="foot text">〔者〕－【三】【宮】</note><note n="1052024" resp="CBETA" type="mod">〔者〕－【宋】【元】【明】【宮】</note><app n="1052024"><lem>者</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。應先解界。後各自唱界相。依舊別結</note></p>
-<lb n="1052c21"/><p>結別說戒同一利養磨羯文</p><p type="inline">大德僧聽。若
+<lb n="1052c21"/><p>結別說戒同一利養磨羯文</p><p place="inline">大德僧聽。若
 <lb n="1052c22"/>僧時到僧忍聽。<note n="1052025" resp="Taisho" type="orig" place="foot text">〔僧〕－【三】【宮】＊</note><note n="1052025" resp="CBETA" type="mod">〔僧〕－【宋】【元】【明】【宮】＊</note><app n="1052025"><lem>僧</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>今於此彼住處。結別說
 <lb n="1052c23"/>戒同一利養。為守護住處故。白如是</p>
 <lb n="1052c24"/><p>大德僧聽。<app type="＊" source="1052025"><lem>僧</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>今於此彼住處。結別說戒同
@@ -262,7 +265,7 @@ Added comment  for Emacs
 <pb ed="T" id="T22.1433.1053a" n="1053a"/>
 <lb n="1053a01"/><div2 type="other"><mulu type="其他" level="2" n="2" label="2 受戒法"/><head>受戒法第二</head>
 <lb n="1053a02"/><p>度沙彌法<note place="inline">若欲在僧伽藍中剃髮。當白一切僧。若不和合。房房語令知已與剃髮。若和合<note n="1053001" resp="Taisho" type="orig" place="foot text">當＝合掌【三】【宮】</note><note n="1053001" resp="CBETA" type="mod">當＝合掌【宋】【元】【明】【宮】</note><app n="1053001"><lem>當</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">合掌</rdg></app>
-<lb n="1053a03"/>作白。白已然後剃髮。當如是白</note></p><p type="inline">大德僧聽。此某甲。欲求某甲
+<lb n="1053a03"/>作白。白已然後剃髮。當如是白</note></p><p place="inline">大德僧聽。此某甲。欲求某甲
 <lb n="1053a04"/>剃髮。若僧時到僧忍聽。與某甲剃髮。白如是
 <lb n="1053a05"/><note place="inline">若欲僧伽藍中度令出家者。當<note n="1053002" resp="Taisho" type="orig" place="foot text">白＝曰【宮】</note><app n="1053002"><lem>白</lem><rdg wit="【宮】" resp="Taisho">曰</rdg></app>一切僧。白已然後聽與出家。當如是白</note></p>
 <lb n="1053a06"/><p>大德僧聽。此某甲。從某甲求出家。若僧時到
@@ -384,11 +387,11 @@ Added comment  for Emacs
 <lb n="1054b02"/>含果阿那含果阿羅漢果。汝始發心出家。功
 <lb n="1054b03"/>不唐捐果報不絕。餘所未知。當問和<app type="＊" source="1053003"><lem>上</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">尚</rdg></app><note n="1054015" resp="Taisho" type="orig" place="foot text">〔阿〕－【三】【宮】</note><note n="1054015" resp="CBETA" type="mod">〔阿〕－【宋】【元】【明】【宮】</note><app n="1054015"><lem>阿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
 <lb n="1054b04"/>闍<app type="＊" source="1054013"><lem>梨</lem><rdg resp="Taisho" wit="【明】">黎</rdg></app><note place="inline">應令受戒人在前而<note n="1054016" resp="Taisho" type="orig" place="foot text">去＝坐【明】</note><app n="1054016"><lem>去</lem><rdg wit="【明】" resp="Taisho">坐</rdg></app></note></p>
-<lb n="1054b05"/><p><note n="1054017" resp="Taisho" type="orig" place="foot text">〔受衣&CB00425;文〕－【三】【宮】</note><note n="1054017" resp="CBETA" type="mod">〔受衣&CB00425;文〕－【宋】【元】【明】【宮】</note><app n="1054017"><lem>受衣&CB00425;文</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></p><p type="inline">長老一心念。<note n="1054018" resp="Taisho" type="orig" place="foot text">〔我某甲〕－【三】【宮】【聖】＊</note><note n="1054018" resp="CBETA" type="mod">〔我某甲〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1054018"><lem>我某甲</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。此僧伽
+<lb n="1054b05"/><p><note n="1054017" resp="Taisho" type="orig" place="foot text">〔受衣&CB00425;文〕－【三】【宮】</note><note n="1054017" resp="CBETA" type="mod">〔受衣&CB00425;文〕－【宋】【元】【明】【宮】</note><app n="1054017"><lem>受衣&CB00425;文</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></p><p place="inline">長老一心念。<note n="1054018" resp="Taisho" type="orig" place="foot text">〔我某甲〕－【三】【宮】【聖】＊</note><note n="1054018" resp="CBETA" type="mod">〔我某甲〕－【宋】【元】【明】【宮】【聖】＊</note><app n="1054018"><lem>我某甲</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>。此僧伽
 <lb n="1054b06"/>梨若干條割截成。今受持不離宿<note place="inline">如是三說餘<note n="1054019" resp="Taisho" type="orig" place="foot text">二＝三【宮】</note><app n="1054019"><lem>二</lem><rdg wit="【宮】" resp="Taisho">三</rdg></app>衣亦爾</note>
 <lb n="1054b07"/>長老一心念。<app type="＊" source="1054018"><lem>我某甲</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】【聖】">&lac;</rdg></app>。此&CB00425;多羅應量器。<note n="1054020" resp="Taisho" type="orig" place="foot text">令＝今【宮】</note><app n="1054020"><lem>令</lem><rdg wit="【宮】" resp="Taisho">今</rdg></app>
 <lb n="1054b08"/>受持常用故<note place="inline">如是三說</note></p>
-<lb n="1054b09"/><p>請依止文</p><p type="inline">大德一心念。我某甲。請大德為
+<lb n="1054b09"/><p>請依止文</p><p place="inline">大德一心念。我某甲。請大德為
 <lb n="1054b10"/>依止阿闍<app type="＊" source="1054013"><lem>梨</lem><rdg resp="Taisho" wit="【明】">黎</rdg></app>。願大德。為我作依止阿闍<app type="＊" source="1054013"><lem>梨</lem><rdg resp="Taisho" wit="【明】">黎</rdg></app>。
 <lb n="1054b11"/>我依大德故。得如法住。慈愍故<note place="inline">如是三說師應語言莫放逸若
 <lb n="1054b12"/>言好若言去彼答言爾</note></p></div2>
@@ -397,11 +400,11 @@ Added comment  for Emacs
 <lb n="1054b15"/>有於二。一者治過。二者治罪故。初覆藏羯磨法。治過。非治罪故。<note n="1054025" resp="Taisho" type="orig" place="foot text">乞＝與【聖】</note><app n="1054025"><lem>乞</lem><rdg wit="【聖】" resp="Taisho">與</rdg></app>覆藏羯磨時。先懺覆藏突吉羅罪。
 <lb n="1054b16"/>後方與覆藏羯磨治法。六夜出罪。此二是治罪法。正懺僧殘故。<note n="1054026" resp="Taisho" type="orig" place="foot text">〔故〕－【三】【宮】【聖】</note><note n="1054026" resp="CBETA" type="mod">〔故〕－【宋】【元】【明】【宮】【聖】</note><app n="1054026"><lem>故</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>有覆藏者。備三種羯磨。無覆藏者。
 <lb n="1054b17"/>唯與六夜出罪</note></p>
-<lb n="1054b18"/><p>乞覆藏羯磨文</p><p type="inline">大德僧聽。我比丘某甲。犯
+<lb n="1054b18"/><p>乞覆藏羯磨文</p><p place="inline">大德僧聽。我比丘某甲。犯
 <lb n="1054b19"/>某甲僧殘罪覆藏。我比丘某甲。犯僧殘罪隨
 <lb n="1054b20"/>覆藏日。<note n="1054027" resp="Taisho" type="orig" place="foot text">〔今〕－【三】【宮】</note><note n="1054027" resp="CBETA" type="mod">〔今〕－【宋】【元】【明】【宮】</note><app n="1054027"><lem>今</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>從僧乞覆藏羯磨。願僧。與我隨覆
 <lb n="1054b21"/>藏日羯磨。慈愍故<note place="inline">如是三說</note></p>
-<lb n="1054b22"/><p>與覆藏羯磨文</p><p type="inline">大德僧聽。比丘某甲。犯某
+<lb n="1054b22"/><p>與覆藏羯磨文</p><p place="inline">大德僧聽。比丘某甲。犯某
 <lb n="1054b23"/>甲僧殘罪覆藏。此比丘某甲。犯僧殘罪隨覆
 <lb n="1054b24"/>藏日。已從僧乞覆藏羯磨。若僧時到僧忍聽。
 <lb n="1054b25"/>僧今與比丘某甲隨覆藏日羯磨。白如是。大
@@ -423,7 +426,7 @@ Added comment  for Emacs
 <lb n="1054c12"/><note n="1054037" resp="Taisho" type="orig" place="foot text">〔日〕－【聖】</note><app n="1054037"><lem>日</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>羯磨。<note n="1054038" resp="Taisho" type="orig" place="foot text">（僧已與我隨藏日羯磨）九字＋我比丘【聖】</note><app n="1054038"><lem>我比丘</lem><rdg wit="【聖】" resp="Taisho">僧已與我隨藏日羯磨我比丘</rdg></app>某甲。已行若干日。未行
 <lb n="1054c13"/>若干日。白大德令知。我行覆藏<note n="1054039" resp="Taisho" type="orig" place="foot text">〔有三…時〕三十九字－【三】【宮】【聖】</note><note n="1054039" resp="CBETA" type="mod">〔有三…時〕三十九字－【宋】【元】【明】【宮】【聖】</note><app n="1054039" word-count="39"><lem><note place="inline">有三最下。一最大比丘下
 <lb n="1054c14"/>行。二最下臥具。三與最下房舍。有三事隨本次。僧得施物時。自恣時行&CB00425;時</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></p>
-<lb n="1054c15"/><p>乞摩那埵羯磨文</p><p type="inline">大德僧聽。我比丘某甲。
+<lb n="1054c15"/><p>乞摩那埵羯磨文</p><p place="inline">大德僧聽。我比丘某甲。
 <lb n="1054c16"/>犯某甲僧殘罪覆藏。我比丘某甲。犯僧殘
 <lb n="1054c17"/>罪隨覆藏日。已從僧乞覆藏羯磨。僧已與我
 <lb n="1054c18"/>隨覆藏日羯磨。我比丘某甲。行覆藏竟。今
@@ -483,7 +486,7 @@ Added comment  for Emacs
 <lb n="1055b16"/>羯磨竟。僧忍默然故。是事如是持</p>
 <lb n="1055b17"/><p>捨墮懺悔法<note place="inline">此第三篇。尼薩耆波逸提過。犯兩<note n="1055013" resp="Taisho" type="orig" place="foot text">篇＝兼【聖】</note><app n="1055013"><lem>篇</lem><rdg wit="【聖】" resp="Taisho">兼</rdg></app>故。加以折伏法。要須僧中捨。若住處
 <lb n="1055b18"/>無僧。亦得三人二人一人前捨。但不得別眾捨<note n="1055014" resp="Taisho" type="orig" place="foot text">〔不成捨〕－【聖】</note><app n="1055014"><lem>不。成捨</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></note></p>
-<lb n="1055b19"/><p>持捨墮衣於僧中捨文</p><p type="inline">大德僧聽。我比丘
+<lb n="1055b19"/><p>持捨墮衣於僧中捨文</p><p place="inline">大德僧聽。我比丘
 <lb n="1055b20"/>某甲。故畜爾許長衣。過十日犯捨墮。今捨
 <lb n="1055b21"/>與僧<note place="inline">第<note n="1055015" resp="Taisho" type="orig" place="foot text">一＝二【三】【宮】【聖】</note><note n="1055015" resp="CBETA" type="mod">一＝二【宋】【元】【明】【宮】【聖】</note><app n="1055015"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">二</rdg></app>第三亦如是說捨已即應僧中懺悔</note></p>
 <lb n="1055b22"/><p>從僧乞懺悔文</p>
@@ -507,7 +510,7 @@ Added comment  for Emacs
 <lb n="1055c10"/>已受懺悔者應語言</note>自責汝心生厭離<note place="inline"><note n="1055023" resp="Taisho" type="orig" place="foot text">彼即＝波【聖】</note><app n="1055023"><lem>彼即</lem><rdg wit="【聖】" resp="Taisho">波</rdg></app>應答言爾</note></p>
 <lb n="1055c11"/><p>僧還此比丘衣羯磨文<note place="inline">捨墮還衣法。若有畜染者。應經宿方羯磨還。若有緣亦
 <lb n="1055c12"/>聽即日作羯磨。<note n="1055024" resp="Taisho" type="orig" place="foot text">但＝俱【三】【宮】</note><note n="1055024" resp="CBETA" type="mod">但＝俱【宋】【元】【明】【宮】</note><app n="1055024"><lem>但</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">俱</rdg></app>須別稱人轉付。不得直還。若無畜染者。皆<note n="1055025" resp="Taisho" type="orig" place="foot text">〔即〕－【聖】</note><app n="1055025"><lem>即</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>日還。今此畜長犯捨<note n="1055026" resp="Taisho" type="orig" place="foot text">〔墮〕－【聖】</note><app n="1055026"><lem>墮</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>還衣。是經<note n="1055027" resp="Taisho" type="orig" place="foot text">宿＝日【三】【宮】</note><note n="1055027" resp="CBETA" type="mod">宿＝日【宋】【元】【明】【宮】</note><app n="1055027"><lem>宿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">日</rdg></app>
-<lb n="1055c13"/>還羯磨文</note></p><p type="inline">大德僧聽。比丘某甲。故畜爾所長衣。過
+<lb n="1055c13"/>還羯磨文</note></p><p place="inline">大德僧聽。比丘某甲。故畜爾所長衣。過
 <lb n="1055c14"/>十日犯捨墮。此衣已捨與僧。若僧時到僧忍
 <lb n="1055c15"/>聽。僧今持此衣<note n="1055028" resp="Taisho" type="orig" place="foot text">〔與…當〕六字－【聖】＊</note><app n="1055028" word-count="6"><lem>與某甲。某甲當</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>還比丘某
 <lb n="1055c16"/>甲。白如是</p>
@@ -545,7 +548,7 @@ Added comment  for Emacs
 <lb n="1056a20"/><note place="inline">作如是白已受懺其悔法同上</note></p>
 <lb n="1056a21"/><p>一切僧同犯即僧中懺悔文<note place="inline">於住處當說戒時。一切僧同犯。而同犯者
 <lb n="1056a22"/>不得相向懺悔。既臨說戒時。復不容於外求清淨比丘。說戒<note n="1056013" resp="Taisho" type="orig" place="foot text">事＝是【宮】</note><app n="1056013"><lem>事</lem><rdg wit="【宮】" resp="Taisho">是</rdg></app>重故。聽眾以單白而懺。得為說戒。應作如
-<lb n="1056a23"/>是白</note></p><p type="inline">大德僧聽。此一切眾僧犯罪。若僧時到僧
+<lb n="1056a23"/>是白</note></p><p place="inline">大德僧聽。此一切眾僧犯罪。若僧時到僧
 <lb n="1056a24"/>忍聽。此一切僧懺悔。白如是<note place="inline">作如是白<note n="1056014" resp="Taisho" type="orig" place="foot text">〔已〕－【三】【宮】</note><note n="1056014" resp="CBETA" type="mod">〔已〕－【宋】【元】【明】【宮】</note><app n="1056014"><lem>已</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>然後說戒</note></p>
 <lb n="1056a25"/><p>疑罪發露文<note place="inline">至一清淨比丘所偏露右肩脫革屣禮<note n="1056015" resp="Taisho" type="orig" place="foot text">〔僧〕－【聖】</note><app n="1056015"><lem>僧</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>足已右膝著地合掌自稱所犯戒名口作是
 <lb n="1056a26"/>語</note></p>
@@ -680,7 +683,7 @@ Added comment  for Emacs
 <lb n="1057c17"/><p>白僧自恣文</p>
 <lb n="1057c18"/><p>大德僧聽。今日眾僧自恣。若僧時到僧忍
 <lb n="1057c19"/><note n="1057021" resp="Taisho" type="orig" place="foot text">聽＋（僧）【三】</note><note n="1057021" resp="CBETA" type="mod">聽＋（僧）【宋】【元】【明】</note><app n="1057021"><lem>聽</lem><rdg wit="【宋】【元】【明】" resp="Taisho">聽僧</rdg></app>和合自恣。白如是<note place="inline">作如是白已然後自恣</note></p>
-<lb n="1057c20"/><p>眾僧自恣文</p><p type="inline">大德一心念。眾僧今日自恣。
+<lb n="1057c20"/><p>眾僧自恣文</p><p place="inline">大德一心念。眾僧今日自恣。
 <lb n="1057c21"/>我比丘某甲亦自恣。若見聞疑罪。大德長老
 <lb n="1057c22"/>哀愍故語我。我若見罪。當如法懺悔<note place="inline">第二第三亦如是說</note></p>
 <lb n="1057c23"/><p>若四人更互自恣文</p>
@@ -878,7 +881,7 @@ Added comment  for Emacs
 <lb n="1060a10"/>僧足已。右膝著地合掌乞畜眾羯磨作如是<note n="1060003" resp="Taisho" type="orig" place="foot text">白＋（也）【三】</note><note n="1060003" resp="CBETA" type="mod">白＋（也）【宋】【元】【明】</note><app n="1060003"><lem>白</lem><rdg wit="【宋】【元】【明】" resp="Taisho">白也</rdg></app></note></p>
 <lb n="1060a11"/><p>大姊僧聽。我比丘尼某甲。今從僧乞度人授
 <lb n="1060a12"/>具足戒。願僧聽。我度人授具足戒<note n="1060004" resp="Taisho" type="orig" place="foot text">〔如是三說〕－【三】</note><note n="1060004" resp="CBETA" type="mod">〔如是三說〕－【宋】【元】【明】</note><app n="1060004"><lem><note place="inline">如是三說</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
-<lb n="1060a13"/>與畜眾羯磨文</p><p type="inline">大姊僧聽。此比丘尼某甲。
+<lb n="1060a13"/>與畜眾羯磨文</p><p place="inline">大姊僧聽。此比丘尼某甲。
 <lb n="1060a14"/>今從僧乞度人授人具足戒。若僧時到僧忍
 <lb n="1060a15"/>聽。僧今聽比丘尼某甲度人授人具足戒。白
 <lb n="1060a16"/>如是</p>
@@ -904,16 +907,16 @@ Added comment  for Emacs
 <lb n="1060b06"/><app type="＊" source="1060009"><lem>上</lem><rdg resp="Taisho" wit="【宋】【元】【明】">尚</rdg></app>尼某甲。如來無所著等正覺。是我世尊。
 <lb n="1060b07"/><note place="inline">第二第三亦如是說。<note n="1060011" resp="Taisho" type="orig" place="foot text">如是說＝說如是【三】</note><note n="1060011" resp="CBETA" type="mod">如是說＝說如是【宋】【元】【明】</note><app n="1060011"><lem>如是說</lem><rdg wit="【宋】【元】【明】" resp="Taisho">說如是</rdg></app>已應與受戒</note></p>
 <lb n="1060b08"/><p>盡形壽不得殺生。是沙彌尼戒。能持不<note place="inline">答言
-<lb n="1060b09"/>能</note></p><p type="inline">盡形壽不得盜。是沙彌尼戒。能持不<note place="inline">答
-<lb n="1060b10"/>言能</note></p><p type="inline">盡形壽不得<note n="1060012" resp="Taisho" type="orig" place="foot text">婬＋（欲）【三】</note><note n="1060012" resp="CBETA" type="mod">婬＋（欲）【宋】【元】【明】</note><app n="1060012"><lem>婬</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婬欲</rdg></app>。是沙彌尼戒。能持不
-<lb n="1060b11"/><note place="inline">答言能</note></p><p type="inline">盡形壽不得妄語。是沙彌尼戒。能持
-<lb n="1060b12"/>不<note place="inline">答言能</note></p><p type="inline">盡形壽不得飲酒。是沙彌尼戒。能
-<lb n="1060b13"/>持不<note place="inline">答言能</note></p><p type="inline">盡形壽不得著華鬘香油塗身。
-<lb n="1060b14"/>是沙彌尼戒。能持不<note place="inline">答言能</note></p><p type="inline"><note n="1060013" resp="Taisho" type="orig" place="foot text">〔盡形…能〕二十七字－【聖】</note><app n="1060013" word-count="27"><lem>盡形壽不得歌
+<lb n="1060b09"/>能</note></p><p place="inline">盡形壽不得盜。是沙彌尼戒。能持不<note place="inline">答
+<lb n="1060b10"/>言能</note></p><p place="inline">盡形壽不得<note n="1060012" resp="Taisho" type="orig" place="foot text">婬＋（欲）【三】</note><note n="1060012" resp="CBETA" type="mod">婬＋（欲）【宋】【元】【明】</note><app n="1060012"><lem>婬</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婬欲</rdg></app>。是沙彌尼戒。能持不
+<lb n="1060b11"/><note place="inline">答言能</note></p><p place="inline">盡形壽不得妄語。是沙彌尼戒。能持
+<lb n="1060b12"/>不<note place="inline">答言能</note></p><p place="inline">盡形壽不得飲酒。是沙彌尼戒。能
+<lb n="1060b13"/>持不<note place="inline">答言能</note></p><p place="inline">盡形壽不得著華鬘香油塗身。
+<lb n="1060b14"/>是沙彌尼戒。能持不<note place="inline">答言能</note></p><p place="inline"><note n="1060013" resp="Taisho" type="orig" place="foot text">〔盡形…能〕二十七字－【聖】</note><app n="1060013" word-count="27"><lem>盡形壽不得歌
 <lb n="1060b15"/>舞倡伎。亦不得故往觀聽。是沙彌尼戒。能持
-<lb n="1060b16"/>不<note place="inline">答言能</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p><p type="inline">盡形壽不得高廣大床上坐。是沙彌
-<lb n="1060b17"/>尼戒能持不<note place="inline">答言能</note></p><p type="inline">盡形壽不得非時食。是
-<lb n="1060b18"/>沙彌尼戒。能持不<note place="inline">答言能</note></p><p type="inline">盡形壽不得捉持
+<lb n="1060b16"/>不<note place="inline">答言能</note></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></p><p place="inline">盡形壽不得高廣大床上坐。是沙彌
+<lb n="1060b17"/>尼戒能持不<note place="inline">答言能</note></p><p place="inline">盡形壽不得非時食。是
+<lb n="1060b18"/>沙彌尼戒。能持不<note place="inline">答言能</note></p><p place="inline">盡形壽不得捉持
 <lb n="1060b19"/>生像金銀寶物。是沙彌尼戒。能持不<note place="inline">答言能</note></p>
 <lb n="1060b20"/><p>如是沙彌尼<note n="1060014" resp="Taisho" type="orig" place="foot text">〔十〕－【三】</note><note n="1060014" resp="CBETA" type="mod">〔十〕－【宋】【元】【明】</note><app n="1060014"><lem>十</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>戒。盡形壽不得犯。能持不
 <lb n="1060b21"/><note place="inline">答言能</note><note n="1060015" resp="Taisho" type="orig" place="foot text">〔汝〕－【三】</note><note n="1060015" resp="CBETA" type="mod">〔汝〕－【宋】【元】【明】</note><app n="1060015"><lem>汝</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>已受戒竟。當供養三寶佛寶法寶
@@ -1134,7 +1137,7 @@ Added comment  for Emacs
 <lb n="1062c27"/>罪。今從二部僧乞半月摩那埵。願僧與我半
 <lb n="1062c28"/>月摩那埵。慈愍故<note place="inline">如是三說</note></p>
 <pb ed="T" id="T22.1433.1063a" n="1063a"/>
-<lb n="1063a01"/><p>與摩那埵羯磨文</p><p type="inline">大德僧聽。此比丘尼某
+<lb n="1063a01"/><p>與摩那埵羯磨文</p><p place="inline">大德僧聽。此比丘尼某
 <lb n="1063a02"/>甲。犯某甲若干僧殘罪。今從二部僧乞半月
 <lb n="1063a03"/>摩那埵。若僧時到僧忍聽。<note n="1063001" resp="Taisho" type="orig" place="foot text">〔僧〕－【三】＊</note><note n="1063001" resp="CBETA" type="mod">〔僧〕－【宋】＊【元】＊【明】＊</note><app n="1063001"><lem>僧</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>今與比丘尼
 <lb n="1063a04"/>某甲半月摩那埵。白如是</p>
