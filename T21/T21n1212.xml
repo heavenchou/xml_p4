@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/04/20 08:39:08 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/09/10 02:43:16 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:39:08 $</date>
+		<date>$Date: 2004/09/10 02:43:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1212 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T21n1212.xml,v $
+Revision 1.7  2004/09/10 02:43:16  saywhat
+修訂juan沒有jhead
+
 Revision 1.6  2004/04/20 08:39:08  maha
 「版本日期」標記修訂
 
@@ -115,7 +118,7 @@ Revision 1.5  2001/02/07 06:57:03  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:57  chris
-Added keywords $Revision: 1.6 $, $Date: 2004/04/20 08:39:08 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2004/09/10 02:43:16 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -125,11 +128,11 @@ Added comment  for Emacs
 <pb ed="T" id="T21.1212.0049b" n="0049b"/>
 <lb n="0049b01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0049b02"/><head type="no">No. 1212</head><div1 type="xu">
-<lb n="0049b03"/><mulu type="序" level="1" label="序"/><head><title><note n="0049034" resp="Taisho" type="orig" place="foot text">大正元年刊</note>西方陀羅尼藏中金剛族阿蜜哩
-<lb n="0049b04"/>多軍吒利法</title>
+<lb n="0049b02"/><head type="no">No. 1212</head>
+<lb n="0049b03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0049034" resp="Taisho" type="orig" place="foot text">大正元年刊</note><jhead><title>西方陀羅尼藏中金剛族阿蜜哩
+<lb n="0049b04"/>多軍吒利法</title></jhead></juan>
 <lb n="0049b05"/>
-<lb n="0049b06"/>序</head>
+<lb n="0049b06"/><div1 type="xu"><mulu type="序" level="1" label="序"/><head>序</head>
 <lb n="0049b07"/><p>慈覺大師圓仁入唐新求聖教目錄。有阿蜜
 <lb n="0049b08"/>哩多軍荼利法一卷。惜密部經軌中逸而不
 <lb n="0049b09"/>傳。安然八家祕錄。以此法為最澄圓仁二家
@@ -209,8 +212,8 @@ Added comment  for Emacs
 <lb n="0050a28"/>正字。以付排印令法久住云。爾于時大正丙
 <lb n="0050a29"/>辰佛誕日密乘末資大村西崖記於無記&CB04171;南
 <pb ed="T" id="T21.1212.0050b" n="0050b"/>
-<lb n="0050b01"/>&CB00275;之下</p></div1>
-<lb n="0050b02"/><div1 type="pin"><juan fun="open" n="001"><mulu type="卷" n="1"/></juan>
+<lb n="0050b01"/>&CB00275;之下</p>
+<lb n="0050b02"/>
 <lb n="0050b03"/><p>序品第一</p>
 <lb n="0050b04"/><p>擇地法品第二</p>
 <lb n="0050b05"/><p>成就壇品第三</p>
@@ -232,10 +235,10 @@ Added comment  for Emacs
 <lb n="0050b21"/><p>漫荼羅受法壇品第十九</p>
 <lb n="0050b22"/><p>諸使者&CB00057;品第二十</p>
 <lb n="0050b23"/><p>治鬼病&CB00057;品第二十一</p>
-<lb n="0050b24"/><p>種種大發遣&CB00057;法品第二十二</p>
+<lb n="0050b24"/><p>種種大發遣&CB00057;法品第二十二</p></div1>
 <lb n="0050b25"/>
 <lb n="0050b26"/>
-<lb n="0050b27"/><mulu type="品" level="1" n="1" label="1 序品"/><head>阿蜜哩多軍荼利法序品第一</head>
+<lb n="0050b27"/><div1 type="pin"><mulu type="品" level="1" n="1" label="1 序品"/><head>阿蜜哩多軍荼利法序品第一</head>
 <lb n="0050b28"/>
 <lb n="0050b29"/><p>爾時金剛菩薩。為利益一切眾生男子女人
 <pb ed="T" id="T21.1212.0050c" n="0050c"/>
@@ -2219,13 +2222,13 @@ Added comment  for Emacs
 <lb n="0072a20"/>營衛。得大富貴。心所求願當得圓滿。如前所
 <lb n="0072a21"/>說。一切功能稱贊。&CB00057;者應得。及入壇者最
 <lb n="0072a22"/>上成就。說此法竟。一切諸天鬼神等信受奉
-<lb n="0072a23"/>行</p>
+<lb n="0072a23"/>行</p></div1>
 <lb n="0072a24"/><juan fun="close" n="001"><jhead>西方陀羅尼藏中金剛族阿蜜哩多軍<note n="0072002" resp="Taisho" type="orig" place="foot text">吒＝荼&M062485;【原】</note><sic n="0072002" corr="荼" resp="【原】">吒</sic>利
 <lb n="0072a25"/>法一卷</jhead></juan>
-<lb n="0072a26"/><p type="W">時以大唐長慶元年十二月三十日於青龍
+<lb n="0072a26"/><div1 type="W"><p>時以大唐長慶元年十二月三十日於青龍
 <lb n="0072a27"/>東塔院比丘海雲寫記奉阿闍梨教以記他
 <lb n="0072a28"/>時并勘畢</p>
-<lb n="0072a29"/><p type="W">　<note place="inline">大正元年八月十二日依田中光顯伯爵所藏海雲自
+<lb n="0072a29"/><p>　<note place="inline">大正元年八月十二日依田中光顯伯爵所藏海雲自
 <pb ed="T" id="T21.1212.0072b" n="0072b"/>
 <lb n="0072b01"/>筆原本書寫加一校了　知心居士大村西崖</note></p></div1>
 </body></text></TEI.2>
