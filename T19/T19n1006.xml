@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/04/20 08:38:48 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/07/05 09:06:32 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:38:48 $</date>
+		<date>$Date: 2004/07/05 09:06:32 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 1006 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T19n1006.xml,v $
+Revision 1.6  2004/07/05 09:06:32  saywhat
+修訂 div 位置
+
 Revision 1.5  2004/04/20 08:38:48  maha
 「版本日期」標記修訂
 
@@ -118,7 +121,7 @@ Revision 1.5  2001/02/07 06:55:06  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:45:03  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/04/20 08:38:48 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/07/05 09:06:32 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -128,13 +131,13 @@ Added comment  for Emacs
 <pb ed="T" id="T19.1006.0636b" n="0636b"/>
 <lb n="0636b01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0636b02"/><head type="no">No. 1006 [Nos. 1005, 1007]</head><div1 type="pin">
-<lb n="0636b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0636001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>廣大寶樓閣善住祕密陀羅尼經
+<lb n="0636b02"/><head type="no">No. 1006 [Nos. 1005, 1007]</head>
+<lb n="0636b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0636001" resp="Taisho" type="orig" place="foot text">【原】麗本</note><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>
 <lb n="0636b04"/>卷上</jhead></juan>
 <lb n="0636b05"/>
 <lb n="0636b06"/><byline type="Translator"><note n="0636002" resp="Taisho" type="orig" place="foot text">〔大〕－【宋】【明】</note><app n="0636002"><lem>大</lem><rdg wit="【宋】【明】" resp="Taisho">&lac;</rdg></app>唐<note n="0636003" resp="Taisho" type="orig" place="foot text">天竺三藏＝三藏法師【三】</note><note n="0636003" resp="CBETA" type="mod">天竺三藏＝三藏法師【宋】【元】【明】</note><app n="0636003"><lem>天竺三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">三藏法師</rdg></app>菩提流志
 <lb n="0636b07"/>奉　詔譯</byline>
-<lb n="0636b08"/><mulu type="品" level="1" n="1" label="1 序品"/><head>序品第一</head>
+<lb n="0636b08"/><div1 type="pin"><mulu type="品" level="1" n="1" label="1 序品"/><head>序品第一</head>
 <lb n="0636b09"/><p>如是我聞。一時佛在王舍大城。於初會時降
 <lb n="0636b10"/>伏拘胝魔軍。及調伏一切外道。捨離生死度
 <lb n="0636b11"/>諸瀑流。是時那由他百千殑伽羅頻婆羅魔
@@ -610,16 +613,16 @@ Added comment  for Emacs
 <lb n="0641c01"/>遍。安毘那夜迦頭上。便不能作其障礙。以乳
 <lb n="0641c02"/>洗毘那夜迦即得解脫。所作諸業皆得成就。
 <lb n="0641c03"/>其持&CB00057;者常須清潔著鮮淨衣。此是根本&CB00057;
-<lb n="0641c04"/>法</p><note n="0641009" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0641009" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>◎
-<lb n="0641c05"/><juan fun="close" n="001"><jhead>廣大寶樓閣<note n="0641010" resp="Taisho" type="orig" place="foot text">善住祕密＝祕密善住【宋】</note><app n="0641010"><lem>善住祕密</lem><rdg wit="【宋】" resp="Taisho">祕密善住</rdg></app>陀羅尼<note n="0641011" resp="Taisho" type="orig" place="foot text">〔經〕－【宋】【元】</note><app n="0641011"><lem>經</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app>卷上</jhead></juan></div1>
+<lb n="0641c04"/>法</p><note n="0641009" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0641009" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>◎</div1>
+<lb n="0641c05"/><juan fun="close" n="001"><jhead><title>廣大寶樓閣<note n="0641010" resp="Taisho" type="orig" place="foot text">善住祕密＝祕密善住【宋】</note><app n="0641010"><lem>善住祕密</lem><rdg wit="【宋】" resp="Taisho">祕密善住</rdg></app>陀羅尼<note n="0641011" resp="Taisho" type="orig" place="foot text">〔經〕－【宋】【元】</note><app n="0641011"><lem>經</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg></app></title>卷上</jhead></juan>
 <lb n="0641c06"/>
 <milestone unit="juan" n="2"/>
-<lb n="0641c07"/><div1 type="pin">
-<lb n="0641c08"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>廣大寶樓閣善住祕密陀羅尼經
+<lb n="0641c07"/>
+<lb n="0641c08"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>
 <lb n="0641c09"/>卷中</jhead></juan>
 <lb n="0641c10"/>
 <lb n="0641c11"/><byline type="Translator"><note n="0641012" resp="Taisho" type="orig" place="foot text">〔大〕－【宋】</note><app n="0641012"><lem>大</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>唐<note n="0641013" resp="Taisho" type="orig" place="foot text">天竺三藏＝三藏法師【宋】【元】</note><app n="0641013"><lem>天竺三藏</lem><rdg wit="【宋】【元】" resp="Taisho">三藏法師</rdg></app>菩提流志奉　詔譯</byline>
-<lb n="0641c12"/><mulu type="品" level="1" n="4" label="4 持心咒法品"/><head>◎<note n="0641014" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0641014" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>持心&CB00057;法品第四</head>
+<lb n="0641c12"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 持心咒法品"/><head>◎<note n="0641014" resp="Taisho" type="orig" place="foot text">不分卷【明】</note><note n="0641014" resp="CBETA" type="mod"><todo type="a"/>不分卷【明】</note>持心&CB00057;法品第四</head>
 <lb n="0641c13"/><p>持心&CB00057;者誦<note n="0641015" resp="Taisho" type="orig" place="foot text">（一）＋百【三】</note><note n="0641015" resp="CBETA" type="mod">（一）＋百【宋】【元】【明】</note><app n="0641015"><lem>百</lem><rdg wit="【宋】【元】【明】" resp="Taisho">一百</rdg></app>千遍得見一切如來。若誦二
 <lb n="0641c14"/>百千遍得見一切佛土。若誦三百千遍得入
 <lb n="0641c15"/>一切壇場。悉得成就一切&CB00057;法。若誦四百千
@@ -678,7 +681,7 @@ Added comment  for Emacs
 <lb n="0642b08"/>一切陀羅尼經論一切如來加持。令證無上
 <lb n="0642b09"/>菩提。及得種種出世間法皆得成就。諸佛如
 <lb n="0642b10"/>來無不隨喜</p></div1>
-<lb n="0642b11"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 雜咒品"/><head>◎<note n="0642007" resp="Taisho" type="orig" place="foot text">雜&CB00057;品以下麗本與宋元明三本大異故以宋元對校明本別附卷末 cf. P. 649. c. [09]</note>雜&CB00057;品第六</head>
+<lb n="0642b11"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 雜咒品"/>◎<note n="0642007" resp="Taisho" type="orig" place="foot text">雜&CB00057;品以下麗本與宋元明三本大異故以宋元對校明本別附卷末 cf. P. 649. c. [09]</note><head>雜&CB00057;品第六</head>
 <lb n="0642b12"/><p>壇前欲坐誦此&CB00057;曰</p>
 <lb n="0642b13"/><p type="dharani">唵摩尼軍荼利吽吽莎訶</p>
 <lb n="0642b14"/><p>誦七遍然後坐。作餘護持法</p>
@@ -961,16 +964,16 @@ Added comment  for Emacs
 <lb n="0645b22"/>贍部洲。能善建立置祕密陀羅尼心法</p>
 <lb n="0645b23"/><p>爾時十方同會諸佛菩薩。咸讚釋迦如來言。
 <lb n="0645b24"/>善哉善哉。既同讚已各還本土。爾時釋迦牟
-<lb n="0645b25"/>尼世尊。以佛神力還娑婆世界</p>
-<lb n="0645b26"/><juan fun="close" n="002"><jhead>廣大寶樓閣善住祕密陀羅尼經卷中</jhead></juan>
-<pb ed="T" id="T19.1006.0645c" n="0645c"/></div1>
+<lb n="0645b25"/>尼世尊。以佛神力還娑婆世界</p></div1>
+<lb n="0645b26"/><juan fun="close" n="002"><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>卷中</jhead></juan>
+<pb ed="T" id="T19.1006.0645c" n="0645c"/>
 <lb n="0645c01"/>
-<milestone unit="juan" n="3"/><div1 type="pin">
-<lb n="0645c02"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>廣大寶樓閣善住祕密陀羅尼經
+<milestone unit="juan" n="3"/>
+<lb n="0645c02"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>
 <lb n="0645c03"/>卷下</jhead></juan>
 <lb n="0645c04"/>
 <lb n="0645c05"/><byline type="Translator">大唐天竺三藏菩提流志奉　詔譯</byline>
-<lb n="0645c06"/><mulu type="品" level="1" n="10" label="10 印法品"/><head>印法品第十</head>
+<lb n="0645c06"/><div1 type="pin"><mulu type="品" level="1" n="10" label="10 印法品"/><head>印法品第十</head>
 <lb n="0645c07"/><p>爾時金剛藥叉主菩薩。踊躍欣慶身毛皆&CB00594;。
 <lb n="0645c08"/>於仙人會中持杵揮空。以種種香花衣服。與
 <lb n="0645c09"/>諸仙人往詣佛所。頂禮佛足右繞三匝。以諸
@@ -1322,10 +1325,10 @@ Added comment  for Emacs
 <lb n="0649b24"/>成就大禪定。成就大檀那成就大智慧。成就
 <lb n="0649b25"/>洪流功德成就六波羅蜜。若有得此陀羅尼
 <lb n="0649b26"/>&CB00057;印壇場法者。成就如是廣大功德。佛說是
-<lb n="0649b27"/>經已。一切大眾皆大歡喜信受奉行</p>
-<lb n="0649b28"/><juan fun="close" n="003"><jhead>廣大寶樓閣善住祕密陀羅尼經卷下</jhead></juan></div1><div1 type="W"><div2 type="other">
+<lb n="0649b27"/>經已。一切大眾皆大歡喜信受奉行</p></div1>
+<lb n="0649b28"/><juan fun="close" n="003"><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>卷下</jhead></juan>
 <pb ed="T" id="T19.1006.0649c" n="0649c"/>
-<lb n="0649c01"/><mulu type="品" level="1" n="1" label="6 雜咒品"/><head>◎<note n="0649001" resp="Taisho" type="orig" place="foot text">此經依明本載之 cf. P. 642. b. [07]</note>雜&CB00057;品第六</head>
+<lb n="0649c01"/><div1 type="W"><mulu type="附文" level="1" label="附文"/><div2 type="other"><mulu type="品" level="2" n="1" label="6 雜咒品"/>◎<note n="0649001" resp="Taisho" type="orig" place="foot text">此經依明本載之 cf. P. 642. b. [07]</note><head>雜&CB00057;品第六</head>
 <lb n="0649c02"/><p>坐壇&CB00057;曰</p>
 <lb n="0649c03"/><p type="dharani">唵摩尼軍荼利吽吽莎訶<note place="inline">誦七遍然後作餘護持法</note></p>
 <lb n="0649c04"/><p>結界&CB00057;曰</p>
@@ -1448,15 +1451,15 @@ Added comment  for Emacs
 <lb n="0651a02"/>脫。諸佛如來為決定授記當得作。佛先世惡
 <lb n="0651a03"/>業受持此&CB00057;悉皆消散速證菩提獲無量&M010527;河
 <lb n="0651a04"/>沙等無量功德。速成正覺能轉法輪<note place="inline">已上雜&CB00057;並是心&CB00057;中作
-<lb n="0651a05"/>法用之<note n="0651001" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】</note><note n="0651001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】</note>◎餘准此</note></p>
-<lb n="0651a06"/><juan fun="close" n="003"><jhead>廣大寶樓閣善住祕密陀羅尼經卷上</jhead></juan></div2>
+<lb n="0651a05"/>法用之<note n="0651001" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】</note><note n="0651001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】</note>◎餘准此</note></p></div2>
+<lb n="0651a06"/><juan fun="close" n="003"><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>卷上</jhead></juan>
 <lb n="0651a07"/>
-<lb n="0651a08"/><div2 type="other">
-<lb n="0651a09"/><juan fun="open" n="004"><mulu type="卷" n="002"/><jhead>廣大寶樓閣善住祕密陀羅尼經
+<lb n="0651a08"/>
+<lb n="0651a09"/><juan fun="open" n="004"><mulu type="卷" n="002"/><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>
 <lb n="0651a10"/>卷中</jhead></juan>
 <lb n="0651a11"/>
 <lb n="0651a12"/><byline type="Translator">唐三藏法師菩提流志奉　詔譯</byline>
-<lb n="0651a13"/><mulu type="品" level="1" n="2" label="7 結壇場法品"/><head>◎<note n="0651002" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】</note><note n="0651002" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】</note>結壇場法品第七</head>
+<lb n="0651a13"/><div2 type="other"><mulu type="品" level="2" n="2" label="7 結壇場法品"/><head>◎<note n="0651002" resp="Taisho" type="orig" place="foot text">不分卷【宋】【元】</note><note n="0651002" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】</note>結壇場法品第七</head>
 <lb n="0651a14"/><p>爾時世尊說壇場法。先擇勝地然後作壇。其
 <lb n="0651a15"/>壇場作四門以五色彩畫。其彩於新器中和
 <lb n="0651a16"/>香然後用之。其場中心作一小壇方圓二肘。
@@ -1517,7 +1520,7 @@ Added comment  for Emacs
 <lb n="0651c11"/>心清淨。一切諸佛皆來擁護攝受。而為授記
 <lb n="0651c12"/>施其無畏。所有事業能令成就。得入如來三
 <lb n="0651c13"/>摩地悟甚深法忍。登佛道場當成正覺</p></div2>
-<lb n="0651c14"/><div2 type="other"><mulu type="品" level="1" n="3" label="8 手印咒品"/><head>手印&CB00057;品第八</head>
+<lb n="0651c14"/><div2 type="other"><mulu type="品" level="2" n="3" label="8 手印咒品"/><head>手印&CB00057;品第八</head>
 <lb n="0651c15"/><p>爾時世尊為諸大眾說手印&CB00057;法。佛言應於
 <lb n="0651c16"/>佛壇中作四佛心印&CB00057;。復作四聖金剛心印
 <lb n="0651c17"/>&CB00057;以此二印啟請諸佛。勿用別印</p>
@@ -1569,7 +1572,7 @@ Added comment  for Emacs
 <lb n="0652b03"/><p>第十六呼所住壇中天神等印&CB00057;曰</p>
 <lb n="0652b04"/><p type="dharani">唵婆囉娑囉毘娑囉吽吽</p>
 <lb n="0652b05"/><p>第十七蓮華印&CB00057;法</p></div2>
-<lb n="0652b06"/><div2 type="other"><mulu type="品" level="1" n="4" label="9 畫像品"/><head>畫像品第九</head>
+<lb n="0652b06"/><div2 type="other"><mulu type="品" level="2" n="4" label="9 畫像品"/><head>畫像品第九</head>
 <lb n="0652b07"/><p>爾時世尊告諸大眾。我今說畫像法。而能成
 <lb n="0652b08"/>就一切事業。應取新白&CB00626;未割線者。或一肘
 <lb n="0652b09"/>或二肘或三肘或四肘乃至七肘。四方令等
@@ -1616,7 +1619,7 @@ Added comment  for Emacs
 <lb n="0652c20"/>為諸人天之所敬養。諸佛如來授記。此人使
 <lb n="0652c21"/>定證於無上菩提。不復受胎藏之身。所生之
 <lb n="0652c22"/>處皆蓮華中。常於佛前與諸菩薩同坐一處</p></div2>
-<lb n="0652c23"/><div2 type="other"><mulu type="品" level="1" n="5" label="10 火祭品"/><head>火祭品第十</head>
+<lb n="0652c23"/><div2 type="other"><mulu type="品" level="2" n="5" label="10 火祭品"/><head>火祭品第十</head>
 <lb n="0652c24"/><p>復次如來為諸大眾說火祭法。於一一法中
 <lb n="0652c25"/>欲求一切驗&CB00283;者。能令作者成就。利益諸眾
 <lb n="0652c26"/>生者。佛告諸誦&CB00057;者先須清淨身心作淨梵
@@ -1688,7 +1691,7 @@ Added comment  for Emacs
 <lb n="0653c02"/>菩薩。咸讚釋迦如來言。善哉善哉。既同讚已
 <lb n="0653c03"/>各還本土。爾時釋迦牟尼世尊。以佛神力還
 <lb n="0653c04"/>娑婆世界</p></div2>
-<lb n="0653c05"/><div2 type="other"><mulu type="品" level="1" n="6" label="11 普光心印品"/><head>普光心印品第十一</head>
+<lb n="0653c05"/><div2 type="other"><mulu type="品" level="2" n="6" label="11 普光心印品"/><head>普光心印品第十一</head>
 <lb n="0653c06"/><p>爾時金剛藥叉主菩薩。踊躍歡喜身毛皆&CB00594;。
 <lb n="0653c07"/>於仙人會中持杵揮空。以種種香華衣服。與
 <lb n="0653c08"/>諸仙人往詣佛所。頂禮佛足右繞三匝。以諸
@@ -1724,15 +1727,15 @@ Added comment  for Emacs
 <lb n="0654a08"/><p>爾時金剛手菩薩。頂禮佛足白佛言世尊。如
 <lb n="0654a09"/>是如是如世尊所說我當專心恭敬供養以報
 <lb n="0654a10"/>佛恩。唯願世尊為我演悟作印之法。令諸學
-<lb n="0654a11"/>者得法成就</p>
-<lb n="0654a12"/><juan fun="close" n="004"><jhead>廣大寶樓閣善住祕密陀羅尼經卷中</jhead></juan></div2>
+<lb n="0654a11"/>者得法成就</p></div2>
+<lb n="0654a12"/><juan fun="close" n="004"><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>卷中</jhead></juan>
 <lb n="0654a13"/>
-<lb n="0654a14"/><div2 type="other">
-<lb n="0654a15"/><juan fun="open" n="005"><mulu type="卷" n="003"/><jhead>廣大寶樓閣善住祕密陀羅尼經
+<lb n="0654a14"/>
+<lb n="0654a15"/><juan fun="open" n="005"><mulu type="卷" n="003"/><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>
 <lb n="0654a16"/>卷下</jhead></juan>
 <lb n="0654a17"/>
 <lb n="0654a18"/><byline type="Translator">唐三藏法師菩提流志奉　<note n="0654002" resp="Taisho" type="orig" place="foot text">詔＝制【宋】</note><app n="0654002"><lem>詔</lem><rdg wit="【宋】" resp="Taisho">制</rdg></app>譯</byline>
-<lb n="0654a19"/><mulu type="品" level="1" n="7" label="12 手印品"/><head>手印品第十二</head>
+<lb n="0654a19"/><div2 type="other"><mulu type="品" level="2" n="7" label="12 手印品"/><head>手印品第十二</head>
 <lb n="0654a20"/><p>爾時世尊知眾渴仰作印之法便為說言。若
 <lb n="0654a21"/>持&CB00057;者應淨洗浴著鮮潔衣。以五種牛淨物
 <lb n="0654a22"/>用護其身。復以塗香遍拭其體。以白檀香塗
@@ -2049,6 +2052,6 @@ Added comment  for Emacs
 <lb n="0657c03"/>就大檀那成就大智慧。成就洪流功德。成就
 <lb n="0657c04"/>六波羅蜜。若有得此陀羅尼&CB00057;印壇場法者
 <lb n="0657c05"/>獲福如是佛說是經已。一切大眾皆大歡喜
-<lb n="0657c06"/>信受奉行</p>
-<lb n="0657c07"/><juan fun="close" n="005"><jhead>廣大寶樓閣善住祕密陀羅尼經卷下</jhead></juan></div2></div1>
-</body></text></TEI.2>
+<lb n="0657c06"/>信受奉行</p></div2></div1>
+<lb n="0657c07"/><juan fun="close" n="005"><jhead><title>廣大寶樓閣善住祕密陀羅尼經</title>卷下</jhead></juan>
+</body></text></TEI.2>
