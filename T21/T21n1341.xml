@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)</edition>
+		<edition>$Revision: 1.8 $ (Big5)</edition>
 	</editionStmt>
 	<extent>20卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/07/11 06:26:09 $</date>
+		<date>$Date: 2003/08/12 02:28:17 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1341 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T21n1341.xml,v $
+Revision 1.8  2003/08/12 02:28:17  ray
+app版100字以上長行斷詞
+
 Revision 1.7  2003/07/11 06:26:09  ray
 app版100字以上長行斷詞
 
@@ -118,7 +121,7 @@ Revision 1.5  2001/02/07 06:58:08  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:47:59  chris
-Added keywords $Revision: 1.7 $, $Date: 2003/07/11 06:26:09 $ and $Log.
+Added keywords $Revision: 1.8 $, $Date: 2003/08/12 02:28:17 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -1459,29 +1462,47 @@ Added comment  for Emacs
 <lb n="0769c09"/>婆彌暮　浮多&CB00425;帝　阿毘伽他婆蘇都　阿
 <lb n="0769c10"/>地那婆賀尼　叉耶地輸　<note n="0769005" resp="Taisho" type="orig" place="foot text">波＝婆【三】</note><note n="0769005" resp="CBETA" type="mod">波＝婆【宋】【元】【明】</note><app n="0769005"><lem>波</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婆</rdg></app>利呵牟地舍
 <lb n="0769c11"/>阿婆車度　烏奢伽摩　因陀盧遮那摩伽馱
-<lb n="0769c12"/>陀<note place="inline"><note n="0769006" resp="Taisho" type="orig" place="foot text">隋言＝此云【明】＊</note><app n="0769006"><lem>隋言</lem><rdg wit="【明】" resp="Taisho">此云</rdg></app>能與道</note>毘彼式迦<note place="inline"><app type="＊" source="0769006"><lem>隋言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>能觀</note>阿&CB00619;數帝利師那制
-<lb n="0769c13"/>地迦<note place="inline"><app type="＊" source="0769006"><lem>隋言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>能斷渴愛</note>多摩制地迦<note place="inline">能斷暗</note>阿鞠六波<note place="inline">不瞋</note>跋
-<lb n="0769c14"/>陀羅<note place="inline">賢</note>賀羅迦叉毘帝<note place="inline">守護主</note>迦羅度叉音<note place="inline">語諳<note n="0769007" resp="Taisho" type="orig" place="foot text">反＝切【明】＊</note><app n="0769007"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app><app type="＊" source="0769006"><lem>隋
-<lb n="0769c15"/>言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>時無畏</note>婆祁羅<note place="inline">金剛</note>毘須尼帝尼尸波羅般遮<note place="inline">不可說</note>
-<lb n="0769c16"/>帝栗他<note place="inline">福處</note><note n="0769008" resp="Taisho" type="orig" place="foot text">何＝阿【三】＊</note><note n="0769008" resp="CBETA" type="mod">何＝阿【宋】＊【元】＊【明】＊</note><app n="0769008"><lem>何</lem><rdg wit="【宋】【元】【明】" resp="Taisho">阿</rdg></app>勒叉<note place="inline">守護</note>阿摩陀<note place="inline">不醉</note>阿&CB00425;羅
+<lb n="0769c12"/>陀<note place="inline">
+<note n="0769006" resp="Taisho" type="orig" place="foot text">隋言＝此云【明】＊</note>
+<app n="0769006"><lem>隋言</lem><rdg wit="【明】" resp="Taisho">此云</rdg></app>能與道</note>　毘彼式迦<note place="inline"><app type="＊" source="0769006"><lem>隋言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>能觀</note>　阿&CB00619;數帝利師那制
+<lb n="0769c13"/>地迦<note place="inline"><app type="＊" source="0769006"><lem>隋言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>能斷渴愛</note>　多摩制地迦<note place="inline">能斷暗</note>　阿鞠六波<note place="inline">不瞋</note>　跋
+<lb n="0769c14"/>陀羅<note place="inline">賢</note>　賀羅迦叉毘帝<note place="inline">守護主</note>　迦羅度叉音<note place="inline">語諳
+<note n="0769007" resp="Taisho" type="orig" place="foot text">反＝切【明】＊</note>
+<app n="0769007"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app><app type="＊" source="0769006"><lem>隋
+<lb n="0769c15"/>言</lem><rdg resp="Taisho" wit="【明】">此云</rdg></app>時無畏</note>　婆祁羅<note place="inline">金剛</note>　毘須尼帝尼尸波羅般遮<note place="inline">不可說</note>
+<lb n="0769c16"/>　帝栗他<note place="inline">福處</note>　
+<note n="0769008" resp="Taisho" type="orig" place="foot text">何＝阿【三】＊</note>
+<note n="0769008" resp="CBETA" type="mod">何＝阿【宋】＊【元】＊【明】＊</note>
+<app n="0769008"><lem>何</lem><rdg wit="【宋】【元】【明】" resp="Taisho">阿</rdg></app>勒叉<note place="inline">守護</note>　阿摩陀<note place="inline">不醉</note>　阿&CB00425;羅
 <lb n="0769c17"/>　摩陀<note place="inline">不放逸</note>不由他能觀割斷教示無<note n="0769009" resp="Taisho" type="orig" place="foot text">疑＝癡【三】</note><note n="0769009" resp="CBETA" type="mod">疑＝癡【宋】【元】【明】</note><app n="0769009"><lem>疑</lem><rdg wit="【宋】【元】【明】" resp="Taisho">癡</rdg></app>不分別
 <lb n="0769c18"/>　帝醯　尼師&CB00425;利耶跋陀那盡印　<app type="＊" source="0769008"><lem>何</lem><rdg resp="Taisho" wit="【宋】【元】【明】">阿</rdg></app>波
 <lb n="0769c19"/><note n="0769010" resp="Taisho" type="orig" place="foot text">婆＝娑【三】</note><note n="0769010" resp="CBETA" type="mod">婆＝娑【宋】【元】【明】</note><app n="0769010"><lem>婆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">娑</rdg></app>多　雲主堅行曾住閃電作明日面奪解
 <lb n="0769c20"/>脫&CB00619;那迦離<note place="inline">作室</note>力護無有疑不及不超越生
-<lb n="0769c21"/>斷邊愚癡不可說不可攀無癡勤劬觀察無憂
-<lb n="0769c22"/>無言無愁無劬不了無癡不墮常鳴月三牟遮
-<lb n="0769c23"/>耶不亂不嗔亂及震娑那途娑那莎帝尼跋陀
-<lb n="0769c24"/><note place="inline">無上</note>以至無畏巧智勝最勝不可行不可行處
-<lb n="0769c25"/>斷諸行住處不受果避婆<note n="0769011" resp="Taisho" type="orig" place="foot text">魔＝摩【三】</note><note n="0769011" resp="CBETA" type="mod">魔＝摩【宋】【元】【明】</note><app n="0769011"><lem>魔</lem><rdg wit="【宋】【元】【明】" resp="Taisho">摩</rdg></app>帝阿蘭若住行
-<lb n="0769c26"/>無住處祇羅<note n="0769012" resp="Taisho" type="orig" place="foot text">被＝波【元】【明】</note><app n="0769012"><lem>被</lem><rdg wit="【元】【明】" resp="Taisho">波</rdg></app>力者純直行發一切處可信
-<lb n="0769c27"/>彼慈帝帝叉炎蘇途那音<note place="inline">力暗<app type="＊" source="0769007"><lem>反</lem><rdg resp="Taisho" wit="【明】">切</rdg></app>除憂</note>阿&CB00145;舍闍羅
-<lb n="0769c28"/>婆迦<note place="inline">除老</note>觀時可知毘浮多決了印毘求羅作
-<lb n="0769c29"/>邊界思惟無上明明閃波羅<note n="0769013" resp="Taisho" type="orig" place="foot text">娑＝婆【三】</note><note n="0769013" resp="CBETA" type="mod">娑＝婆【宋】【元】【明】</note><app n="0769013"><lem>娑</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婆</rdg></app>地利沙跋帝
+<lb n="0769c21"/>斷邊愚癡　不可說不可攀無癡勤劬觀察　無憂
+<lb n="0769c22"/>無言無愁無劬　不了無癡不墮常鳴月三牟遮
+<lb n="0769c23"/>耶　不亂不嗔亂及震娑那途娑那莎帝尼跋陀
+<lb n="0769c24"/><note place="inline">無上</note>　以至無畏巧智勝最勝　不可行不可行處
+<lb n="0769c25"/>斷諸行住處　不受果避婆
+<note n="0769011" resp="Taisho" type="orig" place="foot text">魔＝摩【三】</note>
+<note n="0769011" resp="CBETA" type="mod">魔＝摩【宋】【元】【明】</note>
+<app n="0769011"><lem>魔</lem><rdg wit="【宋】【元】【明】" resp="Taisho">摩</rdg></app>帝阿蘭若住行
+<lb n="0769c26"/>無住處　祇羅
+<note n="0769012" resp="Taisho" type="orig" place="foot text">被＝波【元】【明】</note>
+<app n="0769012"><lem>被</lem><rdg wit="【元】【明】" resp="Taisho">波</rdg></app>力者純直行發一切處　可信
+<lb n="0769c27"/>彼慈帝帝叉炎蘇途那音<note place="inline">力暗<app type="＊" source="0769007"><lem>反</lem><rdg resp="Taisho" wit="【明】">切</rdg></app>除憂</note>　阿&CB00145;舍闍羅
+<lb n="0769c28"/>婆迦<note place="inline">除老</note>　觀時可知毘浮多決了印毘求羅作
+<lb n="0769c29"/>邊界思惟　無上明明閃波羅
+<note n="0769013" resp="Taisho" type="orig" place="foot text">娑＝婆【三】</note>
+<note n="0769013" resp="CBETA" type="mod">娑＝婆【宋】【元】【明】</note>
+<app n="0769013"><lem>娑</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婆</rdg></app>地利沙跋帝
 <pb ed="T" id="T21.1341.0770a" n="0770a"/>
-<lb n="0770a01"/>婆羅<note n="0770001" resp="Taisho" type="orig" place="foot text">慰＝尉【三】＊</note><note n="0770001" resp="CBETA" type="mod">慰＝尉【宋】＊【元】＊【明】＊</note><app n="0770001"><lem>慰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尉</rdg></app>羅多婆那頡他兜羅阿地沙那<note place="inline">不可降</note>薩
+<lb n="0770a01"/>婆羅
+<note n="0770001" resp="Taisho" type="orig" place="foot text">慰＝尉【三】＊</note>
+<note n="0770001" resp="CBETA" type="mod">慰＝尉【宋】＊【元】＊【明】＊</note>
+<app n="0770001"><lem>慰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尉</rdg></app>羅多婆那頡他兜羅阿地沙那<note place="inline">不可降</note>　薩
 <lb n="0770a02"/>婆豆多無相別相能斷邊無物<app type="＊" source="0770001"><lem>慰</lem><rdg resp="Taisho" wit="【宋】【元】【明】">尉</rdg></app>伽他三句
-<lb n="0770a03"/>伽他因頗蘭那跋帝叫無叫勝縛拔斷器仗不
-<lb n="0770a04"/>分別離分別無分別處不可得處不染智足大
+<lb n="0770a03"/>伽他　因頗蘭那跋帝叫無叫勝縛拔斷器仗　不
+<lb n="0770a04"/>分別離分別無分別處　不可得處不染智足大
 <lb n="0770a05"/>勝一切處打。阿難。如是智處。名為如來之所
 <lb n="0770a06"/>宣說分別顯示。於三千大千世界中。廣說智
 <lb n="0770a07"/>名。阿難。若人能知此智是名智眼。諸菩薩所
@@ -5281,18 +5302,32 @@ Added comment  for Emacs
 <lb n="0812a12"/>烏居摩相<note place="inline"><note n="0812002" resp="Taisho" type="orig" place="foot text">隋云＝此云【明】下同</note><app n="0812002"><lem>隋云</lem><rdg wit="【明】" resp="Taisho">此云</rdg></app>不急</note>不曲相。不受果報相。身相。色
 <lb n="0812a13"/>聲香味觸法相語言相。捨相。滅相。治罰攝取
 <lb n="0812a14"/>來去他處非處淨處住身處我身體我所他所
-<lb n="0812a15"/>及他方閻羅世天世人世<note n="0812003" resp="Taisho" type="orig" place="foot text">&CB00425;＝&CB03247;【三】＊</note><note n="0812003" resp="CBETA" type="mod">&CB00425;＝&CB03247;【宋】＊【元】＊【明】＊</note><app n="0812003"><lem>&CB00425;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB03247;</rdg></app>囉朋伽<note place="inline">隋云破壞</note>婆闍
-<lb n="0812a16"/>尼娑婆&CB03299;<note place="inline">隋云<note n="0812004" resp="Taisho" type="orig" place="foot text">聲音＝音聲【三】</note><note n="0812004" resp="CBETA" type="mod">聲音＝音聲【宋】【元】【明】</note><app n="0812004"><lem>聲音</lem><rdg wit="【宋】【元】【明】" resp="Taisho">音聲</rdg></app></note>胡盧多于陵伽<note place="inline">隋云聲分</note>尼伽利賀
-<lb n="0812a17"/><note place="inline">隋云治罰</note>阿闍&CB00135;波羅<app type="＊" source="0812003"><lem>&CB00425;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB03247;</rdg></app>多<note place="inline">隋云<note n="0812005" resp="Taisho" type="orig" place="foot text">止＝心【元】【明】</note><app n="0812005"><lem>止</lem><rdg wit="【元】【明】" resp="Taisho">心</rdg></app>知處</note>伊舍多多囉
-<lb n="0812a18"/>提舍<note place="inline">隋云此處彼處方處</note>波羅提舍<note place="inline">隋云邊處</note><note n="0812006" resp="Taisho" type="orig" place="foot text">阿羅＝何囉【三】</note><note n="0812006" resp="CBETA" type="mod">阿羅＝何囉【宋】【元】【明】</note><app n="0812006"><lem>阿羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">何囉</rdg></app>伽<note place="inline">隋云欲</note>提鞞
-<lb n="0812a19"/>沙<note place="inline">隋云瞋恚</note>慕何<note place="inline">隋云癡</note>慰蹉婆<note place="inline">隋云多饒</note>彌何囉<note place="inline">隋云行</note>阿藍
-<lb n="0812a20"/>婆那<note place="inline">隋云攀處</note><note n="0812007" resp="Taisho" type="orig" place="foot text">&CB00571;＝&CB00085;【三】＊</note><note n="0812007" resp="CBETA" type="mod">&CB00571;＝&CB00085;【宋】＊【元】＊【明】＊</note><app n="0812007"><lem>&CB00571;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00085;</rdg></app>婆訖利沙吒<note place="inline">隋云濁也</note>阿薩那<note place="inline">隋云近</note>波
-<lb n="0812a21"/><note n="0812008" resp="Taisho" type="orig" place="foot text">囉＝羅【三】</note><note n="0812008" resp="CBETA" type="mod">囉＝羅【宋】【元】【明】</note><app n="0812008"><lem>囉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羅</rdg></app>那耶<note place="inline">隋云清</note>鞞夜伽<note place="inline">隋云施</note>三大屣伊陀利達羅
-<lb n="0812a22"/>阿婆比阿那婆帝摩訶毘釋<note n="0812009" resp="Taisho" type="orig" place="foot text">羅＝難【三】</note><note n="0812009" resp="CBETA" type="mod">羅＝難【宋】【元】【明】</note><app n="0812009"><lem>羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">難</rdg></app>居盧薩闍<note n="0812010" resp="Taisho" type="orig" place="foot text">婆＝娑【三】＊</note><note n="0812010" resp="CBETA" type="mod">婆＝娑【宋】＊【元】＊【明】＊</note><app n="0812010"><lem>婆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">娑</rdg></app>
-<lb n="0812a23"/>何&CB03299;<app type="＊" source="0812007"><lem>&CB00571;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB00085;</rdg></app>阿濕婆娑波羅濕婆娑比器<app type="＊" source="0812003"><lem>&CB00425;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB03247;</rdg></app>多伊
-<lb n="0812a24"/>迦伽囉阿迦舍優波達那鞞耶佛陀達摩僧伽
-<lb n="0812a25"/>修多羅蘇提舍修多羅涅提舍羅&CB00264;迦俱盧迦
-<lb n="0812a26"/>尼彌多旃陀羅尼彌多蘇利尼彌多。乃至略
+<lb n="0812a15"/>　及他方閻羅世天世人世<note n="0812003" resp="Taisho" type="orig" place="foot text">&CB00425;＝&CB03247;【三】＊</note><note n="0812003" resp="CBETA" type="mod">&CB00425;＝&CB03247;【宋】＊【元】＊【明】＊</note><app n="0812003"><lem>&CB00425;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB03247;</rdg></app>囉朋伽<note place="inline">隋云破壞</note>　婆闍
+<lb n="0812a16"/>尼娑婆&CB03299;<note place="inline">隋云
+<note n="0812004" resp="Taisho" type="orig" place="foot text">聲音＝音聲【三】</note>
+<note n="0812004" resp="CBETA" type="mod">聲音＝音聲【宋】【元】【明】</note>
+<app n="0812004"><lem>聲音</lem><rdg wit="【宋】【元】【明】" resp="Taisho">音聲</rdg></app></note>　胡盧多于陵伽<note place="inline">隋云聲分</note>　尼伽利賀
+<lb n="0812a17"/><note place="inline">隋云治罰</note>　阿闍&CB00135;波羅<app type="＊" source="0812003"><lem>&CB00425;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB03247;</rdg></app>多<note place="inline">隋云
+<note n="0812005" resp="Taisho" type="orig" place="foot text">止＝心【元】【明】</note>
+<app n="0812005"><lem>止</lem><rdg wit="【元】【明】" resp="Taisho">心</rdg></app>知處</note>　伊舍多多囉
+<lb n="0812a18"/>提舍<note place="inline">隋云此處彼處方處</note>　波羅提舍<note place="inline">隋云邊處</note>　
+<note n="0812006" resp="Taisho" type="orig" place="foot text">阿羅＝何囉【三】</note>
+<note n="0812006" resp="CBETA" type="mod">阿羅＝何囉【宋】【元】【明】</note>
+<app n="0812006"><lem>阿羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">何囉</rdg></app>伽<note place="inline">隋云欲</note>　提鞞
+<lb n="0812a19"/>沙<note place="inline">隋云瞋恚</note>　慕何<note place="inline">隋云癡</note>　慰蹉婆<note place="inline">隋云多饒</note>　彌何囉<note place="inline">隋云行</note>　阿藍
+<lb n="0812a20"/>婆那<note place="inline">隋云攀處</note>　
+<note n="0812007" resp="Taisho" type="orig" place="foot text">&CB00571;＝&CB00085;【三】＊</note>
+<note n="0812007" resp="CBETA" type="mod">&CB00571;＝&CB00085;【宋】＊【元】＊【明】＊</note>
+<app n="0812007"><lem>&CB00571;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB00085;</rdg></app>婆訖利沙吒<note place="inline">隋云濁也</note>　阿薩那<note place="inline">隋云近</note>　波
+<lb n="0812a21"/><note n="0812008" resp="Taisho" type="orig" place="foot text">囉＝羅【三】</note><note n="0812008" resp="CBETA" type="mod">囉＝羅【宋】【元】【明】</note><app n="0812008"><lem>囉</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羅</rdg></app>那耶<note place="inline">隋云清</note>　鞞夜伽<note place="inline">隋云施</note>　三大屣伊陀利達羅
+<lb n="0812a22"/>阿婆比阿那婆帝　摩訶毘釋
+<note n="0812009" resp="Taisho" type="orig" place="foot text">羅＝難【三】</note>
+<note n="0812009" resp="CBETA" type="mod">羅＝難【宋】【元】【明】</note>
+<app n="0812009"><lem>羅</lem><rdg wit="【宋】【元】【明】" resp="Taisho">難</rdg></app>居盧薩闍<note n="0812010" resp="Taisho" type="orig" place="foot text">婆＝娑【三】＊</note><note n="0812010" resp="CBETA" type="mod">婆＝娑【宋】＊【元】＊【明】＊</note><app n="0812010"><lem>婆</lem><rdg wit="【宋】【元】【明】" resp="Taisho">娑</rdg></app>
+<lb n="0812a23"/>何&CB03299;<app type="＊" source="0812007"><lem>&CB00571;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB00085;</rdg></app>阿濕婆娑波羅　濕婆娑比器<app type="＊" source="0812003"><lem>&CB00425;</lem><rdg resp="Taisho" wit="【宋】【元】【明】">&CB03247;</rdg></app>多伊
+<lb n="0812a24"/>迦伽囉阿迦舍優波達那鞞耶　佛陀達摩僧伽
+<lb n="0812a25"/>　修多羅蘇提舍　修多羅涅提舍羅&CB00264;迦俱盧迦
+<lb n="0812a26"/>尼彌多　旃陀羅尼彌多蘇利尼彌多。乃至略
 <lb n="0812a27"/>說。如是一切想當應宣說。乃至所有想中。比
 <lb n="0812a28"/>丘具足當有狂顛。其錯亂心。於三昧中而生
 <lb n="0812a29"/>迷惑。彼八十想當得本心。因善知識不離教。
