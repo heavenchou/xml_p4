@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/11 14:39:04 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/09/11 10:12:46 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 14:39:04 $</date>
+		<date>$Date: 2004/09/11 10:12:46 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 846 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T17n0846.xml,v $
+Revision 1.6  2004/09/11 10:12:46  saywhat
+刪除空的 juan close
+
 Revision 1.5  2004/05/11 14:39:04  saywhat
 修訂經號的<head> → <head type="no">
 
@@ -105,7 +108,7 @@ Revision 1.6  2001/02/07 06:52:52  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:42:31  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/05/11 14:39:04 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/09/11 10:12:46 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -115,13 +118,13 @@ Added comment  for Emacs
 <lb n="0934a13"/>
 <milestone unit="juan" n="1"/>
 <lb n="0934a14"/>
-<lb n="0934a15"/><head type="no">No. 846</head><div1 type="jing">
+<lb n="0934a15"/><head type="no">No. 846</head>
 <lb n="0934a16"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>外道問聖大乘法無我義經</title></jhead></juan>
 <lb n="0934a17"/>
 <lb n="0934a18"/><byline type="Translator"><note n="0934001" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】，（（西天…譯））二十四字＝（（三藏傳教大師臣法天奉詔譯））十二字【宮】</note><note n="0934001" resp="CBETA" type="mod">（宋）＋西【明】，（西天譯經三藏朝散大夫試鴻臚少卿傳教大師臣法天奉詔譯）二十<app><lem resp="CBETA.say">五</lem><rdg wit="【大】">四</rdg></app>字＝（三藏傳教大師臣法天奉詔譯）十二字【宮】</note><app n="0934001"><lem>西天<note n="0934002" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】</note><app n="0934002"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝散大夫
 <lb n="0934a19"/>試鴻臚少卿傳教大師<note n="0934003" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】</note><app n="0934003"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>
 <lb n="0934a20"/>法天奉　詔譯</lem><rdg wit="【宮】" resp="Taisho">三藏傳教大師臣法天奉詔譯</rdg><rdg wit="【明】" resp="Taisho">宋西天譯經三藏朝散大夫試鴻臚少卿傳教大師臣法天奉詔譯</rdg></app></byline>
-<lb n="0934a21"/><p>如是我聞。一時佛在大眾中。爾時外道。有疑
+<lb n="0934a21"/><div1 type="jing"><p>如是我聞。一時佛在大眾中。爾時外道。有疑
 <lb n="0934a22"/>欲決。迷大乘行。來至佛所。稽首恭重。合十指
 <lb n="0934a23"/>掌。問無我義。大丈夫。是一切智。常說此身無
 <lb n="0934a24"/>我。若身無我本性亦無。云何說有哀啼戲笑
@@ -200,5 +203,5 @@ Added comment  for Emacs
 <lb n="0935a07"/><p>爾時外道聞是語已審諦觀<app><lem>察</lem><rdg wit="【大】">際</rdg></app>。而彼疑<note n="0935002" resp="Taisho" type="orig" place="foot text">綱＝網【三】【宮】</note><note n="0935002" resp="CBETA" type="mod">綱＝網【宋】【元】【明】【宮】</note><app n="0935002"><lem>綱</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">網</rdg></app>皆
 <lb n="0935a08"/>悉除斷。作是觀已獲住大乘。瞻奉歡喜作禮
 <lb n="0935a09"/>而退</p>
-<lb n="0935a10"/><trailer><title>外道問聖<note n="0935003" resp="Taisho" type="orig" place="foot text">大乘＋（法）【明】</note><app n="0935003"><lem>大乘</lem><rdg wit="【明】" resp="Taisho">大乘法</rdg></app>無我義經</title></trailer><juan fun="close" n="001"></juan></div1>
+<lb n="0935a10"/><trailer><title>外道問聖<note n="0935003" resp="Taisho" type="orig" place="foot text">大乘＋（法）【明】</note><app n="0935003"><lem>大乘</lem><rdg wit="【明】" resp="Taisho">大乘法</rdg></app>無我義經</title></trailer></div1>
 </body></text></TEI.2>

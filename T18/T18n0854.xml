@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/04/20 08:38:33 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2004/09/11 10:10:36 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:38:33 $</date>
+		<date>$Date: 2004/09/11 10:10:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 18, No. 854 &desc;</bibl>
@@ -60,6 +60,12 @@
 	</change>
 <!--
 $Log: T18n0854.xml,v $
+Revision 1.13  2004/09/11 10:10:36  saywhat
+刪除空的 juan close
+
+Revision 1.12  2004/09/11 10:09:21  saywhat
+刪除空的 juan close
+
 Revision 1.11  2004/04/20 08:38:33  maha
 「版本日期」標記修訂
 
@@ -145,7 +151,7 @@ Revision 1.18  2001/02/07 06:53:05  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.17  2001/02/03 07:42:47  chris
-Added keywords $Revision: 1.11 $, $Date: 2004/04/20 08:38:33 $ and $Log.
+Added keywords $Revision: 1.13 $, $Date: 2004/09/11 10:10:36 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -155,10 +161,10 @@ Added comment  for Emacs
 <pb ed="T" id="T18.0854.0164c" n="0164c"/>
 <lb n="0164c01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0164c02"/><head type="no">No. 854</head><div1 type="jing">
-<lb n="0164c03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0164008" resp="Taisho" type="orig" place="foot text">【原】平安時代寫興然本東寺三密藏藏本，【甲】平安時代淳祐寫石山寺藏本</note>胎藏梵字真言上卷</jhead></juan>
+<lb n="0164c02"/><head type="no">No. 854</head>
+<lb n="0164c03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0164008" resp="Taisho" type="orig" place="foot text">【原】平安時代寫興然本東寺三密藏藏本，【甲】平安時代淳祐寫石山寺藏本</note><jhead>胎藏梵字真言上卷</jhead></juan>
 <lb n="0164c04"/>
-<lb n="0164c05"/><p>灑淨真言</p>
+<lb n="0164c05"/><div1 type="jing"><p>灑淨真言</p>
 <lb n="0164c06"/><p type="dharani" lang="san-sd">&SD-D5B5;&SD-A5A9;&SD-A5F0;&SD-A67A;&SD-A5E5;&SD-CA56;&SD-A65A;&SD-AF72;&SD-E040;&SD-D7C4;&SD-CFC5;&SD-DA44;&SD-A559;&SD-A67A;&SD-A5EB;&SD-D7C4;&SD-A458;&SD-A458;
 <lb n="0164c07"/>&SD-A5A9;&SD-A67A;&SD-A5EB;&SD-D7C4;&SD-A67A;&SD-A5E5;<note n="0164009" resp="Taisho" type="orig" place="foot text">&SD-A558;＝&SD-CA57;【甲】</note><app n="0164009"><lem>&SD-A558;</lem><rdg wit="【甲】" resp="Taisho">&SD-CA57;</rdg></app>&SD-A5AD;&SD-A458;&SD-A55D;&SD-D7C4;&SD-DA44;&SD-CBA7;&SD-A559;&SD-A5CF;&SD-A666;
 <lb n="0164c08"/>&SD-AF77;&SD-D7C4;&SD-A57B;&SD-DA77;&SD-A57C;&SD-A55B;&SD-A5CF;&SD-A66A;&SD-A57B;&SD-A5AB;&SD-D7C4;&SD-DA49;&SD-A6A9;&SD-D5B4;</p>
@@ -550,7 +556,7 @@ Added comment  for Emacs
 <lb n="0168c19"/><p>置字句</p>
 <lb n="0168c20"/><p type="dharani" lang="san-sd">&SD-A5A9;&SD-A5F0;&SD-A67A;&SD-A5E5;&SD-CA56;&SD-A65A;&SD-AF72;&SD-E040;&SD-A5EF;&SD-D5B4;</p><p place="inline">已下第四卷</p>
 <lb n="0168c21"/>
-<milestone unit="juan" n="2"/><juan fun="close" n="001"></juan>
+<milestone unit="juan" n="2"/>
 <lb n="0168c22"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>胎藏梵字真言下卷</jhead></juan>
 <lb n="0168c23"/>
 <lb n="0168c24"/><p><note n="0168025" resp="Taisho" type="orig" place="foot text">（無等）＋力【甲】</note><app n="0168025"><lem>力</lem><rdg wit="【甲】" resp="Taisho">無等力</rdg></app>三昧</p>
@@ -877,7 +883,7 @@ Added comment  for Emacs
 <lb n="0172a30"/>&SD-A7D7;<note n="0172009" resp="Taisho" type="orig" place="foot text">&SD-A656;＝&SD-A657;【甲】</note><app n="0172009"><lem>&SD-A656;</lem><rdg wit="【甲】" resp="Taisho">&SD-A657;</rdg></app>&SD-A57B;&SD-B75D;&SD-A67A;&SD-A7D7;&SD-A657;&SD-D7C4;<note n="0172010" resp="Taisho" type="orig" place="foot text">&SD-DA40;＝&SD-A6A6;【甲】</note><app n="0172010"><lem>&SD-DA40;</lem><rdg wit="【甲】" resp="Taisho">&SD-A6A6;</rdg></app>&SD-A464;&SD-A67A;&SD-A7D7;&SD-A440;&SD-A657;<note n="0172011" resp="Taisho" type="orig" place="foot text">&SD-DA49;＝&SD-B064;【甲】</note><app n="0172011"><lem>&SD-DA49;</lem><rdg wit="【甲】" resp="Taisho">&SD-B064;</rdg></app>&SD-A440;
 <lb n="0172a31"/>&SD-A657;<anchor id="fxT18p0172a03"/>&SD-DA74;<anchor id="fxT18p0172a04"/>&SD-DA74;<note n="0172012" resp="Taisho" type="orig" place="foot text">&SD-E347;＝&SD-A65C;【甲】</note><app n="0172012"><lem>&SD-E347;</lem><rdg wit="【甲】" resp="Taisho">&SD-A65C;</rdg></app>&SD-A56F;&SD-A5CF;&SD-A575;&SD-D7C4;&SD-DA49;&SD-A6A9;&SD-D5B4;&SD-A4E6;&SD-D5B4;&SD-A67A;&SD-A5E6;&SD-CEE4;
 <pb ed="T" id="T18.0854.0172b" n="0172b"/>
-<lb n="0172b01"/>&SD-D5B4;&SD-A4E6;&SD-D7C4;</p><juan fun="close" n="002"></juan></div1>
+<lb n="0172b01"/>&SD-D5B4;&SD-A4E6;&SD-D7C4;</p></div1>
 <lb n="0172b02"/><note n="0172013" resp="Taisho" type="orig" place="foot text">〔書本云…興然本〕－【甲】，甲本奧云求學沙門淳祐手書願以此功德普及於一切我等與眾生皆共成佛道</note><app n="0172013" word-count="35"><lem><div1 type="W"><p>書本云</p>
 <lb n="0172b03"/><p>長承二年九月一日以御筆本奉書寫畢云
 <lb n="0172b04"/>云件本隆海僧都本云云</p>
