@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/05/11 02:27:02 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/07/05 13:25:56 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 02:27:02 $</date>
+		<date>$Date: 2004/07/05 13:25:56 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 920 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T19n0920.xml,v $
+Revision 1.10  2004/07/05 13:25:56  saywhat
+修訂 div 位置
+
 Revision 1.9  2004/05/11 02:27:02  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -130,7 +133,7 @@ Revision 1.5  2001/02/07 06:54:11  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:44:04  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/05/11 02:27:02 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/07/05 13:25:56 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -140,12 +143,12 @@ Added comment  for Emacs
 <pb ed="T" id="T19.0920.0002b" n="0002b"/>
 <lb n="0002b01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0002b02"/><head type="no">No. 920</head><div1 type="jing">
-<lb n="0002b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0002005" resp="Taisho" type="orig" place="foot text">【原】享和元年刊長谷寺藏本</note>佛心經品亦通大隨求陀羅尼卷
+<lb n="0002b02"/><head type="no">No. 920</head>
+<lb n="0002b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0002005" resp="Taisho" type="orig" place="foot text">【原】享和元年刊長谷寺藏本</note><jhead>佛心經品亦通大隨求陀羅尼卷
 <lb n="0002b04"/>上</jhead></juan>
 <lb n="0002b05"/>
 <lb n="0002b06"/><byline type="Translator">三藏菩提流志奉　詔譯</byline>
-<lb n="0002b07"/><p>如是我聞。一時佛住俱焰彌國金剛山頂。遍
+<lb n="0002b07"/><div1 type="jing"><p>如是我聞。一時佛住俱焰彌國金剛山頂。遍
 <lb n="0002b08"/>觀十方皆如火色。爾時如來即噓長歎。普視
 <lb n="0002b09"/>眾生都無差途。善哉眾生當何所救。思惟已
 <lb n="0002b10"/>訖。一切諸佛世界。及諸菩薩境界。上至三十
@@ -1289,9 +1292,9 @@ Added comment  for Emacs
 <lb n="0015a12"/><l>若得隨心成</l><l>俱時成正覺</l></lg>
 <lb n="0015a13"/><p>爾時大眾聞佛所說。一一合掌持佛心中心。
 <lb n="0015a14"/>如來見即以舒金色臂。普為印頂受菩薩記。
-<lb n="0015a15"/>其時大眾得佛授記。歡喜奉修禮佛而去</p>
-<lb n="0015a16"/><juan fun="close" n="002"><jhead>佛說心中經卷下</jhead></juan></div1><div1 type="W">
-<lb n="0015a17"/><p>康安二年九月十日。以東寺御影堂本加
+<lb n="0015a15"/>其時大眾得佛授記。歡喜奉修禮佛而去</p></div1>
+<lb n="0015a16"/><juan fun="close" n="002"><jhead>佛說心中經卷下</jhead></juan>
+<lb n="0015a17"/><div1 type="W"><p>康安二年九月十日。以東寺御影堂本加
 <lb n="0015a18"/>挍直&CB00386;了　　　　　　賢寶<note place="inline">生三十</note></p>
 <lb n="0015a19"/><p>天明二年壬寅六月十四日。以東寺觀智
 <lb n="0015a20"/>院藏本。挍合朱書訖　洛北蓮臺寺慈忍</p>
