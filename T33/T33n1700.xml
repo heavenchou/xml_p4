@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/04/20 08:41:02 $</date></edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/06/01 06:38:24 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:41:02 $</date>
+		<date>$Date: 2004/06/01 06:38:24 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 33, No. 1700 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T33n1700.xml,v $
+Revision 1.12  2004/06/01 06:38:24  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.11  2004/04/20 08:41:02  maha
 「版本日期」標記修訂
 
@@ -127,7 +130,7 @@ Revision 1.12  2001/02/07 07:07:05  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.11  2001/02/03 07:57:49  chris
-Added keywords $Revision: 1.11 $, $Date: 2004/04/20 08:41:02 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2004/06/01 06:38:24 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -138,7 +141,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0124a18"/>
 <lb n="0124a19"/><head type="no">No. 1700 [cf. No. 235]</head>
-<lb n="0124a20"/><div1 type="xu"><mulu type="序" level="1" label="刊行金剛般若經贊述序"/><head><note n="0124001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經，【甲】東大寺藏本，東大寺本缺序文</note>刊行金剛般若經贊述序</head>
+<lb n="0124a20"/><div1 type="xu"><mulu type="序" level="1" label="刊行金剛般若經贊述序"/><note n="0124001" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經，【甲】東大寺藏本，東大寺本缺序文</note><head>刊行金剛般若經贊述序</head>
 <lb n="0124a21"/>
 <lb n="0124a22"/><p>般若六百卷。以金剛為精髓所謂深妙玄約。
 <lb n="0124a23"/>群聖猶迷。非虛言也。在昔無著稟偈於彌勒。
@@ -167,7 +170,7 @@ Added comment  for Emacs
 <lb n="0124b16"/>興福別室大僧都訓映謹識</byline></div1>
 <lb n="0124b17"/>
 <lb n="0124b18"/>
-<lb n="0124b19"/><div1 type="xu"><head>刻金剛般若經贊述序</head>
+<lb n="0124b19"/><div1 type="xu"><mulu type="序" level="1" label="刻金剛般若經贊述序"/><head>刻金剛般若經贊述序</head>
 <lb n="0124b20"/>
 <lb n="0124b21"/><p>我曹眾生。從無始際。<app><lem resp="CBETA.mar">汩</lem><rdg wit="【大】">汨</rdg></app>溺於生死海中。頭出
 <lb n="0124b22"/>頭沒。靡有出期。大聖世尊。憫之宣暢摩訶衍
@@ -220,13 +223,13 @@ Added comment  for Emacs
 <lb n="0125a09"/>余不自揣書之拙。親寫繕完。以授剞劂。雖
 <lb n="0125a10"/>缺於觀美。庶不致誤人</p>
 <lb n="0125a11"/><byline type="Author">文化十年癸酉冬十月
-<lb n="0125a12"/>丹山野衲順藝<note place="inline">志道</note>謹識</byline>
+<lb n="0125a12"/>丹山野衲順藝<note place="inline">志道</note>謹識</byline></div1>
 <lb n="0125a13"/>
 <lb n="0125a14"/>
-<lb n="0125a15"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0125001" resp="Taisho" type="orig" place="foot text">東大寺本缺題號以下至毘奈耶瞿百五十八字</note>金剛般若經贊述卷上</jhead></juan>
+<lb n="0125a15"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0125001" resp="Taisho" type="orig" place="foot text">東大寺本缺題號以下至毘奈耶瞿百五十八字</note><jhead>金剛般若經贊述卷上</jhead></juan>
 <lb n="0125a16"/>
 <lb n="0125a17"/><byline type="Author"><note n="0125002" resp="Taisho" type="orig" place="foot text">〔大乘基撰〕&M062403;－【原】</note><app n="0125002"><lem>大乘　基撰</lem><rdg wit="【？】" resp="【原】">&lac;</rdg></app></byline>
-<lb n="0125a18"/><p>一彰因起二明年主三釋本文。初中有二。一
+<lb n="0125a18"/><div1 type="other"><p>一彰因起二明年主三釋本文。初中有二。一
 <lb n="0125a19"/>明經因起即謂空有二因。乃有阿僧伽佛去
 <lb n="0125a20"/>世後九百年。上請慈尊為開中道說。瑜伽十
 <lb n="0125a21"/>七地中邊分別論等&CB00278;彌勒所談。&CB00278;如廣章
@@ -1599,7 +1602,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="2"/>
 <lb n="0140b15"/>
 <lb n="0140b16"/>
-<lb n="0140b17"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead><note n="0140009" resp="Taisho" type="orig" place="foot text">東大寺本缺題號以下至名為遠離自取也 cf. p. 44b 段</note>金剛般若經贊述卷下</jhead></juan>
+<lb n="0140b17"/><juan fun="open" n="002"><mulu type="卷" n="2"/><note n="0140009" resp="Taisho" type="orig" place="foot text">東大寺本缺題號以下至名為遠離自取也 cf. p. 44b 段</note><jhead>金剛般若經贊述卷下</jhead></juan>
 <lb n="0140b18"/>
 <lb n="0140b19"/><byline type="Author"><note n="0140010" resp="Taisho" type="orig" place="foot text">〔大乘基撰〕&M062403;－【原】</note><app n="0140010"><lem>大乘　基撰</lem><rdg wit="【？】" resp="【原】">&lac;</rdg></app></byline>
 <lb n="0140b20"/><p>佛告須菩提「如是如是若復有人得聞是經
@@ -2870,6 +2873,6 @@ Added comment  for Emacs
 <lb n="0154b25"/><p>佛說是經「已長老須菩提及諸比丘比丘尼
 <lb n="0154b26"/>優婆塞優婆夷一切世間天人阿脩羅聞佛所
 <lb n="0154b27"/>說皆大歡喜」信受奉行</p><p place="inline">述曰。此第三大段
-<lb n="0154b28"/>喜悟修行分也</p>
-<lb n="0154b29"/><juan fun="close" n="002"><jhead>金剛般若經贊述卷下終</jhead></juan></div1>
+<lb n="0154b28"/>喜悟修行分也</p></div1>
+<lb n="0154b29"/><juan fun="close" n="002"><jhead>金剛般若經贊述卷下終</jhead></juan>
 </body></text></TEI.2>
