@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)</edition>
+		<edition>$Revision: 1.4 $ (Big5)</edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/24 05:39:53 $</date>
+		<date>$Date: 2003/06/25 05:45:43 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 51, No. 2097 &desc;</bibl>
@@ -59,8 +59,8 @@
 	</change>
 <!--
 $Log: T51n2097.xml,v $
-Revision 1.3  2003/06/24 05:39:53  eva
-modified: 執行corr2app.pl
+Revision 1.4  2003/06/25 05:45:43  eva
+modified: copy corr2app 前備份
 
 Revision 1.2  2003/05/05 06:32:54  eva
 modified
@@ -130,7 +130,7 @@ Revision 1.3  2001/02/07 07:40:09  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:12:58  chris
-Added keywords $Revision: 1.3 $, $Date: 2003/06/24 05:39:53 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2003/06/25 05:45:43 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -533,7 +533,7 @@ Added comment  for Emacs
 <lb n="1060a06"/>中多生靈壽木。枝柯皆對節。或如品字
 <lb n="1060a07"/>者。人採之為拄杖。又曰。萬歲藤</p></div3>
 <lb n="1060a08"/><div3 type="other"><mulu type="其他" level="3" label="靈應CB00123"/><head>〔靈應&CB00123;〕</head><p rend="margin-left:1">昔鄧郁之。字元達。南陽新野人。
-<lb n="1060a09"/>有<app><lem>祛</lem><rdg wit="【大】">袪</rdg></app>邪馘毒治病之符印。救無不愈。因採
+<lb n="1060a09"/>有<corr sic="袪">祛</corr>邪馘毒治病之符印。救無不愈。因採
 <lb n="1060a10"/>藥夜宿石穴。夢神人曰。汝有功將徵召。宜
 <lb n="1060a11"/>應時眾仙候汝。覺而驚喜。於天監初臺司
 <lb n="1060a12"/>奏。少微星見長沙分。&CB00330;監軍採訪。詔之後
@@ -709,7 +709,7 @@ Added comment  for Emacs
 <lb n="1062a02"/><div3 type="other"><mulu type="其他" level="3" label="永和CB00123"/><head>〔永和&CB00123;〕</head><p rend="margin-left:1">上有永和臺。舊傳有觀寺二基</p></div3>
 <lb n="1062a03"/><div3 type="other"><mulu type="其他" level="3" label="耆闍CB00123"/><head>〔耆闍&CB00123;〕</head><p rend="margin-left:1">謂山形像與天竺國耆闍無異故
 <lb n="1062a04"/>名之。西北有菴巖基址尚存。舊記云。昔有
-<lb n="1062a05"/>善女不知何氏。人問之。但<app><lem>斂</lem><rdg wit="【大】">歛</rdg></app>袂而悅稱善。
+<lb n="1062a05"/>善女不知何氏。人問之。但<corr sic="歛">斂</corr>袂而悅稱善。
 <lb n="1062a06"/>因呼善女。或曰。善女常誦黃庭經。自云。琴
 <lb n="1062a07"/>&M024261;寓樂。有李生者。寬中柔外元田走馬逢
 <lb n="1062a08"/>人。常言之而稱善。後亦不知所往。李遐周
@@ -1129,7 +1129,7 @@ Added comment  for Emacs
 <pb ed="T" id="T51.2097.1066c" n="1066c"/>
 <lb n="1066c01"/>官靈壇主者官屬並至。迎夫人於清虛上宮。
 <lb n="1066c02"/>頃間至南嶽石床。望前&CB00123;妖氣知有精物作
-<lb n="1066c03"/>癘。因書符<app><lem>祛</lem><rdg wit="【大】">袪</rdg></app>之。今仰天台有白龍洞是也。後
+<lb n="1066c03"/>癘。因書符<corr sic="袪">祛</corr>之。今仰天台有白龍洞是也。後
 <lb n="1066c04"/>東晉咸和四年。&CB00585;輪下迎昇天</p></div2>
 <lb n="1066c05"/><div2 type="other"><mulu type="其他" level="2" label="（薛女真）"/><p>仙傳拾遺薛女真者。不知何氏人也。晉時世
 <lb n="1066c06"/>弊。京邑不寧。有道之士多棲寓山林以避世。
@@ -1401,7 +1401,7 @@ Added comment  for Emacs
 <lb n="1069c01"/><list><head>觀有碑文六</head>
 <lb n="1069c02"/><item>九真觀記<note place="inline">梁湘東王蕭緯撰</note></item>
 <lb n="1069c03"/><item>何尊師得道碑<note place="inline">唐衡陽太守蘇務廉撰</note></item>
-<lb n="1069c04"/><item>廣成先生神道碑<note place="inline">翰林承旨蕭鄴撰。太子少<app><lem>傅</lem><rdg wit="【大】">傳</rdg></app>致仕盧璠書</note></item>
+<lb n="1069c04"/><item>廣成先生神道碑<note place="inline">翰林承旨蕭鄴撰。太子少<corr sic="傳">傅</corr>致仕盧璠書</note></item>
 <lb n="1069c05"/><item>隱真&CB04033;田先生記</item>
 <lb n="1069c06"/><item>廣成先生內傳<note place="inline">吏部侍郎趙櫓撰</note></item>
 <lb n="1069c07"/><item>中書舍人王祜贈道士率子廉詩<note place="inline">東坡居士蘇軾作記
@@ -1499,7 +1499,7 @@ Added comment  for Emacs
 <lb n="1070c09"/>釋迦文佛四字在寺前石崖上。潭帥張茂
 <lb n="1070c10"/>宗詩云。煙蘿深處南臺寺。景象觀來地最
 <lb n="1070c11"/>高。撥土誰開諸洞上。層樓人架半崖牢。石
-<lb n="1070c12"/>橋過處數千<app><lem>仞</lem><rdg wit="【大】">&CB06331;</rdg></app>。松徑行時幾萬遭。到此心
+<lb n="1070c12"/>橋過處數千<corr sic="CB06331">仞</corr>。松徑行時幾萬遭。到此心
 <lb n="1070c13"/>生清淨外。&CB00123;頭閑看戲猿猱</p></div2>
 <lb n="1070c14"/><div2 type="other"><mulu type="其他" level="2" label="福嚴禪寺"/><head>〔福嚴禪寺〕</head><p rend="margin-left:1">在廟之北登山十五里。岳中禪
 <lb n="1070c15"/>剎之第一。陳太初中。惠思和尚自大蘇山
@@ -2400,7 +2400,7 @@ Added comment  for Emacs
 <lb n="1080c10"/><item>金星鳳尾</item><item>金星石葦</item><item>石蠶</item><item>山韭</item></list></div1>
 <lb n="1080c11"/><div1 type="other"><mulu type="其他" level="1" label="嶽有靈禽異獸"/><head>嶽有靈禽異獸</head>
 <lb n="1080c12"/><list><item>音聲鳥<note place="inline">翔集成群。羽毛五色朝陽聚鳴。音似張樂</note></item><item>山鵲<note place="inline">捕之大難</note></item><item>靈鳩<note place="inline">羽毛錦色</note></item>
-<lb n="1080c13"/><item>猿鳥<note place="inline">旦暮而鳴如猿<app><lem>啼</lem><rdg wit="【大】">&CB06366;</rdg></app></note></item><item>白鷴</item><item>山鷓</item>
+<lb n="1080c13"/><item>猿鳥<note place="inline">旦暮而鳴如猿<corr sic="CB06366">啼</corr></note></item><item>白鷴</item><item>山鷓</item>
 <lb n="1080c14"/><item>錦雞</item><item>馬熊</item><item>&CB00337;熊</item><item>狗熊</item>
 <lb n="1080c15"/><item>猿</item><item>靈鼠</item><item>竹&CB06397;</item><item>麂虎</item>
 <lb n="1080c16"/><item>巡山二虎</item><item>護觀兩&CB00372;</item></list>
@@ -2680,7 +2680,7 @@ Added comment  for Emacs
 <lb n="1083c19"/>初懶殘居巖久之。嘗作歌。其略云。世事悠
 <lb n="1083c20"/>悠。不如山坵。青松蔽日。碧&CB00589;長流。山雲賞
 <lb n="1083c21"/>慕。夜月為鉤。臥藤蘿下。塊石枕頭。不朝天
-<lb n="1083c22"/>子。豈<app><lem>羨</lem><rdg wit="【大】">羡</rdg></app>王侯。死生無<app><lem>慮</lem><rdg wit="【大】">盧</rdg></app>。更復何憂。水月無
+<lb n="1083c22"/>子。豈<corr sic="羡">羨</corr>王侯。死生無<corr sic="盧">慮</corr>。更復何憂。水月無
 <lb n="1083c23"/>形。我常自寧。萬法皆爾。不死不生。兀然無
 <lb n="1083c24"/>箇事。春來草自青。其後李泌果入相。一云。
 <lb n="1083c25"/>懶殘在石廩伏山妖。而售寶被訟。獄中卒。乃
@@ -2710,7 +2710,7 @@ Added comment  for Emacs
 <lb n="1084a19"/>良圖。請君看取百年事。業就扁舟泛五湖。庵
 <lb n="1084a20"/>基見在煙霞&CB00123;。得玄和先生祕語懶殘開發。
 <lb n="1084a21"/>道業兩全。其詩末句已先見也</p></div2>
-<lb n="1084a22"/><div2 type="other"><mulu type="其他" level="2" label="（俞靈CB00225）"/><p>俞靈&CB00225;者。河<app><lem>間</lem><rdg wit="【大】">問</rdg></app>人。居衡山九真觀。後學道
+<lb n="1084a22"/><div2 type="other"><mulu type="其他" level="2" label="（俞靈CB00225）"/><p>俞靈&CB00225;者。河<corr sic="問">間</corr>人。居衡山九真觀。後學道
 <lb n="1084a23"/>十餘年。南岳赤君憫之。傳回風混合之道。及
 <lb n="1084a24"/>守明梁之法二十年。能坐見天下事如視諸
 <lb n="1084a25"/>掌。然自晦不為異以驚人。而人亦莫知有道
@@ -2919,7 +2919,7 @@ Added comment  for Emacs
 <lb n="1086b18"/>間。虎豹馴之。人問其道。則默無所對。出商
 <lb n="1086b19"/>山道中忽失色不前。人皆訝之且曰。前有剽
 <lb n="1086b20"/>掠者來。果見兵刃至。志真謂賊曰。此行皆吾
-<lb n="1086b21"/>弟子無得于之。其徒<app><lem>斂</lem><rdg wit="【大】">歛</rdg></app>衽避路不復敢前。又
+<lb n="1086b21"/>弟子無得于之。其徒<corr sic="歛">斂</corr>衽避路不復敢前。又
 <lb n="1086b22"/>至一谷口曰。此有害人之物。同行欲見之。遂
 <lb n="1086b23"/>石金山自中夜達旦而止。翌日往訪之皆同。
 <lb n="1086b24"/>或曰。採藥而聞仙樂。豈非得道之兆耶。後遊
@@ -3065,10 +3065,10 @@ Added comment  for Emacs
 <lb n="1088a14"/>翊旦往見。問之乃曰。余龔慶長也。世家洛陽。
 <lb n="1088a15"/>少遇司馬隱元于鳴&CB04439;山下。隱元者自是委
 <lb n="1088a16"/>羽洞天之靈官也。凡五嶽四瀆洞天福地。各
-<lb n="1088a17"/>有靈官主之。較量功罪。採訪善惡。聞<app><lem>于</lem><rdg wit="【大】">干</rdg></app>九天
+<lb n="1088a17"/>有靈官主之。較量功罪。採訪善惡。聞<corr sic="干">于</corr>九天
 <lb n="1088a18"/>使者府。隱元謂慶長曰。汝宿生常居要職。有
 <lb n="1088a19"/>辯冤雪死之勞。當時土民陰受汝賜。逮朱泚
-<lb n="1088a20"/><app><lem>僭</lem><rdg wit="【大】">僣</rdg></app>逆仗節死事。忠憤之氣毅然不衰。故得再
+<lb n="1088a20"/><corr sic="僣">僭</corr>逆仗節死事。忠憤之氣毅然不衰。故得再
 <lb n="1088a21"/>生為人。他時通悟必能記憶矣。九天使者錄
 <lb n="1088a22"/>汝之功命。我授汝石精金光藏景錄形神劍
 <lb n="1088a23"/>之法中黃太一默朝之朝。因得度世。近登紫
@@ -3215,7 +3215,7 @@ Added comment  for Emacs
 <lb n="1089c14"/>鬚黃衣道士。服頂紗巾。前揖公曰。賦壽甚
 <lb n="1089c15"/>遠。恩命將至矣。某有田疇。乃衡山邑君之部
 <lb n="1089c16"/>中也。幸惟顧屬之。公時在夢中。心自惟始被
-<lb n="1089c17"/>遣左官何遽有<app><lem>恩</lem><rdg wit="【大】">思</rdg></app>典。此皆術士妄言也。道士
+<lb n="1089c17"/>遣左官何遽有<corr sic="思">恩</corr>典。此皆術士妄言也。道士
 <lb n="1089c18"/>曰。何不相信之。良久日。足下心胸間有誌大
 <lb n="1089c19"/>如錢。公惟默未嘗有試。退手袖中捫其所如
 <lb n="1089c20"/>其說。道士曰。則向之言不誣矣。公益謝焉。乃
@@ -3260,7 +3260,7 @@ Added comment  for Emacs
 <lb n="1090a29"/><div2 type="other"><mulu type="其他" level="2" label="（劉山甫）"/><p>劉山甫。隨侍官於嶺外。北歸泊舟洞庭登岸。
 <pb ed="T" id="T51.2097.1090b" n="1090b"/>
 <lb n="1090b01"/>見北方毘沙門天王廟祠。因謁之。見廟宇頹
-<lb n="1090b02"/><app><lem>圮</lem><rdg wit="【大】">&CB04395;</rdg></app>。乃題云。壞牆風雨幾經春。草色盈庭一坐
+<lb n="1090b02"/><corr sic="CB04395">圮</corr>。乃題云。壞牆風雨幾經春。草色盈庭一坐
 <lb n="1090b03"/>塵。自是神仙無感應。盛衰何得&CB00230;由人。是夜
 <lb n="1090b04"/>夢神真曰。我南嶽神也。汝何相侮。俄而風濤
 <lb n="1090b05"/>大作舟幾覆。悔謝徹去詩牌乃止</p></div2>

@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)</edition>
+		<edition>$Revision: 1.7 $ (Big5)</edition>
 	</editionStmt>
 	<extent>30卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/24 05:39:06 $</date>
+		<date>$Date: 2003/06/25 05:44:50 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 41, No. 1821 &desc;</bibl>
@@ -59,8 +59,8 @@
 	</change>
 <!--
 $Log: T41n1821.xml,v $
-Revision 1.6  2003/06/24 05:39:06  eva
-modified: 執行corr2app.pl
+Revision 1.7  2003/06/25 05:44:50  eva
+modified: copy corr2app 前備份
 
 Revision 1.5  2003/06/19 03:46:56  eva
 modified: 插入星號校勘
@@ -151,7 +151,7 @@ Revision 1.9  2001/02/07 07:12:27  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.8  2001/02/03 08:03:32  chris
-Added keywords $Revision: 1.6 $, $Date: 2003/06/24 05:39:06 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2003/06/25 05:44:50 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -9872,7 +9872,7 @@ Added comment  for Emacs
 <lb n="0108c25"/>者即是名句。但是名句所依。能顯彼二。體
 <lb n="0108c26"/>無詮表</p><p type="inline">豈不此字亦書分名者。問。豈
 <lb n="0108c27"/>不此阿哀等字。亦能詮彼紙上墨書分。亦
-<lb n="0108c28"/><app><lem resp="eva"></lem><rdg wit="【大】">[20]</rdg></app>是紙上墨書分名。是即亦有詮表應亦是
+<lb n="0108c28"/><corr resp="eva" sic="[20]"></corr>是紙上墨書分名。是即亦有詮表應亦是
 <lb n="0108c29"/>名。如何言無詮表</p><p type="inline">非為顯書分至非
 <pb ed="T" id="T41.1821.0109a" n="0109a"/>
 <lb n="0109a01"/>書分名者。答。非為顯紙上書分製造阿．&CB00733;
@@ -10721,7 +10721,7 @@ Added comment  for Emacs
 <lb n="0118b04"/>同類因從多分說故。言無記色蘊。望無記
 <lb n="0118b05"/>四蘊。非同類因。此中總望四蘊作法</p>
 <lb n="0118b06"/><p>又一身中至因增上等者　十位。謂胎內有
-<lb n="0118b07"/>五。一羯<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>藍。二阿部曇。三閉尸。四揭南。五
+<lb n="0118b07"/>五。一羯<corr sic="刺">剌</corr>藍。二阿部曇。三閉尸。四揭南。五
 <lb n="0118b08"/>&CB00425;羅奢佉　胎外有五。一嬰<note n="0118004" resp="Taisho" type="orig" place="foot text">孩＝兒【乙】</note><app n="0118004"><lem>孩</lem><rdg wit="【乙】" resp="Taisho">兒</rdg></app>。二童子。三
 <lb n="0118b09"/>少年。四盛年。五老年　現身十位後皆除前。
 <lb n="0118b10"/>若對餘未來身同類十位。一一皆與十位為
@@ -10745,8 +10745,8 @@ Added comment  for Emacs
 <lb n="0118b28"/>眼與<note n="0118006" resp="Taisho" type="orig" place="foot text">左＝右【乙】</note><app n="0118006"><lem>左</lem><rdg wit="【乙】" resp="Taisho">右</rdg></app>眼為同類因。右眼．及長養．異熟
 <lb n="0118b29"/>等。一一自類相望為同類因。此俱舍等論。
 <pb ed="T" id="T41.1821.0118c" n="0118c"/>
-<lb n="0118c01"/>云羯<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>藍等。一一能與十位為同類因。是
-<lb n="0118c02"/>即亦與非相似法為因。且如羯<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>藍。唯
+<lb n="0118c01"/>云羯<corr sic="刺">剌</corr>藍等。一一能與十位為同類因。是
+<lb n="0118c02"/>即亦與非相似法為因。且如羯<corr sic="刺">剌</corr>藍。唯
 <lb n="0118c03"/>有身根．及大種。如何得與六處中眼等四
 <lb n="0118c04"/>根。為同類因　解云。一一皆與十位為同
 <lb n="0118c05"/>類因者。據總相說。非言一一皆遍為因。
@@ -13407,12 +13407,12 @@ Added comment  for Emacs
 <lb n="0148b21"/>炎熱。若內．若外。自身．他身。皆出猛火互相
 <lb n="0148b22"/>燒害。熱中極故名為極熱　又此論下文釋
 <lb n="0148b23"/>第八地獄云。受苦無間故名無間。無樂
-<lb n="0148b24"/>間苦故名無間　言四洲者。南贍部<app><lem>洲</lem><rdg wit="【大】">州</rdg></app>。或
+<lb n="0148b24"/>間苦故名無間　言四洲者。南贍部<corr sic="州">洲</corr>。或
 <lb n="0148b25"/>從林立號。或以&CB00031;標名　東勝身洲身形
 <lb n="0148b26"/>勝故。或身勝贍部故名勝身。梵云毘提河
-<lb n="0148b27"/>　西牛貨<app><lem>洲</lem><rdg wit="【大】">州</rdg></app>以牛貨易故名牛貨。梵云瞿陀
-<lb n="0148b28"/>尼　北俱盧唐言勝處。於四<app><lem>洲</lem><rdg wit="【大】">州</rdg></app>中處最勝
-<lb n="0148b29"/>故。或云勝生。於四<app><lem>洲</lem><rdg wit="【大】">州</rdg></app>中生最勝故　餘文
+<lb n="0148b27"/>　西牛貨<corr sic="州">洲</corr>以牛貨易故名牛貨。梵云瞿陀
+<lb n="0148b28"/>尼　北俱盧唐言勝處。於四<corr sic="州">洲</corr>中處最勝
+<lb n="0148b29"/>故。或云勝生。於四<corr sic="州">洲</corr>中生最勝故　餘文
 <pb ed="T" id="T41.1821.0148c" n="0148c"/>
 <lb n="0148c01"/>可知</p><p type="inline">此欲界上至八色究竟天者。此釋
 <lb n="0148c02"/>色界十七天。正理二十一釋諸天名云。廣
@@ -15319,13 +15319,13 @@ Added comment  for Emacs
 <lb n="0169c15"/>預。而說此常住法依彼無明等而立。為彼
 <lb n="0169c16"/>無明等緣起。又無明等名為緣起。汝謂<note n="0169006" resp="Taisho" type="orig" place="foot text">目＝相【甲】</note><app n="0169006"><lem>目</lem><rdg wit="【甲】" resp="Taisho">相</rdg></app>
 <lb n="0169c17"/>常。如是緣起句義與常無相<note n="0169007" resp="Taisho" type="orig" place="foot text">違＝應【甲】</note><app n="0169007"><lem>違</lem><rdg wit="【甲】" resp="Taisho">應</rdg></app>理</p><p type="inline">此
-<lb n="0169c18"/>中緣起是何句義者。大眾部問</p><p type="inline">&CB00425;<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>底
+<lb n="0169c18"/>中緣起是何句義者。大眾部問</p><p type="inline">&CB00425;<corr sic="刺">剌</corr>底
 <lb n="0169c19"/>至是緣起義者。經部答。或說一切有部答。依
 <lb n="0169c20"/>聲明論有字緣．字界。其字界。若有字緣
 <lb n="0169c21"/>來助。即有種種義起&CB00425;剌底是至義是字緣。
 <lb n="0169c22"/>醫底界是行義是字界。界是體義。此醫底界
-<lb n="0169c23"/>由先&CB00425;<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>底助力。醫底界義轉變成緣。若助
-<lb n="0169c24"/>訖成緣應言&CB00425;<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>底<note place="inline">丁履反</note>帝<note n="0169008" resp="Taisho" type="orig" place="foot text">夜＋（&CB00794;何反）【甲】</note><app n="0169008"><lem>夜</lem><rdg wit="【甲】" resp="Taisho">夜&CB00794;何反</rdg></app><note place="inline">&CB03634;何反</note>此翻名
+<lb n="0169c23"/>由先&CB00425;<corr sic="刺">剌</corr>底助力。醫底界義轉變成緣。若助
+<lb n="0169c24"/>訖成緣應言&CB00425;<corr sic="刺">剌</corr>底<note place="inline">丁履反</note>帝<note n="0169008" resp="Taisho" type="orig" place="foot text">夜＋（&CB00794;何反）【甲】</note><app n="0169008"><lem>夜</lem><rdg wit="【甲】" resp="Taisho">夜&CB00794;何反</rdg></app><note place="inline">&CB03634;何反</note>此翻名
 <lb n="0169c25"/>緣。所以然者。諸緣勢力起果名行。未至
 <lb n="0169c26"/>之時未成緣義。若緣力至果。或諸緣相至。
 <lb n="0169c27"/>方得名緣。故造字家於行界上加至助緣
@@ -15445,7 +15445,7 @@ Added comment  for Emacs
 <lb n="0171a21"/>應準前可知</p><p type="inline">有執更以至是緣起義者。
 <lb n="0171a22"/>此是經部中上坐解。字界．字緣各含多義。故
 <lb n="0171a23"/>通異釋。上坐為順己宗。復為一釋通聲
-<lb n="0171a24"/>論難。謂&CB00425;<app><lem>剌</lem><rdg wit="【大】">刺</rdg></app>底取種種義。醫底界取不住
+<lb n="0171a24"/>論難。謂&CB00425;<corr sic="刺">剌</corr>底取種種義。醫底界取不住
 <lb n="0171a25"/>義。言不住者意顯前念<note n="0171003" resp="Taisho" type="orig" place="foot text">法諸＝諸法【甲】</note><app n="0171003"><lem>法諸</lem><rdg wit="【甲】" resp="Taisho">諸法</rdg></app>為緣。法已
 <lb n="0171a26"/>從落謝故名不住。此不住法若但一一不
 <lb n="0171a27"/>能為緣。一無用故。會有眾多方有勢用。
@@ -17668,7 +17668,7 @@ Added comment  for Emacs
 <lb n="0195c19"/>論文四種輪王皆於人壽八萬已上方出世
 <lb n="0195c20"/>間</p><p type="inline">施設足中至應知亦爾者。釋第二．
 <lb n="0195c21"/>第三．及第四句中逆次兩字。初引論釋四
-<lb n="0195c22"/>王。鐵輪王一謂<app><lem>贍</lem><rdg wit="【大】">膽</rdg></app>部。銅輪王二<note n="0195005" resp="Taisho" type="orig" place="foot text">加＝東【甲】</note><app n="0195005"><lem>加</lem><rdg wit="【甲】" resp="Taisho">東</rdg></app>勝身。銀
+<lb n="0195c22"/>王。鐵輪王一謂<corr sic="膽">贍</corr>部。銅輪王二<note n="0195005" resp="Taisho" type="orig" place="foot text">加＝東【甲】</note><app n="0195005"><lem>加</lem><rdg wit="【甲】" resp="Taisho">東</rdg></app>勝身。銀
 <lb n="0195c23"/>輪王三更加牛貨。金輪王四更加北洲
 <lb n="0195c24"/>　契經已下。會釋經文。依論說四輪經就勝
 <lb n="0195c25"/><note n="0195006" resp="Taisho" type="orig" place="foot text">〔說〕－【甲】</note><app n="0195006"><lem>說</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>．但說金輪引經。證訖。論主解云金輪
@@ -18060,7 +18060,7 @@ Added comment  for Emacs
 <lb n="0200a19"/><p rend="margin-left:7">同日以書本加一交了</p>
 <lb n="0200a20"/><p rend="margin-left:1"><note n="0200003" resp="Taisho" type="orig" place="foot text">〔弘安……&CB01398;九〕五十五字－【甲】</note><note n="0200003" resp="CBETA" type="mod"><todo type="a"/>〔弘安…<corr sic="＆CB01398；" resp="CBETA．eva">&CB03746;</corr>九〕<corr sic="五十五" resp="CBETA．eva">四十六</corr>字－【甲】</note>弘安九年五月十六日未時許於東大寺
 <lb n="0200a21"/>三面僧房北室四聖房如形書寫之了</p>
-<lb n="0200a22"/><p rend="margin-left:3">三論兼<app><lem>密</lem><rdg wit="【大】">蜜</rdg></app>宗叡兼<note place="inline">生年二十三夏&CB03746;九花押</note></p></div1>
+<lb n="0200a22"/><p rend="margin-left:3">三論兼<corr sic="蜜">密</corr>宗叡兼<note place="inline">生年二十三夏&CB03746;九花押</note></p></div1>
 <pb ed="T" id="T41.1821.0200b" n="0200b"/>
 <lb n="0200b01"/>
 <milestone unit="juan" n="13"/>
@@ -21446,7 +21446,7 @@ Added comment  for Emacs
 <lb n="0237c17"/>定。為攝此故復說等言。經主釋中應加離
 <lb n="0237c18"/>染。如捨色善由易地．退．及離染三。無色
 <lb n="0237c19"/>亦爾　俱舍師救云。雖離第九品染能捨
-<lb n="0237c20"/>退分。離前八品即不能捨。離染名<app><lem resp="eva"></lem><rdg wit="【大】">[08]</rdg></app>總恐
+<lb n="0237c20"/>退分。離前八品即不能捨。離染名<corr resp="eva" sic="[08]"></corr>總恐
 <lb n="0237c21"/>有所濫故我不說。異生若成煖等善根命
 <lb n="0237c22"/>終定捨雖少故說。又解略而不論。今准此
 <lb n="0237c23"/>論及正理論。唯煖等四順決擇分名殊勝善
@@ -23982,7 +23982,7 @@ Added comment  for Emacs
 <lb n="0266a02"/>能入聖　言不染惠義便。兼舉天趣中有
 <lb n="0266a03"/>生<note n="0266001" resp="Taisho" type="orig" place="foot text">所＝處【甲】</note><app n="0266001"><lem>所</lem><rdg wit="【甲】" resp="Taisho">處</rdg></app>得智。現見善．惡諸業果故。不撥因
 <lb n="0266a04"/>果亦無斷善　不在北洲。彼無極惡阿世
-<lb n="0266a05"/>耶故不能斷善</p><p type="inline">有餘師說贍<app><lem></lem><rdg wit="【大】">瞻</rdg></app>部洲
+<lb n="0266a05"/>耶故不能斷善</p><p type="inline">有餘師說贍<corr sic="瞻"></corr>部洲
 <lb n="0266a06"/>者。敘異說。此師意說。東西二洲亦無極惡
 <lb n="0266a07"/>阿世耶故不能斷善。善心堅牢不妨入聖</p>
 <lb n="0266a08"/><p>若爾便違至亦爾者。破異說。本論中說。
@@ -25348,7 +25348,7 @@ Added comment  for Emacs
 <lb n="0281a18"/>定先菩提決定非<note n="0281004" resp="Taisho" type="orig" place="foot text">到＝餘【乙】</note><app n="0281004"><lem>到</lem><rdg wit="【乙】" resp="Taisho">餘</rdg></app>決定</p>
 <lb n="0281a19"/><p>修妙相業至各百福嚴飾者。此即第二明修
 <lb n="0281a20"/>相業</p><p type="inline">論曰至非聞修類者。釋上兩句。
-<lb n="0281a21"/>一釋<app><lem>贍</lem><rdg wit="【大】">瞻</rdg></app>部。二釋男。三釋對佛。四釋佛<note n="0281005" resp="Taisho" type="orig" place="foot text">思＝恩【乙】</note><app n="0281005"><lem>思</lem><rdg wit="【乙】" resp="Taisho">恩</rdg></app>。
+<lb n="0281a21"/>一釋<corr sic="瞻">贍</corr>部。二釋男。三釋對佛。四釋佛<note n="0281005" resp="Taisho" type="orig" place="foot text">思＝恩【乙】</note><app n="0281005"><lem>思</lem><rdg wit="【乙】" resp="Taisho">恩</rdg></app>。
 <lb n="0281a22"/>五釋思所成。故正理云。唯思所成非修所
 <lb n="0281a23"/>成。不定界故。所感異熟此所繫故。非聞所
 <lb n="0281a24"/>成彼羸劣故。亦非生得加行起故　又婆沙
@@ -25369,7 +25369,7 @@ Added comment  for Emacs
 <lb n="0281b09"/>修。所以者何。此業勝故非聞所成。欲界繫
 <lb n="0281b10"/>故非修所成。有說此業通聞．思所成。但非
 <lb n="0281b11"/>修所成<note place="inline">婆沙雖無評家。諸論既同前師。即以前師為正</note>何處起者。在欲界
-<lb n="0281b12"/><note n="0281009" resp="Taisho" type="orig" place="foot text">〔人〕&M062403;－【原】</note><app n="0281009"><lem>人</lem><rdg wit="【？】" resp="【原】">&lac;</rdg></app><note n="0281010" resp="Taisho" type="orig" place="foot text">起＝趣【乙】</note><app n="0281010"><lem>起</lem><rdg wit="【乙】" resp="Taisho">趣</rdg></app>。唯<app><lem>贍</lem><rdg wit="【大】">瞻</rdg></app>部洲非餘洲。依何身起者。依
+<lb n="0281b12"/><note n="0281009" resp="Taisho" type="orig" place="foot text">〔人〕&M062403;－【原】</note><app n="0281009"><lem>人</lem><rdg wit="【？】" resp="【原】">&lac;</rdg></app><note n="0281010" resp="Taisho" type="orig" place="foot text">起＝趣【乙】</note><app n="0281010"><lem>起</lem><rdg wit="【乙】" resp="Taisho">趣</rdg></app>。唯<corr sic="瞻">贍</corr>部洲非餘洲。依何身起者。依
 <lb n="0281b13"/>男身起非女身等。於何時起者佛出世時。
 <lb n="0281b14"/>非無佛世。緣何境起者。現<note n="0281011" resp="Taisho" type="orig" place="foot text">前＝在【乙】</note><app n="0281011"><lem>前</lem><rdg wit="【乙】" resp="Taisho">在</rdg></app>緣佛起勝
 <lb n="0281b15"/>思願。不緣餘境。問三十二大丈夫相為一
