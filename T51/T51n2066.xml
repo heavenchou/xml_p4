@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/04/20 08:43:32 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2004/06/15 08:39:51 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:43:32 $</date>
+		<date>$Date: 2004/06/15 08:39:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 51, No. 2066 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T51n2066.xml,v $
+Revision 1.13  2004/06/15 08:39:51  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.12  2004/04/20 08:43:32  maha
 「版本日期」標記修訂
 
@@ -154,7 +157,7 @@ Revision 1.6  2001/02/05 09:04:51  saywhat
 mulu
 
 Revision 1.5  2001/02/03 08:11:36  chris
-Added keywords $Revision: 1.12 $, $Date: 2004/04/20 08:43:32 $ and $Log.
+Added keywords $Revision: 1.13 $, $Date: 2004/06/15 08:39:51 $ and $Log.
 Added comment for Emacs
 
 -->
@@ -165,8 +168,8 @@ Added comment for Emacs
 <lb n="0001a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0001a02"/><head type="no">No. 2066</head>
-<lb n="0001a03"/><div1 type="xu"><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0001001" resp="Taisho" type="orig" place="foot text">【原】麗本</note>大唐西域求法高僧傳卷上</jhead></juan>
-<lb n="0001a04"/><mulu type="序" level="1" label="序"/><head><note n="0001002" resp="Taisho" type="orig" place="foot text">〔并序〕－【元】【明】</note><app n="0001002"><lem>并序</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></head>
+<lb n="0001a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0001001" resp="Taisho" type="orig" place="foot text">【原】麗本</note><jhead>大唐西域求法高僧傳卷上</jhead></juan>
+<lb n="0001a04"/><div1 type="xu"><mulu type="序" level="1" label="序"/><head><note n="0001002" resp="Taisho" type="orig" place="foot text">〔并序〕－【元】【明】</note><app n="0001002"><lem>并序</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app></head>
 <lb n="0001a05"/>
 <lb n="0001a06"/><byline type="Author"><note n="0001003" resp="Taisho" type="orig" place="foot text">（（沙門…圖））二十四字＝（（三藏法師義淨奉詔譯））九字【宋】【元】【宮】，（（唐三藏法師義淨奉詔撰））十字【明】</note><app n="0001003" word-count="24"><lem>沙門義淨從西國還在南海室
 <lb n="0001a07"/>利佛逝撰寄歸并那爛陀寺圖</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">三藏法師義淨奉詔譯</rdg><rdg wit="【明】" resp="Taisho">唐三藏法師義淨奉詔撰</rdg></app></byline>
@@ -321,7 +324,7 @@ Added comment for Emacs
 <lb n="0002c10"/><div2 type="other"><mulu type="其他" level="2" label="（新羅復有法師二人）"/><p>復有新羅僧二人。莫知其諱發自長安遠之
 <lb n="0002c11"/>南海。汎舶至室利佛逝國西婆魯師國。遇疾
 <lb n="0002c12"/>俱亡</p></div2>
-<lb n="0002c13"/><div2 type="other"><mulu type="其他" level="2" label="（CB00418貨羅佛陀跋摩師）"/><p>佛陀達摩者。即&CB00418;貨速利國人也。大形模足
+<lb n="0002c13"/><div2 type="other"><mulu type="其他" level="2" label="（＆CB00418；貨羅佛陀跋摩師）"/><p>佛陀達摩者。即&CB00418;貨速利國人也。大形模足
 <lb n="0002c14"/>氣力習小教。<note n="0002026" resp="Taisho" type="orig" place="foot text">常＝&CB00573;【明】</note><app n="0002026"><lem>常</lem><rdg wit="【明】" resp="Taisho">&CB00573;</rdg></app>乞食少因興易。遂屆神州
 <lb n="0002c15"/>云。於益府出家。性好遊涉。九州之地無不履
 <lb n="0002c16"/>焉。後遂西遄周觀聖&CB00528;。淨於那爛陀見矣。後
@@ -663,16 +666,16 @@ Added comment for Emacs
 <lb n="0006b22"/>供養<note place="inline">言驛者即當一<note n="0006015" resp="Taisho" type="orig" place="foot text">踰＝瑜【三】</note><note n="0006015" resp="CBETA" type="mod">踰＝瑜【宋】【元】【明】</note><app n="0006015"><lem>踰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">瑜</rdg></app>繕那也</note>重曰。龍池龜<note n="0006016" resp="Taisho" type="orig" place="foot text">洛＝浴【三】【宮】</note><note n="0006016" resp="CBETA" type="mod">洛＝浴【宋】【元】【明】【宮】</note><app n="0006016"><lem>洛</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">浴</rdg></app>地隔天津。
 <lb n="0006b23"/>途遙去馬道絕來人。致<note n="0006017" resp="Taisho" type="orig" place="foot text">令＝今【三】【宮】</note><note n="0006017" resp="CBETA" type="mod">令＝今【宋】【元】【明】【宮】</note><app n="0006017"><lem>令</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">今</rdg></app>傳說罕得其真。模
 <lb n="0006b24"/>形別匠軌製殊陳依俙。<note n="0006018" resp="Taisho" type="orig" place="foot text">畫＝盡【宋】【元】【宮】</note><app n="0006018"><lem>畫</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">盡</rdg></app>古&CI0003;驚新。庶觀
-<lb n="0006b25"/>者之虔想。若佛在而翹神</p>
+<lb n="0006b25"/>者之虔想。若佛在而翹神</p></div2>
 <lb n="0006b26"/><juan fun="close" n="001"><jhead>大唐西域求法高僧傳卷上</jhead></juan>
-<pb ed="T" id="T51.2066.0006c" n="0006c"/></div2>
+<pb ed="T" id="T51.2066.0006c" n="0006c"/>
 <lb n="0006c01"/>
 <milestone unit="juan" n="2"/>
-<lb n="0006c02"/><div2 type="other">
+<lb n="0006c02"/>
 <lb n="0006c03"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>大唐西域求法高僧傳卷下<note n="0006019" resp="Taisho" type="orig" place="foot text">（此卷十五人）夾註＋并【宋】【元】，〔并重歸南海傳〕－【明】</note><note n="0006019" resp="CBETA" type="mod">（并重歸南海傳）夾註＝（此卷十五人并重歸南海傳）夾註【宋】【元】，－【明】</note><app n="0006019"><lem><note place="inline">并重歸南海傳</note></lem><rdg wit="【宋】【元】" resp="Taisho"><note place="inline">此卷十五人并重歸南海傳</note></rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0006c04"/>
 <lb n="0006c05"/><byline type="Author"><note n="0006020" resp="Taisho" type="orig" place="foot text">（唐）＋三【明】</note><app n="0006020"><lem>三</lem><rdg wit="【明】" resp="Taisho">唐三</rdg></app>藏法師義<note n="0006021" resp="Taisho" type="orig" place="foot text">淨＋（奉詔）【明】</note><app n="0006021"><lem>淨</lem><rdg wit="【明】" resp="Taisho">淨奉詔</rdg></app>撰</byline>
-<lb n="0006c06"/><mulu type="其他" level="2" label="（荊州道琳法師）"/><p>道琳法師者。荊州江陵人也。梵名尸羅&CB00425;頗
+<lb n="0006c06"/><div2 type="other"><mulu type="其他" level="2" label="（荊州道琳法師）"/><p>道琳法師者。荊州江陵人也。梵名尸羅&CB00425;頗
 <lb n="0006c07"/><note n="0006022" resp="Taisho" type="orig" place="foot text">唐云戒光宋元二本俱作本文，唐＝此【明】＊</note><note n="0006022" resp="CBETA" type="mod"><todo type="＊"/>（唐云戒光）夾註＝（唐云戒光）本文【宋】【元】，唐＝此【明】＊</note><app n="0006022"><lem><note place="inline">唐云戒光</note></lem><rdg wit="【宋】【元】" resp="Taisho">唐云戒光</rdg><rdg wit="【明】" resp="Taisho"><note place="inline">此云戒光</note></rdg></app>弱冠之年披緇離俗。成人之歲訪友尋真。
 <lb n="0006c08"/>搜律藏而戒珠瑩啟。禪門而定水清。稟性虛
 <lb n="0006c09"/>潔雅操廉貞。濯青溪以恬志漱玉泉而養靈。
@@ -1129,8 +1132,7 @@ Added comment for Emacs
 <lb n="0011c09"/>新見新知。巧明開制。博識多智。每勵朝聞之
 <lb n="0011c10"/>心。恭儉勤懷。無憂夕死之計。恐眾多而事撓。
 <lb n="0011c11"/>且逐靜而兼濟。縱一焰之隨風。庶<note n="0011024" resp="Taisho" type="orig" place="foot text">十登＝千燈【三】【宮】</note><note n="0011024" resp="CBETA" type="mod">十登＝千燈【宋】【元】【明】【宮】</note><app n="0011024"><lem>十登</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">千燈</rdg></app>而罔
-<lb n="0011c12"/>翳<note place="inline">其六</note></p></div2>
-<div2 type="other"><mulu type="其他" level="2" label="（孟懷業）"/><p place="inline">又貞固弟子一人<app><lem resp="CBETA.say">。</lem><rdg wit="【大】"></rdg></app>俗姓孟。名懷業。梵號
+<lb n="0011c12"/>翳<note place="inline">其六</note></p></div2><div2 type="other"><mulu type="其他" level="2" label="（孟懷業）"/><p place="inline">又貞固弟子一人。俗姓孟。名懷業。梵號
 <lb n="0011c13"/>僧伽提婆。祖父本是北人。因官遂居嶺外。家
 <lb n="0011c14"/>屬權停廣府。慕法遣奉師門。雖可年在弱冠。
 <lb n="0011c15"/>而實志逾<note n="0011025" resp="Taisho" type="orig" place="foot text">強＝弘【元】【明】</note><app n="0011025"><lem>強</lem><rdg wit="【元】【明】" resp="Taisho">弘</rdg></app>。仕見師主。懷弘法之念。即有
@@ -1189,6 +1191,6 @@ Added comment for Emacs
 <lb n="0012b08"/>竭力盡誠思然法炬。誰知業有長短各阻去
 <lb n="0012b09"/>留。每一念來傷歎無<note n="0012015" resp="Taisho" type="orig" place="foot text">及＝極【三】【宮】</note><note n="0012015" resp="CBETA" type="mod">及＝極【宋】【元】【明】【宮】</note><app n="0012015"><lem>及</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">極</rdg></app>。是知麟喻難就危命
 <lb n="0012b10"/>易虧。所有福田共相資濟。龍華初會俱出塵
-<lb n="0012b11"/>勞耳</p></div2>
-<lb n="0012b12"/><juan fun="close" n="002"><jhead>大唐西域求法高僧傳卷下</jhead></juan></div1>
+<lb n="0012b11"/>勞耳</p></div2></div1>
+<lb n="0012b12"/><juan fun="close" n="002"><jhead>大唐西域求法高僧傳卷下</jhead></juan>
 </body></text></TEI.2>
