@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/05/11 02:23:58 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/07/04 13:05:16 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 02:23:58 $</date>
+		<date>$Date: 2004/07/04 13:05:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 18, No. 911 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T18n0911.xml,v $
+Revision 1.5  2004/07/04 13:05:16  saywhat
+修訂 div 位置
+
 Revision 1.4  2004/05/11 02:23:58  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -113,7 +116,7 @@ Revision 1.10  2001/02/07 06:54:07  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.9  2001/02/03 07:43:59  chris
-Added keywords $Revision: 1.4 $, $Date: 2004/05/11 02:23:58 $ and $Log.
+Added keywords $Revision: 1.5 $, $Date: 2004/07/04 13:05:16 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -123,12 +126,12 @@ Added comment  for Emacs
 <lb n="0926a12"/>
 <milestone unit="juan" n="1"/>
 <lb n="0926a13"/>
-<lb n="0926a14"/><head type="no">No. 911</head><div1 type="jing">
-<lb n="0926a15"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0926007" resp="Taisho" type="orig" place="foot text">【原】縮刷大藏經，【甲】黃檗版淨嚴等校訂加筆本塚本賢曉氏藏</note>建立曼荼羅及揀擇地法</jhead></juan>
+<lb n="0926a14"/><head type="no">No. 911</head>
+<lb n="0926a15"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0926007" resp="Taisho" type="orig" place="foot text">【原】縮刷大藏經，【甲】黃檗版淨嚴等校訂加筆本塚本賢曉氏藏</note><jhead>建立曼荼羅及揀擇地法</jhead></juan>
 <lb n="0926a16"/>
 <lb n="0926a17"/><byline type="Collector">上都大興善寺沙門</byline>
 <lb n="0926a18"/><byline type="Collector">慧琳依諸大乘經集</byline>
-<lb n="0926a19"/><p>謹案。蘇悉地。蘇婆呼。玉呬耶。大毘盧遮那成
+<lb n="0926a19"/><div1 type="jing"><p>謹案。蘇悉地。蘇婆呼。玉呬耶。大毘盧遮那成
 <lb n="0926a20"/>佛等經。略集揀擇地建立曼荼羅法。修真言
 <lb n="0926a21"/>者依祕密教。持誦諸尊真言。求世間出世間
 <lb n="0926a22"/>二種成就者。先發不退大菩提心。求入諸佛
@@ -386,8 +389,8 @@ Added comment  for Emacs
 <lb n="0929a04"/>無量種種殊勝廣大佛事。此乃心契祕傳。苟
 <lb n="0929a05"/>非其人道不虛授。豈可形於翰墨悉者也。琳
 <lb n="0929a06"/>雖不才略陳小分大意。萬不書一。惟達學通
-<lb n="0929a07"/>人照見其事也</p>
-<lb n="0929a08"/><juan fun="close" n="001"><jhead>建立壇法</jhead></juan></div1><div1 type="W">
-<lb n="0929a09"/><p>靈雲校本云　貞享四年中春廿夕一校了</p>
+<lb n="0929a07"/>人照見其事也</p></div1>
+<lb n="0929a08"/><juan fun="close" n="001"><jhead>建立壇法</jhead></juan>
+<lb n="0929a09"/><div1 type="W"><p>靈雲校本云　貞享四年中春廿夕一校了</p>
 <lb n="0929a10"/><p>　　　　　　　　　　　淨嚴<note place="inline">四十九載</note></p></div1>
 </body></text></TEI.2>
