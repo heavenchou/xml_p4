@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/07/16 09:13:04 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/09/08 09:59:53 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/07/16 09:13:04 $</date>
+		<date>$Date: 2004/09/08 09:59:53 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 52, No. 2119 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T52n2119.xml,v $
+Revision 1.10  2004/09/08 09:59:53  saywhat
+刪除空的 juan close
+
 Revision 1.9  2004/07/16 09:13:04  moved
 modified：執行 margin.pl，加入 em 單位。
 
@@ -130,7 +133,7 @@ Revision 1.4  2001/02/07 07:43:03  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.3  2001/02/03 08:16:13  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/07/16 09:13:04 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/09/08 09:59:53 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -141,9 +144,9 @@ Added comment  for Emacs
 <lb n="0818a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0818a02"/><head type="no">No. 2119</head>
-<lb n="0818a03"/><div1 type="other"><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0818001" resp="Taisho" type="orig" place="foot text">【原】唐時代寫小泉策太郎氏藏本，【甲】奈良時代寫京都知恩院藏本，（（寺沙…記））八字＝（（大唐三藏玄奘法師表啟一卷））十二字【甲】</note><app n="0818001" word-count="8"><lem>寺沙門玄奘上表記</lem><rdg wit="【甲】" resp="Taisho">大唐三藏玄奘法師表啟一卷</rdg></app><note n="0818001" place="foot" type="rest">【原】唐時代寫小泉策太郎氏藏本，【甲】奈良時代寫京都知恩院藏本</note></jhead></juan>
+<lb n="0818a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0818001" resp="Taisho" type="orig" place="foot text">【原】唐時代寫小泉策太郎氏藏本，【甲】奈良時代寫京都知恩院藏本，（（寺沙…記））八字＝（（大唐三藏玄奘法師表啟一卷））十二字【甲】</note><app n="0818001" word-count="8"><lem>寺沙門玄奘上表記</lem><rdg wit="【甲】" resp="Taisho">大唐三藏玄奘法師表啟一卷</rdg></app><note n="0818001" place="foot" type="rest">【原】唐時代寫小泉策太郎氏藏本，【甲】奈良時代寫京都知恩院藏本</note></jhead></juan>
 <lb n="0818a04"/>
-<lb n="0818a05"/><mulu type="其他" level="1" label="進經論等表"/><head><note n="0818002" resp="Taisho" type="orig" place="foot text">此進經論等表一章原本闕今依甲本補之</note>進經論等表</head>
+<lb n="0818a05"/><div1 type="other"><mulu type="其他" level="1" label="進經論等表"/><note n="0818002" resp="Taisho" type="orig" place="foot text">此進經論等表一章原本闕今依甲本補之</note><head>進經論等表</head>
 <lb n="0818a06"/><p>沙門玄奘言。玄奘聞。義畫既陳。肇有書契。籀
 <lb n="0818a07"/>文斯闡爰盛典暮。徒以&CB06509;義輔德。紀情括性。
 <lb n="0818a08"/>猶纏埃累之間。未出寰區之表。豈若龍宮祕
@@ -924,5 +927,5 @@ Added comment  for Emacs
 <lb n="0826c08"/>子窺奉表以聞。輕黷宸嚴。伏增悚灼。謹言</p>
 <lb n="0826c09"/><p>龍朔三年十一月廿二日坊州宣君懸玉華寺
 <lb n="0826c10"/>沙門玄奘上表</p>
-<lb n="0826c11"/><p rend="margin-left:1em">十二月七日通事舍人憑義宣口&CB00330;許製</p><juan fun="close" n="001"></juan></div1>
+<lb n="0826c11"/><p rend="margin-left:1em">十二月七日通事舍人憑義宣口&CB00330;許製</p></div1>
 </body></text></TEI.2>
