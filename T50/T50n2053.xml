@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)</edition>
+		<edition>$Revision: 1.4 $ (Big5)</edition>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/05 10:04:00 $</date>
+		<date>$Date: 2003/06/12 10:34:21 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 50, No. 2053 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T50n2053.xml,v $
+Revision 1.4  2003/06/12 10:34:21  moved
+「找不到對應的校勘」作業
+
 Revision 1.3  2003/06/05 10:04:00  moved
 cvs 修復前比對
 
@@ -127,7 +130,7 @@ Revision 1.7  2001/02/07 07:34:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 08:10:55  chris
-Added keywords $Revision: 1.3 $, $Date: 2003/06/05 10:04:00 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2003/06/12 10:34:21 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -1743,7 +1746,7 @@ Added comment  for Emacs
 <lb n="0238c03"/>道向王舍城。至此頻<note n="0238019" resp="Taisho" type="orig" place="foot text">毘＝婆【甲】</note><app n="0238019"><lem>毘</lem><rdg wit="【甲】" resp="Taisho">婆</rdg></app>娑羅王與國人百
 <lb n="0238c04"/>千萬眾迎見佛處。又東行三十餘里至因陀
 <lb n="0238c05"/>羅勢羅窶<note n="0238020" resp="Taisho" type="orig" place="foot text">訶＝河【宋】【宮】</note><app n="0238020"><lem>訶</lem><rdg wit="【宋】【宮】" resp="Taisho">河</rdg></app>山。東峰伽藍前有窣堵波。謂僧
-<lb n="0238c06"/><note place="inline"><note n="0238021" resp="Taisho" type="orig" place="foot text">〔斯贈反〕－【明】，斯贈反＝許僧反【宮】【甲】</note><app n="0238021"><lem>斯贈反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宮】【甲】" resp="Taisho">許僧反</rdg></app></note>娑<note place="inline">唐言雁<note n="0238022" resp="Taisho" type="orig" place="foot text">〔也〕－【明】</note><app n="0238022"><lem>也</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>。昔此伽藍依小乘漸教食三淨
+<lb n="0238c06"/><note n="0238021" resp="Taisho" type="orig" place="foot text">〔斯贈反〕－【明】，斯贈反＝許僧反【宮】【甲】</note><app n="0238021"><lem><note place="inline">斯贈反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宮】【甲】" resp="Taisho"><note place="inline">許僧反</note></rdg></app>娑<note place="inline">唐言雁<note n="0238022" resp="Taisho" type="orig" place="foot text">〔也〕－【明】</note><app n="0238022"><lem>也</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></note>。昔此伽藍依小乘漸教食三淨
 <lb n="0238c07"/><note n="0238023" resp="Taisho" type="orig" place="foot text">肉＝食【三】【宮】【甲】</note><note n="0238023" resp="CBETA" type="mod">肉＝食【宋】【元】【明】【宮】【甲】</note><app n="0238023"><lem>肉</lem><rdg wit="【宋】【元】【明】【宮】【甲】" resp="Taisho">食</rdg></app>。於一時中賈贖不得。其檢校人傍<note n="0238024" resp="Taisho" type="orig" place="foot text">偟＝惶【三】</note><note n="0238024" resp="CBETA" type="mod">偟＝惶【宋】【元】【明】</note><app n="0238024"><lem>偟</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惶</rdg></app>
 <lb n="0238c08"/>無<note n="0238025" resp="Taisho" type="orig" place="foot text">措＝惜【甲】</note><app n="0238025"><lem>措</lem><rdg wit="【甲】" resp="Taisho">惜</rdg></app>。乃見群雁翔飛。仰而戲言曰。今日僧
 <lb n="0238c09"/>供有闕。摩訶薩埵宜知是時。言訖。其引前
@@ -1818,10 +1821,10 @@ Added comment  for Emacs
 <lb n="0239b18"/>三者。一布路芟。二布路筲。三布路霜。作具作
 <lb n="0239b19"/>者三者。一布路鎩拏。二布路<note n="0239027" resp="Taisho" type="orig" place="foot text">&CB04434;＝&CB13897;【甲】</note><app n="0239027"><lem>&CB04434;</lem><rdg wit="【甲】" resp="Taisho">&CB13897;</rdg></app><note n="0239028" resp="Taisho" type="orig" place="foot text">〔音〕－【宋】【元】【宮】，〔音鞞僣反〕－【明】</note><note n="0239028" resp="CBETA" type="mod">〔音鞞僣反〕－【明】，〔音〕－【宋】【元】【宮】</note><app n="0239028"><lem><note place="inline">音鞞僣反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">鞞僣反</note></rdg></app>。三布路
 <lb n="0239b20"/>鎩鞞。或言<note n="0239029" resp="Taisho" type="orig" place="foot text">布＋（路）【三】【宮】</note><note n="0239029" resp="CBETA" type="mod">布＋（路）【宋】【元】【明】【宮】</note><app n="0239029"><lem>布</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">布路</rdg></app>鎩呬。所為事三者。一布路廈
-<lb n="0239b21"/><note place="inline"><note n="0239030" resp="Taisho" type="orig" place="foot text">沙＝泔【宋】【元】【宮】，〔沙詐反耶〕－【明】</note><note n="0239030" resp="CBETA" type="mod">〔沙詐反耶〕－【明】，沙＝泔【宋】【元】【宮】</note><app n="0239030"><lem>沙詐反<note n="0239031" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】，耶字本文【甲】</note><note n="0239031" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】，<todo type="i"/>耶字本文【甲】</note><app n="0239031"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">泔詐反耶</rdg></app></note>。二布路沙&CB04434;<note n="0239032" resp="Taisho" type="orig" place="foot text">〔鞞僣反〕－【明】</note><app n="0239032"><lem><note place="inline">鞞僣反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。三布路鎩&CB04410;<note n="0239033" resp="Taisho" type="orig" place="foot text">〔鞞約反〕－【明】＊</note><app n="0239033"><lem><note place="inline">鞞約反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。
+<lb n="0239b21"/><note n="0239030" resp="Taisho" type="orig" place="foot text">沙＝泔【宋】【元】【宮】，〔沙詐反耶〕－【明】</note><note n="0239030" resp="CBETA" type="mod">〔沙詐反耶〕－【明】，沙＝泔【宋】【元】【宮】</note><app n="0239030"><lem><note place="inline">沙詐反<note n="0239031" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】，耶字本文【甲】</note><note n="0239031" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】，<todo type="i"/>耶字本文【甲】</note><app n="0239031"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app></note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">泔詐反耶</note></rdg></app>。二布路沙&CB04434;<note n="0239032" resp="Taisho" type="orig" place="foot text">〔鞞僣反〕－【明】</note><app n="0239032"><lem><note place="inline">鞞僣反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。三布路鎩&CB04410;<note n="0239033" resp="Taisho" type="orig" place="foot text">〔鞞約反〕－【明】＊</note><app n="0239033"><lem><note place="inline">鞞約反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。
 <lb n="0239b22"/>所因三者。一布路沙哆<note n="0239034" resp="Taisho" type="orig" place="foot text">〔他我反〕－【明】</note><app n="0239034"><lem><note place="inline">他我反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。二布路鎩&CB04434;<note n="0239035" resp="Taisho" type="orig" place="foot text">〔同上〕－【明】</note><app n="0239035"><lem><note place="inline">同上</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。
 <lb n="0239b23"/>三布路鎩&CB04410;<note n="0239036" resp="Taisho" type="orig" place="foot text">鞞約反＝同上【宋】【元】【宮】，〔鞞約反〕－【明】</note><app n="0239036"><lem><note place="inline">鞞約反</note></lem><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">同上</note></rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。所屬三者。一布路鎩&CB04406;<note n="0239037" resp="Taisho" type="orig" place="foot text">〔子耶反〕－【明】</note><app n="0239037"><lem><note place="inline">子耶
-<lb n="0239b24"/>反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。二布路鎩&CB04434;。三布路鎩諵<note place="inline"><note n="0239038" resp="Taisho" type="orig" place="foot text">安＝女【宋】【元】【宮】，〔安咸反〕－【明】，安＝母【甲】</note><note n="0239038" resp="CBETA" type="mod">〔安咸反〕－【明】，安＝女【宋】【元】【宮】，安＝母【甲】</note><app n="0239038"><lem>安咸反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">女咸反</rdg><rdg wit="【甲】" resp="Taisho">母咸反</rdg></app></note>。所依三者。一
+<lb n="0239b24"/>反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。二布路鎩&CB04434;。三布路鎩諵<note n="0239038" resp="Taisho" type="orig" place="foot text">安＝女【宋】【元】【宮】，〔安咸反〕－【明】，安＝母【甲】</note><note n="0239038" resp="CBETA" type="mod">〔安咸反〕－【明】，安＝女【宋】【元】【宮】，安＝母【甲】</note><app n="0239038"><lem><note place="inline">安咸反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">女咸反</note></rdg><rdg wit="【甲】" resp="Taisho"><note place="inline">母咸反</note></rdg></app>。所依三者。一
 <lb n="0239b25"/>布路&CB04398;<note n="0239039" resp="Taisho" type="orig" place="foot text">〔所齊反〕－【明】</note><app n="0239039"><lem><note place="inline">所齊反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。二布路殺諭。三布路鎩縐<note n="0239040" resp="Taisho" type="orig" place="foot text">〔所芻反〕－【明】</note><app n="0239040"><lem><note place="inline">所芻反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。
 <lb n="0239b26"/>呼召三者。一系布路殺。二系布路稍。三系布
 <lb n="0239b27"/>路沙。略舉一二如此。餘例可知。難為具
@@ -2030,7 +2033,7 @@ Added comment  for Emacs
 <lb n="0241c24"/>部。並盛宣行。其茂德高才別自有傳。建志
 <lb n="0241c25"/>城即印度南海之口。向僧伽羅國水路三日
 <lb n="0241c26"/>行到。未去之間而彼王死。國內飢亂。有大德
-<lb n="0241c27"/>名菩提迷祇<note place="inline"><note n="0241032" resp="Taisho" type="orig" place="foot text">抑＝柳【宋】【元】【宮】，〔抑&CB00470;反〕－【明】</note><note n="0241032" resp="CBETA" type="mod">〔抑&CB00470;反〕－【明】，抑＝柳【宋】【元】【宮】</note><app n="0241032"><lem>抑&CB00470;反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">柳&CB00470;反</rdg></app></note>濕伐羅<note place="inline">此云<note n="0241033" resp="Taisho" type="orig" place="foot text">自在覺＝覺自在【元】【明】</note><app n="0241033"><lem>自在覺</lem><rdg wit="【元】【明】" resp="Taisho">覺自在</rdg></app>雲</note>阿跋耶鄧
+<lb n="0241c27"/>名菩提迷祇<note n="0241032" resp="Taisho" type="orig" place="foot text">抑＝柳【宋】【元】【宮】，〔抑&CB00470;反〕－【明】</note><note n="0241032" resp="CBETA" type="mod">〔抑&CB00470;反〕－【明】，抑＝柳【宋】【元】【宮】</note><app n="0241032"><lem><note place="inline">抑&CB00470;反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho"><note place="inline">柳&CB00470;反</note></rdg></app>濕伐羅<note place="inline">此云<note n="0241033" resp="Taisho" type="orig" place="foot text">自在覺＝覺自在【元】【明】</note><app n="0241033"><lem>自在覺</lem><rdg wit="【元】【明】" resp="Taisho">覺自在</rdg></app>雲</note>阿跋耶鄧
 <lb n="0241c28"/>瑟<note n="0241034" resp="Taisho" type="orig" place="foot text">&CB04425;＝哳【三】【宮】</note><note n="0241034" resp="CBETA" type="mod">&CB04425;＝哳【宋】【元】【明】【宮】</note><app n="0241034"><lem>&CB04425;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">哳</rdg></app>羅<note place="inline">此云無畏牙</note>。如是等三百餘僧。來投印
 <lb n="0241c29"/>度到建志城。法師與相見訖。問彼僧曰。承
 <pb ed="T" id="T50.2053.0242a" n="0242a"/>
