@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:08:58 $</date>
+		<date>$Date: 2003/06/23 05:06:44 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 16, No. 671 &desc;</bibl>
@@ -59,8 +59,11 @@
 	</change>
 <!--
 $Log: T16n0671.xml,v $
-Revision 1.1  2003/05/05 04:08:58  ray
-Initial revision
+Revision 1.2  2003/06/23 05:06:44  moved
+＊校勘插入 xml 作業
+
+Revision 1.1.1.1  2003/05/05 04:08:58  ray
+recover cvs
 
 Revision 1.23  2002/12/05 05:48:45  saywhat
 校勘插入處理
@@ -114,7 +117,7 @@ Revision 1.6  2001/02/07 06:51:20  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:40:57  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:08:58 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/23 05:06:44 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -127,7 +130,7 @@ Added comment  for Emacs
 <lb n="0514c02"/><head type="no">No. 671 [Nos. 670, 672]</head><div1 type="pin">
 <lb n="0514c03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>入楞伽經</title>卷第一</jhead></juan>
 <lb n="0514c04"/>
-<lb n="0514c05"/><byline type="Translator">元魏天竺三<note n="0514008" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】【宮】＊</note><note n="0514008" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】【宮】＊</note><app n="0514008"><lem>藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">藏法師</rdg></app>菩提<note n="0514009" resp="Taisho" type="orig" place="foot text">留＝流【宋】【宮】＊</note><app n="0514009"><lem>留</lem><rdg wit="【宋】【宮】" resp="Taisho">流</rdg></app>支<note n="0514010" resp="Taisho" type="orig" place="foot text">（第三）＋譯【元】＊</note><app n="0514010"><lem>譯</lem><rdg wit="【元】" resp="Taisho">第三譯</rdg></app></byline>
+<lb n="0514c05"/><byline type="Translator">元魏天竺三<note n="0514008" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】【宮】＊</note><note n="0514008" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】【宮】＊</note><app n="0514008"><lem>藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">藏法師</rdg></app>菩提<note n="0514009" resp="Taisho" type="orig" place="foot text">留＝流【宋】【宮】＊</note><app n="0514009"><lem>留</lem><rdg wit="【宋】【宮】" resp="Taisho">流</rdg></app>支<note n="0514010" resp="Taisho" type="orig" place="foot text">（第三）＋譯【元】＊</note><note n="0514010" resp="CBETA" type="mod"><todo type="＊"/>（第三）＋譯【元】＊</note><app n="0514010"><lem>譯</lem><rdg wit="【元】" resp="Taisho">第三譯</rdg></app></byline>
 <lb n="0514c06"/><mulu type="品" level="1" n="1" label="1 請佛品(一)"/><head>請佛品第一</head>
 <lb n="0514c07"/><p>歸命大<note n="0514011" resp="Taisho" type="orig" place="foot text">智＋（慧）【三】【宮】</note><note n="0514011" resp="CBETA" type="mod">智＋（慧）【宋】【元】【明】【宮】</note><app n="0514011"><lem>智</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">智慧</rdg></app>海毘盧遮那佛。如是我聞。一時
 <lb n="0514c08"/>婆伽婆住大海<note n="0514012" resp="Taisho" type="orig" place="foot text">畔＝毘【宋】</note><app n="0514012"><lem>畔</lem><rdg wit="【宋】" resp="Taisho">毘</rdg></app>摩羅耶山頂上楞伽城中。
@@ -738,8 +741,8 @@ Added comment  for Emacs
 <lb n="0521b13"/>願見。三輪見非三輪見。相見非相見。有無立
 <lb n="0521b14"/>見非有無立見。有二見無二見。緣內身聖見
 <lb n="0521b15"/>非緣內身聖見。現法樂見非現法樂見。國土
-<lb n="0521b16"/>見非國土見。微塵見非微塵見。<note n="0521011" resp="Taisho" type="orig" place="foot text">水見＝外見【宮】＊</note><app n="0521011"><lem>水見</lem><rdg wit="【宮】" resp="Taisho">外見</rdg></app>非<anchor id="fxT16p0521b01"/>水
-<lb n="0521b17"/>見。弓見非弓見。四大見非四大見。數見非數
+<lb n="0521b16"/>見非國土見。微塵見非微塵見。<note n="0521011" resp="Taisho" type="orig" place="foot text">水見＝外見【宮】＊</note><app n="0521011"><lem>水見</lem><rdg wit="【宮】" resp="Taisho">外見</rdg></app>非<app type="＊" source="0521011"><lem>水
+<lb n="0521b17"/>見</lem><rdg resp="Taisho" wit="【宮】">外見</rdg></app>。弓見非弓見。四大見非四大見。數見非數
 <lb n="0521b18"/>見。通見非通見。虛妄見非虛妄見。雲見非雲
 <lb n="0521b19"/>見。工巧見非工巧見。明處見非明處見。風見
 <lb n="0521b20"/>非風見。地見非地見。心見非心見。假名見非
@@ -755,16 +758,16 @@ Added comment  for Emacs
 <pb ed="T" id="T16.0671.0521c" n="0521c"/>
 <lb n="0521c01"/>起滅盡定見非起滅盡定見。治見非治見。相
 <lb n="0521c02"/>見非相見。支見非支見。巧明見非巧明見。禪
-<lb n="0521c03"/>見非禪見。迷見非迷見。現<anchor id="fxT16p0521c01"/>見非現<anchor id="fxT16p0521c02"/>見。護見
+<lb n="0521c03"/>見非禪見。迷見非迷見。現<app type="＊" source="0521012"><lem>見</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">見見</rdg></app>非現<app type="＊" source="0521012"><lem>見</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">見見</rdg></app>。護見
 <lb n="0521c04"/>非護見。族姓見非族姓見。仙人見非仙人見。
 <lb n="0521c05"/>王見非王見。捕取見非捕取見。實見非實見。
 <lb n="0521c06"/>記見非記見。一闡提見非一闡提見。男女見
 <lb n="0521c07"/>非男女見。味見非味見。作見非作見。身見非
 <lb n="0521c08"/>身見。覺見非覺見。動見非動見。根見非根見。
 <lb n="0521c09"/>有為見非有為見。因果見非因果見。色究竟
-<lb n="0521c10"/>見非色究竟見。時見非時見。<note n="0521013" resp="Taisho" type="orig" place="foot text">樹林＝林樹【三】【宮】＊</note><note n="0521013" resp="CBETA" type="mod">樹林＝林樹【宋】【元】【明】【宮】＊</note><app n="0521013"><lem>樹林</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">林樹</rdg></app>見非<anchor id="fxT16p0521c03"/>樹
-<lb n="0521c11"/>林見。種種見非種種見。說見非說見。<note n="0521014" resp="Taisho" type="orig" place="foot text">比丘＝毘尼【明】【宮】＊</note><app n="0521014"><lem>比丘</lem><rdg wit="【明】【宮】" resp="Taisho">毘尼</rdg></app>
-<lb n="0521c12"/>見非<anchor id="fxT16p0521c04"/>比丘見。比丘<note n="0521015" resp="Taisho" type="orig" place="foot text">〔尼〕－【明】【宮】＊</note><app n="0521015"><lem>尼</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>見非比丘<anchor id="fxT16p0521c05"/>尼見。住持
+<lb n="0521c10"/>見非色究竟見。時見非時見。<note n="0521013" resp="Taisho" type="orig" place="foot text">樹林＝林樹【三】【宮】＊</note><note n="0521013" resp="CBETA" type="mod">樹林＝林樹【宋】【元】【明】【宮】＊</note><app n="0521013"><lem>樹林</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">林樹</rdg></app>見非<app type="＊" source="0521013"><lem>樹
+<lb n="0521c11"/>林</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">林樹</rdg></app>見。種種見非種種見。說見非說見。<note n="0521014" resp="Taisho" type="orig" place="foot text">比丘＝毘尼【明】【宮】＊</note><app n="0521014"><lem>比丘</lem><rdg wit="【明】【宮】" resp="Taisho">毘尼</rdg></app>
+<lb n="0521c12"/>見非<app type="＊" source="0521014"><lem>比丘</lem><rdg resp="Taisho" wit="【明】【宮】">毘尼</rdg></app>見。比丘<note n="0521015" resp="Taisho" type="orig" place="foot text">〔尼〕－【明】【宮】＊</note><app n="0521015"><lem>尼</lem><rdg wit="【明】【宮】" resp="Taisho">&lac;</rdg></app>見非比丘<app type="＊" source="0521015"><lem>尼</lem><rdg resp="Taisho" wit="【明】【宮】">&lac;</rdg></app>見。住持
 <lb n="0521c13"/>見非住持見。字見非字見。大慧。此百八見過
 <lb n="0521c14"/>去諸佛所說。汝及諸菩薩當如是學</p>
 <lb n="0521c15"/><juan fun="close" n="001"><jhead><title>入楞伽經</title>卷第一</jhead></juan></div1>
@@ -1002,7 +1005,7 @@ Added comment  for Emacs
 <lb n="0524b06"/><note n="0524003" resp="Taisho" type="orig" place="foot text">眾＝摩訶薩【三】【宮】</note><note n="0524003" resp="CBETA" type="mod">眾＝摩訶薩【宋】【元】【明】【宮】</note><app n="0524003"><lem>眾</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">摩訶薩</rdg></app>心之所念。承佛如來住持之力。問於如
 <lb n="0524b07"/>來名聖智行分別法門體。世尊。願為我說
 <lb n="0524b08"/>名聖智行分別法門體。依百八<note n="0524004" resp="Taisho" type="orig" place="foot text">見＝句【三】【宮】＊</note><note n="0524004" resp="CBETA" type="mod">見＝句【宋】【元】【明】【宮】＊</note><app n="0524004"><lem>見</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">句</rdg></app>分別說。
-<lb n="0524b09"/>如來應正遍知。依此百八<anchor id="fxT16p0524b01"/>見為諸菩薩摩
+<lb n="0524b09"/>如來應正遍知。依此百八<app type="＊" source="0524004"><lem>見</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">句</rdg></app>為諸菩薩摩
 <lb n="0524b10"/>訶薩。分別說自相同相妄想分別體修行差
 <lb n="0524b11"/>別法。<note n="0524005" resp="Taisho" type="orig" place="foot text">〔大慧〕－【三】【宮】</note><note n="0524005" resp="CBETA" type="mod">〔大慧〕－【宋】【元】【明】【宮】</note><app n="0524005"><lem>大慧</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。諸菩薩善得此妄想分別自體
 <lb n="0524b12"/>法行差別能清淨人無我法無我。善解諸地
@@ -1368,7 +1371,7 @@ Added comment  for Emacs
 <lb n="0528b11"/>相異相。此法如是如是畢竟不異。大慧。依
 <lb n="0528b12"/>此無量世來煩惱薰習執著而起。大慧。是名
 <lb n="0528b13"/>建立非有相。大慧。何者建立非正見相。大慧。
-<lb n="0528b14"/>彼陰界入中。無我<anchor id="fxT16p0528b01"/>人眾生壽者作者受者。
+<lb n="0528b14"/>彼陰界入中。無我<app type="＊" source="0527004"><lem>人</lem><rdg resp="Taisho" wit="【元】">入</rdg></app>眾生壽者作者受者。
 <lb n="0528b15"/>而建立邪見。謂有我等故。大慧。是名建立
 <lb n="0528b16"/>非正見相。大慧。何者建立非有因相。謂初識
 <lb n="0528b17"/>不從因生。本不生後時生如幻。本無因物
@@ -1496,7 +1499,7 @@ Added comment  for Emacs
 <lb n="0529c19"/><lg><l>人我及於陰</l><l>眾緣與微塵</l>
 <lb n="0529c20"/><l>自性自在作</l><l><note n="0529004" resp="Taisho" type="orig" place="foot text">唯＝惟【三】【宮】＊</note><note n="0529004" resp="CBETA" type="mod">唯＝惟【宋】【元】【明】【宮】＊</note><app n="0529004"><lem>唯</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">惟</rdg></app>心妄分別</l></lg>
 <lb n="0529c21"/><p>爾時聖者大慧菩薩。觀察未來一切眾生。復
-<lb n="0529c22"/>請佛言。<anchor id="fxT16p0529c01"/>唯願世尊。為諸菩薩說如實修行
+<lb n="0529c22"/>請佛言。<app type="＊" source="0529004"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願世尊。為諸菩薩說如實修行
 <lb n="0529c23"/>法。彼諸菩薩聞說如實修行之法。便得成
 <lb n="0529c24"/>就如實修行者。佛告聖者大慧菩薩摩訶薩
 <lb n="0529c25"/>言。大慧。有四種法得名為大如實修行者。
@@ -1543,7 +1546,7 @@ Added comment  for Emacs
 <lb n="0530b06"/>內外。大慧。外法因緣集相者。所謂泥團<note n="0530002" resp="Taisho" type="orig" place="foot text">等＝輪【三】【宮】</note><note n="0530002" resp="CBETA" type="mod">等＝輪【宋】【元】【明】【宮】</note><app n="0530002"><lem>等</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">輪</rdg></app>
 <lb n="0530b07"/>柱輪繩人功方便緣故。則有瓶生。大慧。如泥
 <lb n="0530b08"/>團等因緣生瓶。如是縷<note n="0530003" resp="Taisho" type="orig" place="foot text">疊＝&CB00626;【明】</note><app n="0530003"><lem>疊</lem><rdg wit="【明】" resp="Taisho">&CB00626;</rdg></app>草席<note n="0530004" resp="Taisho" type="orig" place="foot text">種＝穜【元】【明】</note><app n="0530004"><lem>種</lem><rdg wit="【元】【明】" resp="Taisho">穜</rdg></app><note n="0530005" resp="Taisho" type="orig" place="foot text">牙＝芽【元】</note><app n="0530005"><lem>牙</lem><rdg wit="【元】" resp="Taisho">芽</rdg></app><note n="0530006" resp="Taisho" type="orig" place="foot text">湩＝種【三】，橦【宮】</note><note n="0530006" resp="CBETA" type="mod">湩＝種【宋】【元】【明】，＝橦【宮】</note><app n="0530006"><lem>湩</lem><rdg wit="【宋】【元】【明】" resp="Taisho">種</rdg><rdg wit="【宮】" resp="Taisho">橦</rdg></app>
-<lb n="0530b09"/>等人功生酪。生酪已生<note n="0530007" resp="Taisho" type="orig" place="foot text">酥＝蘇【宋】【元】【宮】＊</note><app n="0530007"><lem>酥</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">蘇</rdg></app><anchor id="fxT16p0530b01"/>生酥已得醍
+<lb n="0530b09"/>等人功生酪。生酪已生<note n="0530007" resp="Taisho" type="orig" place="foot text">酥＝蘇【宋】【元】【宮】＊</note><note n="0530007" resp="CBETA" type="mod"><todo type="＊"/>酥＝蘇【宋】【元】【宮】＊</note><app n="0530007"><lem>酥</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">蘇</rdg></app><anchor id="fxT16p0530b01"/>生酥已得醍
 <lb n="0530b10"/>醐。大慧。是名外法因緣集相。從下上上應
 <lb n="0530b11"/>知。大慧。何者內法因緣集相。大慧。所謂無明
 <lb n="0530b12"/>業愛。如是等法名內因緣集相。大慧。因無
@@ -1751,7 +1754,7 @@ Added comment  for Emacs
 <lb n="0532c04"/><l>如意識種子</l><l>境界動生見</l>
 <lb n="0532c05"/><l>愚癡取為實</l><l>彼法生如翳</l>
 <lb n="0532c06"/><l>無始世愚癡</l><l>取物如懷抱</l>
-<lb n="0532c07"/><l>如因<note n="0532006" resp="Taisho" type="orig" place="foot text">榍＝楔【三】【宮】＊</note><note n="0532006" resp="CBETA" type="mod">榍＝楔【宋】【元】【明】【宮】＊</note><app n="0532006"><lem>榍</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">楔</rdg></app>出榍</l><l>誑凡夫入法</l>
+<lb n="0532c07"/><l>如因<note n="0532006" resp="Taisho" type="orig" place="foot text">榍＝楔【三】【宮】＊</note><note n="0532006" resp="CBETA" type="mod"><todo type="＊"/>榍＝楔【宋】【元】【明】【宮】＊</note><app n="0532006"><lem>榍</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">楔</rdg></app>出榍</l><l>誑凡夫入法</l>
 <lb n="0532c08"/><l>幻起尸機關</l><l>夢電雲&M010527;爾</l>
 <lb n="0532c09"/><l>觀世間如是</l><l>斷有得解脫</l>
 <lb n="0532c10"/><l>陽焰虛空中</l><l>無有諸識知</l>
@@ -2368,7 +2371,7 @@ Added comment  for Emacs
 <lb n="0539b19"/><l>譬如修行者</l><l>一事見種種</l>
 <lb n="0539b20"/><l>彼法無種種</l><l>分別相如是</l>
 <lb n="0539b21"/><l>如目種種<note n="0539005" resp="Taisho" type="orig" place="foot text">&CB00622;＝翳【三】【宮】＊</note><note n="0539005" resp="CBETA" type="mod">&CB00622;＝翳【宋】【元】【明】【宮】＊</note><app n="0539005"><lem>&CB00622;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">翳</rdg></app></l><l>妄想見眾色</l>
-<lb n="0539b22"/><l><anchor id="fxT16p0539b01"/>&CB00622;無色非色</l><l>無智取法爾</l>
+<lb n="0539b22"/><l><app type="＊" source="0539005"><lem>&CB00622;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">翳</rdg></app>無色非色</l><l>無智取法爾</l>
 <lb n="0539b23"/><l>如真金離垢</l><l>如水離泥濁</l>
 <lb n="0539b24"/><l>如虛空離雲</l><l>真法淨亦爾</l>
 <lb n="0539b25"/><l>無有妄想法</l><l>因緣法亦<note n="0539006" resp="Taisho" type="orig" place="foot text">無＝爾【宮】</note><app n="0539006"><lem>無</lem><rdg wit="【宮】" resp="Taisho">爾</rdg></app></l>
@@ -2819,7 +2822,7 @@ Added comment  for Emacs
 <lb n="0544b19"/><l>我有三種慧</l><l>依彼得聖名</l>
 <lb n="0544b20"/><l>於彼<note n="0544003" resp="Taisho" type="orig" place="foot text">想＝相【元】【明】【宮】＊</note><app n="0544003"><lem>想</lem><rdg wit="【元】【明】【宮】" resp="Taisho">相</rdg></app>分別</l><l>能聞於有無</l>
 <lb n="0544b21"/><l>離於二乘行</l><l>慧離於境界</l>
-<lb n="0544b22"/><l>取於有無<anchor id="fxT16p0544b01"/>想</l><l>從諸聲聞生</l>
+<lb n="0544b22"/><l>取於有無<app type="＊" source="0544003"><lem>想</lem><rdg resp="Taisho" wit="【元】【明】【宮】">相</rdg></app></l><l>從諸聲聞生</l>
 <lb n="0544b23"/><l><note n="0544004" resp="Taisho" type="orig" place="foot text">能入唯＝唯入如【三】【宮】</note><note n="0544004" resp="CBETA" type="mod">能入唯＝唯入如【宋】【元】【明】【宮】</note><app n="0544004"><lem>能入唯</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唯入如</rdg></app>是心</l><l>智慧無垢相</l></lg>
 <lb n="0544b24"/><p>復次大慧。諸外道有九種轉變見。何等為
 <lb n="0544b25"/>九。一者形相轉變。二者相轉變。三者因轉變。
@@ -2853,7 +2856,7 @@ Added comment  for Emacs
 <lb n="0544c23"/>相。離一切法相續不相續言說文字妄想已。
 <lb n="0544c24"/>得力自在神通遊化十方一切諸佛國土
 <lb n="0544c25"/>大眾之中。陀羅尼門善印所印。十盡句善
-<lb n="0544c26"/><note n="0544005" resp="Taisho" type="orig" place="foot text">轉＝縛【三】【宮】＊</note><note n="0544005" resp="CBETA" type="mod">轉＝縛【宋】【元】【明】【宮】＊</note><app n="0544005"><lem>轉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">縛</rdg></app>所<anchor id="fxT16p0544c01"/>轉。種種變化光明照曜。譬如四大
+<lb n="0544c26"/><note n="0544005" resp="Taisho" type="orig" place="foot text">轉＝縛【三】【宮】＊</note><note n="0544005" resp="CBETA" type="mod">轉＝縛【宋】【元】【明】【宮】＊</note><app n="0544005"><lem>轉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">縛</rdg></app>所<app type="＊" source="0544005"><lem>轉</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">縛</rdg></app>。種種變化光明照曜。譬如四大
 <lb n="0544c27"/>日月摩尼自然而行。眾生受用遠離諸地惟
 <lb n="0544c28"/>自心見分別之相。示一切法如幻<note n="0544006" resp="Taisho" type="orig" place="foot text">〔如〕－【宮】</note><app n="0544006"><lem>如</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>夢。示
 <lb n="0544c29"/>入依止諸佛之地。於眾生界隨其所應而
@@ -3312,7 +3315,7 @@ Added comment  for Emacs
 <lb n="0550a01"/><l>妄想見種種</l><l>凡夫不能知</l>
 <lb n="0550a02"/><l>經經說分別</l><l>種種異名字</l>
 <lb n="0550a03"/><l>離於言語法</l><l><note n="0550001" resp="Taisho" type="orig" place="foot text">不＝可【三】【宮】</note><note n="0550001" resp="CBETA" type="mod">不＝可【宋】【元】【明】【宮】</note><app n="0550001"><lem>不</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">可</rdg></app>說不可得</l></lg></div1>
-<lb n="0550a04"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 法身品(六)"/><head><anchor id="fxT16p0550a01"/><title>入楞伽經</title>法身品第七</head>
+<lb n="0550a04"/><div1 type="pin"><mulu type="品" level="1" n="7" label="7 法身品(六)"/><head><app type="＊" source="0549002"><lem><title>入楞伽經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>法身品第七</head>
 <lb n="0550a05"/><p>爾時聖者大慧菩薩白佛言。世尊。如來應正
 <lb n="0550a06"/>遍知。惟願演說自身所證內覺知法。以何等
 <lb n="0550a07"/>法名為法身。我及一切諸菩薩等。善知如
@@ -3486,12 +3489,12 @@ Added comment  for Emacs
 <lb n="0551c25"/>是。聞聲執著名字指故。乃至沒命終不能
 <lb n="0551c26"/>捨文字之指取第一<note n="0551010" resp="Taisho" type="orig" place="foot text">義＋（故）【三】【宮】</note><note n="0551010" resp="CBETA" type="mod">義＋（故）【宋】【元】【明】【宮】</note><app n="0551010"><lem>義</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">義故</rdg></app>。大慧。譬如穀粟
 <lb n="0551c27"/>名凡夫食。不舂不<note n="0551011" resp="Taisho" type="orig" place="foot text">吹＝炊【三】【宮】＊</note><note n="0551011" resp="CBETA" type="mod">吹＝炊【宋】【元】【明】【宮】＊</note><app n="0551011"><lem>吹</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">炊</rdg></app>不可得食。若其有
-<lb n="0551c28"/>人未作食者名為顛狂。要須次第乃至<anchor id="fxT16p0551c01"/>吹
+<lb n="0551c28"/>人未作食者名為顛狂。要須次第乃至<app type="＊" source="0551011"><lem>吹</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">炊</rdg></app>
 <lb n="0551c29"/>熟方得成食。大慧。不生不滅亦復如是。不
 <pb ed="T" id="T16.0671.0552a" n="0552a"/>
 <lb n="0552a01"/>修巧智方便行者。不得具足莊嚴法身。大
 <lb n="0552a02"/>慧。執著名字言得義者。如彼癡人不知
-<lb n="0552a03"/>舂<anchor id="fxT16p0552a01"/>吹。噉文字穀不得義食。以是義故當
+<lb n="0552a03"/>舂<app type="＊" source="0551011"><lem>吹</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">炊</rdg></app>。噉文字穀不得義食。以是義故當
 <lb n="0552a04"/>學於義。莫著文字。大慧。所言義者名為
 <lb n="0552a05"/>涅槃。言名字者分別相<note n="0552001" resp="Taisho" type="orig" place="foot text">縛＝續【明】【宮】</note><app n="0552001"><lem>縛</lem><rdg wit="【明】【宮】" resp="Taisho">續</rdg></app>生世間解。大慧。
 <lb n="0552a06"/>義者從於多聞人得。大慧。言多聞者謂義
@@ -3690,7 +3693,7 @@ Added comment  for Emacs
 <lb n="0554a18"/>更有無常。是故外道說言諸大不生不滅。以
 <lb n="0554a19"/>自體相常不滅故。是故彼說發起作事中間
 <lb n="0554a20"/>不作名為無常。諸大更有發起諸大。無彼
-<lb n="0554a21"/>彼異相同相不生<note n="0554004" resp="Taisho" type="orig" place="foot text">滅＝成【宮】＊</note><app n="0554004"><lem>滅</lem><rdg wit="【宮】" resp="Taisho">成</rdg></app>法。以見諸法不生<anchor id="fxT16p0554a01"/>滅
+<lb n="0554a21"/>彼異相同相不生<note n="0554004" resp="Taisho" type="orig" place="foot text">滅＝成【宮】＊</note><app n="0554004"><lem>滅</lem><rdg wit="【宮】" resp="Taisho">成</rdg></app>法。以見諸法不生<app type="＊" source="0554004"><lem>滅</lem><rdg resp="Taisho" wit="【宮】">成</rdg></app>
 <lb n="0554a22"/>故。而於彼處生無常智。大慧。何者名為形
 <lb n="0554a23"/>相休息無常。謂能造所造形相見形相異如
 <lb n="0554a24"/>長短。非諸大滅而見諸大形相轉變。彼人
@@ -3796,7 +3799,7 @@ Added comment  for Emacs
 <lb n="0555b04"/>意識。不著外法實有之相。而非不為佛法
 <lb n="0555b05"/>修行。依根本智展轉修行。為於自身求佛
 <lb n="0555b06"/>如來證地智故。大慧。如人睡夢<note n="0555003" resp="Taisho" type="orig" place="foot text">度＝渡【宮】＊</note><app n="0555003"><lem>度</lem><rdg wit="【宮】" resp="Taisho">渡</rdg></app>大海水。
-<lb n="0555b07"/>起大方便欲<anchor id="fxT16p0555b01"/>度自身。未度中間忽然便
+<lb n="0555b07"/>起大方便欲<app type="＊" source="0555003"><lem>度</lem><rdg resp="Taisho" wit="【宮】">渡</rdg></app>自身。未度中間忽然便
 <lb n="0555b08"/>寤。作是思惟。此為是實為是虛妄。彼復思
 <lb n="0555b09"/>惟。如是之相非實非虛。唯是我本虛妄分
 <lb n="0555b10"/>別不實境界。熏習因故見種種色。形相顛倒
@@ -4121,7 +4124,7 @@ Added comment  for Emacs
 <lb n="0558c28"/>增長。何以故。諸法無身故。大慧。一切有身
 <lb n="0558c29"/>皆是無常磨滅之法。非無身法。諸佛如來唯
 <pb ed="T" id="T16.0671.0559a" n="0559a"/>
-<lb n="0559a01"/>法身故。大慧。譬如有人欲得<note n="0559001" resp="Taisho" type="orig" place="foot text">蘇＝酥【明】</note><app n="0559001"><lem>蘇</lem><rdg wit="【明】" resp="Taisho">酥</rdg></app>油。<note n="0559002" resp="Taisho" type="orig" place="foot text">押＝壓【元】【明】＊</note><app n="0559002"><lem>押</lem><rdg wit="【元】【明】" resp="Taisho">壓</rdg></app>&M010527;
+<lb n="0559a01"/>法身故。大慧。譬如有人欲得<note n="0559001" resp="Taisho" type="orig" place="foot text">蘇＝酥【明】</note><app n="0559001"><lem>蘇</lem><rdg wit="【明】" resp="Taisho">酥</rdg></app>油。<note n="0559002" resp="Taisho" type="orig" place="foot text">押＝壓【元】【明】＊</note><note n="0559002" resp="CBETA" type="mod"><todo type="＊"/>押＝壓【元】【明】＊</note><app n="0559002"><lem>押</lem><rdg wit="【元】【明】" resp="Taisho">壓</rdg></app>&M010527;
 <lb n="0559a02"/>河沙。終不可得無<note n="0559003" resp="Taisho" type="orig" place="foot text">蘇＝酥【三】【宮】</note><note n="0559003" resp="CBETA" type="mod">蘇＝酥【宋】【元】【明】【宮】</note><app n="0559003"><lem>蘇</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">酥</rdg></app>油故。大慧諸佛如來
 <lb n="0559a03"/>為諸眾生苦惱。所<note n="0559004" resp="Taisho" type="orig" place="foot text">押＝壓【元】【明】【宮】</note><app n="0559004"><lem>押</lem><rdg wit="【元】【明】【宮】" resp="Taisho">壓</rdg></app>瞋不可得。不捨自
 <lb n="0559a04"/>法界相。不捨自法味相。不捨本願與眾生
@@ -4321,7 +4324,7 @@ Added comment  for Emacs
 <lb n="0561a17"/><l>意識亦所生</l><l>見意識共住</l>
 <lb n="0561a18"/><l>見意眼識等</l><l>常無常斷滅</l>
 <lb n="0561a19"/><l>常見依意等</l><l>而起涅槃見</l></lg></div1>
-<lb n="0561a20"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 遮食肉品(八)"/><head><anchor id="fxT16p0561a01"/><title>入楞伽經</title>遮食肉品第十六</head>
+<lb n="0561a20"/><div1 type="pin"><mulu type="品" level="1" n="16" label="16 遮食肉品(八)"/><head><app type="＊" source="0560007"><lem><title>入楞伽經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>遮食肉品第十六</head>
 <lb n="0561a21"/><p>爾時聖者大慧菩薩摩訶薩白佛言。世尊。我
 <lb n="0561a22"/>觀世間生死流轉怨結相連墮諸惡道。皆
 <lb n="0561a23"/>由食肉更相殺害。增長貪瞋不得出離甚
@@ -4642,7 +4645,7 @@ Added comment  for Emacs
 <lb n="0564c08"/><l>及違聖人教</l><l>故不聽食肉</l>
 <lb n="0564c09"/><l>不食生梵種</l><l>及諸修行道</l>
 <lb n="0564c10"/><l>智慧及富貴</l><l>斯由不食肉</l></lg></div1>
-<lb n="0564c11"/><div1 type="pin"><mulu type="品" level="1" n="17" label="17 陀羅尼品(八)"/><head><anchor id="fxT16p0564c01"/><title>入楞伽經</title>陀羅尼品第十七</head>
+<lb n="0564c11"/><div1 type="pin"><mulu type="品" level="1" n="17" label="17 陀羅尼品(八)"/><head><app type="＊" source="0560007"><lem><title>入楞伽經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>陀羅尼品第十七</head>
 <lb n="0564c12"/><p>爾時世尊。告聖者大慧菩薩摩訶薩言。大
 <lb n="0564c13"/>慧。汝應諦聽受持我楞伽經&CB00057;。是&CB00057;過去未
 <lb n="0564c14"/>來現在諸佛。已說今說當說。大慧。我今亦說。
@@ -4685,8 +4688,8 @@ Added comment  for Emacs
 <lb n="0565a21"/>那羅女。摩&CB00264;羅伽摩&CB00264;羅伽女。乾闥婆乾
 <lb n="0565a22"/>闥婆女。浮多浮多女。鳩槃荼鳩槃荼女。毘
 <lb n="0565a23"/>舍闍毘舍闍女。嗚多羅嗚多羅女。阿拔摩羅
-<lb n="0565a24"/>阿拔摩羅女。羅叉羅叉女。嗚<note n="0565010" resp="Taisho" type="orig" place="foot text">闥阿＝闍何【三】【宮】＊</note><note n="0565010" resp="CBETA" type="mod">闥阿＝闍何【宋】【元】【明】【宮】＊</note><app n="0565010"><lem>闥阿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">闍何</rdg></app>羅嗚<anchor id="fxT16p0565a01"/>闥
-<lb n="0565a25"/>阿羅女。伽吒福單那伽吒福單那女。若人若
+<lb n="0565a24"/>阿拔摩羅女。羅叉羅叉女。嗚<note n="0565010" resp="Taisho" type="orig" place="foot text">闥阿＝闍何【三】【宮】＊</note><note n="0565010" resp="CBETA" type="mod">闥阿＝闍何【宋】【元】【明】【宮】＊</note><app n="0565010"><lem>闥阿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">闍何</rdg></app>羅嗚<app type="＊" source="0565010"><lem>闥
+<lb n="0565a25"/>阿</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">闍何</rdg></app>羅女。伽吒福單那伽吒福單那女。若人若
 <lb n="0565a26"/>非人。若人女非人女。彼一切不能得其過
 <lb n="0565a27"/>失。大慧。若有人能受持讀誦此&CB00057;文句。彼
 <lb n="0565a28"/>人得名誦一切楞伽經。是故我說此陀羅尼
@@ -4735,7 +4738,7 @@ Added comment  for Emacs
 <lb n="0565c10"/><l>我說諸方便</l><l>無如是實相</l>
 <lb n="0565c11"/><l>愚癡取實有</l><l>無能相可相</l>
 <lb n="0565c12"/><l>我<note n="0565014" resp="Taisho" type="orig" place="foot text">覺＝觀【三】【宮】</note><note n="0565014" resp="CBETA" type="mod">覺＝觀【宋】【元】【明】【宮】</note><app n="0565014"><lem>覺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">觀</rdg></app>一切法</l><l>而不覺一切</l>
-<lb n="0565c13"/><l>我有一切<note n="0565015" resp="Taisho" type="orig" place="foot text">智＝知【三】【宮】＊</note><note n="0565015" resp="CBETA" type="mod">智＝知【宋】【元】【明】【宮】＊</note><app n="0565015"><lem>智</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">知</rdg></app></l><l>而無一切<anchor id="fxT16p0565c01"/>智</l>
+<lb n="0565c13"/><l>我有一切<note n="0565015" resp="Taisho" type="orig" place="foot text">智＝知【三】【宮】＊</note><note n="0565015" resp="CBETA" type="mod">智＝知【宋】【元】【明】【宮】＊</note><app n="0565015"><lem>智</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">知</rdg></app></l><l>而無一切<app type="＊" source="0565015"><lem>智</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">知</rdg></app></l>
 <lb n="0565c14"/><l>凡夫愚分別</l><l>自言世智者</l>
 <lb n="0565c15"/><l>我未曾覺知</l><l>亦不覺眾生</l>
 <lb n="0565c16"/><l>一切法<note n="0565016" resp="Taisho" type="orig" place="foot text">惟＝唯【三】【宮】</note><note n="0565016" resp="CBETA" type="mod">惟＝唯【宋】【元】【明】【宮】</note><app n="0565016"><lem>惟</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唯</rdg></app>心</l><l>諸陰如毛輪</l>
@@ -4788,7 +4791,7 @@ Added comment  for Emacs
 <lb n="0566b03"/><l>迷惑是幻有</l><l>幻非迷惑因</l>
 <lb n="0566b04"/><l>心無迷惑法</l><l>亦非不少有</l>
 <lb n="0566b05"/><l>心依二法縛</l><l>阿梨耶識起</l>
-<lb n="0566b06"/><l>但心如是見</l><l>我法如<anchor id="fxT16p0566b01"/>瀑水</l>
+<lb n="0566b06"/><l>但心如是見</l><l>我法如<app type="＊" source="0565019"><lem>瀑</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暴</rdg></app>水</l>
 <lb n="0566b07"/><l>觀世間如是</l><l>爾時轉諸心</l>
 <lb n="0566b08"/><l>乃是我真子</l><l>成就實法行</l>
 <lb n="0566b09"/><l>煖濕及堅動</l><l>愚分別諸法</l>
@@ -4863,7 +4866,7 @@ Added comment  for Emacs
 <lb n="0567a18"/><l>轉變彼諸相</l><l>彼即是真如</l>
 <lb n="0567a19"/><l>法及人行相</l><l>日月光焰熾</l>
 <lb n="0567a20"/><l>大諸摩尼寶</l><l>無分別作事</l>
-<lb n="0567a21"/><l>諸佛法如是</l><l>如<anchor id="fxT16p0567a01"/>&CB00622;取毛輪</l>
+<lb n="0567a21"/><l>諸佛法如是</l><l>如<app type="＊" source="0566002"><lem>&CB00622;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&CB00799;</rdg></app>取毛輪</l>
 <lb n="0567a22"/><l>如是分別法</l><l>愚癡虛妄<note n="0567002" resp="Taisho" type="orig" place="foot text">取＝身【三】【宮】</note><note n="0567002" resp="CBETA" type="mod">取＝身【宋】【元】【明】【宮】</note><app n="0567002"><lem>取</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">身</rdg></app></l>
 <lb n="0567a23"/><l>離於生住滅</l><l>及離常無常</l>
 <lb n="0567a24"/><l>可見染淨去</l><l>如空中毛輪</l>
@@ -4907,7 +4910,7 @@ Added comment  for Emacs
 <lb n="0567c02"/><l>一切法不生</l><l>但見迷惑法</l>
 <lb n="0567c03"/><l>毛道迷分別</l><l>以住於二法</l>
 <lb n="0567c04"/><l>初識生分別</l><l>種種熏種子</l>
-<lb n="0567c05"/><l>識如<anchor id="fxT16p0567c01"/>瀑水起</l><l>斷彼則不生</l>
+<lb n="0567c05"/><l>識如<app type="＊" source="0565019"><lem>瀑</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">暴</rdg></app>水起</l><l>斷彼則不生</l>
 <lb n="0567c06"/><l>種種念觀法</l><l>若但心中生</l>
 <lb n="0567c07"/><l>如虛空壁中</l><l>何故而不生</l>
 <lb n="0567c08"/><l>若有少相觀</l><l>心則從緣生</l>
@@ -4969,7 +4972,7 @@ Added comment  for Emacs
 <lb n="0568b04"/><l>聖人不見迷</l><l>中間不見實</l>
 <lb n="0568b05"/><l>迷惑即是實</l><l>以實即中間</l>
 <lb n="0568b06"/><l>遠離諸迷惑</l><l>若能生諸相</l>
-<lb n="0568b07"/><l>即是其迷惑</l><l>如眼<anchor id="fxT16p0568b01"/>&CB00622;不淨</l>
+<lb n="0568b07"/><l>即是其迷惑</l><l>如眼<app type="＊" source="0566002"><lem>&CB00622;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&CB00799;</rdg></app>不淨</l>
 <lb n="0568b08"/><l>如&CB00622;<anchor id="fxT16p0568b02"/>見毛輪</l><l>依迷取諸法</l>
 <lb n="0568b09"/><l>於諸境界中</l><l>愚癡取是法</l>
 <lb n="0568b10"/><l>諸法如毛輪</l><l>陽炎水迷惑</l>
@@ -5187,7 +5190,7 @@ Added comment  for Emacs
 <lb n="0570c13"/><l>世間如幻<note n="0570008" resp="Taisho" type="orig" place="foot text">夢＝事【元】</note><app n="0570008"><lem>夢</lem><rdg wit="【元】" resp="Taisho">事</rdg></app></l><l>見依止得實</l>
 <lb n="0570c14"/><l>諸相實相應</l><l>離諸<note n="0570009" resp="Taisho" type="orig" place="foot text">斟＝勘【宮】＊</note><app n="0570009"><lem>斟</lem><rdg wit="【宮】" resp="Taisho">勘</rdg></app>量因</l>
 <lb n="0570c15"/><l>諸聖人內境</l><l>常觀諸妙行</l>
-<lb n="0570c16"/><l>迷覆<anchor id="fxT16p0570c01"/>斟量因</l><l>令世間實解</l>
+<lb n="0570c16"/><l>迷覆<app type="＊" source="0570009"><lem>斟</lem><rdg resp="Taisho" wit="【宮】">勘</rdg></app>量因</l><l>令世間實解</l>
 <lb n="0570c17"/><l>離一切戲論</l><l>智不住迷惑</l>
 <lb n="0570c18"/><l>諸法無體相</l><l>空及常無常</l>
 <lb n="0570c19"/><l>心住於愚癡</l><l>迷惑故分別</l>
@@ -5338,7 +5341,7 @@ Added comment  for Emacs
 <lb n="0572b14"/><l>修行者一事</l><l>惟心種種見</l>
 <lb n="0572b15"/><l>彼處無心體</l><l>如是分別相</l>
 <lb n="0572b16"/><l>如人眼中<note n="0572009" resp="Taisho" type="orig" place="foot text">&CB00622;＝噎【三】【宮】＊</note><note n="0572009" resp="CBETA" type="mod">&CB00622;＝噎【宋】【元】【明】【宮】＊</note><app n="0572009"><lem>&CB00622;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">噎</rdg></app></l><l>分別種種色</l>
-<lb n="0572b17"/><l><anchor id="fxT16p0572b01"/>&CB00622;非色非色</l><l>愚見他力爾</l>
+<lb n="0572b17"/><l><app type="＊" source="0572009"><lem>&CB00622;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">噎</rdg></app>非色非色</l><l>愚見他力爾</l>
 <lb n="0572b18"/><l>如金離塵垢</l><l>如水離泥濁</l>
 <lb n="0572b19"/><l>如虛空離雲</l><l>如是淨分別</l>
 <lb n="0572b20"/><l>聲聞有三種</l><l>應化及願生</l>
@@ -5768,8 +5771,8 @@ Added comment  for Emacs
 <lb n="0577a23"/><l>如外道分別</l><l>無如是外相</l>
 <lb n="0577a24"/><l>如人不識繩</l><l>而取以為蛇</l>
 <lb n="0577a25"/><l>不識自心義</l><l>分別於外法</l>
-<lb n="0577a26"/><l>而<note n="0577003" resp="Taisho" type="orig" place="foot text">乘＝繩【三】【宮】＊</note><note n="0577003" resp="CBETA" type="mod">乘＝繩【宋】【元】【明】【宮】＊</note><app n="0577003"><lem>乘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">繩</rdg></app>於<anchor id="fxT16p0577a01"/>乘體</l><l>離於一二中</l>
-<lb n="0577a27"/><l>以分別於<anchor id="fxT16p0577a02"/>乘</l><l>是自心過失</l>
+<lb n="0577a26"/><l>而<note n="0577003" resp="Taisho" type="orig" place="foot text">乘＝繩【三】【宮】＊</note><note n="0577003" resp="CBETA" type="mod">乘＝繩【宋】【元】【明】【宮】＊</note><app n="0577003"><lem>乘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">繩</rdg></app>於<app type="＊" source="0577003"><lem>乘</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">繩</rdg></app>體</l><l>離於一二中</l>
+<lb n="0577a27"/><l>以分別於<app type="＊" source="0577003"><lem>乘</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">繩</rdg></app></l><l>是自心過失</l>
 <lb n="0577a28"/><l>依何法何體</l><l>分別不能見</l>
 <lb n="0577a29"/><l>不得言彼無</l><l>諸法體如是</l>
 <pb ed="T" id="T16.0671.0577b" n="0577b"/>
@@ -6003,11 +6006,11 @@ Added comment  for Emacs
 <lb n="0579c18"/><l>此鉤鎖無法</l><l>是故無體相</l>
 <lb n="0579c19"/><l>如醫師<note n="0579010" resp="Taisho" type="orig" place="foot text">依＝醫【元】【明】＊</note><app n="0579010"><lem>依</lem><rdg wit="【元】【明】" resp="Taisho">醫</rdg></app>病</l><l>說治病差別</l>
 <lb n="0579c20"/><l>而論無差別</l><l>依病故差別</l>
-<lb n="0579c21"/><l>我<anchor id="fxT16p0579c01"/>依眾生身</l><l>為<note n="0579011" resp="Taisho" type="orig" place="foot text">說＝諸【宮】</note><app n="0579011"><lem>說</lem><rdg wit="【宮】" resp="Taisho">諸</rdg></app>煩惱濁</l>
+<lb n="0579c21"/><l>我<app type="＊" source="0579010"><lem>依</lem><rdg resp="Taisho" wit="【元】【明】">醫</rdg></app>眾生身</l><l>為<note n="0579011" resp="Taisho" type="orig" place="foot text">說＝諸【宮】</note><app n="0579011"><lem>說</lem><rdg wit="【宮】" resp="Taisho">諸</rdg></app>煩惱濁</l>
 <lb n="0579c22"/><l>知諸根及力</l><l>我為愚<note n="0579012" resp="Taisho" type="orig" place="foot text">法說＝者說【元】【明】，說法【宮】</note><note n="0579012" resp="CBETA" type="mod">法說＝者說【元】【明】，＝說法【宮】</note><app n="0579012"><lem>法說</lem><rdg wit="【元】【明】" resp="Taisho">者說</rdg><rdg wit="【宮】" resp="Taisho">說法</rdg></app></l>
 <lb n="0579c23"/><l>煩惱根差別</l><l>我教無差別</l>
 <lb n="0579c24"/><l>我惟有一乘</l><l>清涼八聖道</l>
-<lb n="0579c25"/><l>瓶<anchor id="fxT16p0579c02"/>疊冠及角</l><l>兔角無是因</l>
+<lb n="0579c25"/><l>瓶<app type="＊" source="0577004"><lem>疊</lem><rdg resp="Taisho" wit="【元】【明】">&CB00626;</rdg></app>冠及角</l><l>兔角無是因</l>
 <lb n="0579c26"/><l>無因依彼生</l><l>而無彼因法</l>
 <lb n="0579c27"/><l>而彼<note n="0579013" resp="Taisho" type="orig" place="foot text">是無＝無因【元】【明】</note><app n="0579013"><lem>是無</lem><rdg wit="【元】【明】" resp="Taisho">無因</rdg></app>法</l><l>汝不得取無</l>
 <lb n="0579c28"/><l>依有因故無</l><l>依無不相應</l>
@@ -6057,7 +6060,7 @@ Added comment  for Emacs
 <lb n="0580b12"/><l>若能見分別</l><l>離於覺所覺</l>
 <lb n="0580b13"/><l>名名不相合</l><l>是說有為法</l>
 <lb n="0580b14"/><l>此惟是可<note n="0580005" resp="Taisho" type="orig" place="foot text">覺＋（名名不相雜此唯是可覺）【三】</note><note n="0580005" resp="CBETA" type="mod">覺＋（名名不相雜此唯是可覺）【宋】【元】【明】</note><app n="0580005"><lem>覺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">覺名名不相雜此唯是可覺</rdg></app></l><l>名名不相<note n="0580006" resp="Taisho" type="orig" place="foot text">離＝雜【宮】＊</note><app n="0580006"><lem>離</lem><rdg wit="【宮】" resp="Taisho">雜</rdg></app></l>
-<lb n="0580b15"/><l><anchor id="fxT16p0580b01"/>離於知可知</l><l>是說有為法</l>
+<lb n="0580b15"/><l><app type="＊" source="0580006"><lem>離</lem><rdg resp="Taisho" wit="【宮】">雜</rdg></app>於知可知</l><l>是說有為法</l>
 <lb n="0580b16"/><l>此惟是可覺</l><l>名名<note n="0580007" resp="Taisho" type="orig" place="foot text">中＝終【宋】，中不離＝不相雜【宮】</note><note n="0580007" resp="CBETA" type="mod">中不離＝不相雜【宮】，中＝終【宋】</note><app n="0580007"><lem>中不<note n="0580008" resp="Taisho" type="orig" place="foot text">離＝雜【三】【宮】＊</note><note n="0580008" resp="CBETA" type="mod">離＝雜【宋】【元】【明】【宮】＊</note><app n="0580008"><lem>離</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">雜</rdg></app></lem><rdg wit="【宮】" resp="Taisho">不相雜</rdg><rdg wit="【宋】" resp="Taisho">終不離</rdg></app></l>
 <lb n="0580b17"/><l>若人異覺知</l><l>不自覺他覺</l>
 <lb n="0580b18"/><l>五法實法<note n="0580009" resp="Taisho" type="orig" place="foot text">本＝體【三】【宮】</note><note n="0580009" resp="CBETA" type="mod">本＝體【宋】【元】【明】【宮】</note><app n="0580009"><lem>本</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">體</rdg></app></l><l>及於八種識</l>
@@ -6076,7 +6079,7 @@ Added comment  for Emacs
 <lb n="0580c01"/><l>依相有三種</l><l>寂滅無如<note n="0580010" resp="Taisho" type="orig" place="foot text">是＋（以見法無我爾時滅於心）【元】【明】</note><app n="0580010"><lem>是</lem><rdg wit="【元】【明】" resp="Taisho">是以見法無我爾時滅於心</rdg></app></l>
 <lb n="0580c02"/><l>阿梨耶意我</l><l>我所及於智</l>
 <lb n="0580c03"/><l>因取於二法</l><l>知彼<note n="0580011" resp="Taisho" type="orig" place="foot text">法＝去【明】</note><app n="0580011"><lem>法</lem><rdg wit="【明】" resp="Taisho">去</rdg></app>即滅</l>
-<lb n="0580c04"/><l>離於彼此法</l><l>若見不相<anchor id="fxT16p0580c01"/>離</l>
+<lb n="0580c04"/><l>離於彼此法</l><l>若見不相<app type="＊" source="0580008"><lem>離</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">雜</rdg></app></l>
 <lb n="0580c05"/><l>世間惟心分</l><l>世尊為我說</l>
 <lb n="0580c06"/><l>不復分別二</l><l>我及於我所</l>
 <lb n="0580c07"/><l>不增長分別</l><l>亦無意識因</l>
@@ -6379,7 +6382,7 @@ Added comment  for Emacs
 <lb n="0584a03"/><l>毘耶<note n="0584001" resp="Taisho" type="orig" place="foot text">娑＝婆【宮】＊</note><app n="0584001"><lem>娑</lem><rdg wit="【宮】" resp="Taisho">婆</rdg></app>迦那</l><l>及於梨沙婆</l>
 <lb n="0584a04"/><l>迦毘羅釋迦</l><l>我入涅槃後</l>
 <lb n="0584a05"/><l>未來世當有</l><l>如是等出世</l>
-<lb n="0584a06"/><l>我滅後百年</l><l>毘耶<anchor id="fxT16p0584a01"/>娑圍陀</l>
+<lb n="0584a06"/><l>我滅後百年</l><l>毘耶<app type="＊" source="0584001"><lem>娑</lem><rdg resp="Taisho" wit="【宮】">婆</rdg></app>圍陀</l>
 <lb n="0584a07"/><l>及於<note n="0584002" resp="Taisho" type="orig" place="foot text">般＝槃【三】【宮】</note><note n="0584002" resp="CBETA" type="mod">般＝槃【宋】【元】【明】【宮】</note><app n="0584002"><lem>般</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">槃</rdg></app>荼婆</l><l>鳩羅婆<note n="0584003" resp="Taisho" type="orig" place="foot text">失＝矣【三】【宮】</note><note n="0584003" resp="CBETA" type="mod">失＝矣【宋】【元】【明】【宮】</note><app n="0584003"><lem>失</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">矣</rdg></app>羅</l>
 <lb n="0584a08"/><l>然後復更有</l><l>及於毛釐等</l>
 <lb n="0584a09"/><l>次毛釐掘多</l><l>次有無道王</l>
@@ -6607,4 +6610,4 @@ Added comment  for Emacs
 <lb n="0586b20"/><l>天龍夜叉等</l><l>乾闥婆修羅</l>
 <lb n="0586b21"/><l>諸天比丘僧</l><l>大歡喜奉行</l></lg>
 <lb n="0586b22"/><juan fun="close" n="010"><jhead><title>入楞伽經</title>卷第十</jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

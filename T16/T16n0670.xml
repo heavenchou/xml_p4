@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)</edition>
+		<edition>$Revision: 1.3 $ (Big5)</edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/10 07:29:42 $</date>
+		<date>$Date: 2003/06/23 05:06:44 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 16, No. 670 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T16n0670.xml,v $
+Revision 1.3  2003/06/23 05:06:44  moved
+＊校勘插入 xml 作業
+
 Revision 1.2  2003/06/10 07:29:42  moved
 「找不到對應的校勘」作業
 
@@ -115,7 +118,7 @@ Revision 1.7  2001/02/07 06:51:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:40:55  chris
-Added keywords $Revision: 1.2 $, $Date: 2003/06/10 07:29:42 $ and $Log.
+Added keywords $Revision: 1.3 $, $Date: 2003/06/23 05:06:44 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -427,7 +430,7 @@ Added comment  for Emacs
 <lb n="0482b01"/><l>云何三昧起</l><l>破三有者誰</l>
 <lb n="0482b02"/><l>何處為何身</l><l>云何無眾生</l>
 <lb n="0482b03"/><l>而說有吾我</l><l>云何世俗說</l>
-<lb n="0482b04"/><l><anchor id="fxT16p0482b01"/>唯願廣分別</l><l>所問相云何</l>
+<lb n="0482b04"/><l><app type="＊" source="0480008"><lem>唯</lem><rdg resp="Taisho" wit="【元】">惟</rdg></app>願廣分別</l><l>所問相云何</l>
 <lb n="0482b05"/><l>及所問非我</l><l>云何為胎藏</l>
 <lb n="0482b06"/><l>及種種異身</l><l>云何斷常見</l>
 <lb n="0482b07"/><l>云何心得定</l><l>言說及諸智</l>
@@ -482,14 +485,14 @@ Added comment  for Emacs
 <lb n="0482c26"/>句非巧明處句。禪句非禪句。迷句非迷句。現
 <lb n="0482c27"/>句非現句。護句非護句。族句非族句。仙句非
 <lb n="0482c28"/>仙句。王句非王句。攝受句非攝受句。<note n="0482014" resp="Taisho" type="orig" place="foot text">實＝寶【元】【明】【宮】＊</note><app n="0482014"><lem>實</lem><rdg wit="【元】【明】【宮】" resp="Taisho">寶</rdg></app>句
-<lb n="0482c29"/>非<anchor id="fxT16p0482c01"/>實句。記句非記句。一闡提句非一闡提
+<lb n="0482c29"/>非<app type="＊" source="0482014"><lem>實</lem><rdg resp="Taisho" wit="【元】【明】【宮】">寶</rdg></app>句。記句非記句。一闡提句非一闡提
 <pb ed="T" id="T16.0670.0483a" n="0483a"/>
 <lb n="0483a01"/>句。女男不男句非女男不男句。味句非味句。
 <lb n="0483a02"/>事句非事句。身句非身句。覺句非覺句。動句
 <lb n="0483a03"/>非動句。根句非根句。有為句非有為句。無
 <lb n="0483a04"/>為句非無為句。因果句非因果句。色究竟句
-<lb n="0483a05"/>非色究竟句。節句非節句。<note n="0483001" resp="Taisho" type="orig" place="foot text">&CB00614;樹＝叢樹葛【明】【宮】＊</note><app n="0483001"><lem>&CB00614;樹</lem><rdg wit="【明】【宮】" resp="Taisho">叢樹葛</rdg></app>藤句非<anchor id="fxT16p0483a01"/>&CB00614;
-<lb n="0483a06"/>樹藤句。雜句非雜句。說句非說句。毘尼句
+<lb n="0483a05"/>非色究竟句。節句非節句。<note n="0483001" resp="Taisho" type="orig" place="foot text">&CB00614;樹＝叢樹葛【明】【宮】＊</note><app n="0483001"><lem>&CB00614;樹</lem><rdg wit="【明】【宮】" resp="Taisho">叢樹葛</rdg></app>藤句非<app type="＊" source="0483001"><lem>&CB00614;
+<lb n="0483a06"/>樹</lem><rdg resp="Taisho" wit="【明】【宮】">叢樹葛</rdg></app>藤句。雜句非雜句。說句非說句。毘尼句
 <lb n="0483a07"/>非毘尼句。比丘句非比丘句。處句非處句。字
 <lb n="0483a08"/>句非字句。大慧。是百八句先佛所說。汝及諸
 <lb n="0483a09"/>菩薩摩訶薩。應當修學</p>
@@ -503,21 +506,21 @@ Added comment  for Emacs
 <lb n="0483a17"/>識。大慧。譬如明鏡持諸色像。現識處現亦
 <lb n="0483a18"/>復如是。大慧。現識及分別事識。此二壞不
 <lb n="0483a19"/>壞。相展轉因。大慧。不思議<note n="0483004" resp="Taisho" type="orig" place="foot text">薰＝熏【元】【明】＊</note><app n="0483004"><lem>薰</lem><rdg wit="【元】【明】" resp="Taisho">熏</rdg></app>。及不思議變。
-<lb n="0483a20"/>是現識因。大慧。取種種塵。及無始妄想<anchor id="fxT16p0483a02"/>薰。
+<lb n="0483a20"/>是現識因。大慧。取種種塵。及無始妄想<app type="＊" source="0483004"><lem>薰</lem><rdg resp="Taisho" wit="【元】【明】">熏</rdg></app>。
 <lb n="0483a21"/>是分別事識因。大慧。若覆彼真識。種種不實
 <lb n="0483a22"/>諸虛妄滅。則一切根識滅。<note n="0483005" resp="Taisho" type="orig" place="foot text">〔大慧〕－【明】</note><app n="0483005"><lem>大慧</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。是名相滅。
 <lb n="0483a23"/>大慧。相續滅者。相續所因滅則相續滅。所從
 <lb n="0483a24"/>滅及所緣滅則相續滅。大慧。所以者何。是其
-<lb n="0483a25"/>所依故。依者謂無始妄想<anchor id="fxT16p0483a03"/>薰。緣者謂自心
+<lb n="0483a25"/>所依故。依者謂無始妄想<app type="＊" source="0483004"><lem>薰</lem><rdg resp="Taisho" wit="【元】【明】">熏</rdg></app>。緣者謂自心
 <lb n="0483a26"/>見等識境妄想。大慧。譬如泥團微塵非異
 <lb n="0483a27"/>非不異。金莊嚴具亦復如是。大慧。若泥團
 <lb n="0483a28"/>微塵異者。非彼所成而實彼成。是故不異。
 <lb n="0483a29"/>若不異者。則泥團微塵應無分別。如是大
 <pb ed="T" id="T16.0670.0483b" n="0483b"/>
-<lb n="0483b01"/>慧。轉識藏識<anchor id="fxT16p0483b01"/>真相若異者。藏識非因。若不
-<lb n="0483b02"/>異者。轉識滅藏識亦應滅。而自<anchor id="fxT16p0483b02"/>真相實不
+<lb n="0483b01"/>慧。轉識藏識<app type="＊" source="0483003"><lem>真</lem><rdg resp="Taisho" wit="【元】">生</rdg></app>相若異者。藏識非因。若不
+<lb n="0483b02"/>異者。轉識滅藏識亦應滅。而自<app type="＊" source="0483003"><lem>真</lem><rdg resp="Taisho" wit="【元】">生</rdg></app>相實不
 <lb n="0483b03"/>滅。是故大慧。非自真相識滅。但業相滅。若
-<lb n="0483b04"/>自<anchor id="fxT16p0483b03"/>真相<note n="0483006" resp="Taisho" type="orig" place="foot text">（識）＋滅【明】</note><app n="0483006"><lem>滅</lem><rdg wit="【明】" resp="Taisho">識滅</rdg></app>者。藏識則滅。大慧。藏識滅者。
+<lb n="0483b04"/>自<app type="＊" source="0483003"><lem>真</lem><rdg resp="Taisho" wit="【元】">生</rdg></app>相<note n="0483006" resp="Taisho" type="orig" place="foot text">（識）＋滅【明】</note><app n="0483006"><lem>滅</lem><rdg wit="【明】" resp="Taisho">識滅</rdg></app>者。藏識則滅。大慧。藏識滅者。
 <lb n="0483b05"/>不異外道斷見論議。大慧。彼諸外道作如
 <lb n="0483b06"/>是論。謂攝受境界滅識流注亦滅。若識流注
 <lb n="0483b07"/>滅者。無始流注應斷。大慧。外道說流注生
@@ -530,7 +533,7 @@ Added comment  for Emacs
 <lb n="0483b14"/>一義。所謂心境界。慧境界。智境界。見境
 <lb n="0483b15"/>界。超二見境界。超子地境界。如來自到境界。
 <lb n="0483b16"/>大慧。此是過去未來現在諸如來應供等正
-<lb n="0483b17"/>覺性自性第一義心<note n="0483007" resp="Taisho" type="orig" place="foot text">〔此心…也〕三十一字－【明】</note><app n="0483007" word-count="31"><lem><note place="inline">此心梵音<note n="0483008" resp="Taisho" type="orig" place="foot text">肝＝污【元】＊</note><app n="0483008"><lem>肝</lem><rdg wit="【元】" resp="Taisho">污</rdg></app>栗大<anchor id="fxT16p0483b04"/>肝栗大宋言心謂如樹木心非念盧
+<lb n="0483b17"/>覺性自性第一義心<note n="0483007" resp="Taisho" type="orig" place="foot text">〔此心…也〕三十一字－【明】</note><app n="0483007" word-count="31"><lem><note place="inline">此心梵音<note n="0483008" resp="Taisho" type="orig" place="foot text">肝＝污【元】＊</note><app n="0483008"><lem>肝</lem><rdg wit="【元】" resp="Taisho">污</rdg></app>栗大<app type="＊" source="0483008"><lem>肝</lem><rdg resp="Taisho" wit="【元】">污</rdg></app>栗大宋言心謂如樹木心非念盧
 <lb n="0483b18"/>心念盧心梵音<note n="0483009" resp="Taisho" type="orig" place="foot text">〔云〕－【宮】</note><app n="0483009"><lem>云</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>質多也</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。以性自性第一義心。成就如來世
 <lb n="0483b19"/>間出世間出世間上上法。聖慧眼入自共相
 <lb n="0483b20"/>建立。如所建立。不與外道論惡見共。大慧。
@@ -691,7 +694,7 @@ Added comment  for Emacs
 <lb n="0485a25"/>自覺聖智<note n="0485003" resp="Taisho" type="orig" place="foot text">（究竟）＋境界【明】【宮】</note><app n="0485003"><lem>境界</lem><rdg wit="【明】【宮】" resp="Taisho">究竟境界</rdg></app>。是故大慧。聖智三相當勤
 <lb n="0485a26"/>修學。爾時大慧菩薩摩訶薩。知大菩薩眾心
 <lb n="0485a27"/>之所念。名聖智事分別自性經。承一切佛威
-<lb n="0485a28"/>神之力。而白佛言。世尊。<anchor id="fxT16p0485a01"/>唯願為說聖智事
+<lb n="0485a28"/>神之力。而白佛言。世尊。<app type="＊" source="0480008"><lem>唯</lem><rdg resp="Taisho" wit="【元】">惟</rdg></app>願為說聖智事
 <lb n="0485a29"/>分別自性經百八句分別所依。如來應供等
 <pb ed="T" id="T16.0670.0485b" n="0485b"/>
 <lb n="0485b01"/>正覺。依此分別說菩薩摩訶薩入自相共
@@ -731,7 +734,7 @@ Added comment  for Emacs
 <lb n="0485c05"/>大慧。色是虛空。持所持處所建立性。色空
 <lb n="0485c06"/>事分別當知。大慧。四大種生時自相各別。亦
 <lb n="0485c07"/>不住虛空。非彼無虛空。如是大慧。觀牛
-<lb n="0485c08"/>有角故兔無角。大慧。有牛角者<anchor id="fxT16p0485c01"/>析為微塵。
+<lb n="0485c08"/>有角故兔無角。大慧。有牛角者<app type="＊" source="0485008"><lem>析</lem><rdg resp="Taisho" wit="【元】">所</rdg></app>為微塵。
 <lb n="0485c09"/>又分別微塵剎那不住。彼何所觀故而言
 <lb n="0485c10"/>無耶。若言觀餘物者。彼法亦然</p>
 <lb n="0485c11"/><p>爾時世尊告大慧菩薩摩訶薩言。當離兔
@@ -815,7 +818,7 @@ Added comment  for Emacs
 <lb n="0486b29"/>思議</p>
 <pb ed="T" id="T16.0670.0486c" n="0486c"/>
 <lb n="0486c01"/><p>復次大慧。不思議若因自相成者。彼則應
-<lb n="0486c02"/>常。由作者因相。故常不思議不成。<anchor id="fxT16p0486c01"/>大慧。
+<lb n="0486c02"/>常。由作者因相。故常不思議不成。<app type="＊" source="0486006"><lem>大慧</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>。
 <lb n="0486c03"/>我第一義常不思議。第一義因相成。離性非
 <lb n="0486c04"/>性得自覺性故有相。第一義智因故有因。
 <lb n="0486c05"/>離性非性故。譬如無作虛空涅槃滅盡故
@@ -975,7 +978,7 @@ Added comment  for Emacs
 <lb n="0488b08"/>虛空滅般涅槃非作。<note n="0488004" resp="Taisho" type="orig" place="foot text">計＋（著）【明】</note><app n="0488004"><lem>計</lem><rdg wit="【明】" resp="Taisho">計著</rdg></app>性建立。此離性非
 <lb n="0488b09"/>性。一切法如兔馬等角。如垂髮現。離有非
 <lb n="0488b10"/>有。<note n="0488005" resp="Taisho" type="orig" place="foot text">（（建立…也））二十一字∞（（是名…相））八字【明】</note><note n="0488005" resp="CBETA" type="mod">（建立及誹謗愚夫妄想不善觀察自心現量非賢聖也）二十一字∞（是名非有性建立相）八字【明】</note><app n="0488005"><lem>建立及誹謗愚夫妄想。不善觀察自心
-<lb n="0488b11"/>現量非<anchor id="fxT16p0488b01"/>賢聖也</lem><rdg wit="【明】" resp="Taisho">是名非有性建立相</rdg></app>。<note n="0488006" resp="Taisho" type="orig" place="foot text">（（建立…也））二十一字∞（（是名…相））八字【明】</note><note n="0488006" resp="CBETA" type="mod">（建立及誹謗愚夫妄想不善觀察自心現量非賢聖也）二十一字∞（是名非有性建立相）八字【明】</note><app n="0488006"><lem>是名非有性建立相</lem><rdg wit="【明】" resp="Taisho">建立及誹謗愚夫妄想不善觀察自心現量非賢聖也</rdg></app>。是
+<lb n="0488b11"/>現量非<app type="＊" source="0487002"><lem>賢聖</lem><rdg resp="Taisho" wit="【明】">聖賢</rdg></app>也</lem><rdg wit="【明】" resp="Taisho">是名非有性建立相</rdg></app>。<note n="0488006" resp="Taisho" type="orig" place="foot text">（（建立…也））二十一字∞（（是名…相））八字【明】</note><note n="0488006" resp="CBETA" type="mod">（建立及誹謗愚夫妄想不善觀察自心現量非賢聖也）二十一字∞（是名非有性建立相）八字【明】</note><app n="0488006"><lem>是名非有性建立相</lem><rdg wit="【明】" resp="Taisho">建立及誹謗愚夫妄想不善觀察自心現量非賢聖也</rdg></app>。是
 <lb n="0488b12"/>故離建立誹謗惡見。應當修學</p>
 <lb n="0488b13"/><p>復次大慧。菩薩摩訶薩善知心意意識五法
 <lb n="0488b14"/>自性二無我相。趣究竟為安眾生故。作種
@@ -1118,7 +1121,7 @@ Added comment  for Emacs
 <pb ed="T" id="T16.0670.0490a" n="0490a"/>
 <lb n="0490a01"/>摩訶薩成就四法得修行者大方便。當如
 <lb n="0490a02"/>是學</p>
-<lb n="0490a03"/><p>爾時大慧菩薩摩訶薩。復請世尊。<anchor id="fxT16p0490a01"/>唯願為
+<lb n="0490a03"/><p>爾時大慧菩薩摩訶薩。復請世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願為
 <lb n="0490a04"/>說一切諸法緣因之相。以覺緣因相故。我
 <lb n="0490a05"/>及諸菩薩離一切性有無妄見。無妄想見漸
 <lb n="0490a06"/>次俱生。佛告大慧。一切法二種緣相。謂外及
@@ -1157,7 +1160,7 @@ Added comment  for Emacs
 <lb n="0490b09"/><l>攝受及所攝</l><l>捨離惑亂見</l>
 <lb n="0490b10"/><l>非已生當生</l><l>亦復無因緣</l>
 <lb n="0490b11"/><l>一切無所有</l><l>斯皆是言說</l></lg>
-<lb n="0490b12"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<anchor id="fxT16p0490b01"/>唯
+<lb n="0490b12"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>
 <lb n="0490b13"/>願為說言說妄想相心經<note n="0490004" resp="Taisho" type="orig" place="foot text">〔此…也〕七字－【明】</note><app n="0490004" word-count="7"><lem><note place="inline">此同上佛語心也</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>。世尊我
 <lb n="0490b14"/>及餘菩薩摩訶薩。若善知言說妄想相心
 <lb n="0490b15"/><note n="0490005" resp="Taisho" type="orig" place="foot text">〔經〕－【宮】</note><app n="0490005"><lem>經</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>。則能通達言說所說二種義。疾得阿耨
@@ -1171,7 +1174,7 @@ Added comment  for Emacs
 <lb n="0490b23"/>生。過妄想計著言說者。先怨所作業隨憶念
 <lb n="0490b24"/>生。無始妄想言說者。無始虛偽計著過自種
 <lb n="0490b25"/>習氣生。是名四種言說妄想相。爾時大慧菩
-<lb n="0490b26"/>薩摩訶薩復以此義勸請世尊。<anchor id="fxT16p0490b02"/>唯願更說
+<lb n="0490b26"/>薩摩訶薩復以此義勸請世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願更說
 <lb n="0490b27"/>言說妄想所現境界。世尊。何處何故。云何何
 <lb n="0490b28"/>因眾生妄想言說生。佛告大慧。頭胸喉鼻脣
 <lb n="0490b29"/>舌齗齒和合出音聲。大慧白佛言。世尊。言
@@ -1196,7 +1199,7 @@ Added comment  for Emacs
 <lb n="0490c18"/><l>甚深空空義</l><l>愚夫不能了</l>
 <lb n="0490c19"/><l>一切性自性</l><l>言說法如影</l>
 <lb n="0490c20"/><l>自覺聖智子</l><l>實際我所說</l></lg>
-<lb n="0490c21"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<anchor id="fxT16p0490c01"/>唯
+<lb n="0490c21"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>
 <lb n="0490c22"/>願為說離<note n="0490006" resp="Taisho" type="orig" place="foot text">〔有無〕－【明】</note><app n="0490006"><lem>有無</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>一異俱不<note n="0490007" resp="Taisho" type="orig" place="foot text">俱＋（有無）【明】</note><app n="0490007"><lem>俱</lem><rdg wit="【明】" resp="Taisho">俱有無</rdg></app>非有非無常
 <lb n="0490c23"/>無常。一切外道所不行。自覺聖智所行。離
 <lb n="0490c24"/>妄想自相共相。入於第一真實之義諸地相
@@ -1285,7 +1288,7 @@ Added comment  for Emacs
 <lb n="0491c17"/><l>如是識種子</l><l>動轉見境界</l>
 <lb n="0491c18"/><l>愚夫妄想生</l><l>如為翳所翳</l>
 <lb n="0491c19"/><l>於無始生死</l><l>計著攝受性</l>
-<lb n="0491c20"/><l>如逆<note n="0491010" resp="Taisho" type="orig" place="foot text">&CB00249;＝楔【三】【宮】＊</note><note n="0491010" resp="CBETA" type="mod">&CB00249;＝楔【宋】【元】【明】【宮】＊</note><app n="0491010"><lem>&CB00249;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">楔</rdg></app>出<anchor id="fxT16p0491c01"/>&CB00249;</l><l>捨離貪攝受</l>
+<lb n="0491c20"/><l>如逆<note n="0491010" resp="Taisho" type="orig" place="foot text">&CB00249;＝楔【三】【宮】＊</note><note n="0491010" resp="CBETA" type="mod">&CB00249;＝楔【宋】【元】【明】【宮】＊</note><app n="0491010"><lem>&CB00249;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">楔</rdg></app>出<app type="＊" source="0491010"><lem>&CB00249;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">楔</rdg></app></l><l>捨離貪攝受</l>
 <lb n="0491c21"/><l>如幻&CB00057;機發</l><l>浮雲夢電光</l>
 <lb n="0491c22"/><l>觀是得解脫</l><l>永斷三相續</l>
 <lb n="0491c23"/><l>於彼無有作</l><l>猶如炎虛空</l>
@@ -1416,8 +1419,8 @@ Added comment  for Emacs
 <lb n="0493a28"/>有佛剎<note n="0493007" resp="Taisho" type="orig" place="foot text">瞻＝瞪【宮】＊</note><app n="0493007"><lem>瞻</lem><rdg wit="【宮】" resp="Taisho">瞪</rdg></app>視顯法。或有作相。或有揚眉。
 <lb n="0493a29"/>或有動睛。或<note n="0493008" resp="Taisho" type="orig" place="foot text">笑或欠＝嘆或笑【宮】</note><app n="0493008"><lem>笑或欠</lem><rdg wit="【宮】" resp="Taisho">嘆或笑</rdg></app>。或<note n="0493009" resp="Taisho" type="orig" place="foot text">謦咳＝謦欬【元】【明】</note><app n="0493009"><lem>謦咳</lem><rdg wit="【元】【明】" resp="Taisho">謦欬</rdg></app>。或念剎土。
 <pb ed="T" id="T16.0670.0493b" n="0493b"/>
-<lb n="0493b01"/>或動搖。大慧。如<anchor id="fxT16p0493b01"/>瞻視及香積世界。普賢如
-<lb n="0493b02"/>來國土但以<anchor id="fxT16p0493b02"/>瞻視。令諸菩薩得無生法忍。
+<lb n="0493b01"/>或動搖。大慧。如<app type="＊" source="0493007"><lem>瞻</lem><rdg resp="Taisho" wit="【宮】">瞪</rdg></app>視及香積世界。普賢如
+<lb n="0493b02"/>來國土但以<app type="＊" source="0493007"><lem>瞻</lem><rdg resp="Taisho" wit="【宮】">瞪</rdg></app>視。令諸菩薩得無生法忍。
 <lb n="0493b03"/>及<note n="0493010" resp="Taisho" type="orig" place="foot text">殊＝諸【三】【宮】</note><note n="0493010" resp="CBETA" type="mod">殊＝諸【宋】【元】【明】【宮】</note><app n="0493010"><lem>殊</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">諸</rdg></app>勝三昧。是故非言說有性有一切性。
 <lb n="0493b04"/>大慧。見此世界蚊蚋蟲蟻。是等眾生無有
 <lb n="0493b05"/>言說而各辦事。爾時世尊欲重宣此義而
@@ -1553,7 +1556,7 @@ Added comment  for Emacs
 <lb n="0494c14"/><l>一切悉無記</l><l>彼如是顯示</l>
 <lb n="0494c15"/><l>正覺所分別</l><l>自性不可得</l>
 <lb n="0494c16"/><l>以離於言說</l><l>故說離自性</l></lg>
-<lb n="0494c17"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<anchor id="fxT16p0494c01"/>唯
+<lb n="0494c17"/><p>爾時大慧菩薩摩訶薩復白佛言。世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>
 <lb n="0494c18"/>願為說諸須陀須陀洹趣差別通相。若菩
 <lb n="0494c19"/>薩摩訶薩善解須陀洹趣差別通相。及斯陀
 <lb n="0494c20"/>含阿那含阿羅漢方便相。分別知已。如是如
@@ -1772,7 +1775,7 @@ Added comment  for Emacs
 <lb n="0497a23"/><l>若異妄想者</l><l><note n="0497002" resp="Taisho" type="orig" place="foot text">即＝則【元】【明】</note><app n="0497002"><lem>即</lem><rdg wit="【元】【明】" resp="Taisho">則</rdg></app>依外道論</l>
 <lb n="0497a24"/><l>妄想說所想</l><l>因見和合生</l>
 <lb n="0497a25"/><l>離二妄想者</l><l>如是則為成</l></lg>
-<lb n="0497a26"/><p>大慧菩薩摩訶薩。復白佛言。世尊。<anchor id="fxT16p0497a01"/>唯願為
+<lb n="0497a26"/><p>大慧菩薩摩訶薩。復白佛言。世尊。<app type="＊" source="0489008"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願為
 <lb n="0497a27"/>說自覺聖智相及一乘。若<note n="0497003" resp="Taisho" type="orig" place="foot text">〔說〕－【三】【宮】</note><note n="0497003" resp="CBETA" type="mod">〔說〕－【宋】【元】【明】【宮】</note><app n="0497003"><lem>說</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>自覺聖智相
 <lb n="0497a28"/>及一乘。我及餘菩薩。善自覺聖智相及一乘。
 <lb n="0497a29"/>不由於他通達佛法。佛告大慧。諦聽諦聽
@@ -1874,7 +1877,7 @@ Added comment  for Emacs
 <lb n="0498b04"/>化神力現無間等。謂聲聞化神力。菩薩化神
 <lb n="0498b05"/>力如來化神力。為餘作無間罪者除疑悔
 <lb n="0498b06"/>過為勸發故。神力變化現無間等。無有一
-<lb n="0498b07"/>向作無間事。不得無間等<anchor id="fxT16p0498b01"/>法。除覺自心
+<lb n="0498b07"/>向作無間事。不得無間等<app type="＊" source="0498004"><lem>法</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>。除覺自心
 <lb n="0498b08"/>現量。離身財妄想。離我我所攝受。或時遇
 <lb n="0498b09"/>善知識。解脫餘趣相續妄想。爾時世尊欲重
 <lb n="0498b10"/>宣此義。而說偈言</p>
@@ -1912,7 +1915,7 @@ Added comment  for Emacs
 <lb n="0498c12"/>法無障礙智。是名四等。是故如來應供等正
 <lb n="0498c13"/>覺。於大眾中唱如是言。爾時世尊欲重
 <lb n="0498c14"/>宣此義。而說偈言</p>
-<lb n="0498c15"/><lg><l>迦葉拘留孫</l><l><anchor id="fxT16p0498c01"/>拘那含是我</l>
+<lb n="0498c15"/><lg><l>迦葉拘留孫</l><l><app type="＊" source="0498007"><lem>拘</lem><rdg resp="Taisho" wit="【宮】">鉤</rdg></app>那含是我</l>
 <lb n="0498c16"/><l>以此四種等</l><l>我為佛子說</l></lg>
 <lb n="0498c17"/><p>大慧復白佛言。如世尊所說。我從某夜得
 <lb n="0498c18"/>最正覺。乃至某夜入般涅槃。於其中間乃
@@ -1938,7 +1941,7 @@ Added comment  for Emacs
 <lb n="0499a08"/><l>於此二中間</l><l>我都無所說</l>
 <lb n="0499a09"/><l>緣自得法住</l><l>故我作是說</l>
 <lb n="0499a10"/><l>彼佛及與我</l><l>悉無有差別</l></lg>
-<lb n="0499a11"/><p>爾時大慧菩薩。復請世尊。<anchor id="fxT16p0499a01"/>唯願為說一切
+<lb n="0499a11"/><p>爾時大慧菩薩。復請世尊。<app type="＊" source="0498005"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願為說一切
 <lb n="0499a12"/>法有無有相。令我及餘菩薩摩訶薩離有無
 <lb n="0499a13"/>有相。疾得阿耨多羅三藐三菩提。佛告大
 <lb n="0499a14"/>慧。諦聽諦聽善思念之。當為汝說。大慧白
@@ -1979,7 +1982,7 @@ Added comment  for Emacs
 <lb n="0499b19"/><l>邪見論生法</l><l>妄想計有無</l>
 <lb n="0499b20"/><l>若知無所生</l><l>亦復無所滅</l>
 <lb n="0499b21"/><l>觀此悉空寂</l><l>有無二俱離</l></lg>
-<lb n="0499b22"/><p>爾時大慧菩薩復白佛言。世尊。<anchor id="fxT16p0499b01"/>唯願為我
+<lb n="0499b22"/><p>爾時大慧菩薩復白佛言。世尊。<app type="＊" source="0498005"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願為我
 <lb n="0499b23"/>及諸菩薩說宗通相。若善分別宗通相者。
 <lb n="0499b24"/>我及諸菩薩通達是相。<note n="0499008" resp="Taisho" type="orig" place="foot text">通＋（達）【明】</note><app n="0499008"><lem>通</lem><rdg wit="【明】" resp="Taisho">通達</rdg></app>是相已。速成阿
 <lb n="0499b25"/>耨多羅三藐三菩提。不隨覺想及眾魔外道。
@@ -2005,7 +2008,7 @@ Added comment  for Emacs
 <lb n="0499c15"/><l>觀察世妄想</l><l>如幻夢芭蕉</l>
 <lb n="0499c16"/><l>雖有貪恚癡</l><l>而實無有人</l>
 <lb n="0499c17"/><l>從愛生諸陰</l><l>有皆如幻夢</l></lg>
-<lb n="0499c18"/><p>爾時大慧菩薩白佛言。世尊。<anchor id="fxT16p0499c01"/>唯願為說不
+<lb n="0499c18"/><p>爾時大慧菩薩白佛言。世尊。<app type="＊" source="0498005"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願為說不
 <lb n="0499c19"/>實妄想相。不實妄想云何而生。說何等法
 <lb n="0499c20"/>名不實妄想。於何等法中不實妄想。佛告
 <lb n="0499c21"/>大慧。善哉善哉。能問如來如是之義。多所
@@ -2302,7 +2305,7 @@ Added comment  for Emacs
 <lb n="0503a12"/>所迴轉。迴轉時自宗通及說通不善了知。
 <lb n="0503a13"/>著自心現外性相故。著方便說。於自宗四
 <lb n="0503a14"/>句清淨通相。不善分別。大慧白佛言。誠如
-<lb n="0503a15"/>尊教。<anchor id="fxT16p0503a01"/>唯願世尊。為我分別說通及宗通。我
+<lb n="0503a15"/>尊教。<app type="＊" source="0498005"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">惟</rdg></app>願世尊。為我分別說通及宗通。我
 <lb n="0503a16"/>及餘菩薩摩訶薩善於二通。來世凡夫聲聞
 <lb n="0503a17"/>緣覺不得其短。佛告大慧。善哉善哉。諦聽
 <lb n="0503a18"/>諦聽善思念之。當為汝說。大慧白佛言。唯
@@ -2501,7 +2504,7 @@ Added comment  for Emacs
 <lb n="0505b01"/><l>於妄想心鏡</l><l>愚夫見有二</l>
 <lb n="0505b02"/><l>不識心及緣</l><l>則起二妄想</l>
 <lb n="0505b03"/><l>了心及境界</l><l>妄想則不生</l>
-<lb n="0505b04"/><l>心者即種種</l><l>遠離<note n="0505003" resp="Taisho" type="orig" place="foot text">相＝想【宮】＊</note><app n="0505003"><lem>相</lem><rdg wit="【宮】" resp="Taisho">想</rdg></app>所<anchor id="fxT16p0505b01"/>相</l>
+<lb n="0505b04"/><l>心者即種種</l><l>遠離<note n="0505003" resp="Taisho" type="orig" place="foot text">相＝想【宮】＊</note><app n="0505003"><lem>相</lem><rdg wit="【宮】" resp="Taisho">想</rdg></app>所<app type="＊" source="0505003"><lem>相</lem><rdg resp="Taisho" wit="【宮】">想</rdg></app></l>
 <lb n="0505b05"/><l>事現而無現</l><l>如彼愚妄想</l>
 <lb n="0505b06"/><l>三有<note n="0505004" resp="Taisho" type="orig" place="foot text">惟＝唯【元】</note><app n="0505004"><lem>惟</lem><rdg wit="【元】" resp="Taisho">唯</rdg></app>妄想</l><l>外義悉無有</l>
 <lb n="0505b07"/><l>妄想種種現</l><l>凡愚不能了</l>
@@ -2523,7 +2526,7 @@ Added comment  for Emacs
 <lb n="0505b22"/>耶。為相耶為所相耶。為說耶為所說耶。
 <lb n="0505b23"/>為覺耶為所覺耶。如是等<note n="0505008" resp="Taisho" type="orig" place="foot text">辭句＝詞句【宮】＊</note><app n="0505008"><lem>辭句</lem><rdg wit="【宮】" resp="Taisho">詞句</rdg></app>。為異為
 <lb n="0505b24"/>不異。佛告大慧。如來應供等正覺。於如是
-<lb n="0505b25"/>等<anchor id="fxT16p0505b04"/>辭句非事非因。所以者何。俱有過故。
+<lb n="0505b25"/>等<app type="＊" source="0505008"><lem>辭句</lem><rdg resp="Taisho" wit="【宮】">詞句</rdg></app>非事非因。所以者何。俱有過故。
 <lb n="0505b26"/>大慧。若如來是事者。或作或無常。無常故一
 <lb n="0505b27"/>切事應是如來。我及諸佛皆所不欲。若非
 <lb n="0505b28"/>所作者。無所得故方便則空。同於兔角<note n="0505009" resp="Taisho" type="orig" place="foot text">般＝槃【明】</note><app n="0505009"><lem>般</lem><rdg wit="【明】" resp="Taisho">槃</rdg></app>
@@ -2609,7 +2612,7 @@ Added comment  for Emacs
 <lb n="0506b18"/>者。大慧。如是等三阿僧祇百千名號不增不
 <lb n="0506b19"/>減。此及餘世界皆悉知我。如水中月不出不
 <lb n="0506b20"/>入。彼諸愚夫不能知我。墮二邊故。然悉
-<lb n="0506b21"/>恭敬供養於我。而<note n="0506008" resp="Taisho" type="orig" place="foot text">不＋（能）【宮】</note><app n="0506008"><lem>不</lem><rdg wit="【宮】" resp="Taisho">不能</rdg></app>善解知<anchor id="fxT16p0506b01"/>辭句義趣。
+<lb n="0506b21"/>恭敬供養於我。而<note n="0506008" resp="Taisho" type="orig" place="foot text">不＋（能）【宮】</note><app n="0506008"><lem>不</lem><rdg wit="【宮】" resp="Taisho">不能</rdg></app>善解知<app type="＊" source="0505008"><lem>辭句</lem><rdg resp="Taisho" wit="【宮】">詞句</rdg></app>義趣。
 <lb n="0506b22"/>不分別名。不解自通。計著種種言說章句。
 <lb n="0506b23"/>於不生不滅作無性想。不知如來名號差
 <lb n="0506b24"/>別。如因陀羅釋迦不蘭陀羅。不解自通會
@@ -2697,7 +2700,7 @@ Added comment  for Emacs
 <lb n="0507b16"/>有有為無為。如幻人生。其實無有若生若
 <lb n="0507b17"/>滅性無性。無所有故。一切法亦如是。離於
 <lb n="0507b18"/>生滅。愚癡凡夫墮不如實。起生滅妄想。非
-<lb n="0507b19"/>諸<anchor id="fxT16p0507b01"/>賢聖。不如實者不爾。如性自性妄想亦
+<lb n="0507b19"/>諸<app type="＊" source="0507006"><lem>賢聖</lem><rdg resp="Taisho" wit="【明】">聖賢</rdg></app>。不如實者不爾。如性自性妄想亦
 <lb n="0507b20"/>不異。若異妄想者。計著一切性自性。不
 <lb n="0507b21"/>見寂靜。不見寂靜者。終不離妄想。是故
 <lb n="0507b22"/>大慧。無相見勝非相見。<note n="0507008" resp="Taisho" type="orig" place="foot text">相＋（見）【明】</note><app n="0507008"><lem>相</lem><rdg wit="【明】" resp="Taisho">相見</rdg></app>者受生因故不
@@ -2715,7 +2718,7 @@ Added comment  for Emacs
 <lb n="0507c04"/><l>是故空不生</l><l>我說無自性</l>
 <lb n="0507c05"/><l>謂一一和合</l><l>性現而非有</l>
 <lb n="0507c06"/><l>分析無和合</l><l>非如外道見</l>
-<lb n="0507c07"/><l>夢幻及垂髮</l><l>野馬<anchor id="fxT16p0507c01"/>乾闥婆</l>
+<lb n="0507c07"/><l>夢幻及垂髮</l><l>野馬<app type="＊" source="0507009"><lem>乾</lem><rdg resp="Taisho" wit="【明】">揵</rdg></app>闥婆</l>
 <lb n="0507c08"/><l>世間種種事</l><l>無因而相現</l>
 <lb n="0507c09"/><l>折伏有因論</l><l>申暢無生義</l>
 <lb n="0507c10"/><l>申暢無生者</l><l>法流永不斷</l>
@@ -2827,7 +2830,7 @@ Added comment  for Emacs
 <lb n="0508c26"/>道無常見妄想。火燒四大時自相不燒。各
 <lb n="0508c27"/>各自相相壞者。四大造色應斷。大慧。我法起
 <lb n="0508c28"/>非常非無常。所以者何。謂外性不決定故。
-<lb n="0508c29"/><anchor id="fxT16p0508c01"/>惟說三有微心。不說種種相有生有滅。
+<lb n="0508c29"/><app type="＊" source="0507015"><lem>惟</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">唯</rdg></app>說三有微心。不說種種相有生有滅。
 <pb ed="T" id="T16.0670.0509a" n="0509a"/>
 <lb n="0509a01"/>四大合會差別。四大及造色故。妄想二種事
 <lb n="0509a02"/>攝所攝。知二種妄想。離外性無性二種見。
@@ -2835,7 +2838,7 @@ Added comment  for Emacs
 <lb n="0509a04"/>行。離心性無性妄想。世間出世<note n="0509001" resp="Taisho" type="orig" place="foot text">間＋（出世間）【明】＊</note><app n="0509001"><lem>間</lem><rdg wit="【明】" resp="Taisho">間出世間</rdg></app>上上一
 <lb n="0509a05"/>切法非常非無常。不覺自心現量。墮二邊
 <lb n="0509a06"/>惡見相續。一切外道不覺自妄想。此凡夫無
-<lb n="0509a07"/>有根本。謂世間出世<anchor id="fxT16p0509a01"/>間上上<note n="0509002" resp="Taisho" type="orig" place="foot text">〔法〕－【三】【宮】</note><note n="0509002" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【宮】</note><app n="0509002"><lem>法</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。從說妄
+<lb n="0509a07"/>有根本。謂世間出世<app type="＊" source="0509001"><lem>間</lem><rdg resp="Taisho" wit="【明】">間出世間</rdg></app>上上<note n="0509002" resp="Taisho" type="orig" place="foot text">〔法〕－【三】【宮】</note><note n="0509002" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【宮】</note><app n="0509002"><lem>法</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>。從說妄
 <lb n="0509a08"/>想生。非凡愚所覺。爾時世尊欲重宣此義。
 <lb n="0509a09"/>而說偈言</p>
 <lb n="0509a10"/><lg><l>遠離於始造</l><l>及與形處異</l>
@@ -2847,7 +2850,7 @@ Added comment  for Emacs
 <lb n="0509a16"/><l>一切唯心量</l><l>二種心流轉</l>
 <lb n="0509a17"/><l>攝受及所攝</l><l>無有我我所</l>
 <lb n="0509a18"/><l>梵天為樹根</l><l>枝條普周遍</l>
-<lb n="0509a19"/><l>如是我所說</l><l><anchor id="fxT16p0509a02"/>惟是彼心量</l></lg>
+<lb n="0509a19"/><l>如是我所說</l><l><app type="＊" source="0507015"><lem>惟</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">唯</rdg></app>是彼心量</l></lg>
 <lb n="0509a20"/><p>爾時大慧菩薩復白佛言。世尊。惟願為說一
 <lb n="0509a21"/>切菩薩聲聞緣覺滅正受次第相續。若善於
 <lb n="0509a22"/>滅正受次第相續相者。我及餘菩薩終不妄
@@ -2955,7 +2958,7 @@ Added comment  for Emacs
 <lb n="0510b04"/>受教。佛告大慧。如來之藏是善不善因。能
 <lb n="0510b05"/>遍興造一切趣生。譬如<note n="0510004" resp="Taisho" type="orig" place="foot text">伎＝技【元】【明】</note><app n="0510004"><lem>伎</lem><rdg wit="【元】【明】" resp="Taisho">技</rdg></app>兒變現諸趣離
 <lb n="0510b06"/>我我所。不覺彼故。三緣和合方便而生。外道
-<lb n="0510b07"/>不覺計著作者。為無始虛偽惡習所<anchor id="fxT16p0510b01"/>薰。名
+<lb n="0510b07"/>不覺計著作者。為無始虛偽惡習所<app type="＊" source="0509005"><lem>薰</lem><rdg resp="Taisho" wit="【元】【明】">熏</rdg></app>。名
 <lb n="0510b08"/>為識藏。生無明住地與七識俱。如海浪
 <lb n="0510b09"/>身<note n="0510005" resp="Taisho" type="orig" place="foot text">常＝長【明】</note><app n="0510005"><lem>常</lem><rdg wit="【明】" resp="Taisho">長</rdg></app>生不斷。離無常過離於我論。自性無
 <lb n="0510b10"/>垢畢竟清淨。其<note n="0510006" resp="Taisho" type="orig" place="foot text">諸餘＝餘諸【明】</note><app n="0510006"><lem>諸餘</lem><rdg wit="【明】" resp="Taisho">餘諸</rdg></app>識有生有滅。意意識
@@ -2993,7 +2996,7 @@ Added comment  for Emacs
 <lb n="0510c12"/>此義。而說偈言</p>
 <lb n="0510c13"/><lg><l>甚深如來藏</l><l>而與七識俱</l>
 <lb n="0510c14"/><l>二種攝受生</l><l>智者則遠離</l>
-<lb n="0510c15"/><l>如鏡像現心</l><l>無始習所<anchor id="fxT16p0510c01"/>薰</l>
+<lb n="0510c15"/><l>如鏡像現心</l><l>無始習所<app type="＊" source="0509005"><lem>薰</lem><rdg resp="Taisho" wit="【元】【明】">熏</rdg></app></l>
 <lb n="0510c16"/><l>如實觀察者</l><l>諸事悉無事</l>
 <lb n="0510c17"/><l>如愚見指月</l><l>觀指不觀月</l>
 <lb n="0510c18"/><l>計著名字者</l><l>不見我真實</l>
@@ -3011,7 +3014,7 @@ Added comment  for Emacs
 <pb ed="T" id="T16.0670.0511a" n="0511a"/>
 <lb n="0511a01"/>覺彼五法自性識二無我自心現外性。凡夫
 <lb n="0511a02"/>妄想。非<anchor id="fxT16p0511a01"/>諸賢聖。大慧白佛言。世尊。云何愚
-<lb n="0511a03"/>夫妄想生。非諸<anchor id="fxT16p0511a02"/>賢聖。佛告大慧。愚夫計
+<lb n="0511a03"/>夫妄想生。非諸<app type="＊" source="0507006"><lem>賢聖</lem><rdg resp="Taisho" wit="【明】">聖賢</rdg></app>。佛告大慧。愚夫計
 <lb n="0511a04"/>著俗數名相隨心流散。流散已種種相像貌。
 <lb n="0511a05"/>墮我我所見悕望。計著妙色。計著已無知
 <lb n="0511a06"/>覆<note n="0511001" resp="Taisho" type="orig" place="foot text">障＋（故）【明】</note><app n="0511001"><lem>障</lem><rdg wit="【明】" resp="Taisho">障故</rdg></app>生染著。染著已貪<note n="0511002" resp="Taisho" type="orig" place="foot text">恚＋（癡）【三】【宮】</note><note n="0511002" resp="CBETA" type="mod">恚＋（癡）【宋】【元】【明】【宮】</note><app n="0511002"><lem>恚</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">恚癡</rdg></app>所生業積集。積
@@ -3178,7 +3181,7 @@ Added comment  for Emacs
 <lb n="0512c17"/><l>剎那息煩亂</l><l>寂靜離所作</l>
 <lb n="0512c18"/><l>一切法不生</l><l>我說剎那義</l>
 <lb n="0512c19"/><l>物生則有滅</l><l>不為愚者說</l>
-<lb n="0512c20"/><l>無間相續性</l><l>妄想之所<anchor id="fxT16p0512c01"/>勳</l>
+<lb n="0512c20"/><l>無間相續性</l><l>妄想之所<app type="＊" source="0512006"><lem>勳</lem><rdg resp="Taisho" wit="【元】【明】">熏</rdg><rdg resp="Taisho" wit="【宮】">薰</rdg></app></l>
 <lb n="0512c21"/><l>無明為其因</l><l>心則從彼生</l>
 <lb n="0512c22"/><l>乃至色未生</l><l>中間有何分</l>
 <lb n="0512c23"/><l>相續次第滅</l><l>餘心隨彼生</l>
@@ -3190,7 +3193,7 @@ Added comment  for Emacs
 <lb n="0512c29"/><l>住於正法得</l><l>如來智具足</l>
 <pb ed="T" id="T16.0670.0513a" n="0513a"/>
 <lb n="0513a01"/><l>比丘得平等</l><l>云何見剎那</l>
-<lb n="0513a02"/><l><anchor id="fxT16p0513a01"/>乾闥婆幻等</l><l>色無有剎那</l>
+<lb n="0513a02"/><l><app type="＊" source="0507009"><lem>乾</lem><rdg resp="Taisho" wit="【明】">揵</rdg></app>闥婆幻等</l><l>色無有剎那</l>
 <lb n="0513a03"/><l>於不實色等</l><l>視之若真實</l></lg>
 <lb n="0513a04"/><p>爾時大慧菩薩。復白佛言。世尊。世尊記阿羅
 <lb n="0513a05"/>漢得成阿耨多羅三藐三菩提與諸菩薩
@@ -3202,7 +3205,7 @@ Added comment  for Emacs
 <lb n="0513a11"/>惡業果報。旃遮摩納。孫陀利女。空&CB00425;而出。惡
 <lb n="0513a12"/>業障現。云何如來得一切種智。而不離諸
 <lb n="0513a13"/>過。佛告大慧。諦聽諦聽善思念之。當為汝
-<lb n="0513a14"/>說。大慧白<anchor id="fxT16p0513a02"/>佛。善哉世尊。唯然受教。佛告
+<lb n="0513a14"/>說。大慧白<app type="＊" source="0510013"><lem>佛</lem><rdg resp="Taisho" wit="【明】">佛言</rdg></app>。善哉世尊。唯然受教。佛告
 <lb n="0513a15"/>大慧。為無餘涅槃<note n="0513002" resp="Taisho" type="orig" place="foot text">故＝教【宋】【元】</note><app n="0513002"><lem>故</lem><rdg wit="【宋】【元】" resp="Taisho">教</rdg></app>。說誘進行菩薩行
 <lb n="0513a16"/>者故。此及餘世界修菩薩行者。樂聲聞乘
 <lb n="0513a17"/>涅槃。為令離聲聞乘進向大乘。化佛授聲
@@ -3259,7 +3262,7 @@ Added comment  for Emacs
 <lb n="0513c08"/>有遮法不聽食肉。況復如來世間救護。正
 <lb n="0513c09"/>法成就而食肉耶</p>
 <lb n="0513c10"/><p>佛告大慧。善哉善哉。諦聽諦聽善思念之。
-<lb n="0513c11"/>當為汝說。大慧白<anchor id="fxT16p0513c01"/>佛。唯然受教。佛告大
+<lb n="0513c11"/>當為汝說。大慧白<app type="＊" source="0510013"><lem>佛</lem><rdg resp="Taisho" wit="【明】">佛言</rdg></app>。唯然受教。佛告大
 <lb n="0513c12"/>慧。有無量因緣不應食肉。然我今當為
 <lb n="0513c13"/>汝略說。謂一切眾生從本已來。展轉因緣
 <lb n="0513c14"/><note n="0513012" resp="Taisho" type="orig" place="foot text">常＝嘗【明】＊</note><app n="0513012"><lem>常</lem><rdg wit="【明】" resp="Taisho">嘗</rdg></app>為六親。以親想故不應食肉。驢騾駱
@@ -3274,7 +3277,7 @@ Added comment  for Emacs
 <lb n="0513c23"/>應食肉。令口氣臭故不應食肉。多惡夢
 <lb n="0513c24"/>故不應食肉。空閑林中虎狼聞香故不應
 <lb n="0513c25"/>食肉。令飲食無節<note n="0513013" resp="Taisho" type="orig" place="foot text">〔量〕－【明】</note><app n="0513013"><lem>量</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>故不應食肉。令
-<lb n="0513c26"/>修行者不生厭離故不應食肉。我<anchor id="fxT16p0513c02"/>常說
+<lb n="0513c26"/>修行者不生厭離故不應食肉。我<app type="＊" source="0513012"><lem>常</lem><rdg resp="Taisho" wit="【明】">嘗</rdg></app>說
 <lb n="0513c27"/>言。凡所飲食作食子肉想作服藥想故
 <lb n="0513c28"/>不應食肉。聽食肉者無有是處。復次大
 <lb n="0513c29"/>慧。過去有王名師子蘇陀娑。食種種肉遂
@@ -3335,4 +3338,4 @@ Added comment  for Emacs
 <lb n="0514b24"/><l>得生梵志種</l><l>及諸修行處</l>
 <lb n="0514b25"/><l>智慧富貴家</l><l>斯由不食肉</l></lg>
 <lb n="0514b26"/><juan fun="close" n="004"><jhead><title>楞伽阿跋多羅寶經</title>卷第四</jhead></juan></div2></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>

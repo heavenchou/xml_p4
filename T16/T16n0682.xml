@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)</edition>
+		<edition>$Revision: 1.4 $ (Big5)</edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/06/10 07:29:42 $</date>
+		<date>$Date: 2003/06/23 05:06:45 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 16, No. 682 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T16n0682.xml,v $
+Revision 1.4  2003/06/23 05:06:45  moved
+＊校勘插入 xml 作業
+
 Revision 1.3  2003/06/10 07:29:42  moved
 「找不到對應的校勘」作業
 
@@ -114,7 +117,7 @@ Revision 1.7  2001/02/07 06:51:32  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:41:09  chris
-Added keywords $Revision: 1.3 $, $Date: 2003/06/10 07:29:42 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2003/06/23 05:06:45 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -875,7 +878,7 @@ Added comment  for Emacs
 <lb n="0755c15"/>
 <lb n="0755c16"/><juan fun="open" n="002"><mulu type="卷" n="002" label="中"/><jhead><title>大乘密嚴經</title>卷中</jhead>
 <lb n="0755c17"/>
-<lb n="0755c18"/><byline type="Translator"><note n="0755007" resp="Taisho" type="orig" place="foot text">〔開府…大興善寺〕三十七字－【宋】【元】，（（開府…大興善寺））三十七字＝唐【明】＊</note><app n="0755007" word-count="37"><lem>開府儀同三司特進試鴻臚卿
+<lb n="0755c18"/><byline type="Translator"><note n="0755007" resp="Taisho" type="orig" place="foot text">〔開府…大興善寺〕三十七字－【宋】【元】，（（開府…大興善寺））三十七字＝唐【明】＊</note><note n="0755007" resp="CBETA" type="mod"><todo type="＊"/>〔開府…大興善寺〕三十七字－【宋】【元】，（（開府…大興善寺））三十七字＝唐【明】＊</note><app n="0755007" word-count="37"><lem>開府儀同三司特進試鴻臚卿
 <lb n="0755c19"/>肅國公食邑三千戶賜紫贈司空
 <lb n="0755c20"/>諡大鑑正號大廣智大興善寺</lem><rdg wit="【宋】【元】" resp="Taisho">&lac;</rdg><rdg wit="【明】" resp="Taisho">唐</rdg></app>
 <lb n="0755c21"/>三藏沙門不空奉　詔譯</byline>
@@ -1242,7 +1245,7 @@ Added comment  for Emacs
 <lb n="0759c23"/><l>遠離能所取</l><l>寂然心不生</l>
 <lb n="0759c24"/><l>是名真實修</l><l>無相觀行者</l>
 <lb n="0759c25"/><l>欲生密嚴土</l><l>常應如是觀</l></lg></div1>
-<lb n="0759c26"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 自作境界品(中)"/><head><anchor id="fxT16p0759c01"/><title>大乘密嚴經</title>自作境界品第四</head>
+<lb n="0759c26"/><div1 type="pin"><mulu type="品" level="1" n="4" label="4 自作境界品(中)"/><head><app type="＊" source="0759008"><lem><title>大乘密嚴經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>自作境界品第四</head>
 <lb n="0759c27"/><lg><l>爾時金剛藏</l><l>菩薩摩訶薩</l>
 <lb n="0759c28"/><l>復告螺髻梵</l><l>天主應當知</l>
 <lb n="0759c29"/><l>八種九種心</l><l>常與無明轉</l>
@@ -1445,7 +1448,7 @@ Added comment  for Emacs
 <lb n="0762a16"/><l>則見俱胝剎</l><l>諸佛住等引</l>
 <lb n="0762a17"/><l>同時共舒手</l><l>以水灌其頂</l>
 <lb n="0762a18"/><l>即入於佛地</l><l>示現眾色形</l>
-<lb n="0762a19"/><l>既得種種身</l><l>則具薩<anchor id="fxT16p0762a01"/>婆若</l>
+<lb n="0762a19"/><l>既得種種身</l><l>則具薩<app type="＊" source="0761013"><lem>婆</lem><rdg resp="Taisho" wit="【明】">媻</rdg></app>若</l>
 <lb n="0762a20"/><l>力通及自在</l><l>正定陀羅尼</l>
 <lb n="0762a21"/><l>如是等功德</l><l>莫不皆成就</l>
 <lb n="0762a22"/><l>分析於諸色</l><l>乃至觀極微</l>
@@ -1455,7 +1458,7 @@ Added comment  for Emacs
 <lb n="0762a26"/><l>此中無業果</l><l>亦無作業人</l>
 <lb n="0762a27"/><l>無能作世間</l><l>設有<note n="0762003" resp="Taisho" type="orig" place="foot text">作＝非【三】＊</note><note n="0762003" resp="CBETA" type="mod">作＝非【宋】＊【元】＊【明】＊</note><app n="0762003"><lem>作</lem><rdg wit="【宋】【元】【明】" resp="Taisho">非</rdg></app>能作</l>
 <lb n="0762a28"/><l>能作待於作</l><l>何名能作人</l>
-<lb n="0762a29"/><l>此言成過患</l><l>說<anchor id="fxT16p0762a02"/>作者清淨</l>
+<lb n="0762a29"/><l>此言成過患</l><l>說<app type="＊" source="0762003"><lem>作</lem><rdg resp="Taisho" wit="【宋】【元】【明】">非</rdg></app>者清淨</l>
 <pb ed="T" id="T16.0682.0762b" n="0762b"/>
 <lb n="0762b01"/><l>我者成諸境</l><l>地輪依水輪</l>
 <lb n="0762b02"/><l>及有情世間</l><l>次第而安布</l>
@@ -1494,7 +1497,7 @@ Added comment  for Emacs
 <lb n="0762c05"/><l>又如燈破闇</l><l>一念盡無餘</l>
 <lb n="0762c06"/><l>諸業習暗冥</l><l>無始之熏聚</l>
 <lb n="0762c07"/><l>牟尼智燈起</l><l>剎那頓皆滅</l></lg></div1>
-<lb n="0762c08"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 辯觀行品(中)"/><head><anchor id="fxT16p0762c01"/><title>大乘密嚴經</title>辯觀行品第五</head>
+<lb n="0762c08"/><div1 type="pin"><mulu type="品" level="1" n="5" label="5 辯觀行品(中)"/><head><app type="＊" source="0759008"><lem><title>大乘密嚴經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>辯觀行品第五</head>
 <lb n="0762c09"/><lg><l>爾時金剛藏</l><l>菩薩摩訶薩</l>
 <lb n="0762c10"/><l>復告於大眾</l><l>諸仁應諦聽</l>
 <lb n="0762c11"/><l>譬如空<note n="0762007" resp="Taisho" type="orig" place="foot text">閑＝間【明】</note><app n="0762007"><lem>閑</lem><rdg wit="【明】" resp="Taisho">間</rdg></app>地</l><l>欲造立宮室</l>
@@ -1508,7 +1511,7 @@ Added comment  for Emacs
 <lb n="0762c19"/><l>如是身舍宅</l><l>諸界所集成</l>
 <lb n="0762c20"/><l>蘊積<note n="0762009" resp="Taisho" type="orig" place="foot text">猶＝如【三】</note><note n="0762009" resp="CBETA" type="mod">猶＝如【宋】【元】【明】</note><app n="0762009"><lem>猶</lem><rdg wit="【宋】【元】【明】" resp="Taisho">如</rdg></app>崇山</l><l><note n="0762010" resp="Taisho" type="orig" place="foot text">攲＝欹【宋】【元】，&CB07899;【明】</note><note n="0762010" resp="CBETA" type="mod">攲＝欹【宋】【元】，＝&CB07899;【明】</note><app n="0762010"><lem>攲</lem><rdg wit="【宋】【元】" resp="Taisho">欹</rdg><rdg wit="【明】" resp="Taisho">&CB07899;</rdg></app>危如朽屋</l>
 <lb n="0762c21"/><l>不生亦不滅</l><l>非自亦非他</l>
-<lb n="0762c22"/><l>如乾闥<anchor id="fxT16p0762c02"/>婆城</l><l>如雲亦如影</l>
+<lb n="0762c22"/><l>如乾闥<app type="＊" source="0761013"><lem>婆</lem><rdg resp="Taisho" wit="【明】">媻</rdg></app>城</l><l>如雲亦如影</l>
 <lb n="0762c23"/><l>復如熱時焰</l><l>亦如觀繪事</l>
 <lb n="0762c24"/><l>相自於妄現</l><l>性淨離有無</l>
 <lb n="0762c25"/><l>亦如盲與跛</l><l>相假而得行</l>
@@ -1547,7 +1550,7 @@ Added comment  for Emacs
 <lb n="0763a28"/><l>溺在境淤泥</l><l>是故不應著</l>
 <lb n="0763a29"/><l>或如諸世間</l><l>邪慧妄分別</l>
 <pb ed="T" id="T16.0682.0763b" n="0763b"/>
-<lb n="0763b01"/><l>於牛及山羊</l><l>設<anchor id="fxT16p0763b01"/>婆與麋鹿</l>
+<lb n="0763b01"/><l>於牛及山羊</l><l>設<app type="＊" source="0761013"><lem>婆</lem><rdg resp="Taisho" wit="【明】">媻</rdg></app>與麋鹿</l>
 <lb n="0763b02"/><l>見彼有角故</l><l>執之以為實</l>
 <lb n="0763b03"/><l>而於彪兔等</l><l>便生無角解</l>
 <lb n="0763b04"/><l>若非見牛角</l><l>於兔寧執無</l>
@@ -1592,7 +1595,7 @@ Added comment  for Emacs
 <lb n="0763c13"/><l>多時所熏習</l><l>譬如瞋恚蛇</l>
 <lb n="0763c14"/><l>煩惱火燒然</l><l>流轉險惡趣</l>
 <lb n="0763c15"/><l>離貪即解脫</l><l><note n="0763013" resp="Taisho" type="orig" place="foot text">常＝當【三】</note><note n="0763013" resp="CBETA" type="mod">常＝當【宋】【元】【明】</note><app n="0763013"><lem>常</lem><rdg wit="【宋】【元】【明】" resp="Taisho">當</rdg></app>勤修觀行</l></lg></div1>
-<lb n="0763c16"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 趣入阿賴耶品(中)"/><head><anchor id="fxT16p0763c01"/><title>大乘密嚴經</title>趣入阿賴耶品第六</head>
+<lb n="0763c16"/><div1 type="pin"><mulu type="品" level="1" n="6" label="6 趣入阿賴耶品(中)"/><head><app type="＊" source="0759008"><lem><title>大乘密嚴經</title></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>趣入阿賴耶品第六</head>
 <lb n="0763c17"/><lg><l>爾時金剛藏</l><l>菩薩摩訶薩</l>
 <lb n="0763c18"/><l>復告諸大眾</l><l><note n="0763014" resp="Taisho" type="orig" place="foot text">仁＝二【元】【明】</note><app n="0763014"><lem>仁</lem><rdg wit="【元】【明】" resp="Taisho">二</rdg></app>等應當知</l>
 <lb n="0763c19"/><l>我昔蒙佛力</l><l>加持得妙定</l>
@@ -1647,7 +1650,7 @@ Added comment  for Emacs
 <lb n="0764b08"/><l>身相現光明</l><l>獨勝無倫匹</l>
 <lb n="0764b09"/><l>住<note n="0764004" resp="Taisho" type="orig" place="foot text">於＝如【三】</note><note n="0764004" resp="CBETA" type="mod">於＝如【宋】【元】【明】</note><app n="0764004"><lem>於</lem><rdg wit="【宋】【元】【明】" resp="Taisho">如</rdg></app>滿月殿</l><l>密嚴之定海</l>
 <lb n="0764b10"/><l>遍<note n="0764005" resp="Taisho" type="orig" place="foot text">現＝見【明】</note><app n="0764005"><lem>現</lem><rdg wit="【明】" resp="Taisho">見</rdg></app>眾色像</l><l>賢聖所稱歎</l>
-<lb n="0764b11"/><l>無量諸天眾</l><l>及乾闥<anchor id="fxT16p0764b01"/>婆等</l>
+<lb n="0764b11"/><l>無量諸天眾</l><l>及乾闥<app type="＊" source="0761013"><lem>婆</lem><rdg resp="Taisho" wit="【明】">媻</rdg></app>等</l>
 <lb n="0764b12"/><l>明仙及國王</l><l>眷屬眾圍繞</l>
 <lb n="0764b13"/><l>或見最勝子</l><l>并諸觀行師</l>
 <lb n="0764b14"/><l>寂靜而住禪</l><l>儼如在<note n="0764006" resp="Taisho" type="orig" place="foot text">睡眠＝眠睡【三】</note><note n="0764006" resp="CBETA" type="mod">睡眠＝眠睡【宋】【元】【明】</note><app n="0764006"><lem>睡眠</lem><rdg wit="【宋】【元】【明】" resp="Taisho">眠睡</rdg></app></l>
@@ -2032,7 +2035,7 @@ Added comment  for Emacs
 <lb n="0768c10"/><l>藏識亦如是</l><l>習氣之所纏</l>
 <lb n="0768c11"/><l>三摩地淨除</l><l>覺者常明見</l>
 <lb n="0768c12"/><l>如酪未<note n="0768012" resp="Taisho" type="orig" place="foot text">攢＝鑽【三】＊</note><note n="0768012" resp="CBETA" type="mod">攢＝鑽【宋】＊【元】＊【明】＊</note><app n="0768012"><lem>攢</lem><rdg wit="【宋】【元】【明】" resp="Taisho">鑽</rdg></app>搖</l><l>酥終不可得</l>
-<lb n="0768c13"/><l>是故諸智者</l><l><anchor id="fxT16p0768c01"/>攢酪而得酥</l>
+<lb n="0768c13"/><l>是故諸智者</l><l><app type="＊" source="0768012"><lem>攢</lem><rdg resp="Taisho" wit="【宋】【元】【明】">鑽</rdg></app>酪而得酥</l>
 <lb n="0768c14"/><l>藏識亦復然</l><l>諸識所纏覆</l>
 <lb n="0768c15"/><l>密嚴諸定者</l><l><note n="0768013" resp="Taisho" type="orig" place="foot text">勤＝覲【三】</note><note n="0768013" resp="CBETA" type="mod">勤＝覲【宋】【元】【明】</note><app n="0768013"><lem>勤</lem><rdg wit="【宋】【元】【明】" resp="Taisho">覲</rdg></app>觀乃能得</l>
 <lb n="0768c16"/><l>密嚴是大明</l><l>妙智之殊稱</l>
@@ -2185,7 +2188,7 @@ Added comment  for Emacs
 <lb n="0770b13"/><l>身則無覺知</l><l>猶如於木石</l>
 <lb n="0770b14"/><l>藏識是為心</l><l>執我名為意</l>
 <lb n="0770b15"/><l>能取諸境界</l><l>以是說為識</l>
-<lb n="0770b16"/><l><note n="0770002" resp="Taisho" type="orig" place="foot text">採＝采【明】</note><note n="0770002" resp="CBETA" type="mod">採＝采【明】<corr resp="march" sic="">＊</corr></note><app n="0770002"><lem>採</lem><rdg wit="【明】" resp="Taisho">采</rdg></app>集業為心</l><l>意為遍<anchor id="fxT16p0770b01"/>採集</l>
+<lb n="0770b16"/><l><note n="0770002" resp="Taisho" type="orig" place="foot text">採＝采【明】</note><note n="0770002" resp="CBETA" type="mod">採＝采【明】<corr resp="march" sic="">＊</corr></note><app n="0770002"><lem>採</lem><rdg wit="【明】" resp="Taisho">采</rdg></app>集業為心</l><l>意為遍<app type="＊" source="0770002"><lem>採</lem><rdg resp="Taisho" wit="【明】">采</rdg></app>集</l>
 <lb n="0770b17"/><l>意識能遍了</l><l>五識現分別</l>
 <lb n="0770b18"/><l>心能持於身</l><l>末那著諸趣</l>
 <lb n="0770b19"/><l>意識能遍了</l><l>五識緣自境</l>
@@ -2485,7 +2488,7 @@ Added comment  for Emacs
 <lb n="0773c13"/><l>如是見相應</l><l>於定不迷惑</l>
 <lb n="0773c14"/><l>如飯一粒熟</l><l>餘粒即可知</l>
 <lb n="0773c15"/><l>諸法亦復然</l><l>知一即知彼</l>
-<lb n="0773c16"/><l>譬如<anchor id="fxT16p0773c01"/>攢酪者</l><l>嘗之以指端</l>
+<lb n="0773c16"/><l>譬如<app type="＊" source="0768012"><lem>攢</lem><rdg resp="Taisho" wit="【宋】【元】【明】">鑽</rdg></app>酪者</l><l>嘗之以指端</l>
 <lb n="0773c17"/><l>如是諸法性</l><l>可以一觀察</l>
 <lb n="0773c18"/><l>法性非是有</l><l>亦復非是空</l>
 <lb n="0773c19"/><l>藏識之所變</l><l>藏以空為相</l>
@@ -2720,4 +2723,4 @@ Added comment  for Emacs
 <lb n="0776b08"/>訶薩。及從他方來此會者微塵數眾。聞佛所
 <lb n="0776b09"/>說皆大歡喜信受奉行</p>
 <lb n="0776b10"/><juan fun="close" n="003"><jhead><title>大乘密嚴經</title>卷下</jhead></juan></div1>
-</body></text></TEI.2>
+</body></text></TEI.2>
