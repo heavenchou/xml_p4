@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/04/20 08:43:43 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/06/15 09:46:36 $</date></edition>
 	</editionStmt>
 	<extent>14卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:43:43 $</date>
+		<date>$Date: 2004/06/15 09:46:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 52, No. 2102 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T52n2102.xml,v $
+Revision 1.10  2004/06/15 09:46:36  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.9  2004/04/20 08:43:43  maha
 「版本日期」標記修訂
 
@@ -178,7 +181,7 @@ Revision 1.8  2001/02/07 07:40:33  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.7  2001/02/03 08:13:26  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/04/20 08:43:43 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/06/15 09:46:36 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -189,10 +192,10 @@ Added comment  for Emacs
 <lb n="0001a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0001a02"/><head type="no">No. 2102</head>
-<lb n="0001a03"/><div1 type="xu"><juan fun="open" n="001"></juan><mulu type="卷" n="1"/><head>弘明集<note n="0001001" resp="Taisho" type="orig" place="foot text">〔卷第一并〕－【三】【宮】</note><note n="0001001" resp="CBETA" type="mod"><todo type="a"/>〔卷第一并〕－【宋】【元】【明】【宮】</note>卷第一</head><note place="inline">并序</note>
+<lb n="0001a03"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>弘明集<note n="0001001" resp="Taisho" type="orig" place="foot text">〔卷第一并〕－【三】【宮】</note><note n="0001001" resp="CBETA" type="mod"><todo type="a"/>〔卷第一并〕－【宋】【元】【明】【宮】</note>卷第一<note place="inline">并序</note></jhead></juan>
 <lb n="0001a04"/>
 <lb n="0001a05"/><byline type="Author">梁<note n="0001002" resp="Taisho" type="orig" place="foot text">〔楊都建初寺〕－【三】【宮】＊</note><note n="0001002" resp="CBETA" type="mod">〔楊都建初寺〕－【宋】【元】【明】【宮】＊</note><app n="0001002"><lem>楊都建初寺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>釋僧祐撰</byline>
-<lb n="0001a06"/><p>夫覺海無涯。慧<note n="0001003" resp="Taisho" type="orig" place="foot text">境＝鏡【元】【明】</note><app n="0001003"><lem>境</lem><rdg wit="【元】【明】" resp="Taisho">鏡</rdg></app>圓照。化妙域中。實陶鑄
+<lb n="0001a06"/><div1 type="xu"><mulu type="序" level="1" label="序"/><p>夫覺海無涯。慧<note n="0001003" resp="Taisho" type="orig" place="foot text">境＝鏡【元】【明】</note><app n="0001003"><lem>境</lem><rdg wit="【元】【明】" resp="Taisho">鏡</rdg></app>圓照。化妙域中。實陶鑄
 <lb n="0001a07"/>於堯舜。理擅繫表。乃埏埴乎周孔矣。然道大
 <lb n="0001a08"/>信難。聲高和寡。須彌峻而藍風起。寶藏積而
 <lb n="0001a09"/>怨賊生。昔如來在世化震大千。猶有四魔&CB00893;
@@ -213,8 +216,9 @@ Added comment  for Emacs
 <lb n="0001a24"/>分。列為<note n="0001011" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】</note><note n="0001011" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】</note><app n="0001011"><lem>一</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>十四卷。夫道以人弘。教以文明。
 <lb n="0001a25"/>弘道明教。故謂之弘明集。兼率淺懷附論<note n="0001012" resp="Taisho" type="orig" place="foot text">于＝於【明】</note><app n="0001012"><lem>于</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>
 <lb n="0001a26"/>末。庶以涓埃微裨瀛岱。但學孤識寡。愧在褊
-<lb n="0001a27"/>局。博<note n="0001013" resp="Taisho" type="orig" place="foot text">練＝綜【三】【宮】</note><note n="0001013" resp="CBETA" type="mod">練＝綜【宋】【元】【明】【宮】</note><app n="0001013"><lem>練</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">綜</rdg></app>君子。惠增廣焉</p><note n="0001014" resp="Taisho" type="orig" place="foot text">弘明集序終【三】【宮】</note><note n="0001014" resp="CBETA" type="mod"><todo type="a"/>弘明集序終【宋】【元】【明】【宮】</note>◎
-<lb n="0001a28"/><list><item>◎<note n="0001015" resp="Taisho" type="orig" place="foot text">卷第一首【三】【宮】，宋元宮本俱無撰號明本有撰號梁釋僧祐撰，〔牟子理惑〕－【明】</note><note n="0001015" resp="CBETA" type="mod"><todo type="a"/>卷第一首【宋】【元】【明】【宮】，宋元宮本俱無撰號明本有撰號梁釋僧祐撰，〔牟子理惑〕－【明】</note>牟子理<note n="0001016" resp="Taisho" type="orig" place="foot text">惑＋（論三十七篇）【宋】【元】</note><app n="0001016"><lem>惑</lem><rdg wit="【宋】【元】" resp="Taisho">惑論三十七篇</rdg></app></item><item><note n="0001017" resp="Taisho" type="orig" place="foot text">〔正誣論〕－【明】</note><app n="0001017"><lem>正誣<note n="0001018" resp="Taisho" type="orig" place="foot text">論＋（未詳作者）【宋】【元】【宮】</note><app n="0001018"><lem>論</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">論未詳作者</rdg></app></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></item></list></div1><div1 type="other"><mulu type="其他" level="1" label="1 牟子理惑論(一)"/><head><note n="0001019" resp="Taisho" type="orig" place="foot text">〔牟子〕－【明】</note><app n="0001019"><lem>牟子</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>理<note n="0001020" resp="Taisho" type="orig" place="foot text">惑＋（論）【宋】【元】【宮】，（論三十七篇）【明】</note><app n="0001020"><lem>惑</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">惑論</rdg><rdg wit="【明】" resp="Taisho">惑論三十七篇</rdg></app>
+<lb n="0001a27"/>局。博<note n="0001013" resp="Taisho" type="orig" place="foot text">練＝綜【三】【宮】</note><note n="0001013" resp="CBETA" type="mod">練＝綜【宋】【元】【明】【宮】</note><app n="0001013"><lem>練</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">綜</rdg></app>君子。惠增廣焉</p><note n="0001014" resp="Taisho" type="orig" place="foot text">弘明集序終【三】【宮】</note><note n="0001014" resp="CBETA" type="mod"><todo type="a"/>弘明集序終【宋】【元】【明】【宮】</note>◎</div1>
+<lb n="0001a28"/><div1 type="other">◎<note n="0001015" resp="Taisho" type="orig" place="foot text">卷第一首【三】【宮】，宋元宮本俱無撰號明本有撰號梁釋僧祐撰，〔牟子理惑〕－【明】</note><note n="0001015" resp="CBETA" type="mod"><todo type="a"/>卷第一首【宋】【元】【明】【宮】，宋元宮本俱無撰號明本有撰號梁釋僧祐撰，〔牟子理惑〕－【明】</note><list><item>牟子理<note n="0001016" resp="Taisho" type="orig" place="foot text">惑＋（論三十七篇）【宋】【元】</note><app n="0001016"><lem>惑</lem><rdg wit="【宋】【元】" resp="Taisho">惑論三十七篇</rdg></app></item><item><note n="0001017" resp="Taisho" type="orig" place="foot text">〔正誣論〕－【明】</note><app n="0001017"><lem>正誣<note n="0001018" resp="Taisho" type="orig" place="foot text">論＋（未詳作者）【宋】【元】【宮】</note><app n="0001018"><lem>論</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">論未詳作者</rdg></app></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></item></list></div1>
+<div1 type="other"><mulu type="其他" level="1" label="1 牟子理惑論(一)"/><head><note n="0001019" resp="Taisho" type="orig" place="foot text">〔牟子〕－【明】</note><app n="0001019"><lem>牟子</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>理<note n="0001020" resp="Taisho" type="orig" place="foot text">惑＋（論）【宋】【元】【宮】，（論三十七篇）【明】</note><app n="0001020"><lem>惑</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">惑論</rdg><rdg wit="【明】" resp="Taisho">惑論三十七篇</rdg></app>
 <lb n="0001a29"/>一云蒼梧太守牟子博<note n="0001021" resp="Taisho" type="orig" place="foot text">傳＋（漢牟融）【明】</note><app n="0001021"><lem>傳</lem><rdg wit="【明】" resp="Taisho">傳漢牟融</rdg></app></head>
 <pb ed="T" id="T52.2102.0001b" n="0001b"/>
 <lb n="0001b01"/><p>牟子既修經傳諸子。書無大小靡不好之。雖
@@ -930,14 +934,14 @@ Added comment  for Emacs
 <lb n="0009a21"/>大悲弘誓之義。&CB00677;人之喪猶<note n="0009009" resp="Taisho" type="orig" place="foot text">加＝如【三】【宮】</note><note n="0009009" resp="CBETA" type="mod">加＝如【宋】【元】【明】【宮】</note><app n="0009009"><lem>加</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">如</rdg></app>哀矜。以德
 <lb n="0009a22"/>報怨不念舊惡。況乎骨肉之痛情隆自然者。
 <lb n="0009a23"/>而可以無哀慼之心者哉。夫愛親者不敢惡
-<lb n="0009a24"/>於人。恐疇己之深也。逆情違道於斯見矣</p>
+<lb n="0009a24"/>於人。恐疇己之深也。逆情違道於斯見矣</p></div1>
 <lb n="0009a25"/><juan fun="close" n="001"><jhead>弘明集卷第一</jhead></juan>
 <pb ed="T" id="T52.2102.0009b" n="0009b"/>
 <lb n="0009b01"/>
 <milestone unit="juan" n="2"/>
 <lb n="0009b02"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>弘明集卷第二</jhead></juan>
 <lb n="0009b03"/>
-<lb n="0009b04"/><byline type="Author">梁<anchor id="fxT52p0009b01"/>楊都建初寺釋僧祐撰</byline></div1>
+<lb n="0009b04"/><byline type="Author">梁<anchor id="fxT52p0009b01"/>楊都建初寺釋僧祐撰</byline>
 <lb n="0009b05"/><div1 type="other"><mulu type="其他" level="1" label="3 明佛論(宗炳)(二)"/><head>明佛<note n="0009010" resp="Taisho" type="orig" place="foot text">論＋（一名神滅論）【三】【宮】</note><note n="0009010" resp="CBETA" type="mod">論＋（一名神滅論）【宋】【元】【明】【宮】</note><app n="0009010"><lem>論</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">論一名神滅論</rdg></app></head><byline type="Author"><note n="0009011" resp="Taisho" type="orig" place="foot text">晉＝弟子【宋】【元】【宮】，宋【明】</note><note n="0009011" resp="CBETA" type="mod">晉＝弟子【宋】【元】【宮】，＝宋【明】</note><app n="0009011"><lem>晉</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">弟子</rdg><rdg wit="【明】" resp="Taisho">宋</rdg></app>宗炳</byline>
 <lb n="0009b06"/><p>夫道之至妙。固風化宜尊。而世多誕佛。咸以
 <lb n="0009b07"/>我躬不閱遑恤于後。萬里之事百年以外。皆
@@ -1557,7 +1561,7 @@ Added comment  for Emacs
 <lb n="0016a21"/><note n="0016006" resp="Taisho" type="orig" place="foot text">輿＝與【三】【宮】</note><note n="0016006" resp="CBETA" type="mod">輿＝與【宋】【元】【明】【宮】</note><app n="0016006"><lem>輿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">與</rdg></app>人之頌<note n="0016007" resp="Taisho" type="orig" place="foot text">提＝緹【三】【宮】</note><note n="0016007" resp="CBETA" type="mod">提＝緹【宋】【元】【明】【宮】</note><app n="0016007"><lem>提</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">緹</rdg></app>縈一言而霸業用遂肉刑永除
 <lb n="0016a22"/>事固有俄爾微感而終至&CB00287;天者。今<note n="0016008" resp="Taisho" type="orig" place="foot text">蕪＝無【三】【宮】</note><note n="0016008" resp="CBETA" type="mod">蕪＝無【宋】【元】【明】【宮】</note><app n="0016008"><lem>蕪</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">無</rdg></app>陋鄙
 <lb n="0016a23"/>言以<note n="0016009" resp="Taisho" type="orig" place="foot text">驚＝警【三】【宮】</note><note n="0016009" resp="CBETA" type="mod">驚＝警【宋】【元】【明】【宮】</note><app n="0016009"><lem>驚</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">警</rdg></app>其所感。奄然身沒。安知不以之超登
-<lb n="0016a24"/>哉</p>
+<lb n="0016a24"/>哉</p></div1>
 <lb n="0016a25"/><juan fun="close" n="002"><jhead>弘明集卷第二</jhead></juan>
 <pb ed="T" id="T52.2102.0016b" n="0016b"/>
 <lb n="0016b01"/>
@@ -1565,7 +1569,7 @@ Added comment  for Emacs
 <lb n="0016b02"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>弘明集卷第三</jhead></juan>
 <lb n="0016b03"/>
 <lb n="0016b04"/><byline type="Author">梁<anchor id="fxT52p0016b02"/>楊都建初寺釋僧祐撰</byline>
-<lb n="0016b05"/><list><note n="0016010" resp="Taisho" type="orig" place="foot text">〔孫綽…論〕十八字－【明】</note><app n="0016010" word-count="18"><lem><item>孫綽喻道論</item>
+<lb n="0016b05"/><div1 type="other"><list><note n="0016010" resp="Taisho" type="orig" place="foot text">〔孫綽…論〕十八字－【明】</note><app n="0016010" word-count="18"><lem><item>孫綽喻道論</item>
 <lb n="0016b06"/><item>宗居士炳答何承天書難白黑論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
 <lb n="0016b07"/><div1 type="other"><mulu type="其他" level="1" label="4 孫綽喻道論(三)"/><head>◎<note n="0016011" resp="Taisho" type="orig" place="foot text">〔孫綽〕－【明】，此喻道論全文明本在難白黑論下 cf. P. 17c</note><app n="0016011"><lem>孫綽</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app><note n="0016011" place="foot" type="cf.">此喻道論全文明本在難白黑論下 cf. P. 17c</note>喻道論</head>
 <lb n="0016b08"/><p>或有疑至道者。喻之曰。夫六合遐邈庶類殷
@@ -2050,16 +2054,16 @@ Added comment  for Emacs
 <lb n="0021c07"/>猶有所懷。夫明天地性者。不致惑於迂怪。識
 <lb n="0021c08"/>盛衰之逕者。不役心於理表。儻令雅論不因
 <lb n="0021c09"/>善權篤誨。皆由情發。豈非通人之蔽哉。未緣
-<lb n="0021c10"/>言對。聊以代面。何承天白</p></div2>
-<lb n="0021c11"/><juan fun="close" n="003"><jhead>弘明集卷第三</jhead></juan></div1>
+<lb n="0021c10"/>言對。聊以代面。何承天白</p></div2></div1>
+<lb n="0021c11"/><juan fun="close" n="003"><jhead>弘明集卷第三</jhead></juan>
 <lb n="0021c12"/>
-<milestone unit="juan" n="4"/><div1 type="other">
+<milestone unit="juan" n="4"/>
 <lb n="0021c13"/>
 <lb n="0021c14"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>弘明集卷第四</jhead></juan>
 <lb n="0021c15"/>
 <lb n="0021c16"/><byline type="Author">梁<anchor id="fxT52p0021c01"/>揚都建初寺釋僧祐撰</byline>
-<lb n="0021c17"/><list><note n="0021030" resp="Taisho" type="orig" place="foot text">〔何承…難〕十二字－【明】</note><app n="0021030" word-count="12"><lem><item>何承天達性論</item><item>顏光祿延之難</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0021c18"/><mulu type="其他" level="1" label="6 達性論(何承天)(四)"/><head><note n="0021031" resp="Taisho" type="orig" place="foot text">〔達性論〕－【宋】【元】【宮】</note><app n="0021031"><lem>達性<note n="0021032" resp="Taisho" type="orig" place="foot text">論＋（何承天）【明】</note><app n="0021032"><lem>論</lem><rdg wit="【明】" resp="Taisho">論何承天</rdg></app></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></head>
+<lb n="0021c17"/><div1 type="other"><list><note n="0021030" resp="Taisho" type="orig" place="foot text">〔何承…難〕十二字－【明】</note><app n="0021030" word-count="12"><lem><item>何承天達性論</item><item>顏光祿延之難</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0021c18"/><div1 type="other"><mulu type="其他" level="1" label="6 達性論(何承天)(四)"/><head><note n="0021031" resp="Taisho" type="orig" place="foot text">〔達性論〕－【宋】【元】【宮】</note><app n="0021031"><lem>達性<note n="0021032" resp="Taisho" type="orig" place="foot text">論＋（何承天）【明】</note><app n="0021032"><lem>論</lem><rdg wit="【明】" resp="Taisho">論何承天</rdg></app></lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></head>
 <lb n="0021c19"/><p>夫兩儀既<note n="0021033" resp="Taisho" type="orig" place="foot text">位＝住【宋】【元】【宮】</note><app n="0021033"><lem>位</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">住</rdg></app>。帝王參之。宇中莫尊焉。天以
 <lb n="0021c20"/>陰陽分。地以剛柔用。人以仁義立。人非天地
 <lb n="0021c21"/>不生。天地非人不靈。三才同體相須而成者
@@ -2550,22 +2554,22 @@ Added comment  for Emacs
 <lb n="0027a26"/>欲以&CB00230;編戶之疑。沒而不答誠有望焉。足下
 <lb n="0027a27"/>連國雲從宏論風行。吾幽生孤說每獲竊議。
 <lb n="0027a28"/>此之不侔事有固然。實由通才所共者理。欻
-<lb n="0027a29"/>忘其煩貪復<note n="0027009" resp="Taisho" type="orig" place="foot text">悉＝息【三】【宮】</note><note n="0027009" resp="CBETA" type="mod">悉＝息【宋】【元】【明】【宮】</note><app n="0027009"><lem>悉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">息</rdg></app>心</p></div2>
+<lb n="0027a29"/>忘其煩貪復<note n="0027009" resp="Taisho" type="orig" place="foot text">悉＝息【三】【宮】</note><note n="0027009" resp="CBETA" type="mod">悉＝息【宋】【元】【明】【宮】</note><app n="0027009"><lem>悉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">息</rdg></app>心</p></div2></div1>
 <pb ed="T" id="T52.2102.0027b" n="0027b"/>
-<lb n="0027b01"/><juan fun="close" n="004"><jhead>弘明集卷第四</jhead></juan></div1>
+<lb n="0027b01"/><juan fun="close" n="004"><jhead>弘明集卷第四</jhead></juan>
 <lb n="0027b02"/>
-<milestone unit="juan" n="5"/><div1 type="other">
+<milestone unit="juan" n="5"/>
 <lb n="0027b03"/>
 <lb n="0027b04"/><juan fun="open" n="005"><mulu type="卷" n="5"/><jhead>弘明集卷第五</jhead></juan>
 <lb n="0027b05"/>
 <lb n="0027b06"/><byline type="Author">梁<anchor id="fxT52p0027b01"/>楊都建初寺釋僧祐<note n="0027010" resp="Taisho" type="orig" place="foot text">〔律師〕－【三】【宮】＊</note><note n="0027010" resp="CBETA" type="mod"><todo type="＊"/>〔律師〕－【宋】【元】【明】【宮】＊</note><app n="0027010"><lem>律師</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>撰</byline>
-<lb n="0027b07"/><list><note n="0027011" resp="Taisho" type="orig" place="foot text">〔羅君…論〕六十三字－【明】</note><app n="0027011" word-count="63"><lem><item>羅君章更生論</item>
+<lb n="0027b07"/><div1 type="other"><list><note n="0027011" resp="Taisho" type="orig" place="foot text">〔羅君…論〕六十三字－【明】</note><app n="0027011" word-count="63"><lem><item>羅君章更生論</item>
 <lb n="0027b08"/><item>鄭道子神不滅論</item>
 <lb n="0027b09"/><item>遠法師沙門不敬王者論<note place="inline">五篇</note></item>
 <lb n="0027b10"/><item>遠法師沙門袒服論<note place="inline">何鎮南難并答</note></item>
 <lb n="0027b11"/><item>遠法師答桓玄明報應論</item>
-<lb n="0027b12"/><item>遠法師因俗疑善惡無現驗三報論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0027b13"/><mulu type="其他" level="1" label="8 更生論(羅君章)(五)"/><head>更生論</head><byline type="Author"><note n="0027012" resp="Taisho" type="orig" place="foot text">羅君章＝宋羅含【明】</note><app n="0027012"><lem>羅君章</lem><rdg wit="【明】" resp="Taisho">宋羅含</rdg></app></byline>
+<lb n="0027b12"/><item>遠法師因俗疑善惡無現驗三報論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0027b13"/><div1 type="other"><mulu type="其他" level="1" label="8 更生論(羅君章)(五)"/><head>更生論</head><byline type="Author"><note n="0027012" resp="Taisho" type="orig" place="foot text">羅君章＝宋羅含【明】</note><app n="0027012"><lem>羅君章</lem><rdg wit="【明】" resp="Taisho">宋羅含</rdg></app></byline>
 <lb n="0027b14"/><p>善哉向生之言。曰天者何。萬物之總名。人者
 <lb n="0027b15"/>何。天中之一物。因此以談。今萬物有數而天
 <lb n="0027b16"/>地無窮。然則無窮之變。未始出於萬物。萬物
@@ -3237,18 +3241,18 @@ Added comment  for Emacs
 <lb n="0034c22"/>斯倫匹宿殃雖積。功不在治理自安消。非三
 <lb n="0034c23"/>報之所及。因茲而言。佛經所以越名教絕九
 <lb n="0034c24"/>流者。豈不以疏神達要陶鑄靈府窮<app type="＊" source="0033025"><lem>原</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">源</rdg></app>盡
-<lb n="0034c25"/>化鏡萬<note n="0034029" resp="Taisho" type="orig" place="foot text">像＝象【元】【明】＊</note><app n="0034029"><lem>像</lem><rdg wit="【元】【明】" resp="Taisho">象</rdg></app>於無<app type="＊" source="0034029"><lem>像</lem><rdg resp="Taisho" wit="【元】【明】">象</rdg></app>者也</p>
+<lb n="0034c25"/>化鏡萬<note n="0034029" resp="Taisho" type="orig" place="foot text">像＝象【元】【明】＊</note><app n="0034029"><lem>像</lem><rdg wit="【元】【明】" resp="Taisho">象</rdg></app>於無<app type="＊" source="0034029"><lem>像</lem><rdg resp="Taisho" wit="【元】【明】">象</rdg></app>者也</p></div1>
 <lb n="0034c26"/><juan fun="close" n="005"><jhead>弘明集卷第五</jhead></juan>
-<pb ed="T" id="T52.2102.0035a" n="0035a"/></div1>
+<pb ed="T" id="T52.2102.0035a" n="0035a"/>
 <lb n="0035a01"/>
-<milestone unit="juan" n="6"/><div1 type="other">
+<milestone unit="juan" n="6"/>
 <lb n="0035a02"/><juan fun="open" n="006"><mulu type="卷" n="6"/><jhead>弘明集卷第六</jhead></juan>
 <lb n="0035a03"/>
 <lb n="0035a04"/><byline type="Author">梁<note n="0035001" resp="Taisho" type="orig" place="foot text">〔楊都建初寺〕－【三】【宮】＊</note><note n="0035001" resp="CBETA" type="mod">〔楊都建初寺〕－【宋】【元】【明】【宮】＊</note><app n="0035001"><lem>楊都建初寺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>釋僧祐<note n="0035002" resp="Taisho" type="orig" place="foot text">〔律師〕－【三】【宮】＊</note><note n="0035002" resp="CBETA" type="mod">〔律師〕－【宋】【元】【明】【宮】＊</note><app n="0035002"><lem>律師</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>撰</byline>
-<lb n="0035a05"/><list><note n="0035003" resp="Taisho" type="orig" place="foot text">〔道&M010527;…論〕三十一字－【明】</note><app n="0035003" word-count="31"><lem><item>道&M010527;法師釋駁論</item><item>明僧紹正二教論</item>
+<lb n="0035a05"/><div1 type="other"><list><note n="0035003" resp="Taisho" type="orig" place="foot text">〔道&M010527;…論〕三十一字－【明】</note><app n="0035003" word-count="31"><lem><item>道&M010527;法師釋駁論</item><item>明僧紹正二教論</item>
 <lb n="0035a06"/><item>周剡顒難張長史融門<note n="0035004" resp="Taisho" type="orig" place="foot text">律＝論【宋】【元】【宮】</note><app n="0035004"><lem>律</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">論</rdg></app></item><item>謝鎮之<note n="0035005" resp="Taisho" type="orig" place="foot text">析＝折【宋】【元】【宮】</note><app n="0035005"><lem>析</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">折</rdg></app>
-<lb n="0035a07"/>夷夏論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0035a08"/><mulu type="其他" level="1" label="14 釋駁論(道M010527)(六)"/><head><note n="0035006" resp="Taisho" type="orig" place="foot text">釋駁論＋（并序）細註【明】</note><app n="0035006"><lem>釋駁論</lem><rdg wit="【明】" resp="Taisho">釋駁論<note place="inline">并序</note></rdg></app></head><byline type="Author"><note n="0035007" resp="Taisho" type="orig" place="foot text">（晉）＋釋道&M010527;【明】</note><app n="0035007"><lem>釋道&M010527;</lem><rdg wit="【明】" resp="Taisho">晉釋道&M010527;</rdg></app></byline>
+<lb n="0035a07"/>夷夏論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0035a08"/><div1 type="other"><mulu type="其他" level="1" label="14 釋駁論(道M010527)(六)"/><head><note n="0035006" resp="Taisho" type="orig" place="foot text">釋駁論＋（并序）細註【明】</note><app n="0035006"><lem>釋駁論</lem><rdg wit="【明】" resp="Taisho">釋駁論<note place="inline">并序</note></rdg></app></head><byline type="Author"><note n="0035007" resp="Taisho" type="orig" place="foot text">（晉）＋釋道&M010527;【明】</note><app n="0035007"><lem>釋道&M010527;</lem><rdg wit="【明】" resp="Taisho">晉釋道&M010527;</rdg></app></byline>
 <lb n="0035a09"/><p>晉義熙之年。如聞江左袁何二賢。並商略治
 <lb n="0035a10"/>道。諷刺時政。雖未&CB00418;其文意者。似依傍韓非
 <lb n="0035a11"/>五&CB00541;之篇。遂譏世之闕。發五橫之論。而沙門
@@ -3963,18 +3967,18 @@ Added comment  for Emacs
 <pb ed="T" id="T52.2102.0043a" n="0043a"/>
 <lb n="0043a01"/>迷兮不悟。增上驚兮遠逝。卞和慟兮<note n="0043001" resp="Taisho" type="orig" place="foot text">&CB06624;＝荊【三】【宮】</note><note n="0043001" resp="CBETA" type="mod">&CB06624;＝荊【宋】【元】【明】【宮】</note><app n="0043001"><lem>&CB06624;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">荊</rdg></app>側。
 <lb n="0043a02"/>豈偏尤兮楚厲。良芻蔑兮<note n="0043002" resp="Taisho" type="orig" place="foot text">波若＝般若【明】</note><app n="0043002"><lem>波若</lem><rdg wit="【明】" resp="Taisho">般若</rdg></app>焉。相責兮智
-<lb n="0043a03"/>慧</p></div2>
-<lb n="0043a04"/><juan fun="close" n="006"><jhead>弘明集卷<note n="0043003" resp="Taisho" type="orig" place="foot text">第六＝六終【明】</note><app n="0043003"><lem>第六</lem><rdg wit="【明】" resp="Taisho">六終</rdg></app></jhead></juan></div1>
+<lb n="0043a03"/>慧</p></div2></div1>
+<lb n="0043a04"/><juan fun="close" n="006"><jhead>弘明集卷<note n="0043003" resp="Taisho" type="orig" place="foot text">第六＝六終【明】</note><app n="0043003"><lem>第六</lem><rdg wit="【明】" resp="Taisho">六終</rdg></app></jhead></juan>
 <lb n="0043a05"/>
-<milestone unit="juan" n="7"/><div1 type="other">
+<milestone unit="juan" n="7"/>
 <lb n="0043a06"/>
 <lb n="0043a07"/>
 <lb n="0043a08"/><juan fun="open" n="007"><mulu type="卷" n="7"/><jhead>弘明集卷第七</jhead></juan>
 <lb n="0043a09"/>
 <lb n="0043a10"/><byline type="Author">梁<anchor id="fxT52p0043a01"/>楊都建初寺釋僧祐<anchor id="fxT52p0043a02"/>律師撰</byline>
-<lb n="0043a11"/><list><note n="0043004" resp="Taisho" type="orig" place="foot text">〔朱昭…論〕二十九字－【明】</note><app n="0043004" word-count="29"><lem><item>朱昭之難夷夏論</item><item>朱廣之諮夷夏論</item>
-<lb n="0043a12"/><item>慧通法師駁夷夏論</item><item>僧<note n="0043005" resp="Taisho" type="orig" place="foot text">敏＝愍【宋】【元】【宮】</note><app n="0043005"><lem>敏</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">愍</rdg></app>法師戎華論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0043a13"/><mulu type="其他" level="1" label="18 難顧道士夷夏論(朱昭之)(七)"/><head>難顧道士夷夏<note n="0043006" resp="Taisho" type="orig" place="foot text">論＋（并書）【明】＊</note><app n="0043006"><lem>論</lem><rdg wit="【明】" resp="Taisho">論并書</rdg></app></head><byline type="Author"><note n="0043007" resp="Taisho" type="orig" place="foot text">常侍＝宋【明】</note><app n="0043007"><lem>常侍</lem><rdg wit="【明】" resp="Taisho">宋</rdg></app>朱昭之</byline>
+<lb n="0043a11"/><div1 type="other"><list><note n="0043004" resp="Taisho" type="orig" place="foot text">〔朱昭…論〕二十九字－【明】</note><app n="0043004" word-count="29"><lem><item>朱昭之難夷夏論</item><item>朱廣之諮夷夏論</item>
+<lb n="0043a12"/><item>慧通法師駁夷夏論</item><item>僧<note n="0043005" resp="Taisho" type="orig" place="foot text">敏＝愍【宋】【元】【宮】</note><app n="0043005"><lem>敏</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">愍</rdg></app>法師戎華論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0043a13"/><div1 type="other"><mulu type="其他" level="1" label="18 難顧道士夷夏論(朱昭之)(七)"/><head>難顧道士夷夏<note n="0043006" resp="Taisho" type="orig" place="foot text">論＋（并書）【明】＊</note><app n="0043006"><lem>論</lem><rdg wit="【明】" resp="Taisho">論并書</rdg></app></head><byline type="Author"><note n="0043007" resp="Taisho" type="orig" place="foot text">常侍＝宋【明】</note><app n="0043007"><lem>常侍</lem><rdg wit="【明】" resp="Taisho">宋</rdg></app>朱昭之</byline>
 <lb n="0043a14"/><p>見足下高談夷夏<note n="0043008" resp="Taisho" type="orig" place="foot text">辯＝辨【三】【宮】＊</note><note n="0043008" resp="CBETA" type="mod">辯＝辨【宋】【元】【明】【宮】＊</note><app n="0043008"><lem>辯</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">辨</rdg></app>。商二教條勒經旨。冥然
 <lb n="0043a15"/>玄會妙唱善同。非虛言也。昔應吉甫齊孔老
 <lb n="0043a16"/>於前。吾賢又均李釋於後。萬世之殊塗同歸
@@ -4413,17 +4417,17 @@ Added comment  for Emacs
 <lb n="0047c29"/>彰。君可整率匹侶<note n="0047037" resp="Taisho" type="orig" place="foot text">迴＝徊【三】【宮】</note><note n="0047037" resp="CBETA" type="mod">迴＝徊【宋】【元】【明】【宮】</note><app n="0047037"><lem>迴</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">徊</rdg></app>涉清衢。貧道雅德內顧
 <pb ed="T" id="T52.2102.0048a" n="0048a"/>
 <lb n="0048a01"/>同奉聖真。豈有惡乎。想必不逆。允於<note n="0048001" resp="Taisho" type="orig" place="foot text">佳＝往【三】【宮】</note><note n="0048001" resp="CBETA" type="mod">佳＝往【宋】【元】【明】【宮】</note><app n="0048001"><lem>佳</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">往</rdg></app>示
-<lb n="0048a02"/>耳</p>
-<lb n="0048a03"/><juan fun="close" n="007"><jhead>弘明集卷第七</jhead></juan></div1>
+<lb n="0048a02"/>耳</p></div1>
+<lb n="0048a03"/><juan fun="close" n="007"><jhead>弘明集卷第七</jhead></juan>
 <lb n="0048a04"/>
-<milestone unit="juan" n="8"/><div1 type="other">
+<milestone unit="juan" n="8"/>
 <lb n="0048a05"/>
 <lb n="0048a06"/><juan fun="open" n="008"><mulu type="卷" n="8"/><jhead>弘明集卷第八</jhead></juan>
 <lb n="0048a07"/>
 <lb n="0048a08"/><byline type="Author">梁<anchor id="fxT52p0048a01"/>楊都建初寺釋僧祐<anchor id="fxT52p0048a02"/>律師撰</byline>
-<lb n="0048a09"/><list><note n="0048002" resp="Taisho" type="orig" place="foot text">〔玄光…論〕二十二字－【明】</note><app n="0048002" word-count="22"><lem><item>玄光法師辯惑論</item><item>記室劉勰滅惑論</item>
-<lb n="0048a10"/><item>僧順法師<note n="0048003" resp="Taisho" type="orig" place="foot text">析＝折【宋】【元】【宮】＊</note><app n="0048003"><lem>析</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">折</rdg></app>三破論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0048a11"/><div2 type="other"><mulu type="其他" level="2" label="辯惑論序"/><head>辯惑論<note place="inline"><note n="0048004" resp="Taisho" type="orig" place="foot text">（并）＋序【明】</note><app n="0048004"><lem>序</lem><rdg wit="【明】" resp="Taisho">并序</rdg></app></note></head><byline type="Author">釋玄光</byline>
+<lb n="0048a09"/><div1 type="other"><list><note n="0048002" resp="Taisho" type="orig" place="foot text">〔玄光…論〕二十二字－【明】</note><app n="0048002" word-count="22"><lem><item>玄光法師辯惑論</item><item>記室劉勰滅惑論</item>
+<lb n="0048a10"/><item>僧順法師<note n="0048003" resp="Taisho" type="orig" place="foot text">析＝折【宋】【元】【宮】＊</note><app n="0048003"><lem>析</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">折</rdg></app>三破論</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0048a11"/><div1 type="other"><mulu type="其他" level="1" label="22 （辯惑論）(玄光)(八)"/><div2 type="other"><mulu type="其他" level="2" label="辯惑論序"/><head>辯惑論<note place="inline"><note n="0048004" resp="Taisho" type="orig" place="foot text">（并）＋序【明】</note><app n="0048004"><lem>序</lem><rdg wit="【明】" resp="Taisho">并序</rdg></app></note></head><byline type="Author">釋玄光</byline>
 <lb n="0048a12"/><p>夫大千遐邈萬化無際。塵遊夢境染惑聲華。
 <lb n="0048a13"/>緣想增靄奚識明政。由淳風<note n="0048005" resp="Taisho" type="orig" place="foot text">漓＝離【宮】</note><app n="0048005"><lem>漓</lem><rdg wit="【宮】" resp="Taisho">離</rdg></app>薄。使眾魔紛
 <lb n="0048a14"/>競矣。若矯詐謀榮必行五逆。威強導<note n="0048006" resp="Taisho" type="orig" place="foot text">朦＝蒙【元】【明】</note><note n="0048006" resp="CBETA" type="mod"><app><lem resp="CBETA.Maha">矇</lem><rdg wit="【大】">朦</rdg></app>＝蒙【元】【明】</note><app n="0048006"><lem>矇</lem><rdg wit="【元】【明】" resp="Taisho">蒙</rdg></app>必施
@@ -4436,7 +4440,7 @@ Added comment  for Emacs
 <lb n="0048a21"/>詮往&CB00528;庶鏡未然。照迷童於<note n="0048008" resp="Taisho" type="orig" place="foot text">玄＝互【三】【宮】</note><note n="0048008" resp="CBETA" type="mod">玄＝互【宋】【元】【明】【宮】</note><app n="0048008"><lem>玄</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">互</rdg></app>鄉。顯妙趣於
 <lb n="0048a22"/>塵外。休風冥被彼我情判。豈是言聲所能攄
 <lb n="0048a23"/>寫</p></div2>
-<lb n="0048a24"/><mulu type="其他" level="1" label="22 （辯惑論）(玄光)(八)"/><div2 type="other"><mulu type="其他" level="2" label="禁經上價是一逆"/><head>禁經上價<note n="0048009" resp="Taisho" type="orig" place="foot text">〔是〕－【明】＊</note><app n="0048009"><lem>是</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>一逆</head>
+<lb n="0048a24"/><div2 type="other"><mulu type="其他" level="2" label="禁經上價是一逆"/><head>禁經上價<note n="0048009" resp="Taisho" type="orig" place="foot text">〔是〕－【明】＊</note><app n="0048009"><lem>是</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>一逆</head>
 <lb n="0048a25"/><p>夫<note n="0048010" resp="Taisho" type="orig" place="foot text">玄＝言【三】【宮】</note><note n="0048010" resp="CBETA" type="mod">玄＝言【宋】【元】【明】【宮】</note><app n="0048010"><lem>玄</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">言</rdg></app>籍雲舒貫空有之美。聖賢功績何莫由
 <lb n="0048a26"/>斯。實學者之淵海。生民之日月。所以波<note n="0048011" resp="Taisho" type="orig" place="foot text">崙＝淪【宮】</note><app n="0048011"><lem>崙</lem><rdg wit="【宮】" resp="Taisho">淪</rdg></app>
 <lb n="0048a27"/>菩薩慈悲等照。震<note n="0048012" resp="Taisho" type="orig" place="foot text">聲＝電【三】【宮】</note><note n="0048012" resp="CBETA" type="mod">聲＝電【宋】【元】【明】【宮】</note><app n="0048012"><lem>聲</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">電</rdg></app>光於<note n="0048013" resp="Taisho" type="orig" place="foot text">冥＝炎【三】【宮】</note><note n="0048013" resp="CBETA" type="mod">冥＝炎【宋】【元】【明】【宮】</note><app n="0048013"><lem>冥</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">炎</rdg></app>塗。弭<note n="0048014" resp="Taisho" type="orig" place="foot text">塵＝魔【三】【宮】</note><note n="0048014" resp="CBETA" type="mod">塵＝魔【宋】【元】【明】【宮】</note><app n="0048014"><lem>塵</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">魔</rdg></app>賊於
@@ -4517,7 +4521,7 @@ Added comment  for Emacs
 <lb n="0049a12"/>法指在邊陲不施華夏。至義熙初。有王公。其
 <lb n="0049a13"/>次貪寶憚苦。竊省打拍。吳陸修靜甚知源僻。
 <lb n="0049a14"/>猶&CB00410;&CB00247;額懸縻而已。癡僻之極。幸勿言道</p></div2>
-<lb n="0049a15"/><div2 type="other"><mulu type="其他" level="2" label="3 解CB00634墓門不仁之極"/><head>解&CB00634;<note n="0049013" resp="Taisho" type="orig" place="foot text">墓＝纂【三】【宮】</note><note n="0049013" resp="CBETA" type="mod">墓＝纂【宋】【元】【明】【宮】</note><app n="0049013"><lem>墓</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">纂</rdg></app>門不仁之極<app type="＊" source="0048042"><lem>第</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>三</head>
+<lb n="0049a15"/><div2 type="other"><mulu type="其他" level="2" label="3 解＆CB00634；墓門不仁之極"/><head>解&CB00634;<note n="0049013" resp="Taisho" type="orig" place="foot text">墓＝纂【三】【宮】</note><note n="0049013" resp="CBETA" type="mod">墓＝纂【宋】【元】【明】【宮】</note><app n="0049013"><lem>墓</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">纂</rdg></app>門不仁之極<app type="＊" source="0048042"><lem>第</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app>三</head>
 <lb n="0049a16"/><p>夫開闉大施與物通美。左道餘氣乃<anchor id="fxT52p0049a03"/>墓門解
 <lb n="0049a17"/>&CB00634;。矜身<note n="0049014" resp="Taisho" type="orig" place="foot text">奧＝與【三】【宮】</note><note n="0049014" resp="CBETA" type="mod">奧＝與【宋】【元】【明】【宮】</note><app n="0049014"><lem>奧</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">與</rdg></app>食。懷<note n="0049015" resp="Taisho" type="orig" place="foot text">吮＝哤【三】【宮】</note><note n="0049015" resp="CBETA" type="mod">吮＝哤【宋】【元】【明】【宮】</note><app n="0049015"><lem>吮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">哤</rdg></app>班之態。昔張子魯漢中
 <lb n="0049a18"/>解福。大集祭酒及諸鬼卒<note place="inline">鬼卒鬼民鬼吏鬼道。此是子魯輕於<note n="0049016" resp="Taisho" type="orig" place="foot text">氐＝魯【宋】，民【元】【明】【宮】</note><note n="0049016" resp="CBETA" type="mod">氐＝魯【宋】，＝民【元】【明】【宮】</note><app n="0049016"><lem>氐</lem><rdg wit="【宋】" resp="Taisho">魯</rdg><rdg wit="【元】【明】【宮】" resp="Taisho">民</rdg></app>夷作
@@ -4940,18 +4944,18 @@ Added comment  for Emacs
 <lb n="0053c16"/>有散有生有死。則子之道是生滅法。非常住
 <lb n="0053c17"/>也。嘗聞子道又有合氣之事。願子勿言此真
 <lb n="0053c18"/>辱矣。莊子又云。道在屎溺。此屎<note n="0053026" resp="Taisho" type="orig" place="foot text">尿＝溺【三】【宮】</note><note n="0053026" resp="CBETA" type="mod">尿＝溺【宋】【元】【明】【宮】</note><app n="0053026"><lem>尿</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">溺</rdg></app>之道得
-<lb n="0053c19"/>非吾子合氣之道乎</p>
+<lb n="0053c19"/>非吾子合氣之道乎</p></div1>
 <lb n="0053c20"/><juan fun="close" n="008"><jhead>弘明集卷第八</jhead></juan>
-<pb ed="T" id="T52.2102.0054a" n="0054a"/></div1>
+<pb ed="T" id="T52.2102.0054a" n="0054a"/>
 <lb n="0054a01"/>
-<milestone unit="juan" n="9"/><div1 type="other">
+<milestone unit="juan" n="9"/>
 <lb n="0054a02"/><juan fun="open" n="009"><mulu type="卷" n="9"/><jhead>弘明集卷第九</jhead></juan>
 <lb n="0054a03"/>
 <lb n="0054a04"/><byline type="Author">梁<anchor id="fxT52p0054a01"/>楊都建初寺釋僧祐<anchor id="fxT52p0054a02"/>律師撰</byline>
-<lb n="0054a05"/><list><note n="0054001" resp="Taisho" type="orig" place="foot text">〔大梁…答〕四十一字－【明】</note><app n="0054001" word-count="41"><lem><item>大梁皇帝立神明成佛義記<note place="inline">并吳興沈績作序注</note></item>
+<lb n="0054a05"/><div1 type="other"><list><note n="0054001" resp="Taisho" type="orig" place="foot text">〔大梁…答〕四十一字－【明】</note><app n="0054001" word-count="41"><lem><item>大梁皇帝立神明成佛義記<note place="inline">并吳興沈績作序注</note></item>
 <lb n="0054a06"/><item>蕭琛難范縝神滅論</item>
-<lb n="0054a07"/><item>曹思文難范縝神滅論<note n="0054002" resp="Taisho" type="orig" place="foot text">〔并二…答〕五字－【宮】</note><app n="0054002" word-count="5"><lem><note place="inline">并二啟詔答</note></lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0054a08"/><mulu type="其他" level="1" label="25 大梁皇帝立神明成佛義記(九)"/><head><note n="0054003" resp="Taisho" type="orig" place="foot text">〔大梁皇帝〕－【明】</note><app n="0054003"><lem>大梁皇帝</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>立神明成佛義記<note place="inline"><note n="0054004" resp="Taisho" type="orig" place="foot text">（（吳興…注））七字＝（（并沈績序注，梁武帝））八字【明】</note><app n="0054004" word-count="7"><lem>吳興沈績作序注</lem><rdg wit="【明】" resp="Taisho">并沈績序注，梁武帝</rdg></app></note></head>
+<lb n="0054a07"/><item>曹思文難范縝神滅論<note n="0054002" resp="Taisho" type="orig" place="foot text">〔并二…答〕五字－【宮】</note><app n="0054002" word-count="5"><lem><note place="inline">并二啟詔答</note></lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0054a08"/><div1 type="other"><mulu type="其他" level="1" label="25 大梁皇帝立神明成佛義記(九)"/><head><note n="0054003" resp="Taisho" type="orig" place="foot text">〔大梁皇帝〕－【明】</note><app n="0054003"><lem>大梁皇帝</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>立神明成佛義記<note place="inline"><note n="0054004" resp="Taisho" type="orig" place="foot text">（（吳興…注））七字＝（（并沈績序注，梁武帝））八字【明】</note><app n="0054004" word-count="7"><lem>吳興沈績作序注</lem><rdg wit="【明】" resp="Taisho">并沈績序注，梁武帝</rdg></app></note></head>
 <lb n="0054a09"/><p>夫神道冥默。宣尼固已絕言。心數理妙。柱史
 <lb n="0054a10"/>又所未說。<note n="0054005" resp="Taisho" type="orig" place="foot text">聖非＝非聖【三】【宮】</note><note n="0054005" resp="CBETA" type="mod">聖非＝非聖【宋】【元】【明】【宮】</note><app n="0054005"><lem>聖非</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">非聖</rdg></app>智不周近情難用語遠故也。
 <lb n="0054a11"/>是以先代玄儒談遺宿業。後世通辯<note n="0054006" resp="Taisho" type="orig" place="foot text">亦論＝易淪【宋】，亦淪【元】【明】【宮】</note><note n="0054006" resp="CBETA" type="mod">亦論＝易淪【宋】，＝亦淪【元】【明】【宮】</note><app n="0054006"><lem>亦論</lem><rdg wit="【宋】" resp="Taisho">易淪</rdg><rdg wit="【元】【明】【宮】" resp="Taisho">亦淪</rdg></app>滯
@@ -5493,17 +5497,17 @@ Added comment  for Emacs
 <lb n="0060a20"/>象之所不占。而格言之所攸棄。用此風以扇
 <lb n="0060a21"/>也。<note n="0060011" resp="Taisho" type="orig" place="foot text">（茲化）＋何【三】【宮】</note><note n="0060011" resp="CBETA" type="mod">（茲化）＋何【宋】【元】【明】【宮】</note><app n="0060011"><lem>何</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">茲化何</rdg></app>得不傷。茲俗於何不敗。而云可以安
 <lb n="0060a22"/>上治民也。<note n="0060012" resp="Taisho" type="orig" place="foot text">〔慈化〕－【三】【宮】</note><note n="0060012" resp="CBETA" type="mod">〔慈化〕－【宋】【元】【明】【宮】</note><app n="0060012"><lem>慈化</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>何哉。論云。已通而昧者未
-<lb n="0060a23"/>悟。聊重往諮側聞提耳</p></div2>
+<lb n="0060a23"/>悟。聊重往諮側聞提耳</p></div2></div1>
 <lb n="0060a24"/><juan fun="close" n="009"><jhead>弘明集卷第九</jhead></juan>
-<pb ed="T" id="T52.2102.0060b" n="0060b"/></div1>
+<pb ed="T" id="T52.2102.0060b" n="0060b"/>
 <lb n="0060b01"/>
-<milestone unit="juan" n="10"/><div1 type="other">
+<milestone unit="juan" n="10"/>
 <lb n="0060b02"/><juan fun="open" n="010"><mulu type="卷" n="10"/><jhead>弘明集卷第十</jhead></juan>
 <lb n="0060b03"/>
 <lb n="0060b04"/><byline type="Author">梁<anchor id="fxT52p0060b01"/>楊都建初寺釋僧祐<anchor id="fxT52p0060b02"/>律師撰</byline>
-<lb n="0060b05"/><list><note n="0060013" resp="Taisho" type="orig" place="foot text">〔大梁…答〕三十字－【明】</note><app n="0060013" word-count="30"><lem><item>大梁皇帝&CB00330;答臣下神滅論</item>
-<lb n="0060b06"/><item>莊嚴寺法雲法師與公王朝貴書<note place="inline">并公王朝貴答</note></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0060b07"/><mulu type="其他" level="1" label="28 大梁皇帝CB00330答臣下神滅論(一○)"/><head><note n="0060014" resp="Taisho" type="orig" place="foot text">〔大梁皇帝〕－【明】</note><app n="0060014"><lem>大梁皇帝</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>&CB00330;答臣下神滅<note n="0060015" resp="Taisho" type="orig" place="foot text">論＋（梁武帝）【明】</note><app n="0060015"><lem>論</lem><rdg wit="【明】" resp="Taisho">論梁武帝</rdg></app></head>
+<lb n="0060b05"/><div1 type="other"><list><note n="0060013" resp="Taisho" type="orig" place="foot text">〔大梁…答〕三十字－【明】</note><app n="0060013" word-count="30"><lem><item>大梁皇帝&CB00330;答臣下神滅論</item>
+<lb n="0060b06"/><item>莊嚴寺法雲法師與公王朝貴書<note place="inline">并公王朝貴答</note></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0060b07"/><div1 type="other"><mulu type="其他" level="1" label="28 大梁皇帝＆CB00330；答臣下神滅論(一○)"/><head><note n="0060014" resp="Taisho" type="orig" place="foot text">〔大梁皇帝〕－【明】</note><app n="0060014"><lem>大梁皇帝</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>&CB00330;答臣下神滅<note n="0060015" resp="Taisho" type="orig" place="foot text">論＋（梁武帝）【明】</note><app n="0060015"><lem>論</lem><rdg wit="【明】" resp="Taisho">論梁武帝</rdg></app></head>
 <lb n="0060b08"/><p>位現致論要當有體。欲談無佛應設賓主。標
 <lb n="0060b09"/>其宗旨<note n="0060016" resp="Taisho" type="orig" place="foot text">辯＝辨【三】【宮】＊</note><note n="0060016" resp="CBETA" type="mod">辯＝辨【宋】【元】【明】【宮】＊</note><app n="0060016"><lem>辯</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">辨</rdg></app>其短長。來就佛理以屈佛理。則有
 <lb n="0060b10"/>佛之義既躓。神滅之論自行。豈有不求他意。
@@ -6228,15 +6232,15 @@ Added comment  for Emacs
 <lb n="0068c11"/><div2 type="other"><mulu type="其他" level="2" label="左承丘仲孚答"/><head><note n="0068041" resp="Taisho" type="orig" place="foot text">（（左承…答））六字＝（（答丘仲孚））四字【明】</note><app n="0068041" word-count="6"><lem>左<note n="0068042" resp="Taisho" type="orig" place="foot text">承＝丞【宋】【元】【宮】</note><app n="0068042"><lem>承</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">丞</rdg></app>丘仲孚答</lem><rdg wit="【明】" resp="Taisho">答丘仲孚</rdg></app></head>
 <lb n="0068c12"/><p>伏覽。&CB00330;旨答臣下審神滅論。聖照淵深<note n="0068043" resp="Taisho" type="orig" place="foot text">包＝句【明】</note><app n="0068043"><lem>包</lem><rdg wit="【明】" resp="Taisho">句</rdg></app>括
 <lb n="0068c13"/>真俗。理超繫表義<note n="0068044" resp="Taisho" type="orig" place="foot text">冠＝貫【三】【宮】</note><note n="0068044" resp="CBETA" type="mod">冠＝貫【宋】【元】【明】【宮】</note><app n="0068044"><lem>冠</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">貫</rdg></app>群識。鑽奉神猷伏深舞
-<lb n="0068c14"/>蹈。惠<note n="0068045" resp="Taisho" type="orig" place="foot text">示＋（戢）【三】【宮】</note><note n="0068045" resp="CBETA" type="mod">示＋（戢）【宋】【元】【明】【宮】</note><app n="0068045"><lem>示</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">示戢</rdg></app>存眷。丘仲孚白</p></div2>
-<lb n="0068c15"/><juan fun="close" n="010"><jhead>弘明集卷第十</jhead></juan></div1>
+<lb n="0068c14"/>蹈。惠<note n="0068045" resp="Taisho" type="orig" place="foot text">示＋（戢）【三】【宮】</note><note n="0068045" resp="CBETA" type="mod">示＋（戢）【宋】【元】【明】【宮】</note><app n="0068045"><lem>示</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">示戢</rdg></app>存眷。丘仲孚白</p></div2></div1>
+<lb n="0068c15"/><juan fun="close" n="010"><jhead>弘明集卷第十</jhead></juan>
 <pb ed="T" id="T52.2102.0069a" n="0069a"/>
 <lb n="0069a01"/>
-<milestone unit="juan" n="11"/><div1 type="other">
+<milestone unit="juan" n="11"/>
 <lb n="0069a02"/><juan fun="open" n="011"><mulu type="卷" n="11"/><jhead>弘明集卷第十一</jhead></juan>
 <lb n="0069a03"/>
 <lb n="0069a04"/><byline type="Author">梁<note n="0069001" resp="Taisho" type="orig" place="foot text">〔楊都…寺〕五字－【三】【宮】＊</note><note n="0069001" resp="CBETA" type="mod">〔楊都…寺〕五字－【宋】【元】【明】【宮】＊</note><app n="0069001" word-count="5"><lem>楊都建初寺</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>釋僧祐<note n="0069002" resp="Taisho" type="orig" place="foot text">〔律師〕－【三】【宮】＊</note><note n="0069002" resp="CBETA" type="mod">〔律師〕－【宋】【元】【明】【宮】＊</note><app n="0069002"><lem>律師</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>撰</byline>
-<lb n="0069a05"/><list><note n="0069003" resp="Taisho" type="orig" place="foot text">〔何令…六首〕目錄－【明】</note><app n="0069003"><lem><item>何令尚之答宋文皇帝讚揚佛教事</item>
+<lb n="0069a05"/><div1 type="other"><list><note n="0069003" resp="Taisho" type="orig" place="foot text">〔何令…六首〕目錄－【明】</note><app n="0069003"><lem><item>何令尚之答宋文皇帝讚揚佛教事</item>
 <lb n="0069a06"/><item>高<note n="0069004" resp="Taisho" type="orig" place="foot text">明＝門【宋】</note><app n="0069004"><lem>明</lem><rdg wit="【宋】" resp="Taisho">門</rdg></app>二法師答李交州淼難佛不見形事
 <lb n="0069a07"/><note place="inline">并李書</note></item>
 <lb n="0069a08"/><item>司徒文宣王書與孔中丞稚珪釋疑惑
@@ -6244,8 +6248,8 @@ Added comment  for Emacs
 <lb n="0069a10"/><item>&M010527;標二公答姚主勸罷道書<note place="inline">并書</note></item>
 <lb n="0069a11"/><item>僧&CB05105;僧遷鳩摩答姚主奏<note place="inline">并書</note></item>
 <lb n="0069a12"/><item>遠法師答桓玄勸罷道書<note place="inline">并書</note></item>
-<lb n="0069a13"/><item>釋僧巖答劉青州勸還俗書<note place="inline">并<note n="0069006" resp="Taisho" type="orig" place="foot text">劉＋（答）【宋】【元】【宮】</note><app n="0069006"><lem>劉</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">劉答</rdg></app>往反六首</note></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0069a14"/><mulu type="其他" level="1" label="30 何令尚之答宋文皇帝讚揚佛教事(一一)"/><head><note n="0069007" resp="Taisho" type="orig" place="foot text">〔何令…尚之〕－【明】</note><app n="0069007" word-count="4"><lem>何令尚之</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>答宋文皇帝讚<note n="0069008" resp="Taisho" type="orig" place="foot text">〔揚〕－【宋】【宮】</note><app n="0069008"><lem>揚</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>佛教事</head>
+<lb n="0069a13"/><item>釋僧巖答劉青州勸還俗書<note place="inline">并<note n="0069006" resp="Taisho" type="orig" place="foot text">劉＋（答）【宋】【元】【宮】</note><app n="0069006"><lem>劉</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">劉答</rdg></app>往反六首</note></item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0069a14"/><div1 type="other"><mulu type="其他" level="1" label="30 何令尚之答宋文皇帝讚揚佛教事(一一)"/><head><note n="0069007" resp="Taisho" type="orig" place="foot text">〔何令…尚之〕－【明】</note><app n="0069007" word-count="4"><lem>何令尚之</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>答宋文皇帝讚<note n="0069008" resp="Taisho" type="orig" place="foot text">〔揚〕－【宋】【宮】</note><app n="0069008"><lem>揚</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>佛教事</head>
 <lb n="0069a15"/><p>元嘉十二年五月<note n="0069009" resp="Taisho" type="orig" place="foot text">五日＝乙酉【三】【宮】</note><note n="0069009" resp="CBETA" type="mod">五日＝乙酉【宋】【元】【明】【宮】</note><app n="0069009"><lem>五日</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">乙酉</rdg></app>。有司奏。丹陽尹蕭
 <lb n="0069a16"/><note n="0069010" resp="Taisho" type="orig" place="foot text">&CB02802;＝摹【三】【宮】</note><note n="0069010" resp="CBETA" type="mod">&CB02802;＝摹【宋】【元】【明】【宮】</note><app n="0069010"><lem>&CB02802;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">摹</rdg></app>之上言稱。佛化被于中國已歷四代。塔寺
 <lb n="0069a17"/>形像所在千計。進可以<note n="0069011" resp="Taisho" type="orig" place="foot text">繫＝擊【三】【宮】</note><note n="0069011" resp="CBETA" type="mod">繫＝擊【宋】【元】【明】【宮】</note><app n="0069011"><lem>繫</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">擊</rdg></app>心。退足以招勸。
@@ -6874,15 +6878,15 @@ Added comment  for Emacs
 <lb n="0076a29"/>木。待掎桐竹實耳。鄙命輕召曷足降哉。敬揖
 <pb ed="T" id="T52.2102.0076b" n="0076b"/>
 <lb n="0076b01"/>清風肅從所尚。本圖既乖裁還慚憫。劉君白
-<lb n="0076b02"/>答</p></div2>
-<lb n="0076b03"/><juan fun="close" n="011"><jhead>弘明集<note n="0076017" resp="Taisho" type="orig" place="foot text">卷第十一＝第十一卷【明】</note><app n="0076017"><lem>卷第十一</lem><rdg wit="【明】" resp="Taisho">第十一卷</rdg></app></jhead></juan></div1>
+<lb n="0076b02"/>答</p></div2></div1>
+<lb n="0076b03"/><juan fun="close" n="011"><jhead>弘明集<note n="0076017" resp="Taisho" type="orig" place="foot text">卷第十一＝第十一卷【明】</note><app n="0076017"><lem>卷第十一</lem><rdg wit="【明】" resp="Taisho">第十一卷</rdg></app></jhead></juan>
 <lb n="0076b04"/>
-<milestone unit="juan" n="12"/><div1 type="xu">
+<milestone unit="juan" n="12"/>
 <lb n="0076b05"/>
 <lb n="0076b06"/><juan fun="open" n="012"><mulu type="卷" n="12"/><jhead>弘明集卷第十二</jhead></juan>
 <lb n="0076b07"/>
 <lb n="0076b08"/><byline type="Author">梁<anchor id="fxT52p0076b02"/>楊都建初寺釋僧祐<anchor id="fxT52p0076b03"/>律師撰</byline>
-<lb n="0076b09"/><list><note n="0076018" resp="Taisho" type="orig" place="foot text">〔習鑿齒…僧事〕目錄－【明】</note><app n="0076018"><lem><item>習鑿齒與釋道安書</item>
+<lb n="0076b09"/><div1 type="other"><list><note n="0076018" resp="Taisho" type="orig" place="foot text">〔習鑿齒…僧事〕目錄－【明】</note><app n="0076018"><lem><item>習鑿齒與釋道安書</item>
 <lb n="0076b10"/><item>譙王書論孔釋張新安答</item>
 <lb n="0076b11"/><item>鄭道子與禪師書論踞食</item>
 <lb n="0076b12"/><item>范伯倫書與王司徒論<note n="0076019" resp="Taisho" type="orig" place="foot text">據＝踞【宋】【元】＊</note><app n="0076019"><lem>據</lem><rdg wit="【宋】【元】" resp="Taisho">踞</rdg></app>食</item>
@@ -6901,8 +6905,8 @@ Added comment  for Emacs
 <lb n="0076b25"/><note place="inline">并桓玄教一首</note></item>
 <lb n="0076b26"/><item>支道林法師與桓<note n="0076020" resp="Taisho" type="orig" place="foot text">玄＝公【宮】</note><app n="0076020"><lem>玄</lem><rdg wit="【宮】" resp="Taisho">公</rdg></app>論州符求沙門名籍
 <lb n="0076b27"/>書一首</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>
-<lb n="0076b28"/><item>天保寺釋道盛啟齊武帝論撿試僧事</item></list>
-<lb n="0076b29"/><mulu type="序" level="1" label="（僧佑序）"/><p>余所撰弘明。並集護法之論。然<note n="0076021" resp="Taisho" type="orig" place="foot text">爰＝援【明】</note><app n="0076021"><lem>爰</lem><rdg wit="【明】" resp="Taisho">援</rdg></app>錄書表
+<lb n="0076b28"/><item>天保寺釋道盛啟齊武帝論撿試僧事</item></list></div1>
+<lb n="0076b29"/><div1 type="xu"><mulu type="序" level="1" label="（僧佑序）"/><p>余所撰弘明。並集護法之論。然<note n="0076021" resp="Taisho" type="orig" place="foot text">爰＝援【明】</note><app n="0076021"><lem>爰</lem><rdg wit="【明】" resp="Taisho">援</rdg></app>錄書表
 <pb ed="T" id="T52.2102.0076c" n="0076c"/>
 <lb n="0076c01"/>者。蓋事深故也。尋沙門辭世爵祿弗縻。漢魏
 <lb n="0076c02"/>以來歷經英聖。皆致其禮莫求其拜。而<note n="0076022" resp="Taisho" type="orig" place="foot text">庾＝廋【明】</note><app n="0076022"><lem>庾</lem><rdg wit="【明】" resp="Taisho">廋</rdg></app>君
@@ -7742,17 +7746,17 @@ Added comment  for Emacs
 <lb n="0086a11"/>丘。寧能收失。若不收失<note n="0086004" resp="Taisho" type="orig" place="foot text">必＝每【三】【宮】</note><note n="0086004" resp="CBETA" type="mod">必＝每【宋】【元】【明】【宮】</note><app n="0086004"><lem>必</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">每</rdg></app>起惡心。寺之三
 <lb n="0086a12"/>官何以堪命。國有典刑。願&CB00330;在所依罪治戮。
 <lb n="0086a13"/>幸可不亂聖聽。盛雖老病遠慕<note n="0086005" resp="Taisho" type="orig" place="foot text">榜＝謗【元】【明】</note><app n="0086005"><lem>榜</lem><rdg wit="【元】【明】" resp="Taisho">謗</rdg></app><note n="0086006" resp="Taisho" type="orig" place="foot text">木＝未【明】</note><app n="0086006"><lem>木</lem><rdg wit="【明】" resp="Taisho">未</rdg></app>。敢以
-<lb n="0086a14"/>陳聞。伏紙流汗。謹啟</p>
-<lb n="0086a15"/><juan fun="close" n="012"><jhead>弘明集<note n="0086007" resp="Taisho" type="orig" place="foot text">卷第十二＝第十二卷【明】</note><app n="0086007"><lem>卷第十二</lem><rdg wit="【明】" resp="Taisho">第十二卷</rdg></app></jhead></juan></div1>
+<lb n="0086a14"/>陳聞。伏紙流汗。謹啟</p></div1>
+<lb n="0086a15"/><juan fun="close" n="012"><jhead>弘明集<note n="0086007" resp="Taisho" type="orig" place="foot text">卷第十二＝第十二卷【明】</note><app n="0086007"><lem>卷第十二</lem><rdg wit="【明】" resp="Taisho">第十二卷</rdg></app></jhead></juan>
 <lb n="0086a16"/>
-<milestone unit="juan" n="13"/><div1 type="other">
+<milestone unit="juan" n="13"/>
 <lb n="0086a17"/>
 <lb n="0086a18"/><juan fun="open" n="013"><mulu type="卷" n="13"/><jhead>弘明集卷第十三</jhead></juan>
 <lb n="0086a19"/>
 <lb n="0086a20"/><byline type="Author">梁<anchor id="fxT52p0086a02"/>楊都建初寺釋僧<note n="0086008" resp="Taisho" type="orig" place="foot text">祐＝祜【宋】</note><app n="0086008"><lem>祐</lem><rdg wit="【宋】" resp="Taisho">祜</rdg></app><anchor id="fxT52p0086a03"/>律師撰</byline>
-<lb n="0086a21"/><list><note n="0086009" resp="Taisho" type="orig" place="foot text">〔郗嘉…燭〕十八字－【明】</note><app n="0086009" word-count="18"><lem><item>郗嘉賓奉法要</item><item>顏延之庭<note n="0086010" resp="Taisho" type="orig" place="foot text">誥＝詰【宋】【元】【宮】</note><app n="0086010"><lem>誥</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">詰</rdg></app>二章</item>
-<lb n="0086a22"/><item>王該日<note n="0086011" resp="Taisho" type="orig" place="foot text">〔月〕－【宋】【元】【宮】</note><app n="0086011"><lem>月</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>燭</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list>
-<lb n="0086a23"/><mulu type="其他" level="1" label="52 奉法要(郗嘉賓)(一三)"/><head>奉法要</head><byline type="author"><note n="0086012" resp="Taisho" type="orig" place="foot text">&CB06610;中書＝晉&CB00992;超【明】</note><app n="0086012"><lem>&CB06610;中書</lem><rdg wit="【明】" resp="Taisho">晉&CB00992;超</rdg></app></byline>
+<lb n="0086a21"/><div1 type="other"><list><note n="0086009" resp="Taisho" type="orig" place="foot text">〔郗嘉…燭〕十八字－【明】</note><app n="0086009" word-count="18"><lem><item>郗嘉賓奉法要</item><item>顏延之庭<note n="0086010" resp="Taisho" type="orig" place="foot text">誥＝詰【宋】【元】【宮】</note><app n="0086010"><lem>誥</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">詰</rdg></app>二章</item>
+<lb n="0086a22"/><item>王該日<note n="0086011" resp="Taisho" type="orig" place="foot text">〔月〕－【宋】【元】【宮】</note><app n="0086011"><lem>月</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>燭</item></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></list></div1>
+<lb n="0086a23"/><div1 type="other"><mulu type="其他" level="1" label="52 奉法要(郗嘉賓)(一三)"/><head>奉法要</head><byline type="author"><note n="0086012" resp="Taisho" type="orig" place="foot text">&CB06610;中書＝晉&CB00992;超【明】</note><app n="0086012"><lem>&CB06610;中書</lem><rdg wit="【明】" resp="Taisho">晉&CB00992;超</rdg></app></byline>
 <lb n="0086a24"/><p>三自歸者。歸佛歸十二部經歸比丘僧。過去
 <lb n="0086a25"/><note n="0086013" resp="Taisho" type="orig" place="foot text">見＝現【三】</note><note n="0086013" resp="CBETA" type="mod">見＝現【宋】【元】【明】</note><app n="0086013"><lem>見</lem><rdg wit="【宋】【元】【明】" resp="Taisho">現</rdg></app>在當來三世十方佛。三世十方經法。三
 <lb n="0086a26"/>世十方僧。每禮拜懺悔。皆當至心歸命。并慈
@@ -8209,7 +8213,7 @@ Added comment  for Emacs
 <lb n="0091b01"/>常專專而守檢。懼越蹈於所伺。並廢理以證
 <lb n="0091b02"/>言。莫觸類以取意。徒宏博而繁構。更益猜而
 <lb n="0091b03"/>致<note n="0091021" resp="Taisho" type="orig" place="foot text">忌＝思【宮】</note><app n="0091021"><lem>忌</lem><rdg wit="【宮】" resp="Taisho">思</rdg></app>。悟飾智之愕物。故收翰而輟思。寄一
-<lb n="0091b04"/>隅於梗指。俟體信於明識者乎</p>
+<lb n="0091b04"/>隅於梗指。俟體信於明識者乎</p></div1>
 <lb n="0091b05"/><juan fun="close" n="013"><jhead>弘明集<note n="0091022" resp="Taisho" type="orig" place="foot text">卷第十三＝第十三卷【明】</note><app n="0091022"><lem>卷第十三</lem><rdg wit="【明】" resp="Taisho">第十三卷</rdg></app></jhead></juan>
 <lb n="0091b06"/>
 <milestone unit="juan" n="14"/>
@@ -8217,7 +8221,7 @@ Added comment  for Emacs
 <lb n="0091b08"/><juan fun="open" n="014"><mulu type="卷" n="14"/><jhead>弘明集卷第十四</jhead></juan>
 <lb n="0091b09"/>
 <lb n="0091b10"/><byline type="Author">梁<anchor id="fxT52p0091b02"/>楊都建初寺釋僧祐<anchor id="fxT52p0091b03"/>律師撰</byline>
-<lb n="0091b11"/><list><item><note n="0091023" resp="Taisho" type="orig" place="foot text">〔竺道…序〕目錄－【明】</note><note n="0091023" resp="CBETA" type="mod"><todo type="a"/>〔竺道…序〕目錄－【明】</note>竺道爽撽太山文</item>
+<lb n="0091b11"/><div1 type="other"><list><item><note n="0091023" resp="Taisho" type="orig" place="foot text">〔竺道…序〕目錄－【明】</note><note n="0091023" resp="CBETA" type="mod"><todo type="a"/>〔竺道…序〕目錄－【明】</note>竺道爽撽太山文</item>
 <lb n="0091b12"/><item>釋智靜撽魔文</item>
 <lb n="0091b13"/><item>釋寶林破魔露布文</item>
 <lb n="0091b14"/><item>釋僧祐弘明論<note n="0091024" resp="Taisho" type="orig" place="foot text">〔後序〕－【宋】【元】【宮】</note><app n="0091024"><lem>後序</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app></item></list></div1>
@@ -8649,6 +8653,6 @@ Added comment  for Emacs
 <lb n="0096a29"/>略而不陳。前哲所辯關鍵已正。<note n="0096015" resp="Taisho" type="orig" place="foot text">輕＝聊【三】【宮】</note><note n="0096015" resp="CBETA" type="mod">輕＝聊【宋】【元】【明】【宮】</note><app n="0096015"><lem>輕</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">聊</rdg></app>率鄙懷繼
 <pb ed="T" id="T52.2102.0096b" n="0096b"/>
 <lb n="0096b01"/>之于末。雖文<note n="0096016" resp="Taisho" type="orig" place="foot text">匪＝非【三】【宮】</note><note n="0096016" resp="CBETA" type="mod">匪＝非【宋】【元】【明】【宮】</note><app n="0096016"><lem>匪</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">非</rdg></app>珪璋而事足鞶鑑。惟愷悌君
-<lb n="0096b02"/>子自求多福焉</p>
-<lb n="0096b03"/><juan fun="close" n="014"><jhead>弘明集卷第十四</jhead></juan></div1>
+<lb n="0096b02"/>子自求多福焉</p></div1>
+<lb n="0096b03"/><juan fun="close" n="014"><jhead>弘明集卷第十四</jhead></juan>
 </body></text></TEI.2>
