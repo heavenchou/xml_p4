@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.15 $ (Big5)<date>$Date: 2004/05/11 03:06:29 $</date></edition>
+		<edition>$Revision: 1.16 $ (Big5)<date>$Date: 2004/06/12 12:17:34 $</date></edition>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 03:06:29 $</date>
+		<date>$Date: 2004/06/12 12:17:34 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 47, No. 1969A &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T47n1969A.xml,v $
+Revision 1.16  2004/06/12 12:17:34  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.15  2004/05/11 03:06:29  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -157,7 +160,7 @@ Revision 1.18  2001/02/07 07:23:02  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.17  2001/02/03 08:07:59  chris
-Added keywords $Revision: 1.15 $, $Date: 2004/05/11 03:06:29 $ and $Log.
+Added keywords $Revision: 1.16 $, $Date: 2004/06/12 12:17:34 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -168,7 +171,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0148a03"/>
 <lb n="0148a04"/><head type="no">No. 1969A</head>
-<lb n="0148a05"/><div1 type="xu"><mulu type="序" level="1" label="樂邦文類序"/><head><note n="0148001" resp="Taisho" type="orig" place="foot text">【原】寬永七年刊宗教大學藏本，【甲】刊本，宗教大學藏，此序依甲本載之</note>樂邦文類序</head>
+<lb n="0148a05"/><div1 type="xu"><mulu type="序" level="1" label="樂邦文類序"/><note n="0148001" resp="Taisho" type="orig" place="foot text">【原】寬永七年刊宗教大學藏本，【甲】刊本，宗教大學藏，此序依甲本載之</note><head>樂邦文類序</head>
 <lb n="0148a06"/>
 <lb n="0148a07"/><p>昔善逝愍群生之旋復於諸苦趣也。指樂邦
 <lb n="0148a08"/>令歸依。列聖幽讚。宿耆受生者不一。載諸竺
@@ -228,8 +231,8 @@ Added comment  for Emacs
 <lb n="0148c02"/><p rend="margin-left:1">賜進士出身吏部尚書武英殿大學士海虞
 <lb n="0148c03"/>嚴訥撰</p></div1>
 <lb n="0148c04"/>
-<lb n="0148c05"/><div1 type="xu"><head>
-<lb n="0148c06"/><note n="0148002" resp="Taisho" type="orig" place="foot text">此序甲本無</note>樂邦文類序</head>
+<lb n="0148c05"/>
+<lb n="0148c06"/><div1 type="xu"><mulu type="序" level="1" label="樂邦文類序"/><note n="0148002" resp="Taisho" type="orig" place="foot text">此序甲本無</note><head>樂邦文類序</head>
 <lb n="0148c07"/>
 <lb n="0148c08"/><p>周道既往。百家各以其說爭衡於世。久之浸
 <lb n="0148c09"/>息。獨儒老釋三之教。幾於並行。大率皆主於
@@ -270,11 +273,11 @@ Added comment  for Emacs
 <lb n="0149a14"/><p rend="margin-left:1">慶元庚申中元日敷文閣學士宣奉大夫致
 <lb n="0149a15"/>仕汪大猷序</p></div1>
 <lb n="0149a16"/>
-<lb n="0149a17"/><div1 type="xu"><juan fun="open" n="001"><mulu type="卷" n="1"/></juan><mulu type="其他" level="1" label="樂邦文類序"/><head>
-<lb n="0149a18"/>樂邦文類卷第一<note n="0149001" resp="Taisho" type="orig" place="foot text">〔并序〕－【甲】</note><app n="0149001"><lem><note place="inline">并序</note></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></head>
+<lb n="0149a17"/>
+<lb n="0149a18"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>樂邦文類卷第一<note n="0149001" resp="Taisho" type="orig" place="foot text">〔并序〕－【甲】</note><app n="0149001"><lem><note place="inline">并序</note></lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0149a19"/>
 <lb n="0149a20"/><byline type="Editor">四明石芝沙門宗曉編次</byline>
-<lb n="0149a21"/><note n="0149002" resp="Taisho" type="orig" place="foot text">〔乾道…時〕六百七十四字－【甲】</note><note n="0149002" resp="CBETA" type="mod">〔乾道…時〕六百七十<app><lem resp="CBETA．eva">三</lem><rdg wit="【大】">四</rdg></app>字－【甲】</note><app n="0149002" word-count="673"><lem><p>乾道中德壽宮親灑宸毫。大書蓮社二字。賜
+<lb n="0149a21"/><div1 type="xu"><mulu type="序" level="1" label="樂邦文類序"/><note n="0149002" resp="Taisho" type="orig" place="foot text">〔乾道…時〕六百七十四字－【甲】</note><note n="0149002" resp="CBETA" type="mod">〔乾道…時〕六百七十<app><lem resp="CBETA．eva">三</lem><rdg wit="【大】">四</rdg></app>字－【甲】</note><app n="0149002" word-count="673"><lem><p>乾道中德壽宮親灑宸毫。大書蓮社二字。賜
 <lb n="0149a22"/>防禦使浙西路總管張&CB05336;。龍驤鳳翥八法俱
 <lb n="0149a23"/>全。真希世河洛之瑞也。竊惟高宗皇帝。以唐
 <lb n="0149a24"/>虞之化甄陶天下。功成不居。脫屣萬乘。退藏
@@ -365,7 +368,7 @@ Added comment  for Emacs
 <lb n="0150a19"/><p rend="margin-left:1">善信摩親經　善信厭女求生西方</p>
 <lb n="0150a20"/><p rend="margin-left:1">首楞嚴經　約情想多少論報高下</p>
 <lb n="0150a21"/><p rend="margin-left:1">守護國界主經　命終善惡感報優劣</p></div1>
-<lb n="0150a22"/><div1 type="other"><mulu type="其他" level="1" label="CB00057"/><head>&CB00057;<note place="inline">凡<note n="0150001" resp="Taisho" type="orig" place="foot text">一十＝十一【甲】</note><app n="0150001"><lem>一十</lem><rdg wit="【甲】" resp="Taisho">十一</rdg></app>道</note></head>
+<lb n="0150a22"/><div1 type="other"><mulu type="其他" level="1" label="＆CB00057；"/><head>&CB00057;<note place="inline">凡<note n="0150001" resp="Taisho" type="orig" place="foot text">一十＝十一【甲】</note><app n="0150001"><lem>一十</lem><rdg wit="【甲】" resp="Taisho">十一</rdg></app>道</note></head>
 <lb n="0150a23"/><p rend="margin-left:1">無量壽修觀行供養儀軌<note place="inline">此儀軌中錄出三&CB00057;如下</note></p>
 <lb n="0150a24"/><p rend="margin-left:1">無量壽如來拳印真言</p>
 <lb n="0150a25"/><p rend="margin-left:1">無量壽如來根本印真言</p>
@@ -480,7 +483,7 @@ Added comment  for Emacs
 <lb n="0151b14"/>疑論云。藏中有數十餘部經論。殷勤指授勸
 <lb n="0151b15"/>生西方是也。先賢謂淨土但有七經者。其不
 <lb n="0151b16"/>審乎</p></div1>
-<lb n="0151b17"/><div1 type="other"><mulu type="其他" level="1" label="法華經　彌陀CB00528中化緣之始"/><head>法華經　彌陀&CB00528;中化緣之始</head>
+<lb n="0151b17"/><div1 type="other"><mulu type="其他" level="1" label="法華經　彌陀＆CB00528；中化緣之始"/><head>法華經　彌陀&CB00528;中化緣之始</head>
 <lb n="0151b18"/><p>化城喻品曰。過去有佛。名大通智勝。其佛未
 <lb n="0151b19"/>出家時。有十六子。皆以童子出家而為沙彌。
 <lb n="0151b20"/>爾時彼佛。說是經已。即入靜室八萬四千劫。
@@ -1697,15 +1700,15 @@ Added comment  for Emacs
 <lb n="0165a03"/>號。乃滿二千碩穀之數。佛既自以此教人。
 <lb n="0165a04"/>則其功德不可思議也。切緣寶王論。不載
 <lb n="0165a05"/>所出經論。尤為缺典。今恐稱誦者欲知。故
-<lb n="0165a06"/>茲錄示</p>
-<lb n="0165a07"/><juan fun="close" n="001"><jhead>樂邦文類卷第一</jhead></juan></div1>
+<lb n="0165a06"/>茲錄示</p></div1>
+<lb n="0165a07"/><juan fun="close" n="001"><jhead>樂邦文類卷第一</jhead></juan>
 <lb n="0165a08"/>
 <milestone unit="juan" n="2"/>
-<lb n="0165a09"/><div1 type="other">
+<lb n="0165a09"/>
 <lb n="0165a10"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>樂邦文類卷第二</jhead></juan>
 <lb n="0165a11"/>
 <lb n="0165a12"/><byline type="Editor">四明石芝沙門宗曉編次</byline>
-<lb n="0165a13"/><mulu type="其他" level="1" label="序跋"/><head><note n="0165002" resp="Taisho" type="orig" place="foot text">（序跋…克已）三百八十一字∞（文十…有嚴）三百十三字【甲】</note><note n="0165002" resp="CBETA" type="mod"><todo type="a"/>（序跋…克已）三百八十一字∞（文十…有嚴）三百十三字【甲】</note>序跋<note place="inline">三十二家</note></head>
+<lb n="0165a13"/><div1 type="other"><mulu type="其他" level="1" label="序跋"/><head><note n="0165002" resp="Taisho" type="orig" place="foot text">（序跋…克已）三百八十一字∞（文十…有嚴）三百十三字【甲】</note><note n="0165002" resp="CBETA" type="mod"><todo type="a"/>（序跋…克已）三百八十一字∞（文十…有嚴）三百十三字【甲】</note>序跋<note place="inline">三十二家</note></head>
 <lb n="0165a14"/><p rend="margin-left:1">念佛三昧詩序　圓悟法師　慧遠</p>
 <lb n="0165a15"/><p rend="margin-left:1">觀無量壽佛經疏序　智者<note n="0165003" resp="Taisho" type="orig" place="foot text">禪＝大【甲】</note><app n="0165003"><lem>禪</lem><rdg wit="【甲】" resp="Taisho">大</rdg></app>師</p>
 <lb n="0165a16"/><p rend="margin-left:1">阿彌陀經通讚疏序　慈恩法師　窺基</p>
@@ -3253,15 +3256,15 @@ Added comment  for Emacs
 <lb n="0182a28"/>則肖之矣。安有不修而能證者哉。此自餞
 <lb n="0182a29"/>之意。固足以為來者勸也。門人元祐。持其
 <pb ed="T" id="T47.1969A.0182b" n="0182b"/>
-<lb n="0182b01"/>文示予。因跋其尾云。隱庵<note place="inline">左知微</note>謹題</p>
-<lb n="0182b02"/><juan fun="close" n="002"><jhead>樂邦文類卷第二</jhead></juan></div1>
+<lb n="0182b01"/>文示予。因跋其尾云。隱庵<note place="inline">左知微</note>謹題</p></div1>
+<lb n="0182b02"/><juan fun="close" n="002"><jhead>樂邦文類卷第二</jhead></juan>
 <lb n="0182b03"/>
 <milestone unit="juan" n="3"/>
-<lb n="0182b04"/><div1 type="other">
+<lb n="0182b04"/>
 <lb n="0182b05"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>樂邦文類卷第三</jhead></juan>
 <lb n="0182b06"/>
 <lb n="0182b07"/><byline type="Editor">四明石芝沙門宗曉編次</byline>
-<lb n="0182b08"/><mulu type="其他" level="1" label="記碑"/><head>記碑<note place="inline">一十九首</note></head>
+<lb n="0182b08"/><div1 type="other"><mulu type="其他" level="1" label="記碑"/><head>記碑<note place="inline">一十九首</note></head>
 <lb n="0182b09"/><p>　龍興寺修淨土院記　禮部柳　子厚</p>
 <lb n="0182b10"/><p>　岳州無姓和尚碑　同前</p>
 <lb n="0182b11"/><p>　畫西方淨土&CB01251;記　翰林白　居易</p>
@@ -4609,15 +4612,15 @@ Added comment  for Emacs
 <lb n="0197b03"/><p>道人之身春容月影耳。以靈山最後之旨迴
 <lb n="0197b04"/>向淨土。真鐵心石腸耶。吾知其於世間不復
 <lb n="0197b05"/>來矣。老龐曰。不是聖賢。了事凡夫。斯言其有
-<lb n="0197b06"/>旨哉</p>
-<lb n="0197b07"/><juan fun="close" n="003"><jhead>樂邦文類卷第三</jhead></juan></div1>
+<lb n="0197b06"/>旨哉</p></div1>
+<lb n="0197b07"/><juan fun="close" n="003"><jhead>樂邦文類卷第三</jhead></juan>
 <lb n="0197b08"/>
 <milestone unit="juan" n="4"/>
-<lb n="0197b09"/><div1 type="other">
+<lb n="0197b09"/>
 <lb n="0197b10"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>樂邦文類卷<note n="0197005" resp="Taisho" type="orig" place="foot text">第＝之【甲】</note><app n="0197005"><lem>第</lem><rdg wit="【甲】" resp="Taisho">之</rdg></app>四</jhead></juan>
 <lb n="0197b11"/>
 <lb n="0197b12"/><byline type="Editor">四明石芝沙門宗曉編次</byline>
-<lb n="0197b13"/><mulu type="其他" level="1" label="雜文"/><head>雜文<note place="inline">三十三首</note></head>
+<lb n="0197b13"/><div1 type="other"><mulu type="其他" level="1" label="雜文"/><head>雜文<note place="inline">三十三首</note></head>
 <lb n="0197b14"/><p>　維摩疏示四種佛國　天台智者大師</p>
 <lb n="0197b15"/><p>　觀經疏明四土宗致　同前</p>
 <lb n="0197b16"/><p>　萬善同歸集揀示西方　智覺禪師　延壽</p>
@@ -6111,15 +6114,15 @@ Added comment  for Emacs
 <lb n="0214a04"/>而同成勝業。所冀遠近情盡。淨穢見忘。不待
 <lb n="0214a05"/>彌勒之下生。速證寂光之上品。鐵鉤鉤象。盡
 <lb n="0214a06"/>陪蓮社之游。蠟印印泥。即預華池之上。投身
-<lb n="0214a07"/>殞命。刻骨銘肌。上扣洪慈。仰惟昭鑒謹疏</p>
-<lb n="0214a08"/><juan fun="close" n="004"><jhead>樂邦文類卷第四</jhead></juan></div1>
+<lb n="0214a07"/>殞命。刻骨銘肌。上扣洪慈。仰惟昭鑒謹疏</p></div1>
+<lb n="0214a08"/><juan fun="close" n="004"><jhead>樂邦文類卷第四</jhead></juan>
 <lb n="0214a09"/>
 <milestone unit="juan" n="5"/>
-<lb n="0214a10"/><div1 type="other">
+<lb n="0214a10"/>
 <lb n="0214a11"/><juan fun="open" n="005"><mulu type="卷" n="5"/><jhead>樂邦文類卷<note n="0214001" resp="Taisho" type="orig" place="foot text">第＝之【甲】</note><app n="0214001"><lem>第</lem><rdg wit="【甲】" resp="Taisho">之</rdg></app>五</jhead></juan>
 <lb n="0214a12"/>
 <lb n="0214a13"/><byline type="Editor">四明石芝沙門宗曉編次</byline>
-<lb n="0214a14"/><mulu type="其他" level="1" label="賦銘"/><head>賦銘<note place="inline">各一家</note></head>
+<lb n="0214a14"/><div1 type="other"><mulu type="其他" level="1" label="賦銘"/><head>賦銘<note place="inline">各一家</note></head>
 <lb n="0214a15"/><p>　神棲安養賦　智覺禪師　延壽</p>
 <lb n="0214a16"/><p>　進安養賦奉制文　吳越錢王　俶</p>
 <lb n="0214a17"/><p>　日觀銘　慈雲懺主　遵式</p></div1>
@@ -7424,12 +7427,12 @@ Added comment  for Emacs
 <lb n="0228b26"/><p>西方好我佛大慈悲。但具三心圓十念。即登
 <lb n="0228b27"/>九品越三祇。神力不思議。臨報盡接引定無
 <lb n="0228b28"/>疑。普願眾生同繫念。金臺天樂共迎時。彈指
-<lb n="0228b29"/>到蓮池</p></div2>
+<lb n="0228b29"/>到蓮池</p></div2></div1>
 <pb ed="T" id="T47.1969A.0228c" n="0228c"/>
-<lb n="0228c01"/><juan fun="close" n="005"><jhead>樂邦文類<note n="0228009" resp="Taisho" type="orig" place="foot text">卷第五＝卷之五終【甲】</note><app n="0228009"><lem>卷第五</lem><rdg wit="【甲】" resp="Taisho">卷之五終</rdg></app></jhead></juan></div1>
+<lb n="0228c01"/><juan fun="close" n="005"><jhead>樂邦文類<note n="0228009" resp="Taisho" type="orig" place="foot text">卷第五＝卷之五終【甲】</note><app n="0228009"><lem>卷第五</lem><rdg wit="【甲】" resp="Taisho">卷之五終</rdg></app></jhead></juan>
 <lb n="0228c02"/>
-<lb n="0228c03"/><div1 type="xu">
-<lb n="0228c04"/><head><note n="0228010" resp="Taisho" type="orig" place="foot text">甲本後序無</note>後序</head>
+<lb n="0228c03"/>
+<lb n="0228c04"/><div1 type="xu"><mulu type="序" level="1" label="後序"/><note n="0228010" resp="Taisho" type="orig" place="foot text">甲本後序無</note><head>後序</head>
 <lb n="0228c05"/>
 <lb n="0228c06"/><p>修淨土者常多。得其門而徑造者無幾。論淨
 <lb n="0228c07"/>土者常多。得其要而直指者或寡矣。曾未聞
@@ -7462,8 +7465,8 @@ Added comment  for Emacs
 <lb n="0229a04"/>斯文豈徒然哉</p>
 <lb n="0229a05"/><p rend="margin-left:1">時慶元庚申良月圓日南湖柏庭<note place="inline">善月</note>序</p></div1>
 <lb n="0229a06"/>
-<lb n="0229a07"/><div1 type="W">
-<lb n="0229a08"/><mulu type="附文" level="1" label="懷淨土詩"/><head><note n="0229001" resp="Taisho" type="orig" place="foot text">此懷淨土詩一百八首依甲本載之 cf. p. 225b [03]</note>懷淨土詩<note place="inline">一百八首</note></head>
+<lb n="0229a07"/>
+<lb n="0229a08"/><div1 type="W"><mulu type="附文" level="1" label="懷淨土詩"/><note n="0229001" resp="Taisho" type="orig" place="foot text">此懷淨土詩一百八首依甲本載之 cf. p. 225b [03]</note><head>懷淨土詩<note place="inline">一百八首</note></head>
 <lb n="0229a09"/>
 <lb n="0229a10"/><byline type="Author">天目中&CB00123;禪師明本</byline>
 <lb n="0229a11"/><p>塵沙劫又塵沙劫。數盡塵沙劫未休。當念
