@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/05/12 05:35:08 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2004/06/29 12:31:47 $</date></edition>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/12 05:35:08 $</date>
+		<date>$Date: 2004/06/29 12:31:47 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1452</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1452.xml,v $
+Revision 1.13  2004/06/29 12:31:47  saywhat
+juan 加上 jhead & title
+
 Revision 1.12  2004/05/12 05:35:08  saywhat
 經號的<head> → <head type="no">
 
@@ -133,7 +136,7 @@ Revision 1.6  2001/02/07 07:00:37  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:18  chris
-Added keywords $Revision: 1.12 $, $Date: 2004/05/12 05:35:08 $ and $Log.
+Added keywords $Revision: 1.13 $, $Date: 2004/06/29 12:31:47 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -143,11 +146,11 @@ Added comment  for Emacs
 <pb ed="T" id="T24.1452.0415a" n="0415a"/>
 <lb n="0415a01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0415a02"/><head type="no">No. 1452</head><div1 type="other">
-<lb n="0415a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/>根本說一切有部尼陀那卷第一</juan>
+<lb n="0415a02"/><head type="no">No. 1452</head>
+<lb n="0415a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>根本說一切有部尼陀那</title>卷第一</jhead></juan>
 <lb n="0415a04"/>
 <lb n="0415a05"/><byline type="Translator"><note n="0415001" resp="Taisho" type="orig" place="foot text">〔大〕－【三】【宮】＊，〔大唐〕－【久】</note><note n="0415001" resp="CBETA" type="mod">〔大唐〕－【久】，〔大〕－【宋】【元】【明】【宮】＊</note><app n="0415001"><lem>大唐</lem><rdg wit="【久】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唐</rdg></app>三藏法師義淨奉　<note n="0415002" resp="Taisho" type="orig" place="foot text">制＝詔【宋】【元】</note><app n="0415002"><lem>制</lem><rdg wit="【宋】【元】" resp="Taisho">詔</rdg></app>譯</byline>
-<lb n="0415a06"/><mulu type="其他" level="1" n="1" label="1 尼陀那"/><p>大門總攝頌曰</p>
+<lb n="0415a06"/><div1 type="other"><mulu type="其他" level="1" n="1" label="1 尼陀那"/><p>大門總攝頌曰</p>
 <lb n="0415a07"/><lg><l>初明受近圓</l><l>次分亡人物</l>
 <lb n="0415a08"/><l>圓壇并<note n="0415003" resp="Taisho" type="orig" place="foot text">戶＝尸【久】</note><app n="0415003"><lem>戶</lem><rdg wit="【久】" resp="Taisho">尸</rdg></app>鉤</l><l>菩薩像五門</l></lg>
 <lb n="0415a09"/><p>別門初總攝頌曰</p>
@@ -458,10 +461,10 @@ Added comment  for Emacs
 <lb n="0418b14"/>不。佛言。得去。若苾芻未得求得未解求解。未
 <lb n="0418b15"/>證求證及有疑心。須往開決。為斯等事。亦得
 <lb n="0418b16"/>守持七日去不。佛言。皆得。若受一日二日等。
-<lb n="0418b17"/>准此應作</p>
-<lb n="0418b18"/><juan fun="close" n="001">根本說一切有部尼陀那卷第一</juan></div1>
+<lb n="0418b17"/>准此應作</p></div1>
+<lb n="0418b18"/><juan fun="close" n="001"><jhead><title>根本說一切有部尼陀那</title>卷第一</jhead></juan>
 <lb n="0418b19"/>
-<lb n="0418b20"/><div1 type="W"><p><note n="0418005" resp="Taisho" type="orig" place="foot text">麗本無此譯場列位今以宋元宮久四本對校明本載</note>大唐景龍四年
+<lb n="0418b20"/><div1 type="W"><note n="0418005" resp="Taisho" type="orig" place="foot text">麗本無此譯場列位今以宋元宮久四本對校明本載</note><p>大唐景龍四年
 <lb n="0418b21"/>歲次庚戌四月壬午朔十五日景申</p><p place="inline">三藏法師
 <lb n="0418b22"/>大德沙門義淨宣釋梵本并綴文正字</p>
 <lb n="0418b23"/><p>翻經沙門吐火羅大德達磨&CB01866;磨證梵義</p>
@@ -556,14 +559,14 @@ Added comment  for Emacs
 <lb n="0419b22"/><p>孔目官文林郎少府監掌治<note n="0419017" resp="Taisho" type="orig" place="foot text">署＝著【久】</note><app n="0419017"><lem>署</lem><rdg wit="【久】" resp="Taisho">著</rdg></app>丞臣殷庭龜</p>
 <lb n="0419b23"/><p>判官朝散大夫行著作佐郎臣劉令植</p>
 <lb n="0419b24"/><p>使金紫光祿大夫行祕書監檢校殿中監兼知</p>
-<lb n="0419b25"/><p>內外閑&CB00636;隴右三使上柱國嗣號<note n="0419018" resp="Taisho" type="orig" place="foot text">臣王＝王臣【久】</note><app n="0419018"><lem>臣王</lem><rdg wit="【久】" resp="Taisho">王臣</rdg></app>邕</p></div1><div1 type="other">
+<lb n="0419b25"/><p>內外閑&CB00636;隴右三使上柱國嗣號<note n="0419018" resp="Taisho" type="orig" place="foot text">臣王＝王臣【久】</note><app n="0419018"><lem>臣王</lem><rdg wit="【久】" resp="Taisho">王臣</rdg></app>邕</p></div1>
 <pb ed="T" id="T24.1452.0419c" n="0419c"/>
 <lb n="0419c01"/>
 <milestone unit="juan" n="2"/>
-<lb n="0419c02"/><juan fun="open" n="002"><mulu type="卷" n="002"/>根本說一切有部尼陀那卷第二</juan>
+<lb n="0419c02"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>根本說一切有部尼陀那</title>卷第二</jhead></juan>
 <lb n="0419c03"/>
 <lb n="0419c04"/><byline type="Translator"><anchor id="fxT24p0419c01"/>大唐三藏法師義淨奉　制譯</byline>
-<lb n="0419c05"/><p>第八子攝頌曰</p>
+<lb n="0419c05"/><div1 type="other"><p>第八子攝頌曰</p>
 <lb n="0419c06"/><lg><l>假令不截衣</l><l>有緣皆得著</l>
 <lb n="0419c07"/><l>衣可隨身量</l><l>若短作&CB00417;衣</l></lg>
 <lb n="0419c08"/><p>具壽鄔波離請世尊曰。不割截衣得守持不。
@@ -908,11 +911,11 @@ Added comment  for Emacs
 <lb n="0423b17"/>四重禁中隨犯其一。是故汝等知是事已應
 <lb n="0423b18"/>當修學。然此長者。所施衣物及獲餘利。大
 <lb n="0423b19"/>眾應可平等共分</p>
-<lb n="0423b20"/><juan fun="close" n="002">根本說一切有部尼陀那卷第二</juan>
+<lb n="0423b20"/><juan fun="close" n="002"><jhead><title>根本說一切有部尼陀那</title>卷第二</jhead></juan>
 <lb n="0423b21"/>
 <milestone unit="juan" n="3"/>
 <lb n="0423b22"/>
-<lb n="0423b23"/><juan fun="open" n="003"><mulu type="卷" n="003"/>根本說一切有部尼陀那卷第三</juan>
+<lb n="0423b23"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>根本說一切有部尼陀那</title>卷第三</jhead></juan>
 <lb n="0423b24"/>
 <lb n="0423b25"/><byline type="Translator"><anchor id="fxT24p0423b01"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0423b26"/><p>第三子攝頌曰</p>
@@ -1296,11 +1299,11 @@ Added comment  for Emacs
 <lb n="0427c14"/>服食。勿生疑慮。佛告諸苾芻。凡所有事。<note n="0427006" resp="Taisho" type="orig" place="foot text">我＋（我）【聖】</note><app n="0427006"><lem>我</lem><rdg wit="【聖】" resp="Taisho">我我</rdg></app>
 <lb n="0427c15"/>於病人非時<note n="0427007" resp="Taisho" type="orig" place="foot text">開＝聞【聖】</note><app n="0427007"><lem>開</lem><rdg wit="【聖】" resp="Taisho">聞</rdg></app>者於病差後咸不應作。若有
 <lb n="0427c16"/>作者。得越法罪<note n="0427008" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0427c17"/><juan fun="close" n="003">根本說一切有部尼陀那卷第三</juan>
+<lb n="0427c17"/><juan fun="close" n="003"><jhead><title>根本說一切有部尼陀那</title>卷第三</jhead></juan>
 <lb n="0427c18"/>
 <milestone unit="juan" n="4"/>
 <lb n="0427c19"/>
-<lb n="0427c20"/><juan fun="open" n="004"><mulu type="卷" n="004"/><note n="0427009" resp="Taisho" type="orig" place="foot text">聖本首缺</note>根本說一切有部尼陀那卷第四</juan>
+<lb n="0427c20"/><juan fun="open" n="004"><mulu type="卷" n="004"/><note n="0427009" resp="Taisho" type="orig" place="foot text">聖本首缺</note><jhead><title>根本說一切有部尼陀那</title>卷第四</jhead></juan>
 <lb n="0427c21"/>
 <lb n="0427c22"/><byline type="Translator"><anchor id="fxT24p0427c01"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0427c23"/><p>第四子攝頌曰</p>
@@ -1664,11 +1667,11 @@ Added comment  for Emacs
 <lb n="0431c21"/>知。絣線縫刺纔半用時。六眾便奪。佛言。待了
 <lb n="0431c22"/>方取。不竟取者得越法罪。若用染汁刀子及
 <lb n="0431c23"/>針剃髮衣坐砧。皆不應奪。准前應知<note n="0431004" resp="Taisho" type="orig" place="foot text">此下聖本有光明皇后願文</note></p>
-<lb n="0431c24"/><juan fun="close" n="004">根本說一切有<note n="0431005" resp="Taisho" type="orig" place="foot text">部＋（律）【聖】</note><app n="0431005"><lem>部</lem><rdg wit="【聖】" resp="Taisho">部律</rdg></app>尼陀那卷第四</juan>
+<lb n="0431c24"/><juan fun="close" n="004"><jhead><title>根本說一切有<note n="0431005" resp="Taisho" type="orig" place="foot text">部＋（律）【聖】</note><app n="0431005"><lem>部</lem><rdg wit="【聖】" resp="Taisho">部律</rdg></app>尼陀那</title>卷第四</jhead></juan>
 <pb ed="T" id="T24.1452.0432a" n="0432a"/>
 <lb n="0432a01"/>
 <milestone unit="juan" n="5"/>
-<lb n="0432a02"/><juan fun="open" n="005"><mulu type="卷" n="005"/>根本說一切有部尼陀那卷第五</juan>
+<lb n="0432a02"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead><title>根本說一切有部尼陀那</title>卷第五</jhead></juan>
 <lb n="0432a03"/>
 <lb n="0432a04"/><byline type="Translator"><anchor id="fxT24p0432a01"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0432a05"/><p>第七子攝頌曰</p>
@@ -1993,15 +1996,15 @@ Added comment  for Emacs
 <lb n="0435b24"/>離白佛言。十人分中若一身死。亡人之分誰
 <lb n="0435b25"/>合得耶。佛言。若十人內已分衣竟。亡人之分
 <lb n="0435b26"/>應入僧伽。如其未分。九人合得。多亦准斯。尼
-<lb n="0435b27"/>陀那了</p>
-<lb n="0435b28"/><juan fun="close" n="005">根本說一切有部尼陀那卷第五</juan></div1>
+<lb n="0435b27"/>陀那了</p></div1>
+<lb n="0435b28"/><juan fun="close" n="005"><jhead><title>根本說一切有部尼陀那</title>卷第五</jhead></juan>
 <pb ed="T" id="T24.1452.0435c" n="0435c"/>
 <lb n="0435c01"/>
-<milestone unit="juan" n="6"/><div1 type="other">
-<lb n="0435c02"/><juan fun="open" n="006"><mulu type="卷" n="006"/>根本說一切有部目得迦卷第六</juan>
+<milestone unit="juan" n="6"/>
+<lb n="0435c02"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead><title>根本說一切有部目得迦</title>卷第六</jhead></juan>
 <lb n="0435c03"/>
 <lb n="0435c04"/><byline type="Translator"><anchor id="fxT24p0435c01"/>大唐三藏法師義淨奉　制譯</byline>
-<lb n="0435c05"/><mulu type="其他" level="1" n="2" label="2 目得迦"/><p>大門總攝頌曰</p>
+<lb n="0435c05"/><div1 type="other"><mulu type="其他" level="1" n="2" label="2 目得迦"/><p>大門總攝頌曰</p>
 <lb n="0435c06"/><lg><l>最初為懺謝</l><l>第二定屬物</l>
 <lb n="0435c07"/><l>第三資具衣</l><l>目得迦總頌</l></lg>
 <lb n="0435c08"/><p>別門初總攝頌曰</p>
@@ -2361,11 +2364,11 @@ Added comment  for Emacs
 <lb n="0439c02"/>食者求之既無。豈於此物而不得食。因被譏
 <lb n="0439c03"/>嫌。以緣白佛。佛言。苾芻不應食諸烏&CB01913;白鶴
 <lb n="0439c04"/>雕鷲之類。如其食者得越法罪</p>
-<lb n="0439c05"/><juan fun="close" n="006">根本說一切有部目得迦卷第六</juan>
+<lb n="0439c05"/><juan fun="close" n="006"><jhead><title>根本說一切有部目得迦</title>卷第六</jhead></juan>
 <lb n="0439c06"/>
 <milestone unit="juan" n="7"/>
 <lb n="0439c07"/>
-<lb n="0439c08"/><juan fun="open" n="007"><mulu type="卷" n="007"/>根本說一切有部目得迦卷第七</juan>
+<lb n="0439c08"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead><title>根本說一切有部目得迦</title>卷第七</jhead></juan>
 <lb n="0439c09"/>
 <lb n="0439c10"/><byline type="Translator"><note n="0439008" resp="Taisho" type="orig" place="foot text">〔大〕－【三】【宮】＊，〔大唐〕－【聖】</note><note n="0439008" resp="CBETA" type="mod">〔大唐〕－【聖】，〔大〕－【宋】【元】【明】【宮】＊</note><app n="0439008"><lem>大唐</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">唐</rdg></app>三藏法師義淨奉　制譯</byline>
 <lb n="0439c11"/><p>第五子攝頌曰</p>
@@ -2789,11 +2792,11 @@ Added comment  for Emacs
 <lb n="0444b09"/>時室利笈多即往佛所。共相問訊在一面坐。
 <lb n="0444b10"/>復從座起請世尊曰。佛及僧伽。頗能明日就
 <lb n="0444b11"/>我舍內。受一食耶</p>
-<lb n="0444b12"/><juan fun="close" n="007">根本說一切有部目得迦卷第七</juan>
+<lb n="0444b12"/><juan fun="close" n="007"><jhead><title>根本說一切有部目得迦</title>卷第七</jhead></juan>
 <lb n="0444b13"/>
 <milestone unit="juan" n="8"/>
 <lb n="0444b14"/>
-<lb n="0444b15"/><juan fun="open" n="008"><mulu type="卷" n="008"/>根本說一切有部目得迦卷第八
+<lb n="0444b15"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead><title>根本說一切有部目得迦</title>卷第八</jhead>
 <lb n="0444b16"/>
 <lb n="0444b17"/><byline type="Translator"><anchor id="fxT24p0444b02"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0444b18"/><head type="ping">第四子攝頌室利笈多之餘</head></juan>
@@ -3155,11 +3158,11 @@ Added comment  for Emacs
 <lb n="0448b14"/>言我是俗人。此人得成受近圓不。佛言。設近
 <lb n="0448b15"/>圓已。自言是俗。尚失近圓。何況受時此等皆
 <lb n="0448b16"/>據有心捨戒</p>
-<lb n="0448b17"/><juan fun="close" n="008">根本說一切有部目得迦卷第八</juan>
+<lb n="0448b17"/><juan fun="close" n="008"><jhead><title>根本說一切有部目得迦</title>卷第八</jhead></juan>
 <lb n="0448b18"/>
 <milestone unit="juan" n="9"/>
 <lb n="0448b19"/>
-<lb n="0448b20"/><juan fun="open" n="009"><mulu type="卷" n="009"/>根本說一切有部目得迦卷第九</juan>
+<lb n="0448b20"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead><title>根本說一切有部目得迦</title>卷第九</jhead></juan>
 <lb n="0448b21"/>
 <lb n="0448b22"/><byline type="Translator"><anchor id="fxT24p0448b01"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0448b23"/><p>第四子攝頌曰</p>
@@ -3512,11 +3515,11 @@ Added comment  for Emacs
 <lb n="0452b10"/>攪。若煮藥時藥沸騰上。類此應知。汝諸苾
 <lb n="0452b11"/>芻。我為難緣所開許者。於無難時並應制斷。
 <lb n="0452b12"/>若有行者。咸得惡作</p>
-<lb n="0452b13"/><juan fun="close" n="009">根本說一切有部目得迦卷第九</juan>
+<lb n="0452b13"/><juan fun="close" n="009"><jhead><title>根本說一切有部目得迦</title>卷第九</jhead></juan>
 <lb n="0452b14"/>
 <milestone unit="juan" n="10"/>
 <lb n="0452b15"/>
-<lb n="0452b16"/><juan fun="open" n="010"><mulu type="卷" n="010"/>根本說一切有部目得迦卷第十
+<lb n="0452b16"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead><title>根本說一切有部目得迦</title>卷第十</jhead>
 <lb n="0452b17"/>
 <lb n="0452b18"/><byline type="Translator"><anchor id="fxT24p0452b01"/>大唐三藏法師義淨奉　制譯</byline>
 <lb n="0452b19"/><head type="ping">第一子攝頌之餘</head></juan>
@@ -3803,6 +3806,6 @@ Added comment  for Emacs
 <lb n="0455b28"/>食塵。二飲塵。三衣塵。四花塵。五果塵。此等
 <lb n="0455b29"/>諸塵眼可見者。受已而食。不可見者隨意應
 <pb ed="T" id="T24.1452.0455c" n="0455c"/>
-<lb n="0455c01"/>食</p>
-<lb n="0455c02"/><juan fun="close" n="010">根本說一切有部目得迦卷第十</juan></div1>
+<lb n="0455c01"/>食</p></div1>
+<lb n="0455c02"/><juan fun="close" n="010"><jhead><title>根本說一切有部目得迦</title>卷第十</jhead></juan>
 </body></text></TEI.2>
