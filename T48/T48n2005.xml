@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/07/16 09:12:56 $</date></edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2004/09/16 09:12:57 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/07/16 09:12:56 $</date>
+		<date>$Date: 2004/09/16 09:12:57 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 48, No. 2005 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T48n2005.xml,v $
+Revision 1.12  2004/09/16 09:12:57  saywhat
+<div type="W"> 改用 <mulu type="附文">
+
 Revision 1.11  2004/07/16 09:12:56  moved
 modified：執行 margin.pl，加入 em 單位。
 
@@ -130,7 +133,7 @@ Revision 1.15  2001/02/07 07:26:56  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.14  2001/02/03 08:09:06  chris
-Added keywords $Revision: 1.11 $, $Date: 2004/07/16 09:12:56 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2004/09/16 09:12:57 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -140,7 +143,7 @@ Added comment  for Emacs
 <lb n="0292a23"/>
 <milestone unit="juan" n="1"/>
 <lb n="0292a24"/><head type="no">No. 2005</head>
-<lb n="0292a25"/><div1 type="xu"><mulu type="序" level="1" label="禪宗無門關"/><head><note n="0292001" resp="Taisho" type="orig" place="foot text">【原】寬永九年刊宗教大學藏本，【甲】延寶八年刊宗教大學藏本，禪宗無門關五字新加</note>禪宗無門關</head>
+<lb n="0292a25"/><div1 type="xu"><mulu type="序" level="1" label="禪宗無門關"/><note n="0292001" resp="Taisho" type="orig" place="foot text">【原】寬永九年刊宗教大學藏本，【甲】延寶八年刊宗教大學藏本，禪宗無門關五字新加</note><head>禪宗無門關</head>
 <lb n="0292a26"/>
 <lb n="0292a27"/><p>說道無門。盡大地人得入。說道有門。無阿師
 <lb n="0292a28"/>分。第一強添幾箇注&CB00560;。大似笠上頂笠。硬要
@@ -155,8 +158,8 @@ Added comment  for Emacs
 <lb n="0292b07"/>乾坤。八方歌有道之君。四海樂無為之化</p>
 <lb n="0292b08"/><p>慈懿皇后功德報<note n="0292002" resp="Taisho" type="orig" place="foot text">因＝恩【甲】</note><app n="0292002"><lem>因</lem><rdg wit="【甲】" resp="Taisho">恩</rdg></app>佑慈禪寺前住持傳法
 <lb n="0292b09"/>臣僧慧開謹言</p></div1>
-<lb n="0292b10"/><div1 type="xu"><head>
-<lb n="0292b11"/>禪宗無門關</head>
+<lb n="0292b10"/>
+<lb n="0292b11"/><div1 type="xu"><mulu type="序" level="1" label="禪宗無門關"/><head>禪宗無門關</head>
 <lb n="0292b12"/><p>佛語心為宗。無門為法門。既是無門。且作麼
 <lb n="0292b13"/>生透。豈不見道。從門入者。不是家珍。從緣得
 <lb n="0292b14"/>者。始終成壞。恁麼說話。大似無風起浪好肉
@@ -192,12 +195,12 @@ Added comment  for Emacs
 <lb n="0292c14"/><p rend="margin-left:1em">首山竹篦　芭蕉拄杖　他是阿誰</p>
 <lb n="0292c15"/><p rend="margin-left:1em">竿頭進步　兜率三關　乾&CB00123;一路</p>
 <lb n="0292c16"/><p>目錄<note place="inline">終</note></p></div1>
-<lb n="0292c17"/><div1 type="other">
+<lb n="0292c17"/>
 <lb n="0292c18"/>
 <lb n="0292c19"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>無門關</jhead></juan>
 <lb n="0292c20"/>
 <lb n="0292c21"/><byline type="Editor">參學比丘彌衍宗紹編</byline>
-<lb n="0292c22"/><mulu type="其他" level="1" label="趙州狗子"/><head>趙州狗子</head>
+<lb n="0292c22"/><div1 type="other"><mulu type="其他" level="1" label="趙州狗子"/><head>趙州狗子</head>
 <lb n="0292c23"/><p>趙州和尚因僧問。狗子還有佛性。也無。州云
 <lb n="0292c24"/>無</p>
 <lb n="0292c25"/><p rend="margin-left:1em">無門曰。參禪須透祖師關。妙悟要窮心路
@@ -772,9 +775,9 @@ Added comment  for Emacs
 <lb n="0299a23"/>門。若透不得無門關。亦乃辜負自<app><lem>己</lem><rdg wit="【大】">已</rdg></app>。所謂
 <lb n="0299a24"/>涅槃心易曉。差別智難明。明得差別智。家
 <lb n="0299a25"/>國自安寧。&CB01213;紹定改元解制前五日。楊岐
-<lb n="0299a26"/>八世孫無門比丘慧開謹識</p>
-<lb n="0299a27"/><juan fun="close" n="001"><jhead>無門關卷終</jhead></juan></div1><div1 type="W"><mulu type="其他" level="1" label="(無量宗壽書)"/>
-<lb n="0299a28"/><div2 type="other"><mulu type="其他" level="2" label="禪箴"/><head>禪箴</head>
+<lb n="0299a26"/>八世孫無門比丘慧開謹識</p></div1>
+<lb n="0299a27"/><juan fun="close" n="001"><jhead>無門關卷終</jhead></juan>
+<lb n="0299a28"/><div1 type="W"><mulu type="附文" level="1" label="(無量宗壽書)"/><div2 type="other"><mulu type="其他" level="2" label="禪箴"/><head>禪箴</head>
 <lb n="0299a29"/><lg type="abnormal"><l>循規守矩。</l><l>無繩自縛。</l><l>縱橫無礙。</l><l>外道魔軍。</l><l>存
 <pb ed="T" id="T48.2005.0299b" n="0299b"/>
 <lb n="0299b01"/>心澄寂。</l><l>默照邪禪。</l><l>恣意忘緣。</l><l>墮落深坑。</l><l>惺
@@ -797,7 +800,7 @@ Added comment  for Emacs
 <lb n="0299b18"/><p rend="margin-left:1em">請</p>
 <lb n="0299b19"/><p rend="margin-left:1em">無門首座。立僧山偈奉謝。紹定庚寅季春
 <lb n="0299b20"/>無量<note place="inline">宗壽</note>書</p></div1>
-<lb n="0299b21"/><div1 type="xu"><mulu type="跋" level="1" label="(孟珙跋)"/><p rend="margin-left:1em">達磨西來。不執文字。直指人心。見性成佛。說
+<lb n="0299b21"/><div1 type="xu"><mulu type="序" level="1" label="(孟珙跋)"/><p rend="margin-left:1em">達磨西來。不執文字。直指人心。見性成佛。說
 <lb n="0299b22"/>箇直指。已是迂曲。更言成佛。郎當不少。既是
 <lb n="0299b23"/>無門。因甚有關。老婆心切惡聲流布。無庵欲
 <lb n="0299b24"/>贅。一語又成四十九則。其間些子&CB05070;訛。剔起
