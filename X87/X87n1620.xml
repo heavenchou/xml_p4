@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/09/02 07:26:18 $</date></edition>
+		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2004/10/29 01:22:43 $</date></edition>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/09/02 07:26:18 $</date>
+		<date>$Date: 2004/10/29 01:22:43 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 87, No. 1620 &desc;</bibl>
@@ -45,41 +45,14 @@
 </encodingDesc>
 <revisionDesc>
 	<change>
-		<date>2003/11/04 13:50:45</date>
+		<date>2004/10/29 09:08:32</date>
 		<respStmt><name>Zhou Bang-Xin</name><resp>ed.</resp></respStmt>
-		<item>Created initial TEI XML version with BASICX.BAT (2003-08-11)</item>
+		<item>Created initial TEI XML version with BASICX.BAT</item>
 	</change>
 <!--
 $Log: X87n1620.xml,v $
-Revision 1.10  2004/09/02 07:26:18  moved
-modified：X78-87 xml-sm 比對差異 p0184a22 [礡-莆+蒲] 改成 [石*薄]
-
-Revision 1.9  2004/08/30 06:05:13  moved
-modified：經文修訂 p0194a09 [士>咄]
-
-Revision 1.8  2004/08/16 06:23:35  eva
-modified: 礡 修訂成 [石*薄] (&CB16612;)
-
-Revision 1.7  2004/05/21 06:40:21  eva
-modified: 修訂 div 結束位置
-
-Revision 1.6  2004/04/26 03:51:10  ray
-xml:stylesheet => xml-stylesheet
-
-Revision 1.5  2004/04/20 08:45:47  maha
-「版本日期」標記修訂
-
-Revision 1.4  2004/04/20 03:28:12  maha
-將 type="inline" 或 rend="inline" 改成 place="inline"
-
-Revision 1.3  2004/03/16 02:22:14  ray
-resp 屬性 統一格式為 CBETA.xxx
-
-Revision 1.2  2003/11/04 10:57:52  eva
-modified: 修訂mulu
-
-Revision 1.1  2003/11/04 05:38:49  ray
-new from basicx
+Revision 1.11  2004/10/29 01:22:43  ray
+basicx 程式 讀取 簡單標記版 產生 xml
 
 -->
 </revisionDesc>
@@ -92,10 +65,10 @@ new from basicx
 <lb ed="X" n="0179c03"/>
 <lb ed="X" n="0179c04"/><div1 type="other"><mulu type="其他" level="1" label="先覺宗乘目錄"/><head>先覺宗乘目錄</head>
 <lb ed="X" n="0179c05"/>
-<lb ed="X" n="0179c06"/><list><head>卷一</head>
+<lb ed="X" n="0179c06"/><list><item id="itemX87p0179c0601">卷一</item>
 <lb ed="X" n="0179c07"/><item id="itemX87p0179c0701">維摩大士</item><item id="itemX87p0179c0705">雙林善慧大士傅翕</item>
-<lb ed="X" n="0179c08"/><item id="itemX87p0179c0801">龐蘊居士<note place="inline">嗣法馬祖一</note></item></list>
-<lb ed="X" n="0179c09"/><list><head>卷二</head>
+<lb ed="X" n="0179c08"/><item id="itemX87p0179c0801">龐蘊居士<note place="inline">嗣法馬祖一</note></item>
+<lb ed="X" n="0179c09"/><item id="itemX87p0179c0901">卷二</item>
 <lb ed="X" n="0179c10"/><item id="itemX87p0179c1001">甘贄行者<note place="inline">嗣法南泉願</note></item><item id="itemX87p0179c1010"><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史陸&CB00040;<note place="inline">嗣法南泉願</note></item>
 <lb ed="X" n="0179c11"/><item id="itemX87p0179c1101">相國裴休<note place="inline">嗣法黃檗運</note></item><item id="itemX87p0179c1110">常侍王敬初<note place="inline">嗣法溈山祐</note></item>
 <lb ed="X" n="0179c12"/><item id="itemX87p0179c1201">尚書陳操<note place="inline">嗣法陳睦州</note></item><item id="itemX87p0179c1210">駙馬李遵勗<note place="inline">嗣法谷隱聰</note></item>
@@ -103,8 +76,8 @@ new from basicx
 <lb ed="X" n="0179c14"/><item id="itemX87p0179c1401">簽判劉經臣<note place="inline">嗣法智海逸</note></item><item id="itemX87p0179c1411">清獻公趙忭<note place="inline">嗣法蔣山泉</note></item>
 <lb ed="X" n="0179c15"/><item id="itemX87p0179c1501">丞相張商英<note place="inline">嗣法兜率悅</note></item><item id="itemX87p0179c1511">侍郎李彌遜<note place="inline">嗣法昭覺勤</note></item>
 <lb ed="X" n="0179c16"/><item id="itemX87p0179c1601">給事馮楫<note place="inline">嗣法龍門遠</note></item><item id="itemX87p0179c1610">侍郎張九成<note place="inline">嗣法徑山杲</note></item>
-<lb ed="X" n="0179c17"/><item id="itemX87p0179c1701">知府葛郯<note place="inline">嗣法佛海遠</note></item><item id="itemX87p0179c1710">放牛居士<note place="inline">嗣法無門開</note></item></list>
-<lb ed="X" n="0179c18"/><list><head>卷三</head>
+<lb ed="X" n="0179c17"/><item id="itemX87p0179c1701">知府葛郯<note place="inline">嗣法佛海遠</note></item><item id="itemX87p0179c1710">放牛居士<note place="inline">嗣法無門開</note></item>
+<lb ed="X" n="0179c18"/><item id="itemX87p0179c1801">卷三</item>
 <lb ed="X" n="0179c19"/><item id="itemX87p0179c1901">侍郎白居易<note place="inline">嗣法佛光滿</note></item><item id="itemX87p0179c1911"><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史李翱<note place="inline">嗣法藥山儼</note></item>
 <lb ed="X" n="0179c20"/><item id="itemX87p0179c2001">張拙秀才<note place="inline">嗣法石霜諸</note></item><item id="itemX87p0179c2010">相國陸希聲<note place="inline">謁仰山寂</note></item>
 <lb ed="X" n="0179c21"/><item id="itemX87p0179c2101">太傅王延彬<note place="inline">嗣法長慶稜</note></item><item id="itemX87p0179c2111">真人呂巖<note place="inline">嗣法黃龍機</note></item>
@@ -125,8 +98,8 @@ new from basicx
 <lb ed="X" n="0180a11"/><item id="itemX87p0180a1101">提刑吳偉明<note place="inline">嗣法徑山杲</note></item><item id="itemX87p0180a1111">門司黃彥節<note place="inline">嗣法徑山杲</note></item>
 <lb ed="X" n="0180a12"/><item id="itemX87p0180a1201">參政錢端禮<note place="inline">嗣法護國元</note></item><item id="itemX87p0180a1211">內翰曾開<note place="inline">嗣法靈隱遠</note></item>
 <lb ed="X" n="0180a13"/><item id="itemX87p0180a1301">侍制潘良貴<note place="inline">嗣法佛燈珣</note></item><item id="itemX87p0180a1311">侍郎李浩<note place="inline">嗣法天童華</note></item>
-<lb ed="X" n="0180a14"/><item id="itemX87p0180a1401">吳十三道人<note place="inline">嗣法開善謙</note></item></list>
-<lb ed="X" n="0180a15"/><list><head>卷四<note place="inline">問法</note></head>
+<lb ed="X" n="0180a14"/><item id="itemX87p0180a1401">吳十三道人<note place="inline">嗣法開善謙</note></item>
+<lb ed="X" n="0180a15"/><item id="itemX87p0180a1501">卷四<note place="inline">問法</note></item>
 <lb ed="X" n="0180a16"/><item id="itemX87p0180a1601">太守楊衒之<note place="inline">問達磨</note></item><item id="itemX87p0180a1609">使者宋雲<note place="inline">問達磨</note></item>
 <lb ed="X" n="0180a17"/><item id="itemX87p0180a1701">向居士<note place="inline">問二祖</note></item><item id="itemX87p0180a1707">崔趙公<note place="inline">問國一欽</note></item>
 <lb ed="X" n="0180a18"/><item id="itemX87p0180a1801">中使楊光庭<note place="inline">問本淨禪師</note></item><item id="itemX87p0180a1811">相國杜鴻漸<note place="inline">問無住禪師</note></item>
@@ -154,8 +127,8 @@ new from basicx
 <lb ed="X" n="0180b15"/><item id="itemX87p0180b1501">武昌劉居士<note place="inline">對雲居舜</note></item><item id="itemX87p0180b1510">李端愿<note place="inline">禮宗本禪師</note></item>
 <lb ed="X" n="0180b16"/><item id="itemX87p0180b1601">葉清臣蔣侍郎<note place="inline">禮政黃牛</note></item><item id="itemX87p0180b1611">陳瓘<note place="inline">問宗道者</note></item>
 <lb ed="X" n="0180b17"/><item id="itemX87p0180b1701">太尉陳良弼<note place="inline">禮淨因</note></item><item id="itemX87p0180b1709">李朝請<note place="inline">謁道場琳</note></item>
-<lb ed="X" n="0180b18"/><item id="itemX87p0180b1801">相國錢象祖<note place="inline">參此菴元</note></item></list>
-<lb ed="X" n="0180b19"/><list><head>卷五<note place="inline">無名宰官居士</note></head>
+<lb ed="X" n="0180b18"/><item id="itemX87p0180b1801">相國錢象祖<note place="inline">參此菴元</note></item>
+<lb ed="X" n="0180b19"/><item id="itemX87p0180b1901">卷五<note place="inline">無名宰官居士</note></item>
 <lb ed="X" n="0180b20"/><item id="itemX87p0180b2001">洪州廉使</item><item id="itemX87p0180b2005">俗士問天堂地獄</item>
 <lb ed="X" n="0180b21"/><item id="itemX87p0180b2101">歸宗因官人來問</item><item id="itemX87p0180b2108">儒者問三教</item>
 <lb ed="X" n="0180b22"/><item id="itemX87p0180b2201">行者問即心即佛</item><item id="itemX87p0180b2208">丹霞逢老人與童子</item>
@@ -204,8 +177,8 @@ new from basicx
 <lb ed="X" n="0181a15"/>
 <lb ed="X" n="0181a16"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>先覺宗乘卷一</jhead></juan>
 <lb ed="X" n="0181a17"/>
-<lb ed="X" n="0181a18"/><byline type="Correctorr">徑山語風老人　圓信　較定</byline>
-<lb ed="X" n="0181a19"/><byline type="Editor">無地地主人　郭凝之　&CB15077;編</byline>
+<lb ed="X" n="0181a18"/><byline type="other">徑山語風老人　圓信　較定</byline>
+<lb ed="X" n="0181a19"/><byline type="editor">無地地主人　郭凝之　&CB15077;編</byline>
 <lb ed="X" n="0181a20"/><div1 type="other"><mulu type="其他" level="1" label="維摩大士"/><head>維摩大士</head>
 <lb ed="X" n="0181a21"/><p id="pX87p0181a2101">維摩會上。三十二菩薩。各說不二法門。文殊曰。我於
 <lb ed="X" n="0181a22"/>一切法。無言無說。無示無識。離諸問答。是為菩薩入
@@ -268,7 +241,7 @@ new from basicx
 <lb ed="X" n="0182a04"/>身邊事。頌不得法身向上事。無盡曰。請和尚頌。皓遂應聲頌曰。昨夜雨&CB02465;亨。打倒葡萄棚。知事普請。行者人力。
 <lb ed="X" n="0182a05"/>拄底拄&CB04950;底&CB04950;。&CB04950;&CB04950;拄拄到天明。依舊可憐生</note>又曰。有物先天地。無形本寂
 <lb ed="X" n="0182a06"/>寥。能為萬象主。不逐四時凋。</p></div1>
-<lb ed="X" n="0182a07"/><div1 type="other"><mulu type="其他" level="1" label="唐龐蘊居士"/><head>唐龐蘊居士<note place="inline">嗣法馬祖一</note></head>
+<lb ed="X" n="0182a07"/><div1 type="other"><mulu type="其他" level="1" label="唐龐蘊居士(嗣法馬祖一)"/><head>唐龐蘊居士<note place="inline">嗣法馬祖一</note></head>
 <lb ed="X" n="0182a08"/><p id="pX87p0182a0801">囊州居士龐蘊。衡州衡陽縣人也。字道玄。世本儒業。
 <lb ed="X" n="0182a09"/>少悟塵勞。志求真諦。唐貞元初。謁石頭遷禪師。問不
 <lb ed="X" n="0182a10"/>與萬法為侶者是甚麼人。石頭以手掩其口。豁然有
@@ -576,14 +549,14 @@ new from basicx
 <lb ed="X" n="0186a12"/>惟女&CB15162;于機哉。及婆收諸靈骨<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。直向鹿門絕壁。震威一喝。&CB15777;然中開。遂投壁。與身俱隱。畢竟是所有空。為復
 <lb ed="X" n="0186a13"/>是所無空。若也緇素得出。許伊把手龐公。其或不爾。且莫&CB00895;語</note>。</p></div1>
 <lb ed="X" n="0186a14"/>
-<lb ed="X" n="0186a15"/><juan fun="close" n="001"><jhead>先覺宗乘卷一</jhead><byline type="訂閱">雙髻釋頓讓訂閱</byline></juan>
+<lb ed="X" n="0186a15"/><juan fun="close" n="1"><jhead>先覺宗乘卷一</jhead><byline type="other">雙髻釋頓讓訂閱</byline></juan>
 <lb ed="X" n="0186a16"/><milestone unit="juan" n="2"/>
 <lb ed="X" n="0186a17"/>
 <lb ed="X" n="0186a18"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>先覺宗乘卷二</jhead></juan>
 <lb ed="X" n="0186a19"/>
-<lb ed="X" n="0186a20"/><byline type="Corrector">徑山語風老人　圓信　較定</byline>
-<lb ed="X" n="0186a21"/><byline type="Editor">無地地主人　郭凝之　&CB15077;編</byline>
-<lb ed="X" n="0186a22"/><div1 type="other"><mulu type="其他" level="1" label="唐甘贄行者"/><head>唐甘贄行者<note place="inline">嗣法南泉順</note></head>
+<lb ed="X" n="0186a20"/><byline type="other">徑山語風老人　圓信　較定</byline>
+<lb ed="X" n="0186a21"/><byline type="editor">無地地主人　郭凝之　&CB15077;編</byline>
+<lb ed="X" n="0186a22"/><div1 type="other"><mulu type="其他" level="1" label="唐甘贄行者(嗣法南泉順)"/><head>唐甘贄行者<note place="inline">嗣法南泉順</note></head>
 <lb ed="X" n="0186a23"/><p id="pX87p0186a2301">池州甘贄行者。一日入南泉設齋。黃檗為首座。行者
 <lb ed="X" n="0186a24"/>請施財。黃檗曰。財法二施。等無差別。甘曰。恁麼道。爭
 <pb ed="X" id="X87.1620.0186b" n="0186b"/>
@@ -609,7 +582,7 @@ new from basicx
 <lb ed="X" n="0186b20"/>相當。得銀兩鋌。藥山令舉其語。主舉<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。藥山曰。速送
 <lb ed="X" n="0186b21"/>還他。子著賊了也。主便送還。甘曰。繇來有人。遂添銀
 <lb ed="X" n="0186b22"/>施之<note place="inline">同安顯云。早知行者恁麼問。終不道藥山來</note>。</p></div1>
-<lb ed="X" n="0186b23"/><div1 type="other"><mulu type="其他" level="1" label="唐刺史陸＆CB00040；"/><head>唐<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史陸&CB00040;<note place="inline">嗣法南泉願</note></head>
+<lb ed="X" n="0186b23"/><div1 type="other"><mulu type="其他" level="1" label="唐刺史陸＆CB00040；(嗣法南泉願)"/><head>唐<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史陸&CB00040;<note place="inline">嗣法南泉願</note></head>
 <lb ed="X" n="0186b24"/><p id="pX87p0186b2401">陸&CB00040;。字景山。蘇州吳人。觀察池州時。請南泉普願禪
 <pb ed="X" id="X87.1620.0186c" n="0186c"/>
 <lb ed="X" n="0186c01"/>師。入郡伸弟子禮。公問曰。古人瓶中養一鵝。鵝漸長
@@ -653,7 +626,7 @@ new from basicx
 <lb ed="X" n="0187a14"/>夫。作甚麼。<note place="inline">楚石琦代云。隨家豐儉</note>暨南泉圓寂。院主問。大夫何
 <lb ed="X" n="0187a15"/>不哭先師。公曰。院主道得即哭。院主無對<note place="inline">長慶代云。合哭不合
 <lb ed="X" n="0187a16"/>哭</note>。</p><p id="pX87p0187a1602" place="inline"><note place="inline">密雲悟代云。蒼天蒼天。雖似將哭代哭。也可救一半</note>。</p></div1>
-<lb ed="X" n="0187a17"/><div1 type="other"><mulu type="其他" level="1" label="唐相圓裴休"/><head>唐相圓裴休<note place="inline">嗣法黃檗運</note></head>
+<lb ed="X" n="0187a17"/><div1 type="other"><mulu type="其他" level="1" label="唐相圓裴休(嗣法黃檗運)"/><head>唐相圓裴休<note place="inline">嗣法黃檗運</note></head>
 <lb ed="X" n="0187a18"/><p id="pX87p0187a1801">相國裴休居士。字公美。河東聞喜人也。家世奉佛。兒
 <lb ed="X" n="0187a19"/>時與兄弟偕隱。晝講經。夜著書。經年不出戶。中年後
 <lb ed="X" n="0187a20"/>不食葷血。常齋戒。屏嗜慾。香爐貝典。不離左右。詠歌
@@ -695,7 +668,7 @@ new from basicx
 <lb ed="X" n="0187c06"/>居&CB00573;不御酒肉。著釋氏文數萬言。如作勸發菩提心
 <lb ed="X" n="0187c07"/>文。圓覺經敘。法界觀敘。禪源詮敘。原人論敘。世皆服
 <lb ed="X" n="0187c08"/>其精要。</p></div1>
-<lb ed="X" n="0187c09"/><div1 type="other"><mulu type="其他" level="1" label="唐常侍王敬初"/><head>唐常侍王敬初<note place="inline">嗣法溈山祐</note></head>
+<lb ed="X" n="0187c09"/><div1 type="other"><mulu type="其他" level="1" label="唐常侍王敬初(嗣法溈山祐)"/><head>唐常侍王敬初<note place="inline">嗣法溈山祐</note></head>
 <lb ed="X" n="0187c10"/><p id="pX87p0187c1001">王敬初。襄州人。為常侍。視事次。米和尚至。公乃舉筆
 <lb ed="X" n="0187c11"/>示之。米曰。還判得&CB00980;空否。公擲筆入宅。更不復出。米
 <lb ed="X" n="0187c12"/>致疑。明日憑鼓山供養主。入探其意。米亦隨至。潛在
@@ -721,7 +694,7 @@ new from basicx
 <lb ed="X" n="0188a07"/>濟曰。總教伊成佛作祖去。曰金屑雖貴。落眼成翳。臨
 <lb ed="X" n="0188a08"/>濟曰。我將謂你是箇俗漢<note place="inline">楚石琦云。臨濟吹毛劍。什麼處去也。若也拈出。有什
 <lb ed="X" n="0188a09"/>麼王常侍在。自出洞來無敵手。得饒人處且饒人</note>。</p></div1>
-<lb ed="X" n="0188a10"/><div1 type="other"><mulu type="其他" level="1" label="唐尚書陳操"/><head>唐尚書陳操<note place="inline">嗣法陳睦州</note></head>
+<lb ed="X" n="0188a10"/><div1 type="other"><mulu type="其他" level="1" label="唐尚書陳操(嗣法陳睦州)"/><head>唐尚書陳操<note place="inline">嗣法陳睦州</note></head>
 <lb ed="X" n="0188a11"/><p id="pX87p0188a1101">睦州<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史陳操。位至尚書。參睦州陳尊宿。一日睦州
 <lb ed="X" n="0188a12"/>看經次。公問。和尚看什麼經。睦州曰。金剛經。公曰。六
 <lb ed="X" n="0188a13"/>朝翻譯。此當第幾譯。睦州舉起經曰。一切有為法。如
@@ -743,7 +716,7 @@ new from basicx
 <lb ed="X" n="0188b04"/>驢&CB00501;上鐵船。分付海山無事客。&CB00424;鰲時下一圈欒。復云。天下衲僧跳不出</note>。</p><p id="pX87p0188b0429" place="inline"><note place="inline">千巖頌云。吾家密事俗人知。月蝕
 <lb ed="X" n="0188b05"/>盧仝便有詩。只為慎初兼護末。不知失&CB00230;兩莖眉</note>又與禪者頌曰。禪者有玄
 <lb ed="X" n="0188b06"/>機。機玄是復非。欲了機前旨。咸於句下違。</p></div1>
-<lb ed="X" n="0188b07"/><div1 type="other"><mulu type="其他" level="1" label="宋駙馬李遵勗"/><head>宋駙馬李遵勗<note place="inline">嗣法谷隱聰</note></head>
+<lb ed="X" n="0188b07"/><div1 type="other"><mulu type="其他" level="1" label="宋駙馬李遵勗(嗣法谷隱聰)"/><head>宋駙馬李遵勗<note place="inline">嗣法谷隱聰</note></head>
 <lb ed="X" n="0188b08"/><p id="pX87p0188b0801">李遵勗。存公武。舉進士。大中祥符間。真宗召對便殿。
 <lb ed="X" n="0188b09"/>尚萬壽公主。後拜寧國軍節度使。公探索宗要。無間
 <lb ed="X" n="0188b10"/>寒暑。謁谷隱。問出家事。谷隱以崔趙公問徑山公案
@@ -791,7 +764,7 @@ new from basicx
 <lb ed="X" n="0189a02"/>罣礙。隨處任方圓。公曰。晚來困倦。更不答話。慈明曰。
 <lb ed="X" n="0189a03"/>無佛處作佛。公於是泊然而逝。二廟尤留神空宗。聞
 <lb ed="X" n="0189a04"/>公化與慈明問答。嘉嘆久之。慈明哭之慟。臨壙乃別。</p></div1>
-<lb ed="X" n="0189a05"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎文公楊億"/><head>宋侍郎文公楊億<note place="inline">嗣法廣慧璉</note></head>
+<lb ed="X" n="0189a05"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎文公楊億(嗣法廣慧璉)"/><head>宋侍郎文公楊億<note place="inline">嗣法廣慧璉</note></head>
 <lb ed="X" n="0189a06"/><p id="pX87p0189a0601">侍郎文公。楊億居士。字大年。幼舉神嬰。壯負才名。未
 <lb ed="X" n="0189a07"/>知有佛。一日過同僚。見讀金剛經者。且笑之。彼誦自
 <lb ed="X" n="0189a08"/>若。公竊疑曰。是豈出孔孟之右乎。何&CB00126;甚。因閱數板。
@@ -903,7 +876,7 @@ new from basicx
 <lb ed="X" n="0190b14"/>法本來齊。欲識真歸處。趙州東院西。都尉見。遂曰。泰
 <lb ed="X" n="0190b15"/>山廟裡賣紙錢。都尉即至。公<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>逝矣。公修景德傳燈
 <lb ed="X" n="0190b16"/>錄。入大藏流通於世。</p></div1>
-<lb ed="X" n="0190b17"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎楊傑"/><head>宋侍郎楊傑<note place="inline">嗣法天衣懷</note></head>
+<lb ed="X" n="0190b17"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎楊傑(嗣法天衣懷)"/><head>宋侍郎楊傑<note place="inline">嗣法天衣懷</note></head>
 <lb ed="X" n="0190b18"/><p id="pX87p0190b1801">楊傑。字次公。無為人也。宋元祐中。為侍郎。自號無為
 <lb ed="X" n="0190b19"/>子。公歷參諸名宿。晚從天衣游。天衣每引龐居士機
 <lb ed="X" n="0190b20"/>語。令研究深造。後奉祠泰山。一日聞&CB00470;鳴。睹日如盤
@@ -931,7 +904,7 @@ new from basicx
 <lb ed="X" n="0190c17"/>久。善能高鑒。公大笑。公有辭世偈曰。生無可戀。死無
 <lb ed="X" n="0190c18"/>可捨。太&CB00980;空中。之乎者也。將錯就錯。西方極樂。便奄
 <lb ed="X" n="0190c19"/>然而終。公有輔道集。蘇軾為序。傳於代。</p></div1>
-<lb ed="X" n="0190c20"/><div1 type="other"><mulu type="其他" level="1" label="宋簽判劉經臣"/><head>宋簽判劉經臣<note place="inline">嗣法智海逸</note></head>
+<lb ed="X" n="0190c20"/><div1 type="other"><mulu type="其他" level="1" label="宋簽判劉經臣(嗣法智海逸)"/><head>宋簽判劉經臣<note place="inline">嗣法智海逸</note></head>
 <lb ed="X" n="0190c21"/><p id="pX87p0190c2101">劉經臣。字興朝。為簽判。少以逸才登仕版。於佛法未
 <lb ed="X" n="0190c22"/>之信。年三十二。會東林照覺總禪師。始醉心祖道。後
 <lb ed="X" n="0190c23"/>抵京師。謁慧林沖禪師。<anchor id="fnX87p0190c03"/>於僧問雪竇。如何是諸佛本
@@ -968,7 +941,7 @@ new from basicx
 <lb ed="X" n="0191b04"/>開悟。凡目之所見。耳之所聞。心之所思。口之所談。手足之所運動。無非妙者。得之既久。日益見前。每以與人。人
 <lb ed="X" n="0191b05"/>不能受。然後知妙。道果不可以文字傳也。嗚呼是道也。有其人則傳。無其人則絕。余既得之矣。誰其似之乎。終
 <lb ed="X" n="0191b06"/>余之身。而有其人邪。無其人邪。所不可得而知也。故為記頌歌語。以流播其事。而又著此篇。以諭吾徒云</note>。</p></div1>
-<lb ed="X" n="0191b07"/><div1 type="other"><mulu type="其他" level="1" label="宋清獻公趙抃"/><head>宋清獻公趙抃<note place="inline">嗣法蔣山泉</note></head>
+<lb ed="X" n="0191b07"/><div1 type="other"><mulu type="其他" level="1" label="宋清獻公趙抃(嗣法蔣山泉)"/><head>宋清獻公趙抃<note place="inline">嗣法蔣山泉</note></head>
 <lb ed="X" n="0191b08"/><p id="pX87p0191b0801">趙抃。字悅道。衢州西安人。號知非子。官至參政。年四
 <lb ed="X" n="0191b09"/>十餘。擯去聲色。系心宗教。初從蔣山法泉禪師游。微
 <lb ed="X" n="0191b10"/>有省。又從大名天&CB00425;寺重元禪師問心要。師曰。公立
@@ -991,7 +964,7 @@ new from basicx
 <lb ed="X" n="0191c02"/>忽趺坐而化。年七十七。佛慧以偈贊曰。仕也&CB15131;為瑞。
 <lb ed="X" n="0191c03"/>歸歟世作程。人間金粟去。天上玉樓成。慧劍無纖缺。
 <lb ed="X" n="0191c04"/>&CB00457;壺徹底清。春風&CB15312;水路。孤月照雲明。</p></div1>
-<lb ed="X" n="0191c05"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相張商英"/><head>宋丞相張商英<note place="inline">嗣法兜率悅</note></head>
+<lb ed="X" n="0191c05"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相張商英(嗣法兜率悅)"/><head>宋丞相張商英<note place="inline">嗣法兜率悅</note></head>
 <lb ed="X" n="0191c06"/><p id="pX87p0191c0601">丞相張商英居士。字天覺。號無盡。蜀人也。年十九。應
 <lb ed="X" n="0191c07"/>舉入京。道由向氏家。向預夢。神人報曰。明日接相公。
 <lb ed="X" n="0191c08"/>凌晨公至。向異之。勞問勤腆。乃曰。秀才未娶。當以女
@@ -1137,7 +1110,7 @@ new from basicx
 <lb ed="X" n="0193b23"/>說八成就如是我聞一時云。事無不是之謂如。理無不如之謂是。三界獨尊之謂我。心洞十方之謂聞。多之所
 <lb ed="X" n="0193b24"/>宗之謂一。一之所起之謂時。大慧云。自來無人如此說</note>。</p></div1>
 <pb ed="X" id="X87.1620.0193c" n="0193c"/>
-<lb ed="X" n="0193c01"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎李彌遜"/><head>宋侍郎李彌遜<note place="inline">嗣法圓悟勤</note></head>
+<lb ed="X" n="0193c01"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎李彌遜(嗣法圓悟勤)"/><head>宋侍郎李彌遜<note place="inline">嗣法圓悟勤</note></head>
 <lb ed="X" n="0193c02"/><p id="pX87p0193c0201">李彌<anchor id="fnX87p0193c01"/>遜。號普現居士。少時讀書。五行俱下。年十八中。
 <lb ed="X" n="0193c03"/>鄉舉登第。京師旋歷華要。二十八歲。為中書舍人。常
 <lb ed="X" n="0193c04"/>入圓悟室。一日早朝回至天津橋。馬躍。忽有省。通身
@@ -1147,7 +1120,7 @@ new from basicx
 <lb ed="X" n="0193c08"/>乞祠祿歸閩連江。築菴自娛。忽一日示微恙。遽索湯
 <lb ed="X" n="0193c09"/>沐浴畢。遂趺坐。作偈曰。謾說從來牧護。今日分明呈
 <lb ed="X" n="0193c10"/>露。&CB00980;空拶倒須彌。說甚向上一路。擲筆而逝。</p></div1>
-<lb ed="X" n="0193c11"/><div1 type="other"><mulu type="其他" level="1" label="宋給事馮楫"/><head>宋給事馮楫<note place="inline">嗣法龍門遠</note></head>
+<lb ed="X" n="0193c11"/><div1 type="other"><mulu type="其他" level="1" label="宋給事馮楫(嗣法龍門遠)"/><head>宋給事馮楫<note place="inline">嗣法龍門遠</note></head>
 <lb ed="X" n="0193c12"/><p id="pX87p0193c1201">馮楫。字濟川。蜀遂寧人。官給事。號不動居士。自壯扣
 <lb ed="X" n="0193c13"/>諸名宿。雖在仕<anchor id="fnX87p0193c02"/>塗。不忘學佛。最後居龍門。從佛眼遠
 <lb ed="X" n="0193c14"/>禪師再歲。一日同遠經行法堂。偶童子趨庭。吟曰。萬
@@ -1201,7 +1174,7 @@ new from basicx
 <lb ed="X" n="0194b12"/>畢。竟爾長往。建炎後。名山巨剎。教藏多不存。公屢以
 <lb ed="X" n="0194b13"/><app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>俸印施。凡一百二十八藏。門人蒲大聘。&CB00573;誌其事。
 <lb ed="X" n="0194b14"/>有語錄頌古。行於世。</p></div1>
-<lb ed="X" n="0194b15"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎張九成"/><head>宋侍郎張九成<note place="inline">嗣法徑山杲</note></head>
+<lb ed="X" n="0194b15"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎張九成(嗣法徑山杲)"/><head>宋侍郎張九成<note place="inline">嗣法徑山杲</note></head>
 <lb ed="X" n="0194b16"/><p id="pX87p0194b1601">張九成。字子韶。杭州鹽官人。號無垢居士。歷官禮部
 <lb ed="X" n="0194b17"/>侍郎。未第時。因客談。楊文公呂微仲諸儒。皆由禪學。
 <lb ed="X" n="0194b18"/>而至心慕之。聞寶印楚明禪師。道傳大通。居淨慈。請
@@ -1272,7 +1245,7 @@ new from basicx
 <lb ed="X" n="0195b08"/>試問此乳何處來。狐疑即塵塵即疑。終與佛天不相
 <lb ed="X" n="0195b09"/>似。我今為汝掃狐疑。如湯沃雪火銷&CB00457;。汝今微有疑
 <lb ed="X" n="0195b10"/>與惑。&CB15143;子便到新羅國。</p></div1>
-<lb ed="X" n="0195b11"/><div1 type="other"><mulu type="其他" level="1" label="宋知府葛郯"/><head>宋知府葛郯<note place="inline">嗣法靈隱遠</note></head>
+<lb ed="X" n="0195b11"/><div1 type="other"><mulu type="其他" level="1" label="宋知府葛郯(嗣法靈隱遠)"/><head>宋知府葛郯<note place="inline">嗣法靈隱遠</note></head>
 <lb ed="X" n="0195b12"/><p id="pX87p0195b1201">葛郯。字謙問。官知府。少擢上第。玩意禪悅。首謁無菴
 <lb ed="X" n="0195b13"/>全禪師問道。無菴令究即心即佛。久無所契。請曰。有
 <lb ed="X" n="0195b14"/>何方便。使郯得入。無菴曰。居士太無厭生。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>而佛海
@@ -1293,7 +1266,7 @@ new from basicx
 <lb ed="X" n="0195c04"/>撲破。&CB00549;身透出&CB00980;空。召僚屬示之曰。生死如晝夜。無
 <lb ed="X" n="0195c05"/>足怪者。若以道論。安得生死。若作生死會。去道遠矣。
 <lb ed="X" n="0195c06"/>語畢。端坐而化。</p></div1>
-<lb ed="X" n="0195c07"/><div1 type="other"><mulu type="其他" level="1" label="宋放牛居士余公"/><head>宋放牛居士余公<note place="inline">嗣法無門開</note></head>
+<lb ed="X" n="0195c07"/><div1 type="other"><mulu type="其他" level="1" label="宋放牛居士余公(嗣法無門開)"/><head>宋放牛居士余公<note place="inline">嗣法無門開</note></head>
 <lb ed="X" n="0195c08"/><p id="pX87p0195c0801">放牛居士余公。杭州人。自幼遍參諸方。宋淳祐間。參
 <lb ed="X" n="0195c09"/>無門開公佛眼禪師。凡開口。被無門劈面截住。連道
 <lb ed="X" n="0195c10"/>不是不是。居士退而思曰。許多年下工夫。豈無懽喜
@@ -1317,14 +1290,14 @@ new from basicx
 <lb ed="X" n="0196a03"/>似醉漢罵街。孰敢嬰其銳。惟眼&M034294;聞聲者。識是醒時
 <lb ed="X" n="0196a04"/>語。</p></div1>
 <lb ed="X" n="0196a05"/>
-<lb ed="X" n="0196a06"/><juan fun="close" n="002"><jhead>先覺宗乘卷二</jhead><byline type="訂閱">雙髻釋頓讓訂閱</byline></juan>
+<lb ed="X" n="0196a06"/><juan fun="close" n="002"><jhead>先覺宗乘卷二</jhead><byline type="other">雙髻釋頓讓訂閱</byline></juan>
 <lb ed="X" n="0196a07"/><milestone unit="juan" n="3"/>
 <lb ed="X" n="0196a08"/>
 <lb ed="X" n="0196a09"/><juan fun="open" n="003"><mulu type="卷" n="3"/><jhead>先覺宗乘卷三</jhead></juan>
 <lb ed="X" n="0196a10"/>
-<lb ed="X" n="0196a11"/><byline type="Corrector">徑山語風老人　圓信　較定</byline>
-<lb ed="X" n="0196a12"/><byline type="Editor">無地地主人　郭凝之　&CB15077;編</byline>
-<lb ed="X" n="0196a13"/><div1 type="other"><mulu type="其他" level="1" label="唐侍郎白居易"/><head>唐侍郎白居易<note place="inline">嗣法佛光滿</note></head>
+<lb ed="X" n="0196a11"/><byline type="other">徑山語風老人　圓信　較定</byline>
+<lb ed="X" n="0196a12"/><byline type="editor">無地地主人　郭凝之　&CB15077;編</byline>
+<lb ed="X" n="0196a13"/><div1 type="other"><mulu type="其他" level="1" label="唐侍郎白居易(嗣法佛光滿)"/><head>唐侍郎白居易<note place="inline">嗣法佛光滿</note></head>
 <lb ed="X" n="0196a14"/><p id="pX87p0196a1401">白居易。字樂天。久參佛光得心法。兼稟大乘金剛寶
 <lb ed="X" n="0196a15"/>戒。元和四年。因興善寬禪師至闕下。公問曰。禪師何
 <lb ed="X" n="0196a16"/>以說法。寬曰。無上菩提者。被於身為律。說於口為法。
@@ -1352,7 +1325,7 @@ new from basicx
 <lb ed="X" n="0196b13"/>訪祖道。學無常師。後為賓客。分司東都。罄<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>俸。修龍
 <lb ed="X" n="0196b14"/>門香山寺。寺成。自撰記。凡為文。動關教化。無不贊美
 <lb ed="X" n="0196b15"/>佛乘。見于本集。其歷官次第。歸全代祀。即史傳存焉。</p></div1>
-<lb ed="X" n="0196b16"/><div1 type="other"><mulu type="其他" level="1" label="唐刺史李翱"/><head>唐<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史李翱<note place="inline">嗣法藥山儼</note></head>
+<lb ed="X" n="0196b16"/><div1 type="other"><mulu type="其他" level="1" label="唐刺史李翱(嗣法藥山儼)"/><head>唐<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史李翱<note place="inline">嗣法藥山儼</note></head>
 <lb ed="X" n="0196b17"/><p id="pX87p0196b1701">李翱。字習之。趙郡人。刺史鼎州時。慕藥山惟儼禪師
 <lb ed="X" n="0196b18"/>道風。屢請。不赴。乃&CB04457;謁之。藥山執經不顧。公遂拂袖
 <lb ed="X" n="0196b19"/>行曰。見面不如聞名。藥山&CB00230;呼太守。公應諾。藥山曰。
@@ -1381,7 +1354,7 @@ new from basicx
 <lb ed="X" n="0196c17"/>動也。有一僧乞置塔。公問曰。教中不許將屍塔下過。
 <lb ed="X" n="0196c18"/>又作麼生。僧無對。僧&CB00230;問&CB00328;湖義禪師。義曰。他得大
 <lb ed="X" n="0196c19"/>闡提。</p></div1>
-<lb ed="X" n="0196c20"/><div1 type="other"><mulu type="其他" level="1" label="唐張拙"/><head>唐張拙<note place="inline">嗣法石霜諸</note></head>
+<lb ed="X" n="0196c20"/><div1 type="other"><mulu type="其他" level="1" label="唐張拙(嗣法石霜諸)"/><head>唐張拙<note place="inline">嗣法石霜諸</note></head>
 <lb ed="X" n="0196c21"/><p id="pX87p0196c2101">張拙秀才。因禪月大師指參石霜。石霜問。秀才何姓。
 <lb ed="X" n="0196c22"/>曰姓張名拙。石霜曰。覓巧尚不可得。拙自何來。張忽
 <lb ed="X" n="0196c23"/>有省。乃呈偈曰。光明寂照&CB00642;河沙。凡聖含靈共我家。
@@ -1389,7 +1362,7 @@ new from basicx
 <pb ed="X" id="X87.1620.0197a" n="0197a"/>
 <lb ed="X" n="0197a01"/>病。趨向真如亦是邪。隨順世緣無罣礙。涅槃生死等
 <lb ed="X" n="0197a02"/>空花<note place="inline">雲門問僧。光明寂照&CB00642;河沙。豈不是張拙秀才語。僧云是。雲門云。墮話也。妙喜云。驢揀濕處尿</note>。</p></div1>
-<lb ed="X" n="0197a03"/><div1 type="other"><mulu type="其他" level="1" label="唐相國陸希聲"/><head>唐相國陸希聲<note place="inline">謁仰山寂</note></head>
+<lb ed="X" n="0197a03"/><div1 type="other"><mulu type="其他" level="1" label="唐相國陸希聲(謁仰山寂)"/><head>唐相國陸希聲<note place="inline">謁仰山寂</note></head>
 <lb ed="X" n="0197a04"/><p id="pX87p0197a0401">陸希聲。蘇州吳人。昭宗朝。拜同中書門下平章事。&CB00573;
 <lb ed="X" n="0197a05"/>欲謁仰山慧寂禪師。先作此○相封呈。仰山開封。於
 <lb ed="X" n="0197a06"/>相下書曰。不思而得。落第二頭。思而得之。落第三首。
@@ -1404,7 +1377,7 @@ new from basicx
 <lb ed="X" n="0197a15"/>箇安樂處。仰山&CB00594;起拂子曰。祇如這箇。作麼生入。曰
 <lb ed="X" n="0197a16"/>入之一字。也不消得。仰山曰。入之一字。不為相公。公
 <lb ed="X" n="0197a17"/>便起去<note place="inline">法燈云。上座且道。入之一字為甚麼人。又云。相公且莫煩惱</note>。</p></div1>
-<lb ed="X" n="0197a18"/><div1 type="other"><mulu type="其他" level="1" label="唐太傅王延彬"/><head>唐太傅王延彬<note place="inline">嗣法長慶稜</note></head>
+<lb ed="X" n="0197a18"/><div1 type="other"><mulu type="其他" level="1" label="唐太傅王延彬(嗣法長慶稜)"/><head>唐太傅王延彬<note place="inline">嗣法長慶稜</note></head>
 <lb ed="X" n="0197a19"/><p id="pX87p0197a1901">太傅王延彬居士。請長慶住招慶。開堂日。公朝服趨
 <lb ed="X" n="0197a20"/>隅曰。請師說法。長慶曰。還聞麼。公設拜。長慶曰。雖然
 <lb ed="X" n="0197a21"/>如此。恐有人不肯。一日入招慶佛殿。指&CB00425;盂問殿主。
@@ -1423,7 +1396,7 @@ new from basicx
 <lb ed="X" n="0197b09"/>了。&CB00230;向外邊打野&CB01271;。朗曰。上座作麼生。明招曰。非人
 <lb ed="X" n="0197b10"/>得其便<note place="inline">雪竇顯云。當時但踏倒茶爐。復頌云。來問若成風。應機非善巧。堪悲獨眼龍。曾未呈牙爪。
 <lb ed="X" n="0197b11"/>牙爪開呈雲雷。逆水之波經幾回</note>。</p></div1>
-<lb ed="X" n="0197b12"/><div1 type="other"><mulu type="其他" level="1" label="唐真人呂巖"/><head>唐真人呂巖<note place="inline">嗣法黃龍機</note></head>
+<lb ed="X" n="0197b12"/><div1 type="other"><mulu type="其他" level="1" label="唐真人呂巖(嗣法黃龍機)"/><head>唐真人呂巖<note place="inline">嗣法黃龍機</note></head>
 <lb ed="X" n="0197b13"/><p id="pX87p0197b1301">呂巖真人。字洞賓。京兆人也。唐末三舉不第。偶於長
 <lb ed="X" n="0197b14"/>安酒肆。遇鍾離權。授以延命術。自爾人莫之究。&CB00573;遊
 <lb ed="X" n="0197b15"/>廬山歸宗。書鐘樓壁曰。一日清閒自在身。六神和合
@@ -1446,7 +1419,7 @@ new from basicx
 <lb ed="X" n="0197c07"/>懸兮幾絕。扶而興者。其在吾師乎。聊作一絕奉記。達
 <lb ed="X" n="0197c08"/>者推心方濟物。聖賢傳法不離真。請師開說西來意。
 <lb ed="X" n="0197c09"/>七祖如今未有人。</p></div1>
-<lb ed="X" n="0197c10"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相王隨"/><head>宋丞相王隨<note place="inline">嗣法首山念</note></head>
+<lb ed="X" n="0197c10"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相王隨(嗣法首山念)"/><head>宋丞相王隨<note place="inline">嗣法首山念</note></head>
 <lb ed="X" n="0197c11"/><p id="pX87p0197c1101">王隨。字子正。河南人也。居&CB00573;慕裴休之為人。謁首山
 <lb ed="X" n="0197c12"/>念禪師。得言外之旨。自爾履踐。深明大法。公以御史
 <lb ed="X" n="0197c13"/>中丞。出鎮錢塘。往候興教小壽禪師。至湖上去騶從。
@@ -1459,7 +1432,7 @@ new from basicx
 <lb ed="X" n="0197c20"/>大年編次傳燈錄三十卷。公刪去其繁。為十五卷。曰
 <lb ed="X" n="0197c21"/>玉英集。公臨終書偈曰。&CB00474;堂燈<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>滅。彈指向誰說。去
 <lb ed="X" n="0197c22"/>住本尋常。春風掃殘雪。</p></div1>
-<lb ed="X" n="0197c23"/><div1 type="other"><mulu type="其他" level="1" label="宋夏竦"/><head>宋夏竦<note place="inline">嗣法谷隱聰</note></head>
+<lb ed="X" n="0197c23"/><div1 type="other"><mulu type="其他" level="1" label="宋夏竦(嗣法谷隱聰)"/><head>宋夏竦<note place="inline">嗣法谷隱聰</note></head>
 <lb ed="X" n="0197c24"/><p id="pX87p0197c2401">夏竦。字子喬。德安人。皇祐中。參知政事。公於谷隱聰
 <pb ed="X" id="X87.1620.0198a" n="0198a"/>
 <lb ed="X" n="0198a01"/>禪師。因語契機。日與老衲遊。偶上藍溥禪師至。公問。
@@ -1468,7 +1441,7 @@ new from basicx
 <lb ed="X" n="0198a04"/>底。公便喝。溥曰。喝則不無。畢竟那箇是相公自家底。
 <lb ed="X" n="0198a05"/>公答偈曰。休認風前第一機。太空何處著思惟。山僧
 <lb ed="X" n="0198a06"/>若要通消息。萬里無雲月上時。溥曰。也是弄精魂。</p></div1>
-<lb ed="X" n="0198a07"/><div1 type="other"><mulu type="其他" level="1" label="宋節使李端愿"/><head>宋節使李端愿<note place="inline">嗣法金山&CB00002;</note></head>
+<lb ed="X" n="0198a07"/><div1 type="other"><mulu type="其他" level="1" label="宋節使李端愿(嗣法金山＆CB00002；)"/><head>宋節使李端愿<note place="inline">嗣法金山&CB00002;</note></head>
 <lb ed="X" n="0198a08"/><p id="pX87p0198a0801">節使李端愿居士。兒時在館舍。常閱禪書。長雖婚宦。
 <lb ed="X" n="0198a09"/>然篤志祖道。遂於後圃築室。類蘭若。邀達觀處之。朝
 <lb ed="X" n="0198a10"/>夕咨參。至忘寢食。達觀一日視公曰。非示現力。豈致
@@ -1485,13 +1458,13 @@ new from basicx
 <lb ed="X" n="0198a21"/>觀拓開曰。百年一夢。今朝方省。既而說偈曰。三十八
 <lb ed="X" n="0198a22"/>歲。懵然無知。及其有知。何異無知。滔滔汴水。隱隱隋
 <lb ed="X" n="0198a23"/>堤。師其歸矣。箭浪東馳。</p></div1>
-<lb ed="X" n="0198a24"/><div1 type="other"><mulu type="其他" level="1" label="宋太傅高世則"/><head>宋太傅高世則<note place="inline">嗣法芙蓉楷</note></head>
+<lb ed="X" n="0198a24"/><div1 type="other"><mulu type="其他" level="1" label="宋太傅高世則(嗣法芙蓉楷)"/><head>宋太傅高世則<note place="inline">嗣法芙蓉楷</note></head>
 <pb ed="X" id="X87.1620.0198b" n="0198b"/>
 <lb ed="X" n="0198b01"/><p id="pX87p0198b0101">太傅高世則。字仲貽。號無功。初參芙蓉楷禪師。求指
 <lb ed="X" n="0198b02"/>心要。芙蓉令去其所重。扣<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>而參。一日忽造微密。呈
 <lb ed="X" n="0198b03"/>偈曰。懸崖撒手任縱橫。大地&CB00980;空自坦平。照壑輝巖
 <lb ed="X" n="0198b04"/>不借月。菴頭別有一簾明。</p></div1>
-<lb ed="X" n="0198b05"/><div1 type="other"><mulu type="其他" level="1" label="宋太守許式"/><head>宋太守許式<note place="inline">嗣法洞山聰</note></head>
+<lb ed="X" n="0198b05"/><div1 type="other"><mulu type="其他" level="1" label="宋太守許式(嗣法洞山聰)"/><head>宋太守許式<note place="inline">嗣法洞山聰</note></head>
 <lb ed="X" n="0198b06"/><p id="pX87p0198b0601">許式。洪州太守。參洞山聰禪師。得正法眼。一日與泐
 <lb ed="X" n="0198b07"/>潭澄。上藍溥坐次。泐潭問曰。聞郎中道。夜坐連雲石。
 <lb ed="X" n="0198b08"/>春栽帶雨松。當時答洞山甚麼話。公曰。今日放衙蚤。
@@ -1504,7 +1477,7 @@ new from basicx
 <lb ed="X" n="0198b15"/>不似首座喫鹽多<note place="inline">附記。許式。漕西蜀時。謁廣慧璉。適接見於佛前。公曰。先拜佛。先拜長
 <lb ed="X" n="0198b16"/>老。廣慧曰。蝦&CB00523;吞大蟲。公曰。恁麼則總不拜去也。廣慧曰。運使話墮。公曰。許長老具一隻眼。廣慧以衣袖便拂
 <lb ed="X" n="0198b17"/>許曰。今日看破。便禮拜</note>。</p></div1>
-<lb ed="X" n="0198b18"/><div1 type="other"><mulu type="其他" level="1" label="宋修撰曾會"/><head>宋修撰曾會<note place="inline">嗣法雪竇顯</note></head>
+<lb ed="X" n="0198b18"/><div1 type="other"><mulu type="其他" level="1" label="宋修撰曾會(嗣法雪竇顯)"/><head>宋修撰曾會<note place="inline">嗣法雪竇顯</note></head>
 <lb ed="X" n="0198b19"/><p id="pX87p0198b1901">曾會。字宗元。官翰林學士。公幼與明覺顯禪師同舍。
 <lb ed="X" n="0198b20"/>及冠異途。天禧間。公守池州。一旦會于景德寺。公遂
 <lb ed="X" n="0198b21"/>引中庸大學。參以楞嚴。符宗門語句。質明覺。明覺曰。
@@ -1517,7 +1490,7 @@ new from basicx
 <lb ed="X" n="0198c03"/>曰。清長老放過一著。學士還知天下衲僧。出這婆子
 <lb ed="X" n="0198c04"/>圈&CB04901;不得麼。公曰。這&M034294;別有箇道處。趙州若不勘破
 <lb ed="X" n="0198c05"/>婆子。一生受屈。明覺曰。勘破了也。公大笑。</p></div1>
-<lb ed="X" n="0198c06"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相富弼"/><head>宋丞相富弼<note place="inline">嗣法投子顒</note></head>
+<lb ed="X" n="0198c06"/><div1 type="other"><mulu type="其他" level="1" label="宋丞相富弼(嗣法投子顒)"/><head>宋丞相富弼<note place="inline">嗣法投子顒</note></head>
 <lb ed="X" n="0198c07"/><p id="pX87p0198c0701">丞相富弼居士。字彥國。初於宗門。未有所趣。趙清獻
 <lb ed="X" n="0198c08"/>公抃勉之曰。伏惟執事。富貴如是之極。道德如是之
 <lb ed="X" n="0198c09"/>盛。福壽康寧如是之備。退休閑逸如是之高。其所未
@@ -1532,14 +1505,14 @@ new from basicx
 <lb ed="X" n="0198c18"/>上堂謝語。有曰彼一期之&CB00386;。我亦將錯而就錯。公作
 <lb ed="X" n="0198c19"/>偈贊曰。萬木千花欲向榮。臥龍猶未出滄溟。彤雲彩
 <lb ed="X" n="0198c20"/>霧呈嘉瑞。依舊南山一色青。</p></div1>
-<lb ed="X" n="0198c21"/><div1 type="other"><mulu type="其他" level="1" label="宋衛州王大夫"/><head>宋衛州王大夫<note place="inline">嗣法元豐滿</note></head>
+<lb ed="X" n="0198c21"/><div1 type="other"><mulu type="其他" level="1" label="宋衛州王大夫(嗣法元豐滿)"/><head>宋衛州王大夫<note place="inline">嗣法元豐滿</note></head>
 <lb ed="X" n="0198c22"/><p id="pX87p0198c2201">衛州王大夫。逸其名。以喪偶。厭世相。遂參元豐。於言
 <lb ed="X" n="0198c23"/>下知歸。元豐一日謂曰。子乃今之陸&CB00040;也。公便掩耳。
 <lb ed="X" n="0198c24"/>既而回壇山之陽。縛茆自處者三載。偶歌曰。壇山&M034294;
 <pb ed="X" id="X87.1620.0199a" n="0199a"/>
 <lb ed="X" n="0199a01"/>日何長。青松嶺白雲鄉。吟鳥啼猿作道場。散髮採薇
 <lb ed="X" n="0199a02"/>歌又笑。從教人道野夫狂。</p></div1>
-<lb ed="X" n="0199a03"/><div1 type="other"><mulu type="其他" level="1" label="宋太史黃庭堅"/><head>宋太史黃庭堅<note place="inline">嗣法黃龍心</note></head>
+<lb ed="X" n="0199a03"/><div1 type="other"><mulu type="其他" level="1" label="宋太史黃庭堅(嗣法黃龍心)"/><head>宋太史黃庭堅<note place="inline">嗣法黃龍心</note></head>
 <lb ed="X" n="0199a04"/><p id="pX87p0199a0401">太史山谷居士。黃庭堅。字魯直。以般若夙習。雖膴仕
 <lb ed="X" n="0199a05"/>澹如也。出入宗門。未有所向。好作豔詞。&CB00573;謁圓通秀
 <lb ed="X" n="0199a06"/>禪師。秀呵曰。大丈夫。翰墨之妙。甘施於此乎。秀方戒
@@ -1569,12 +1542,12 @@ new from basicx
 <lb ed="X" n="0199b05"/>仰之歎。乃勒堅&CB00216;。敬頌遺美。公復設蘋蘩之供。祭之
 <lb ed="X" n="0199b06"/>以文。弔之以偈曰。海風吹落楞伽山。四海禪徒著眼
 <lb ed="X" n="0199b07"/>看。一把柳絲收不得。和&CB00195;搭在玉欄干。</p></div1>
-<lb ed="X" n="0199b08"/><div1 type="other"><mulu type="其他" level="1" label="宋觀文王韶"/><head>宋觀文王韶<note place="inline">嗣法黃龍心</note></head>
+<lb ed="X" n="0199b08"/><div1 type="other"><mulu type="其他" level="1" label="宋觀文王韶(嗣法黃龍心)"/><head>宋觀文王韶<note place="inline">嗣法黃龍心</note></head>
 <lb ed="X" n="0199b09"/><p id="pX87p0199b0901">觀文王韶居士。字子淳。出<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>洪州。乃延晦堂禪師問
 <lb ed="X" n="0199b10"/>道。默有所契。因述投機頌曰。晝曾忘食夜忘眠。捧得
 <lb ed="X" n="0199b11"/>驪珠欲上天。&CB00230;向自身都放下。四稜榻地恰團圓。晦
 <lb ed="X" n="0199b12"/>堂深肯之。</p></div1>
-<lb ed="X" n="0199b13"/><div1 type="other"><mulu type="其他" level="1" label="宋秘書吳恂"/><head>宋秘書吳恂<note place="inline">嗣法黃龍心</note></head>
+<lb ed="X" n="0199b13"/><div1 type="other"><mulu type="其他" level="1" label="宋秘書吳恂(嗣法黃龍心)"/><head>宋秘書吳恂<note place="inline">嗣法黃龍心</note></head>
 <lb ed="X" n="0199b14"/><p id="pX87p0199b1401">吳恂。字德夫。官至秘書。<anchor id="fnX87p0199b01"/>居晦堂入室次。晦堂謂曰。平
 <lb ed="X" n="0199b15"/>生學解記憶多聞即不問。你父母未生<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前。道將一
 <lb ed="X" n="0199b16"/>句來。公擬議。晦堂以拂子擊之。即領深旨。呈以偈曰。
@@ -1587,7 +1560,7 @@ new from basicx
 <lb ed="X" n="0199b23"/>疑之乎。曰無所疑也。晦堂笑曰。此既無疑。則彼倒化。衣亦順體。何疑之有哉。敦夫言下了解。故其一時應機之
 <lb ed="X" n="0199b24"/>辯。如雷如霆。開警昏墊者多矣</note>。</p></div1>
 <pb ed="X" id="X87.1620.0199c" n="0199c"/>
-<lb ed="X" n="0199c01"/><div1 type="other"><mulu type="其他" level="1" label="宋內翰蘇軾"/><head>宋內翰蘇軾<note place="inline">嗣法東林總</note></head>
+<lb ed="X" n="0199c01"/><div1 type="other"><mulu type="其他" level="1" label="宋內翰蘇軾(嗣法東林總)"/><head>宋內翰蘇軾<note place="inline">嗣法東林總</note></head>
 <lb ed="X" n="0199c02"/><p id="pX87p0199c0201">蘇軾。字子瞻。因宿東林。與照覺論無情話。有省。黎明
 <lb ed="X" n="0199c03"/>獻偈曰。溪聲便是廣長舌。山色豈非清淨身。夜來八
 <lb ed="X" n="0199c04"/>萬四千偈。他日如何舉示人。<note place="inline">天竺悟法師。謁此庵元禪師。夜語次。師舉東坡
@@ -1610,7 +1583,7 @@ new from basicx
 <lb ed="X" n="0199c21"/>公擬議。佛印呼侍者曰。收取玉帶。永鎮山門。公過金
 <lb ed="X" n="0199c22"/>山。時有寫公照容者。公戲題曰。心似<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>&CB01926;之木。身如
 <lb ed="X" n="0199c23"/>不繫之舟。問汝平生功業。黃州惠州瓊州。</p></div1>
-<lb ed="X" n="0199c24"/><div1 type="other"><mulu type="其他" level="1" label="宋參政蘇轍"/><head>宋參政蘇轍<note place="inline">嗣法上藍順</note></head>
+<lb ed="X" n="0199c24"/><div1 type="other"><mulu type="其他" level="1" label="宋參政蘇轍(嗣法上藍順)"/><head>宋參政蘇轍<note place="inline">嗣法上藍順</note></head>
 <pb ed="X" id="X87.1620.0200a" n="0200a"/>
 <lb ed="X" n="0200a01"/><p id="pX87p0200a0101">參政蘇轍居士。字子由。元豐三年。以睢陽從事。左遷
 <lb ed="X" n="0200a02"/>瑞州榷筦之任。是時洪州上藍順禪師。與其父文安
@@ -1619,18 +1592,18 @@ new from basicx
 <lb ed="X" n="0200a05"/>逅相逢老順師。搐鼻徑參真面目。掉頭不受別鉗鎚。
 <lb ed="X" n="0200a06"/>枯藤破衲公何事。白酒青鹽我是誰。慚愧東軒殘月
 <lb ed="X" n="0200a07"/>上。一杯甘露滑如飴。</p></div1>
-<lb ed="X" n="0200a08"/><div1 type="other"><mulu type="其他" level="1" label="宋寺丞戴道純"/><head>宋寺丞戴道純<note place="inline">嗣法黃龍清</note></head>
+<lb ed="X" n="0200a08"/><div1 type="other"><mulu type="其他" level="1" label="宋寺丞戴道純(嗣法黃龍清)"/><head>宋寺丞戴道純<note place="inline">嗣法黃龍清</note></head>
 <lb ed="X" n="0200a09"/><p id="pX87p0200a0901">戴道純。字孚中。官寺丞。咨扣靈源。一日有省。乃呈偈
 <lb ed="X" n="0200a10"/>曰。杳冥源底全機處。一片心花露印紋。知是幾生曾
 <lb ed="X" n="0200a11"/>供養。時時微笑動香雲。</p></div1>
-<lb ed="X" n="0200a12"/><div1 type="other"><mulu type="其他" level="1" label="宋文定胡安國"/><head>宋文定胡安國<note place="inline">嗣法上封秀</note></head>
+<lb ed="X" n="0200a12"/><div1 type="other"><mulu type="其他" level="1" label="宋文定胡安國(嗣法上封秀)"/><head>宋文定胡安國<note place="inline">嗣法上封秀</note></head>
 <lb ed="X" n="0200a13"/><p id="pX87p0200a1301">文定公胡安國。字康侯。別號草庵居士。久依上封秀
 <lb ed="X" n="0200a14"/>禪師。得言外之旨。崇寧中。過藥山。有禪人。舉南泉斬
 <lb ed="X" n="0200a15"/>貓話問公。公以偈答云。手握乾坤殺活機。縱橫施設
 <lb ed="X" n="0200a16"/>在臨時。玉堂兔馬非龍象。大用堂堂總不知。又寄上
 <lb ed="X" n="0200a17"/>封有曰。祝融峰似杜城天。萬古江山在目前。須信死
 <lb ed="X" n="0200a18"/>心元不死。夜來秋月又同圓。</p></div1>
-<lb ed="X" n="0200a19"/><div1 type="other"><mulu type="其他" level="1" label="宋左丞范沖"/><head>宋左丞范沖<note place="inline">嗣法圓通旻</note></head>
+<lb ed="X" n="0200a19"/><div1 type="other"><mulu type="其他" level="1" label="宋左丞范沖(嗣法圓通旻)"/><head>宋左丞范沖<note place="inline">嗣法圓通旻</note></head>
 <lb ed="X" n="0200a20"/><p id="pX87p0200a2001">范沖。字謙叔。一字致&CB00980;。由翰苑守豫章。謁圓通旻禪
 <lb ed="X" n="0200a21"/>師曰。某行將老矣。宿世作何行業。今生墮在金紫囊
 <lb ed="X" n="0200a22"/>中。去此事稍遠。圓通呼內翰。公應諾。圓通曰。何遠之
@@ -1638,7 +1611,7 @@ new from basicx
 <lb ed="X" n="0200a24"/>程。公佇思。圓通曰。見即便見。擬思即差。公乃豁然有
 <pb ed="X" id="X87.1620.0200b" n="0200b"/>
 <lb ed="X" n="0200b01"/>省。</p></div1>
-<lb ed="X" n="0200b02"/><div1 type="other"><mulu type="其他" level="1" label="宋樞密吳居厚"/><head>宋樞密吳居厚<note place="inline">嗣法圓通旻</note></head>
+<lb ed="X" n="0200b02"/><div1 type="other"><mulu type="其他" level="1" label="宋樞密吳居厚(嗣法圓通旻)"/><head>宋樞密吳居厚<note place="inline">嗣法圓通旻</note></head>
 <lb ed="X" n="0200b03"/><p id="pX87p0200b0301">吳居厚。官樞密。擁節歸鍾陵。謁圓通旻禪師曰。某頃
 <lb ed="X" n="0200b04"/>赴省試。到此過趙州關。因問前住訥老。透關底事如
 <lb ed="X" n="0200b05"/>何。訥曰。且去做官。今不覺五十餘年。圓通曰。曾明得
@@ -1646,19 +1619,19 @@ new from basicx
 <lb ed="X" n="0200b07"/>在。圓通度扇與之曰。請使扇。公即揮扇。圓通曰。有甚
 <lb ed="X" n="0200b08"/>不脫灑處。公忽有省曰。便請末後句。圓通乃揮扇兩
 <lb ed="X" n="0200b09"/>下。公曰。親切親切。圓通曰。吉獠舌頭三千里。</p></div1>
-<lb ed="X" n="0200b10"/><div1 type="other"><mulu type="其他" level="1" label="宋諫議彭汝霖"/><head>宋諫議彭汝霖<note place="inline">嗣法圓通旻</note></head>
+<lb ed="X" n="0200b10"/><div1 type="other"><mulu type="其他" level="1" label="宋諫議彭汝霖(嗣法圓通旻)"/><head>宋諫議彭汝霖<note place="inline">嗣法圓通旻</note></head>
 <lb ed="X" n="0200b11"/><p id="pX87p0200b1101">彭汝霖。官諫議。手寫觀音經施圓通。圓通拈起曰。這
 <lb ed="X" n="0200b12"/>個是觀音經。那個是諫議經。公曰。此是某親寫。圓通
 <lb ed="X" n="0200b13"/>曰。寫底是字。那箇是經。公笑曰。&CB00230;了不得也。圓通曰。
 <lb ed="X" n="0200b14"/>即現宰官身。而為說法。公曰。人人有分。圓通曰。莫謗
 <lb ed="X" n="0200b15"/>經好。公曰。如何即是。圓通舉經示之。公拊掌大笑曰。
 <lb ed="X" n="0200b16"/>嗄。圓通曰。又道了不得。公禮拜。</p></div1>
-<lb ed="X" n="0200b17"/><div1 type="other"><mulu type="其他" level="1" label="宋中丞盧航"/><head>宋中丞盧航<note place="inline">嗣法圓通旻</note></head>
+<lb ed="X" n="0200b17"/><div1 type="other"><mulu type="其他" level="1" label="宋中丞盧航(嗣法圓通旻)"/><head>宋中丞盧航<note place="inline">嗣法圓通旻</note></head>
 <lb ed="X" n="0200b18"/><p id="pX87p0200b1801">盧航。官至中丞。與圓通擁爐次。公問。諸家因緣。不勞
 <lb ed="X" n="0200b19"/>拈出。直截一句。請師指示。圓通厲聲指曰。看火。公急
 <lb ed="X" n="0200b20"/>撥衣。忽大悟。謝曰。灼然佛法無多子。圓通喝曰。放下
 <lb ed="X" n="0200b21"/>著。公應喏喏。</p></div1>
-<lb ed="X" n="0200b22"/><div1 type="other"><mulu type="其他" level="1" label="宋左司都貺"/><head>宋左司都貺<note place="inline">嗣法圓通旻</note></head>
+<lb ed="X" n="0200b22"/><div1 type="other"><mulu type="其他" level="1" label="宋左司都貺(嗣法圓通旻)"/><head>宋左司都貺<note place="inline">嗣法圓通旻</note></head>
 <lb ed="X" n="0200b23"/><p id="pX87p0200b2301">都貺。官左司。問圓通曰。是法非思量分別之所能解。
 <lb ed="X" n="0200b24"/>當如何&CB15071;泊。圓通曰。全身入火聚。公曰。畢竟如何曉
 <pb ed="X" id="X87.1620.0200c" n="0200c"/>
@@ -1667,13 +1640,13 @@ new from basicx
 <lb ed="X" n="0200c03"/>曰。十萬八千。公占偈曰。不可思議。是大火聚。便恁麼
 <lb ed="X" n="0200c04"/>去。不離當處。圓通曰。咦。猶有這箇在。公曰。乞師再垂
 <lb ed="X" n="0200c05"/>指示。圓通曰。便恁麼去。鐺是鐵鑄。公頓首謝之。</p></div1>
-<lb ed="X" n="0200c06"/><div1 type="other"><mulu type="其他" level="1" label="宋比部孫居士"/><head>宋比部孫居士<note place="inline">嗣法楊岐會</note></head>
+<lb ed="X" n="0200c06"/><div1 type="other"><mulu type="其他" level="1" label="宋比部孫居士(嗣法楊岐會)"/><head>宋比部孫居士<note place="inline">嗣法楊岐會</note></head>
 <lb ed="X" n="0200c07"/><p id="pX87p0200c0701">比部孫居士。因楊岐會禪師來謁。值視斷次。公曰。某
 <lb ed="X" n="0200c08"/>為王事所牽。何由免離。楊岐指曰。委悉得麼。公曰。望
 <lb ed="X" n="0200c09"/>師點破。楊岐曰。此是比部弘願深廣。利濟&CB00320;生。公曰。
 <lb ed="X" n="0200c10"/>未審如何。楊岐示以偈曰。應現宰官身。廣弘悲願深。
 <lb ed="X" n="0200c11"/>為人重指處。棒下血淋淋。公於此有省。</p></div1>
-<lb ed="X" n="0200c12"/><div1 type="other"><mulu type="其他" level="1" label="宋提刑郭祥正"/><head>宋提刑郭祥正<note place="inline">嗣法白雲端</note></head>
+<lb ed="X" n="0200c12"/><div1 type="other"><mulu type="其他" level="1" label="宋提刑郭祥正(嗣法白雲端)"/><head>宋提刑郭祥正<note place="inline">嗣法白雲端</note></head>
 <lb ed="X" n="0200c13"/><p id="pX87p0200c1301">郭祥正。字功甫。當塗人。號淨空居士。官至殿中丞。棄
 <lb ed="X" n="0200c14"/>去隱於青山。&CB00573;絕江。謁舒州白雲端禪師。師上堂曰。
 <lb ed="X" n="0200c15"/>夜來枕上。作得個山頌。謝功甫大儒廬山二十年之
@@ -1721,7 +1694,7 @@ new from basicx
 <lb ed="X" n="0201b07"/>及生。乃名宣老。期年記問如昔。至三歲。白雲端抵其家始見之曰。吾姪來也。白雲曰。與和尚相別幾年。宣倒指
 <lb ed="X" n="0201b08"/>曰。四年矣。白雲曰。甚處相別。曰白蓮莊上。白雲曰。以何為驗。曰爹爹媽媽。明日請和尚齋。忽聞推車聲。白雲問
 <lb ed="X" n="0201b09"/>門外是甚麼聲。宣以手作推車勢。白雲曰。過後如何。曰平地兩條溝。果六周無疾而逝</note>。</p></div1>
-<lb ed="X" n="0201b10"/><div1 type="other"><mulu type="其他" level="1" label="宋郡王趙令衿"/><head>宋郡王趙令衿<note place="inline">嗣法昭覺勤</note></head>
+<lb ed="X" n="0201b10"/><div1 type="other"><mulu type="其他" level="1" label="宋郡王趙令衿(嗣法昭覺勤)"/><head>宋郡王趙令衿<note place="inline">嗣法昭覺勤</note></head>
 <lb ed="X" n="0201b11"/><p id="pX87p0201b1101">郡王趙令衿。字表之。號超然居士。太祖五世孫。任南
 <lb ed="X" n="0201b12"/>康。政成事簡。多與禪衲游。公堂間。為摩詰丈室。適圓
 <lb ed="X" n="0201b13"/>悟禪師。奉旨來居甌阜。公欣然就其鑪錘。圓悟不少
@@ -1734,7 +1707,7 @@ new from basicx
 <lb ed="X" n="0201b20"/>碗。拂袖便出。大慧起搊住曰。古人向這&M034294;悟去。你因
 <lb ed="X" n="0201b21"/>甚麼&CB00230;不悟。公擬對。大慧&CB15067;之曰。討甚麼碗。公曰。還
 <lb ed="X" n="0201b22"/>這老漢始得。</p></div1>
-<lb ed="X" n="0201b23"/><div1 type="other"><mulu type="其他" level="1" label="宋樞密徐俯"/><head>宋樞密徐俯<note place="inline">嗣法昭覺勤</note></head>
+<lb ed="X" n="0201b23"/><div1 type="other"><mulu type="其他" level="1" label="宋樞密徐俯(嗣法昭覺勤)"/><head>宋樞密徐俯<note place="inline">嗣法昭覺勤</note></head>
 <lb ed="X" n="0201b24"/><p id="pX87p0201b2401">徐俯。字師川。分寧人。號東湖居士。建炎中。累官僉書
 <pb ed="X" id="X87.1620.0201c" n="0201c"/>
 <lb ed="X" n="0201c01"/>樞密院事。每侍先龍圖。謁法昌靈源二禪師。語論終
@@ -1751,7 +1724,7 @@ new from basicx
 <lb ed="X" n="0201c12"/>地超邁。一日至書記寮。指圓悟頂相曰。這老漢。&CB00560;跟
 <lb ed="X" n="0201c13"/>猶未點地在。圓悟&CB15153;面曰。甕&M034294;何曾走&CB00230;&CB00516;。公曰。且
 <lb ed="X" n="0201c14"/>喜老漢&CB00560;跟點地。圓悟曰。莫謗他好。公休去。</p></div1>
-<lb ed="X" n="0201c15"/><div1 type="other"><mulu type="其他" level="1" label="宋尚書莫將"/><head>宋尚書莫將<note place="inline">嗣法大隨靜</note></head>
+<lb ed="X" n="0201c15"/><div1 type="other"><mulu type="其他" level="1" label="宋尚書莫將(嗣法大隨靜)"/><head>宋尚書莫將<note place="inline">嗣法大隨靜</note></head>
 <lb ed="X" n="0201c16"/><p id="pX87p0201c1601">莫將。字少&CB00980;。豫章人。官至尚書。因宦西蜀。謁南堂靜
 <lb ed="X" n="0201c17"/>禪師。咨決心要。南堂令向好處提撕。適如廁。俄聞穢
 <lb ed="X" n="0201c18"/>氣。急以手掩鼻。遂有省。即呈以偈曰。從來姿韻愛風
@@ -1759,7 +1732,7 @@ new from basicx
 <lb ed="X" n="0201c20"/>尖頭。南堂答曰。一法纔通法法周。縱橫妙用更何求。
 <lb ed="X" n="0201c21"/>青&CB00309;出匣魔軍伏。碧眼胡兒笑點頭<note place="inline">語風信頌云。摸得黃金特地愁
 <lb ed="X" n="0201c22"/>支離縱好漫風流。當時若作今時用。截斷尚書臭鼻頭</note>。</p></div1>
-<lb ed="X" n="0201c23"/><div1 type="other"><mulu type="其他" level="1" label="宋龍圖王蕭"/><head>宋龍圖王蕭<note place="inline">嗣法大隨靜</note></head>
+<lb ed="X" n="0201c23"/><div1 type="other"><mulu type="其他" level="1" label="宋龍圖王蕭(嗣法大隨靜)"/><head>宋龍圖王蕭<note place="inline">嗣法大隨靜</note></head>
 <lb ed="X" n="0201c24"/><p id="pX87p0201c2401">王蕭。字觀復。官為龍圖。留昭覺日。聞開靜板聲有省。
 <pb ed="X" id="X87.1620.0202a" n="0202a"/>
 <lb ed="X" n="0202a01"/>問南堂曰。某有箇見處。纔被人問&CB00230;。開口不得。未審
@@ -1767,7 +1740,7 @@ new from basicx
 <lb ed="X" n="0202a03"/>時到任。公曰。去年八月四日。南堂曰。自按察幾時離
 <lb ed="X" n="0202a04"/>衙。公曰。前月二十。南堂曰。為甚麼道開口不得。公乃
 <lb ed="X" n="0202a05"/>契悟。</p></div1>
-<lb ed="X" n="0202a06"/><div1 type="other"><mulu type="其他" level="1" label="宋參政李邴"/><head>宋參政李邴<note place="inline">嗣法徑山杲</note></head>
+<lb ed="X" n="0202a06"/><div1 type="other"><mulu type="其他" level="1" label="宋參政李邴(嗣法徑山杲)"/><head>宋參政李邴<note place="inline">嗣法徑山杲</note></head>
 <lb ed="X" n="0202a07"/><p id="pX87p0202a0701">李邴。字漢老。濟州任城人。拜參知政事。公醉心祖道
 <lb ed="X" n="0202a08"/>有年。聞大慧排默照為邪禪。疑怒相半。及見大慧示
 <lb ed="X" n="0202a09"/>眾舉趙州庭柏垂語曰。庭前柏樹子。今日重新舉。打
@@ -1788,13 +1761,13 @@ new from basicx
 <lb ed="X" n="0202a24"/>自味者。前書大法未明之語。&CB00582;恐得少為足。當擴而
 <pb ed="X" id="X87.1620.0202b" n="0202b"/>
 <lb ed="X" n="0202b01"/>充之。豈別求勝解耶。淨勝現流。理則不無。敢不銘佩。</p></div1>
-<lb ed="X" n="0202b02"/><div1 type="other"><mulu type="其他" level="1" label="宋寶學劉彥修"/><head>宋寶學劉彥修<note place="inline">嗣法徑山杲</note></head>
+<lb ed="X" n="0202b02"/><div1 type="other"><mulu type="其他" level="1" label="宋寶學劉彥修(嗣法徑山杲)"/><head>宋寶學劉彥修<note place="inline">嗣法徑山杲</note></head>
 <lb ed="X" n="0202b03"/><p id="pX87p0202b0301">劉彥修。字子羽。官為寶學。出知永嘉。問道於大慧禪
 <lb ed="X" n="0202b04"/>師。大慧曰。僧問。趙州狗子。還有佛性也無。趙州道無。
 <lb ed="X" n="0202b05"/>但恁麼看。公後乃於柏樹子上發明。有頌曰。趙州柏
 <lb ed="X" n="0202b06"/>樹太無端。境上追尋也大難。處處綠楊堪繫馬。家家
 <lb ed="X" n="0202b07"/>門底透長安。</p></div1>
-<lb ed="X" n="0202b08"/><div1 type="other"><mulu type="其他" level="1" label="宋提刑吳偉明"/><head>宋提刑吳偉明<note place="inline">嗣法徑山杲</note></head>
+<lb ed="X" n="0202b08"/><div1 type="other"><mulu type="其他" level="1" label="宋提刑吳偉明(嗣法徑山杲)"/><head>宋提刑吳偉明<note place="inline">嗣法徑山杲</note></head>
 <lb ed="X" n="0202b09"/><p id="pX87p0202b0901">吳偉明。字元昭。官提刑。久參真歇了禪師。得自受用
 <lb ed="X" n="0202b10"/>三昧為極致。後訪大慧於洋嶼庵。隨眾入室。大慧舉
 <lb ed="X" n="0202b11"/>狗子無佛性話問之。公擬答。大慧以竹篦便打。公無
@@ -1805,14 +1778,14 @@ new from basicx
 <lb ed="X" n="0202b16"/>趙州親見老南泉。解道鎮州出蘿蔔。大慧即說偈證
 <lb ed="X" n="0202b17"/>之曰。通身一具金鎖骨。堪與人天為軌則。要識臨濟
 <lb ed="X" n="0202b18"/>小廝兒。便是當年白拈賊。</p></div1>
-<lb ed="X" n="0202b19"/><div1 type="other"><mulu type="其他" level="1" label="宋門司黃彥節"/><head>宋門司黃彥節<note place="inline">嗣法徑山杲</note></head>
+<lb ed="X" n="0202b19"/><div1 type="other"><mulu type="其他" level="1" label="宋門司黃彥節(嗣法徑山杲)"/><head>宋門司黃彥節<note place="inline">嗣法徑山杲</note></head>
 <lb ed="X" n="0202b20"/><p id="pX87p0202b2001">門司黃彥節。字節夫。號妙德。於大慧一喝下。疑情頓
 <lb ed="X" n="0202b21"/>脫。大慧以衣付之。&CB00573;舉首山竹篦話。至葉縣近前奪
 <lb ed="X" n="0202b22"/>得&CB01855;折。擲向&CB02098;下曰。是甚麼。首山曰瞎。公曰。妙德到
 <lb ed="X" n="0202b23"/>這&M034294;。百色無能。但記得曾作臘梅絕句曰。擬嚼枝頭
 <lb ed="X" n="0202b24"/>蠟。馨香&CB00230;肖蘭。前村深雪&M034294;。莫作嶺梅看。</p></div1>
 <pb ed="X" id="X87.1620.0202c" n="0202c"/>
-<lb ed="X" n="0202c01"/><div1 type="other"><mulu type="其他" level="1" label="宋參政錢端禮"/><head>宋參政錢端禮<note place="inline">嗣法護國元</note></head>
+<lb ed="X" n="0202c01"/><div1 type="other"><mulu type="其他" level="1" label="宋參政錢端禮(嗣法護國元)"/><head>宋參政錢端禮<note place="inline">嗣法護國元</note></head>
 <lb ed="X" n="0202c02"/><p id="pX87p0202c0201">錢端禮。字處和。號松&CB00551;。任至參政。參護國元禪師。發
 <lb ed="X" n="0202c03"/>明<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>事。後於宗門旨趣。一一極之。淳熙丙申冬。簡堂
 <lb ed="X" n="0202c04"/>歸住平田。遂與往來。丁酉秋。示微疾。請簡堂機。詣榻
@@ -1822,7 +1795,7 @@ new from basicx
 <lb ed="X" n="0202c08"/>哉。置筆顧簡堂曰。坐去好。臥去好。簡堂曰。相公去便
 <lb ed="X" n="0202c09"/>了。理會甚坐與臥耶。公笑曰。法兄當為祖道自愛。遂
 <lb ed="X" n="0202c10"/><app><lem wit="【CBETA】" resp="CBETA.maha">斂</lem><rdg wit="【卍續】">歛</rdg></app>目而逝。</p></div1>
-<lb ed="X" n="0202c11"/><div1 type="other"><mulu type="其他" level="1" label="宋內翰曾開"/><head>宋內翰曾開<note place="inline">嗣法靈隱遠</note></head>
+<lb ed="X" n="0202c11"/><div1 type="other"><mulu type="其他" level="1" label="宋內翰曾開(嗣法靈隱遠)"/><head>宋內翰曾開<note place="inline">嗣法靈隱遠</note></head>
 <lb ed="X" n="0202c12"/><p id="pX87p0202c1201">曾開。字天游。官至禮部侍郎。久參圓悟。暨往來大慧
 <lb ed="X" n="0202c13"/>之門。有年矣。紹聖辛未。佛海遠禪師。住三衢。公與超
 <lb ed="X" n="0202c14"/>然居士趙公訪之。問曰。如何是善知識。佛海曰。燈籠
@@ -1839,7 +1812,7 @@ new from basicx
 <pb ed="X" id="X87.1620.0203a" n="0203a"/>
 <lb ed="X" n="0203a01"/>自難隱逃。良可愍也。至扣。大慧答書曰。既為士人。科舉婚宦。聖賢亦不能免。但時時於靜勝中。切不得忘了。須
 <lb ed="X" n="0203a02"/>彌山放下&CB00473;兩則語。但從&CB00560;下&CB00473;實做將去。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>過者不須怖畏。亦不必思量。思量怖畏。即障道矣</note>。</p></div1>
-<lb ed="X" n="0203a03"/><div1 type="other"><mulu type="其他" level="1" label="宋待制潘良貴"/><head>宋待制潘良貴<note place="inline">嗣法佛燈珣</note></head>
+<lb ed="X" n="0203a03"/><div1 type="other"><mulu type="其他" level="1" label="宋待制潘良貴(嗣法佛燈珣)"/><head>宋待制潘良貴<note place="inline">嗣法佛燈珣</note></head>
 <lb ed="X" n="0203a04"/><p id="pX87p0203a0401">待制潘良貴居士。字義榮。金華人。年四十回心祖闈。
 <lb ed="X" n="0203a05"/>所至挂&CB00425;。隨眾參扣。後依佛燈。久之不契。因訴曰。良
 <lb ed="X" n="0203a06"/>貴祇欲死去時如何。佛燈曰。好箇封皮。且留著使用。
@@ -1847,7 +1820,7 @@ new from basicx
 <lb ed="X" n="0203a08"/>以南泉斬貓兒話。問曰。某看此甚久。終未透徹。告和
 <lb ed="X" n="0203a09"/>尚慈悲。佛燈曰。你祇管理會別人家貓兒。不知走&CB00230;
 <lb ed="X" n="0203a10"/>自家狗子。公於言下如醉醒。</p></div1>
-<lb ed="X" n="0203a11"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎李浩"/><head>宋侍郎李浩<note place="inline">嗣法天童華</note></head>
+<lb ed="X" n="0203a11"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎李浩(嗣法天童華)"/><head>宋侍郎李浩<note place="inline">嗣法天童華</note></head>
 <lb ed="X" n="0203a12"/><p id="pX87p0203a1201">侍郎李浩。字德遠。號正信。幼閱首楞嚴經。如遊舊國。
 <lb ed="X" n="0203a13"/>志而不忘。持橐後。造明果。投誠入室。應庵堪其&CB05577;曰。
 <lb ed="X" n="0203a14"/>侍郎死後。向甚麼處去。公駭然汗下。應庵喝出。公退
@@ -1856,7 +1829,7 @@ new from basicx
 <lb ed="X" n="0203a17"/>稱善。有鬻胭脂者。亦久參應庵。頗自負。公贈之偈曰。
 <lb ed="X" n="0203a18"/>不塗紅粉自風流。往往禪徒到此休。透過古今圈&CB04901;
 <lb ed="X" n="0203a19"/>後。&CB00230;來這&M034294;喫拳頭。</p></div1>
-<lb ed="X" n="0203a20"/><div1 type="other"><mulu type="其他" level="1" label="宋吳十三道人"/><head>宋吳十三道人<note place="inline">嗣法開善謙</note></head>
+<lb ed="X" n="0203a20"/><div1 type="other"><mulu type="其他" level="1" label="宋吳十三道人(嗣法開善謙)"/><head>宋吳十三道人<note place="inline">嗣法開善謙</note></head>
 <lb ed="X" n="0203a21"/><p id="pX87p0203a2101">建寧府仙州山。吳十三道人。每以<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>事。扣諸禪。及開
 <lb ed="X" n="0203a22"/>善歸。結茅於其左。遂往給侍。紹興庚申。三月八日夜。
 <lb ed="X" n="0203a23"/>適然啟悟。占偈呈開善曰。元來無縫罅。觸著便光輝。
@@ -1865,13 +1838,13 @@ new from basicx
 <lb ed="X" n="0203b01"/>快。死生凡聖盡平沉。仙州山下呵呵笑。不負相期宿
 <lb ed="X" n="0203b02"/>昔心。</p></div1>
 <lb ed="X" n="0203b03"/>
-<lb ed="X" n="0203b04"/><juan fun="close" n="003"><jhead>先覺宗乘卷三</jhead><byline type="訂閱">雙髻釋頓讓訂閱</byline></juan>
+<lb ed="X" n="0203b04"/><juan fun="close" n="003"><jhead>先覺宗乘卷三</jhead><byline type="other">雙髻釋頓讓訂閱</byline></juan>
 <lb ed="X" n="0203b05"/><milestone unit="juan" n="4"/>
 <lb ed="X" n="0203b06"/>
 <lb ed="X" n="0203b07"/><juan fun="open" n="004"><mulu type="卷" n="4"/><jhead>先覺宗乘卷四</jhead></juan>
 <lb ed="X" n="0203b08"/>
-<lb ed="X" n="0203b09"/><byline type="Corrector">徑山語風老人　圓信　較定</byline>
-<lb ed="X" n="0203b10"/><byline type="Editor">無地地主人　郭凝之　&CB15077;編</byline>
+<lb ed="X" n="0203b09"/><byline type="other">徑山語風老人　圓信　較定</byline>
+<lb ed="X" n="0203b10"/><byline type="editor">無地地主人　郭凝之　&CB15077;編</byline>
 <lb ed="X" n="0203b11"/><div1 type="other"><mulu type="其他" level="1" label="楊衒之"/><head>楊衒之</head>
 <lb ed="X" n="0203b12"/><p id="pX87p0203b1201">北魏楊衒之。為期城太守。早慕佛乘。達磨至魏。住禹
 <lb ed="X" n="0203b13"/>門千聖寺。衒之問曰。弟子歸心三寶。亦有年矣。而智
@@ -2377,11 +2350,11 @@ new from basicx
 <lb ed="X" n="0210a13"/>貪生不怖死。不生天不生人。惟當往生淨土耳。言訖。
 <lb ed="X" n="0210a14"/>趺坐而化。</p></div1>
 <lb ed="X" n="0210a15"/>
-<lb ed="X" n="0210a16"/><juan fun="close" n="004"><jhead>先覺宗乘卷四</jhead><byline type="訂閱">雙髻釋頓讓訂閱</byline></juan>
+<lb ed="X" n="0210a16"/><juan fun="close" n="004"><jhead>先覺宗乘卷四</jhead><byline type="other">雙髻釋頓讓訂閱</byline></juan>
 <pb ed="X" id="X87.1620.0210b" n="0210b"/>
 <lb ed="X" n="0210b01"/><milestone unit="juan" n="5"/><juan fun="open" n="005"><mulu type="卷" n="5"/><jhead>先覺宗乘卷五</jhead></juan>
-<lb ed="X" n="0210b02"/><byline type="Corrector">徑山語風老人　圓信　較定</byline>
-<lb ed="X" n="0210b03"/><byline type="Editor">無地地主人　郭凝之　&CB15077;編</byline>
+<lb ed="X" n="0210b02"/><byline type="other">徑山語風老人　圓信　較定</byline>
+<lb ed="X" n="0210b03"/><byline type="editor">無地地主人　郭凝之　&CB15077;編</byline>
 <lb ed="X" n="0210b04"/><div1 type="other"><mulu type="其他" level="1" label="洪州廉使"/><head>洪州廉使</head>
 <lb ed="X" n="0210b05"/><p id="pX87p0210b0501">洪州廉使。逸其名。問馬祖曰。喫酒肉即是。不喫即是。
 <lb ed="X" n="0210b06"/>馬祖曰。若喫是中丞祿。不喫是中丞福。廉使有省。</p></div1>
@@ -2723,5 +2696,5 @@ new from basicx
 <lb ed="X" n="0214c17"/><p id="pX87p0214c1701">官人問僧。名甚麼。曰無揀。官人曰。忽然將一&CB00179;沙與
 <lb ed="X" n="0214c18"/>上座。又作麼生。曰謝官人供養<note place="inline">法眼別云。此猶是揀底</note>。</p></div1>
 <lb ed="X" n="0214c19"/>
-<lb ed="X" n="0214c20"/><juan fun="close" n="005"><jhead>先覺宗乘卷五<note place="inline">終</note></jhead><byline type="訂閱">雙髻釋頓讓訂閱</byline></juan>
+<lb ed="X" n="0214c20"/><juan fun="close" n="005"><jhead>先覺宗乘卷五<note place="inline">終</note></jhead><byline type="other">雙髻釋頓讓訂閱</byline></juan>
 </body></text></TEI.2>
