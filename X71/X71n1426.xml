@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2004/04/30 07:44:20 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2004/05/10 07:57:45 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/30 07:44:20 $</date>
+		<date>$Date: 2004/05/10 07:57:45 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 71, No. 1426 &desc;</bibl>
@@ -51,6 +51,9 @@
 	</change>
 <!--
 $Log: X71n1426.xml,v $
+Revision 1.2  2004/05/10 07:57:45  eva
+modified: 語法檢查及目錄修訂
+
 Revision 1.1  2004/04/30 07:44:20  ray
 new from basic markup
 
@@ -103,7 +106,7 @@ new from basic markup
 <lb ed="X" n="0770c16"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>真州長蘆了和尚劫外錄</jhead></juan>
 <lb ed="X" n="0770c17"/>
 <lb ed="X" n="0770c18"/><byline type="Editor">侍者　德初　義初等　編</byline>
-<lb ed="X" n="0770c19"/><div1><p id="pX71p0770c1901">上堂僧問三世諸佛向火焰&M034294;轉大法輪還端的也
+<lb ed="X" n="0770c19"/><div1 type="other"><mulu type="其他" level="1" label="（問答）"/><p id="pX71p0770c1901">上堂僧問三世諸佛向火焰&M034294;轉大法輪還端的也
 <lb ed="X" n="0770c20"/>無師呵呵大笑云我&CB00230;疑著僧云和尚為什麼&CB00230;疑
 <lb ed="X" n="0770c21"/>著師云野花香滿路幽鳥不知春僧禮拜云今日遭
 <lb ed="X" n="0770c22"/>人毒手。</p>
@@ -609,7 +612,7 @@ new from basic markup
 <lb ed="X" n="0777b22"/>
 <lb ed="X" n="0777b23"/><juan fun="close" n="001"><jhead>真州長蘆了和尚劫外錄<note place="inline">終</note></jhead></juan>
 <pb ed="X" id="X71.1426.0777c" n="0777c"/>
-<lb ed="X" n="0777c01"/><div1 type="xu"><mulu type="序" level="1" label="No. 1426-C 崇先真歇了禪師塔銘"/><head>No. 1426-C
+<lb ed="X" n="0777c01"/><milestone unit="juan" n="2"/><div1 type="xu"><mulu type="序" level="1" label="No. 1426-C 崇先真歇了禪師塔銘"/><head>No. 1426-C
 <lb ed="X" n="0777c02"/> 崇先真歇了禪師塔銘</head>
 <lb ed="X" n="0777c03"/><p id="pX71p0777c0301">夫道詣於大同性成乎圓通無住而住不空而空東
 <lb ed="X" n="0777c04"/>西三十三傳默合符節信不私而公也佛吞三世經
@@ -787,9 +790,9 @@ new from basic markup
 <lb ed="X" n="0780a01"/>
 <lb ed="X" n="0780a02"/>
 <lb ed="X" n="0780a03"/><head type="no">No. 1426-2</head>
-<lb ed="X" n="0780a04"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>真歇和尚拈古</jhead></juan>
+<lb ed="X" n="0780a04"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>真歇和尚拈古</jhead></juan>
 <lb ed="X" n="0780a05"/>
-<lb ed="X" n="0780a06"/><div1><p id="pX71p0780a0601" rend="margin-left:1">示眾云截斷千差岐路<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是平地喫交併&CB00230;咽喉
+<lb ed="X" n="0780a06"/><div1 type="other"><mulu type="其他" level="1" label="（拈古）"/><p id="pX71p0780a0601" rend="margin-left:1">示眾云截斷千差岐路<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是平地喫交併&CB00230;咽喉
 <lb ed="X" n="0780a07"/>唇吻未免扶籬摸壁若更開蝦蟆口說心說性說
 <lb ed="X" n="0780a08"/>禪說道盡是誑諕諸人滅胡種族從上來事合作
 <lb ed="X" n="0780a09"/>麼生不涉廉纖試請舉看。</p>
@@ -1419,10 +1422,10 @@ new from basic markup
 <lb ed="X" n="0788b08"/>醭眼開懶閉諸人被寂菴推東劃西強生分別且道
 <lb ed="X" n="0788b09"/>與古人如何雖然如是也要諸人知有非但三祖大
 <lb ed="X" n="0788b10"/>師弓折箭盡寂菴亦是鎗折力乏家破人亡畢竟如
-<lb ed="X" n="0788b11"/>何各請歸去休莫待雨霖頭。</p>
-<lb ed="X" n="0788b12"/><juan fun="close" n="001"><jhead>真歇和尚拈古<note place="inline">終</note></jhead></juan>
+<lb ed="X" n="0788b11"/>何各請歸去休莫待雨霖頭。</p></div2></div1>
+<lb ed="X" n="0788b12"/><juan fun="close" n="002"><jhead>真歇和尚拈古<note place="inline">終</note></jhead></juan>
 <lb ed="X" n="0788b13"/>
-<lb ed="X" n="0788b14"/><div3 type="W"><p id="pX71p0788b1401">當紹興間妙喜正統東山詆訾默照寂菴是舉可
+<lb ed="X" n="0788b14"/><div1 type="W"><p id="pX71p0788b1401">當紹興間妙喜正統東山詆訾默照寂菴是舉可
 <lb ed="X" n="0788b15"/>謂入其室操其戈取其矛擊其盾覽者當自得之
-<lb ed="X" n="0788b16"/><note place="inline">義遠</note>敬&CB02494;。</p></div3></div2></div1>
+<lb ed="X" n="0788b16"/><note place="inline">義遠</note>敬&CB02494;。</p></div1>
 </body></text></TEI.2>
