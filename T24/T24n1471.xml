@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/05/12 05:35:10 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/06/29 13:06:17 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/12 05:35:10 $</date>
+		<date>$Date: 2004/06/29 13:06:17 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1471</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1471.xml,v $
+Revision 1.7  2004/06/29 13:06:17  saywhat
+juan 加上 jhead & title
+
 Revision 1.6  2004/05/12 05:35:10  saywhat
 經號的<head> → <head type="no">
 
@@ -109,7 +112,7 @@ Revision 1.6  2001/02/07 07:01:04  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:44  chris
-Added keywords $Revision: 1.6 $, $Date: 2004/05/12 05:35:10 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2004/06/29 13:06:17 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -118,8 +121,8 @@ Added comment  for Emacs
 <text><body>
 <lb n="0926a19"/>
 <milestone unit="juan" n="1"/>
-<lb n="0926a20"/><head type="no">No. 1471</head><div1 type="xu">
-<lb n="0926a21"/><mulu type="序" level="1" label="序"/><head>◎<note n="0926009" resp="Taisho" type="orig" place="foot text">此序依明本載錄與宋元宮三本對校</note><title>沙彌十戒法并威儀</title>序</head>
+<lb n="0926a20"/><head type="no">No. 1471</head>
+<lb n="0926a21"/><div1 type="xu"><mulu type="序" level="1" label="序"/>◎<note n="0926009" resp="Taisho" type="orig" place="foot text">此序依明本載錄與宋元宮三本對校</note><head><title>沙彌十戒法并威儀</title>序</head>
 <lb n="0926a22"/>
 <lb n="0926a23"/><p>夫乾坤覆載。以人為貴。立身處世。以禮儀之。
 <lb n="0926a24"/>本君臣父子非禮不立。防邪止姦非禮不禁。
@@ -127,13 +130,13 @@ Added comment  for Emacs
 <lb n="0926a26"/>徒朋友非禮不敬。吊喪問疾非禮不行。昔先
 <lb n="0926a27"/>賢垂範。永以為軌則。喪祭之儀世務之急。是
 <lb n="0926a28"/>以信行之機旦夕之要。今世浮遊。或輕或重。
-<lb n="0926a29"/>或深或淺。不<note n="0926010" resp="Taisho" type="orig" place="foot text">諧＝揩【宮】</note><app n="0926010"><lem>諧</lem><rdg wit="【宮】" resp="Taisho">揩</rdg></app>法則。以致譏論</p>
-<pb ed="T" id="T24.1471.0926b" n="0926b"/></div1>
-<lb n="0926b01"/><div1 type="other">
-<lb n="0926b02"/><juan fun="open" n="001"><mulu type="卷" n="001"/>沙彌十戒法并威儀<note n="0926011" resp="Taisho" type="orig" place="foot text">〔一卷〕－【三】</note><note n="0926011" resp="CBETA" type="mod">〔一卷〕－【宋】【元】【明】</note><app n="0926011"><lem>一卷</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></juan>
+<lb n="0926a29"/>或深或淺。不<note n="0926010" resp="Taisho" type="orig" place="foot text">諧＝揩【宮】</note><app n="0926010"><lem>諧</lem><rdg wit="【宮】" resp="Taisho">揩</rdg></app>法則。以致譏論</p></div1>
+<pb ed="T" id="T24.1471.0926b" n="0926b"/>
+<lb n="0926b01"/>
+<lb n="0926b02"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>沙彌十戒法并威儀</title><note n="0926011" resp="Taisho" type="orig" place="foot text">〔一卷〕－【三】</note><note n="0926011" resp="CBETA" type="mod">〔一卷〕－【宋】【元】【明】</note><app n="0926011"><lem>一卷</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0926b03"/>
 <lb n="0926b04"/><byline type="Translator"><note n="0926012" resp="Taisho" type="orig" place="foot text">失譯附東晉錄＝失譯今附東晉錄【宋】【元】【宮】，失譯人名今附東晉錄【明】</note><note n="0926012" resp="CBETA" type="mod">失譯附東晉錄＝失譯今附東晉錄【宋】【元】【宮】，＝失譯人名今附東晉錄【明】</note><app n="0926012"><lem>失譯附東晉錄</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">失譯今附東晉錄</rdg><rdg wit="【明】" resp="Taisho">失譯人名今附東晉錄</rdg></app></byline>
-<lb n="0926b05"/><p>佛語舍利弗。汝去度羅&CB00264;羅出家。舍利弗言。
+<lb n="0926b05"/><div1 type="other"><p>佛語舍利弗。汝去度羅&CB00264;羅出家。舍利弗言。
 <lb n="0926b06"/>我當云何度。佛教言。我羅&CB00264;羅。歸依佛歸依
 <lb n="0926b07"/>法歸依僧<note place="inline">如是三說</note>我某甲。歸依佛竟歸依法竟
 <lb n="0926b08"/>歸依僧竟<note place="inline">如是三說</note>盡形壽不殺生。盡形壽不盜。盡
@@ -671,9 +674,9 @@ Added comment  for Emacs
 <lb n="0932a29"/>事。七者不得<note n="0932019" resp="Taisho" type="orig" place="foot text">示＝不【聖】</note><app n="0932019"><lem>示</lem><rdg wit="【聖】" resp="Taisho">不</rdg></app>人之非。八者不得轉相評
 <pb ed="T" id="T24.1471.0932b" n="0932b"/>
 <lb n="0932b01"/>論。九者借取與必分明。十者無違期約以失
-<lb n="0932b02"/><note n="0932020" resp="Taisho" type="orig" place="foot text">道信＝信道【三】</note><note n="0932020" resp="CBETA" type="mod">道信＝信道【宋】【元】【明】</note><app n="0932020"><lem>道信</lem><rdg wit="【宋】【元】【明】" resp="Taisho">信道</rdg></app></p>
-<lb n="0932b03"/><juan fun="close" n="001"><note n="0932021" resp="Taisho" type="orig" place="foot text">（沙彌…一卷）十字∞（五德…切入）百十字【三】</note><note n="0932021" resp="CBETA" type="mod"><todo type="a"/>（沙彌…一卷）十字∞（五德…切入）百十字【宋】【元】【明】</note>沙彌<note n="0932022" resp="Taisho" type="orig" place="foot text">〔十戒〕－【聖】</note><app n="0932022"><lem>十戒</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>法<note n="0932023" resp="Taisho" type="orig" place="foot text">〔并〕－【宋】【宮】</note><app n="0932023"><lem>并</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>威儀<note n="0932024" resp="Taisho" type="orig" place="foot text">〔一卷〕－【明】</note><app n="0932024"><lem>一卷</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></juan>
-<lb n="0932b04"/><p type="W"><note n="0932025" resp="Taisho" type="orig" place="foot text">（沙彌…一卷）十字∞（五德…切入）百十字【三】，〔五德…切入〕百十字－【宮】【聖】</note><note n="0932025" resp="CBETA" type="mod"><todo type="a"/>（沙彌…一卷）十字∞（五德…切入）百十字【宋】【元】【明】，〔五德…切入〕百十字－【宮】【聖】</note>五德者。一者發心離<note n="0932026" resp="Taisho" type="orig" place="foot text">俗＝信【宋】【元】</note><app n="0932026"><lem>俗</lem><rdg wit="【宋】【元】" resp="Taisho">信</rdg></app>。懷佩道故。二者
+<lb n="0932b02"/><note n="0932020" resp="Taisho" type="orig" place="foot text">道信＝信道【三】</note><note n="0932020" resp="CBETA" type="mod">道信＝信道【宋】【元】【明】</note><app n="0932020"><lem>道信</lem><rdg wit="【宋】【元】【明】" resp="Taisho">信道</rdg></app></p></div1>
+<lb n="0932b03"/><juan fun="close" n="001"><jhead><note n="0932021" resp="Taisho" type="orig" place="foot text">（沙彌…一卷）十字∞（五德…切入）百十字【三】</note><note n="0932021" resp="CBETA" type="mod"><todo type="a"/>（沙彌…一卷）十字∞（五德…切入）百十字【宋】【元】【明】</note>沙彌<note n="0932022" resp="Taisho" type="orig" place="foot text">〔十戒〕－【聖】</note><app n="0932022"><lem>十戒</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>法<note n="0932023" resp="Taisho" type="orig" place="foot text">〔并〕－【宋】【宮】</note><app n="0932023"><lem>并</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>威儀<note n="0932024" resp="Taisho" type="orig" place="foot text">〔一卷〕－【明】</note><app n="0932024"><lem>一卷</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="0932b04"/><div1 type="W"><p><note n="0932025" resp="Taisho" type="orig" place="foot text">（沙彌…一卷）十字∞（五德…切入）百十字【三】，〔五德…切入〕百十字－【宮】【聖】</note><note n="0932025" resp="CBETA" type="mod"><todo type="a"/>（沙彌…一卷）十字∞（五德…切入）百十字【宋】【元】【明】，〔五德…切入〕百十字－【宮】【聖】</note>五德者。一者發心離<note n="0932026" resp="Taisho" type="orig" place="foot text">俗＝信【宋】【元】</note><app n="0932026"><lem>俗</lem><rdg wit="【宋】【元】" resp="Taisho">信</rdg></app>。懷佩道故。二者
 <lb n="0932b05"/>毀其形好。應法服故。三者永割親愛。無適
 <lb n="0932b06"/>莫故。四者委棄身命。遵崇道故。五者志求
 <lb n="0932b07"/>大乘。為度人故。十數者。一者一切眾生皆

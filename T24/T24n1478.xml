@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/12 05:35:10 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/06/29 12:51:09 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/12 05:35:10 $</date>
+		<date>$Date: 2004/06/29 12:51:09 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1478</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1478.xml,v $
+Revision 1.6  2004/06/29 12:51:09  saywhat
+juan 加上 jhead & title
+
 Revision 1.5  2004/05/12 05:35:10  saywhat
 經號的<head> → <head type="no">
 
@@ -102,7 +105,7 @@ Revision 1.6  2001/02/07 07:01:07  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:47  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/05/12 05:35:10 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2004/06/29 12:51:09 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -113,7 +116,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0945b20"/>
 <lb n="0945b21"/><head type="no">No. 1478</head>
-<lb n="0945b22"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0945011" resp="Taisho" type="orig" place="foot text">（佛說）＋大【三】【宮】＊</note><note n="0945011" resp="CBETA" type="mod">（佛說）＋大【宋】【元】【明】【宮】＊</note><app n="0945011"><lem>大</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說大</rdg></app>愛道比丘尼經卷上</juan>
+<lb n="0945b22"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0945011" resp="Taisho" type="orig" place="foot text">（佛說）＋大【三】【宮】＊</note><note n="0945011" resp="CBETA" type="mod">（佛說）＋大【宋】【元】【明】【宮】＊</note><app n="0945011"><lem>大</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">佛說大</rdg></app>愛道比丘尼經</title>卷上</jhead></juan>
 <lb n="0945b23"/>
 <lb n="0945b24"/><byline type="Translator"><note n="0945012" resp="Taisho" type="orig" place="foot text">附北涼錄＝北涼失譯【宋】【元】＊，北涼失譯人名【明】＊，失譯【宮】</note><note n="0945012" resp="CBETA" type="mod">附北涼錄＝北涼失譯【宋】【元】＊，＝北涼失譯人名【明】＊，＝失譯【宮】</note><app n="0945012"><lem>附北涼錄</lem><rdg wit="【宋】【元】" resp="Taisho">北涼失譯</rdg><rdg wit="【明】" resp="Taisho">北涼失譯人名</rdg><rdg wit="【宮】" resp="Taisho">失譯</rdg></app></byline>
 <lb n="0945b25"/><div1 type="jing"><p>爾時佛遊於迦維羅衛釋氏精盧。與諸大比
@@ -527,11 +530,11 @@ Added comment  for Emacs
 <lb n="0950a13"/>男子身。&CB00230;後亦當受決。當得作佛。今大愛道
 <lb n="0950a14"/>輩。常行大慈大悲。&CB00230;後亦當成男子受決作
 <lb n="0950a15"/>佛。大愛道聞佛說是語。頭腦著地作禮而去</p>
-<lb n="0950a16"/><juan fun="close" n="001"><app type="＊" source="0945011"><lem>大</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">佛說大</rdg></app>愛道比丘尼經卷上</juan>
+<lb n="0950a16"/><juan fun="close" n="001"><jhead><title><app type="＊" source="0945011"><lem>大</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">佛說大</rdg></app>愛道比丘尼經</title>卷上</jhead></juan>
 <lb n="0950a17"/>
 <milestone unit="juan" n="2"/>
 <lb n="0950a18"/>
-<lb n="0950a19"/><juan fun="open" n="002"><mulu type="卷" n="002"/><anchor id="fxT24p0950a02"/>大愛道比丘尼經卷下</juan>
+<lb n="0950a19"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title><anchor id="fxT24p0950a02"/>大愛道比丘尼經</title>卷下</jhead></juan>
 <lb n="0950a20"/>
 <lb n="0950a21"/><byline type="Translator"><anchor id="fxT24p0950a03"/>附北涼錄</byline>
 <lb n="0950a22"/><p>爾時大愛道。及長老比丘尼。語阿難言。如是
@@ -975,6 +978,6 @@ Added comment  for Emacs
 <lb n="0955a10"/><p>佛言。善哉阿難。諦聽我所說。善思念之內著
 <lb n="0955a11"/>心中。奉持如法為報佛恩。不如法者勞女人
 <lb n="0955a12"/>耳。諦聽諦聽。阿難及諸長老比丘尼。皆同聲
-<lb n="0955a13"/>言諾。受思歡喜。叉手而聽</p>
-<lb n="0955a14"/><juan fun="close" n="002"><note n="0955002" resp="Taisho" type="orig" place="foot text">（佛說）＋大【明】</note><app n="0955002"><lem>大</lem><rdg wit="【明】" resp="Taisho">佛說大</rdg></app>愛道<note n="0955003" resp="Taisho" type="orig" place="foot text">〔比丘尼〕－【宋】【元】【宮】</note><app n="0955003"><lem>比丘尼</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>經卷下</juan></div1>
+<lb n="0955a13"/>言諾。受思歡喜。叉手而聽</p></div1>
+<lb n="0955a14"/><juan fun="close" n="002"><jhead><title><note n="0955002" resp="Taisho" type="orig" place="foot text">（佛說）＋大【明】</note><app n="0955002"><lem>大</lem><rdg wit="【明】" resp="Taisho">佛說大</rdg></app>愛道<note n="0955003" resp="Taisho" type="orig" place="foot text">〔比丘尼〕－【宋】【元】【宮】</note><app n="0955003"><lem>比丘尼</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>經</title>卷下</jhead></juan>
 </body></text></TEI.2>
