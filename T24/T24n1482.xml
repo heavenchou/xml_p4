@@ -20,7 +20,7 @@
                         </respStmt>
                 </titleStmt>
         <editionStmt>
-                <edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/05/12 05:35:10 $</date></edition>
+                <edition>$Revision: 1.10 $ (Big5)<date>$Date: 2004/06/30 02:29:22 $</date></edition>
         </editionStmt>
         <extent>2卷</extent>
         <publicationStmt>
@@ -33,7 +33,7 @@
                 <availability>
                         <p>Available for non-commercial use when distributed with this header intact.</p>
                 </availability>
-                <date>$Date: 2004/05/12 05:35:10 $</date>
+                <date>$Date: 2004/06/30 02:29:22 $</date>
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taisho Tripitaka Vol. 24, No. 1482</bibl>
@@ -59,6 +59,9 @@
         </change>
 <!--
 $Log: T24n1482.xml,v $
+Revision 1.10  2004/06/30 02:29:22  saywhat
+juan 加上 jhead & title
+
 Revision 1.9  2004/05/12 05:35:10  saywhat
 經號的<head> → <head type="no">
 
@@ -127,7 +130,7 @@ Revision 1.6  2001/02/07 07:01:08  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:48  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/05/12 05:35:10 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2004/06/30 02:29:22 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -138,7 +141,7 @@ Added comment  for Emacs
 <lb n="0958a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0958a02"/><head type="no">No. 1482</head>
-<lb n="0958a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/>佛阿毘曇經出家相品第一<note place="inline">卷上</note></juan>
+<lb n="0958a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>佛阿毘曇經出家相品</title>第一<note place="inline">卷上</note></jhead></juan>
 <lb n="0958a04"/>
 <lb n="0958a05"/><byline type="Translator">陳<note n="0958001" resp="Taisho" type="orig" place="foot text">天竺＝世【宋】【元】【宮】＊，〔天竺〕－【明】＊</note><app n="0958001"><lem>天竺</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">世</rdg><rdg wit="【明】" resp="Taisho">&lac;</rdg></app><note n="0958002" resp="Taisho" type="orig" place="foot text">三藏＋（法師）【三】【宮】＊</note><note n="0958002" resp="CBETA" type="mod">三藏＋（法師）【宋】【元】【明】【宮】＊</note><app n="0958002"><lem>三藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">三藏法師</rdg></app>真諦譯</byline>
 <lb n="0958a06"/><div1 type="jing"><p>以一千阿僧祇世界眾生所有功德。成佛一
@@ -816,10 +819,10 @@ Added comment  for Emacs
 <lb n="0965b18"/>足戒。若外道不經共住及如上試。不得度出
 <lb n="0965b19"/>家受具足戒。若比丘不試度出家受具足戒
 <lb n="0965b20"/>者。得娑底娑羅</p>
-<lb n="0965b21"/><juan fun="close" n="001">佛阿毘曇經<note n="0965003" resp="Taisho" type="orig" place="foot text">〔出家相品〕－【三】【宮】</note><note n="0965003" resp="CBETA" type="mod">〔出家相品〕－【宋】【元】【明】【宮】</note><app n="0965003"><lem>出家相品</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>卷上</juan>
+<lb n="0965b21"/><juan fun="close" n="001"><jhead><title>佛阿毘曇經<note n="0965003" resp="Taisho" type="orig" place="foot text">〔出家相品〕－【三】【宮】</note><note n="0965003" resp="CBETA" type="mod">〔出家相品〕－【宋】【元】【明】【宮】</note><app n="0965003"><lem>出家相品</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></title>卷上</jhead></juan>
 <lb n="0965b22"/>
 <milestone unit="juan" n="2"/>
-<lb n="0965b23"/><juan fun="open" n="002"><mulu type="卷" n="2"/>佛阿毘曇經出家相品第二<note place="inline">卷下</note></juan>
+<lb n="0965b23"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead><title>佛阿毘曇經出家相品</title>第二<note place="inline">卷下</note></jhead></juan>
 <lb n="0965b24"/>
 <lb n="0965b25"/><byline type="Translator">陳<anchor id="fxT24p0965b01"/>天竺<anchor id="fxT24p0965b02"/>三藏真諦譯</byline>
 <lb n="0965b26"/><p>佛世尊。天龍夜叉阿修羅迦樓羅乾闥婆。恭
@@ -1447,6 +1450,6 @@ Added comment  for Emacs
 <lb n="0972b05"/>出家受具足戒。若為人出家受具足戒者。得
 <lb n="0972b06"/>娑底娑羅</p>
 <lb n="0972b07"/><p>然十臘明解堪任。得為人出家受具足戒如
-<lb n="0972b08"/>是不如說修行者得娑底娑羅</p>
-<lb n="0972b09"/><juan fun="close" n="002">佛阿毘曇經<note n="0972003" resp="Taisho" type="orig" place="foot text">〔出家相品〕－【三】【宮】</note><note n="0972003" resp="CBETA" type="mod">〔出家相品〕－【宋】【元】【明】【宮】</note><app n="0972003"><lem>出家相品</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>卷下</juan></div1>
+<lb n="0972b08"/>是不如說修行者得娑底娑羅</p></div1>
+<lb n="0972b09"/><juan fun="close" n="002"><jhead><title>佛阿毘曇經<note n="0972003" resp="Taisho" type="orig" place="foot text">〔出家相品〕－【三】【宮】</note><note n="0972003" resp="CBETA" type="mod">〔出家相品〕－【宋】【元】【明】【宮】</note><app n="0972003"><lem>出家相品</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></title>卷下</jhead></juan>
 </body></text></TEI.2>
