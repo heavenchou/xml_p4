@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/05/11 02:27:02 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/06/18 06:40:25 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/05/11 02:27:02 $</date>
+		<date>$Date: 2004/06/18 06:40:25 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 947 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T19n0947.xml,v $
+Revision 1.7  2004/06/18 06:40:25  saywhat
+修訂 juan, div & mulu位置
+
 Revision 1.6  2004/05/11 02:27:02  saywhat
 行中<p type="dharani"> 改成 <p type="dharani" place="inline">
 
@@ -112,7 +115,7 @@ Revision 1.5  2001/02/07 06:54:26  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:44:21  chris
-Added keywords $Revision: 1.6 $, $Date: 2004/05/11 02:27:02 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2004/06/18 06:40:25 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -123,13 +126,13 @@ Added comment  for Emacs
 <lb n="0180a01"/>
 <milestone unit="juan" n="1"/>
 <lb n="0180a02"/>
-<lb n="0180a03"/><head type="no">No. 947</head><div1 type="pin">
-<lb n="0180a04"/><mulu type="品" level="1" n="1" label="1 大威德最勝金輪三昧咒品"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0180001" resp="Taisho" type="orig" place="foot text">【原】延久三年寫東寺三密藏本</note>大佛頂如來放光悉怛多般怛羅
+<lb n="0180a03"/><head type="no">No. 947</head>
+<lb n="0180a04"/><juan fun="open" n="001"><mulu type="卷" n="001"/><note n="0180001" resp="Taisho" type="orig" place="foot text">【原】延久三年寫東寺三密藏本</note><jhead><title>大佛頂如來放光悉怛多般怛羅
 <lb n="0180a05"/>大神力都攝一切&CB00057;王陀羅尼經
 <lb n="0180a06"/>大威德最勝金輪三昧&CB00057;品第一
 <lb n="0180a07"/><note place="inline">又名大佛頂別行法無畏出</note></title></jhead></juan>
 <lb n="0180a08"/>
-<lb n="0180a09"/><p>如是我聞。一時佛在舍衛國祇樹給孤獨園。
+<lb n="0180a09"/><div1 type="pin"><mulu type="品" level="1" n="1" label="1 大威德最勝金輪三昧咒品"/><p>如是我聞。一時佛在舍衛國祇樹給孤獨園。
 <lb n="0180a10"/>與大阿羅漢五千人俱。摩訶迦葉。優樓頻螺
 <lb n="0180a11"/>迦葉。伽耶迦葉。那提迦葉。舍利弗。大目楗
 <lb n="0180a12"/>連。難陀。阿&CB00145;樓馱。劫賓那。阿若憍陳如。阿
@@ -920,12 +923,12 @@ Added comment  for Emacs
 <lb n="0188c17"/>上聳八手四足。坐在花中。手各執寶杖。當前
 <lb n="0188c18"/>二手。作召信印印同如來信印。張在壇上。一
 <lb n="0188c19"/>日一夜。誦&CB00057;遶壇。設召天龍鬼神。末須召菩
-<lb n="0188c20"/>薩佛</p>
-<lb n="0188c21"/><p type="W">或本題云大佛頂如來放光大神力都攝大
-<lb n="0188c22"/>威德記最勝金剛三昧&CB00057;法</p>
+<lb n="0188c20"/>薩佛</p></div1>
+<lb n="0188c21"/><div1 type="W"><p>或本題云大佛頂如來放光大神力都攝大
+<lb n="0188c22"/>威德記最勝金剛三昧&CB00057;法</p></div1>
 <lb n="0188c23"/><juan fun="close" n="001"><jhead>大佛頂如來放光法卷第二</jhead></juan>
-<lb n="0188c24"/><p type="W">　<note place="inline">朱</note>此書似誤多以他本可校之</p>
-<lb n="0188c25"/><p type="W">　<note place="inline">朱</note>干時□□三年十二月</p>
-<lb n="0188c26"/><p type="W">　　　校了</p>
-<lb n="0188c27"/><p type="W">　延久三年十二月十丑□□寫了</p></div1>
+<lb n="0188c24"/><div1 type="W"><p>　<note place="inline">朱</note>此書似誤多以他本可校之</p>
+<lb n="0188c25"/><p>　<note place="inline">朱</note>干時□□三年十二月</p>
+<lb n="0188c26"/><p>　　　校了</p>
+<lb n="0188c27"/><p>　延久三年十二月十丑□□寫了</p></div1>
 </body></text></TEI.2>
