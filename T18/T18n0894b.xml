@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:08 $</date>
+		<date>$Date: 2003/06/02 05:30:08 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 18, No. 894b &desc;</bibl>
@@ -58,8 +58,11 @@
 	</change>
 <!--
 $Log: T18n0894b.xml,v $
-Revision 1.1  2003/05/05 04:09:08  ray
-Initial revision
+Revision 1.2  2003/06/02 05:30:08  saywhat
+CVS與2003/04版比對修訂
+
+Revision 1.31  2003/04/14 03:12:34  saywhat
+修訂校勘數字或＊位置
 
 Revision 1.30  2003/01/13 09:12:33  saywhat
 p.0705c07 CB00618→CB00619
@@ -123,7 +126,7 @@ Revision 1.11  2001/02/07 06:53:49  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.10  2001/02/03 07:43:35  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:08 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/02 05:30:08 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -417,7 +420,7 @@ Added comment  for Emacs
 <lb n="0707b13"/>側。持誦真言。以印攪水澡浴印<note n="0707012" resp="Taisho" type="orig" place="foot text">〔誦水印〕－【甲】【乙】</note><app n="0707012"><lem><note place="inline">誦水印</note></lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></p>
 <lb n="0707b14"/><p>次以真言及手印。遣除身中毘那夜迦難真
 <lb n="0707b15"/>言曰</p>
-<lb n="0707b16"/><p type="dharani"><tt><t lang="san-sd">&SD-E074;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">闇</t></tt><tt><t lang="san-sd">&SD-DA78;</t><t lang="chi"><yin><zi>沒&CB00069;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A55D;</t><t lang="chi">帝</t></tt><tt><t lang="san-sd">&SD-A6A8;</t><t lang="chi">賀</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">囊</t></tt><tt><t lang="san-sd">&SD-A6A8;</t><t lang="chi">賀</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">囊</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">&CB00292;</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">泮</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒<note place="inline"><note n="0707013" resp="Taisho" type="orig" place="foot text">〔除身…迦〕七字－【甲】【乙】</note><app n="0707013" word-count="7"><lem>除身中毘那夜迦</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></note></t></tt></p>
+<lb n="0707b16"/><p type="dharani"><tt><t lang="san-sd">&SD-E074;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">闇</t></tt><tt><t lang="san-sd">&SD-DA78;</t><t lang="chi"><yin><zi>沒&CB00069;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A55D;</t><t lang="chi">帝</t></tt><tt><t lang="san-sd">&SD-A6A8;</t><t lang="chi">賀</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">囊</t></tt><tt><t lang="san-sd">&SD-A6A8;</t><t lang="chi">賀</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">囊</t></tt><tt><t lang="san-sd">&SD-CFC1;</t><t lang="chi">&CB00292;</t></tt><tt><t lang="san-sd">&SD-A5C1;</t><t lang="chi">泮</t></tt><tt><t lang="san-sd">&SD-E046;</t><t lang="chi">吒<note n="0707013" resp="Taisho" type="orig" place="foot text">〔除身…迦〕七字－【甲】【乙】</note><app n="0707013" word-count="7"><lem><note place="inline">除身中毘那夜迦</note></lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></t></tt></p>
 <lb n="0707b17"/>
 <lb n="0707b18"/>
 <lb n="0707b19"/><p>其手印相。以兩手大指。屈入掌中。各各作拳。
@@ -427,7 +430,7 @@ Added comment  for Emacs
 <lb n="0707b23"/>言曰</p>
 <lb n="0707b24"/><p type="dharani"><tt><t lang="san-sd">&SD-E074;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd">&SD-A656;</t><t lang="chi">&CB00085;</t></tt><tt><t lang="san-sd">&SD-A9BD;</t><t lang="chi">日囉</t></tt><tt><t lang="san-sd"><note n="0707014" resp="Taisho" type="orig" place="foot text">&SD-A458;＝&SD-B34B;【甲】【乙】</note><app n="0707014"><lem>&SD-A458;</lem><rdg wit="【甲】【乙】" resp="Taisho">&SD-B34B;</rdg></app></t><t lang="chi">祇<note n="0707015" resp="Taisho" type="orig" place="foot text">寧＋（二合）【甲】</note><app n="0707015"><lem>寧</lem><rdg wit="【甲】" resp="Taisho">寧二合</rdg></app></t></tt><tt><t lang="san-sd">&SD-AABC;</t><t lang="chi">&CB00425;囉</t></tt><tt><t lang="san-sd"><note n="0707016" resp="Taisho" type="orig" place="foot text">&SD-A56F;＝&SD-A571;【甲】，&SD-A572;【乙】</note><note n="0707016" resp="CBETA" type="mod">&SD-A56F;＝&SD-A571;【甲】，＝&SD-A572;【乙】</note><app n="0707016"><lem>&SD-A56F;</lem><rdg wit="【甲】" resp="Taisho">&SD-A571;</rdg><rdg wit="【乙】" resp="Taisho">&SD-A572;</rdg></app></t><t lang="chi">&CB00135;</t></tt><tt><t lang="san-sd">&SD-CEE5;</t><t lang="chi">&CB00425;多</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">也</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi">莎</t></tt>
 <lb n="0707b25"/>
-<lb n="0707b26"/><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">訶<note place="inline"><note n="0707017" resp="Taisho" type="orig" place="foot text">〔護身真言〕－【甲】【乙】</note><app n="0707017"><lem>護身真言</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></note></t></tt></p>
+<lb n="0707b26"/><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">訶<note n="0707017" resp="Taisho" type="orig" place="foot text">〔護身真言〕－【甲】【乙】</note><app n="0707017"><lem><note place="inline">護身真言</note></lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></t></tt></p>
 <lb n="0707b27"/>
 <lb n="0707b28"/><p>其手印相。以二小指。相叉入掌中。二無名指
 <lb n="0707b29"/>雙押二小指&CB00594;。二中指頭側相跓。二頭指微
@@ -438,7 +441,7 @@ Added comment  for Emacs
 <lb n="0707c04"/><p>次以真言及手印。持誦一一分土真言曰</p>
 <lb n="0707c05"/><p type="dharani"><tt><t lang="san-sd">&SD-E074;</t><t lang="chi">唵</t></tt><tt><t lang="san-sd"><note n="0707018" resp="Taisho" type="orig" place="foot text">&SD-CBEF;＝&SD-E0C1;【甲】【乙】＊</note><app n="0707018"><lem>&SD-CBEF;</lem><rdg wit="【甲】【乙】" resp="Taisho">&SD-E0C1;</rdg></app></t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5B7;</t><t lang="chi">比</t></tt><tt><t lang="san-sd"><anchor id="fxT18p0707c01"/>&SD-CBEF;</t><t lang="chi">度</t></tt><tt><t lang="san-sd">&SD-A5B7;</t><t lang="chi">比</t></tt><tt><t lang="san-sd">&SD-A441;</t><t lang="chi">迦</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">也</t></tt><tt><t lang="san-sd"><anchor id="fxT18p0707c02"/>&SD-CBEF;</t><t lang="chi">度</t></tt><tt><t lang="san-sd"><note n="0707019" resp="Taisho" type="orig" place="foot text">&SD-A658;＝&SD-A5B7;【甲】【乙】</note><app n="0707019"><lem>&SD-A658;</lem><rdg wit="【甲】【乙】" resp="Taisho">&SD-A5B7;</rdg></app></t><t lang="chi">比</t></tt><tt><t lang="san-sd">&SD-AABC;</t><t lang="chi">&CB00425;囉</t></tt><tt><t lang="san-sd">&SD-E04A;</t><t lang="chi">餌&CB00085;<note place="inline">二</note></t></tt>
 <lb n="0707c06"/>
-<lb n="0707c07"/><tt><t lang="san-sd">&SD-A64C;</t><t lang="chi">里</t></tt><tt><t lang="san-sd">&SD-A5AB;</t><t lang="chi">寧</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi">莎</t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">訶<note place="inline"><note n="0707020" resp="Taisho" type="orig" place="foot text">〔三遍誦真言〕－【甲】【乙】</note><app n="0707020"><lem>三遍誦真言</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></note></t></tt></p>
+<lb n="0707c07"/><tt><t lang="san-sd">&SD-A64C;</t><t lang="chi">里</t></tt><tt><t lang="san-sd">&SD-A5AB;</t><t lang="chi">寧</t></tt><tt><t lang="san-sd">&SD-B065;</t><t lang="chi">莎</t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi">訶<note n="0707020" resp="Taisho" type="orig" place="foot text">〔三遍誦真言〕－【甲】【乙】</note><app n="0707020"><lem><note place="inline">三遍誦真言</note></lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></t></tt></p>
 <lb n="0707c08"/>
 <lb n="0707c09"/><p>其手印相。以二手頭指及小指令頭相跓。以
 <lb n="0707c10"/>二中指二無名指。屈入掌中。其二手相背不

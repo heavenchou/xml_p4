@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)</edition>
+		<edition>$Revision: 1.2 $ (Big5)</edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2003/05/05 04:09:05 $</date>
+		<date>$Date: 2003/06/02 05:30:07 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 18, No. 850 &desc;</bibl>
@@ -60,8 +60,11 @@
 	</change>
 <!--
 $Log: T18n0850.xml,v $
-Revision 1.1  2003/05/05 04:09:05  ray
-Initial revision
+Revision 1.2  2003/06/02 05:30:07  saywhat
+CVS與2003/04版比對修訂
+
+Revision 1.39  2003/04/14 03:12:27  saywhat
+修訂校勘數字或＊位置
 
 Revision 1.38  2002/12/04 01:47:31  saywhat
 校勘插入處理
@@ -134,7 +137,7 @@ Revision 1.16  2001/02/07 06:52:57  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.15  2001/02/03 07:42:38  chris
-Added keywords $Revision: 1.1 $, $Date: 2003/05/05 04:09:05 $ and $Log.
+Added keywords $Revision: 1.2 $, $Date: 2003/06/02 05:30:07 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -1065,7 +1068,7 @@ Added comment  for Emacs
 <lb n="0075c14"/><anchor id="fxT18p0075c23"/><note place="inline">五</note>娑&CB00085;<note place="inline">二合</note>賀</p>
 <lb n="0075c15"/><p>　月<note n="0075039" resp="Taisho" type="orig" place="foot text">〔黶〕－【甲】</note><app n="0075039"><lem>黶</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></p>
 <lb n="0075c16"/><p type="dharani">（一○四）<anchor id="fxT18p0075c24"/>曩莫三滿多&CB00085;日囉<note place="inline">二合</note>赧<anchor id="fxT18p0075c25"/><note place="inline">一</note><note n="0075040" resp="Taisho" type="orig" place="foot text">頡唎＝賀嚕【乙】</note><app n="0075040"><lem>頡唎</lem><rdg wit="【乙】" resp="Taisho">賀嚕</rdg></app>
-<lb n="0075c17"/><note place="inline">二合</note>吽頗吒<note place="inline"><note n="0075041" resp="Taisho" type="orig" place="foot text">二＋（合）細註【甲】【乙】</note><app n="0075041"><lem>二</lem><rdg wit="【甲】【乙】" resp="Taisho">二<note place="inline">合</note></rdg></app></note>娑&CB00085;<note place="inline">二合</note>賀</p>
+<lb n="0075c17"/><note place="inline">二合</note>吽頗吒<note n="0075041" resp="Taisho" type="orig" place="foot text">二＋（合）細註【甲】【乙】</note><app n="0075041"><lem><note place="inline">二</note></lem><rdg wit="【甲】【乙】" resp="Taisho"><note place="inline">二合</note></rdg></app>娑&CB00085;<note place="inline">二合</note>賀</p>
 <lb n="0075c18"/><lg><l>次於彼西方</l><l>大日如來下</l>
 <lb n="0075c19"/><l>無量持<note n="0075042" resp="Taisho" type="orig" place="foot text">剛金＝金剛【乙】</note><app n="0075042"><lem>剛金</lem><rdg wit="【乙】" resp="Taisho">金剛</rdg></app></l><l>形色各差別</l>
 <lb n="0075c20"/><l>所為諸奉教</l><l>福智手成拳</l>
@@ -1276,7 +1279,7 @@ Added comment  for Emacs
 <lb n="0078a29"/><l>風&CB00594;空火交</l><l>彼彼真言<note n="0078016" resp="Taisho" type="orig" place="foot text">曰＋（歸命上下）【甲】</note><app n="0078016"><lem>曰</lem><rdg wit="【甲】" resp="Taisho">曰歸命上下</rdg></app></l></lg>
 <pb ed="T" id="T18.0850.0078b" n="0078b"/>
 <lb n="0078b01"/><p>　羅剎主</p>
-<lb n="0078b02"/><p type="dharani">（一三九）<anchor id="fxT18p0078b01"/>曩莫三滿多沒馱喃<anchor id="fxT18p0078b02"/><note place="inline">一</note>囉<note place="inline"><note n="0078017" resp="Taisho" type="orig" place="foot text">入＋（二合）細註【甲】</note><app n="0078017"><lem>入</lem><rdg wit="【甲】" resp="Taisho">入<note place="inline">二合</note></rdg></app></note><note n="0078018" resp="Taisho" type="orig" place="foot text">吃察二合娑二＝乞察娑引【甲】</note><app n="0078018"><lem>吃察
+<lb n="0078b02"/><p type="dharani">（一三九）<anchor id="fxT18p0078b01"/>曩莫三滿多沒馱喃<anchor id="fxT18p0078b02"/><note place="inline">一</note>囉<note n="0078017" resp="Taisho" type="orig" place="foot text">入＋（二合）細註【甲】</note><app n="0078017"><lem><note place="inline">入</note></lem><rdg wit="【甲】" resp="Taisho"><note place="inline">入二合</note></rdg></app><note n="0078018" resp="Taisho" type="orig" place="foot text">吃察二合娑二＝乞察娑引【甲】</note><app n="0078018"><lem>吃察
 <lb n="0078b03"/><note place="inline">二合</note>娑<note n="0078019" resp="Taisho" type="orig" place="foot text">〔二〕－【乙】</note><app n="0078019"><lem><note place="inline">二</note></lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【甲】" resp="Taisho">乞察娑引</rdg></app>地跛<note n="0078020" resp="Taisho" type="orig" place="foot text">多＝哆【甲】【乙】</note><app n="0078020"><lem>多</lem><rdg wit="【甲】【乙】" resp="Taisho">哆</rdg></app>曳<anchor id="fxT18p0078b03"/><note place="inline">三</note>娑&CB00085;<note place="inline">二合</note>賀</p>
 <lb n="0078b04"/><p>　<note n="0078021" resp="Taisho" type="orig" place="foot text">（羅）＋剎【甲】</note><app n="0078021"><lem>剎</lem><rdg wit="【甲】" resp="Taisho">羅剎</rdg></app>斯</p>
 <lb n="0078b05"/><p type="dharani">（一四○）<anchor id="fxT18p0078b04"/>曩莫三滿多沒馱喃<anchor id="fxT18p0078b05"/><note place="inline">一</note><note n="0078022" resp="Taisho" type="orig" place="foot text">&CB02744;吃＝落乞【甲】，路乞【乙】</note><note n="0078022" resp="CBETA" type="mod">&CB02744;吃＝落乞【甲】，＝路乞【乙】</note><app n="0078022"><lem>&CB02744;吃</lem><rdg wit="【甲】" resp="Taisho">落乞</rdg><rdg wit="【乙】" resp="Taisho">路乞</rdg></app>叉<note place="inline">二合</note>
