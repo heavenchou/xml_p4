@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/04/20 08:43:33 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/06/15 08:44:55 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/04/20 08:43:33 $</date>
+		<date>$Date: 2004/06/15 08:44:55 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 51, No. 2069 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T51n2069.xml,v $
+Revision 1.7  2004/06/15 08:44:55  saywhat
+修訂<div1 type="xu">包含<juan>的問題
+
 Revision 1.6  2004/04/20 08:43:33  maha
 「版本日期」標記修訂
 
@@ -121,7 +124,7 @@ Revision 1.5  2001/02/05 09:04:52  saywhat
 mulu
 
 Revision 1.4  2001/02/03 08:11:41  chris
-Added keywords $Revision: 1.6 $, $Date: 2004/04/20 08:43:33 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2004/06/15 08:44:55 $ and $Log.
 Added comment for Emacs
 
 -->
@@ -132,12 +135,10 @@ Added comment for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0097a14"/>
 <lb n="0097a15"/><head type="no">No. 2069</head>
-<lb n="0097a16"/><div1 type="xu">
-<juan fun="open" n="001"><mulu type="卷" n="1"/></juan>
-<mulu type="序" level="1" label="序"/><head><note n="0097004" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note>天台九祖傳<note place="inline">并序</note></head>
+<lb n="0097a16"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="0097004" resp="Taisho" type="orig" place="foot text">【原】大日本續藏經</note><jhead>天台九祖傳<note place="inline">并序</note></jhead></juan>
 <lb n="0097a17"/>
 <lb n="0097a18"/><byline type="Editor">雲間沙門士衡敬編</byline>
-<lb n="0097a19"/><p>吾宗九世祖師示生東西兩土。前後出興相
+<lb n="0097a19"/><div1 type="xu"><mulu type="序" level="1" label="序"/><p>吾宗九世祖師示生東西兩土。前後出興相
 <lb n="0097a20"/>去賒遠。故感應垂&CB00528;之事散在經傳。儻非博
 <lb n="0097a21"/>覽則不可得而詳也。以山家傳習者。而於祖
 <lb n="0097a22"/>師功德。罕測厥由。於乎先儒有言。其先祖無
@@ -147,17 +148,14 @@ Added comment for Emacs
 <lb n="0097a26"/>謹搜羅載籍。備錄于右。以貽後賢。顗弘贊
 <lb n="0097a27"/>無窮。思齊有地。而不為無補矣。時嘉定改元
 <lb n="0097a28"/>臘月望日。寓竺&CB00123;凝翠軒序</p></div1>
-<div1 type="other">
-<lb n="0097a29"/><list>
-<item>高祖龍樹菩薩</item><item>二祖北齊尊者</item>
+<lb n="0097a29"/><div1 type="other"><list><item>高祖龍樹菩薩</item><item>二祖北齊尊者</item>
 <pb ed="T" id="T51.2069.0097b" n="0097b"/>
 <lb n="0097b01"/><item>三祖南嶽尊者</item>
 <lb n="0097b02"/><item>四祖天台教主智者大師</item>
 <lb n="0097b03"/><item>五祖章安尊者</item><item>六祖法華尊者</item>
 <lb n="0097b04"/><item>七祖天宮尊者</item><item>八祖左谿尊者</item>
-<lb n="0097b05"/><item>九祖荊溪尊者</item></list>
-<lb n="0097b06"/><mulu type="other" level="1" label="高祖龍樹菩薩"/>
-<p>高祖龍樹菩薩者。南天竺國梵志種大豪貴
+<lb n="0097b05"/><item>九祖荊溪尊者</item></list></div1>
+<lb n="0097b06"/><div1 type="other"><mulu type="other" level="1" label="高祖龍樹菩薩"/><p>高祖龍樹菩薩者。南天竺國梵志種大豪貴
 <lb n="0097b07"/>家也。始生於樹下。由龍成道。因號龍樹。幼
 <lb n="0097b08"/>而聰哲。才學超世。處在襁褓<note place="inline">上舉兩切。下音保。小兒衣也</note>聞
 <lb n="0097b09"/>諸梵志誦四韋陀典。各四萬偈。偈有四十二
@@ -712,15 +710,14 @@ Added comment for Emacs
 <lb n="0103b18"/>可不是歟</p>
 <lb n="0103b19"/><p>輔行一云。龍樹龍接入宮。一夏但誦七佛經
 <lb n="0103b20"/>目。玄注云。大不思議經有三本。有十萬偈四
-<lb n="0103b21"/>十八品。龍樹誦出流傳于世</p>
-<lb n="0103b22"/><juan fun="close" n="001"><jhead>天台九祖傳<note place="inline">終</note></jhead></juan></div1>
+<lb n="0103b21"/>十八品。龍樹誦出流傳于世</p></div1>
+<lb n="0103b22"/><juan fun="close" n="001"><jhead>天台九祖傳<note place="inline">終</note></jhead></juan>
 <lb n="0103b23"/>
-<div1 type="W">
-<lb n="0103b24"/><p rend="margin-left:1">上天竺門生<note place="inline">惟椿</note>裒率山中同學刊板<note place="inline">至顓</note>。齊
+<lb n="0103b24"/><div1 type="W"><p rend="margin-left:1">上天竺門生<note place="inline">惟椿</note>裒率山中同學刊板<note place="inline">至顓</note>。齊
 <lb n="0103b25"/>沐敬書以廣流通。共期佛慧。&CB01213;</p>
 <lb n="0103b26"/><p>皇宋嘉定辛未夏制六月旦日。謹識。瑪瑙住
 <lb n="0103b27"/>山<note place="inline">有朋</note></p></div1>
-<lb n="0103b28"/><div1 type="W"><mulu type="附文" level="1" label="道邃和上行CB00528"/><head><note place="inline">附</note>道邃和上行&CB00528;<note place="inline">又作行業記</note></head>
+<lb n="0103b28"/><div1 type="W"><mulu type="附文" level="1" label="道邃和上行＆CB00528；"/><head><note place="inline">附</note>道邃和上行&CB00528;<note place="inline">又作行業記</note></head>
 <lb n="0103b29"/><byline type="Author">大唐天台沙門乾淑述</byline>
 <pb ed="T" id="T51.2069.0103c" n="0103c"/>
 <lb n="0103c01"/><p>和上俗姓王氏。瑯&CB04712;苗裔。桑梓西京繡衣繼
