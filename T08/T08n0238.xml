@@ -14,13 +14,13 @@
 <author>隋 笈多譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.4 $ (Big5)<date>$Date: 2004/04/20 08:37:20 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/05/19 06:59:09 $</date></edition></editionStmt>
 <extent>1卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/04/20 08:37:20 $</date></publicationStmt>
+<date>$Date: 2004/05/19 06:59:09 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 238</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p type="ly" lang="eng">Text as provided by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Others</p>
@@ -41,6 +41,9 @@
 </change>
 <!--
 $Log: T08n0238.xml,v $
+Revision 1.5  2004/05/19 06:59:09  saywhat
+added juan & jhead
+
 Revision 1.4  2004/04/20 08:37:20  maha
 「版本日期」標記修訂
 
@@ -54,10 +57,10 @@ add cvs log
 <lb n="0766c12"/>
 <milestone unit="juan" n="1"></milestone>
 <lb n="0766c13"/><head type="no">No. 238 [Nos. 220(9), 235-237, 239]</head>
-<lb n="0766c14"/><div1 type="jing"><mulu type="卷" n="1"></mulu><head><title>金剛能斷般若波羅蜜經</title></head>
+<lb n="0766c14"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><title>金剛能斷般若波羅蜜經</title></jhead></juan>
 <lb n="0766c15"/>
 <lb n="0766c16"/><byline>隋<note n="0766008" resp="Taisho" type="orig" place="foot text">〔大業年中〕－【明】</note><app n="0766008"><lem>大業年中</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏笈多譯</byline>
-<lb n="0766c17"/><p>歸命一切佛菩薩海等</p>
+<lb n="0766c17"/><div1 type="jing"><p>歸命一切佛菩薩海等</p>
 <lb n="0766c18"/><p>如是我聞。一時世尊。聞者遊行勝林中無親
 <lb n="0766c19"/><note n="0766009" resp="Taisho" type="orig" place="foot text">搏＝摶【明】＊</note><app n="0766009"><lem>搏</lem><rdg wit="【明】" resp="Taisho">摶</rdg></app>施與園中。大比丘眾共半三十比丘百。爾
 <lb n="0766c20"/>時世尊前分時。上裙著已。器上<note n="0766010" resp="Taisho" type="orig" place="foot text">給＝絡【明】＊</note><app n="0766010"><lem>給</lem><rdg wit="【明】" resp="Taisho">絡</rdg></app>衣持。聞
@@ -455,13 +458,10 @@ add cvs log
 <lb n="0771a22"/>命者善實。世尊邊如是言。如我世尊。世尊
 <lb n="0771a23"/>說義解。我不相具足如來見應。爾時世尊。彼
 <lb n="0771a24"/>時此伽陀說</p>
-<lg type="v4">
-<lb n="0771a25"/><l>若我色見</l><l>若我聲求</l><l>邪解脫行</l>
+<lb n="0771a25"/><lg type="v4"><l>若我色見</l><l>若我聲求</l><l>邪解脫行</l>
 <lb n="0771a26"/><l>不我見彼<note n="0771001" resp="Taisho" type="orig" place="foot text">〔人〕－【明】</note><app n="0771001"><lem>人</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></l></lg>
-<lg type="v5">
-<lb n="0771a27"/><l>法體佛見應</l><l>法身彼如來</l>
-<lb n="0771a28"/><l>法體及不識</l><l><note n="0771002" resp="Taisho" type="orig" place="foot text">彼不＝不彼【宋】【宮】，（故）＋彼不【元】【明】</note><app n="0771002"><lem>彼不</lem><rdg wit="【宋】【宮】" resp="Taisho">不彼</rdg><rdg wit="【元】【明】" resp="Taisho">故彼不</rdg></app>能知</l>
-</lg>
+<lb n="0771a27"/><lg type="v5"><l>法體佛見應</l><l>法身彼如來</l>
+<lb n="0771a28"/><l>法體及不識</l><l><note n="0771002" resp="Taisho" type="orig" place="foot text">彼不＝不彼【宋】【宮】，（故）＋彼不【元】【明】</note><app n="0771002"><lem>彼不</lem><rdg wit="【宋】【宮】" resp="Taisho">不彼</rdg><rdg wit="【元】【明】" resp="Taisho">故彼不</rdg></app>能知</l></lg>
 <lb n="0771a29"/><p>彼何意念。善實。相具足如來無上正<app type="＊" source="0766011"><lem>遍</lem><rdg resp="Taisho" wit="【明】">&CB00642;</rdg></app>知證
 <pb ed="T" id="T08.0238.0771b" n="0771b"/>
 <lb n="0771b01"/>覺。不復彼。善實。如是見應。彼何所因。不善
@@ -505,11 +505,11 @@ add cvs log
 <lb n="0771c09"/>乃至四句等偈。受持分別。讀誦為他等。及分
 <lb n="0771c10"/>別廣說。此如是彼緣多過福聚生無量不可
 <lb n="0771c11"/>數。云何及廣說。如不廣說。彼故說名廣說</p>
-<lg type="v4">
-<lb n="0771c12"/><l>星翳燈幻</l><l>露泡夢電</l><l>雲見如是</l>
-<lb n="0771c13"/><l>此有為者</l>
-</lg><lb n="0771c14"/><p>此語。世尊歡喜。上座善實。彼及比丘比丘
+<lb n="0771c12"/><lg type="v4"><l>星翳燈幻</l><l>露泡夢電</l><l>雲見如是</l>
+<lb n="0771c13"/><l>此有為者</l></lg>
+<lb n="0771c14"/><p>此語。世尊歡喜。上座善實。彼及比丘比丘
 <lb n="0771c15"/>尼。優婆塞優婆夷。彼天人阿脩羅乾闥婆等。
 <lb n="0771c16"/>聞世尊說大歡喜</p>
-<lb n="0771c17"/><p>歸命一切佛菩薩海<note n="0771004" resp="Taisho" type="orig" place="foot text">等＋（經）【宮】</note><app n="0771004"><lem>等</lem><rdg wit="【宮】" resp="Taisho">等經</rdg></app></p>
-<lb n="0771c18"/><trailer><title>金剛能斷般若波羅蜜經</title></trailer></div1></body></text></TEI.2>
+<lb n="0771c17"/><p>歸命一切佛菩薩海<note n="0771004" resp="Taisho" type="orig" place="foot text">等＋（經）【宮】</note><app n="0771004"><lem>等</lem><rdg wit="【宮】" resp="Taisho">等經</rdg></app></p></div1>
+<lb n="0771c18"/><juan fun="close" n="001"><jhead><title>金剛能斷般若波羅蜜經</title></jhead></juan>
+</body></text></TEI.2>
