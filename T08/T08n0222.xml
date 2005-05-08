@@ -14,13 +14,13 @@
 <author>西晉 竺法護譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.20 $ (Big5)<date>$Date: 2004/11/15 03:35:19 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.21 $ (Big5)<date>$Date: 2005/05/08 05:29:14 $</date></edition></editionStmt>
 <extent>10卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/11/15 03:35:19 $</date></publicationStmt>
+<date>$Date: 2005/05/08 05:29:14 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 222</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p type="ly" lang="eng">Tripitaka Koreana as provided by Mr. Christian Wittern / proofread by Electronic Buddhadharma Society (EBS), CBETA OCR Group, Others</p>
@@ -41,6 +41,9 @@
 </change>
 <!--
 $Log: T08n0222.xml,v $
+Revision 1.21  2005/05/08 05:29:14  saywhat
+行尾的<div1>移到下一行行首; 行首的</div>移到上一行行尾
+
 Revision 1.20  2004/11/15 03:35:19  saywhat
 ◎。 => 。◎
 
@@ -76,15 +79,12 @@ add cvs log
 <lb n="0147a01"/>
 <milestone unit="juan" n="1"></milestone>
 <lb n="0147a02"/><head type="no">No. 222 [Nos. 220(2), 221, 223]</head>
-<lb n="0147a03"/>
-<div1 type="pin"><juan fun="open" n="001"><mulu type="卷" n="001"></mulu><jhead><title>
+<lb n="0147a03"/><juan fun="open" n="001"><mulu type="卷" n="001"></mulu><jhead><title>
 <note n="0147001" resp="Taisho" type="orig" place="foot text">（佛說）＋光【宋】【宮】</note><app n="0147001"><lem>光</lem><rdg wit="【宋】【宮】" resp="Taisho">佛說光</rdg></app><note n="0147002" resp="Taisho" type="orig" place="foot text">讚＋（般若波羅蜜）【三】【宮】</note><note n="0147002" resp="CBETA" type="mod">讚＋（般若波羅蜜）【宋】【元】【明】【宮】</note><app n="0147002"><lem>讚</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第一
 </jhead></juan>
 <lb n="0147a04"/>
 <lb n="0147a05"/><byline>西晉三<note n="0147003" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】【宮】＊</note><note n="0147003" resp="CBETA" type="mod"><todo type="＊"/>藏＋（法師）【宋】【元】【明】【宮】＊</note><app n="0147003"><lem>藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">藏法師</rdg></app>竺法護譯</byline>
-<lb n="0147a06"/>
-<mulu label="1 光讚品" level="1" type="品" n="1"></mulu><head><note n="0147004" resp="Taisho" type="orig" place="foot text">〔摩訶…蜜〕七字－【三】＊</note><note n="0147004" resp="CBETA" type="mod">〔摩訶…蜜〕七字－【宋】＊【元】＊【明】＊</note><app n="0147004" word-count="7"><lem><title>摩訶般若波羅蜜</title></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>光讚品第一
-</head>
+<lb n="0147a06"/><div1 type="pin"><mulu label="1 光讚品" level="1" type="品" n="1"></mulu><head><note n="0147004" resp="Taisho" type="orig" place="foot text">〔摩訶…蜜〕七字－【三】＊</note><note n="0147004" resp="CBETA" type="mod">〔摩訶…蜜〕七字－【宋】＊【元】＊【明】＊</note><app n="0147004" word-count="7"><lem><title>摩訶般若波羅蜜</title></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>光讚品第一</head>
 <lb n="0147a07"/><p>聞如是。一時佛遊羅閱祇耆闍崛山中。與摩
 <lb n="0147a08"/>訶比丘僧五千俱。皆阿羅漢也。諸漏已盡無
 <lb n="0147a09"/>有塵垢。而得自在心安解<note n="0147005" resp="Taisho" type="orig" place="foot text">脫＝說【宋】【宮】</note><app n="0147005"><lem>脫</lem><rdg wit="【宋】【宮】" resp="Taisho">說</rdg></app>智慧善度逮得
@@ -512,8 +512,7 @@ add cvs log
 <lb n="0151c05"/>羅蜜。心自願言。吾清聲聞。令江河沙等世
 <lb n="0151c06"/>界眾生之類。逮得阿耨多羅三耶三菩。當學
 <lb n="0151c07"/>般若波羅蜜。</p></div1>
-<lb n="0151c08"/><div1>
-<mulu label="2 順空品" level="1" type="品" n="2"></mulu><head><title>摩訶般若波羅蜜</title><note n="0151009" resp="Taisho" type="orig" place="foot text">（光讚般若波羅蜜經）＋順【宮】＊，（般若波羅蜜光讚經）＋順【聖】＊</note><note n="0151009" resp="CBETA" type="mod"><todo type="＊"/>（光讚般若波羅蜜經）＋順【宮】＊，（般若波羅蜜光讚經）＋順【聖】＊</note><app n="0151009"><lem>順</lem><rdg wit="【宮】" resp="Taisho">光讚般若波羅蜜經順</rdg><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經順</rdg></app>空品第二</head>
+<lb n="0151c08"/><div1 type="pin"><mulu label="2 順空品" level="1" type="品" n="2"></mulu><head><title>摩訶般若波羅蜜</title><note n="0151009" resp="Taisho" type="orig" place="foot text">（光讚般若波羅蜜經）＋順【宮】＊，（般若波羅蜜光讚經）＋順【聖】＊</note><note n="0151009" resp="CBETA" type="mod"><todo type="＊"/>（光讚般若波羅蜜經）＋順【宮】＊，（般若波羅蜜光讚經）＋順【聖】＊</note><app n="0151009"><lem>順</lem><rdg wit="【宮】" resp="Taisho">光讚般若波羅蜜經順</rdg><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經順</rdg></app>空品第二</head>
 <lb n="0151c09"/><p>佛告舍利弗。菩薩摩訶薩行般若波羅蜜時。
 <lb n="0151c10"/>興斯之德。四天王即時歡喜。我等當立四枚
 <lb n="0151c11"/>之&CB00425;。四天王前以所奉進。過去怛薩阿竭阿
@@ -570,7 +569,7 @@ add cvs log
 <pb ed="T" id="T08.0222.0152b" n="0152b"/>
 <lb n="0152b01"/>行般若波羅蜜一切不見有名號也已無所見
 <lb n="0152b02"/>亦非不見。則無所猗。則為行般若波羅蜜。</p><note n="0152006" resp="Taisho" type="orig" place="foot text">卷第一終【三】</note><note n="0152006" resp="CBETA" type="mod"><todo type="a"/>卷第一終【宋】【元】【明】</note>◎</div1>
-<lb n="0152b03"/><div1><mulu label="3 行空品" level="1" type="品" n="3"></mulu><head>
+<lb n="0152b03"/><div1 type="pin"><mulu label="3 行空品" level="1" type="品" n="3"></mulu><head>
 ◎<note n="0152007" resp="Taisho" type="orig" place="foot text">卷第二首【三】</note><note n="0152007" resp="CBETA" type="mod"><todo type="a"/>卷第二首【宋】【元】【明】</note>
 <app word-count="7" type="＊" source="0147004"><lem><title>摩訶般若波羅蜜</title></lem><rdg resp="Taisho" wit="【宋】【元】【明】">&lac;</rdg></app>行空品第三
 <note n="0152008" resp="Taisho" type="orig" place="foot text">〔之一〕－【三】【宮】【聖】，之一＝上【明】</note>
@@ -908,18 +907,16 @@ add cvs log
 <lb n="0155c25"/>踰一切諸行。置是所可遵行。為大慈行為大
 <lb n="0155c26"/>悲行。菩薩摩訶薩行於此者。終不起貪嫉之
 <lb n="0155c27"/>心。無毀戒心。無瞋恚心。無懈怠心。無亂意
-<lb n="0155c28"/>心。無邪智心。</p><note n="0155019" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…一〕－【三】</note><note n="0155019" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…一〕－【宋】【元】【明】</note>◎
+<lb n="0155c28"/>心。無邪智心。</p><note n="0155019" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…一〕－【三】</note><note n="0155019" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…一〕－【宋】【元】【明】</note>◎</div1>
 <lb n="0155c29"/><juan fun="close" n="001"><jhead><title>光讚經</title>卷第一</jhead></juan>
-</div1><div1>
 <pb ed="T" id="T08.0222.0156a" n="0156a"/>
 <lb n="0156a01"/>
 <milestone unit="juan" n="2"></milestone>
-<lb n="0156a02"/>
-<juan fun="open" n="002"><mulu type="卷" n="002"></mulu>◎<note n="0156001" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…譯〕二十字－【三】</note><note n="0156001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…譯〕二十字－【宋】【元】【明】</note><jhead><title>光讚經</title>卷第二</jhead>
+<lb n="0156a02"/><juan fun="open" n="002"><mulu type="卷" n="002"></mulu>◎<note n="0156001" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…譯〕二十字－【三】</note><note n="0156001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…譯〕二十字－【宋】【元】【明】</note><jhead><title>光讚經</title>卷第二</jhead>
 <lb n="0156a03"/>
 <lb n="0156a04"/><byline>西晉三藏竺法護譯</byline>
 <lb n="0156a05"/><head><title>摩訶般若波羅蜜</title>行空品第<note n="0156002" resp="Taisho" type="orig" place="foot text">三之二＝三下【三】【宮】</note><note n="0156002" resp="CBETA" type="mod">三之二＝三下【宋】【元】【明】【宮】</note><app n="0156002"><lem>三之二</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">三下</rdg></app></head></juan>
-<lb n="0156a06"/><p>賢者舍利弗白佛言。菩薩摩訶薩行是般若
+<lb n="0156a06"/><div1 type="pin"><p>賢者舍利弗白佛言。菩薩摩訶薩行是般若
 <lb n="0156a07"/>波羅蜜。從何所退沒而生於是。佛語舍利弗。
 <lb n="0156a08"/>是菩薩摩訶薩行般若波羅蜜者。從他方佛
 <lb n="0156a09"/>國終而生於此。若兜術天上遷移生此人間。
@@ -1392,7 +1389,7 @@ add cvs log
 <lb n="0161a09"/>建立願不。對曰唯然。世尊告曰。此萬人於
 <lb n="0161a10"/>此壽終所生佛國。未曾遠離諸佛如來。然後
 <lb n="0161a11"/>得佛號嚴淨如來至真等正覺也。</p><note n="0161003" resp="Taisho" type="orig" place="foot text">卷第二終【元】【明】</note><note n="0161003" resp="CBETA" type="mod"><todo type="a"/>卷第二終【元】【明】</note>◎</div1>
-<lb n="0161a12"/><div1><mulu label="4 歎等品" level="1" type="品" n="5"></mulu><head>
+<lb n="0161a12"/><div1 type="pin"><mulu label="4 歎等品" level="1" type="品" n="5"></mulu><head>
 ◎<note n="0161004" resp="Taisho" type="orig" place="foot text">卷第三首【元】【明】，摩訶＝光讚【宋】，〔摩…蜜〕七字－【元】【明】</note><note n="0161004" resp="CBETA" type="mod"><todo type="a"/>卷第三首【元】【明】，摩訶＝光讚【宋】，〔摩…蜜〕七字－【元】【明】</note><title>摩訶般若波羅<note n="0161005" resp="Taisho" type="orig" place="foot text">蜜＋（經）【宋】</note><app n="0161005"><lem>蜜</lem><rdg wit="【宋】" resp="Taisho">蜜經</rdg></app></title>歎等品第四</head>
 <lb n="0161a13"/><p>於是賢者舍利弗。摩訶目揵連。大迦<app><lem resp="CBETA.maha" cf1="K05_p0548a22 棄" cf2="Q05_p0111c15 葉">葉</lem><rdg wit="【大】">棄</rdg></app>。此
 <lb n="0161a14"/>等及餘無數聖通明達比丘及
@@ -1453,7 +1450,7 @@ add cvs log
 <lb n="0161b29"/>般若波羅蜜。是故舍利弗。菩薩摩訶薩安一
 <pb ed="T" id="T08.0222.0161c" n="0161c"/>
 <lb n="0161c01"/>切眾生之類。</p><note n="0161017" resp="Taisho" type="orig" place="foot text">卷第三終，＋（光明皇后願文）【聖】</note><note n="0161017" resp="CBETA" type="mod"><todo type="a"/>卷第三終，＋（光明皇后願文）【聖】</note>◎</div1>
-<lb n="0161c02"/><div1><mulu label="5 授決品" level="1" type="品" n="6"></mulu><head><title>◎<note n="0161018" resp="Taisho" type="orig" place="foot text">卷第四首【聖】</note><note n="0161018" resp="CBETA" type="mod"><todo type="a"/>卷第四首【聖】</note>摩訶般若波羅蜜</title>授決品第五</head>
+<lb n="0161c02"/><div1 type="pin"><mulu label="5 授決品" level="1" type="品" n="6"></mulu><head><title>◎<note n="0161018" resp="Taisho" type="orig" place="foot text">卷第四首【聖】</note><note n="0161018" resp="CBETA" type="mod"><todo type="a"/>卷第四首【聖】</note>摩訶般若波羅蜜</title>授決品第五</head>
 <lb n="0161c03"/><p>於是世尊即出舌本。覆三千大千世界。從其
 <lb n="0161c04"/>舌本出無央數光明之耀。照於東方諸佛世
 <lb n="0161c05"/>界。應時東方江河沙等諸佛國土。而<app type="＊" source="0156018"><lem>無央
@@ -1505,12 +1502,9 @@ add cvs log
 <lb n="0162a21"/>忍。過於當來六十八億劫。當得作佛號曰覺
 <lb n="0162a22"/>華怛薩阿竭阿羅訶三耶三佛明行成為善逝
 <lb n="0162a23"/>世間解無上士道法御天人師號佛世尊。劫
-<lb n="0162a24"/>名華事。世界曰<note n="0162002" resp="Taisho" type="orig" place="foot text">嚴華＝華嚴【三】【宮】</note><note n="0162002" resp="CBETA" type="mod">嚴華＝華嚴【宋】【元】【明】【宮】</note><app n="0162002"><lem>嚴華</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">華嚴</rdg></app>。
-</p></div1>
-<lb n="0162a25"/><div1>
-<mulu label="6 分別空品" level="1" type="品" n="7"></mulu><head><anchor id="fxT08p0162a03"/><title>摩訶般若波羅<anchor id="fxT08p0162a04"/>蜜</title>分別空品第六</head>
-<lb n="0162a26"/><p>爾時佛告賢者須菩提。豈
-<note n="0162003" resp="Taisho" type="orig" place="foot text">非＝能【三】【宮】【聖】</note><note n="0162003" resp="CBETA" type="mod">非＝能【宋】【元】【明】【宮】【聖】</note><app n="0162003"><lem>非</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">能</rdg></app>堪任。為諸菩
+<lb n="0162a24"/>名華事。世界曰<note n="0162002" resp="Taisho" type="orig" place="foot text">嚴華＝華嚴【三】【宮】</note><note n="0162002" resp="CBETA" type="mod">嚴華＝華嚴【宋】【元】【明】【宮】</note><app n="0162002"><lem>嚴華</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">華嚴</rdg></app>。</p></div1>
+<lb n="0162a25"/><div1 type="pin"><mulu label="6 分別空品" level="1" type="品" n="7"></mulu><head><anchor id="fxT08p0162a03"/><title>摩訶般若波羅<anchor id="fxT08p0162a04"/>蜜</title>分別空品第六</head>
+<lb n="0162a26"/><p>爾時佛告賢者須菩提。豈<note n="0162003" resp="Taisho" type="orig" place="foot text">非＝能【三】【宮】【聖】</note><note n="0162003" resp="CBETA" type="mod">非＝能【宋】【元】【明】【宮】【聖】</note><app n="0162003"><lem>非</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">能</rdg></app>堪任。為諸菩
 <lb n="0162a27"/>薩摩訶薩緣發般若波羅蜜。菩薩摩訶薩因
 <lb n="0162a28"/>此得生。於是諸菩薩摩訶薩眾聲聞及天人
 <lb n="0162a29"/>各心念言。今須菩提自以辯才。為諸菩薩摩
@@ -1781,16 +1775,15 @@ add cvs log
 <lb n="0165a09"/>薩摩訶薩於一切法而無所得。行般若波羅
 <lb n="0165a10"/>蜜乎。佛告須菩提。菩薩摩訶薩一切所<note n="0165001" resp="Taisho" type="orig" place="foot text">行＝得【宮】</note><app n="0165001"><lem>行</lem><rdg wit="【宮】" resp="Taisho">得</rdg></app>般
 <lb n="0165a11"/>若波羅蜜。彼亦不得般若波羅蜜。亦復不得
-<lb n="0165a12"/>菩薩之心。其是為今<note n="0165002" resp="Taisho" type="orig" place="foot text">設＝說【聖】</note><app n="0165002"><lem>設</lem><rdg wit="【聖】" resp="Taisho">說</rdg></app>菩薩之為&CB00330;命。</p><note n="0165003" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0165003" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎
+<lb n="0165a12"/>菩薩之心。其是為今<note n="0165002" resp="Taisho" type="orig" place="foot text">設＝說【聖】</note><app n="0165002"><lem>設</lem><rdg wit="【聖】" resp="Taisho">說</rdg></app>菩薩之為&CB00330;命。</p><note n="0165003" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0165003" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎</div1>
 <lb n="0165a13"/><juan fun="close" n="002"><jhead><title>光讚經</title>卷第<note n="0165004" resp="Taisho" type="orig" place="foot text">二＝三【三】</note><note n="0165004" resp="CBETA" type="mod">二＝三【宋】【元】【明】</note><app n="0165004"><lem>二</lem><rdg wit="【宋】【元】【明】" resp="Taisho">三</rdg></app></jhead></juan>
-</div1><div1>
 <lb n="0165a14"/>
 <milestone unit="juan" n="3"></milestone>
 <lb n="0165a15"/>
 <lb n="0165a16"/><juan fun="open" n="003"><mulu type="卷" n="003"></mulu><jhead><title>光<note n="0165005" resp="Taisho" type="orig" place="foot text">讚＋（般若）【宋】【宮】，讚＋（般若波羅蜜）【元】【明】</note><app n="0165005"><lem>讚</lem><rdg wit="【宋】【宮】" resp="Taisho">讚般若</rdg><rdg wit="【元】【明】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第<note n="0165006" resp="Taisho" type="orig" place="foot text">三＝四【三】</note><note n="0165006" resp="CBETA" type="mod">三＝四【宋】【元】【明】</note><app n="0165006"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">四</rdg></app></jhead></juan>
 <lb n="0165a17"/>
 <lb n="0165a18"/><byline>西晉三藏竺法護譯</byline>
-<lb n="0165a19"/><mulu label="7 了空品" level="1" type="品" n="7"></mulu>
+<lb n="0165a19"/><div1 type="pin"><mulu label="7 了空品" level="1" type="品" n="7"></mulu>
 <head>◎<note n="0165007" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0165007" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note><title>摩訶般若波羅蜜</title>了空品第七</head>
 <lb n="0165a20"/><p>於是須菩提白佛言。菩薩摩訶薩欲具足檀
 <lb n="0165a21"/>波羅蜜。當學般若波羅蜜。欲具足尸波羅蜜
@@ -1954,12 +1947,9 @@ add cvs log
 <lb n="0166c26"/><note n="0166018" resp="Taisho" type="orig" place="foot text">當常＝常當【聖】</note><app n="0166018"><lem>當常</lem><rdg wit="【聖】" resp="Taisho">常當</rdg></app>思念。欲學菩薩地者。當學般若波羅
 <lb n="0166c27"/>蜜當聞當受持諷<app type="＊" source="0166016"><lem>誦</lem><rdg resp="Taisho" wit="【宮】">訟</rdg></app>常當思念。所以者何。此
 <lb n="0166c28"/>般若波羅蜜者。廣普具足致于三乘者。謂菩
-<lb n="0166c29"/>薩聲聞辟支佛。菩薩悉學了無所罣礙也。</p><note n="0166019" resp="Taisho" type="orig" place="foot text">第四卷終＋（光明皇后願文）【聖】</note><note n="0166019" resp="CBETA" type="mod"><todo type="a"/>第四卷終＋（光明皇后願文）【聖】</note>◎
-<pb ed="T" id="T08.0222.0167a" n="0167a"/></div1>
-<lb n="0167a01"/><div1>
-<mulu label="8 假號品" level="1" type="品" n="9"></mulu><head>
-◎<note n="0167001" resp="Taisho" type="orig" place="foot text">卷第五首【聖】</note><note n="0167001" resp="CBETA" type="mod"><todo type="a"/>卷第五首【聖】</note><title>
-<anchor id="fxT08p0167a01"/>摩訶般若波羅<anchor id="fxT08p0167a02"/>蜜</title>假號品第八</head>
+<lb n="0166c29"/>薩聲聞辟支佛。菩薩悉學了無所罣礙也。</p><note n="0166019" resp="Taisho" type="orig" place="foot text">第四卷終＋（光明皇后願文）【聖】</note><note n="0166019" resp="CBETA" type="mod"><todo type="a"/>第四卷終＋（光明皇后願文）【聖】</note>◎</div1>
+<pb ed="T" id="T08.0222.0167a" n="0167a"/>
+<lb n="0167a01"/><div1 type="pin"><mulu label="8 假號品" level="1" type="品" n="9"></mulu><head>◎<note n="0167001" resp="Taisho" type="orig" place="foot text">卷第五首【聖】</note><note n="0167001" resp="CBETA" type="mod"><todo type="a"/>卷第五首【聖】</note><title><anchor id="fxT08p0167a01"/>摩訶般若波羅<anchor id="fxT08p0167a02"/>蜜</title>假號品第八</head>
 <lb n="0167a02"/><p>於是賢者須菩提白佛言。唯然世尊。如聖所
 <lb n="0167a03"/>云。菩薩摩訶薩我亦不見亦不能得。行者如
 <lb n="0167a04"/>我不見不<note n="0167002" resp="Taisho" type="orig" place="foot text">行＝得【三】【宮】</note><note n="0167002" resp="CBETA" type="mod">行＝得【宋】【元】【明】【宮】</note><app n="0167002"><lem>行</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">得</rdg></app>。菩薩摩訶薩行般若波羅蜜者
@@ -2339,19 +2329,17 @@ add cvs log
 <note n="0171001" resp="Taisho" type="orig" place="foot text">遊＝至【明】</note><app n="0171001"><lem>遊</lem><rdg wit="【明】" resp="Taisho">至</rdg></app>一佛國。教化眾
 <lb n="0171a15"/>生嚴淨佛土。常懷專一不離諸佛世尊。至于
 <lb n="0171a16"/>逮得阿耨多羅三耶三佛。成至阿惟三佛。如
-<lb n="0171a17"/>是菩薩摩訶薩為行般若波羅蜜。</p>
-<lb n="0171a18"/>
-<juan fun="close" n="003"><jhead><title>光<note n="0171002" resp="Taisho" type="orig" place="foot text">讚＋（般若波羅蜜）【三】【宮】【聖】</note><note n="0171002" resp="CBETA" type="mod">讚＋（般若波羅蜜）【宋】【元】【明】【宮】【聖】</note><app n="0171002"><lem>讚</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第<note n="0171003" resp="Taisho" type="orig" place="foot text">三＝四【三】，五＋（光明皇后願文）【聖】</note><note n="0171003" resp="CBETA" type="mod">三＝四【宋】【元】【明】，<todo type="i"/>五＋（光明皇后願文）【聖】</note><app n="0171003"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">四</rdg></app></jhead></juan></div1>
+<lb n="0171a17"/>是菩薩摩訶薩為行般若波羅蜜。</p></div1>
+<lb n="0171a18"/><juan fun="close" n="003"><jhead><title>光<note n="0171002" resp="Taisho" type="orig" place="foot text">讚＋（般若波羅蜜）【三】【宮】【聖】</note><note n="0171002" resp="CBETA" type="mod">讚＋（般若波羅蜜）【宋】【元】【明】【宮】【聖】</note><app n="0171002"><lem>讚</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第<note n="0171003" resp="Taisho" type="orig" place="foot text">三＝四【三】，五＋（光明皇后願文）【聖】</note><note n="0171003" resp="CBETA" type="mod">三＝四【宋】【元】【明】，<todo type="i"/>五＋（光明皇后願文）【聖】</note><app n="0171003"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">四</rdg></app></jhead></juan>
 <lb n="0171a19"/>
 <milestone unit="juan" n="4"></milestone>
-<lb n="0171a20"/><div1>
+<lb n="0171a20"/>
 <lb n="0171a21"/><juan fun="open" n="004"><mulu type="卷" n="004"></mulu><jhead><title><note n="0171004" resp="Taisho" type="orig" place="foot text">（般若波羅蜜）＋光【聖】</note><app n="0171004"><lem>光</lem><rdg wit="【聖】" resp="Taisho">般若波羅蜜光</rdg></app>
 <note n="0171005" resp="Taisho" type="orig" place="foot text">讚＋（般若）【宋】【宮】，（般若波羅蜜）【元】【明】</note><app n="0171005"><lem>讚</lem><rdg wit="【宋】【宮】" resp="Taisho">讚般若</rdg><rdg wit="【元】【明】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第
 <note n="0171006" resp="Taisho" type="orig" place="foot text">四＝五【三】，六【聖】</note><note n="0171006" resp="CBETA" type="mod">四＝五【宋】【元】【明】，＝六【聖】</note><app n="0171006"><lem>四</lem><rdg wit="【宋】【元】【明】" resp="Taisho">五</rdg><rdg wit="【聖】" resp="Taisho">六</rdg></app></jhead></juan>
 <lb n="0171a22"/>
 <lb n="0171a23"/><byline><note n="0171007" resp="Taisho" type="orig" place="foot text">〔西晉…譯〕八字－【聖】</note><app n="0171007" word-count="8"><lem>西晉三藏竺法護譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></byline>
-<lb n="0171a24"/>
-<mulu label="9 行品" level="1" type="品" n="10"></mulu><head><anchor id="fxT08p0171a03"/><title>摩訶般若波羅蜜</title>行品第九
+<lb n="0171a24"/><div1 type="pin"><mulu label="9 行品" level="1" type="品" n="10"></mulu><head><anchor id="fxT08p0171a03"/><title>摩訶般若波羅蜜</title>行品第九
 </head>
 <lb n="0171a25"/><p>於是賢者須菩提白佛言唯天中天。假使菩
 <lb n="0171a26"/>薩摩訶薩。無漚&CB00378;拘舍羅。行般若波羅蜜。
@@ -2640,8 +2628,7 @@ add cvs log
 <lb n="0174b08"/>得薩芸若得無<note n="0174005" resp="Taisho" type="orig" place="foot text">〔所〕－【聖】</note><app n="0174005"><lem>所</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>得。舍利弗白佛言。何謂
 <lb n="0174b09"/>無所得。世尊答曰。於內亦空於外亦空內外
 <lb n="0174b10"/>亦空。一切法空。</p></div1>
-<lb n="0174b11"/><div1>
-<mulu label="10 幻品" level="1" type="品" n="11"></mulu><head><title><anchor id="fxT08p0174b02"/>摩訶般若波羅</title><anchor id="fxT08p0174b03"/>蜜幻品第<note n="0174006" resp="Taisho" type="orig" place="foot text">十＋（之上）【元】【明】</note><app n="0174006"><lem>十</lem><rdg wit="【元】【明】" resp="Taisho">十之上</rdg></app></head>
+<lb n="0174b11"/><div1 type="pin"><mulu label="10 幻品" level="1" type="品" n="11"></mulu><head><title><anchor id="fxT08p0174b02"/>摩訶般若波羅</title><anchor id="fxT08p0174b03"/>蜜幻品第<note n="0174006" resp="Taisho" type="orig" place="foot text">十＋（之上）【元】【明】</note><app n="0174006"><lem>十</lem><rdg wit="【元】【明】" resp="Taisho">十之上</rdg></app></head>
 <lb n="0174b12"/><p>於是賢者須菩提白佛言。唯然世尊。假使問
 <lb n="0174b13"/>者。此幻士學般若波羅蜜。欲得薩芸若。問
 <lb n="0174b14"/>者如此以何報答。又斯幻士。學檀波羅蜜尸
@@ -2973,15 +2960,15 @@ add cvs log
 <lb n="0178a05"/>不共諸佛之法。不為解說。如是之法魔所興
 <lb n="0178a06"/>事而不分別。當知是菩薩摩訶薩惡師。是菩
 <lb n="0178a07"/>薩摩訶薩所以惡師。有十二緣常當棄之。何
-<lb n="0178a08"/>況其餘。</p><note n="0178001" resp="Taisho" type="orig" place="foot text">不分卷【三】【聖】，〔光讚經卷第四…譯〕－【三】【聖】</note><note n="0178001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【聖】，〔光讚經卷第四…譯〕－【宋】【元】【明】【聖】</note>◎
-<lb n="0178a09"/><juan fun="close" n="004"><jhead><title>光<note n="0178002" resp="Taisho" type="orig" place="foot text">讚＋（般若波羅蜜）【宮】＊</note><app n="0178002"><lem>讚</lem><rdg wit="【宮】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第四</jhead></juan></div1>
+<lb n="0178a08"/>況其餘。</p><note n="0178001" resp="Taisho" type="orig" place="foot text">不分卷【三】【聖】，〔光讚經卷第四…譯〕－【三】【聖】</note><note n="0178001" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【聖】，〔光讚經卷第四…譯〕－【宋】【元】【明】【聖】</note>◎</div1>
+<lb n="0178a09"/><juan fun="close" n="004"><jhead><title>光<note n="0178002" resp="Taisho" type="orig" place="foot text">讚＋（般若波羅蜜）【宮】＊</note><app n="0178002"><lem>讚</lem><rdg wit="【宮】" resp="Taisho">讚般若波羅蜜</rdg></app>經</title>卷第四</jhead></juan>
 <lb n="0178a10"/>
 <milestone unit="juan" n="5"></milestone>
-<lb n="0178a11"/><div1>
+<lb n="0178a11"/>
 <lb n="0178a12"/><juan fun="open" n="005"><mulu type="卷" n="005"></mulu><jhead><title>光<anchor id="fxT08p0178a03"/>讚經</title>卷第五</jhead></juan>
 <lb n="0178a13"/>
 <lb n="0178a14"/><byline>西晉三藏竺法護譯</byline>
-<lb n="0178a15"/><mulu label="11 摩訶薩品" level="1" type="品" n="11"></mulu><head>◎<note n="0178003" resp="Taisho" type="orig" place="foot text">不分卷【三】【聖】</note><note n="0178003" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【聖】</note><title><anchor id="fxT08p0178a04"/>摩訶般若波羅<anchor id="fxT08p0178a05"/>蜜</title>摩訶薩品第十一</head>
+<lb n="0178a15"/><div1 type="pin"><mulu label="11 摩訶薩品" level="1" type="品" n="11"></mulu><head>◎<note n="0178003" resp="Taisho" type="orig" place="foot text">不分卷【三】【聖】</note><note n="0178003" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【聖】</note><title><anchor id="fxT08p0178a04"/>摩訶般若波羅<anchor id="fxT08p0178a05"/>蜜</title>摩訶薩品第十一</head>
 <lb n="0178a16"/><p>於是賢者須菩提白佛言。唯然天中天。何故
 <lb n="0178a17"/>號菩薩之<note n="0178004" resp="Taisho" type="orig" place="foot text">誼＝證【三】【宮】</note><note n="0178004" resp="CBETA" type="mod">誼＝證【宋】【元】【明】【宮】</note><app n="0178004"><lem>誼</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">證</rdg></app>。何所趣乎。佛告須菩提。無
 <lb n="0178a18"/>誼之句為菩薩號。所以者何。其菩薩者。無
@@ -3278,8 +3265,7 @@ add cvs log
 <lb n="0181b09"/>菩提。菩薩摩訶薩住<note n="0181009" resp="Taisho" type="orig" place="foot text">於＝此【聖】</note><app n="0181009"><lem>於</lem><rdg wit="【聖】" resp="Taisho">此</rdg></app>法已。在於積聚<note n="0181010" resp="Taisho" type="orig" place="foot text">逮＝建【元】</note><app n="0181010"><lem>逮</lem><rdg wit="【元】" resp="Taisho">建</rdg></app>
 <lb n="0181b10"/>得究竟。而為最尊所成就故。謂摩訶薩為摩
 <lb n="0181b11"/>訶薩。</p><note n="0181011" resp="Taisho" type="orig" place="foot text">卷第六終【三】，＋（光明皇后願文）【聖】</note><note n="0181011" resp="CBETA" type="mod"><todo type="a"/>卷第六終【宋】【元】【明】，＋（光明皇后願文）【聖】</note>◎</div1>
-<lb n="0181b12"/><div1>
-<mulu label="12 等無等品" level="1" type="品" n="13"></mulu><head>
+<lb n="0181b12"/><div1 type="pin"><mulu label="12 等無等品" level="1" type="品" n="13"></mulu><head>
 ◎<note n="0181012" resp="Taisho" type="orig" place="foot text">卷第七首【三】【聖】</note><note n="0181012" resp="CBETA" type="mod"><todo type="a"/>卷第七首【宋】【元】【明】【聖】</note><title><anchor id="fxT08p0181b02"/>摩訶般若波羅<anchor id="fxT08p0181b03"/>蜜</title>等無等品第十二</head>
 <lb n="0181b13"/><p>爾時賢者舍利弗白佛。唯天中天。我為堪任
 <lb n="0181b14"/>講摩訶薩義乎。所因謂何為摩訶薩者。世尊
@@ -3373,8 +3359,7 @@ add cvs log
 <lb n="0182b11"/>佛心所不及也。亦不想念聲聞辟支佛。無所
 <lb n="0182b12"/>依<note n="0182013" resp="Taisho" type="orig" place="foot text">猗＝倚【元】【明】</note><app n="0182013"><lem>猗</lem><rdg wit="【元】【明】" resp="Taisho">倚</rdg></app>不隨顛倒。亦無所得。是故<note n="0182014" resp="Taisho" type="orig" place="foot text">逮＝途【元】</note><app n="0182014"><lem>逮</lem><rdg wit="【元】" resp="Taisho">途</rdg></app>成一切
 <lb n="0182b13"/>諸法。</p></div1>
-<lb n="0182b14"/><div1>
-<mulu label="13 大乘品" level="1" type="品" n="14"></mulu><head><anchor id="fxT08p0182b02"/><title>摩訶般若波羅<anchor id="fxT08p0182b03"/>蜜</title>大乘品第十三</head>
+<lb n="0182b14"/><div1 type="pin"><mulu label="13 大乘品" level="1" type="品" n="14"></mulu><head><anchor id="fxT08p0182b02"/><title>摩訶般若波羅<anchor id="fxT08p0182b03"/>蜜</title>大乘品第十三</head>
 <lb n="0182b15"/><p>於是賢者分耨文陀尼弗白佛言。唯天中天。
 <lb n="0182b16"/>我應堪任講論摩訶薩號義之所趣乎。世尊
 <lb n="0182b17"/>曰。應所論也。分耨文陀尼弗言。摩訶僧那
@@ -3589,16 +3574,15 @@ add cvs log
 <lb n="0184c16"/>為不在無為。不在有漏不在無漏。於此法慧
 <lb n="0184c17"/>而得自由。悉<note n="0184007" resp="Taisho" type="orig" place="foot text">知＝如【宮】</note><app n="0184007"><lem>知</lem><rdg wit="【宮】" resp="Taisho">如</rdg></app>世俗慧度世慧。不為不及。
 <lb n="0184c18"/>悉知有為無為法。不為不及。亦無所得不墮
-<lb n="0184c19"/>顛倒。是為菩薩摩訶薩大乘。</p><note n="0184008" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…譯〕二十字－【三】</note><note n="0184008" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…譯〕二十字－【宋】【元】【明】</note>◎
-<lb n="0184c20"/><juan fun="close" n="005"><jhead><title>光讚經</title>卷第五</jhead></juan></div1>
+<lb n="0184c19"/>顛倒。是為菩薩摩訶薩大乘。</p><note n="0184008" resp="Taisho" type="orig" place="foot text">不分卷【三】，〔光讚…譯〕二十字－【三】</note><note n="0184008" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】，〔光讚…譯〕二十字－【宋】【元】【明】</note>◎</div1>
+<lb n="0184c20"/><juan fun="close" n="005"><jhead><title>光讚經</title>卷第五</jhead></juan>
 <lb n="0184c21"/>
 <milestone unit="juan" n="6"></milestone>
-<lb n="0184c22"/><div1>
+<lb n="0184c22"/>
 <lb n="0184c23"/><juan fun="open" n="006"><mulu type="卷" n="006"></mulu><jhead><title>光讚經</title>卷第六</jhead></juan>
 <lb n="0184c24"/>
 <lb n="0184c25"/><byline>西晉三藏竺法護譯</byline>
-<lb n="0184c26"/>
-<mulu label="14 乘大乘品" level="1" type="品" n="15"></mulu><head><note n="0184009" resp="Taisho" type="orig" place="foot text">不分卷【三】</note><note n="0184009" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】</note>◎<title>摩訶般若波羅<anchor id="fxT08p0184c01"/>蜜</title>乘大乘品第十四
+<lb n="0184c26"/><div1 type="pin"><mulu label="14 乘大乘品" level="1" type="品" n="15"></mulu><head><note n="0184009" resp="Taisho" type="orig" place="foot text">不分卷【三】</note><note n="0184009" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】</note>◎<title>摩訶般若波羅<anchor id="fxT08p0184c01"/>蜜</title>乘大乘品第十四
 </head>
 <lb n="0184c27"/><p>賢者舍利弗問分耨文陀尼弗。云何菩薩摩
 <lb n="0184c28"/>訶薩乘于摩訶衍。分耨謂舍利弗。唯賢者。
@@ -3653,7 +3637,7 @@ add cvs log
 <lb n="0185b17"/>訶薩在某世界。乘摩訶衍得薩芸若慧。已得
 <lb n="0185b18"/>薩芸若慧則轉法輪。是為舍利弗菩薩摩訶
 <lb n="0185b19"/>薩乘摩訶衍也。</p></div1>
-<lb n="0185b20"/><div1><mulu label="15 無縛品" level="1" type="品" n="15"></mulu>
+<lb n="0185b20"/><div1 type="pin"><mulu label="15 無縛品" level="1" type="品" n="15"></mulu>
 <head><title>◎<note n="0185005" resp="Taisho" type="orig" place="foot text">第九卷首【聖】</note><note n="0185005" resp="CBETA" type="mod"><todo type="a"/>第九卷首【聖】</note>摩訶般若波羅<anchor id="fxT08p0185b01"/>蜜</title>無縛品第十<note n="0185006" resp="Taisho" type="orig" place="foot text">五＋（下）【明】</note><app n="0185006"><lem>五</lem><rdg wit="【明】" resp="Taisho">五下</rdg></app></head>
 <lb n="0185b21"/><p>須菩提白佛言。所謂摩訶僧那僧涅。菩薩摩
 <lb n="0185b22"/>訶薩被大德鎧。何謂菩薩摩訶薩僧那僧涅
@@ -3957,7 +3941,7 @@ add cvs log
 <lb n="0188c18"/>了一切諸正覺法。從虛無起。寂寞恬怕與無
 <lb n="0188c19"/>從生。是為分耨菩薩摩訶薩無著無縛無脫
 <lb n="0188c20"/>摩<note n="0188022" resp="Taisho" type="orig" place="foot text">訶＋（薩）【聖】</note><app n="0188022"><lem>訶</lem><rdg wit="【聖】" resp="Taisho">訶薩</rdg></app>僧那僧涅也。</p></div1>
-<lb n="0188c21"/><div1><mulu label="16 三昧品" level="1" type="品" n="17"></mulu><head><anchor id="fxT08p0188c02"/><title>摩訶般若波羅<anchor id="fxT08p0188c03"/>蜜</title>三昧品第十六</head>
+<lb n="0188c21"/><div1 type="pin"><mulu label="16 三昧品" level="1" type="品" n="17"></mulu><head><anchor id="fxT08p0188c02"/><title>摩訶般若波羅<anchor id="fxT08p0188c03"/>蜜</title>三昧品第十六</head>
 <lb n="0188c22"/><p>賢者須菩提白佛言。唯天中天。何謂菩薩摩
 <lb n="0188c23"/>訶薩摩訶<note n="0188023" resp="Taisho" type="orig" place="foot text">〔衍〕－【三】【宮】</note><note n="0188023" resp="CBETA" type="mod">〔衍〕－【宋】【元】【明】【宮】</note><app n="0188023"><lem>衍</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>僧那。何謂菩薩摩訶薩摩訶衍。
 <lb n="0188c24"/>學大乘者何所誓志於衍。衍何所住從何生。
@@ -4341,16 +4325,15 @@ add cvs log
 <lb n="0193a07"/>三昧。彼何謂<note n="0193001" resp="Taisho" type="orig" place="foot text">脫＝悅【明】</note><app n="0193001"><lem>脫</lem><rdg wit="【明】" resp="Taisho">悅</rdg></app><note n="0193002" resp="Taisho" type="orig" place="foot text">〔虛〕－【三】</note><note n="0193002" resp="CBETA" type="mod">〔虛〕－【宋】【元】【明】</note><app n="0193002"><lem>虛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>無無色三昧。住是定意
 <lb n="0193a08"/>時。逮得虛空無為無數一切法寂。是謂脫虛
 <lb n="0193a09"/>無無色三昧。是為須菩提菩薩摩訶薩般若
-<lb n="0193a10"/>波羅蜜摩訶衍也。</p>
-<lb n="0193a11"/><juan fun="close" n="006"><jhead><title>光<anchor id="fxT08p0193a01"/>讚經</title>卷第<note n="0193003" resp="Taisho" type="orig" place="foot text">六＝八【三】</note><note n="0193003" resp="CBETA" type="mod">六＝八【宋】【元】【明】</note><app n="0193003"><lem>六</lem><rdg wit="【宋】【元】【明】" resp="Taisho">八</rdg></app></jhead></juan></div1>
+<lb n="0193a10"/>波羅蜜摩訶衍也。</p></div1>
+<lb n="0193a11"/><juan fun="close" n="006"><jhead><title>光<anchor id="fxT08p0193a01"/>讚經</title>卷第<note n="0193003" resp="Taisho" type="orig" place="foot text">六＝八【三】</note><note n="0193003" resp="CBETA" type="mod">六＝八【宋】【元】【明】</note><app n="0193003"><lem>六</lem><rdg wit="【宋】【元】【明】" resp="Taisho">八</rdg></app></jhead></juan>
 <lb n="0193a12"/>
 <milestone unit="juan" n="7"></milestone>
-<lb n="0193a13"/><div1>
+<lb n="0193a13"/>
 <lb n="0193a14"/><juan fun="open" n="007"><mulu type="卷" n="007"></mulu><jhead><title>光<anchor id="fxT08p0193a02"/>讚經</title>卷第<note n="0193004" resp="Taisho" type="orig" place="foot text">七＝九【三】</note><note n="0193004" resp="CBETA" type="mod">七＝九【宋】【元】【明】</note><app n="0193004"><lem>七</lem><rdg wit="【宋】【元】【明】" resp="Taisho">九</rdg></app></jhead></juan>
 <lb n="0193a15"/>
 <lb n="0193a16"/><byline>西晉三藏竺法護譯</byline>
-<lb n="0193a17"/>
-<mulu label="17 觀品" level="1" type="品" n="18"></mulu><head><anchor id="fxT08p0193a03"/><title>摩訶般若波羅<anchor id="fxT08p0193a04"/>蜜</title>觀品第十七</head>
+<lb n="0193a17"/><div1 type="pin"><mulu label="17 觀品" level="1" type="品" n="18"></mulu><head><anchor id="fxT08p0193a03"/><title>摩訶般若波羅<anchor id="fxT08p0193a04"/>蜜</title>觀品第十七</head>
 <lb n="0193a18"/><p>佛告須菩提。菩薩摩訶薩摩訶衍者。謂四意
 <lb n="0193a19"/>止。何謂四意止。內自觀身不與身俱。亦不想
 <lb n="0193a20"/>念亦不得身。觀于外身不與身俱。亦不想念
@@ -4642,8 +4625,7 @@ add cvs log
 <lb n="0196b04"/>其有菩薩摩訶薩知是一切因緣文字方便分
 <lb n="0196b05"/>別。則不復著音聲言說。則能次第曉了諸
 <lb n="0196b06"/>法之所歸趣也。</p></div1>
-<lb n="0196b07"/><div1>
-<mulu label="18 蜜十住品" level="1" type="品" n="19"></mulu><head><anchor id="fxT08p0196b01"/><title>摩訶般若波羅<anchor id="fxT08p0196b02"/>蜜</title>十住品第十八</head>
+<lb n="0196b07"/><div1 type="pin"><mulu label="18 蜜十住品" level="1" type="品" n="19"></mulu><head><anchor id="fxT08p0196b01"/><title>摩訶般若波羅<anchor id="fxT08p0196b02"/>蜜</title>十住品第十八</head>
 <lb n="0196b08"/><p>佛告須菩提。如汝所言。何謂菩薩摩訶薩為
 <lb n="0196b09"/>摩訶衍三<note n="0196013" resp="Taisho" type="orig" place="foot text">拔＝跋【明】＊</note><note n="0196013" resp="CBETA" type="mod"><todo type="＊"/>拔＝跋【明】＊</note><app n="0196013"><lem>拔</lem><rdg wit="【明】" resp="Taisho">跋</rdg></app>致。如是須菩提。菩薩摩訶薩
 <lb n="0196b10"/>行六波羅蜜。入於道地。云何菩薩入於道地。
@@ -4882,22 +4864,15 @@ add cvs log
 <lb n="0199a02"/>之地所作辦地。離於聲聞辟支佛地菩薩之
 <lb n="0199a03"/>地。是為菩薩摩訶薩入第九住於佛地。是為
 <lb n="0199a04"/>菩薩摩訶薩第十行住。是為菩薩摩訶<note n="0199002" resp="Taisho" type="orig" place="foot text">薩＝衍【三】【宮】，薩＋（行）【聖】</note><note n="0199002" resp="CBETA" type="mod">薩＝衍【宋】【元】【明】【宮】，薩＋（行）【聖】</note><app n="0199002"><lem>薩</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">衍</rdg><rdg wit="【聖】" resp="Taisho">薩行</rdg></app>三
-<lb n="0199a05"/>拔<note n="0199003" resp="Taisho" type="orig" place="foot text">致＋（光明皇后願文）【聖】</note><note n="0199003" resp="CBETA" type="mod">致字下聖本有光明皇后願文</note>致。</p>
+<lb n="0199a05"/>拔<note n="0199003" resp="Taisho" type="orig" place="foot text">致＋（光明皇后願文）【聖】</note><note n="0199003" resp="CBETA" type="mod">致字下聖本有光明皇后願文</note>致。</p></div1>
 <lb n="0199a06"/><juan fun="close" n="007"><jhead><title><note n="0199004" resp="Taisho" type="orig" place="foot text">（般若波羅蜜）＋光【聖】</note><app n="0199004"><lem>光</lem><rdg wit="【聖】" resp="Taisho">般若波羅蜜光</rdg></app><anchor id="fxT08p0199a01"/>讚經</title>卷第<note n="0199005" resp="Taisho" type="orig" place="foot text">七＝九【三】，十一【聖】</note><note n="0199005" resp="CBETA" type="mod">七＝九【宋】【元】【明】，＝十一【聖】</note><app n="0199005"><lem>七</lem><rdg wit="【宋】【元】【明】" resp="Taisho">九</rdg><rdg wit="【聖】" resp="Taisho">十一</rdg></app></jhead></juan>
 <lb n="0199a07"/>
 <milestone unit="juan" n="8"></milestone>
 <lb n="0199a08"/>
-</div1><div1>
-<lb n="0199a09"/>
-<juan fun="open" n="008">
-<mulu type="卷" n="008"></mulu><jhead>
-<note n="0199006" resp="Taisho" type="orig" place="foot text">〔光讚…第八〕－【聖】</note><app n="0199006" word-count="6"><lem><title>光<anchor id="fxT08p0199a02"/>讚經</title>卷第<note n="0199007" resp="Taisho" type="orig" place="foot text">八＝十【三】＊</note><note n="0199007" resp="CBETA" type="mod">八＝十【宋】＊【元】＊【明】＊</note><app n="0199007"><lem>八</lem><rdg wit="【宋】【元】【明】" resp="Taisho">十</rdg></app></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></jhead></juan>
+<lb n="0199a09"/><juan fun="open" n="008"><mulu type="卷" n="008"></mulu><jhead><note n="0199006" resp="Taisho" type="orig" place="foot text">〔光讚…第八〕－【聖】</note><app n="0199006" word-count="6"><lem><title>光<anchor id="fxT08p0199a02"/>讚經</title>卷第<note n="0199007" resp="Taisho" type="orig" place="foot text">八＝十【三】＊</note><note n="0199007" resp="CBETA" type="mod">八＝十【宋】＊【元】＊【明】＊</note><app n="0199007"><lem>八</lem><rdg wit="【宋】【元】【明】" resp="Taisho">十</rdg></app></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></jhead></juan>
 <lb n="0199a10"/>
-<lb n="0199a11"/>
-<byline>
-<note n="0199008" resp="Taisho" type="orig" place="foot text">〔西晉…護譯〕十一字－【聖】</note><app n="0199008" word-count="11"><lem>西晉<note n="0199009" resp="Taisho" type="orig" place="foot text">月支國三藏＝三藏法師【三】【宮】＊</note><note n="0199009" resp="CBETA" type="mod"><todo type="＊"/>月支國三藏＝三藏法師【宋】【元】【明】【宮】＊</note><app n="0199009"><lem>月支國三藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">三藏法師</rdg></app>竺法護譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
-</byline>
-<lb n="0199a12"/><mulu label="19 所因出衍品" level="1" type="品" n="20"></mulu><head><note n="0199010" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宋】【元】【宮】，〔摩訶…蜜〕六字－【明】，（摩訶…蜜）＝般若波羅蜜光讚經【聖】</note><note n="0199010" resp="CBETA" type="mod">摩訶＝光讚【宋】【元】【宮】，〔摩訶般若波羅蜜〕<app><lem resp="CBETA.say">七</lem><rdg wit="【大】">六</rdg></app>字－【明】，（摩訶般若波羅蜜）＝般若波羅蜜光讚經【聖】</note><app n="0199010"><lem><title>摩訶般若波羅蜜</title></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">光讚般若波羅蜜</rdg></app>所因出衍品第十<note n="0199011" resp="Taisho" type="orig" place="foot text">九＋（卷第十二）【聖】</note><app n="0199011"><lem>九</lem><rdg wit="【聖】" resp="Taisho">九卷第十二</rdg></app></head>
+<lb n="0199a11"/><byline><note n="0199008" resp="Taisho" type="orig" place="foot text">〔西晉…護譯〕十一字－【聖】</note><app n="0199008" word-count="11"><lem>西晉<note n="0199009" resp="Taisho" type="orig" place="foot text">月支國三藏＝三藏法師【三】【宮】＊</note><note n="0199009" resp="CBETA" type="mod"><todo type="＊"/>月支國三藏＝三藏法師【宋】【元】【明】【宮】＊</note><app n="0199009"><lem>月支國三藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">三藏法師</rdg></app>竺法護譯</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></byline>
+<lb n="0199a12"/><div1 type="pin"><mulu label="19 所因出衍品" level="1" type="品" n="20"></mulu><head><note n="0199010" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宋】【元】【宮】，〔摩訶…蜜〕六字－【明】，（摩訶…蜜）＝般若波羅蜜光讚經【聖】</note><note n="0199010" resp="CBETA" type="mod">摩訶＝光讚【宋】【元】【宮】，〔摩訶般若波羅蜜〕<app><lem resp="CBETA.say">七</lem><rdg wit="【大】">六</rdg></app>字－【明】，（摩訶般若波羅蜜）＝般若波羅蜜光讚經【聖】</note><app n="0199010"><lem><title>摩訶般若波羅蜜</title></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">光讚般若波羅蜜</rdg></app>所因出衍品第十<note n="0199011" resp="Taisho" type="orig" place="foot text">九＋（卷第十二）【聖】</note><app n="0199011"><lem>九</lem><rdg wit="【聖】" resp="Taisho">九卷第十二</rdg></app></head>
 <lb n="0199a13"/><p>佛告須菩提。如汝所問。何從出衍中。何從住
 <lb n="0199a14"/>衍中。誰為成衍者。從三界生住薩芸若。有本
 <lb n="0199a15"/>無生無甫當生。所以者何。其摩訶衍薩芸若
@@ -5039,9 +5014,7 @@ add cvs log
 <pb ed="T" id="T08.0222.0200c" n="0200c"/>
 <lb n="0200c01"/>摩訶薩於一切悉無所得。則為逮得成摩訶
 <lb n="0200c02"/>衍三<note n="0200010" resp="Taisho" type="orig" place="foot text">拔＝跋【三】【宮】，處【聖】</note><note n="0200010" resp="CBETA" type="mod">拔＝跋【宋】【元】【明】【宮】，＝處【聖】</note><app n="0200010"><lem>拔</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">跋</rdg><rdg wit="【聖】" resp="Taisho">處</rdg></app>致薩芸若慧。</p></div1>
-<lb n="0200c03"/><div1>
-<mulu label="20 無去來品" level="1" type="品" n="21"></mulu><head><anchor id="fxT08p0200c01"/><title>摩訶般若波羅蜜</title>無去來品第二十
-</head>
+<lb n="0200c03"/><div1 type="pin"><mulu label="20 無去來品" level="1" type="品" n="21"></mulu><head><anchor id="fxT08p0200c01"/><title>摩訶般若波羅蜜</title>無去來品第二十</head>
 <lb n="0200c04"/><p>爾時賢者須菩提白佛言。所言摩訶衍者。其
 <lb n="0200c05"/>摩訶衍義之所趣。唯天中天。於天上人中世
 <lb n="0200c06"/>間而最為尊。莫不歸者。衍與空等。譬如虛
@@ -5155,9 +5128,7 @@ add cvs log
 <lb n="0201c24"/>須菩提。此諸眾生不有不無亦不無無。悉了
 <lb n="0201c25"/>是已故。怛薩阿竭轉於法輪。是故眾生至無
 <lb n="0201c26"/>餘界。於泥洹界而般泥洹。</p></div1>
-<lb n="0201c27"/><div1>
-<mulu label="21 衍與空等品" level="1" type="品" n="22"></mulu><head><anchor id="fxT08p0201c02"/><title>摩訶般若波羅蜜</title>衍與空等品第二十一
-</head>
+<lb n="0201c27"/><div1 type="pin"><mulu label="21 衍與空等品" level="1" type="品" n="22"></mulu><head><anchor id="fxT08p0201c02"/><title>摩訶般若波羅蜜</title>衍與空等品第二十一</head>
 <lb n="0201c28"/><p>佛告須菩提。如汝所言。衍與空等者。所說
 <lb n="0201c29"/>至誠。如是如是。衍與空等。譬如虛空不可
 <pb ed="T" id="T08.0222.0202a" n="0202a"/>
@@ -5366,10 +5337,9 @@ add cvs log
 <lb n="0204a22"/>是故天中天。菩薩摩訶薩摩訶衍也。佛告須
 <lb n="0204a23"/>菩提。如是如是。過去<note n="0204003" resp="Taisho" type="orig" place="foot text">未來當＝當來【三】【宮】【聖】</note><note n="0204003" resp="CBETA" type="mod">未來當＝當來【宋】【元】【明】【宮】【聖】</note><app n="0204003"><lem>未來當</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">當來</rdg></app>今現在。怛薩
 <lb n="0204a24"/>阿竭阿羅<note n="0204004" resp="Taisho" type="orig" place="foot text">〔訶〕－【聖】</note><app n="0204004"><lem>訶</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>三耶三佛。悉學是法得薩芸若
-<lb n="0204a25"/>慧。</p><note n="0204005" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0204005" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎
+<lb n="0204a25"/>慧。</p><note n="0204005" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0204005" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎</div1>
 <lb n="0204a26"/><juan fun="close" n="008"><jhead><title>光<anchor id="fxT08p0204a02"/>讚經</title>卷第
 <app type="＊" source="0199007"><lem>八</lem><rdg resp="Taisho" wit="【宋】【元】【明】">十</rdg></app></jhead></juan>
-</div1><div1>
 <pb ed="T" id="T08.0222.0204b" n="0204b"/>
 <lb n="0204b01"/>
 <milestone unit="juan" n="9"></milestone>
@@ -5377,10 +5347,8 @@ add cvs log
 <juan fun="open" n="009"><mulu type="卷" n="009"></mulu><jhead><title>光讚經</title>卷第九</jhead></juan>
 <lb n="0204b03"/>
 <lb n="0204b04"/><byline>西晉<anchor id="fxT08p0204b01"/>月氏國三藏竺法護譯</byline>
-<lb n="0204b05"/><mulu label="22 分曼陀尼弗品" level="1" type="品" n="22"></mulu>
-<head><title><note n="0204006" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宮】＊</note><note n="0204006" resp="CBETA" type="mod"><todo type="＊"/>摩訶＝光讚【宮】＊</note><app n="0204006"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅蜜</title>分曼陀尼弗品第二十
-<lb n="0204b06"/>二
-</head>
+<lb n="0204b05"/><div1 type="pin"><mulu label="22 分曼陀尼弗品" level="1" type="品" n="22"></mulu><head><title><note n="0204006" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宮】＊</note><note n="0204006" resp="CBETA" type="mod"><todo type="＊"/>摩訶＝光讚【宮】＊</note><app n="0204006"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅蜜</title>分曼陀尼弗品第二十
+<lb n="0204b06"/>二</head>
 <lb n="0204b07"/><p>◎<note n="0204007" resp="Taisho" type="orig" place="foot text">不分卷【聖】，此品以下三本俱無</note><note n="0204007" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】，此品以下三本俱無</note>爾時賢者分曼陀尼弗白佛言。尊者須菩
 <lb n="0204b08"/>提。佛使說般若波羅蜜。乃說摩訶衍事為。須
 <lb n="0204b09"/>菩提白佛言。唯我說摩訶衍得無過。天中天。
@@ -5416,9 +5384,7 @@ add cvs log
 <lb n="0204c09"/>無畏諸佛之法亦無有異。是故摩訶衍諸佛
 <lb n="0204c10"/>之法。則無有異亦無有二亦無若干。是故須
 <lb n="0204c11"/>菩提。所說摩訶衍者。則說般若波羅蜜。</p></div1>
-<lb n="0204c12"/><div1>
-<mulu label="23 等三世品" level="1" type="品" n="24"></mulu><head><title><note n="0204017" resp="Taisho" type="orig" place="foot text">〔摩訶〕－【聖】</note><app n="0204017"><lem><anchor id="fxT08p0204c01"/>摩訶</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>般若波羅<note n="0204018" resp="Taisho" type="orig" place="foot text">蜜＋（經）【宮】【聖】</note><app n="0204018"><lem>蜜</lem><rdg wit="【宮】【聖】" resp="Taisho">蜜經</rdg></app></title>等三世品第二十三
-</head>
+<lb n="0204c12"/><div1 type="pin"><mulu label="23 等三世品" level="1" type="品" n="24"></mulu><head><title><note n="0204017" resp="Taisho" type="orig" place="foot text">〔摩訶〕－【聖】</note><app n="0204017"><lem><anchor id="fxT08p0204c01"/>摩訶</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>般若波羅<note n="0204018" resp="Taisho" type="orig" place="foot text">蜜＋（經）【宮】【聖】</note><app n="0204018"><lem>蜜</lem><rdg wit="【宮】【聖】" resp="Taisho">蜜經</rdg></app></title>等三世品第二十三</head>
 <lb n="0204c13"/><p>須菩提白佛言。菩薩亦不念過去亦不念當
 <lb n="0204c14"/>來亦不念中間。色痛痒思想生死識亦無有
 <lb n="0204c15"/>邊。菩薩亦無有邊。色與菩薩俱無所有亦不
@@ -5700,7 +5666,7 @@ add cvs log
 <lb n="0207c20"/>法亦復如是。其言天中天。無所精進。於此
 <lb n="0207c21"/>行中無能計者。五陰六衰六波羅蜜三乘之
 <lb n="0207c22"/>法。上至薩芸若慧。亦復如是。</p><note n="0207009" resp="Taisho" type="orig" place="foot text">第十三卷終【聖】，＋（光明皇后願文）【聖】，＋（般若波羅蜜光讚經卷第十三）【聖】</note><note n="0207009" resp="CBETA" type="mod"><todo type="a"/>第十三卷終【聖】，＋（光明皇后願文）【聖】，＋（般若波羅蜜光讚經卷第十三）【聖】</note>◎</div1>
-<lb n="0207c23"/><div1><mulu label="24 觀行品" level="1" type="品" n="25"></mulu><head><title><note n="0207010" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宮】</note><app n="0207010"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅蜜</title>觀行品第二十四</head>
+<lb n="0207c23"/><div1 type="pin"><mulu label="24 觀行品" level="1" type="品" n="25"></mulu><head><title><note n="0207010" resp="Taisho" type="orig" place="foot text">摩訶＝光讚【宮】</note><app n="0207010"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅蜜</title>觀行品第二十四</head>
 <lb n="0207c24"/>◎<note n="0207011" resp="Taisho" type="orig" place="foot text">第十四卷首。但首缺【聖】</note><note n="0207011" resp="CBETA" type="mod"><todo type="a"/>第十四卷首。但首缺【聖】</note><p>爾時須菩提謂舍利弗言。云何菩薩摩訶
 <lb n="0207c25"/>薩行般若波羅蜜而觀諸法。何謂菩薩行道。
 <lb n="0207c26"/>為一切人而言。菩薩而悉曉了一切道法。於一
@@ -5922,17 +5888,15 @@ add cvs log
 <lb n="0210b02"/>十二那術諸天人民。皆得無所從生法忍。應
 <lb n="0210b03"/>時悉得見十方諸佛皆說般若波羅蜜。說是
 <lb n="0210b04"/>語時。無央數阿僧祇人。皆發阿耨多羅三耶
-<lb n="0210b05"/>三菩<note n="0210007" resp="Taisho" type="orig" place="foot text">（提）＋心【聖】</note><app n="0210007"><lem>心</lem><rdg wit="【聖】" resp="Taisho">提心</rdg></app>。</p><note n="0210008" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0210008" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎
-<lb n="0210b06"/>
-<juan fun="close" n="009"><jhead><title>光讚經</title>卷第九</jhead></juan>
-</div1><div1>
+<lb n="0210b05"/>三菩<note n="0210007" resp="Taisho" type="orig" place="foot text">（提）＋心【聖】</note><app n="0210007"><lem>心</lem><rdg wit="【聖】" resp="Taisho">提心</rdg></app>。</p><note n="0210008" resp="Taisho" type="orig" place="foot text">不分卷【聖】</note><note n="0210008" resp="CBETA" type="mod"><todo type="a"/>不分卷【聖】</note>◎</div1>
+<lb n="0210b06"/><juan fun="close" n="009"><jhead><title>光讚經</title>卷第九</jhead></juan>
 <lb n="0210b07"/>
 <milestone unit="juan" n="10"></milestone>
 <lb n="0210b08"/>
 <juan fun="open" n="010"><mulu type="卷" n="010"></mulu><jhead><title>光讚經</title>卷第十</jhead></juan>
 <lb n="0210b09"/>
 <lb n="0210b10"/><byline>西晉<anchor id="fxT08p0210b01"/>月氏國三藏竺法護譯</byline>
-<lb n="0210b11"/><mulu label="25 問品" level="1" type="品" n="25"></mulu><head><title>◎<note n="0210009" resp="Taisho" type="orig" place="foot text">不分卷【聖】，摩訶＝光讚【宮】＊，（摩訶…蜜）七字＝般若波羅蜜光讚經【聖】</note><note n="0210009a" resp="CBETA" type="mod"><todo type="i"/>不分卷【聖】</note><note n="0210009b" resp="CBETA" type="mod">（摩訶…蜜）七字＝般若波羅蜜光讚經【聖】</note><app n="0210009b"><lem><note n="0210009c" resp="CBETA" type="mod">摩訶＝光讚【宮】＊</note><app n="0210009c"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅<note n="0210010" resp="Taisho" type="orig" place="foot text">蜜＋（經）【宮】＊</note><app n="0210010"><lem>蜜</lem><rdg wit="【宮】" resp="Taisho">蜜經</rdg></app></lem><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經</rdg></app></title>問品第二十五</head>
+<lb n="0210b11"/><div1 type="pin"><mulu label="25 問品" level="1" type="品" n="25"></mulu><head><title>◎<note n="0210009" resp="Taisho" type="orig" place="foot text">不分卷【聖】，摩訶＝光讚【宮】＊，（摩訶…蜜）七字＝般若波羅蜜光讚經【聖】</note><note n="0210009a" resp="CBETA" type="mod"><todo type="i"/>不分卷【聖】</note><note n="0210009b" resp="CBETA" type="mod">（摩訶…蜜）七字＝般若波羅蜜光讚經【聖】</note><app n="0210009b"><lem><note n="0210009c" resp="CBETA" type="mod">摩訶＝光讚【宮】＊</note><app n="0210009c"><lem>摩訶</lem><rdg wit="【宮】" resp="Taisho">光讚</rdg></app>般若波羅<note n="0210010" resp="Taisho" type="orig" place="foot text">蜜＋（經）【宮】＊</note><app n="0210010"><lem>蜜</lem><rdg wit="【宮】" resp="Taisho">蜜經</rdg></app></lem><rdg wit="【聖】" resp="Taisho">般若波羅蜜光讚經</rdg></app></title>問品第二十五</head>
 <lb n="0210b12"/><p>爾時三千大千世界諸釋提<note n="0210011" resp="Taisho" type="orig" place="foot text">桓＝洹【聖】＊</note><app n="0210011"><lem>桓</lem><rdg wit="【聖】" resp="Taisho">洹</rdg></app>因諸四天王。
 <lb n="0210b13"/>諸焰天諸兜術天諸尼摩羅天諸波羅尼蜜天
 <lb n="0210b14"/>諸梵天諸梵迦夷天諸首陀衛天。各各
@@ -6163,8 +6127,7 @@ add cvs log
 <lb n="0212c23"/>復如是。佛道亦復如是。不忍便出去。如是
 <lb n="0212c24"/>諸天子。初發意菩薩摩訶薩住般若波羅蜜。
 <lb n="0212c25"/>無有言說則亦無聞。</p></div1>
-<lb n="0212c26"/><div1>
-<mulu label="26 法師如幻品" level="1" type="品" n="27"></mulu><head><title><app type="＊" source="0210009c"><lem>摩訶</lem><rdg resp="Taisho" wit="【宮】">光讚</rdg></app>般若波羅<app type="＊" source="0210010"><lem>蜜</lem><rdg resp="Taisho" wit="【宮】">蜜經</rdg></app></title>法師如幻品第二十六</head>
+<lb n="0212c26"/><div1 type="pin"><mulu label="26 法師如幻品" level="1" type="品" n="27"></mulu><head><title><app type="＊" source="0210009c"><lem>摩訶</lem><rdg resp="Taisho" wit="【宮】">光讚</rdg></app>般若波羅<app type="＊" source="0210010"><lem>蜜</lem><rdg resp="Taisho" wit="【宮】">蜜經</rdg></app></title>法師如幻品第二十六</head>
 <lb n="0212c27"/><p>爾時諸天子心中念言。尊者須菩提說法乃
 <lb n="0212c28"/>爾。當以何聽。須菩提知諸天子心中所念。
 <lb n="0212c29"/>謂天子言。法師如幻聽者如化。此等所聞亦
@@ -6245,9 +6208,7 @@ add cvs log
 <lb n="0213c14"/>悉無所有故說三乘。菩薩摩訶薩悉了諸空。
 <lb n="0213c15"/>故講說此護於行者。以是之故越一切世。辯
 <lb n="0213c16"/>才最尊而無所著。</p></div1>
-<lb n="0213c17"/><div1>
-<mulu label="27 雨法寶品" level="1" type="品" n="28"></mulu><head><anchor id="fxT08p0213c02"/><title>摩訶般若波羅蜜</title><anchor id="fxT08p0213c03"/>雨法寶品第二十七
-</head>
+<lb n="0213c17"/><div1 type="pin"><mulu label="27 雨法寶品" level="1" type="品" n="28"></mulu><head><anchor id="fxT08p0213c02"/><title>摩訶般若波羅蜜</title><anchor id="fxT08p0213c03"/>雨法寶品第二十七</head>
 <lb n="0213c18"/><p>爾時釋提桓因心自念言。尊者須菩提今所
 <lb n="0213c19"/>說者。為雨法寶三千大千世界諸四天王上
 <lb n="0213c20"/>至阿迦膩吒天。今須菩提所說法為雨法寶。
@@ -6477,6 +6438,6 @@ add cvs log
 <lb n="0216b04"/>沙劫。口說人人。彼寧有人而有所生有所滅
 <lb n="0216b05"/>乎。答曰不也。須菩提。所以者何。人本清
 <lb n="0216b06"/>淨。是故拘翼。人無有底。般若波羅蜜無底。
-<lb n="0216b07"/>菩薩學當作是知。行般若波羅蜜法如是。</p>
+<lb n="0216b07"/>菩薩學當作是知。行般若波羅蜜法如是。</p></div1>
 <lb n="0216b08"/><juan fun="close" n="010"><jhead><title>光讚經</title>卷第十</jhead></juan>
-</div1></body></text></TEI.2>
+</body></text></TEI.2>
