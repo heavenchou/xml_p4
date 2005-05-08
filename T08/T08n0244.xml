@@ -12,13 +12,13 @@
 <author>宋 法賢譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.17 $ (Big5)<date>$Date: 2004/12/18 13:24:17 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.18 $ (Big5)<date>$Date: 2005/05/08 05:10:02 $</date></edition></editionStmt>
 <extent>7卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/12/18 13:24:17 $</date></publicationStmt>
+<date>$Date: 2005/05/08 05:10:02 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 244</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p type="ly" lang="eng">Tripitaka Koreana as provided by Mr. Christian Wittern, CBETA OCR Group, Others</p>
@@ -40,6 +40,9 @@
 </change>
 <!--
 $Log: T08n0244.xml,v $
+Revision 1.18  2005/05/08 05:10:02  saywhat
+行尾的<div1>移到下一行行首; 行首的</div>移到上一行行尾
+
 Revision 1.17  2004/12/18 13:24:17  saywhat
 行尾的<lg>移到下一行行首
 
@@ -71,10 +74,11 @@ add cvs log
 <lb n="0786b16"/>
 <milestone unit="juan" n="1"></milestone>
 <lb n="0786b17"/><head type="no">No. 244 [Nos. 240-243]</head>
-<lb n="0786b18"/><div1 type="pin"><juan fun="open" n="001"><mulu type="卷" n="001"></mulu><jhead><title>佛說最上根本大樂金剛不空<lb n="0786b19"/>三昧大教王經</title>卷第一</jhead></juan>
+<lb n="0786b18"/><juan fun="open" n="001"><mulu type="卷" n="001"></mulu><jhead><title>佛說最上根本大樂金剛不空
+<lb n="0786b19"/>三昧大教王經</title>卷第一</jhead></juan>
 <lb n="0786b20"/><byline><note n="0786008" resp="Taisho" type="orig" place="foot text">（宋）＋西【明】＊</note><app n="0786008"><lem>西</lem><rdg wit="【明】" resp="Taisho">宋西</rdg></app>天<note n="0786009" resp="Taisho" type="orig" place="foot text">〔譯經〕－【明】＊</note><app n="0786009"><lem>譯經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>三藏朝奉大夫試光祿卿
 <lb n="0786b21"/>明教大師<note n="0786010" resp="Taisho" type="orig" place="foot text">〔臣〕－【明】＊</note><app n="0786010"><lem>臣</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>法賢奉　詔譯</byline>
-<lb n="0786b22"/><mulu label="1 大三昧金剛真實理儀軌分" level="1" type="品" n="1"></mulu><head>大三昧金剛真實理儀軌分第一</head>
+<lb n="0786b22"/><div1><mulu label="1 大三昧金剛真實理儀軌分" level="1" type="品" n="1"></mulu><head>大三昧金剛真實理儀軌分第一</head>
 <lb n="0786b23"/><p>如是我聞。一時世尊大毘盧遮那佛。在他化
 <lb n="0786b24"/>自在天宮。而彼天宮眾寶所成。懸鈴瓔珞幢
 <lb n="0786b25"/>幡珠珍種種寶蓋。如是莊嚴<note n="0786011" resp="Taisho" type="orig" place="foot text">&CB00642;滿＝偏漏【元】</note><app n="0786011"><lem>&CB00642;滿</lem><rdg wit="【元】" resp="Taisho">偏漏</rdg></app>虛空。是佛
@@ -403,8 +407,9 @@ add cvs log
 <lb n="0790a18"/><p>若欲求諸佛羯磨成就法者。當用諸金剛羯
 <lb n="0790a19"/>磨印。</p>
 <lb n="0790a20"/><p>若欲求成就諸佛者。當用金剛智拳大印。</p>
-<lb n="0790a21"/><p>如上諸法皆須持誦心明。</p>
-<lb n="0790a22"/><juan fun="close" n="001"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0790a23"/>卷第一</jhead></juan></div1><div1>
+<lb n="0790a21"/><p>如上諸法皆須持誦心明。</p></div1>
+<lb n="0790a22"/><juan fun="close" n="001"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title>
+<lb n="0790a23"/>卷第一</jhead></juan>
 <pb ed="T" id="T08.0244.0790b" n="0790b"/>
 <lb n="0790b01"/>
 <milestone unit="juan" n="2"></milestone>
@@ -412,7 +417,7 @@ add cvs log
 <lb n="0790b04"/>
 <lb n="0790b05"/><byline>西天譯經三藏朝<note n="0790002" resp="Taisho" type="orig" place="foot text">奉＝散【三】【宮】＊</note><note n="0790002" resp="CBETA" type="mod">奉＝散【宋】【元】【明】【宮】＊</note><app n="0790002"><lem>奉</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">散</rdg></app>大夫試光祿卿
 <lb n="0790b06"/>明教大師臣法賢奉　詔譯</byline>
-<lb n="0790b07"/><mulu label="3 降伏三界金剛三昧大儀軌分" level="1" type="品" n="3"></mulu><head>降伏三界金剛三昧大儀軌分第三</head>
+<lb n="0790b07"/><div1><mulu label="3 降伏三界金剛三昧大儀軌分" level="1" type="品" n="3"></mulu><head>降伏三界金剛三昧大儀軌分第三</head>
 <lb n="0790b08"/><p>爾時釋迦牟尼佛。說一切法平等最勝攝般
 <lb n="0790b09"/>若波羅蜜多法門。謂貪無性故。瞋亦無性。瞋
 <lb n="0790b10"/>無性故。癡亦無性。癡無性故。諸法亦無性。諸
@@ -895,16 +900,17 @@ add cvs log
 <lb n="0795c06"/><p>若欲破壞諸惡者當作彼形加持已即能破壞。</p>
 <lb n="0795c07"/><p>若欲破諸邪壇者。當手持金剛杵入其壇中。</p>
 <lb n="0795c08"/><p>若欲壞彼供養者。當現忿怒勢持誦。</p>
-<lb n="0795c09"/><p>若欲驚怖諸惡者。當以陪囉&CB00085;目顧視之。</p>
-<lb n="0795c10"/><juan fun="close" n="002"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0795c11"/>卷第二</jhead></juan></div1>
+<lb n="0795c09"/><p>若欲驚怖諸惡者。當以陪囉&CB00085;目顧視之。</p></div1>
+<lb n="0795c10"/><juan fun="close" n="002"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title>
+<lb n="0795c11"/>卷第二</jhead></juan>
 <lb n="0795c12"/>
-<milestone unit="juan" n="3"></milestone><div1>
+<milestone unit="juan" n="3"></milestone>
 <lb n="0795c13"/>
 <lb n="0795c14"/><juan fun="open" n="003"><mulu type="卷" n="003"></mulu><jhead><title>佛說最上根本大樂金剛不空三<lb n="0795c15"/>昧大教王經</title>卷第三</jhead></juan>
 <lb n="0795c16"/>
 <lb n="0795c17"/><byline>西天譯經三藏朝<anchor id="fxT08p0795c01"/>奉大夫試光祿卿
 <lb n="0795c18"/>明教大師臣法賢奉　詔譯</byline>
-<lb n="0795c19"/><mulu label="11 一切樂三昧大儀軌分" level="1" type="品" n="11"></mulu><head>一切樂三昧大儀軌分第十一</head>
+<lb n="0795c19"/><div1><mulu label="11 一切樂三昧大儀軌分" level="1" type="品" n="11"></mulu><head>一切樂三昧大儀軌分第十一</head>
 <lb n="0795c20"/><p>爾時釋迦牟尼佛。復說一切法最上般若波
 <lb n="0795c21"/>羅蜜多教。所謂一切行平等故。是即般若波
 <lb n="0795c22"/>羅蜜多行平等。一切義平等故。是即般若波
@@ -1059,7 +1065,8 @@ add cvs log
 <lb n="0797b19"/><l>獲最上成就</l><l>乃至佛菩薩</l>
 <lb n="0797b20"/><l>如佛真實語</l><l>不久咸成就</l></lg>
 <lb n="0797b21"/><p>諸佛稱讚已。金剛手菩薩即生大歡喜。</p></div1>
-<lb n="0797b22"/><div1><mulu label="14 金剛手菩薩最上祕密大曼拏羅儀軌分" level="1" type="品" n="14"></mulu><head>金剛手菩薩最上祕密大曼拏羅儀軌分第十<lb n="0797b23"/>四</head>
+<lb n="0797b22"/><div1><mulu label="14 金剛手菩薩最上祕密大曼拏羅儀軌分" level="1" type="品" n="14"></mulu><head>金剛手菩薩最上祕密大曼拏羅儀軌分第十
+<lb n="0797b23"/>四</head>
 <lb n="0797b24"/><p>爾時世尊大毘盧遮那佛。復說一切法無性
 <lb n="0797b25"/>大樂金剛不空三昧決定般若波羅蜜多教最
 <lb n="0797b26"/>上根本無性法門。所謂最上大樂成就故。是
@@ -1484,15 +1491,16 @@ add cvs log
 <pb ed="T" id="T08.0244.0802a" n="0802a"/>
 <lb n="0802a01"/><p>爾時金剛手菩薩說此曼拏羅已復說頌曰。</p>
 <lb n="0802a02"/><lg type="v5"><l>此普遍成法</l><l>所說如虛空</l>
-<lb n="0802a03"/><l>無喻大樂理</l><l>根本最上輪</l></lg>
-<lb n="0802a04"/><juan fun="close" n="003"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0802a05"/>卷第三</jhead></juan></div1>
+<lb n="0802a03"/><l>無喻大樂理</l><l>根本最上輪</l></lg></div1>
+<lb n="0802a04"/><juan fun="close" n="003"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0802a05"/>卷第三</jhead></juan>
 <lb n="0802a06"/>
 <milestone unit="juan" n="4"></milestone>
 <lb n="0802a07"/><juan fun="open" n="004"><mulu type="卷" n="004"></mulu><jhead><title>佛說最上根本大樂金剛不空三<lb n="0802a08"/>昧大教王經</title>卷第四</jhead></juan>
 <lb n="0802a09"/>
 <lb n="0802a10"/><byline><anchor id="fxT08p0802a01"/>西天<anchor id="fxT08p0802a02"/>譯經三藏朝<anchor id="fxT08p0802a03"/>奉大夫試光祿卿
 <lb n="0802a11"/>明教大師<anchor id="fxT08p0802a04"/>臣法賢奉　詔譯</byline>
-<lb n="0802a12"/><div1><mulu label="15 大樂金剛不空三昧大明印相成就儀軌分" level="1" type="品" n="15"></mulu><head>大樂金剛不空三昧大明印相成就儀軌分第<lb n="0802a13"/>十五</head>
+<lb n="0802a12"/><div1><mulu label="15 大樂金剛不空三昧大明印相成就儀軌分" level="1" type="品" n="15"></mulu><head>大樂金剛不空三昧大明印相成就儀軌分第
+<lb n="0802a13"/>十五</head>
 <lb n="0802a14"/><p>爾時金剛手菩薩復說成就法頌曰。</p>
 <lb n="0802a15"/><lg type="v5"><l>今說成就法</l><l>是最勝究竟</l>
 <lb n="0802a16"/><l>由此最勝故</l><l>見獲究竟法</l>
@@ -2007,8 +2015,8 @@ add cvs log
 <lb n="0807c11"/>如是等種種之法。皆依金剛忿怒明王最上
 <lb n="0807c12"/>成就法。即說頌曰。</p>
 <lb n="0807c13"/><lg type="v5"><l>如是最上法</l><l>若欲成就者</l>
-<lb n="0807c14"/><l>當持誦心明</l><l>而見忿怒相</l></lg>
-<lb n="0807c15"/><juan fun="close" n="004"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0807c16"/>卷第四</jhead></juan></div1>
+<lb n="0807c14"/><l>當持誦心明</l><l>而見忿怒相</l></lg></div1>
+<lb n="0807c15"/><juan fun="close" n="004"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0807c16"/>卷第四</jhead></juan>
 <lb n="0807c17"/>
 <milestone unit="juan" n="5"></milestone>
 <lb n="0807c18"/>
@@ -2611,18 +2619,19 @@ add cvs log
 <lb n="0814a16"/><l>一法生無邊</l><l>如清淨蓮海</l>
 <lb n="0814a17"/><l>此最上妙樂</l><l>甚深大祕密</l>
 <lb n="0814a18"/><l>能作諸成就</l><l>是建妙法幢</l>
-<lb n="0814a19"/><l>獲如是成就</l><l>最上妙法樂</l></lg>
+<lb n="0814a19"/><l>獲如是成就</l><l>最上妙法樂</l></lg></div1>
 <lb n="0814a20"/><juan fun="close" n="005"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title>
-<lb n="0814a21"/>卷第五</jhead></juan></div1>
+<lb n="0814a21"/>卷第五</jhead></juan>
 <pb ed="T" id="T08.0244.0814b" n="0814b"/>
 <lb n="0814b01"/>
 <milestone unit="juan" n="6"></milestone>
 <lb n="0814b02"/>
-<lb n="0814b03"/><div1><juan fun="open" n="006"><mulu type="卷" n="006"></mulu><jhead><title>佛說最上根本大樂金剛不空<lb n="0814b04"/>三昧大教王經</title>卷第六</jhead></juan>
+<lb n="0814b03"/><juan fun="open" n="006"><mulu type="卷" n="006"></mulu><jhead><title>佛說最上根本大樂金剛不空
+<lb n="0814b04"/>三昧大教王經</title>卷第六</jhead></juan>
 <lb n="0814b05"/>
 <lb n="0814b06"/><byline>西天譯經三藏朝<anchor id="fxT08p0814b01"/>奉大夫試光祿卿
 <lb n="0814b07"/>明教大師臣法賢奉　詔譯</byline>
-<lb n="0814b08"/><mulu label="22 一切如來大三昧曼拏羅儀軌分" level="1" type="品" n="22"></mulu><head>一切如來大三昧曼拏羅儀軌分第二十二</head>
+<lb n="0814b08"/><div1><mulu label="22 一切如來大三昧曼拏羅儀軌分" level="1" type="品" n="22"></mulu><head>一切如來大三昧曼拏羅儀軌分第二十二</head>
 <lb n="0814b09"/><p>爾時金剛手菩薩摩訶薩。復說諸佛大三昧
 <lb n="0814b10"/>法弟子灌頂儀軌。凡當欲受諸佛大三昧祕
 <lb n="0814b11"/>密灌頂法者。先須發起諸佛最上祕密阿耨
@@ -3113,17 +3122,18 @@ add cvs log
 <lb n="0819b19"/><l>起精進所修</l><l>是人獲大利</l>
 <lb n="0819b20"/><l>解脫諸魔事</l><l>諸天不能見</l>
 <lb n="0819b21"/><l>是金剛薩埵</l><l>成佛菩薩道</l>
-<lb n="0819b22"/><l>此最上相應</l><l>皆悉得圓滿</l></lg>
-<lb n="0819b23"/><juan fun="close" n="006"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0819b24"/>卷第六</jhead></juan></div1>
+<lb n="0819b22"/><l>此最上相應</l><l>皆悉得圓滿</l></lg></div1>
+<lb n="0819b23"/><juan fun="close" n="006"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0819b24"/>卷第六</jhead></juan>
 <pb ed="T" id="T08.0244.0819c" n="0819c"/>
 <lb n="0819c01"/>
 <milestone unit="juan" n="7"></milestone>
 <lb n="0819c02"/>
-<lb n="0819c03"/><div1><juan fun="open" n="007"><mulu type="卷" n="007"></mulu><jhead><title>佛說最上根本大樂金剛不空三<lb n="0819c04"/>昧大教王經</title>卷第七</jhead></juan>
+<lb n="0819c03"/><juan fun="open" n="007"><mulu type="卷" n="007"></mulu><jhead><title>佛說最上根本大樂金剛不空三
+<lb n="0819c04"/>昧大教王經</title>卷第七</jhead></juan>
 <lb n="0819c05"/>
 <lb n="0819c06"/><byline>西天譯經三藏朝<anchor id="fxT08p0819c01"/>奉大夫試光祿卿
 <lb n="0819c07"/>明教大師臣法賢奉　詔譯</byline>
-<lb n="0819c08"/><mulu label="24 最上成就印相分" level="1" type="品" n="24"></mulu><head>最上成就印相分第二十四</head>
+<lb n="0819c08"/><div1><mulu label="24 最上成就印相分" level="1" type="品" n="24"></mulu><head>最上成就印相分第二十四</head>
 <lb n="0819c09"/><p>爾時金剛手菩薩。宣說此決定不空最上善
 <lb n="0819c10"/>巧微妙廣大不可思議甚深之法。所有盡無
 <lb n="0819c11"/>盡成就法。皆悉能成。行人當隨意隨處。結跏
@@ -3525,6 +3535,7 @@ add cvs log
 <lb n="0824a17"/><l>若依法修習</l><l>所願皆圓滿</l>
 <lb n="0824a18"/><l>所有諸如來</l><l>及諸大菩薩</l>
 <lb n="0824a19"/><l>常受持此法</l><l>是最上大樂</l>
-<lb n="0824a20"/><l>真實微妙句</l><l>大欲大妙樂</l></lg>
-<lb n="0824a21"/><juan fun="close" n="007"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title><lb n="0824a22"/>卷第七</jhead></juan>
-</div1></body></text></TEI.2>
+<lb n="0824a20"/><l>真實微妙句</l><l>大欲大妙樂</l></lg></div1>
+<lb n="0824a21"/><juan fun="close" n="007"><jhead><title>佛說最上根本大樂金剛不空三昧大教王經</title>
+<lb n="0824a22"/>卷第七</jhead></juan>
+</body></text></TEI.2>
