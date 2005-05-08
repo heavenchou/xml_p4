@@ -14,13 +14,13 @@
 <author>唐 若那跋陀羅譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.14 $ (Big5)<date>$Date: 2004/11/14 03:17:09 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.15 $ (Big5)<date>$Date: 2005/05/08 04:27:37 $</date></edition></editionStmt>
 <extent>2卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2004/11/14 03:17:09 $</date></publicationStmt>
+<date>$Date: 2005/05/08 04:27:37 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 12, No. 377</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p>This is a very preliminary format-conversion.</p>
@@ -42,6 +42,9 @@
 	</change>
 <!--
 $Log: T12n0377.xml,v $
+Revision 1.15  2005/05/08 04:27:37  saywhat
+行尾的<div1>移到下一行行首; 行首的</div>移到上一行行尾
+
 Revision 1.14  2004/11/14 03:17:09  maha
 將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
 
@@ -71,12 +74,11 @@ add cvs log
 <lb n="0900a01"/>
 <milestone n="1" unit="juan"></milestone>
 <lb n="0900a02"/><head type="no">No. 377</head>
-<lb n="0900a03"/><div1 type="pin"><juan n="001" fun="open"><mulu n="001" type="卷"></mulu><jhead><title>大般涅槃經後分</title>卷上</jhead></juan>
+<lb n="0900a03"/><juan n="001" fun="open"><mulu n="001" type="卷"></mulu><jhead><title>大般涅槃經後分</title>卷上</jhead></juan>
 <lb n="0900a04"/>
 <lb n="0900a05"/><byline type="Translator"><note n="0900001" resp="Taisho" type="orig" place="foot text">〔大〕－【三】【宮】＊</note><note n="0900001" resp="CBETA" type="mod">〔大〕－【宋】【元】【明】【宮】＊</note><app n="0900001"><lem>大</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>唐<note n="0900002" resp="Taisho" type="orig" place="foot text">〔南海〕－【明】＊</note><app n="0900002"><lem>南海</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app><note n="0900003" resp="Taisho" type="orig" place="foot text">〔波淩國〕－【元】【明】＊</note><app n="0900003"><lem>波淩國</lem><rdg wit="【元】【明】" resp="Taisho">&lac;</rdg></app>
-<lb n="0900a06"/>沙門若那跋陀羅
-<note n="0900004" resp="Taisho" type="orig" place="foot text">（共沙門會寧）＋譯【宋】【宮】＊，（與沙門會寧等）【元】＊，（與會寧等）【明】＊</note><app n="0900004"><lem>譯</lem><rdg wit="【宋】【宮】" resp="Taisho">共沙門會寧譯</rdg><rdg wit="【元】" resp="Taisho">與沙門會寧等譯</rdg><rdg wit="【明】" resp="Taisho">與會寧等譯</rdg></app></byline>
-<lb n="0900a07"/><mulu level="1" n="1" label="憍陳如品餘" type="品"></mulu><head><note n="0900005" resp="Taisho" type="orig" place="foot text">（大般涅槃經）＋憍【元】</note><app n="0900005"><lem>憍</lem><rdg wit="【元】" resp="Taisho">大般涅槃經憍</rdg></app>陳如品<note n="0900006" resp="Taisho" type="orig" place="foot text">餘＝之末【三】【宮】</note><note n="0900006" resp="CBETA" type="mod">餘＝之末【宋】【元】【明】【宮】</note><app n="0900006"><lem>餘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">之末</rdg></app></head>
+<lb n="0900a06"/>沙門若那跋陀羅<note n="0900004" resp="Taisho" type="orig" place="foot text">（共沙門會寧）＋譯【宋】【宮】＊，（與沙門會寧等）【元】＊，（與會寧等）【明】＊</note><app n="0900004"><lem>譯</lem><rdg wit="【宋】【宮】" resp="Taisho">共沙門會寧譯</rdg><rdg wit="【元】" resp="Taisho">與沙門會寧等譯</rdg><rdg wit="【明】" resp="Taisho">與會寧等譯</rdg></app></byline>
+<lb n="0900a07"/><div1 type="pin"><mulu level="1" n="1" label="憍陳如品餘" type="品"></mulu><head><note n="0900005" resp="Taisho" type="orig" place="foot text">（大般涅槃經）＋憍【元】</note><app n="0900005"><lem>憍</lem><rdg wit="【元】" resp="Taisho">大般涅槃經憍</rdg></app>陳如品<note n="0900006" resp="Taisho" type="orig" place="foot text">餘＝之末【三】【宮】</note><note n="0900006" resp="CBETA" type="mod">餘＝之末【宋】【元】【明】【宮】</note><app n="0900006"><lem>餘</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">之末</rdg></app></head>
 <lb n="0900a08"/><p>爾時須跋陀羅。從佛聞說大般涅槃甚深妙
 <lb n="0900a09"/>法。而得法眼見法清淨。愛護正法已捨邪見。
 <lb n="0900a10"/>於佛法中深信堅固。即從如來欲求出家。佛
@@ -142,8 +144,8 @@ add cvs log
 <lb n="0900c10"/>大復現小滿虛空中。爾時無量大眾。及諸外
 <lb n="0900c11"/>道邪見眾生。發菩提心得入正見。須跋陀羅
 <lb n="0900c12"/>現神變已還復火中<anchor id="fxT12p0900c01"/>茶毘已訖。是時大眾悲
-<lb n="0900c13"/>感傷悼。收取舍利起塔供養。</p></div1><div1>
-<lb n="0900c14"/><mulu level="1" n="2" label="1 遺教品" type="品"></mulu><head><title><note n="0900017" resp="Taisho" type="orig" place="foot text">〔大般涅槃經〕－【明】＊</note><app n="0900017"><lem>大般涅槃經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>遺教品第一</head>
+<lb n="0900c13"/>感傷悼。收取舍利起塔供養。</p></div1>
+<lb n="0900c14"/><div1 type="pin"><mulu level="1" n="2" label="1 遺教品" type="品"></mulu><head><title><note n="0900017" resp="Taisho" type="orig" place="foot text">〔大般涅槃經〕－【明】＊</note><app n="0900017"><lem>大般涅槃經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>遺教品第一</head>
 <lb n="0900c15"/><p>爾時佛告阿難普及大眾。吾滅度後汝等四
 <lb n="0900c16"/>眾。當勤護持我大涅槃。我於無量萬億阿僧
 <lb n="0900c17"/>祇劫。修此難得大涅槃法。今已顯說。汝等當
@@ -464,8 +466,8 @@ add cvs log
 <lb n="0904b02"/>瞻仰佛者。一切三塗八難世間人天所有煩
 <lb n="0904b03"/>惱。四重五逆極惡罪咎。永滅無餘皆得解脫。
 <lb n="0904b04"/>爾時世尊顯出紫磨黃金色身。慇懃相告示
-<lb n="0904b05"/>大眾已。還舉僧伽梨衣如常所披。</p></div1><div1>
-<lb n="0904b06"/><mulu level="1" n="3" label="2 應盡還源品" type="品"></mulu><head><title><app type="＊" source="0900017"><lem>大般涅槃經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>應盡還源品第二</head>
+<lb n="0904b05"/>大眾已。還舉僧伽梨衣如常所披。</p></div1>
+<lb n="0904b06"/><div1 type="pin"><mulu level="1" n="3" label="2 應盡還源品" type="品"></mulu><head><title><app type="＊" source="0900017"><lem>大般涅槃經</lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></title>應盡還源品第二</head>
 <lb n="0904b07"/><p>佛復告諸大眾。我今時至舉身疼痛。說是語
 <lb n="0904b08"/>已即入初禪。以涅槃光遍觀世界入寂滅定。
 <lb n="0904b09"/>爾時世尊所言未訖即入初禪。從初禪出入
@@ -679,16 +681,16 @@ add cvs log
 <lb n="0906c06"/>時四天王。與諸天眾悲哀流淚。各辦無數香
 <lb n="0906c07"/>花一切供養等三倍於前。悲泣流淚來詣佛
 <lb n="0906c08"/>所。投如來前。悲哀供養五天。如是倍勝於
-<lb n="0906c09"/>前。色界無色界諸天<note n="0906014" resp="Taisho" type="orig" place="foot text">亦＋（復）【元】【明】</note><app n="0906014"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">亦復</rdg></app>如是倍勝供養。</p>
-<lb n="0906c10"/><juan n="001" fun="close"><jhead><title>大般涅槃經後分</title>卷上</jhead></juan></div1>
+<lb n="0906c09"/>前。色界無色界諸天<note n="0906014" resp="Taisho" type="orig" place="foot text">亦＋（復）【元】【明】</note><app n="0906014"><lem>亦</lem><rdg wit="【元】【明】" resp="Taisho">亦復</rdg></app>如是倍勝供養。</p></div1>
+<lb n="0906c10"/><juan n="001" fun="close"><jhead><title>大般涅槃經後分</title>卷上</jhead></juan>
 <lb n="0906c11"/>
-<milestone n="2" unit="juan"></milestone><div1>
+<milestone n="2" unit="juan"></milestone>
 <lb n="0906c12"/>
 <lb n="0906c13"/><juan n="002" fun="open"><mulu n="002" type="卷"></mulu><jhead><title>大般涅槃經後分</title>卷下</jhead></juan>
 <lb n="0906c14"/>
 <lb n="0906c15"/><byline type="Translator"><anchor id="fxT12p0906c01"/>大唐<anchor id="fxT12p0906c02"/>南海<anchor id="fxT12p0906c03"/>波淩國
 <lb n="0906c16"/>沙門若那跋陀羅<anchor id="fxT12p0906c04"/>譯</byline>
-<lb n="0906c17"/><mulu level="1" n="4" label="3 機感茶毘品" type="品"></mulu><head>
+<lb n="0906c17"/><div1 type="pin"><mulu level="1" n="4" label="3 機感茶毘品" type="品"></mulu><head>
 <note n="0906015" resp="Taisho" type="orig" place="foot text">（大般涅槃經）＋機【元】</note><app n="0906015"><lem>機</lem><rdg wit="【元】" resp="Taisho">大般涅槃經機</rdg></app>感
 <note n="0906016" resp="Taisho" type="orig" place="foot text">茶＝荼【宋】【宮】下同</note><app n="0906016"><lem>茶</lem><rdg wit="【宋】【宮】" resp="Taisho">荼</rdg></app>毘品第三</head>
 <lb n="0906c18"/><p>爾時拘尸城內一切男女悲泣流淚。不知茶
@@ -988,8 +990,8 @@ add cvs log
 <lb n="0910a12"/>海江河。如來舍利汝收取者。地居之人如何
 <lb n="0910a13"/>得往而供養耶。爾時四天王即皆懺悔。悔已
 <lb n="0910a14"/>各還天宮。爾時大海江河神等。皆亦懺悔誠
-<lb n="0910a15"/>如聖言。悔已各還。</p></div1><div1>
-<lb n="0910a16"/><mulu level="1" n="5" label="4 聖軀廓潤品" type="品"></mulu><head><title><note n="0910004" resp="Taisho" type="orig" place="foot text">〔大般涅槃經〕－【明】</note><app n="0910004"><lem>大般涅槃經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>聖軀廓潤品第四</head>
+<lb n="0910a15"/>如聖言。悔已各還。</p></div1>
+<lb n="0910a16"/><div1 type="pin"><mulu level="1" n="5" label="4 聖軀廓潤品" type="品"></mulu><head><title><note n="0910004" resp="Taisho" type="orig" place="foot text">〔大般涅槃經〕－【明】</note><app n="0910004"><lem>大般涅槃經</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></title>聖軀廓潤品第四</head>
 <lb n="0910a17"/><p>爾時帝釋。持七寶瓶及供養具至茶毘所。其
 <lb n="0910a18"/>火一時自然滅盡。帝釋即開如來寶棺欲請
 <lb n="0910a19"/>佛牙。樓逗即問。汝何為耶。答言。欲請佛牙還
@@ -1167,6 +1169,6 @@ add cvs log
 <lb n="0912a11"/>憂不樂。即禮舍利悲戀而還。<note n="0912005" resp="Taisho" type="orig" place="foot text">爾時＋（迦毘羅…已時）【元】【明】別付卷末</note>爾時諸菩薩
 <lb n="0912a12"/>及聲聞眾。天人龍鬼國王長者大臣人民。一
 <lb n="0912a13"/>切大眾悲號涕泣搥胸大哭。五體投地作禮
-<lb n="0912a14"/>而去。</p>
-<lb n="0912a15"/><juan n="002" fun="close"><jhead><title>大般涅槃經後分</title>卷下</jhead></juan></div1>
+<lb n="0912a14"/>而去。</p></div1>
+<lb n="0912a15"/><juan n="002" fun="close"><jhead><title>大般涅槃經後分</title>卷下</jhead></juan>
 </body></text></TEI.2>
