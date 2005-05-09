@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.18 $ (Big5)<date>$Date: 2004/11/19 14:25:19 $</date></edition>
+		<edition>$Revision: 1.19 $ (Big5)<date>$Date: 2005/05/09 00:22:34 $</date></edition>
 	</editionStmt>
 	<extent>15卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/19 14:25:19 $</date>
+		<date>$Date: 2005/05/09 00:22:34 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 4, No. 201 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T04n0201.xml,v $
+Revision 1.19  2005/05/09 00:22:34  saywhat
+行尾的<div>移到下一行行首; 行首的</div>移到上一行行尾
+
 Revision 1.18  2004/11/19 14:25:19  saywhat
 書面校對修訂
 
@@ -156,7 +159,7 @@ Revision 1.7  2001/02/07 06:41:39  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.6  2001/02/03 07:30:26  chris
-Added keywords $Revision: 1.18 $, $Date: 2004/11/19 14:25:19 $ and $Log.
+Added keywords $Revision: 1.19 $, $Date: 2005/05/09 00:22:34 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -166,11 +169,11 @@ Added comment  for Emacs
 <lb n="0257a03"/>
 <milestone unit="juan" n="1"/>
 <lb n="0257a04"/>
-<lb n="0257a05"/><head type="no">No. 201</head><div1 type="other">
+<lb n="0257a05"/><head type="no">No. 201</head>
 <lb n="0257a06"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title>大莊嚴<note n="0257002" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0257002" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0257002"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第一</jhead></juan>
 <lb n="0257a07"/>
 <lb n="0257a08"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0257003" resp="Taisho" type="orig" place="foot text">後秦三藏＝姚秦三藏法師【三】</note><note n="0257003" resp="CBETA" type="mod">後秦三藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0257003"><lem>後秦三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0257a09"/><lg><l>前禮最勝尊</l><l>離欲邁三有</l>
+<lb n="0257a09"/><div1 type="other"><lg><l>前禮最勝尊</l><l>離欲邁三有</l>
 <lb n="0257a10"/><l>亦敬一切智</l><l>甘露微妙法</l>
 <lb n="0257a11"/><l>并及八輩眾</l><l>無垢清淨僧</l>
 <lb n="0257a12"/><l>富那&CB00169;比丘</l><l>彌織諸論師</l>
@@ -540,7 +543,7 @@ Added comment  for Emacs
 <lb n="0261a16"/>得阿羅漢。何因緣故說是事耶。以諸外道
 <lb n="0261a17"/>常為邪論之所幻惑故。說十二因緣經論
 <lb n="0261a18"/>而破析之。</p></div1>
-<lb n="0261a19"/><div1><mulu type="其他" level="1" n="2" label="3"/><head>（三）</head><p place="inline">復次夫取福田當取其德。不應<note n="0261002" resp="Taisho" type="orig" place="foot text">簡＝揀【三】</note><note n="0261002" resp="CBETA" type="mod">簡＝揀【宋】【元】【明】</note><app n="0261002"><lem>簡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">揀</rdg></app>擇
+<lb n="0261a19"/><div1 type="other"><mulu type="其他" level="1" n="2" label="3"/><head>（三）</head><p place="inline">復次夫取福田當取其德。不應<note n="0261002" resp="Taisho" type="orig" place="foot text">簡＝揀【三】</note><note n="0261002" resp="CBETA" type="mod">簡＝揀【宋】【元】【明】</note><app n="0261002"><lem>簡</lem><rdg wit="【宋】【元】【明】" resp="Taisho">揀</rdg></app>擇
 <lb n="0261a20"/>少壯老弊。我昔曾聞。有檀越遣知識道人
 <lb n="0261a21"/>詣僧伽藍請諸眾僧。但求老大不用年
 <lb n="0261a22"/>少。後知識道人請諸眾僧。次到沙彌。然其
@@ -673,14 +676,14 @@ Added comment  for Emacs
 <lb n="0262b29"/><l>趣三乘解脫</l><l>大勝之伴黨</l></lg>
 <pb ed="T" id="T04.0201.0262c" n="0262c"/>
 <lb n="0262c01"/><p>爾時沙彌說偈讚已。檀越眷屬心大歡喜。皆
-<lb n="0262c02"/>得須陀洹果。</p>
-<lb n="0262c03"/><juan fun="close" n="001"><jhead><title>大莊嚴<note n="0262008" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0262008"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第一</jhead></juan></div1>
+<lb n="0262c02"/>得須陀洹果。</p></div1>
+<lb n="0262c03"/><juan fun="close" n="001"><jhead><title>大莊嚴<note n="0262008" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0262008"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第一</jhead></juan>
 <lb n="0262c04"/>
-<milestone unit="juan" n="2"/><div1>
+<milestone unit="juan" n="2"/>
 <lb n="0262c05"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead><title>大莊嚴<note n="0262009" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0262009" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0262009"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第二</jhead></juan>
 <lb n="0262c06"/>
 <lb n="0262c07"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0262010" resp="Taisho" type="orig" place="foot text">後秦三藏＝姚秦三藏法師【三】</note><note n="0262010" resp="CBETA" type="mod">後秦三藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0262010"><lem>後秦三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0262c08"/><mulu type="其他" level="1" n="3" label="4"/><head>（四）</head><p place="inline">復次夫聽法者。有大利益增廣智慧。能
+<lb n="0262c08"/><div1 type="other"><mulu type="其他" level="1" n="3" label="4"/><head>（四）</head><p place="inline">復次夫聽法者。有大利益增廣智慧。能
 <lb n="0262c09"/>令心意悉皆調順。我昔曾聞。師子諸國。爾時
 <lb n="0262c10"/>有人。得摩尼寶大如人膝。其珠殊妙世所
 <lb n="0262c11"/>希有。以奉獻王。王得珠已諦視此珠而說
@@ -761,9 +764,9 @@ Added comment  for Emacs
 <lb n="0263b26"/><l>圖像舉右手</l><l>示作安慰相</l>
 <lb n="0263b27"/><l>怖者&CB00418;之已</l><l>尚能除恐懼</l>
 <lb n="0263b28"/><l>況佛在世時</l><l>所濟甚弘多</l>
-<lb n="0263b29"/><l>今遭大苦厄</l><l>形像免濟我</l></lg>
-<pb ed="T" id="T04.0201.0263c" n="0263c"/></div1>
-<lb n="0263c01"/><div1><mulu type="其他" level="1" n="4" label="5"/><head>（五）</head><p place="inline">復次夫少欲者。雖有財物心不愛著。猶
+<lb n="0263b29"/><l>今遭大苦厄</l><l>形像免濟我</l></lg></div1>
+<pb ed="T" id="T04.0201.0263c" n="0263c"/>
+<lb n="0263c01"/><div1 type="other"><mulu type="其他" level="1" n="4" label="5"/><head>（五）</head><p place="inline">復次夫少欲者。雖有財物心不愛著。猶
 <lb n="0263c02"/>得稱之名為少欲。我昔曾聞。有優婆塞。彼
 <lb n="0263c03"/>優婆塞時有親友信婆羅門法。時彼親友善
 <lb n="0263c04"/>信婆羅門。弊衣苦行五熱炙身恒食惡食
@@ -813,7 +816,7 @@ Added comment  for Emacs
 <lb n="0264a18"/><l>心意不諂曲</l><l>亦不求名利</l>
 <lb n="0264a19"/><l>雖有資生具</l><l>名聞具實德</l>
 <lb n="0264a20"/><l>能有如斯事</l><l>是乃真少欲</l></lg></div1>
-<lb n="0264a21"/><div1><mulu type="其他" level="1" n="5" label="6"/><head>（六）</head><p place="inline">復次雖復持戒。為人天樂是名破戒。我
+<lb n="0264a21"/><div1 type="other"><mulu type="其他" level="1" n="5" label="6"/><head>（六）</head><p place="inline">復次雖復持戒。為人天樂是名破戒。我
 <lb n="0264a22"/>昔曾聞。有一沙門與婆羅門於空林中夏
 <lb n="0264a23"/>坐安居。于時沙門數數往返婆羅門所。與
 <lb n="0264a24"/>其共事不存親&CB00565;正處其<note n="0264002" resp="Taisho" type="orig" place="foot text">中＝衷【三】＊</note><note n="0264002" resp="CBETA" type="mod">中＝衷【宋】＊【元】＊【明】＊</note><app n="0264002"><lem>中</lem><rdg wit="【宋】【元】【明】" resp="Taisho">衷</rdg></app>。所以者何。
@@ -892,7 +895,7 @@ Added comment  for Emacs
 <lb n="0265a07"/><l>常應近是友</l><l>無有諍惱患</l>
 <lb n="0265a08"/><l>善導我心意</l><l>迴邪入正道</l>
 <lb n="0265a09"/><l>示我善惡相</l><l>令得於解脫</l></lg></div1>
-<lb n="0265a10"/><div1><mulu type="其他" level="1" n="6" label="7"/><head>（七）</head><p place="inline">復次依邪道者得眾苦患。修正道者增
+<lb n="0265a10"/><div1 type="other"><mulu type="其他" level="1" n="6" label="7"/><head>（七）</head><p place="inline">復次依邪道者得眾苦患。修正道者增
 <lb n="0265a11"/>長信心及以名稱。有智之人應觀邪正。我昔
 <lb n="0265a12"/>曾聞。有一人於行路側作小苦行。若有人
 <lb n="0265a13"/>時臥棘刺上。若無人時別居餘處。有人見
@@ -987,7 +990,7 @@ Added comment  for Emacs
 <lb n="0266a12"/><l>其事亦如是</l><l>一切諸外道</l>
 <lb n="0266a13"/><l>無敢抗對者</l><l>說法摧外道</l>
 <lb n="0266a14"/><l>默然無詶答</l></lg></div1>
-<lb n="0266a15"/><div1><mulu type="其他" level="1" n="7" label="8"/><head>（八）</head><p place="inline">復次夫身口業不能自在要由於意。我
+<lb n="0266a15"/><div1 type="other"><mulu type="其他" level="1" n="7" label="8"/><head>（八）</head><p place="inline">復次夫身口業不能自在要由於意。我
 <lb n="0266a16"/>昔曾聞。有比丘尼至賒伽羅國。於彼國中。
 <lb n="0266a17"/>有婆羅門。五熱炙身額上流水。胸腋懷中
 <lb n="0266a18"/>悉皆流汗。咽喉乾燥脣舌燋然。無有涎唾。
@@ -1066,7 +1069,7 @@ Added comment  for Emacs
 <lb n="0267a01"/><l>斯比丘尼</l><l>智慧微淺</l><l>能用滅結</l>
 <lb n="0267a02"/><l>牟尼尊語</l><l>猶故能令</l><l>此婆羅門</l>
 <lb n="0267a03"/><l>不能加報</l><l>默然而住</l></lg></div1>
-<lb n="0267a04"/><div1><mulu type="其他" level="1" n="8" label="9"/><head>（九）</head><p place="inline">復次欲如肉摶眾鳥競逐。有智之人深知
+<lb n="0267a04"/><div1 type="other"><mulu type="其他" level="1" n="8" label="9"/><head>（九）</head><p place="inline">復次欲如肉摶眾鳥競逐。有智之人深知
 <lb n="0267a05"/>財患而不貪著。我昔曾聞。修婆多國時有
 <lb n="0267a06"/>比丘。於壞垣壁見有伏藏。有大銅瓮滿中
 <lb n="0267a07"/>金錢。將一貧優婆塞而示之處。即語之言。
@@ -1148,7 +1151,7 @@ Added comment  for Emacs
 <lb n="0267c23"/><l>如此少欲法</l><l>出家之法食</l>
 <lb n="0267c24"/><l>雖有渴愛等</l><l>終不能擾惱</l>
 <lb n="0267c25"/><l>且置後世樂</l><l>現在獲安隱</l></lg></div1>
-<lb n="0267c26"/><div1><mulu type="其他" level="1" n="9" label="10"/><head>（一○）</head><p place="inline">復次夫知足者雖貧名富。不知足者雖
+<lb n="0267c26"/><div1 type="other"><mulu type="其他" level="1" n="9" label="10"/><head>（一○）</head><p place="inline">復次夫知足者雖貧名富。不知足者雖
 <lb n="0267c27"/>富是貧。若聖智滿乃名大富。我昔曾聞。有
 <lb n="0267c28"/>優婆塞有人譏呵云最貧窮。而優婆塞樂佛
 <lb n="0267c29"/>所讚知足之法即順法相。而說偈言。</p>
@@ -1206,15 +1209,15 @@ Added comment  for Emacs
 <lb n="0268b21"/><l>是故我非貧</l><l>信財最為勝</l>
 <lb n="0268b22"/><l>餘者不名財</l><l>唯信是實財</l>
 <lb n="0268b23"/><l>以信布施者</l><l>財物得增長</l>
-<lb n="0268b24"/><l>不信施彼者</l><l>果報轉&CB00458;少</l></lg>
+<lb n="0268b24"/><l>不信施彼者</l><l>果報轉&CB00458;少</l></lg></div1>
 <lb n="0268b25"/><juan fun="close" n="002"><jhead><title>大莊嚴<note n="0268004" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0268004"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第二</jhead></juan>
-<pb ed="T" id="T04.0201.0268c" n="0268c"/></div1>
+<pb ed="T" id="T04.0201.0268c" n="0268c"/>
 <lb n="0268c01"/>
-<milestone unit="juan" n="3"/><div1>
+<milestone unit="juan" n="3"/>
 <lb n="0268c02"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead><title>大莊嚴<note n="0268005" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0268005" resp="CBETA" type="mod">論經＝經論【宋】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0268005"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第三</jhead></juan>
 <lb n="0268c03"/>
 <lb n="0268c04"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0268006" resp="Taisho" type="orig" place="foot text">後秦三藏＝姚秦三藏法師【三】</note><note n="0268006" resp="CBETA" type="mod">後秦三藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0268006"><lem>後秦三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0268c05"/><mulu type="其他" level="1" n="10" label="11"/><head>（一一）</head><p place="inline">復次若有弟子。能堅持戒為人宗<note n="0268007" resp="Taisho" type="orig" place="foot text">仰＋（者）【三】</note><note n="0268007" resp="CBETA" type="mod">仰＋（者）【宋】【元】【明】</note><app n="0268007"><lem>仰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">仰者</rdg></app>。
+<lb n="0268c05"/><div1 type="other"><mulu type="其他" level="1" n="10" label="11"/><head>（一一）</head><p place="inline">復次若有弟子。能堅持戒為人宗<note n="0268007" resp="Taisho" type="orig" place="foot text">仰＋（者）【三】</note><note n="0268007" resp="CBETA" type="mod">仰＋（者）【宋】【元】【明】</note><app n="0268007"><lem>仰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">仰者</rdg></app>。
 <lb n="0268c06"/>一切世人并敬其師。我昔曾聞。有諸比丘
 <lb n="0268c07"/>曠野中行。為賊剽掠剝脫衣裳。時此群賊
 <lb n="0268c08"/>懼諸比丘往告聚落盡欲殺害。賊中一人
@@ -1324,7 +1327,7 @@ Added comment  for Emacs
 <lb n="0269c22"/><l>我今亦歸命</l><l>如是顯大法</l>
 <lb n="0269c23"/><l>歸依離熱惱</l><l>牟尼解脫尊</l>
 <lb n="0269c24"/><l>堅持禁戒者</l><l>我今亦歸命</l></lg></div1>
-<lb n="0269c25"/><div1><mulu type="其他" level="1" n="11" label="12"/><head>（一二）</head><p place="inline">復次若人內心賢善則多安隱利益一切。
+<lb n="0269c25"/><div1 type="other"><mulu type="其他" level="1" n="11" label="12"/><head>（一二）</head><p place="inline">復次若人內心賢善則多安隱利益一切。
 <lb n="0269c26"/>是故智者應修其心恒令賢善。我昔曾聞。
 <lb n="0269c27"/>有諸比丘。與諸估客入海採寶。既至海
 <lb n="0269c28"/>中船舫破壞。爾時有一年少比丘捉一枚
@@ -1370,7 +1373,7 @@ Added comment  for Emacs
 <lb n="0270b08"/><l>未獲於道跡</l><l>處於大怖畏</l>
 <lb n="0270b09"/><l>捨己所愛命</l><l>護持佛教戒</l>
 <lb n="0270b10"/><l>難為而能為</l><l>此最為希有</l></lg></div1>
-<lb n="0270b11"/><div1><mulu type="其他" level="1" n="12" label="13"/><head>（一三）</head><p place="inline">復次若不見道跡。雖復多聞不能得
+<lb n="0270b11"/><div1 type="other"><mulu type="其他" level="1" n="12" label="13"/><head>（一三）</head><p place="inline">復次若不見道跡。雖復多聞不能得
 <lb n="0270b12"/>拔生死之苦。是故智者應求見諦。我昔曾
 <lb n="0270b13"/>聞。兄弟二人俱共出家。兄得羅漢。弟誦三
 <lb n="0270b14"/>藏。時彼羅漢語三藏言。汝可坐禪。三藏報
@@ -1527,7 +1530,7 @@ Added comment  for Emacs
 <lb n="0272a15"/><l>勤修於正道</l><l>必使盡苦際</l>
 <lb n="0272a16"/><l>是故先修道</l><l><note n="0272002" resp="Taisho" type="orig" place="foot text">克＝剋【三】</note><note n="0272002" resp="CBETA" type="mod">克＝剋【宋】【元】【明】</note><app n="0272002"><lem>克</lem><rdg wit="【宋】【元】【明】" resp="Taisho">剋</rdg></app>獲解脫果</l>
 <lb n="0272a17"/><l>然後以多聞</l><l>而作妙瓔珞</l></lg></div1>
-<lb n="0272a18"/><div1><mulu type="其他" level="1" n="13" label="14"/><head>（一四）</head><p place="inline">復次見此事已應<note n="0272003" resp="Taisho" type="orig" place="foot text">〔生〕－【三】</note><note n="0272003" resp="CBETA" type="mod">〔生〕－【宋】【元】【明】</note><app n="0272003"><lem>生</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>驚悟。尊豪榮位
+<lb n="0272a18"/><div1 type="other"><mulu type="其他" level="1" n="13" label="14"/><head>（一四）</head><p place="inline">復次見此事已應<note n="0272003" resp="Taisho" type="orig" place="foot text">〔生〕－【三】</note><note n="0272003" resp="CBETA" type="mod">〔生〕－【宋】【元】【明】</note><app n="0272003"><lem>生</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>驚悟。尊豪榮位
 <lb n="0272a19"/>無得常者。我昔曾聞。栴檀罽尼吒王。將欲
 <lb n="0272a20"/>往詣罽尼吒城。於其中路見五百乞兒。同
 <lb n="0272a21"/>聲乞&CB00456;言施如我。王聞是語便生悟解。即
@@ -1586,7 +1589,7 @@ Added comment  for Emacs
 <lb n="0272c14"/><l>當於如斯時</l><l>誰能修布施</l>
 <lb n="0272c15"/><l>持戒及忍辱</l><l>精進禪智等</l>
 <lb n="0272c16"/><l>如斯時未至</l><l>宜應勤用心</l></lg></div1>
-<lb n="0272c17"/><div1><mulu type="其他" level="1" n="14" label="15"/><head>（一五）</head><p place="inline">復次若命終時欲齎財寶至於後世。無
+<lb n="0272c17"/><div1 type="other"><mulu type="其他" level="1" n="14" label="15"/><head>（一五）</head><p place="inline">復次若命終時欲齎財寶至於後世。無
 <lb n="0272c18"/>有是處。唯除布施作諸功德。若懼後世得
 <lb n="0272c19"/>貧窮者。應修惠施。我昔曾聞。有一國王名
 <lb n="0272c20"/>曰難陀。是時此王聚積珍寶<note n="0272009" resp="Taisho" type="orig" place="foot text">規＝願【三】</note><note n="0272009" resp="CBETA" type="mod">規＝願【宋】【元】【明】</note><app n="0272009"><lem>規</lem><rdg wit="【宋】【元】【明】" resp="Taisho">願</rdg></app>至後世。
@@ -1701,7 +1704,7 @@ Added comment  for Emacs
 <lb n="0274a09"/><l>專念健丈夫</l><l>能超度諸山</l>
 <lb n="0274a10"/><l>設作如斯事</l><l>未足名為難</l>
 <lb n="0274a11"/><l>能利益後世</l><l>是事乃為難</l></lg></div1>
-<lb n="0274a12"/><div1><mulu type="其他" level="1" n="15" label="16"/><head>（一六）</head><p place="inline">復次此身不堅。是故智者應當分別供
+<lb n="0274a12"/><div1 type="other"><mulu type="其他" level="1" n="15" label="16"/><head>（一六）</head><p place="inline">復次此身不堅。是故智者應當分別供
 <lb n="0274a13"/>養尊長。<note n="0274003" resp="Taisho" type="orig" place="foot text">是＝者【三】</note><note n="0274003" resp="CBETA" type="mod">是＝者【宋】【元】【明】</note><app n="0274003"><lem>是</lem><rdg wit="【宋】【元】【明】" resp="Taisho">者</rdg></app>則名為以不堅法易堅固法。我
 <lb n="0274a14"/>昔曾聞。牟尼種中有王名曰阿育。信樂三
 <lb n="0274a15"/>寶。若於靜處見佛弟子。不問長幼必為
@@ -1806,16 +1809,16 @@ Added comment  for Emacs
 <lb n="0275a24"/><l>泡沫及沙聚</l><l>芭蕉無堅實</l>
 <lb n="0275a25"/><l>如此危脆身</l><l>修善百劫住</l>
 <lb n="0275a26"/><l>堅於須彌山</l><l>及以於大地</l>
-<lb n="0275a27"/><l>智者應如是</l><l>貿易堅實法</l></lg>
-<lb n="0275a28"/><juan fun="close" n="003"><jhead><title>大莊嚴<app type="＊" source="0268005"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第三</jhead></juan></div1>
+<lb n="0275a27"/><l>智者應如是</l><l>貿易堅實法</l></lg></div1>
+<lb n="0275a28"/><juan fun="close" n="003"><jhead><title>大莊嚴<app type="＊" source="0268005"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第三</jhead></juan>
 <pb ed="T" id="T04.0201.0275b" n="0275b"/>
 <lb n="0275b01"/>
 <milestone unit="juan" n="4"/>
-<div1><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead><title>大莊嚴<note n="0275002" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0275002" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0275002"><lem>論<note n="0275003" resp="Taisho" type="orig" place="foot text">〔經〕－【聖】</note><app n="0275003"><lem>經</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第四</jhead></juan>
+<juan fun="open" n="004"><mulu type="卷" n="004"/><jhead><title>大莊嚴<note n="0275002" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0275002" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0275002"><lem>論<note n="0275003" resp="Taisho" type="orig" place="foot text">〔經〕－【聖】</note><app n="0275003"><lem>經</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第四</jhead></juan>
 <lb n="0275b02"/>
 <lb n="0275b03"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0275b04"/><byline type="Translator"><note n="0275004" resp="Taisho" type="orig" place="foot text">後＝姚【三】</note><note n="0275004" resp="CBETA" type="mod">後＝姚【宋】【元】【明】</note><app n="0275004"><lem>後</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚</rdg></app>秦三<note n="0275005" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】</note><note n="0275005" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】</note><app n="0275005"><lem>藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0275b05"/><mulu type="其他" level="1" n="16" label="17"/><head>（一七）</head><p place="inline">復次若諍競者聞斷結名。所諍事解。若
+<lb n="0275b05"/><div1 type="other"><mulu type="其他" level="1" n="16" label="17"/><head>（一七）</head><p place="inline">復次若諍競者聞斷結名。所諍事解。若
 <lb n="0275b06"/>人欲得供養恭敬應斷諸使。我昔曾聞。有
 <lb n="0275b07"/>差老母。入於林中採波羅樹葉賣以自活。
 <lb n="0275b08"/>路由關邏。邏人稅之。于時老母不欲令
@@ -1929,7 +1932,7 @@ Added comment  for Emacs
 <lb n="0276b26"/><l><note n="0276012" resp="Taisho" type="orig" place="foot text">乃＝及【三】</note><note n="0276012" resp="CBETA" type="mod">乃＝及【宋】【元】【明】</note><app n="0276012"><lem>乃</lem><rdg wit="【宋】【元】【明】" resp="Taisho">及</rdg></app>有是過惡</l><l>即厭惡生死</l>
 <lb n="0276b27"/><l>還歸求出家</l><l>既得出家已</l>
 <lb n="0276b28"/><l>精勤修定慧</l><l>逮證羅漢果</l></lg></div1>
-<lb n="0276b29"/><div1><mulu type="其他" level="1" n="17" label="19"/><head>（一九）</head><p place="inline">復次若無過者得譏呵人。若自有過呵
+<lb n="0276b29"/><div1 type="other"><mulu type="其他" level="1" n="17" label="19"/><head>（一九）</head><p place="inline">復次若無過者得譏呵人。若自有過呵
 <pb ed="T" id="T04.0201.0276c" n="0276c"/>
 <lb n="0276c01"/>於彼者。他反蚩笑。我昔曾聞。&CB02031;形婆羅門
 <lb n="0276c02"/>與諸沙門同道而行。有一年少比丘。笑彼
@@ -1952,7 +1955,7 @@ Added comment  for Emacs
 <lb n="0276c19"/>如經中說。不見四諦邪正不定。邪正不定
 <lb n="0276c20"/>所見錯謬。是故應當勤修四諦。若見諦者所
 <lb n="0276c21"/>見真正。永離邪趣。</p></div1>
-<lb n="0276c22"/><div1><mulu type="其他" level="1" n="18" label="20"/><head>（二○）</head><p place="inline">復次善觀察者。見於好色無有欲意多
+<lb n="0276c22"/><div1 type="other"><mulu type="其他" level="1" n="18" label="20"/><head>（二○）</head><p place="inline">復次善觀察者。見於好色無有欲意多
 <lb n="0276c23"/>生厭惡。見好色時不起愛瞋我昔曾聞。
 <lb n="0276c24"/>有一寺廟。多諸比丘中有法師。三明六通。
 <lb n="0276c25"/>言辭巧妙。具足辯才。知自他論善能問答。
@@ -2155,7 +2158,7 @@ Added comment  for Emacs
 <lb n="0279a12"/><l>有得須陀洹</l><l>於修離欲想</l>
 <lb n="0279a13"/><l>或得阿那含</l><l>復有出家者</l>
 <lb n="0279a14"/><l>勤修不懈怠</l><l>逮得阿羅漢</l></lg></div1>
-<lb n="0279a15"/><div1><mulu type="其他" level="1" n="19" label="21"/><head>（二一）</head><p place="inline">復次無戀著心一切能施。得大名稱現
+<lb n="0279a15"/><div1 type="other"><mulu type="其他" level="1" n="19" label="21"/><head>（二一）</head><p place="inline">復次無戀著心一切能施。得大名稱現
 <lb n="0279a16"/>世獲報。是故應施不應&CB00385;著。我昔曾聞。弗
 <lb n="0279a17"/>羯羅衛國有一畫師。名曰羯那。有作因緣
 <lb n="0279a18"/>詣石室國。既至彼已詣諸塔寺。為畫一精
@@ -2199,9 +2202,9 @@ Added comment  for Emacs
 <lb n="0279b26"/><l>如今所布施</l><l>真得施處所</l>
 <lb n="0279b27"/><l>敬心施少水</l><l>果報過大海</l>
 <lb n="0279b28"/><l>一切諸眾中</l><l>佛僧最第一</l>
-<lb n="0279b29"/><note n="0279009" resp="Taisho" type="orig" place="foot text">〔開意…前〕二句－【聖】</note><app n="0279009" word-count="10"><lem><l>開意方欲<note n="0279010" resp="Taisho" type="orig" place="foot text">施＝死【三】</note><note n="0279010" resp="CBETA" type="mod">施＝死【宋】【元】【明】</note><app n="0279010"><lem>施</lem><rdg wit="【宋】【元】【明】" resp="Taisho">死</rdg></app></l><l>華應已在前</l></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></lg>
-<pb ed="T" id="T04.0201.0279c" n="0279c"/></div1>
-<lb n="0279c01"/><div1><mulu type="其他" level="1" n="20" label="22"/><head>（二二）</head><p place="inline">復次夫修施者在勝信心。兩錢布施果
+<lb n="0279b29"/><note n="0279009" resp="Taisho" type="orig" place="foot text">〔開意…前〕二句－【聖】</note><app n="0279009" word-count="10"><lem><l>開意方欲<note n="0279010" resp="Taisho" type="orig" place="foot text">施＝死【三】</note><note n="0279010" resp="CBETA" type="mod">施＝死【宋】【元】【明】</note><app n="0279010"><lem>施</lem><rdg wit="【宋】【元】【明】" resp="Taisho">死</rdg></app></l><l>華應已在前</l></lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></lg></div1>
+<pb ed="T" id="T04.0201.0279c" n="0279c"/>
+<lb n="0279c01"/><div1 type="other"><mulu type="其他" level="1" n="20" label="22"/><head>（二二）</head><p place="inline">復次夫修施者在勝信心。兩錢布施果
 <lb n="0279c02"/>報難量。我昔曾聞。有一女人至晝闇山見
 <lb n="0279c03"/>眾人等。於彼山中作般遮于瑟。時彼女人
 <lb n="0279c04"/>於會乞食。既&CB00418;眾僧心懷歡喜。而讚歎言。
@@ -2257,15 +2260,15 @@ Added comment  for Emacs
 <lb n="0280a24"/><l>譬如白淨衣</l><l>以油<app type="＊" source="0276001"><lem>渧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">滴</rdg></app>其上</l>
 <lb n="0280a25"/><l>垢膩遂增長</l><l>亦猶油<app type="＊" source="0276001"><lem>渧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">滴</rdg></app>水</l>
 <lb n="0280a26"/><l>油<app type="＊" source="0276001"><lem>渧</lem><rdg resp="Taisho" wit="【宋】【元】【明】">滴</rdg></app>雖微小</l><l>遍於池水上</l>
-<lb n="0280a27"/><l>以是故當知</l><l>心勝故報大</l></lg>
+<lb n="0280a27"/><l>以是故當知</l><l>心勝故報大</l></lg></div1>
 <lb n="0280a28"/><juan fun="close" n="004"><jhead><title>大莊嚴<anchor id="fxT04p0280a04"/>論<note n="0280003" resp="Taisho" type="orig" place="foot text">〔經〕－【聖】</note><app n="0280003"><lem>經</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app></title>卷第四</jhead></juan>
-<pb ed="T" id="T04.0201.0280b" n="0280b"/></div1>
+<pb ed="T" id="T04.0201.0280b" n="0280b"/>
 <lb n="0280b01"/>
-<milestone unit="juan" n="5"/><div1>
+<milestone unit="juan" n="5"/>
 <lb n="0280b02"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead><title>大莊嚴<note n="0280004" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0280004" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0280004"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第五</jhead></juan>
 <lb n="0280b03"/>
 <lb n="0280b04"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0280005" resp="Taisho" type="orig" place="foot text">後＝姚【三】</note><note n="0280005" resp="CBETA" type="mod">後＝姚【宋】【元】【明】</note><app n="0280005"><lem>後</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚</rdg></app>秦三<note n="0280006" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】</note><note n="0280006" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】</note><app n="0280006"><lem>藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0280b05"/><mulu type="其他" level="1" n="21" label="23"/><head>（二三）</head><p place="inline">復次若人親近有智善友。能令身心內
+<lb n="0280b05"/><div1 type="other"><mulu type="其他" level="1" n="21" label="23"/><head>（二三）</head><p place="inline">復次若人親近有智善友。能令身心內
 <lb n="0280b06"/>外俱淨。斯則名為真善丈夫。我昔曾聞。有
 <lb n="0280b07"/>一比丘次第乞食至大婆羅門家。時彼家中
 <lb n="0280b08"/>遇比丘已。屋棟摧折打破水瓮。牸牛絕靷
@@ -2317,7 +2320,7 @@ Added comment  for Emacs
 <lb n="0280c24"/><l>唯有修禪智</l><l><note n="0280013" resp="Taisho" type="orig" place="foot text">戒＝我【三】</note><note n="0280013" resp="CBETA" type="mod">戒＝我【宋】【元】【明】</note><app n="0280013"><lem>戒</lem><rdg wit="【宋】【元】【明】" resp="Taisho">我</rdg></app>聞及專精</l>
 <lb n="0280c25"/><note n="0280014" resp="Taisho" type="orig" place="foot text">〔如此…而獲〕二句－【三】</note><note n="0280014" resp="CBETA" type="mod">〔如此…而獲〕二句－【宋】【元】【明】</note><app n="0280014" word-count="10"><lem><l>如此法事等</l><l>為何從而獲</l></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
 <lb n="0280c26"/><l>必因善知識</l><l>然後能具得</l></lg></div1>
-<lb n="0280c27"/><div1><mulu type="其他" level="1" n="22" label="24"/><head>（二四）</head><p place="inline">復次若人為惡應墮地獄。遇善知識能
+<lb n="0280c27"/><div1 type="other"><mulu type="其他" level="1" n="22" label="24"/><head>（二四）</head><p place="inline">復次若人為惡應墮地獄。遇善知識能
 <lb n="0280c28"/>滅其罪得生人天。我昔曾聞。有婆迦利人
 <lb n="0280c29"/>至中天竺。時天竺國王即用彼人為聚落
 <pb ed="T" id="T04.0201.0281a" n="0281a"/>
@@ -2413,7 +2416,7 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0201.0282a" n="0282a"/>
 <lb n="0282a01"/><l>用是外道為</l><l>無果徒受苦</l>
 <lb n="0282a02"/><l>鑽水求醍醐</l><l>雖勞永難得</l></lg></div1>
-<lb n="0282a03"/><div1><mulu type="其他" level="1" n="23" label="25"/><head>（二五）</head><p place="inline">復次夫修施者當離八危。若積財寶危
+<lb n="0282a03"/><div1 type="other"><mulu type="其他" level="1" n="23" label="25"/><head>（二五）</head><p place="inline">復次夫修施者當離八危。若積財寶危
 <lb n="0282a04"/>難甚多。智人修施是乃堅牢。我昔曾聞。有
 <lb n="0282a05"/>一國王謫罰商賈。而告之言。汝所有財悉
 <lb n="0282a06"/>&CB00562;示我。<note n="0282001" resp="Taisho" type="orig" place="foot text">估＝賈【三】＊</note><note n="0282001" resp="CBETA" type="mod">估＝賈【宋】＊【元】＊【明】＊</note><app n="0282001"><lem>估</lem><rdg wit="【宋】【元】【明】" resp="Taisho">賈</rdg></app>客至家。思惟先來所施之物。
@@ -2489,7 +2492,7 @@ Added comment  for Emacs
 <lb n="0282c16"/><l>後身得少許</l><l>尚應修布施</l>
 <lb n="0282c17"/><l>況少修惠施</l><l>大獲於福報</l>
 <lb n="0282c18"/><l>是故有智者</l><l>應當修布施</l></lg></div1>
-<lb n="0282c19"/><div1><mulu type="其他" level="1" n="24" label="26"/><head>（二六）</head><p place="inline">復次若聞正說能解於縛。我昔曾聞。德
+<lb n="0282c19"/><div1 type="other"><mulu type="其他" level="1" n="24" label="26"/><head>（二六）</head><p place="inline">復次若聞正說能解於縛。我昔曾聞。德
 <lb n="0282c20"/>叉尸羅國有罪之人閉僧坊中。於其夜中眾
 <lb n="0282c21"/>僧說法。其被閉者。來至僧中次坐聽法。有
 <lb n="0282c22"/>一比丘說於生死逆順之經。說言。佛告諸
@@ -2526,7 +2529,7 @@ Added comment  for Emacs
 <lb n="0283a23"/>既出家已精勤修道得阿羅漢。而彼罪人閉
 <lb n="0283a24"/>繫僧坊。以聽法故尚得解脫。況故聽法。是
 <lb n="0283a25"/>故行人於塔寺所宜往聽法。</p></div1>
-<lb n="0283a26"/><div1><mulu type="其他" level="1" n="25" label="27"/><head>（二七）</head><p place="inline">復次病苦篤時言教不行漫現強健。所
+<lb n="0283a26"/><div1 type="other"><mulu type="其他" level="1" n="25" label="27"/><head>（二七）</head><p place="inline">復次病苦篤時言教不行漫現強健。所
 <lb n="0283a27"/>可作事宜應速作。我昔曾聞。法王阿育身
 <lb n="0283a28"/>遇重<note n="0283005" resp="Taisho" type="orig" place="foot text">患＝病【三】</note><note n="0283005" resp="CBETA" type="mod">患＝病【宋】【元】【明】</note><app n="0283005"><lem>患</lem><rdg wit="【宋】【元】【明】" resp="Taisho">病</rdg></app>。得諸財物。盡用施僧。又從諸臣
 <lb n="0283a29"/>索種種寶。時諸臣等不肯復與。唯得半菴
@@ -2652,7 +2655,7 @@ Added comment  for Emacs
 <lb n="0284b29"/>財隨逐於己至於後世。宜常修施莫使
 <pb ed="T" id="T04.0201.0284c" n="0284c"/>
 <lb n="0284c01"/>斷絕。</p></div1>
-<lb n="0284c02"/><div1><mulu type="其他" level="1" n="26" label="28"/><head>（二八）</head><p place="inline">復次凡愚之人。若有輕毀於彼賢人。賢
+<lb n="0284c02"/><div1 type="other"><mulu type="其他" level="1" n="26" label="28"/><head>（二八）</head><p place="inline">復次凡愚之人。若有輕毀於彼賢人。賢
 <lb n="0284c03"/>人終不生於瞋恚。得他毀罵生隨順語。我
 <lb n="0284c04"/>昔曾聞。有一人於其家中施設客會。多作
 <lb n="0284c05"/>花鬘以與眾會。眾人得鬘皆戴頂上。有一
@@ -2683,7 +2686,7 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0201.0285a" n="0285a"/>
 <lb n="0285a01"/><l>此賣最為勝</l><l>名稱有功德</l>
 <lb n="0285a02"/><l>我今持此花</l><l>欲以供養塔</l></lg></div1>
-<lb n="0285a03"/><div1><mulu type="其他" level="1" n="27" label="29"/><head>（二九）</head><p place="inline">復次譬如幻師以此陰身作種種戲。能
+<lb n="0285a03"/><div1 type="other"><mulu type="其他" level="1" n="27" label="29"/><head>（二九）</head><p place="inline">復次譬如幻師以此陰身作種種戲。能
 <lb n="0285a04"/>令智者見即解悟。我昔曾聞。有一幻師有
 <lb n="0285a05"/>信樂心至晝闇山。為僧設食供養已訖。<note n="0285001" resp="Taisho" type="orig" place="foot text">幻＝幼【明】</note><app n="0285001"><lem>幻</lem><rdg wit="【明】" resp="Taisho">幼</rdg></app>
 <lb n="0285a06"/>尸陀羅木作一女人端正奇特。於大眾前
@@ -2746,7 +2749,7 @@ Added comment  for Emacs
 <lb n="0285c03"/><p>如彼幻師所說之事真實無異。時諸比丘
 <lb n="0285c04"/>聞其說已皆得見諦。是故當知諸法如幻。
 <lb n="0285c05"/>能知是者。則便能斷諸<note n="0285005" resp="Taisho" type="orig" place="foot text">行之源＝法行原【三】</note><note n="0285005" resp="CBETA" type="mod">行之源＝法行原【宋】【元】【明】</note><app n="0285005"><lem>行之源</lem><rdg wit="【宋】【元】【明】" resp="Taisho">法行原</rdg></app>。</p></div1>
-<lb n="0285c06"/><div1><mulu type="其他" level="1" n="28" label="30"/><head>（三○）</head><p place="inline">復次施戒及論其事淺近。善根熟者能樂
+<lb n="0285c06"/><div1 type="other"><mulu type="其他" level="1" n="28" label="30"/><head>（三○）</head><p place="inline">復次施戒及論其事淺近。善根熟者能樂
 <lb n="0285c07"/>深法。我昔曾聞。有阿育王初得信心數請
 <lb n="0285c08"/>眾僧。入宮供養日日聽法。施張帳幕遮諸
 <lb n="0285c09"/>婦女而使聽法。時說法比丘以諸婦女多
@@ -2874,15 +2877,15 @@ Added comment  for Emacs
 <lb n="0287a11"/><l>沙門釋子等</l><l>自恣聽入宮</l>
 <lb n="0287a12"/><l>能以甘露法</l><l>滿足女人心</l>
 <lb n="0287a13"/><l>女心既寂靜</l><l>趣於解脫處</l>
-<lb n="0287a14"/><l>是故常應聽</l><l>甚深四諦義</l></lg>
-<lb n="0287a15"/><juan fun="close" n="005"><jhead><title>大莊嚴<app type="＊" source="0280004"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第五</jhead></juan></div1>
+<lb n="0287a14"/><l>是故常應聽</l><l>甚深四諦義</l></lg></div1>
+<lb n="0287a15"/><juan fun="close" n="005"><jhead><title>大莊嚴<app type="＊" source="0280004"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第五</jhead></juan>
 <lb n="0287a16"/>
 <milestone unit="juan" n="6"/>
-<lb n="0287a17"/><div1>
+<lb n="0287a17"/>
 <lb n="0287a18"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead><title>大莊嚴<note n="0287001" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0287001" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0287001"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第六</jhead></juan>
 <lb n="0287a19"/>
 <lb n="0287a20"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0287002" resp="Taisho" type="orig" place="foot text">後＝姚【三】</note><note n="0287002" resp="CBETA" type="mod">後＝姚【宋】【元】【明】</note><app n="0287002"><lem>後</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚</rdg></app>秦三<note n="0287003" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】</note><note n="0287003" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】</note><app n="0287003"><lem>藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0287a21"/><mulu type="其他" level="1" n="29" label="31"/><head>（三一）</head><p place="inline">復次有實功德堪受供養。無實功德
+<lb n="0287a21"/><div1 type="other"><mulu type="其他" level="1" n="29" label="31"/><head>（三一）</head><p place="inline">復次有實功德堪受供養。無實功德
 <lb n="0287a22"/>不堪受人信心供養。我昔曾聞。拘沙種中
 <lb n="0287a23"/>有王名真檀迦膩吒。討東天竺。既平定已
 <lb n="0287a24"/>威勢赫振福利具足。還向本國。於其中路
@@ -2970,7 +2973,7 @@ Added comment  for Emacs
 <lb n="0288a16"/><l>猶如蚊子翅</l><l>扇於須彌山</l>
 <lb n="0288a17"/><l>雖盡其勢力</l><l>不能令動搖</l></lg>
 <lb n="0288a18"/><p>是故若人欲得福德。宣應禮拜佛之塔廟。</p></div1>
-<lb n="0288a19"/><div1><mulu type="其他" level="1" n="30" label="32"/><head>（三二）</head><p place="inline">復次若人學問。雖復毀行。以學問力尋
+<lb n="0288a19"/><div1 type="other"><mulu type="其他" level="1" n="30" label="32"/><head>（三二）</head><p place="inline">復次若人學問。雖復毀行。以學問力尋
 <lb n="0288a20"/>能得<note n="0288003" resp="Taisho" type="orig" place="foot text">道＝迴【三】</note><note n="0288003" resp="CBETA" type="mod">道＝迴【宋】【元】【明】</note><app n="0288003"><lem>道</lem><rdg wit="【宋】【元】【明】" resp="Taisho">迴</rdg></app>。以是義故應勤學問。我昔曾聞。
 <lb n="0288a21"/>有一多聞比丘住阿練若處。時有寡婦數
 <lb n="0288a22"/>數往來此比丘所聽其說法。于時學問比
@@ -3065,7 +3068,7 @@ Added comment  for Emacs
 <lb n="0289a21"/><l>如象絕&CB00463;靽</l><l>自恣隨意去</l></lg>
 <lb n="0289a22"/><p>時罷道比丘即捨惡業。出家精勤得阿羅漢
 <lb n="0289a23"/>果。</p></div1>
-<lb n="0289a24"/><div1><mulu type="其他" level="1" n="31" label="33"/><head>（三三）</head><p place="inline">復次若欲莊嚴無過善業。是故應當勤
+<lb n="0289a24"/><div1 type="other"><mulu type="其他" level="1" n="31" label="33"/><head>（三三）</head><p place="inline">復次若欲莊嚴無過善業。是故應當勤
 <lb n="0289a25"/>修諸善。我昔曾聞。有一田夫聰明&CB00834;慧。與
 <lb n="0289a26"/>諸徒伴共來入城。時見一人容貌端正莊
 <lb n="0289a27"/>嚴衣服。種種瓔珞服乘嚴麗。多將侍從。悉皆
@@ -3103,7 +3106,7 @@ Added comment  for Emacs
 <lb n="0289b29"/><l>今當滅惡業</l><l>將來求勝報</l>
 <pb ed="T" id="T04.0201.0289c" n="0289c"/>
 <lb n="0289c01"/><l>見惡果報已</l><l>智者深自責</l></lg></div1>
-<lb n="0289c02"/><div1><mulu type="其他" level="1" n="32" label="34"/><head>（三四）</head><p place="inline">復次若聞善說應當思惟必得義利。是
+<lb n="0289c02"/><div1 type="other"><mulu type="其他" level="1" n="32" label="34"/><head>（三四）</head><p place="inline">復次若聞善說應當思惟必得義利。是
 <lb n="0289c03"/>故智者常應聽受善妙之法。我昔曾聞。舍衛
 <lb n="0289c04"/>國中佛與阿難曠野中行。於一田畔見有
 <lb n="0289c05"/>伏藏。佛告阿難。是大毒蛇。阿難白佛。是惡
@@ -3150,7 +3153,7 @@ Added comment  for Emacs
 <lb n="0290a16"/><l>尊勝智見人</l><l>無不信敬者</l>
 <lb n="0290a17"/><l>能同<note n="0290001" resp="Taisho" type="orig" place="foot text">我＝於【三】</note><note n="0290001" resp="CBETA" type="mod">我＝於【宋】【元】【明】</note><app n="0290001"><lem>我</lem><rdg wit="【宋】【元】【明】" resp="Taisho">於</rdg></app>信故</l><l>現<note n="0290002" resp="Taisho" type="orig" place="foot text">得＝在【三】</note><note n="0290002" resp="CBETA" type="mod">得＝在【宋】【元】【明】</note><app n="0290002"><lem>得</lem><rdg wit="【宋】【元】【明】" resp="Taisho">在</rdg></app>於花報</l>
 <lb n="0290a18"/><l>今信最信處</l><l>應獲第一果</l></lg></div1>
-<lb n="0290a19"/><div1><mulu type="其他" level="1" n="33" label="35"/><head>（三五）</head><p place="inline">復次諸欲求利者。或得或不得。有真善
+<lb n="0290a19"/><div1 type="other"><mulu type="其他" level="1" n="33" label="35"/><head>（三五）</head><p place="inline">復次諸欲求利者。或得或不得。有真善
 <lb n="0290a20"/>心者不求自得利實。無真善心者為得貪
 <lb n="0290a21"/>利故。應作真善心。我昔曾聞。有一國王。時
 <lb n="0290a22"/>輔相子其父早喪。其子幼稚未任紹繼。錢財
@@ -3210,7 +3213,7 @@ Added comment  for Emacs
 <lb n="0290c16"/><l>我今自見知</l><l>斯事實難有</l>
 <lb n="0290c17"/><l>才業倍勝父</l><l>以心真善故</l></lg>
 <lb n="0290c18"/><p>是故智者。當作真實不應虛偽。</p></div1>
-<lb n="0290c19"/><div1><mulu type="其他" level="1" n="34" label="36"/><head>（三六）</head><p place="inline">復次現在結使雖復不起。若未斷結結
+<lb n="0290c19"/><div1 type="other"><mulu type="其他" level="1" n="34" label="36"/><head>（三六）</head><p place="inline">復次現在結使雖復不起。若未斷結結
 <lb n="0290c20"/>使之得猶故成就。如以冷水投熱湯中。我
 <lb n="0290c21"/>昔曾聞。有一師共一弟子。於其冬日在煖
 <lb n="0290c22"/>室中見有火聚無有&CB00195;焰。師語弟子。汝
@@ -3242,7 +3245,7 @@ Added comment  for Emacs
 <lb n="0291a18"/><l>便生難有想</l><l>結使後還起</l>
 <lb n="0291a19"/><l>毀犯於戒行</l><l>貪嗜著五欲</l>
 <lb n="0291a20"/><l>如蛇隱入穴</l><l>還出則螫人</l></lg></div1>
-<lb n="0291a21"/><div1><mulu type="其他" level="1" n="35" label="37"/><head>（三七）</head><p place="inline">復次施為解脫不為財物。若為財物
+<lb n="0291a21"/><div1 type="other"><mulu type="其他" level="1" n="35" label="37"/><head>（三七）</head><p place="inline">復次施為解脫不為財物。若為財物
 <lb n="0291a22"/>不名為施。若為解脫則得無生及涅槃樂。
 <lb n="0291a23"/>是故智者應為解脫而行布施。我昔曾聞。
 <lb n="0291a24"/>有一檀越詣僧房設會。檀越知識道人語
@@ -3273,7 +3276,7 @@ Added comment  for Emacs
 <lb n="0291b19"/><l>親近解脫林</l><l>快樂喻花葉</l>
 <lb n="0291b20"/><l>根喻於解脫</l><l>是故修戒施</l>
 <lb n="0291b21"/><l>必當為解脫</l><l>不應為世利</l></lg></div1>
-<lb n="0291b22"/><div1><mulu type="其他" level="1" n="36" label="38"/><head>（三八）</head><p place="inline">復次離諸難亦難。得於人身難。既得
+<lb n="0291b22"/><div1 type="other"><mulu type="其他" level="1" n="36" label="38"/><head>（三八）</head><p place="inline">復次離諸難亦難。得於人身難。既得
 <lb n="0291b23"/>離諸難。應當常精勤。我昔曾聞。有一小兒
 <lb n="0291b24"/>聞經中說。盲龜值浮木孔其事甚難。時此
 <lb n="0291b25"/>小兒故穿一板作孔受頭擲著池中。自入
@@ -3307,7 +3310,7 @@ Added comment  for Emacs
 <lb n="0291c23"/><l>不盡苦邊際</l><l>不離三有獄</l>
 <lb n="0291c24"/><l>應當勤方便</l><l>必離三有獄</l>
 <lb n="0291c25"/><l>我今求出家</l><l>必使得解脫</l></lg></div1>
-<lb n="0291c26"/><div1><mulu type="其他" level="1" n="37" label="39"/><head>（三九）</head><p place="inline">復次財錢難捨。智者若能修於小施莫
+<lb n="0291c26"/><div1 type="other"><mulu type="其他" level="1" n="37" label="39"/><head>（三九）</head><p place="inline">復次財錢難捨。智者若能修於小施莫
 <lb n="0291c27"/>起輕想。我昔曾聞。須和多國昔日有王名
 <lb n="0291c28"/>薩多浮。時王遊獵偶值一塔。即以五錢布
 <lb n="0291c29"/>施彼塔。有一旃陀羅遙唱善哉。即遣使捉
@@ -3333,7 +3336,7 @@ Added comment  for Emacs
 <lb n="0292a19"/><l>見有捨財者</l><l>心生未曾有</l>
 <lb n="0292a20"/><l>我自見其證</l><l>極苦不肯捨</l>
 <lb n="0292a21"/><l>大王今當知</l><l>慳心難可捨</l></lg></div1>
-<lb n="0292a22"/><div1><mulu type="其他" level="1" n="38" label="40"/><head>（四○）</head><p place="inline">復次善觀察所作當時雖有過後必有
+<lb n="0292a22"/><div1 type="other"><mulu type="其他" level="1" n="38" label="40"/><head>（四○）</head><p place="inline">復次善觀察所作當時雖有過後必有
 <lb n="0292a23"/>大益。我昔曾聞。有一比丘常被盜賊。一日
 <lb n="0292a24"/>之中堅閉門戶。賊復來至扣門而喚。比丘答
 <lb n="0292a25"/>言。我見汝時極大驚怖。汝可內手於彼向
@@ -3365,15 +3368,15 @@ Added comment  for Emacs
 <lb n="0292b21"/><l>有因麤事解</l><l>或因細事悟</l>
 <lb n="0292b22"/><l>麤者悟麤事</l><l>細者解細事</l>
 <lb n="0292b23"/><l>由我心麤故</l><l>因麤事解悟</l>
-<lb n="0292b24"/><l>我解斯事故</l><l>是以求出家</l></lg>
+<lb n="0292b24"/><l>我解斯事故</l><l>是以求出家</l></lg></div1>
 <lb n="0292b25"/><juan fun="close" n="006"><jhead><title>大莊嚴<anchor id="fxT04p0292b01"/>論經</title>卷第六</jhead></juan>
-<pb ed="T" id="T04.0201.0292c" n="0292c"/></div1>
+<pb ed="T" id="T04.0201.0292c" n="0292c"/>
 <lb n="0292c01"/>
-<milestone unit="juan" n="7"/><div1>
+<milestone unit="juan" n="7"/>
 <lb n="0292c02"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead><title>大莊嚴<note n="0292009" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0292009" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0292009"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第七</jhead></juan>
 <lb n="0292c03"/>
 <lb n="0292c04"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0292010" resp="Taisho" type="orig" place="foot text">後＝姚【三】</note><note n="0292010" resp="CBETA" type="mod">後＝姚【宋】【元】【明】</note><app n="0292010"><lem>後</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚</rdg></app>秦三<note n="0292011" resp="Taisho" type="orig" place="foot text">藏＋（法師）【三】</note><note n="0292011" resp="CBETA" type="mod">藏＋（法師）【宋】【元】【明】</note><app n="0292011"><lem>藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0292c05"/><mulu type="其他" level="1" n="39" label="41"/><head>（四一）</head><p place="inline">復次利養亂於行道。若斷利養善觀察
+<lb n="0292c05"/><div1 type="other"><mulu type="其他" level="1" n="39" label="41"/><head>（四一）</head><p place="inline">復次利養亂於行道。若斷利養善觀察
 <lb n="0292c06"/>瞋。我昔曾聞。有一比丘在一<note n="0292012" resp="Taisho" type="orig" place="foot text">園＝國【三】</note><note n="0292012" resp="CBETA" type="mod">園＝國【宋】【元】【明】</note><app n="0292012"><lem>園</lem><rdg wit="【宋】【元】【明】" resp="Taisho">國</rdg></app>中。城邑聚
 <lb n="0292c07"/>落競共供養。同出家者憎嫉誹謗。比丘弟子
 <lb n="0292c08"/>聞是誹謗。白其師言。某甲比丘誹謗和
@@ -3430,7 +3433,7 @@ Added comment  for Emacs
 <lb n="0293a29"/><l>不樂寂定法</l><l>以捨寂定故</l>
 <pb ed="T" id="T04.0201.0293b" n="0293b"/>
 <lb n="0293b01"/><l>不名為比丘</l><l>亦不名白衣</l></lg></div1>
-<lb n="0293b02"/><div1><mulu type="其他" level="1" n="40" label="42"/><head>（四二）</head><p place="inline">復次俱得漏盡教學差別。我昔曾聞。尊
+<lb n="0293b02"/><div1 type="other"><mulu type="其他" level="1" n="40" label="42"/><head>（四二）</head><p place="inline">復次俱得漏盡教學差別。我昔曾聞。尊
 <lb n="0293b03"/>者目連教二弟子。精專學禪而無所證。時
 <lb n="0293b04"/>尊者舍利弗問目連言。彼二弟子得勝法
 <lb n="0293b05"/>不。目連答言。未得。舍利弗又問言。汝教何
@@ -3461,7 +3464,7 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0201.0293c" n="0293c"/>
 <lb n="0293c01"/><l>法中之大將</l><l>言教調順我</l>
 <lb n="0293c02"/><l>使到安隱處</l><l>故我大歡喜</l></lg></div1>
-<lb n="0293c03"/><div1><mulu type="其他" level="1" n="41" label="43"/><head>（四三）</head><p place="inline">復次善根熟者雖復逃避如來大悲終不
+<lb n="0293c03"/><div1 type="other"><mulu type="其他" level="1" n="41" label="43"/><head>（四三）</head><p place="inline">復次善根熟者雖復逃避如來大悲終不
 <lb n="0293c04"/>放捨。我昔曾聞。如來無上良厚福田。行來進
 <lb n="0293c05"/>止常為福利。非如世間所有田也。欲示
 <lb n="0293c06"/>行福田異於世間<note n="0293004" resp="Taisho" type="orig" place="foot text">田＝因【三】</note><note n="0293004" resp="CBETA" type="mod">田＝因【宋】【元】【明】</note><app n="0293004"><lem>田</lem><rdg wit="【宋】【元】【明】" resp="Taisho">因</rdg></app>。行福田者往至檀
@@ -3784,7 +3787,7 @@ Added comment  for Emacs
 <lb n="0297a23"/><l>依智多方便</l><l>外道狂顛倒</l>
 <lb n="0297a24"/><l>麤&CB00612;之苦行</l><l>專迷著種姓</l></lg>
 <lb n="0297a25"/><p>波斯匿王禮佛及尼提足已。還舍衛城。</p></div1>
-<lb n="0297a26"/><div1><mulu type="其他" level="1" n="42" label="44"/><head>（四四）</head><p place="inline">復次雖不入見諦修學多聞力諸魔
+<lb n="0297a26"/><div1 type="other"><mulu type="其他" level="1" n="42" label="44"/><head>（四四）</head><p place="inline">復次雖不入見諦修學多聞力諸魔
 <lb n="0297a27"/>不能動應勤修學問。我昔曾聞。有一魔化
 <lb n="0297a28"/>作比丘來至僧坊。有一法師在眾<note n="0297004" resp="Taisho" type="orig" place="foot text">〔中〕－【三】</note><note n="0297004" resp="CBETA" type="mod">〔中〕－【宋】【元】【明】</note><app n="0297004"><lem>中</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>說
 <lb n="0297a29"/>法。化比丘言。我得羅漢道。若有所疑今悉
@@ -3828,15 +3831,15 @@ Added comment  for Emacs
 <lb n="0297c07"/><l>機辯顯分明</l><l>善察者分別</l>
 <lb n="0297c08"/><l>不能觀察者</l><l>不見如此理</l>
 <lb n="0297c09"/><l>實語與妄語</l><l>此二相違遠</l>
-<lb n="0297c10"/><l>佛語及外論</l><l>其事亦如是</l></lg>
-<lb n="0297c11"/><juan fun="close" n="007"><jhead><title>大莊嚴<anchor id="fxT04p0297c01"/><note n="0297009" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0297009" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0297009"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第七</jhead></juan></div1>
+<lb n="0297c10"/><l>佛語及外論</l><l>其事亦如是</l></lg></div1>
+<lb n="0297c11"/><juan fun="close" n="007"><jhead><title>大莊嚴<anchor id="fxT04p0297c01"/><note n="0297009" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0297009" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0297009"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第七</jhead></juan>
 <lb n="0297c12"/>
 <milestone unit="juan" n="8"/>
-<lb n="0297c13"/><div1>
+<lb n="0297c13"/>
 <lb n="0297c14"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead><title>大莊嚴<anchor id="fxT04p0297c02"/>論經</title>卷第八</jhead></juan>
 <lb n="0297c15"/>
 <lb n="0297c16"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><note n="0297010" resp="Taisho" type="orig" place="foot text">後秦三藏＝姚秦三藏法師【三】</note><note n="0297010" resp="CBETA" type="mod">後秦三藏＝姚秦三藏法師【宋】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app>【元】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app>【明】<app><lem resp="CBETA.march">＊</lem><rdg wit="【大】"></rdg></app></note><app n="0297010"><lem>後秦三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0297c17"/><mulu type="其他" level="1" n="43" label="45"/><head>（四五）</head><p place="inline">復次治身心病唯有佛語。是故應勤聽
+<lb n="0297c17"/><div1 type="other"><mulu type="其他" level="1" n="43" label="45"/><head>（四五）</head><p place="inline">復次治身心病唯有佛語。是故應勤聽
 <lb n="0297c18"/>於說法。我昔曾聞。漢地王子眼中生瞙遍覆
 <lb n="0297c19"/>其目。遂至闇冥無所&CB00418;見。種種療治不能
 <lb n="0297c20"/>瘳除。時竺叉尸羅國有諸商<note n="0297011" resp="Taisho" type="orig" place="foot text">估＝賈【三】＊</note><note n="0297011" resp="CBETA" type="mod">估＝賈【宋】＊【元】＊【明】＊</note><app n="0297011"><lem>估</lem><rdg wit="【宋】【元】【明】" resp="Taisho">賈</rdg></app>來詣漢土。
@@ -3894,7 +3897,7 @@ Added comment  for Emacs
 <lb n="0298b12"/><l>濟拔事已竟</l><l>得達<note n="0298006" resp="Taisho" type="orig" place="foot text">于＝於【明】</note><app n="0298006"><lem>于</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>彼岸</l>
 <lb n="0298b13"/><l>意根法微細</l><l>作意當解了</l>
 <lb n="0298b14"/><l>乃至邊地人</l><l>亦能得開悟</l></lg></div1>
-<lb n="0298b15"/><div1><mulu type="其他" level="1" n="44" label="46"/><head>（四六）</head><p place="inline">復次若得四不壞淨寧捨身命終不毀
+<lb n="0298b15"/><div1 type="other"><mulu type="其他" level="1" n="44" label="46"/><head>（四六）</head><p place="inline">復次若得四不壞淨寧捨身命終不毀
 <lb n="0298b16"/>害前物。是故應勤修四不壞淨。我昔曾聞。
 <lb n="0298b17"/>有一罪人應就刑法。時旃陀羅次當刑人。
 <lb n="0298b18"/>彼旃陀羅是學優婆塞得見諦道。不肯殺
@@ -3985,7 +3988,7 @@ Added comment  for Emacs
 <lb n="0299b13"/><l>臥於泥血中</l><l>以護佛戒<note n="0299003" resp="Taisho" type="orig" place="foot text">故＝法【三】</note><note n="0299003" resp="CBETA" type="mod">故＝法【宋】【元】【明】</note><app n="0299003"><lem>故</lem><rdg wit="【宋】【元】【明】" resp="Taisho">法</rdg></app></l>
 <lb n="0299b14"/><l>此屍以火焚</l><l>即變為灰土</l>
 <lb n="0299b15"/><l>持戒善法名</l><l>同於世界盡</l></lg></div1>
-<lb n="0299b16"/><div1><mulu type="其他" level="1" n="45" label="47"/><head>（四七）</head><p place="inline">以何因緣而說此事。欲示證道無有
+<lb n="0299b16"/><div1 type="other"><mulu type="其他" level="1" n="45" label="47"/><head>（四七）</head><p place="inline">以何因緣而說此事。欲示證道無有
 <lb n="0299b17"/>變異。佛說見諦終無毀破。四大可破。四不
 <lb n="0299b18"/>壞淨終不可壞。</p>
 <lb n="0299b19"/><p>復次心有憍慢無惡不造。慢雖自高名自
@@ -4130,7 +4133,7 @@ Added comment  for Emacs
 <lb n="0301a08"/><l>弟子眾一味</l><l>如海等一味</l></lg>
 <lb n="0301a09"/><p>以何因緣而說此事。佛法出於世為斷
 <lb n="0301a10"/>憍慢故。</p></div1>
-<lb n="0301a11"/><div1><mulu type="其他" level="1" n="46" label="48"/><head>（四八）</head><p place="inline">復次得見諦者。不為天魔諸外道等之
+<lb n="0301a11"/><div1 type="other"><mulu type="其他" level="1" n="46" label="48"/><head>（四八）</head><p place="inline">復次得見諦者。不為天魔諸外道等之
 <lb n="0301a12"/>所欺誑。是故應勤方便必求見諦。我昔曾
 <lb n="0301a13"/>聞。首羅居士甚大慳&CB00385;。舍利弗等往返其家。
 <lb n="0301a14"/>而說偈言。</p>
@@ -4235,7 +4238,7 @@ Added comment  for Emacs
 <lb n="0302a23"/><l>速疾還天宮</l><l>師子王住處</l>
 <lb n="0302a24"/><l>象到尋突走</l><l>波旬亦如是</l>
 <lb n="0302a25"/><l>見諦所住處</l><l>諸魔不敢停</l></lg></div1>
-<lb n="0302a26"/><div1><mulu type="其他" level="1" n="47" label="49"/><head>（四九）</head><p place="inline">復次不得禪定於命終時不得決定。
+<lb n="0302a26"/><div1 type="other"><mulu type="其他" level="1" n="47" label="49"/><head>（四九）</head><p place="inline">復次不得禪定於命終時不得決定。
 <lb n="0302a27"/>我昔曾聞。婆須王時有一侍人名多翅那
 <lb n="0302a28"/>迦王所親愛。為讒謗故繫於獄中。又更讚
 <lb n="0302a29"/>毀。王大忿怒遣人殺之。時諸眷屬皆來圍
@@ -4285,7 +4288,7 @@ Added comment  for Emacs
 <lb n="0302c13"/><p>不善觀者不攝五根。設臨終時心難禁制
 <lb n="0302c14"/>如庫藏中鎧<note n="0302010" resp="Taisho" type="orig" place="foot text">鉀＝甲【明】＊</note><app n="0302010"><lem>鉀</lem><rdg wit="【明】" resp="Taisho">甲</rdg></app>朽故臨敵將戰器<app type="＊" source="0302010"><lem>鉀</lem><rdg resp="Taisho" wit="【明】">甲</rdg></app>散壞。
 <lb n="0302c15"/>不習撿心命終亦爾。</p></div1>
-<lb n="0302c16"/><div1><mulu type="其他" level="1" n="48" label="50"/><head>（五○）</head><p place="inline">復次有實功德應當供養。智者宜<note n="0302011" resp="Taisho" type="orig" place="foot text">應＝依【三】</note><note n="0302011" resp="CBETA" type="mod">應＝依【宋】【元】【明】</note><app n="0302011"><lem>應</lem><rdg wit="【宋】【元】【明】" resp="Taisho">依</rdg></app>
+<lb n="0302c16"/><div1 type="other"><mulu type="其他" level="1" n="48" label="50"/><head>（五○）</head><p place="inline">復次有實功德應當供養。智者宜<note n="0302011" resp="Taisho" type="orig" place="foot text">應＝依【三】</note><note n="0302011" resp="CBETA" type="mod">應＝依【宋】【元】【明】</note><app n="0302011"><lem>應</lem><rdg wit="【宋】【元】【明】" resp="Taisho">依</rdg></app>
 <lb n="0302c17"/>恭敬有德。我昔曾聞。阿越提國。其王名曰
 <lb n="0302c18"/>因提拔摩。有弟名須利拔摩。為諍國故二
 <lb n="0302c19"/>人共&CB00508;。須利拔摩擲&CB00559;&CB00559;因提拔摩頭。&CB00559;已
@@ -4409,15 +4412,15 @@ Added comment  for Emacs
 <lb n="0304a17"/><l>於諸眾生等</l><l>能為最親厚</l>
 <lb n="0304a18"/><l>能於一解脫</l><l>分別說多種</l>
 <lb n="0304a19"/><l>外道狂顛倒</l><l>橫分別種姓</l></lg>
-<lb n="0304a20"/><p>爾時大王說是偈已。作禮而去。</p>
-<lb n="0304a21"/><juan fun="close" n="008"><jhead><title>大莊嚴<note n="0304004" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0304004" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0304004"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第八</jhead></juan></div1>
+<lb n="0304a20"/><p>爾時大王說是偈已。作禮而去。</p></div1>
+<lb n="0304a21"/><juan fun="close" n="008"><jhead><title>大莊嚴<note n="0304004" resp="Taisho" type="orig" place="foot text">論經＝經論【三】</note><note n="0304004" resp="CBETA" type="mod">論經＝經論【宋】【元】【明】</note><app n="0304004"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第八</jhead></juan>
 <lb n="0304a22"/>
 <milestone unit="juan" n="9"/>
-<lb n="0304a23"/><div1>
+<lb n="0304a23"/>
 <lb n="0304a24"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead><title>大莊嚴<note n="0304005" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0304005"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第九</jhead></juan>
 <lb n="0304a25"/>
 <lb n="0304a26"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><anchor id="fxT04p0304a01"/>後秦三藏鳩摩羅什譯</byline>
-<lb n="0304a27"/><mulu type="其他" level="1" n="49" label="51"/><head>（五一）</head><p place="inline">復次瞋恚因緣佛不能諫。是故智者應
+<lb n="0304a27"/><div1 type="other"><mulu type="其他" level="1" n="49" label="51"/><head>（五一）</head><p place="inline">復次瞋恚因緣佛不能諫。是故智者應
 <lb n="0304a28"/>斷瞋恚。我昔曾聞。拘睒彌比丘以&CB00508;諍故
 <lb n="0304a29"/>分為二部。緣其&CB00508;諍各競道理經歷多時。
 <pb ed="T" id="T04.0201.0304b" n="0304b"/>
@@ -4533,7 +4536,7 @@ Added comment  for Emacs
 <lb n="0305b20"/>法使得和合。于時如來為諸比丘說六和
 <lb n="0305b21"/>敬法。令諸比丘還得和合。是故佛說斷於
 <lb n="0305b22"/>瞋恚。</p></div1>
-<lb n="0305b23"/><div1><mulu type="其他" level="1" n="50" label="52"/><head>（五二）</head><p place="inline">復次應當觀食。世尊亦說正觀於食。我
+<lb n="0305b23"/><div1 type="other"><mulu type="其他" level="1" n="50" label="52"/><head>（五二）</head><p place="inline">復次應當觀食。世尊亦說正觀於食。我
 <lb n="0305b24"/>昔曾聞。尊者黑迦留陀夷為食因緣故佛為
 <lb n="0305b25"/>制戒。佛說種種因緣讚戒讚持戒。少欲知
 <lb n="0305b26"/>足行頭陀事。佛集比丘僧。讚一食法。乃至
@@ -4637,7 +4640,7 @@ Added comment  for Emacs
 <lb n="0306c04"/>生卑賤得<note n="0306003" resp="Taisho" type="orig" place="foot text">（阿）＋羅【明】</note><app n="0306003"><lem>羅</lem><rdg wit="【明】" resp="Taisho">阿羅</rdg></app>漢果。<note n="0306004" resp="Taisho" type="orig" place="foot text">〔如〕－【明】</note><app n="0306004"><lem>如</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>婆多梨不知不見。
 <lb n="0306c05"/>雖生勝族而不得阿羅漢。是故如來平等
 <lb n="0306c06"/>說法而無偏黨。</p></div1>
-<lb n="0306c07"/><div1><mulu type="其他" level="1" n="51" label="53"/><head>（五三）</head><p place="inline">復次狂逸之甚莫過貪欲。是故應當勤
+<lb n="0306c07"/><div1 type="other"><mulu type="其他" level="1" n="51" label="53"/><head>（五三）</head><p place="inline">復次狂逸之甚莫過貪欲。是故應當勤
 <lb n="0306c08"/>斷貪欲。我昔曾聞。世尊往昔修行菩薩道
 <lb n="0306c09"/>時。時世空虛無佛賢聖出現於世。爾時有王
 <lb n="0306c10"/>名曰光明。乘調順象出行遊觀。前後導從
@@ -4719,7 +4722,7 @@ Added comment  for Emacs
 <lb n="0307b26"/>捨財施。以此功德願我未來必得成佛。斷
 <lb n="0307b27"/>除眾生貪欲之患。以何因緣而說此事。眾
 <lb n="0307b28"/>生不知欲因緣及對治故。說是修多羅。</p></div1>
-<lb n="0307b29"/><div1><mulu type="其他" level="1" n="52" label="54"/><head>（五四）</head><p place="inline">復次佛觀久後使得信心故不卒為事。
+<lb n="0307b29"/><div1 type="other"><mulu type="其他" level="1" n="52" label="54"/><head>（五四）</head><p place="inline">復次佛觀久後使得信心故不卒為事。
 <pb ed="T" id="T04.0201.0307c" n="0307c"/>
 <lb n="0307c01"/>我昔曾聞。尊者優波&CB00545;多林下坐禪。時魔波
 <lb n="0307c02"/>旬以諸花鬘著其頂上。爾時尊者從禪定
@@ -4896,15 +4899,15 @@ Added comment  for Emacs
 <lb n="0309b23"/>緣而說此事。諸大聲聞等欲使諸檀越<note n="0309004" resp="Taisho" type="orig" place="foot text">普＝並【三】</note><note n="0309004" resp="CBETA" type="mod">普＝並【宋】【元】【明】</note><app n="0309004"><lem>普</lem><rdg wit="【宋】【元】【明】" resp="Taisho">並</rdg></app>
 <lb n="0309b24"/>供養眾僧令不所乏。又令比丘亦聞法奉
 <lb n="0309b25"/>行。以是故應為四眾說法。若欲讚佛者應
-<lb n="0309b26"/>當作是說。雖斷欲結使不覺為作禮。</p>
+<lb n="0309b26"/>當作是說。雖斷欲結使不覺為作禮。</p></div1>
 <lb n="0309b27"/><juan fun="close" n="009"><jhead><title>大莊嚴<note n="0309005" resp="Taisho" type="orig" place="foot text">論經＝經論【明】＊</note><note n="0309005" resp="CBETA" type="mod"><todo type="＊"/>論經＝經論【明】＊</note><app n="0309005"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第九</jhead></juan>
-<pb ed="T" id="T04.0201.0309c" n="0309c"/></div1>
+<pb ed="T" id="T04.0201.0309c" n="0309c"/>
 <lb n="0309c01"/>
-<milestone unit="juan" n="10"/><div1>
+<milestone unit="juan" n="10"/>
 <lb n="0309c02"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead><title>大莊嚴<note n="0309006" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0309006" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0309006"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第十</jhead></juan>
 <lb n="0309c03"/>
 <lb n="0309c04"/><byline type="Author">馬鳴菩薩造</byline><byline type="Translator"><anchor id="fxT04p0309c01"/>後秦三藏鳩摩羅什譯</byline>
-<lb n="0309c05"/><mulu type="其他" level="1" n="53" label="55"/><head>（五五）</head><p place="inline">復次若人讚佛得大果報。為諸眾人之
+<lb n="0309c05"/><div1 type="other"><mulu type="其他" level="1" n="53" label="55"/><head>（五五）</head><p place="inline">復次若人讚佛得大果報。為諸眾人之
 <lb n="0309c06"/>所恭敬。是故應當勤心讚敬。我昔曾聞。迦
 <lb n="0309c07"/>葉佛時有一法師為眾說法。於大眾中讚
 <lb n="0309c08"/>迦葉佛。以是緣故命終生天。於人天中常
@@ -4986,7 +4989,7 @@ Added comment  for Emacs
 <lb n="0310b24"/><l>略而言說之</l><l>常應讚歎佛</l></lg>
 <lb n="0310b25"/><p>以何因緣而說此事。為說法者得大果報。
 <lb n="0310b26"/>諸有說法應生喜心。</p></div1>
-<lb n="0310b27"/><div1><mulu type="其他" level="1" n="54" label="56"/><head>（五六）</head><p place="inline">復次有大功德猶修無倦。況無福者而
+<lb n="0310b27"/><div1 type="other"><mulu type="其他" level="1" n="54" label="56"/><head>（五六）</head><p place="inline">復次有大功德猶修無倦。況無福者而
 <lb n="0310b28"/>當懈慢。我昔曾聞。尊者摩訶迦葉。入諸禪
 <lb n="0310b29"/>定解脫三昧。欲使修福眾生下善種子獲
 <pb ed="T" id="T04.0201.0310c" n="0310c"/>
@@ -5073,7 +5076,7 @@ Added comment  for Emacs
 <lb n="0311b21"/>欲使人勤修福業。帝釋勝人猶尚修福。何
 <lb n="0311b22"/>況世人而不修施。聲聞之人帝釋供養。況復
 <lb n="0311b23"/>世尊。</p></div1>
-<lb n="0311b24"/><div1><mulu type="其他" level="1" n="55" label="57"/><head>（五七）</head><p place="inline">復次雖少種善必當求佛。少善求佛猶
+<lb n="0311b24"/><div1 type="other"><mulu type="其他" level="1" n="55" label="57"/><head>（五七）</head><p place="inline">復次雖少種善必當求佛。少善求佛猶
 <lb n="0311b25"/>如甘露。是以應當盡心求佛。我昔曾聞。有
 <lb n="0311b26"/>一人因緣力故發心出家。欲求解脫即詣
 <lb n="0311b27"/>僧坊。值佛教化不在僧坊。彼人念言。世尊
@@ -5153,7 +5156,7 @@ Added comment  for Emacs
 <lb n="0312b11"/>化。比丘心悟得羅漢果。以是因緣故。於世
 <lb n="0312b12"/>尊所種少善根獲報無量。況復造立形像
 <lb n="0312b13"/>塔廟。</p></div1>
-<lb n="0312b14"/><div1><mulu type="其他" level="1" n="56" label="58"/><head>（五八）</head><p place="inline">復次善根既熟得解脫果。<note n="0312007" resp="Taisho" type="orig" place="foot text">由＝因【三】</note><note n="0312007" resp="CBETA" type="mod">由＝因【宋】【元】【明】</note><app n="0312007"><lem>由</lem><rdg wit="【宋】【元】【明】" resp="Taisho">因</rdg></app>是之故宜
+<lb n="0312b14"/><div1 type="other"><mulu type="其他" level="1" n="56" label="58"/><head>（五八）</head><p place="inline">復次善根既熟得解脫果。<note n="0312007" resp="Taisho" type="orig" place="foot text">由＝因【三】</note><note n="0312007" resp="CBETA" type="mod">由＝因【宋】【元】【明】</note><app n="0312007"><lem>由</lem><rdg wit="【宋】【元】【明】" resp="Taisho">因</rdg></app>是之故宜
 <lb n="0312b15"/>應修善。我昔曾聞。世尊學道為菩薩<note n="0312008" resp="Taisho" type="orig" place="foot text">〔時〕－【三】</note><note n="0312008" resp="CBETA" type="mod">〔時〕－【宋】【元】【明】</note><app n="0312008"><lem>時</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>苦
 <lb n="0312b16"/>行六年。日食一麻一米。無所成辦又無利
 <lb n="0312b17"/>益。時彼菩薩以無所得。便食百味乳糜。時
@@ -5364,7 +5367,7 @@ Added comment  for Emacs
 <lb n="0314c12"/><l>善逝言辭廣</l><l>照了無不解</l></lg>
 <lb n="0314c13"/><p>何故說是事。為五比丘故。除去於二邊修
 <lb n="0314c14"/>行於中道。見諦成道果。</p></div1>
-<lb n="0314c15"/><div1><mulu type="其他" level="1" n="57" label="59"/><head>（五九）</head><p place="inline">復次眾生造業各受其報。我昔曾聞。有
+<lb n="0314c15"/><div1 type="other"><mulu type="其他" level="1" n="57" label="59"/><head>（五九）</head><p place="inline">復次眾生造業各受其報。我昔曾聞。有
 <lb n="0314c16"/>一貧人作是思惟。當詣天<note n="0314005" resp="Taisho" type="orig" place="foot text">祠＝祀【三】＊</note><note n="0314005" resp="CBETA" type="mod">祠＝祀【宋】＊【元】＊【明】＊</note><app n="0314005"><lem>祠</lem><rdg wit="【宋】【元】【明】" resp="Taisho">祀</rdg></app>求於現世
 <lb n="0314c17"/>饒益財寶。作是念已語其弟言。汝可勤作
 <lb n="0314c18"/>田作好為生計。勿令家中有所乏短。便
@@ -5407,7 +5410,7 @@ Added comment  for Emacs
 <lb n="0315a25"/><l>此三所獲報</l><l>十力之所說</l>
 <lb n="0315a26"/><l>此種皆是因</l><l>不應擾亂我</l>
 <lb n="0315a27"/><l>是故應修業</l><l>以求諸吉果</l></lg></div1>
-<lb n="0315a28"/><div1><mulu type="其他" level="1" n="58" label="60"/><head>（六○）</head><p place="inline">復次種子得果非是吉力。是故不應疑
+<lb n="0315a28"/><div1 type="other"><mulu type="其他" level="1" n="58" label="60"/><head>（六○）</head><p place="inline">復次種子得果非是吉力。是故不應疑
 <lb n="0315a29"/>著吉相。我昔曾聞。有一比丘詣檀越家。時
 <pb ed="T" id="T04.0201.0315b" n="0315b"/>
 <lb n="0315b01"/>彼檀越既<note n="0315005" resp="Taisho" type="orig" place="foot text">嚼＝爵【宋】【元】</note><app n="0315005"><lem>嚼</lem><rdg wit="【宋】【元】" resp="Taisho">爵</rdg></app>楊枝以用漱口。又取牛黃用
@@ -5509,16 +5512,16 @@ Added comment  for Emacs
 <lb n="0316b07"/><l>安置吉場上</l><l>若不下種子</l>
 <lb n="0316b08"/><l>而獲果報者</l><l>是則名為吉</l></lg>
 <lb n="0316b09"/><p>何以故。說是應常勤聽法。以聽法故能
-<lb n="0316b10"/>除愚癡。心能別了於諸善惡。</p>
-<lb n="0316b11"/><juan fun="close" n="010"><jhead><title>大莊嚴<app type="＊" source="0309006"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第十</jhead></juan></div1>
+<lb n="0316b10"/>除愚癡。心能別了於諸善惡。</p></div1>
+<lb n="0316b11"/><juan fun="close" n="010"><jhead><title>大莊嚴<app type="＊" source="0309006"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第十</jhead></juan>
 <lb n="0316b12"/>
 <milestone unit="juan" n="11"/>
-<lb n="0316b13"/><div1>
+<lb n="0316b13"/>
 <lb n="0316b14"/><juan fun="open" n="011"><mulu type="卷" n="011"/><jhead><title>大莊嚴<note n="0316005" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0316005" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0316005"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第十一</jhead></juan>
 <lb n="0316b15"/>
 <lb n="0316b16"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0316b17"/><byline type="Translator"><note n="0316006" resp="Taisho" type="orig" place="foot text">後秦龜茲三藏＝姚秦三藏法師【三】</note><note n="0316006" resp="CBETA" type="mod">後秦龜茲三藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0316006"><lem>後秦龜茲三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0316b18"/><mulu type="其他" level="1" n="59" label="61"/><head>（六一）</head><p place="inline">復次少智之人見佛相好猶發善心。況
+<lb n="0316b18"/><div1 type="other"><mulu type="其他" level="1" n="59" label="61"/><head>（六一）</head><p place="inline">復次少智之人見佛相好猶發善心。況
 <lb n="0316b19"/>復智慧大德之人。而當不發於善心耶。我
 <lb n="0316b20"/>昔曾聞。佛在舍衛國。時波斯匿王請佛及
 <lb n="0316b21"/>僧。於九十日夏坐安居。集諸牛群近佛精
@@ -5625,7 +5628,7 @@ Added comment  for Emacs
 <lb n="0317c02"/>來世尊<note n="0317007" resp="Taisho" type="orig" place="foot text">具＝真【三】</note><note n="0317007" resp="CBETA" type="mod">具＝真【宋】【元】【明】</note><app n="0317007"><lem>具</lem><rdg wit="【宋】【元】【明】" resp="Taisho">真</rdg></app>一切智。諸牧牛人心生信解求
 <lb n="0317c03"/>佛出家。佛即為說。有十一法比丘應學。
 <lb n="0317c04"/>如修多羅中廣說。</p></div1>
-<lb n="0317c05"/><div1><mulu type="其他" level="1" n="60" label="62"/><head>（六二）</head><p place="inline">復次不求供養及與恭敬。如是大人唯
+<lb n="0317c05"/><div1 type="other"><mulu type="其他" level="1" n="60" label="62"/><head>（六二）</head><p place="inline">復次不求供養及與恭敬。如是大人唯
 <lb n="0317c06"/>求持行。我昔曾聞。如來在舍衛國祇樹給
 <lb n="0317c07"/>孤獨園。九十日中夏安居訖。世尊欲去。須達
 <lb n="0317c08"/>多即請世尊在此而住。爾時如來不受其
@@ -5760,7 +5763,7 @@ Added comment  for Emacs
 <lb n="0319a17"/><l>為於受化者</l><l>行止及坐臥</l>
 <lb n="0319a18"/><l>常觀諸眾生</l><l>為於眾生故</l>
 <lb n="0319a19"/><l>應行即便行</l><l>應住尋止住</l></lg></div1>
-<lb n="0319a20"/><div1><mulu type="其他" level="1" n="61" label="63"/><head>（六三）</head><p place="inline">復次護持禁戒寧捨身命終不毀犯。我
+<lb n="0319a20"/><div1 type="other"><mulu type="其他" level="1" n="61" label="63"/><head>（六三）</head><p place="inline">復次護持禁戒寧捨身命終不毀犯。我
 <lb n="0319a21"/>昔曾聞。有一比丘次第乞食。至穿珠家立
 <lb n="0319a22"/>於門外。時彼珠師為於國王穿摩尼珠。比
 <lb n="0319a23"/>丘衣色往映彼珠其色紅赤。彼穿珠師即入
@@ -5938,16 +5941,16 @@ Added comment  for Emacs
 <lb n="0321a15"/><l>要當值此苦</l><l>能持禁戒者</l>
 <lb n="0321a16"/><l>是則名為難</l><l>為鵝身受苦</l>
 <lb n="0321a17"/><l>不犯於禁戒</l><l>此事實難有</l></lg>
-<lb n="0321a18"/><p>時穿珠師既懺悔已。即遣比丘還歸所止。</p>
-<lb n="0321a19"/><juan fun="close" n="011"><jhead><title>大莊嚴<app type="＊" source="0316005"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第十一</jhead></juan></div1>
+<lb n="0321a18"/><p>時穿珠師既懺悔已。即遣比丘還歸所止。</p></div1>
+<lb n="0321a19"/><juan fun="close" n="011"><jhead><title>大莊嚴<app type="＊" source="0316005"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第十一</jhead></juan>
 <lb n="0321a20"/>
 <milestone unit="juan" n="12"/>
-<lb n="0321a21"/><div1>
+<lb n="0321a21"/>
 <lb n="0321a22"/><juan fun="open" n="012"><mulu type="卷" n="012"/><jhead><title>大莊嚴<note n="0321001" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0321001" resp="CBETA" type="mod"><todo type="＊"/>論經＝經論【宋】＊【元】＊【明】＊</note><app n="0321001"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第十二</jhead></juan>
 <lb n="0321a23"/>
 <lb n="0321a24"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0321a25"/><byline type="Translator"><note n="0321002" resp="Taisho" type="orig" place="foot text">後秦…藏＝姚秦三藏法師【三】</note><note n="0321002" resp="CBETA" type="mod">後秦…藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0321002" word-count="6"><lem>後秦龜茲三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0321a26"/><mulu type="其他" level="1" n="62" label="64"/><head>（六四）</head><p place="inline">復次佛法難聞。如來往昔為菩薩時。不
+<lb n="0321a26"/><div1 type="other"><mulu type="其他" level="1" n="62" label="64"/><head>（六四）</head><p place="inline">復次佛法難聞。如來往昔為菩薩時。不
 <lb n="0321a27"/>惜身命以求於法。是故應當勤心聽法。我
 <lb n="0321a28"/>昔曾聞鴿緣譬喻。有邪見師為釋提桓因
 <lb n="0321a29"/>說顛倒法。彼外道師非有真智。自稱為一
@@ -6165,7 +6168,7 @@ Added comment  for Emacs
 <lb n="0323c01"/><l>果願已成就</l><l>憶念度脫我</l></lg>
 <lb n="0323c02"/><p>時彼帝釋共毘首羯磨供養菩薩已還<note n="0323009" resp="Taisho" type="orig" place="foot text">于＝於【明】</note><app n="0323009"><lem>于</lem><rdg wit="【明】" resp="Taisho">於</rdg></app>
 <lb n="0323c03"/>天宮。</p></div1>
-<lb n="0323c04"/><div1><mulu type="其他" level="1" n="63" label="65"/><head>（六五）</head><p place="inline">復次應近善知識。近善知識者結使熾
+<lb n="0323c04"/><div1 type="other"><mulu type="其他" level="1" n="63" label="65"/><head>（六五）</head><p place="inline">復次應近善知識。近善知識者結使熾
 <lb n="0323c05"/>盛能得消滅。我昔曾聞。素毘羅王太子名娑
 <lb n="0323c06"/>羅那。時王崩背。太子娑羅那不肯紹繼。捨
 <lb n="0323c07"/>位與弟。詣迦旃延所求索出家。既出家已。
@@ -6414,16 +6417,16 @@ Added comment  for Emacs
 <lb n="0326b10"/>不依善知識。唯有癡者不依善友。云何而
 <lb n="0326b11"/>能得於解脫。尊者迦旃延拔濟娑羅那巴樹
 <lb n="0326b12"/>提瞋恚之毒藥消滅無遺餘。是故有智者應
-<lb n="0326b13"/>近善知識。</p>
-<lb n="0326b14"/><juan fun="close" n="012"><jhead><title>大莊嚴<note n="0326005" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0326005" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0326005"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷<note n="0326006" resp="Taisho" type="orig" place="foot text">〔第〕－【明】</note><app n="0326006"><lem>第</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>十二</jhead></juan></div1>
+<lb n="0326b13"/>近善知識。</p></div1>
+<lb n="0326b14"/><juan fun="close" n="012"><jhead><title>大莊嚴<note n="0326005" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0326005" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0326005"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷<note n="0326006" resp="Taisho" type="orig" place="foot text">〔第〕－【明】</note><app n="0326006"><lem>第</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>十二</jhead></juan>
 <lb n="0326b15"/>
 <milestone unit="juan" n="13"/>
-<lb n="0326b16"/><div1>
+<lb n="0326b16"/>
 <lb n="0326b17"/><juan fun="open" n="013"><mulu type="卷" n="013"/><jhead><title>大莊嚴論經</title>卷第十三</jhead></juan>
 <lb n="0326b18"/>
 <lb n="0326b19"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0326b20"/><byline type="Translator">後秦龜茲三藏鳩摩羅什譯</byline>
-<lb n="0326b21"/><mulu type="其他" level="1" n="64" label="66"/><head>（六六）</head><p place="inline">復次供養佛塔功德甚大。是故應當勤
+<lb n="0326b21"/><div1 type="other"><mulu type="其他" level="1" n="64" label="66"/><head>（六六）</head><p place="inline">復次供養佛塔功德甚大。是故應當勤
 <lb n="0326b22"/>心供養。我昔曾聞。波斯匿王往詣佛所頂
 <lb n="0326b23"/>禮佛足。聞有異香殊於天香。以聞此香
 <lb n="0326b24"/>四向顧視莫知所在。即白世尊。為誰香耶。
@@ -6533,7 +6536,7 @@ Added comment  for Emacs
 <lb n="0327c08"/>字號曰香身。爾時香身厭惡陰界。求索出
 <lb n="0327c09"/>家得辟支佛道。此骨是辟支佛骨所出之香。
 <lb n="0327c10"/>是故眾人應供養塔獲大功德。</p></div1>
-<lb n="0327c11"/><div1><mulu type="其他" level="1" n="65" label="67"/><head>（六七）</head><p place="inline">復次先有善根應得解脫。由不聞法因
+<lb n="0327c11"/><div1 type="other"><mulu type="其他" level="1" n="65" label="67"/><head>（六七）</head><p place="inline">復次先有善根應得解脫。由不聞法因
 <lb n="0327c12"/>緣等故還墮地獄。是故應當至心聽法。我
 <lb n="0327c13"/>昔曾聞。富<note n="0327011" resp="Taisho" type="orig" place="foot text">羅那＝那羅【宋】【元】，蘭那【明】＊</note><note n="0327011" resp="CBETA" type="mod">羅那＝那羅【宋】【元】，＝蘭那【明】＊</note><app n="0327011"><lem>羅那</lem><rdg wit="【宋】【元】" resp="Taisho">那羅</rdg><rdg wit="【明】" resp="Taisho">蘭那</rdg></app>弟子尸利&CB00545;多者。是樹提
 <lb n="0327c14"/>伽&CB00106;夫。時樹提伽父先是<note n="0327012" resp="Taisho" type="orig" place="foot text">尼＝尸【三】</note><note n="0327012" resp="CBETA" type="mod">尼＝尸【宋】【元】【明】</note><app n="0327012"><lem>尼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">尸</rdg></app>乾陀弟子。一
@@ -7005,16 +7008,16 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0201.0333a" n="0333a"/>
 <lb n="0333a01"/><l>而獲甘露食</l><l>&CB00508;諍應失財</l>
 <lb n="0333a02"/><l>反得於大利</l><l><note n="0333001" resp="Taisho" type="orig" place="foot text">是故＝見佛【三】</note><note n="0333001" resp="CBETA" type="mod">是故＝見佛【宋】【元】【明】</note><app n="0333001"><lem>是故</lem><rdg wit="【宋】【元】【明】" resp="Taisho">見佛</rdg></app>親近佛</l>
-<lb n="0333a03"/><l>眾生慧眼開</l><l>而得睹正道</l></lg>
-<lb n="0333a04"/><juan fun="close" n="013"><jhead><title>大莊嚴<anchor id="fxT04p0333a01"/>論經</title>卷第十三</jhead></juan></div1>
+<lb n="0333a03"/><l>眾生慧眼開</l><l>而得睹正道</l></lg></div1>
+<lb n="0333a04"/><juan fun="close" n="013"><jhead><title>大莊嚴<anchor id="fxT04p0333a01"/>論經</title>卷第十三</jhead></juan>
 <lb n="0333a05"/>
 <milestone unit="juan" n="14"/>
-<lb n="0333a06"/><div1>
+<lb n="0333a06"/>
 <lb n="0333a07"/><juan fun="open" n="014"><mulu type="卷" n="014"/><jhead><title>大莊嚴<note n="0333002" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0333002" resp="CBETA" type="mod">論經＝經論【宋】＊【元】＊【明】＊</note><app n="0333002"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第十四</jhead></juan>
 <lb n="0333a08"/>
 <lb n="0333a09"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0333a10"/><byline type="Translator"><note n="0333003" resp="Taisho" type="orig" place="foot text">後秦龜茲三藏＝姚秦三藏法師【三】</note><note n="0333003" resp="CBETA" type="mod">後秦龜茲三藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0333003"><lem>後秦龜茲三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0333a11"/><mulu type="其他" level="1" n="66" label="68"/><head>（六八）</head><p place="inline">復次佛出於世最是希有。雖是女人諸
+<lb n="0333a11"/><div1 type="other"><mulu type="其他" level="1" n="66" label="68"/><head>（六八）</head><p place="inline">復次佛出於世最是希有。雖是女人諸
 <lb n="0333a12"/>重結使猶得解脫。我昔曾聞。佛之姨母瞿曇
 <lb n="0333a13"/>彌比丘尼。將入涅槃時。種種莊嚴欲令勝
 <lb n="0333a14"/>妙。爾時世尊四眾圍遶在大眾中<note n="0333004" resp="Taisho" type="orig" place="foot text">啑＝嚏【元】【明】＊</note><app n="0333004"><lem>啑</lem><rdg wit="【元】【明】" resp="Taisho">嚏</rdg></app>。時瞿
@@ -7467,7 +7470,7 @@ Added comment  for Emacs
 <lb n="0338a11"/>難捨之施。本作誓願欲成願果。欲使諸有
 <lb n="0338a12"/>眾生所受苦惱使得本道。欲使人解自守
 <lb n="0338a13"/>清淨心生信敬。是故引此方喻。</p></div1>
-<lb n="0338a14"/><div1><mulu type="其他" level="1" n="67" label="69"/><head>（六九）</head><p place="inline">復次菩薩大人。為諸眾生不惜身命。
+<lb n="0338a14"/><div1 type="other"><mulu type="其他" level="1" n="67" label="69"/><head>（六九）</head><p place="inline">復次菩薩大人。為諸眾生不惜身命。
 <lb n="0338a15"/>我昔曾聞雪山之中。有二鹿王。各領群鹿。
 <lb n="0338a16"/>其數五百。於山食草。爾時波羅&CB00178;城中有
 <lb n="0338a17"/>王名梵摩達。時彼國王到雪山中。遣人張
@@ -7568,16 +7571,16 @@ Added comment  for Emacs
 <lb n="0339a22"/><l>我以堅擁護</l><l>慎莫生恐怖</l>
 <lb n="0339a23"/><l>我今此林木</l><l>及以諸泉池</l>
 <lb n="0339a24"/><l>悉以施諸鹿</l><l>更不聽殺害</l>
-<lb n="0339a25"/><l>是故名此<note n="0339003" resp="Taisho" type="orig" place="foot text">林＝山【三】</note><note n="0339003" resp="CBETA" type="mod">林＝山【宋】【元】【明】</note><app n="0339003"><lem>林</lem><rdg wit="【宋】【元】【明】" resp="Taisho">山</rdg></app></l><l>即名施鹿林</l></lg>
+<lb n="0339a25"/><l>是故名此<note n="0339003" resp="Taisho" type="orig" place="foot text">林＝山【三】</note><note n="0339003" resp="CBETA" type="mod">林＝山【宋】【元】【明】</note><app n="0339003"><lem>林</lem><rdg wit="【宋】【元】【明】" resp="Taisho">山</rdg></app></l><l>即名施鹿林</l></lg></div1>
 <lb n="0339a26"/><juan fun="close" n="014"><jhead><title>大莊嚴<app type="＊" source="0333002"><lem>論經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經論</rdg></app></title>卷第十四</jhead></juan>
-<pb ed="T" id="T04.0201.0339b" n="0339b"/></div1>
+<pb ed="T" id="T04.0201.0339b" n="0339b"/>
 <lb n="0339b01"/>
-<milestone unit="juan" n="15"/><div1>
+<milestone unit="juan" n="15"/>
 <lb n="0339b02"/><juan fun="open" n="015"><mulu type="卷" n="015"/><jhead><title>大莊嚴<note n="0339004" resp="Taisho" type="orig" place="foot text">論經＝經論【三】＊</note><note n="0339004" resp="CBETA" type="mod"><todo type="＊"/>論經＝經論【宋】＊【元】＊【明】＊</note><app n="0339004"><lem>論經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經論</rdg></app></title>卷第十五</jhead></juan>
 <lb n="0339b03"/>
 <lb n="0339b04"/><byline type="Author">馬鳴菩薩造</byline>
 <lb n="0339b05"/><byline type="Translator"><note n="0339005" resp="Taisho" type="orig" place="foot text">後秦…藏＝姚秦三藏法師【三】</note><note n="0339005" resp="CBETA" type="mod">後秦…藏＝姚秦三藏法師【宋】【元】【明】</note><app n="0339005" word-count="6"><lem>後秦龜茲三藏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">姚秦三藏法師</rdg></app>鳩摩羅什譯</byline>
-<lb n="0339b06"/><mulu type="其他" level="1" n="68" label="70"/><head>（七○）</head><p place="inline">復次善分別者。乃至國土廣大諸事備足。
+<lb n="0339b06"/><div1 type="other"><mulu type="其他" level="1" n="68" label="70"/><head>（七○）</head><p place="inline">復次善分別者。乃至國土廣大諸事備足。
 <lb n="0339b07"/>知其苦惱捨離而去。我昔曾聞。世尊昔為
 <lb n="0339b08"/>菩薩時。作大國王。貧窮乞&CB00456;有來索者一
 <lb n="0339b09"/>切皆與。為苦厄者能作擁護。為欲利益一
@@ -7666,7 +7669,7 @@ Added comment  for Emacs
 <lb n="0340b02"/><l>汝能令眾生</l><l>一切得安樂</l>
 <lb n="0340b03"/><l>餘人<note n="0340004" resp="Taisho" type="orig" place="foot text">設＝悉【三】</note><note n="0340004" resp="CBETA" type="mod">設＝悉【宋】【元】【明】</note><app n="0340004"><lem>設</lem><rdg wit="【宋】【元】【明】" resp="Taisho">悉</rdg></app>作王</l><l><note n="0340005" resp="Taisho" type="orig" place="foot text">逼＝遍【三】</note><note n="0340005" resp="CBETA" type="mod">逼＝遍【宋】【元】【明】</note><app n="0340005"><lem>逼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">遍</rdg></app>惱諸世間</l></lg>
 <lb n="0340b04"/><p>即立彼王還歸所止。</p></div1>
-<lb n="0340b05"/><div1><mulu type="其他" level="1" n="69" label="71"/><head>（七一）</head><p place="inline">復次作淨福業應設供養。是故應當
+<lb n="0340b05"/><div1 type="other"><mulu type="其他" level="1" n="69" label="71"/><head>（七一）</head><p place="inline">復次作淨福業應設供養。是故應當
 <lb n="0340b06"/>勤修福業。我昔曾聞。石室國王名<note n="0340006" resp="Taisho" type="orig" place="foot text">烏＝象【三】</note><note n="0340006" resp="CBETA" type="mod">烏＝象【宋】【元】【明】</note><app n="0340006"><lem>烏</lem><rdg wit="【宋】【元】【明】" resp="Taisho">象</rdg></app>越&CB00463;。
 <lb n="0340b07"/>舉國人民共設佛會。有一婦人於&CB00275;牖中
 <lb n="0340b08"/>闚看世尊。爾時彼王見女端正。即解珠瓔
@@ -7694,7 +7697,7 @@ Added comment  for Emacs
 <pb ed="T" id="T04.0201.0340c" n="0340c"/>
 <lb n="0340c01"/><l>不為姦邪事</l><l>我如有愛著</l>
 <lb n="0340c02"/><l>今身若後身</l><l>受苦極無量</l></lg></div1>
-<lb n="0340c03"/><div1><mulu type="其他" level="1" n="70" label="72"/><head>（七二）</head><p place="inline">復次若有善業自然力故受好業報。雖
+<lb n="0340c03"/><div1 type="other"><mulu type="其他" level="1" n="70" label="72"/><head>（七二）</head><p place="inline">復次若有善業自然力故受好業報。雖
 <lb n="0340c04"/>有國王黨援之力。不如業力所獲善報。是
 <lb n="0340c05"/>故應當修於善業。我昔&CB00573;聞。憂悅伽王於
 <lb n="0340c06"/>晝睡眠。有二內官。一在頭前。一在&CB00560;底。
@@ -7741,7 +7744,7 @@ Added comment  for Emacs
 <lb n="0341a17"/><l>能壞王者力</l><l>十方佛世尊</l>
 <lb n="0341a18"/><l>亦說隨業力</l><l>汝今倚業力</l>
 <lb n="0341a19"/><l>用自莊嚴身</l><l>割絕於我力</l></lg></div1>
-<lb n="0341a20"/><div1><mulu type="其他" level="1" n="71" label="73"/><head>（七三）</head><p place="inline">復次雖與智者共為讎<note n="0341001" resp="Taisho" type="orig" place="foot text">&CB00992;＝隙【宋】【明】</note><app n="0341001"><lem>&CB00992;</lem><rdg wit="【宋】【明】" resp="Taisho">隙</rdg></app>猶能利益。
+<lb n="0341a20"/><div1 type="other"><mulu type="其他" level="1" n="71" label="73"/><head>（七三）</head><p place="inline">復次雖與智者共為讎<note n="0341001" resp="Taisho" type="orig" place="foot text">&CB00992;＝隙【宋】【明】</note><app n="0341001"><lem>&CB00992;</lem><rdg wit="【宋】【明】" resp="Taisho">隙</rdg></app>猶能利益。
 <lb n="0341a21"/>是故智人雖與為讎常應親近。我昔曾聞。
 <lb n="0341a22"/>摩突羅國有婆羅門。聰明智慧不信佛法。
 <lb n="0341a23"/>亦不親近諸比丘等共餘婆羅門先有&CB00508;
@@ -7804,7 +7807,7 @@ Added comment  for Emacs
 <lb n="0341c20"/><l>是故世間說</l><l>因<note n="0341008" resp="Taisho" type="orig" place="foot text">怨＝惡【三】</note><note n="0341008" resp="CBETA" type="mod">怨＝惡【宋】【元】【明】</note><app n="0341008"><lem>怨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">惡</rdg></app>得財賄</l>
 <lb n="0341c21"/><l>自惟得大利</l><l>即受三歸依</l>
 <lb n="0341c22"/><l>於彼婆羅門</l><l>大設諸餚&CB00498;</l></lg></div1>
-<lb n="0341c23"/><div1><mulu type="其他" level="1" n="72" label="74"/><head>（七四）</head><p place="inline">復次若人精誠以財布施。如華獲財業。
+<lb n="0341c23"/><div1 type="other"><mulu type="其他" level="1" n="72" label="74"/><head>（七四）</head><p place="inline">復次若人精誠以財布施。如華獲財業。
 <lb n="0341c24"/>以知是事應至心施。我昔曾聞。罽賓國人
 <lb n="0341c25"/>夫婦共在草敷上臥。於天欲明善思覺生。
 <lb n="0341c26"/>作是思惟。此國中人無量百千。皆悉修福供
@@ -7879,7 +7882,7 @@ Added comment  for Emacs
 <lb n="0342c05"/><p>爾時國<app type="＊" source="0342004"><lem>主</lem><rdg resp="Taisho" wit="【宋】【元】【明】">王</rdg></app>說此偈已。聽彼夫婦供養眾僧。
 <lb n="0342c06"/>即以財物為彼夫婦酬他價直。又給夫婦
 <lb n="0342c07"/>自營產業。現受此報無所乏少。</p></div1>
-<lb n="0342c08"/><div1><mulu type="其他" level="1" n="73" label="75"/><head>（七五）</head><p place="inline">復次至心持戒乃至沒命得現果報。我昔
+<lb n="0342c08"/><div1 type="other"><mulu type="其他" level="1" n="73" label="75"/><head>（七五）</head><p place="inline">復次至心持戒乃至沒命得現果報。我昔
 <lb n="0342c09"/>曾聞。難提<note n="0342009" resp="Taisho" type="orig" place="foot text">拔＝跋【三】</note><note n="0342009" resp="CBETA" type="mod">拔＝跋【宋】【元】【明】</note><app n="0342009"><lem>拔</lem><rdg wit="【宋】【元】【明】" resp="Taisho">跋</rdg></app>提城有優婆塞。兄弟二人並
 <lb n="0342c10"/>持五戒。其弟爾時卒患&CB00169;痛氣將欲絕。時
 <lb n="0342c11"/>醫診之。食新殺狗肉并使服酒所患必除。
@@ -7933,7 +7936,7 @@ Added comment  for Emacs
 <lb n="0343a29"/><l>作是決定心</l><l>心生大歡喜</l>
 <pb ed="T" id="T04.0201.0343b" n="0343b"/>
 <lb n="0343b01"/><l>即獲見真諦</l><l>所患即消除</l></lg></div1>
-<lb n="0343b02"/><div1><mulu type="其他" level="1" n="74" label="76"/><head>（七六）</head><p place="inline">復次若信佛語於諸外論猶如嬰愚顛
+<lb n="0343b02"/><div1 type="other"><mulu type="其他" level="1" n="74" label="76"/><head>（七六）</head><p place="inline">復次若信佛語於諸外論猶如嬰愚顛
 <lb n="0343b03"/>狂所說。是故懃學佛法語論。我昔曾聞。有
 <lb n="0343b04"/>一國名釋伽羅。其王名盧頭陀摩。彼王數
 <lb n="0343b05"/>數詣寺聽法。時彼法師說酒過失。爾時王
@@ -8004,7 +8007,7 @@ Added comment  for Emacs
 <lb n="0344a10"/><l>說言無罪報</l><l>是故今現在</l>
 <lb n="0344a11"/><l>已獲餓鬼身</l><l>花報已如是</l>
 <lb n="0344a12"/><l>果報方在後</l></lg></div1>
-<lb n="0344a13"/><div1><mulu type="其他" level="1" n="75" label="77"/><head>（七七）</head><p place="inline">諸婆羅門聞是語時。多有外道即時出
+<lb n="0344a13"/><div1 type="other"><mulu type="其他" level="1" n="75" label="77"/><head>（七七）</head><p place="inline">諸婆羅門聞是語時。多有外道即時出
 <lb n="0344a14"/>家。</p>
 <lb n="0344a15"/><p>復次善分別敬功德不期於門族。我昔曾聞。
 <lb n="0344a16"/>花氏城中有二王子。逃走歸投末投羅國。時
@@ -8057,7 +8060,7 @@ Added comment  for Emacs
 <lb n="0344c03"/><l>因行無有定</l><l>知解無定方</l>
 <lb n="0344c04"/><l>語議正解了</l><l>不名為邊語</l>
 <lb n="0344c05"/><l>如汝之所解</l><l>即是貴種族</l></lg></div1>
-<lb n="0344c06"/><div1><mulu type="其他" level="1" n="76" label="78"/><head>（七八）</head><p place="inline">復次若欲觀察知佛神變。<note n="0344012" resp="Taisho" type="orig" place="foot text">視諸＝親詣【三】</note><note n="0344012" resp="CBETA" type="mod">視諸＝親詣【宋】【元】【明】</note><app n="0344012"><lem>視諸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">親詣</rdg></app>塔寺
+<lb n="0344c06"/><div1 type="other"><mulu type="其他" level="1" n="76" label="78"/><head>（七八）</head><p place="inline">復次若欲觀察知佛神變。<note n="0344012" resp="Taisho" type="orig" place="foot text">視諸＝親詣【三】</note><note n="0344012" resp="CBETA" type="mod">視諸＝親詣【宋】【元】【明】</note><app n="0344012"><lem>視諸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">親詣</rdg></app>塔寺
 <lb n="0344c07"/>供養佛塔。我昔曾聞。阿梨車毘伽國。於彼
 <lb n="0344c08"/>城門有佛<note n="0344013" resp="Taisho" type="orig" place="foot text">髮＝鬘【明】</note><app n="0344013"><lem>髮</lem><rdg wit="【明】" resp="Taisho">鬘</rdg></app>爪塔。近有尼俱陀樹。邊有井
 <lb n="0344c09"/>水。時婆羅門而白王言。若遊行時見於彼
@@ -8096,7 +8099,7 @@ Added comment  for Emacs
 <lb n="0345a12"/><l>若我破此塔</l><l>當墮於地獄</l></lg>
 <lb n="0345a13"/><p>爾時王即向彼塔處大設供養。此塔即今名
 <lb n="0345a14"/>曰自移。塔及樹井離毘伽城三十里住。</p></div1>
-<lb n="0345a15"/><div1><mulu type="其他" level="1" n="77" label="79"/><head>（七九）</head><p place="inline">復次佛塔有大威神。是故宜應供養佛
+<lb n="0345a15"/><div1 type="other"><mulu type="其他" level="1" n="77" label="79"/><head>（七九）</head><p place="inline">復次佛塔有大威神。是故宜應供養佛
 <lb n="0345a16"/>塔。我昔曾聞。<note n="0345003" resp="Taisho" type="orig" place="foot text">竺＝&CB01830;【三】</note><note n="0345003" resp="CBETA" type="mod">竺＝&CB01830;【宋】【元】【明】</note><app n="0345003"><lem>竺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&CB01830;</rdg></app>叉尸羅國彼有塔寺。波斯
 <lb n="0345a17"/>匿王以<note n="0345004" resp="Taisho" type="orig" place="foot text">成＝薪【三】</note><note n="0345004" resp="CBETA" type="mod">成＝薪【宋】【元】【明】</note><app n="0345004"><lem>成</lem><rdg wit="【宋】【元】【明】" resp="Taisho">薪</rdg></app>火燒之。佛復安一棖朽壞&CB00230;之。
 <lb n="0345a18"/>時彼國王名<note n="0345005" resp="Taisho" type="orig" place="foot text">枸＝拘【三】</note><note n="0345005" resp="CBETA" type="mod">枸＝拘【宋】【元】【明】</note><app n="0345005"><lem>枸</lem><rdg wit="【宋】【元】【明】" resp="Taisho">拘</rdg></app>沙陀那。有一比丘求請彼
@@ -8154,7 +8157,7 @@ Added comment  for Emacs
 <lb n="0345c10"/><l>如此名聞故</l><l>塔棖懸寶鈴</l>
 <lb n="0345c11"/><l>其音甚和雅</l><l>遠近悉聞知</l></lg>
 <lb n="0345c12"/><p>時婆羅門聞是偈故從睡眠寤即便出家。</p></div1>
-<lb n="0345c13"/><div1><mulu type="其他" level="1" n="78" label="80"/><head>（八○）</head><p place="inline">復次我昔曾聞。有一<note n="0345015" resp="Taisho" type="orig" place="foot text">（羌）＋老【三】</note><note n="0345015" resp="CBETA" type="mod">（羌）＋老【宋】【元】【明】</note><app n="0345015"><lem>老</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羌老</rdg></app>母背負酥<note n="0345016" resp="Taisho" type="orig" place="foot text">瓨＝&CB00096;【元】</note><app n="0345016"><lem>瓨</lem><rdg wit="【元】" resp="Taisho">&CB00096;</rdg></app>。
+<lb n="0345c13"/><div1 type="other"><mulu type="其他" level="1" n="78" label="80"/><head>（八○）</head><p place="inline">復次我昔曾聞。有一<note n="0345015" resp="Taisho" type="orig" place="foot text">（羌）＋老【三】</note><note n="0345015" resp="CBETA" type="mod">（羌）＋老【宋】【元】【明】</note><app n="0345015"><lem>老</lem><rdg wit="【宋】【元】【明】" resp="Taisho">羌老</rdg></app>母背負酥<note n="0345016" resp="Taisho" type="orig" place="foot text">瓨＝&CB00096;【元】</note><app n="0345016"><lem>瓨</lem><rdg wit="【元】" resp="Taisho">&CB00096;</rdg></app>。
 <lb n="0345c14"/>在路中行。見菴摩勒樹即食其&CB00031;。食已
 <lb n="0345c15"/><note n="0345017" resp="Taisho" type="orig" place="foot text">患＝還【三】</note><note n="0345017" resp="CBETA" type="mod">患＝還【宋】【元】【明】</note><app n="0345017"><lem>患</lem><rdg wit="【宋】【元】【明】" resp="Taisho">還</rdg></app>渴。尋時赴井乞水欲飲。時汲水者即
 <lb n="0345c16"/>便與水。以先食菴摩勒&CB00031;之勢力故。謂水
@@ -8176,7 +8179,7 @@ Added comment  for Emacs
 <lb n="0346a02"/><l>貿易著諸有</l><l>如以淨好<note n="0346001" resp="Taisho" type="orig" place="foot text">酥＝穌【宋】【元】</note><app n="0346001"><lem>酥</lem><rdg wit="【宋】【元】" resp="Taisho">穌</rdg></app></l>
 <lb n="0346a03"/><l>貿彼臭惡水</l><l>以食菴摩勒</l>
 <lb n="0346a04"/><l>舌倒不覺味</l><l>臭水為甘露</l></lg></div1>
-<lb n="0346a05"/><div1><mulu type="其他" level="1" n="79" label="81"/><head>（八一）</head><p place="inline">復次我昔曾聞。有一長者婦為姑所瞋
+<lb n="0346a05"/><div1 type="other"><mulu type="其他" level="1" n="79" label="81"/><head>（八一）</head><p place="inline">復次我昔曾聞。有一長者婦為姑所瞋
 <lb n="0346a06"/>走入林中。自欲刑戮既不能得。尋時上樹
 <lb n="0346a07"/>以自隱身。樹下有池影現水中。時有婢使
 <lb n="0346a08"/>擔瓨取水。見水中影謂為是己有。作如
@@ -8194,7 +8197,7 @@ Added comment  for Emacs
 <lb n="0346a20"/><lg><l><note n="0346005" resp="Taisho" type="orig" place="foot text">未＝末【宋】【元】，粖【明】</note><note n="0346005" resp="CBETA" type="mod">未＝末【宋】【元】，＝粖【明】</note><app n="0346005"><lem>未</lem><rdg wit="【宋】【元】" resp="Taisho">末</rdg><rdg wit="【明】" resp="Taisho">粖</rdg></app>香以塗身</l><l>并熏衣<note n="0346006" resp="Taisho" type="orig" place="foot text">纓＝瓔【三】</note><note n="0346006" resp="CBETA" type="mod">纓＝瓔【宋】【元】【明】</note><app n="0346006"><lem>纓</lem><rdg wit="【宋】【元】【明】" resp="Taisho">瓔</rdg></app>珞</l>
 <lb n="0346a21"/><l>倒惑心亦爾</l><l>謂從己身出</l>
 <lb n="0346a22"/><l>如彼醜陋婢</l><l>見影謂己有</l></lg></div1>
-<lb n="0346a23"/><div1><mulu type="其他" level="1" n="80" label="82"/><head>（八二）</head><p place="inline">復次&CB00339;生兒以小漸大。&CB00339;兒問母。當何
+<lb n="0346a23"/><div1 type="other"><mulu type="其他" level="1" n="80" label="82"/><head>（八二）</head><p place="inline">復次&CB00339;生兒以小漸大。&CB00339;兒問母。當何
 <lb n="0346a24"/>所食。母答兒言。人自教汝。夜至他家隱
 <lb n="0346a25"/>甕器間。有人見已而相約&CB00330;。酥乳肉等極好
 <lb n="0346a26"/>覆蓋。雞雛高舉莫使&CB00339;食。&CB00339;兒即知。雞酥
@@ -8213,7 +8216,7 @@ Added comment  for Emacs
 <lb n="0346b09"/>應為說法要。眾生自有若干種行。是故知
 <lb n="0346b10"/>如來說對治法破除顛倒。如為&CB00339;兒覆肉
 <lb n="0346b11"/>酥乳。</p></div1>
-<lb n="0346b12"/><div1><mulu type="其他" level="1" n="81" label="83"/><head>（八三）</head><p place="inline">復次我昔曾聞。有一國中施設石柱極
+<lb n="0346b12"/><div1 type="other"><mulu type="其他" level="1" n="81" label="83"/><head>（八三）</head><p place="inline">復次我昔曾聞。有一國中施設石柱極
 <lb n="0346b13"/>為高大。除去梯&CB00447;<note n="0346010" resp="Taisho" type="orig" place="foot text">&CB02037;櫨＝麤盧【三】＊</note><note n="0346010" resp="CBETA" type="mod">&CB02037;櫨＝麤盧【宋】＊【元】＊【明】＊</note><app n="0346010"><lem>&CB02037;櫨</lem><rdg wit="【宋】【元】【明】" resp="Taisho">麤盧</rdg></app>繩索。置彼工匠
 <lb n="0346b14"/>在於柱頭。何以故。彼若存<note n="0346011" resp="Taisho" type="orig" place="foot text">活＝治【三】</note><note n="0346011" resp="CBETA" type="mod">活＝治【宋】【元】【明】</note><app n="0346011"><lem>活</lem><rdg wit="【宋】【元】【明】" resp="Taisho">治</rdg></app>。或更餘處造
 <lb n="0346b15"/>立石柱。使勝於此。時彼石匠親族宗眷。於
@@ -8236,7 +8239,7 @@ Added comment  for Emacs
 <lb n="0346c02"/><lg><l>以信為縷&CB00298;</l><l>多聞及持戒</l>
 <lb n="0346c03"/><l>猶如彼麤縷</l><l>戒定為小繩</l>
 <lb n="0346c04"/><l>智慧為麤繩</l><l>生死柱<note n="0346017" resp="Taisho" type="orig" place="foot text">來下＝下來【三】</note><note n="0346017" resp="CBETA" type="mod">來下＝下來【宋】【元】【明】</note><app n="0346017"><lem>來下</lem><rdg wit="【宋】【元】【明】" resp="Taisho">下來</rdg></app></l></lg></div1>
-<lb n="0346c05"/><div1><mulu type="其他" level="1" n="82" label="84"/><head>（八四）</head><p place="inline">復次我昔曾聞。有一國中王嗣欲絕。時
+<lb n="0346c05"/><div1 type="other"><mulu type="其他" level="1" n="82" label="84"/><head>（八四）</head><p place="inline">復次我昔曾聞。有一國中王嗣欲絕。時
 <lb n="0346c06"/>有王種先入山林學道求仙。即強將來立
 <lb n="0346c07"/>以為王。從敷臥具人索於衣服及以飲食。
 <lb n="0346c08"/>時敷臥具人而白王言。各有所典。王於今者
@@ -8253,7 +8256,7 @@ Added comment  for Emacs
 <lb n="0346c19"/>種種報。</p>
 <lb n="0346c20"/><lg><l>無病色種族</l><l>智能各異因</l>
 <lb n="0346c21"/><l>如彼仙人王</l><l><note n="0346021" resp="Taisho" type="orig" place="foot text">索＝責【三】</note><note n="0346021" resp="CBETA" type="mod">索＝責【宋】【元】【明】</note><app n="0346021"><lem>索</lem><rdg wit="【宋】【元】【明】" resp="Taisho">責</rdg></app>備敷<note n="0346022" resp="Taisho" type="orig" place="foot text">臥＝敷【三】</note><note n="0346022" resp="CBETA" type="mod">臥＝敷【宋】【元】【明】</note><app n="0346022"><lem>臥</lem><rdg wit="【宋】【元】【明】" resp="Taisho">敷</rdg></app>者</l></lg></div1>
-<lb n="0346c22"/><div1><mulu type="其他" level="1" n="83" label="85"/><head>（八五）</head><p place="inline">復次我昔曾聞。有一國王多養好馬。會
+<lb n="0346c22"/><div1 type="other"><mulu type="其他" level="1" n="83" label="85"/><head>（八五）</head><p place="inline">復次我昔曾聞。有一國王多養好馬。會
 <lb n="0346c23"/>有&CB00444;王與共&CB00508;戰。知此國王有好馬故即
 <lb n="0346c24"/>便退散。爾時國王作是思惟。我先養馬規
 <lb n="0346c25"/>擬敵國。今皆退散養馬何為。當以此馬用
@@ -8273,7 +8276,7 @@ Added comment  for Emacs
 <lb n="0347a09"/><note n="0347002" resp="Taisho" type="orig" place="foot text">〔心既…覺〕四句廿字－【三】</note><note n="0347002" resp="CBETA" type="mod">〔心既…覺〕四句廿字－【宋】【元】【明】</note><app n="0347002" word-count="20"><lem><l>心既不調順</l><l>云何得寂靜</l>
 <lb n="0347a10"/><l>心常耽五欲</l><l>迷荒不能覺</l></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
 <lb n="0347a11"/><l>如馬不習戰</l><l>對戰而<note n="0347003" resp="Taisho" type="orig" place="foot text">旋＝遊【三】</note><note n="0347003" resp="CBETA" type="mod">旋＝遊【宋】【元】【明】</note><app n="0347003"><lem>旋</lem><rdg wit="【宋】【元】【明】" resp="Taisho">遊</rdg></app>行</l></lg></div1>
-<lb n="0347a12"/><div1><mulu type="其他" level="1" n="84" label="86"/><head>（八六）</head><p place="inline">復次曾聞。有一國王身遇疾患。國中諸
+<lb n="0347a12"/><div1 type="other"><mulu type="其他" level="1" n="84" label="86"/><head>（八六）</head><p place="inline">復次曾聞。有一國王身遇疾患。國中諸
 <lb n="0347a13"/>醫都不能治。時有良醫從遠處來治王病
 <lb n="0347a14"/>差。王大歡喜作是思惟。我今得醫力事須
 <lb n="0347a15"/>厚報。作是念已微遣侍臣。多齎財物。詣於
@@ -8306,7 +8309,7 @@ Added comment  for Emacs
 <lb n="0347b12"/><l>以為徒疲勞</l><l>終竟無所得</l>
 <lb n="0347b13"/><l>既得生中陰</l><l><note n="0347009" resp="Taisho" type="orig" place="foot text">始＝如【三】</note><note n="0347009" resp="CBETA" type="mod">始＝如【宋】【元】【明】</note><app n="0347009"><lem>始</lem><rdg wit="【宋】【元】【明】" resp="Taisho">如</rdg></app>見善相貌</l>
 <lb n="0347b14"/><l>如醫到家已</l><l>方生大歡喜</l></lg></div1>
-<lb n="0347b15"/><div1><mulu type="其他" level="1" n="85" label="87"/><head>（八七）</head><p place="inline">復次曾聞有二女人。俱得菴羅&CB00031;。其一
+<lb n="0347b15"/><div1 type="other"><mulu type="其他" level="1" n="85" label="87"/><head>（八七）</head><p place="inline">復次曾聞有二女人。俱得菴羅&CB00031;。其一
 <lb n="0347b16"/>女人食不留子。有一女人食&CB00031;留子。其
 <lb n="0347b17"/>留子者。覺彼&CB00031;美。於良好田下種著中。以
 <lb n="0347b18"/>時溉灌大得好&CB00031;。如彼世人為善根<note n="0347010" resp="Taisho" type="orig" place="foot text">本＝木【宋】【元】</note><app n="0347010"><lem>本</lem><rdg wit="【宋】【元】" resp="Taisho">木</rdg></app>。多
@@ -8317,7 +8320,7 @@ Added comment  for Emacs
 <lb n="0347b23"/><l>後見他食&CB00031;</l><l>方生於悔恨</l>
 <lb n="0347b24"/><l>亦如彼女人</l><l>種子種得&CB00031;</l>
 <lb n="0347b25"/><l>復生大歡喜</l></lg></div1>
-<lb n="0347b26"/><div1><mulu type="其他" level="1" n="86" label="88"/><head>（八八）</head><p place="inline">復次曾聞。往昔有<app><lem>比</lem><rdg wit="【大】">此</rdg></app>丘名須彌羅。善能
+<lb n="0347b26"/><div1 type="other"><mulu type="其他" level="1" n="86" label="88"/><head>（八八）</head><p place="inline">復次曾聞。往昔有<app><lem>比</lem><rdg wit="【大】">此</rdg></app>丘名須彌羅。善能
 <lb n="0347b27"/>戲笑。與一國王誼譁歡悅稱適王意。爾時
 <lb n="0347b28"/>比丘即從乞地欲立僧坊。王語比丘。汝可
 <lb n="0347b29"/>疾走不得休息。盡所極處。爾許之地悉當
@@ -8350,7 +8353,7 @@ Added comment  for Emacs
 <lb n="0347c26"/><l>欲為濟<note n="0347012" resp="Taisho" type="orig" place="foot text">拯＝極【三】</note><note n="0347012" resp="CBETA" type="mod">拯＝極【宋】【元】【明】</note><app n="0347012"><lem>拯</lem><rdg wit="【宋】【元】【明】" resp="Taisho">極</rdg></app>故</l><l>布散諸舍利</l>
 <lb n="0347c27"/><l>乃至遺法滅</l><l>皆是供養我</l>
 <lb n="0347c28"/><l>如彼須彌羅</l><l>擲杖使<note n="0347013" resp="Taisho" type="orig" place="foot text">遠＝來【三】</note><note n="0347013" resp="CBETA" type="mod">遠＝來【宋】【元】【明】</note><app n="0347013"><lem>遠</lem><rdg wit="【宋】【元】【明】" resp="Taisho">來</rdg></app>去</l></lg></div1>
-<lb n="0347c29"/><div1><mulu type="其他" level="1" n="87" label="89"/><head>（八九）</head><p place="inline">復次我昔曾聞。<note n="0347014" resp="Taisho" type="orig" place="foot text">竺＝&CB13409;【宋】【明】，哩【元】</note><note n="0347014" resp="CBETA" type="mod">竺＝&CB13409;【宋】【明】，＝哩【元】</note><app n="0347014"><lem>竺</lem><rdg wit="【宋】【明】" resp="Taisho">&CB13409;</rdg><rdg wit="【元】" resp="Taisho">哩</rdg></app>叉尸羅國有博羅吁
+<lb n="0347c29"/><div1 type="other"><mulu type="其他" level="1" n="87" label="89"/><head>（八九）</head><p place="inline">復次我昔曾聞。<note n="0347014" resp="Taisho" type="orig" place="foot text">竺＝&CB13409;【宋】【明】，哩【元】</note><note n="0347014" resp="CBETA" type="mod">竺＝&CB13409;【宋】【明】，＝哩【元】</note><app n="0347014"><lem>竺</lem><rdg wit="【宋】【明】" resp="Taisho">&CB13409;</rdg><rdg wit="【元】" resp="Taisho">哩</rdg></app>叉尸羅國有博羅吁
 <pb ed="T" id="T04.0201.0348a" n="0348a"/>
 <lb n="0348a01"/>羅村。有一估客名稱伽拔吒。作僧伽藍。如
 <lb n="0348a02"/>今現在。稱伽拔吒。先是長者子。居室素富。後
@@ -8385,6 +8388,6 @@ Added comment  for Emacs
 <lb n="0348b01"/><l>佛無歡喜心</l><l>以善觀察故</l>
 <lb n="0348b02"/><l>是供諸功德</l><l>非為供養我</l>
 <lb n="0348b03"/><l>如稱伽拔吒</l><l>指示諸眷屬</l>
-<lb n="0348b04"/><l>稱己在後者</l><l>其喻亦如是</l></lg>
-<lb n="0348b05"/><juan fun="close" n="015"><jhead><title>大莊嚴<note n="0348002" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0348002"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第十五</jhead></juan></div1>
+<lb n="0348b04"/><l>稱己在後者</l><l>其喻亦如是</l></lg></div1>
+<lb n="0348b05"/><juan fun="close" n="015"><jhead><title>大莊嚴<note n="0348002" resp="Taisho" type="orig" place="foot text">論經＝經論【明】</note><app n="0348002"><lem>論經</lem><rdg wit="【明】" resp="Taisho">經論</rdg></app></title>卷第十五</jhead></juan>
 </body></text></TEI.2>
