@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2005/10/01 13:16:08 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2005/11/21 08:28:21 $</date></edition>
 	</editionStmt>
 	<extent>12卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/10/01 13:16:08 $</date>
+		<date>$Date: 2005/11/21 08:28:21 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1331 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T21n1331.xml,v $
+Revision 1.13  2005/11/21 08:28:21  saywhat
+added <div1><mulu label>
+
 Revision 1.12  2005/10/01 13:16:08  saywhat
 p0508b13 [自>白]
 
@@ -136,7 +139,7 @@ Revision 1.5  2001/02/07 06:57:54  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:47:46  chris
-Added keywords $Revision: 1.12 $, $Date: 2005/10/01 13:16:08 $ and $Log.
+Added keywords $Revision: 1.13 $, $Date: 2005/11/21 08:28:21 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -146,8 +149,8 @@ Added comment  for Emacs
 <pb ed="T" id="T21.1331.0495a" n="0495a"/>
 <lb n="0495a01"/>
 <milestone unit="juan" n="1"/>
-<lb n="0495a02"/><head type="no">No. 1331</head><div1 type="jing">
-<lb n="0495a03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0495001" resp="Taisho" type="orig" place="foot text">【原】麗本，元明二本此經卷首卷未題俱作佛說大灌頂神&CB00057;經八字</note>佛說灌頂七萬二千神王護比丘
+<lb n="0495a02"/><head type="no">No. 1331</head>
+<lb n="0495a03"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂七萬二千神王護比丘＆CB00057；經"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0495001" resp="Taisho" type="orig" place="foot text">【原】麗本，元明二本此經卷首卷未題俱作佛說大灌頂神&CB00057;經八字</note>佛說灌頂七萬二千神王護比丘
 <lb n="0495a04"/>&CB00057;經卷第<note n="0495002" resp="Taisho" type="orig" place="foot text">一＝二【三】＊</note><note n="0495002" resp="CBETA" type="mod">一＝二【宋】＊【元】＊【明】＊</note><app n="0495002"><lem>一</lem><rdg wit="【宋】【元】【明】" resp="Taisho">二</rdg></app></jhead></juan>
 <lb n="0495a05"/>
 <lb n="0495a06"/><byline type="Translator">東晉<note n="0495003" resp="Taisho" type="orig" place="foot text">天竺＝西域【三】＊</note><note n="0495003" resp="CBETA" type="mod">天竺＝西域【宋】＊【元】＊【明】＊</note><app n="0495003"><lem>天竺</lem><rdg wit="【宋】【元】【明】" resp="Taisho">西域</rdg></app>三藏帛尸梨蜜多羅譯</byline>
@@ -538,11 +541,11 @@ Added comment  for Emacs
 <lb n="0499b01"/>此經當何名之。佛言此經名為灌頂章句七
 <lb n="0499b02"/>萬二千神王衛護比丘&CB00057;經。佛說<note n="0499010" resp="Taisho" type="orig" place="foot text">是時＝如是【三】</note><note n="0499010" resp="CBETA" type="mod">是時＝如是【宋】【元】【明】</note><app n="0499010"><lem>是時</lem><rdg wit="【宋】【元】【明】" resp="Taisho">如是</rdg></app>四眾
 <lb n="0499b03"/>人民。聞經歡喜作禮奉<note n="0499011" resp="Taisho" type="orig" place="foot text">行＝受【三】</note><note n="0499011" resp="CBETA" type="mod">行＝受【宋】【元】【明】</note><app n="0499011"><lem>行</lem><rdg wit="【宋】【元】【明】" resp="Taisho">受</rdg></app>。</p>
-<lb n="0499b04"/><juan fun="close" n="001"><jhead><note n="0499012" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂七萬二千神王護比丘&CB00057;【宋】</note><app n="0499012"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂七萬二千神王護比丘&CB00057;</rdg></app>經卷第<app type="＊" source="0495002"><lem>一</lem><rdg resp="Taisho" wit="【宋】【元】【明】">二</rdg></app></jhead></juan>
+<lb n="0499b04"/><juan fun="close" n="001"><jhead><note n="0499012" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂七萬二千神王護比丘&CB00057;【宋】</note><app n="0499012"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂七萬二千神王護比丘&CB00057;</rdg></app>經卷第<app type="＊" source="0495002"><lem>一</lem><rdg resp="Taisho" wit="【宋】【元】【明】">二</rdg></app></jhead></juan></div1>
 <lb n="0499b05"/>
 <milestone unit="juan" n="2"/>
 <lb n="0499b06"/>
-<lb n="0499b07"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>佛說灌頂十二萬神王護比丘尼
+<lb n="0499b07"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂十二萬神王護比丘尼經"/><juan fun="open" n="002"><mulu type="卷" n="002"/><jhead>佛說灌頂十二萬神王護比丘尼
 <lb n="0499b08"/><note n="0499013" resp="Taisho" type="orig" place="foot text">（&CB00057;）＋經【宋】</note><app n="0499013"><lem>經</lem><rdg wit="【宋】" resp="Taisho">&CB00057;經</rdg></app>卷第<note n="0499014" resp="Taisho" type="orig" place="foot text">二＝三【三】＊</note><note n="0499014" resp="CBETA" type="mod">二＝三【宋】＊【元】＊【明】＊</note><app n="0499014"><lem>二</lem><rdg wit="【宋】【元】【明】" resp="Taisho">三</rdg></app></jhead></juan>
 <lb n="0499b09"/>
 <lb n="0499b10"/><byline type="Translator">東晉<anchor id="fxT21p0499b02"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -744,11 +747,11 @@ Added comment  for Emacs
 <lb n="0501b29"/>萬二千神王灌頂大法無有異也。佛說是已
 <pb ed="T" id="T21.1331.0501c" n="0501c"/>
 <lb n="0501c01"/>四輩弟子天龍八部。莫不歡喜作禮奉行。</p>
-<lb n="0501c02"/><juan fun="close" n="002"><jhead><note n="0501018" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂十二萬神王護比丘尼&CB00057;【宋】</note><app n="0501018"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂十二萬神王護比丘尼&CB00057;</rdg></app>經卷第<app type="＊" source="0499014"><lem>二</lem><rdg resp="Taisho" wit="【宋】【元】【明】">三</rdg></app></jhead></juan>
+<lb n="0501c02"/><juan fun="close" n="002"><jhead><note n="0501018" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂十二萬神王護比丘尼&CB00057;【宋】</note><app n="0501018"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂十二萬神王護比丘尼&CB00057;</rdg></app>經卷第<app type="＊" source="0499014"><lem>二</lem><rdg resp="Taisho" wit="【宋】【元】【明】">三</rdg></app></jhead></juan></div1>
 <lb n="0501c03"/>
 <milestone unit="juan" n="3"/>
 <lb n="0501c04"/>
-<lb n="0501c05"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>佛說灌頂三歸五戒帶佩護身&CB00057;
+<lb n="0501c05"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂三歸五戒帶佩護身＆CB00057；經"/><juan fun="open" n="003"><mulu type="卷" n="003"/><jhead>佛說灌頂三歸五戒帶佩護身&CB00057;
 <lb n="0501c06"/>經卷第<note n="0501019" resp="Taisho" type="orig" place="foot text">三＝一【三】＊</note><note n="0501019" resp="CBETA" type="mod">三＝一【宋】＊【元】＊【明】＊</note><app n="0501019"><lem>三</lem><rdg wit="【宋】【元】【明】" resp="Taisho">一</rdg></app></jhead></juan>
 <lb n="0501c07"/>
 <lb n="0501c08"/><byline type="Translator">東晉<anchor id="fxT21p0501c02"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -1011,11 +1014,11 @@ Added comment  for Emacs
 <lb n="0504c07"/>之。佛告阿難是經名為灌頂章句歸戒帶佩
 <lb n="0504c08"/><note n="0504025" resp="Taisho" type="orig" place="foot text">〔經〕－【三】</note><note n="0504025" resp="CBETA" type="mod">〔經〕－【宋】【元】【明】</note><app n="0504025"><lem>經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>。佛說<note n="0504026" resp="Taisho" type="orig" place="foot text">是已＝如是【宋】，是經竟【元】【明】</note><note n="0504026" resp="CBETA" type="mod">是已＝如是【宋】，＝是經竟【元】【明】</note><app n="0504026"><lem>是已</lem><rdg wit="【宋】" resp="Taisho">如是</rdg><rdg wit="【元】【明】" resp="Taisho">是經竟</rdg></app>。四眾人民天龍八部一切鬼
 <lb n="0504c09"/>神。皆大歡喜作禮奉行。</p>
-<lb n="0504c10"/><juan fun="close" n="003"><jhead><note n="0504027" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0504027" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第<app type="＊" source="0501019"><lem>三</lem><rdg resp="Taisho" wit="【宋】【元】【明】">一</rdg></app></jhead></juan>
+<lb n="0504c10"/><juan fun="close" n="003"><jhead><note n="0504027" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0504027" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第<app type="＊" source="0501019"><lem>三</lem><rdg resp="Taisho" wit="【宋】【元】【明】">一</rdg></app></jhead></juan></div1>
 <lb n="0504c11"/>
 <milestone unit="juan" n="4"/>
 <lb n="0504c12"/>
-<lb n="0504c13"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead>佛說灌頂百結神王護身&CB00057;經卷
+<lb n="0504c13"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂百結神王護身＆CB00057；經"/><juan fun="open" n="004"><mulu type="卷" n="004"/><jhead>佛說灌頂百結神王護身&CB00057;經卷
 <lb n="0504c14"/>第四</jhead></juan>
 <lb n="0504c15"/>
 <lb n="0504c16"/><byline type="Translator">東晉<anchor id="fxT21p0504c02"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -1355,11 +1358,11 @@ Added comment  for Emacs
 <lb n="0508b20"/>持度與男子女人等輩令其諷誦。宣傳吾言
 <lb n="0508b21"/>示於未聞。佛說如是天龍鬼神四部弟子。聞
 <lb n="0508b22"/>經歡喜作禮奉<note n="0508014" resp="Taisho" type="orig" place="foot text">行＝受【三】</note><note n="0508014" resp="CBETA" type="mod">行＝受【宋】【元】【明】</note><app n="0508014"><lem>行</lem><rdg wit="【宋】【元】【明】" resp="Taisho">受</rdg></app>。</p>
-<lb n="0508b23"/><juan fun="close" n="004"><jhead><note n="0508015" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0508015" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第四</jhead></juan>
+<lb n="0508b23"/><juan fun="close" n="004"><jhead><note n="0508015" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0508015" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第四</jhead></juan></div1>
 <pb ed="T" id="T21.1331.0508c" n="0508c"/>
 <lb n="0508c01"/>
 <milestone unit="juan" n="5"/>
-<lb n="0508c02"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead>佛說灌頂&CB00057;宮宅神王守鎮左右
+<lb n="0508c02"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂＆CB00057；宮宅神王守鎮左右經"/><juan fun="open" n="005"><mulu type="卷" n="005"/><jhead>佛說灌頂&CB00057;宮宅神王守鎮左右
 <lb n="0508c03"/>經卷第五</jhead></juan>
 <lb n="0508c04"/>
 <lb n="0508c05"/><byline type="Translator">東晉<anchor id="fxT21p0508c01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -1654,11 +1657,11 @@ Added comment  for Emacs
 <lb n="0511c24"/>曲。佛說此經已。會中人民外道梵志。天龍八
 <lb n="0511c25"/>部悉得<note n="0511033" resp="Taisho" type="orig" place="foot text">解悟＝悟解【三】</note><note n="0511033" resp="CBETA" type="mod">解悟＝悟解【宋】【元】【明】</note><app n="0511033"><lem>解悟</lem><rdg wit="【宋】【元】【明】" resp="Taisho">悟解</rdg></app>。各隨本願得道不同。聞佛所說
 <lb n="0511c26"/>歡喜奉行。</p>
-<lb n="0511c27"/><juan fun="close" n="005"><jhead><note n="0511034" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0511034" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第五</jhead></juan>
+<lb n="0511c27"/><juan fun="close" n="005"><jhead><note n="0511034" resp="Taisho" type="orig" place="foot text">末題宋本同首題</note><note n="0511034" resp="CBETA" type="mod"><todo type="a"/>末題宋本同首題</note>灌頂經卷第五</jhead></juan></div1>
 <pb ed="T" id="T21.1331.0512a" n="0512a"/>
 <lb n="0512a01"/>
 <milestone unit="juan" n="6"/>
-<lb n="0512a02"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead>佛說<note n="0512001" resp="Taisho" type="orig" place="foot text">（（灌頂…方））八字＝（（大灌頂））三字【元】【明】</note><app n="0512001" word-count="8"><lem>灌頂塚墓因緣四方</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app><note n="0512002" resp="Taisho" type="orig" place="foot text">神＋（王）【宋】</note><app n="0512002"><lem>神</lem><rdg wit="【宋】" resp="Taisho">神王</rdg></app>&CB00057;經
+<lb n="0512a02"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂塚墓因緣四方神＆CB00057；經"/><juan fun="open" n="006"><mulu type="卷" n="006"/><jhead>佛說<note n="0512001" resp="Taisho" type="orig" place="foot text">（（灌頂…方））八字＝（（大灌頂））三字【元】【明】</note><app n="0512001" word-count="8"><lem>灌頂塚墓因緣四方</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app><note n="0512002" resp="Taisho" type="orig" place="foot text">神＋（王）【宋】</note><app n="0512002"><lem>神</lem><rdg wit="【宋】" resp="Taisho">神王</rdg></app>&CB00057;經
 <lb n="0512a03"/>卷第六</jhead></juan>
 <lb n="0512a04"/>
 <lb n="0512a05"/><byline type="Translator">東晉<anchor id="fxT21p0512a01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -1924,11 +1927,11 @@ Added comment  for Emacs
 <lb n="0514c25"/>喜。阿難整服更問世尊。向所說者塚塔因緣。
 <lb n="0514c26"/>及此四方灌頂章句更無異號。佛言如是。大
 <lb n="0514c27"/>會聞法靡不歡喜。釋種童子禮佛而退。</p>
-<lb n="0514c28"/><juan fun="close" n="006"><jhead><note n="0514032" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0514032" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第六</jhead></juan>
+<lb n="0514c28"/><juan fun="close" n="006"><jhead><note n="0514032" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0514032" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第六</jhead></juan></div1>
 <pb ed="T" id="T21.1331.0515a" n="0515a"/>
 <lb n="0515a01"/>
 <milestone unit="juan" n="7"/>
-<lb n="0515a02"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead>佛說<note n="0515001" resp="Taisho" type="orig" place="foot text">（（灌頂…大））七字＝（（大灌頂））三字【元】【明】</note><app n="0515001" word-count="7"><lem>灌頂伏魔封印大</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神&CB00057;經卷
+<lb n="0515a02"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂伏魔封印大神＆CB00057；經"/><juan fun="open" n="007"><mulu type="卷" n="007"/><jhead>佛說<note n="0515001" resp="Taisho" type="orig" place="foot text">（（灌頂…大））七字＝（（大灌頂））三字【元】【明】</note><app n="0515001" word-count="7"><lem>灌頂伏魔封印大</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神&CB00057;經卷
 <lb n="0515a03"/>第七</jhead></juan>
 <lb n="0515a04"/>
 <lb n="0515a05"/><byline type="Translator">東晉<anchor id="fxT21p0515a01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -2164,11 +2167,11 @@ Added comment  for Emacs
 <lb n="0517b25"/>阿難此經名為天帝釋所問灌頂伏魔大神&CB00057;
 <lb n="0517b26"/>經。<note n="0517020" resp="Taisho" type="orig" place="foot text">說＝演【三】</note><note n="0517020" resp="CBETA" type="mod">說＝演【宋】【元】【明】</note><app n="0517020"><lem>說</lem><rdg wit="【宋】【元】【明】" resp="Taisho">演</rdg></app>此言已。諸天龍王善鬼神等。及阿利
 <lb n="0517b27"/>陀七百眷屬四部弟子。聞經歡喜作禮奉受。</p>
-<lb n="0517b28"/><juan fun="close" n="007"><jhead><note n="0517021" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂伏魔封印大神&CB00057;【宋】，灌頂伏魔封印大神&CB00057;【元】，佛說大灌頂神&CB00057;【明】</note><note n="0517021" resp="CBETA" type="mod">灌頂＝佛說灌頂伏魔封印大神&CB00057;【宋】，＝灌頂伏魔封印大神&CB00057;【元】，＝佛說大灌頂神&CB00057;【明】</note><app n="0517021"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂伏魔封印大神&CB00057;</rdg><rdg wit="【元】" resp="Taisho">灌頂伏魔封印大神&CB00057;</rdg><rdg wit="【明】" resp="Taisho">佛說大灌頂神&CB00057;</rdg></app>經卷第七</jhead></juan>
+<lb n="0517b28"/><juan fun="close" n="007"><jhead><note n="0517021" resp="Taisho" type="orig" place="foot text">灌頂＝佛說灌頂伏魔封印大神&CB00057;【宋】，灌頂伏魔封印大神&CB00057;【元】，佛說大灌頂神&CB00057;【明】</note><note n="0517021" resp="CBETA" type="mod">灌頂＝佛說灌頂伏魔封印大神&CB00057;【宋】，＝灌頂伏魔封印大神&CB00057;【元】，＝佛說大灌頂神&CB00057;【明】</note><app n="0517021"><lem>灌頂</lem><rdg wit="【宋】" resp="Taisho">佛說灌頂伏魔封印大神&CB00057;</rdg><rdg wit="【元】" resp="Taisho">灌頂伏魔封印大神&CB00057;</rdg><rdg wit="【明】" resp="Taisho">佛說大灌頂神&CB00057;</rdg></app>經卷第七</jhead></juan></div1>
 <pb ed="T" id="T21.1331.0517c" n="0517c"/>
 <lb n="0517c01"/>
 <milestone unit="juan" n="8"/>
-<lb n="0517c02"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead>佛說<note n="0517022" resp="Taisho" type="orig" place="foot text">（（灌頂…大））七字＝（（大灌頂））三字【元】【明】</note><app n="0517022" word-count="7"><lem>灌頂摩尼羅亶大</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神&CB00057;經卷
+<lb n="0517c02"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂摩尼羅亶大神＆CB00057；經"/><juan fun="open" n="008"><mulu type="卷" n="008"/><jhead>佛說<note n="0517022" resp="Taisho" type="orig" place="foot text">（（灌頂…大））七字＝（（大灌頂））三字【元】【明】</note><app n="0517022" word-count="7"><lem>灌頂摩尼羅亶大</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神&CB00057;經卷
 <lb n="0517c03"/>第八</jhead></juan>
 <lb n="0517c04"/>
 <lb n="0517c05"/><byline type="Translator">東晉<anchor id="fxT21p0517c01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -2469,11 +2472,11 @@ Added comment  for Emacs
 <pb ed="T" id="T21.1331.0521a" n="0521a"/>
 <lb n="0521a01"/>不<note n="0521001" resp="Taisho" type="orig" place="foot text">可＝有【元】</note><app n="0521001"><lem>可</lem><rdg wit="【元】" resp="Taisho">有</rdg></app>稱數。阿難頭面禮佛足。四輩亦然歡喜
 <lb n="0521a02"/>無量頂受奉行。</p>
-<lb n="0521a03"/><juan fun="close" n="008"><jhead><note n="0521002" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0521002" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第八</jhead></juan>
+<lb n="0521a03"/><juan fun="close" n="008"><jhead><note n="0521002" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0521002" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第八</jhead></juan></div1>
 <lb n="0521a04"/>
 <milestone unit="juan" n="9"/>
 <lb n="0521a05"/>
-<lb n="0521a06"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead>佛說<note n="0521003" resp="Taisho" type="orig" place="foot text">（（灌頂…毒））十字＝（（大灌頂））三字【元】【明】</note><app n="0521003" word-count="10"><lem>灌頂召五方龍王攝疫毒</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神
+<lb n="0521a06"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂召五方龍王攝疫毒神＆CB00057；上品經"/><juan fun="open" n="009"><mulu type="卷" n="009"/><jhead>佛說<note n="0521003" resp="Taisho" type="orig" place="foot text">（（灌頂…毒））十字＝（（大灌頂））三字【元】【明】</note><app n="0521003" word-count="10"><lem>灌頂召五方龍王攝疫毒</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂</rdg></app>神
 <lb n="0521a07"/>&CB00057;<note n="0521004" resp="Taisho" type="orig" place="foot text">〔上品〕－【三】</note><note n="0521004" resp="CBETA" type="mod">〔上品〕－【宋】【元】【明】</note><app n="0521004"><lem>上品</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>經卷第九</jhead></juan>
 <lb n="0521a08"/>
 <lb n="0521a09"/><byline type="Translator">東晉<anchor id="fxT21p0521a01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -2721,11 +2724,11 @@ Added comment  for Emacs
 <lb n="0523c11"/>龍大神&CB00057;經。又名行經之人因緣本事<note n="0523021" resp="Taisho" type="orig" place="foot text">〔經如法受持〕－【三】</note><note n="0523021" resp="CBETA" type="mod">〔經如法受持〕－【宋】【元】【明】</note><app n="0523021"><lem>經如
 <lb n="0523c12"/>法受持</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>大眾人民天龍鬼神聞經歡喜作禮奉
 <lb n="0523c13"/>行。</p>
-<lb n="0523c14"/><juan fun="close" n="009"><jhead><note n="0523022" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0523022" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第九</jhead></juan>
+<lb n="0523c14"/><juan fun="close" n="009"><jhead><note n="0523022" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0523022" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第九</jhead></juan></div1>
 <lb n="0523c15"/>
 <milestone unit="juan" n="10"/>
 <lb n="0523c16"/>
-<lb n="0523c17"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead>佛說<note n="0523023" resp="Taisho" type="orig" place="foot text">（（灌頂…策））六字＝大灌頂神&CB00057;【元】【明】</note><app n="0523023" word-count="6"><lem>灌頂梵天神策</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app>經卷第十</jhead></juan>
+<lb n="0523c17"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂梵天神策經"/><juan fun="open" n="010"><mulu type="卷" n="010"/><jhead>佛說<note n="0523023" resp="Taisho" type="orig" place="foot text">（（灌頂…策））六字＝大灌頂神&CB00057;【元】【明】</note><app n="0523023" word-count="6"><lem>灌頂梵天神策</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app>經卷第十</jhead></juan>
 <lb n="0523c18"/>
 <lb n="0523c19"/><byline type="Translator">東晉<anchor id="fxT21p0523c01"/>天竺三藏帛尸梨蜜多羅譯</byline>
 <lb n="0523c20"/><p><note n="0523024" resp="Taisho" type="orig" place="foot text">聞字前元明俱有灌頂梵天神策經第十，九字</note>聞如是。一時佛在因沙崛山中。與千二百五
@@ -3181,11 +3184,11 @@ Added comment  for Emacs
 <lb n="0528c17"/>事不中不<note n="0528021" resp="Taisho" type="orig" place="foot text">護＝語【三】</note><note n="0528021" resp="CBETA" type="mod">護＝語【宋】【元】【明】</note><app n="0528021"><lem>護</lem><rdg wit="【宋】【元】【明】" resp="Taisho">語</rdg></app>人也。梵王說已。佛於眾中印可
 <lb n="0528c18"/>善哉。四眾聞說梵王神策。淨心歡喜作禮奉
 <lb n="0528c19"/>行。</p>
-<lb n="0528c20"/><juan fun="close" n="010"><jhead><note n="0528022" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0528022" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第十</jhead></juan>
+<lb n="0528c20"/><juan fun="close" n="010"><jhead><note n="0528022" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0528022" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第十</jhead></juan></div1>
 <lb n="0528c21"/>
 <milestone unit="juan" n="11"/>
 <lb n="0528c22"/>
-<lb n="0528c23"/><juan fun="open" n="011"><mulu type="卷" n="011"/><jhead>佛說<note n="0528023" resp="Taisho" type="orig" place="foot text">（（灌頂…土））十字＝大灌頂神&CB00057;【元】【明】</note><app n="0528023" word-count="10"><lem>灌頂隨願<app><lem>往</lem><rdg wit="【大】">&CB01191;</rdg></app>生十方淨土</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app><note n="0528024" resp="Taisho" type="orig" place="foot text">（普廣所問）＋經【宋】</note><app n="0528024"><lem>經</lem><rdg wit="【宋】" resp="Taisho">普廣所問經</rdg></app>
+<lb n="0528c23"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂隨願往生十方淨土經"/><juan fun="open" n="011"><mulu type="卷" n="011"/><jhead>佛說<note n="0528023" resp="Taisho" type="orig" place="foot text">（（灌頂…土））十字＝大灌頂神&CB00057;【元】【明】</note><app n="0528023" word-count="10"><lem>灌頂隨願<app><lem>往</lem><rdg wit="【大】">&CB01191;</rdg></app>生十方淨土</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app><note n="0528024" resp="Taisho" type="orig" place="foot text">（普廣所問）＋經【宋】</note><app n="0528024"><lem>經</lem><rdg wit="【宋】" resp="Taisho">普廣所問經</rdg></app>
 <lb n="0528c24"/>卷第十一</jhead></juan>
 <lb n="0528c25"/>
 <lb n="0528c26"/><byline type="Translator">東晉<anchor id="fxT21p0528c01"/>天竺三藏帛尸梨蜜多羅譯</byline>
@@ -3496,11 +3499,11 @@ Added comment  for Emacs
 <lb n="0532b01"/>普廣所問十方淨土隨願往生。亦名那舍罪
 <lb n="0532b02"/>福因緣。又名灌頂無上章句。佛說是經已。四
 <lb n="0532b03"/>眾人民天龍八部。聞佛所說作禮奉行。</p>
-<lb n="0532b04"/><juan fun="close" n="011"><jhead><note n="0532009" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0532009" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第十一</jhead></juan>
+<lb n="0532b04"/><juan fun="close" n="011"><jhead><note n="0532009" resp="Taisho" type="orig" place="foot text">卷末題三本俱各同卷首題</note><note n="0532009" resp="CBETA" type="mod"><todo type="a"/>卷末題三本俱各同卷首題</note>灌頂經卷第十一</jhead></juan></div1>
 <lb n="0532b05"/>
 <milestone unit="juan" n="12"/>
 <lb n="0532b06"/>
-<lb n="0532b07"/><juan fun="open" n="012"><mulu type="卷" n="012"/><jhead>佛說<note n="0532010" resp="Taisho" type="orig" place="foot text">（（灌頂…度））十字＝（（大灌頂神&CB00057;））五字【元】【明】</note><app n="0532010" word-count="10"><lem>灌頂<note n="0532011" resp="Taisho" type="orig" place="foot text">（章句）＋拔【宋】</note><app n="0532011"><lem>拔</lem><rdg wit="【宋】" resp="Taisho">章句拔</rdg></app>除過罪生死得度</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app>經
+<lb n="0532b07"/><div1 type="jing"><mulu type="經" level="1" label="佛說灌頂拔除過罪生死得度經"/><juan fun="open" n="012"><mulu type="卷" n="012"/><jhead>佛說<note n="0532010" resp="Taisho" type="orig" place="foot text">（（灌頂…度））十字＝（（大灌頂神&CB00057;））五字【元】【明】</note><app n="0532010" word-count="10"><lem>灌頂<note n="0532011" resp="Taisho" type="orig" place="foot text">（章句）＋拔【宋】</note><app n="0532011"><lem>拔</lem><rdg wit="【宋】" resp="Taisho">章句拔</rdg></app>除過罪生死得度</lem><rdg wit="【元】【明】" resp="Taisho">大灌頂神&CB00057;</rdg></app>經
 <lb n="0532b08"/>卷第十二</jhead></juan>
 <lb n="0532b09"/>
 <lb n="0532b10"/><byline type="Translator">東晉<anchor id="fxT21p0532b01"/>天竺三藏帛尸梨蜜多羅譯</byline>
