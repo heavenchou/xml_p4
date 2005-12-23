@@ -164,7 +164,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT revisionDesc (change)+>
 <!ELEMENT change (date, respStmt, item)>
 <!--  6.1:  Paragraph                                          -->
-<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref)*>
+<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title)*>
 <!ATTLIST p
 	id ID #IMPLIED
 	n CDATA #IMPLIED
@@ -273,11 +273,23 @@ converted to XML form 2.1.99 (CW)
 	lang CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT item (#PCDATA | anchor | byline | figure | gaiji | lb | list | app | pb | corr | note | p | ref | sic | title)*>
+<!ELEMENT item (#PCDATA | anchor | byline | figure | gaiji | lb | list | app | pb | corr | note | p | ref | sic | title | jl_title | jl_juan | jl_byline)*>
 <!ATTLIST item
 	id ID #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
+>
+<!ELEMENT jl_title (#PCDATA | gaiji | note | app | lb | pb | anchor | sic)*>
+<!ATTLIST jl_title
+	type CDATA #IMPLIED
+>
+<!ELEMENT jl_juan (#PCDATA | note | app | lb | pb)*>
+<!ATTLIST jl_juan
+	n CDATA #IMPLIED
+>
+<!ELEMENT jl_byline (#PCDATA | lb | pb | note | app | gaiji | anchor)*>
+<!ATTLIST jl_byline
+	type CDATA #IMPLIED
 >
 <!ELEMENT head (#PCDATA | app | skgloss | corr | foreign | gaiji | lb | pb | note | anchor | title | l | sic | tt)*>
 <!ATTLIST head
@@ -285,7 +297,7 @@ converted to XML form 2.1.99 (CW)
 	type CDATA #IMPLIED
 >
 <!--  6.8.1:  Annotation                                       -->
-<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref)*>
+<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title)*>
 <!ATTLIST note
 	n CDATA #IMPLIED
 	lang CDATA #IMPLIED
@@ -428,7 +440,7 @@ converted to XML form 2.1.99 (CW)
 >
 <!--  7.2.4:  Tags for start and end of divisions              -->
 <!ELEMENT trailer (#PCDATA | anchor | gaiji | lb | corr | app | title | pb | note | head)*>
-<!ELEMENT byline (#PCDATA | app | gaiji | lb | pb | corr | foreign | note | anchor | sic | tt)*>
+<!ELEMENT byline (#PCDATA | app | gaiji | lb | pb | corr | foreign | note | anchor | sic | tt | jl_byline)*>
 <!ATTLIST byline
 	type CDATA #IMPLIED
 >
@@ -536,7 +548,7 @@ converted to XML form 2.1.99 (CW)
 	word-count CDATA #IMPLIED
 	TEIform CDATA "app"
 >
-<!ELEMENT lem (#PCDATA | anchor | app | div1 | div2 | figure | gaiji | item | lb | milestone | byline | note | l | pb | skgloss | lg | fan | foreign | head | p | juan | title | list | corr | mulu | sic | term | tt | xref )*>
+<!ELEMENT lem (#PCDATA | anchor | app | div1 | div2 | figure | gaiji | item | lb | milestone | byline | note | l | pb | skgloss | lg | fan | foreign | head | p | juan | title | list | corr | mulu | sic | term | tt | xref | jl_title | jl_juan | jl_byline)*>
 <!ATTLIST lem
 	wit CDATA #IMPLIED
 	ana IDREFS #IMPLIED
