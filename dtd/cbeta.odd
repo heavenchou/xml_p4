@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 file:/Users/chris/res/schema/p5odds.xsd"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Customization for CBETA</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>not published</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>created from scratch</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <schemaSpec ident="cbeta-p5" start="TEI">
+                        <moduleRef key="header"/>
+                        <moduleRef key="core"/>
+                        <moduleRef key="tei"/>
+                        <moduleRef key="textstructure"/>
+                        <moduleRef key="linking"/>
+                        <moduleRef key="textcrit"/>
+                        <moduleRef key="figures"/>
+                        <moduleRef key="gaiji"/>
+                        <moduleRef key="dictionaries"/>
+                        <!--
+                        <elementSpec ident="head" mode="change">
+                            <classes ><memberOf key="tei.Incl" ></memberOf></classes>
+                        </elementSpec>
+                        -->
+                        
+                        <elementSpec ident="div" mode="change">
+                            <!--
+                            <attList>
+                                <attDef ident="type" usage="req" mode="change">
+                                    <gloss>You must indicate the level of the
+                                        section</gloss>
+                                    <datatype>
+                                        <rng:ref
+                                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                                            name="datatype.Code"/>
+                                    </datatype>
+                                    <valList type="closed" mode="replace">
+                                        <valItem ident="section">
+                                            <gloss>1st level section</gloss>
+                                        </valItem>
+                                        <valItem ident="subsection">
+                                            <gloss>2nd level section</gloss>
+                                        </valItem>
+                                        <valItem ident="subsubsection">
+                                            <gloss>3rd level section</gloss>
+                                        </valItem>
+                                    </valList>
+                                </attDef>
+                            </attList>
+                            -->                            
+                            <content>
+                                <rng:zeroOrMore>
+                                    <rng:choice>
+                                        <rng:ref name="mulu"/>
+                                        <rng:ref name="head"/>
+                                        <rng:ref name="byline"/>
+                                        <rng:ref name="lb"/>
+                                        <rng:ref name="lg"/>
+                                        <rng:ref name="pb"/>
+                                        <rng:ref name="p"/>
+                                        <rng:ref name="div"/>
+                                        <rng:ref name="juan"/>
+                                        <rng:ref name="list"/>
+                                        <rng:ref name="entry"/>
+                                        <rng:ref name="g"/>
+                                        <rng:ref name="trailer"/>
+                                        <rng:ref name="app"/>
+                                        <rng:ref name="anchor"/>
+                                        <rng:ref name="choice"/>
+                                        <rng:ref name="milestone"/>
+                                        <rng:ref name="note"/>
+                                        <rng:ref name="table"/>
+                                        <rng:ref name="tt"/>
+                                        
+                                    </rng:choice>
+                                </rng:zeroOrMore>
+                            </content>
+                        </elementSpec>
+<!--
+                        <elementSpec ident="trailer" mode="change" >
+<classes>
+<memberOf key=""/>
+</classes>
+                        </elementSpec>
+-->
+
+                        <elementSpec ident="p" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="add">
+                                    <gloss>The type attribute has been added to distinguish different types of paragraphs, for example those containing a dharani, a dedication, etc.</gloss>
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                                </attList>
+                        </elementSpec>
+                        <elementSpec ident="todo" mode="add">
+                            <classes>
+                                <memberOf key="macro.phraseSeq"></memberOf>
+                            </classes>
+                            <attList>
+                                <attDef ident="type" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                                
+                            </attList>
+                        </elementSpec>
+                        
+                        <elementSpec ident="mulu" mode="add">
+                            <classes>
+<!--                                <memberOf key="tei.Incl"/>-->
+                                <memberOf key="tei.divtop"></memberOf>
+                            </classes>
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                            </content>
+                            <attList>
+                                <attDef ident="type" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+<!--                                <attDef ident="type" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>-->
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="juan" mode="add">
+                            <classes>
+                                <memberOf key="tei.Incl"/>
+                            </classes>
+                            <content>
+                                <rng:zeroOrMore>
+                                    <rng:choice>
+                                    <rng:ref name="mulu"/>
+                                    <rng:ref name="note"/>
+                                    <rng:ref name="jhead"/>
+                                        <rng:ref name="macro.phraseSeq"/>
+                                    </rng:choice>
+                                </rng:zeroOrMore>
+                                
+                            </content>
+                            <attList>
+                                <attDef ident="fun" mode="add">
+                                    <datatype>
+                                        <rng:ref name="datatype.Choice"/>
+                                    </datatype>
+                                    <valList type="closed">
+                                        <valItem ident="open"><gloss>opener</gloss></valItem>
+                                        <valItem ident="close"><gloss>closer</gloss></valItem>
+                                    </valList>
+                                </attDef>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="jhead" mode="add">
+                            <desc>Specialized head element used at the start of a scroll.</desc>
+                            <classes>
+                                <memberOf key="tei.inter"/>
+                                <memberOf key="macro.phraseSeq"></memberOf>
+                            </classes>
+                            <content>
+                                <rng:zeroOrMore>
+                                    <rng:choice>
+                                    <rng:ref name="macro.phraseSeq"/>
+                                    <rng:ref name="tt"/>
+                                        <rng:ref name="label"/>
+                                        <rng:ref name="note"/>
+                                    </rng:choice>    
+                                </rng:zeroOrMore>
+                            </content>
+                        </elementSpec>
+                        <elementSpec ident="tt" mode="add">
+                            <desc>Container element for parallel t elements</desc>
+                            <classes>
+                                <memberOf key="tei.inter"/>
+                            </classes>
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                                <rng:zeroOrMore>
+                                    <rng:ref name="t"/>
+                                </rng:zeroOrMore>
+                            </content>
+                            <attList>
+                                <attDef ident="type" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                                <attDef ident="word-count" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="t" mode="add">
+                            <desc>Element for parallel t elements (used to mark parallel Chinese and
+                                Sanskrit passages)</desc>
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                                <rng:zeroOrMore>
+                                    <rng:ref name="yin"/>
+                                </rng:zeroOrMore>
+                            </content>
+                            <attList>
+                                <attDef ident="resp" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                                <attDef ident="place" mode="add">
+                                    <datatype>
+                                        <rng:ref name="text"/>
+                                    </datatype>
+                                </attDef>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="fan" mode="add">
+                            <desc>A container element for a sound gloss in fanqie notation. The
+                                character to be annotated is <gi>zi</gi>, the soundgloss is
+                                <gi>yin</gi>. The determinant is</desc>
+                            <classes>
+                                <memberOf key="tei.Incl"/>
+                            </classes>
+                            <content>
+                                <rng:zeroOrMore>
+                                    <rng:ref name="zi"/>
+                                    <rng:ref name="yin"/>
+                                </rng:zeroOrMore>
+                            </content>
+                        </elementSpec>
+                        <elementSpec ident="zi" mode="add">
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                            </content>
+                        </elementSpec>
+                        <elementSpec ident="yin" mode="add">
+                            <desc>Content of a soundgloss, either of the fanqie type, or a description, how a Sanskrit transkription is supposed to be rendered.</desc>
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                                <rng:zeroOrMore>
+                                    <rng:ref name="zi"/>
+                                    <rng:ref name="sg"/>
+                                </rng:zeroOrMore>
+                            </content>
+                        </elementSpec>
+                        <elementSpec ident="sg" mode="add">
+                            <desc>Describes how the sound is modified on the preceding <gi>zi</gi> element.</desc>
+                            <content>
+                                <rng:ref name="macro.phraseSeq"/>
+                            </content>
+                        </elementSpec>
+                    </schemaSpec>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
