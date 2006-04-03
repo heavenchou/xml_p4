@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T17n0777.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+[<!ENTITY % ENTY SYSTEM "T17n0777.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
 %ENTY;
 %CBENT;
 ]>
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/10/12 16:02:55 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2006/04/03 15:04:09 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/10/12 16:02:55 $</date>
+		<date>$Date: 2006/04/03 15:04:09 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 777 &desc;</bibl>
@@ -39,8 +39,8 @@
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
-		<p type="ly" lang="eng">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
-		<p type="ly" lang="chi">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
+		<p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous, USA</p>
+		<p lang="chi" type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T17n0777.xml,v $
+Revision 1.6  2006/04/03 15:04:09  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.5  2004/10/12 16:02:55  saywhat
 段落前加入圈點
 
@@ -103,43 +106,43 @@ Revision 1.5  2001/02/07 06:52:26  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:42:06  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/10/12 16:02:55 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2006/04/03 15:04:09 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="0714a03"/>
-<milestone unit="juan" n="1"/>
-<lb n="0714a04"/>
-<lb n="0714a05"/><head type="no">No. 777</head>
-<lb n="0714a06"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><title><note n="0714001" resp="Taisho" type="orig" place="foot text">〔佛說〕－【宋】【元】【宮】</note><app n="0714001"><lem>佛說</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>賢者五福<note n="0714002" resp="Taisho" type="orig" place="foot text">〔德〕－【宋】【元】【宮】</note><app n="0714002"><lem>德</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>經</title></jhead></juan>
-<lb n="0714a07"/>
-<lb n="0714a08"/><byline type="Translator">西晉河內沙門白法祖譯</byline>
-<lb n="0714a09"/><div1 type="jing"><p>聞如是。一時佛在舍衛國祇樹給孤獨園。佛
-<lb n="0714a10"/>告諸比丘。賢者說法時有五福德。何謂為
-<lb n="0714a11"/><note n="0714003" resp="Taisho" type="orig" place="foot text">五＋（福德）【三】，（福德何謂為五）【宮】</note><note n="0714003" resp="CBETA" type="mod">五＋（福德）【宋】【元】【明】，（福德何謂為五）【宮】</note><app n="0714003"><lem>五</lem><rdg wit="【宋】【元】【明】" resp="Taisho">五福德</rdg><rdg wit="【宮】" resp="Taisho">五福德何謂為五</rdg></app>。其人所生則得長壽。是為一福德。其人
-<lb n="0714a12"/>所生即得大富饒財多寶。是為二福德。其人
-<lb n="0714a13"/>所生即端正無比。是為三福德。其人所生即
-<lb n="0714a14"/>名譽遠聞。是為四福德。其人所生即聰明大
-<lb n="0714a15"/>智。是為五福德。何因賢者說法得長壽。用
-<lb n="0714a16"/>前世說法時。上語亦善中語亦善下語亦善。
-<lb n="0714a17"/>其義備足。歸<note n="0714004" resp="Taisho" type="orig" place="foot text">寂＝家【三】【宮】下同</note><note n="0714004" resp="CBETA" type="mod">寂＝家【宋】【元】【明】【宮】下同</note><app n="0714004"><lem>寂</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">家</rdg></app>無為。好殺之人聞法即止不
-<lb n="0714a18"/>殺。用是故得長壽。何因說法之人。得大富饒
-<lb n="0714a19"/>財多寶。用前世說法時。上中下語其義備悉
-<lb n="0714a20"/>歸寂無為。盜竊之人聞經即止不盜便能施
-<lb n="0714a21"/>與。用是故得大富。何因說法之人得端正無
-<lb n="0714a22"/>比。用前世說法時。上中下語其義備悉歸寂
-<lb n="0714a23"/>無為。令聞法者和氣安之。即顏色悅自生光
-<lb n="0714a24"/>澤。用是故得端正。何因說法之人。得名譽
-<lb n="0714a25"/>遠聞。用前世說法時。上中下語其義備悉歸
-<lb n="0714a26"/>寂無為令聞法者。敬佛敬法敬比丘僧。用是
-<lb n="0714a27"/>故得名聞。何因說法之人得聰明大智。用前
-<lb n="0714a28"/>世說法時。上中下語其義備悉歸寂無為。令
-<lb n="0714a29"/>聞法者曉了妙慧。用是故得聰明大智。是為
-<pb ed="T" id="T17.0777.0714b" n="0714b"/>
-<lb n="0714b01"/>五法說經者得<note n="0714005" resp="Taisho" type="orig" place="foot text">福＝教【三】【宮】</note><note n="0714005" resp="CBETA" type="mod">福＝教【宋】【元】【明】【宮】</note><app n="0714005"><lem>福</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">教</rdg></app>也。諸比丘聞經歡喜。前為
-<lb n="0714b02"/>佛作禮。</p></div1>
-<lb n="0714b03"/><juan fun="close" n="001"><jhead><title>佛說賢者五福德經</title></jhead></juan>
+<lb n="0714a03" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0714a04" ed="T"/>
+<lb n="0714a05" ed="T"/><head type="no">No. 777</head>
+<lb n="0714a06" ed="T"/><juan n="001" fun="open"><mulu n="001" type="卷"/><jhead><title><note n="0714001" resp="Taisho" place="foot text" type="orig">〔佛說〕－【宋】【元】【宮】</note><app n="0714001"><lem>佛說</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">&lac;</rdg></app>賢者五福<note n="0714002" resp="Taisho" place="foot text" type="orig">〔德〕－【宋】【元】【宮】</note><app n="0714002"><lem>德</lem><rdg resp="Taisho" wit="【宋】【元】【宮】">&lac;</rdg></app>經</title></jhead></juan>
+<lb n="0714a07" ed="T"/>
+<lb n="0714a08" ed="T"/><byline type="Translator">西晉河內沙門白法祖譯</byline>
+<lb n="0714a09" ed="T"/><div1 type="jing"><p id="pT17p0714a0901">聞如是。一時佛在舍衛國祇樹給孤獨園。佛
+<lb n="0714a10" ed="T"/>告諸比丘。賢者說法時有五福德。何謂為
+<lb n="0714a11" ed="T"/><note n="0714003" resp="Taisho" place="foot text" type="orig">五＋（福德）【三】，（福德何謂為五）【宮】</note><note n="0714003" resp="CBETA" type="mod">五＋（福德）【宋】【元】【明】，（福德何謂為五）【宮】</note><app n="0714003"><lem>五</lem><rdg resp="Taisho" wit="【宋】【元】【明】">五福德</rdg><rdg resp="Taisho" wit="【宮】">五福德何謂為五</rdg></app>。其人所生則得長壽。是為一福德。其人
+<lb n="0714a12" ed="T"/>所生即得大富饒財多寶。是為二福德。其人
+<lb n="0714a13" ed="T"/>所生即端正無比。是為三福德。其人所生即
+<lb n="0714a14" ed="T"/>名譽遠聞。是為四福德。其人所生即聰明大
+<lb n="0714a15" ed="T"/>智。是為五福德。何因賢者說法得長壽。用
+<lb n="0714a16" ed="T"/>前世說法時。上語亦善中語亦善下語亦善。
+<lb n="0714a17" ed="T"/>其義備足。歸<note n="0714004" resp="Taisho" place="foot text" type="orig">寂＝家【三】【宮】下同</note><note n="0714004" resp="CBETA" type="mod">寂＝家【宋】【元】【明】【宮】下同</note><app n="0714004"><lem>寂</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">家</rdg></app>無為。好殺之人聞法即止不
+<lb n="0714a18" ed="T"/>殺。用是故得長壽。何因說法之人。得大富饒
+<lb n="0714a19" ed="T"/>財多寶。用前世說法時。上中下語其義備悉
+<lb n="0714a20" ed="T"/>歸寂無為。盜竊之人聞經即止不盜便能施
+<lb n="0714a21" ed="T"/>與。用是故得大富。何因說法之人得端正無
+<lb n="0714a22" ed="T"/>比。用前世說法時。上中下語其義備悉歸寂
+<lb n="0714a23" ed="T"/>無為。令聞法者和氣安之。即顏色悅自生光
+<lb n="0714a24" ed="T"/>澤。用是故得端正。何因說法之人。得名譽
+<lb n="0714a25" ed="T"/>遠聞。用前世說法時。上中下語其義備悉歸
+<lb n="0714a26" ed="T"/>寂無為令聞法者。敬佛敬法敬比丘僧。用是
+<lb n="0714a27" ed="T"/>故得名聞。何因說法之人得聰明大智。用前
+<lb n="0714a28" ed="T"/>世說法時。上中下語其義備悉歸寂無為。令
+<lb n="0714a29" ed="T"/>聞法者曉了妙慧。用是故得聰明大智。是為
+<pb n="0714b" id="T17.0777.0714b" ed="T"/>
+<lb n="0714b01" ed="T"/>五法說經者得<note n="0714005" resp="Taisho" place="foot text" type="orig">福＝教【三】【宮】</note><note n="0714005" resp="CBETA" type="mod">福＝教【宋】【元】【明】【宮】</note><app n="0714005"><lem>福</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">教</rdg></app>也。諸比丘聞經歡喜。前為
+<lb n="0714b02" ed="T"/>佛作禮。</p></div1>
+<lb n="0714b03" ed="T"/><juan n="001" fun="close"><jhead><title>佛說賢者五福德經</title></jhead></juan>
 </body></text></TEI.2>
