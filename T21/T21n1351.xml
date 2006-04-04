@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T21n1351.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+[<!ENTITY % ENTY SYSTEM "T21n1351.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
 %ENTY;
 %CBENT;
 ]>
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/10/22 04:03:44 $</date></edition>
+		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2006/04/04 01:31:02 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/10/22 04:03:44 $</date>
+		<date>$Date: 2006/04/04 01:31:02 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 21, No. 1351 &desc;</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T21n1351.xml,v $
+Revision 1.8  2006/04/04 01:31:02  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.7  2004/10/22 04:03:44  saywhat
 段落前加入圈點
 
@@ -106,69 +109,69 @@ Revision 1.5  2001/02/07 06:58:15  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:48:05  chris
-Added keywords $Revision: 1.7 $, $Date: 2004/10/22 04:03:44 $ and $Log.
+Added keywords $Revision: 1.8 $, $Date: 2006/04/04 01:31:02 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="0864c06"/>
-<milestone unit="juan" n="1"/>
-<lb n="0864c07"/>
-<lb n="0864c08"/><head type="no">No. 1351 [Nos. 1352-1355]</head><div1 type="jing">
-<lb n="0864c09"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0864008" resp="Taisho" type="orig" place="foot text">【原】麗本</note>佛說持句神&CB00057;<note n="0864009" resp="Taisho" type="orig" place="foot text">經＋（亦云陀羅尼句）【三】</note><note n="0864009" resp="CBETA" type="mod">經＋（亦云陀羅尼句）【宋】【元】【明】</note><app n="0864009"><lem>經</lem><rdg wit="【宋】【元】【明】" resp="Taisho">經亦云陀羅尼句</rdg></app></jhead></juan>
-<lb n="0864c10"/>
-<lb n="0864c11"/><byline type="Translator">吳月支優婆塞支<note n="0864010" resp="Taisho" type="orig" place="foot text">謙＋（拾遺編入第一）【宋】</note><app n="0864010"><lem>謙</lem><rdg wit="【宋】" resp="Taisho">謙拾遺編入第一</rdg></app>譯</byline>
-<lb n="0864c12"/><p>聞如是。一時佛在舍衛國祇樹給孤獨園。與
-<lb n="0864c13"/>大比丘眾千二百五十人菩薩萬人。爾時從
-<lb n="0864c14"/>是佛土過億<note n="0864011" resp="Taisho" type="orig" place="foot text">百千＝千百【三】＊</note><note n="0864011" resp="CBETA" type="mod">百千＝千百【宋】＊【元】＊【明】＊</note><app n="0864011"><lem>百千</lem><rdg wit="【宋】【元】【明】" resp="Taisho">千百</rdg></app>佛國。有世界<note n="0864012" resp="Taisho" type="orig" place="foot text">名＋（曰）【三】＊</note><note n="0864012" resp="CBETA" type="mod">名＋（曰）【宋】＊【元】＊【明】＊</note><app n="0864012"><lem>名</lem><rdg wit="【宋】【元】【明】" resp="Taisho">名曰</rdg></app>無量華。
-<lb n="0864c15"/>其佛號<note n="0864013" resp="Taisho" type="orig" place="foot text">鄧＝燈【明】＊</note><note n="0864013" resp="CBETA" type="mod"><todo type="＊"/>鄧＝燈【明】＊</note><app n="0864013"><lem>鄧</lem><rdg wit="【明】" resp="Taisho">燈</rdg></app>尊王如來無所著至真等正覺。今
-<lb n="0864c16"/>現在說法。<note n="0864014" resp="Taisho" type="orig" place="foot text">（時）＋彼【三】</note><note n="0864014" resp="CBETA" type="mod">（時）＋彼【宋】【元】【明】</note><app n="0864014"><lem>彼</lem><rdg wit="【宋】【元】【明】" resp="Taisho">時彼</rdg></app>佛遣二菩薩。一名無量光明二
-<lb n="0864c17"/>名大光明。時二菩薩來至釋迦文佛所。稽首
-<lb n="0864c18"/>佛足&CB00230;住一面。<note n="0864015" resp="Taisho" type="orig" place="foot text">〔前〕－【宋】</note><app n="0864015"><lem>前</lem><rdg wit="【宋】" resp="Taisho">&lac;</rdg></app>白佛言。唯然世尊從<note n="0864016" resp="Taisho" type="orig" place="foot text">是＝此【三】</note><note n="0864016" resp="CBETA" type="mod">是＝此【宋】【元】【明】</note><app n="0864016"><lem>是</lem><rdg wit="【宋】【元】【明】" resp="Taisho">此</rdg></app>
-<lb n="0864c19"/>佛土過億<app type="＊" source="0864011"><lem>百千</lem><rdg resp="Taisho" wit="【宋】【元】【明】">千百</rdg></app>佛國。有世界<app type="＊" source="0864012"><lem>名</lem><rdg resp="Taisho" wit="【宋】【元】【明】">名曰</rdg></app>無量華。其
-<lb n="0864c20"/>佛號鄧尊王如來。遣我等來。<note n="0864017" resp="Taisho" type="orig" place="foot text">（如何）＋世【宋】</note><app n="0864017"><lem>世</lem><rdg wit="【宋】" resp="Taisho">如何世</rdg></app>尊如<note n="0864018" resp="Taisho" type="orig" place="foot text">（平）＋常【三】</note><note n="0864018" resp="CBETA" type="mod">（平）＋常【宋】【元】【明】</note><app n="0864018"><lem>常</lem><rdg wit="【宋】【元】【明】" resp="Taisho">平常</rdg></app>不
-<lb n="0864c21"/>其眾安隱無他耶。天龍鬼神餓鬼<note n="0864019" resp="Taisho" type="orig" place="foot text">女鬼鳩桓＝鳩洹鬼【三】</note><note n="0864019" resp="CBETA" type="mod">女鬼鳩桓＝鳩洹鬼【宋】【元】【明】</note><app n="0864019"><lem>女鬼鳩桓</lem><rdg wit="【宋】【元】【明】" resp="Taisho">鳩洹鬼</rdg></app>。
-<lb n="0864c22"/>若人非人虎狼毒<note n="0864020" resp="Taisho" type="orig" place="foot text">獸＝狩【宋】</note><app n="0864020"><lem>獸</lem><rdg wit="【宋】" resp="Taisho">狩</rdg></app>。得無嬈亂人民。用是故
-<lb n="0864c23"/><note n="0864021" resp="Taisho" type="orig" place="foot text">（彼）＋佛【三】</note><note n="0864021" resp="CBETA" type="mod">（彼）＋佛【宋】【元】【明】</note><app n="0864021"><lem>佛</lem><rdg wit="【宋】【元】【明】" resp="Taisho">彼佛</rdg></app>遣是持句&CB00057;來。哀念眾生<note n="0864022" resp="Taisho" type="orig" place="foot text">令＝全【三】</note><note n="0864022" resp="CBETA" type="mod">令＝全【宋】【元】【明】</note><app n="0864022"><lem>令</lem><rdg wit="【宋】【元】【明】" resp="Taisho">全</rdg></app>安。吉善名
-<lb n="0864c24"/>聞威神<note n="0864023" resp="Taisho" type="orig" place="foot text">得＝德【宋】</note><app n="0864023"><lem>得</lem><rdg wit="【宋】" resp="Taisho">德</rdg></app>力。如是。</p>
-<lb n="0864c25"/><p type="dharani">闍梨摩訶　闍梨羅尼　優佉目佉　沙<note n="0864024" resp="Taisho" type="orig" place="foot text">波＝婆【三】＊</note><note n="0864024" resp="CBETA" type="mod">波＝婆【宋】＊【元】＊【明】＊</note><app n="0864024"><lem>波</lem><rdg wit="【宋】【元】【明】" resp="Taisho">婆</rdg></app>
-<lb n="0864c26"/>提　摩訶沙<app type="＊" source="0864024"><lem>波</lem><rdg resp="Taisho" wit="【宋】【元】【明】">婆</rdg></app>提</p>
-<lb n="0864c27"/><p>佛告阿難。受是持句&CB00057;執持誦說。佛世難值。
-<lb n="0864c28"/>持句&CB00057;亦為難<note n="0864025" resp="Taisho" type="orig" place="foot text">遇＋（佛語阿難若）【三】</note><note n="0864025" resp="CBETA" type="mod">遇＋（佛語阿難若）【宋】【元】【明】</note><app n="0864025"><lem>遇</lem><rdg wit="【宋】【元】【明】" resp="Taisho">遇佛語阿難若</rdg></app>。善男子善女人。受<note n="0864026" resp="Taisho" type="orig" place="foot text">是持＝持是【三】</note><note n="0864026" resp="CBETA" type="mod">是持＝持是【宋】【元】【明】</note><app n="0864026"><lem>是持</lem><rdg wit="【宋】【元】【明】" resp="Taisho">持是</rdg></app>
-<lb n="0864c29"/>句&CB00057;。諷誦讀識七世宿命。受持者一切浮陀
-<pb ed="T" id="T21.1351.0865a" n="0865a"/>
-<lb n="0865a01"/>鬼神若<note n="0865001" resp="Taisho" type="orig" place="foot text">人非＝非人【明】</note><app n="0865001"><lem>人非</lem><rdg wit="【明】" resp="Taisho">非人</rdg></app>人。不得嬈近。毒蛇不<note n="0865002" resp="Taisho" type="orig" place="foot text">敢＝能【三】</note><note n="0865002" resp="CBETA" type="mod">敢＝能【宋】【元】【明】</note><app n="0865002"><lem>敢</lem><rdg wit="【宋】【元】【明】" resp="Taisho">能</rdg></app>螫。毒
-<lb n="0865a02"/>藥自然除。刀亦不能傷。王亦不能害。梵亦
-<lb n="0865a03"/><note n="0865003" resp="Taisho" type="orig" place="foot text">不＋（能）【三】</note><note n="0865003" resp="CBETA" type="mod">不＋（能）【宋】【元】【明】</note><app n="0865003"><lem>不</lem><rdg wit="【宋】【元】【明】" resp="Taisho">不能</rdg></app>瞋之。是<note n="0865004" resp="Taisho" type="orig" place="foot text">（受）＋持【三】</note><note n="0865004" resp="CBETA" type="mod">（受）＋持【宋】【元】【明】</note><app n="0865004"><lem>持</lem><rdg wit="【宋】【元】【明】" resp="Taisho">受持</rdg></app>句&CB00057;。七十七億佛所說。犯是
-<lb n="0865a04"/>&CB00057;者當獲重罪。復有菩薩彌勒等八十人。告
-<lb n="0865a05"/>賢者阿難。我亦當說持句&CB00057;。哀念眾生令
-<lb n="0865a06"/><note n="0865005" resp="Taisho" type="orig" place="foot text">安＝其【宋】</note><app n="0865005"><lem>安</lem><rdg wit="【宋】" resp="Taisho">其</rdg></app>。吉善名聞威神得力。如是。</p>
-<lb n="0865a07"/><p type="dharani">阿知和知　吒佉羅羅　里彌喜利　彌利提
-<lb n="0865a08"/>盧　留彌勒</p><p place="inline">佛告阿難。受是持句&CB00057;執<note n="0865006" resp="Taisho" type="orig" place="foot text">持＝治【宋】</note><app n="0865006"><lem>持</lem><rdg wit="【宋】" resp="Taisho">治</rdg></app>
-<lb n="0865a09"/>誦說。佛世難值。持句&CB00057;諷誦讀識。十四世宿
-<lb n="0865a10"/>命。受持者一切浮陀鬼神。若人非人不得嬈
-<lb n="0865a11"/>近。毒蛇不<note n="0865007" resp="Taisho" type="orig" place="foot text">敢＝能【明】</note><app n="0865007"><lem>敢</lem><rdg wit="【明】" resp="Taisho">能</rdg></app>螫。毒藥自然除。刀亦不能傷。
-<lb n="0865a12"/>王亦不敢害。梵亦不瞋之。是持句&CB00057;八十四
-<lb n="0865a13"/>億佛所說。謗是&CB00057;者當獲重罪。</p>
-<lb n="0865a14"/><p>佛告阿難。我亦當說持句&CB00057;。哀念眾生令安。
-<lb n="0865a15"/>吉善名聞威神得力。如是。</p>
-<lb n="0865a16"/><p type="dharani">阿知和知　那知鳩那知　提梨　沙羅波提
-<lb n="0865a17"/>　阿那波提　波那提　波那迦和尼　摩訶
-<lb n="0865a18"/>迦和尼</p>
-<lb n="0865a19"/><p>佛告阿難。受是持句&CB00057;執持誦說。佛世難值。
-<lb n="0865a20"/>持句&CB00057;亦為難遇。善男子善女人。受是持句
-<lb n="0865a21"/>&CB00057;諷誦讀。識無數世宿命。受持者一切浮陀
-<lb n="0865a22"/>鬼神。若人非人不敢嬈近。毒蛇不敢螫。毒藥
-<lb n="0865a23"/>自然除。刀亦不敢傷。王亦不敢害。梵亦不瞋
-<lb n="0865a24"/>之。是持句&CB00057;無數億佛所說。犯是&CB00057;者當獲
-<lb n="0865a25"/>重罪。佛告阿難。是持句&CB00057;。行道中當念之。若
-<lb n="0865a26"/>至縣官若行賊中。若蠱道若毒若刀刃中。若
-<lb n="0865a27"/>人非人中當念之。是持句&CB00057;於枯樹令生<note n="0865008" resp="Taisho" type="orig" place="foot text">葉＝草【宋】【元】</note><app n="0865008"><lem>葉</lem><rdg wit="【宋】【元】" resp="Taisho">草</rdg></app>
-<lb n="0865a28"/>華實。何況為人結縷也。當使<note n="0865009" resp="Taisho" type="orig" place="foot text">吉＋（善）【元】【明】</note><app n="0865009"><lem>吉</lem><rdg wit="【元】【明】" resp="Taisho">吉善</rdg></app>百病消除。
-<lb n="0865a29"/>自然安隱辟除凶害。南無佛令&CB00057;<note n="0865010" resp="Taisho" type="orig" place="foot text">皆＝比【宋】，所【元】【明】</note><note n="0865010" resp="CBETA" type="mod">皆＝比【宋】，＝所【元】【明】</note><app n="0865010"><lem>皆</lem><rdg wit="【宋】" resp="Taisho">比</rdg><rdg wit="【元】【明】" resp="Taisho">所</rdg></app>得從願。
-<pb ed="T" id="T21.1351.0865b" n="0865b"/>
-<lb n="0865b01"/>佛說經已皆大歡喜。</p>
-<lb n="0865b02"/><juan fun="close" n="001"><jhead>佛說持句神&CB00057;經</jhead></juan></div1>
-</body></text></TEI.2>
+<lb n="0864c06" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0864c07" ed="T"/>
+<lb n="0864c08" ed="T"/><head type="no">No. 1351 [Nos. 1352-1355]</head><div1 type="jing">
+<lb n="0864c09" ed="T"/><juan n="001" fun="open"><mulu n="001" type="卷"/><jhead><note n="0864008" resp="Taisho" place="foot text" type="orig">【原】麗本</note>佛說持句神&CB00057;<note n="0864009" resp="Taisho" place="foot text" type="orig">經＋（亦云陀羅尼句）【三】</note><note n="0864009" resp="CBETA" type="mod">經＋（亦云陀羅尼句）【宋】【元】【明】</note><app n="0864009"><lem>經</lem><rdg resp="Taisho" wit="【宋】【元】【明】">經亦云陀羅尼句</rdg></app></jhead></juan>
+<lb n="0864c10" ed="T"/>
+<lb n="0864c11" ed="T"/><byline type="Translator">吳月支優婆塞支<note n="0864010" resp="Taisho" place="foot text" type="orig">謙＋（拾遺編入第一）【宋】</note><app n="0864010"><lem>謙</lem><rdg resp="Taisho" wit="【宋】">謙拾遺編入第一</rdg></app>譯</byline>
+<lb n="0864c12" ed="T"/><p id="pT21p0864c1201">聞如是。一時佛在舍衛國祇樹給孤獨園。與
+<lb n="0864c13" ed="T"/>大比丘眾千二百五十人菩薩萬人。爾時從
+<lb n="0864c14" ed="T"/>是佛土過億<note n="0864011" resp="Taisho" place="foot text" type="orig">百千＝千百【三】＊</note><note n="0864011" resp="CBETA" type="mod">百千＝千百【宋】＊【元】＊【明】＊</note><app n="0864011"><lem>百千</lem><rdg resp="Taisho" wit="【宋】【元】【明】">千百</rdg></app>佛國。有世界<note n="0864012" resp="Taisho" place="foot text" type="orig">名＋（曰）【三】＊</note><note n="0864012" resp="CBETA" type="mod">名＋（曰）【宋】＊【元】＊【明】＊</note><app n="0864012"><lem>名</lem><rdg resp="Taisho" wit="【宋】【元】【明】">名曰</rdg></app>無量華。
+<lb n="0864c15" ed="T"/>其佛號<note n="0864013" resp="Taisho" place="foot text" type="orig">鄧＝燈【明】＊</note><note n="0864013" resp="CBETA" type="mod"><todo type="＊"/>鄧＝燈【明】＊</note><app n="0864013"><lem>鄧</lem><rdg resp="Taisho" wit="【明】">燈</rdg></app>尊王如來無所著至真等正覺。今
+<lb n="0864c16" ed="T"/>現在說法。<note n="0864014" resp="Taisho" place="foot text" type="orig">（時）＋彼【三】</note><note n="0864014" resp="CBETA" type="mod">（時）＋彼【宋】【元】【明】</note><app n="0864014"><lem>彼</lem><rdg resp="Taisho" wit="【宋】【元】【明】">時彼</rdg></app>佛遣二菩薩。一名無量光明二
+<lb n="0864c17" ed="T"/>名大光明。時二菩薩來至釋迦文佛所。稽首
+<lb n="0864c18" ed="T"/>佛足&CB00230;住一面。<note n="0864015" resp="Taisho" place="foot text" type="orig">〔前〕－【宋】</note><app n="0864015"><lem>前</lem><rdg resp="Taisho" wit="【宋】">&lac;</rdg></app>白佛言。唯然世尊從<note n="0864016" resp="Taisho" place="foot text" type="orig">是＝此【三】</note><note n="0864016" resp="CBETA" type="mod">是＝此【宋】【元】【明】</note><app n="0864016"><lem>是</lem><rdg resp="Taisho" wit="【宋】【元】【明】">此</rdg></app>
+<lb n="0864c19" ed="T"/>佛土過億<app source="0864011" type="＊"><lem>百千</lem><rdg resp="Taisho" wit="【宋】【元】【明】">千百</rdg></app>佛國。有世界<app source="0864012" type="＊"><lem>名</lem><rdg resp="Taisho" wit="【宋】【元】【明】">名曰</rdg></app>無量華。其
+<lb n="0864c20" ed="T"/>佛號鄧尊王如來。遣我等來。<note n="0864017" resp="Taisho" place="foot text" type="orig">（如何）＋世【宋】</note><app n="0864017"><lem>世</lem><rdg resp="Taisho" wit="【宋】">如何世</rdg></app>尊如<note n="0864018" resp="Taisho" place="foot text" type="orig">（平）＋常【三】</note><note n="0864018" resp="CBETA" type="mod">（平）＋常【宋】【元】【明】</note><app n="0864018"><lem>常</lem><rdg resp="Taisho" wit="【宋】【元】【明】">平常</rdg></app>不
+<lb n="0864c21" ed="T"/>其眾安隱無他耶。天龍鬼神餓鬼<note n="0864019" resp="Taisho" place="foot text" type="orig">女鬼鳩桓＝鳩洹鬼【三】</note><note n="0864019" resp="CBETA" type="mod">女鬼鳩桓＝鳩洹鬼【宋】【元】【明】</note><app n="0864019"><lem>女鬼鳩桓</lem><rdg resp="Taisho" wit="【宋】【元】【明】">鳩洹鬼</rdg></app>。
+<lb n="0864c22" ed="T"/>若人非人虎狼毒<note n="0864020" resp="Taisho" place="foot text" type="orig">獸＝狩【宋】</note><app n="0864020"><lem>獸</lem><rdg resp="Taisho" wit="【宋】">狩</rdg></app>。得無嬈亂人民。用是故
+<lb n="0864c23" ed="T"/><note n="0864021" resp="Taisho" place="foot text" type="orig">（彼）＋佛【三】</note><note n="0864021" resp="CBETA" type="mod">（彼）＋佛【宋】【元】【明】</note><app n="0864021"><lem>佛</lem><rdg resp="Taisho" wit="【宋】【元】【明】">彼佛</rdg></app>遣是持句&CB00057;來。哀念眾生<note n="0864022" resp="Taisho" place="foot text" type="orig">令＝全【三】</note><note n="0864022" resp="CBETA" type="mod">令＝全【宋】【元】【明】</note><app n="0864022"><lem>令</lem><rdg resp="Taisho" wit="【宋】【元】【明】">全</rdg></app>安。吉善名
+<lb n="0864c24" ed="T"/>聞威神<note n="0864023" resp="Taisho" place="foot text" type="orig">得＝德【宋】</note><app n="0864023"><lem>得</lem><rdg resp="Taisho" wit="【宋】">德</rdg></app>力。如是。</p>
+<lb n="0864c25" ed="T"/><p id="pT21p0864c2501" type="dharani">闍梨摩訶　闍梨羅尼　優佉目佉　沙<note n="0864024" resp="Taisho" place="foot text" type="orig">波＝婆【三】＊</note><note n="0864024" resp="CBETA" type="mod">波＝婆【宋】＊【元】＊【明】＊</note><app n="0864024"><lem>波</lem><rdg resp="Taisho" wit="【宋】【元】【明】">婆</rdg></app>
+<lb n="0864c26" ed="T"/>提　摩訶沙<app source="0864024" type="＊"><lem>波</lem><rdg resp="Taisho" wit="【宋】【元】【明】">婆</rdg></app>提</p>
+<lb n="0864c27" ed="T"/><p id="pT21p0864c2701">佛告阿難。受是持句&CB00057;執持誦說。佛世難值。
+<lb n="0864c28" ed="T"/>持句&CB00057;亦為難<note n="0864025" resp="Taisho" place="foot text" type="orig">遇＋（佛語阿難若）【三】</note><note n="0864025" resp="CBETA" type="mod">遇＋（佛語阿難若）【宋】【元】【明】</note><app n="0864025"><lem>遇</lem><rdg resp="Taisho" wit="【宋】【元】【明】">遇佛語阿難若</rdg></app>。善男子善女人。受<note n="0864026" resp="Taisho" place="foot text" type="orig">是持＝持是【三】</note><note n="0864026" resp="CBETA" type="mod">是持＝持是【宋】【元】【明】</note><app n="0864026"><lem>是持</lem><rdg resp="Taisho" wit="【宋】【元】【明】">持是</rdg></app>
+<lb n="0864c29" ed="T"/>句&CB00057;。諷誦讀識七世宿命。受持者一切浮陀
+<pb n="0865a" id="T21.1351.0865a" ed="T"/>
+<lb n="0865a01" ed="T"/>鬼神若<note n="0865001" resp="Taisho" place="foot text" type="orig">人非＝非人【明】</note><app n="0865001"><lem>人非</lem><rdg resp="Taisho" wit="【明】">非人</rdg></app>人。不得嬈近。毒蛇不<note n="0865002" resp="Taisho" place="foot text" type="orig">敢＝能【三】</note><note n="0865002" resp="CBETA" type="mod">敢＝能【宋】【元】【明】</note><app n="0865002"><lem>敢</lem><rdg resp="Taisho" wit="【宋】【元】【明】">能</rdg></app>螫。毒
+<lb n="0865a02" ed="T"/>藥自然除。刀亦不能傷。王亦不能害。梵亦
+<lb n="0865a03" ed="T"/><note n="0865003" resp="Taisho" place="foot text" type="orig">不＋（能）【三】</note><note n="0865003" resp="CBETA" type="mod">不＋（能）【宋】【元】【明】</note><app n="0865003"><lem>不</lem><rdg resp="Taisho" wit="【宋】【元】【明】">不能</rdg></app>瞋之。是<note n="0865004" resp="Taisho" place="foot text" type="orig">（受）＋持【三】</note><note n="0865004" resp="CBETA" type="mod">（受）＋持【宋】【元】【明】</note><app n="0865004"><lem>持</lem><rdg resp="Taisho" wit="【宋】【元】【明】">受持</rdg></app>句&CB00057;。七十七億佛所說。犯是
+<lb n="0865a04" ed="T"/>&CB00057;者當獲重罪。復有菩薩彌勒等八十人。告
+<lb n="0865a05" ed="T"/>賢者阿難。我亦當說持句&CB00057;。哀念眾生令
+<lb n="0865a06" ed="T"/><note n="0865005" resp="Taisho" place="foot text" type="orig">安＝其【宋】</note><app n="0865005"><lem>安</lem><rdg resp="Taisho" wit="【宋】">其</rdg></app>。吉善名聞威神得力。如是。</p>
+<lb n="0865a07" ed="T"/><p id="pT21p0865a0701" type="dharani">阿知和知　吒佉羅羅　里彌喜利　彌利提
+<lb n="0865a08" ed="T"/>盧　留彌勒</p><p id="pT21p0865a0805" place="inline">佛告阿難。受是持句&CB00057;執<note n="0865006" resp="Taisho" place="foot text" type="orig">持＝治【宋】</note><app n="0865006"><lem>持</lem><rdg resp="Taisho" wit="【宋】">治</rdg></app>
+<lb n="0865a09" ed="T"/>誦說。佛世難值。持句&CB00057;諷誦讀識。十四世宿
+<lb n="0865a10" ed="T"/>命。受持者一切浮陀鬼神。若人非人不得嬈
+<lb n="0865a11" ed="T"/>近。毒蛇不<note n="0865007" resp="Taisho" place="foot text" type="orig">敢＝能【明】</note><app n="0865007"><lem>敢</lem><rdg resp="Taisho" wit="【明】">能</rdg></app>螫。毒藥自然除。刀亦不能傷。
+<lb n="0865a12" ed="T"/>王亦不敢害。梵亦不瞋之。是持句&CB00057;八十四
+<lb n="0865a13" ed="T"/>億佛所說。謗是&CB00057;者當獲重罪。</p>
+<lb n="0865a14" ed="T"/><p id="pT21p0865a1401">佛告阿難。我亦當說持句&CB00057;。哀念眾生令安。
+<lb n="0865a15" ed="T"/>吉善名聞威神得力。如是。</p>
+<lb n="0865a16" ed="T"/><p id="pT21p0865a1601" type="dharani">阿知和知　那知鳩那知　提梨　沙羅波提
+<lb n="0865a17" ed="T"/>　阿那波提　波那提　波那迦和尼　摩訶
+<lb n="0865a18" ed="T"/>迦和尼</p>
+<lb n="0865a19" ed="T"/><p id="pT21p0865a1901">佛告阿難。受是持句&CB00057;執持誦說。佛世難值。
+<lb n="0865a20" ed="T"/>持句&CB00057;亦為難遇。善男子善女人。受是持句
+<lb n="0865a21" ed="T"/>&CB00057;諷誦讀。識無數世宿命。受持者一切浮陀
+<lb n="0865a22" ed="T"/>鬼神。若人非人不敢嬈近。毒蛇不敢螫。毒藥
+<lb n="0865a23" ed="T"/>自然除。刀亦不敢傷。王亦不敢害。梵亦不瞋
+<lb n="0865a24" ed="T"/>之。是持句&CB00057;無數億佛所說。犯是&CB00057;者當獲
+<lb n="0865a25" ed="T"/>重罪。佛告阿難。是持句&CB00057;。行道中當念之。若
+<lb n="0865a26" ed="T"/>至縣官若行賊中。若蠱道若毒若刀刃中。若
+<lb n="0865a27" ed="T"/>人非人中當念之。是持句&CB00057;於枯樹令生<note n="0865008" resp="Taisho" place="foot text" type="orig">葉＝草【宋】【元】</note><app n="0865008"><lem>葉</lem><rdg resp="Taisho" wit="【宋】【元】">草</rdg></app>
+<lb n="0865a28" ed="T"/>華實。何況為人結縷也。當使<note n="0865009" resp="Taisho" place="foot text" type="orig">吉＋（善）【元】【明】</note><app n="0865009"><lem>吉</lem><rdg resp="Taisho" wit="【元】【明】">吉善</rdg></app>百病消除。
+<lb n="0865a29" ed="T"/>自然安隱辟除凶害。南無佛令&CB00057;<note n="0865010" resp="Taisho" place="foot text" type="orig">皆＝比【宋】，所【元】【明】</note><note n="0865010" resp="CBETA" type="mod">皆＝比【宋】，＝所【元】【明】</note><app n="0865010"><lem>皆</lem><rdg resp="Taisho" wit="【宋】">比</rdg><rdg resp="Taisho" wit="【元】【明】">所</rdg></app>得從願。
+<pb n="0865b" id="T21.1351.0865b" ed="T"/>
+<lb n="0865b01" ed="T"/>佛說經已皆大歡喜。</p>
+<lb n="0865b02" ed="T"/><juan n="001" fun="close"><jhead>佛說持句神&CB00057;經</jhead></juan></div1>
+</body></text></TEI.2>
