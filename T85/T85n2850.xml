@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T85n2850.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+[<!ENTITY % ENTY SYSTEM "T85n2850.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
 %ENTY;
 %CBENT;
 ]>
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2004/11/02 02:15:56 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2006/04/04 13:37:20 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/02 02:15:56 $</date>
+		<date>$Date: 2006/04/04 13:37:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 85, No. 2850 &desc;</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T85n2850.xml,v $
+Revision 1.4  2006/04/04 13:37:20  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.3  2004/11/02 02:15:56  saywhat
 段落前加入圈點
 
@@ -100,38 +103,38 @@ Revision 1.3  2001/02/07 07:50:18  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:20:31  chris
-Added keywords $Revision: 1.3 $, $Date: 2004/11/02 02:15:56 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2006/04/04 13:37:20 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="1300a06"/>
-<milestone unit="juan" n="1"/>
-<lb n="1300a07"/>
-<lb n="1300a08"/><head type="no">No. 2850</head>
-<lb n="1300a09"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="1300001" resp="Taisho" type="orig" place="foot text">【原】大英博物館藏燉煌本, S. 2568</note>地藏菩薩十齋日</jhead></juan>
-<lb n="1300a10"/>
-<lb n="1300a11"/><div1 type="other"><p>一日童子下念定光如來不塗刀鎗地獄持齋
-<lb n="1300a12"/>除罪四十劫。</p>
-<lb n="1300a13"/><p>八日太子下念藥師&CB00222;璃光佛不塗糞屎地獄
-<lb n="1300a14"/>持齋除罪三十劫。</p>
-<lb n="1300a15"/><p>十四日察命下念賢劫千佛不塗鑊湯地獄持
-<lb n="1300a16"/>齋除罪一千劫。</p>
-<lb n="1300a17"/><p>十五日五道大將軍下念阿彌陀佛不墮寒&CB00457;
-<lb n="1300a18"/>地獄持齋除罪二百劫。</p>
-<lb n="1300a19"/><p>十八日閻羅王下念觀世音菩薩不墮劍樹地
-<lb n="1300a20"/>獄持齋除罪九十劫。</p>
-<lb n="1300a21"/><p>二十三日大將軍下念盧舍那佛不墮餓鬼地
-<lb n="1300a22"/>獄持齋除罪一千劫。</p>
-<lb n="1300a23"/><p>二十四日太山府君下念地獄菩薩不墮斬斫
-<lb n="1300a24"/>地獄持齋除罪一千劫。</p>
-<lb n="1300a25"/><p>二十八日帝釋下念阿彌陀佛不墮鐵鋸地獄
-<lb n="1300a26"/>持齋除罪九十劫。</p>
-<lb n="1300a27"/><p>二十九日四天王下念藥師上菩薩不墮磑摩
-<lb n="1300a28"/>地獄持齋除罪七千劫。</p>
-<lb n="1300a29"/><p>三十日梵天王下念釋迦牟尼佛不墮灰何地
-<pb ed="T" id="T85.2850.1300b" n="1300b"/>
-<lb n="1300b01"/>獄持齋除罪八千劫。</p></div1>
+<lb n="1300a06" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="1300a07" ed="T"/>
+<lb n="1300a08" ed="T"/><head type="no">No. 2850</head>
+<lb n="1300a09" ed="T"/><juan n="001" fun="open"><mulu n="1" type="卷"/><jhead><note n="1300001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2568</note>地藏菩薩十齋日</jhead></juan>
+<lb n="1300a10" ed="T"/>
+<lb n="1300a11" ed="T"/><div1 type="other"><p id="pT85p1300a1101">一日童子下念定光如來不塗刀鎗地獄持齋
+<lb n="1300a12" ed="T"/>除罪四十劫。</p>
+<lb n="1300a13" ed="T"/><p id="pT85p1300a1301">八日太子下念藥師&CB00222;璃光佛不塗糞屎地獄
+<lb n="1300a14" ed="T"/>持齋除罪三十劫。</p>
+<lb n="1300a15" ed="T"/><p id="pT85p1300a1501">十四日察命下念賢劫千佛不塗鑊湯地獄持
+<lb n="1300a16" ed="T"/>齋除罪一千劫。</p>
+<lb n="1300a17" ed="T"/><p id="pT85p1300a1701">十五日五道大將軍下念阿彌陀佛不墮寒&CB00457;
+<lb n="1300a18" ed="T"/>地獄持齋除罪二百劫。</p>
+<lb n="1300a19" ed="T"/><p id="pT85p1300a1901">十八日閻羅王下念觀世音菩薩不墮劍樹地
+<lb n="1300a20" ed="T"/>獄持齋除罪九十劫。</p>
+<lb n="1300a21" ed="T"/><p id="pT85p1300a2101">二十三日大將軍下念盧舍那佛不墮餓鬼地
+<lb n="1300a22" ed="T"/>獄持齋除罪一千劫。</p>
+<lb n="1300a23" ed="T"/><p id="pT85p1300a2301">二十四日太山府君下念地獄菩薩不墮斬斫
+<lb n="1300a24" ed="T"/>地獄持齋除罪一千劫。</p>
+<lb n="1300a25" ed="T"/><p id="pT85p1300a2501">二十八日帝釋下念阿彌陀佛不墮鐵鋸地獄
+<lb n="1300a26" ed="T"/>持齋除罪九十劫。</p>
+<lb n="1300a27" ed="T"/><p id="pT85p1300a2701">二十九日四天王下念藥師上菩薩不墮磑摩
+<lb n="1300a28" ed="T"/>地獄持齋除罪七千劫。</p>
+<lb n="1300a29" ed="T"/><p id="pT85p1300a2901">三十日梵天王下念釋迦牟尼佛不墮灰何地
+<pb n="1300b" id="T85.2850.1300b" ed="T"/>
+<lb n="1300b01" ed="T"/>獄持齋除罪八千劫。</p></div1>
 </body></text></TEI.2>

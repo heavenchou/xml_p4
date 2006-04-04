@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T85n2876.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+[<!ENTITY % ENTY SYSTEM "T85n2876.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
 %ENTY;
 %CBENT;
 ]>
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2004/11/02 02:15:56 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2006/04/04 13:37:21 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/02 02:15:56 $</date>
+		<date>$Date: 2006/04/04 13:37:21 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 85, No. 2876 &desc;</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T85n2876.xml,v $
+Revision 1.4  2006/04/04 13:37:21  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.3  2004/11/02 02:15:56  saywhat
 段落前加入圈點
 
@@ -103,33 +106,33 @@ Revision 1.3  2001/02/07 07:50:28  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:20:42  chris
-Added keywords $Revision: 1.3 $, $Date: 2004/11/02 02:15:56 $ and $Log.
+Added keywords $Revision: 1.4 $, $Date: 2006/04/04 13:37:21 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="1361a06"/>
-<milestone unit="juan" n="1"/>
-<lb n="1361a07"/>
-<lb n="1361a08"/><head type="no">No. 2876</head>
-<lb n="1361a09"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="1361001" resp="Taisho" type="orig" place="foot text">【原】大英博物館藏燉煌本, S. 2714</note>佛說天公經</jhead></juan>
-<lb n="1361a10"/>
-<lb n="1361a11"/><div1 type="jing"><p>鎘銅灌作柱。象□作屋椽。虎珀作屋&CB01097;。真珠
-<lb n="1361a12"/>作羅網。星宿作鵲頭。日月作繚&CB00616;。可得萬
-<lb n="1361a13"/>萬九千年。上有一小劫。下有一由旬。此經雖
-<lb n="1361a14"/>小大有威神。亦等法華。亦等涅槃。亦朦雜經。
-<lb n="1361a15"/>譬如東海。喻如太山。入海取寶。隨其多少亦
-<lb n="1361a16"/>得重來。入山取材。任材長短亦得重來。誰
-<lb n="1361a17"/>能抄此經。手中螺文成。誰能看此經。眼中重
-<lb n="1361a18"/>光生。誰能誦此經。歷劫大聰明。觀世音造金。
-<lb n="1361a19"/>大罪得除。小罪得滅。欲向刀山。刀山摧折。欲
-<lb n="1361a20"/>向劍樹。劍樹自缺。欲向鑪炭。鑪炭自滅。欲向
-<lb n="1361a21"/>鑵湯。鑵湯自冷。倉倉靈音聲朗朗。講堂中央
-<lb n="1361a22"/>&CB00222;璃作地。白銀為譬。前登金床後仚王凡手
-<lb n="1361a23"/>把金經。至佛說言。憶佛如憶食。念佛如念命。
-<lb n="1361a24"/>一日誦五遍。除罪一千五百萬劫。皆釋成佛
-<lb n="1361a25"/>道。</p>
-<lb n="1361a26"/><juan fun="close" n="001"><jhead>佛說天公經一卷</jhead></juan></div1>
+<lb n="1361a06" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="1361a07" ed="T"/>
+<lb n="1361a08" ed="T"/><head type="no">No. 2876</head>
+<lb n="1361a09" ed="T"/><juan n="001" fun="open"><mulu n="1" type="卷"/><jhead><note n="1361001" resp="Taisho" place="foot text" type="orig">【原】大英博物館藏燉煌本, S. 2714</note>佛說天公經</jhead></juan>
+<lb n="1361a10" ed="T"/>
+<lb n="1361a11" ed="T"/><div1 type="jing"><p id="pT85p1361a1101">鎘銅灌作柱。象□作屋椽。虎珀作屋&CB01097;。真珠
+<lb n="1361a12" ed="T"/>作羅網。星宿作鵲頭。日月作繚&CB00616;。可得萬
+<lb n="1361a13" ed="T"/>萬九千年。上有一小劫。下有一由旬。此經雖
+<lb n="1361a14" ed="T"/>小大有威神。亦等法華。亦等涅槃。亦朦雜經。
+<lb n="1361a15" ed="T"/>譬如東海。喻如太山。入海取寶。隨其多少亦
+<lb n="1361a16" ed="T"/>得重來。入山取材。任材長短亦得重來。誰
+<lb n="1361a17" ed="T"/>能抄此經。手中螺文成。誰能看此經。眼中重
+<lb n="1361a18" ed="T"/>光生。誰能誦此經。歷劫大聰明。觀世音造金。
+<lb n="1361a19" ed="T"/>大罪得除。小罪得滅。欲向刀山。刀山摧折。欲
+<lb n="1361a20" ed="T"/>向劍樹。劍樹自缺。欲向鑪炭。鑪炭自滅。欲向
+<lb n="1361a21" ed="T"/>鑵湯。鑵湯自冷。倉倉靈音聲朗朗。講堂中央
+<lb n="1361a22" ed="T"/>&CB00222;璃作地。白銀為譬。前登金床後仚王凡手
+<lb n="1361a23" ed="T"/>把金經。至佛說言。憶佛如憶食。念佛如念命。
+<lb n="1361a24" ed="T"/>一日誦五遍。除罪一千五百萬劫。皆釋成佛
+<lb n="1361a25" ed="T"/>道。</p>
+<lb n="1361a26" ed="T"/><juan n="001" fun="close"><jhead>佛說天公經一卷</jhead></juan></div1>
 </body></text></TEI.2>
