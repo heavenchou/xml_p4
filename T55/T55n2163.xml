@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T55n2163.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
-<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+[<!ENTITY % ENTY SYSTEM "T55n2163.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
 %JAP;
@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/11/14 03:18:25 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2006/04/04 13:22:06 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/14 03:18:25 $</date>
+		<date>$Date: 2006/04/04 13:22:06 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 55, No. 2163 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T55n2163.xml,v $
+Revision 1.10  2006/04/04 13:22:06  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.9  2004/11/14 03:18:25  maha
 將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
 
@@ -130,262 +133,262 @@ Revision 1.3  2001/02/07 07:46:42  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.2  2001/02/03 08:18:53  chris
-Added keywords $Revision: 1.9 $, $Date: 2004/11/14 03:18:25 $ and $Log.
+Added keywords $Revision: 1.10 $, $Date: 2006/04/04 13:22:06 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="1068c03"/><milestone unit="juan" n="1"/>
-<lb n="1068c04"/>
-<lb n="1068c05"/><head type="no">No. 2163</head>
-<lb n="1068c06"/><juan fun="open" n="001"><mulu type="卷" n="1"/><note n="1068001" resp="Taisho" type="orig" place="foot text">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本，常曉和尚請來＝法琳寺常曉律師【甲】，〔常曉…錄〕八字－【丙】</note><note n="1068001" resp="CBETA" type="mod">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本，〔常曉和尚請來目錄〕八字－【丙】，常曉和尚請來＝法琳寺常曉律師【甲】</note><jhead><app n="1068001"><lem>常曉和尚請來目錄</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg><rdg wit="【甲】" resp="Taisho">法琳寺常曉律師目錄</rdg></app><note n="1068001" place="foot" type="rest">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本</note></jhead></juan>
-<lb n="1068c07"/>
-<lb n="1068c08"/><div1 type="xu"><mulu type="序" level="1" label="上表"/><p>入唐學法沙門常曉言。常曉以去承和三年
-<lb n="1068c09"/>五月。銜命留學遠期萬里之外。其年漂迴。四
-<lb n="1068c10"/>年亦不果渡海。五年六月進發。同年八月到
-<lb n="1068c11"/>淮南城廣<note n="1068002" resp="Taisho" type="orig" place="foot text">綾＝凌【丙】</note><app n="1068002"><lem>綾</lem><rdg wit="【丙】" resp="Taisho">凌</rdg></app>&CB00419;安置。孟冬使等入朝。常曉不
-<lb n="1068c12"/>得隨使入京。<note n="1068003" resp="Taisho" type="orig" place="foot text">徒＝從【丙】</note><app n="1068003"><lem>徒</lem><rdg wit="【丙】" resp="Taisho">從</rdg></app>留<note n="1068004" resp="Taisho" type="orig" place="foot text">（綾）＋&CB00419;【甲】</note><app n="1068004"><lem>&CB00419;</lem><rdg wit="【甲】" resp="Taisho">綾&CB00419;</rdg></app>裏。空經多日。至于
-<lb n="1068c13"/>歲盡&CB00330;命未有<note n="1068005" resp="Taisho" type="orig" place="foot text">爰＝受【甲】【乙】【丙】</note><app n="1068005"><lem>爰</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">受</rdg></app>。則周遊郡內訪擇師依。幸
-<lb n="1068c14"/>遇栖靈寺灌頂阿闍梨法號文&CB03140;和尚。并華
-<lb n="1068c15"/>林寺三教講論大德元照座主。其文&CB03140;和尚
-<lb n="1068c16"/>則不空三藏弟子。兼<note n="1068006" resp="Taisho" type="orig" place="foot text">〔惠〕－【甲】</note><app n="1068006"><lem>惠</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>應阿闍梨付法人也。
-<lb n="1068c17"/>妙鉤經律深通密藏。法之棟<note n="1068007" resp="Taisho" type="orig" place="foot text">梁＝樑【丙】</note><app n="1068007"><lem>梁</lem><rdg wit="【丙】" resp="Taisho">樑</rdg></app>。國之所歸。
-<lb n="1068c18"/>同年臘月。請節度使處分。配住栖靈寺。文&CB03140;
-<lb n="1068c19"/>和尚以為師主。始學法儀。兼往花林寺。元照
-<lb n="1068c20"/>座主邊問本宗義。并得文書也。然大師尚佛
-<lb n="1068c21"/>法之流<note n="1068008" resp="Taisho" type="orig" place="foot text">轉＝傳&M062485;【丙】</note><sic n="1068008" corr="傳" resp="【丙】">轉</sic>。歎生民之可拔。授我以金剛大
-<lb n="1068c22"/>法。許我以阿闍梨位也。膝步<note n="1068009" resp="Taisho" type="orig" place="foot text">（如）＋知【甲】</note><app n="1068009"><lem>知</lem><rdg wit="【甲】" resp="Taisho">如知</rdg></app>未知。接足
-<lb n="1068c23"/>得<note n="1068010" resp="Taisho" type="orig" place="foot text">不＝未&M062485;【丙】</note><sic n="1068010" corr="未" resp="【丙】">不</sic>得。幸賴國家之大造大師之慈悲。學金
-<lb n="1068c24"/>剛<note n="1068011" resp="Taisho" type="orig" place="foot text">〔海〕－&M062485;【丙】</note><sic n="1068011" corr="＆lac；" resp="【丙】">海</sic>瑜伽。習<note n="1068012" resp="Taisho" type="orig" place="foot text">大＝太【甲】＊</note><app n="1068012"><lem>大</lem><rdg wit="【甲】" resp="Taisho">太</rdg></app>元帥祕法。斯法也則如來
-<lb n="1068c25"/>之肝心。眾生之父母。於國城塹。於人筋脈。是
-<lb n="1068c26"/><app type="＊" source="1068012"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥者。<note n="1068013" resp="Taisho" type="orig" place="foot text">都＋（教）【甲】</note><app n="1068013"><lem>都</lem><rdg wit="【甲】" resp="Taisho">都教</rdg></app>內不傳於十供奉以外。諸州
-<lb n="1068c27"/>無出於節度<note n="1068014" resp="Taisho" type="orig" place="foot text">〔使〕－【甲】【乙】【丙】</note><app n="1068014"><lem>使</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>宅。以表緣其靈驗不可思議
-<lb n="1068c28"/>也。諸佛菩薩金剛天等像雖在前來。此像未
-<lb n="1068c29"/>曾請來。今則<app type="＊" source="1068012"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥諸身曼荼羅并諸靈像
-<pb ed="T" id="T55.2163.1069a" n="1069a"/>
-<lb n="1069a01"/>所要<note n="1069001" resp="Taisho" type="orig" place="foot text">文＝之【丙】</note><app n="1069001"><lem>文</lem><rdg wit="【丙】" resp="Taisho">之</rdg></app>書等請來見到。雖云濤波猛<note n="1069002" resp="Taisho" type="orig" place="foot text">沷＝沃【丙】</note><app n="1069002"><lem>沷</lem><rdg wit="【丙】" resp="Taisho">沃</rdg></app>。新
-<lb n="1069a02"/>羅賊畔。越<note n="1069003" resp="Taisho" type="orig" place="foot text">彼＝波【丙】</note><app n="1069003"><lem>彼</lem><rdg wit="【丙】" resp="Taisho">波</rdg></app>厄難平達聖境。是則聖力<note n="1069004" resp="Taisho" type="orig" place="foot text">〔之〕－【乙】【丙】</note><app n="1069004"><lem>之</lem><rdg wit="【乙】【丙】" resp="Taisho">&lac;</rdg></app>
-<lb n="1069a03"/>所能也。伏惟皇帝陛下。極德如天。佛日高轉。
-<lb n="1069a04"/>人之父。佛之化悲群生而濡足。助佛囑而垂
-<lb n="1069a05"/>衣。以陛下慈育&CB00283;。祥靈像教希自遠新來。恰
-<lb n="1069a06"/>似符契。非聖誰測矣。常曉本謂。果三十年經
-<lb n="1069a07"/>歷漢里。求佛法<note n="1069005" resp="Taisho" type="orig" place="foot text">來事＝未事【甲】，來幸【乙】【丙】</note><note n="1069005" resp="CBETA" type="mod">來事＝未事【甲】，＝來幸【乙】【丙】</note><app n="1069005"><lem>來。事</lem><rdg wit="【甲】" resp="Taisho">未事</rdg><rdg wit="【乙】【丙】" resp="Taisho">來幸</rdg></app>護國家。而緣唐朝不
-<lb n="1069a08"/>聽留住。隨使迴歸。竊以一<note n="1069006" resp="Taisho" type="orig" place="foot text">喜＝善【甲】【乙】【丙】</note><app n="1069006"><lem>喜</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">善</rdg></app>此法教生而請
-<lb n="1069a09"/>來。不任一喜一懼之至。謹附准判官藤原朝
-<lb n="1069a10"/>臣貞敏。奉表以聞。并請來法門等目錄一<note n="1069007" resp="Taisho" type="orig" place="foot text">通＝道【甲】</note><app n="1069007"><lem>通</lem><rdg wit="【甲】" resp="Taisho">道</rdg></app>
-<lb n="1069a11"/>且以奉進。輕黷威嚴伏增戰越。常曉誠恐誠
-<lb n="1069a12"/>惶謹言。</p>
-<lb n="1069a13"/><p rend="margin-left:2em">承和六年九月二日入唐學法沙門傳燈
-<lb n="1069a14"/>大法師位常曉<note place="inline">上表</note>。</p>
-<lb n="1069a15"/><p>入唐學法沙門常曉<note n="1069008" resp="Taisho" type="orig" place="foot text">〔謹言〕－【甲】【乙】【丙】</note><app n="1069008"><lem>謹言</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>。</p></div1>
-<lb n="1069a16"/><div1 type="other"><mulu type="其他" level="1" label="上新請來法門并佛像道具事"/><head>上新請來法門并佛像<note n="1069009" resp="Taisho" type="orig" place="foot text">道具＝等【甲】【乙】【丙】</note><app n="1069009"><lem>道具</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">等</rdg></app>事</head>
-<lb n="1069a17"/><list><item><title>百論疏</title>一部三卷<note place="inline">元康法師造</note></item>
-<lb n="1069a18"/><item><title>三論玄樞</title>一部二卷<note place="inline">元康法師造</note></item>
-<lb n="1069a19"/><item><title>中論三十六門勢疏一卷</title><note place="inline">元康法師造</note></item>
-<lb n="1069a20"/><item><title>百論疏略記</title>一部二卷<note place="inline">義持法師造</note></item>
-<lb n="1069a21"/><item><title>大佛頂經疏</title>一部六卷<note place="inline">弘抗法師造</note></item>
-<lb n="1069a22"/><item><title>大佛頂經<note n="1069010" resp="Taisho" type="orig" place="foot text">玄贊＝略述&M062403;【原】</note><app n="1069010"><lem>玄贊</lem><rdg wit="【？】" resp="【原】">略述</rdg></app></title>一部三卷<note place="inline">惟<note n="1069011" resp="Taisho" type="orig" place="foot text">&CB00013;＝慇【甲】</note><app n="1069011"><lem>&CB00013;</lem><rdg wit="【甲】" resp="Taisho">慇</rdg></app>法師造</note>
-<lb n="1069a23"/><p rend="margin-left:3em">已上六部。依三論宗學頭法師<note n="1069012" resp="Taisho" type="orig" place="foot text">丙本冠註曰等下有脫</note>等
-<lb n="1069a24"/><note n="1069013" resp="Taisho" type="orig" place="foot text">申＝造【甲】【乙】【丙】</note><app n="1069013"><lem>申</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">造</rdg></app>求請來。</p>
-<lb n="1069a25"/><p rend="margin-left:1em">凡如來說稱經。菩薩說稱論。人師說<note n="1069014" resp="Taisho" type="orig" place="foot text">名＝稱【甲】【乙】【丙】</note><app n="1069014"><lem>名</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">稱</rdg></app>疏
-<lb n="1069a26"/>章<note n="1069015" resp="Taisho" type="orig" place="foot text">傳＋（說說）【丙】</note><app n="1069015"><lem>傳</lem><rdg wit="【丙】" resp="Taisho">傳說說</rdg></app>記等。何以故。唯以佛說經鈍根難解
-<lb n="1069a27"/>了。是故菩薩作論釋此。最鈍根之<note n="1069016" resp="Taisho" type="orig" place="foot text">類＝賴【甲】</note><app n="1069016"><lem>類</lem><rdg wit="【甲】" resp="Taisho">賴</rdg></app>。猶
-<lb n="1069a28"/>未得精旨。因而人師作疏章等。細演經論
-<pb ed="T" id="T55.2163.1069b" n="1069b"/>
-<lb n="1069b01"/>之廣旨。於疏師數般。但邪正異耳。今件疏
-<lb n="1069b02"/>等。釋經論尤微微。解義理<note n="1069017" resp="Taisho" type="orig" place="foot text">絕＝極【甲】【乙】【丙】</note><app n="1069017"><lem>絕</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">極</rdg></app>細細。此土
-<lb n="1069b03"/>有名彼實未<note n="1069018" resp="Taisho" type="orig" place="foot text">渡＋（論）【甲】</note><app n="1069018"><lem>渡</lem><rdg wit="【甲】" resp="Taisho">渡論</rdg></app>。諸學<note n="1069019" resp="Taisho" type="orig" place="foot text">徒＝從【丙】</note><app n="1069019"><lem>徒</lem><rdg wit="【丙】" resp="Taisho">從</rdg></app>等之所疑滯。夫
-<lb n="1069b04"/>以。百論者。真諦津途。在前以嘉祥寺疏解
-<lb n="1069b05"/>釋文義。有少不足。今以元康法師疏將定
-<lb n="1069b06"/>義理也。又空有兩宗論真性理。大佛頂經
-<lb n="1069b07"/>以為本模。經本雖先來。其疏未有。於義難
-<lb n="1069b08"/>決。如今以此將正空有兩家諍論義。夫一
-<lb n="1069b09"/>翼若闕。空行何飛。況乃一乘奧理。義與文
-<lb n="1069b10"/><note n="1069020" resp="Taisho" type="orig" place="foot text">違＝遠【甲】【乙】</note><app n="1069020"><lem>違</lem><rdg wit="【甲】【乙】" resp="Taisho">遠</rdg></app>。不假疏記微<note n="1069021" resp="Taisho" type="orig" place="foot text">微＝言【甲】【丙】</note><app n="1069021"><lem>微</lem><rdg wit="【甲】【丙】" resp="Taisho">言</rdg></app>無顯。雖有勞載車。<note n="1069022" resp="Taisho" type="orig" place="foot text">冀＝兼【丙】</note><app n="1069022"><lem>冀</lem><rdg wit="【丙】" resp="Taisho">兼</rdg></app>
-<lb n="1069b11"/>以此俾補乎聖典。</p></item>
-<lb n="1069b12"/><item><title>四分律羯磨疏</title>一部四卷<note place="inline">道宣律師撰</note>
-<lb n="1069b13"/><p rend="margin-left:3em">已上一部依律宗學頭法師等之覓來。</p>
-<lb n="1069b14"/><p rend="margin-left:1em">右律羯磨者。眾行手足。佛法壽命也。律家
-<lb n="1069b15"/>軌則。雖先備來。少有不全。豈非是文乎。然
-<lb n="1069b16"/>則以<note n="1069023" resp="Taisho" type="orig" place="foot text">〔此〕－【甲】【乙】【丙】</note><app n="1069023"><lem>此</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>使補其尸羅闕目。</p></item>
-<lb n="1069b17"/><item><title>釋摩訶衍論疏</title>一部三卷<note place="inline">法敏法師造</note>
-<lb n="1069b18"/><p rend="margin-left:3em">已上一部。依真言宗傳法阿闍梨等
-<lb n="1069b19"/>申求來。</p>
-<lb n="1069b20"/><p rend="margin-left:1em">右<note n="1069024" resp="Taisho" type="orig" place="foot text">〔釋〕－【丙】</note><app n="1069024"><lem>釋</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app>摩訶衍論者。橫釋顯教。&CB00594;括祕藏。
-<lb n="1069b21"/><note n="1069025" resp="Taisho" type="orig" place="foot text">本＝大【甲】【乙】【丙】</note><app n="1069025"><lem>本</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">大</rdg></app>論雖先來。左右未定。今以此疏證彼
-<lb n="1069b22"/>大乘。</p></item>
-<lb n="1069b23"/><item><title>維摩經疏</title>一部四卷<note n="1069026" resp="Taisho" type="orig" place="foot text">〔開中…造〕七字－【甲】【乙】【丙】</note><app n="1069026" word-count="7"><lem><note place="inline">開中道液法師造</note></lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app></item>
-<lb n="1069b24"/><item><title>維摩經釋批一部<note n="1069027" resp="Taisho" type="orig" place="foot text">三＝二【甲】【乙】</note><app n="1069027"><lem>三</lem><rdg wit="【甲】【乙】" resp="Taisho">二</rdg></app>卷</title><note place="inline">開中道液法師造</note></item>
-<lb n="1069b25"/><item><title>維摩經開中疏記</title>一部五卷<note place="inline">文<note n="1069028" resp="Taisho" type="orig" place="foot text">襲＝龍【丙】</note><app n="1069028"><lem>襲</lem><rdg wit="【丙】" resp="Taisho">龍</rdg></app><note n="1069029" resp="Taisho" type="orig" place="foot text">〔禪〕－【甲】【乙】【丙】＊</note><app n="1069029"><lem>禪</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>師造</note></item>
-<lb n="1069b26"/><item><title>維摩經略例</title>一部二卷<note place="inline">智<note n="1069030" resp="Taisho" type="orig" place="foot text">深＝保【丙】</note><app n="1069030"><lem>深</lem><rdg wit="【丙】" resp="Taisho">保</rdg></app>法師<note n="1069031" resp="Taisho" type="orig" place="foot text">〔造〕－【丙】</note><app n="1069031"><lem>造</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></note></item>
-<lb n="1069b27"/><item><title>維摩經玄旨一卷</title><note place="inline"><note n="1069032" resp="Taisho" type="orig" place="foot text">漢涌＝淡涌【甲】【丙】，淡通&M062403;【乙】</note><note n="1069032" resp="CBETA" type="mod">漢涌＝淡涌【甲】【丙】，＝淡通&M062403;【乙】</note><app n="1069032"><lem>漢涌</lem><rdg wit="【甲】【丙】" resp="Taisho">淡涌</rdg><rdg wit="【？】" resp="【乙】">淡通</rdg></app>法師造</note></item>
-<lb n="1069b28"/><item><title>維摩經<note n="1069033" resp="Taisho" type="orig" place="foot text">開＝關&M062485;【丙】</note><sic n="1069033" corr="關" resp="【丙】">開</sic><note n="1069034" resp="Taisho" type="orig" place="foot text">〔中疏〕&M062403;－【原】</note><app n="1069034"><lem>中疏</lem><rdg wit="【？】" resp="【原】">&lac;</rdg></app>科文一卷</title><note place="inline">開中道液法師造</note></item>
-<pb ed="T" id="T55.2163.1069c" n="1069c"/>
-<lb n="1069c01"/><item><title>維摩經五教義一卷</title><note place="inline">文<note n="1069035" resp="Taisho" type="orig" place="foot text">襲＝龍【甲】【乙】【丙】</note><app n="1069035"><lem>襲</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">龍</rdg></app><app type="＊" source="1069029"><lem>禪</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>師造</note>
-<lb n="1069c02"/><p rend="margin-left:1em">右維摩經。窮微盡化。妙絕之稱也。造疏之
-<lb n="1069c03"/>人。數般論旨。左右詞&CB00520;。<note n="1069036" resp="Taisho" type="orig" place="foot text">&CB05058;塞＝理蹇【甲】【丙】</note><app n="1069036"><lem>&CB05058;塞</lem><rdg wit="【甲】【丙】" resp="Taisho">理蹇</rdg></app>于是。至開
-<lb n="1069c04"/>中液公。大宗蕪蔓真<note n="1069037" resp="Taisho" type="orig" place="foot text">〔極而…提〕四十四字－【甲】【乙】【丙】</note><app n="1069037" word-count="44"><lem>極而開。今見大唐真
-<lb n="1069c05"/>典近代興盛講文學義之類。總此疏等以
-<lb n="1069c06"/>為指南。是故每寺講淨名典化度白衣。以
-<lb n="1069c07"/>液公疏提</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>。撕緇<note n="1069038" resp="Taisho" type="orig" place="foot text">徒＝從【丙】</note><app n="1069038"><lem>徒</lem><rdg wit="【丙】" resp="Taisho">從</rdg></app>。皆云。雖有<note n="1069039" resp="Taisho" type="orig" place="foot text">論＝諸【甲】</note><app n="1069039"><lem>論</lem><rdg wit="【甲】" resp="Taisho">諸</rdg></app>師註疏。
-<lb n="1069c08"/>惠底未足。乍學此文。法鏡轉明。惠燈益照
-<lb n="1069c09"/><note n="1069040" resp="Taisho" type="orig" place="foot text">者＋（開中道液法師造也）【丙】</note><app n="1069040"><lem>者</lem><rdg wit="【丙】" resp="Taisho">者開中道液法師造也</rdg></app>。</p></item>
-<lb n="1069c10"/><item><title>金剛般若疏</title>一部二卷<note n="1069041" resp="Taisho" type="orig" place="foot text">〔開中道液法師造也〕－【丙】</note><app n="1069041"><lem><note place="inline">開中道液法師造<note n="1069042" resp="Taisho" type="orig" place="foot text">〔也〕－【甲】</note><app n="1069042"><lem>也</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app></note></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></item>
-<lb n="1069c11"/><item><title>仁王般若經疏</title><note n="1069043" resp="Taisho" type="orig" place="foot text">二＝一【甲】【乙】【丙】</note><app n="1069043"><lem>二</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">一</rdg></app>部二卷</item>
-<lb n="1069c12"/><item><title><note n="1069044" resp="Taisho" type="orig" place="foot text">此前行甲乙丙三本俱有金剛般若經一部三卷圓暉法師造十四字</note>金剛般若經註一卷</title><note place="inline">金剛藏註</note></item>
-<lb n="1069c13"/><item><title>金剛般若經註一卷</title><note place="inline">南嶽王潔<note n="1069045" resp="Taisho" type="orig" place="foot text">〔註〕－【丙】</note><app n="1069045"><lem>註</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app></note>
-<lb n="1069c14"/><p rend="margin-left:1em">右疏等。解義妙微行<note n="1069046" resp="Taisho" type="orig" place="foot text">耆＝支【甲】，者【乙】【丙】，旨&M062485;【丙】</note><note n="1069046" resp="CBETA" type="mod">耆＝支【甲】，＝者【乙】【丙】，＝旨&M062485;【丙】</note><app n="1069046"><lem><sic corr="旨" resp="【丙】">耆</sic></lem><rdg wit="【甲】" resp="Taisho">支</rdg><rdg wit="【乙】【丙】" resp="Taisho">者</rdg></app>那國。此等師疏近
-<lb n="1069c15"/>代多興。皆以<note n="1069047" resp="Taisho" type="orig" place="foot text">餘＋（餘）【丙】</note><app n="1069047"><lem>餘</lem><rdg wit="【丙】" resp="Taisho">餘餘</rdg></app>師<note n="1069048" resp="Taisho" type="orig" place="foot text">制＝製&M062485;【丙】</note><sic n="1069048" corr="製" resp="【丙】">制</sic>為傍。以此等疏為
-<lb n="1069c16"/>正。夫以佛教興轉<note n="1069049" resp="Taisho" type="orig" place="foot text">依＝以【丙】</note><app n="1069049"><lem>依</lem><rdg wit="【丙】" resp="Taisho">以</rdg></app>能<note n="1069050" resp="Taisho" type="orig" place="foot text">宣＋（譜）【甲】【丙】，（譜止）【乙】</note><app n="1069050"><lem>宣</lem><rdg wit="【甲】【丙】" resp="Taisho">宣譜</rdg><rdg wit="【乙】" resp="Taisho">宣譜止</rdg></app>人<note n="1069051" resp="Taisho" type="orig" place="foot text">圻＝&CB14236;【丙】</note><app n="1069051"><lem>圻</lem><rdg wit="【丙】" resp="Taisho">&CB14236;</rdg></app>古請寄
-<lb n="1069c17"/>新實。於經本非所改。於義方用相傳<note n="1069052" resp="Taisho" type="orig" place="foot text">告＝去【甲】【乙】【丙】</note><app n="1069052"><lem>告</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">去</rdg></app>
-<lb n="1069c18"/><note n="1069053" resp="Taisho" type="orig" place="foot text">耳＝可【丙】</note><app n="1069053"><lem>耳</lem><rdg wit="【丙】" resp="Taisho">可</rdg></app>。</p></item>
-<lb n="1069c19"/><item><title>千光王佛威德要法一卷</title></item>
-<lb n="1069c20"/><item><title>六童子威德要法一卷</title></item>
-<lb n="1069c21"/><item><title>金毘羅童子威德要法一卷</title></item>
-<lb n="1069c22"/><item><title><app type="＊" source="1068012"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥<note n="1069054" resp="Taisho" type="orig" place="foot text">念誦儀軌一＝全身金剛三昧耶法三【甲】【乙】【丙】</note><app n="1069054"><lem>念誦儀軌一</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">全身金剛三昧耶法三</rdg></app>卷</title></item>
-<pb ed="T" id="T55.2163.1070a" n="1070a"/>
-<lb n="1070a01"/><item><title>阿<note n="1070001" resp="Taisho" type="orig" place="foot text">吒＝&CB00062;【丙】</note><app n="1070001"><lem>吒</lem><rdg wit="【丙】" resp="Taisho">&CB00062;</rdg></app>薄<note n="1070002" resp="Taisho" type="orig" place="foot text">拘＝&CB00211;【丙】</note><app n="1070002"><lem>拘</lem><rdg wit="【丙】" resp="Taisho">&CB00211;</rdg></app>元帥大將上佛陀羅尼經一卷</title></item>
-<lb n="1070a02"/><item><title>大日經持誦次第儀一卷</title></item>
-<lb n="1070a03"/><item><title><note n="1070003" resp="Taisho" type="orig" place="foot text">（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note><note n="1070003" resp="CBETA" type="mod"><todo type="a"/>（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note>大毘盧遮那三種悉地法一卷</title></item>
-<lb n="1070a04"/><item><title>唐梵對&CB02584;尊勝真言<note n="1070004" resp="Taisho" type="orig" place="foot text">&CB00283;＝&CB00330;【丙】</note><app n="1070004"><lem>&CB00283;</lem><rdg wit="【丙】" resp="Taisho">&CB00330;</rdg></app>天下本一卷</title></item>
-<lb n="1070a05"/><item><title><note n="1070005" resp="Taisho" type="orig" place="foot text">（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note><note n="1070005" resp="CBETA" type="mod"><todo type="a"/>（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note>北方毘沙門天王<note n="1070006" resp="Taisho" type="orig" place="foot text">念＋（誦）【丙】</note><app n="1070006"><lem>念</lem><rdg wit="【丙】" resp="Taisho">念誦</rdg></app>要<note n="1070007" resp="Taisho" type="orig" place="foot text">〔法〕－【甲】【乙】【丙】</note><app n="1070007"><lem>法</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>經二卷</title></item>
-<lb n="1070a06"/><item><title><note n="1070008" resp="Taisho" type="orig" place="foot text">〔毘補…卷〕十一字－【甲】【乙】</note><app n="1070008" word-count="11"><lem>毘補羅天母啟請法護一卷</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app></title></item>
-<lb n="1070a07"/><item><title>深沙神記并念誦法一卷</title></item>
-<lb n="1070a08"/><item><title>菩提王記一卷</title>
-<lb n="1070a09"/><p rend="margin-left:2em">所受學諸尊瑜伽灌頂儀軌等如先渡
-<lb n="1070a10"/><note n="1070009" resp="Taisho" type="orig" place="foot text">來＝未【丙】</note><app n="1070009"><lem>來</lem><rdg wit="【丙】" resp="Taisho">未</rdg></app>無殊<note n="1070010" resp="Taisho" type="orig" place="foot text">更＝文【丙】，更＝故&M062485;【丙】</note><app n="1070010"><lem><sic corr="故" resp="【丙】">更</sic></lem><rdg wit="【丙】" resp="Taisho">文</rdg></app>不注之。</p>
-<lb n="1070a11"/><p rend="margin-left:1em">右顯密之法門。若學得。若未學得。其數不
-<lb n="1070a12"/>少。唯<note n="1070011" resp="Taisho" type="orig" place="foot text">當代要＝舉未曾【甲】【乙】【丙】</note><app n="1070011"><lem>當代要</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">舉未曾</rdg></app>有耳。至祕密之宗大體與常
-<lb n="1070a13"/>無相違。</p></item>
-<lb n="1070a14"/><item><title>千光<note n="1070012" resp="Taisho" type="orig" place="foot text">〔王〕－【甲】【乙】【丙】＊</note><app n="1070012"><lem>王</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>佛像一軀</title>
-<lb n="1070a15"/><p rend="margin-left:1em">右恒沙如來有恒沙土。隨其本行得稱各
-<lb n="1070a16"/>異。唯佛與佛乃所究盡。今千光王佛者。此
-<lb n="1070a17"/>是觀音本師。其事<note n="1070013" resp="Taisho" type="orig" place="foot text">灼＝&CB00666;【甲】【乙】【丙】</note><app n="1070013"><lem>灼</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&CB00666;</rdg></app>然。此像未見。因而
-<lb n="1070a18"/>請來如件。</p></item>
-<lb n="1070a19"/><item><title>水月觀世音菩薩像一軀</title>
-<lb n="1070a20"/><p rend="margin-left:1em">右大悲之用。化形萬方。觀思眾生。拔苦與
-<lb n="1070a21"/>樂。故示像相使物生信。今見唐朝世人。總
-<lb n="1070a22"/>以為除災因。天下以為生福緣也。是像此
-<lb n="1070a23"/>間未流行。故請來如件。</p></item>
-<lb n="1070a24"/><item><title><note n="1070014" resp="Taisho" type="orig" place="foot text">大＝太【甲】【丙】＊</note><app n="1070014"><lem>大</lem><rdg wit="【甲】【丙】" resp="Taisho">太</rdg></app>元帥本身將部曼荼羅一鋪</title><note place="inline">總五十餘身</note></item>
-<lb n="1070a25"/><item><title><app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥大悲身像一軀</title></item>
-<lb n="1070a26"/><item><title><app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥忿怒身像一軀</title></item>
-<lb n="1070a27"/><item><title><app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥化身像一軀</title>
-<lb n="1070a28"/><p rend="margin-left:1em">右<app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥者。如來之教<note n="1070015" resp="Taisho" type="orig" place="foot text">令＝領【乙】【丙】</note><app n="1070015"><lem>令</lem><rdg wit="【乙】【丙】" resp="Taisho">領</rdg></app>輪也。佛為含
-<lb n="1070a29"/>情作<note n="1070016" resp="Taisho" type="orig" place="foot text">救＝故【丙】</note><app n="1070016"><lem>救</lem><rdg wit="【丙】" resp="Taisho">故</rdg></app>作護。<note n="1070017" resp="Taisho" type="orig" place="foot text">示＝未【丙】</note><app n="1070017"><lem>示</lem><rdg wit="【丙】" resp="Taisho">未</rdg></app><app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥形。<note n="1070018" resp="Taisho" type="orig" place="foot text">群＝郡【丙】</note><app n="1070018"><lem>群</lem><rdg wit="【丙】" resp="Taisho">郡</rdg></app>邪見形
-<pb ed="T" id="T55.2163.1070b" n="1070b"/>
-<lb n="1070b01"/>頭破七分。眾惡聽名魔<note n="1070019" resp="Taisho" type="orig" place="foot text">道＝通【甲】【乙】</note><app n="1070019"><lem>道</lem><rdg wit="【甲】【乙】" resp="Taisho">通</rdg></app>塵散。本經云。
-<lb n="1070b02"/>佛告阿難。若有國王大臣敬禮誦&CB00057;者。其
-<lb n="1070b03"/>人境<note n="1070020" resp="Taisho" type="orig" place="foot text">土＝世【乙】</note><app n="1070020"><lem>土</lem><rdg wit="【乙】" resp="Taisho">世</rdg></app>。無有惡賊怖難災橫疾疫水旱風
-<lb n="1070b04"/>霜。國<app type="＊" source="1070012"><lem>王</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>倍威德。諸民平<note n="1070021" resp="Taisho" type="orig" place="foot text">秦＝泰【甲】【丙】</note><app n="1070021"><lem>秦</lem><rdg wit="【甲】【丙】" resp="Taisho">泰</rdg></app>。若有<note n="1070022" resp="Taisho" type="orig" place="foot text">〔城〕－【甲】【乙】【丙】</note><app n="1070022"><lem>城</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>邑
-<lb n="1070b05"/>村落持此<note n="1070023" resp="Taisho" type="orig" place="foot text">經＝法【甲】【乙】【丙】</note><app n="1070023"><lem>經</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">法</rdg></app>者。莫不蒙利<note n="1070024" resp="Taisho" type="orig" place="foot text">等＝益【丙】</note><app n="1070024"><lem>等</lem><rdg wit="【丙】" resp="Taisho">益</rdg></app>者。又云。若
-<lb n="1070b06"/>國土<note n="1070025" resp="Taisho" type="orig" place="foot text">襄＝衰【甲】【乙】，襄禍＝褰&CB02932;【丙】</note><note n="1070025" resp="CBETA" type="mod">襄禍＝褰&CB02932;【丙】，襄＝衰【甲】【乙】</note><app n="1070025"><lem>襄禍</lem><rdg wit="【丙】" resp="Taisho">褰&CB02932;</rdg><rdg wit="【甲】【乙】" resp="Taisho">衰禍</rdg></app>。雨<note n="1070026" resp="Taisho" type="orig" place="foot text">澤＝降【丙】</note><app n="1070026"><lem>澤</lem><rdg wit="【丙】" resp="Taisho">降</rdg></app>不調。以此<app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥&CB00057;安
-<lb n="1070b07"/>四<note n="1070027" resp="Taisho" type="orig" place="foot text">〔城〕－【乙】</note><app n="1070027"><lem>城</lem><rdg wit="【乙】" resp="Taisho">&lac;</rdg></app>門上。即得風雨順時。將鎮國<note n="1070028" resp="Taisho" type="orig" place="foot text">土＝上【丙】</note><app n="1070028"><lem>土</lem><rdg wit="【丙】" resp="Taisho">上</rdg></app>。四
-<lb n="1070b08"/>方&CB00444;&CB02584;不起逆心等者。然則如法行。國長
-<lb n="1070b09"/><note n="1070029" resp="Taisho" type="orig" place="foot text">存＝在【乙】【丙】</note><app n="1070029"><lem>存</lem><rdg wit="【乙】【丙】" resp="Taisho">在</rdg></app>安寧。剎那<note n="1070030" resp="Taisho" type="orig" place="foot text">婦＝歸【甲】【丙】</note><app n="1070030"><lem>婦</lem><rdg wit="【甲】【丙】" resp="Taisho">歸</rdg></app>人<note n="1070031" resp="Taisho" type="orig" place="foot text">固＝同【甲】【乙】，目【丙】</note><note n="1070031" resp="CBETA" type="mod">固＝同【甲】【乙】，＝目【丙】</note><app n="1070031"><lem>固</lem><rdg wit="【甲】【乙】" resp="Taisho">同</rdg><rdg wit="【丙】" resp="Taisho">目</rdg></app>得十利不可思議
-<lb n="1070b10"/>也。大元帥之力。今見唐朝皆依此為治國
-<lb n="1070b11"/>之<note n="1070032" resp="Taisho" type="orig" place="foot text">寶＝實&M062403;【甲】</note><app n="1070032"><lem>寶</lem><rdg wit="【？】" resp="【甲】">實</rdg></app>。勝&CB02584;之要。<note n="1070033" resp="Taisho" type="orig" place="foot text">是＝見【丙】</note><app n="1070033"><lem>是</lem><rdg wit="【丙】" resp="Taisho">見</rdg></app>以定自在王菩薩偈
-<lb n="1070b12"/>讚曰。我聞元帥名。世間救苦厄。一切<note n="1070034" resp="Taisho" type="orig" place="foot text">大＝厄【甲】</note><app n="1070034"><lem>大</lem><rdg wit="【甲】" resp="Taisho">厄</rdg></app>
-<lb n="1070b13"/>神中。奇特無有<note n="1070035" resp="Taisho" type="orig" place="foot text">比＝此【丙】</note><app n="1070035"><lem>比</lem><rdg wit="【丙】" resp="Taisho">此</rdg></app>。種種變化身。而拔眾
-<lb n="1070b14"/>生苦。我今聞往昔。<note n="1070036" resp="Taisho" type="orig" place="foot text">寶＝實【丙】</note><app n="1070036"><lem>寶</lem><rdg wit="【丙】" resp="Taisho">實</rdg></app>不可思議。</p>
-<lb n="1070b15"/><p rend="margin-left:1em">此法也。吾朝不多流行。以是略<note n="1070037" resp="Taisho" type="orig" place="foot text">要＝案【甲】【乙】【丙】</note><app n="1070037"><lem>要</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">案</rdg></app>法儀圖
-<lb n="1070b16"/>像請求。息災招福無比<note n="1070038" resp="Taisho" type="orig" place="foot text">（此）＋法【丙】</note><app n="1070038"><lem>法</lem><rdg wit="【丙】" resp="Taisho">此法</rdg></app>。誰非歸依耶。</p></item>
-<lb n="1070b17"/><item><title>大聖千臂千頭金毘羅童子像一軀</title>
-<lb n="1070b18"/><p rend="margin-left:1em">右金毘羅童子者。此釋迦之化現也。經云。
-<lb n="1070b19"/>佛在歡喜園中為諸眾生說法。是時外道
-<lb n="1070b20"/>波旬起諸惡障。令諸眾生受大苦惱。爾時
-<lb n="1070b21"/>如來密化自身作金毘羅童子。調伏外道
-<lb n="1070b22"/>諸魔。於惡世中饒益眾生。此法也尤鎮國
-<lb n="1070b23"/>利物之寶。法力之奇特也不思議。此像并
-<lb n="1070b24"/>法儀。持明者所祕。本<note n="1070039" resp="Taisho" type="orig" place="foot text">朝＝猶【甲】【乙】【丙】</note><app n="1070039"><lem>朝</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">猶</rdg></app>未見。請來如件。</p></item>
-<lb n="1070b25"/><item><title><note n="1070040" resp="Taisho" type="orig" place="foot text">〔大聖〕－【甲】【乙】</note><app n="1070040"><lem>大聖</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app>六童子像一<note n="1070041" resp="Taisho" type="orig" place="foot text">軀＝鋪【甲】【乙】【丙】</note><app n="1070041"><lem>軀</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">鋪</rdg></app></title>
-<lb n="1070b26"/><p rend="margin-left:1em">右六童子者。經云。&CB00278;是過去諸佛之所化
-<lb n="1070b27"/>身。為救護一切有情故。若有國土作此法
-<lb n="1070b28"/>者。即至而現其身護國利人等者。今見唐
-<lb n="1070b29"/>朝世人。多修此法。其力見奧。是靈像此間
-<lb n="1070b30"/>未有流行。因而請來。其修行之<note n="1070042" resp="Taisho" type="orig" place="foot text">儀亦甚＝像亦其【乙】，儀示甚【丙】</note><note n="1070042" resp="CBETA" type="mod">儀亦甚＝像亦其【乙】，＝儀示甚【丙】</note><app n="1070042"><lem>儀。亦甚</lem><rdg wit="【乙】" resp="Taisho">像亦其</rdg><rdg wit="【丙】" resp="Taisho">儀示甚</rdg></app>
-<pb ed="T" id="T55.2163.1070c" n="1070c"/>
-<lb n="1070c01"/><note n="1070043" resp="Taisho" type="orig" place="foot text">（不）＋&CB00520;【甲】【乙】【丙】</note><app n="1070043"><lem>&CB00520;</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">不&CB00520;</rdg></app>略。</p></item>
-<lb n="1070c02"/><item><title>大聖迦毘羅神王像一<note n="1070044" resp="Taisho" type="orig" place="foot text">軀＋（一軀）【丙】</note><app n="1070044"><lem>軀</lem><rdg wit="【丙】" resp="Taisho">軀一軀</rdg></app></title>
-<lb n="1070c03"/><p rend="margin-left:1em">右神者。此是如來化身。秦代羅什三藏。昔
-<lb n="1070c04"/>周五天感得此神相隨送來。今見唐中皆
-<lb n="1070c05"/>貴此神為<note n="1070045" resp="Taisho" type="orig" place="foot text">權＝擁【甲】【乙】【丙】</note><app n="1070045"><lem>權</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">擁</rdg></app>法護國之憑若有病人稱名
-<lb n="1070c06"/>即除。貧窮之人依願必富。靈驗見顯。無有
-<lb n="1070c07"/>一人不歸依者。夫佛化從西東流。應時利
-<lb n="1070c08"/>物。豈非如來<note n="1070046" resp="Taisho" type="orig" place="foot text">未＝來【甲】【丙】，〔未〕&M062403;－【乙】</note><app n="1070046"><lem>未</lem><rdg wit="【甲】【丙】" resp="Taisho">來</rdg><rdg wit="【？】" resp="【乙】">&lac;</rdg></app>化乎。</p></item>
-<lb n="1070c09"/><note n="1070047" resp="Taisho" type="orig" place="foot text">〔三光…甚可軌也〕百八十五字－【甲】【乙】【丙】</note><app n="1070047" word-count="185"><lem><item><title>三光天子像一軀</title></item>
-<lb n="1070c10"/><item><title>二十八宿像一軀</title>
-<lb n="1070c11"/><p rend="margin-left:1em">右三光者日月五星名七耀。四四方七星
-<lb n="1070c12"/>合二十八宿此土之人唯聞名見光。未知
-<lb n="1070c13"/>其形量。今此耀宿之形像尤祕尤密。實有
-<lb n="1070c14"/>靈驗。唐國猶不多傳。況乎日朝所未曾見。
-<lb n="1070c15"/>但陰陽師等意推作像。以傳式用是不契
-<lb n="1070c16"/>當耳。今所請像各有可軌也。</p></item>
-<lb n="1070c17"/><item><title>聖者菩提王像一軀</title>
-<lb n="1070c18"/><p rend="margin-left:1em">右菩提王者。大唐山神也。潤州樓山有一
-<lb n="1070c19"/>比丘。修練禪業現感此神現形表靈受戒
-<lb n="1070c20"/>修道故名菩提王。隨人祈請加護成願。遂
-<lb n="1070c21"/>為國鎮人歸也。因茲處處作像人人尊重
-<lb n="1070c22"/>親見其事甚可軌也。</p></item></lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>
-<lb n="1070c23"/><item><title>深沙神王像一軀</title>
-<lb n="1070c24"/><p rend="margin-left:1em">右唐代玄奘三藏遠涉五天感得此神。此
-<lb n="1070c25"/>是北方多聞天王化身也。今唐國人總重
-<pb ed="T" id="T55.2163.1071a" n="1071a"/>
-<lb n="1071a01"/>此神救災成益。其驗現前。無有一人不依
-<lb n="1071a02"/>行者。寺裏人家皆在此神。<note n="1071001" resp="Taisho" type="orig" place="foot text">自見＝目【乙】</note><app n="1071001"><lem>自見</lem><rdg wit="【乙】" resp="Taisho">目</rdg></app>靈驗實不
-<lb n="1071a03"/>思議。具事如記文。請來如件。</p></item>
-<lb n="1071a04"/><item><title>菩薩像一軀</title></item>
-<lb n="1071a05"/><item><title><note n="1071002" resp="Taisho" type="orig" place="foot text">此前行甲乙丙三本俱有七曜二十八宿形像八字</note>護摩爐壇樣一十五種</title>
-<lb n="1071a06"/><p rend="margin-left:1em">右像唐朝示現。其靈驗奧也。人舉歸。息災
-<lb n="1071a07"/>增福無<note n="1071003" resp="Taisho" type="orig" place="foot text">過＝邊【甲】【乙】</note><app n="1071003"><lem>過</lem><rdg wit="【甲】【乙】" resp="Taisho">邊</rdg></app>此者。具事如記文。請來如件。</p>
-<lb n="1071a08"/><p rend="margin-left:1em">夫至道無言。非言不顯。真際絕形。待形乃
-<lb n="1071a09"/>悟。絕形者是真如三寶。示形者其住持三
-<lb n="1071a10"/>寶也。如來本願順機變相。大聖慈悲應時
-<lb n="1071a11"/>濟物。經云。應以佛身得度者。即現佛身。乃
-<lb n="1071a12"/>至八部身得度者。即皆現之而為說法等
-<lb n="1071a13"/>也。凡<note n="1071004" resp="Taisho" type="orig" place="foot text">〔正〕－【丙】</note><app n="1071004"><lem>正</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app>法之世。魔伴<note n="1071005" resp="Taisho" type="orig" place="foot text">無＝立【甲】【乙】【丙】</note><app n="1071005"><lem>無</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">立</rdg></app>威。<note n="1071006" resp="Taisho" type="orig" place="foot text">〔所以佛〕－【丙】</note><app n="1071006"><lem>所以佛</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app><note n="1071007" resp="Taisho" type="orig" place="foot text">化＝陀&M062485;【甲】【乙】</note><sic n="1071007" corr="陀" resp="【甲】【乙】">化</sic>
-<lb n="1071a14"/>多住慈悲。像末之時。邪<note n="1071008" resp="Taisho" type="orig" place="foot text">使＝便【甲】，使競興＝法【丙】</note><note n="1071008" resp="CBETA" type="mod">使競興＝法【丙】，使＝便【甲】</note><app n="1071008"><lem>使競興</lem><rdg wit="【丙】" resp="Taisho">法</rdg><rdg wit="【甲】" resp="Taisho">便競興</rdg></app>。所以如
-<lb n="1071a15"/>來。多形忿怒。佛力如是。實鎮國利人之寶
-<lb n="1071a16"/>也。受持頂戴。福利無極。外以摧魔軍。內以
-<lb n="1071a17"/>調伏煩惱。諸佛智悲如此。</p></item></list></div1>
-<lb n="1071a18"/><div1 type="other"><mulu type="其他" level="1" label="傳法阿闍梨耶付物"/><head>傳法阿闍梨耶付物</head>
-<lb n="1071a19"/><list><item><title>五鈷金剛杵一</title></item>
-<lb n="1071a20"/><item><title>三鈷金剛杵一</title></item>
-<lb n="1071a21"/><item><title>銅鈸一具</title></item>
-<lb n="1071a22"/><item><title>銅鐃一口</title></item>
-<lb n="1071a23"/><item><title>金剛樹子念珠一貫</title></item>
-<lb n="1071a24"/><item><title>多羅梵夾一口</title></item>
-<lb n="1071a25"/><item><title>金剛<note n="1071009" resp="Taisho" type="orig" place="foot text">海＝界【丙】</note><app n="1071009"><lem>海</lem><rdg wit="【丙】" resp="Taisho">界</rdg></app>三十七尊種子曼荼羅一<note n="1071010" resp="Taisho" type="orig" place="foot text">〔面〕－【甲】【乙】【丙】</note><app n="1071010"><lem>面</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app></title></item>
-<lb n="1071a26"/><item><title><note n="1071011" resp="Taisho" type="orig" place="foot text">〔君茶…種〕七字－【甲】【乙】【丙】</note><app n="1071011" word-count="7"><lem>君茶壇樣十七種</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app></title></item>
-<lb n="1071a27"/><item><title><note n="1071012" resp="Taisho" type="orig" place="foot text">（西天…條）九字∞（西天…面）六字【甲】</note><note n="1071012" resp="CBETA" type="mod">（西天供養白疊巾一條）九字∞（西天檀褥一面）六字【甲】</note><app n="1071012"><lem>西天供養白疊巾一條</lem><rdg wit="【甲】" resp="Taisho">西天檀褥一面</rdg></app></title></item>
-<lb n="1071a28"/><item><title><note n="1071013" resp="Taisho" type="orig" place="foot text">（西天…條）九字∞（西天…面）六字【甲】</note><note n="1071013" resp="CBETA" type="mod">（西天供養白疊巾一條）九字∞（西天檀褥一面）六字【甲】</note><app n="1071013"><lem>西天檀褥一面</lem><rdg wit="【甲】" resp="Taisho">西天供養白疊巾一條</rdg></app></title></item>
-<lb n="1071a29"/><item><title>傳法阿闍梨授弟子灌頂法二卷</title>
-<pb ed="T" id="T55.2163.1071b" n="1071b"/>
-<lb n="1071b01"/><p rend="margin-left:1em">右道具。&CB00278;栖靈寺阿闍梨之所<note n="1071014" resp="Taisho" type="orig" place="foot text">〔傳〕－【甲】</note><app n="1071014"><lem>傳</lem><rdg wit="【甲】" resp="Taisho">&lac;</rdg></app>付也。</p>
-<lb n="1071b02"/><p>常曉去承和五年仲夏之月。<note n="1071015" resp="Taisho" type="orig" place="foot text">〔隨入唐〕－【乙】【丙】</note><app n="1071015"><lem>隨入唐</lem><rdg wit="【乙】【丙】" resp="Taisho">&lac;</rdg></app>判官
-<lb n="1071b03"/><note n="1071016" resp="Taisho" type="orig" place="foot text">〔菅〕－【丙】，菅＝藤&M062485;【丙】</note><app n="1071016"><lem><sic corr="藤" resp="【丙】">菅</sic></lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app>原朝臣善主。同上<note n="1071017" resp="Taisho" type="orig" place="foot text">第四舶發＝弟【丙】</note><app n="1071017"><lem>第四舶發</lem><rdg wit="【丙】" resp="Taisho">弟</rdg></app><note n="1071018" resp="Taisho" type="orig" place="foot text">赴＝起【丙】</note><app n="1071018"><lem>赴</lem><rdg wit="【丙】" resp="Taisho">起</rdg></app><note n="1071019" resp="Taisho" type="orig" place="foot text">尸＝支【甲】</note><app n="1071019"><lem>尸</lem><rdg wit="【甲】" resp="Taisho">支</rdg></app>那。
-<lb n="1071b04"/>其<note n="1071020" resp="Taisho" type="orig" place="foot text">〔年〕－【甲】【乙】【丙】</note><app n="1071020"><lem>年</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>六月到揚州著岸。八月下<note n="1071021" resp="Taisho" type="orig" place="foot text">旬＝句【丙】</note><app n="1071021"><lem>旬</lem><rdg wit="【丙】" resp="Taisho">句</rdg></app>到淮南
-<lb n="1071b05"/>大都督府廣<note n="1071022" resp="Taisho" type="orig" place="foot text">綾＝凌【丙】</note><app n="1071022"><lem>綾</lem><rdg wit="【丙】" resp="Taisho">凌</rdg></app>&CB00419;安置。同年十二月住栖靈
-<lb n="1071b06"/>寺大悲持念院。隨同寺灌頂阿闍梨文&CB03140;和
-<lb n="1071b07"/>尚。并華林寺三教講論大德元照座主。顯密
-<lb n="1071b08"/>兩法頗以兼習。六年正月四日設<note n="1071023" resp="Taisho" type="orig" place="foot text">二＝一【丙】</note><app n="1071023"><lem>二</lem><rdg wit="【丙】" resp="Taisho">一</rdg></app><note n="1071024" resp="Taisho" type="orig" place="foot text">百＝日【乙】【丙】</note><app n="1071024"><lem>百</lem><rdg wit="【乙】【丙】" resp="Taisho">日</rdg></app>僧
-<lb n="1071b09"/>齋。普供四眾。於此日諸寺大德綱維&CB00278;臨齋
-<lb n="1071b10"/>會應供隨喜。常曉夜就師邊受學瑜伽。<note n="1071025" resp="Taisho" type="orig" place="foot text">晝＝盡【甲】【丙】</note><app n="1071025"><lem>晝</lem><rdg wit="【甲】【丙】" resp="Taisho">盡</rdg></app>周
-<lb n="1071b11"/>諸寺<note n="1071026" resp="Taisho" type="orig" place="foot text">覓＝不見【丙】</note><app n="1071026"><lem>覓</lem><rdg wit="【丙】" resp="Taisho">不見</rdg></app><note n="1071027" resp="Taisho" type="orig" place="foot text">問＝向【丙】</note><app n="1071027"><lem>問</lem><rdg wit="【丙】" resp="Taisho">向</rdg></app>法門。則喚<note n="1071028" resp="Taisho" type="orig" place="foot text">〔即〕－&M062485;【丙】</note><sic n="1071028" corr="＆lac；" resp="【丙】">即</sic>供奉李<note n="1071029" resp="Taisho" type="orig" place="foot text">全＝金【甲】【乙】【丙】</note><app n="1071029"><lem>全</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">金</rdg></app>等圖
-<lb n="1071b12"/>繪<app type="＊" source="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥<note n="1071030" resp="Taisho" type="orig" place="foot text">將＝大&M062403;【原】</note><app n="1071030"><lem>將</lem><rdg wit="【？】" resp="【原】">大</rdg></app>部曼荼羅等諸尊像。并寫文
-<lb n="1071b13"/>書。漸有次第。二月十九日受傳法阿闍梨位
-<lb n="1071b14"/>灌頂。於此日設大齋普供大眾。留後判官藤
-<lb n="1071b15"/>原朝臣貞敏。別<note n="1071031" resp="Taisho" type="orig" place="foot text">〔請丹墀〕－【丙】</note><app n="1071031"><lem>請丹墀</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app>真人高主知乘安墀
-<lb n="1071b16"/>宿禰<note n="1071032" resp="Taisho" type="orig" place="foot text">〔良棟〕－【丙】</note><app n="1071032"><lem>良棟</lem><rdg wit="【丙】" resp="Taisho">&lac;</rdg></app>等。<note n="1071033" resp="Taisho" type="orig" place="foot text">同＝聞【丙】</note><app n="1071033"><lem>同</lem><rdg wit="【丙】" resp="Taisho">聞</rdg></app>臨道場。拋花定本尊。受五
-<lb n="1071b17"/>智灌頂。二十一日准&CB00330;離州&CB00230;赴本朝。常曉
-<lb n="1071b18"/>本業三論之枝。兼真言之條。而才能不聞。言
-<lb n="1071b19"/>無取。逢時<note n="1071034" resp="Taisho" type="orig" place="foot text">之人＝乏人【甲】，乏入【乙】</note><note n="1071034" resp="CBETA" type="mod">之人＝乏人【甲】，＝乏入【乙】</note><app n="1071034"><lem>之人</lem><rdg wit="【甲】" resp="Taisho">乏人</rdg><rdg wit="【乙】" resp="Taisho">乏入</rdg></app><note n="1071035" resp="Taisho" type="orig" place="foot text">簉＝選&M062485;【丙】</note><sic n="1071035" corr="選" resp="【丙】">簉</sic>留學<note n="1071036" resp="Taisho" type="orig" place="foot text">員＝真【乙】，貞【丙】</note><note n="1071036" resp="CBETA" type="mod">員＝真【乙】，＝貞【丙】</note><app n="1071036"><lem>員</lem><rdg wit="【乙】" resp="Taisho">真</rdg><rdg wit="【丙】" resp="Taisho">貞</rdg></app>限以三十年。尋
-<lb n="1071b20"/>以一乘。任重人<note n="1071037" resp="Taisho" type="orig" place="foot text">弱＝溺【丙】</note><app n="1071037"><lem>弱</lem><rdg wit="【丙】" resp="Taisho">溺</rdg></app>。夙夜懃<note n="1071038" resp="Taisho" type="orig" place="foot text">愿＝慇【甲】</note><app n="1071038"><lem>愿</lem><rdg wit="【甲】" resp="Taisho">慇</rdg></app>。雖然國命難
-<lb n="1071b21"/>乖<note n="1071039" resp="Taisho" type="orig" place="foot text">忘＝忌【丙】</note><app n="1071039"><lem>忘</lem><rdg wit="【丙】" resp="Taisho">忌</rdg></app><note n="1071040" resp="Taisho" type="orig" place="foot text">親＝視【甲】【乙】【丙】</note><app n="1071040"><lem>親</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">視</rdg></app>萬里住<note n="1071041" resp="Taisho" type="orig" place="foot text">心＝止【丙】</note><app n="1071041"><lem>心</lem><rdg wit="【丙】" resp="Taisho">止</rdg></app>遠境。且頗受學顯密兩
-<lb n="1071b22"/>道。比未見及太<note n="1071042" resp="Taisho" type="orig" place="foot text">知＝和【甲】【乙】【丙】</note><app n="1071042"><lem>知</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">和</rdg></app>有&CB00330;不聽<note n="1071043" resp="Taisho" type="orig" place="foot text">留＝&CB08619;【丙】</note><app n="1071043"><lem>留</lem><rdg wit="【丙】" resp="Taisho">&CB08619;</rdg></app>住。<note n="1071044" resp="Taisho" type="orig" place="foot text">（因）＋而【甲】【丙】</note><app n="1071044"><lem>而</lem><rdg wit="【甲】【丙】" resp="Taisho">因而</rdg></app>隨使
-<lb n="1071b23"/>&CB00230;迴。少間所成<note n="1071045" resp="Taisho" type="orig" place="foot text">此＝些些【甲】【乙】，此＋（此）【丙】</note><app n="1071045"><lem>此</lem><rdg wit="【甲】【乙】" resp="Taisho">些些</rdg><rdg wit="【丙】" resp="Taisho">此此</rdg></app>法儀注顯如件。</p>
-<lb n="1071b24"/><p rend="margin-left:1em">承和六年九月五日。</p>
-<lb n="1071b25"/><p rend="margin-left:3em">入唐學法沙門傳燈大法師位常曉上。</p></item></list></div1>
+<lb n="1068c03" ed="T"/><milestone n="1" unit="juan"/>
+<lb n="1068c04" ed="T"/>
+<lb n="1068c05" ed="T"/><head type="no">No. 2163</head>
+<lb n="1068c06" ed="T"/><juan n="001" fun="open"><mulu n="1" type="卷"/><note n="1068001" resp="Taisho" place="foot text" type="orig">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本，常曉和尚請來＝法琳寺常曉律師【甲】，〔常曉…錄〕八字－【丙】</note><note n="1068001" resp="CBETA" type="mod">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本，〔常曉和尚請來目錄〕八字－【丙】，常曉和尚請來＝法琳寺常曉律師【甲】</note><jhead><app n="1068001"><lem>常曉和尚請來目錄</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg><rdg resp="Taisho" wit="【甲】">法琳寺常曉律師目錄</rdg></app><note n="1068001" type="rest" place="foot">【原】鎌倉時代寫高山寺藏本，【甲】享保二年寫大谷大學藏本，【乙】大日本佛教全書，【丙】享保年間刊豐山大學藏本</note></jhead></juan>
+<lb n="1068c07" ed="T"/>
+<lb n="1068c08" ed="T"/><div1 type="xu"><mulu level="1" label="上表" type="序"/><p id="pT55p1068c0801">入唐學法沙門常曉言。常曉以去承和三年
+<lb n="1068c09" ed="T"/>五月。銜命留學遠期萬里之外。其年漂迴。四
+<lb n="1068c10" ed="T"/>年亦不果渡海。五年六月進發。同年八月到
+<lb n="1068c11" ed="T"/>淮南城廣<note n="1068002" resp="Taisho" place="foot text" type="orig">綾＝凌【丙】</note><app n="1068002"><lem>綾</lem><rdg resp="Taisho" wit="【丙】">凌</rdg></app>&CB00419;安置。孟冬使等入朝。常曉不
+<lb n="1068c12" ed="T"/>得隨使入京。<note n="1068003" resp="Taisho" place="foot text" type="orig">徒＝從【丙】</note><app n="1068003"><lem>徒</lem><rdg resp="Taisho" wit="【丙】">從</rdg></app>留<note n="1068004" resp="Taisho" place="foot text" type="orig">（綾）＋&CB00419;【甲】</note><app n="1068004"><lem>&CB00419;</lem><rdg resp="Taisho" wit="【甲】">綾&CB00419;</rdg></app>裏。空經多日。至于
+<lb n="1068c13" ed="T"/>歲盡&CB00330;命未有<note n="1068005" resp="Taisho" place="foot text" type="orig">爰＝受【甲】【乙】【丙】</note><app n="1068005"><lem>爰</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">受</rdg></app>。則周遊郡內訪擇師依。幸
+<lb n="1068c14" ed="T"/>遇栖靈寺灌頂阿闍梨法號文&CB03140;和尚。并華
+<lb n="1068c15" ed="T"/>林寺三教講論大德元照座主。其文&CB03140;和尚
+<lb n="1068c16" ed="T"/>則不空三藏弟子。兼<note n="1068006" resp="Taisho" place="foot text" type="orig">〔惠〕－【甲】</note><app n="1068006"><lem>惠</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>應阿闍梨付法人也。
+<lb n="1068c17" ed="T"/>妙鉤經律深通密藏。法之棟<note n="1068007" resp="Taisho" place="foot text" type="orig">梁＝樑【丙】</note><app n="1068007"><lem>梁</lem><rdg resp="Taisho" wit="【丙】">樑</rdg></app>。國之所歸。
+<lb n="1068c18" ed="T"/>同年臘月。請節度使處分。配住栖靈寺。文&CB03140;
+<lb n="1068c19" ed="T"/>和尚以為師主。始學法儀。兼往花林寺。元照
+<lb n="1068c20" ed="T"/>座主邊問本宗義。并得文書也。然大師尚佛
+<lb n="1068c21" ed="T"/>法之流<note n="1068008" resp="Taisho" place="foot text" type="orig">轉＝傳&M062485;【丙】</note><sic n="1068008" resp="【丙】" corr="傳">轉</sic>。歎生民之可拔。授我以金剛大
+<lb n="1068c22" ed="T"/>法。許我以阿闍梨位也。膝步<note n="1068009" resp="Taisho" place="foot text" type="orig">（如）＋知【甲】</note><app n="1068009"><lem>知</lem><rdg resp="Taisho" wit="【甲】">如知</rdg></app>未知。接足
+<lb n="1068c23" ed="T"/>得<note n="1068010" resp="Taisho" place="foot text" type="orig">不＝未&M062485;【丙】</note><sic n="1068010" resp="【丙】" corr="未">不</sic>得。幸賴國家之大造大師之慈悲。學金
+<lb n="1068c24" ed="T"/>剛<note n="1068011" resp="Taisho" place="foot text" type="orig">〔海〕－&M062485;【丙】</note><sic n="1068011" resp="【丙】" corr="＆lac；">海</sic>瑜伽。習<note n="1068012" resp="Taisho" place="foot text" type="orig">大＝太【甲】＊</note><app n="1068012"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥祕法。斯法也則如來
+<lb n="1068c25" ed="T"/>之肝心。眾生之父母。於國城塹。於人筋脈。是
+<lb n="1068c26" ed="T"/><app source="1068012" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥者。<note n="1068013" resp="Taisho" place="foot text" type="orig">都＋（教）【甲】</note><app n="1068013"><lem>都</lem><rdg resp="Taisho" wit="【甲】">都教</rdg></app>內不傳於十供奉以外。諸州
+<lb n="1068c27" ed="T"/>無出於節度<note n="1068014" resp="Taisho" place="foot text" type="orig">〔使〕－【甲】【乙】【丙】</note><app n="1068014"><lem>使</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>宅。以表緣其靈驗不可思議
+<lb n="1068c28" ed="T"/>也。諸佛菩薩金剛天等像雖在前來。此像未
+<lb n="1068c29" ed="T"/>曾請來。今則<app source="1068012" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥諸身曼荼羅并諸靈像
+<pb n="1069a" id="T55.2163.1069a" ed="T"/>
+<lb n="1069a01" ed="T"/>所要<note n="1069001" resp="Taisho" place="foot text" type="orig">文＝之【丙】</note><app n="1069001"><lem>文</lem><rdg resp="Taisho" wit="【丙】">之</rdg></app>書等請來見到。雖云濤波猛<note n="1069002" resp="Taisho" place="foot text" type="orig">沷＝沃【丙】</note><app n="1069002"><lem>沷</lem><rdg resp="Taisho" wit="【丙】">沃</rdg></app>。新
+<lb n="1069a02" ed="T"/>羅賊畔。越<note n="1069003" resp="Taisho" place="foot text" type="orig">彼＝波【丙】</note><app n="1069003"><lem>彼</lem><rdg resp="Taisho" wit="【丙】">波</rdg></app>厄難平達聖境。是則聖力<note n="1069004" resp="Taisho" place="foot text" type="orig">〔之〕－【乙】【丙】</note><app n="1069004"><lem>之</lem><rdg resp="Taisho" wit="【乙】【丙】">&lac;</rdg></app>
+<lb n="1069a03" ed="T"/>所能也。伏惟皇帝陛下。極德如天。佛日高轉。
+<lb n="1069a04" ed="T"/>人之父。佛之化悲群生而濡足。助佛囑而垂
+<lb n="1069a05" ed="T"/>衣。以陛下慈育&CB00283;。祥靈像教希自遠新來。恰
+<lb n="1069a06" ed="T"/>似符契。非聖誰測矣。常曉本謂。果三十年經
+<lb n="1069a07" ed="T"/>歷漢里。求佛法<note n="1069005" resp="Taisho" place="foot text" type="orig">來事＝未事【甲】，來幸【乙】【丙】</note><note n="1069005" resp="CBETA" type="mod">來事＝未事【甲】，＝來幸【乙】【丙】</note><app n="1069005"><lem>來。事</lem><rdg resp="Taisho" wit="【甲】">未事</rdg><rdg resp="Taisho" wit="【乙】【丙】">來幸</rdg></app>護國家。而緣唐朝不
+<lb n="1069a08" ed="T"/>聽留住。隨使迴歸。竊以一<note n="1069006" resp="Taisho" place="foot text" type="orig">喜＝善【甲】【乙】【丙】</note><app n="1069006"><lem>喜</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">善</rdg></app>此法教生而請
+<lb n="1069a09" ed="T"/>來。不任一喜一懼之至。謹附准判官藤原朝
+<lb n="1069a10" ed="T"/>臣貞敏。奉表以聞。并請來法門等目錄一<note n="1069007" resp="Taisho" place="foot text" type="orig">通＝道【甲】</note><app n="1069007"><lem>通</lem><rdg resp="Taisho" wit="【甲】">道</rdg></app>
+<lb n="1069a11" ed="T"/>且以奉進。輕黷威嚴伏增戰越。常曉誠恐誠
+<lb n="1069a12" ed="T"/>惶謹言。</p>
+<lb n="1069a13" ed="T"/><p id="pT55p1069a1301" rend="margin-left:2em">承和六年九月二日入唐學法沙門傳燈
+<lb n="1069a14" ed="T"/>大法師位常曉<note place="inline">上表</note>。</p>
+<lb n="1069a15" ed="T"/><p id="pT55p1069a1501">入唐學法沙門常曉<note n="1069008" resp="Taisho" place="foot text" type="orig">〔謹言〕－【甲】【乙】【丙】</note><app n="1069008"><lem>謹言</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>。</p></div1>
+<lb n="1069a16" ed="T"/><div1 type="other"><mulu level="1" label="上新請來法門并佛像道具事" type="其他"/><head>上新請來法門并佛像<note n="1069009" resp="Taisho" place="foot text" type="orig">道具＝等【甲】【乙】【丙】</note><app n="1069009"><lem>道具</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">等</rdg></app>事</head>
+<lb n="1069a17" ed="T"/><list><item id="itemT55p1069a1701"><title>百論疏</title>一部三卷<note place="inline">元康法師造</note></item>
+<lb n="1069a18" ed="T"/><item id="itemT55p1069a1801"><title>三論玄樞</title>一部二卷<note place="inline">元康法師造</note></item>
+<lb n="1069a19" ed="T"/><item id="itemT55p1069a1901"><title>中論三十六門勢疏一卷</title><note place="inline">元康法師造</note></item>
+<lb n="1069a20" ed="T"/><item id="itemT55p1069a2001"><title>百論疏略記</title>一部二卷<note place="inline">義持法師造</note></item>
+<lb n="1069a21" ed="T"/><item id="itemT55p1069a2101"><title>大佛頂經疏</title>一部六卷<note place="inline">弘抗法師造</note></item>
+<lb n="1069a22" ed="T"/><item id="itemT55p1069a2201"><title>大佛頂經<note n="1069010" resp="Taisho" place="foot text" type="orig">玄贊＝略述&M062403;【原】</note><app n="1069010"><lem>玄贊</lem><rdg resp="【原】" wit="【？】">略述</rdg></app></title>一部三卷<note place="inline">惟<note n="1069011" resp="Taisho" place="foot text" type="orig">&CB00013;＝慇【甲】</note><app n="1069011"><lem>&CB00013;</lem><rdg resp="Taisho" wit="【甲】">慇</rdg></app>法師造</note>
+<lb n="1069a23" ed="T"/><p id="pT55p1069a2301" rend="margin-left:3em">已上六部。依三論宗學頭法師<note n="1069012" resp="Taisho" place="foot text" type="orig">丙本冠註曰等下有脫</note>等
+<lb n="1069a24" ed="T"/><note n="1069013" resp="Taisho" place="foot text" type="orig">申＝造【甲】【乙】【丙】</note><app n="1069013"><lem>申</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">造</rdg></app>求請來。</p>
+<lb n="1069a25" ed="T"/><p id="pT55p1069a2501" rend="margin-left:1em">凡如來說稱經。菩薩說稱論。人師說<note n="1069014" resp="Taisho" place="foot text" type="orig">名＝稱【甲】【乙】【丙】</note><app n="1069014"><lem>名</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">稱</rdg></app>疏
+<lb n="1069a26" ed="T"/>章<note n="1069015" resp="Taisho" place="foot text" type="orig">傳＋（說說）【丙】</note><app n="1069015"><lem>傳</lem><rdg resp="Taisho" wit="【丙】">傳說說</rdg></app>記等。何以故。唯以佛說經鈍根難解
+<lb n="1069a27" ed="T"/>了。是故菩薩作論釋此。最鈍根之<note n="1069016" resp="Taisho" place="foot text" type="orig">類＝賴【甲】</note><app n="1069016"><lem>類</lem><rdg resp="Taisho" wit="【甲】">賴</rdg></app>。猶
+<lb n="1069a28" ed="T"/>未得精旨。因而人師作疏章等。細演經論
+<pb n="1069b" id="T55.2163.1069b" ed="T"/>
+<lb n="1069b01" ed="T"/>之廣旨。於疏師數般。但邪正異耳。今件疏
+<lb n="1069b02" ed="T"/>等。釋經論尤微微。解義理<note n="1069017" resp="Taisho" place="foot text" type="orig">絕＝極【甲】【乙】【丙】</note><app n="1069017"><lem>絕</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">極</rdg></app>細細。此土
+<lb n="1069b03" ed="T"/>有名彼實未<note n="1069018" resp="Taisho" place="foot text" type="orig">渡＋（論）【甲】</note><app n="1069018"><lem>渡</lem><rdg resp="Taisho" wit="【甲】">渡論</rdg></app>。諸學<note n="1069019" resp="Taisho" place="foot text" type="orig">徒＝從【丙】</note><app n="1069019"><lem>徒</lem><rdg resp="Taisho" wit="【丙】">從</rdg></app>等之所疑滯。夫
+<lb n="1069b04" ed="T"/>以。百論者。真諦津途。在前以嘉祥寺疏解
+<lb n="1069b05" ed="T"/>釋文義。有少不足。今以元康法師疏將定
+<lb n="1069b06" ed="T"/>義理也。又空有兩宗論真性理。大佛頂經
+<lb n="1069b07" ed="T"/>以為本模。經本雖先來。其疏未有。於義難
+<lb n="1069b08" ed="T"/>決。如今以此將正空有兩家諍論義。夫一
+<lb n="1069b09" ed="T"/>翼若闕。空行何飛。況乃一乘奧理。義與文
+<lb n="1069b10" ed="T"/><note n="1069020" resp="Taisho" place="foot text" type="orig">違＝遠【甲】【乙】</note><app n="1069020"><lem>違</lem><rdg resp="Taisho" wit="【甲】【乙】">遠</rdg></app>。不假疏記微<note n="1069021" resp="Taisho" place="foot text" type="orig">微＝言【甲】【丙】</note><app n="1069021"><lem>微</lem><rdg resp="Taisho" wit="【甲】【丙】">言</rdg></app>無顯。雖有勞載車。<note n="1069022" resp="Taisho" place="foot text" type="orig">冀＝兼【丙】</note><app n="1069022"><lem>冀</lem><rdg resp="Taisho" wit="【丙】">兼</rdg></app>
+<lb n="1069b11" ed="T"/>以此俾補乎聖典。</p></item>
+<lb n="1069b12" ed="T"/><item id="itemT55p1069b1201"><title>四分律羯磨疏</title>一部四卷<note place="inline">道宣律師撰</note>
+<lb n="1069b13" ed="T"/><p id="pT55p1069b1301" rend="margin-left:3em">已上一部依律宗學頭法師等之覓來。</p>
+<lb n="1069b14" ed="T"/><p id="pT55p1069b1401" rend="margin-left:1em">右律羯磨者。眾行手足。佛法壽命也。律家
+<lb n="1069b15" ed="T"/>軌則。雖先備來。少有不全。豈非是文乎。然
+<lb n="1069b16" ed="T"/>則以<note n="1069023" resp="Taisho" place="foot text" type="orig">〔此〕－【甲】【乙】【丙】</note><app n="1069023"><lem>此</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>使補其尸羅闕目。</p></item>
+<lb n="1069b17" ed="T"/><item id="itemT55p1069b1701"><title>釋摩訶衍論疏</title>一部三卷<note place="inline">法敏法師造</note>
+<lb n="1069b18" ed="T"/><p id="pT55p1069b1801" rend="margin-left:3em">已上一部。依真言宗傳法阿闍梨等
+<lb n="1069b19" ed="T"/>申求來。</p>
+<lb n="1069b20" ed="T"/><p id="pT55p1069b2001" rend="margin-left:1em">右<note n="1069024" resp="Taisho" place="foot text" type="orig">〔釋〕－【丙】</note><app n="1069024"><lem>釋</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app>摩訶衍論者。橫釋顯教。&CB00594;括祕藏。
+<lb n="1069b21" ed="T"/><note n="1069025" resp="Taisho" place="foot text" type="orig">本＝大【甲】【乙】【丙】</note><app n="1069025"><lem>本</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">大</rdg></app>論雖先來。左右未定。今以此疏證彼
+<lb n="1069b22" ed="T"/>大乘。</p></item>
+<lb n="1069b23" ed="T"/><item id="itemT55p1069b2301"><title>維摩經疏</title>一部四卷<note n="1069026" resp="Taisho" place="foot text" type="orig">〔開中…造〕七字－【甲】【乙】【丙】</note><app word-count="7" n="1069026"><lem><note place="inline">開中道液法師造</note></lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app></item>
+<lb n="1069b24" ed="T"/><item id="itemT55p1069b2401"><title>維摩經釋批一部<note n="1069027" resp="Taisho" place="foot text" type="orig">三＝二【甲】【乙】</note><app n="1069027"><lem>三</lem><rdg resp="Taisho" wit="【甲】【乙】">二</rdg></app>卷</title><note place="inline">開中道液法師造</note></item>
+<lb n="1069b25" ed="T"/><item id="itemT55p1069b2501"><title>維摩經開中疏記</title>一部五卷<note place="inline">文<note n="1069028" resp="Taisho" place="foot text" type="orig">襲＝龍【丙】</note><app n="1069028"><lem>襲</lem><rdg resp="Taisho" wit="【丙】">龍</rdg></app><note n="1069029" resp="Taisho" place="foot text" type="orig">〔禪〕－【甲】【乙】【丙】＊</note><app n="1069029"><lem>禪</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>師造</note></item>
+<lb n="1069b26" ed="T"/><item id="itemT55p1069b2601"><title>維摩經略例</title>一部二卷<note place="inline">智<note n="1069030" resp="Taisho" place="foot text" type="orig">深＝保【丙】</note><app n="1069030"><lem>深</lem><rdg resp="Taisho" wit="【丙】">保</rdg></app>法師<note n="1069031" resp="Taisho" place="foot text" type="orig">〔造〕－【丙】</note><app n="1069031"><lem>造</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app></note></item>
+<lb n="1069b27" ed="T"/><item id="itemT55p1069b2701"><title>維摩經玄旨一卷</title><note place="inline"><note n="1069032" resp="Taisho" place="foot text" type="orig">漢涌＝淡涌【甲】【丙】，淡通&M062403;【乙】</note><note n="1069032" resp="CBETA" type="mod">漢涌＝淡涌【甲】【丙】，＝淡通&M062403;【乙】</note><app n="1069032"><lem>漢涌</lem><rdg resp="Taisho" wit="【甲】【丙】">淡涌</rdg><rdg resp="【乙】" wit="【？】">淡通</rdg></app>法師造</note></item>
+<lb n="1069b28" ed="T"/><item id="itemT55p1069b2801"><title>維摩經<note n="1069033" resp="Taisho" place="foot text" type="orig">開＝關&M062485;【丙】</note><sic n="1069033" resp="【丙】" corr="關">開</sic><note n="1069034" resp="Taisho" place="foot text" type="orig">〔中疏〕&M062403;－【原】</note><app n="1069034"><lem>中疏</lem><rdg resp="【原】" wit="【？】">&lac;</rdg></app>科文一卷</title><note place="inline">開中道液法師造</note></item>
+<pb n="1069c" id="T55.2163.1069c" ed="T"/>
+<lb n="1069c01" ed="T"/><item id="itemT55p1069c0101"><title>維摩經五教義一卷</title><note place="inline">文<note n="1069035" resp="Taisho" place="foot text" type="orig">襲＝龍【甲】【乙】【丙】</note><app n="1069035"><lem>襲</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">龍</rdg></app><app source="1069029" type="＊"><lem>禪</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>師造</note>
+<lb n="1069c02" ed="T"/><p id="pT55p1069c0201" rend="margin-left:1em">右維摩經。窮微盡化。妙絕之稱也。造疏之
+<lb n="1069c03" ed="T"/>人。數般論旨。左右詞&CB00520;。<note n="1069036" resp="Taisho" place="foot text" type="orig">&CB05058;塞＝理蹇【甲】【丙】</note><app n="1069036"><lem>&CB05058;塞</lem><rdg resp="Taisho" wit="【甲】【丙】">理蹇</rdg></app>于是。至開
+<lb n="1069c04" ed="T"/>中液公。大宗蕪蔓真<note n="1069037" resp="Taisho" place="foot text" type="orig">〔極而…提〕四十四字－【甲】【乙】【丙】</note><app word-count="44" n="1069037"><lem>極而開。今見大唐真
+<lb n="1069c05" ed="T"/>典近代興盛講文學義之類。總此疏等以
+<lb n="1069c06" ed="T"/>為指南。是故每寺講淨名典化度白衣。以
+<lb n="1069c07" ed="T"/>液公疏提</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>。撕緇<note n="1069038" resp="Taisho" place="foot text" type="orig">徒＝從【丙】</note><app n="1069038"><lem>徒</lem><rdg resp="Taisho" wit="【丙】">從</rdg></app>。皆云。雖有<note n="1069039" resp="Taisho" place="foot text" type="orig">論＝諸【甲】</note><app n="1069039"><lem>論</lem><rdg resp="Taisho" wit="【甲】">諸</rdg></app>師註疏。
+<lb n="1069c08" ed="T"/>惠底未足。乍學此文。法鏡轉明。惠燈益照
+<lb n="1069c09" ed="T"/><note n="1069040" resp="Taisho" place="foot text" type="orig">者＋（開中道液法師造也）【丙】</note><app n="1069040"><lem>者</lem><rdg resp="Taisho" wit="【丙】">者開中道液法師造也</rdg></app>。</p></item>
+<lb n="1069c10" ed="T"/><item id="itemT55p1069c1001"><title>金剛般若疏</title>一部二卷<note n="1069041" resp="Taisho" place="foot text" type="orig">〔開中道液法師造也〕－【丙】</note><app n="1069041"><lem><note place="inline">開中道液法師造<note n="1069042" resp="Taisho" place="foot text" type="orig">〔也〕－【甲】</note><app n="1069042"><lem>也</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app></note></lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app></item>
+<lb n="1069c11" ed="T"/><item id="itemT55p1069c1101"><title>仁王般若經疏</title><note n="1069043" resp="Taisho" place="foot text" type="orig">二＝一【甲】【乙】【丙】</note><app n="1069043"><lem>二</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">一</rdg></app>部二卷</item>
+<lb n="1069c12" ed="T"/><item id="itemT55p1069c1201"><title><note n="1069044" resp="Taisho" place="foot text" type="orig">此前行甲乙丙三本俱有金剛般若經一部三卷圓暉法師造十四字</note>金剛般若經註一卷</title><note place="inline">金剛藏註</note></item>
+<lb n="1069c13" ed="T"/><item id="itemT55p1069c1301"><title>金剛般若經註一卷</title><note place="inline">南嶽王潔<note n="1069045" resp="Taisho" place="foot text" type="orig">〔註〕－【丙】</note><app n="1069045"><lem>註</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app></note>
+<lb n="1069c14" ed="T"/><p id="pT55p1069c1401" rend="margin-left:1em">右疏等。解義妙微行<note n="1069046" resp="Taisho" place="foot text" type="orig">耆＝支【甲】，者【乙】【丙】，旨&M062485;【丙】</note><note n="1069046" resp="CBETA" type="mod">耆＝支【甲】，＝者【乙】【丙】，＝旨&M062485;【丙】</note><app n="1069046"><lem><sic resp="【丙】" corr="旨">耆</sic></lem><rdg resp="Taisho" wit="【甲】">支</rdg><rdg resp="Taisho" wit="【乙】【丙】">者</rdg></app>那國。此等師疏近
+<lb n="1069c15" ed="T"/>代多興。皆以<note n="1069047" resp="Taisho" place="foot text" type="orig">餘＋（餘）【丙】</note><app n="1069047"><lem>餘</lem><rdg resp="Taisho" wit="【丙】">餘餘</rdg></app>師<note n="1069048" resp="Taisho" place="foot text" type="orig">制＝製&M062485;【丙】</note><sic n="1069048" resp="【丙】" corr="製">制</sic>為傍。以此等疏為
+<lb n="1069c16" ed="T"/>正。夫以佛教興轉<note n="1069049" resp="Taisho" place="foot text" type="orig">依＝以【丙】</note><app n="1069049"><lem>依</lem><rdg resp="Taisho" wit="【丙】">以</rdg></app>能<note n="1069050" resp="Taisho" place="foot text" type="orig">宣＋（譜）【甲】【丙】，（譜止）【乙】</note><app n="1069050"><lem>宣</lem><rdg resp="Taisho" wit="【甲】【丙】">宣譜</rdg><rdg resp="Taisho" wit="【乙】">宣譜止</rdg></app>人<note n="1069051" resp="Taisho" place="foot text" type="orig">圻＝&CB14236;【丙】</note><app n="1069051"><lem>圻</lem><rdg resp="Taisho" wit="【丙】">&CB14236;</rdg></app>古請寄
+<lb n="1069c17" ed="T"/>新實。於經本非所改。於義方用相傳<note n="1069052" resp="Taisho" place="foot text" type="orig">告＝去【甲】【乙】【丙】</note><app n="1069052"><lem>告</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">去</rdg></app>
+<lb n="1069c18" ed="T"/><note n="1069053" resp="Taisho" place="foot text" type="orig">耳＝可【丙】</note><app n="1069053"><lem>耳</lem><rdg resp="Taisho" wit="【丙】">可</rdg></app>。</p></item>
+<lb n="1069c19" ed="T"/><item id="itemT55p1069c1901"><title>千光王佛威德要法一卷</title></item>
+<lb n="1069c20" ed="T"/><item id="itemT55p1069c2001"><title>六童子威德要法一卷</title></item>
+<lb n="1069c21" ed="T"/><item id="itemT55p1069c2101"><title>金毘羅童子威德要法一卷</title></item>
+<lb n="1069c22" ed="T"/><item id="itemT55p1069c2201"><title><app source="1068012" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】">太</rdg></app>元帥<note n="1069054" resp="Taisho" place="foot text" type="orig">念誦儀軌一＝全身金剛三昧耶法三【甲】【乙】【丙】</note><app n="1069054"><lem>念誦儀軌一</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">全身金剛三昧耶法三</rdg></app>卷</title></item>
+<pb n="1070a" id="T55.2163.1070a" ed="T"/>
+<lb n="1070a01" ed="T"/><item id="itemT55p1070a0101"><title>阿<note n="1070001" resp="Taisho" place="foot text" type="orig">吒＝&CB00062;【丙】</note><app n="1070001"><lem>吒</lem><rdg resp="Taisho" wit="【丙】">&CB00062;</rdg></app>薄<note n="1070002" resp="Taisho" place="foot text" type="orig">拘＝&CB00211;【丙】</note><app n="1070002"><lem>拘</lem><rdg resp="Taisho" wit="【丙】">&CB00211;</rdg></app>元帥大將上佛陀羅尼經一卷</title></item>
+<lb n="1070a02" ed="T"/><item id="itemT55p1070a0201"><title>大日經持誦次第儀一卷</title></item>
+<lb n="1070a03" ed="T"/><item id="itemT55p1070a0301"><title><note n="1070003" resp="Taisho" place="foot text" type="orig">（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note><note n="1070003" resp="CBETA" type="mod"><todo type="a"/>（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note>大毘盧遮那三種悉地法一卷</title></item>
+<lb n="1070a04" ed="T"/><item id="itemT55p1070a0401"><title>唐梵對&CB02584;尊勝真言<note n="1070004" resp="Taisho" place="foot text" type="orig">&CB00283;＝&CB00330;【丙】</note><app n="1070004"><lem>&CB00283;</lem><rdg resp="Taisho" wit="【丙】">&CB00330;</rdg></app>天下本一卷</title></item>
+<lb n="1070a05" ed="T"/><item id="itemT55p1070a0501"><title><note n="1070005" resp="Taisho" place="foot text" type="orig">（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note><note n="1070005" resp="CBETA" type="mod"><todo type="a"/>（大毘…本一卷）二十六字∞（北方…二卷）十三字【甲】</note>北方毘沙門天王<note n="1070006" resp="Taisho" place="foot text" type="orig">念＋（誦）【丙】</note><app n="1070006"><lem>念</lem><rdg resp="Taisho" wit="【丙】">念誦</rdg></app>要<note n="1070007" resp="Taisho" place="foot text" type="orig">〔法〕－【甲】【乙】【丙】</note><app n="1070007"><lem>法</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>經二卷</title></item>
+<lb n="1070a06" ed="T"/><item id="itemT55p1070a0601"><title><note n="1070008" resp="Taisho" place="foot text" type="orig">〔毘補…卷〕十一字－【甲】【乙】</note><app word-count="11" n="1070008"><lem>毘補羅天母啟請法護一卷</lem><rdg resp="Taisho" wit="【甲】【乙】">&lac;</rdg></app></title></item>
+<lb n="1070a07" ed="T"/><item id="itemT55p1070a0701"><title>深沙神記并念誦法一卷</title></item>
+<lb n="1070a08" ed="T"/><item id="itemT55p1070a0801"><title>菩提王記一卷</title>
+<lb n="1070a09" ed="T"/><p id="pT55p1070a0901" rend="margin-left:2em">所受學諸尊瑜伽灌頂儀軌等如先渡
+<lb n="1070a10" ed="T"/><note n="1070009" resp="Taisho" place="foot text" type="orig">來＝未【丙】</note><app n="1070009"><lem>來</lem><rdg resp="Taisho" wit="【丙】">未</rdg></app>無殊<note n="1070010" resp="Taisho" place="foot text" type="orig">更＝文【丙】，更＝故&M062485;【丙】</note><app n="1070010"><lem><sic resp="【丙】" corr="故">更</sic></lem><rdg resp="Taisho" wit="【丙】">文</rdg></app>不注之。</p>
+<lb n="1070a11" ed="T"/><p id="pT55p1070a1101" rend="margin-left:1em">右顯密之法門。若學得。若未學得。其數不
+<lb n="1070a12" ed="T"/>少。唯<note n="1070011" resp="Taisho" place="foot text" type="orig">當代要＝舉未曾【甲】【乙】【丙】</note><app n="1070011"><lem>當代要</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">舉未曾</rdg></app>有耳。至祕密之宗大體與常
+<lb n="1070a13" ed="T"/>無相違。</p></item>
+<lb n="1070a14" ed="T"/><item id="itemT55p1070a1401"><title>千光<note n="1070012" resp="Taisho" place="foot text" type="orig">〔王〕－【甲】【乙】【丙】＊</note><app n="1070012"><lem>王</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>佛像一軀</title>
+<lb n="1070a15" ed="T"/><p id="pT55p1070a1501" rend="margin-left:1em">右恒沙如來有恒沙土。隨其本行得稱各
+<lb n="1070a16" ed="T"/>異。唯佛與佛乃所究盡。今千光王佛者。此
+<lb n="1070a17" ed="T"/>是觀音本師。其事<note n="1070013" resp="Taisho" place="foot text" type="orig">灼＝&CB00666;【甲】【乙】【丙】</note><app n="1070013"><lem>灼</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&CB00666;</rdg></app>然。此像未見。因而
+<lb n="1070a18" ed="T"/>請來如件。</p></item>
+<lb n="1070a19" ed="T"/><item id="itemT55p1070a1901"><title>水月觀世音菩薩像一軀</title>
+<lb n="1070a20" ed="T"/><p id="pT55p1070a2001" rend="margin-left:1em">右大悲之用。化形萬方。觀思眾生。拔苦與
+<lb n="1070a21" ed="T"/>樂。故示像相使物生信。今見唐朝世人。總
+<lb n="1070a22" ed="T"/>以為除災因。天下以為生福緣也。是像此
+<lb n="1070a23" ed="T"/>間未流行。故請來如件。</p></item>
+<lb n="1070a24" ed="T"/><item id="itemT55p1070a2401"><title><note n="1070014" resp="Taisho" place="foot text" type="orig">大＝太【甲】【丙】＊</note><app n="1070014"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥本身將部曼荼羅一鋪</title><note place="inline">總五十餘身</note></item>
+<lb n="1070a25" ed="T"/><item id="itemT55p1070a2501"><title><app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥大悲身像一軀</title></item>
+<lb n="1070a26" ed="T"/><item id="itemT55p1070a2601"><title><app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥忿怒身像一軀</title></item>
+<lb n="1070a27" ed="T"/><item id="itemT55p1070a2701"><title><app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥化身像一軀</title>
+<lb n="1070a28" ed="T"/><p id="pT55p1070a2801" rend="margin-left:1em">右<app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥者。如來之教<note n="1070015" resp="Taisho" place="foot text" type="orig">令＝領【乙】【丙】</note><app n="1070015"><lem>令</lem><rdg resp="Taisho" wit="【乙】【丙】">領</rdg></app>輪也。佛為含
+<lb n="1070a29" ed="T"/>情作<note n="1070016" resp="Taisho" place="foot text" type="orig">救＝故【丙】</note><app n="1070016"><lem>救</lem><rdg resp="Taisho" wit="【丙】">故</rdg></app>作護。<note n="1070017" resp="Taisho" place="foot text" type="orig">示＝未【丙】</note><app n="1070017"><lem>示</lem><rdg resp="Taisho" wit="【丙】">未</rdg></app><app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥形。<note n="1070018" resp="Taisho" place="foot text" type="orig">群＝郡【丙】</note><app n="1070018"><lem>群</lem><rdg resp="Taisho" wit="【丙】">郡</rdg></app>邪見形
+<pb n="1070b" id="T55.2163.1070b" ed="T"/>
+<lb n="1070b01" ed="T"/>頭破七分。眾惡聽名魔<note n="1070019" resp="Taisho" place="foot text" type="orig">道＝通【甲】【乙】</note><app n="1070019"><lem>道</lem><rdg resp="Taisho" wit="【甲】【乙】">通</rdg></app>塵散。本經云。
+<lb n="1070b02" ed="T"/>佛告阿難。若有國王大臣敬禮誦&CB00057;者。其
+<lb n="1070b03" ed="T"/>人境<note n="1070020" resp="Taisho" place="foot text" type="orig">土＝世【乙】</note><app n="1070020"><lem>土</lem><rdg resp="Taisho" wit="【乙】">世</rdg></app>。無有惡賊怖難災橫疾疫水旱風
+<lb n="1070b04" ed="T"/>霜。國<app source="1070012" type="＊"><lem>王</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>倍威德。諸民平<note n="1070021" resp="Taisho" place="foot text" type="orig">秦＝泰【甲】【丙】</note><app n="1070021"><lem>秦</lem><rdg resp="Taisho" wit="【甲】【丙】">泰</rdg></app>。若有<note n="1070022" resp="Taisho" place="foot text" type="orig">〔城〕－【甲】【乙】【丙】</note><app n="1070022"><lem>城</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>邑
+<lb n="1070b05" ed="T"/>村落持此<note n="1070023" resp="Taisho" place="foot text" type="orig">經＝法【甲】【乙】【丙】</note><app n="1070023"><lem>經</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">法</rdg></app>者。莫不蒙利<note n="1070024" resp="Taisho" place="foot text" type="orig">等＝益【丙】</note><app n="1070024"><lem>等</lem><rdg resp="Taisho" wit="【丙】">益</rdg></app>者。又云。若
+<lb n="1070b06" ed="T"/>國土<note n="1070025" resp="Taisho" place="foot text" type="orig">襄＝衰【甲】【乙】，襄禍＝褰&CB02932;【丙】</note><note n="1070025" resp="CBETA" type="mod">襄禍＝褰&CB02932;【丙】，襄＝衰【甲】【乙】</note><app n="1070025"><lem>襄禍</lem><rdg resp="Taisho" wit="【丙】">褰&CB02932;</rdg><rdg resp="Taisho" wit="【甲】【乙】">衰禍</rdg></app>。雨<note n="1070026" resp="Taisho" place="foot text" type="orig">澤＝降【丙】</note><app n="1070026"><lem>澤</lem><rdg resp="Taisho" wit="【丙】">降</rdg></app>不調。以此<app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥&CB00057;安
+<lb n="1070b07" ed="T"/>四<note n="1070027" resp="Taisho" place="foot text" type="orig">〔城〕－【乙】</note><app n="1070027"><lem>城</lem><rdg resp="Taisho" wit="【乙】">&lac;</rdg></app>門上。即得風雨順時。將鎮國<note n="1070028" resp="Taisho" place="foot text" type="orig">土＝上【丙】</note><app n="1070028"><lem>土</lem><rdg resp="Taisho" wit="【丙】">上</rdg></app>。四
+<lb n="1070b08" ed="T"/>方&CB00444;&CB02584;不起逆心等者。然則如法行。國長
+<lb n="1070b09" ed="T"/><note n="1070029" resp="Taisho" place="foot text" type="orig">存＝在【乙】【丙】</note><app n="1070029"><lem>存</lem><rdg resp="Taisho" wit="【乙】【丙】">在</rdg></app>安寧。剎那<note n="1070030" resp="Taisho" place="foot text" type="orig">婦＝歸【甲】【丙】</note><app n="1070030"><lem>婦</lem><rdg resp="Taisho" wit="【甲】【丙】">歸</rdg></app>人<note n="1070031" resp="Taisho" place="foot text" type="orig">固＝同【甲】【乙】，目【丙】</note><note n="1070031" resp="CBETA" type="mod">固＝同【甲】【乙】，＝目【丙】</note><app n="1070031"><lem>固</lem><rdg resp="Taisho" wit="【甲】【乙】">同</rdg><rdg resp="Taisho" wit="【丙】">目</rdg></app>得十利不可思議
+<lb n="1070b10" ed="T"/>也。大元帥之力。今見唐朝皆依此為治國
+<lb n="1070b11" ed="T"/>之<note n="1070032" resp="Taisho" place="foot text" type="orig">寶＝實&M062403;【甲】</note><app n="1070032"><lem>寶</lem><rdg resp="【甲】" wit="【？】">實</rdg></app>。勝&CB02584;之要。<note n="1070033" resp="Taisho" place="foot text" type="orig">是＝見【丙】</note><app n="1070033"><lem>是</lem><rdg resp="Taisho" wit="【丙】">見</rdg></app>以定自在王菩薩偈
+<lb n="1070b12" ed="T"/>讚曰。我聞元帥名。世間救苦厄。一切<note n="1070034" resp="Taisho" place="foot text" type="orig">大＝厄【甲】</note><app n="1070034"><lem>大</lem><rdg resp="Taisho" wit="【甲】">厄</rdg></app>
+<lb n="1070b13" ed="T"/>神中。奇特無有<note n="1070035" resp="Taisho" place="foot text" type="orig">比＝此【丙】</note><app n="1070035"><lem>比</lem><rdg resp="Taisho" wit="【丙】">此</rdg></app>。種種變化身。而拔眾
+<lb n="1070b14" ed="T"/>生苦。我今聞往昔。<note n="1070036" resp="Taisho" place="foot text" type="orig">寶＝實【丙】</note><app n="1070036"><lem>寶</lem><rdg resp="Taisho" wit="【丙】">實</rdg></app>不可思議。</p>
+<lb n="1070b15" ed="T"/><p id="pT55p1070b1501" rend="margin-left:1em">此法也。吾朝不多流行。以是略<note n="1070037" resp="Taisho" place="foot text" type="orig">要＝案【甲】【乙】【丙】</note><app n="1070037"><lem>要</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">案</rdg></app>法儀圖
+<lb n="1070b16" ed="T"/>像請求。息災招福無比<note n="1070038" resp="Taisho" place="foot text" type="orig">（此）＋法【丙】</note><app n="1070038"><lem>法</lem><rdg resp="Taisho" wit="【丙】">此法</rdg></app>。誰非歸依耶。</p></item>
+<lb n="1070b17" ed="T"/><item id="itemT55p1070b1701"><title>大聖千臂千頭金毘羅童子像一軀</title>
+<lb n="1070b18" ed="T"/><p id="pT55p1070b1801" rend="margin-left:1em">右金毘羅童子者。此釋迦之化現也。經云。
+<lb n="1070b19" ed="T"/>佛在歡喜園中為諸眾生說法。是時外道
+<lb n="1070b20" ed="T"/>波旬起諸惡障。令諸眾生受大苦惱。爾時
+<lb n="1070b21" ed="T"/>如來密化自身作金毘羅童子。調伏外道
+<lb n="1070b22" ed="T"/>諸魔。於惡世中饒益眾生。此法也尤鎮國
+<lb n="1070b23" ed="T"/>利物之寶。法力之奇特也不思議。此像并
+<lb n="1070b24" ed="T"/>法儀。持明者所祕。本<note n="1070039" resp="Taisho" place="foot text" type="orig">朝＝猶【甲】【乙】【丙】</note><app n="1070039"><lem>朝</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">猶</rdg></app>未見。請來如件。</p></item>
+<lb n="1070b25" ed="T"/><item id="itemT55p1070b2501"><title><note n="1070040" resp="Taisho" place="foot text" type="orig">〔大聖〕－【甲】【乙】</note><app n="1070040"><lem>大聖</lem><rdg resp="Taisho" wit="【甲】【乙】">&lac;</rdg></app>六童子像一<note n="1070041" resp="Taisho" place="foot text" type="orig">軀＝鋪【甲】【乙】【丙】</note><app n="1070041"><lem>軀</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">鋪</rdg></app></title>
+<lb n="1070b26" ed="T"/><p id="pT55p1070b2601" rend="margin-left:1em">右六童子者。經云。&CB00278;是過去諸佛之所化
+<lb n="1070b27" ed="T"/>身。為救護一切有情故。若有國土作此法
+<lb n="1070b28" ed="T"/>者。即至而現其身護國利人等者。今見唐
+<lb n="1070b29" ed="T"/>朝世人。多修此法。其力見奧。是靈像此間
+<lb n="1070b30" ed="T"/>未有流行。因而請來。其修行之<note n="1070042" resp="Taisho" place="foot text" type="orig">儀亦甚＝像亦其【乙】，儀示甚【丙】</note><note n="1070042" resp="CBETA" type="mod">儀亦甚＝像亦其【乙】，＝儀示甚【丙】</note><app n="1070042"><lem>儀。亦甚</lem><rdg resp="Taisho" wit="【乙】">像亦其</rdg><rdg resp="Taisho" wit="【丙】">儀示甚</rdg></app>
+<pb n="1070c" id="T55.2163.1070c" ed="T"/>
+<lb n="1070c01" ed="T"/><note n="1070043" resp="Taisho" place="foot text" type="orig">（不）＋&CB00520;【甲】【乙】【丙】</note><app n="1070043"><lem>&CB00520;</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">不&CB00520;</rdg></app>略。</p></item>
+<lb n="1070c02" ed="T"/><item id="itemT55p1070c0201"><title>大聖迦毘羅神王像一<note n="1070044" resp="Taisho" place="foot text" type="orig">軀＋（一軀）【丙】</note><app n="1070044"><lem>軀</lem><rdg resp="Taisho" wit="【丙】">軀一軀</rdg></app></title>
+<lb n="1070c03" ed="T"/><p id="pT55p1070c0301" rend="margin-left:1em">右神者。此是如來化身。秦代羅什三藏。昔
+<lb n="1070c04" ed="T"/>周五天感得此神相隨送來。今見唐中皆
+<lb n="1070c05" ed="T"/>貴此神為<note n="1070045" resp="Taisho" place="foot text" type="orig">權＝擁【甲】【乙】【丙】</note><app n="1070045"><lem>權</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">擁</rdg></app>法護國之憑若有病人稱名
+<lb n="1070c06" ed="T"/>即除。貧窮之人依願必富。靈驗見顯。無有
+<lb n="1070c07" ed="T"/>一人不歸依者。夫佛化從西東流。應時利
+<lb n="1070c08" ed="T"/>物。豈非如來<note n="1070046" resp="Taisho" place="foot text" type="orig">未＝來【甲】【丙】，〔未〕&M062403;－【乙】</note><app n="1070046"><lem>未</lem><rdg resp="Taisho" wit="【甲】【丙】">來</rdg><rdg resp="【乙】" wit="【？】">&lac;</rdg></app>化乎。</p></item>
+<lb n="1070c09" ed="T"/><note n="1070047" resp="Taisho" place="foot text" type="orig">〔三光…甚可軌也〕百八十五字－【甲】【乙】【丙】</note><app word-count="185" n="1070047"><lem><item id="itemT55p1070c0917"><title>三光天子像一軀</title></item>
+<lb n="1070c10" ed="T"/><item id="itemT55p1070c1001"><title>二十八宿像一軀</title>
+<lb n="1070c11" ed="T"/><p id="pT55p1070c1101" rend="margin-left:1em">右三光者日月五星名七耀。四四方七星
+<lb n="1070c12" ed="T"/>合二十八宿此土之人唯聞名見光。未知
+<lb n="1070c13" ed="T"/>其形量。今此耀宿之形像尤祕尤密。實有
+<lb n="1070c14" ed="T"/>靈驗。唐國猶不多傳。況乎日朝所未曾見。
+<lb n="1070c15" ed="T"/>但陰陽師等意推作像。以傳式用是不契
+<lb n="1070c16" ed="T"/>當耳。今所請像各有可軌也。</p></item>
+<lb n="1070c17" ed="T"/><item id="itemT55p1070c1701"><title>聖者菩提王像一軀</title>
+<lb n="1070c18" ed="T"/><p id="pT55p1070c1801" rend="margin-left:1em">右菩提王者。大唐山神也。潤州樓山有一
+<lb n="1070c19" ed="T"/>比丘。修練禪業現感此神現形表靈受戒
+<lb n="1070c20" ed="T"/>修道故名菩提王。隨人祈請加護成願。遂
+<lb n="1070c21" ed="T"/>為國鎮人歸也。因茲處處作像人人尊重
+<lb n="1070c22" ed="T"/>親見其事甚可軌也。</p></item></lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>
+<lb n="1070c23" ed="T"/><item id="itemT55p1070c2301"><title>深沙神王像一軀</title>
+<lb n="1070c24" ed="T"/><p id="pT55p1070c2401" rend="margin-left:1em">右唐代玄奘三藏遠涉五天感得此神。此
+<lb n="1070c25" ed="T"/>是北方多聞天王化身也。今唐國人總重
+<pb n="1071a" id="T55.2163.1071a" ed="T"/>
+<lb n="1071a01" ed="T"/>此神救災成益。其驗現前。無有一人不依
+<lb n="1071a02" ed="T"/>行者。寺裏人家皆在此神。<note n="1071001" resp="Taisho" place="foot text" type="orig">自見＝目【乙】</note><app n="1071001"><lem>自見</lem><rdg resp="Taisho" wit="【乙】">目</rdg></app>靈驗實不
+<lb n="1071a03" ed="T"/>思議。具事如記文。請來如件。</p></item>
+<lb n="1071a04" ed="T"/><item id="itemT55p1071a0401"><title>菩薩像一軀</title></item>
+<lb n="1071a05" ed="T"/><item id="itemT55p1071a0501"><title><note n="1071002" resp="Taisho" place="foot text" type="orig">此前行甲乙丙三本俱有七曜二十八宿形像八字</note>護摩爐壇樣一十五種</title>
+<lb n="1071a06" ed="T"/><p id="pT55p1071a0601" rend="margin-left:1em">右像唐朝示現。其靈驗奧也。人舉歸。息災
+<lb n="1071a07" ed="T"/>增福無<note n="1071003" resp="Taisho" place="foot text" type="orig">過＝邊【甲】【乙】</note><app n="1071003"><lem>過</lem><rdg resp="Taisho" wit="【甲】【乙】">邊</rdg></app>此者。具事如記文。請來如件。</p>
+<lb n="1071a08" ed="T"/><p id="pT55p1071a0801" rend="margin-left:1em">夫至道無言。非言不顯。真際絕形。待形乃
+<lb n="1071a09" ed="T"/>悟。絕形者是真如三寶。示形者其住持三
+<lb n="1071a10" ed="T"/>寶也。如來本願順機變相。大聖慈悲應時
+<lb n="1071a11" ed="T"/>濟物。經云。應以佛身得度者。即現佛身。乃
+<lb n="1071a12" ed="T"/>至八部身得度者。即皆現之而為說法等
+<lb n="1071a13" ed="T"/>也。凡<note n="1071004" resp="Taisho" place="foot text" type="orig">〔正〕－【丙】</note><app n="1071004"><lem>正</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app>法之世。魔伴<note n="1071005" resp="Taisho" place="foot text" type="orig">無＝立【甲】【乙】【丙】</note><app n="1071005"><lem>無</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">立</rdg></app>威。<note n="1071006" resp="Taisho" place="foot text" type="orig">〔所以佛〕－【丙】</note><app n="1071006"><lem>所以佛</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app><note n="1071007" resp="Taisho" place="foot text" type="orig">化＝陀&M062485;【甲】【乙】</note><sic n="1071007" resp="【甲】【乙】" corr="陀">化</sic>
+<lb n="1071a14" ed="T"/>多住慈悲。像末之時。邪<note n="1071008" resp="Taisho" place="foot text" type="orig">使＝便【甲】，使競興＝法【丙】</note><note n="1071008" resp="CBETA" type="mod">使競興＝法【丙】，使＝便【甲】</note><app n="1071008"><lem>使競興</lem><rdg resp="Taisho" wit="【丙】">法</rdg><rdg resp="Taisho" wit="【甲】">便競興</rdg></app>。所以如
+<lb n="1071a15" ed="T"/>來。多形忿怒。佛力如是。實鎮國利人之寶
+<lb n="1071a16" ed="T"/>也。受持頂戴。福利無極。外以摧魔軍。內以
+<lb n="1071a17" ed="T"/>調伏煩惱。諸佛智悲如此。</p></item></list></div1>
+<lb n="1071a18" ed="T"/><div1 type="other"><mulu level="1" label="傳法阿闍梨耶付物" type="其他"/><head>傳法阿闍梨耶付物</head>
+<lb n="1071a19" ed="T"/><list><item id="itemT55p1071a1901"><title>五鈷金剛杵一</title></item>
+<lb n="1071a20" ed="T"/><item id="itemT55p1071a2001"><title>三鈷金剛杵一</title></item>
+<lb n="1071a21" ed="T"/><item id="itemT55p1071a2101"><title>銅鈸一具</title></item>
+<lb n="1071a22" ed="T"/><item id="itemT55p1071a2201"><title>銅鐃一口</title></item>
+<lb n="1071a23" ed="T"/><item id="itemT55p1071a2301"><title>金剛樹子念珠一貫</title></item>
+<lb n="1071a24" ed="T"/><item id="itemT55p1071a2401"><title>多羅梵夾一口</title></item>
+<lb n="1071a25" ed="T"/><item id="itemT55p1071a2501"><title>金剛<note n="1071009" resp="Taisho" place="foot text" type="orig">海＝界【丙】</note><app n="1071009"><lem>海</lem><rdg resp="Taisho" wit="【丙】">界</rdg></app>三十七尊種子曼荼羅一<note n="1071010" resp="Taisho" place="foot text" type="orig">〔面〕－【甲】【乙】【丙】</note><app n="1071010"><lem>面</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app></title></item>
+<lb n="1071a26" ed="T"/><item id="itemT55p1071a2601"><title><note n="1071011" resp="Taisho" place="foot text" type="orig">〔君茶…種〕七字－【甲】【乙】【丙】</note><app word-count="7" n="1071011"><lem>君茶壇樣十七種</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app></title></item>
+<lb n="1071a27" ed="T"/><item id="itemT55p1071a2701"><title><note n="1071012" resp="Taisho" place="foot text" type="orig">（西天…條）九字∞（西天…面）六字【甲】</note><note n="1071012" resp="CBETA" type="mod">（西天供養白疊巾一條）九字∞（西天檀褥一面）六字【甲】</note><app n="1071012"><lem>西天供養白疊巾一條</lem><rdg resp="Taisho" wit="【甲】">西天檀褥一面</rdg></app></title></item>
+<lb n="1071a28" ed="T"/><item id="itemT55p1071a2801"><title><note n="1071013" resp="Taisho" place="foot text" type="orig">（西天…條）九字∞（西天…面）六字【甲】</note><note n="1071013" resp="CBETA" type="mod">（西天供養白疊巾一條）九字∞（西天檀褥一面）六字【甲】</note><app n="1071013"><lem>西天檀褥一面</lem><rdg resp="Taisho" wit="【甲】">西天供養白疊巾一條</rdg></app></title></item>
+<lb n="1071a29" ed="T"/><item id="itemT55p1071a2901"><title>傳法阿闍梨授弟子灌頂法二卷</title>
+<pb n="1071b" id="T55.2163.1071b" ed="T"/>
+<lb n="1071b01" ed="T"/><p id="pT55p1071b0101" rend="margin-left:1em">右道具。&CB00278;栖靈寺阿闍梨之所<note n="1071014" resp="Taisho" place="foot text" type="orig">〔傳〕－【甲】</note><app n="1071014"><lem>傳</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>付也。</p>
+<lb n="1071b02" ed="T"/><p id="pT55p1071b0201">常曉去承和五年仲夏之月。<note n="1071015" resp="Taisho" place="foot text" type="orig">〔隨入唐〕－【乙】【丙】</note><app n="1071015"><lem>隨入唐</lem><rdg resp="Taisho" wit="【乙】【丙】">&lac;</rdg></app>判官
+<lb n="1071b03" ed="T"/><note n="1071016" resp="Taisho" place="foot text" type="orig">〔菅〕－【丙】，菅＝藤&M062485;【丙】</note><app n="1071016"><lem><sic resp="【丙】" corr="藤">菅</sic></lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app>原朝臣善主。同上<note n="1071017" resp="Taisho" place="foot text" type="orig">第四舶發＝弟【丙】</note><app n="1071017"><lem>第四舶發</lem><rdg resp="Taisho" wit="【丙】">弟</rdg></app><note n="1071018" resp="Taisho" place="foot text" type="orig">赴＝起【丙】</note><app n="1071018"><lem>赴</lem><rdg resp="Taisho" wit="【丙】">起</rdg></app><note n="1071019" resp="Taisho" place="foot text" type="orig">尸＝支【甲】</note><app n="1071019"><lem>尸</lem><rdg resp="Taisho" wit="【甲】">支</rdg></app>那。
+<lb n="1071b04" ed="T"/>其<note n="1071020" resp="Taisho" place="foot text" type="orig">〔年〕－【甲】【乙】【丙】</note><app n="1071020"><lem>年</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>六月到揚州著岸。八月下<note n="1071021" resp="Taisho" place="foot text" type="orig">旬＝句【丙】</note><app n="1071021"><lem>旬</lem><rdg resp="Taisho" wit="【丙】">句</rdg></app>到淮南
+<lb n="1071b05" ed="T"/>大都督府廣<note n="1071022" resp="Taisho" place="foot text" type="orig">綾＝凌【丙】</note><app n="1071022"><lem>綾</lem><rdg resp="Taisho" wit="【丙】">凌</rdg></app>&CB00419;安置。同年十二月住栖靈
+<lb n="1071b06" ed="T"/>寺大悲持念院。隨同寺灌頂阿闍梨文&CB03140;和
+<lb n="1071b07" ed="T"/>尚。并華林寺三教講論大德元照座主。顯密
+<lb n="1071b08" ed="T"/>兩法頗以兼習。六年正月四日設<note n="1071023" resp="Taisho" place="foot text" type="orig">二＝一【丙】</note><app n="1071023"><lem>二</lem><rdg resp="Taisho" wit="【丙】">一</rdg></app><note n="1071024" resp="Taisho" place="foot text" type="orig">百＝日【乙】【丙】</note><app n="1071024"><lem>百</lem><rdg resp="Taisho" wit="【乙】【丙】">日</rdg></app>僧
+<lb n="1071b09" ed="T"/>齋。普供四眾。於此日諸寺大德綱維&CB00278;臨齋
+<lb n="1071b10" ed="T"/>會應供隨喜。常曉夜就師邊受學瑜伽。<note n="1071025" resp="Taisho" place="foot text" type="orig">晝＝盡【甲】【丙】</note><app n="1071025"><lem>晝</lem><rdg resp="Taisho" wit="【甲】【丙】">盡</rdg></app>周
+<lb n="1071b11" ed="T"/>諸寺<note n="1071026" resp="Taisho" place="foot text" type="orig">覓＝不見【丙】</note><app n="1071026"><lem>覓</lem><rdg resp="Taisho" wit="【丙】">不見</rdg></app><note n="1071027" resp="Taisho" place="foot text" type="orig">問＝向【丙】</note><app n="1071027"><lem>問</lem><rdg resp="Taisho" wit="【丙】">向</rdg></app>法門。則喚<note n="1071028" resp="Taisho" place="foot text" type="orig">〔即〕－&M062485;【丙】</note><sic n="1071028" resp="【丙】" corr="＆lac；">即</sic>供奉李<note n="1071029" resp="Taisho" place="foot text" type="orig">全＝金【甲】【乙】【丙】</note><app n="1071029"><lem>全</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">金</rdg></app>等圖
+<lb n="1071b12" ed="T"/>繪<app source="1070014" type="＊"><lem>大</lem><rdg resp="Taisho" wit="【甲】【丙】">太</rdg></app>元帥<note n="1071030" resp="Taisho" place="foot text" type="orig">將＝大&M062403;【原】</note><app n="1071030"><lem>將</lem><rdg resp="【原】" wit="【？】">大</rdg></app>部曼荼羅等諸尊像。并寫文
+<lb n="1071b13" ed="T"/>書。漸有次第。二月十九日受傳法阿闍梨位
+<lb n="1071b14" ed="T"/>灌頂。於此日設大齋普供大眾。留後判官藤
+<lb n="1071b15" ed="T"/>原朝臣貞敏。別<note n="1071031" resp="Taisho" place="foot text" type="orig">〔請丹墀〕－【丙】</note><app n="1071031"><lem>請丹墀</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app>真人高主知乘安墀
+<lb n="1071b16" ed="T"/>宿禰<note n="1071032" resp="Taisho" place="foot text" type="orig">〔良棟〕－【丙】</note><app n="1071032"><lem>良棟</lem><rdg resp="Taisho" wit="【丙】">&lac;</rdg></app>等。<note n="1071033" resp="Taisho" place="foot text" type="orig">同＝聞【丙】</note><app n="1071033"><lem>同</lem><rdg resp="Taisho" wit="【丙】">聞</rdg></app>臨道場。拋花定本尊。受五
+<lb n="1071b17" ed="T"/>智灌頂。二十一日准&CB00330;離州&CB00230;赴本朝。常曉
+<lb n="1071b18" ed="T"/>本業三論之枝。兼真言之條。而才能不聞。言
+<lb n="1071b19" ed="T"/>無取。逢時<note n="1071034" resp="Taisho" place="foot text" type="orig">之人＝乏人【甲】，乏入【乙】</note><note n="1071034" resp="CBETA" type="mod">之人＝乏人【甲】，＝乏入【乙】</note><app n="1071034"><lem>之人</lem><rdg resp="Taisho" wit="【甲】">乏人</rdg><rdg resp="Taisho" wit="【乙】">乏入</rdg></app><note n="1071035" resp="Taisho" place="foot text" type="orig">簉＝選&M062485;【丙】</note><sic n="1071035" resp="【丙】" corr="選">簉</sic>留學<note n="1071036" resp="Taisho" place="foot text" type="orig">員＝真【乙】，貞【丙】</note><note n="1071036" resp="CBETA" type="mod">員＝真【乙】，＝貞【丙】</note><app n="1071036"><lem>員</lem><rdg resp="Taisho" wit="【乙】">真</rdg><rdg resp="Taisho" wit="【丙】">貞</rdg></app>限以三十年。尋
+<lb n="1071b20" ed="T"/>以一乘。任重人<note n="1071037" resp="Taisho" place="foot text" type="orig">弱＝溺【丙】</note><app n="1071037"><lem>弱</lem><rdg resp="Taisho" wit="【丙】">溺</rdg></app>。夙夜懃<note n="1071038" resp="Taisho" place="foot text" type="orig">愿＝慇【甲】</note><app n="1071038"><lem>愿</lem><rdg resp="Taisho" wit="【甲】">慇</rdg></app>。雖然國命難
+<lb n="1071b21" ed="T"/>乖<note n="1071039" resp="Taisho" place="foot text" type="orig">忘＝忌【丙】</note><app n="1071039"><lem>忘</lem><rdg resp="Taisho" wit="【丙】">忌</rdg></app><note n="1071040" resp="Taisho" place="foot text" type="orig">親＝視【甲】【乙】【丙】</note><app n="1071040"><lem>親</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">視</rdg></app>萬里住<note n="1071041" resp="Taisho" place="foot text" type="orig">心＝止【丙】</note><app n="1071041"><lem>心</lem><rdg resp="Taisho" wit="【丙】">止</rdg></app>遠境。且頗受學顯密兩
+<lb n="1071b22" ed="T"/>道。比未見及太<note n="1071042" resp="Taisho" place="foot text" type="orig">知＝和【甲】【乙】【丙】</note><app n="1071042"><lem>知</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">和</rdg></app>有&CB00330;不聽<note n="1071043" resp="Taisho" place="foot text" type="orig">留＝&CB08619;【丙】</note><app n="1071043"><lem>留</lem><rdg resp="Taisho" wit="【丙】">&CB08619;</rdg></app>住。<note n="1071044" resp="Taisho" place="foot text" type="orig">（因）＋而【甲】【丙】</note><app n="1071044"><lem>而</lem><rdg resp="Taisho" wit="【甲】【丙】">因而</rdg></app>隨使
+<lb n="1071b23" ed="T"/>&CB00230;迴。少間所成<note n="1071045" resp="Taisho" place="foot text" type="orig">此＝些些【甲】【乙】，此＋（此）【丙】</note><app n="1071045"><lem>此</lem><rdg resp="Taisho" wit="【甲】【乙】">些些</rdg><rdg resp="Taisho" wit="【丙】">此此</rdg></app>法儀注顯如件。</p>
+<lb n="1071b24" ed="T"/><p id="pT55p1071b2401" rend="margin-left:1em">承和六年九月五日。</p>
+<lb n="1071b25" ed="T"/><p id="pT55p1071b2501" rend="margin-left:3em">入唐學法沙門傳燈大法師位常曉上。</p></item></list></div1>
 </body></text></TEI.2>
