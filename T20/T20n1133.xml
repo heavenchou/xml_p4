@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T20n1133.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+[<!ENTITY % ENTY SYSTEM "T20n1133.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
 %ENTY;
 %CBENT;
 ]>
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2004/10/21 08:20:04 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2006/04/04 01:16:33 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/10/21 08:20:04 $</date>
+		<date>$Date: 2006/04/04 01:16:33 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 20, No. 1133 &desc;</bibl>
@@ -57,6 +57,9 @@
 	</change>
 <!--
 $Log: T20n1133.xml,v $
+Revision 1.6  2006/04/04 01:16:33  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.5  2004/10/21 08:20:04  saywhat
 段落前加入圈點
 
@@ -113,96 +116,96 @@ Revision 1.5  2001/02/07 06:56:19  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.4  2001/02/03 07:46:15  chris
-Added keywords $Revision: 1.5 $, $Date: 2004/10/21 08:20:04 $ and $Log.
+Added keywords $Revision: 1.6 $, $Date: 2006/04/04 01:16:33 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<lb n="0575a11"/>
-<milestone unit="juan" n="1"/>
-<lb n="0575a12"/>
-<lb n="0575a13"/><head type="no">No. 1133 [cf. No. 1134]</head>
-<lb n="0575a14"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0575008" resp="Taisho" type="orig" place="foot text">【原】麗本，【甲】三十帖策子第十九，【乙】黃檗版淨嚴等校訂加筆本</note>金剛壽命陀羅尼念誦法</jhead></juan>
-<lb n="0575a15"/>
-<lb n="0575a16"/><byline type="Translator">
-<note n="0575009" resp="Taisho" type="orig" place="foot text">（開府…寺）三十七字＝（南天竺國）四字【宋】【元】【甲】，（唐南天竺國）五字【明】【乙】</note>
+<lb n="0575a11" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0575a12" ed="T"/>
+<lb n="0575a13" ed="T"/><head type="no">No. 1133 [cf. No. 1134]</head>
+<lb n="0575a14" ed="T"/><juan n="001" fun="open"><mulu n="001" type="卷"/><jhead><note n="0575008" resp="Taisho" place="foot text" type="orig">【原】麗本，【甲】三十帖策子第十九，【乙】黃檗版淨嚴等校訂加筆本</note>金剛壽命陀羅尼念誦法</jhead></juan>
+<lb n="0575a15" ed="T"/>
+<lb n="0575a16" ed="T"/><byline type="Translator">
+<note n="0575009" resp="Taisho" place="foot text" type="orig">（開府…寺）三十七字＝（南天竺國）四字【宋】【元】【甲】，（唐南天竺國）五字【明】【乙】</note>
 <note n="0575009" resp="CBETA" type="mod">（開府…寺）三十七字＝（南天竺國）四字【宋】【元】【甲】，＝（唐南天竺國）五字【明】【乙】</note>
-<app n="0575009" word-count="37"><lem>開府儀同三司特進試鴻臚卿肅國
-<lb n="0575a17"/>公食邑三千戶賜紫贈司空諡大鑒
-<lb n="0575a18"/>正號大廣智大興善寺</lem>
-<rdg wit="【宋】【元】【甲】" resp="Taisho">南天竺國</rdg>
-<rdg wit="【明】【乙】" resp="Taisho">唐南天竺國</rdg></app>三<note n="0575010" resp="Taisho" type="orig" place="foot text">藏＋（金剛智與）【三】【乙】</note><note n="0575010" resp="CBETA" type="mod">藏＋（金剛智與）【宋】【元】【明】【乙】</note><app n="0575010"><lem>藏</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">藏金剛智與</rdg></app>沙門
-<lb n="0575a19"/>不空奉　詔譯</byline>
-<lb n="0575a20"/><div1 type="jing"><p>我今依金剛頂瑜伽經。毘盧遮那報身佛。於
-<lb n="0575a21"/>色界頂第四禪。成等正覺。即下須彌頂金寶
-<lb n="0575a22"/><note n="0575011" resp="Taisho" type="orig" place="foot text">〔&CB00123;〕－【宋】【元】【甲】</note><app n="0575011"><lem>&CB00123;</lem><rdg wit="【宋】【元】【甲】" resp="Taisho">&lac;</rdg></app>樓閣。盡虛空遍法界一切如來。皆悉雲集
-<lb n="0575a23"/>前後圍遶。異口同音。惟願世尊轉微妙法甚
-<lb n="0575a24"/>深祕密四種<note n="0575012" resp="Taisho" type="orig" place="foot text">〔法〕－【三】【甲】【乙】</note><note n="0575012" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【甲】【乙】</note><app n="0575012"><lem>法</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">&lac;</rdg></app>輪。所謂金剛界輪。降三世教
-<lb n="0575a25"/>令輪。遍調伏法輪。一切義利成就輪。如是四
-<lb n="0575a26"/>輪。從毘盧遮那如來心出。一一輪皆有三十
-<lb n="0575a27"/>七聖者。一一真言一一三摩地一一印契。威
-<lb n="0575a28"/>儀執持大悲願力。於雜染佛世界。淨妙佛世
-<lb n="0575a29"/>界。或隱或顯輪轉利樂。度諸眾生各各不同。
-<pb ed="T" id="T20.1133.0575b" n="0575b"/>
-<lb n="0575b01"/>毘盧遮那佛受諸如來請已。欲轉法輪時。即
-<lb n="0575b02"/>入三摩地。觀見摩醯首羅天等剛強難化。執
-<lb n="0575b03"/>著邪見。非我寂靜大悲之身。堪任調伏。於時
-<lb n="0575b04"/>世尊入忿怒三摩地。從胸臆五&CB00123;金剛菩提
-<lb n="0575b05"/>心。流出四面八臂威德熾盛赫奕難&CB00418;降三
-<lb n="0575b06"/>世金剛菩薩身。遍禮毘盧遮那<note n="0575013" resp="Taisho" type="orig" place="foot text">及＝佛【明】【乙】</note><app n="0575013"><lem>及</lem><rdg wit="【明】【乙】" resp="Taisho">佛</rdg></app>一切諸佛。
-<lb n="0575b07"/><note n="0575014" resp="Taisho" type="orig" place="foot text">唯＝惟【三】【乙】</note><note n="0575014" resp="CBETA" type="mod">唯＝惟【宋】【元】【明】【乙】</note><app n="0575014"><lem>唯</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">惟</rdg></app>願世尊示教於我。何所為作佛告降三世
-<lb n="0575b08"/>菩薩。汝今調伏難調諸天。令歸依諸佛法僧
-<lb n="0575b09"/>發菩提心。諸天盡皆歸依。唯大自在天恃大
-<lb n="0575b10"/>威德。來相拒敵。降三世種種苦治。乃至於死。
-<lb n="0575b11"/>毘盧遮那佛入<note n="0575015" resp="Taisho" type="orig" place="foot text">悲＝慈【三】【乙】</note><note n="0575015" resp="CBETA" type="mod">悲＝慈【宋】【元】【明】【乙】</note><app n="0575015"><lem>悲</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">慈</rdg></app>愍大悲三昧耶。說金剛壽
-<lb n="0575b12"/>命陀羅尼。便入金剛壽命三摩地。乃結印契
-<lb n="0575b13"/>加持<note n="0575016" resp="Taisho" type="orig" place="foot text">摩＝魔【宋】【元】</note><app n="0575016"><lem>摩</lem><rdg wit="【宋】【元】" resp="Taisho">魔</rdg></app>醯首羅天。復還得蘇。更增壽命。歸
-<lb n="0575b14"/>依諸佛灌頂。<note n="0575017" resp="Taisho" type="orig" place="foot text">授＝受【三】【甲】【乙】</note><note n="0575017" resp="CBETA" type="mod">授＝受【宋】【元】【明】【甲】【乙】</note><app n="0575017"><lem>授</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">受</rdg></app>記證得八地。金剛壽命真言
-<lb n="0575b15"/>曰。</p>
-<lb n="0575b16"/><p type="dharani"><note n="0575018" resp="Taisho" type="orig" place="foot text">唵＋（引一）細註【三】【乙】＊</note><note n="0575018" resp="CBETA" type="mod">唵＋（引一）細註【宋】【元】【明】【乙】＊</note><app n="0575018"><lem>唵</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">唵<note place="inline">引一</note></rdg></app>&CB00085;日囉<note place="inline">二合</note>喻<note n="0575019" resp="Taisho" type="orig" place="foot text">&CB01970;＝曬【三】【甲】【乙】</note><note n="0575019" resp="CBETA" type="mod">&CB01970;＝曬【宋】【元】【明】【甲】【乙】</note><app n="0575019"><lem>&CB01970;</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">曬</rdg></app>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline"><note n="0575020" resp="Taisho" type="orig" place="foot text">引＋（二）【三】【乙】</note><note n="0575020" resp="CBETA" type="mod">引＋（二）【宋】【元】【明】【乙】</note><app n="0575020"><lem>引</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">引二</rdg></app></note></p>
-<lb n="0575b17"/><p>佛告執金剛菩薩。若有善男子善女人受持
-<lb n="0575b18"/>念誦日各三時時別千遍。過去所有惡業因
-<lb n="0575b19"/>緣。短命夭壽。由持此陀羅尼故。信心清淨業
-<lb n="0575b20"/>障銷滅。更增壽命。若有修習三摩地者。現生
-<lb n="0575b21"/>不轉父母生身。獲五神通。凌虛自在。說三摩
-<lb n="0575b22"/>地門。結加趺坐端身閉目。二手重疊安於臍
-<lb n="0575b23"/>下。<note n="0575021" resp="Taisho" type="orig" place="foot text">〔於〕－【三】【甲】【乙】</note><note n="0575021" resp="CBETA" type="mod">〔於〕－【宋】【元】【明】【甲】【乙】</note><app n="0575021"><lem>於</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">&lac;</rdg></app>虛空中遍想諸佛。了了分明。即於自
-<lb n="0575b24"/>身中當<note n="0575022" resp="Taisho" type="orig" place="foot text">心觀＝觀心【三】【乙】</note><note n="0575022" resp="CBETA" type="mod">心觀＝觀心【宋】【元】【明】【乙】</note><app n="0575022"><lem>心觀</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">觀心</rdg></app>如滿月。光明瑩徹。上有五股金
-<lb n="0575b25"/>剛杵。形漸大如等身。變為降三世菩薩。頂有
-<lb n="0575b26"/>毘盧遮那佛。從佛遍身遍毛孔中。出甘露灌
-<lb n="0575b27"/>頂。注自身入於心中。復想金剛薩埵菩薩。即
-<lb n="0575b28"/>結金剛壽命菩薩陀羅尼印。二手金剛拳。以
-<lb n="0575b29"/>頭指右押左相鉤。安於頂上。誦金剛壽命陀
-<pb ed="T" id="T20.1133.0575c" n="0575c"/>
-<lb n="0575c01"/>羅尼七遍。安於額上。分手繫<note n="0575023" resp="Taisho" type="orig" place="foot text">項＝頂【三】【乙】</note><note n="0575023" resp="CBETA" type="mod">項＝頂【宋】【元】【明】【乙】</note><app n="0575023"><lem>項</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">頂</rdg></app>後。直舒二
-<lb n="0575c02"/>指。遍身旋轉如擐甲冑勢。甲冑真言曰。</p>
-<lb n="0575c03"/><p type="dharani"><app type="＊" source="0575018"><lem>唵</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">唵<note place="inline">引一</note></rdg></app><note n="0575024" resp="Taisho" type="orig" place="foot text">砧＝碪【三】【乙】</note><note n="0575024" resp="CBETA" type="mod">砧＝碪【宋】【元】【明】【乙】</note><app n="0575024"><lem>砧</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">碪</rdg></app><note place="inline">&CB00353;簪<note n="0575025" resp="Taisho" type="orig" place="foot text">反＋（二）【宋】【元】，反＝切二【明】【乙】</note><app n="0575025"><lem>反</lem><rdg wit="【宋】【元】" resp="Taisho">反二</rdg><rdg wit="【明】【乙】" resp="Taisho">切二</rdg></app></note>&CB00085;日囉<note place="inline">二<note n="0575026" resp="Taisho" type="orig" place="foot text">合＋（引）【三】【乙】</note><note n="0575026" resp="CBETA" type="mod">合＋（引）【宋】【元】【明】【乙】</note><app n="0575026"><lem>合</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">合引</rdg></app></note><note n="0575027" resp="Taisho" type="orig" place="foot text">欲＋（三）細註【三】【乙】</note><note n="0575027" resp="CBETA" type="mod">欲＋（三）細註【宋】【元】【明】【乙】</note><app n="0575027"><lem>欲</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">欲<note place="inline">三</note></rdg></app></p>
-<lb n="0575c04"/><p>由加持此印故。獲得身如金剛。不壞離諸災
-<lb n="0575c05"/>橫。見者歡喜生大恭敬。</p>
-<lb n="0575c06"/><p>次說護摩除災延命壇。治一淨室。於東邊安
-<lb n="0575c07"/>金剛壽命菩薩像。懸諸幡蓋。像前作三肘方
-<lb n="0575c08"/>壇。掘深去瓦礫骨灰諸不淨物等。如其地無
-<lb n="0575c09"/>諸穢物還取舊土填之。土若有餘是大吉祥
-<lb n="0575c10"/>相。法易成就。若有穢物。即取河兩岸淨土填
-<lb n="0575c11"/>平。和諸香瞿摩夷塗。壇中心<note n="0575028" resp="Taisho" type="orig" place="foot text">畫＝盡【元】</note><app n="0575028"><lem>畫</lem><rdg wit="【元】" resp="Taisho">盡</rdg></app>以<note n="0575029" resp="Taisho" type="orig" place="foot text">白＝自【宋】</note><app n="0575029"><lem>白</lem><rdg wit="【宋】" resp="Taisho">自</rdg></app>粉。作
-<lb n="0575c12"/>一肘半金剛甲冑。中央穿一爐。深半肘。周圍
-<lb n="0575c13"/><note n="0575030" resp="Taisho" type="orig" place="foot text">（安）＋緣【三】【甲】【乙】</note><note n="0575030" resp="CBETA" type="mod">（安）＋緣【宋】【元】【明】【甲】【乙】</note><app n="0575030"><lem>緣</lem><rdg wit="【宋】【元】【明】【甲】【乙】" resp="Taisho">安緣</rdg></app>。如不欲穿者安火爐。行者火爐前坐。壇
-<lb n="0575c14"/>四面供養飲食諸果子等。壇四角安瓶。於爐
-<lb n="0575c15"/>中然炭。先辦乳木長十指&CB00308;如大指二十一。
-<lb n="0575c16"/><note n="0575031" resp="Taisho" type="orig" place="foot text">〔莖〕－【三】【乙】</note><note n="0575031" resp="CBETA" type="mod">〔莖〕－【宋】【元】【明】【乙】</note><app n="0575031"><lem>莖</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">&lac;</rdg></app>以<note n="0575032" resp="Taisho" type="orig" place="foot text">酥＝蘇【宋】【甲】＊</note><app n="0575032"><lem>酥</lem><rdg wit="【宋】【甲】" resp="Taisho">蘇</rdg></app>搵兩頭。誦金剛壽命真言。擲於火
-<lb n="0575c17"/>中。然熾盛已。即於火中想八葉蓮華。於華胎
-<lb n="0575c18"/>中想阿字。光明遍照。成金剛壽命菩薩。次以
-<lb n="0575c19"/>四字四明。引請菩薩入火爐。受諸供養。即以
-<lb n="0575c20"/>右手半金剛印。以水灑火令淨。次取一器盛
-<lb n="0575c21"/>滿融<app type="＊" source="0575032"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>。以骨屢草青者一莖。搵<app type="＊" source="0575032"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>。誦金剛
-<lb n="0575c22"/>壽命陀羅尼一遍。<note n="0575033" resp="Taisho" type="orig" place="foot text">擲＋（一莖）【三】【乙】</note><note n="0575033" resp="CBETA" type="mod">擲＋（一莖）【宋】【元】【明】【乙】</note><app n="0575033"><lem>擲</lem><rdg wit="【宋】【元】【明】【乙】" resp="Taisho">擲一莖</rdg></app>於火中。乃至一百八莖
-<lb n="0575c23"/>或一千八莖。次後擲燒諸香乳酪。念誦已畢。
-<lb n="0575c24"/>以三滿杓<app type="＊" source="0575032"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>傾於火中。初後如是。若能於三
-<lb n="0575c25"/>長齋月或自本生日。作是供養。能除災難增
-<pb ed="T" id="T20.1133.0576a" n="0576a"/>
-<lb n="0576a01"/>益壽命。國土安泰無諸災疫風雨<note n="0576001" resp="Taisho" type="orig" place="foot text">以＝已【甲】</note><app n="0576001"><lem>以</lem><rdg wit="【甲】" resp="Taisho">已</rdg></app>時。一切
-<lb n="0576a02"/>賢聖擁護其人。</p>
-<lb n="0576a03"/><juan fun="close" n="001"><jhead>金剛壽命陀羅尼念誦<note n="0576002" resp="Taisho" type="orig" place="foot text">法＋（三經同卷）【宋】，乙本奧書曰貞享元甲子九月二十日校點了淨嚴四十六載，元祿十六年正月二十九日以淨嚴和上之本再校了尊教</note><app n="0576002"><lem>法</lem><rdg wit="【宋】" resp="Taisho">法三經同卷</rdg></app><note n="0576002" place="foot" type="rest">乙本奧書曰貞享元甲子九月二十日校點了淨嚴四十六載，元祿十六年正月二十九日以淨嚴和上之本再校了尊教</note></jhead></juan></div1>
-</body></text></TEI.2>
+<app word-count="37" n="0575009"><lem>開府儀同三司特進試鴻臚卿肅國
+<lb n="0575a17" ed="T"/>公食邑三千戶賜紫贈司空諡大鑒
+<lb n="0575a18" ed="T"/>正號大廣智大興善寺</lem>
+<rdg resp="Taisho" wit="【宋】【元】【甲】">南天竺國</rdg>
+<rdg resp="Taisho" wit="【明】【乙】">唐南天竺國</rdg></app>三<note n="0575010" resp="Taisho" place="foot text" type="orig">藏＋（金剛智與）【三】【乙】</note><note n="0575010" resp="CBETA" type="mod">藏＋（金剛智與）【宋】【元】【明】【乙】</note><app n="0575010"><lem>藏</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">藏金剛智與</rdg></app>沙門
+<lb n="0575a19" ed="T"/>不空奉　詔譯</byline>
+<lb n="0575a20" ed="T"/><div1 type="jing"><p id="pT20p0575a2001">我今依金剛頂瑜伽經。毘盧遮那報身佛。於
+<lb n="0575a21" ed="T"/>色界頂第四禪。成等正覺。即下須彌頂金寶
+<lb n="0575a22" ed="T"/><note n="0575011" resp="Taisho" place="foot text" type="orig">〔&CB00123;〕－【宋】【元】【甲】</note><app n="0575011"><lem>&CB00123;</lem><rdg resp="Taisho" wit="【宋】【元】【甲】">&lac;</rdg></app>樓閣。盡虛空遍法界一切如來。皆悉雲集
+<lb n="0575a23" ed="T"/>前後圍遶。異口同音。惟願世尊轉微妙法甚
+<lb n="0575a24" ed="T"/>深祕密四種<note n="0575012" resp="Taisho" place="foot text" type="orig">〔法〕－【三】【甲】【乙】</note><note n="0575012" resp="CBETA" type="mod">〔法〕－【宋】【元】【明】【甲】【乙】</note><app n="0575012"><lem>法</lem><rdg resp="Taisho" wit="【宋】【元】【明】【甲】【乙】">&lac;</rdg></app>輪。所謂金剛界輪。降三世教
+<lb n="0575a25" ed="T"/>令輪。遍調伏法輪。一切義利成就輪。如是四
+<lb n="0575a26" ed="T"/>輪。從毘盧遮那如來心出。一一輪皆有三十
+<lb n="0575a27" ed="T"/>七聖者。一一真言一一三摩地一一印契。威
+<lb n="0575a28" ed="T"/>儀執持大悲願力。於雜染佛世界。淨妙佛世
+<lb n="0575a29" ed="T"/>界。或隱或顯輪轉利樂。度諸眾生各各不同。
+<pb n="0575b" id="T20.1133.0575b" ed="T"/>
+<lb n="0575b01" ed="T"/>毘盧遮那佛受諸如來請已。欲轉法輪時。即
+<lb n="0575b02" ed="T"/>入三摩地。觀見摩醯首羅天等剛強難化。執
+<lb n="0575b03" ed="T"/>著邪見。非我寂靜大悲之身。堪任調伏。於時
+<lb n="0575b04" ed="T"/>世尊入忿怒三摩地。從胸臆五&CB00123;金剛菩提
+<lb n="0575b05" ed="T"/>心。流出四面八臂威德熾盛赫奕難&CB00418;降三
+<lb n="0575b06" ed="T"/>世金剛菩薩身。遍禮毘盧遮那<note n="0575013" resp="Taisho" place="foot text" type="orig">及＝佛【明】【乙】</note><app n="0575013"><lem>及</lem><rdg resp="Taisho" wit="【明】【乙】">佛</rdg></app>一切諸佛。
+<lb n="0575b07" ed="T"/><note n="0575014" resp="Taisho" place="foot text" type="orig">唯＝惟【三】【乙】</note><note n="0575014" resp="CBETA" type="mod">唯＝惟【宋】【元】【明】【乙】</note><app n="0575014"><lem>唯</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">惟</rdg></app>願世尊示教於我。何所為作佛告降三世
+<lb n="0575b08" ed="T"/>菩薩。汝今調伏難調諸天。令歸依諸佛法僧
+<lb n="0575b09" ed="T"/>發菩提心。諸天盡皆歸依。唯大自在天恃大
+<lb n="0575b10" ed="T"/>威德。來相拒敵。降三世種種苦治。乃至於死。
+<lb n="0575b11" ed="T"/>毘盧遮那佛入<note n="0575015" resp="Taisho" place="foot text" type="orig">悲＝慈【三】【乙】</note><note n="0575015" resp="CBETA" type="mod">悲＝慈【宋】【元】【明】【乙】</note><app n="0575015"><lem>悲</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">慈</rdg></app>愍大悲三昧耶。說金剛壽
+<lb n="0575b12" ed="T"/>命陀羅尼。便入金剛壽命三摩地。乃結印契
+<lb n="0575b13" ed="T"/>加持<note n="0575016" resp="Taisho" place="foot text" type="orig">摩＝魔【宋】【元】</note><app n="0575016"><lem>摩</lem><rdg resp="Taisho" wit="【宋】【元】">魔</rdg></app>醯首羅天。復還得蘇。更增壽命。歸
+<lb n="0575b14" ed="T"/>依諸佛灌頂。<note n="0575017" resp="Taisho" place="foot text" type="orig">授＝受【三】【甲】【乙】</note><note n="0575017" resp="CBETA" type="mod">授＝受【宋】【元】【明】【甲】【乙】</note><app n="0575017"><lem>授</lem><rdg resp="Taisho" wit="【宋】【元】【明】【甲】【乙】">受</rdg></app>記證得八地。金剛壽命真言
+<lb n="0575b15" ed="T"/>曰。</p>
+<lb n="0575b16" ed="T"/><p id="pT20p0575b1601" type="dharani"><note n="0575018" resp="Taisho" place="foot text" type="orig">唵＋（引一）細註【三】【乙】＊</note><note n="0575018" resp="CBETA" type="mod">唵＋（引一）細註【宋】【元】【明】【乙】＊</note><app n="0575018"><lem>唵</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">唵<note place="inline">引一</note></rdg></app>&CB00085;日囉<note place="inline">二合</note>喻<note n="0575019" resp="Taisho" place="foot text" type="orig">&CB01970;＝曬【三】【甲】【乙】</note><note n="0575019" resp="CBETA" type="mod">&CB01970;＝曬【宋】【元】【明】【甲】【乙】</note><app n="0575019"><lem>&CB01970;</lem><rdg resp="Taisho" wit="【宋】【元】【明】【甲】【乙】">曬</rdg></app>娑&CB00085;<note place="inline">二合引</note>賀<note place="inline"><note n="0575020" resp="Taisho" place="foot text" type="orig">引＋（二）【三】【乙】</note><note n="0575020" resp="CBETA" type="mod">引＋（二）【宋】【元】【明】【乙】</note><app n="0575020"><lem>引</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">引二</rdg></app></note></p>
+<lb n="0575b17" ed="T"/><p id="pT20p0575b1701">佛告執金剛菩薩。若有善男子善女人受持
+<lb n="0575b18" ed="T"/>念誦日各三時時別千遍。過去所有惡業因
+<lb n="0575b19" ed="T"/>緣。短命夭壽。由持此陀羅尼故。信心清淨業
+<lb n="0575b20" ed="T"/>障銷滅。更增壽命。若有修習三摩地者。現生
+<lb n="0575b21" ed="T"/>不轉父母生身。獲五神通。凌虛自在。說三摩
+<lb n="0575b22" ed="T"/>地門。結加趺坐端身閉目。二手重疊安於臍
+<lb n="0575b23" ed="T"/>下。<note n="0575021" resp="Taisho" place="foot text" type="orig">〔於〕－【三】【甲】【乙】</note><note n="0575021" resp="CBETA" type="mod">〔於〕－【宋】【元】【明】【甲】【乙】</note><app n="0575021"><lem>於</lem><rdg resp="Taisho" wit="【宋】【元】【明】【甲】【乙】">&lac;</rdg></app>虛空中遍想諸佛。了了分明。即於自
+<lb n="0575b24" ed="T"/>身中當<note n="0575022" resp="Taisho" place="foot text" type="orig">心觀＝觀心【三】【乙】</note><note n="0575022" resp="CBETA" type="mod">心觀＝觀心【宋】【元】【明】【乙】</note><app n="0575022"><lem>心觀</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">觀心</rdg></app>如滿月。光明瑩徹。上有五股金
+<lb n="0575b25" ed="T"/>剛杵。形漸大如等身。變為降三世菩薩。頂有
+<lb n="0575b26" ed="T"/>毘盧遮那佛。從佛遍身遍毛孔中。出甘露灌
+<lb n="0575b27" ed="T"/>頂。注自身入於心中。復想金剛薩埵菩薩。即
+<lb n="0575b28" ed="T"/>結金剛壽命菩薩陀羅尼印。二手金剛拳。以
+<lb n="0575b29" ed="T"/>頭指右押左相鉤。安於頂上。誦金剛壽命陀
+<pb n="0575c" id="T20.1133.0575c" ed="T"/>
+<lb n="0575c01" ed="T"/>羅尼七遍。安於額上。分手繫<note n="0575023" resp="Taisho" place="foot text" type="orig">項＝頂【三】【乙】</note><note n="0575023" resp="CBETA" type="mod">項＝頂【宋】【元】【明】【乙】</note><app n="0575023"><lem>項</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">頂</rdg></app>後。直舒二
+<lb n="0575c02" ed="T"/>指。遍身旋轉如擐甲冑勢。甲冑真言曰。</p>
+<lb n="0575c03" ed="T"/><p id="pT20p0575c0301" type="dharani"><app source="0575018" type="＊"><lem>唵</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">唵<note place="inline">引一</note></rdg></app><note n="0575024" resp="Taisho" place="foot text" type="orig">砧＝碪【三】【乙】</note><note n="0575024" resp="CBETA" type="mod">砧＝碪【宋】【元】【明】【乙】</note><app n="0575024"><lem>砧</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">碪</rdg></app><note place="inline">&CB00353;簪<note n="0575025" resp="Taisho" place="foot text" type="orig">反＋（二）【宋】【元】，反＝切二【明】【乙】</note><app n="0575025"><lem>反</lem><rdg resp="Taisho" wit="【宋】【元】">反二</rdg><rdg resp="Taisho" wit="【明】【乙】">切二</rdg></app></note>&CB00085;日囉<note place="inline">二<note n="0575026" resp="Taisho" place="foot text" type="orig">合＋（引）【三】【乙】</note><note n="0575026" resp="CBETA" type="mod">合＋（引）【宋】【元】【明】【乙】</note><app n="0575026"><lem>合</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">合引</rdg></app></note><note n="0575027" resp="Taisho" place="foot text" type="orig">欲＋（三）細註【三】【乙】</note><note n="0575027" resp="CBETA" type="mod">欲＋（三）細註【宋】【元】【明】【乙】</note><app n="0575027"><lem>欲</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">欲<note place="inline">三</note></rdg></app></p>
+<lb n="0575c04" ed="T"/><p id="pT20p0575c0401">由加持此印故。獲得身如金剛。不壞離諸災
+<lb n="0575c05" ed="T"/>橫。見者歡喜生大恭敬。</p>
+<lb n="0575c06" ed="T"/><p id="pT20p0575c0601">次說護摩除災延命壇。治一淨室。於東邊安
+<lb n="0575c07" ed="T"/>金剛壽命菩薩像。懸諸幡蓋。像前作三肘方
+<lb n="0575c08" ed="T"/>壇。掘深去瓦礫骨灰諸不淨物等。如其地無
+<lb n="0575c09" ed="T"/>諸穢物還取舊土填之。土若有餘是大吉祥
+<lb n="0575c10" ed="T"/>相。法易成就。若有穢物。即取河兩岸淨土填
+<lb n="0575c11" ed="T"/>平。和諸香瞿摩夷塗。壇中心<note n="0575028" resp="Taisho" place="foot text" type="orig">畫＝盡【元】</note><app n="0575028"><lem>畫</lem><rdg resp="Taisho" wit="【元】">盡</rdg></app>以<note n="0575029" resp="Taisho" place="foot text" type="orig">白＝自【宋】</note><app n="0575029"><lem>白</lem><rdg resp="Taisho" wit="【宋】">自</rdg></app>粉。作
+<lb n="0575c12" ed="T"/>一肘半金剛甲冑。中央穿一爐。深半肘。周圍
+<lb n="0575c13" ed="T"/><note n="0575030" resp="Taisho" place="foot text" type="orig">（安）＋緣【三】【甲】【乙】</note><note n="0575030" resp="CBETA" type="mod">（安）＋緣【宋】【元】【明】【甲】【乙】</note><app n="0575030"><lem>緣</lem><rdg resp="Taisho" wit="【宋】【元】【明】【甲】【乙】">安緣</rdg></app>。如不欲穿者安火爐。行者火爐前坐。壇
+<lb n="0575c14" ed="T"/>四面供養飲食諸果子等。壇四角安瓶。於爐
+<lb n="0575c15" ed="T"/>中然炭。先辦乳木長十指&CB00308;如大指二十一。
+<lb n="0575c16" ed="T"/><note n="0575031" resp="Taisho" place="foot text" type="orig">〔莖〕－【三】【乙】</note><note n="0575031" resp="CBETA" type="mod">〔莖〕－【宋】【元】【明】【乙】</note><app n="0575031"><lem>莖</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">&lac;</rdg></app>以<note n="0575032" resp="Taisho" place="foot text" type="orig">酥＝蘇【宋】【甲】＊</note><app n="0575032"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>搵兩頭。誦金剛壽命真言。擲於火
+<lb n="0575c17" ed="T"/>中。然熾盛已。即於火中想八葉蓮華。於華胎
+<lb n="0575c18" ed="T"/>中想阿字。光明遍照。成金剛壽命菩薩。次以
+<lb n="0575c19" ed="T"/>四字四明。引請菩薩入火爐。受諸供養。即以
+<lb n="0575c20" ed="T"/>右手半金剛印。以水灑火令淨。次取一器盛
+<lb n="0575c21" ed="T"/>滿融<app source="0575032" type="＊"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>。以骨屢草青者一莖。搵<app source="0575032" type="＊"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>。誦金剛
+<lb n="0575c22" ed="T"/>壽命陀羅尼一遍。<note n="0575033" resp="Taisho" place="foot text" type="orig">擲＋（一莖）【三】【乙】</note><note n="0575033" resp="CBETA" type="mod">擲＋（一莖）【宋】【元】【明】【乙】</note><app n="0575033"><lem>擲</lem><rdg resp="Taisho" wit="【宋】【元】【明】【乙】">擲一莖</rdg></app>於火中。乃至一百八莖
+<lb n="0575c23" ed="T"/>或一千八莖。次後擲燒諸香乳酪。念誦已畢。
+<lb n="0575c24" ed="T"/>以三滿杓<app source="0575032" type="＊"><lem>酥</lem><rdg resp="Taisho" wit="【宋】【甲】">蘇</rdg></app>傾於火中。初後如是。若能於三
+<lb n="0575c25" ed="T"/>長齋月或自本生日。作是供養。能除災難增
+<pb n="0576a" id="T20.1133.0576a" ed="T"/>
+<lb n="0576a01" ed="T"/>益壽命。國土安泰無諸災疫風雨<note n="0576001" resp="Taisho" place="foot text" type="orig">以＝已【甲】</note><app n="0576001"><lem>以</lem><rdg resp="Taisho" wit="【甲】">已</rdg></app>時。一切
+<lb n="0576a02" ed="T"/>賢聖擁護其人。</p>
+<lb n="0576a03" ed="T"/><juan n="001" fun="close"><jhead>金剛壽命陀羅尼念誦<note n="0576002" resp="Taisho" place="foot text" type="orig">法＋（三經同卷）【宋】，乙本奧書曰貞享元甲子九月二十日校點了淨嚴四十六載，元祿十六年正月二十九日以淨嚴和上之本再校了尊教</note><app n="0576002"><lem>法</lem><rdg resp="Taisho" wit="【宋】">法三經同卷</rdg></app><note n="0576002" type="rest" place="foot">乙本奧書曰貞享元甲子九月二十日校點了淨嚴四十六載，元祿十六年正月二十九日以淨嚴和上之本再校了尊教</note></jhead></juan></div1>
+</body></text></TEI.2>
