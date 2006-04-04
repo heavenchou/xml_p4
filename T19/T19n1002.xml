@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="big5" ?><!-- -*- coding: big5-dos -*- -->
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
-[<!ENTITY % ENTY  SYSTEM "T19n1002.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
-<!ENTITY % JAP  SYSTEM "../dtd/jap.ent" >
+[<!ENTITY % ENTY SYSTEM "T19n1002.ent">
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
 %JAP;
@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2004/10/14 16:25:34 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2006/04/04 01:01:46 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/10/14 16:25:34 $</date>
+		<date>$Date: 2006/04/04 01:01:46 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 19, No. 1002 &desc;</bibl>
@@ -60,6 +60,9 @@
 	</change>
 <!--
 $Log: T19n1002.xml,v $
+Revision 1.7  2006/04/04 01:01:46  saywhat
+p, lg, item 加上 id 屬性，lb 加上 ed="T" 屬性
+
 Revision 1.6  2004/10/14 16:25:34  saywhat
 段落前加入圈點
 
@@ -116,71 +119,71 @@ Revision 1.8  2001/02/07 06:55:04  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.7  2001/02/03 07:45:00  chris
-Added keywords $Revision: 1.6 $, $Date: 2004/10/14 16:25:34 $ and $Log.
+Added keywords $Revision: 1.7 $, $Date: 2006/04/04 01:01:46 $ and $Log.
 Added comment  for Emacs
 
 -->
  </revisionDesc>
 </teiHeader>
 <text><body>
-<pb ed="T" id="T19.1002.0606b" n="0606b"/>
-<lb n="0606b01"/>
-<milestone unit="juan" n="1"/>
-<lb n="0606b02"/><head type="no">No. 1002</head><div1 type="jing">
-<lb n="0606b03"/><juan fun="open" n="001"><mulu type="卷" n="001"/><jhead><note n="0606001" resp="Taisho" type="orig" place="foot text">【原】麗本，【甲】長寬三年寫高山寺藏本，【乙】仁安二年寫仁和寺藏本，【丙】三十帖策子第十九帖，此經宋元二本欠</note>不空&CB00559;索毘盧遮那佛大灌頂光
-<lb n="0606b04"/>真言<note n="0606002" resp="Taisho" type="orig" place="foot text">一卷＝經【明】＊</note><app n="0606002"><lem>一卷</lem><rdg wit="【明】" resp="Taisho">經</rdg></app></jhead></juan>
-<lb n="0606b05"/><p>　　　<note n="0606003" resp="Taisho" type="orig" place="foot text">〔出不空…卷〕十字－【明】</note><app n="0606003" word-count="10"><lem><note place="inline">出不空&CB00559;索經二十八卷</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app></p>
-<lb n="0606b06"/>
-<lb n="0606b07"/><byline type="Translator"><note n="0606004" resp="Taisho" type="orig" place="foot text">開府儀同三司＝唐【明】，〔開府儀同三司〕－【甲】【乙】【丙】</note><app n="0606004"><lem>開府儀同三司</lem><rdg wit="【明】" resp="Taisho">唐</rdg><rdg wit="【甲】【乙】【丙】" resp="Taisho">&lac;</rdg></app>特進試鴻臚卿
-<lb n="0606b08"/><note n="0606005" resp="Taisho" type="orig" place="foot text">（肅國…門）二十九字＝（北天竺三藏沙門大廣智）十字【明】，（大興善寺三藏沙門大廣智）十一字【甲】【乙】【丙】</note><note n="0606005" resp="CBETA" type="mod">（肅國…門）二十九字＝（北天竺三藏沙門大廣智）十字【明】，＝（大興善寺三藏沙門大廣智）十一字【甲】【乙】【丙】</note><app n="0606005" word-count="29"><lem>肅國公食邑三千戶賜紫贈司
-<lb n="0606b09"/>空諡大鑒正號大廣智大興善
-<lb n="0606b10"/>寺三藏沙門</lem><rdg wit="【明】" resp="Taisho">北天竺三藏沙門大廣智</rdg><rdg wit="【甲】【乙】【丙】" resp="Taisho">大興善寺三藏沙門大廣智</rdg></app>不空奉　詔譯</byline>
-<lb n="0606b11"/><p type="dharani"><tt><t lang="san-sd"><note n="0606006" resp="Taisho" type="orig" place="foot text">梵字真言麗明甲乙四本俱無，今依丙本補載之</note>&SD-E074;</t><t lang="chi"><note n="0606007" resp="Taisho" type="orig" place="foot text">唵＋（引一）細註【明】</note><app n="0606007"><lem>唵</lem><rdg wit="【明】" resp="Taisho">唵<note place="inline">引一</note></rdg></app></t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">阿</t></tt><tt><t lang="san-sd">&SD-A5ED;</t><t lang="chi">謨</t></tt><tt><t lang="san-sd">&SD-A464;</t><t lang="chi">伽</t></tt><tt><t lang="san-sd">&SD-A65D;</t><t lang="chi">尾</t></tt><tt><t lang="san-sd">&SD-A646;</t><t lang="chi"><note n="0606008" resp="Taisho" type="orig" place="foot text">嚧＝盧【明】</note><app n="0606008"><lem>嚧</lem><rdg wit="【明】" resp="Taisho">盧</rdg></app></t></tt><tt><t lang="san-sd">&SD-A47C;</t><t lang="chi">左</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">摩</t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><note n="0606009" resp="Taisho" type="orig" place="foot text">賀＝訶【明】</note><app n="0606009"><lem>賀</lem><rdg wit="【明】" resp="Taisho">訶</rdg></app></t></tt><tt><t lang="san-sd">&SD-AAC4;</t><t lang="chi">母捺</t></tt>
-<lb n="0606b12"/>
-<lb n="0606b13"/><tt><t lang="san-sd">&lac;</t><t lang="chi"><yin><zi>囉</zi><sg><note n="0606010" resp="Taisho" type="orig" place="foot text">二合＝二合二【明】，〔二合〕－【甲】【丙】</note><app n="0606010"><lem>二合</lem><rdg wit="【明】" resp="Taisho">二合二</rdg><rdg wit="【甲】【丙】" resp="Taisho">&lac;</rdg></app></sg></yin></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A54D;</t><t lang="chi">抳</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">&CB00425;</t></tt><tt><t lang="san-sd">&SD-E243;</t><t lang="chi"><yin><zi>納麼</zi><sg>二<note n="0606011" resp="Taisho" type="orig" place="foot text">合＋（三）【明】</note><app n="0606011"><lem>合</lem><rdg wit="【明】" resp="Taisho">合三</rdg></app></sg></yin></t></tt><tt><t lang="san-sd">&SD-E04A;</t><t lang="chi"><yin><zi>入&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A64A;</t><t lang="chi">&CB00256;</t></tt>
-<lb n="0606b14"/>
-<lb n="0606b15"/><tt><t lang="san-sd">&SD-AABC;</t><t lang="chi"><yin><zi>&CB00425;囉</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A656;</t><t lang="chi"><app><lem resp="CBETA.Shao-Yun">&CB00467;</lem><rdg wit="【大】">&CB03706;</rdg></app></t></tt><tt><t lang="san-sd">&SD-B6C8;</t><t lang="chi">哆</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野</t></tt><tt><t lang="san-sd">&SD-E17C;</t><t lang="chi"><note n="0606012" resp="Taisho" type="orig" place="foot text">吽＋（引四）細註【明】，〔引〕細註【甲】【乙】【丙】</note><note n="0606012" resp="CBETA" type="mod">吽＋（引四）細註【明】，（引）細註【甲】【乙】【丙】</note><app n="0606012"><lem>吽</lem><rdg wit="【明】" resp="Taisho">吽<note place="inline">引四</note></rdg><rdg wit="【甲】【乙】【丙】" resp="Taisho">吽<note place="inline">引</note></rdg></app></t></tt></p>
-<lb n="0606b16"/>
-<lb n="0606b17"/><p>毘盧遮那如來。為授母陀羅尼<note n="0606013" resp="Taisho" type="orig" place="foot text">〔印〕－【甲】【乙】</note><app n="0606013"><lem>印</lem><rdg wit="【甲】【乙】" resp="Taisho">&lac;</rdg></app>三昧耶神
-<lb n="0606b18"/>通法品。而最為第一。若有過去一切十惡五
-<lb n="0606b19"/>逆四重諸罪。燼<note n="0606014" resp="Taisho" type="orig" place="foot text">然＝燃【甲】【乙】【丙】</note><app n="0606014"><lem>然</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">燃</rdg></app>除滅。若有眾生。隨處得
-<lb n="0606b20"/>聞此大灌頂<note n="0606015" resp="Taisho" type="orig" place="foot text">光＋（明）【甲】【乙】</note><app n="0606015"><lem>光</lem><rdg wit="【甲】【乙】" resp="Taisho">光明</rdg></app>真言。<note n="0606016" resp="Taisho" type="orig" place="foot text">二＝一【明】</note><app n="0606016"><lem>二</lem><rdg wit="【明】" resp="Taisho">一</rdg></app>三七遍經耳根者。
-<lb n="0606b21"/>即得除滅一切罪障。<note n="0606017" resp="Taisho" type="orig" place="foot text">若諸＝設【明】，若殺【甲】，殺【乙】，教【丙】</note><note n="0606017" resp="CBETA" type="mod">若諸＝設【明】，＝若殺【甲】，＝殺【乙】，＝教【丙】</note><app n="0606017"><lem>若諸</lem><rdg wit="【明】" resp="Taisho">設</rdg><rdg wit="【甲】" resp="Taisho">若殺</rdg><rdg wit="【乙】" resp="Taisho">殺</rdg><rdg wit="【丙】" resp="Taisho">教</rdg></app>眾生具造十惡五
-<lb n="0606b22"/>逆四重諸罪。猶如微塵滿斯世界。身壞命終
-<lb n="0606b23"/>墮諸惡道。以是真言加持土沙一百八遍。尸
-<lb n="0606b24"/>陀林中散亡者<note n="0606018" resp="Taisho" type="orig" place="foot text">尸＝屍【明】</note><app n="0606018"><lem>尸</lem><rdg wit="【明】" resp="Taisho">屍</rdg></app>骸上。或散墓上。遇皆散
-<lb n="0606b25"/>之。彼所亡者。若地獄中若餓鬼中。若修羅中
-<lb n="0606b26"/>若傍生中。以一切不空如來不空毘盧遮那
-<lb n="0606b27"/>如來真實<note n="0606019" resp="Taisho" type="orig" place="foot text">本＝大【明】</note><app n="0606019"><lem>本</lem><rdg wit="【明】" resp="Taisho">大</rdg></app>願大灌頂光真言神通威力加
-<lb n="0606b28"/>持<note n="0606020" resp="Taisho" type="orig" place="foot text">沙土＝士沙【甲】【乙】</note><app n="0606020"><lem>沙土</lem><rdg wit="【甲】【乙】" resp="Taisho">士沙</rdg></app>之力。應時即得光明<note n="0606021" resp="Taisho" type="orig" place="foot text">及身＝身及【甲】【乙】</note><app n="0606021"><lem>及身</lem><rdg wit="【甲】【乙】" resp="Taisho">身及</rdg></app>除諸罪
-<lb n="0606b29"/>報捨所苦身。往於西方極樂國土。蓮華化生
-<pb ed="T" id="T19.1002.0606c" n="0606c"/>
-<lb n="0606c01"/>乃至菩提更不墮落。復有眾生連年累月。痿
-<lb n="0606c02"/>黃疾惱苦楚萬端。是病人者先世業報。以是
-<lb n="0606c03"/>真言於病者前。一二三日每日高聲誦此真
-<lb n="0606c04"/>言一千八十遍。則得除滅宿業病障。若為鬼
-<lb n="0606c05"/>嬈魂識悶亂失音不語。持真言者加持手一
-<lb n="0606c06"/>百八遍。摩捫頭面。以手按於心上額上。加持
-<lb n="0606c07"/>一千八十遍。則得除差。摩訶迦羅神作病惱
-<lb n="0606c08"/>者。亦能治遣。若諸鬼神魍魎之病。加持五色
-<lb n="0606c09"/>線索。一百<note n="0606022" resp="Taisho" type="orig" place="foot text">八＋（遍）&M062403;【乙】</note><app n="0606022"><lem>八</lem><rdg wit="【？】" resp="【乙】">八遍</rdg></app>結。繫其病者腰臂<note n="0606023" resp="Taisho" type="orig" place="foot text">項＝頂【甲】【乙】＊</note><note n="0606023" resp="CBETA" type="mod"><todo type="＊"/>項＝頂【甲】【乙】＊</note><app n="0606023"><lem>項</lem><rdg wit="【甲】【乙】" resp="Taisho">頂</rdg></app>上。則便
-<lb n="0606c10"/>除差。若諸瘧病。加持白線索一百八結。繫頭
-<lb n="0606c11"/>項上。及加持衣著。即令除差。若加持石<note n="0606024" resp="Taisho" type="orig" place="foot text">菖＝昌【甲】【乙】【丙】</note><app n="0606024"><lem>菖</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">昌</rdg></app>
-<lb n="0606c12"/>蒲一千八十遍。<note n="0606025" resp="Taisho" type="orig" place="foot text">含＝捨【甲】【乙】【丙】</note><app n="0606025"><lem>含</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">捨</rdg></app>之與他相對談論。則勝他
-<lb n="0606c13"/>伏。若以胡椒多&CB00344;囉香。青木香小柏<note n="0606026" resp="Taisho" type="orig" place="foot text">檀＝橿【丙】</note><app n="0606026"><lem>檀</lem><rdg wit="【丙】" resp="Taisho">橿</rdg></app>黃。
-<lb n="0606c14"/>囉娑<note n="0606027" resp="Taisho" type="orig" place="foot text">惹＝若【甲】【乙】</note><app n="0606027"><lem>惹</lem><rdg wit="【甲】【乙】" resp="Taisho">若</rdg></app>娜<note place="inline"><note n="0606028" resp="Taisho" type="orig" place="foot text">唐＝此【明】</note><app n="0606028"><lem>唐</lem><rdg wit="【明】" resp="Taisho">此</rdg></app>言小&CB00177;汁</note>等數末。治水丸如棗。加持
-<lb n="0606c15"/>十萬遍。便當陰乾。若患一切<note n="0606029" resp="Taisho" type="orig" place="foot text">鬼神病＝鬼病神病【甲】【乙】【丙】</note><app n="0606029"><lem>鬼神病</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">鬼病神病</rdg></app>種種瘧
-<lb n="0606c16"/>病。或毒藥中或失音者。<note n="0606030" resp="Taisho" type="orig" place="foot text">（皆）＋當【甲】【乙】【丙】</note><app n="0606030"><lem>當</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">皆當</rdg></app>以藥和水研之。
-<lb n="0606c17"/>加持一百八遍。<note n="0606031" resp="Taisho" type="orig" place="foot text">數＝散【乙】</note><app n="0606031"><lem>數</lem><rdg wit="【乙】" resp="Taisho">散</rdg></app>點兩眼額上心上。當怒加
-<lb n="0606c18"/>持。則便除<note n="0606032" resp="Taisho" type="orig" place="foot text">差＝若【甲】【乙】</note><app n="0606032"><lem>差</lem><rdg wit="【甲】【乙】" resp="Taisho">若</rdg></app>。作病鬼神若不放捨。即當頭
-<lb n="0606c19"/>破如阿梨樹枝。若諸毒蟲蛇蝎螫者。以藥塗
-<lb n="0606c20"/><note n="0606033" resp="Taisho" type="orig" place="foot text">眼＝服&M062403;【甲】</note><app n="0606033"><lem>眼</lem><rdg wit="【？】" resp="【甲】">服</rdg></app>即便除差。</p>
-<lb n="0606c21"/><p>又法以新米&CB03599;羅。澡浴清淨著淨衣服已。以
-<lb n="0606c22"/>藥和水研。加持一百八遍點米&CB03599;羅眼中。奮
-<lb n="0606c23"/>怒加持一千八十遍。則便起坐所<note n="0606034" resp="Taisho" type="orig" place="foot text">問＝問【丙】</note><app n="0606034"><lem>問</lem><rdg wit="【丙】" resp="Taisho">問</rdg></app>皆答。
-<pb ed="T" id="T19.1002.0607a" n="0607a"/>
-<lb n="0607a01"/><note n="0607001" resp="Taisho" type="orig" place="foot text">（若）＋欲【甲】【乙】【丙】</note><app n="0607001"><lem>欲</lem><rdg wit="【甲】【乙】【丙】" resp="Taisho">若欲</rdg></app>放者。加持白芥子水二十一遍。散米&CB03599;羅
-<lb n="0607a02"/>上。即便如舊。若為貴人相請喚者。以藥點眼
-<lb n="0607a03"/>當往見之。則相賓敬。</p>
-<lb n="0607a04"/><juan fun="close" n="001"><jhead>不空&CB00559;索毘盧遮那佛大灌頂光真言<anchor id="fxT19p0607a01"/>一<note n="0607002" resp="Taisho" type="orig" place="foot text">甲本奧書曰長寬三年三月十九日於勸修寺西明院書了，乙本奧書曰仁安二年閏七月十二日書寫了一交了</note>卷</jhead></juan></div1>
+<pb n="0606b" id="T19.1002.0606b" ed="T"/>
+<lb n="0606b01" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0606b02" ed="T"/><head type="no">No. 1002</head><div1 type="jing">
+<lb n="0606b03" ed="T"/><juan n="001" fun="open"><mulu n="001" type="卷"/><jhead><note n="0606001" resp="Taisho" place="foot text" type="orig">【原】麗本，【甲】長寬三年寫高山寺藏本，【乙】仁安二年寫仁和寺藏本，【丙】三十帖策子第十九帖，此經宋元二本欠</note>不空&CB00559;索毘盧遮那佛大灌頂光
+<lb n="0606b04" ed="T"/>真言<note n="0606002" resp="Taisho" place="foot text" type="orig">一卷＝經【明】＊</note><app n="0606002"><lem>一卷</lem><rdg resp="Taisho" wit="【明】">經</rdg></app></jhead></juan>
+<lb n="0606b05" ed="T"/><p id="pT19p0606b0501">　　　<note n="0606003" resp="Taisho" place="foot text" type="orig">〔出不空…卷〕十字－【明】</note><app word-count="10" n="0606003"><lem><note place="inline">出不空&CB00559;索經二十八卷</note></lem><rdg resp="Taisho" wit="【明】">&lac;</rdg></app></p>
+<lb n="0606b06" ed="T"/>
+<lb n="0606b07" ed="T"/><byline type="Translator"><note n="0606004" resp="Taisho" place="foot text" type="orig">開府儀同三司＝唐【明】，〔開府儀同三司〕－【甲】【乙】【丙】</note><app n="0606004"><lem>開府儀同三司</lem><rdg resp="Taisho" wit="【明】">唐</rdg><rdg resp="Taisho" wit="【甲】【乙】【丙】">&lac;</rdg></app>特進試鴻臚卿
+<lb n="0606b08" ed="T"/><note n="0606005" resp="Taisho" place="foot text" type="orig">（肅國…門）二十九字＝（北天竺三藏沙門大廣智）十字【明】，（大興善寺三藏沙門大廣智）十一字【甲】【乙】【丙】</note><note n="0606005" resp="CBETA" type="mod">（肅國…門）二十九字＝（北天竺三藏沙門大廣智）十字【明】，＝（大興善寺三藏沙門大廣智）十一字【甲】【乙】【丙】</note><app word-count="29" n="0606005"><lem>肅國公食邑三千戶賜紫贈司
+<lb n="0606b09" ed="T"/>空諡大鑒正號大廣智大興善
+<lb n="0606b10" ed="T"/>寺三藏沙門</lem><rdg resp="Taisho" wit="【明】">北天竺三藏沙門大廣智</rdg><rdg resp="Taisho" wit="【甲】【乙】【丙】">大興善寺三藏沙門大廣智</rdg></app>不空奉　詔譯</byline>
+<lb n="0606b11" ed="T"/><p id="pT19p0606b1101" type="dharani"><tt><t lang="san-sd"><note n="0606006" resp="Taisho" place="foot text" type="orig">梵字真言麗明甲乙四本俱無，今依丙本補載之</note>&SD-E074;</t><t lang="chi"><note n="0606007" resp="Taisho" place="foot text" type="orig">唵＋（引一）細註【明】</note><app n="0606007"><lem>唵</lem><rdg resp="Taisho" wit="【明】">唵<note place="inline">引一</note></rdg></app></t></tt><tt><t lang="san-sd">&SD-CFC5;</t><t lang="chi">阿</t></tt><tt><t lang="san-sd">&SD-A5ED;</t><t lang="chi">謨</t></tt><tt><t lang="san-sd">&SD-A464;</t><t lang="chi">伽</t></tt><tt><t lang="san-sd">&SD-A65D;</t><t lang="chi">尾</t></tt><tt><t lang="san-sd">&SD-A646;</t><t lang="chi"><note n="0606008" resp="Taisho" place="foot text" type="orig">嚧＝盧【明】</note><app n="0606008"><lem>嚧</lem><rdg resp="Taisho" wit="【明】">盧</rdg></app></t></tt><tt><t lang="san-sd">&SD-A47C;</t><t lang="chi">左</t></tt><tt><t lang="san-sd">&SD-A5A9;</t><t lang="chi">曩</t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">摩</t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><note n="0606009" resp="Taisho" place="foot text" type="orig">賀＝訶【明】</note><app n="0606009"><lem>賀</lem><rdg resp="Taisho" wit="【明】">訶</rdg></app></t></tt><tt><t lang="san-sd">&SD-AAC4;</t><t lang="chi">母捺</t></tt>
+<lb n="0606b12" ed="T"/>
+<lb n="0606b13" ed="T"/><tt><t lang="san-sd">&lac;</t><t lang="chi"><yin><zi>囉</zi><sg><note n="0606010" resp="Taisho" place="foot text" type="orig">二合＝二合二【明】，〔二合〕－【甲】【丙】</note><app n="0606010"><lem>二合</lem><rdg resp="Taisho" wit="【明】">二合二</rdg><rdg resp="Taisho" wit="【甲】【丙】">&lac;</rdg></app></sg></yin></t></tt><tt><t lang="san-sd">&SD-A5E5;</t><t lang="chi">麼</t></tt><tt><t lang="san-sd">&SD-A54D;</t><t lang="chi">抳</t></tt><tt><t lang="san-sd">&SD-A5B5;</t><t lang="chi">&CB00425;</t></tt><tt><t lang="san-sd">&SD-E243;</t><t lang="chi"><yin><zi>納麼</zi><sg>二<note n="0606011" resp="Taisho" place="foot text" type="orig">合＋（三）【明】</note><app n="0606011"><lem>合</lem><rdg resp="Taisho" wit="【明】">合三</rdg></app></sg></yin></t></tt><tt><t lang="san-sd">&SD-E04A;</t><t lang="chi"><yin><zi>入&CB00085;</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A64A;</t><t lang="chi">&CB00256;</t></tt>
+<lb n="0606b14" ed="T"/>
+<lb n="0606b15" ed="T"/><tt><t lang="san-sd">&SD-AABC;</t><t lang="chi"><yin><zi>&CB00425;囉</zi><sg>二合</sg></yin></t></tt><tt><t lang="san-sd">&SD-A656;</t><t lang="chi"><app><lem resp="CBETA.Shao-Yun">&CB00467;</lem><rdg wit="【大】">&CB03706;</rdg></app></t></tt><tt><t lang="san-sd">&SD-B6C8;</t><t lang="chi">哆</t></tt><tt><t lang="san-sd">&SD-A5F1;</t><t lang="chi">野</t></tt><tt><t lang="san-sd">&SD-E17C;</t><t lang="chi"><note n="0606012" resp="Taisho" place="foot text" type="orig">吽＋（引四）細註【明】，〔引〕細註【甲】【乙】【丙】</note><note n="0606012" resp="CBETA" type="mod">吽＋（引四）細註【明】，（引）細註【甲】【乙】【丙】</note><app n="0606012"><lem>吽</lem><rdg resp="Taisho" wit="【明】">吽<note place="inline">引四</note></rdg><rdg resp="Taisho" wit="【甲】【乙】【丙】">吽<note place="inline">引</note></rdg></app></t></tt></p>
+<lb n="0606b16" ed="T"/>
+<lb n="0606b17" ed="T"/><p id="pT19p0606b1701">毘盧遮那如來。為授母陀羅尼<note n="0606013" resp="Taisho" place="foot text" type="orig">〔印〕－【甲】【乙】</note><app n="0606013"><lem>印</lem><rdg resp="Taisho" wit="【甲】【乙】">&lac;</rdg></app>三昧耶神
+<lb n="0606b18" ed="T"/>通法品。而最為第一。若有過去一切十惡五
+<lb n="0606b19" ed="T"/>逆四重諸罪。燼<note n="0606014" resp="Taisho" place="foot text" type="orig">然＝燃【甲】【乙】【丙】</note><app n="0606014"><lem>然</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">燃</rdg></app>除滅。若有眾生。隨處得
+<lb n="0606b20" ed="T"/>聞此大灌頂<note n="0606015" resp="Taisho" place="foot text" type="orig">光＋（明）【甲】【乙】</note><app n="0606015"><lem>光</lem><rdg resp="Taisho" wit="【甲】【乙】">光明</rdg></app>真言。<note n="0606016" resp="Taisho" place="foot text" type="orig">二＝一【明】</note><app n="0606016"><lem>二</lem><rdg resp="Taisho" wit="【明】">一</rdg></app>三七遍經耳根者。
+<lb n="0606b21" ed="T"/>即得除滅一切罪障。<note n="0606017" resp="Taisho" place="foot text" type="orig">若諸＝設【明】，若殺【甲】，殺【乙】，教【丙】</note><note n="0606017" resp="CBETA" type="mod">若諸＝設【明】，＝若殺【甲】，＝殺【乙】，＝教【丙】</note><app n="0606017"><lem>若諸</lem><rdg resp="Taisho" wit="【明】">設</rdg><rdg resp="Taisho" wit="【甲】">若殺</rdg><rdg resp="Taisho" wit="【乙】">殺</rdg><rdg resp="Taisho" wit="【丙】">教</rdg></app>眾生具造十惡五
+<lb n="0606b22" ed="T"/>逆四重諸罪。猶如微塵滿斯世界。身壞命終
+<lb n="0606b23" ed="T"/>墮諸惡道。以是真言加持土沙一百八遍。尸
+<lb n="0606b24" ed="T"/>陀林中散亡者<note n="0606018" resp="Taisho" place="foot text" type="orig">尸＝屍【明】</note><app n="0606018"><lem>尸</lem><rdg resp="Taisho" wit="【明】">屍</rdg></app>骸上。或散墓上。遇皆散
+<lb n="0606b25" ed="T"/>之。彼所亡者。若地獄中若餓鬼中。若修羅中
+<lb n="0606b26" ed="T"/>若傍生中。以一切不空如來不空毘盧遮那
+<lb n="0606b27" ed="T"/>如來真實<note n="0606019" resp="Taisho" place="foot text" type="orig">本＝大【明】</note><app n="0606019"><lem>本</lem><rdg resp="Taisho" wit="【明】">大</rdg></app>願大灌頂光真言神通威力加
+<lb n="0606b28" ed="T"/>持<note n="0606020" resp="Taisho" place="foot text" type="orig">沙土＝士沙【甲】【乙】</note><app n="0606020"><lem>沙土</lem><rdg resp="Taisho" wit="【甲】【乙】">士沙</rdg></app>之力。應時即得光明<note n="0606021" resp="Taisho" place="foot text" type="orig">及身＝身及【甲】【乙】</note><app n="0606021"><lem>及身</lem><rdg resp="Taisho" wit="【甲】【乙】">身及</rdg></app>除諸罪
+<lb n="0606b29" ed="T"/>報捨所苦身。往於西方極樂國土。蓮華化生
+<pb n="0606c" id="T19.1002.0606c" ed="T"/>
+<lb n="0606c01" ed="T"/>乃至菩提更不墮落。復有眾生連年累月。痿
+<lb n="0606c02" ed="T"/>黃疾惱苦楚萬端。是病人者先世業報。以是
+<lb n="0606c03" ed="T"/>真言於病者前。一二三日每日高聲誦此真
+<lb n="0606c04" ed="T"/>言一千八十遍。則得除滅宿業病障。若為鬼
+<lb n="0606c05" ed="T"/>嬈魂識悶亂失音不語。持真言者加持手一
+<lb n="0606c06" ed="T"/>百八遍。摩捫頭面。以手按於心上額上。加持
+<lb n="0606c07" ed="T"/>一千八十遍。則得除差。摩訶迦羅神作病惱
+<lb n="0606c08" ed="T"/>者。亦能治遣。若諸鬼神魍魎之病。加持五色
+<lb n="0606c09" ed="T"/>線索。一百<note n="0606022" resp="Taisho" place="foot text" type="orig">八＋（遍）&M062403;【乙】</note><app n="0606022"><lem>八</lem><rdg resp="【乙】" wit="【？】">八遍</rdg></app>結。繫其病者腰臂<note n="0606023" resp="Taisho" place="foot text" type="orig">項＝頂【甲】【乙】＊</note><note n="0606023" resp="CBETA" type="mod"><todo type="＊"/>項＝頂【甲】【乙】＊</note><app n="0606023"><lem>項</lem><rdg resp="Taisho" wit="【甲】【乙】">頂</rdg></app>上。則便
+<lb n="0606c10" ed="T"/>除差。若諸瘧病。加持白線索一百八結。繫頭
+<lb n="0606c11" ed="T"/>項上。及加持衣著。即令除差。若加持石<note n="0606024" resp="Taisho" place="foot text" type="orig">菖＝昌【甲】【乙】【丙】</note><app n="0606024"><lem>菖</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">昌</rdg></app>
+<lb n="0606c12" ed="T"/>蒲一千八十遍。<note n="0606025" resp="Taisho" place="foot text" type="orig">含＝捨【甲】【乙】【丙】</note><app n="0606025"><lem>含</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">捨</rdg></app>之與他相對談論。則勝他
+<lb n="0606c13" ed="T"/>伏。若以胡椒多&CB00344;囉香。青木香小柏<note n="0606026" resp="Taisho" place="foot text" type="orig">檀＝橿【丙】</note><app n="0606026"><lem>檀</lem><rdg resp="Taisho" wit="【丙】">橿</rdg></app>黃。
+<lb n="0606c14" ed="T"/>囉娑<note n="0606027" resp="Taisho" place="foot text" type="orig">惹＝若【甲】【乙】</note><app n="0606027"><lem>惹</lem><rdg resp="Taisho" wit="【甲】【乙】">若</rdg></app>娜<note place="inline"><note n="0606028" resp="Taisho" place="foot text" type="orig">唐＝此【明】</note><app n="0606028"><lem>唐</lem><rdg resp="Taisho" wit="【明】">此</rdg></app>言小&CB00177;汁</note>等數末。治水丸如棗。加持
+<lb n="0606c15" ed="T"/>十萬遍。便當陰乾。若患一切<note n="0606029" resp="Taisho" place="foot text" type="orig">鬼神病＝鬼病神病【甲】【乙】【丙】</note><app n="0606029"><lem>鬼神病</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">鬼病神病</rdg></app>種種瘧
+<lb n="0606c16" ed="T"/>病。或毒藥中或失音者。<note n="0606030" resp="Taisho" place="foot text" type="orig">（皆）＋當【甲】【乙】【丙】</note><app n="0606030"><lem>當</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">皆當</rdg></app>以藥和水研之。
+<lb n="0606c17" ed="T"/>加持一百八遍。<note n="0606031" resp="Taisho" place="foot text" type="orig">數＝散【乙】</note><app n="0606031"><lem>數</lem><rdg resp="Taisho" wit="【乙】">散</rdg></app>點兩眼額上心上。當怒加
+<lb n="0606c18" ed="T"/>持。則便除<note n="0606032" resp="Taisho" place="foot text" type="orig">差＝若【甲】【乙】</note><app n="0606032"><lem>差</lem><rdg resp="Taisho" wit="【甲】【乙】">若</rdg></app>。作病鬼神若不放捨。即當頭
+<lb n="0606c19" ed="T"/>破如阿梨樹枝。若諸毒蟲蛇蝎螫者。以藥塗
+<lb n="0606c20" ed="T"/><note n="0606033" resp="Taisho" place="foot text" type="orig">眼＝服&M062403;【甲】</note><app n="0606033"><lem>眼</lem><rdg resp="【甲】" wit="【？】">服</rdg></app>即便除差。</p>
+<lb n="0606c21" ed="T"/><p id="pT19p0606c2101">又法以新米&CB03599;羅。澡浴清淨著淨衣服已。以
+<lb n="0606c22" ed="T"/>藥和水研。加持一百八遍點米&CB03599;羅眼中。奮
+<lb n="0606c23" ed="T"/>怒加持一千八十遍。則便起坐所<note n="0606034" resp="Taisho" place="foot text" type="orig">問＝問【丙】</note><app n="0606034"><lem>問</lem><rdg resp="Taisho" wit="【丙】">問</rdg></app>皆答。
+<pb n="0607a" id="T19.1002.0607a" ed="T"/>
+<lb n="0607a01" ed="T"/><note n="0607001" resp="Taisho" place="foot text" type="orig">（若）＋欲【甲】【乙】【丙】</note><app n="0607001"><lem>欲</lem><rdg resp="Taisho" wit="【甲】【乙】【丙】">若欲</rdg></app>放者。加持白芥子水二十一遍。散米&CB03599;羅
+<lb n="0607a02" ed="T"/>上。即便如舊。若為貴人相請喚者。以藥點眼
+<lb n="0607a03" ed="T"/>當往見之。則相賓敬。</p>
+<lb n="0607a04" ed="T"/><juan n="001" fun="close"><jhead>不空&CB00559;索毘盧遮那佛大灌頂光真言<anchor id="fxT19p0607a01"/>一<note n="0607002" resp="Taisho" place="foot text" type="orig">甲本奧書曰長寬三年三月十九日於勸修寺西明院書了，乙本奧書曰仁安二年閏七月十二日書寫了一交了</note>卷</jhead></juan></div1>
 </body></text></TEI.2>
