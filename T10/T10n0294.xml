@@ -14,13 +14,13 @@
 <author>西秦 聖堅譯</author>
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
-<editionStmt><edition>$Revision: 1.19 $ (Big5)<date>$Date: 2006/04/12 21:54:32 $</date></edition></editionStmt>
+<editionStmt><edition>$Revision: 1.20 $ (Big5)<date>$Date: 2006/05/19 08:13:35 $</date></edition></editionStmt>
 <extent>3卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
-<date>$Date: 2006/04/12 21:54:32 $</date></publicationStmt>
+<date>$Date: 2006/05/19 08:13:35 $</date></publicationStmt>
 <sourceDesc><bibl>Taisho Tripitaka Vol. 10, No. 294</bibl></sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p lang="eng" type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, CBETA OCR Group</p>
@@ -41,10 +41,13 @@
     <change>
 		<date>19991015/16:35:50</date>
 		<respStmt><name>CP</name><resp>ed.</resp></respStmt>
-		<item>($Revision: 1.19 $ 提供)(99/10/15)</item>
+		<item>($Revision: 1.20 $ 提供)(99/10/15)</item>
 	</change>
 <!--
 $Log: T10n0294.xml,v $
+Revision 1.20  2006/05/19 08:13:35  saywhat
+雙圈 改成 anchor 標記
+
 Revision 1.19  2006/04/12 21:54:32  saywhat
 lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
 
@@ -595,8 +598,8 @@ add cvs log
 <lb n="0857b09" ed="T"/>從此南行。有國。名嶮難。城名寶莊嚴。於彼城
 <lb n="0857b10" ed="T"/>中。有一女人。名婆須蜜多。汝詣彼問。云何菩
 <lb n="0857b11" ed="T"/>薩學菩薩行。修菩薩道
-◎<note n="0857004" resp="Taisho" place="foot text" type="orig">第一卷終【三】【宮】</note><note n="0857004" resp="CBETA" type="mod"><todo type="a"/>第一卷終【宋】【元】【明】【宮】</note>。</p>
-<lb n="0857b12" ed="T"/><p id="pT10p0857b1201">◎<note n="0857005" resp="Taisho" place="foot text" type="orig">第二卷首【三】【宮】</note><note n="0857005" resp="CBETA" type="mod"><todo type="a"/>第二卷首【宋】【元】【明】【宮】</note>
+<anchor type="◎"/><note n="0857004" resp="Taisho" place="foot text" type="orig">第一卷終【三】【宮】</note><note n="0857004" resp="CBETA" type="mod"><todo type="a"/>第一卷終【宋】【元】【明】【宮】</note>。</p>
+<lb n="0857b12" ed="T"/><p id="pT10p0857b1201"><anchor type="◎"/><note n="0857005" resp="Taisho" place="foot text" type="orig">第二卷首【三】【宮】</note><note n="0857005" resp="CBETA" type="mod"><todo type="a"/>第二卷首【宋】【元】【明】【宮】</note>
 爾時善財童子。頭面敬禮師子奮迅比丘
 <lb n="0857b13" ed="T"/>尼足。瞻仰諦觀。辭退南行。善財童子。得大慧
 <lb n="0857b14" ed="T"/>光。以照其心。具足長養一切善根。欲以教化
@@ -906,7 +909,7 @@ add cvs log
 <lb n="0860c18" ed="T"/>善知世界成壞之相。滅諸眾生不善根<app source="0860003" type="＊"><lem wit="【大】">牙</lem><rdg resp="Taisho" wit="【宋】【元】【明】">芽</rdg></app>。
 <lb n="0860c19" ed="T"/><note n="0860008" resp="Taisho" place="foot text" type="orig">生出＝出生【三】【宮】</note><note n="0860008" resp="CBETA" type="mod">生出＝出生【宋】【元】【明】【宮】</note><app n="0860008"><lem wit="【大】">生出</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">出生</rdg></app>一切諸善根流。滅諸眾生生死心流。出
 <lb n="0860c20" ed="T"/>生眾生善根心流。我當云何能知能說彼功
-<lb n="0860c21" ed="T"/>德行。</p><note n="0860009" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0860009" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>◎
+<lb n="0860c21" ed="T"/>德行。</p><note n="0860009" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0860009" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note><anchor type="◎"/>
 <lb n="0860c22" ed="T"/><juan n="001" fun="close"><jhead><title>羅摩伽經</title>卷上</jhead></juan>
 <lb n="0860c23" ed="T"/>
 <milestone n="2" unit="juan"/>
@@ -914,7 +917,7 @@ add cvs log
 <lb n="0860c25" ed="T"/><juan n="002" fun="open"><mulu n="002" type="卷"/><jhead><title>佛說羅摩伽經</title>卷<note n="0860010" resp="Taisho" place="foot text" type="orig">中＝第二【聖】＊</note><app n="0860010"><lem wit="【大】">中</lem><rdg resp="Taisho" wit="【聖】">第二</rdg></app></jhead></juan>
 <lb n="0860c26" ed="T"/>
 <lb n="0860c27" ed="T"/><byline>西秦<note n="0860011" resp="Taisho" place="foot text" type="orig">沙門聖堅＝乞伏仁世聖堅等【聖】</note><app n="0860011"><lem wit="【大】">沙門聖堅</lem><rdg resp="Taisho" wit="【聖】">乞伏仁世聖堅等</rdg></app>譯</byline>
-<lb n="0860c28" ed="T"/><p id="pT10p0860c2801">◎<note n="0860012" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0860012" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>爾時東方有一菩薩。名無異行。寶花承足。
+<lb n="0860c28" ed="T"/><p id="pT10p0860c2801"><anchor type="◎"/><note n="0860012" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0860012" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>爾時東方有一菩薩。名無異行。寶花承足。
 <lb n="0860c29" ed="T"/>步虛而來。詣娑婆世界金剛輪山。足蹈山時。
 <pb n="0861a" id="T10.0294.0861a" ed="T"/>
 <lb n="0861a01" ed="T"/>娑婆世界。六種震動變成眾寶。以為莊嚴。舉
@@ -1101,8 +1104,8 @@ add cvs log
 <lb n="0863a02" ed="T"/>婆陀。汝詣彼問。云何菩薩。學菩薩行。修菩薩
 <lb n="0863a03" ed="T"/>道。時善財童子。頭面敬禮安住神足。遶無數
 <lb n="0863a04" ed="T"/>匝。眷仰辭退。漸漸遊行。詣夜天所
-◎<note n="0863001" resp="Taisho" place="foot text" type="orig">卷第二終【三】【宮】</note><note n="0863001" resp="CBETA" type="mod"><todo type="a"/>卷第二終【宋】【元】【明】【宮】</note>。</p>
-<lb n="0863a05" ed="T"/><p id="pT10p0863a0501">◎<note n="0863002" resp="Taisho" place="foot text" type="orig">卷第三首【三】【宮】</note><note n="0863002" resp="CBETA" type="mod"><todo type="a"/>卷第三首【宋】【元】【明】【宮】</note>
+<anchor type="◎"/><note n="0863001" resp="Taisho" place="foot text" type="orig">卷第二終【三】【宮】</note><note n="0863001" resp="CBETA" type="mod"><todo type="a"/>卷第二終【宋】【元】【明】【宮】</note>。</p>
+<lb n="0863a05" ed="T"/><p id="pT10p0863a0501"><anchor type="◎"/><note n="0863002" resp="Taisho" place="foot text" type="orig">卷第三首【三】【宮】</note><note n="0863002" resp="CBETA" type="mod"><todo type="a"/>卷第三首【宋】【元】【明】【宮】</note>
 爾時善財童子。正念思惟彼地天教菩薩
 <lb n="0863a06" ed="T"/>不可壞智慧法門。修菩薩三昧明趣入隨意。
 <lb n="0863a07" ed="T"/>觀察菩薩律儀法式。其心明了諸菩薩自在
@@ -1495,7 +1498,7 @@ add cvs log
 <lb n="0867b02" ed="T"/><l>眾劫猶可盡</l><l>功德無窮已</l></lg>
 <lb n="0867b03" ed="T"/><p id="pT10p0867b0301">爾時善財童子。頭面敬禮彼夜天足。遶無數
 <lb n="0867b04" ed="T"/>匝。眷仰觀察。心無厭足。辭退南行。向摩伽
-<lb n="0867b05" ed="T"/>陀國。</p><note n="0867005" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0867005" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>◎
+<lb n="0867b05" ed="T"/>陀國。</p><note n="0867005" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0867005" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note><anchor type="◎"/>
 <lb n="0867b06" ed="T"/><juan n="002" fun="close"><jhead><title><note n="0867006" resp="Taisho" place="foot text" type="orig">〔佛說〕－【聖】</note><app n="0867006"><lem wit="【大】">佛說</lem><rdg resp="Taisho" wit="【聖】">&lac;</rdg></app>羅摩伽經</title>卷<app source="0860010" type="＊"><lem wit="【大】">中</lem><rdg resp="Taisho" wit="【聖】">第二</rdg></app></jhead></juan>
 <lb n="0867b07" ed="T"/>
 <milestone n="3" unit="juan"/>
@@ -1503,7 +1506,7 @@ add cvs log
 <lb n="0867b09" ed="T"/><juan n="003" fun="open"><mulu n="003" type="卷"/><note n="0867007" resp="Taisho" place="foot text" type="orig">首欠【聖】</note><jhead><title>佛說羅摩伽經</title>卷下</jhead></juan>
 <lb n="0867b10" ed="T"/>
 <lb n="0867b11" ed="T"/><byline>西<app><lem resp="CBETA.maha" wit="【CBETA】【麗】" cf1="K08_p1264b02">秦</lem><rdg wit="【大】">晉</rdg></app>沙門聖堅譯</byline>
-<lb n="0867b12" ed="T"/><p id="pT10p0867b1201">◎<note n="0867008" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0867008" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>爾時善財童子。一心思惟彼夜天教。初發
+<lb n="0867b12" ed="T"/><p id="pT10p0867b1201"><anchor type="◎"/><note n="0867008" resp="Taisho" place="foot text" type="orig">不分卷【三】【宮】</note><note n="0867008" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>爾時善財童子。一心思惟彼夜天教。初發
 <lb n="0867b13" ed="T"/>道心。圓滿清淨。思惟是已。即得深入諸菩薩
 <lb n="0867b14" ed="T"/>藏出生菩薩大願法海。淨諸菩薩波羅蜜道。
 <lb n="0867b15" ed="T"/>窮盡菩薩圓滿勝淨行業。發起成就深入智
@@ -1673,8 +1676,8 @@ add cvs log
 <lb n="0869a29" ed="T"/>剎那頃。修菩薩行。滿足性境界。成就薩婆若。
 <pb n="0869b" id="T10.0294.0869b" ed="T"/>
 <lb n="0869b01" ed="T"/>具一切佛神通遊戲。莊嚴佛道。以平等法。身
-<lb n="0869b02" ed="T"/>心不動。普攝眾生。善知識力。顯現三世。</p><note n="0869001" resp="Taisho" place="foot text" type="orig">卷第三終【三】【宮】</note><note n="0869001" resp="CBETA" type="mod"><todo type="a"/>卷第三終【宋】【元】【明】【宮】</note>◎
-<lb n="0869b03" ed="T"/><p id="pT10p0869b0301">◎<note n="0869002" resp="Taisho" place="foot text" type="orig">卷第四首【三】【宮】</note><note n="0869002" resp="CBETA" type="mod"><todo type="a"/>卷第四首【宋】【元】【明】【宮】</note>爾時善財童子。即詣喜目觀察眾生夜天
+<lb n="0869b02" ed="T"/>心不動。普攝眾生。善知識力。顯現三世。</p><note n="0869001" resp="Taisho" place="foot text" type="orig">卷第三終【三】【宮】</note><note n="0869001" resp="CBETA" type="mod"><todo type="a"/>卷第三終【宋】【元】【明】【宮】</note><anchor type="◎"/>
+<lb n="0869b03" ed="T"/><p id="pT10p0869b0301"><anchor type="◎"/><note n="0869002" resp="Taisho" place="foot text" type="orig">卷第四首【三】【宮】</note><note n="0869002" resp="CBETA" type="mod"><todo type="a"/>卷第四首【宋】【元】【明】【宮】</note>爾時善財童子。即詣喜目觀察眾生夜天
 <lb n="0869b04" ed="T"/>所。時彼夜天。於大眾中。處寶蓮華師子之座。
 <lb n="0869b05" ed="T"/>正受菩薩普現光幢喜淨法門。一切毛孔。出
 <lb n="0869b06" ed="T"/>妙色雲。其有見者。喜悅無厭。一一毛孔。現眾
