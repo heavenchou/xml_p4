@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.20 $ (Big5)<date>$Date: 2006/04/12 21:57:56 $</date></edition>
+		<edition>$Revision: 1.21 $ (Big5)<date>$Date: 2006/05/20 01:40:38 $</date></edition>
 	</editionStmt>
 	<extent>6卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/04/12 21:57:56 $</date>
+		<date>$Date: 2006/05/20 01:40:38 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 38, No. 1782 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T38n1782.xml,v $
+Revision 1.21  2006/05/20 01:40:38  saywhat
+雙圈 改成 anchor 標記
+
 Revision 1.20  2006/04/12 21:57:56  saywhat
 lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
 
@@ -163,7 +166,7 @@ Revision 1.10  2001/02/07 07:11:01  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.9  2001/02/03 08:01:59  chris
-Added keywords $Revision: 1.20 $, $Date: 2006/04/12 21:57:56 $ and $Log.
+Added keywords $Revision: 1.21 $, $Date: 2006/05/20 01:40:38 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -5691,7 +5694,7 @@ Added comment  for Emacs
 <lb n="1054a21" ed="T"/>新學苾芻。已曾犯罪。乍見慧辨。誰不虔恭。故
 <lb n="1054a22" ed="T"/>為作禮。</p>
 <lb n="1054a23" ed="T"/><p id="pT38p1054a2301">經。時我默然<note place="inline">至</note>詣彼問疾。</p><p id="pT38p1054a2311" place="inline">贊曰。結答詞由卑
-<lb n="1054a24" ed="T"/>躬請退。</p><note n="1054008" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1054008" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="1054a24" ed="T"/>躬請退。</p><note n="1054008" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1054008" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="1054a25" ed="T"/><juan n="003b" fun="close"><jhead><note n="1054009" resp="Taisho" place="foot text" type="orig">末題新加</note>說無垢稱經疏卷第三<note place="inline">末</note></jhead></juan>
 <pb n="1054b" id="T38.1782.1054b" ed="T"/>
 <lb n="1054b01" ed="T"/>
@@ -5699,7 +5702,7 @@ Added comment  for Emacs
 <lb n="1054b02" ed="T"/><juan n="004a" fun="open"><mulu n="4a" label="第四本" type="卷"/><jhead>說無垢稱經贊卷第四<note place="inline">本</note></jhead></juan>
 <lb n="1054b03" ed="T"/>
 <lb n="1054b04" ed="T"/><byline type="Author">大慈恩寺沙門基撰</byline>
-<lb n="1054b05" ed="T"/><p id="pT38p1054b0501">◎<note n="1054010" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第四本</note><note n="1054010" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第四本</note>經爾時世尊<note place="inline">至</note>問安其疾。</p><p id="pT38p1054b0511" place="inline">贊曰。自下第九
+<lb n="1054b05" ed="T"/><p id="pT38p1054b0501"><anchor type="◎"/><note n="1054010" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第四本</note><note n="1054010" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第四本</note>經爾時世尊<note place="inline">至</note>問安其疾。</p><p id="pT38p1054b0511" place="inline">贊曰。自下第九
 <lb n="1054b06" ed="T"/>命羅怙羅。初命。後<note n="1054011" resp="Taisho" place="foot text" type="orig">辭＝詞【甲】＊</note><app n="1054011"><lem wit="【大】">辭</lem><rdg resp="Taisho" wit="【甲】">詞</rdg></app>。此初命也。羅怙羅。此
 <lb n="1054b07" ed="T"/>云執日。本是執日阿脩羅名。法華經云羅&CB00264;
 <lb n="1054b08" ed="T"/>阿脩羅王。是也。此是非天前軍。非天將與帝
@@ -5965,8 +5968,8 @@ Added comment  for Emacs
 <lb n="1057a28" ed="T"/>類聲聞皆<app source="1054011" type="＊"><lem wit="【大】">辭</lem><rdg resp="Taisho" wit="【甲】">詞</rdg></app>不<note n="1057007" resp="Taisho" place="foot text" type="orig">散＝敢&M062403;【原】，敢【甲】</note><note n="1057007" resp="CBETA" type="mod">散＝敢&M062403;【原】，＝敢【甲】</note><app n="1057007"><lem wit="【大】">散</lem><rdg resp="【原】" wit="【？】">敢</rdg><rdg resp="Taisho" wit="【甲】">敢</rdg></app>。有二。初類問。後類答。此
 <lb n="1057a29" ed="T"/>類問也。</p>
 <pb n="1057b" id="T38.1782.1057b" ed="T"/>
-<lb n="1057b01" ed="T"/><p id="pT38p1057b0101">經。是諸聲聞<note place="inline">至</note>詣彼問疾。</p><p id="pT38p1057b0111" place="inline">贊曰。此類答也。</p><note n="1057008" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第三末終【甲】</note><note n="1057008" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第三末終【甲】</note>◎</div1>
-<lb n="1057b02" ed="T"/><div1 type="pin"><mulu level="1" label="4 菩薩品(四本-四末)" type="品"/>◎<note n="1057009" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四本首【甲】，撰號同異如首卷</note><note n="1057009" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四本首【甲】，撰號同異如首卷</note><head>菩薩品第四</head>
+<lb n="1057b01" ed="T"/><p id="pT38p1057b0101">經。是諸聲聞<note place="inline">至</note>詣彼問疾。</p><p id="pT38p1057b0111" place="inline">贊曰。此類答也。</p><note n="1057008" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第三末終【甲】</note><note n="1057008" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第三末終【甲】</note><anchor type="◎"/></div1>
+<lb n="1057b02" ed="T"/><div1 type="pin"><mulu level="1" label="4 菩薩品(四本-四末)" type="品"/><anchor type="◎"/><note n="1057009" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四本首【甲】，撰號同異如首卷</note><note n="1057009" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四本首【甲】，撰號同異如首卷</note><head>菩薩品第四</head>
 <lb n="1057b03" ed="T"/><p id="pT38p1057b0301">別敘昔權。昔權有二。一化聲聞。已如前辨。二
 <lb n="1057b04" ed="T"/>化菩薩。次下當陳。佛知彼類不可對揚。顯彼
 <lb n="1057b05" ed="T"/>高德共來影輔。今明令菩薩問疾事。故名菩
@@ -6761,13 +6764,13 @@ Added comment  for Emacs
 <lb n="1066a14" ed="T"/><p id="pT38p1066a1401">經。時無垢稱<note place="inline">至</note>還於本宮。</p><p id="pT38p1066a1411" place="inline">贊曰。八捨制魔
 <lb n="1066a15" ed="T"/>還。昔通力制。令彼不還。說利既周。故捨前制。</p>
 <lb n="1066a16" ed="T"/><p id="pT38p1066a1601">經。世尊<note place="inline">至</note>詣彼問疾。</p><p id="pT38p1066a1609" place="inline">贊曰。下結答詞由卑躬
-<lb n="1066a17" ed="T"/>請退。</p><note n="1066005" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1066005" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="1066a17" ed="T"/>請退。</p><note n="1066005" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1066005" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="1066a18" ed="T"/><juan n="004a" fun="close"><jhead>說無垢稱經贊卷第四<note place="inline">本</note></jhead></juan>
 <lb n="1066a19" ed="T"/>
 <lb n="1066a20" ed="T"/>
 <lb n="1066a21" ed="T"/><juan n="004b" fun="open"><mulu n="4b" label="第四末" type="卷"/><jhead>說無垢稱經贊卷第四<note place="inline">末</note></jhead></juan>
 <lb n="1066a22" ed="T"/>
-<lb n="1066a23" ed="T"/><p id="pT38p1066a2301">◎<note n="1066006" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第四末</note><note n="1066006" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第四末</note>經爾時世尊<note place="inline">至</note>問安其疾。</p><p id="pT38p1066a2311" place="inline">贊曰。此第四命
+<lb n="1066a23" ed="T"/><p id="pT38p1066a2301"><anchor type="◎"/><note n="1066006" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第四末</note><note n="1066006" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第四末</note>經爾時世尊<note place="inline">至</note>問安其疾。</p><p id="pT38p1066a2311" place="inline">贊曰。此第四命
 <lb n="1066a24" ed="T"/>蘇達多。初命。後<note n="1066007" resp="Taisho" place="foot text" type="orig">辭＝詞【甲】＊</note><app n="1066007"><lem wit="【大】">辭</lem><rdg resp="Taisho" wit="【甲】">詞</rdg></app>。此初命也。蘇達多者。此
 <lb n="1066a25" ed="T"/>云善施。善濟孤窮。心無所&CB00385;。故名善施。舊云
 <lb n="1066a26" ed="T"/>善德。名義稍乖。</p>
@@ -6930,8 +6933,8 @@ Added comment  for Emacs
 <lb n="1068a03" ed="T"/>段。後命餘類。皆陳不堪。有二。初類命。後類
 <lb n="1068a04" ed="T"/>詞。此類命也。</p>
 <lb n="1068a05" ed="T"/><p id="pT38p1068a0501">經。是諸菩薩<note place="inline">至</note>詣彼問疾。</p><p id="pT38p1068a0511" place="inline">贊曰。此類<app source="1066007" type="＊"><lem wit="【大】">辭</lem><rdg resp="Taisho" wit="【甲】">詞</rdg></app>
-<lb n="1068a06" ed="T"/>也。</p><note n="1068001" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四本終【甲】</note><note n="1068001" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四本終【甲】</note>◎</div1>
-<lb n="1068a07" ed="T"/><div1 type="pin"><mulu level="1" label="5 問疾品(四末-五本)" type="品"/>◎<note n="1068002" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四末首【甲】，甲本冠註曰經卷第三</note><note n="1068002" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四末首【甲】，甲本冠註曰經卷第三</note><head>問疾品</head>
+<lb n="1068a06" ed="T"/>也。</p><note n="1068001" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四本終【甲】</note><note n="1068001" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四本終【甲】</note><anchor type="◎"/></div1>
+<lb n="1068a07" ed="T"/><div1 type="pin"><mulu level="1" label="5 問疾品(四末-五本)" type="品"/><anchor type="◎"/><note n="1068002" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四末首【甲】，甲本冠註曰經卷第三</note><note n="1068002" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四末首【甲】，甲本冠註曰經卷第三</note><head>問疾品</head>
 <lb n="1068a08" ed="T"/><p id="pT38p1068a0801">方便品下。總有四品。隱&CB00528;利他中。初一品總
 <lb n="1068a09" ed="T"/>敘權。後<note n="1068003" resp="Taisho" place="foot text" type="orig">三＝二【甲】</note><app n="1068003"><lem wit="【大】">三</lem><rdg resp="Taisho" wit="【甲】">二</rdg></app>品別敘權。上來聲聞菩薩別敘昔
 <lb n="1068a10" ed="T"/>權。問疾一品。則敘今權。示疾閑齋。方希有
@@ -7503,7 +7506,7 @@ Added comment  for Emacs
 <lb n="1074b06" ed="T"/>切外道二乘。若非菩薩勝覺能斷。菩薩所修
 <lb n="1074b07" ed="T"/>便為虛<app source="1074011" type="＊"><lem wit="【大】">妄</lem><rdg resp="Taisho" wit="【甲】">棄</rdg></app>。空無果故。</p>
 <lb n="1074b08" ed="T"/><p id="pT38p1074b0801">經。所以者何<note place="inline">至</note>乃名菩薩。</p><p id="pT38p1074b0811" place="inline">贊曰。下釋前標。
-<lb n="1074b09" ed="T"/>初喻。後合。文意可知。</p><note n="1074012" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1074012" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="1074b09" ed="T"/>初喻。後合。文意可知。</p><note n="1074012" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1074012" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="1074b10" ed="T"/><juan n="004b" fun="close"><jhead>說無垢稱經贊卷第四<note place="inline">末</note></jhead></juan>
 <lb n="1074b11" ed="T"/>
 <milestone n="5" unit="juan"/>
@@ -7511,7 +7514,7 @@ Added comment  for Emacs
 <lb n="1074b13" ed="T"/><juan n="005a" fun="open"><mulu n="5a" label="第五本" type="卷"/><jhead>說無垢稱經贊卷第五<note place="inline">本</note></jhead></juan>
 <lb n="1074b14" ed="T"/>
 <lb n="1074b15" ed="T"/><byline type="Author">大慈恩寺沙門基撰</byline>
-<lb n="1074b16" ed="T"/><p id="pT38p1074b1601">◎<note n="1074013" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第五本</note><note n="1074013" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第五本</note>經又妙<note n="1074014" resp="Taisho" place="foot text" type="orig">吉＋（祥）【甲】</note><app n="1074014"><lem wit="【大】">吉</lem><rdg resp="Taisho" wit="【甲】">吉祥</rdg></app><note place="inline">至</note>非真非有。</p><p id="pT38p1074b1610" place="inline">贊曰。自下第二
+<lb n="1074b16" ed="T"/><p id="pT38p1074b1601"><anchor type="◎"/><note n="1074013" resp="Taisho" place="foot text" type="orig">不分卷【甲】，甲本冠註曰已下舊本卷第五本</note><note n="1074013" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】，甲本冠註曰已下舊本卷第五本</note>經又妙<note n="1074014" resp="Taisho" place="foot text" type="orig">吉＋（祥）【甲】</note><app n="1074014"><lem wit="【大】">吉</lem><rdg resp="Taisho" wit="【甲】">吉祥</rdg></app><note place="inline">至</note>非真非有。</p><p id="pT38p1074b1610" place="inline">贊曰。自下第二
 <lb n="1074b17" ed="T"/>大段。調伏二乘心明大悲以破無。二乘唯自
 <lb n="1074b18" ed="T"/>利。法執繫縛。今說大悲妙慧方便解故。名調
 <lb n="1074b19" ed="T"/>伏二乘心明大悲以破無。以著空者無大悲
@@ -7760,8 +7763,8 @@ Added comment  for Emacs
 <lb n="1077a22" ed="T"/><p id="pT38p1077a2201">經。說是一切<note place="inline">至</note>發心趣向。</p><p id="pT38p1077a2211" place="inline">贊曰。品第五段。
 <lb n="1077a23" ed="T"/>結成利益。雖因次說菩薩所行天子發心。然
 <lb n="1077a24" ed="T"/>是一品。終是利益。是以屬品為第五段。不屬
-<lb n="1077a25" ed="T"/>近文。</p><note n="1077002" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四末終【甲】</note><note n="1077002" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四末終【甲】</note>◎</div1>
-<lb n="1077a26" ed="T"/><div1 type="pin"><mulu level="1" label="6 不思議品(五本)" type="品"/>◎<note n="1077003" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第五本首【甲】，撰號同異如首卷</note><note n="1077003" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第五本首【甲】，撰號同異如首卷</note><head>不思議品</head>
+<lb n="1077a25" ed="T"/>近文。</p><note n="1077002" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第四末終【甲】</note><note n="1077002" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第四末終【甲】</note><anchor type="◎"/></div1>
+<lb n="1077a26" ed="T"/><div1 type="pin"><mulu level="1" label="6 不思議品(五本)" type="品"/><anchor type="◎"/><note n="1077003" resp="Taisho" place="foot text" type="orig">說無垢稱經疏卷第五本首【甲】，撰號同異如首卷</note><note n="1077003" resp="CBETA" type="mod"><todo type="a"/>說無垢稱經疏卷第五本首【甲】，撰號同異如首卷</note><head>不思議品</head>
 <lb n="1077a27" ed="T"/><p id="pT38p1077a2701">方便品下。合有五品。明利他行。初之四品。隱
 <lb n="1077a28" ed="T"/>&CB00528;利他。未現大神通。隨類濟物。故名隱&CB00528;利
 <lb n="1077a29" ed="T"/>他。密權也。此之一品。現大神通。明顯&CB00528;利
@@ -8330,7 +8333,7 @@ Added comment  for Emacs
 <lb n="1083b22" ed="T"/>者。華多香綺。愚俗染情。欲明聲聞有著。菩薩
 <lb n="1083b23" ed="T"/>離之。故散之也。又華掩臭惡。馨香逢芳。現有
 <lb n="1083b24" ed="T"/>敷榮之能。遠<note n="1083013" resp="Taisho" place="foot text" type="orig">有＝符【甲】</note><app n="1083013"><lem wit="【大】">有</lem><rdg resp="Taisho" wit="【甲】">符</rdg></app>結實之德。故唯散華。不散
-<lb n="1083b25" ed="T"/>餘也。</p><note n="1083014" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1083014" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="1083b25" ed="T"/>餘也。</p><note n="1083014" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1083014" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="1083b26" ed="T"/><p id="pT38p1083b2601" type="W">文化丁卯五月十五萓此卷挍合畢此卷尤
 <lb n="1083b27" ed="T"/>寫誤多矣難挍訂者或存本書又雖有改之
 <lb n="1083b28" ed="T"/>者非自敢決定而就中三四之兩紙間能所
@@ -8343,7 +8346,7 @@ Added comment  for Emacs
 <lb n="1083c05" ed="T"/>
 <lb n="1083c06" ed="T"/><juan n="005b" fun="open"><mulu n="5b" label="第五末" type="卷"/><jhead>說無垢稱經疏卷第五<note place="inline">末</note></jhead></juan>
 <lb n="1083c07" ed="T"/>
-<lb n="1083c08" ed="T"/><p id="pT38p1083c0801">◎<note n="1083015" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1083015" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>經時彼天花<note place="inline">至</note>便著不<note n="1083016" resp="Taisho" place="foot text" type="orig">隨＝墮【甲】</note><app n="1083016"><lem wit="【大】">隨</lem><rdg resp="Taisho" wit="【甲】">墮</rdg></app>。</p><p id="pT38p1083c0811" place="inline">贊曰。下明著
+<lb n="1083c08" ed="T"/><p id="pT38p1083c0801"><anchor type="◎"/><note n="1083015" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="1083015" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>經時彼天花<note place="inline">至</note>便著不<note n="1083016" resp="Taisho" place="foot text" type="orig">隨＝墮【甲】</note><app n="1083016"><lem wit="【大】">隨</lem><rdg resp="Taisho" wit="【甲】">墮</rdg></app>。</p><p id="pT38p1083c0811" place="inline">贊曰。下明著
 <lb n="1083c09" ed="T"/>與不著。有二。初明著不著。後明去不得。此初
 <lb n="1083c10" ed="T"/>文也。</p>
 <lb n="1083c11" ed="T"/><p id="pT38p1083c1101">經。時聲聞眾<note place="inline">至</note>皆不能去。</p><p id="pT38p1083c1111" place="inline">贊曰。此明去不得。</p>
@@ -8589,8 +8592,8 @@ Added comment  for Emacs
 <lb n="1086b11" ed="T"/>願滿足。五得無生忍。六至不退地。</p>
 <lb n="1086b12" ed="T"/><p id="pT38p1086b1201">經。乘本願力<note place="inline">至</note>成熟有情。</p><p id="pT38p1086b1211" place="inline">贊曰。此釋為女所
 <lb n="1086b13" ed="T"/>由。乘因本願。隨欲受生。故居此室。任物情
-<lb n="1086b14" ed="T"/>宜。故現為女。</p><note n="1086009" resp="Taisho" place="foot text" type="orig">卷第五本終【甲】</note><note n="1086009" resp="CBETA" type="mod"><todo type="a"/>卷第五本終【甲】</note>◎</div1>
-<lb n="1086b15" ed="T"/><div1 type="pin"><mulu level="1" label="8 菩提分品(五末)" type="品"/>◎<note n="1086010" resp="Taisho" place="foot text" type="orig">卷第五末首【甲】</note><note n="1086010" resp="CBETA" type="mod"><todo type="a"/>卷第五末首【甲】</note><head>菩提分品</head>
+<lb n="1086b14" ed="T"/>宜。故現為女。</p><note n="1086009" resp="Taisho" place="foot text" type="orig">卷第五本終【甲】</note><note n="1086009" resp="CBETA" type="mod"><todo type="a"/>卷第五本終【甲】</note><anchor type="◎"/></div1>
+<lb n="1086b15" ed="T"/><div1 type="pin"><mulu level="1" label="8 菩提分品(五末)" type="品"/><anchor type="◎"/><note n="1086010" resp="Taisho" place="foot text" type="orig">卷第五末首【甲】</note><note n="1086010" resp="CBETA" type="mod"><todo type="a"/>卷第五末首【甲】</note><head>菩提分品</head>
 <lb n="1086b16" ed="T"/><p id="pT38p1086b1601">方方品等下之五品。利他勝行。次上一品。觀
 <lb n="1086b17" ed="T"/>所化處。次下二品。真實義處。明自利行。初之
 <lb n="1086b18" ed="T"/>一品。真實有為世俗事行。次後一品。真實無
