@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.21 $ (Big5)<date>$Date: 2006/04/12 21:58:56 $</date></edition>
+		<edition>$Revision: 1.22 $ (Big5)<date>$Date: 2006/05/20 02:38:23 $</date></edition>
 	</editionStmt>
 	<extent>20卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/04/12 21:58:56 $</date>
+		<date>$Date: 2006/05/20 02:38:23 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 47, No. 1997 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T47n1997.xml,v $
+Revision 1.22  2006/05/20 02:38:23  saywhat
+雙圈 改成 anchor 標記
+
 Revision 1.21  2006/04/12 21:58:56  saywhat
 lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
 
@@ -160,7 +163,7 @@ Revision 1.11  2001/02/07 07:24:42  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.10  2001/02/03 08:08:32  chris
-Added keywords $Revision: 1.21 $, $Date: 2006/04/12 21:58:56 $ and $Log.
+Added keywords $Revision: 1.22 $, $Date: 2006/05/20 02:38:23 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -604,7 +607,7 @@ Added comment  for Emacs
 <lb n="0718b02" ed="T"/>百億萬劫沒交涉。拈一放一節外生枝。舉古
 <lb n="0718b03" ed="T"/>舉今無風起浪。山僧今日一時坐斷。且道。還
 <lb n="0718b04" ed="T"/>有為人處也無。千&CB00123;勢到嶽邊止。萬派聲歸
-<lb n="0718b05" ed="T"/>海上消。下座。</p><note n="0718001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0718001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="0718b05" ed="T"/>海上消。下座。</p><note n="0718001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0718001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="0718b06" ed="T"/><juan n="001" fun="close"><jhead>圓悟佛果禪師語錄卷第一</jhead></juan></div1>
 <lb n="0718b07" ed="T"/>
 <milestone n="2" unit="juan"/>
@@ -613,7 +616,7 @@ Added comment  for Emacs
 <lb n="0718b10" ed="T"/>
 <lb n="0718b11" ed="T"/><byline type="Editor">宋平江府虎丘山門人紹隆等編</byline>
 <lb n="0718b12" ed="T"/><div1 type="other"><mulu level="1" label="上堂二" type="其他"/><head><note n="0718002" resp="Taisho" place="foot text" type="orig">〔上堂二〕－【甲】</note><app n="0718002"><lem wit="【大】">上堂二</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app></head>
-<lb n="0718b13" ed="T"/><p id="pT47p0718b1301">◎<note n="0718003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0718003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>上堂。僧問。譬如擲劍揮空。有一人劍亦無。
+<lb n="0718b13" ed="T"/><p id="pT47p0718b1301"><anchor type="◎"/><note n="0718003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0718003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>上堂。僧問。譬如擲劍揮空。有一人劍亦無。
 <lb n="0718b14" ed="T"/>虛空亦不揮時如何。師云。大眾。見爾敗闕。進
 <lb n="0718b15" ed="T"/>云。學人只管推出。和尚何不放行。師云。莫謗
 <lb n="0718b16" ed="T"/>崇寧好。進云。為什麼不肯承當。師云。藏身露
@@ -833,8 +836,8 @@ Added comment  for Emacs
 <lb n="0720c20" ed="T"/>行雲。止猶谷神。既無心於彼此。亦無象於去
 <lb n="0720c21" ed="T"/>來。如是則去來不以象。動靜不以形。豈不綽
 <lb n="0720c22" ed="T"/>綽然有餘裕哉。且道。臨行一句作麼生道。本
-<lb n="0720c23" ed="T"/>是林下人。&CB00230;歸林下去。下座。</p><note n="0720003" resp="Taisho" place="foot text" type="orig">甲本座字次有為亡僧下火云五蘊山頭涅槃路四方八面沒遮欄通身盡是金剛眼一粒靈丹火裏燃，為範和尚下火云忠臣不畏死故能立天下之大事勇士不顧生故能成天下之大名衲僧家透脫生死不懼危亡故能立佛祖之紀綱昭覺和尚神機峭峻智辯滔天肘臂下有符頂門上具眼奮喝散白雲底意氣操打破虛空底鉗鎚一歸錦官兩住雄剎闢開荊棘路坐斷是非關接物利生光揚佛日臨岐一著擺撥便行絕後光前頭正尾正如今既到這裏可謂世緣畢備末後慇懃截斷路頭一堆猛火大眾且道畢竟向什麼處去舉火炬云烈焰&CB00040;天留不得當空寶月鎮長圓初住成都府崇寧萬壽禪寺語錄卷終二百三十四字</note>◎
-<lb n="0720c24" ed="T"/><p id="pT47p0720c2401"><note n="0720004" resp="Taisho" place="foot text" type="orig">〔住夾山〕－【甲】</note><app n="0720004"><lem wit="【大】">住夾山</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。◎<note n="0720005" resp="Taisho" place="foot text" type="orig">甲本圓悟禪師住夾山語錄首，參學比丘若平同編</note><note n="0720005" resp="CBETA" type="mod"><todo type="a"/>甲本圓悟禪師住夾山語錄首，參學比丘若平同編</note>師在公安天寧受請。拈帖示眾
+<lb n="0720c23" ed="T"/>是林下人。&CB00230;歸林下去。下座。</p><note n="0720003" resp="Taisho" place="foot text" type="orig">甲本座字次有為亡僧下火云五蘊山頭涅槃路四方八面沒遮欄通身盡是金剛眼一粒靈丹火裏燃，為範和尚下火云忠臣不畏死故能立天下之大事勇士不顧生故能成天下之大名衲僧家透脫生死不懼危亡故能立佛祖之紀綱昭覺和尚神機峭峻智辯滔天肘臂下有符頂門上具眼奮喝散白雲底意氣操打破虛空底鉗鎚一歸錦官兩住雄剎闢開荊棘路坐斷是非關接物利生光揚佛日臨岐一著擺撥便行絕後光前頭正尾正如今既到這裏可謂世緣畢備末後慇懃截斷路頭一堆猛火大眾且道畢竟向什麼處去舉火炬云烈焰&CB00040;天留不得當空寶月鎮長圓初住成都府崇寧萬壽禪寺語錄卷終二百三十四字</note><anchor type="◎"/>
+<lb n="0720c24" ed="T"/><p id="pT47p0720c2401"><note n="0720004" resp="Taisho" place="foot text" type="orig">〔住夾山〕－【甲】</note><app n="0720004"><lem wit="【大】">住夾山</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。<anchor type="◎"/><note n="0720005" resp="Taisho" place="foot text" type="orig">甲本圓悟禪師住夾山語錄首，參學比丘若平同編</note><note n="0720005" resp="CBETA" type="mod"><todo type="a"/>甲本圓悟禪師住夾山語錄首，參學比丘若平同編</note>師在公安天寧受請。拈帖示眾
 <lb n="0720c25" ed="T"/>云。百草頭上薦取。爭如箇裏承當。既然符到
 <lb n="0720c26" ed="T"/>奉行。豈可當爐避火。若也見得。坐斷一切人
 <lb n="0720c27" ed="T"/>舌頭。苟或未然。&CB00230;請維那剖露。</p>
@@ -1033,7 +1036,7 @@ Added comment  for Emacs
 <lb n="0723a10" ed="T"/>父從來不出門。</p>
 <lb n="0723a11" ed="T"/><p id="pT47p0723a1101">上堂云。韶華二月半。漏逗渾莫算。米少食無
 <lb n="0723a12" ed="T"/>鹽。釘菜崖空飯。吞底栗棘蓬。跳底金剛圈。分
-<lb n="0723a13" ed="T"/>外展家風。秦時&CB01323;轢鑽。</p><note n="0723001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0723001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="0723a13" ed="T"/>外展家風。秦時&CB01323;轢鑽。</p><note n="0723001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0723001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="0723a14" ed="T"/><juan n="002" fun="close"><jhead>圓悟佛果禪師語錄卷第二</jhead></juan></div1>
 <lb n="0723a15" ed="T"/>
 <milestone n="3" unit="juan"/>
@@ -1042,7 +1045,7 @@ Added comment  for Emacs
 <lb n="0723a18" ed="T"/>
 <lb n="0723a19" ed="T"/><byline type="Editor">宋平江府虎丘山門人紹隆等編</byline>
 <lb n="0723a20" ed="T"/><div1 type="other"><mulu level="1" label="上堂三" type="其他"/><head><note n="0723002" resp="Taisho" place="foot text" type="orig">〔上堂三〕－【甲】</note><app n="0723002"><lem wit="【大】">上堂三</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app></head>
-<lb n="0723a21" ed="T"/><p id="pT47p0723a2101">◎<note n="0723003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0723003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>請首座上堂。合千差包萬有。齊往來印今
+<lb n="0723a21" ed="T"/><p id="pT47p0723a2101"><anchor type="◎"/><note n="0723003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0723003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>請首座上堂。合千差包萬有。齊往來印今
 <lb n="0723a22" ed="T"/>古。混有無一生死。舉不犯之令。行不言之
 <lb n="0723a23" ed="T"/>教。齊不齊平不平。於此建立於此辨明。於此
 <lb n="0723a24" ed="T"/>紀綱於此表<note n="0723004" resp="Taisho" place="foot text" type="orig">帥＝師【甲】</note><app n="0723004"><lem wit="【大】">帥</lem><rdg resp="Taisho" wit="【甲】">師</rdg></app>。何法不容何事不成。何德不
@@ -1150,8 +1153,8 @@ Added comment  for Emacs
 <lb n="0724b06" ed="T"/>不是循途守轍。亦非革轍移途。透得則六臂
 <lb n="0724b07" ed="T"/>三頭。未透亦人間天上。且道三句外一句
 <lb n="0724b08" ed="T"/>作麼生道。生涯只在絲綸上。明月扁舟泛五
-<lb n="0724b09" ed="T"/>湖。</p><note n="0724003" resp="Taisho" place="foot text" type="orig">圓悟禪師住夾山語錄終【甲】</note><note n="0724003" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住夾山語錄終【甲】</note>◎
-<lb n="0724b10" ed="T"/><p id="pT47p0724b1001"><note n="0724004" resp="Taisho" place="foot text" type="orig">〔住道林語錄〕－【甲】</note><app n="0724004"><lem wit="【大】">住道林語錄</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。◎<note n="0724005" resp="Taisho" place="foot text" type="orig">圓悟禪師住道林語錄首，住平江府虎丘山門人紹隆筆編【甲】</note><note n="0724005" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住道林語錄首，住平江府虎丘山門人紹隆筆編【甲】</note>師在夾山受請。拈帖示眾
+<lb n="0724b09" ed="T"/>湖。</p><note n="0724003" resp="Taisho" place="foot text" type="orig">圓悟禪師住夾山語錄終【甲】</note><note n="0724003" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住夾山語錄終【甲】</note><anchor type="◎"/>
+<lb n="0724b10" ed="T"/><p id="pT47p0724b1001"><note n="0724004" resp="Taisho" place="foot text" type="orig">〔住道林語錄〕－【甲】</note><app n="0724004"><lem wit="【大】">住道林語錄</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。<anchor type="◎"/><note n="0724005" resp="Taisho" place="foot text" type="orig">圓悟禪師住道林語錄首，住平江府虎丘山門人紹隆筆編【甲】</note><note n="0724005" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住道林語錄首，住平江府虎丘山門人紹隆筆編【甲】</note>師在夾山受請。拈帖示眾
 <lb n="0724b11" ed="T"/>云。大眾。湖外有知音。千里通消息。透出威音
 <lb n="0724b12" ed="T"/>王。誰解知端的。還知麼。箇裏辨取。苟或未
 <lb n="0724b13" ed="T"/>然。&CB00230;請對眾宣過。</p>
@@ -1876,8 +1879,8 @@ Added comment  for Emacs
 <lb n="0732b11" ed="T"/>王。不立纖塵。可以具足金剛智。何況園裏菜
 <lb n="0732b12" ed="T"/>青田中禾熟。豈非歲稔時和心融境寂。且不
 <lb n="0732b13" ed="T"/>離向背一句作麼生道。星河秋一雁。砧杵夜
-<lb n="0732b14" ed="T"/>千家。</p><note n="0732001" resp="Taisho" place="foot text" type="orig">圓悟禪師住蔣山語錄終【甲】</note><note n="0732001" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住蔣山語錄終【甲】</note>◎
-<lb n="0732b15" ed="T"/><p id="pT47p0732b1501"><note n="0732002" resp="Taisho" place="foot text" type="orig">〔住東京天寧寺〕－【甲】</note><app n="0732002"><lem wit="【大】">住東京天寧寺</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>◎<note n="0732003" resp="Taisho" place="foot text" type="orig">圓悟禪師住東京天寧寺語卷首，參學比丘若平同編【甲】</note><note n="0732003" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住東京天寧寺語卷首，參學比丘若平同編【甲】</note>宣和六年四月十九日。於
+<lb n="0732b14" ed="T"/>千家。</p><note n="0732001" resp="Taisho" place="foot text" type="orig">圓悟禪師住蔣山語錄終【甲】</note><note n="0732001" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住蔣山語錄終【甲】</note><anchor type="◎"/>
+<lb n="0732b15" ed="T"/><p id="pT47p0732b1501"><note n="0732002" resp="Taisho" place="foot text" type="orig">〔住東京天寧寺〕－【甲】</note><app n="0732002"><lem wit="【大】">住東京天寧寺</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app><anchor type="◎"/><note n="0732003" resp="Taisho" place="foot text" type="orig">圓悟禪師住東京天寧寺語卷首，參學比丘若平同編【甲】</note><note n="0732003" resp="CBETA" type="mod"><todo type="a"/>圓悟禪師住東京天寧寺語卷首，參學比丘若平同編【甲】</note>宣和六年四月十九日。於
 <lb n="0732b16" ed="T"/>當寺為國開堂。師拈疏云。現成公案未言時。
 <lb n="0732b17" ed="T"/>文彩已彰。洞徹根源才舉處。重重漏泄。儻或
 <lb n="0732b18" ed="T"/>尚留觀聽。&CB00230;請對眾敷<note n="0732004" resp="Taisho" place="foot text" type="orig">場＝揚【甲】</note><app n="0732004"><lem wit="【大】">場</lem><rdg resp="Taisho" wit="【甲】">揚</rdg></app>。指法座云。柔和
@@ -1935,7 +1938,7 @@ Added comment  for Emacs
 <lb n="0733a10" ed="T"/>世法佛法打成一片。雖然如是。惜其不甚寬
 <lb n="0733a11" ed="T"/>廓。今日忽有人問天寧。如何是一大事因緣。
 <lb n="0733a12" ed="T"/>即對他道。手握金輪清四海。聖躬彌億萬斯
-<lb n="0733a13" ed="T"/>年。</p><note n="0733001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0733001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="0733a13" ed="T"/>年。</p><note n="0733001" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0733001" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="0733a14" ed="T"/><juan n="004" fun="close"><jhead>圓悟佛果禪師語錄卷第四</jhead></juan></div1>
 <lb n="0733a15" ed="T"/>
 <milestone n="5" unit="juan"/>
@@ -1944,7 +1947,7 @@ Added comment  for Emacs
 <lb n="0733a18" ed="T"/>
 <lb n="0733a19" ed="T"/><byline type="Editor">宋平江府虎丘山門人紹隆等編</byline>
 <lb n="0733a20" ed="T"/><div1 type="other"><mulu level="1" label="上堂五" type="其他"/><head><note n="0733002" resp="Taisho" place="foot text" type="orig">〔上堂五〕－【甲】</note><app n="0733002"><lem wit="【大】">上堂五</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app></head>
-<lb n="0733a21" ed="T"/><p id="pT47p0733a2101">◎<note n="0733003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0733003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>師在蔣山受&CB00330;。拈示眾云。大眾見麼。龍飛
+<lb n="0733a21" ed="T"/><p id="pT47p0733a2101"><anchor type="◎"/><note n="0733003" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0733003" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>師在蔣山受&CB00330;。拈示眾云。大眾見麼。龍飛
 <lb n="0733a22" ed="T"/>鳳舞降自九重。佛祖綱宗盡在裏許。&CB00230;請維
 <lb n="0733a23" ed="T"/>那對眾宣讀。</p>
 <lb n="0733a24" ed="T"/><p id="pT47p0733a2401">陞座。僧問。承師有言。龍飛鳳舞降自九重。此
@@ -2352,7 +2355,7 @@ Added comment  for Emacs
 <lb n="0737c06" ed="T"/>行陰&CB01460;保。其富貴長久福祿彌隆。有福修福。
 <lb n="0737c07" ed="T"/>若大海之衲眾流。唯利根種智之人。具如是
 <lb n="0737c08" ed="T"/>作用。只此便是普光殿無相身為盧舍那。萬
-<lb n="0737c09" ed="T"/>行因華圓果海。福源洪注溢天河。</p><note n="0737002" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0737002" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>◎
+<lb n="0737c09" ed="T"/>行因華圓果海。福源洪注溢天河。</p><note n="0737002" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0737002" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note><anchor type="◎"/>
 <lb n="0737c10" ed="T"/><juan n="005" fun="close"><jhead>圓悟佛果禪師語錄卷第五</jhead></juan></div1>
 <lb n="0737c11" ed="T"/>
 <milestone n="6" unit="juan"/>
@@ -2361,7 +2364,7 @@ Added comment  for Emacs
 <lb n="0737c14" ed="T"/>
 <lb n="0737c15" ed="T"/><byline type="Editor">宋平江府虎丘山門人紹隆等編</byline>
 <lb n="0737c16" ed="T"/><div1 type="other"><mulu level="1" label="上堂六" type="其他"/><head><note n="0737003" resp="Taisho" place="foot text" type="orig">〔上堂六〕－【甲】</note><app n="0737003"><lem wit="【大】">上堂六</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app></head>
-<lb n="0737c17" ed="T"/><p id="pT47p0737c1701"><note n="0737004" resp="Taisho" place="foot text" type="orig">〔東京天寧寺語〕－【甲】</note><app n="0737004"><lem wit="【大】">東京天寧寺語</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。◎<note n="0737005" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0737005" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>王貴妃請。上堂。僧問。如
+<lb n="0737c17" ed="T"/><p id="pT47p0737c1701"><note n="0737004" resp="Taisho" place="foot text" type="orig">〔東京天寧寺語〕－【甲】</note><app n="0737004"><lem wit="【大】">東京天寧寺語</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>。<anchor type="◎"/><note n="0737005" resp="Taisho" place="foot text" type="orig">不分卷【甲】</note><note n="0737005" resp="CBETA" type="mod"><todo type="a"/>不分卷【甲】</note>王貴妃請。上堂。僧問。如
 <lb n="0737c18" ed="T"/>天普蓋長見日月光輝。似地普擎萬古山河
 <lb n="0737c19" ed="T"/>水固。正當恁麼時承誰恩力。師云。千華叢裏
 <lb n="0737c20" ed="T"/>一華春。進云。可謂野老既知堯舜力。歌謠此
