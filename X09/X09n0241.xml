@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X09n0241.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2005/12/30 02:49:50 $</date></edition>
+		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2007/05/22 03:21:08 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/12/30 02:49:50 $</date>
+		<date>$Date: 2007/05/22 03:21:08 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 09, No. 241 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X09n0241.xml,v $
+Revision 1.3  2007/05/22 03:21:08  amtbgrace
+modified: 校注插入XML
+
 Revision 1.2  2005/12/30 02:49:50  amtbgrace
 modified: n0241,0248 新增標記
 
@@ -65,7 +70,7 @@ no message
 <lb ed="X" n="0301a01"/>
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0301a02"/><head type="no">No. 241</head>
-<lb ed="X" n="0301a03"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX09p0301a01"/>大方廣佛華嚴經綱目貫攝卷第一</jhead></juan>
+<lb ed="X" n="0301a03"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0301001" resp="Xuzangjing" place="foot text" type="orig">原本載天冊皇帝並沙門慧研序二章然續藏經第五套中既載該序故今省之</note>大方廣佛華嚴經綱目貫攝卷第一</jhead></juan>
 <lb ed="X" n="0301a04"/>
 <lb ed="X" n="0301a05"/><byline type="collector">遂&CB03408;廣德寺沙門　永光　錄集</byline>
 <lb ed="X" n="0301a06"/><byline type="other">仁壽松風寺沙門　惟靜　較証</byline>
@@ -125,7 +130,7 @@ no message
 <lb ed="X" n="0301c10"/>處依正莊嚴等。後當經自明。</p>
 <lb ed="X" n="0301c11"/><p id="pX09p0301c1101">二會普光明殿。說十信法門。十信者。十種信心。一信
 <lb ed="X" n="0301c12"/>心。二念心。三慧心。四精進心。五定心。六不退心。七迴
-<lb ed="X" n="0301c13"/>向心。八護法心。九戒心。十<anchor id="fnX09p0301c02"/>順心。此十心功用。後當經
+<lb ed="X" n="0301c13"/>向心。八護法心。九戒心。十<note n="0301002" resp="Xuzangjing" place="foot text" type="orig">順疑願</note>順心。此十心功用。後當經
 <lb ed="X" n="0301c14"/>自明。</p>
 <lb ed="X" n="0301c15"/><p id="pX09p0301c1501">三會忉利天宮。說十住法門。十住者。初發心住。二治
 <lb ed="X" n="0301c16"/>地住。三修行住。四生貴住。五具足方便住。六正心住。
@@ -190,9 +195,9 @@ no message
 <pb ed="X" id="X09.0241.0302c" n="0302c"/>
 <lb ed="X" n="0302c01"/>法門。</p><p id="pX09p0302c0103" place="inline">第二善知識海門國海雲比丘。主治地住。所
 <lb ed="X" n="0302c02"/>得解脫法門。名普眼法門。</p><p id="pX09p0302c0211" place="inline">第三善知識海岸聚落
-<lb ed="X" n="0302c03"/>善住比丘。<anchor id="fnX09p0302c01"/>修行住。所得解脫門。名普速疾供養諸佛
+<lb ed="X" n="0302c03"/>善住比丘。<note n="0302001" resp="Xuzangjing" place="foot text" type="orig">修上疑脫主字</note>修行住。所得解脫門。名普速疾供養諸佛
 <lb ed="X" n="0302c04"/>成就眾生無礙解脫門。</p><p id="pX09p0302c0410" place="inline">第四善知識達里鼻茶國
-<lb ed="X" n="0302c05"/>彌伽長者。主生貴住。所得解脫門。名菩薩妙<anchor id="fnX09p0302c02"/>者陀羅
+<lb ed="X" n="0302c05"/>彌伽長者。主生貴住。所得解脫門。名菩薩妙<note n="0302002" resp="Xuzangjing" place="foot text" type="orig">者疑音</note>者陀羅
 <lb ed="X" n="0302c06"/>尼光明法門。</p><p id="pX09p0302c0606" place="inline">第五善知識住林城解脫長者。主具
 <lb ed="X" n="0302c07"/>足方便住。所得解脫門。名如來無礙莊嚴解脫門。</p>
 <lb ed="X" n="0302c08"/><p id="pX09p0302c0801">第六善知識閻浮提畔海幢比丘。主正心住。所得解
@@ -250,7 +255,7 @@ no message
 <lb ed="X" n="0303b10"/>婆珊婆演底夜神。主歡喜地。所得法門。名破一切眾
 <lb ed="X" n="0303b11"/>生癡闇法光明解脫門。</p><p id="pX09p0303b1110" place="inline">第二善知識菩提場普得
 <lb ed="X" n="0303b12"/>淨光夜神。主離垢地。所得法門。名菩薩寂靜禪定樂
-<lb ed="X" n="0303b13"/>善遊步解脫門。</p><p id="pX09p0303b1307" place="inline">第三善知識菩提場右邊喜<anchor id="fnX09p0303b01"/>自觀
+<lb ed="X" n="0303b13"/>善遊步解脫門。</p><p id="pX09p0303b1307" place="inline">第三善知識菩提場右邊喜<note n="0303001" resp="Xuzangjing" place="foot text" type="orig">自當作目</note>自觀
 <lb ed="X" n="0303b14"/>察眾生夜神。主發光地。所得法門。名普喜幢解脫門。</p>
 <lb ed="X" n="0303b15"/><p id="pX09p0303b1501">第四善知識眾會中普救眾生妙德夜神。主&CB08504;慧
 <lb ed="X" n="0303b16"/>地。所得解脫法門。名菩薩普現一切世間調伏眾生
@@ -275,10 +280,10 @@ no message
 <lb ed="X" n="0303c10"/>得法門。名無礙念清淨解脫門。</p><p id="pX09p0303c1013" place="inline">第三善知識迦毗
 <lb ed="X" n="0303c11"/>羅城&CB00642;友童子師。主&CB00642;滿十方世法師範門。</p><p id="pX09p0303c1118" place="inline">第四
 <lb ed="X" n="0303c12"/>善知識善知眾藝童子。主&CB00642;周十方字智門。所得法
-<lb ed="X" n="0303c13"/>門。名善知<anchor id="fnX09p0303c02"/>&CB06034;藝菩薩般若波羅密解脫門。</p><p id="pX09p0303c1317" place="inline">第五善
-<lb ed="X" n="0303c14"/>知識賢<anchor id="fnX09p0303c03"/>聖優婆夷。主世間一切正邪吉&CB04846;諸方便<anchor id="fnX09p0303c04"/>拔
+<lb ed="X" n="0303c13"/>門。名善知<note n="0303002" resp="Xuzangjing" place="foot text" type="orig">驗疑眾</note>&CB06034;藝菩薩般若波羅密解脫門。</p><p id="pX09p0303c1317" place="inline">第五善
+<lb ed="X" n="0303c14"/>知識賢<note n="0303003" resp="Xuzangjing" place="foot text" type="orig">聖疑勝</note>聖優婆夷。主世間一切正邪吉&CB04846;諸方便<note n="0303004" resp="Xuzangjing" place="foot text" type="orig">拔疑技</note>拔
 <lb ed="X" n="0303c15"/>術師筮博說一切總達利生門。所得法門。名無依處
-<lb ed="X" n="0303c16"/>道場解脫門。</p><p id="pX09p0303c1606" place="inline">第六善知識南方沃田城<anchor id="fnX09p0303c05"/>以堅固解
+<lb ed="X" n="0303c16"/>道場解脫門。</p><p id="pX09p0303c1606" place="inline">第六善知識南方沃田城<note n="0303005" resp="Xuzangjing" place="foot text" type="orig">以字更勘</note>以堅固解
 <lb ed="X" n="0303c17"/>脫長者。主處世無著念清淨解脫門。所得法門。名無
 <lb ed="X" n="0303c18"/>著念清淨莊嚴解脫門。</p><p id="pX09p0303c1810" place="inline">第七善知識沃田城妙月
 <lb ed="X" n="0303c19"/>長者。主處世淨智光明門。所得法門。名智光解脫門。</p>
@@ -297,7 +302,7 @@ no message
 <lb ed="X" n="0304a07"/>親證。一生成佛。行法功用。後當經自明。</p>
 <lb ed="X" n="0304a08"/><p id="pX09p0304a0801">又初會菩提場中。佛放口光眉間光。有佛剎微塵數。
 <lb ed="X" n="0304a09"/>一一復有佛剎微塵數光明。以為眷屬。其光悉具眾
-<lb ed="X" n="0304a10"/>妙寶色。普照十方<anchor id="fnX09p0304a01"/>名一億佛剎微塵數世界海。彼世
+<lb ed="X" n="0304a10"/>妙寶色。普照十方<note n="0304001" resp="Xuzangjing" place="foot text" type="orig">名疑各</note>名一億佛剎微塵數世界海。彼世
 <lb ed="X" n="0304a11"/>界海諸菩薩眾。於光明中。各得見此華藏莊嚴世界
 <lb ed="X" n="0304a12"/>海。以佛神力。其光於彼一切菩薩眾會之前。而說頌
 <lb ed="X" n="0304a13"/>言。</p>
@@ -338,7 +343,7 @@ no message
 <lb ed="X" n="0304b23"/>東方十億世界。南西北方四維上下亦復如是。﹂爾時
 <lb ed="X" n="0304b24"/>光明。過十億世界。&CB00642;照東方百億世界。千億世界。百
 <pb ed="X" id="X09.0241.0304c" n="0304c"/>
-<lb ed="X" n="0304c01"/>千億世界。那由他億世界。百那由他億世界。<anchor id="fnX09p0304c02"/>十那由
+<lb ed="X" n="0304c01"/>千億世界。那由他億世界。百那由他億世界。<note n="0304002" resp="Xuzangjing" place="foot text" type="orig">十疑千</note>十那由
 <lb ed="X" n="0304c02"/>他億世界。如是無數無量無邊無等。不可數不可稱
 <lb ed="X" n="0304c03"/>不可思不可量不可說。盡法界&CB00980;空界。所有世界。南
 <lb ed="X" n="0304c04"/>西北方四維上下亦復如是。彼一一世界中。皆有百
@@ -380,7 +385,7 @@ no message
 <lb ed="X" n="0305a15"/>十方世界。除滅一切諸惡道苦。&CB00153;蔽一切諸魔宮殿。
 <lb ed="X" n="0305a16"/>顯示一切諸佛如來坐菩提座。成等正覺。又口中放
 <lb ed="X" n="0305a17"/>大光明。名無礙無畏。百千億阿僧祗光明以為眷屬。
-<lb ed="X" n="0305a18"/>普照十方盡&CB00980;空&CB00642;法界一切世界。右遶十&CB00038;。<anchor id="fnX09p0305a01"/>顯現
+<lb ed="X" n="0305a18"/>普照十方盡&CB00980;空&CB00642;法界一切世界。右遶十&CB00038;。<note n="0305001" resp="Xuzangjing" place="foot text" type="orig">顯等十八字疑衍文</note>顯現
 <lb ed="X" n="0305a19"/>十方盡&CB00980;空&CB00642;法界一切世界。右遶十&CB00038;顯現如來
 <lb ed="X" n="0305a20"/>種種自在。開悟無量諸眾生等。震動一切十方世界。
 <lb ed="X" n="0305a21"/>除滅一切諸惡道苦。乃至眾會道場。作是事<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。而來
@@ -452,7 +457,7 @@ no message
 <lb ed="X" n="0306a12"/>薩而為上首。寶藏菩薩。蓮華藏菩薩。德藏菩薩。蓮華
 <lb ed="X" n="0306a13"/>德藏菩薩。日藏菩薩。蘇利耶藏菩薩。無垢月藏菩薩。
 <lb ed="X" n="0306a14"/>於一切國土普現莊嚴藏菩薩。毗盧遮那智藏菩薩。
-<lb ed="X" n="0306a15"/>如是等與十方世界法界&CB00980;空<anchor id="fnX09p0306a01"/>思一一世界中諸大
+<lb ed="X" n="0306a15"/>如是等與十方世界法界&CB00980;空<note n="0306001" resp="Xuzangjing" place="foot text" type="orig">思字更勘</note>思一一世界中諸大
 <lb ed="X" n="0306a16"/>菩薩而來集會。金剛藏菩薩而為上首。表十地法門﹂
 <lb ed="X" n="0306a17"/>七會菩提場普光明殿。佛放眉間白毫相光。普照十
 <lb ed="X" n="0306a18"/>方盡&CB00980;空&CB00642;法界一切世界。右遶十&CB00038;。顯現如來無
@@ -514,7 +519,7 @@ no message
 <lb ed="X" n="0306c24"/><p id="pX09p0306c2401">又三會。須彌山頂忉利天宮。說十住法門。法慧菩薩
 <pb ed="X" id="X09.0241.0307a" n="0307a"/>
 <lb ed="X" n="0307a01"/>承佛威力。入菩薩無量方便三昧。以三昧力。十方各
-<lb ed="X" n="0307a02"/>千佛剎微塵數世界之外。有千佛<anchor id="fnX09p0307a01"/>佛剎微塵數諸佛。
+<lb ed="X" n="0307a02"/>千佛剎微塵數世界之外。有千佛<note n="0307001" resp="Xuzangjing" place="foot text" type="orig">佛字疑剩</note>佛剎微塵數諸佛。
 <lb ed="X" n="0307a03"/>皆同一號。名曰法慧。普現其前。告法慧菩薩言。善哉
 <lb ed="X" n="0307a04"/>善哉。善男子。汝能入是菩薩無量方便三昧。善男子。
 <lb ed="X" n="0307a05"/>十方各千佛剎微塵數諸佛。悉以神力。共加於汝。又
@@ -811,9 +816,9 @@ no message
 <lb ed="X" n="0310c21"/>下本經文。略言毫末而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。<note place="inline">下本文亦未全。尚有十品。存於天竺</note>中上本
 <lb ed="X" n="0310c22"/>經。當更有餘義。信乎須彌聚筆。大海量墨。莫能書也。
 <lb ed="X" n="0310c23"/>十千塵偈。大地塵品。未足為多。原極于此。則情忘智
-<lb ed="X" n="0310c24"/>絕。廓然無思矣。噫回視我輩<anchor id="fnX09p0310c01"/>叢爾之身心。寸靈之知
+<lb ed="X" n="0310c24"/>絕。廓然無思矣。噫回視我輩<note n="0310001" resp="Xuzangjing" place="foot text" type="orig">叢疑蕞</note>叢爾之身心。寸靈之知
 <pb ed="X" id="X09.0241.0311a" n="0311a"/>
-<lb ed="X" n="0311a01"/>覺。類夫醯&CB00470;處于太&CB00980;。浮<anchor id="fnX09p0311a01"/>區流於大海。存耶亡耶。恍
+<lb ed="X" n="0311a01"/>覺。類夫醯&CB00470;處于太&CB00980;。浮<note n="0311001" resp="Xuzangjing" place="foot text" type="orig">區疑漚</note>區流於大海。存耶亡耶。恍
 <lb ed="X" n="0311a02"/>乎惚乎。如夢想焉。如幻化焉。罔知所以然而然者也。
 <lb ed="X" n="0311a03"/>故經云。十方&CB00980;空。生汝心中。猶如片雲。點太清裡。如
 <lb ed="X" n="0311a04"/>法界性。究竟圓滿。遍十方故。豈欺我哉。是故理極故
@@ -835,7 +840,7 @@ no message
 <lb ed="X" n="0311a20"/>由旬。有地如雲。是他化天住。次第乃至色究竟天住。
 <lb ed="X" n="0311a21"/>悉以皆有其地如雲。毗曇論云。色究竟天。從此天放
 <lb ed="X" n="0311a22"/>一大石山。經六萬五十五百三十五季。中間無礙之
-<lb ed="X" n="0311a23"/>處。下至閻浮提地。<anchor id="fnX09p0311a02"/>抑算高顯。總計該經若干年之久
+<lb ed="X" n="0311a23"/>處。下至閻浮提地。<note n="0311002" resp="Xuzangjing" place="foot text" type="orig">抑一作叩次同</note>抑算高顯。總計該經若干年之久
 <lb ed="X" n="0311a24"/>遠。如四季一年。四十季十年。四百季百年。四千季千
 <pb ed="X" id="X09.0241.0311b" n="0311b"/>
 <lb ed="X" n="0311b01"/>年。四萬季萬年。如上之季。總共抑算。該一萬六千三
@@ -871,9 +876,9 @@ no message
 <lb ed="X" n="0311c06"/><l>理本清淨</l><l>法由理致</l><l>理與法一</l><l>不真何待</l></lg>
 <lb ed="X" n="0311c07"/><p id="pX09p0311c0701">故經云。法界通化。一合理相<note place="inline">偈云</note>。</p>
 <lb ed="X" n="0311c08"/><lg id="lgX09p0311c0801"><l>性體圓明理義彰</l><l>清淨法界界非方</l>
-<lb ed="X" n="0311c09"/><l>真如<anchor id="fnX09p0311c03"/>寶相空明靜</l><l>太&CB00980;不出自性光</l></lg>
+<lb ed="X" n="0311c09"/><l>真如<note n="0311003" resp="Xuzangjing" place="foot text" type="orig">寶或實歟</note>寶相空明靜</l><l>太&CB00980;不出自性光</l></lg>
 <lb ed="X" n="0311c10"/><p id="pX09p0311c1001" rend="margin-left:3em">事法界。</p>
-<lb ed="X" n="0311c11"/><lg id="lgX09p0311c1101"><l>事因緣顯</l><l>造法由心</l><l>界定方位</l><l>共資<anchor id="fnX09p0311c04"/>菩美</l>
+<lb ed="X" n="0311c11"/><lg id="lgX09p0311c1101"><l>事因緣顯</l><l>造法由心</l><l>界定方位</l><l>共資<note n="0311004" resp="Xuzangjing" place="foot text" type="orig">＊善疑善（善&M062447;本文&M062443;菩&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>菩美</l>
 <lb ed="X" n="0311c12"/><l>事本無心</l><l>因境成有</l><l>事與理合</l><l>界得其宜</l></lg>
 <lb ed="X" n="0311c13"/><p id="pX09p0311c1301">故經云。事理通達。諸法無礙<note place="inline">偈云</note>。</p>
 <lb ed="X" n="0311c14"/><lg id="lgX09p0311c1401"><l>事無大小隨圓方</l><l>得法源底性清涼</l>
