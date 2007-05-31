@@ -3,11 +3,13 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X10n0262.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX10060201 SYSTEM "figures/X10060201.gif" NDATA GIF>
 <!ENTITY FigX10064501 SYSTEM "figures/X10064501.gif" NDATA GIF>
 <!ENTITY FigX10067301 SYSTEM "figures/X10067301.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -21,7 +23,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2005/12/19 02:27:54 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/05/31 03:22:45 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -34,7 +36,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/12/19 02:27:54 $</date>
+		<date>$Date: 2007/05/31 03:22:45 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 10, No. 262 &desc;</bibl>
@@ -54,6 +56,9 @@
 	</change>
 <!--
 $Log: X10n0262.xml,v $
+Revision 1.4  2007/05/31 03:22:45  amtbgrace
+modified: 校注插入XML
+
 Revision 1.3  2005/12/19 02:27:54  amtbgrace
 modified: 目錄檢查及相關修訂
 
@@ -166,14 +171,14 @@ no message
 <lb ed="X" n="0600b20"/>故當經有如是之宗趣。</p></div2>
 <lb ed="X" n="0600b21"/><div2 type="other"><mulu type="其他" level="2" label="章脈"/><head>章脈</head>
 <lb ed="X" n="0600b22"/><p id="pX10p0600b2201" rend="margin-left:1em">既明宗趣。合詳章脈。得十二菩薩。請問世尊。垂教
-<lb ed="X" n="0600b23"/>漸次。乃修習大圓覺心所不容<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>之指歸者。</p><p id="pX10p0600b2318" place="inline" rend="margin-left:1em">【標01】夫求
+<lb ed="X" n="0600b23"/>漸次。乃修習大圓覺心所不容<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>之指歸者。</p><p id="pX10p0600b2318" place="inline" rend="margin-left:1em"><note n="0600b01" resp="Xuzangjing" place="foot text" type="orig biao">文殊問次</note>夫求
 <lb ed="X" n="0600b24"/>自性覺果。不識本起覺因。究竟本末隨順修習。則
 <pb ed="X" id="X10.0262.0600c" n="0600c"/>
 <lb ed="X" n="0600c01"/>因果乖違。勤苦億劫終歸迷悶。是故文殊請說如
 <lb ed="X" n="0600c02"/>來本起清淨因地法行。以及菩薩發心者。終始因
 <lb ed="X" n="0600c03"/>心之本末究竟也。照覺相。斷無明。依因有無俱遣
 <lb ed="X" n="0600c04"/>之隨順覺行。是名如來因地法行。是乃菩薩所因
-<lb ed="X" n="0600c05"/>發心教化眾生者。世尊示之詳矣然。</p><p id="pX10p0600c0515" place="inline" rend="margin-left:1em">【標02】照覺相以斷
+<lb ed="X" n="0600c05"/>發心教化眾生者。世尊示之詳矣然。</p><p id="pX10p0600c0515" place="inline" rend="margin-left:1em"><note n="0600b02" resp="Xuzangjing" place="foot text" type="orig biao">普賢問次</note>照覺相以斷
 <lb ed="X" n="0600c06"/>無明。斷無明以證實相。義含而語未顯。末世眾生
 <lb ed="X" n="0600c07"/>蒙昧未解者但聞身心之如幻。未聞離幻妄之身
 <lb ed="X" n="0600c08"/>心即證性覺之清淨。不無迷悶於即幻非所修。離
@@ -182,17 +187,17 @@ no message
 <lb ed="X" n="0600c11"/>云何修行圓覺清淨境界。而一切眾生種種幻化
 <lb ed="X" n="0600c12"/>皆生如來圓覺妙心。猶如空華從空而有。幻華雖
 <lb ed="X" n="0600c13"/>滅空性不壞。得承開曉末世眾生。欲證圓覺不動
-<lb ed="X" n="0600c14"/>心源。一於離幻。疑永決矣。</p><p id="pX10p0600c1411" place="inline" rend="margin-left:1em">【標03】然務離幻。須善思惟得
+<lb ed="X" n="0600c14"/>心源。一於離幻。疑永決矣。</p><p id="pX10p0600c1411" place="inline" rend="margin-left:1em"><note n="0600b03" resp="Xuzangjing" place="foot text" type="orig biao">普眼問次</note>然務離幻。須善思惟得
 <lb ed="X" n="0600c15"/>所住持。成就開悟方便。若其不善思惟轉成迷悶
 <lb ed="X" n="0600c16"/>不能入覺。是故普眼。申問思惟方便。念身無體。念
 <lb ed="X" n="0600c17"/>心無相。知於身心皆為幻垢。垢相永滅十方清淨
 <lb ed="X" n="0600c18"/>一切法性平等不壞。真善思惟妙得開悟者哉。世
-<lb ed="X" n="0600c19"/>尊示之詳矣。</p><p id="pX10p0600c1906" place="inline" rend="margin-left:1em">【標04】若其不善思惟。以輪迴心生輪迴見
+<lb ed="X" n="0600c19"/>尊示之詳矣。</p><p id="pX10p0600c1906" place="inline" rend="margin-left:1em"><note n="0600b04" resp="Xuzangjing" place="foot text" type="orig biao">金剛問次</note>若其不善思惟。以輪迴心生輪迴見
 <lb ed="X" n="0600c20"/>而辨圓覺。彼圓覺性即同流轉無能免於輪迴。不
 <lb ed="X" n="0600c21"/>可不為末世眾生昭揭開顯也。是故金剛藏。陳疑
 <lb ed="X" n="0600c22"/>申問妄有真成始終三惑。伏請世尊顯貴。皆是輪
 <lb ed="X" n="0600c23"/>迴思惟不能成就圓覺方便。令末世眾生。決信思
-<lb ed="X" n="0600c24"/>惟離幻。先斷輪迴根本以求圓覺。</p><p id="pX10p0600c2414" place="inline" rend="margin-left:1em">【標05】是斷輪迴根本
+<lb ed="X" n="0600c24"/>惟離幻。先斷輪迴根本以求圓覺。</p><p id="pX10p0600c2414" place="inline" rend="margin-left:1em"><note n="0600b05" resp="Xuzangjing" place="foot text" type="orig biao">彌勒問次</note>是斷輪迴根本
 <pb ed="X" id="X10.0262.0601a" n="0601a"/>
 <lb ed="X" n="0601a01"/>也。是永斷無明之方成佛道者。有所斷。即有所證。
 <lb ed="X" n="0601a02"/>迷於斷。即迷於證。更為明決。末世眾生斯決信於
@@ -205,7 +210,7 @@ no message
 <lb ed="X" n="0601a09"/>永斷於無明而究竟性覺也。輪迴故不成聖道。輪
 <lb ed="X" n="0601a10"/>迴因愛為根本。差別性無明顯出。教眾生令捨愛。
 <lb ed="X" n="0601a11"/>化成佛依淨願。有斯世尊詳示。末世眾生。當無不
-<lb ed="X" n="0601a12"/>務斷乃輪迴根本無明。以成佛道者。</p><p id="pX10p0601a1215" place="inline" rend="margin-left:1em">【標01】設未底至於
+<lb ed="X" n="0601a12"/>務斷乃輪迴根本無明。以成佛道者。</p><p id="pX10p0601a1215" place="inline" rend="margin-left:1em"><note n="0601b01" resp="Xuzangjing" place="foot text" type="orig biao">普慧問次</note>設未底至於
 <lb ed="X" n="0601a13"/>如來之決定境界。一切煩惱畢竟解脫。必有所未
 <lb ed="X" n="0601a14"/>斷之無明。然此非示斷能知。要惟語證方曉。是故
 <lb ed="X" n="0601a15"/>清淨慧。請重宣法王圓滿覺性在諸眾生菩薩如
@@ -213,7 +218,7 @@ no message
 <lb ed="X" n="0601a17"/>斷也。淨解隨順。住覺隨順。滅礙隨順。滿覺隨順。世
 <lb ed="X" n="0601a18"/>尊差別詳示。後教末世眾生。於不起不息不加不
 <lb ed="X" n="0601a19"/>辨之法門。信解受持者。蓋示不落證得之差別。直
-<lb ed="X" n="0601a20"/>斷無明之圓因修習也。</p><p id="pX10p0601a2010" place="inline" rend="margin-left:1em">【標02】苟圓行不彰。則受持不起
+<lb ed="X" n="0601a20"/>斷無明之圓因修習也。</p><p id="pX10p0601a2010" place="inline" rend="margin-left:1em"><note n="0601b02" resp="Xuzangjing" place="foot text" type="orig biao">威德問次</note>苟圓行不彰。則受持不起
 <lb ed="X" n="0601a21"/>不息不加不辨之法門行人。虞沈空寂。與諸土木
 <lb ed="X" n="0601a22"/>同倫矣。是又一無明也。是故威德自在。申問方便
 <lb ed="X" n="0601a23"/>之非一。成悟覺海之遊戲。世尊垂教以淨覺心取
@@ -221,7 +226,7 @@ no message
 <pb ed="X" id="X10.0262.0601b" n="0601b"/>
 <lb ed="X" n="0601b01"/>而禪那。此三法門攝無量方便。要皆根本一淨覺
 <lb ed="X" n="0601b02"/>心。是淨覺心也。不起不息不加不辨之所成悟者
-<lb ed="X" n="0601b03"/>也。</p><p id="pX10p0601b0302" place="inline" rend="margin-left:1em">【標03】不悟覺心。難語覺行。既悟覺心何乖覺行。寂照
+<lb ed="X" n="0601b03"/>也。</p><p id="pX10p0601b0302" place="inline" rend="margin-left:1em"><note n="0601b03" resp="Xuzangjing" place="foot text" type="orig biao">辨音問次</note>不悟覺心。難語覺行。既悟覺心何乖覺行。寂照
 <lb ed="X" n="0601b04"/>同時。不二隨順。斯成圓覺親近修習。末世眾生可
 <lb ed="X" n="0601b05"/>無惑矣。成就修習於此圓攝法門。以無偏於寂照。
 <lb ed="X" n="0601b06"/>是所求入於圓覺也。是故辨音。申問修習之有幾。
@@ -230,7 +235,7 @@ no message
 <lb ed="X" n="0601b09"/>所行之圓攝無量。可不當知此妙法門。非一非三。
 <lb ed="X" n="0601b10"/>而即一即三。乃本起圓覺自性之清淨隨順。無諸
 <lb ed="X" n="0601b11"/>能所者也。無能無所。何修何證。可不當知修習此
-<lb ed="X" n="0601b12"/>心之得成就者。於此無修亦無成就也哉。</p><p id="pX10p0601b1217" place="inline" rend="margin-left:1em">【標04】然而難
+<lb ed="X" n="0601b12"/>心之得成就者。於此無修亦無成就也哉。</p><p id="pX10p0601b1217" place="inline" rend="margin-left:1em"><note n="0601b04" resp="Xuzangjing" place="foot text" type="orig biao">淨業問次</note>然而難
 <lb ed="X" n="0601b13"/>言之也。譬如有人不自斷命。末世眾生可&CB00364;語於
 <lb ed="X" n="0601b14"/>證悟了覺之四心相。解脫清淨者哉。況也四相深
 <lb ed="X" n="0601b15"/>隱。微細難知。非佛世尊莫能開曉。是故淨諸業障
@@ -245,7 +250,7 @@ no message
 <lb ed="X" n="0601b24"/>惱未斷令斷。世尊。其底至之言哉。其決要之言哉。
 <pb ed="X" id="X10.0262.0601c" n="0601c"/>
 <lb ed="X" n="0601c01"/>習菩提者。可以知要矣。在究竟清淨於能證心矣。</p>
-<lb ed="X" n="0601c02"/><p id="pX10p0601c0201" rend="margin-left:1em">【標05】無能心之可證者。無所法之可取也。不達所法圓
+<lb ed="X" n="0601c02"/><p id="pX10p0601c0201" rend="margin-left:1em"><note n="0601b05" resp="Xuzangjing" place="foot text" type="orig biao">普覺問次</note>無能心之可證者。無所法之可取也。不達所法圓
 <lb ed="X" n="0601c03"/>離。難語能心清淨。法因人示。求人依法。尤要要哉。
 <lb ed="X" n="0601c04"/>是故普覺。有求人依法之申問。以及修行去病。發
 <lb ed="X" n="0601c05"/>心之云何者。蓋自利利他。因地法行。之本末究竟
@@ -256,9 +261,9 @@ no message
 <lb ed="X" n="0601c10"/>入究竟覺無取覺之我人諸相是所發心。世尊一
 <lb ed="X" n="0601c11"/>一詳示。真不捨無遮大慈。救世大悲。以覺心成就
 <lb ed="X" n="0601c12"/>修習方便。因十菩薩次第興問。標指當時。示筏末
-<lb ed="X" n="0601c13"/>世也哉。</p><p id="pX10p0601c1304" place="inline" rend="margin-left:1em">【標06】如是修行。根無大小。皆成佛果。夫復何疑。
+<lb ed="X" n="0601c13"/>世也哉。</p><p id="pX10p0601c1304" place="inline" rend="margin-left:1em"><note n="0601b06" resp="Xuzangjing" place="foot text" type="orig biao">圓覺問次</note>如是修行。根無大小。皆成佛果。夫復何疑。
 <lb ed="X" n="0601c14"/>未開曉者。道場安居。修觀方便。新學菩薩。更樂有
-<lb ed="X" n="0601c15"/>聞。是故圓覺。申問備此。</p><p id="pX10p0601c1510" place="inline" rend="margin-left:1em">【標07】賢善首即繼以名字奉持
+<lb ed="X" n="0601c15"/>聞。是故圓覺。申問備此。</p><p id="pX10p0601c1510" place="inline" rend="margin-left:1em"><note n="0601b07" resp="Xuzangjing" place="foot text" type="orig biao">賢善＊周次（周&M062447;問&M062442;&M062473;&M062429;。&CB18834;）</note>賢善首即繼以名字奉持
 <lb ed="X" n="0601c16"/>修習功德。護持流布。申問終焉。是乃毋容紊之庠
 <lb ed="X" n="0601c17"/>序者。更喻明之。文殊問本起之因。如欲桃實枝頭。
 <lb ed="X" n="0601c18"/>索千年之核。普賢決離幻之疑。如示核甲坼而芽
@@ -1499,7 +1504,7 @@ no message
 <pb ed="X" id="X10.0262.0623a" n="0623a"/>
 <lb ed="X" n="0623a01"/>
 <lb ed="X" n="0623a02"/><div1 type="xu"><mulu type="序" level="1" label="No. 262-B 圓覺經句釋正白序"/><head>No. 262-B
-<lb ed="X" n="0623a03"/> <anchor id="fnX10p0623a01A"/>圓覺經句釋正白序</head>
+<lb ed="X" n="0623a03"/> <note n="0623001A" resp="Xuzangjing" place="foot text" type="orig">此二序有本在首卷之始</note><note n="0623001A" resp="CBETA" type="mod">此序有本在首卷之始</note>圓覺經句釋正白序</head>
 <lb ed="X" n="0623a04"/>
 <lb ed="X" n="0623a05"/><p id="pX10p0623a0501">自無上法王開大陀羅尼門。即名圓覺。蓋本自性靈
 <lb ed="X" n="0623a06"/>明遍滿一切無二無礙。如月落萬川。處處圓明具足
@@ -1534,7 +1539,7 @@ no message
 <lb ed="X" n="0623b10"/>
 <lb ed="X" n="0623b11"/>
 <lb ed="X" n="0623b12"/><div1 type="xu"><mulu type="序" level="1" label="No. 262-C 圓覺經句釋正白序"/><head>No. 262-C
-<lb ed="X" n="0623b13"/> <anchor id="fnX10p0623b01B"/>圓覺經句釋正白序</head>
+<lb ed="X" n="0623b13"/> <note n="0623001B" resp="Xuzangjing" place="foot text" type="orig">此二序有本在首卷之始</note><note n="0623001B" resp="CBETA" type="mod">此序有本在首卷之始</note>圓覺經句釋正白序</head>
 <lb ed="X" n="0623b14"/>
 <lb ed="X" n="0623b15"/><p id="pX10p0623b1501">自解路開而大道晦。昔德山龍潭。遂焚所註金剛疏
 <lb ed="X" n="0623b16"/>鈔。豈不以依離字義為佛魔佛冤耶。故知向上一路
@@ -2772,7 +2777,7 @@ no message
 <pb ed="X" id="X10.0262.0640a" n="0640a"/>
 <lb ed="X" n="0640a01"/>道品者。四念處之身念處觀身不淨。受念處之觀
 <lb ed="X" n="0640a02"/>受是苦。心念處之觀心無常。法念處之觀法無我
-<lb ed="X" n="0640a03"/>四正勤之<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>生惡法為斷除。未生惡法不令生。<anchor id="fnX10p0640a01"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
+<lb ed="X" n="0640a03"/>四正勤之<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>生惡法為斷除。未生惡法不令生。<note n="0640001" resp="Xuzangjing" place="foot text" type="orig">巳下疑脫生字</note><note n="0640001" resp="CBETA" type="mod"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下疑脫生字</note><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0640a04"/>善法為增長。未生善法為熏生。四如意足之欲如
 <lb ed="X" n="0640a05"/>意足。念如意足。精進如意足。思惟如意足。如意足
 <lb ed="X" n="0640a06"/>者謂所修法如願滿足。五根之信根精進根念根
@@ -6693,7 +6698,7 @@ no message
 <lb ed="X" n="0693c01"/>
 <lb ed="X" n="0693c02"/>
 <lb ed="X" n="0693c03"/>
-<lb ed="X" n="0693c04"/><div1 type="other"><mulu type="其他" level="1" label="圓覺經連珠"/><head><anchor id="fnX10p0693c01"/>圓覺經連珠</head>
+<lb ed="X" n="0693c04"/><div1 type="other"><mulu type="其他" level="1" label="圓覺經連珠"/><head><note n="0693001" resp="Xuzangjing" place="foot text" type="orig">（閱經十二種第五(No. 674-5), 第37卷所&CB01495;。&CB18834;）</note>圓覺經連珠</head>
 <lb ed="X" n="0693c05"/><byline type="author">愚庵俍亭淨挺　著</byline>
 <lb ed="X" n="0693c06"/><p id="pX10p0693c0601" rend="margin-left:1em">收于閱經十二種之第五故不載於此。</p></div1>
 </body></text></TEI.2>

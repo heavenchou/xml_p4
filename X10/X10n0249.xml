@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X10n0249.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2005/12/19 02:27:54 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/05/31 03:22:44 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/12/19 02:27:54 $</date>
+		<date>$Date: 2007/05/31 03:22:44 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 10, No. 249 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X10n0249.xml,v $
+Revision 1.4  2007/05/31 03:22:44  amtbgrace
+modified: 校注插入XML
+
 Revision 1.3  2005/12/19 02:27:54  amtbgrace
 modified: 目錄檢查及相關修訂
 
@@ -148,7 +153,7 @@ no message
 <lb ed="X" n="0002a05"/>皆得</note>鈔於中正當泯絕無寄觀矣。檢古本與齊師元刊
 <lb ed="X" n="0002a06"/>本并大疏皆同。而後人見次亦云彼亦云等。是會色
 <lb ed="X" n="0002a07"/>歸空觀文。不曉鈔意。&CB00364;以自意。將板&CB00317;去泯絕無寄
-<lb ed="X" n="0002a08"/>四字。改為會色歸空。不省自迷。敢此大<anchor id="fnX10p0002a01"/>瞻輒便改板
+<lb ed="X" n="0002a08"/>四字。改為會色歸空。不省自迷。敢此大<note n="0002001" resp="Xuzangjing" place="foot text" type="orig">＊贍疑膽（贍&M062447;本文&M062443;瞻&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>瞻輒便改板
 <lb ed="X" n="0002a09"/>可怪。今為釋之。抄云於中正當泯絕無寄觀矣。此句
 <lb ed="X" n="0002a10"/>指示正意也。彼亦云下句非釋成正當之義。謂會色
 <lb ed="X" n="0002a11"/>歸空觀中俱空無色而矣。今此亦絕於空故。舉彼為
@@ -172,7 +177,7 @@ no message
 <lb ed="X" n="0002b04"/>文也。或可但移所化之機四字注在緣行字下。則因
 <lb ed="X" n="0002b05"/>行緣行也。亦是論意。此但注不著所在。亦傳寫之誤
 <lb ed="X" n="0002b06"/>也。鈔釋空有迭彰。標云或先或後同時遞互相對等。
-<lb ed="X" n="0002b07"/>釋中約第一時教心境<anchor id="fnX10p0002b02"/>但有。第二時心境俱空。注云
+<lb ed="X" n="0002b07"/>釋中約第一時教心境<note n="0002002" resp="Xuzangjing" place="foot text" type="orig">但疑俱</note>但有。第二時心境俱空。注云
 <lb ed="X" n="0002b08"/>上二先後遞互。第三時境空心有。注云同時遞互。今
 <lb ed="X" n="0002b09"/>詳遞互者。必須空先有後有先空後。或同時境空心
 <lb ed="X" n="0002b10"/>有境有心空。方於前後同時上。有遞互之義。然第一
@@ -199,7 +204,7 @@ no message
 <lb ed="X" n="0002c06"/>削之矣</note>。</p>
 <lb ed="X" n="0002c07"/><p id="pX10p0002c0701">鈔鞭撻者。古本略鈔云鞭捶。大鈔云不勞打著。齊師
 <lb ed="X" n="0002c08"/>何改捶為耶。</p>
-<lb ed="X" n="0002c09"/><p id="pX10p0002c0901">鈔引略例。言生於象。下注云言<anchor id="fnX10p0002c03"/>後象生。於意下注云
+<lb ed="X" n="0002c09"/><p id="pX10p0002c0901">鈔引略例。言生於象。下注云言<note n="0002003" resp="Xuzangjing" place="foot text" type="orig">後鈔作從次同</note>後象生。於意下注云
 <lb ed="X" n="0002c10"/>象<anchor id="fxX10p0002c01"/>後意生。齊師何特此&CB00520;謬耶。古略鈔大鈔。皆注云
 <lb ed="X" n="0002c11"/>言從象生。於意多少分明。</p>
 <lb ed="X" n="0002c12"/><p id="pX10p0002c1201">鈔此義如前本起因中所釋者。檢前鈔不見釋意。然
@@ -211,7 +216,7 @@ no message
 <lb ed="X" n="0002c18"/>此注是修略鈔時。下意在不妨。廣略之鈔全章講時
 <lb ed="X" n="0002c19"/>不必用後之爾。雖加此注。然&CB00230;當時於此鈔中&CB00230;略
 <lb ed="X" n="0002c20"/>出後文。只存兩句。此一期失照。若存此注。應同大鈔
-<lb ed="X" n="0002c21"/>加後<anchor id="fnX10p0002c04"/>改文。若只存兩句經無用。</p>
+<lb ed="X" n="0002c21"/>加後<note n="0002004" resp="Xuzangjing" place="foot text" type="orig">改疑段</note>改文。若只存兩句經無用。</p>
 <lb ed="X" n="0002c22"/><p id="pX10p0002c2201">鈔引涅槃義決中。大鈔云。夫生必滅。滅<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>更生。滅滅
 <lb ed="X" n="0002c23"/>無生。滅生無滅。無滅無生。即齊滅樂等。今抄脫於滅
 <lb ed="X" n="0002c24"/>滅無生一句。便令義不穩暢。謂此標釋注下二句。初
@@ -221,15 +226,15 @@ no message
 <lb ed="X" n="0003a03"/>但云滅生無滅也。故知如大鈔。加滅滅無生。義方穩
 <lb ed="X" n="0003a04"/>暢。此中脫耳。</p>
 <lb ed="X" n="0003a05"/><p id="pX10p0003a0501">鈔引智論云假使頂戴經塵劫四句偈。據華嚴大疏
-<lb ed="X" n="0003a06"/>并演義。皆謂經說。然指何<anchor id="fnX10p0003a01"/>徑。演義但謂引他經。今云
+<lb ed="X" n="0003a06"/>并演義。皆謂經說。然指何<note n="0003001" resp="Xuzangjing" place="foot text" type="orig">徑疑經</note>徑。演義但謂引他經。今云
 <lb ed="X" n="0003a07"/>智論。故兩疑之。演義更有一偈云。唯有傳持正法藏。
 <lb ed="X" n="0003a08"/>宣揚教理施群生。修習一念契真如。即是真報如來
 <lb ed="X" n="0003a09"/>者。</p>
-<lb ed="X" n="0003a10"/><p id="pX10p0003a1001">鈔釋綸貫云<anchor id="fnX10p0003a02"/>今講者克意記持經文將釋於此。疏今
+<lb ed="X" n="0003a10"/><p id="pX10p0003a1001">鈔釋綸貫云<note n="0003002" resp="Xuzangjing" place="foot text" type="orig">今鈔作令</note>今講者克意記持經文將釋於此。疏今
 <lb ed="X" n="0003a11"/>謂應是記持疏文將釋於此經。豈有記持經釋疏文
 <lb ed="X" n="0003a12"/>理耶。必傳寫之誤。</p>
 <lb ed="X" n="0003a13"/><p id="pX10p0003a1301">前釋教逢斯典處。抄云。長慶元年正月。又退居終南
-<lb ed="X" n="0003a14"/>山艸堂寺<anchor id="fnX10p0003a03"/>絕絕&CB00528;息緣。養性練智。至二年春。遂取先
+<lb ed="X" n="0003a14"/>山艸堂寺<note n="0003003" resp="Xuzangjing" place="foot text" type="orig">絕疑剩字</note>絕絕&CB00528;息緣。養性練智。至二年春。遂取先
 <lb ed="X" n="0003a15"/>所製科文及兩卷纂要<note place="inline">云云</note>。率愚為疏。至三年夏中。
 <lb ed="X" n="0003a16"/>方遂功畢。餘如下說。至下釋方為疏解。乃云至長慶
 <lb ed="X" n="0003a17"/>二年。於草堂寺。再修為疏。至三年秋冬。方得終畢。及
@@ -267,7 +272,7 @@ no message
 <lb ed="X" n="0003b24"/><note place="inline">此總標二家</note>疏釋方廣正云。又方廣道人。自以聰明。讀佛
 <pb ed="X" id="X10.0249.0003c" n="0003c"/>
 <lb ed="X" n="0003c01"/>十喻。自作義云。不生不滅如幻如化空幻為宗。龍樹
-<lb ed="X" n="0003c02"/><anchor id="fnX10p0003c04"/>片言。此非佛法。方廣所作。亦邪人法也。而演義不解。
+<lb ed="X" n="0003c02"/><note n="0003004" resp="Xuzangjing" place="foot text" type="orig">片疑斥</note>片言。此非佛法。方廣所作。亦邪人法也。而演義不解。
 <lb ed="X" n="0003c03"/>評曰。據此今鈔合但云華嚴疏引。不應更下鈔字。以
 <lb ed="X" n="0003c04"/>演義並不釋故。大鈔云故須揀所聞之法能信之心
 <lb ed="X" n="0003c05"/>不得雜熏等。今略鈔脫能信之心一句。以次前云要
@@ -328,7 +333,7 @@ no message
 <lb ed="X" n="0004b10"/>故云大同。亦非約有空中道為次。然中道正奘師所
 <lb ed="X" n="0004b11"/>立。又　唐時今指南中不應直指。若前後泛說三時
 <lb ed="X" n="0004b12"/>五時不妨作此說爾。此中敘南中。便以奘師三銘之。
-<lb ed="X" n="0004b13"/>似<anchor id="fnX10p0004b01"/>手小濫。</p>
+<lb ed="X" n="0004b13"/>似<note n="0004001" resp="Xuzangjing" place="foot text" type="orig">手疑乎</note>手小濫。</p>
 <lb ed="X" n="0004b14"/><p id="pX10p0004b1401">鈔總標云法華楞伽涅槃皆唯一性也。誤作為字。</p></div1>
 <lb ed="X" n="0004b15"/><div1 type="other"><mulu type="其他" level="1" label="第四卷 辨疑六處"/><head>第四卷　六處</head>
 <lb ed="X" n="0004b16"/><p id="pX10p0004b1601">抄假名及中道但約空說下注云如前不分教五教
@@ -353,7 +358,7 @@ no message
 <lb ed="X" n="0004c10"/><p id="pX10p0004c1001">抄引問明疏注云此下麤書是彼疏注書是彼抄。</p>
 <lb ed="X" n="0004c11"/><p id="pX10p0004c1101">今評。疏抄皆有加句。疏如上辨。抄從又前唯佛果權
 <lb ed="X" n="0004c12"/>實下並非演義文。更詳。又從然上兩重下。方是圭山
-<lb ed="X" n="0004c13"/>評語。若爾應演義元脫第二重<anchor id="fnX10p0004c02"/>科揀。既注中一半不
+<lb ed="X" n="0004c13"/>評語。若爾應演義元脫第二重<note n="0004002" resp="Xuzangjing" place="foot text" type="orig">科疑料</note>科揀。既注中一半不
 <lb ed="X" n="0004c14"/>是演義。何注書是彼抄耶。後人如下對看。豈不&CB00386;他
 <lb ed="X" n="0004c15"/>耶。</p>
 <lb ed="X" n="0004c16"/><p id="pX10p0004c1601">疏破相宗對性宗中。佛德空有約性宗。身智通光一
@@ -364,7 +369,7 @@ no message
 <lb ed="X" n="0004c21"/>用之無妨。禪源都序亦立三教。於第三顯示真心。即
 <lb ed="X" n="0004c22"/>性教亦攝一切了義經。並得通用。今此略疏。乃於五
 <lb ed="X" n="0004c23"/>教中。前始終對辨三宗。性宗雖通終頓。然依終教對
-<lb ed="X" n="0004c24"/>破故。前抄云除圓頓<anchor id="fnX10p0004c03"/>稱教外自有三宗。今於終教。便
+<lb ed="X" n="0004c24"/>破故。前抄云除圓頓<note n="0004003" resp="Xuzangjing" place="foot text" type="orig">稱下疑脫性</note>稱教外自有三宗。今於終教。便
 <pb ed="X" id="X10.0249.0005a" n="0005a"/>
 <lb ed="X" n="0005a01"/>引十身十智無盡等義。豈失較勘耶。止可但約常樂
 <lb ed="X" n="0005a02"/>等四德并起信具性實有。自可揀顯也。</p>
@@ -453,7 +458,7 @@ no message
 <lb ed="X" n="0006a10"/>不應更徵。今觀疏意在徵成四我釋以後二。然亦不
 <lb ed="X" n="0006a11"/>合先出所以。應可我即阿難海。云何稱我。即五蘊假
 <lb ed="X" n="0006a12"/>者。然我有四種等。則先略出所以。後廣明所以也。亦
-<lb ed="X" n="0006a13"/>可除去<anchor id="fnX10p0006a01"/>去何稱我四字。便云然我有四種。智者善思
+<lb ed="X" n="0006a13"/>可除去<note n="0006001" resp="Xuzangjing" place="foot text" type="orig">去疑云</note>去何稱我四字。便云然我有四種。智者善思
 <lb ed="X" n="0006a14"/>念之。</p>
 <lb ed="X" n="0006a15"/><p id="pX10p0006a1501">疏時者隨世假立乃至恒河等。科云出體。然據出體。
 <lb ed="X" n="0006a16"/>只科得初六字。從如來說經下。皆非出體故。大疏連
@@ -506,7 +511,7 @@ no message
 <lb ed="X" n="0006c13"/>光殿等。然此經名義昭然。何誤以為純淨之土耶。今
 <lb ed="X" n="0006c14"/>抄又誤以信字書作進字。詳之。</p>
 <lb ed="X" n="0006c15"/><p id="pX10p0006c1501">引佛地經云。渺然難測。論牒云其量難測。又云如來
-<lb ed="X" n="0006c16"/>所&CB00418;。此筆誤。正云如來所<anchor id="fnX10p0006c02"/>&CB00418;。此即主圓滿也。</p>
+<lb ed="X" n="0006c16"/>所&CB00418;。此筆誤。正云如來所<note n="0006002" resp="Xuzangjing" place="foot text" type="orig">&CB00418;疑都</note>&CB00418;。此即主圓滿也。</p>
 <lb ed="X" n="0006c17"/><p id="pX10p0006c1701">抄云大鈔中更列四本在淨土說經。兼圓覺都十五
 <lb ed="X" n="0006c18"/>本等。然大鈔同今列十本竟。云有本經。亦在淨土說。
 <lb ed="X" n="0006c19"/>亦在別卷中。故知今抄亦失對會也。然大抄&CB00230;列文
@@ -517,7 +522,7 @@ no message
 <lb ed="X" n="0006c24"/>佛。光輝明耀。宣真諦藏。演如來慧。暢三世要。布無罣
 <pb ed="X" id="X10.0249.0007a" n="0007a"/>
 <lb ed="X" n="0007a01"/>礙道寶之定。佛時以此普智無極確然正受。其定恬
-<lb ed="X" n="0007a02"/><anchor id="fnX10p0007a01"/>恬忽<anchor id="fnX10p0007a02"/>於形像。亦無中外。<anchor id="fnX10p0007a03"/>&CB00230;無見聞。所居正受。乃大曠
+<lb ed="X" n="0007a02"/><note n="0007001" resp="Xuzangjing" place="foot text" type="orig">恬疑怕</note>恬忽<note n="0007002" resp="Xuzangjing" place="foot text" type="orig">於疑無</note>於形像。亦無中外。<note n="0007003" resp="Xuzangjing" place="foot text" type="orig">&CB00230;疑靜</note>&CB00230;無見聞。所居正受。乃大曠
 <lb ed="X" n="0007a03"/>蕩。汪洋無極。難遇難聞。億世之過。時此佛定無量無
 <lb ed="X" n="0007a04"/>不炳徹。抄至主以至法靜道場。約隨識所見淨土相
 <lb ed="X" n="0007a05"/>也。評曰。據此經有三節。初遊摩羯至光輝明耀。是標
@@ -585,7 +590,7 @@ no message
 <lb ed="X" n="0007c17"/><p id="pX10p0007c1701">抄二字誤寫說為疏字。評曰。此卷大錯誤。修略抄中。
 <lb ed="X" n="0007c18"/>決非抄主自修。乃門弟子手段爾。</p>
 <lb ed="X" n="0007c19"/><p id="pX10p0007c1901">抄解名第二妙吉祥云。三聖觀說者表能起行願之
-<lb ed="X" n="0007c20"/>解。次下即釋。經三名竟。方隔<anchor id="fnX10p0007c04"/>南行半抄文。復如上云
+<lb ed="X" n="0007c20"/>解。次下即釋。經三名竟。方隔<note n="0007004" resp="Xuzangjing" place="foot text" type="orig">南疑兩</note>南行半抄文。復如上云
 <lb ed="X" n="0007c21"/>三聖觀說等。但加故。今云妙吉祥是即解之行爾。評
 <lb ed="X" n="0007c22"/>曰。此亦弟子手段也。意欲於前正釋妙吉祥處加云
 <lb ed="X" n="0007c23"/>故。今云妙吉祥是即解之行。誤加於後段也。故大抄
@@ -633,7 +638,7 @@ no message
 <lb ed="X" n="0008b15"/>如彼地種種珍寶藏也。評曰。此應是次貧家寶藏中
 <lb ed="X" n="0008b16"/>注&CB00386;註於此。以此中說全不變喻。真如不變。何忽注
 <lb ed="X" n="0008b17"/>辨地中寶藏耶。又破麤書之逗。又令此一注文明善
-<lb ed="X" n="0008b18"/><anchor id="fnX10p0008b01"/>遊眼。顯上依清淨智知眾生清淨身。因前&CB00386;注之隔
+<lb ed="X" n="0008b18"/><note n="0008001" resp="Xuzangjing" place="foot text" type="orig">遊疑逝</note>遊眼。顯上依清淨智知眾生清淨身。因前&CB00386;注之隔
 <lb ed="X" n="0008b19"/>其義不顯。思之。</p><p id="pX10p0008b1907" place="inline">注如來藏身中云。本覺理量。等佛
 <lb ed="X" n="0008b20"/>名大。據演義釋云。本覺現量者。本覺即是所證本性。
 <lb ed="X" n="0008b21"/>唯真現量方能證。故與佛等。依此合云現量。今&CB00386;作
@@ -659,7 +664,7 @@ no message
 <lb ed="X" n="0008c16"/>法體為心。又作能詮義釋心。意是六佰卷之中等。評
 <lb ed="X" n="0008c17"/>曰對校心經疏。於所詮義中。唯有約唯釋心字。又無
 <lb ed="X" n="0008c18"/>能詮釋心字。此是後人不寀心經疏文妄意加。此實
-<lb ed="X" n="0008c19"/>非圭山本解。故大疏云。中實名心。<note place="inline">如勝<anchor id="fnX10p0008c02"/>〔縵〕等</note>或名一心。<note place="inline">如華
+<lb ed="X" n="0008c19"/>非圭山本解。故大疏云。中實名心。<note place="inline">如勝<note n="0008002" resp="Xuzangjing" place="foot text" type="orig">縵疑鬘次同</note>〔縵〕等</note>或名一心。<note place="inline">如華
 <lb ed="X" n="0008c20"/>嚴起信等</note>大抄但云中實者。是最中之義。是堅實義。其猶
 <lb ed="X" n="0008c21"/>樹心中實之義。注云如勝<anchor id="fxX10p0008c01"/>縵等者。文云自性清淨心
 <lb ed="X" n="0008c22"/>不染而染等。初不引心經疏為據以解中實故。殊非
@@ -673,7 +678,7 @@ no message
 <lb ed="X" n="0009a05"/>巾喻真心。前即分師與術法義別。此則合喻無明業
 <lb ed="X" n="0009a06"/>識。據清涼但亦合喻能起因緣。謂前惑等。不知此文
 <lb ed="X" n="0009a07"/>前後何故自語不同耶。</p><p id="pX10p0009a0710" place="inline">注復禮之偈云。據問法相
-<lb ed="X" n="0009a08"/>宗。又云正<anchor id="fnX10p0009a01"/>迷法相宗等。而法集別行釋此偈正問法
+<lb ed="X" n="0009a08"/>宗。又云正<note n="0009001" resp="Xuzangjing" place="foot text" type="orig">迷疑述</note>迷法相宗等。而法集別行釋此偈正問法
 <lb ed="X" n="0009a09"/>性宗。&CB00230;揀非問法相宗。當以法集為正。此中二處注
 <lb ed="X" n="0009a10"/>語或刊板刪為妙。</p>
 <lb ed="X" n="0009a11"/><p id="pX10p0009a1101">鈔注云所以知者。次云於心佛亦爾<note place="inline">云云</note>。評曰。合云
@@ -683,7 +688,7 @@ no message
 <lb ed="X" n="0009a15"/><p id="pX10p0009a1501">鈔中下之流。縱不契合。亦茫然不知始終。惶悚失其
 <lb ed="X" n="0009a16"/>所守<note place="inline">并注云云</note>評曰。經正云。於是大眾非無學者。聞佛此
 <lb ed="X" n="0009a17"/>言。茫然不知是義始終。一時惶悚。失其所守。如來知
-<lb ed="X" n="0009a18"/>其魂慮變慴。生心怜愍。安慰阿難。乃至<anchor id="fnX10p0009a02"/>無法王。是真
+<lb ed="X" n="0009a18"/>其魂慮變慴。生心怜愍。安慰阿難。乃至<note n="0009002" resp="Xuzangjing" place="foot text" type="orig">無下疑脫上</note>無法王。是真
 <lb ed="X" n="0009a19"/>實語。如汝所說不狂等。既云茫然是義始終佛知其
 <lb ed="X" n="0009a20"/>魂慮變慴。是諸有學。不知是義。故驚慴也。今注云是
 <lb ed="X" n="0009a21"/>見非見俱非之義等。何得其魂變。然今引此文者。意
@@ -717,12 +722,12 @@ no message
 <lb ed="X" n="0009b24"/>此注。而失記引論。今為足知。應加麤書云。此釋自相。
 <pb ed="X" id="X10.0249.0009c" n="0009c"/>
 <lb ed="X" n="0009c01"/>分位雖多。藏識過重。是故偏說。</p>
-<lb ed="X" n="0009c02"/><p id="pX10p0009c0201">鈔准前<anchor id="fnX10p0009c03"/>棱伽起信等意<note place="inline">云云</note>。評曰。合云准後棱伽等。
+<lb ed="X" n="0009c02"/><p id="pX10p0009c0201">鈔准前<note n="0009003" resp="Xuzangjing" place="foot text" type="orig">棱當作楞次同</note>棱伽起信等意<note place="inline">云云</note>。評曰。合云准後棱伽等。
 <lb ed="X" n="0009c03"/>以大疏鈔即在前釋見塵時。一併引釋。故大鈔云准
 <lb ed="X" n="0009c04"/>前。今略疏分在釋眼識畢故牒。鈔方稱釋此文。故小
 <lb ed="X" n="0009c05"/>鈔合修改也。</p>
 <lb ed="X" n="0009c06"/><p id="pX10p0009c0601">鈔乃至名青等。評曰。准大鈔云乃至名青等識故。此
-<lb ed="X" n="0009c07"/>脫<anchor id="fnX10p0009c04"/>藏字耶。</p><p id="pX10p0009c0705" place="inline">鈔又以依心意意識轉故等。下注云
+<lb ed="X" n="0009c07"/>脫<note n="0009004" resp="Xuzangjing" place="foot text" type="orig">藏疑識</note>藏字耶。</p><p id="pX10p0009c0705" place="inline">鈔又以依心意意識轉故等。下注云
 <lb ed="X" n="0009c08"/>相是六塵。評曰。此五字應注在次非末那之行相下。
 <lb ed="X" n="0009c09"/>此注中止可注云如上所引五意思之。</p>
 <lb ed="X" n="0009c10"/><p id="pX10p0009c1001">鈔引楞伽分別事識下注中云故前云合轉相為見
@@ -749,7 +754,7 @@ no message
 <lb ed="X" n="0010a06"/>鈔。牒釋云。唯意所取。乃至法處所攝者。<note place="inline">上牒疏牒疏無此文</note>而
 <lb ed="X" n="0010a07"/>今鈔釋意以通義非約塵境之義。故不取也。故為取
 <lb ed="X" n="0010a08"/>法處所攝之色。正如百法論中。各有名位。但取法處
-<lb ed="X" n="0010a09"/>所攝色也。此釋敵<anchor id="fnX10p0010a01"/>休與大疏并今疏相反。今觀略鈔
+<lb ed="X" n="0010a09"/>所攝色也。此釋敵<note n="0010001" resp="Xuzangjing" place="foot text" type="orig">休疑對</note>休與大疏并今疏相反。今觀略鈔
 <lb ed="X" n="0010a10"/>意為正。應有後改之疏。但前疏以流行故。疏以鈔相
 <lb ed="X" n="0010a11"/>違也。思之。</p>
 <lb ed="X" n="0010a12"/><p id="pX10p0010a1201">鈔十力章中云。若一一和會。繁碎難之。若要廣解。即
@@ -773,9 +778,9 @@ no message
 <lb ed="X" n="0010b05"/>智也。觀如故云現見。謂觀差別聞如故不異也。</note>義無礙智。以比智知差別如
 <lb ed="X" n="0010b06"/>實<note place="inline">比智也。比即類也。觀前能觀之智亦無實故云類也。然所知境即二諦。能知法比即無礙體。立名不
 <lb ed="X" n="0010b07"/>同前後<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。前後皆明所知。此明能知從體</note>然今鈔&CB00386;引行相釋疏。又以三
-<lb ed="X" n="0010b08"/>世順返釋法<anchor id="fnX10p0010b02"/>知名。何失智至此也。鈔今且略舉十相
+<lb ed="X" n="0010b08"/>世順返釋法<note n="0010002" resp="Xuzangjing" place="foot text" type="orig">知疑智</note>知名。何失智至此也。鈔今且略舉十相
 <lb ed="X" n="0010b09"/>中五注下云一二三六七。評曰。以經有十相。一自相
-<lb ed="X" n="0010b10"/>二同。三行。四說。五智。六無我慢。七諸乘。八菩<anchor id="fnX10p0010b03"/>提地。九
+<lb ed="X" n="0010b10"/>二同。三行。四說。五智。六無我慢。七諸乘。八菩<note n="0010003" resp="Xuzangjing" place="foot text" type="orig">提疑薩</note>提地。九
 <lb ed="X" n="0010b11"/>佛地。十住持地。<note place="inline">後九皆下相字</note>今注合云一二五六七也。由
 <lb ed="X" n="0010b12"/>鈔引第三&CB00386;故今亦&CB00386;也。總明次下一科。理合移在
 <lb ed="X" n="0010b13"/>第三牒文別釋後。為第四總明次。第一列數。第二出
@@ -804,7 +809,7 @@ no message
 <lb ed="X" n="0010c11"/>然。</p>
 <lb ed="X" n="0010c12"/><p id="pX10p0010c1201">鈔前是分別之愛。此則俱生之愛。方能助潤於業受
 <lb ed="X" n="0010c13"/>生故也。評曰。大抄正云前是俱生之愛此即分別之
-<lb ed="X" n="0010c14"/>愛方能助潤受生故也。此後人誤改爾<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。上釋<anchor id="fnX10p0010c04"/>沐愛
+<lb ed="X" n="0010c14"/>愛方能助潤受生故也。此後人誤改爾<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。上釋<note n="0010004" resp="Xuzangjing" place="foot text" type="orig">沐疑流</note>沐愛
 <lb ed="X" n="0010c15"/>約任運流注為種種。豈是分別。次釋納相約愛助潤
 <lb ed="X" n="0010c16"/>於業。豈是俱生。潤業者唯初果受七生義。故知凡夫
 <lb ed="X" n="0010c17"/>但分別潤業也。</p>
@@ -819,10 +824,10 @@ no message
 <lb ed="X" n="0011a01"/>曰。此對大疏大鈔。應後人不識祖意擅自修改。故大
 <lb ed="X" n="0011a02"/>疏云下句我見即能執也。我見是別境中慧故。無著
 <lb ed="X" n="0011a03"/>金剛論。以為法執。<note place="inline">此行以我見屬境慧配法執。不配第七識中我見也。此抄返違大疏。</note>
-<lb ed="X" n="0011a04"/>亦可<anchor id="fnX10p0011a01"/><app><lem wit="【CBETA】" resp="CBETA.maha">妄</lem><rdg wit="【卍續】">忘</rdg></app>想我即我癡我見。及愛我者即我愛我慢。<note place="inline">大抄
+<lb ed="X" n="0011a04"/>亦可<note n="0011001" resp="Xuzangjing" place="foot text" type="orig">忘疑妄</note><note n="0011001" resp="CBETA" type="mod">忘疑妄【卍續】，忘=妄【CB】</note><app><lem wit="【CBETA】" resp="CBETA.maha">妄</lem><rdg wit="【卍續】">忘</rdg></app>想我即我癡我見。及愛我者即我愛我慢。<note place="inline">大抄
 <lb ed="X" n="0011a05"/>於亦可下。方云執我第七識中有四惑故以說經據此爾。小抄亦不應直云此識中有此四惑。前小疏既略此
 <lb ed="X" n="0011a06"/>義。而此字足指疏列四惑爾。說前我見屬別境慧。不配第七識。此方配四惑故</note>然今鈔不合
-<lb ed="X" n="0011a07"/>配前我見便為七識中一數。以疏通明我<anchor id="fnX10p0011a02"/>報為見。此
+<lb ed="X" n="0011a07"/>配前我見便為七識中一數。以疏通明我<note n="0011002" resp="Xuzangjing" place="foot text" type="orig">報疑執</note>報為見。此
 <lb ed="X" n="0011a08"/>通六七識故。大疏自配別境慧并法執也。況通約凡
 <lb ed="X" n="0011a09"/>夫所迷。豈但配指第七之一惑。為能執之見邪。況第
 <lb ed="X" n="0011a10"/>七執內自我起見耶。足知後人不曉妄意改作爾。此

@@ -3,6 +3,7 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X10n0253.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX10032701 SYSTEM "figures/X10032701.gif" NDATA GIF>
 <!ENTITY FigX10032702 SYSTEM "figures/X10032702.gif" NDATA GIF>
 <!ENTITY FigX10032801 SYSTEM "figures/X10032801.gif" NDATA GIF>
@@ -29,6 +30,7 @@
 <!ENTITY FigX10033301 SYSTEM "figures/X10033301.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -42,7 +44,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2005/12/14 02:23:28 $</date></edition>
+		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2007/05/31 03:22:44 $</date></edition>
 	</editionStmt>
 	<extent>12卷</extent>
 	<publicationStmt>
@@ -55,7 +57,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/12/14 02:23:28 $</date>
+		<date>$Date: 2007/05/31 03:22:44 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 10, No. 253 &desc;</bibl>
@@ -75,6 +77,9 @@
 	</change>
 <!--
 $Log: X10n0253.xml,v $
+Revision 1.3  2007/05/31 03:22:44  amtbgrace
+modified: 校注插入XML
+
 Revision 1.2  2005/12/14 02:23:28  amtbgrace
 modified: 跑 jiuan.bat , 相關修訂
 
@@ -90,12 +95,12 @@ no message
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0238a02"/>
 <lb ed="X" n="0238a03"/><div1 type="xu"><mulu type="序" level="1" label="No. 253-A"/><head>No. 253-A</head>
-<lb ed="X" n="0238a04"/><p id="pX10p0238a0401"><anchor id="fnX10p0238a01"/>光嚴住持。是謂眾生清淨覺地。這一&CB00556;話。直指後學
+<lb ed="X" n="0238a04"/><p id="pX10p0238a0401"><note n="0238001" resp="Xuzangjing" place="foot text" type="orig">光上惜佚失十三字詰二十字</note>光嚴住持。是謂眾生清淨覺地。這一&CB00556;話。直指後學
 <lb ed="X" n="0238a05"/>路頭。十分徑捷。蓋不入大光明藏。不得清淨覺地。未
 <lb ed="X" n="0238a06"/>到清淨覺地。不為大圓滿。此圓則明。明則覺之本旨
 <lb ed="X" n="0238a07"/>也。矧大疏。略疏。大鈔。少鈔。總而計之。奚翅數萬言。橫
 <lb ed="X" n="0238a08"/>說&CB00594;說。總在圓覺圈裏。要人各自識破或者。字字鑽
-<lb ed="X" n="0238a09"/><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>。不尋的當。隨前人&CB00560;後跟。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>落第二<anchor id="fnX10p0238a02"/>誼。是終日圓
+<lb ed="X" n="0238a09"/><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>。不尋的當。隨前人&CB00560;後跟。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>落第二<note n="0238002" resp="Xuzangjing" place="foot text" type="orig">誼字原本不明</note>誼。是終日圓
 <lb ed="X" n="0238a10"/>覺。而未&CB00573;圓覺久。況依幻而說覺者乎。琪夙耽是經。
 <lb ed="X" n="0238a11"/>遍閱諸疏。偶因糟粕。忽悟醇醲。敬以　　孝宗皇帝
 <lb ed="X" n="0238a12"/>御註。及眾大知識講義頌偈章。分類附用鋟諸梓。願
@@ -116,7 +121,7 @@ no message
 <lb ed="X" n="0238b02"/>
 <lb ed="X" n="0238b03"/>
 <lb ed="X" n="0238b04"/><div1 type="xu"><mulu type="序" level="1" label="No. 253-B 十二章來意"/><head>No. 253-B
-<lb ed="X" n="0238b05"/> <anchor id="fnX10p0238b03"/>十二章來意</head>
+<lb ed="X" n="0238b05"/> <note n="0238003" resp="Xuzangjing" place="foot text" type="orig">裴休及宗＊寶序既載於第十五套圓覺經&CB00259;疏故今略之（寶&M062447;密&M062442;&M062474;。圓覺經略疏 No. 247, 第9卷所&CB01495;。&CB18834;）</note>十二章來意</head>
 <lb ed="X" n="0238b06"/>
 <lb ed="X" n="0238b07"/><p id="pX10p0238b0701">文殊章。頓悟本有圓覺妙心。本無無明生死。方名信
 <lb ed="X" n="0238b08"/>解。成發起因。普賢章。以悟脩之理難明。故須徵釋。令
@@ -2829,7 +2834,7 @@ no message
 <lb ed="X" n="0274b18"/>也。行法云。眼漸漸見障外事。豈非淨乎。根既淨。識
 <lb ed="X" n="0274b19"/>又安得不淨。故云識清淨。此識乃七識。亦云傳送
 <lb ed="X" n="0274b20"/>識。如世傳言送語也。此則心見一&CB04639;。故先明也。聞
-<lb ed="X" n="0274b21"/>塵即耳根。根塵識三事清淨。覺塵即身根。<anchor id="fnX10p0274b01"/>亦塵識
+<lb ed="X" n="0274b21"/>塵即耳根。根塵識三事清淨。覺塵即身根。<note n="0274001" resp="Xuzangjing" place="foot text" type="orig">亦下疑脫根字</note>亦塵識
 <lb ed="X" n="0274b22"/>三事清淨。鼻舌身意亦皆清淨。故云亦復如是。經
 <lb ed="X" n="0274b23"/>中先言心。後言意。心意一也。覺觸即身也。此二並
 <lb ed="X" n="0274b24"/>出佛慈鄭重。如上歷六根竟。善男子根清淨故至
@@ -5581,7 +5586,7 @@ no message
 <lb ed="X" n="0311a20"/>對。四邪正對。五真妄對。六染淨對。七依正對。八苦
 <lb ed="X" n="0311a21"/>樂對。九有無對。十縛脫對。一切障礙即究竟覺者。
 <lb ed="X" n="0311a22"/>此二句是總標。下十對之別。謂到佛位智冥圓覺。
-<lb ed="X" n="0311a23"/><anchor id="fnX10p0311a01"/>血無勝劣分別之心。所以下十對之法。皆同真實
+<lb ed="X" n="0311a23"/><note n="0311001" resp="Xuzangjing" place="foot text" type="orig">血疑更</note>血無勝劣分別之心。所以下十對之法。皆同真實
 <lb ed="X" n="0311a24"/>一性。又若見有障可斷。斷<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>名為覺者。此覺非究
 <pb ed="X" id="X10.0253.0311b" n="0311b"/>
 <lb ed="X" n="0311b01"/>竟。不見有障可斷障礙。即覺方名究竟矣。得念者
@@ -5668,7 +5673,7 @@ no message
 <lb ed="X" n="0312b07"/>無非梵行。以情用事。善惡不可同日而語。眾生國
 <lb ed="X" n="0312b08"/>土同一法性者。依正也。眾生正報人之身也。國土
 <lb ed="X" n="0312b09"/>人之所依山河屋宅等也。究竟到家。依即是正。正
-<lb ed="X" n="0312b10"/>即是依。依正不相妨。色心無罣礙。華<anchor id="fnX10p0312b01"/>嚴破一微塵。
+<lb ed="X" n="0312b10"/>即是依。依正不相妨。色心無罣礙。華<note n="0312001" resp="Xuzangjing" place="foot text" type="orig">嚴下入云字見</note>嚴破一微塵。
 <lb ed="X" n="0312b11"/>出大千經卷。又云。於一毫端現寶王剎。坐微塵裡
 <lb ed="X" n="0312b12"/>轉大法輪。斯之謂也。地獄天宮皆為淨土者。天宮
 <lb ed="X" n="0312b13"/>地獄。以事相論之。霄壤之殊。究理言之。不出人一
@@ -6273,7 +6278,7 @@ no message
 <lb ed="X" n="0320b12"/>掉舉。既離昏沉掉舉。方到得此觀勝妙之定處。且
 <lb ed="X" n="0320b13"/>前靜觀。即門內做工夫。此幻觀。即門外千差萬別
 <lb ed="X" n="0320b14"/>處做工夫。何以知之。起信云。若修觀者。當觀一切
-<lb ed="X" n="0320b15"/>世間有為之法。無得久停。須臾<anchor id="fnX10p0320b01"/>須臾變壞。一切心
+<lb ed="X" n="0320b15"/>世間有為之法。無得久停。須臾<note n="0320001" resp="Xuzangjing" place="foot text" type="orig">須臾二字疑衍</note>須臾變壞。一切心
 <lb ed="X" n="0320b16"/>行。念念生滅。應觀過去所念諸法。恍惚如夢。應觀
 <lb ed="X" n="0320b17"/>現在所念諸法。猶如電光。應觀未來所念諸法。猶
 <lb ed="X" n="0320b18"/>如空雲欻爾而起。應觀世間一切有身。悉皆不淨
@@ -9613,7 +9618,7 @@ no message
 <lb ed="X" n="0365a02"/>安居日。即於佛前。作如是言。比丘男僧。比丘尼女
 <lb ed="X" n="0365a03"/>僧。西竺以男稱那。以女稱尼。比丘&CB00549;乞士。以乞為
 <lb ed="X" n="0365a04"/>活。不求邪食。不立常住。優婆塞清信男。亦云鄔婆
-<lb ed="X" n="0365a05"/><anchor id="fnX10p0365a01A"/>斯迦。優婆夷清信女。亦云鄔婆<anchor id="fnX10p0365a01B"/>索迦。亦云族姓男
+<lb ed="X" n="0365a05"/><note n="0365001A" resp="Xuzangjing" place="foot text" type="orig">斯索疑倒</note><note n="0365001A" resp="CBETA" type="mod">斯疑索</note>斯迦。優婆夷清信女。亦云鄔婆<note n="0365001B" resp="Xuzangjing" place="foot text" type="orig">斯索疑倒</note><note n="0365001B" resp="CBETA" type="mod">索疑斯</note>索迦。亦云族姓男
 <lb ed="X" n="0365a06"/>族姓女。亦云諦信男諦信女。則今時受三歸五戒
 <lb ed="X" n="0365a07"/>善男善女也。此謂之四眾。凡道俗依制結夏。脩圓
 <lb ed="X" n="0365a08"/>覺者。對佛白云。我某甲踞菩薩乘。脩寂滅行。菩薩
@@ -9923,7 +9928,7 @@ no message
 <lb ed="X" n="0369a12"/>妨&CB00418;相。方成假幻。復有脩中難成絕待。先知假全
 <lb ed="X" n="0369a13"/>空而無假。空全假而無空。空假俱無。絕於對待。方
 <lb ed="X" n="0369a14"/>成寂滅。其中又有人。直見心源。方知諸法即性故
-<lb ed="X" n="0369a15"/>空。不壞相故假。或但從性現故假。無別所現<anchor id="fnX10p0369a01"/>故。今
+<lb ed="X" n="0369a15"/>空。不壞相故假。或但從性現故假。無別所現<note n="0369001" resp="Xuzangjing" place="foot text" type="orig">故下疑脫空字</note>故。今
 <lb ed="X" n="0369a16"/>意若脩靜觀不得者。&CB00230;許脩幻觀。若脩幻觀不得
 <lb ed="X" n="0369a17"/>者。&CB00230;許脩靜靚。二觀皆脩不提者。&CB00230;許脩寂觀也。
 <lb ed="X" n="0369a18"/>只如天台教云。破一切惑莫甚乎。空建一切法莫
@@ -9988,7 +9993,7 @@ no message
 <lb ed="X" n="0370a02"/>以物求名。名無得物之功。物無當名之實。非物也。
 <lb ed="X" n="0370a03"/>名無得物之功。非名也。賢善首因十一位大士各
 <lb ed="X" n="0370a04"/>問深義。雖釋尊開示圓覺。&CB02626;談性具圓覺。然未的
-<lb ed="X" n="0370a05"/>指。是故亦問立其名字。所以問名者。蓋<anchor id="fnX10p0370a01"/>有名物之
+<lb ed="X" n="0370a05"/>指。是故亦問立其名字。所以問名者。蓋<note n="0370001" resp="Xuzangjing" place="foot text" type="orig">有名疑名有應</note>有名物之
 <lb ed="X" n="0370a06"/>功。物有應名之得。圓覺即名也。陀羅尼即體。體即
 <lb ed="X" n="0370a07"/>物也。此則名體相副。故云陀羅尼門。流出圓覺。既
 <lb ed="X" n="0370a08"/>存名體。必須奉持。奉即取也。持即心也。以取圓覺。
