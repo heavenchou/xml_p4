@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X17n0331.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2006/06/12 11:18:18 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/06/05 06:55:51 $</date></edition>
 	</editionStmt>
 	<extent>8卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/06/12 11:18:18 $</date>
+		<date>$Date: 2007/06/05 06:55:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 17, No. 331 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X17n0331.xml,v $
+Revision 1.4  2007/06/05 06:55:51  amtbgrace
+modified: 校注插入 XML
+
 Revision 1.3  2006/06/12 11:18:18  eva
 modified: 品 改成 pin
 
@@ -102,7 +107,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0801b09"/>在于矯二宗之偏鋒驅顢頇之狂慧觀其所述&CB00582;詳
 <lb ed="X" n="0801b10"/>哉其言之至于言之所不能詮引而不發躍如也師
 <lb ed="X" n="0801b11"/>&CB00582;曰吾聊以轍示焉世有絕塵而奔者吾將旦暮遇
-<lb ed="X" n="0801b12"/>之耳然則此書之行固浪師之後&CB08504;亦靈山之<anchor id="fnX17p0801b01"/>耳孫
+<lb ed="X" n="0801b12"/>之耳然則此書之行固浪師之後&CB08504;亦靈山之<note n="0801001" resp="Xuzangjing" place="foot text" type="orig">耳疑兒</note>耳孫
 <lb ed="X" n="0801b13"/>也余家珠塢中去鐵山僅一袈裟地三年來侍師于
 <lb ed="X" n="0801b14"/>水邊林下每相與了無可共語之語是編成余竊快
 <lb ed="X" n="0801b15"/>焉因題數語于簡末不自知其為門外人也。</p>
@@ -202,7 +207,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0802c09"/>月上女等法彰名者如圓覺涅槃等人法彰名者
 <lb ed="X" n="0802c10"/>如勝天王般若等法喻彰名者如金剛般若等此
 <lb ed="X" n="0802c11"/>經則以處彰名也楞伽城名此翻不可往在南海
-<lb ed="X" n="0802c12"/>摩羅<anchor id="fnX17p0802c01"/>那山頂阿&CB02494;多羅此云無上以此山此城皆
+<lb ed="X" n="0802c12"/>摩羅<note n="0802001" resp="Xuzangjing" place="foot text" type="orig">那疑耶次下同</note>那山頂阿&CB02494;多羅此云無上以此山此城皆
 <lb ed="X" n="0802c13"/>是無上眾寶所成故魏譯云住大海畔摩羅<anchor id="fxX17p0802c01"/>那山
 <lb ed="X" n="0802c14"/>頂上楞伽城中彼山種種寶性所成諸寶間錯光
 <lb ed="X" n="0802c15"/>明赫奕如百千日照耀金山內外明徹日月光輝
@@ -210,10 +215,10 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0802c17"/>處世尊於海龍王宮說法從大海出舉目觀見摩
 <lb ed="X" n="0802c18"/>羅<anchor id="fxX17p0802c02"/>那山楞伽大城即便微笑而作是言昔諸如來
 <lb ed="X" n="0802c19"/>皆於此城說自所得聖智證法非諸外道邪見乃
-<lb ed="X" n="0802c20"/>至二乘所修境界我今亦為<anchor id="fnX17p0802c02"/>摩婆那王開示此法
+<lb ed="X" n="0802c20"/>至二乘所修境界我今亦為<note n="0802002" resp="Xuzangjing" place="foot text" type="orig">摩疑羅次同</note>摩婆那王開示此法
 <lb ed="X" n="0802c21"/>時<anchor id="fxX17p0802c03"/>摩婆那夜叉王以佛神力聞佛音聲見海波浪
 <lb ed="X" n="0802c22"/>觀其眾會藏識大海境界風動轉識浪起發歡喜
-<lb ed="X" n="0802c23"/>心請佛說法然則此經是<anchor id="fnX17p0802c03"/>摩婆羅夜叉王為發起
+<lb ed="X" n="0802c23"/>心請佛說法然則此經是<note n="0802003" resp="Xuzangjing" place="foot text" type="orig">摩婆羅疑羅婆那</note>摩婆羅夜叉王為發起
 <lb ed="X" n="0802c24"/>故即其所居之處彰名也有者云楞伽寶名文殊
 <pb ed="X" id="X17.0331.0803a" n="0803a"/>
 <lb ed="X" n="0803a01"/>般泥洹經云文殊身如紫金山其冠毗楞伽寶之
@@ -234,7 +239,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0803a16"/>分相應故達磨大師云楞伽以佛語心為宗無門
 <lb ed="X" n="0803a17"/>為法門而龐居士亦云楞伽寶山高四面無行路
 <lb ed="X" n="0803a18"/>惟有達道人乘空自來去所謂無門可入無路可
-<lb ed="X" n="0803a19"/>通也故華嚴論云世尊於南海山摩羅<anchor id="fnX17p0803a01"/>那山之頂
+<lb ed="X" n="0803a19"/>通也故華嚴論云世尊於南海山摩羅<note n="0803001" resp="Xuzangjing" place="foot text" type="orig">那疑耶</note>那山之頂
 <lb ed="X" n="0803a20"/>楞伽城中說法其山高五百由旬下瞰大海無路
 <lb ed="X" n="0803a21"/>可上其城乃眾寶所成光映日月無門可入得神
 <lb ed="X" n="0803a22"/>通者堪能升往又此城久為夜叉所據而一旦請
@@ -426,7 +431,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0805c08"/>所證告汝也雖然世尊三昧迦葉不知迦葉三昧
 <lb ed="X" n="0805c09"/>阿難不知既是自覺境界何處下口須是自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>覿
 <lb ed="X" n="0805c10"/>面親見始得。</p></div2>
-<lb ed="X" n="0805c11"/><div2 type="orig"><p id="pX17p0805c1101">爾時大慧菩薩摩訶薩承佛所<anchor id="fnX17p0805c01"/>說頂禮佛足合掌恭
+<lb ed="X" n="0805c11"/><div2 type="orig"><p id="pX17p0805c1101">爾時大慧菩薩摩訶薩承佛所<note n="0805001" resp="Xuzangjing" place="foot text" type="orig">說經作聽</note>說頂禮佛足合掌恭
 <lb ed="X" n="0805c12"/>敬以偈問曰云何淨其念云何念增長云何見癡惑
 <lb ed="X" n="0805c13"/>云何惑增長。</p></div2>
 <lb ed="X" n="0805c14"/><div2 type="commentary"><p id="pX17p0805c1401" rend="margin-left:1em">一百八問大慧雖是&CB00642;張十界之網實欲高建一
@@ -448,7 +453,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0806a05"/>是一云何見有種種差別之意。</p></div2>
 <lb ed="X" n="0806a06"/><div2 type="orig"><p id="pX17p0806a0601">何故剎土化相及諸外道云何無受次何故名無受
 <lb ed="X" n="0806a07"/>何故名佛子解脫至何所誰縛誰解脫何等禪境界
-<lb ed="X" n="0806a08"/>云何有三乘唯願為解<anchor id="fnX17p0806a01"/>脫。</p></div2>
+<lb ed="X" n="0806a08"/>云何有三乘唯願為解<note n="0806001" resp="Xuzangjing" place="foot text" type="orig">脫經作說</note>脫。</p></div2>
 <lb ed="X" n="0806a09"/><div2 type="commentary"><p id="pX17p0806a0901" rend="margin-left:1em">次問寂滅一心本無異相云何而有種種諸相四
 <lb ed="X" n="0806a10"/>八端嚴如來相也塗&CB01926;熏鼻外道相也且外道以
 <lb ed="X" n="0806a11"/>不受為宗佛子以解脫為果外道之縛是誰縛佛
@@ -850,8 +855,8 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0811b07"/>心常分何曾有一毫受用樂相乎故總云非也。</p></div2>
 <lb ed="X" n="0811b08"/><div2 type="orig"><p id="pX17p0811b0801">剎土句非剎土句阿&CB00145;句非阿&CB00145;句水句非水句弓
 <lb ed="X" n="0811b09"/>句非弓句實句非實句數句非數句數句非數句明
-<lb ed="X" n="0811b10"/>句非明句&CB00980;空句非&CB00980;空句雲句非雲句工巧<anchor id="fnX17p0811b01"/>句術
-<lb ed="X" n="0811b11"/>明處句<anchor id="fnX17p0811b02"/>非明處句風句非風句地句非地句。</p></div2>
+<lb ed="X" n="0811b10"/>句非明句&CB00980;空句非&CB00980;空句雲句非雲句工巧<note n="0811001" resp="Xuzangjing" place="foot text" type="orig">句經作伎</note>句術
+<lb ed="X" n="0811b11"/>明處句<note n="0811002" resp="Xuzangjing" place="foot text" type="orig">非下經有工巧伎術四字</note>非明處句風句非風句地句非地句。</p></div2>
 <lb ed="X" n="0811b12"/><div2 type="commentary"><p id="pX17p0811b1201" rend="margin-left:1em">即我所說大而剎土細而微塵大種大種即實句
 <lb ed="X" n="0811b13"/>也乃至地水風雲等雖是積聚微塵大種所成究
 <lb ed="X" n="0811b14"/>而言之悉無自性皆是眾生循業發現故迦葉云
@@ -916,7 +921,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0812a23"/>動句根句非根句有為句非有為句無為句非無為
 <lb ed="X" n="0812a24"/>句因果句非因果句色究竟句非色究竟句節句非
 <pb ed="X" id="X17.0331.0812b" n="0812b"/>
-<lb ed="X" n="0812b01"/>節句<anchor id="fnX17p0812b01"/>&CB15106;樹藤句非<anchor id="fxX17p0812b01"/>&CB15106;樹藤句雜句非雜句說句非說
+<lb ed="X" n="0812b01"/>節句<note n="0812001" resp="Xuzangjing" place="foot text" type="orig">&CB15106;樹藤經作藂葛藤次同</note>&CB15106;樹藤句非<anchor id="fxX17p0812b01"/>&CB15106;樹藤句雜句非雜句說句非說
 <lb ed="X" n="0812b02"/>句毗尼句非毗尼句比丘句非比丘句處句非處句
 <lb ed="X" n="0812b03"/>字句非字句。</p></div2>
 <lb ed="X" n="0812b04"/><div2 type="commentary"><p id="pX17p0812b0401" rend="margin-left:1em">護謂守護族謂種族謂三界之內有同類之族有
@@ -2010,7 +2015,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0826c17"/>何所觀故而言無耶若言觀餘物者彼法亦然爾時
 <lb ed="X" n="0826c18"/>世尊告大慧菩薩摩訶薩言當離兔角牛角&CB00980;空形
 <lb ed="X" n="0826c19"/>色異見妄想汝等諸菩薩摩訶薩當思惟自心現妄
-<lb ed="X" n="0826c20"/><anchor id="fnX17p0826c01"/>妄想隨入為一切剎土最勝子以自心現方便而教
+<lb ed="X" n="0826c20"/><note n="0826001" resp="Xuzangjing" place="foot text" type="orig">經無妄字</note>妄想隨入為一切剎土最勝子以自心現方便而教
 <lb ed="X" n="0826c21"/>授之。</p></div2>
 <lb ed="X" n="0826c22"/><div2 type="commentary"><p id="pX17p0826c2201" rend="margin-left:1em">前於形處橫法計有計無此於形處橫法分色分
 <lb ed="X" n="0826c23"/>空由不善知&CB00980;空本無分齊妄計色異&CB00980;空不相
@@ -2591,7 +2596,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0834b23"/>性故復於偈中發明此義斷三界八十八使見惑
 <lb ed="X" n="0834b24"/>證預流果斷欲界前六品思惑證一來果斷欲界
 <pb ed="X" id="X17.0331.0834c" n="0834c"/>
-<lb ed="X" n="0834c01"/>後三品思惑證不<anchor id="fnX17p0834c01"/>來果斷上二界七十二品思惑
+<lb ed="X" n="0834c01"/>後三品思惑證不<note n="0834001" resp="Xuzangjing" place="foot text" type="orig">來宜作還</note>來果斷上二界七十二品思惑
 <lb ed="X" n="0834c02"/>證羅漢果此等雖空我執證四果而法執未除中
 <lb ed="X" n="0834c03"/>心惑亂未可謂離喧得寂也然三乘一乘非乘皆
 <lb ed="X" n="0834c04"/>我所說悉是方便誘引之辭實無所謂三乘一乘
@@ -2638,7 +2643,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0835a20"/>根一闡提者復以如來神力故或時善根生所以者
 <lb ed="X" n="0835a21"/>何謂如來不捨一切眾生故以是故菩薩一闡提不
 <lb ed="X" n="0835a22"/>般涅槃。</p></div2>
-<lb ed="X" n="0835a23"/><div2 type="commentary"><p id="pX17p0835a2301" rend="margin-left:1em">大慧更欲究其極至故問此<anchor id="fnX17p0835a01"/>二闡提畢竟是何等
+<lb ed="X" n="0835a23"/><div2 type="commentary"><p id="pX17p0835a2301" rend="margin-left:1em">大慧更欲究其極至故問此<note n="0835001" resp="Xuzangjing" place="foot text" type="orig">二疑一</note>二闡提畢竟是何等
 <lb ed="X" n="0835a24"/>闡提永不涅槃佛言菩薩一闡提永不入涅槃不
 <pb ed="X" id="X17.0331.0835b" n="0835b"/>
 <lb ed="X" n="0835b01"/>得作佛以彼知一切法本來寂滅不復更求入滅
@@ -2647,7 +2652,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0835b04"/>闡提雖是極惡然不斷性善藉此謗法因緣而如
 <lb ed="X" n="0835b05"/>來以神力攝持故或時善根生所以者何以如來
 <lb ed="X" n="0835b06"/>不捨一切眾生故雖謗法亦得授記作佛若提婆
-<lb ed="X" n="0835b07"/>達<anchor id="fnX17p0835b02"/>婆多尼思佛等五百比丘之類是也以是故捨
+<lb ed="X" n="0835b07"/>達<note n="0835002" resp="Xuzangjing" place="foot text" type="orig">婆疑剩字</note>婆多尼思佛等五百比丘之類是也以是故捨
 <lb ed="X" n="0835b08"/>一切善根眾生不斷性善故可作佛菩薩闡提不
 <lb ed="X" n="0835b09"/>斷性惡故永劫度生永不般涅槃此則極贊菩薩
 <lb ed="X" n="0835b10"/>悲心無盡故以一闡提同名耳是知闡提不墮凡
@@ -3395,7 +3400,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0845b02"/>住第八菩薩地得離心意意識五法自性二無我相
 <lb ed="X" n="0845b03"/>得意生身世尊意生身者何因緣佛告大慧意生身
 <lb ed="X" n="0845b04"/>者譬如意去迅疾無礙故名意生譬如意去石壁無
-<lb ed="X" n="0845b05"/>礙於彼異方無量由延因先所見憶<anchor id="fnX17p0845b01"/>忘不忘自心流
+<lb ed="X" n="0845b05"/>礙於彼異方無量由延因先所見憶<note n="0845001" resp="Xuzangjing" place="foot text" type="orig">忘經作念</note>忘不忘自心流
 <lb ed="X" n="0845b06"/>注不絕於身無障礙生大慧如是意生身得一時俱
 <lb ed="X" n="0845b07"/>菩薩摩訶薩意生身如幻三昧力自在神通玅相莊
 <lb ed="X" n="0845b08"/>嚴聖種類身一時俱生猶如意生無有障礙隨所憶
@@ -4219,7 +4224,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0856b01"/>覺自心現量外境界性非性彼有如是過非我說緣
 <lb ed="X" n="0856b02"/>起我常說言因緣和合而生諸法非無因生。</p></div2>
 <lb ed="X" n="0856b03"/><div2 type="commentary"><p id="pX17p0856b0301" rend="margin-left:1em">此以緣起無生示之以明不墮無因亦非因緣雜
-<lb ed="X" n="0856b04"/>亂也然我所說十二因緣展轉相生因此有<anchor id="fnX17p0856b01"/>而故
+<lb ed="X" n="0856b04"/>亂也然我所說十二因緣展轉相生因此有<note n="0856001" resp="Xuzangjing" place="foot text" type="orig">而故疑倒</note>而故
 <lb ed="X" n="0856b05"/>彼有者正顯心無能取之因亦無所取之果故說
 <lb ed="X" n="0856b06"/>此生故彼生彼生故此生二俱無性如鏡現像令
 <lb ed="X" n="0856b07"/>人覺知自心現量隨緣不變不變隨緣而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>由不
@@ -4829,7 +4834,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0864b11"/>棘持牛狗戒不知此是以苦捨苦安能得樂彼須
 <lb ed="X" n="0864b12"/>陀洹有見乎此是故不取即彼受持戒支除為回
 <lb ed="X" n="0864b13"/>向自覺最勝處及為離妄想無漏法相行方便是
-<lb ed="X" n="0864b14"/>故受<anchor id="fnX17p0864b01"/>除戒品然非求人天果報也是名須陀洹斷
+<lb ed="X" n="0864b14"/>故受<note n="0864001" resp="Xuzangjing" place="foot text" type="orig">除疑餘</note>除戒品然非求人天果報也是名須陀洹斷
 <lb ed="X" n="0864b15"/>戒取相若三結既斷則貪癡不生煩惱障淨然亦
 <lb ed="X" n="0864b16"/>不作斷結想若有此想即有二見一墮我見二墮
 <lb ed="X" n="0864b17"/>諸結不斷故金剛經云須陀洹能作是念我得須
@@ -4957,7 +4962,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0866a14"/>身住世百劫八能知前後際百劫事九能以智慧
 <lb ed="X" n="0866a15"/>入百法明門洞達曉了十能以身觀百類眷屬餘
 <lb ed="X" n="0866a16"/>地倍倍增勝以至第九善慧地以大願力用四無
-<lb ed="X" n="0866a17"/>礙辨廣化眾生得心自在得法自<anchor id="fnX17p0866a01"/>得至法雲地受
+<lb ed="X" n="0866a17"/>礙辨廣化眾生得心自在得法自<note n="0866001" resp="Xuzangjing" place="foot text" type="orig">得疑在</note>得至法雲地受
 <lb ed="X" n="0866a18"/>灌頂位當得如來自覺智地善繫心十無盡句所
 <lb ed="X" n="0866a19"/>謂眾生無盡世界無盡&CB00980;空無盡法界無盡涅槃
 <lb ed="X" n="0866a20"/>無盡佛出現無盡如來智無盡心所緣無盡佛智
@@ -5083,7 +5088,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0867c15"/>涅槃非我所說法大慧我所說者妄想識滅名為涅
 <lb ed="X" n="0867c16"/>槃。</p></div2>
 <lb ed="X" n="0867c17"/><div2 type="commentary"><p id="pX17p0867c1701" rend="margin-left:1em">既<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>令彼覺差別因而復令彼覺差別果也性自
-<lb ed="X" n="0867c18"/><anchor id="fnX17p0867c01"/>自性非性涅槃者即數論師所計神我覺知冥性
+<lb ed="X" n="0867c18"/><note n="0867001" resp="Xuzangjing" place="foot text" type="orig">自疑剩字</note>自性非性涅槃者即數論師所計神我覺知冥性
 <lb ed="X" n="0867c19"/>與三德所造二十三法轉變無常生厭修道自性
 <lb ed="X" n="0867c20"/>隱跡不現諸法不生我便解脫名為涅槃種種相
 <lb ed="X" n="0867c21"/>性非性涅槃者即勝論所計實德業三種種諸相
@@ -5528,7 +5533,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0873c10"/>不生知自心現境界性非性是名三昧樂正受意生
 <lb ed="X" n="0873c11"/>身。</p></div2>
 <lb ed="X" n="0873c12"/><div2 type="commentary"><p id="pX17p0873c1201" rend="margin-left:1em">所謂三昧正受樂意生身者謂從初地斷分別我
-<lb ed="X" n="0873c13"/>法二執證&CB00642;行真如復轉六七二識成妙<anchor id="fnX17p0873c01"/>乎二智
+<lb ed="X" n="0873c13"/>法二執證&CB00642;行真如復轉六七二識成妙<note n="0873001" resp="Xuzangjing" place="foot text" type="orig">乎疑平</note>乎二智
 <lb ed="X" n="0873c14"/>即以此智觀察俱生我法二執從地至地漸漸增
 <lb ed="X" n="0873c15"/>進以至七地念念趨寂念念入滅正受故得自心
 <lb ed="X" n="0873c16"/>種種寂靜八識心海始得安住而前七現起波浪
@@ -6519,7 +6524,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0887a01"/>也故知煩惱所知原不障人但人不善觀察遂成
 <lb ed="X" n="0887a02"/>障耳。</p></div2>
 <lb ed="X" n="0887a03"/><div2 type="orig"><p id="pX17p0887a0301">大慧復白佛言如世尊所說以彼彼妄想妄想彼彼
-<lb ed="X" n="0887a04"/>性非有彼自性但妄想自性耳<anchor id="fnX17p0887a01"/>大慧白佛言世尊若
+<lb ed="X" n="0887a04"/>性非有彼自性但妄想自性耳<note n="0887001" resp="Xuzangjing" place="foot text" type="orig">經無大慧等五字</note>大慧白佛言世尊若
 <lb ed="X" n="0887a05"/>但妄想自性非性自性相待者非為世尊如是說煩
 <lb ed="X" n="0887a06"/>惱清淨無性過耶一切法妄想自性非性故佛告大
 <lb ed="X" n="0887a07"/>慧如是如是如汝所說大慧非如愚夫性自性妄想
@@ -6744,7 +6749,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0890a01"/>法俱寂是則所見無有二相悉皆平等誰為有無
 <lb ed="X" n="0890a02"/>誰為不生哉。</p></div2>
 <lb ed="X" n="0890a03"/><div2 type="orig"><p id="pX17p0890a0301">爾時大慧菩薩白佛言世尊如世尊說如攀緣事智
-<lb ed="X" n="0890a04"/>慧不得是施設量建立施<anchor id="fnX17p0890a01"/>量所攝受非性攝受亦非
+<lb ed="X" n="0890a04"/>慧不得是施設量建立施<note n="0890001" resp="Xuzangjing" place="foot text" type="orig">量經作設</note>量所攝受非性攝受亦非
 <lb ed="X" n="0890a05"/>性以無攝故智則不生唯施設名耳云何世尊為不
 <lb ed="X" n="0890a06"/>覺性自相共相異不異故智不得耶為自相共相種
 <lb ed="X" n="0890a07"/>種性自性相隱蔽故智不得耶為山巖石壁地水火
@@ -6879,11 +6884,11 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0891c11"/>惑而自破壞諸趣相續不得解脫不能覺知自心現
 <lb ed="X" n="0891c12"/>量不離外性自性妄想計著是故世間言論種種辨
 <lb ed="X" n="0891c13"/>說不脫生老病死憂悲苦惱誑惑迷亂。</p></div2>
-<lb ed="X" n="0891c14"/><div2 type="commentary"><p id="pX17p0891c1401" rend="margin-left:1em">既云<anchor id="fnX17p0891c01"/>授通說童蒙是則言語文字決不可免何故
+<lb ed="X" n="0891c14"/><div2 type="commentary"><p id="pX17p0891c1401" rend="margin-left:1em">既云<note n="0891001" resp="Xuzangjing" place="foot text" type="orig">授通說疑說通授</note>授通說童蒙是則言語文字決不可免何故
 <lb ed="X" n="0891c15"/>世尊又誡內教弟子不許習近世論若習近者但
 <lb ed="X" n="0891c16"/>取貪愛不取真實法味佛言世間言論採集種種
 <lb ed="X" n="0891c17"/>文句種種義味種種因緣種種譬喻出言華美文
-<lb ed="X" n="0891c18"/>字尖新說得<anchor id="fnX17p0891c02"/>訶漉漉地誑惑凡愚不如法說不如
+<lb ed="X" n="0891c18"/>字尖新說得<note n="0891002" resp="Xuzangjing" place="foot text" type="orig">訶疑阿</note>訶漉漉地誑惑凡愚不如法說不如
 <lb ed="X" n="0891c19"/>義說於真實自通了無交涉不能得入由不入自
 <lb ed="X" n="0891c20"/>通而於說通亦不能了不覺一切法皆是方便接
 <lb ed="X" n="0891c21"/>引之辭以妄想心生顛倒見計無計有墮於二邊
@@ -7378,7 +7383,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0898b12"/>性也則知一切法但無&CB00642;計所執依他性非無法
 <lb ed="X" n="0898b13"/>身自性也然有性必有相性既如此有亦應然一
 <lb ed="X" n="0898b14"/>切諸法但無&CB00642;計所執依他相非無真如自相喻
-<lb ed="X" n="0898b15"/>如木中無火相非無<anchor id="fnX17p0898b01"/>水之真相也然一切法具有
+<lb ed="X" n="0898b15"/>如木中無火相非無<note n="0898001" resp="Xuzangjing" place="foot text" type="orig">水疑火</note>水之真相也然一切法具有
 <lb ed="X" n="0898b16"/>真如性相但不是得人無我二乘愚夫之所能知
 <lb ed="X" n="0898b17"/>以彼法執未空未得證法無我不見真我故既一
 <lb ed="X" n="0898b18"/>切法無我如是則一切法空無生離自性亦當如
@@ -7446,7 +7451,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0899b05"/>墮有為於無為法示有為相而不分別無為之性
 <lb ed="X" n="0899b06"/>故不墮無為無有涅槃佛亦無佛涅槃故不墮覺
 <lb ed="X" n="0899b07"/>所覺本無能見相亦無所見相故不墮相所相不
-<lb ed="X" n="0899b08"/>即名色不離名色故不墮陰非陰無言關<anchor id="fnX17p0899b01"/>歿義路
+<lb ed="X" n="0899b08"/>即名色不離名色故不墮陰非陰無言關<note n="0899001" resp="Xuzangjing" place="foot text" type="orig">歿疑沒</note>歿義路
 <lb ed="X" n="0899b09"/>故不墮說所說離四句絕百非故不墮一異俱不
 <lb ed="X" n="0899b10"/>俱既離四句則離心緣既離心緣則離言說既離
 <lb ed="X" n="0899b11"/>言說則見一切法本來無生無生則無滅無滅則
@@ -7572,7 +7577,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0901a06"/>不動名大力無物非自無處不在名自在超過一
 <lb ed="X" n="0901a07"/>切無與等者名勝者迦毗羅此云金色習諸苦行
 <lb ed="X" n="0901a08"/>具金色相證真實法住如實際名真實邊能破黑
-<lb ed="X" n="0901a09"/><anchor id="fnX17p0901a01"/>破與人清涼名月能與眾生作利益事名日具足
+<lb ed="X" n="0901a09"/><note n="0901001" resp="Xuzangjing" place="foot text" type="orig">破疑暗</note>破與人清涼名月能與眾生作利益事名日具足
 <lb ed="X" n="0901a10"/>性德出生善法曰生不善不生善法不滅曰不生
 <lb ed="X" n="0901a11"/>不滅離微細念斷無明漏曰空隨緣不變名如如
 <lb ed="X" n="0901a12"/>證第一義名諦盡真如際名實際得法自性名法
@@ -8084,7 +8089,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0907c18"/>不復更造四大矣安得常以四大各有異相自相
 <lb ed="X" n="0907c19"/>不見有差別可得故自相不能獨造異相不能共
 <lb ed="X" n="0907c20"/>造以不見一水大自相獨能生地生火生風故又
-<lb ed="X" n="0907c21"/>不見地火風互生一水大火風水<anchor id="fnX17p0907c01"/>其生一地大風
+<lb ed="X" n="0907c21"/>不見地火風互生一水大火風水<note n="0907001" resp="Xuzangjing" place="foot text" type="orig">其疑共</note>其生一地大風
 <lb ed="X" n="0907c22"/>地水共生一火大故彼四大既不見自相異相種
 <lb ed="X" n="0907c23"/>種差別可得則知不更造異四大矣此則不但能
 <lb ed="X" n="0907c24"/>造捨此而不作為無常即所造者亦未嘗復作此
@@ -8397,7 +8402,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0912a06"/>若如來是無常者則墮有所作過以五陰是所作
 <lb ed="X" n="0912a07"/>相而相相無性應成斷滅今如來雖隨緣而不變
 <lb ed="X" n="0912a08"/>以非所作性故非斷滅以一切所作皆是無常如
-<lb ed="X" n="0912a09"/>瓶衣<anchor id="fnX17p0912a01"/>　若如來果斷滅則如來一切智一切方便
+<lb ed="X" n="0912a09"/>瓶衣<note n="0912001" resp="Xuzangjing" place="foot text" type="orig">&CB18845;版&M062419;&M062446;字欠落，〔等〕&M062411;。&CB18834;</note>　若如來果斷滅則如來一切智一切方便
 <lb ed="X" n="0912a10"/>悉空無義以如來是所作故若所作是如來則世
 <lb ed="X" n="0912a11"/>間一切所作法皆是如來以無常因性皆是所作
 <lb ed="X" n="0912a12"/>無差別故應立量云若如來是常所作為因性喻
@@ -8409,7 +8414,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0912a18"/>恒沙稱性功德悉皆無義不亦成斷滅乎然以&CB00980;
 <lb ed="X" n="0912a19"/>空為同喻者以&CB00980;空離四句絕百非而與如來離
 <lb ed="X" n="0912a20"/>念之相相似是故如來取&CB00980;空為常如曰離念相
-<lb ed="X" n="0912a21"/>者等&CB00980;空<anchor id="fnX17p0912a02"/>果不取頑然無知為常也亦非如來以
+<lb ed="X" n="0912a21"/>者等&CB00980;空<note n="0912002" resp="Xuzangjing" place="foot text" type="orig">果疑界</note>果不取頑然無知為常也亦非如來以
 <lb ed="X" n="0912a22"/>無生為常若以無生為常則如來同於兔馬等角
 <lb ed="X" n="0912a23"/>之絕無則應如來從無量劫所修方便悉皆無義
 <lb ed="X" n="0912a24"/>故如來非無生常應立量云若如來是常因云無
@@ -8537,7 +8542,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0913c21"/>法無我則滅地次第相續轉進餘外道見不能傾動
 <lb ed="X" n="0913c22"/>是名住菩薩不動地得十三昧道門樂三昧覺所持
 <lb ed="X" n="0913c23"/>觀察不思議佛法自願不受三昧門樂及實際向自
-<lb ed="X" n="0913c24"/>覺聖趣不共一切聲聞緣覺及諸外道所修<anchor id="fnX17p0913c01"/>之道得
+<lb ed="X" n="0913c24"/>覺聖趣不共一切聲聞緣覺及諸外道所修<note n="0913001" resp="Xuzangjing" place="foot text" type="orig">之經作行</note>之道得
 <pb ed="X" id="X17.0331.0914a" n="0914a"/>
 <lb ed="X" n="0914a01"/>十賢聖種性道及身智意生離三昧行是故大慧菩
 <lb ed="X" n="0914a02"/>薩欲求勝進者當淨如來藏及識藏名大慧若無識
@@ -8606,7 +8611,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0914c15"/>計著見人法無我故勝鬘夫人承佛威神說如來境
 <lb ed="X" n="0914c16"/>界非聲聞緣覺及外道境界如來藏識藏餘佛及餘
 <lb ed="X" n="0914c17"/>利智依義菩薩智慧境界是故汝及餘菩薩摩訶薩
-<lb ed="X" n="0914c18"/>於如<anchor id="fnX17p0914c01"/>來識藏當勤修學莫<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>聞覺作知足想。</p></div2>
+<lb ed="X" n="0914c18"/>於如<note n="0914001" resp="Xuzangjing" place="foot text" type="orig">來下經有藏字</note>來識藏當勤修學莫<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>聞覺作知足想。</p></div2>
 <lb ed="X" n="0914c19"/><div2 type="commentary"><p id="pX17p0914c1901" rend="margin-left:1em">然一切凡夫及諸聖人皆依彼識藏而有生滅凡
 <lb ed="X" n="0914c20"/>夫生滅無足為怪而修行者何故亦有生滅耶以
 <lb ed="X" n="0914c21"/>修行者雖得自覺聖智現法樂住而不捨離勇猛
@@ -8640,7 +8645,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0915a24"/>習所熏如實觀察者諸事悉無事如愚見指月觀指
 <pb ed="X" id="X17.0331.0915b" n="0915b"/>
 <lb ed="X" n="0915b01"/>不觀月計著名字者不見我真實心為工伎兒意如
-<lb ed="X" n="0915b02"/>和伎者五識為伴侶妄想觀<anchor id="fnX17p0915b01"/>眾伎。</p></div2>
+<lb ed="X" n="0915b02"/>和伎者五識為伴侶妄想觀<note n="0915001" resp="Xuzangjing" place="foot text" type="orig">眾伎經作伎眾</note>眾伎。</p></div2>
 <lb ed="X" n="0915b03"/><div2 type="commentary"><p id="pX17p0915b0301" rend="margin-left:1em">甚深如來藏而與七識俱故名識藏因不實妄想
 <lb ed="X" n="0915b04"/>取諸境界乃有能取所取計著不捨智者若能觀
 <lb ed="X" n="0915b05"/>察見如來藏則能取所取之相當下遠離所以遠
@@ -8746,7 +8751,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0916c05"/>識得涅槃而不知得者是有餘涅槃非無餘涅槃
 <lb ed="X" n="0916c06"/>也如來藏所以流轉者以生死涅槃二果皆是如
 <lb ed="X" n="0916c07"/>來藏為善不善因故受苦受樂若生若滅也故阿
-<lb ed="X" n="0916c08"/>毗達磨經<anchor id="fnX17p0916c01"/>之無始時來界一切法等依由此有諸
+<lb ed="X" n="0916c08"/>毗達磨經<note n="0916001" resp="Xuzangjing" place="foot text" type="orig">之疑云</note>之無始時來界一切法等依由此有諸
 <lb ed="X" n="0916c09"/>趣及涅槃證得是則剎那者非剎那而非剎那者
 <lb ed="X" n="0916c10"/>成剎那矣故所謂不生不滅是無常義也然我前
 <lb ed="X" n="0916c11"/>說彼諸凡聖悉有生滅者以凡愚為四住地煩惱
@@ -8758,7 +8763,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0916c17"/>壞若使修行四無間行所得自覺聖智<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>證無生
 <lb ed="X" n="0916c18"/>法忍而有剎那者此則聖應同凡不名為聖然聖
 <lb ed="X" n="0916c19"/>人證無生忍雖為三相遷流實不生滅如金金剛
-<lb ed="X" n="0916c20"/>雖經累劫而稱量不<anchor id="fnX17p0916c02"/>滅若知此則不唯聖人不剎
+<lb ed="X" n="0916c20"/>雖經累劫而稱量不<note n="0916002" resp="Xuzangjing" place="foot text" type="orig">滅疑減</note>滅若知此則不唯聖人不剎
 <lb ed="X" n="0916c21"/>那即凡愚又何嘗剎那耶云何凡夫不善於此隱
 <lb ed="X" n="0916c22"/>覆之說計著凡聖悉有生滅之語妄謂一切內外
 <lb ed="X" n="0916c23"/>有漏無漏有為無為等法一類皆作剎那生滅者
@@ -8914,7 +8919,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0918c23"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>為業所牽不能自脫如蠶作繭自纏自縛墮於
 <lb ed="X" n="0918c24"/>生死大海六趣曠野一上一下頭出頭沒如汲井
 <pb ed="X" id="X17.0331.0919a" n="0919a"/>
-<lb ed="X" n="0919a01"/>輪輪<anchor id="fnX17p0919a01"/>輪不絕如是惑業苦三輪轉不<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>皆由無明
+<lb ed="X" n="0919a01"/>輪輪<note n="0919001" resp="Xuzangjing" place="foot text" type="orig">輪疑轉</note>輪不絕如是惑業苦三輪轉不<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>皆由無明
 <lb ed="X" n="0919a02"/>所覆計著名相而起不知一切俗數名相自性如
 <lb ed="X" n="0919a03"/>幻如&CB08504;如水中月其中原無主宰而為之我亦無
 <lb ed="X" n="0919a04"/>依止之處而為之我所愚夫於無我我所處而起
@@ -9126,7 +9131,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0921c10"/>來了不作念故說諸佛如恒河沙又離貪恚故以
 <lb ed="X" n="0921c11"/>離貪故敬之而不加喜離瞋故惱之而不加怒由
 <lb ed="X" n="0921c12"/>怨親平等物我一如不起分別故說諸佛如恒河
-<lb ed="X" n="0921c13"/>沙故黃<anchor id="fnX17p0921c01"/>壁云恒河沙者佛說是沙諸佛如來釋梵
+<lb ed="X" n="0921c13"/>沙故黃<note n="0921001" resp="Xuzangjing" place="foot text" type="orig">壁疑檗</note>壁云恒河沙者佛說是沙諸佛如來釋梵
 <lb ed="X" n="0921c14"/>諸天步履而過沙亦不喜牛羊蟲蟻踐踏而行沙
 <lb ed="X" n="0921c15"/>亦不怒珍寶馨香沙亦不貪糞溺臭穢沙亦不惡
 <lb ed="X" n="0921c16"/>亦是此義。</p></div2>
@@ -9257,7 +9262,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0923b16"/>報也。</p></div2>
 <lb ed="X" n="0923b17"/><div2 type="orig"><p id="pX17p0923b1701">佛告大慧為無餘涅槃故說誘進行菩薩行者故此
 <lb ed="X" n="0923b18"/>及餘世界修菩薩行者樂聲聞乘涅槃為令離聲聞
-<lb ed="X" n="0923b19"/>乘進<anchor id="fnX17p0923b01"/>而大乘化佛授聲聞記非是法佛大慧因是故
+<lb ed="X" n="0923b19"/>乘進<note n="0923001" resp="Xuzangjing" place="foot text" type="orig">而經作向</note>而大乘化佛授聲聞記非是法佛大慧因是故
 <lb ed="X" n="0923b20"/>記諸聲聞與菩薩不異大慧不異者聲聞緣覺諸佛
 <lb ed="X" n="0923b21"/>如來煩惱障斷解脫一味非智障斷大慧智障者見
 <lb ed="X" n="0923b22"/>法無我殊勝清淨煩惱障者先習見人無我斷七識
@@ -9418,12 +9423,12 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0925c02"/>味著故不應食肉彼食肉者諸天所棄故不應食肉
 <lb ed="X" n="0925c03"/>令口氣臭故不應食肉多惡夢故不應食肉空閑林
 <lb ed="X" n="0925c04"/>中虎狼聞香故不應食肉令飲食無節量故不應食
-<lb ed="X" n="0925c05"/>肉令修行者不生厭離故不應食肉我<anchor id="fnX17p0925c01"/>當說言凡所
+<lb ed="X" n="0925c05"/>肉令修行者不生厭離故不應食肉我<note n="0925001" resp="Xuzangjing" place="foot text" type="orig">當經作常</note>當說言凡所
 <lb ed="X" n="0925c06"/>飲食作食子肉想作服藥想故不應食肉聽食肉者
 <lb ed="X" n="0925c07"/>無有是處。</p></div2>
 <lb ed="X" n="0925c08"/><div2 type="commentary"><p id="pX17p0925c0801" rend="margin-left:1em">佛為略陳過患一者互為六親眷屬是有同體之
 <lb ed="X" n="0925c09"/>親不應食肉故菩薩戒經云六道眾生皆是我父
-<lb ed="X" n="0925c10"/>母而殺而食者即殺我父母亦殺我<anchor id="fnX17p0925c02"/>巳身奈何食
+<lb ed="X" n="0925c10"/>母而殺而食者即殺我父母亦殺我<note n="0925002" resp="Xuzangjing" place="foot text" type="orig">巳疑故</note>巳身奈何食
 <lb ed="X" n="0925c11"/>父母肉而併食<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>肉者謂之人乎二者人畜等肉
 <lb ed="X" n="0925c12"/>屠者雜賣有人心者寧不戚然而甘食之乎三者
 <lb ed="X" n="0925c13"/>一切諸肉皆是精血腥臊不淨氣分所成求清淨
@@ -9453,7 +9458,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0926a12"/>親想作食子想如有病觀作服藥想何況食肉聽
 <lb ed="X" n="0926a13"/>食肉者無有是處。</p></div2>
 <lb ed="X" n="0926a14"/><div2 type="orig"><p id="pX17p0926a1401">復次大慧過去有王名師子蘇陀娑食種種肉遂至
-<lb ed="X" n="0926a15"/>食人臣民不堪即便謀反斷其俸祿以食<anchor id="fnX17p0926a01"/>血者有如
+<lb ed="X" n="0926a15"/>食人臣民不堪即便謀反斷其俸祿以食<note n="0926001" resp="Xuzangjing" place="foot text" type="orig">血經作肉</note>血者有如
 <lb ed="X" n="0926a16"/>是過故不應食肉復次大慧凡諸殺者為財利故殺
 <lb ed="X" n="0926a17"/>生屠販彼諸愚癡食肉眾生以錢為網而捕諸肉彼
 <lb ed="X" n="0926a18"/>殺生者若以財物若以&CB00424;綱取彼空行水陸眾生種
@@ -9466,8 +9471,8 @@ basicx 程式 轉自 簡單標版
 <pb ed="X" id="X17.0331.0926b" n="0926b"/>
 <lb ed="X" n="0926b01"/><div2 type="commentary"><p id="pX17p0926b0101" rend="margin-left:1em">上言食肉有種種過此言食肉之現報也故引師
 <lb ed="X" n="0926b02"/>子蘇陀娑王&CB00361;著肉味乃至食人遂亡其國以證
-<lb ed="X" n="0926b03"/>唐云釋提桓因處天王位以<anchor id="fnX17p0926b02"/>餘過去食肉餘習變
-<lb ed="X" n="0926b04"/>身為<anchor id="fnX17p0926b03"/>膺而逐於鴿我時作王名曰尸毗愍念其鴿
+<lb ed="X" n="0926b03"/>唐云釋提桓因處天王位以<note n="0926002" resp="Xuzangjing" place="foot text" type="orig">餘經作於</note>餘過去食肉餘習變
+<lb ed="X" n="0926b04"/>身為<note n="0926003" resp="Xuzangjing" place="foot text" type="orig">膺經作鷹</note>膺而逐於鴿我時作王名曰尸毗愍念其鴿
 <lb ed="X" n="0926b05"/>自割身肉以代其命大慧帝釋餘習尚惱眾生況
 <lb ed="X" n="0926b06"/>餘無&CB00518;常食肉者當知食肉自惱惱他是故菩薩
 <lb ed="X" n="0926b07"/>不應食肉大慧昔有一王乘馬游獵馬驚奔逸入
@@ -9476,7 +9481,7 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0926b10"/>王領七億家食肉餘習非肉不食初食禽獸後乃
 <lb ed="X" n="0926b11"/>食人所生男女悉是羅剎轉此身<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>復生師子豺
 <lb ed="X" n="0926b12"/>狼虎豹鵰鷲等中欲求人身終不可得況出生死
-<lb ed="X" n="0926b13"/>入涅槃<anchor id="fnX17p0926b04"/>善道耶彼食肉者有如是過凡愚不知乃
+<lb ed="X" n="0926b13"/>入涅槃<note n="0926004" resp="Xuzangjing" place="foot text" type="orig">善經作之</note>善道耶彼食肉者有如是過凡愚不知乃
 <lb ed="X" n="0926b14"/>謂食肉無與殺事故可無罪不知凡殺生者多為
 <lb ed="X" n="0926b15"/>人食若人不食亦無殺事是故食肉與殺同罪彼
 <lb ed="X" n="0926b16"/>諸殺者雖不自食為財利故殺生販賣是因財而
@@ -9499,14 +9504,14 @@ basicx 程式 轉自 簡單標版
 <lb ed="X" n="0926c08"/>切悉斷。</p></div2>
 <lb ed="X" n="0926c09"/><div2 type="orig"><p id="pX17p0926c0901">爾時世尊欲重宣此義而說偈言。</p>
 <lb ed="X" n="0926c10"/><p id="pX17p0926c1001">曾悉為親屬鄙穢不淨雜不淨所生長聞氣悉恐怖
-<lb ed="X" n="0926c11"/>一切肉與&CB00024;及諸韭蒜等種種放逸酒修行<anchor id="fnX17p0926c05"/>當遠離
+<lb ed="X" n="0926c11"/>一切肉與&CB00024;及諸韭蒜等種種放逸酒修行<note n="0926005" resp="Xuzangjing" place="foot text" type="orig">當經作常</note>當遠離
 <lb ed="X" n="0926c12"/>亦常離麻油及諸穿孔&CB00646;以彼諸細蟲於中極恐怖
 <lb ed="X" n="0926c13"/>飲食生放逸放逸生諸覺從覺生貪欲是故不應食
 <lb ed="X" n="0926c14"/>由食生貪欲貪令心迷醉迷醉長愛欲生死不解脫
 <lb ed="X" n="0926c15"/>為利殺眾生以財網諸肉二俱是惡業死墮&CB00054;呼獄
 <lb ed="X" n="0926c16"/>若無教想求則無三淨肉彼非無因有是故不應食
 <lb ed="X" n="0926c17"/>彼諸修行者由是悉遠離十方佛世尊一一咸呵責
-<lb ed="X" n="0926c18"/>展轉更相食死墮虎狼類臭穢<anchor id="fnX17p0926c06"/>不厭惡所生常愚癡
+<lb ed="X" n="0926c18"/>展轉更相食死墮虎狼類臭穢<note n="0926006" resp="Xuzangjing" place="foot text" type="orig">不經作可</note>不厭惡所生常愚癡
 <lb ed="X" n="0926c19"/>多生旃陀羅獵師譚婆種或生陀夷尼及諸食肉性
 <lb ed="X" n="0926c20"/>羅剎&CB00337;貍等&CB00642;於是中生。</p></div2>
 <lb ed="X" n="0926c21"/><div2 type="commentary"><p id="pX17p0926c2101" rend="margin-left:1em">前<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>略說食肉過患頌復詳明言不但曾為眷屬
