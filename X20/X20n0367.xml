@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X20n0367.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2006/10/27 08:21:16 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/06/11 08:28:25 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/10/27 08:21:16 $</date>
+		<date>$Date: 2007/06/11 08:28:25 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 20, No. 367 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X20n0367.xml,v $
+Revision 1.6  2007/06/11 08:28:25  amtbgrace
+modified: 校注插入 xml
+
 Revision 1.5  2006/10/27 08:21:16  amtbgrace
 modified: 跨冊的XML裏經號拿掉 abc
 
@@ -74,7 +79,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0884a01"/>
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0884a02"/><head type="no">No. 367</head>
-<lb ed="X" n="0884a03"/><juan fun="open" n="1a"><mulu type="卷" n="1a" label="第一本"/><jhead>大乘本生<anchor id="fnX20p0884a01"/>心觀經淺註卷第一本</jhead></juan>
+<lb ed="X" n="0884a03"/><juan fun="open" n="1a"><mulu type="卷" n="1a" label="第一本"/><jhead>大乘本生<note n="0884001" resp="Xuzangjing" place="foot text" type="orig">（心&M062446;下&M062443;地&M062446;字欠&M062442;&M062473;&M062483;。&CB18834;）</note>心觀經淺註卷第一本</jhead></juan>
 <lb ed="X" n="0884a04"/>
 <lb ed="X" n="0884a05"/><byline type="author">清神京栴檀寺沙門　來舟　淺註</byline>
 <lb ed="X" n="0884a06"/><div1 type="other"><mulu type="其他" level="1" label="九總釋名題"/><div2 type="orig"><p id="pX20p0884a0601">△九總釋名題</p></div2>
@@ -370,7 +375,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0887c21"/>者都名也。京謂大。師謂眾。言天子居處。必以眾大
 <lb ed="X" n="0887c22"/>稱之也。義學下。皆譯經之人。義者宜也。謂博覽佛
 <lb ed="X" n="0887c23"/>經。悟通性理。文旨合宜。兼通儒典。及諸子書。謂之
-<lb ed="X" n="0887c24"/>義學。大德者稱<anchor id="fnX20p0887c01"/>謂辭。有道德學聞者為高僧。故以
+<lb ed="X" n="0887c24"/>義學。大德者稱<note n="0887001" resp="Xuzangjing" place="foot text" type="orig">謂疑讚</note>謂辭。有道德學聞者為高僧。故以
 <pb ed="X" id="X20.0367.0888a" n="0888a"/>
 <lb ed="X" n="0888a01"/>大德稱之。罽賓者。西域國名。乃譯主之生處也。三
 <lb ed="X" n="0888a02"/>藏即經律論三法。乃譯主之德稱也。謂學通三藏。
@@ -1888,7 +1893,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0908a14"/>王。又名法王。瑜伽論問。為能損害。為能饒益。名法
 <lb ed="X" n="0908a15"/>王。答。饒益眾生故。若諸眾生。執到王所。令憶念故。
 <lb ed="X" n="0908a16"/>遂為現彼相似之身。告言。汝等自作。當受其果。由
-<lb ed="X" n="0908a17"/>感惡者。新業更不積集。故業<note place="inline"><anchor id="fnX20p0908a01"/>盡<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。脫苦有期</note>由饒益眾生。
+<lb ed="X" n="0908a17"/>感惡者。新業更不積集。故業<note place="inline"><note n="0908001" resp="Xuzangjing" place="foot text" type="orig">盡巳等六字當作&CB00308;書</note><note n="0908001" resp="CBETA" type="mod">盡<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>等六字當作&CB00308;書</note>盡<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。脫苦有期</note>由饒益眾生。
 <lb ed="X" n="0908a18"/>故名法王。此贍部洲下。過五百踰繕那。有琰魔王
 <lb ed="X" n="0908a19"/>國。縱廣亦爾。羅剎即是獄卒。其形可畏不一。故云
 <lb ed="X" n="0908a20"/>種種。諸惡王。即秦廣楚江等。或典十八獄者亦稱
@@ -3056,7 +3061,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0923c07"/>人。樂聞最勝菩提道。</p></div3>
 <lb ed="X" n="0923c08"/><div3 type="commentary"><p id="pX20p0923c0801" rend="margin-left:1em">此長行無。頌文補出。人非人。即七部鬼神也。所感
 <lb ed="X" n="0923c09"/>者對能□說。以龍王等。見佛威儀福智。謂福田難
-<lb ed="X" n="0923c10"/>遇。將欲<anchor id="fnX20p0923c01"/>□供。慨發於心。是為誠心感格。所以諸珍
+<lb ed="X" n="0923c10"/>遇。將欲<note n="0923001" resp="Xuzangjing" place="foot text" type="orig">欲下疑興</note>□供。慨發於心。是為誠心感格。所以諸珍
 <lb ed="X" n="0923c11"/>妙寶應心而現。以誠心為能感。珍寶為所感也。樂
 <lb ed="X" n="0923c12"/>聞下一句。言七部鬼神。雖因中戒緩為墮落。&CB00230;急
 <lb ed="X" n="0923c13"/>務教乘。熏成菩提種子。今見佛入定。擬度必欲出
@@ -4156,7 +4161,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0938b12"/>惡不能制止者。另說一等無道之王。王既無道。民
 <lb ed="X" n="0938b13"/>亦無道。造諸不善。王又不能制止。是無綱無紀。縱
 <lb ed="X" n="0938b14"/>民行惡。故天神不喜。皆悉遠離亦宜矣。若見修善
-<lb ed="X" n="0938b15"/>下。復指前文有道之王。於中缺文。當<anchor id="fnX20p0938b01"/>加若諸人民
+<lb ed="X" n="0938b15"/>下。復指前文有道之王。於中缺文。當<note n="0938001" resp="Xuzangjing" place="foot text" type="orig">加疑知</note>加若諸人民
 <lb ed="X" n="0938b16"/>見王修善。於文則順。與義則合。歡喜讚歎等者。是
 <lb ed="X" n="0938b17"/>萬民歡呼之喜聲。故云盡皆唱言。我之聖王。此乃
 <lb ed="X" n="0938b18"/>人喜。下則神歡。故龍天喜悅。澍甘露雨。所以五穀
@@ -4324,10 +4329,10 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0940c05"/>三事供佛。發願云。我於當來作佛。如今佛名無異。故今作佛。亦號釋迦文也。梵語尸棄。又云式棄。華言火
 <lb ed="X" n="0940c06"/>也</note>二阿僧祇者。謂如來次從尸棄佛。至燃燈佛。值
 <lb ed="X" n="0940c07"/>七萬六千佛。名二僧祇劫。<note place="inline">然燈佛者。大論云。佛初生時。身光如燈。後至成
-<lb ed="X" n="0940c08"/>佛。遂名然燈。彼時釋迦佛號曰儒童。以五莖蓮華<anchor id="fnX20p0940c01"/>〔現〕佛。及禮佛足。見地汙濕。即解鹿皮衣覆之掩泥不足。
+<lb ed="X" n="0940c08"/>佛。遂名然燈。彼時釋迦佛號曰儒童。以五莖蓮華<note n="0940001" resp="Xuzangjing" place="foot text" type="orig">現疑供</note>〔現〕佛。及禮佛足。見地汙濕。即解鹿皮衣覆之掩泥不足。
 <lb ed="X" n="0940c09"/>乃解髮覆地。令佛蹈而過之。佛因記曰。汝自此後。九十一劫。劫號為賢。汝當作佛。號釋迦牟尼</note>三僧
 <lb ed="X" n="0940c10"/>祇者。謂如來次從然燈佛。至毗婆尸佛。值七萬七
-<lb ed="X" n="0940c11"/>千佛。名第三阿僧祇。<note place="inline">梵語毗婆尸。亦名維衛。此云勝<anchor id="fnX20p0940c02"/>〔覲〕</note>所修萬行
+<lb ed="X" n="0940c11"/>千佛。名第三阿僧祇。<note place="inline">梵語毗婆尸。亦名維衛。此云勝<note n="0940002" resp="Xuzangjing" place="foot text" type="orig">覲疑觀</note>〔覲〕</note>所修萬行
 <lb ed="X" n="0940c12"/>下三句。明因滿也。<note place="inline">萬行言多。非止一萬。從六度增廣。至於無數。約總數說。且言萬
 <lb ed="X" n="0940c13"/>行。凡一切難捨能捨。難忍能忍等。總為萬行</note>利益安樂下。明因中利他
 <lb ed="X" n="0940c14"/>行法。以悲力拔苦則安。以慈力與樂則樂。十地滿
@@ -4993,7 +4998,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0949b24"/>離繫縛故。法寶正是三乘寶車。運載眾生。出火宅故。
 <pb ed="X" id="X20.0367.0949c" n="0949c"/>
 <lb ed="X" n="0949c01"/>法寶猶如一切明燈。能照三塗黑暗處故。法寶猶如
-<lb ed="X" n="0949c02"/>弓箭矛<anchor id="fnX20p0949c01"/>稍。能鎮國界。摧怨敵故。法寶猶如險路導師。
+<lb ed="X" n="0949c02"/>弓箭矛<note n="0949001" resp="Xuzangjing" place="foot text" type="orig">稍疑&CB00266;</note>稍。能鎮國界。摧怨敵故。法寶猶如險路導師。
 <lb ed="X" n="0949c03"/>善誘眾生。達寶所故。</p></div3>
 <lb ed="X" n="0949c04"/><div3 type="commentary"><p id="pX20p0949c0401" rend="margin-left:1em">共十四種譬喻。各就一義。首則生死比牢獄者。言
 <lb ed="X" n="0949c05"/>其籠繫不能自出也。若依法修行。能破生死。不被
@@ -5321,7 +5326,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0954a02"/>此行檀度。只是自破慳&CB00385;。自離二執。不能利他。不
 <lb ed="X" n="0954a03"/>名報恩。然此所重者。獨許說法度生。為真實報恩
 <lb ed="X" n="0954a04"/>也。</p><p id="pX20p0954a0402" place="inline" rend="margin-left:1em">△三明真實揀前二。</p></div3>
-<lb ed="X" n="0954a05"/><div3 type="orig"><p id="pX20p0954a0501">若善男子善女人。發起無上大菩提心。<anchor id="fnX20p0954a01"/>位無所得。勸
+<lb ed="X" n="0954a05"/><div3 type="orig"><p id="pX20p0954a0501">若善男子善女人。發起無上大菩提心。<note n="0954001" resp="Xuzangjing" place="foot text" type="orig">位經作住</note>位無所得。勸
 <lb ed="X" n="0954a06"/>諸眾生。同發此心。以真實法。一四句偈。施一眾生。使
 <lb ed="X" n="0954a07"/>向無上正等菩提。是名真實波羅蜜多。前二布施。未
 <lb ed="X" n="0954a08"/>名報恩。</p></div3>
@@ -5422,7 +5427,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0955b03"/>薩之行。名行不退。三念不退。謂別教菩薩初地<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0955b04"/>去。破無明惑。則永不退失中道正念。名念不退。今
 <lb ed="X" n="0955b05"/>經但云住不退位。或亦淺深不同。大&CB01356;言之。此上
-<lb ed="X" n="0955b06"/>二科。皆經家敘置之文。<anchor id="fnX20p0955b01"/>□□通為五百大科<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。</p>
+<lb ed="X" n="0955b06"/>二科。皆經家敘置之文。<note n="0955001" resp="Xuzangjing" place="foot text" type="orig">文下&CB08798;字疑以上</note>□□通為五百大科<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。</p>
 <lb ed="X" n="0955b07"/><p id="pX20p0955b0701" rend="margin-left:1em">△二結勸受持二。初正勸廣令流布。</p></div3>
 <lb ed="X" n="0955b08"/><div3 type="orig"><p id="pX20p0955b0801">爾時佛告五百長者。未來世中。一切眾生。若有得聞
 <lb ed="X" n="0955b09"/>此心地觀報四恩品。受持讀習。解說書寫。廣令流布。</p></div3>
@@ -6289,7 +6294,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0966c20"/>有之。二謂王以善法化世。人人皆善。處處皆善。唯
 <lb ed="X" n="0966c21"/>善為寶也。人馬彊力者。雖聖王化世。亦防不測之
 <lb ed="X" n="0966c22"/>敵。故養人馬。以福力所加。天龍所助。故能兵彊力
-<lb ed="X" n="0966c23"/>壯。縱有怨敵。聞之膽喪不敢舉心。自然邊<anchor id="fnX20p0966c01"/>彊寧靜。
+<lb ed="X" n="0966c23"/>壯。縱有怨敵。聞之膽喪不敢舉心。自然邊<note n="0966001" resp="Xuzangjing" place="foot text" type="orig">彊疑疆</note>彊寧靜。
 <lb ed="X" n="0966c24"/>故無怨敵。</p><p id="pX20p0966c2405" place="inline" rend="margin-left:1em">△九頌&CB00444;國咸歸。</p></div3>
 <pb ed="X" id="X20.0367.0967a" n="0967a"/>
 <lb ed="X" n="0967a01"/><div3 type="orig"><p id="pX20p0967a0101">境外諸王自賓伏。</p></div3>
@@ -6951,7 +6956,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0975c07"/>人服藥必得長生也。假若無信闡提。聞之不信反
 <lb ed="X" n="0975c08"/>謗。必墮惡道也。良以法遇信根者。如清涼池。四面
 <lb ed="X" n="0975c09"/>皆可入。法遇一闡提反成火坑。不但不得清涼。觸
-<lb ed="X" n="0975c10"/>之則燒。入之則死。嗚呼。可不慎歟<note place="inline">梵語一闡提此<anchor id="fnX20p0975c01"/>〔語〕信不具</note>。</p><p id="pX20p0975c1024" place="inline" rend="margin-left:1em">△
+<lb ed="X" n="0975c10"/>之則燒。入之則死。嗚呼。可不慎歟<note place="inline">梵語一闡提此<note n="0975001" resp="Xuzangjing" place="foot text" type="orig">語疑言</note>〔語〕信不具</note>。</p><p id="pX20p0975c1024" place="inline" rend="margin-left:1em">△
 <lb ed="X" n="0975c11"/>二明眾生承恩獲益。</p></div3>
 <lb ed="X" n="0975c12"/><div3 type="orig"><p id="pX20p0975c1201">菩薩聲聞常在世。無數方便度眾生。若有眾生信樂
 <lb ed="X" n="0975c13"/>心。各入三乘安樂位。如來不出於世間。一切眾生入
