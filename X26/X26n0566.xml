@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X26n0566.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2006/08/01 02:26:56 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2007/06/26 01:35:10 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/08/01 02:26:56 $</date>
+		<date>$Date: 2007/06/26 01:35:10 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 26, No. 566 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X26n0566.xml,v $
+Revision 1.2  2007/06/26 01:35:10  amtbgrace
+modified: 卍續藏校注插入xml 作業
+
 Revision 1.1  2006/08/01 02:26:56  ray
 basicx 程式 轉自 簡單標記版
 
@@ -77,7 +82,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0916b15"/>
 <lb ed="X" n="0916b16"/>
 <lb ed="X" n="0916b17"/><head type="no">No. 566</head>
-<lb ed="X" n="0916b18"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX26p0916b01"/>般若心經彙纂</jhead></juan>
+<lb ed="X" n="0916b18"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0916001" resp="Xuzangjing" place="foot text" type="orig">（便宜上、表題&M062482;附&M062425;。&CB18834;）</note>般若心經彙纂</jhead></juan>
 <lb ed="X" n="0916b19"/>
 <lb ed="X" n="0916b20"/><div1 type="other"><mulu type="其他" level="1" label="序"/><p id="pX26p0916b2001">心經辭寡而道大。言微而旨深。實眾生長夜之明燈。
 <lb ed="X" n="0916b21"/>諸佛之慧命也。參之而得其旨。則宰制一身。統馭萬
@@ -213,7 +218,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0918b01"/>見。惟義句詮超出諸本。是編採各帙之精言。全以
 <lb ed="X" n="0918b02"/>發明理蘊為主。而提綱揭旨。逐節詳疏。尤使觀者
 <lb ed="X" n="0918b03"/>易於得力。</p>
-<lb ed="X" n="0918b04"/><p id="pX26p0918b0401" rend="margin-left:1em;text-indent:-1em">此編所集各註。俱各冠以書名姓氏。其【解01】低頭之總註。
+<lb ed="X" n="0918b04"/><p id="pX26p0918b0401" rend="margin-left:1em;text-indent:-1em">此編所集各註。俱各冠以書名姓氏。其<note n="0918j01" resp="Xuzangjing" place="foot text" type="orig jie">低頭注中文首附△印者</note>低頭之總註。
 <lb ed="X" n="0918b05"/>所以不列姓氏者。乃義句詮所集。散見於各說之
 <lb ed="X" n="0918b06"/>中。或摘數行。或摘數句。以鄙意錯綜顛倒而貫串
 <lb ed="X" n="0918b07"/>之。說不一說。書非一書。故難冠以書名姓氏。非掠
@@ -266,7 +271,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0919a04"/>即不可以言般若。直到心思路絕。文字性離。方與是
 <lb ed="X" n="0919a05"/>無智無得諸法空相相應。此全經之大略也。欲求自
 <lb ed="X" n="0919a06"/>在。宜細參之。</p></div1>
-<lb ed="X" n="0919a07"/><div1 type="other"><mulu type="其他" level="1" label="註解"/><div2 type="orig"><p id="pX26p0919a0701">【解01】般若波羅蜜多心經</p></div2>
+<lb ed="X" n="0919a07"/><div1 type="other"><mulu type="其他" level="1" label="註解"/><div2 type="orig"><p id="pX26p0919a0701"><note n="0919j01" resp="Xuzangjing" place="foot text" type="orig jie">此經以單法為名實相為體觀照為宗度苦海為用大乘為教相法者即般若波羅蜜多也實相者即諸法空相也觀照即照見五蘊皆空也度若即度一切苦厄也大乘即菩薩行深般若也○按義句詮及紫柏論謂心是喻經題法喻兼取存參．實相般若即生佛性體觀照般若即行人工夫文字般若即佛祖言教．眾生迷慧性溺情欲即是入苦海．不得般若不見真諦不見真諦不名般若○以般若智慧得到彼岸不外自識此心題兼華梵兩言顯標宗旨．諸說各有是處然宗&CB00425;柄為是不空云菩薩有般若波羅蜜多心名普遍智藏圭山云般若之心是萬法之體．疏云題有三釋初教義分二謂般若心是所詮之義經是能詮之教二就所詮義中法喻分二謂般若是所顯之法心是能顯之喻即般若內統攝要妙之義三就前法中體用分二謂般若是體波羅蜜多是用二轉依果謂轉煩惱為菩提轉生死為涅槃</note><note n="0919j01" resp="CBETA" type="mod jie">此經以單法為名實相為體觀照為宗度苦海為用大乘為教相法者即般若波羅蜜多也實相者即諸法空相也觀照即照見五蘊皆空也度<app><lem wit="【CBETA】" resp="CBETA.maha">苦</lem><rdg wit="【卍續】">若</rdg></app>即度一切苦厄也大乘即菩薩行深般若也○按義句詮及紫柏論謂心是喻經題法喻兼取存參．實相般若即生佛性體觀照般若即行人工夫文字般若即佛祖言教．眾生迷慧性溺情欲即是入苦海．不得般若不見真諦不見真諦不名般若○以般若智慧得到彼岸不外自識此心題兼華梵兩言顯標宗旨．諸說各有是處然宗&CB00425;柄為是不空云菩薩有般若波羅蜜多心名普遍智藏圭山云般若之心是萬法之體．疏云題有三釋初教義分二謂般若心是所詮之義經是能詮之教二就所詮義中法喻分二謂般若是所顯之法心是能顯之喻即般若內統攝要妙之義三就前法中體用分二謂般若是體波羅蜜多是用二轉依果謂轉煩惱為菩提轉生死為涅槃</note>般若波羅蜜多心經</p></div2>
 <lb ed="X" n="0919a08"/><div2 type="commentary"><p id="pX26p0919a0801" rend="margin-left:1em">梵語般若。華言智慧。即人之本心。超情離見。湛寂
 <lb ed="X" n="0919a09"/>圓明之稱。</p><p id="pX26p0919a0905" place="inline" rend="margin-left:1em">尋珠云。不翻智慧者。即五不翻中尊
 <lb ed="X" n="0919a10"/>重不翻。</p><p id="pX26p0919a1004" place="inline" rend="margin-left:1em">大論云。般若不可稱。甚深極重。智慧輕
@@ -338,7 +343,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0920a13"/>無智亦無得。攝盡出世間三乘賢聖一切修斷法
 <lb ed="X" n="0920a14"/>門無遺。以無所得故至三藐三菩提是證二轉依
 <lb ed="X" n="0920a15"/>果。究竟成佛。辭廉義富。旨約理該。</p></div2>
-<lb ed="X" n="0920a16"/><div2 type="orig"><p id="pX26p0920a1601">【解01】觀自在菩薩。</p></div2>
+<lb ed="X" n="0920a16"/><div2 type="orig"><p id="pX26p0920a1601"><note n="0920j01" resp="Xuzangjing" place="foot text" type="orig jie">第一段原行標綱．觀自在四句為一經之綱首句是示能觀之人次句是標所修之法三句是標所斷之惑四句是標所證之果</note>觀自在菩薩。</p></div2>
 <lb ed="X" n="0920a17"/><div2 type="commentary"><p id="pX26p0920a1701" rend="margin-left:1em">是示能觀之人。</p><p id="pX26p0920a1707" place="inline" rend="margin-left:1em">○觀。即下照見。自在。即心無罣礙。</p>
 <lb ed="X" n="0920a18"/><p id="pX26p0920a1801" rend="margin-left:1em">疏云。謂於理事無閡之境。觀達自在。故立此名。
 <lb ed="X" n="0920a19"/>又觀機往救。自在無閡。故以為名。前釋就智。後釋
@@ -354,7 +359,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0920b04"/>他成就眾生也。</p><p id="pX26p0920b0407" place="inline" rend="margin-left:1em">義詮云。菩薩二字。華言覺有情。
 <lb ed="X" n="0920b05"/>謂能以此自在觀智。自覺。而并覺一切有情眾生
 <lb ed="X" n="0920b06"/>也。</p></div2>
-<lb ed="X" n="0920b07"/><div2 type="orig"><p id="pX26p0920b0701">【解02】<note place="interlinear">初標觀行</note>行深般若波羅蜜多時。</p></div2>
+<lb ed="X" n="0920b07"/><div2 type="orig"><p id="pX26p0920b0701"><note n="0920j02" resp="Xuzangjing" place="foot text" type="orig jie">尋珠云般若言行者日用行持非數寶算沙可及言深者無上甚深非淺夫劣智可窮</note><note place="interlinear">初標觀行</note>行深般若波羅蜜多時。</p></div2>
 <lb ed="X" n="0920b08"/><div2 type="commentary"><p id="pX26p0920b0801" rend="margin-left:1em">是標所修之法。</p><p id="pX26p0920b0807" place="inline" rend="margin-left:1em">○行者。功行也。亦修行也。深者。窮
 <lb ed="X" n="0920b09"/>微極妙。徹骨徹髓處也。</p><p id="pX26p0920b0910" place="inline" rend="margin-left:1em">疏云。般若妙行有二種。
 <lb ed="X" n="0920b10"/>一淺即人空般若。二深即法空般若。今簡淺異深。
@@ -366,7 +371,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0920b16"/>字。即聞思修之修慧。般若。兼實相觀照。波羅蜜多。
 <lb ed="X" n="0920b17"/>即是到彼岸。謂觀照般若。契合實相。乃全體究竟
 <lb ed="X" n="0920b18"/>之義所謂入三摩地也。當斯之時。方是甚深。</p></div2>
-<lb ed="X" n="0920b19"/><div2 type="orig"><p id="pX26p0920b1901">【解03】<note place="interlinear">二標斷惑</note>照見五蘊皆空。</p></div2>
+<lb ed="X" n="0920b19"/><div2 type="orig"><p id="pX26p0920b1901"><note n="0920j03" resp="Xuzangjing" place="foot text" type="orig jie">照即般若深智約體言見即無相慧眼約用言皆空者一切法無我也五蘊攝盡根塵識等染法為萬苦之根○舊云五陰陰者&CB00582;覆義新云五蘊蘊者積聚義</note><note place="interlinear">二標斷惑</note>照見五蘊皆空。</p></div2>
 <lb ed="X" n="0920b20"/><div2 type="commentary"><p id="pX26p0920b2001" rend="margin-left:1em">是觀中智境。</p><p id="pX26p0920b2006" place="inline" rend="margin-left:1em">○照者。般若之靈光。體也。見者。無相
 <lb ed="X" n="0920b21"/>之慧眼。用也。即上文所云觀也。五蘊者。即下文所
 <lb ed="X" n="0920b22"/>云色受想行識也。照見乃能觀之智。五蘊是所觀
@@ -384,7 +389,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0920c09"/>造器。器器皆金也。二者空無義。顯五蘊畢竟非有
 <lb ed="X" n="0920c10"/>故。如器雖金造。金本非器也。然此處只渾標。重真
 <lb ed="X" n="0920c11"/>空邊至後空中無色。空無之義始顯。</p></div2>
-<lb ed="X" n="0920c12"/><div2 type="orig"><p id="pX26p0920c1201">【解04】<note place="interlinear">三標證真</note>度一切苦厄。</p></div2>
+<lb ed="X" n="0920c12"/><div2 type="orig"><p id="pX26p0920c1201"><note n="0920j04" resp="Xuzangjing" place="foot text" type="orig jie">一切苦厄皆自執五蘊生菩薩憫眾生迷於其中故說此般若令其修習以度○度苦即是自在</note><note place="interlinear">三標證真</note>度一切苦厄。</p></div2>
 <lb ed="X" n="0920c13"/><div2 type="commentary"><p id="pX26p0920c1301" rend="margin-left:1em">是觀成利益。</p><p id="pX26p0920c1306" place="inline" rend="margin-left:1em">○度。謂度脫也。度字根空字來。逼迫
 <lb ed="X" n="0920c14"/>為苦。被困為厄。</p><p id="pX26p0920c1407" place="inline" rend="margin-left:1em">疏云。謂證見真空。苦惱斯盡。常
 <lb ed="X" n="0920c15"/>得遠離分段變易二種生死。證菩提涅槃。究竟樂
@@ -397,7 +402,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0921a03"/>頭沒。絲無斷日。菩薩既斷蘊絲。故得空色兩融。智
 <lb ed="X" n="0921a04"/>悲並運。若事若理。圓融洞徹。一無隔閡。故稱自在。</p>
 <lb ed="X" n="0921a05"/><p id="pX26p0921a0501" rend="margin-left:1em">義詮云。度苦句。顯觀成破障。即到彼岸義。</p>
-<lb ed="X" n="0921a06"/><p id="pX26p0921a0601" rend="margin-left:1em">【解01】△此四句。為一經之綱。佛要與舍利子說深般若。
+<lb ed="X" n="0921a06"/><p id="pX26p0921a0601" rend="margin-left:1em"><note n="0921j01" resp="Xuzangjing" place="foot text" type="orig jie">質言云觀自在三字是依修證所顯之名○反觀自在之性依修而名觀聽圓明&CB00642;十方界自在無礙依證而名又自者顯物物頭頭無非自巳在者塵塵剎剎靡不克周照見句是明行深等義</note><note n="0921j01" resp="CBETA" type="mod jie">質言云觀自在三字是依修證所顯之名○反觀自在之性依修而名觀聽圓明&CB00642;十方界自在無礙依證而名又自者顯物物頭頭無非自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>在者塵塵剎剎靡不克周照見句是明行深等義</note>△此四句。為一經之綱。佛要與舍利子說深般若。
 <lb ed="X" n="0921a07"/>教之發大乘心。悲智俱修。而證無上菩提之果。特
 <lb ed="X" n="0921a08"/>舉箇能行之菩薩為證據。欲其照樣而行也。這菩
 <lb ed="X" n="0921a09"/>薩所行之般若。不是二乘所證人空般若。乃徹骨
@@ -419,7 +424,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" id="X26.0566.0921b" n="0921b"/>
 <lb ed="X" n="0921b01"/>無諸法及大明等文。度苦句。生起無恐怖。離顛倒。
 <lb ed="X" n="0921b02"/>及能除二句文。一經大旨。總此二句括盡。</p></div2>
-<lb ed="X" n="0921b03"/><div2 type="orig"><p id="pX26p0921b0301">【解02】舍利子。</p></div2>
+<lb ed="X" n="0921b03"/><div2 type="orig"><p id="pX26p0921b0301"><note n="0921j02" resp="Xuzangjing" place="foot text" type="orig jie">第二段詳示蘊空此段色不異空六句是明空理正說觀照般若</note>舍利子。</p></div2>
 <lb ed="X" n="0921b04"/><div2 type="commentary"><p id="pX26p0921b0401" rend="margin-left:1em">舊說云。舍利弗母。聰慧&CB00002;脫。其眼如鶖鳥。轉動明
 <lb ed="X" n="0921b05"/>徹。故母因鳥立名。子由母彰字。舍利是鳥名。此翻
 <lb ed="X" n="0921b06"/>為鶖鷺。梵語弗。此云子。是彼之子。連母為號也。</p>
@@ -427,7 +432,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0921b08"/>是菩薩大悲行智。智遂深廣。尊者雖智。猶缺悲心。
 <lb ed="X" n="0921b09"/>智因淺少。今欲發起二乘人入菩薩深智。佛故特
 <lb ed="X" n="0921b10"/>呼其名而告之。</p></div2>
-<lb ed="X" n="0921b11"/><div2 type="orig"><p id="pX26p0921b1101">【解03】色不異空。</p></div2>
+<lb ed="X" n="0921b11"/><div2 type="orig"><p id="pX26p0921b1101"><note n="0921j03" resp="Xuzangjing" place="foot text" type="orig jie">自此直至無智無得是廣釋五蘊皆空之境而觀照自在其中以非觀照不能達此境地也圭山觀門註云色空雖對說本意惟歸於空以色是虛名虛相無纖毫之體故修此觀者意在此故．疏云此段文有四釋一正釋小乘疑二兼釋菩薩疑三顯正義四釋觀行○寶性論曰空亂意菩薩有三種疑一疑空異色取色外空二疑空滅色取斷滅空三疑空是物以空為有舍利子聰慧第一故對之釋疑也</note>色不異空。</p></div2>
 <lb ed="X" n="0921b12"/><div2 type="commentary"><p id="pX26p0921b1201" rend="margin-left:1em">此句是破凡夫有見。正明空觀義。</p></div2>
 <lb ed="X" n="0921b13"/><div2 type="orig"><p id="pX26p0921b1301">空不異色。</p></div2>
 <lb ed="X" n="0921b14"/><div2 type="commentary"><p id="pX26p0921b1401" rend="margin-left:1em">此句是破二乘偏空。兼凡外斷空。正明假觀義。</p></div2>
@@ -453,7 +458,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0921c09"/>無像。一剎那頃。變滅歸空。故曰幻有未始不空。即
 <lb ed="X" n="0921c10"/>空明有。受想行識等。具云受不異空。空不異受。受
 <lb ed="X" n="0921c11"/>即是空。空即是受。准此例解。</p></div2>
-<lb ed="X" n="0921c12"/><div2 type="orig"><p id="pX26p0921c1201">【解04】受想行識。亦復如是。</p></div2>
+<lb ed="X" n="0921c12"/><div2 type="orig"><p id="pX26p0921c1201"><note n="0921j04" resp="Xuzangjing" place="foot text" type="orig jie">四蘊皆是一心識即心主受想行是心所發五蘊只是色心兩項○妄想六名曰見楞嚴經</note>受想行識。亦復如是。</p></div2>
 <lb ed="X" n="0921c13"/><div2 type="commentary"><p id="pX26p0921c1301" rend="margin-left:1em">先言色空。次言受想行識者。五蘊之法。生則先從
 <lb ed="X" n="0921c14"/>識起。滅則先從色除。經準滅門。明智起惑亡。色隱
 <lb ed="X" n="0921c15"/>空顯。故先以色明。受等例知。</p><p id="pX26p0921c1512" place="inline" rend="margin-left:1em">正解云。此四蘊本
@@ -476,7 +481,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0922a13"/>色異。菩薩去凡夫之我相。除二乘之偏空。知幻色
 <lb ed="X" n="0922a14"/>非色。真空不空。而明其不異。舍空別無色。而色即
 <lb ed="X" n="0922a15"/>空。舍色別無空。而空即色。而明其即是。</p>
-<lb ed="X" n="0922a16"/><p id="pX26p0922a1601" rend="margin-left:1em">【解01】△觀自在菩薩。照見五蘊皆空。這不是蘊自為蘊。
+<lb ed="X" n="0922a16"/><p id="pX26p0922a1601" rend="margin-left:1em"><note n="0922j01" resp="Xuzangjing" place="foot text" type="orig jie">正解云五蘊為萬法之總萬法皆五蘊之所變現五蘊既作如是觀則凡根身器界無明煩惱泊生死涅槃無不與真空實相平等無二亦同作如是觀也返源解脫非撥棄根塵之謂只是轉識成智即情復性．空觀破見思惑證一切智成般若德假觀破塵沙惑證道種智成解脫德中觀破無明惑證一切種智成法身德．文句云此第二節詳言五蘊皆空．正解云巳上三觀是示真見破妄見下三諦是示真相破妄相</note><note n="0922j01" resp="CBETA" type="mod jie">正解云五蘊為萬法之總萬法皆五蘊之所變現五蘊既作如是觀則凡根身器界無明煩惱泊生死涅槃無不與真空實相平等無二亦同作如是觀也返源解脫非撥棄根塵之謂只是轉識成智即情復性．空觀破見思惑證一切智成般若德假觀破塵沙惑證道種智成解脫德中觀破無明惑證一切種智成法身德．文句云此第二節詳言五蘊皆空．正解云<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上三觀是示真見破妄見下三諦是示真相破妄相</note>△觀自在菩薩。照見五蘊皆空。這不是蘊自為蘊。
 <lb ed="X" n="0922a17"/>空自為空。兩件而有異的。乃一體而即是的。色是
 <lb ed="X" n="0922a18"/>法相之首。五蘊之初。故欲釋空。先舉色。一則以色
 <lb ed="X" n="0922a19"/>是堅固妄想凝結而成。是眾生最易執著處。二則
@@ -516,7 +521,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0922c03"/>餘四蘊。亦如是不異的。亦如是即是的。所謂五蘊
 <lb ed="X" n="0922c04"/>皆空者如此。不離五蘊而空五蘊。非行深般若到
 <lb ed="X" n="0922c05"/>彼岸之大菩薩。能如是乎。</p></div2>
-<lb ed="X" n="0922c06"/><div2 type="orig"><p id="pX26p0922c0601">【解02】舍利子是諸法空相。</p></div2>
+<lb ed="X" n="0922c06"/><div2 type="orig"><p id="pX26p0922c0601"><note n="0922j02" resp="Xuzangjing" place="foot text" type="orig jie">第三段就空釋體．此段是顯出空相正明實相般若○疏云此顯法體</note>舍利子是諸法空相。</p></div2>
 <lb ed="X" n="0922c07"/><div2 type="commentary"><p id="pX26p0922c0701" rend="margin-left:1em">即是真如自相也。</p><p id="pX26p0922c0708" place="inline" rend="margin-left:1em">疏云。謂蘊等非一。故云諸法。
 <lb ed="X" n="0922c08"/>顯此空寂。故云空相。</p><p id="pX26p0922c0809" place="inline" rend="margin-left:1em">宗泐云。空相者。真空實相
 <lb ed="X" n="0922c09"/>也。菩薩復告舍利子云。既了諸法。當體即是真空
@@ -526,7 +531,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0922c13"/><p id="pX26p0922c1301" rend="margin-left:1em">廣承云。是諸法者。略則指上五蘊。廣則十界法
 <lb ed="X" n="0922c14"/>也。空相者。實相也。經云。無相不相。名為實相。又云
 <lb ed="X" n="0922c15"/>觀一切法空如實相。即此意。</p></div2>
-<lb ed="X" n="0922c16"/><div2 type="orig"><p id="pX26p0922c1601">【解03】不生不滅。不垢不淨。不增不減。</p></div2>
+<lb ed="X" n="0922c16"/><div2 type="orig"><p id="pX26p0922c1601"><note n="0922j03" resp="Xuzangjing" place="foot text" type="orig jie">此即是空相之相即般若實相即真如自性也</note>不生不滅。不垢不淨。不增不減。</p></div2>
 <lb ed="X" n="0922c17"/><div2 type="commentary"><p id="pX26p0922c1701" rend="margin-left:1em">句詮云。上文說蘊即是空。其實不獨五蘊。一切諸
 <lb ed="X" n="0922c18"/>法。都是即空的。諸法色相。人人能知。諸法空相。可
 <pb ed="X" id="X26.0566.0923a" n="0923a"/>
@@ -537,7 +542,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0923a05"/><p id="pX26p0923a0501" rend="margin-left:1em">在聲聞緣覺法上看來。似乎有垢可去。有淨可修。
 <lb ed="X" n="0923a06"/>不知此以諸法假相言也。若諸法空相。則雖在有
 <lb ed="X" n="0923a07"/>漏色中。而空體不染。雖在無漏色內。而空體如故。
-<lb ed="X" n="0923a08"/>是不垢不淨的。</p><p id="pX26p0923a0807" place="inline" rend="margin-left:1em">【解01】在菩薩法上看來。萬德俱圓似增。
+<lb ed="X" n="0923a08"/>是不垢不淨的。</p><p id="pX26p0923a0807" place="inline" rend="margin-left:1em"><note n="0923j01" resp="Xuzangjing" place="foot text" type="orig jie">增減有兩義一約真理則聖增而凡減二約妄染則凡增而聖減</note>在菩薩法上看來。萬德俱圓似增。
 <lb ed="X" n="0923a09"/>惑障俱盡似減。不知此以諸法修相言也。若是諸
 <lb ed="X" n="0923a10"/>法空相。從來修證不到。德滿不增。本來變壞不得。
 <lb ed="X" n="0923a11"/>障盡非減。是不增不減的。</p><p id="pX26p0923a1111" place="inline" rend="margin-left:1em">則諸法空相。即是般若
@@ -560,7 +565,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0923b03"/>明五蘊本空。空即實相。以六不字就此本空釋出
 <lb ed="X" n="0923b04"/>其體。是者。直指之詞。諸法。涵下入。處。界。諦。緣。度等
 <lb ed="X" n="0923b05"/>也。空相乃真空妙相。是靈明絕待。本來無物之真
-<lb ed="X" n="0923b06"/>空。即諸法之自性也。</p><p id="pX26p0923b0609" place="inline" rend="margin-left:1em">○【解02】附正解。諸法當情。故有生
+<lb ed="X" n="0923b06"/>空。即諸法之自性也。</p><p id="pX26p0923b0609" place="inline" rend="margin-left:1em">○<note n="0923j02" resp="Xuzangjing" place="foot text" type="orig jie">文句云此第三節言諸法空相無生滅等以足上第二節之意○二節三節總是釋行深般若</note>附正解。諸法當情。故有生
 <lb ed="X" n="0923b07"/>有滅。凡夫見得根身有生老病死。塵界有成住壞
 <lb ed="X" n="0923b08"/>空。識心有生住異滅。惟此真空之體。本來寂靜。究
 <lb ed="X" n="0923b09"/>竟堅固。故云不生不滅。此示真諦。</p><p id="pX26p0923b0914" place="inline" rend="margin-left:1em">&CB00361;空厭有。故分
@@ -573,7 +578,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0923b16"/>聖渾融。真妄俱泯。故曰不增不減。此示中諦。而科
 <lb ed="X" n="0923b17"/>為觀境。於理未&CB00396;。存參。</p><p id="pX26p0923b1710" place="inline" rend="margin-left:1em">○正解云。前節三觀。是示
 <lb ed="X" n="0923b18"/>真見破妄見。此節三諦。是示真相破妄相。</p></div2>
-<lb ed="X" n="0923b19"/><div2 type="orig"><p id="pX26p0923b1901">【解03】是故空中。</p></div2>
+<lb ed="X" n="0923b19"/><div2 type="orig"><p id="pX26p0923b1901"><note n="0923j03" resp="Xuzangjing" place="foot text" type="orig jie">第四段明空離相．此段是廣明真空離相以顯空性也初離六凡次離三聖賢首判為明所離</note>是故空中。</p></div2>
 <lb ed="X" n="0923b20"/><div2 type="commentary"><p id="pX26p0923b2001" rend="margin-left:1em">是故。承上文而言。空中者。是前不生不滅等真空
 <lb ed="X" n="0923b21"/>之中也。彼真空之中。無五蘊以下等諸法。明真空
 <lb ed="X" n="0923b22"/>離相也。</p><p id="pX26p0923b2204" place="inline" rend="margin-left:1em">尋珠云。此結上起下。廣明般若真空。無
@@ -582,7 +587,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" id="X26.0566.0923c" n="0923c"/>
 <lb ed="X" n="0923c01"/>句。正根上不生不滅等之真空說。故著是故二字。</p>
 <lb ed="X" n="0923c02"/><p id="pX26p0923c0201" rend="margin-left:1em">集解云。空。無極也。空中。無極而太極也。</p></div2>
-<lb ed="X" n="0923c03"/><div2 type="orig"><p id="pX26p0923c0301">【解04】無色。無受想行識。</p></div2>
+<lb ed="X" n="0923c03"/><div2 type="orig"><p id="pX26p0923c0301"><note n="0923j04" resp="Xuzangjing" place="foot text" type="orig jie">無五蘊</note>無色。無受想行識。</p></div2>
 <lb ed="X" n="0923c04"/><div2 type="commentary"><p id="pX26p0923c0401" rend="margin-left:1em">此空五蘊也。</p><p id="pX26p0923c0406" place="inline" rend="margin-left:1em">○宗泐云。此真空實相之中。既不可
 <lb ed="X" n="0923c05"/>以生滅垢淨增減求之。故總結云。無色。無受想行
 <lb ed="X" n="0923c06"/>識等。</p><p id="pX26p0923c0603" place="inline" rend="margin-left:1em">集解云。空。即不生不滅之真體。真體中何
@@ -590,7 +595,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0923c08"/>蘊空。就人而言。此云空無五蘊。就性而言。</p><p id="pX26p0923c0817" place="inline" rend="margin-left:1em">賢首
 <lb ed="X" n="0923c09"/>云。無色等無字。指與空義相違說。理實。皆悉不壞
 <lb ed="X" n="0923c10"/>色等。以自性空。不待壞故。下並準知。</p></div2>
-<lb ed="X" n="0923c11"/><div2 type="orig"><p id="pX26p0923c1101">【解05】無眼耳鼻舌身意。無色聲香味觸法。</p></div2>
+<lb ed="X" n="0923c11"/><div2 type="orig"><p id="pX26p0923c1101"><note n="0923j05" resp="Xuzangjing" place="foot text" type="orig jie">無十二入</note>無眼耳鼻舌身意。無色聲香味觸法。</p></div2>
 <lb ed="X" n="0923c12"/><div2 type="commentary"><p id="pX26p0923c1201" rend="margin-left:1em">既無五蘊。亦無六根六塵。此空十二入也。</p><p id="pX26p0923c1217" place="inline" rend="margin-left:1em">文句
 <lb ed="X" n="0923c13"/>云。眼耳鼻舌身意。謂之六根。猶草木之有根也。</p><p id="pX26p0923c1319" place="inline" rend="margin-left:1em">眼
 <lb ed="X" n="0923c14"/>見為色塵。耳聞為聲塵。鼻嗅為香塵。舌嘗為味塵。
@@ -601,8 +606,8 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" id="X26.0566.0924a" n="0924a"/>
 <lb ed="X" n="0924a01"/>塵。各有處所。行者日用。照此根塵。體即般若。頓空
 <lb ed="X" n="0924a02"/>圓覺。故言無也。</p></div2>
-<lb ed="X" n="0924a03"/><div2 type="orig"><p id="pX26p0924a0301">【解01】無眼界。乃至無意識界。</p></div2>
-<lb ed="X" n="0924a04"/><div2 type="commentary"><p id="pX26p0924a0401" rend="margin-left:1em">【解02】既無十二入。亦無十八界。十八界者。六根。六塵。六
+<lb ed="X" n="0924a03"/><div2 type="orig"><p id="pX26p0924a0301"><note n="0924j01" resp="Xuzangjing" place="foot text" type="orig jie">無十八界</note>無眼界。乃至無意識界。</p></div2>
+<lb ed="X" n="0924a04"/><div2 type="commentary"><p id="pX26p0924a0401" rend="margin-left:1em"><note n="0924j02" resp="Xuzangjing" place="foot text" type="orig jie">以上三節明無蘊處界法是斷凡情</note>既無十二入。亦無十八界。十八界者。六根。六塵。六
 <lb ed="X" n="0924a05"/>識也。舉首末二界。超略中間十六。故用乃至二字。
 <lb ed="X" n="0924a06"/>省文耳。</p><p id="pX26p0924a0604" place="inline" rend="margin-left:1em">文句云。從見為眼識。從聞為耳識。從臭
 <lb ed="X" n="0924a07"/>為鼻識。從嘗為舌識。從染為聲識。從分別為意識。
@@ -610,21 +615,21 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0924a09"/>也。</p><p id="pX26p0924a0902" place="inline" rend="margin-left:1em">尋珠云。六識分別六塵。執妄成差。各有界限。
 <lb ed="X" n="0924a10"/>名十八界。雖三六並舉。重在六識。六識本惟一識。
 <lb ed="X" n="0924a11"/>但隨見聞覺知六用不同。如一猿猴。應於六窗。遂
-<lb ed="X" n="0924a12"/>名六識界。</p><p id="pX26p0924a1205" place="inline" rend="margin-left:1em">【解03】楞伽經。謂人有八識。眼耳鼻舌身為
+<lb ed="X" n="0924a12"/>名六識界。</p><p id="pX26p0924a1205" place="inline" rend="margin-left:1em"><note n="0924j03" resp="Xuzangjing" place="foot text" type="orig jie">楞伽經八識附錄</note>楞伽經。謂人有八識。眼耳鼻舌身為
 <lb ed="X" n="0924a13"/>前五識。五蘊之受。是此五識功能。意識為第六。五
 <lb ed="X" n="0924a14"/>蘊之想。是此意識功能。七識八識有名字而無體
 <lb ed="X" n="0924a15"/>質。即寄在六種內。&CB00582;七為傳送識。即是意根。乃此
 <lb ed="X" n="0924a16"/>心之動。而遷流不住者。五蘊中之行。是其功能。八
 <lb ed="X" n="0924a17"/>為含藏識。五蘊中識字。下文十二緣中識字。俱屬
 <lb ed="X" n="0924a18"/>此識。即是六種識的根本。所謂本以一精明。分成
-<lb ed="X" n="0924a19"/>六和合也。</p><p id="pX26p0924a1905" place="inline" rend="margin-left:1em">○宗泐云。如上三科。不出【解04】色心二法。為
+<lb ed="X" n="0924a19"/>六和合也。</p><p id="pX26p0924a1905" place="inline" rend="margin-left:1em">○宗泐云。如上三科。不出<note n="0924j04" resp="Xuzangjing" place="foot text" type="orig jie">根塵識只色心二字盡之</note>色心二法。為
 <lb ed="X" n="0924a20"/>迷心重者。說為五蘊。為迷色重者。說為十二入。為
 <lb ed="X" n="0924a21"/>心色俱迷者。說為十八界。修學之人。隨其根器。但
 <lb ed="X" n="0924a22"/>修一科。即得悟入。</p><p id="pX26p0924a2208" place="inline" rend="margin-left:1em">○正解云。以上三節。明無蘊處
 <lb ed="X" n="0924a23"/>界法。是斷凡情。</p></div2>
-<lb ed="X" n="0924a24"/><div2 type="orig"><p id="pX26p0924a2401">【解05】無無明。亦無無明盡。乃至無老死。亦無老死盡。</p></div2>
+<lb ed="X" n="0924a24"/><div2 type="orig"><p id="pX26p0924a2401"><note n="0924j05" resp="Xuzangjing" place="foot text" type="orig jie">無緣覺法</note>無無明。亦無無明盡。乃至無老死。亦無老死盡。</p></div2>
 <pb ed="X" id="X26.0566.0924b" n="0924b"/>
-<lb ed="X" n="0924b01"/><div2 type="commentary"><p id="pX26p0924b0101" rend="margin-left:1em">【解06】此空十二因緣也。無明緣行。行緣識。識緣名色。名
+<lb ed="X" n="0924b01"/><div2 type="commentary"><p id="pX26p0924b0101" rend="margin-left:1em"><note n="0924j06" resp="Xuzangjing" place="foot text" type="orig jie">一切業因俱自無明而起順則緣生逆則緣滅順則生者謂前能生後順生死也逆則滅者逆觀以生無有故逆生死也約流轉還滅以為順逆無明為長夜之體生死為長夜之業無明為流轉之首老死為流轉之尾無明盡為還滅之首老死盡為還滅之尾．依三世說過去有二現在有八未來有二．義句詮謂此三有之業說前世為前有今生為中有後世為後有</note>此空十二因緣也。無明緣行。行緣識。識緣名色。名
 <lb ed="X" n="0924b02"/>色緣六入。六入緣觸。觸緣受。受緣愛。愛緣取。取緣
 <lb ed="X" n="0924b03"/>有。有緣生。生緣老死憂悲苦惱。亦名十二支。互相
 <lb ed="X" n="0924b04"/>繇籍。名緣。支派分別。名支。亦舉首末而略其中。故
@@ -661,8 +666,8 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0924c10"/>覺觀空的悟因。這還滅門。是緣覺證空的修因。此
 <lb ed="X" n="0924c11"/>亦是從悟入修方便之法。空中則無此法也。</p><p id="pX26p0924c1118" place="inline" rend="margin-left:1em">○緣
 <lb ed="X" n="0924c12"/>覺乘則從此悟道超出三界。</p></div2>
-<lb ed="X" n="0924c13"/><div2 type="orig"><p id="pX26p0924c1301">【解07】無苦集滅道。</p></div2>
-<lb ed="X" n="0924c14"/><div2 type="commentary"><p id="pX26p0924c1401" rend="margin-left:1em">【解08】此觀四諦清淨也。</p><p id="pX26p0924c1411" place="inline" rend="margin-left:1em">尋珠云。苦以逼迫為相。廣如
+<lb ed="X" n="0924c13"/><div2 type="orig"><p id="pX26p0924c1301"><note n="0924j07" resp="Xuzangjing" place="foot text" type="orig jie">無聲聞法</note>無苦集滅道。</p></div2>
+<lb ed="X" n="0924c14"/><div2 type="commentary"><p id="pX26p0924c1401" rend="margin-left:1em"><note n="0924j08" resp="Xuzangjing" place="foot text" type="orig jie">諦緣之法雖為二乘實通大乘其要皆為斷生死本滅無明因復歸淨明妙性而巳廣開為緣總攝為諦其實一理但聲聞緣覺大乘所證有淺深耳</note><note n="0924j08" resp="CBETA" type="mod jie">諦緣之法雖為二乘實通大乘其要皆為斷生死本滅無明因復歸淨明妙性而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>廣開為緣總攝為諦其實一理但聲聞緣覺大乘所證有淺深耳</note>此觀四諦清淨也。</p><p id="pX26p0924c1411" place="inline" rend="margin-left:1em">尋珠云。苦以逼迫為相。廣如
 <lb ed="X" n="0924c15"/>八苦。略如三苦等。即生死也。是苦果。集以招感為
 <lb ed="X" n="0924c16"/>相。廣如八萬四千亂想。略如見思。即惑業也。是苦
 <lb ed="X" n="0924c17"/>因。此二者世間法也。滅以可證為相。即有餘涅槃
@@ -679,8 +684,8 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0925a09"/>忻。說集方厭。說道方修。故佛與聲聞人說四諦法。
 <lb ed="X" n="0925a10"/>比緣生法更說得簡確詳切。此方便中之方便也。
 <lb ed="X" n="0925a11"/>諦者。審實之義。</p><p id="pX26p0925a1107" place="inline" rend="margin-left:1em">○聲聞乘則從此起悟。超出三界。</p></div2>
-<lb ed="X" n="0925a12"/><div2 type="orig"><p id="pX26p0925a1201">【解01】無智亦無得。</p></div2>
-<lb ed="X" n="0925a13"/><div2 type="commentary"><p id="pX26p0925a1301" rend="margin-left:1em">【解02】此智得俱無也。此句總結上文。以起下文。</p><p id="pX26p0925a1320" place="inline" rend="margin-left:1em">正解
+<lb ed="X" n="0925a12"/><div2 type="orig"><p id="pX26p0925a1201"><note n="0925j01" resp="Xuzangjing" place="foot text" type="orig jie">無菩薩法</note>無智亦無得。</p></div2>
+<lb ed="X" n="0925a13"/><div2 type="commentary"><p id="pX26p0925a1301" rend="margin-left:1em"><note n="0925j02" resp="Xuzangjing" place="foot text" type="orig jie">智得正是實證何以言無&CB00582;正照空時照外無空空外無照如空合空似水投水若有智得即落邊見非真空矣故般若以無得為宗．涅槃論云無得是有得之真名有得是無得之偽號正解云菩薩斷惑至無智無得正是生滅滅巳寂滅現前之時非甚深般若曷能臻此</note><note n="0925j02" resp="CBETA" type="mod jie">智得正是實證何以言無&CB00582;正照空時照外無空空外無照如空合空似水投水若有智得即落邊見非真空矣故般若以無得為宗．涅槃論云無得是有得之真名有得是無得之偽號正解云菩薩斷惑至無智無得正是生滅滅<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>寂滅現前之時非甚深般若曷能臻此</note>此智得俱無也。此句總結上文。以起下文。</p><p id="pX26p0925a1320" place="inline" rend="margin-left:1em">正解
 <lb ed="X" n="0925a14"/>云。智為六度之主。即能證之智也。得即二空所顯
 <lb ed="X" n="0925a15"/>真如。此所證之理也。然能證所證。即是對待增損
 <lb ed="X" n="0925a16"/>之法。而有邊見。非大乘教。故在所當遣。</p><p id="pX26p0925a1616" place="inline" rend="margin-left:1em">宗泐云。
@@ -703,7 +708,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0925b08"/>法。是斷聖解。合前三節。總為斷惑。總是釋五蘊皆
 <lb ed="X" n="0925b09"/>空。</p><p id="pX26p0925b0902" place="inline" rend="margin-left:1em">集解云。自初地至大乘。皆當了此蘊空法以
 <lb ed="X" n="0925b10"/>復真體。</p>
-<lb ed="X" n="0925b11"/><p id="pX26p0925b1101" rend="margin-left:1em">【解03】△上文雖云不生不滅不垢不淨不增不減。只是
+<lb ed="X" n="0925b11"/><p id="pX26p0925b1101" rend="margin-left:1em"><note n="0925j03" resp="Xuzangjing" place="foot text" type="orig jie">以上三節明無緣覺聲聞諸法是斷聖解</note>△上文雖云不生不滅不垢不淨不增不減。只是
 <lb ed="X" n="0925b12"/>顯真空自相。而未明真空無相。若不一一深明。則
 <lb ed="X" n="0925b13"/>智照不得泯絕。實相非相不得現前。所以歷歷推
 <lb ed="X" n="0925b14"/>之。直到無智無得。然後深般若無遺蘊。而彼岸始
@@ -718,7 +723,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0925b23"/>是五蘊的處所。眼識耳識鼻識舌識身識意識為
 <lb ed="X" n="0925b24"/>六識。并前十二處為十八界。是五蘊的界分。五蘊
 <pb ed="X" id="X26.0566.0925c" n="0925c"/>
-<lb ed="X" n="0925c01"/>只是【解04】色心二字。眼耳鼻舌身。色聲香味觸為色法。
+<lb ed="X" n="0925c01"/>只是<note n="0925j04" resp="Xuzangjing" place="foot text" type="orig jie">即所謂十一色也意無形質故不在色例．識力最能為害</note>色心二字。眼耳鼻舌身。色聲香味觸為色法。
 <lb ed="X" n="0925c02"/>意為心法。以心中之意分別五塵而生法相。法乃
 <lb ed="X" n="0925c03"/>心色各半者也。又於識字內。分別出受想行三字
 <lb ed="X" n="0925c04"/>的界分來。五蘊之受。五蘊之想。五蘊之行。皆識為
@@ -734,7 +739,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0925c14"/>不異空。直至無智無得。只作一句看。如大海印。一
 <lb ed="X" n="0925c15"/>時現前。不然一落落在階級心量裏。一句是一箇
 <lb ed="X" n="0925c16"/>位次。則真空實相圓頓之理。如何融會。</p></div2>
-<lb ed="X" n="0925c17"/><div2 type="orig"><p id="pX26p0925c1701">【解05】以無所得故。</p></div2>
+<lb ed="X" n="0925c17"/><div2 type="orig"><p id="pX26p0925c1701"><note n="0925j05" resp="Xuzangjing" place="foot text" type="orig jie">第五段從行顯法，此段顯般若之法能度一切苦厄○無得故能有得下明所得有二</note>以無所得故。</p></div2>
 <lb ed="X" n="0925c18"/><div2 type="commentary"><p id="pX26p0925c1801" rend="margin-left:1em">承上無得而言。</p><p id="pX26p0925c1807" place="inline" rend="margin-left:1em">清涼曰。無所得即般若相。由得
 <pb ed="X" id="X26.0566.0926a" n="0926a"/>
 <lb ed="X" n="0926a01"/>般若無得智慧也。</p><p id="pX26p0926a0108" place="inline" rend="margin-left:1em">記云。前云無智亦無得。故今
@@ -747,7 +752,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0926a08"/>此即所謂深般若也。以無所得句。當連上段看。</p>
 <lb ed="X" n="0926a09"/><p id="pX26p0926a0901" rend="margin-left:1em">賢首曰。以者。由也。故者。因也。由前無所得為因。令
 <lb ed="X" n="0926a10"/>後有得也。</p></div2>
-<lb ed="X" n="0926a11"/><div2 type="orig"><p id="pX26p0926a1101">【解01】菩提薩埵依般若波羅蜜多故心無罣礙<note place="interlinear">行成</note>。無罣礙故
+<lb ed="X" n="0926a11"/><div2 type="orig"><p id="pX26p0926a1101"><note n="0926j01" resp="Xuzangjing" place="foot text" type="orig jie">此段科為證真是顯圓成實性寂滅現前釋明度苦此言菩薩依此般若之法得涅槃斷果斷者斷苦因也菩提薩埵廣指一切菩薩言而觀音在其中○到得心無罣礙便是行成</note>菩提薩埵依般若波羅蜜多故心無罣礙<note place="interlinear">行成</note>。無罣礙故
 <lb ed="X" n="0926a12"/>無有恐怖<note place="interlinear">斷障</note>。遠離顛倒夢想。究竟涅槃<note place="interlinear">得果</note>。</p></div2>
 <lb ed="X" n="0926a13"/><div2 type="commentary"><p id="pX26p0926a1301" rend="margin-left:1em">此明菩薩證理果。</p><p id="pX26p0926a1308" place="inline" rend="margin-left:1em">宗泐云。菩提薩埵。能依之人
 <lb ed="X" n="0926a14"/>也。般若波羅蜜多。所依之法也。菩薩依此般若修
@@ -755,7 +760,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0926a16"/>恐怖。既無生死恐怖。則無顛倒煩惱。三障既空。三
 <lb ed="X" n="0926a17"/>德乃顯。故云究竟涅槃。梵語摩訶般涅槃。華言大
 <lb ed="X" n="0926a18"/>滅度。大即法身。滅即解脫。度即般若。此之三德。非
-<lb ed="X" n="0926a19"/>別有也。即三障是。【解02】迷即三障。悟即三德。所謂生死
+<lb ed="X" n="0926a19"/>別有也。即三障是。<note n="0926j02" resp="Xuzangjing" place="foot text" type="orig jie">迷即三障悟即三德</note>迷即三障。悟即三德。所謂生死
 <lb ed="X" n="0926a20"/>即法身。煩惱即般若。結業即解脫也。然雖障即是
 <lb ed="X" n="0926a21"/>德。若非般若之功德不能顯。譬如磨鏡。垢盡明現
 <lb ed="X" n="0926a22"/>也。</p><p id="pX26p0926a2202" place="inline" rend="margin-left:1em">賢首疏云。心無罣礙。行成也。離罣離倒等。斷
@@ -770,7 +775,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0926b06"/>入定。不能無夢想。種識消不盡也。無恐怖夢想。根
 <lb ed="X" n="0926b07"/>無罣礙來。無罣礙。根無所得之深般若來。如此。涅
 <lb ed="X" n="0926b08"/>槃方得究竟。</p></div2>
-<lb ed="X" n="0926b09"/><div2 type="orig"><p id="pX26p0926b0901">【解03】三世諸佛依般若波羅蜜多故。得阿耨多羅三藐三
+<lb ed="X" n="0926b09"/><div2 type="orig"><p id="pX26p0926b0901"><note n="0926j03" resp="Xuzangjing" place="foot text" type="orig jie">此言諸佛依此般若之法得菩提智果智果謂四智菩提之果也依起信論即究竟始覺合本覺時平等無二覺異為智果也．佛得菩提亦只依此並無別法</note>三世諸佛依般若波羅蜜多故。得阿耨多羅三藐三
 <lb ed="X" n="0926b10"/>菩提。</p></div2>
 <lb ed="X" n="0926b11"/><div2 type="commentary"><p id="pX26p0926b1101" rend="margin-left:1em">此明諸佛證智果。言非惟菩薩如是修證。而一切
 <lb ed="X" n="0926b12"/>諸佛。莫不皆修般若。得成正覺也。三世。謂過去未
@@ -789,7 +794,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" id="X26.0566.0926c" n="0926c"/>
 <lb ed="X" n="0926c01"/>業即解脫。究竟方便淨涅槃。無恐怖。則苦果即法
 <lb ed="X" n="0926c02"/>身。究竟性淨涅槃。遠離顛倒夢想。則煩惑即智明。
-<lb ed="X" n="0926c03"/>究竟圓淨涅槃。</p><p id="pX26p0926c0307" place="inline" rend="margin-left:1em">【解04】依實相般若。得真性菩提。依觀照
+<lb ed="X" n="0926c03"/>究竟圓淨涅槃。</p><p id="pX26p0926c0307" place="inline" rend="margin-left:1em"><note n="0926j04" resp="Xuzangjing" place="foot text" type="orig jie">依猶仗也界乎中間雙通人法然亦不可竟謂佛祖有實法與人無依而依方是真依</note>依實相般若。得真性菩提。依觀照
 <lb ed="X" n="0926c04"/>般若。得實智菩提。依文字般若。得方便菩提。菩提
 <lb ed="X" n="0926c05"/>是如如智。智必冥理。涅槃是如如理。理必契智。故
 <lb ed="X" n="0926c06"/>影略而互言之。</p><p id="pX26p0926c0607" place="inline" rend="margin-left:1em">正解云。此明諸佛亦依三觀般
@@ -802,22 +807,22 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0926c13"/>的骨裏印。亦即是觀照般若的骨裏印。所以提出
 <lb ed="X" n="0926c14"/>一句。作下文空觀的結底。作下文證果的根蒂。言
 <lb ed="X" n="0926c15"/>惟此真空之理。原是一無所得的。所以佛菩薩。皆
-<lb ed="X" n="0926c16"/>依此真空之智。照見到【解05】一無所得處。而能得真空
+<lb ed="X" n="0926c16"/>依此真空之智。照見到<note n="0926j05" resp="Xuzangjing" place="foot text" type="orig jie">得涅槃得菩提即是無得之得故云無得乃能有得</note>一無所得處。而能得真空
 <lb ed="X" n="0926c17"/>之理。證涅槃菩提二果也。由以無所得為因。故能
 <lb ed="X" n="0926c18"/>有所得。</p><p id="pX26p0926c1804" place="inline" rend="margin-left:1em">色空生滅。垢淨增減。蘊界處入。緣諦智得。
 <pb ed="X" id="X26.0566.0927a" n="0927a"/>
-<lb ed="X" n="0927a01"/>種種都是【解01】罣礙人心的法相。惟般若照見真空。到
+<lb ed="X" n="0927a01"/>種種都是<note n="0927j01" resp="Xuzangjing" place="foot text" type="orig jie">這罣礙二字正說著二乘的痛處</note>罣礙人心的法相。惟般若照見真空。到
 <lb ed="X" n="0927a02"/>無所得處。則蕩然一無罣礙。心中求業性。如芥子
 <lb ed="X" n="0927a03"/>許不可得。境上極大的恐怖。心上無端的顛倒。皆
 <lb ed="X" n="0927a04"/>從一絲一層之罣礙而起。心中既無罣礙。則業性
-<lb ed="X" n="0927a05"/>都忘。安有一法與我為緣為對。【解02】無罣礙三字。是真
+<lb ed="X" n="0927a05"/>都忘。安有一法與我為緣為對。<note n="0927j02" resp="Xuzangjing" place="foot text" type="orig jie">無罣礙即是行深之時</note>無罣礙三字。是真
 <lb ed="X" n="0927a06"/>中現前光景。到得真空現前。便是圓頓法門。更不
 <lb ed="X" n="0927a07"/>用別樣修為漸次。所以又疊一句無罣礙故。便直
 <lb ed="X" n="0927a08"/>接箇無有恐怖。他色蘊<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>空。不見有心外之色。恐
 <lb ed="X" n="0927a09"/>怖箇甚麼。受想行識的心蘊<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>空。不見有心內之
 <lb ed="X" n="0927a10"/>心。有甚夢想顛倒。直下便到涅槃究竟田地。只是
 <lb ed="X" n="0927a11"/>依這無所得的深般若耳。不特菩薩為然。就是三
-<lb ed="X" n="0927a12"/>世一切諸佛。他五住地無明俱盡。【解03】正覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>到無上
+<lb ed="X" n="0927a12"/>世一切諸佛。他五住地無明俱盡。<note n="0927j03" resp="Xuzangjing" place="foot text" type="orig jie">正解云巳上釋明首節證真之義以無所得句總約凡情聖解俱空承上起下之辭言菩薩與佛證涅槃得菩提皆以此為因也</note><note n="0927j03" resp="CBETA" type="mod jie">正解云<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上釋明首節證真之義以無所得句總約凡情聖解俱空承上起下之辭言菩薩與佛證涅槃得菩提皆以此為因也</note>正覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>到無上
 <lb ed="X" n="0927a13"/>田地。一切種。無功用智圓滿一切法。皆是佛法。等
 <lb ed="X" n="0927a14"/>覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>到無上田地。又非菩薩可比。而究其本根。亦
 <lb ed="X" n="0927a15"/>只依此無所得的般若波羅蜜。並無別法。所謂以
@@ -831,7 +836,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0927a23"/>邊從色即空。說到無智得。可謂鴛鴦繡出從君看。
 <lb ed="X" n="0927a24"/>兩箇依般若波羅蜜多。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是手把金針度與人。</p></div2>
 <pb ed="X" id="X26.0566.0927b" n="0927b"/>
-<lb ed="X" n="0927b01"/><div2 type="orig"><p id="pX26p0927b0101">【解04】故知般若波羅蜜多。</p></div2>
+<lb ed="X" n="0927b01"/><div2 type="orig"><p id="pX26p0927b0101"><note n="0927j04" resp="Xuzangjing" place="foot text" type="orig jie">第六段結讚顯密．此承前文顯說般若而讚其密．賢首曰先別歎後總結</note>故知般若波羅蜜多。</p></div2>
 <lb ed="X" n="0927b02"/><div2 type="commentary"><p id="pX26p0927b0201" rend="margin-left:1em">疏云。言故知者牒前起後也。</p><p id="pX26p0927b0212" place="inline" rend="margin-left:1em">尋珠云。故字承上
 <lb ed="X" n="0927b03"/>佛菩薩依之證果來。</p></div2>
 <lb ed="X" n="0927b04"/><div2 type="orig"><p id="pX26p0927b0401">是大神&CB00057;。是大明&CB00057;。是無上&CB00057;。是無等等&CB00057;。</p></div2>
@@ -850,7 +855,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0927b17"/>可知。識不可識。陰陽不能籠&CB00746;。有無不能形容。破
 <lb ed="X" n="0927b18"/>障除昏。凡聖無與等者。謂之大神大明。無上等等
 <lb ed="X" n="0927b19"/>&CB00057;。不亦宜乎。</p></div2>
-<lb ed="X" n="0927b20"/><div2 type="orig"><p id="pX26p0927b2001">【解05】能除一切苦。真實不&CB00980;。</p></div2>
+<lb ed="X" n="0927b20"/><div2 type="orig"><p id="pX26p0927b2001"><note n="0927j05" resp="Xuzangjing" place="foot text" type="orig jie">此極讚般若功用之廣大○真實不虛單承度苦有兼證果度苦兩項說者非是證果即是度苦不分二頂也</note>能除一切苦。真實不&CB00980;。</p></div2>
 <lb ed="X" n="0927b21"/><div2 type="commentary"><p id="pX26p0927b2101" rend="margin-left:1em">文句云。能除一切苦。即度一切苦厄。非證真空者
 <lb ed="X" n="0927b22"/>不能也。恐眾生信心不及。又申言之。而決定告以
 <lb ed="X" n="0927b23"/>真實不&CB00980;。慈憫有情。為何如哉。</p><p id="pX26p0927b2313" place="inline" rend="margin-left:1em">宗泐云。此結般
@@ -864,7 +869,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0927c06"/>苦。總舉前七。方成第八五陰盛苦。亦名五取蘊苦。</p>
 <lb ed="X" n="0927c07"/><p id="pX26p0927c0701" rend="margin-left:1em">若三八相攝。苦苦攝八苦中五。謂生死老病怨憎
 <lb ed="X" n="0927c08"/>會。順苦受法。</p><p id="pX26p0927c0806" place="inline" rend="margin-left:1em">壞苦攝八苦中二。求不得愛別離。順
-<lb ed="X" n="0927c09"/>樂受法。</p><p id="pX26p0927c0904" place="inline" rend="margin-left:1em">【解06】行苦攝一。即五取蘊苦。順捨受法。</p><p id="pX26p0927c0920" place="inline" rend="margin-left:1em">疏鈔
+<lb ed="X" n="0927c09"/>樂受法。</p><p id="pX26p0927c0904" place="inline" rend="margin-left:1em"><note n="0927j06" resp="Xuzangjing" place="foot text" type="orig jie">正解云此節是結前斷證之功讚般若之德用難思勸人受持獲益也</note>行苦攝一。即五取蘊苦。順捨受法。</p><p id="pX26p0927c0920" place="inline" rend="margin-left:1em">疏鈔
 <lb ed="X" n="0927c10"/>曰。大經云。苦有無量相。非聲聞緣覺所知。以二乘
 <lb ed="X" n="0927c11"/>雖知苦相。不知無量相。故瑜伽說苦有一百二十。
 <lb ed="X" n="0927c12"/>即四十四論增數明之。</p><p id="pX26p0927c1210" place="inline" rend="margin-left:1em">賢首曰。除苦決定。故云
@@ -877,7 +882,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" id="X26.0566.0928a" n="0928a"/>
 <lb ed="X" n="0928a01"/>明。只照無智得以前。&CB00980;&CB00980;論理。而以涅槃菩提二
 <lb ed="X" n="0928a02"/>段。入度苦內講。較清楚。真實不&CB00980;。緊接度苦說。</p>
-<lb ed="X" n="0928a03"/><p id="pX26p0928a0301" rend="margin-left:1em">集解云。此經歸到除一切苦。【解01】真實不&CB00980;。只是不落
+<lb ed="X" n="0928a03"/><p id="pX26p0928a0301" rend="margin-left:1em">集解云。此經歸到除一切苦。<note n="0928j01" resp="Xuzangjing" place="foot text" type="orig jie">真實不虛集解謂般若乃真實不虛之理即周子所謂無極之真</note>真實不&CB00980;。只是不落
 <lb ed="X" n="0928a04"/>生滅境。得箇實落受用耳。</p><p id="pX26p0928a0411" place="inline" rend="margin-left:1em">○義詮云。是大神&CB00057;四
 <lb ed="X" n="0928a05"/>句。根色不異空。至無智無得。就意義深廣處說。以
 <lb ed="X" n="0928a06"/>勸人之修持。能除一切苦二句。根涅槃菩提二段
@@ -893,7 +898,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0928a16"/>承前文顯說般若。而結讚為密。說&CB00057;以下。承本文
 <lb ed="X" n="0928a17"/>顯中具密。而正說密&CB00057;以通結之。大神四句約體
 <lb ed="X" n="0928a18"/>讚密。能除二句。約用讚密。</p></div2>
-<lb ed="X" n="0928a19"/><div2 type="orig"><p id="pX26p0928a1901">【解02】故說般若波羅蜜多&CB00057;。即說&CB00057;曰。</p><p id="pX26p0928a1917" type="dharani" place="inline">揭諦揭諦　波
+<lb ed="X" n="0928a19"/><div2 type="orig"><p id="pX26p0928a1901"><note n="0928j02" resp="Xuzangjing" place="foot text" type="orig jie">第七段正說密&CB00057;．此段承上以四&CB00057;字贊前顯說般若經之功德是不可思議境界故復宣不可思議之密&CB00057;令人顯密兼持也．此&CB00057;是密說般若以結經即以證經．顯說般若所以破其昏迷令人生慧密說般若所以攝其散亂令人生定定慧兼持方能速到彼岸</note>故說般若波羅蜜多&CB00057;。即說&CB00057;曰。</p><p id="pX26p0928a1917" type="dharani" place="inline">揭諦揭諦　波
 <lb ed="X" n="0928a20"/>羅揭諦　波羅僧揭諦　菩提薩婆訶</p></div2>
 <lb ed="X" n="0928a21"/><div2 type="commentary"><p id="pX26p0928a2101" rend="margin-left:1em">△承上文言。惟般若有如是功用。則般若即&CB00057;矣。
 <lb ed="X" n="0928a22"/>然不說&CB00057;。不能顯般若離言絕相之妙。故既說經
@@ -919,7 +924,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0928b17"/>羸之祝螟蛉。願其類我。佛菩薩願諸眾生。悉如我
 <lb ed="X" n="0928b18"/>之得成正覺也。</p><p id="pX26p0928b1807" place="inline" rend="margin-left:1em">孤山曰。深求其致。亦只是密說
 <lb ed="X" n="0928b19"/>此般若無所得心耳。與諸法空相無智無得相應。
-<lb ed="X" n="0928b20"/>人能以心<anchor id="fnX26p0928b01"/>特。勿以口持。專一持。不雜念<anchor id="fxX26p0928b01"/>特。勿忘勿
+<lb ed="X" n="0928b20"/>人能以心<note n="0928001" resp="Xuzangjing" place="foot text" type="orig">特疑持次同</note>特。勿以口持。專一持。不雜念<anchor id="fxX26p0928b01"/>特。勿忘勿
 <lb ed="X" n="0928b21"/>助。持到無所得田地。默契此蘊空般若無所得心。
 <lb ed="X" n="0928b22"/>是則令人生大智慧。無得而得。祕密之道。莫加於
 <lb ed="X" n="0928b23"/>此。持&CB00057;者應如是。行深般若者。亦復如是。</p></div2></div1>
