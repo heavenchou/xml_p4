@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X29n0597.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/01/10 02:26:42 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/06/29 03:16:34 $</date></edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/10 02:26:42 $</date>
+		<date>$Date: 2007/06/29 03:16:34 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 29, No. 597 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X29n0597.xml,v $
+Revision 1.6  2007/06/29 03:16:34  amtbgrace
+modified: 卍續藏校注插入 XML
+
 Revision 1.5  2007/01/10 02:26:42  eva
 modified: 修訂 p 空標記造成空的段落
 
@@ -75,7 +80,7 @@ X29 轉自 basicx
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0487a02"/>
 <lb ed="X" n="0487a03"/>
-<lb ed="X" n="0487a04"/><div1 type="other"><mulu type="其他" level="1" label="法華經文句記箋難目次"/><head>法華經文句記箋難目<anchor id="fnX29p0487a01"/>次</head>
+<lb ed="X" n="0487a04"/><div1 type="other"><mulu type="其他" level="1" label="法華經文句記箋難目次"/><head>法華經文句記箋難目<note n="0487001" resp="Xuzangjing" place="foot text" type="orig">目錄新作</note>次</head>
 <lb ed="X" n="0487a05"/>
 <lb ed="X" n="0487a06"/><list><item id="itemX29p0487a0601">卷第一
 <lb ed="X" n="0487a07"/><list><item id="itemX29p0487a0701">自序</item><item id="itemX29p0487a0703">序品第一</item></list></item>
@@ -191,7 +196,7 @@ X29 轉自 basicx
 <lb ed="X" n="0488b17"/>功德者謂六根清淨內外莊嚴之功德而不解功德
 <lb ed="X" n="0488b18"/>兩字此乃釋義不釋名也。</p></def></entry>
 <lb ed="X" n="0488b19"/><entry><form>帶名以釋義</form><def><p id="pX29p0488b1906" place="inline" rend="margin-left:1em">如常不輕品疏云內懷不輕之解外
-<lb ed="X" n="0488b20"/>敬不輕之境身立不輕之行口<anchor id="fnX29p0488b01"/>宜不輕之教人作不
+<lb ed="X" n="0488b20"/>敬不輕之境身立不輕之行口<note n="0488001" resp="Xuzangjing" place="foot text" type="orig">宜疑宣</note>宜不輕之教人作不
 <lb ed="X" n="0488b21"/>輕之目是也。</p></def></entry>
 <lb ed="X" n="0488b22"/><entry><form>學舍養宮</form><def><p id="pX29p0488b2205" place="inline" rend="margin-left:1em">有人云宮應作老謂天子養老禮記云
 <lb ed="X" n="0488b23"/>有虞氏養國老於上庠養庶老於下庠夏后氏養國
@@ -513,7 +518,7 @@ X29 轉自 basicx
 <lb ed="X" n="0492c14"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>去。</p></def></entry>
 <lb ed="X" n="0492c15"/><entry><form>三三昧為對治</form><def><p id="pX29p0492c1507" place="inline" rend="margin-left:1em">三明在果三昧在因由脩三昧之
 <lb ed="X" n="0492c16"/>因故得三明之果苦下空行無我行即空門滅下四
-<lb ed="X" n="0492c17"/>行即無相門集道下八行并<anchor id="fnX29p0492c01"/>若下餘二行是無作門
+<lb ed="X" n="0492c17"/>行即無相門集道下八行并<note n="0492001" resp="Xuzangjing" place="foot text" type="orig">若疑苦</note>若下餘二行是無作門
 <lb ed="X" n="0492c18"/>若脩三昧能對治見惑。</p></def></entry>
 <lb ed="X" n="0492c19"/><entry><form>大菩薩神無方所</form><def><p id="pX29p0492c1908" place="inline" rend="margin-left:1em">如華嚴入法界品諸知識各有
 <lb ed="X" n="0492c20"/>所住法門如和須密多女住淫法勝熱婆羅門住火
@@ -531,7 +536,7 @@ X29 轉自 basicx
 <lb ed="X" n="0493a07"/><entry><form>樂而不淫</form><def><p id="pX29p0493a0705" place="inline" rend="margin-left:1em">詩序云樂得淑女以配君子憂在進賢
 <lb ed="X" n="0493a08"/>不淫其色。</p></def></entry>
 <lb ed="X" n="0493a09"/><entry><form>哀而不傷</form><def><p id="pX29p0493a0905" place="inline" rend="margin-left:1em">詩序云哀窈窕思賢才而無傷善之心
-<lb ed="X" n="0493a10"/>是關雎之義也注云哀蓋字之誤也當為<anchor id="fnX29p0493a01"/>哀謂忠恕
+<lb ed="X" n="0493a10"/>是關雎之義也注云哀蓋字之誤也當為<note n="0493001" resp="Xuzangjing" place="foot text" type="orig">哀疑衷</note>哀謂忠恕
 <lb ed="X" n="0493a11"/>之無傷善之心謂好逑也。</p></def></entry>
 <lb ed="X" n="0493a12"/><entry><form>鶚</form><def><p id="pX29p0493a1202" place="inline" rend="margin-left:1em">五各切鵰之類也。</p></def></entry>
 <lb ed="X" n="0493a13"/><entry><form>善惡王</form><def><p id="pX29p0493a1304" place="inline" rend="margin-left:1em">只應言王謂善惡者以上文有善惡王故
@@ -638,7 +643,7 @@ X29 轉自 basicx
 <lb ed="X" n="0494b14"/><entry><form>今兼二重</form><def><p id="pX29p0494b1405" place="inline" rend="margin-left:1em">前約小明後約大說。</p></def></entry>
 <lb ed="X" n="0494b15"/><entry><form>無破不破</form><def><p id="pX29p0494b1505" place="inline" rend="margin-left:1em">三智破三惑究盡。</p></def></entry>
 <lb ed="X" n="0494b16"/><entry><form>無賊不賊</form><def><p id="pX29p0494b1605" place="inline" rend="margin-left:1em">生死賊真真賊俗俗賊中。</p></def></entry>
-<lb ed="X" n="0494b17"/><entry><form>八風</form><def><p id="pX29p0494b1703" place="inline" rend="margin-left:1em">南山釋云得利便悅衰惱便憂毀辱即瞋<anchor id="fnX29p0494b01"/>談
+<lb ed="X" n="0494b17"/><entry><form>八風</form><def><p id="pX29p0494b1703" place="inline" rend="margin-left:1em">南山釋云得利便悅衰惱便憂毀辱即瞋<note n="0494001" resp="Xuzangjing" place="foot text" type="orig">談疑嘆</note>談
 <lb ed="X" n="0494b18"/>譽即喜稱讚情悅譏刺便恨逢苦懷感遇樂生逸。</p></def></entry>
 <lb ed="X" n="0494b19"/><entry><form>以後釋前</form><def><p id="pX29p0494b1905" place="inline" rend="margin-left:1em">何以心得自在由盡諸有結故其餘三
 <lb ed="X" n="0494b20"/>句準說。</p></def></entry>
@@ -774,7 +779,7 @@ X29 轉自 basicx
 <pb ed="X" id="X29.0597.0496b" n="0496b"/>
 <lb ed="X" n="0496b01"/>今謂無貲。</p></def></entry>
 <lb ed="X" n="0496b02"/><entry><form>妊娠</form><def><p id="pX29p0496b0203" place="inline" rend="margin-left:1em">上汝鴆切下章刃切又音申謂懷胎孕也。</p></def></entry>
-<lb ed="X" n="0496b03"/><entry><form>白<anchor id="fnX29p0496b01"/>哲</form><def><p id="pX29p0496b0303" place="inline" rend="margin-left:1em">下旨熱切白潔色也昔陳武字子強白晢而
+<lb ed="X" n="0496b03"/><entry><form>白<note n="0496001" resp="Xuzangjing" place="foot text" type="orig">哲疑晢</note>哲</form><def><p id="pX29p0496b0303" place="inline" rend="margin-left:1em">下旨熱切白潔色也昔陳武字子強白晢而
 <lb ed="X" n="0496b04"/>鬚髮。</p></def></entry>
 <lb ed="X" n="0496b05"/><entry><form>鸚鵡&CB02597;</form><def><p id="pX29p0496b0504" place="inline" rend="margin-left:1em">&CB02597;玉篇不出此字今恐是喙字耳許穢切
 <lb ed="X" n="0496b06"/>其脣紅如鸚鵡之喙左傳云深口而假喙。</p></def></entry>
@@ -1182,7 +1187,7 @@ X29 轉自 basicx
 <lb ed="X" n="0501c08"/>人中二百四百八百十六百為彼一日一夜以此等
 <lb ed="X" n="0501c09"/>日夜二千四千八千十六千等次第以對餘四天。</p></def></entry>
 <lb ed="X" n="0501c10"/><entry><form>色無晝夜殊</form><def><p id="pX29p0501c1006" place="inline" rend="margin-left:1em">以俱牟頭華有開有合諸鳥有鳴不
-<lb ed="X" n="0501c11"/>鳴以<anchor id="fnX29p0501c01"/>等事判為晝夜。</p></def></entry>
+<lb ed="X" n="0501c11"/>鳴以<note n="0501001" resp="Xuzangjing" place="foot text" type="orig">等上應有此字</note>等事判為晝夜。</p></def></entry>
 <lb ed="X" n="0501c12"/><entry><form>劫數等身量</form><def><p id="pX29p0501c1206" place="inline" rend="margin-left:1em">若諸天身量半由旬則壽量半劫身
 <lb ed="X" n="0501c13"/>量一由旬則壽一劫乃至色究竟身量一萬六千由
 <lb ed="X" n="0501c14"/>旬則壽計一萬六千大劫。</p></def></entry>
@@ -1214,12 +1219,12 @@ X29 轉自 basicx
 <lb ed="X" n="0502a15"/>現行將見疑無明等各有種子合為一無明住。</p></def></entry>
 <lb ed="X" n="0502a16"/><entry><form>望唯識等</form><def><p id="pX29p0502a1605" place="inline" rend="margin-left:1em">今宗談五住大略與唯識同但不談八
 <lb ed="X" n="0502a17"/>識有含藏惡種子為異&CB02649;八識有種子者義多屬別。</p></def></entry>
-<lb ed="X" n="0502a18"/><entry><form>曆數</form><def><p id="pX29p0502a1803" place="inline" rend="margin-left:1em">尚書帝舜謂大禹曰天之曆數在汝<anchor id="fnX29p0502a01"/>射注曆
+<lb ed="X" n="0502a18"/><entry><form>曆數</form><def><p id="pX29p0502a1803" place="inline" rend="margin-left:1em">尚書帝舜謂大禹曰天之曆數在汝<note n="0502001" resp="Xuzangjing" place="foot text" type="orig">射疑躬</note>射注曆
 <lb ed="X" n="0502a19"/>數謂天道也舜善禹有治水之大功言天道在禹身
 <lb ed="X" n="0502a20"/>終當為天子。</p></def></entry>
 <lb ed="X" n="0502a21"/><entry><form>應是變身</form><def><p id="pX29p0502a2105" place="inline" rend="margin-left:1em">華嚴經云阿脩羅王本身只長七百由
 <lb ed="X" n="0502a22"/>旬。</p></def></entry>
-<lb ed="X" n="0502a23"/><entry><form><anchor id="fnX29p0502a02"/>懼諸龍</form><def><p id="pX29p0502a2304" place="inline" rend="margin-left:1em">上之葉切謂驚也。</p></def></entry>
+<lb ed="X" n="0502a23"/><entry><form><note n="0502002" resp="Xuzangjing" place="foot text" type="orig">懼疑懾</note>懼諸龍</form><def><p id="pX29p0502a2304" place="inline" rend="margin-left:1em">上之葉切謂驚也。</p></def></entry>
 <lb ed="X" n="0502a24"/><entry><form>相貌幾同</form><def><p id="pX29p0502a2405" place="inline" rend="margin-left:1em">幾音寄謂僅也書云人生幾亡。</p></def></entry>
 <pb ed="X" id="X29.0597.0502b" n="0502b"/>
 <lb ed="X" n="0502b01"/><entry><form>迦葉於涅槃不堪付囑</form><def><p id="pX29p0502b0110" place="inline" rend="margin-left:1em">彼經第三云若以法寶付
@@ -1229,8 +1234,8 @@ X29 轉自 basicx
 <lb ed="X" n="0502b05"/><entry><form>不信六臣六師之言</form><def><p id="pX29p0502b0509" place="inline" rend="margin-left:1em">梵行品中阿闍世王殺父之
 <lb ed="X" n="0502b06"/>後心生悔熱時有六臣白王莫愁各言所事其所師
 <lb ed="X" n="0502b07"/>者皆是外道謂殺父者無有果報其第一臣名為月
-<lb ed="X" n="0502b08"/>稱師名富<anchor id="fnX29p0502b03"/>闍那第二臣名為藏德師名末伽梨拘&CB00357;
-<lb ed="X" n="0502b09"/>梨子第三臣名實德師名刪闍耶毗羅<anchor id="fnX29p0502b04"/>眩子第四臣
+<lb ed="X" n="0502b08"/>稱師名富<note n="0502003" resp="Xuzangjing" place="foot text" type="orig">闍疑蘭</note>闍那第二臣名為藏德師名末伽梨拘&CB00357;
+<lb ed="X" n="0502b09"/>梨子第三臣名實德師名刪闍耶毗羅<note n="0502004" resp="Xuzangjing" place="foot text" type="orig">眩疑胝</note>眩子第四臣
 <lb ed="X" n="0502b10"/>名為悉知義師名阿耆多第五臣名為吉德師名迦
 <lb ed="X" n="0502b11"/>羅鳩&CB00499;迦旃延第六臣名為無所畏師名乾陀若提
 <lb ed="X" n="0502b12"/>子<note place="inline">云云</note>最後臣者名曰耆婆勸王近佛佛為說逆罪
@@ -1531,7 +1536,7 @@ X29 轉自 basicx
 <lb ed="X" n="0506b07"/>頂但是梵世即尼吒天也無色無身不應聞聲故非
 <lb ed="X" n="0506b08"/>有頂有人引仁王經云無色定力能變化作香華雲
 <lb ed="X" n="0506b09"/>等以供養佛何以不能變化作身此亦堪難今作三
-<lb ed="X" n="0506b10"/>番橫&CB00594;釋之一橫被六道<anchor id="fnX29p0506b01"/>堅徹三世二橫被四生&CB00594;
+<lb ed="X" n="0506b10"/>番橫&CB00594;釋之一橫被六道<note n="0506001" resp="Xuzangjing" place="foot text" type="orig">堅當作&CB00594;</note>堅徹三世二橫被四生&CB00594;
 <lb ed="X" n="0506b11"/>徹三乘三橫被十界&CB00594;徹等覺故知不唯尼吒為有
 <lb ed="X" n="0506b12"/>頂也若以三有之頂即非想是又三有之頂即無學
 <lb ed="X" n="0506b13"/>是復有一頂即妙覺是此意既寬豈比梵世。</p></def></entry>
@@ -1552,7 +1557,7 @@ X29 轉自 basicx
 <lb ed="X" n="0506c03"/>解脫時意謂無明即是身因作是觀時得阿羅漢果
 <lb ed="X" n="0506c04"/>有言愛是身因有說行識名色六入觸受愛取有生
 <lb ed="X" n="0506c05"/>乃至飲食五欲等是身因舍利弗問佛誰為正說佛
-<lb ed="X" n="0506c06"/>言無非正說經中引此是隨<anchor id="fnX29p0506c02"/>意自語。</p></def></entry>
+<lb ed="X" n="0506c06"/>言無非正說經中引此是隨<note n="0506002" resp="Xuzangjing" place="foot text" type="orig">意自疑寫倒</note>意自語。</p></def></entry>
 <lb ed="X" n="0506c07"/><entry><form>&CB00418;外識內</form><def><p id="pX29p0506c0705" place="inline" rend="margin-left:1em">見外所行六度種種不同則知四教菩
 <lb ed="X" n="0506c08"/>薩所解各別。</p></def></entry>
 <lb ed="X" n="0506c09"/><entry><form>一切諸法皆名神變</form><def><p id="pX29p0506c0909" place="inline" rend="margin-left:1em">大神變經云佛現十八變竟
@@ -1739,7 +1744,7 @@ X29 轉自 basicx
 <lb ed="X" n="0509a15"/>山乎。</p></def></entry>
 <lb ed="X" n="0509a16"/><entry><form>疏因果廣略</form><def><p id="pX29p0509a1606" place="inline" rend="margin-left:1em">光宅以本&CB00528;對因果二門廣略如文。</p></def></entry>
 <lb ed="X" n="0509a17"/><entry><form>儻若全取</form><def><p id="pX29p0509a1705" place="inline" rend="margin-left:1em">去法取喻是半更若取法謂全。</p></def></entry>
-<lb ed="X" n="0509a18"/><entry><form>破惡進善對</form><def><p id="pX29p0509a1806" place="inline" rend="margin-left:1em">說法破惡<anchor id="fnX29p0509a01"/>兩兩進善。</p></def></entry>
+<lb ed="X" n="0509a18"/><entry><form>破惡進善對</form><def><p id="pX29p0509a1806" place="inline" rend="margin-left:1em">說法破惡<note n="0509001" resp="Xuzangjing" place="foot text" type="orig">兩兩疑雨雨</note>兩兩進善。</p></def></entry>
 <lb ed="X" n="0509a19"/><entry><form>開權顯實對</form><def><p id="pX29p0509a1906" place="inline" rend="margin-left:1em">進兵開權&CB00594;幢顯實。</p></def></entry>
 <lb ed="X" n="0509a20"/><entry><form>標幟</form><def><p id="pX29p0509a2003" place="inline" rend="margin-left:1em">幟音熾旌旗也或作誌音試並記號之義。</p></def></entry>
 <lb ed="X" n="0509a21"/><entry><form>&CB00655;體相續</form><def><p id="pX29p0509a2105" place="inline" rend="margin-left:1em">數數唱生。</p></def></entry>
@@ -1747,7 +1752,7 @@ X29 轉自 basicx
 <lb ed="X" n="0509a23"/>耳。</p></def></entry>
 <lb ed="X" n="0509a24"/><entry><form>利根深益在第二句</form><def><p id="pX29p0509a2409" place="inline" rend="margin-left:1em">吹螺句也準望三乘及鈍菩
 <pb ed="X" id="X29.0597.0509b" n="0509b"/>
-<lb ed="X" n="0509b01"/>薩在雨<anchor id="fnX29p0509b02"/>兩句若進入第二句似超人耳。</p></def></entry>
+<lb ed="X" n="0509b01"/>薩在雨<note n="0509002" resp="Xuzangjing" place="foot text" type="orig">兩疑雨</note>兩句若進入第二句似超人耳。</p></def></entry>
 <lb ed="X" n="0509b02"/><entry><form>容有昔時利鈍菩薩</form><def><p id="pX29p0509b0209" place="inline" rend="margin-left:1em">鈍聞今經始入十住利者昔
 <lb ed="X" n="0509b03"/>入若聞今經進入十行並是改號義也。</p></def></entry>
 <lb ed="X" n="0509b04"/><entry><form>若顯若密</form><def><p id="pX29p0509b0405" place="inline" rend="margin-left:1em">菩薩於昔顯入十住於今有始入者二
@@ -1805,7 +1810,7 @@ X29 轉自 basicx
 <lb ed="X" n="0510a06"/>百法界千性相等十善即萬法約八正即八萬法門。</p></def></entry>
 <lb ed="X" n="0510a07"/><entry><form>表權實滿</form><def><p id="pX29p0510a0705" place="inline" rend="margin-left:1em">用前約如論界約界論如以釋燈明在
 <lb ed="X" n="0510a08"/>果表二萬權實滿。</p></def></entry>
-<lb ed="X" n="0510a09"/><entry><form>從之如市</form><def><p id="pX29p0510a0905" place="inline" rend="margin-left:1em">甘蔍<anchor id="fnX29p0510a01"/>三擯出四太子一炬面二金色三
+<lb ed="X" n="0510a09"/><entry><form>從之如市</form><def><p id="pX29p0510a0905" place="inline" rend="margin-left:1em">甘蔍<note n="0510001" resp="Xuzangjing" place="foot text" type="orig">三疑王</note>三擯出四太子一炬面二金色三
 <lb ed="X" n="0510a10"/>象眾四別成是四太子至雪山北頓駕遂大樹蓊&CB17781;
 <lb ed="X" n="0510a11"/>以德歸人不數年間蔚為強國其父嘆曰我子釋迦
 <lb ed="X" n="0510a12"/>釋迦翻能仁又翻直林。</p></def></entry>
@@ -1842,7 +1847,7 @@ X29 轉自 basicx
 <lb ed="X" n="0510b18"/>利弗言若一切法空者世尊何以授我等記文殊師
 <lb ed="X" n="0510b19"/>利言如來以如如性授汝等記不即是如不離是如
 <lb ed="X" n="0510b20"/>不有不無不離色不即色乃至云是名如性舍利弗
-<lb ed="X" n="0510b21"/><anchor id="fnX29p0510b02"/>言不識是何言不知以何答默然而還詣本處坐。</p></def></entry>
+<lb ed="X" n="0510b21"/><note n="0510002" resp="Xuzangjing" place="foot text" type="orig">言字疑剩</note>言不識是何言不知以何答默然而還詣本處坐。</p></def></entry>
 <lb ed="X" n="0510b22"/><entry><form>經頗黎</form><def><p id="pX29p0510b2204" place="inline" rend="margin-left:1em">具云頗胝迦此翻水玉又云水精智論云
 <lb ed="X" n="0510b23"/>出名山窟中過千年&CB00457;化成如西都華山出瑪瑙。</p></def></entry>
 <lb ed="X" n="0510b24"/><entry><form>一坐三十四心</form><def><p id="pX29p0510b2407" place="inline" rend="margin-left:1em">若俱舍中樹王下時<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>斷前八地
@@ -2022,7 +2027,7 @@ X29 轉自 basicx
 <lb ed="X" n="0512c23"/>二說少異。</p></def></entry>
 <lb ed="X" n="0512c24"/><entry><form>死尸之譬</form><def><p id="pX29p0512c2405" place="inline" rend="margin-left:1em">涅槃經云如人乘舡入大海中其舡卒
 <pb ed="X" id="X29.0597.0513a" n="0513a"/>
-<lb ed="X" n="0513a01"/><anchor id="fnX29p0513a01"/>壤無所依倚若依死尸得到彼岸十雙之權皆可尸
+<lb ed="X" n="0513a01"/><note n="0513001" resp="Xuzangjing" place="foot text" type="orig">壤當作壞</note>壤無所依倚若依死尸得到彼岸十雙之權皆可尸
 <lb ed="X" n="0513a02"/>喻。</p></def></entry>
 <lb ed="X" n="0513a03"/><entry><form>修性不二門</form><def><p id="pX29p0513a0306" place="inline" rend="margin-left:1em">逆為皆性成迷縛權也順謂了性為
 <lb ed="X" n="0513a04"/>行脫實也。</p></def></entry>
@@ -2358,7 +2363,7 @@ X29 轉自 basicx
 <lb ed="X" n="0517b09"/>回轉一十六番共三十二番又以此法化導他人更
 <lb ed="X" n="0517b10"/>三十二自他合論六十四。</p></def></entry>
 <lb ed="X" n="0517b11"/><entry><form>釋惟忖中</form><def><p id="pX29p0517b1105" place="inline" rend="margin-left:1em">疏云今之與先<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>得入住今從十住改
-<lb ed="X" n="0517b12"/>入十行示佛知見譬如<anchor id="fnX29p0517b01"/>繫&CB00655;知是誡兵也若先在十
+<lb ed="X" n="0517b12"/>入十行示佛知見譬如<note n="0517001" resp="Xuzangjing" place="foot text" type="orig">繫疑擊</note>繫&CB00655;知是誡兵也若先在十
 <lb ed="X" n="0517b13"/>行今改十迴向準此以知。</p></def></entry>
 <lb ed="X" n="0517b14"/><entry><form>至後方得無生</form><def><p id="pX29p0517b1407" place="inline" rend="margin-left:1em">三周時尚有在品信位者。</p></def></entry>
 <lb ed="X" n="0517b15"/><entry><form>第二中少</form><def><p id="pX29p0517b1505" place="inline" rend="margin-left:1em">二乘作佛始自今經菩薩領解梵文或
@@ -2375,14 +2380,14 @@ X29 轉自 basicx
 <lb ed="X" n="0517c01"/><entry><form>彼漫引之</form><def><p id="pX29p0517c0105" place="inline" rend="margin-left:1em">經云若不知常所有三歸皆不成就等
 <lb ed="X" n="0517c02"/><note place="inline">云云</note>若取四念處聞慧為初業此乃聞真諦初業也
 <lb ed="X" n="0517c03"/>若往昔曾發菩提心此乃以知中道之常為初業。</p></def></entry>
-<lb ed="X" n="0517c04"/><entry><form>大經<anchor id="fnX29p0517c02"/>淨論之文</form><def><p id="pX29p0517c0407" place="inline" rend="margin-left:1em">經云如是眾生於佛滅後作如是
+<lb ed="X" n="0517c04"/><entry><form>大經<note n="0517002" resp="Xuzangjing" place="foot text" type="orig">淨疑諍</note>淨論之文</form><def><p id="pX29p0517c0407" place="inline" rend="margin-left:1em">經云如是眾生於佛滅後作如是
 <lb ed="X" n="0517c05"/>說如來畢竟入於涅槃或不入涅槃或說有我或說
 <lb ed="X" n="0517c06"/>無我或說四果皆得佛道或言不得乃至云或有說
 <lb ed="X" n="0517c07"/>言有十方佛或有說言無十方佛如是諸雙皆云不
 <lb ed="X" n="0517c08"/>解我意最後結云如是諍訟是佛境界非諸聲聞緣
 <lb ed="X" n="0517c09"/>覺所知文在迦葉品中疏釋云佛赴緣異說眾生不
 <lb ed="X" n="0517c10"/>解致成諍論言涅槃者薩婆多據事明畢竟涅槃曇
-<lb ed="X" n="0517c11"/>無德據理云不畢竟涅槃古來評云薩<anchor id="fnX29p0517c03"/>娑多短曇無
+<lb ed="X" n="0517c11"/>無德據理云不畢竟涅槃古來評云薩<note n="0517003" resp="Xuzangjing" place="foot text" type="orig">娑當作婆</note>娑多短曇無
 <lb ed="X" n="0517c12"/>德長皆失佛意河西云畢竟是斷不畢竟是常佛豈
 <lb ed="X" n="0517c13"/>是斷常乃是非斷非常能斷能常斷常不二也又或
 <lb ed="X" n="0517c14"/>說有我等者數人明無我破外道之邪我曇無德明
@@ -2647,7 +2652,7 @@ X29 轉自 basicx
 <lb ed="X" n="0521a23"/>舍計二里一踰善計一十六里俱盧舍或云阿練若
 <lb ed="X" n="0521a24"/>此翻為村踰善那或云由旬或云由延並梵語奢切。</p></def></entry>
 <pb ed="X" id="X29.0597.0521b" n="0521b"/>
-<lb ed="X" n="0521b01"/><entry><form><anchor id="fnX29p0521b01"/>恒剎那量</form><def><p id="pX29p0521b0105" place="inline" rend="margin-left:1em">一百二十剎那為一<anchor id="fxX29p0521b01"/>恒剎那量。</p></def></entry>
+<lb ed="X" n="0521b01"/><entry><form><note n="0521001" resp="Xuzangjing" place="foot text" type="orig">恒疑怛次同</note>恒剎那量</form><def><p id="pX29p0521b0105" place="inline" rend="margin-left:1em">一百二十剎那為一<anchor id="fxX29p0521b01"/>恒剎那量。</p></def></entry>
 <lb ed="X" n="0521b02"/><entry><form>臘縛此六十</form><def><p id="pX29p0521b0206" place="inline" rend="margin-left:1em">六十<anchor id="fxX29p0521b02"/>恒剎那為一臘縛。</p></def></entry>
 <lb ed="X" n="0521b03"/><entry><form>此三十須臾</form><def><p id="pX29p0521b0306" place="inline" rend="margin-left:1em">三十臘縛為一須臾。</p></def></entry>
 <lb ed="X" n="0521b04"/><entry><form>疏頑嚚</form><def><p id="pX29p0521b0404" place="inline" rend="margin-left:1em">傳云心不測德義為頑口不道忠信之言
@@ -2723,7 +2728,7 @@ X29 轉自 basicx
 <lb ed="X" n="0522a24"/>上生者論疏云有如此時於人道中隨有一人自然
 <pb ed="X" id="X29.0597.0522b" n="0522b"/>
 <lb ed="X" n="0522b01"/>無師法爾所得修入初定此人從定初出說如此言
-<lb ed="X" n="0522b02"/>善人從離生<anchor id="fnX29p0522b01"/>善樂最美妙等餘人聞言各修此定如
+<lb ed="X" n="0522b02"/>善人從離生<note n="0522001" resp="Xuzangjing" place="foot text" type="orig">善疑喜</note>善樂最美妙等餘人聞言各修此定如
 <lb ed="X" n="0522b03"/>此等人捨命皆生梵處乃至四洲皆如此說又於梵
 <lb ed="X" n="0522b04"/>處隨有眾生法爾修得第二定出定告眾等亦同前
 <lb ed="X" n="0522b05"/>說準例可知隨修第三禪定則次第上生三禪天又
@@ -2781,7 +2786,7 @@ X29 轉自 basicx
 <lb ed="X" n="0523a07"/><entry><form>尚名為漏</form><def><p id="pX29p0523a0705" place="inline" rend="margin-left:1em">四果得無漏定及無漏道故名定共道
 <lb ed="X" n="0523a08"/>共有處定共判在內凡得定位中。</p></def></entry>
 <lb ed="X" n="0523a09"/><entry><form>尚無煖法</form><def><p id="pX29p0523a0905" place="inline" rend="margin-left:1em">前記中云小乘四果<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是方便更於煖
-<lb ed="X" n="0523a10"/>頂<anchor id="fnX29p0523a01"/>熱為真極據前文說則五千起去者似有煖法也
+<lb ed="X" n="0523a10"/>頂<note n="0523001" resp="Xuzangjing" place="foot text" type="orig">＊熱疑執（熱&M062447;本文&M062443;熱&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>熱為真極據前文說則五千起去者似有煖法也
 <lb ed="X" n="0523a11"/>今此中云小中小者但是有漏四禪四禪更小據此
 <lb ed="X" n="0523a12"/>一說又似無煖法前疏中云方便之方便今疏云小
 <lb ed="X" n="0523a13"/>中之小而記中兩說不同一云執煖頂一云執四禪
@@ -2882,10 +2887,10 @@ X29 轉自 basicx
 <lb ed="X" n="0524b08"/><entry><form>頗&CB04968;</form><def><p id="pX29p0524b0803" place="inline" rend="margin-left:1em">此翻水玉又水精。</p></def></entry>
 <lb ed="X" n="0524b09"/><entry><form>車渠</form><def><p id="pX29p0524b0903" place="inline" rend="margin-left:1em">貝之類尚書大傳云大貝如大車之渠渠謂
 <lb ed="X" n="0524b10"/>車之輞今從其狀類車之輪輞渠也。</p></def></entry>
-<lb ed="X" n="0524b11"/><entry><form>碼&CB00558;</form><def><p id="pX29p0524b1103" place="inline" rend="margin-left:1em">其色如馬之<anchor id="fnX29p0524b01"/>&CB00558;因以為名作赤白色琢成器
+<lb ed="X" n="0524b11"/><entry><form>碼&CB00558;</form><def><p id="pX29p0524b1103" place="inline" rend="margin-left:1em">其色如馬之<note n="0524001" resp="Xuzangjing" place="foot text" type="orig">&CB00558;疑腦</note>&CB00558;因以為名作赤白色琢成器
 <lb ed="X" n="0524b12"/>有文如縛絲按智論寶有三種謂隨人天菩薩也人
 <lb ed="X" n="0524b13"/>寶力少唯有清淨光色能辟毒鬼闇飢渴寒熱等苦
-<lb ed="X" n="0524b14"/>耳天寶常隨逐天身可使令共語輕而不重如<anchor id="fnX29p0524b02"/>論王
+<lb ed="X" n="0524b14"/>耳天寶常隨逐天身可使令共語輕而不重如<note n="0524002" resp="Xuzangjing" place="foot text" type="orig">論疑輪次同</note>論王
 <lb ed="X" n="0524b15"/><anchor id="fxX29p0524b01"/>論珠等皆可語之菩薩兼人天事能令一切眾生知
 <lb ed="X" n="0524b16"/>生死因緣如大明鏡等。</p></def></entry>
 <lb ed="X" n="0524b17"/><entry><form>疏失意罪</form><def><p id="pX29p0524b1705" place="inline" rend="margin-left:1em">律中呼為不應吉謂不應作之事也若
@@ -2897,17 +2902,17 @@ X29 轉自 basicx
 <lb ed="X" n="0524b23"/><entry><form>不得雜乳膠</form><def><p id="pX29p0524b2306" place="inline" rend="margin-left:1em">乳者本精血不淨物如律制無病比
 <lb ed="X" n="0524b24"/>丘不應食美食謂乳酪魚肉也五百問云不病索好
 <pb ed="X" id="X29.0597.0524c" n="0524c"/>
-<lb ed="X" n="0524c01"/>食犯重若世尊受難陀乳者此乃七聖共化一慳<anchor id="fnX29p0524c03"/>婆
+<lb ed="X" n="0524c01"/>食犯重若世尊受難陀乳者此乃七聖共化一慳<note n="0524003" resp="Xuzangjing" place="foot text" type="orig">婆下應有羅字</note>婆
 <lb ed="X" n="0524c02"/>門之一緣耳出乳光經抑又西土牛乳與此土者香
 <lb ed="X" n="0524c03"/>臭天隔如彼土牛糞可塗地熏&CB00425;。</p></def></entry>
 <lb ed="X" n="0524c04"/><entry><form>疹疾</form><def><p id="pX29p0524c0403" place="inline" rend="margin-left:1em">上之忍切皮上隆起謂之癮疹之疾。</p></def></entry>
 <lb ed="X" n="0524c05"/><entry><form>麥&CB00931;</form><def><p id="pX29p0524c0503" place="inline" rend="margin-left:1em">古猛切大麥也應云&CB00931;麥。</p></def></entry>
-<lb ed="X" n="0524c06"/><entry><form>露盤</form><def><p id="pX29p0524c0603" place="inline" rend="margin-left:1em"><anchor id="fnX29p0524c04"/>乘露之盤漢武帝作之如前箋以漢都長安
+<lb ed="X" n="0524c06"/><entry><form>露盤</form><def><p id="pX29p0524c0603" place="inline" rend="margin-left:1em"><note n="0524004" resp="Xuzangjing" place="foot text" type="orig">乘疑承</note>乘露之盤漢武帝作之如前箋以漢都長安
 <lb ed="X" n="0524c07"/>故云長安人呼也長安今之壅州水興軍。</p></def></entry>
 <lb ed="X" n="0524c08"/><entry><form>賢愚經鈴聲比丘</form><def><p id="pX29p0524c0808" place="inline" rend="margin-left:1em">波斯匿王至祇桓寺聞唄聲美
 <lb ed="X" n="0524c09"/>好遂見一比丘形容黑陋矬小王問何故形聲不相
 <lb ed="X" n="0524c10"/>當比丘答言我過去世見人起塔嫌塔高廣故矬陋
-<lb ed="X" n="0524c11"/>後見塔成<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>遂捨<anchor id="fnX29p0524c05"/>舍鈴懸塔供養由是聲美。</p></def></entry>
+<lb ed="X" n="0524c11"/>後見塔成<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>遂捨<note n="0524005" resp="Xuzangjing" place="foot text" type="orig">舍疑金</note>舍鈴懸塔供養由是聲美。</p></def></entry>
 <lb ed="X" n="0524c12"/><entry><form>小因大果</form><def><p id="pX29p0524c1205" place="inline" rend="margin-left:1em">亦如一華供養得不退轉不例者亦彼
 <lb ed="X" n="0524c13"/>是實因今是開麤。</p></def></entry>
 <lb ed="X" n="0524c14"/><entry><form>境麤心妙</form><def><p id="pX29p0524c1405" place="inline" rend="margin-left:1em">如治生產業皆與實相不相違背。</p></def></entry>
@@ -2976,7 +2981,7 @@ X29 轉自 basicx
 <lb ed="X" n="0525c02"/>釋我聞者謂是眾生識上文義相生若然是不須待
 <lb ed="X" n="0525c03"/>佛說法而自有所聞也故前文&CB00573;破云若其全不許
 <lb ed="X" n="0525c04"/>見經初盡合改聞問龍軍云眾生識親光云如來識
-<lb ed="X" n="0525c05"/>二識更有憑<anchor id="fnX29p0525c01"/>平抑又如來復有何識答眾生識者者
+<lb ed="X" n="0525c05"/>二識更有憑<note n="0525001" resp="Xuzangjing" place="foot text" type="orig">平疑乎</note>平抑又如來復有何識答眾生識者者
 <lb ed="X" n="0525c06"/>佛地論云如來慈悲本願增上緣力眾生識上文義
 <lb ed="X" n="0525c07"/>相生若如來識者佛地亦云聞者善根本願增上緣
 <lb ed="X" n="0525c08"/>力如來識上文義相生是知二識感應相成故唯識
@@ -3112,7 +3117,7 @@ X29 轉自 basicx
 <lb ed="X" n="0527b13"/>根利遮輕聞雙非門入根利遮重聞雙亦門入根鈍
 <lb ed="X" n="0527b14"/>遮輕聞空門入根鈍遮重聞有門入皆可解。</p></def></entry>
 <lb ed="X" n="0527b15"/><entry><form>六四二萬</form><def><p id="pX29p0527b1505" place="inline" rend="margin-left:1em">此乃賢劫中前佛出世之歲數也檢律
-<lb ed="X" n="0527b16"/>文校之此文或<anchor id="fnX29p0527b01"/>設律云人壽八萬歲時毗婆尸佛出
+<lb ed="X" n="0527b16"/>文校之此文或<note n="0527001" resp="Xuzangjing" place="foot text" type="orig">設疑誤</note>設律云人壽八萬歲時毗婆尸佛出
 <lb ed="X" n="0527b17"/>現七萬歲時式棄佛出六萬歲時毗舍浮佛出四萬
 <lb ed="X" n="0527b18"/>歲時俱留孫佛出三萬歲時俱那含牟尼佛出二萬
 <lb ed="X" n="0527b19"/>歲時迦葉佛出又五濁經中歲數亦同今文云二者
@@ -3129,7 +3134,7 @@ X29 轉自 basicx
 <lb ed="X" n="0527c05"/>文況鹿苑<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>有傭作之心不得云無也當知今云密
 <lb ed="X" n="0527c06"/>遣即是華嚴之即遣故前疏云密遣二人追捉將還
 <lb ed="X" n="0527c07"/>當知遣即是即遣。</p></def></entry>
-<lb ed="X" n="0527c08"/><entry><form>純用一音</form><def><p id="pX29p0527c0805" place="inline" rend="margin-left:1em">古來<anchor id="fnX29p0527c02"/>比地禪師純用一音判教故妙玄
+<lb ed="X" n="0527c08"/><entry><form>純用一音</form><def><p id="pX29p0527c0805" place="inline" rend="margin-left:1em">古來<note n="0527002" resp="Xuzangjing" place="foot text" type="orig">比疑北</note>比地禪師純用一音判教故妙玄
 <lb ed="X" n="0527c09"/>斥云若純用一音判教只有實智不見權智若但大
 <lb ed="X" n="0527c10"/>乘者何故云若但讚佛乘等亦應純是長者更無垢
 <lb ed="X" n="0527c11"/>衣。</p></def></entry>
@@ -3169,7 +3174,7 @@ X29 轉自 basicx
 <lb ed="X" n="0528a20"/>入歡喜。</p></def></entry>
 <lb ed="X" n="0528a21"/><entry><form>疏知三聚名佛</form><def><p id="pX29p0528a2107" place="inline" rend="margin-left:1em">人或云是色聚心聚非色非心聚
 <lb ed="X" n="0528a22"/>又有謂是未入正定聚入正定聚邪定聚此兩三聚
-<lb ed="X" n="0528a23"/>皆非也而未知地<anchor id="fnX29p0528a01"/>特經中自有說釋彼文云義饒益
+<lb ed="X" n="0528a23"/>皆非也而未知地<note n="0528001" resp="Xuzangjing" place="foot text" type="orig">特疑持</note>特經中自有說釋彼文云義饒益
 <lb ed="X" n="0528a24"/>聚非義饒益聚非非義饒益聚具足一切種平等開
 <pb ed="X" id="X29.0597.0528b" n="0528b"/>
 <lb ed="X" n="0528b01"/>覺是名為佛經中自法云此三聚是善不善及無記。</p></def></entry>
@@ -3276,7 +3281,7 @@ X29 轉自 basicx
 <lb ed="X" n="0529c02"/>小元從小教宅門中出何故從父又索大車當知門
 <lb ed="X" n="0529c03"/>異。</p></def></entry>
 <lb ed="X" n="0529c04"/><entry><form>定果</form><def><p id="pX29p0529c0403" place="inline" rend="margin-left:1em">修禪等流。</p></def></entry>
-<lb ed="X" n="0529c05"/><entry><form>若約諸宗無色等</form><def><p id="pX29p0529c0508" place="inline" rend="margin-left:1em">毗婆闍<anchor id="fnX29p0529c01"/>娑提說無色有色具如
+<lb ed="X" n="0529c05"/><entry><form>若約諸宗無色等</form><def><p id="pX29p0529c0508" place="inline" rend="margin-left:1em">毗婆闍<note n="0529001" resp="Xuzangjing" place="foot text" type="orig">娑疑婆</note>娑提說無色有色具如
 <lb ed="X" n="0529c06"/>釋籤。</p></def></entry>
 <lb ed="X" n="0529c07"/><entry><form>明差無差</form><def><p id="pX29p0529c0705" place="inline" rend="margin-left:1em">純陀心疑若見佛性而為常者本未見
 <lb ed="X" n="0529c08"/>時應是無常若本無常後亦應爾以是義故諸佛菩
@@ -3716,7 +3721,7 @@ X29 轉自 basicx
 <lb ed="X" n="0535b17"/><entry><form>於樹倒懸</form><def><p id="pX29p0535b1705" place="inline" rend="margin-left:1em">尾長五尺以鼻仰故雨則倒懸畏水入
 <lb ed="X" n="0535b18"/>鼻故。</p></def></entry>
 <lb ed="X" n="0535b19"/><entry><form>毒螫</form><def><p id="pX29p0535b1903" place="inline" rend="margin-left:1em">音釋蟲行毒也。</p></def></entry>
-<lb ed="X" n="0535b20"/><entry><form>野干</form><def><p id="pX29p0535b2003" place="inline" rend="margin-left:1em">野通作<anchor id="fnX29p0535b01"/>躬子&CB00980;賦云騰遠射干注云其形似
+<lb ed="X" n="0535b20"/><entry><form>野干</form><def><p id="pX29p0535b2003" place="inline" rend="margin-left:1em">野通作<note n="0535001" resp="Xuzangjing" place="foot text" type="orig">躬疑射</note>躬子&CB00980;賦云騰遠射干注云其形似
 <lb ed="X" n="0535b21"/>猿能善緣木。</p></def></entry>
 <lb ed="X" n="0535b22"/><entry><form>鈍中利</form><def><p id="pX29p0535b2204" place="inline" rend="margin-left:1em">見思兩惑若自分利鈍則見利思鈍若見
 <lb ed="X" n="0535b23"/>惑十使自分利鈍者如止觀釋五鈍云是<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>法者愛
@@ -3738,9 +3743,9 @@ X29 轉自 basicx
 <lb ed="X" n="0535c14"/>義有自部惑有他部惑如斷欲惑不斷色惑但名斷
 <lb ed="X" n="0535c15"/>自部惑又云於自地中但緣自部隨眠如見苦所滅
 <lb ed="X" n="0535c16"/>惑等不緣餘部<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上舊疏</note>新疏云見苦見集見滅見道及
-<lb ed="X" n="0535c17"/>修所斷惑名為五部三界各五成十五部<anchor id="fnX29p0535c02"/>苦欲界望
+<lb ed="X" n="0535c17"/>修所斷惑名為五部三界各五成十五部<note n="0535002" resp="Xuzangjing" place="foot text" type="orig">＊若疑若（若&M062447;本文&M062443;苦&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>苦欲界望
 <lb ed="X" n="0535c18"/>色無色界欲名自部色無色界名他部<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上新疏</note>俱舍五
-<lb ed="X" n="0535c19"/>部只是見<anchor id="fnX29p0535c03"/>恩兩惑。</p></def></entry>
+<lb ed="X" n="0535c19"/>部只是見<note n="0535003" resp="Xuzangjing" place="foot text" type="orig">恩疑思</note>恩兩惑。</p></def></entry>
 <lb ed="X" n="0535c20"/><entry><form>前生</form><def><p id="pX29p0535c2003" place="inline" rend="margin-left:1em">疏云何者為同類因前<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>生善根於後生善
 <lb ed="X" n="0535c21"/>根及與彼相應法於自部自界由同類因成因如此
 <lb ed="X" n="0535c22"/>若過去於過去現在若過去現在於未來應說如此
@@ -3889,12 +3894,12 @@ X29 轉自 basicx
 <lb ed="X" n="0537c13"/><entry><form>疏備輪諸道</form><def><p id="pX29p0537c1306" place="inline" rend="margin-left:1em">備輪之言下該三惡經云五十餘年
 <lb ed="X" n="0537c14"/>疏釋謂是五道而記云不墮三惡者何今恐退大之
 <lb ed="X" n="0537c15"/>後隨福厚薄有墯不墯之異故也以退大人多是名
-<lb ed="X" n="0537c16"/>字故下記云為論<anchor id="fnX29p0537c01"/>兔難須淨六根準理退者多在五
+<lb ed="X" n="0537c16"/>字故下記云為論<note n="0537001" resp="Xuzangjing" place="foot text" type="orig">兔應作免</note>兔難須淨六根準理退者多在五
 <lb ed="X" n="0537c17"/>品前<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上正文</note>。</p></def></entry>
 <lb ed="X" n="0537c18"/><entry><form>七種眾生</form><def><p id="pX29p0537c1805" place="inline" rend="margin-left:1em">師子吼品中文也今引本經合喻來此
 <lb ed="X" n="0537c19"/>使文旨可了經云如恒河邊有七種人或為洗浴恐
 <lb ed="X" n="0537c20"/>怖盜賦或為採華則入河中下合譬云有七種人畏
-<lb ed="X" n="0537c21"/>煩惱<anchor id="fnX29p0537c02"/>賦發意欲度生死大河。</p></def></entry>
+<lb ed="X" n="0537c21"/>煩惱<note n="0537002" resp="Xuzangjing" place="foot text" type="orig">賦應作賊</note>賦發意欲度生死大河。</p></def></entry>
 <lb ed="X" n="0537c22"/><entry><form>第一人者入水則沒</form><def><p id="pX29p0537c2209" place="inline" rend="margin-left:1em">喻出家者剃髮身披法服既
 <lb ed="X" n="0537c23"/>出家<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>親近惡友隨順其教聽受邪法沒生死河名
 <lb ed="X" n="0537c24"/>一闡提等。</p></def></entry>
@@ -3991,7 +3996,7 @@ X29 轉自 basicx
 <lb ed="X" n="0539a15"/>法實相智妙者文云我所得智慧微妙最第一乃至
 <lb ed="X" n="0539a16"/>利益妙者須臾聞之即得菩提何得謂法華不明常。</p></def></entry>
 <lb ed="X" n="0539a17"/><entry><form>空無所有等言諸法實相之說</form><def><p id="pX29p0539a1713" place="inline" rend="margin-left:1em">空照所有安樂行
-<lb ed="X" n="0539a18"/>文諸法實相方便品文疏釋<anchor id="fnX29p0539a01"/>寶相互融似用華嚴涉
+<lb ed="X" n="0539a18"/>文諸法實相方便品文疏釋<note n="0539001" resp="Xuzangjing" place="foot text" type="orig">寶疑實</note>寶相互融似用華嚴涉
 <lb ed="X" n="0539a19"/>入之意空無所有疏文不消。</p></def></entry>
 <lb ed="X" n="0539a20"/><entry><form>見佛常在等人此土不毀等事堂閣種種莊嚴眾生
 <lb ed="X" n="0539a21"/>種種遊樂</form><def><p id="pX29p0539a2105" place="inline" rend="margin-left:1em">常在等者分別功德并壽量品文也人
@@ -4018,7 +4023,7 @@ X29 轉自 basicx
 <lb ed="X" n="0539b17"/>作自在或出舊經。</p></def></entry>
 <lb ed="X" n="0539b18"/><entry><form>化菩薩答</form><def><p id="pX29p0539b1805" place="inline" rend="margin-left:1em">彼經乃是香積佛答今乃云化菩薩耳。</p></def></entry>
 <lb ed="X" n="0539b19"/><entry><form>勞謙</form><def><p id="pX29p0539b1903" place="inline" rend="margin-left:1em">彼經之言也勞謙者易謙卦云九三勞謙君
-<lb ed="X" n="0539b20"/>子有終吉屈<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>先人自<anchor id="fnX29p0539b02"/>畢為勞耳。</p></def></entry>
+<lb ed="X" n="0539b20"/>子有終吉屈<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>先人自<note n="0539002" resp="Xuzangjing" place="foot text" type="orig">畢疑卑</note>畢為勞耳。</p></def></entry>
 <lb ed="X" n="0539b21"/><entry><form>疏不應兜率</form><def><p id="pX29p0539b2106" place="inline" rend="margin-left:1em">若約齊教始在道樹知無大機云不
 <lb ed="X" n="0539b22"/>應者鑑小照大其亦久矣。</p></def></entry>
 <lb ed="X" n="0539b23"/><entry><form>半滿不同古釋</form><def><p id="pX29p0539b2307" place="inline" rend="margin-left:1em">菩提流支以鹿苑為半般若至涅
@@ -4080,7 +4085,7 @@ X29 轉自 basicx
 <lb ed="X" n="0540b04"/><entry><form>三佗</form><def><p id="pX29p0540b0403" place="inline" rend="margin-left:1em">齊教領中一他及探領中云化佗權實之照
 <lb ed="X" n="0540b05"/>名他又照權之他共有三他。</p></def></entry>
 <lb ed="X" n="0540b06"/><entry><form>如釋籤引成論</form><def><p id="pX29p0540b0607" place="inline" rend="margin-left:1em">成論云如經云善來比丘隨順我
-<lb ed="X" n="0540b07"/>法我則<anchor id="fnX29p0540b01"/>觀喜此似有貪如語調達汝是癡人食人涕
+<lb ed="X" n="0540b07"/>法我則<note n="0540001" resp="Xuzangjing" place="foot text" type="orig">觀當作歡</note>觀喜此似有貪如語調達汝是癡人食人涕
 <lb ed="X" n="0540b08"/>唾此似有瞋自言我是人中師子此似有慢等。</p></def></entry>
 <lb ed="X" n="0540b09"/><entry><form>但有七緣</form><def><p id="pX29p0540b0905" place="inline" rend="margin-left:1em">嘗檢興起行經而有孫陀利謗唯無乞
 <lb ed="X" n="0540b10"/>食一緣耳具有十惱而與大論文相出沒少異或恐
@@ -4105,9 +4110,9 @@ X29 轉自 basicx
 <lb ed="X" n="0540c04"/><entry><form>馬麥</form><def><p id="pX29p0540c0403" place="inline" rend="margin-left:1em">往劫有國王名曰槃頭請毗婆葉如來入宮
 <lb ed="X" n="0540c05"/>供養時有比丘名曰彌勒以病不行即為請食因過
 <lb ed="X" n="0540c06"/>梵至山其梵至山王見食香美便即&CB00107;害曰此禿沙
-<lb ed="X" n="0540c07"/>門只應食馬麥耳王諸僮侍皆云此等師<anchor id="fnX29p0540c02"/>王應食馬
+<lb ed="X" n="0540c07"/>門只應食馬麥耳王諸僮侍皆云此等師<note n="0540002" resp="Xuzangjing" place="foot text" type="orig">王疑主</note>王應食馬
 <lb ed="X" n="0540c08"/>麥以是殘報佛及五百此丘食馬麥九十日。</p></def></entry>
-<lb ed="X" n="0540c09"/><entry><form>&CB00222;璃殺釋</form><def><p id="pX29p0540c0905" place="inline" rend="margin-left:1em">昔過去世<anchor id="fnX29p0540c03"/>轂貴飢饉時羅閱城外村中
+<lb ed="X" n="0540c09"/><entry><form>&CB00222;璃殺釋</form><def><p id="pX29p0540c0905" place="inline" rend="margin-left:1em">昔過去世<note n="0540003" resp="Xuzangjing" place="foot text" type="orig">轂當作穀</note>轂貴飢饉時羅閱城外村中
 <lb ed="X" n="0540c10"/>有池是時人民捕魚食之是此池中而有兩魚一名
 <lb ed="X" n="0540c11"/>為&CB01811;二名多舌自相語曰我不相犯橫被見殺願我
 <lb ed="X" n="0540c12"/>後世當應報此爾時羅閱林中<app><lem wit="【CBETA】" resp="CBETA.maha">采</lem><rdg wit="【卍續】">釆</rdg></app>魚人者今釋種是
@@ -4241,7 +4246,7 @@ X29 轉自 basicx
 <lb ed="X" n="0542b15"/><entry><form>資產所出</form><def><p id="pX29p0542b1505" place="inline" rend="margin-left:1em">或諦理為資產行位為所出或修行為
 <lb ed="X" n="0542b16"/>資產聖位為所出。</p></def></entry>
 <lb ed="X" n="0542b17"/><entry><form>具有二義</form><def><p id="pX29p0542b1705" place="inline" rend="margin-left:1em">玄文云若作寂場之華嚴此非次第今
-<lb ed="X" n="0542b18"/>依法性論<anchor id="fnX29p0542b01"/>純根菩薩三處入法界初般若二法華三
+<lb ed="X" n="0542b18"/>依法性論<note n="0542001" resp="Xuzangjing" place="foot text" type="orig">純疑鈍</note>純根菩薩三處入法界初般若二法華三
 <lb ed="X" n="0542b19"/>涅槃般若入法界即是華嚴海空又華嚴時節長昔
 <lb ed="X" n="0542b20"/>小機不入如聾今聞般若即能得入。</p></def></entry>
 <lb ed="X" n="0542b21"/><entry><form>補處豈多</form><def><p id="pX29p0542b2105" place="inline" rend="margin-left:1em">無前三教之補處也。</p></def></entry>
@@ -4281,7 +4286,7 @@ X29 轉自 basicx
 <lb ed="X" n="0543a05"/>菩提名為習果報果者即大般涅槃涅槃即報果也。</p></def></entry>
 <lb ed="X" n="0543a06"/><entry><form>別被是填願中終</form><def><p id="pX29p0543a0608" place="inline" rend="margin-left:1em">中應作之。</p></def></entry>
 <lb ed="X" n="0543a07"/><entry><form>疏五戒十善冷水洒面至遮貪欲熱恩</form><def><p id="pX29p0543a0716" place="inline" rend="margin-left:1em">章安今文
-<lb ed="X" n="0543a08"/>以貪欲入三惡為<anchor id="fnX29p0543a01"/>皆向人天為面至次文得一日價
+<lb ed="X" n="0543a08"/>以貪欲入三惡為<note n="0543001" resp="Xuzangjing" place="foot text" type="orig">皆疑背次同</note>皆向人天為面至次文得一日價
 <lb ed="X" n="0543a09"/>除見思寒熱方是涅槃若前長行中疏云知有小善
 <lb ed="X" n="0543a10"/>宜以&CB01926;斷理水除見思熱今得醒悟至四真諦方名
 <lb ed="X" n="0543a11"/>為面問章安以入三惡為<anchor id="fxX29p0543a01"/>皆人天為面大師以人天
@@ -4296,8 +4301,8 @@ X29 轉自 basicx
 <lb ed="X" n="0543a20"/>報國恩遂拜出師表云物不答施於天地子不謝於
 <lb ed="X" n="0543a21"/>父母可以力報難用筆陳。</p></def></entry></div1>
 <lb ed="X" n="0543a22"/><div1 type="other"><mulu type="其他" level="1" label="藥草喻品第五"/><head>藥草喻品</head>
-<lb ed="X" n="0543a23"/><entry><form>顛倒功德</form><def><p id="pX29p0543a2305" place="inline" rend="margin-left:1em">論云<anchor id="fnX29p0543a02"/>對治顛倒求諸功德增上慢心以
-<lb ed="X" n="0543a24"/><anchor id="fnX29p0543a03"/>求世間中諸煩惱染熾然而求人天有漏果報為說
+<lb ed="X" n="0543a23"/><entry><form>顛倒功德</form><def><p id="pX29p0543a2305" place="inline" rend="margin-left:1em">論云<note n="0543002" resp="Xuzangjing" place="foot text" type="orig">異無對字</note>對治顛倒求諸功德增上慢心以
+<lb ed="X" n="0543a24"/><note n="0543003" resp="Xuzangjing" place="foot text" type="orig">異無求字</note>求世間中諸煩惱染熾然而求人天有漏果報為說
 <pb ed="X" id="X29.0597.0543b" n="0543b"/>
 <lb ed="X" n="0543b01"/>火宅喻今消顛倒功德者只是五戒十善及禪定等
 <lb ed="X" n="0543b02"/>不出三毒四倒。</p></def></entry>
@@ -4308,7 +4313,7 @@ X29 轉自 basicx
 <lb ed="X" n="0543b07"/><entry><form>取非大乘</form><def><p id="pX29p0543b0705" place="inline" rend="margin-left:1em">論云有功德人增上慢心聞佛說大乘
 <lb ed="X" n="0543b08"/>法而取非大乘說輪王治今消有功德人者入位二
 <lb ed="X" n="0543b09"/>乘。</p></def></entry>
-<lb ed="X" n="0543b10"/><entry><form>無功德人</form><def><p id="pX29p0543b1005" place="inline" rend="margin-left:1em">論云無<anchor id="fnX29p0543b04"/>寶功德增上慢人於第一乘不
+<lb ed="X" n="0543b10"/><entry><form>無功德人</form><def><p id="pX29p0543b1005" place="inline" rend="margin-left:1em">論云無<note n="0543004" resp="Xuzangjing" place="foot text" type="orig">寶疑實</note>寶功德增上慢人於第一乘不
 <lb ed="X" n="0543b11"/>曾修習諸善根本聞第一乘心中不取說毉師治今
 <lb ed="X" n="0543b12"/>消無功德者未入位人。</p></def></entry>
 <lb ed="X" n="0543b13"/><entry><form>理似不成</form><def><p id="pX29p0543b1305" place="inline" rend="margin-left:1em">七喻只是喻施權開權天親論主所用
@@ -4336,7 +4341,7 @@ X29 轉自 basicx
 <lb ed="X" n="0543c10"/><entry><form>亦合證</form><def><p id="pX29p0543c1004" place="inline" rend="margin-left:1em">合應作引謂指我等今者真是聲聞引證
 <lb ed="X" n="0543c11"/>文也。</p></def></entry>
 <lb ed="X" n="0543c12"/><entry><form>利益妙後</form><def><p id="pX29p0543c1205" place="inline" rend="margin-left:1em">彼云因緣所生法即空是中上草小樹
-<lb ed="X" n="0543c13"/><anchor id="fnX29p0543c05"/>樹等益即假是大樹益即中是一實事益。</p></def></entry>
+<lb ed="X" n="0543c13"/><note n="0543005" resp="Xuzangjing" place="foot text" type="orig">剩一樹字歟</note>樹等益即假是大樹益即中是一實事益。</p></def></entry>
 <lb ed="X" n="0543c14"/><entry><form>四藥治見</form><def><p id="pX29p0543c1405" place="inline" rend="margin-left:1em">彼文四藥者即四念處也前三教念處
 <lb ed="X" n="0543c15"/>是權法治見圓教念處是實法治見若治思惑者四
 <lb ed="X" n="0543c16"/>藥亦三權一實準說可知。</p></def></entry>
@@ -4402,7 +4407,7 @@ X29 轉自 basicx
 <lb ed="X" n="0544c01"/>本是一因緣六塵遂成六識若約法論心者若無六
 <lb ed="X" n="0544c02"/>塵遂無六識。</p></def></entry>
 <lb ed="X" n="0544c03"/><entry><form>洿字</form><def><p id="pX29p0544c0303" place="inline" rend="margin-left:1em">本是哀都切今記主為合用窊字遂作烏華
-<lb ed="X" n="0544c04"/>切下<anchor id="fnX29p0544c01"/>注字並烏華切。</p></def></entry>
+<lb ed="X" n="0544c04"/>切下<note n="0544001" resp="Xuzangjing" place="foot text" type="orig">注疑洼</note>注字並烏華切。</p></def></entry>
 <lb ed="X" n="0544c05"/><entry><form>涇渭&CB04440;&CB05908;澧澇</form><def><p id="pX29p0544c0507" place="inline" rend="margin-left:1em">並如字。</p></def></entry>
 <lb ed="X" n="0544c06"/><entry><form>與彼陰入不即不離</form><def><p id="pX29p0544c0609" place="inline" rend="margin-left:1em">涅槃經中五陰神我謂之六
 <lb ed="X" n="0544c07"/>法以六法與正緣了不即不離輔行云不即故非不
@@ -4418,7 +4423,7 @@ X29 轉自 basicx
 <lb ed="X" n="0544c17"/><entry><form>無電無雷之雨</form><def><p id="pX29p0544c1707" place="inline" rend="margin-left:1em">藏通二佛所說之法。</p></def></entry>
 <lb ed="X" n="0544c18"/><entry><form>無雨之雲</form><def><p id="pX29p0544c1805" place="inline" rend="margin-left:1em">下疏中云應身不說法如須扇多及多
 <lb ed="X" n="0544c19"/>寶佛以此雲不含潤故。</p></def></entry>
-<lb ed="X" n="0544c20"/><entry><form>不須用華嚴中六天四域</form><def><p id="pX29p0544c2011" place="inline" rend="margin-left:1em">彼經<anchor id="fnX29p0544c02"/>婆竭羅龍王降雨
+<lb ed="X" n="0544c20"/><entry><form>不須用華嚴中六天四域</form><def><p id="pX29p0544c2011" place="inline" rend="margin-left:1em">彼經<note n="0544002" resp="Xuzangjing" place="foot text" type="orig">婆疑娑</note>婆竭羅龍王降雨
 <lb ed="X" n="0544c21"/>六天四域形色不同他化如天香華化樂如詹蔔兜
 <lb ed="X" n="0544c22"/>率如摩尼寶夜摩如幢蓋忉利如如意珠四天王如
 <lb ed="X" n="0544c23"/>甘膳北俱盧如瓔珞東勝身及西牛貨並如薝蔔南
@@ -4532,7 +4537,7 @@ X29 轉自 basicx
 <lb ed="X" n="0546b05"/>百句解脫。</p></def></entry>
 <lb ed="X" n="0546b06"/><entry><form>光宅諸文皆破三祇</form><def><p id="pX29p0546b0609" place="inline" rend="margin-left:1em">如玄義引光宅謂狹下短是
 <lb ed="X" n="0546b07"/>也云菩薩伏惑未出三界是位下只伏四住是短等。</p></def></entry>
-<lb ed="X" n="0546b08"/><entry><form>事理&CB00642;收</form><def><p id="pX29p0546b0805" place="inline" rend="margin-left:1em">事謂草<anchor id="fnX29p0546b01"/>水理謂地雨。</p></def></entry>
+<lb ed="X" n="0546b08"/><entry><form>事理&CB00642;收</form><def><p id="pX29p0546b0805" place="inline" rend="margin-left:1em">事謂草<note n="0546001" resp="Xuzangjing" place="foot text" type="orig">水疑木</note>水理謂地雨。</p></def></entry>
 <lb ed="X" n="0546b09"/><entry><form>疏不如長行開譬如合次第</form><def><p id="pX29p0546b0912" place="inline" rend="margin-left:1em">長行開合參差偈文
 <lb ed="X" n="0546b10"/>開合齊整。</p></def></entry>
 <lb ed="X" n="0546b11"/><entry><form>新經乃至尚非自報</form><def><p id="pX29p0546b1109" place="inline" rend="margin-left:1em">斥唐譯華嚴不善梵音謂若
@@ -4572,7 +4577,7 @@ X29 轉自 basicx
 <lb ed="X" n="0546c20"/><entry><form>瑜伽尚別</form><def><p id="pX29p0546c2005" place="inline" rend="margin-left:1em">亦不可小乘位行而判釋之。</p></def></entry>
 <lb ed="X" n="0546c21"/><entry><form>開譬頌初<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>云汝等迦葉</form><def><p id="pX29p0546c2111" place="inline" rend="margin-left:1em">汝等迦葉本是長行復
 <lb ed="X" n="0546c22"/>宗文也記云偈初耳。</p></def></entry>
-<lb ed="X" n="0546c23"/><entry><form>先以日月譬用<anchor id="fnX29p0546c02"/>歡佛智</form><def><p id="pX29p0546c2310" place="inline" rend="margin-left:1em">經云譬如日月光明照於
+<lb ed="X" n="0546c23"/><entry><form>先以日月譬用<note n="0546002" resp="Xuzangjing" place="foot text" type="orig">歡疑歎</note>歡佛智</form><def><p id="pX29p0546c2310" place="inline" rend="margin-left:1em">經云譬如日月光明照於
 <lb ed="X" n="0546c24"/>世間若作善若作不善若高處若下處若香若臭諸
 <pb ed="X" id="X29.0597.0547a" n="0547a"/>
 <lb ed="X" n="0547a01"/>處平等光照無偏如是迦葉如來應正&CB00642;知一切智
@@ -4717,7 +4722,7 @@ X29 轉自 basicx
 <lb ed="X" n="0548c15"/>用表真俗修托事觀。</p></def></entry>
 <lb ed="X" n="0548c16"/><entry><form>疏請轉滿教</form><def><p id="pX29p0548c1606" place="inline" rend="margin-left:1em">經云為分別顯示令得是智慧與華
 <lb ed="X" n="0548c17"/>嚴談佛慧同。</p></def></entry>
-<lb ed="X" n="0548c18"/><entry><form><anchor id="fnX29p0548c01"/>諸轉半教</form><def><p id="pX29p0548c1805" place="inline" rend="margin-left:1em">東方偈云以大慈悲力度苦惱眾生東
+<lb ed="X" n="0548c18"/><entry><form><note n="0548001" resp="Xuzangjing" place="foot text" type="orig">諸疑請</note>諸轉半教</form><def><p id="pX29p0548c1805" place="inline" rend="margin-left:1em">東方偈云以大慈悲力度苦惱眾生東
 <lb ed="X" n="0548c19"/>南方偈云顯示諸法相度苦惱眾生以三藏教初厭
 <lb ed="X" n="0548c20"/>苦故餘兩偈意並半教語。</p></def></entry>
 <lb ed="X" n="0548c21"/><entry><form>請轉對半明滿</form><def><p id="pX29p0548c2107" place="inline" rend="margin-left:1em">經云擊于大法鼓而吹大法螺普
@@ -4748,7 +4753,7 @@ X29 轉自 basicx
 <lb ed="X" n="0549a21"/>處是事理合修緣念處是&CB00642;緣一切境法後證果時
 <lb ed="X" n="0549a22"/>成三種解脫羅漢謂慧俱無疑也如次以對三念處。</p></def></entry>
 <lb ed="X" n="0549a23"/><entry><form>具足事定</form><def><p id="pX29p0549a2305" place="inline" rend="margin-left:1em">觀練熏修。</p></def></entry>
-<lb ed="X" n="0549a24"/><entry><form>經第四說法時</form><def><p id="pX29p0549a2407" place="inline" rend="margin-left:1em">如涅槃經云我初為五比丘<anchor id="fnX29p0549a01"/>輔法
+<lb ed="X" n="0549a24"/><entry><form>經第四說法時</form><def><p id="pX29p0549a2407" place="inline" rend="margin-left:1em">如涅槃經云我初為五比丘<note n="0549001" resp="Xuzangjing" place="foot text" type="orig">輔疑轉</note>輔法
 <pb ed="X" id="X29.0597.0549b" n="0549b"/>
 <lb ed="X" n="0549b01"/>輪次為耶奢富那五比丘次為郁伽長者五十人次
 <lb ed="X" n="0549b02"/>為頻婆娑羅王無量人次為優樓頻羅迦葉五百人
@@ -4776,7 +4781,7 @@ X29 轉自 basicx
 <lb ed="X" n="0549b24"/>餘土若別圓二教所化斷有為盡見真中道無為未
 <pb ed="X" id="X29.0597.0549c" n="0549c"/>
 <lb ed="X" n="0549c01"/>盡為此所化取果報土若圓教所化無為將盡為此
-<lb ed="X" n="0549c02"/>所化取<anchor id="fnX29p0549c02"/>最光土政此乃以四三二一教下多上少用
+<lb ed="X" n="0549c02"/>所化取<note n="0549002" resp="Xuzangjing" place="foot text" type="orig">最疑寂</note>最光土政此乃以四三二一教下多上少用
 <lb ed="X" n="0549c03"/>對四土成&CB00594;。</p></def></entry>
 <lb ed="X" n="0549c04"/><entry><form>見三得法戒</form><def><p id="pX29p0549c0406" place="inline" rend="margin-left:1em">俱舍疏云且見道位見前三諦於一
 <lb ed="X" n="0549c05"/>一諦各得法戒二種證淨證三諦法緣彼起信有法
@@ -4842,7 +4847,7 @@ X29 轉自 basicx
 <lb ed="X" n="0550b15"/>外亦荒服外<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上並輔行文。</p></def></entry>
 <lb ed="X" n="0550b16"/><entry><form>疏但取三種開為五百</form><def><p id="pX29p0550b1610" place="inline" rend="margin-left:1em">是開分段為三百足變易
 <lb ed="X" n="0550b17"/>中間以為五百。</p></def></entry>
-<lb ed="X" n="0550b18"/><entry><form>合反出流來</form><def><p id="pX29p0550b1806" place="inline" rend="margin-left:1em">向<anchor id="fnX29p0550b01"/>皆雖異真妄同源故且合論。</p></def></entry>
+<lb ed="X" n="0550b18"/><entry><form>合反出流來</form><def><p id="pX29p0550b1806" place="inline" rend="margin-left:1em">向<note n="0550001" resp="Xuzangjing" place="foot text" type="orig">皆疑背</note>皆雖異真妄同源故且合論。</p></def></entry>
 <lb ed="X" n="0550b19"/><entry><form>疏六地與二乘齊功</form><def><p id="pX29p0550b1909" place="inline" rend="margin-left:1em">記云共行又云非別知是通
 <lb ed="X" n="0550b20"/>菩薩也且不可以玄文借別名通用別第六地齊二
 <lb ed="X" n="0550b21"/>乘也然七<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>辦地方通惑盡可齊其功今言六者八
@@ -4921,7 +4926,7 @@ X29 轉自 basicx
 <lb ed="X" n="0551b19"/>欲事若持上品戒好聞上品乘後以人天身於淨土
 <lb ed="X" n="0551b20"/>中唯聞圓實持上品戒好聞中乘後以人天身於淨
 <lb ed="X" n="0551b21"/>土中或聞通別持上品戒好聞下品乘後以人天身
-<lb ed="X" n="0551b22"/>於淨土中聞說<anchor id="fnX29p0551b01"/>若空中下二品乘戒各三準說。</p></def></entry>
+<lb ed="X" n="0551b22"/>於淨土中聞說<note n="0551001" resp="Xuzangjing" place="foot text" type="orig">若疑苦</note>若空中下二品乘戒各三準說。</p></def></entry>
 <lb ed="X" n="0551b23"/><entry><form>十類眾生</form><def><p id="pX29p0551b2305" place="inline" rend="margin-left:1em">十善各四謂自行十善教他行十善洎
 <lb ed="X" n="0551b24"/>見作隨喜成四十類。</p></def></entry>
 <pb ed="X" id="X29.0597.0551c" n="0551c"/>
@@ -4936,7 +4941,7 @@ X29 轉自 basicx
 <lb ed="X" n="0551c09"/>二義。</p></def></entry>
 <lb ed="X" n="0551c10"/><entry><form>十種瑩治</form><def><p id="pX29p0551c1005" place="inline" rend="margin-left:1em">二十一云如摩尼珠具足十事能出生
 <lb ed="X" n="0551c11"/>一切一出大海中二巧匠加治三檀清沙四除垢乃
-<lb ed="X" n="0551c12"/>至第十<anchor id="fnX29p0551c02"/>墮意雨寶。</p></def></entry>
+<lb ed="X" n="0551c12"/>至第十<note n="0551002" resp="Xuzangjing" place="foot text" type="orig">墮應作隨</note>墮意雨寶。</p></def></entry>
 <lb ed="X" n="0551c13"/><entry><form>亦唯在穢</form><def><p id="pX29p0551c1305" place="inline" rend="margin-left:1em">有作穢土消文且三周結緣之機又何
 <lb ed="X" n="0551c14"/>&CB00573;在穢土耶今恐穢字誤只是佛字&CB00528;中指大通為
 <lb ed="X" n="0551c15"/>首上中二周結此。</p></def></entry>
@@ -4961,7 +4966,7 @@ X29 轉自 basicx
 <lb ed="X" n="0552a09"/>他修四法須四行中修止觀者疏云若初心欲修圓
 <lb ed="X" n="0552a10"/>行入濁弘經為濁所惱自行不立亦無化功。</p></def></entry>
 <lb ed="X" n="0552a11"/><entry><form>中例可知</form><def><p id="pX29p0552a1105" place="inline" rend="margin-left:1em">前五後三既論通別後結品名當知四
-<lb ed="X" n="0552a12"/>行亦應<anchor id="fnX29p0552a01"/>知是。</p></def></entry>
+<lb ed="X" n="0552a12"/>行亦應<note n="0552001" resp="Xuzangjing" place="foot text" type="orig">知疑如</note>知是。</p></def></entry>
 <lb ed="X" n="0552a13"/><entry><form>前判通別次從通四</form><def><p id="pX29p0552a1309" place="inline" rend="margin-left:1em">前別者三業自行誓願化他
 <lb ed="X" n="0552a14"/>化也從通者修四行者通名法師品。</p></def></entry>
 <lb ed="X" n="0552a15"/><entry><form>故知自他亦有通別</form><def><p id="pX29p0552a1509" place="inline" rend="margin-left:1em">指前五四三中之自他而為
@@ -5020,7 +5025,7 @@ X29 轉自 basicx
 <lb ed="X" n="0552c18"/>與菩提記成佛者亦在他日耳。</p></def></entry>
 <lb ed="X" n="0552c19"/><entry><form>大師誦經觀法</form><def><p id="pX29p0552c1907" place="inline" rend="margin-left:1em">誦經法大略云夫欲誦經先觀所
 <lb ed="X" n="0552c20"/>坐之座高廣皆有天龍四眾然後出聲誦經觀此四
-<lb ed="X" n="0552c21"/>眾為是<anchor id="fnX29p0552c02"/>寶有為先從想生四眾不有無我能誦是名
+<lb ed="X" n="0552c21"/>眾為是<note n="0552002" resp="Xuzangjing" place="foot text" type="orig">寶疑實</note>寶有為先從想生四眾不有無我能誦是名
 <lb ed="X" n="0552c22"/>空觀雖無所誦經而有經卷紙墨之字雖非內外不
 <lb ed="X" n="0552c23"/>離內外雖非經卷不離經卷從始至終名不可思議
 <lb ed="X" n="0552c24"/>能作此解名為三觀一心乃至於誦經中滿足六度
@@ -5045,13 +5050,13 @@ X29 轉自 basicx
 <lb ed="X" n="0553a18"/>讚自在也亦名中義即隨定具足也。</p></def></entry>
 <lb ed="X" n="0553a19"/><entry><form>從勝立名</form><def><p id="pX29p0553a1905" place="inline" rend="margin-left:1em">從圓釋信。</p></def></entry>
 <lb ed="X" n="0553a20"/><entry><form>向以人為魚兔等</form><def><p id="pX29p0553a2008" place="inline" rend="margin-left:1em">注家以魚兔喻二乘人也昔二
-<lb ed="X" n="0553a21"/>乘人與生身佛斷惑證真是同故曰齊功筌<anchor id="fnX29p0553a01"/>第喻大
+<lb ed="X" n="0553a21"/>乘人與生身佛斷惑證真是同故曰齊功筌<note n="0553001" resp="Xuzangjing" place="foot text" type="orig">第疑&CB01385;</note>第喻大
 <lb ed="X" n="0553a22"/>乘教也今持詞句即是法身舍利精瑩不朽故曰等
 <lb ed="X" n="0553a23"/>妙記主斥云雖詞為筌&CB04590;若不曰開顯還同阿含當
 <lb ed="X" n="0553a24"/>知持今經者是同法佛共宿如其不然還與丈六生
 <pb ed="X" id="X29.0597.0553b" n="0553b"/>
 <lb ed="X" n="0553b01"/>身齊耳。</p></def></entry>
-<lb ed="X" n="0553b02"/><entry><form>十七名中</form><def><p id="pX29p0553b0205" place="inline" rend="margin-left:1em">論云法華有十七異名第十二名<anchor id="fnX29p0553b02"/>&CB00594;固
+<lb ed="X" n="0553b02"/><entry><form>十七名中</form><def><p id="pX29p0553b0205" place="inline" rend="margin-left:1em">論云法華有十七異名第十二名<note n="0553002" resp="Xuzangjing" place="foot text" type="orig">&CB00594;應作堅</note>&CB00594;固
 <lb ed="X" n="0553b03"/>舍利餘名前文<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>箋。</p></def></entry>
 <lb ed="X" n="0553b04"/><entry><form>約真之緣了等</form><def><p id="pX29p0553b0407" place="inline" rend="margin-left:1em">約真是修性乍分即真是修性體
 <lb ed="X" n="0553b05"/>一分時常一一時常分故云全性成修。</p></def></entry>
@@ -5162,7 +5167,7 @@ X29 轉自 basicx
 <lb ed="X" n="0554c10"/><entry><form>五並業障攝約處唯除北約人除扇&CB00705;</form><def><p id="pX29p0554c1016" place="inline" rend="margin-left:1em">此之三句
 <lb ed="X" n="0554c11"/>是記主取論中語意結為句論中本云三州有無間
 <lb ed="X" n="0554c12"/>非餘扇&CB00705;等&CB00705;丑皆切今引俱舍疏釋云於北州及
-<lb ed="X" n="0554c13"/>餘道殺父母者皆無無間之<anchor id="fnX29p0554c01"/>葉扇&CB00705;者梵語也新俱
+<lb ed="X" n="0554c13"/>餘道殺父母者皆無無間之<note n="0554001" resp="Xuzangjing" place="foot text" type="orig">葉應作業</note>葉扇&CB00705;者梵語也新俱
 <lb ed="X" n="0554c14"/>舍疏翻為生是黃門中一若舊譯俱舍但云黃門當
 <lb ed="X" n="0554c15"/>知扇&CB00705;則黃門也疏又云除北州於餘三州唯女及
 <lb ed="X" n="0554c16"/>男造無間業非扇&CB00705;等謂北州人雖殺父母無無間
@@ -5189,7 +5194,7 @@ X29 轉自 basicx
 <lb ed="X" n="0555a12"/>之。</p></def></entry>
 <lb ed="X" n="0555a13"/><entry><form>疏不妄語是檀</form><def><p id="pX29p0555a1307" place="inline" rend="margin-left:1em">與人實語。</p></def></entry>
 <lb ed="X" n="0555a14"/><entry><form>不捨於離</form><def><p id="pX29p0555a1405" place="inline" rend="margin-left:1em">謂離攀緣心相續不斷故。</p></def></entry>
-<lb ed="X" n="0555a15"/><entry><form>六之與十開合不同</form><def><p id="pX29p0555a1509" place="inline" rend="margin-left:1em">六加方便及<anchor id="fnX29p0555a01"/>顯力智成十禪
+<lb ed="X" n="0555a15"/><entry><form>六之與十開合不同</form><def><p id="pX29p0555a1509" place="inline" rend="margin-left:1em">六加方便及<note n="0555001" resp="Xuzangjing" place="foot text" type="orig">顯疑願</note>顯力智成十禪
 <lb ed="X" n="0555a16"/>開為二禪有願智開願度有神通開力度般若開為
 <lb ed="X" n="0555a17"/>二般若有道種智開方便度有一切種智開智度。</p></def></entry>
 <lb ed="X" n="0555a18"/><entry><form>若校量過恒沙身</form><def><p id="pX29p0555a1808" place="inline" rend="margin-left:1em">金剛般若云若以恒沙身命布
@@ -5234,7 +5239,7 @@ X29 轉自 basicx
 <lb ed="X" n="0555c07"/>世界珍寶嚴飾一切大眾歎未曾有而皆自見坐寶
 <lb ed="X" n="0555c08"/>蓮華乃至佛攝神足世界如故等。</p></def></entry>
 <lb ed="X" n="0555c09"/><entry><form>疏南方緣熟宜以八相成道</form><def><p id="pX29p0555c0912" place="inline" rend="margin-left:1em">此土人天即時遙見
-<lb ed="X" n="0555c10"/>成道轉法輪兩相也<anchor id="fnX29p0555c02"/>苦餘六相彼土自當別見矣。</p></def></entry></div1>
+<lb ed="X" n="0555c10"/>成道轉法輪兩相也<note n="0555002" resp="Xuzangjing" place="foot text" type="orig">苦疑若下同</note>苦餘六相彼土自當別見矣。</p></def></entry></div1>
 <lb ed="X" n="0555c11"/><div1 type="other"><mulu type="其他" level="1" label="持品第十三"/><head>持品</head>
 <lb ed="X" n="0555c12"/><entry><form>二萬似為人</form><def><p id="pX29p0555c1206" place="inline" rend="margin-left:1em">二萬菩薩云惡世眾生善根轉少奉
 <lb ed="X" n="0555c13"/>命弘經令物生善故。</p></def></entry>
@@ -5297,7 +5302,7 @@ X29 轉自 basicx
 <lb ed="X" n="0556b20"/>善涼身止渴喻身意善膝跪手憑喻身口善此準喻
 <lb ed="X" n="0556b21"/>也。</p></def></entry>
 <lb ed="X" n="0556b22"/><entry><form>經為斯所輕言汝等皆是佛</form><def><p id="pX29p0556b2212" place="inline" rend="margin-left:1em">罵法有二謂善惡也
-<lb ed="X" n="0556b23"/>罵人為佛輕之甚矣十<anchor id="fnX29p0556b01"/>謂律云惡罵法有三初面罵
+<lb ed="X" n="0556b23"/>罵人為佛輕之甚矣十<note n="0556001" resp="Xuzangjing" place="foot text" type="orig">謂疑誦</note>謂律云惡罵法有三初面罵
 <lb ed="X" n="0556b24"/>者言汝是除糞人家生等二喻罵者言汝似除糞種
 <pb ed="X" id="X29.0597.0556c" n="0556c"/>
 <lb ed="X" n="0556c01"/>等三比罵者言我非除糞種乃至我非販賣殺牛羊
@@ -5521,7 +5526,7 @@ X29 轉自 basicx
 <lb ed="X" n="0559b15"/>但五十二耳每一數十倍增之謂一十百千萬億落
 <lb ed="X" n="0559b16"/>叉度落叉俱胝末那阿庾多大阿庾多那庾多大那
 <lb ed="X" n="0559b17"/>庾多&CB00425;羅那庾多大&CB00425;羅那庾多矜羯羅大矜羯羅
-<lb ed="X" n="0559b18"/>頻婆羅大頻婆羅阿<anchor id="fnX29p0559b01"/>門婆乃至第五十二阿<anchor id="fnX29p0559b02"/>僧今那
+<lb ed="X" n="0559b18"/>頻婆羅大頻婆羅阿<note n="0559001" resp="Xuzangjing" place="foot text" type="orig">門疑悶</note>門婆乃至第五十二阿<note n="0559002" resp="Xuzangjing" place="foot text" type="orig">僧下應有祇字</note>僧今那
 <lb ed="X" n="0559b19"/>由他即第十二那庾多也下藥王品中甄迦羅即矜
 <lb ed="X" n="0559b20"/>羯羅第十七數頻婆羅即第十八數阿&CB00434;婆即第二
 <lb ed="X" n="0559b21"/>十數也。</p></def></entry>
@@ -5546,7 +5551,7 @@ X29 轉自 basicx
 <lb ed="X" n="0559c15"/><entry><form>三節</form><def><p id="pX29p0559c1503" place="inline" rend="margin-left:1em">或是重語三周有三節段或指前譬本中通
 <lb ed="X" n="0559c16"/>貫三周作廣略三節義。</p></def></entry>
 <lb ed="X" n="0559c17"/><entry><form>法華&CB00528;說與眾經同</form><def><p id="pX29p0559c1709" place="inline" rend="margin-left:1em">&CB00528;中以圓為能開三教為所
-<lb ed="X" n="0559c18"/>開縱今經<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前有<anchor id="fnX29p0559c03"/>末開之異然其教法不出乎三不
+<lb ed="X" n="0559c18"/>開縱今經<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前有<note n="0559003" resp="Xuzangjing" place="foot text" type="orig">末疑未</note>末開之異然其教法不出乎三不
 <lb ed="X" n="0559c19"/>同華嚴兼別。</p></def></entry>
 <lb ed="X" n="0559c20"/><entry><form>今日一番之因</form><def><p id="pX29p0559c2007" place="inline" rend="margin-left:1em">十地因滿乃受識也。</p></def></entry>
 <lb ed="X" n="0559c21"/><entry><form>多是加菩薩說</form><def><p id="pX29p0559c2107" place="inline" rend="margin-left:1em">新經四十品除阿僧祇品及隨相
@@ -5584,7 +5589,7 @@ X29 轉自 basicx
 <lb ed="X" n="0560b03"/>不善法有覺有觀入初禪如是次第入二禪乃至滅
 <lb ed="X" n="0560b04"/>受想是名入也二出謂從滅受想定起倒入非有想
 <lb ed="X" n="0560b05"/>乃至初禪是名出也。</p></def></entry>
-<lb ed="X" n="0560b06"/><entry><form>超越</form><def><p id="pX29p0560b0603" place="inline" rend="margin-left:1em">一超入謂從初禪<anchor id="fnX29p0560b01"/>超入非有想非無想處非
+<lb ed="X" n="0560b06"/><entry><form>超越</form><def><p id="pX29p0560b0603" place="inline" rend="margin-left:1em">一超入謂從初禪<note n="0560001" resp="Xuzangjing" place="foot text" type="orig">超疑起</note>超入非有想非無想處非
 <lb ed="X" n="0560b07"/>有想非無想處起入滅受想處定二超出從滅受想
 <lb ed="X" n="0560b08"/>起入散心中散心中起入滅受想定滅受想定起還
 <lb ed="X" n="0560b09"/>住散心中散心中起入無所有處無所有處起住散
@@ -5765,7 +5770,7 @@ X29 轉自 basicx
 <lb ed="X" n="0562c09"/><entry><form>貫日之精</form><def><p id="pX29p0562c0905" place="inline" rend="margin-left:1em">瑞應經云菩薩初乘白象貫日之精普
 <lb ed="X" n="0562c10"/>耀經云入夫人胎如日現水又云其人中尊德超日
 <lb ed="X" n="0562c11"/>月在於胎中演金色光蔽於日月乘白象者普耀云
-<lb ed="X" n="0562c12"/>菩薩問天<anchor id="fnX29p0562c01"/>何以形貌降神母胎梵天強威白言梵典
+<lb ed="X" n="0562c12"/>菩薩問天<note n="0562001" resp="Xuzangjing" place="foot text" type="orig">何以疑寫倒</note>何以形貌降神母胎梵天強威白言梵典
 <lb ed="X" n="0562c13"/>所尊形象第一何以故三獸度水馬兔未知淺深用
 <lb ed="X" n="0562c14"/>譬未達法本象步盡底以譬大乘。</p></def></entry>
 <lb ed="X" n="0562c15"/><entry><form>七步不同</form><def><p id="pX29p0562c1505" place="inline" rend="margin-left:1em">南行七步示為眾生作上福田西行七
@@ -5951,7 +5956,7 @@ X29 轉自 basicx
 <lb ed="X" n="0565a20"/>三德云法身報身居自在天三目臂即摩醯首羅也
 <lb ed="X" n="0565a21"/>而能化身隨行大道。</p></def></entry>
 <lb ed="X" n="0565a22"/><entry><form>大小六義</form><def><p id="pX29p0565a2205" place="inline" rend="margin-left:1em">前<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>籤。</p></def></entry>
-<lb ed="X" n="0565a23"/><entry><form>未擣未<anchor id="fnX29p0565a01"/>節</form><def><p id="pX29p0565a2305" place="inline" rend="margin-left:1em">華嚴等大乘戒定慧法藥小乘人未能
+<lb ed="X" n="0565a23"/><entry><form>未擣未<note n="0565001" resp="Xuzangjing" place="foot text" type="orig">節疑篩次同</note>節</form><def><p id="pX29p0565a2305" place="inline" rend="margin-left:1em">華嚴等大乘戒定慧法藥小乘人未能
 <lb ed="X" n="0565a24"/>服服只以三三昧為行耳。</p></def></entry>
 <pb ed="X" id="X29.0597.0565b" n="0565b"/>
 <lb ed="X" n="0565b01"/><entry><form>空假中三準此可知</form><def><p id="pX29p0565b0109" place="inline" rend="margin-left:1em">未得妙空如來擣未證妙假
@@ -5997,14 +6002,14 @@ X29 轉自 basicx
 <lb ed="X" n="0565c16"/>世界菩薩於彼眾中而坐是中眾生一一有不可說
 <lb ed="X" n="0565c17"/>阿僧祇口一一口能出百千億那由他音同時發聲
 <lb ed="X" n="0565c18"/>各別言詞各別所問菩薩於一念中悉能領受皆為
-<lb ed="X" n="0565c19"/><anchor id="fnX29p0565c02"/>訓對令除疑惑如一會中於不可說眾會之中亦悉
+<lb ed="X" n="0565c19"/><note n="0565002" resp="Xuzangjing" place="foot text" type="orig">訓應作詶</note>訓對令除疑惑如一會中於不可說眾會之中亦悉
 <lb ed="X" n="0565c20"/>如是此聞持也。</p></def></entry>
 <lb ed="X" n="0565c21"/><entry><form>得樂說辯才入十迴向</form><def><p id="pX29p0565c2110" place="inline" rend="margin-left:1em">彼迴向品云菩薩得決定
 <lb ed="X" n="0565c22"/>辯才無盡藏演說一切佛平等法令諸眾生悉解了
 <lb ed="X" n="0565c23"/>故。</p></def></entry>
 <lb ed="X" n="0565c24"/><entry><form>得無量旋陀羅尼入初地</form><def><p id="pX29p0565c2411" place="inline" rend="margin-left:1em">若寄別義是旋假入中
 <pb ed="X" id="X29.0597.0566a" n="0566a"/>
-<lb ed="X" n="0566a01"/>能持善不失故名<anchor id="fnX29p0566a01"/>觀喜彼十地品云菩薩住此地念
+<lb ed="X" n="0566a01"/>能持善不失故名<note n="0566001" resp="Xuzangjing" place="foot text" type="orig">觀應作歡</note>觀喜彼十地品云菩薩住此地念
 <lb ed="X" n="0566a02"/>諸佛故生歡喜念諸佛法故生歡喜念諸菩薩故生
 <lb ed="X" n="0566a03"/>歡喜念菩薩行念諸波羅蜜念諸菩薩地殊勝乃至
 <lb ed="X" n="0566a04"/>云斷一切惡趣故生歡喜菩薩得歡喜地<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>五種怖
@@ -6012,7 +6017,7 @@ X29 轉自 basicx
 <lb ed="X" n="0566a06"/><entry><form>得清淨入三地</form><def><p id="pX29p0566a0607" place="inline" rend="margin-left:1em">彼經云菩薩住發光地觀一切法
 <lb ed="X" n="0566a07"/>不生不滅於無量億那由他劫不積集故邪貪邪嗔
 <lb ed="X" n="0566a08"/>邪癡悉得斷除所有善根轉更明淨譬如真金善巧
-<lb ed="X" n="0566a09"/>鍊治<anchor id="fnX29p0566a02"/>種量不滅轉更明淨。</p></def></entry>
+<lb ed="X" n="0566a09"/>鍊治<note n="0566002" resp="Xuzangjing" place="foot text" type="orig">種疑稱</note>種量不滅轉更明淨。</p></def></entry>
 <lb ed="X" n="0566a10"/><entry><form>無生<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>去</form><def><p id="pX29p0566a1005" place="inline" rend="margin-left:1em">約惑以論多番。</p></def></entry>
 <lb ed="X" n="0566a11"/><entry><form>不可即云四十二念</form><def><p id="pX29p0566a1109" place="inline" rend="margin-left:1em">既云無量念且無四十二念
 <lb ed="X" n="0566a12"/>以至妙覺。</p></def></entry>
@@ -6061,7 +6066,7 @@ X29 轉自 basicx
 <lb ed="X" n="0566c05"/>別法也其法有五十番羯磨是也兩行共有一百八
 <lb ed="X" n="0566c06"/>十四番。</p></def></entry>
 <lb ed="X" n="0566c07"/><entry><form>五篇</form><def><p id="pX29p0566c0703" place="inline" rend="margin-left:1em">一波羅夷僧祇翻極惡二僧伽婆尸沙善見
-<lb ed="X" n="0566c08"/>翻眾初殘三波逸提翻墮四提舍尼翻向<anchor id="fnX29p0566c03"/>被悔五突
+<lb ed="X" n="0566c08"/>翻眾初殘三波逸提翻墮四提舍尼翻向<note n="0566003" resp="Xuzangjing" place="foot text" type="orig">被疑彼</note>被悔五突
 <lb ed="X" n="0566c09"/>吉羅翻惡作。</p></def></entry>
 <lb ed="X" n="0566c10"/><entry><form>七篇</form><def><p id="pX29p0566c1003" place="inline" rend="margin-left:1em">一波羅夷二眾初殘三偷蘭遮四波逸提五
 <lb ed="X" n="0566c11"/>提舍尼六惡作七惡說。</p></def></entry>
@@ -6113,7 +6118,7 @@ X29 轉自 basicx
 <lb ed="X" n="0567b07"/><entry><form>及隨喜後位</form><def><p id="pX29p0567b0706" place="inline" rend="margin-left:1em">五品入十信。</p></def></entry>
 <lb ed="X" n="0567b08"/><entry><form>好堅</form><def><p id="pX29p0567b0803" place="inline" rend="margin-left:1em">大論第十問諸佛功德無能勝者一切天地
 <lb ed="X" n="0567b09"/>誰可為尊梵王答云佛為無上無過佛者譬如一樹
-<lb ed="X" n="0567b10"/>名曰好<anchor id="fnX29p0567b01"/>&CB00594;在地百年枝葉具足一日出生枝葉悉具
+<lb ed="X" n="0567b10"/>名曰好<note n="0567001" resp="Xuzangjing" place="foot text" type="orig">&CB00594;應作堅</note>&CB00594;在地百年枝葉具足一日出生枝葉悉具
 <lb ed="X" n="0567b11"/>等。</p></def></entry>
 <lb ed="X" n="0567b12"/><entry><form>疏比是格劣</form><def><p id="pX29p0567b1206" place="inline" rend="margin-left:1em">經中四百萬億財法兩施正是比況
 <lb ed="X" n="0567b13"/>格量第五十人之劣。</p></def></entry>
@@ -6139,11 +6144,11 @@ X29 轉自 basicx
 <lb ed="X" n="0567c08"/><entry><form>若有想</form><def><p id="pX29p0567c0804" place="inline" rend="margin-left:1em">外道凡夫祈神禱祀存立形影終身奉事
 <lb ed="X" n="0567c09"/>經中謂鬼神精靈之類。</p></def></entry>
 <lb ed="X" n="0567c10"/><entry><form>若無想</form><def><p id="pX29p0567c1004" place="inline" rend="margin-left:1em">外道計無情有命金石堅固或習定&CB01926;凝
-<lb ed="X" n="0567c11"/>思專枯<anchor id="fnX29p0567c02"/>橋化物成身若黃頭外道恐身死往問自在
+<lb ed="X" n="0567c11"/>思專枯<note n="0567002" resp="Xuzangjing" place="foot text" type="orig">橋疑槁</note>橋化物成身若黃頭外道恐身死往問自在
 <lb ed="X" n="0567c12"/>天天令往頻陀山取餘甘子食之延壽食<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>乃於林
-<lb ed="X" n="0567c13"/>中化為石<anchor id="fnX29p0567c03"/>囑其徒曰吾沒後有人難者當書石上後
+<lb ed="X" n="0567c13"/>中化為石<note n="0567003" resp="Xuzangjing" place="foot text" type="orig">囑疑屬</note>囑其徒曰吾沒後有人難者當書石上後
 <lb ed="X" n="0567c14"/>陳那書難詞於石上石不能答遂吼碎又如晉書張
-<lb ed="X" n="0567c15"/>華時燕昭王墓有<anchor id="fnX29p0567c04"/>孤謂華表曰我聞張司空多學欲
+<lb ed="X" n="0567c15"/>華時燕昭王墓有<note n="0567004" resp="Xuzangjing" place="foot text" type="orig">孤應作狐</note>孤謂華表曰我聞張司空多學欲
 <lb ed="X" n="0567c16"/>往手之以為如何對曰我聞張司空者博物君子也
 <lb ed="X" n="0567c17"/>非但損子亦乃禍吾狐不聽奉刺投華華與論天下
 <lb ed="X" n="0567c18"/>人物多為所折天欲雨辭去華固留之謂左右曰我
@@ -6157,8 +6162,8 @@ X29 轉自 basicx
 <lb ed="X" n="0568a01"/>後令證支佛百千億分不及其一前第二記<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>箋。</p></def></entry>
 <lb ed="X" n="0568a02"/><entry><form>經褰縮</form><def><p id="pX29p0568a0204" place="inline" rend="margin-left:1em">上去乾切舉也下所六切短也。</p></def></entry>
 <lb ed="X" n="0568a03"/><entry><form>胗</form><def><p id="pX29p0568a0302" place="inline" rend="margin-left:1em">章忍切脣上瘡也又說文云脣瘍也。</p></def></entry>
-<lb ed="X" n="0568a04"/><entry><form>咼</form><def><p id="pX29p0568a0402" place="inline" rend="margin-left:1em"><anchor id="fnX29p0568a01"/>若牌切口戾也謂斜戾。</p></def></entry>
-<lb ed="X" n="0568a05"/><entry><form>窊</form><def><p id="pX29p0568a0502" place="inline" rend="margin-left:1em"><anchor id="fnX29p0568a02"/>鳥瓜切凹說文云污<anchor id="fnX29p0568a03"/>衷也記中作窳蓋寫誤窳
+<lb ed="X" n="0568a04"/><entry><form>咼</form><def><p id="pX29p0568a0402" place="inline" rend="margin-left:1em"><note n="0568001" resp="Xuzangjing" place="foot text" type="orig">若疑苦</note>若牌切口戾也謂斜戾。</p></def></entry>
+<lb ed="X" n="0568a05"/><entry><form>窊</form><def><p id="pX29p0568a0502" place="inline" rend="margin-left:1em"><note n="0568002" resp="Xuzangjing" place="foot text" type="orig">＊烏疑烏（烏&M062447;本文&M062443;鳥&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>鳥瓜切凹說文云污<note n="0568003" resp="Xuzangjing" place="foot text" type="orig">衷疑戾</note>衷也記中作窳蓋寫誤窳
 <lb ed="X" n="0568a06"/>音愈非也。</p></def></entry>
 <lb ed="X" n="0568a07"/><entry><form>大師有時依普賢觀</form><def><p id="pX29p0568a0709" place="inline" rend="margin-left:1em">如玄文云普賢觀五品在六
 <lb ed="X" n="0568a08"/>根內明意稍難見而釋籤不解令疏中每一品開為
@@ -6195,7 +6200,7 @@ X29 轉自 basicx
 <lb ed="X" n="0568b14"/><entry><form>聲八種</form><def><p id="pX29p0568b1404" place="inline" rend="margin-left:1em">前持品中<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>箋。</p></def></entry>
 <lb ed="X" n="0568b15"/><entry><form>人天等因</form><def><p id="pX29p0568b1505" place="inline" rend="margin-left:1em">人修戒善所感五塵則麤天修禪定所
 <lb ed="X" n="0568b16"/>感五塵則細。</p></def></entry>
-<lb ed="X" n="0568b17"/><entry><form>更應多並</form><def><p id="pX29p0568b1705" place="inline" rend="margin-left:1em">一常一無常一思<anchor id="fnX29p0568b04"/>識一不思議。</p></def></entry>
+<lb ed="X" n="0568b17"/><entry><form>更應多並</form><def><p id="pX29p0568b1705" place="inline" rend="margin-left:1em">一常一無常一思<note n="0568004" resp="Xuzangjing" place="foot text" type="orig">識應作議</note>識一不思議。</p></def></entry>
 <lb ed="X" n="0568b18"/><entry><form>此中三業即是六根</form><def><p id="pX29p0568b1809" place="inline" rend="margin-left:1em">只約安樂行以明十善則<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0568b19"/>攝六根清淨人也疏中云五種法師悉具六根清淨
 <lb ed="X" n="0568b20"/>而別明三業此成繁&CB01206;。</p></def></entry>
@@ -6276,13 +6281,13 @@ X29 轉自 basicx
 <lb ed="X" n="0569b20"/>治理一第一義。</p></def></entry>
 <lb ed="X" n="0569b21"/><entry><form>威熱無比</form><def><p id="pX29p0569b2105" place="inline" rend="margin-left:1em">根淨與值佛。</p></def></entry>
 <lb ed="X" n="0569b22"/><entry><form>化佛親說詮&CB00980;空身</form><def><p id="pX29p0569b2209" place="inline" rend="margin-left:1em">化即應佛也&CB00980;空身者而與
-<lb ed="X" n="0569b23"/>下句空身不類或恐指修安<anchor id="fnX29p0569b01"/>安樂行者觀一切法猶
+<lb ed="X" n="0569b23"/>下句空身不類或恐指修安<note n="0569001" resp="Xuzangjing" place="foot text" type="orig">剩一安字歟</note>安樂行者觀一切法猶
 <lb ed="X" n="0569b24"/>如&CB00980;空或恐身字是法字耳學者詳之。</p></def></entry>
 <pb ed="X" id="X29.0597.0569c" n="0569c"/>
 <lb ed="X" n="0569c01"/><entry><form>此乃&CB00980;空身說詮於化事</form><def><p id="pX29p0569c0111" place="inline" rend="margin-left:1em">&CB00980;空身者經云於&CB00980;空
 <lb ed="X" n="0569c02"/>中具聞威音王佛所說等化事者後更增壽命為四
 <lb ed="X" n="0569c03"/>眾說法復化千萬億眾。</p></def></entry>
-<lb ed="X" n="0569c04"/><entry><form>或抑或覆</form><def><p id="pX29p0569c0405" place="inline" rend="margin-left:1em">抑二乘覆圓<anchor id="fnX29p0569c02"/>寶。</p></def></entry>
+<lb ed="X" n="0569c04"/><entry><form>或抑或覆</form><def><p id="pX29p0569c0405" place="inline" rend="margin-left:1em">抑二乘覆圓<note n="0569002" resp="Xuzangjing" place="foot text" type="orig">寶疑實</note>寶。</p></def></entry>
 <lb ed="X" n="0569c05"/><entry><form>廣略準知</form><def><p id="pX29p0569c0505" place="inline" rend="margin-left:1em">二十千萬偈與二十四字耳。</p></def></entry>
 <lb ed="X" n="0569c06"/><entry><form>禮知法者</form><def><p id="pX29p0569c0605" place="inline" rend="margin-left:1em">如來性品迦葉白佛若有長宿護持禁
 <lb ed="X" n="0569c07"/>戒從年少邊咨受未聞當禮敬否出家人從在家人
@@ -6489,7 +6494,7 @@ X29 轉自 basicx
 <lb ed="X" n="0572b08"/>稱名觀世音菩薩觀世即時觀等。</p></def></entry>
 <lb ed="X" n="0572b09"/><entry><form>疏果報火地獄<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上初禪<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>還</form><def><p id="pX29p0572b0913" place="inline" rend="margin-left:1em">疏云阿鼻隔子八
 <lb ed="X" n="0572b10"/>萬四千內外洞徹上下交炎餓鬼支節煙起畜生燠
-<lb ed="X" n="0572b11"/>&CB00827;<anchor id="fnX29p0572b01"/>陽炭修羅亦有火難人中焚燒現見若至劫燒須
+<lb ed="X" n="0572b11"/>&CB00827;<note n="0572001" resp="Xuzangjing" place="foot text" type="orig">陽疑湯</note>陽炭修羅亦有火難人中焚燒現見若至劫燒須
 <lb ed="X" n="0572b12"/>彌洞然初禪<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下無免火災。</p></def></entry>
 <lb ed="X" n="0572b13"/><entry><form>惡業火</form><def><p id="pX29p0572b1304" place="inline" rend="margin-left:1em">隨有改惡修善之處若五戒十善多為惡
 <lb ed="X" n="0572b14"/>業所難經云燒諸善根無過瞋恚術婆伽為欲火所
@@ -6505,7 +6510,7 @@ X29 轉自 basicx
 <lb ed="X" n="0572b24"/>楞嚴經云此三千大千世界現住世間諸法王子有
 <pb ed="X" id="X29.0597.0572c" n="0572c"/>
 <lb ed="X" n="0572c01"/>六十二恒河沙數修法垂範教化眾生。</p></def></entry>
-<lb ed="X" n="0572c02"/><entry><form>疏格六十二億<anchor id="fnX29p0572c02"/>&CB00642;菩薩等一圓菩薩</form><def><p id="pX29p0572c0215" place="inline" rend="margin-left:1em">別行疏中釋
+<lb ed="X" n="0572c02"/><entry><form>疏格六十二億<note n="0572002" resp="Xuzangjing" place="foot text" type="orig">&CB00642;疑偏</note>&CB00642;菩薩等一圓菩薩</form><def><p id="pX29p0572c0215" place="inline" rend="margin-left:1em">別行疏中釋
 <lb ed="X" n="0572c03"/>之或異彼云田有高下薄瘠所致如供百初果不如
 <lb ed="X" n="0572c04"/>一二果乃至無學此亦非嘆德之意乃是以下比高
 <lb ed="X" n="0572c05"/>法應優劣耳今明一多性不可得無有二相二則非
@@ -6554,10 +6559,10 @@ X29 轉自 basicx
 <lb ed="X" n="0573a23"/>音此一音字空智境也。</p></def></entry>
 <lb ed="X" n="0573a24"/><entry><form>或品似大益有大小</form><def><p id="pX29p0573a2409" place="inline" rend="margin-left:1em">如淨佛國品五百長者得無
 <pb ed="X" id="X29.0597.0573b" n="0573b"/>
-<lb ed="X" n="0573b01"/>生忍此益大也求聲聞乘三萬二千人<anchor id="fnX29p0573b01"/>智有為法皆
+<lb ed="X" n="0573b01"/>生忍此益大也求聲聞乘三萬二千人<note n="0573001" resp="Xuzangjing" place="foot text" type="orig">智與知通</note>智有為法皆
 <lb ed="X" n="0573b02"/>悉無常得法眼淨此益小也。</p></def></entry>
 <lb ed="X" n="0573b03"/><entry><form>或品似小益有大小</form><def><p id="pX29p0573b0309" place="inline" rend="margin-left:1em">如弟子品目連章中云法住
-<lb ed="X" n="0573b04"/>實除諸邊不動故法無動搖不依六<anchor id="fnX29p0573b02"/>鹿故說是法時
+<lb ed="X" n="0573b04"/>實除諸邊不動故法無動搖不依六<note n="0573002" resp="Xuzangjing" place="foot text" type="orig">鹿疑塵</note>鹿故說是法時
 <lb ed="X" n="0573b05"/>時八百居士發菩提心此益大也須菩提章中云不
 <lb ed="X" n="0573b06"/>著文字文字性離是則解脫說是法時二百天子得
 <lb ed="X" n="0573b07"/>法眼淨疏云是悟通教即空之理得入見道真中分
