@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X38n0690.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2006/10/09 00:26:25 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2007/07/10 03:50:56 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/10/09 00:26:25 $</date>
+		<date>$Date: 2007/07/10 03:50:56 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 38, No. 690 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X38n0690.xml,v $
+Revision 1.2  2007/07/10 03:50:56  amtbgrace
+modified: 校注插入 XML
+
 Revision 1.1  2006/10/09 00:26:25  duncan
 10/9 轉自basicx
 
@@ -63,9 +68,9 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0534a02"/><head type="no">No. 690</head>
 <lb ed="X" n="0534a03"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead>梵網經疏上</jhead></juan>
 <lb ed="X" n="0534a04"/>
-<lb ed="X" n="0534a05"/><byline type="author">法銑　<anchor id="fnX38p0534a01"/>撰</byline>
-<lb ed="X" n="0534a06"/><div1><p id="pX38p0534a0601"><anchor id="fnX38p0534a02"/>將釋此文即是隨智之戒能破無明喻之於日隨心
-<lb ed="X" n="0534a07"/>之戒清&CB00289;適神比之於月<anchor id="fnX38p0534a03"/>隨戒之嚴身可觀故如瓔
+<lb ed="X" n="0534a05"/><byline type="author">法銑　<note n="0534001" resp="Xuzangjing" place="foot text" type="orig">撰號新加</note>撰</byline>
+<lb ed="X" n="0534a06"/><div1><p id="pX38p0534a0601"><note n="0534002" resp="Xuzangjing" place="foot text" type="orig">將一作正</note>將釋此文即是隨智之戒能破無明喻之於日隨心
+<lb ed="X" n="0534a07"/>之戒清&CB00289;適神比之於月<note n="0534003" resp="Xuzangjing" place="foot text" type="orig">隨字疑衍</note>隨戒之嚴身可觀故如瓔
 <lb ed="X" n="0534a08"/>珞次約人辨勝者三世菩薩由戒道成以此彰戒威
 <lb ed="X" n="0534a09"/>力也是謂指前無勞妄改。</p>
 <lb ed="X" n="0534a10"/><p id="pX38p0534a1001">次彰益勸修文中分四初有九句&CB00330;聽勸持次有五
@@ -78,7 +83,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0534a17"/>聽聽若不審則有謬聞之失錯傳之過故令諦聽靜
 <lb ed="X" n="0534a18"/>察為諦尋聲曰聽此句正令諦聽下之二句出所聽
 <lb ed="X" n="0534a19"/>法戒者所詮之行藏者能詮之教即戒之藏故如開
-<lb ed="X" n="0534a20"/>宗<anchor id="fnX38p0534a04"/>斛木叉同前第二勸信中三義初之一句教令諦
+<lb ed="X" n="0534a20"/>宗<note n="0534004" resp="Xuzangjing" place="foot text" type="orig">斛疑解</note>斛木叉同前第二勸信中三義初之一句教令諦
 <lb ed="X" n="0534a21"/>信次有二句出所信境自信作佛決定無疑即是唯
 <lb ed="X" n="0534a22"/>識論中希望之信信佛是<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成之佛決定無疑即是
 <lb ed="X" n="0534a23"/>唯識論中樂欲之信信者心淨為性即十一善中信
@@ -86,7 +91,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <pb ed="X" id="X38.0690.0534b" n="0534b"/>
 <lb ed="X" n="0534b01"/>法不生即名具戒故涅槃云戒者<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>是遮惡法若不
 <lb ed="X" n="0534b02"/>作惡是名持戒第三勸受有其二義初有二句勸令
-<lb ed="X" n="0534b03"/>受戒下有四句彰受<anchor id="fnX38p0534b05"/>之益初勸受中以凡有心皆有
+<lb ed="X" n="0534b03"/>受戒下有四句彰受<note n="0534005" resp="Xuzangjing" place="foot text" type="orig">一無之益初勸受五疑</note>之益初勸受中以凡有心皆有
 <lb ed="X" n="0534b04"/>佛性有佛性故必定成佛故堪受此大乘之戒攝者
 <lb ed="X" n="0534b05"/>受也無煩&CB00364;改下明益中言入佛位者以未受時名
 <lb ed="X" n="0534b06"/>為外道令創受戒與佛齊功名入佛位以其戒善量
@@ -101,20 +106,20 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0534b15"/>結戒相三序口光表瑞四序大眾敬聽初中爾時者
 <lb ed="X" n="0534b16"/>是此化佛從報佛所領戒&CB00230;還至此之時故云爾時
 <lb ed="X" n="0534b17"/>也初坐菩提樹下者舉時處也初即時樹下舉處唯
-<lb ed="X" n="0534b18"/>上偈中成佛<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後方接塵眾詣報佛聽戒<anchor id="fnX38p0534b06"/>復還道場
-<lb ed="X" n="0534b19"/>方誦本戒今言初者以成佛竟未<anchor id="fnX38p0534b07"/>法餘處未說餘經
+<lb ed="X" n="0534b18"/>上偈中成佛<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後方接塵眾詣報佛聽戒<note n="0534006" resp="Xuzangjing" place="foot text" type="orig">復一作後</note>復還道場
+<lb ed="X" n="0534b19"/>方誦本戒今言初者以成佛竟未<note n="0534007" resp="Xuzangjing" place="foot text" type="orig">法疑往</note>法餘處未說餘經
 <lb ed="X" n="0534b20"/>此經在初於樹下說第二七日方說華嚴此舉誦戒
 <lb ed="X" n="0534b21"/>之時意不在成佛也。</p>
 <lb ed="X" n="0534b22"/><p id="pX38p0534b2201">次序戒相於中有二初辨結戒次會異名以此戒中
 <lb ed="X" n="0534b23"/>定其犯目位列防非故名為結以初誦出名為初結
-<lb ed="X" n="0534b24"/>非是初制名初結也兼異聲聞<anchor id="fnX38p0534b08"/>持犯藉請然後制戒
+<lb ed="X" n="0534b24"/>非是初制名初結也兼異聲聞<note n="0534008" resp="Xuzangjing" place="foot text" type="orig">持疑待</note>持犯藉請然後制戒
 <pb ed="X" id="X38.0690.0534c" n="0534c"/>
-<lb ed="X" n="0534c01"/>五年<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後方結木叉過十二年方說廣教問所以<anchor id="fnX38p0534c09"/>不
+<lb ed="X" n="0534c01"/>五年<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後方結木叉過十二年方說廣教問所以<note n="0534009" resp="Xuzangjing" place="foot text" type="orig">一無不字</note>不
 <lb ed="X" n="0534c02"/>同者答菩薩是本三世同行聲聞戒末諸佛或異又
 <lb ed="X" n="0534c03"/>復菩薩之戒經生不失聲聞之戒唯盡一形又復菩
 <lb ed="X" n="0534c04"/>薩利根聞即能受聲聞根鈍預制謗生以斯三義初
-<lb ed="X" n="0534c05"/><anchor id="fnX38p0534c10"/>復不等波羅提木叉如前所解此示戒名孝順等者
-<lb ed="X" n="0534c06"/>教其起行念<anchor id="fnX38p0534c11"/>思敬養名之為孝受遵教命名之為順
+<lb ed="X" n="0534c05"/><note n="0534010" resp="Xuzangjing" place="foot text" type="orig">復一作後</note>復不等波羅提木叉如前所解此示戒名孝順等者
+<lb ed="X" n="0534c06"/>教其起行念<note n="0534011" resp="Xuzangjing" place="foot text" type="orig">思一作恩</note>思敬養名之為孝受遵教命名之為順
 <lb ed="X" n="0534c07"/>父母等者出孝順境父母謂是生育恩也師僧有訓
 <lb ed="X" n="0534c08"/>導恩也三寶即是救護恩也不知恩德無異畜生豈
 <lb ed="X" n="0534c09"/>名大乘菩薩也父母有二一現生父母二過去父母
@@ -136,14 +141,14 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <pb ed="X" id="X38.0690.0535a" n="0535a"/>
 <lb ed="X" n="0535a01"/>和合有二一者世和合名聲聞僧二者第一義和合
 <lb ed="X" n="0535a02"/>名菩薩僧又攝用從體但翻為眾此經下云孝順父
-<lb ed="X" n="0535a03"/>母師眾若體用合翻於僧即智論云秦言<anchor id="fnX38p0535a01"/>眾多比丘
+<lb ed="X" n="0535a03"/>母師眾若體用合翻於僧即智論云秦言<note n="0535001" resp="Xuzangjing" place="foot text" type="orig">眾多一作多眾</note>眾多比丘
 <lb ed="X" n="0535a04"/>和合一處是名僧伽孝順即是辨孝功能眾行之先
 <lb ed="X" n="0535a05"/>故名至道次會異名者由孝順故能滅諸惡順教無
 <lb ed="X" n="0535a06"/>違即名持戒故云孝順名為戒又能禁勤身心制御
-<lb ed="X" n="0535a07"/>諸惡復名制止<anchor id="fnX38p0535a02"/>制即止故故云制止。</p>
+<lb ed="X" n="0535a07"/>諸惡復名制止<note n="0535002" resp="Xuzangjing" place="foot text" type="orig">一無制即止三字</note>制即止故故云制止。</p>
 <lb ed="X" n="0535a08"/><p id="pX38p0535a0801">三放光表瑞者令生信也又戒能破惡如光滅暗故
 <lb ed="X" n="0535a09"/>先放光將說戒故次文云是故戒光從口出。</p>
-<lb ed="X" n="0535a10"/><p id="pX38p0535a1001">四序眾敬聽有云由前放光令眾集者今<anchor id="fnX38p0535a03"/>現文意<anchor id="fnX38p0535a04"/>先
+<lb ed="X" n="0535a10"/><p id="pX38p0535a1001">四序眾敬聽有云由前放光令眾集者今<note n="0535003" resp="Xuzangjing" place="foot text" type="orig">現一作觀</note>現文意<note n="0535004" resp="Xuzangjing" place="foot text" type="orig">先作眾</note>先
 <lb ed="X" n="0535a11"/>集也如其未集前與誰說教令孝順今解此中大眾
 <lb ed="X" n="0535a12"/>即是前接往舍那所之徒眾也未接往前應有集眾
 <lb ed="X" n="0535a13"/>文中略無文中分二初先舉眾次合掌下正明敬聽
@@ -152,7 +157,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0535a16"/>輔三大梵正理釋云廣善所生故名為梵梵即大故
 <lb ed="X" n="0535a17"/>名為大梵由彼獲得中間定故最初生故最後歿故
 <lb ed="X" n="0535a18"/>威德勝故故名為大大梵所領故名梵眾於大梵前
-<lb ed="X" n="0535a19"/><anchor id="fnX38p0535a05"/>所列侍衛故名梵輔今解十八皆離欲故名之為梵
+<lb ed="X" n="0535a19"/><note n="0535005" resp="Xuzangjing" place="foot text" type="orig">所一作行</note>所列侍衛故名梵輔今解十八皆離欲故名之為梵
 <lb ed="X" n="0535a20"/>二禪三天一少光二無量光三極光淨正理云自地
 <lb ed="X" n="0535a21"/>天內光明最小故名少光光明轉勝量難測故名無
 <lb ed="X" n="0535a22"/>量光光明遍照自地處故名極光淨三禪三天一少
@@ -179,7 +184,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0535b18"/>妙高山頂帝釋居中四面各有八臣總成三十三梵
 <lb ed="X" n="0535b19"/>云忉利三夜摩天此經云&CB08504;此云時分受五欲境有
 <lb ed="X" n="0535b20"/>時分故<note place="inline">晝夜八時</note>四都史多舊云兜率此云知足於五欲
-<lb ed="X" n="0535b21"/>境生知足故五樂變化天謂彼天中樂變<anchor id="fnX38p0535b06"/>號境於中
+<lb ed="X" n="0535b21"/>境生知足故五樂變化天謂彼天中樂變<note n="0535006" resp="Xuzangjing" place="foot text" type="orig">號或作欲次同</note>號境於中
 <lb ed="X" n="0535b22"/>受用六他化自在天所受號境餘天為化得自在故
 <lb ed="X" n="0535b23"/>十六國者如長阿含說一央伽國二摩竭國三迦尸
 <lb ed="X" n="0535b24"/>國四居薩羅國五&CB02494;祇國六未羅國七支提國八&CB02494;
@@ -193,7 +198,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0535c07"/>攝在第一菩薩眾中故智論云若菩薩必在四眾中
 <lb ed="X" n="0535c08"/>有四眾不入菩薩眾中何以故是人不發菩薩心言
 <lb ed="X" n="0535c09"/>我當作佛故今聽此戒皆是大心是故攝在菩薩眾
-<lb ed="X" n="0535c10"/>中又復多是地前菩薩化佛機故又復三界<anchor id="fnX38p0535c07"/>無色天
+<lb ed="X" n="0535c10"/>中又復多是地前菩薩化佛機故又復三界<note n="0535007" resp="Xuzangjing" place="foot text" type="orig">無上一有無字</note>無色天
 <lb ed="X" n="0535c11"/>以無緣故仁王具有故彼文云佛放大光照三界中
 <lb ed="X" n="0535c12"/>復頂上出千寶蓮華上至非想非非想天光亦復爾
 <lb ed="X" n="0535c13"/>時無色界雨無量變大香花香如車輪花如須彌山
@@ -202,7 +207,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0535c16"/>告迦葉無色天是有為數無色天有色迦葉白佛無
 <lb ed="X" n="0535c17"/>色天有色是佛境界非我等境界涅槃經亦同准此
 <lb ed="X" n="0535c18"/>望於凡夫及以二乘名為無色非彼見故約佛所觀
-<lb ed="X" n="0535c19"/>而實有色又約五趣而無地<anchor id="fnX38p0535c08"/>獄陀羅尼經有神&CB00057;拔
+<lb ed="X" n="0535c19"/>而實有色又約五趣而無地<note n="0535008" resp="Xuzangjing" place="foot text" type="orig">一無地字</note>獄陀羅尼經有神&CB00057;拔
 <lb ed="X" n="0535c20"/>苦故彼經有修大乘心必須容預故使此無又無八
 <lb ed="X" n="0535c21"/>部無緣故也。</p>
 <lb ed="X" n="0535c22"/><p id="pX38p0535c2201">上來列眾以下敬聽合掌身恭至心誠篤聽佛誦等
@@ -223,7 +228,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0536a12"/>諸佛之法故云諸佛法戒自下勸他以十信初創求
 <lb ed="X" n="0536a13"/>大道名為發心故仁王經言十善菩薩發大心長別
 <lb ed="X" n="0536a14"/>三界苦輪海以信初心超於後九而舉十住文云乃
-<lb ed="X" n="0536a15"/>至十住是三賢之初入位之始堪成當果故云發<anchor id="fnX38p0536a01"/>超
+<lb ed="X" n="0536a15"/>至十住是三賢之初入位之始堪成當果故云發<note n="0536001" resp="Xuzangjing" place="foot text" type="orig">超一作趣</note>超
 <lb ed="X" n="0536a16"/>十行轉勝增益善根故云長養十迴向轉更堅固名
 <lb ed="X" n="0536a17"/>曰金剛十地能生一切德行故名為地此釋通名次
 <lb ed="X" n="0536a18"/>釋別名言十信者瓔珞經謂信心念心精進心慧心
@@ -234,7 +239,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0536a23"/>大小根有利鈍行有勤惰不可一准准瓔珞經若一
 <lb ed="X" n="0536a24"/>劫等明知不定起信仁王舉其極遠於中若進若退
 <pb ed="X" id="X38.0690.0536b" n="0536b"/>
-<lb ed="X" n="0536b01"/>故經十千又十住婆沙有現<anchor id="fnX38p0536b02"/>師不退故彼問云若佛
+<lb ed="X" n="0536b01"/>故經十千又十住婆沙有現<note n="0536002" resp="Xuzangjing" place="foot text" type="orig">師字恐誤</note>師不退故彼問云若佛
 <lb ed="X" n="0536b02"/>所說有易行道疾得至阿惟越致地方便願為說之
 <lb ed="X" n="0536b03"/>答曰如汝所說是儜弱怯劣無有大心非是丈夫至
 <lb ed="X" n="0536b04"/>幹之言也若必欲聞此方便者今當說之佛法有無
@@ -248,15 +253,15 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0536b12"/>故三者忍心有無相慧體性一切空空忍一切處忍
 <lb ed="X" n="0536b13"/>名無生行忍四者進心若四威儀一切時行伏空假
 <lb ed="X" n="0536b14"/>會法性蹬無生山五者定心寂滅無相無量行無量
-<lb ed="X" n="0536b15"/>心三昧六者慧心空慧非無緣<anchor id="fnX38p0536b03"/>智體名心分別一切
-<lb ed="X" n="0536b16"/>法假名主者與道通<anchor id="fnX38p0536b04"/>洞七者願心以無量妙行願求
+<lb ed="X" n="0536b15"/>心三昧六者慧心空慧非無緣<note n="0536003" resp="Xuzangjing" place="foot text" type="orig">一無智等四字</note>智體名心分別一切
+<lb ed="X" n="0536b16"/>法假名主者與道通<note n="0536004" resp="Xuzangjing" place="foot text" type="orig">洞一作同</note>洞七者願心以無量妙行願求
 <lb ed="X" n="0536b17"/>菩提無量功德以求為本八者護心護三寶護一切
 <lb ed="X" n="0536b18"/>行功德使外道八倒惡邪見不嬈九者喜心見他人
 <lb ed="X" n="0536b19"/>得樂常生喜悅也十者頂心是人最上智如人頂滅
-<lb ed="X" n="0536b20"/>我見見等文云諸佛當知從是十發趣入<anchor id="fnX38p0536b05"/>賢法忍中
+<lb ed="X" n="0536b20"/>我見見等文云諸佛當知從是十發趣入<note n="0536005" resp="Xuzangjing" place="foot text" type="orig">賢一作堅</note>賢法忍中
 <lb ed="X" n="0536b21"/>十長養心向果一者慈心使一切眾生得慈樂果二
 <lb ed="X" n="0536b22"/>者悲心救一切眾生無量苦故三者喜心悅喜無生
-<lb ed="X" n="0536b23"/>使諸眾生入佛法<anchor id="fnX38p0536b06"/>家常起歡喜四者捨心無造無相
+<lb ed="X" n="0536b23"/>使諸眾生入佛法<note n="0536006" resp="Xuzangjing" place="foot text" type="orig">家下一有法中二字</note>家常起歡喜四者捨心無造無相
 <lb ed="X" n="0536b24"/>空法中於善惡二中平等一照五者施心財施法施
 <pb ed="X" id="X38.0690.0536c" n="0536c"/>
 <lb ed="X" n="0536c01"/>皆如如相六者好語心謂入愛語三昧以聖法語教
@@ -284,7 +289,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0536c23"/>慧方便道智中見諸眾生無非苦諦觀四諦法度眾
 <lb ed="X" n="0536c24"/>生苦三體性光明地以三明解了智知三世一切佛
 <pb ed="X" id="X38.0690.0537a" n="0537a"/>
-<lb ed="X" n="0537a01"/>法門十二分教等四體性爾<anchor id="fnX38p0537a01"/>涅槃地謂此地修七覺
+<lb ed="X" n="0537a01"/>法門十二分教等四體性爾<note n="0537001" resp="Xuzangjing" place="foot text" type="orig">涅槃疑炎</note>涅槃地謂此地修七覺
 <lb ed="X" n="0537a02"/>品入善權方便化一切眾使見佛體常樂我淨經文
 <lb ed="X" n="0537a03"/>又云爾真&CB08504;俗不斷不常梵云爾&CB08504;此云智母即真
 <lb ed="X" n="0537a04"/>俗境能生智故名為智母五體性慧照地有十種力
@@ -295,15 +300,15 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0537a09"/>非色非男非女形天他心智知眾生心天人智知眾
 <lb ed="X" n="0537a10"/>生宿世苦樂等天解脫智知眾生解脫天定智知眾
 <lb ed="X" n="0537a11"/>生心定不定等天覺智知一切眾生<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成佛未成佛
-<lb ed="X" n="0537a12"/>天念智知眾生受命久近天<anchor id="fnX38p0537a02"/>行智知賢聖行願七體
+<lb ed="X" n="0537a12"/>天念智知眾生受命久近天<note n="0537002" resp="Xuzangjing" place="foot text" type="orig">行一作願</note>行智知賢聖行願七體
 <lb ed="X" n="0537a13"/>性滿足地謂十八不共聖人智品下地所不共於一
-<lb ed="X" n="0537a14"/>切國土中示現作佛八體性佛<anchor id="fnX38p0537a03"/>乳地入法王位三昧
+<lb ed="X" n="0537a14"/>切國土中示現作佛八體性佛<note n="0537003" resp="Xuzangjing" place="foot text" type="orig">乳疑吼</note>乳地入法王位三昧
 <lb ed="X" n="0537a15"/>其智知佛乳三昧故為大法師破壞四魔入佛境界
 <lb ed="X" n="0537a16"/>九體性佛華嚴地以佛威儀如來三昧自在王定出
 <lb ed="X" n="0537a17"/>入無時於十方三千世界一時成佛十體性佛境界
 <lb ed="X" n="0537a18"/>地其大慧空空復空如&CB00980;空平等智神&CB00980;體一法同
 <lb ed="X" n="0537a19"/>法性故名如來爾時坐寶蓮華一切佛與授記手摩
-<lb ed="X" n="0537a20"/>其頂瑜伽云應知此中由能攝持菩<anchor id="fnX38p0537a04"/>薩義故說名為
+<lb ed="X" n="0537a20"/>其頂瑜伽云應知此中由能攝持菩<note n="0537004" resp="Xuzangjing" place="foot text" type="orig">薩疑提</note>薩義故說名為
 <lb ed="X" n="0537a21"/>地唯識云總攝有為無為功德以為自性與所修行
 <lb ed="X" n="0537a22"/>為勝依持令得生長故名為地問何故三賢十聖名
 <lb ed="X" n="0537a23"/>義不同答三賢十地位歷三祇時既久長行願非一
@@ -343,7 +348,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0537c07"/>次非色心者若約戒教文字性離無有文字故非色
 <lb ed="X" n="0537c08"/>心若約所受亦即空故而非色心又解無表戒體依
 <lb ed="X" n="0537c09"/>思種立無質礙故非色無緣慮故非心故涅槃云雖
-<lb ed="X" n="0537c10"/>無形色而可護持雖無觸對善<anchor id="fnX38p0537c05"/>脩方便可得具足三
+<lb ed="X" n="0537c10"/>無形色而可護持雖無觸對善<note n="0537005" resp="Xuzangjing" place="foot text" type="orig">脩一作備</note>脩方便可得具足三
 <lb ed="X" n="0537c11"/>離有無者從緣無性即緣非戒離緣無戒非即非離
 <lb ed="X" n="0537c12"/>中間亦無故非有也然則有此離相之戒故云非無
 <lb ed="X" n="0537c13"/>故天親般若論云以無物故名無法相空無我理非
@@ -351,7 +356,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0537c15"/>果者以無自性因果俱空故非因果故中論云若法
 <lb ed="X" n="0537c16"/>因待成是法還成待今則無因待亦無所成法又約
 <lb ed="X" n="0537c17"/>戒教以佛悲願為因故非因能成眾菩薩之果故非
-<lb ed="X" n="0537c18"/>果也若約所受以菩<anchor id="fnX38p0537c06"/>薩心而為因故故非因以能成
+<lb ed="X" n="0537c18"/>果也若約所受以菩<note n="0537006" resp="Xuzangjing" place="foot text" type="orig">薩疑提次同</note>薩心而為因故故非因以能成
 <lb ed="X" n="0537c19"/>就菩薩故果故非果也雖有二義文中戒光從於口
 <lb ed="X" n="0537c20"/>出又次下文勸令應誦以教為戒也次彰戒勝於中
 <lb ed="X" n="0537c21"/>三句初句戒雖非果而能剋果故云諸佛之本原此
@@ -359,12 +364,12 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0537c23"/>薩之根本第三通為大眾之本前約位高此約初位
 <lb ed="X" n="0537c24"/>故為兩句此二約因以顯勝也自下結勸修學是大
 <pb ed="X" id="X38.0690.0538a" n="0538a"/>
-<lb ed="X" n="0538a01"/>眾等舉所<anchor id="fnX38p0538a01"/>學受持如前背文為誦尋義進脩並名為
+<lb ed="X" n="0538a01"/>眾等舉所<note n="0538001" resp="Xuzangjing" place="foot text" type="orig">學上一有勸字</note>學受持如前背文為誦尋義進脩並名為
 <lb ed="X" n="0538a02"/>學。</p>
 <lb ed="X" n="0538a03"/><p id="pX38p0538a0301">自下第三辨機勸受佛子諦聽警眾&CB00330;聽若欲受戒
 <lb ed="X" n="0538a04"/>者辨情所為國王以下明受之機文列十八變化人
 <lb ed="X" n="0538a05"/>者即龍鬼等而能變形本形惟得恐變不得故別舉
-<lb ed="X" n="0538a06"/>之但解法師語辨得之由以法師語是增上<anchor id="fnX38p0538a02"/>慢緣雖
+<lb ed="X" n="0538a06"/>之但解法師語辨得之由以法師語是增上<note n="0538002" resp="Xuzangjing" place="foot text" type="orig">慢字疑剩</note>慢緣雖
 <lb ed="X" n="0538a07"/>有受心無緣不發即是牛羊等類中邊不同皆不發
 <lb ed="X" n="0538a08"/>戒亦猶有種無雨而不生牙皆名第一清淨者辨得
 <lb ed="X" n="0538a09"/>之益以其三聚戒具兼防意惡以對聲聞皆名第一
@@ -389,7 +394,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0538b03"/>第五明其次第第六辨其遮性第七明其犯境第八
 <lb ed="X" n="0538b04"/>明其輕重第九彰其來報第十諸部相攝。</p>
 <lb ed="X" n="0538b05"/><p id="pX38p0538b0501">初門犯因者犯此十重三毒為因若論究竟者殺毀
-<lb ed="X" n="0538b06"/>及瞋由瞋究竟盜妄說過三<anchor id="fnX38p0538b03"/>報究竟婬慳酤酒自讚
+<lb ed="X" n="0538b06"/>及瞋由瞋究竟盜妄說過三<note n="0538003" resp="Xuzangjing" place="foot text" type="orig">報或作根下同</note>報究竟婬慳酤酒自讚
 <lb ed="X" n="0538b07"/>由貪究竟謗之一戒由癡究竟殺三起者優婆塞戒
 <lb ed="X" n="0538b08"/>經云若為貪故害命是名從貪若殺怨家是名從嗔
 <lb ed="X" n="0538b09"/>殺老父母是名從癡皆起害心由瞋究竟盜三起者
@@ -416,23 +421,23 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0538c05"/>心願當屬我名貪所生貪欲業道若於財物不計為
 <lb ed="X" n="0538c06"/>好<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>九慳事故起如是心凡彼所有皆當屬我名瞋
 <lb ed="X" n="0538c07"/>所生若作是計諸有欲生釋梵世主妙世界中獲大
-<lb ed="X" n="0538c08"/>福祐多癡所生義解慳三若&CB00736;財物擬<anchor id="fnX38p0538c04"/>死自恣是從
+<lb ed="X" n="0538c08"/>福祐多癡所生義解慳三若&CB00736;財物擬<note n="0538004" resp="Xuzangjing" place="foot text" type="orig">死或作充</note>死自恣是從
 <lb ed="X" n="0538c09"/>貪起瞋他不施是從瞋生謂施無福是從癡生並暢
 <lb ed="X" n="0538c10"/>貪情由貪究竟瞋三起者若為財利稱譽安樂起損
 <lb ed="X" n="0538c11"/>害心名貪所生從怨對想起損害心名瞋所生住外
 <lb ed="X" n="0538c12"/>道法於正沙門增惡他見及壞彼見兼疑害人名癡
 <lb ed="X" n="0538c13"/>所生然約究竟皆瞋現前故瞋究竟謗即邪見從三
-<lb ed="X" n="0538c14"/>起者若作是心撥無<anchor id="fnX38p0538c05"/>與彼於王等獲大供養即以此
+<lb ed="X" n="0538c14"/>起者若作是心撥無<note n="0538005" resp="Xuzangjing" place="foot text" type="orig">與上一有施字</note>與彼於王等獲大供養即以此
 <lb ed="X" n="0538c15"/>義起於邪見名貪所生邪見業道若作是心若言有
 <lb ed="X" n="0538c16"/>施違害於我彼由增恚起於邪見言無有施名瞋所
-<lb ed="X" n="0538c17"/>生由不如理觀察由此方便所<anchor id="fnX38p0538c06"/>引尋伺發起邪見名
+<lb ed="X" n="0538c17"/>生由不如理觀察由此方便所<note n="0538006" resp="Xuzangjing" place="foot text" type="orig">引下一有起於邪見四字</note>引尋伺發起邪見名
 <lb ed="X" n="0538c18"/>癡所生依於瑜伽由癡究竟若依四分諸戒皆有癡
-<lb ed="X" n="0538c19"/>心究竟以彼文中有愚癡五犯又更一義若約位<anchor id="fnX38p0538c07"/>齊
+<lb ed="X" n="0538c19"/>心究竟以彼文中有愚癡五犯又更一義若約位<note n="0538007" resp="Xuzangjing" place="foot text" type="orig">齊疑高</note>齊
 <lb ed="X" n="0538c20"/>起心即犯十戒皆以三報究竟。</p>
 <lb ed="X" n="0538c21"/><p id="pX38p0538c2101">次約犯具所謂三業此十戒中初三及五皆亦依身
 <lb ed="X" n="0538c22"/>犯語有犯義所謂教人殺兼道意如仙人起瞋然屬
-<lb ed="X" n="0538c23"/>身業妄說毀謗此四語犯然妄三業現相即身說<anchor id="fnX38p0538c08"/>戒
-<lb ed="X" n="0538c24"/>默<anchor id="fnX38p0538c09"/>妄即屬意業然屬語業業性異故不究竟故慳瞋
+<lb ed="X" n="0538c23"/>身業妄說毀謗此四語犯然妄三業現相即身說<note n="0538008" resp="Xuzangjing" place="foot text" type="orig">戒一作或</note>戒
+<lb ed="X" n="0538c24"/>默<note n="0538009" resp="Xuzangjing" place="foot text" type="orig">妄一作然</note>妄即屬意業然屬語業業性異故不究竟故慳瞋
 <pb ed="X" id="X38.0690.0539a" n="0539a"/>
 <lb ed="X" n="0539a01"/>二戒是意業犯瞋通身業加以手打及以刀杖方成
 <lb ed="X" n="0539a02"/>犯故若位稍高獨意成犯。</p>
@@ -446,7 +451,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0539a10"/>或口說殺是名根本求刀毒等是名方便殺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>自食
 <lb ed="X" n="0539a11"/>若與人食歡喜受樂無悔恨心是名後起若自盜取
 <lb ed="X" n="0539a12"/>若教人取是名根本若壞垣墻入舍求索乃至手觸
-<lb ed="X" n="0539a13"/>是名方便若得物<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>任意施與賣用<anchor id="fnX38p0539a01"/>句遺心不悔恨
+<lb ed="X" n="0539a13"/>是名方便若得物<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>任意施與賣用<note n="0539001" resp="Xuzangjing" place="foot text" type="orig">句一作&CB13242;</note>句遺心不悔恨
 <lb ed="X" n="0539a14"/>是名成<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>若屬他婦女作非梵行是名根本若遣使
 <lb ed="X" n="0539a15"/>往若與信物若以手觸是名方便若事<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>訖共器飲
 <lb ed="X" n="0539a16"/>食歡喜受樂心無悔恨是名成<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>若於大眾捨離本
@@ -469,24 +474,24 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0539b08"/>物等同前瞋之與貪未得一時其餘八事可得一時
 <lb ed="X" n="0539b09"/>五次第者然聲聞戒待犯方制婬戒居先大妄居後
 <lb ed="X" n="0539b10"/>以依制戒為先後故此中先後者一以菩薩慈濟為
-<lb ed="X" n="0539b11"/>懷殺戒<anchor id="fnX38p0539b02"/>若首二順本業道以殺為初乃至第十謗戒
+<lb ed="X" n="0539b11"/>懷殺戒<note n="0539002" resp="Xuzangjing" place="foot text" type="orig">若作居</note>若首二順本業道以殺為初乃至第十謗戒
 <lb ed="X" n="0539b12"/>居後以不待犯即為制故故智論云一切寶中人命
 <lb ed="X" n="0539b13"/>第一人為命故求財不為財故求命是故佛說十不
 <lb ed="X" n="0539b14"/>善道中殺最在初五戒中亦在初若人種種修福德
 <lb ed="X" n="0539b15"/>而無不殺生戒則無所益何以故雖在富樂家生勢
-<lb ed="X" n="0539b16"/>力豪<anchor id="fnX38p0539b03"/>族而無壽命誰受富樂以是故<anchor id="fnX38p0539b04"/>知諸罪中殺罪
+<lb ed="X" n="0539b16"/>力豪<note n="0539003" resp="Xuzangjing" place="foot text" type="orig">族一作強</note>族而無壽命誰受富樂以是故<note n="0539004" resp="Xuzangjing" place="foot text" type="orig">一無知字</note>知諸罪中殺罪
 <lb ed="X" n="0539b17"/>最重諸功德中不殺第一世間惜命為第一下制意
 <lb ed="X" n="0539b18"/>中六須此意今解十惡身三業中重先輕後以為次
 <lb ed="X" n="0539b19"/>第殺重盜次婬最輕也口四過中約就稀數以明次
 <lb ed="X" n="0539b20"/>第妄語最數乃至第四惡口最稀意三亦然貪數瞋
 <lb ed="X" n="0539b21"/>次邪見最稀故先後也今十戒中前四後四依本業
 <lb ed="X" n="0539b22"/>道以為次第中間二戒別為俗制優婆塞戒經中於
-<lb ed="X" n="0539b23"/>俗人制於六重<anchor id="fnX38p0539b05"/>而此前六第五一戒為護前四故在
+<lb ed="X" n="0539b23"/>俗人制於六重<note n="0539005" resp="Xuzangjing" place="foot text" type="orig">而一作即</note>而此前六第五一戒為護前四故在
 <lb ed="X" n="0539b24"/>第五第六一戒令護佛法故次制之。</p>
 <pb ed="X" id="X38.0690.0539c" n="0539c"/>
 <lb ed="X" n="0539c01"/><p id="pX38p0539c0101">六遮性者酒戒為遮餘皆是性由佛禁故名之為遮
 <lb ed="X" n="0539c02"/>體是不善名之為性又世界中王等共禁名為本戒
-<lb ed="X" n="0539c03"/>佛教獨禁名為<anchor id="fnX38p0539c06"/>容<anchor id="fnX38p0539c07"/>名戒。</p>
+<lb ed="X" n="0539c03"/>佛教獨禁名為<note n="0539006" resp="Xuzangjing" place="foot text" type="orig">容疑客</note>容<note n="0539007" resp="Xuzangjing" place="foot text" type="orig">名字疑剩</note>名戒。</p>
 <lb ed="X" n="0539c04"/><p id="pX38p0539c0401">七明犯境於十戒中位分為二前八局性後二通二
 <lb ed="X" n="0539c05"/>以瞋戒中云於眾生中乃至非眾生中皆成犯也以
 <lb ed="X" n="0539c06"/>謗戒中佛僧有情法是非情文就情中說謗局人餘
@@ -504,7 +509,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0539c18"/>重非聖破戒是則為輕於父母師長及賢聖所起&CB00736;
 <lb ed="X" n="0539c19"/>應重餘則便輕嗔戒於賢聖父母師長是則為重餘
 <lb ed="X" n="0539c20"/>則便輕又嗔有情為重無情則輕三寶之中謗法最
-<lb ed="X" n="0539c21"/>重<anchor id="fnX38p0539c08"/>是佛次僧輕二約心者貪心為下嗔心為次癡心
+<lb ed="X" n="0539c21"/>重<note n="0539008" resp="Xuzangjing" place="foot text" type="orig">是下一有佛母故三字</note>是佛次僧輕二約心者貪心為下嗔心為次癡心
 <lb ed="X" n="0539c22"/>最重故優婆塞戒經云貪心殺生輕嗔心次癡心重
 <lb ed="X" n="0539c23"/>餘戒准同又善心不善及無記心不善為重無記為
 <lb ed="X" n="0539c24"/>次善心便輕戒獲功德如瑜伽說又瑜伽論有三品
@@ -527,14 +532,14 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0540a16"/>所言說人不信受<note place="inline">妄果</note>無有親厚<note place="inline">兩舌果</note>常被誹謗<note place="inline">惡口果</note>
 <lb ed="X" n="0540a17"/>耳不聞善好之聲<note place="inline">綺語果也上等流果也</note>能令外物四大衰微
 <lb ed="X" n="0540a18"/>無有真實惡風暴雨臭穢敗壞土地不平無有七寶
-<lb ed="X" n="0540a19"/>多有石沙味不具<anchor id="fnX38p0540a01"/>定<note place="inline">此增上果</note>然經不明意三報也婆沙
+<lb ed="X" n="0540a19"/>多有石沙味不具<note n="0540001" resp="Xuzangjing" place="foot text" type="orig">定疑足</note>定<note place="inline">此增上果</note>然經不明意三報也婆沙
 <lb ed="X" n="0540a20"/>云諸有貪欲從彼處沒來生人中貪欲猛利是等流
 <lb ed="X" n="0540a21"/>果所感外物多分損減是增上果諸有嗔恚來生人
 <lb ed="X" n="0540a22"/>中嗔恚猛利是等流果所感外物多分枯悴是增上
 <lb ed="X" n="0540a23"/>果諸有邪見來生人中愚癡猛利是等流果所感外
 <lb ed="X" n="0540a24"/>物多分零落乏少花&CB00031;或全無果是增上果。</p>
 <pb ed="X" id="X38.0690.0540b" n="0540b"/>
-<lb ed="X" n="0540b01"/><p id="pX38p0540b0101">十諸部相<anchor id="fnX38p0540b02"/>攝者依菩薩善戒經出家菩薩有八重戒
+<lb ed="X" n="0540b01"/><p id="pX38p0540b0101">十諸部相<note n="0540002" resp="Xuzangjing" place="foot text" type="orig">攝一作接</note>攝者依菩薩善戒經出家菩薩有八重戒
 <lb ed="X" n="0540b02"/>即此十中初四及後四是也以出家菩薩先受聲聞
 <lb ed="X" n="0540b03"/>戒具前四重後受菩薩戒更加後四故有八也二依
 <lb ed="X" n="0540b04"/>善生經在家菩薩有六重戒即此中初六是也三依
@@ -572,7 +577,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0540c11"/>罪違經律也加水之露斯之謂矣經文又云或有說
 <lb ed="X" n="0540c12"/>言若心在善不善無記悉得殺罪是義不然何以故
 <lb ed="X" n="0540c13"/>非惡心殺不得殺罪若使他殺受使之人到<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>更以
-<lb ed="X" n="0540c14"/>苦毒而殺口&CB00330;之者唯得作罪受使<anchor id="fnX38p0540c03"/>之兼得二罪作
+<lb ed="X" n="0540c14"/>苦毒而殺口&CB00330;之者唯得作罪受使<note n="0540003" resp="Xuzangjing" place="foot text" type="orig">之下疑脫人字</note>之兼得二罪作
 <lb ed="X" n="0540c15"/>以無作問殺既從緣則無自性無自性故應無有罪
 <lb ed="X" n="0540c16"/>答罪雖性空迷情執有故有罪根若證空理悲心行
 <lb ed="X" n="0540c17"/>殺如仙預王則無有罪二十唯識問曰若彼三界唯
@@ -587,7 +592,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0541a01"/>故偈言依種種因緣破失自心識故死依他心亦有
 <lb ed="X" n="0541a02"/>依自心以依仙人嗔毗摩質多羅阿修羅王故殺餘
 <lb ed="X" n="0541a03"/>眾生此依他心死問五陰生滅此不至彼云何受報
-<lb ed="X" n="0541a04"/>答善生經云是義不妨何以故我法或有即作<anchor id="fnX38p0541a01"/>是受
+<lb ed="X" n="0541a04"/>答善生經云是義不妨何以故我法或有即作<note n="0541001" resp="Xuzangjing" place="foot text" type="orig">是一作即</note>是受
 <lb ed="X" n="0541a05"/><note place="inline">現報</note>異作異受<note place="inline">後生報也人作天受</note>無作無受<note place="inline">約第一義無自性故也</note>汝意
 <lb ed="X" n="0541a06"/>若謂異陰異受云何復言相續不斷是義不然何以
 <lb ed="X" n="0541a07"/>故譬如置毒乳中至醍醐時故能殺人若言是業何
@@ -631,27 +636,27 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0541b20"/>又分七種一者闕緣方便違教成保言必假菩薩病
 <lb ed="X" n="0541b21"/>捨等生罪非究竟若約菩薩無捨戒法唯病救生二
 <lb ed="X" n="0541b22"/>緣辨闕二境強方便懷毒造境希望事成前境既強
-<lb ed="X" n="0541b23"/>殺等不遂三緣<anchor id="fnX38p0541b02"/>若方便<anchor id="fnX38p0541b03"/>造境成犯要藉眾緣緣既差
+<lb ed="X" n="0541b23"/>殺等不遂三緣<note n="0541002" resp="Xuzangjing" place="foot text" type="orig">若一作差</note>若方便<note n="0541003" resp="Xuzangjing" place="foot text" type="orig">無造字</note>造境成犯要藉眾緣緣既差
 <lb ed="X" n="0541b24"/>違殺等非遂四境差方便將欲起作事藉前境非情
 <pb ed="X" id="X38.0690.0541c" n="0541c"/>
-<lb ed="X" n="0541c01"/>差本謬暢<anchor id="fnX38p0541c04"/>思心五善心息方便<anchor id="fnX38p0541c05"/>壞毒之造前事未成
+<lb ed="X" n="0541c01"/>差本謬暢<note n="0541004" resp="Xuzangjing" place="foot text" type="orig">思一作恩</note>思心五善心息方便<note n="0541005" resp="Xuzangjing" place="foot text" type="orig">壞一作懷</note>壞毒之造前事未成
 <lb ed="X" n="0541c02"/>忽生善心惡息非重六想心方便前是有情想次須
-<lb ed="X" n="0541c03"/>當境迷情謂杌轉想為怪七疑心方便<anchor id="fnX38p0541c06"/>犯因心成事
-<lb ed="X" n="0541c04"/>須竅徹猶預不決心劣成輕此有二義若其<anchor id="fnX38p0541c07"/>通境疑
+<lb ed="X" n="0541c03"/>當境迷情謂杌轉想為怪七疑心方便<note n="0541006" resp="Xuzangjing" place="foot text" type="orig">一無犯字</note>犯因心成事
+<lb ed="X" n="0541c04"/>須竅徹猶預不決心劣成輕此有二義若其<note n="0541007" resp="Xuzangjing" place="foot text" type="orig">通一作逼</note>通境疑
 <lb ed="X" n="0541c05"/>生制而不得事成非重若預疑生懷疑故殺還成重
 <lb ed="X" n="0541c06"/>罪五分無疑應約後義今將此七闕前十緣闕緣方
 <lb ed="X" n="0541c07"/>便闕前通緣境差方便闕初二緣想疑二種闕第三
-<lb ed="X" n="0541c08"/>緣境強緣差心息<anchor id="fnX38p0541c08"/>苦闕殺心方便斷命心息又闕第
-<lb ed="X" n="0541c09"/>五三毒或不應具<anchor id="fnX38p0541c09"/>七至下別明疑一不定如瞋非情
+<lb ed="X" n="0541c08"/>緣境強緣差心息<note n="0541008" resp="Xuzangjing" place="foot text" type="orig">苦一作共</note>苦闕殺心方便斷命心息又闕第
+<lb ed="X" n="0541c09"/>五三毒或不應具<note n="0541009" resp="Xuzangjing" place="foot text" type="orig">七疑十</note>七至下別明疑一不定如瞋非情
 <lb ed="X" n="0541c10"/>及謗佛法則無境強。</p>
 <lb ed="X" n="0541c11"/><p id="pX38p0541c1101">五對治者文云應起常住慈悲心即是對治今隨義
 <lb ed="X" n="0541c12"/>別可為二門一通二別通對治者善生經云有智之
-<lb ed="X" n="0541c13"/>人既受戒<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app><anchor id="fnX38p0541c10"/>常觀三事不作惡行一者自為謂自證
+<lb ed="X" n="0541c13"/>人既受戒<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app><note n="0541010" resp="Xuzangjing" place="foot text" type="orig">常疑當</note>常觀三事不作惡行一者自為謂自證
 <lb ed="X" n="0541c14"/>知此是惡事我今云何而自欺誑二者為世有得清
 <lb ed="X" n="0541c15"/>淨天眼天耳及得他心我若作惡必當見我我當云
-<lb ed="X" n="0541c16"/>何而不慚愧而作惡<anchor id="fnX38p0541c11"/>耶三者為法觀如來法清淨無
+<lb ed="X" n="0541c16"/>何而不慚愧而作惡<note n="0541011" resp="Xuzangjing" place="foot text" type="orig">耶通邪</note>耶三者為法觀如來法清淨無
 <lb ed="X" n="0541c17"/>染得現在利度於彼岸我為是法受持禁戒次別對
-<lb ed="X" n="0541c18"/>治略申四意一起慈悲<anchor id="fnX38p0541c12"/>戒文自說二觀佛性如常不
+<lb ed="X" n="0541c18"/>治略申四意一起慈悲<note n="0541012" resp="Xuzangjing" place="foot text" type="orig">戒或作於</note>戒文自說二觀佛性如常不
 <lb ed="X" n="0541c19"/>輕悉記一切當得作佛以是義故應生禮敬豈容有
 <lb ed="X" n="0541c20"/>殺三念勝緣如智論云或可蟻子在前成佛此事難
 <lb ed="X" n="0541c21"/>知若斷彼命與彼無緣不蒙彼化四念難事所謂念
@@ -679,10 +684,10 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0542a18"/>佛子今此文中以受佛戒名入佛位即是戒從佛生
 <lb ed="X" n="0542a19"/>名為佛子故上文云眾生受佛戒即入諸佛位等即
 <lb ed="X" n="0542a20"/>此義也四分亦云從佛戒所生爾乃是真生此即小
-<lb ed="X" n="0542a21"/>乘戒生<anchor id="fnX38p0542a01"/>名佛子依寶性論信從佛生名為佛子彼文
+<lb ed="X" n="0542a21"/>乘戒生<note n="0542001" resp="Xuzangjing" place="foot text" type="orig">名下一有多字</note>名佛子依寶性論信從佛生名為佛子彼文
 <lb ed="X" n="0542a22"/>云大乘信為子般若以為父母禪胎大悲乳諸佛如
 <lb ed="X" n="0542a23"/>實子約佛地論聖名佛子故彼文云由佛教力彼聖
-<lb ed="X" n="0542a24"/><anchor id="fnX38p0542a02"/>生名為佛子准此以慧為子若約法華二乘迴心名
+<lb ed="X" n="0542a24"/><note n="0542002" resp="Xuzangjing" place="foot text" type="orig">生一作教故</note>生名為佛子准此以慧為子若約法華二乘迴心名
 <pb ed="X" id="X38.0690.0542b" n="0542b"/>
 <lb ed="X" n="0542b01"/>真佛子如舍利弗云今日乃知真是佛子由聞法華
 <lb ed="X" n="0542b02"/>知得成佛乃悟以前亦名真子依瓔珞經十住不退
@@ -694,7 +699,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0542b08"/>初殺業中文舉六種一者自殺二教他殺三方便殺
 <lb ed="X" n="0542b09"/>者聞他欲死方便與刀繩索藥等四讚歎殺者如律
 <lb ed="X" n="0542b10"/>所云汝生便受苦死則受樂用語而死者夷五見作
-<lb ed="X" n="0542b11"/>隨喜者或見殺怨家或心規由<anchor id="fnX38p0542b03"/>肉分而心生喜皆得
+<lb ed="X" n="0542b11"/>隨喜者或見殺怨家或心規由<note n="0542003" resp="Xuzangjing" place="foot text" type="orig">肉或內歟</note>肉分而心生喜皆得
 <lb ed="X" n="0542b12"/>重罪六&CB00057;殺者以誦&CB00057;&CB00057;他令使死也殺相眾多如
 <lb ed="X" n="0542b13"/>律廣列其中更有魔禱藥殺坑&CB00276;機撥咒殺最希超
 <lb ed="X" n="0542b14"/>舉最希故云乃至如&CB00057;龍令入管等次舉殺因前舉
@@ -751,7 +756,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0543a15"/><app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>為救生亦無有犯故次第五須有煩惱煩惱雖行
 <lb ed="X" n="0543a16"/>不與方便不成損主是故第六須有方便方便雖興
 <lb ed="X" n="0543a17"/>若未離處未成屬<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>是以第七舉離本處。</p>
-<lb ed="X" n="0543a18"/><p id="pX38p0543a1801">四闕緣者若闕初緣取於<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>衣作他物<anchor id="fnX38p0543a01"/>想盜得輕垢
+<lb ed="X" n="0543a18"/><p id="pX38p0543a1801">四闕緣者若闕初緣取於<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>衣作他物<note n="0543001" resp="Xuzangjing" place="foot text" type="orig">一無想字</note>想盜得輕垢
 <lb ed="X" n="0543a19"/>罪闕第二緣作有主想疑各一輕垢闕第三緣作無
 <lb ed="X" n="0543a20"/>主想本迷無犯轉想獲輕疑則成重不同於殺制不
 <lb ed="X" n="0543a21"/>得故又菩薩戒本制於心疑分當本故成重也闕第
@@ -774,9 +779,9 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0543b13"/>受用如是財故當受長夜無義無利由此因緣所奪
 <lb ed="X" n="0543b14"/>財物若僧伽物還復僧伽窣堵波物還窣堵波若有
 <lb ed="X" n="0543b15"/>情物還復有情又見眾生若園林主取僧伽物窣堵
-<lb ed="X" n="0543b16"/>波物言是<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>有縱情受用菩薩見<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>思惟彼<anchor id="fnX38p0543b02"/>意起憐
+<lb ed="X" n="0543b16"/>波物言是<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>有縱情受用菩薩見<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>思惟彼<note n="0543002" resp="Xuzangjing" place="foot text" type="orig">意一作惡</note>意起憐
 <lb ed="X" n="0543b17"/>愍心勿令因此邪受用業當受長夜無義無利隨力
-<lb ed="X" n="0543b18"/>所能<anchor id="fnX38p0543b03"/>癈其所主菩薩如是雖不與取而無違犯生多
+<lb ed="X" n="0543b18"/>所能<note n="0543003" resp="Xuzangjing" place="foot text" type="orig">廢疑還（廢&M062447;本文&M062443;癈&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>癈其所主菩薩如是雖不與取而無違犯生多
 <lb ed="X" n="0543b19"/>功德三密意者如梁攝論云何菩薩行奪非他所與
 <lb ed="X" n="0543b20"/>謂菩薩教化眾生不從王主及父母等之所得故次
 <lb ed="X" n="0543b21"/>塞者乃至起念則便成犯故文殊問經云若起盜想
@@ -793,8 +798,8 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0543c07"/>犯示瞋怒相求財是也四不善心謂具前三心名不
 <lb ed="X" n="0543c08"/>善也五常有盜他物心謂垣壞侵奪必得不疑次五
 <lb ed="X" n="0543c09"/>者一決定取謂方便<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成決得為限二恐怯取謂恃
-<lb ed="X" n="0543c10"/>形勝勢令他畏也三寄物取或<anchor id="fnX38p0543c04"/>今抵拒或復少還四
-<lb ed="X" n="0543c11"/><anchor id="fnX38p0543c05"/>見取伺他慢藏得便而取也五倚託取或假名聞威
+<lb ed="X" n="0543c10"/>形勝勢令他畏也三寄物取或<note n="0543004" resp="Xuzangjing" place="foot text" type="orig">今一作令</note>今抵拒或復少還四
+<lb ed="X" n="0543c11"/><note n="0543005" resp="Xuzangjing" place="foot text" type="orig">見下一有便字</note>見取伺他慢藏得便而取也五倚託取或假名聞威
 <lb ed="X" n="0543c12"/>德或託最勢是也盜因者盜心三毒以之為因鍬钁
 <lb ed="X" n="0543c13"/>及伴以之為緣巧知計&CB15081;以之為法身口進趣方便
 <lb ed="X" n="0543c14"/>名業三取盜主物者鬼神有主明物主也一針一草
@@ -806,7 +811,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0543c20"/><p id="pX38p0543c2001">三教起對治於中有二初教起對治心次教與利樂
 <lb ed="X" n="0543c21"/>事初中應起四心一佛性心二孝順心三慈四悲以
 <lb ed="X" n="0543c22"/>上生字道及於下初二上位下二下位各為一合應
-<lb ed="X" n="0543c23"/>觀一切皆有佛性當得作佛不<anchor id="fnX38p0543c06"/>可侵損又一切眾生
+<lb ed="X" n="0543c23"/>觀一切皆有佛性當得作佛不<note n="0543006" resp="Xuzangjing" place="foot text" type="orig">可一作多</note>可侵損又一切眾生
 <lb ed="X" n="0543c24"/>曾為父母故須孝順寧容盜損緣下位時應起慈悲
 <pb ed="X" id="X38.0690.0544a" n="0544a"/>
 <lb ed="X" n="0544a01"/>況當盜損又解依於佛性起下三心由佛性故當得
@@ -817,14 +822,14 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0544a06"/>約後義故起慈悲心如常慘菩薩愍四眾等又佛性
 <lb ed="X" n="0544a07"/>有三約引出佛性及至得果佛性可尊敬故生孝順
 <lb ed="X" n="0544a08"/>心約自性住佛性在纏可愍起慈悲心又一切眾生
-<lb ed="X" n="0544a09"/>昔為父母今則&CB00520;隔望昔生孝順望今生慈悲<anchor id="fnX38p0544a01"/>次教
+<lb ed="X" n="0544a09"/>昔為父母今則&CB00520;隔望昔生孝順望今生慈悲<note n="0544001" resp="Xuzangjing" place="foot text" type="orig">一無次字</note>次教
 <lb ed="X" n="0544a10"/>與利樂者謂依前心而起此行言常助者無休息也
 <lb ed="X" n="0544a11"/>生福者使種樂因生樂者令得樂果又解福者富也
 <lb ed="X" n="0544a12"/>與其財富令生安樂故云生福生樂准瑜伽論但生
 <lb ed="X" n="0544a13"/>現樂而無福利或二俱無菩薩不作但生福利或二
 <lb ed="X" n="0544a14"/>俱生菩薩皆作此文具二說令作也。</p>
 <lb ed="X" n="0544a15"/><p id="pX38p0544a1501">四違而結犯謂違前對治之行故云而反更盜等且
-<lb ed="X" n="0544a16"/>出喜心犯故云人物然盜佛物涅槃犯蘭僧<anchor id="fnX38p0544a02"/>祇重<anchor id="fnX38p0544a03"/>約
+<lb ed="X" n="0544a16"/>出喜心犯故云人物然盜佛物涅槃犯蘭僧<note n="0544002" resp="Xuzangjing" place="foot text" type="orig">祇下一有犯字</note>祇重<note n="0544003" resp="Xuzangjing" place="foot text" type="orig">約作初</note>約
 <lb ed="X" n="0544a17"/>聲聞結佛在得夷滅後蘭罪今此戒文<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>言有主佛
 <lb ed="X" n="0544a18"/>既成主理結夷&CB04727;然善生經守塔人邊得罪者以佛
 <lb ed="X" n="0544a19"/>滅後人所守護故從人結俱舍兩說一云若有盜取
@@ -850,7 +855,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0544b14"/><p id="pX38p0544b1401">初制意者菩薩理應常修梵行慈心愍物淨法與人
 <lb ed="X" n="0544b15"/>絕生死之輪迴出愛獄之枷&CB00430;超陰界入荷負眾生
 <lb ed="X" n="0544b16"/>今乃縱彼邪心&CB00361;茲穢&CB00528;自掛魔網何能益他故智
-<lb ed="X" n="0544b17"/>論云婬欲雖不惱眾生以繫縛<anchor id="fnX38p0544b04"/>心故為大罪由斯損
+<lb ed="X" n="0544b17"/>論云婬欲雖不惱眾生以繫縛<note n="0544004" resp="Xuzangjing" place="foot text" type="orig">一無心字</note>心故為大罪由斯損
 <lb ed="X" n="0544b18"/>故制不聽為。</p>
 <lb ed="X" n="0544b19"/><p id="pX38p0544b1901">次釋名者文但舉婬不標邪稱今詳此戒通於道俗
 <lb ed="X" n="0544b20"/>文不可以並彰約道以制但言婬也故善生經六重
@@ -861,15 +866,15 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <pb ed="X" id="X38.0690.0544c" n="0544c"/>
 <lb ed="X" n="0544c01"/>理皆欲邪行若於母等所護名不應行除產門外皆
 <lb ed="X" n="0544c02"/>名非支若穢下時胎圓滿時飲兒乳時受齋戒時或
-<lb ed="X" n="0544c03"/>有病時所<anchor id="fnX38p0544c05"/>謂有病不宜習欲是名非時若諸尊重所
+<lb ed="X" n="0544c03"/>有病時所<note n="0544005" resp="Xuzangjing" place="foot text" type="orig">謂一作經</note>謂有病不宜習欲是名非時若諸尊重所
 <lb ed="X" n="0544c04"/>集會處或靈廟中或大眾前或堅硬地高下不平令
 <lb ed="X" n="0544c05"/>不安穩說名非處過量而行名為非量量者極至於
 <lb ed="X" n="0544c06"/>五過名非量不依世禮故名非理自行媒他皆名邪
 <lb ed="X" n="0544c07"/>行智論問曰人守人瞋守法破法應名邪婬自妻何
 <lb ed="X" n="0544c08"/>以為邪答既聽受一日戒墮於法中本雖是妻今不
-<lb ed="X" n="0544c09"/>自在過受戒時則非法守有身<anchor id="fnX38p0544c06"/>婬婦人以身重故厭
+<lb ed="X" n="0544c09"/>自在過受戒時則非法守有身<note n="0544006" resp="Xuzangjing" place="foot text" type="orig">婬字疑剩</note>婬婦人以身重故厭
 <lb ed="X" n="0544c10"/>本所習又為傷身乳兒時婬其母乳則竭又復心&CB00473;
-<lb ed="X" n="0544c11"/>婬欲不復<anchor id="fnX38p0544c07"/>讚兒非道之道非女根故女心不樂強以
+<lb ed="X" n="0544c11"/>婬欲不復<note n="0544007" resp="Xuzangjing" place="foot text" type="orig">讚作護</note>讚兒非道之道非女根故女心不樂強以
 <lb ed="X" n="0544c12"/>非理故邪婬問曰若夫主不知不見不惱他有何罪
 <lb ed="X" n="0544c13"/>答曰以其邪故是故有罪復次此有種種罪過未妻
 <lb ed="X" n="0544c14"/>之情異身同體奪他所愛破其本心是名為賊復有
@@ -892,7 +897,7 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0545a06"/>垢闕第七緣亦輕垢也義分輕重次前亦然怨逼闕
 <lb ed="X" n="0545a07"/>緣比而可解通別合論但六方便謂除疑也。</p>
 <lb ed="X" n="0545a08"/><p id="pX38p0545a0801">五對治者略申四意一起不淨觀以此正治貪欲病
-<lb ed="X" n="0545a09"/>故二觀欲多過律云如毒蛇領如<anchor id="fnX38p0545a01"/>輪力轉如履鋒刃
+<lb ed="X" n="0545a09"/>故二觀欲多過律云如毒蛇領如<note n="0545001" resp="Xuzangjing" place="foot text" type="orig">輪力疑刀輪</note>輪力轉如履鋒刃
 <lb ed="X" n="0545a10"/>等三滅除惡覺以惡覺觀能生欲心當以正智止其
 <lb ed="X" n="0545a11"/>思想如有頌云。</p>
 <lb ed="X" n="0545a12"/><lg id="lgX38p0545a1201"><l>欲欲知汝本</l><l>但從思想生</l><l>我今不思汝</l>
@@ -902,9 +907,9 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0545a16"/><l>天中大繫縛</l><l>莫過於女色</l><l>女人縛諸天</l>
 <lb ed="X" n="0545a17"/><l>將至三惡道</l></lg>
 <lb ed="X" n="0545a18"/><p id="pX38p0545a1801">六通局者通中謂入位菩薩在家之者為化眾生有
-<lb ed="X" n="0545a19"/>開不犯如瑜伽戒本云又如菩薩處在居家見有<anchor id="fnX38p0545a02"/>世
+<lb ed="X" n="0545a19"/>開不犯如瑜伽戒本云又如菩薩處在居家見有<note n="0545002" resp="Xuzangjing" place="foot text" type="orig">世疑女</note>世
 <lb ed="X" n="0545a20"/>色現無繫屬習婬欲法繼心菩薩求非梵行菩薩見
-<lb ed="X" n="0545a21"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>作是思惟勿令<anchor id="fnX38p0545a03"/>心恚多生非福若隨其欲便得自
+<lb ed="X" n="0545a21"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>作是思惟勿令<note n="0545003" resp="Xuzangjing" place="foot text" type="orig">一無心字</note>心恚多生非福若隨其欲便得自
 <lb ed="X" n="0545a22"/>在方便安處令種善根亦當令其捨不善業住慈愍
 <lb ed="X" n="0545a23"/>心行非梵行雖習如是穢染之法而無所犯生多功
 <lb ed="X" n="0545a24"/>德出家菩薩護聲聞聖所教誡令不壞滅一切不應
@@ -927,11 +932,11 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0545b16"/>非謂本心擬婬外色&CB00386;婬女人成本迷也三舉婬因
 <lb ed="X" n="0545b17"/>婬心毒以之為因傍人引致及梯蹬等以之為緣巧
 <lb ed="X" n="0545b18"/>施計&CB15081;令事成辦名之為法身口進趣名之為業三
-<lb ed="X" n="0545b19"/>出犯境舉三趣境及以非道超畜<anchor id="fnX38p0545b04"/>生及黃門等故云
+<lb ed="X" n="0545b19"/>出犯境舉三趣境及以非道超畜<note n="0545004" resp="Xuzangjing" place="foot text" type="orig">生下一有男字</note>生及黃門等故云
 <lb ed="X" n="0545b20"/>乃至此之乃至通及諸天及以鬼神神則善惡雜報
 <lb ed="X" n="0545b21"/>威力勝鬼然鬼趣攝言非道者下部及口三而菩薩
 <lb ed="X" n="0545b22"/>下教起對治初起勝心次起勝行前中曾為父母故
-<lb ed="X" n="0545b23"/>起孝心現為下位應起慈悲<anchor id="fnX38p0545b05"/>夫寄在後次起勝行中
+<lb ed="X" n="0545b23"/>起孝心現為下位應起慈悲<note n="0545005" resp="Xuzangjing" place="foot text" type="orig">夫一作文</note>夫寄在後次起勝行中
 <lb ed="X" n="0545b24"/>初教救護義同上解次教與淨行謂以梵行教示於
 <pb ed="X" id="X38.0690.0545c" n="0545c"/>
 <lb ed="X" n="0545c01"/>人名之為與四而反下明違結犯違前對治故云而
@@ -962,14 +967,14 @@ Revision 1.1  2006/10/09 00:26:25  duncan
 <lb ed="X" n="0546a01"/>常作實語諦語時語是菩薩<note place="inline">二地菩薩</note>乃至夢中不起覆
 <lb ed="X" n="0546a02"/>見無心誑他何&CB00288;故妄語二者觀過如智論云妄語
 <lb ed="X" n="0546a03"/>之人先自誑身然後誑人以實為&CB00980;以&CB00980;為實&CB00980;實
-<lb ed="X" n="0546a04"/>顛倒不受善法譬如覆瓶水不得入妄語<anchor id="fnX38p0546a01"/>之心無慚
+<lb ed="X" n="0546a04"/>顛倒不受善法譬如覆瓶水不得入妄語<note n="0546001" resp="Xuzangjing" place="foot text" type="orig">之下一有人字</note>之心無慚
 <lb ed="X" n="0546a05"/>愧&CB02464;塞天道涅槃之門應觀此罪勿令復作三觀實
 <lb ed="X" n="0546a06"/>利亦智論云復次觀知實語其利甚廣實語之自從
 <lb ed="X" n="0546a07"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>出甚為易得如是功德居家出家人共有此利善
 <lb ed="X" n="0546a08"/>人之相四觀果報智論云呵多比丘雖行法施以妄
 <lb ed="X" n="0546a09"/>語故死入地獄。</p>
 <lb ed="X" n="0546a10"/><p id="pX38p0546a1001">六通局者通者如瑜伽云又如菩薩為多有情解脫
-<lb ed="X" n="0546a11"/><anchor id="fnX38p0546a02"/>命難囹圄縛難刖手足難劓鼻割耳剜眼等難雖
+<lb ed="X" n="0546a11"/><note n="0546002" resp="Xuzangjing" place="foot text" type="orig">命一作令</note>命難囹圄縛難刖手足難劓鼻割耳剜眼等難雖
 <lb ed="X" n="0546a12"/>諸菩薩為身命難亦不正知說於妄語以要言之菩
 <lb ed="X" n="0546a13"/>薩唯觀有情義利非無義利自無染心唯為饒益諸
 <lb ed="X" n="0546a14"/>有情故覆想正知而說異語說是語時於菩薩戒無
