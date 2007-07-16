@@ -5,8 +5,10 @@
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
 <!ENTITY FigX39027601 SYSTEM "figures/X39027601.gif" NDATA GIF>
 <!ENTITY FigX39031701 SYSTEM "figures/X39031701.gif" NDATA GIF>
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -20,7 +22,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/06/15 07:50:10 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/07/16 03:33:33 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +35,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/06/15 07:50:10 $</date>
+		<date>$Date: 2007/07/16 03:33:33 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 39, No. 708 &desc;</bibl>
@@ -53,6 +55,9 @@
 	</change>
 <!--
 $Log: X39n0708.xml,v $
+Revision 1.5  2007/07/16 03:33:33  amtbgrace
+modified: 校注插入 XML
+
 Revision 1.4  2007/06/15 07:50:10  eva
 modified: 校注前製作業經文修訂
 
@@ -98,7 +103,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0275b01"/>
 <lb ed="X" n="0275b02"/>
 <lb ed="X" n="0275b03"/>
-<lb ed="X" n="0275b04"/><div1 type="other"><mulu type="其他" level="1" label="目次"/><head><anchor id="fnX39p0275b01"/>毗尼珍敬錄目次</head>
+<lb ed="X" n="0275b04"/><div1 type="other"><mulu type="其他" level="1" label="目次"/><head><note n="0275001" resp="Xuzangjing" place="foot text" type="orig">目題新作</note>毗尼珍敬錄目次</head>
 <lb ed="X" n="0275b05"/>
 <lb ed="X" n="0275b06"/><list><item id="itemX39p0275b0601">卷上
 <lb ed="X" n="0275b07"/><list><item id="itemX39p0275b0701">序</item><item id="itemX39p0275b0702">戒相品</item>
@@ -908,7 +913,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0286c11"/>為僧為塔為和尚。同和尚阿闍黎。同阿闍黎為知。
 <lb ed="X" n="0286c12"/>識。作損減。作無住處破者不犯。</p></div2>
 <lb ed="X" n="0286c13"/><div2 type="orig"><p id="pX39p0286c1301">若比丘伴黨。若一若二若三。乃至無數。彼比丘語是。
-<lb ed="X" n="0286c14"/>比<anchor id="fnX39p0286c01"/>丘大德。莫諫此比丘。此比丘。是法語比丘。律語比
+<lb ed="X" n="0286c14"/>比<note n="0286001" resp="Xuzangjing" place="foot text" type="orig">丘下一有言字</note>丘大德。莫諫此比丘。此比丘。是法語比丘。律語比
 <lb ed="X" n="0286c15"/>丘。此比丘所說。我等喜樂。此比丘所說。我等忍可。彼
 <lb ed="X" n="0286c16"/>比丘言大德。莫作是說言。此比丘。是法語比丘律語
 <lb ed="X" n="0286c17"/>比丘。此比丘所說。我等喜樂。此比丘所說。我等忍可。
@@ -1776,7 +1781,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0298b04"/><div2 type="commentary"><p id="pX39p0298b0401" rend="margin-left:1em">有長者飯僧。十七&CB00320;取僧坐具露地敷。而經行望
 <lb ed="X" n="0298b05"/>食時到。時到<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。不收攝便赴食。僧坐具為風塵土。
 <lb ed="X" n="0298b06"/>坌。蟲鳥啄壞。汙穢不淨。故制。</p>
-<lb ed="X" n="0298b07"/><p id="pX39p0298b0701" rend="margin-left:1em">繩床者。有五種。旋&CB00560;。直&CB00560;。曲&CB00560;。入<anchor id="fnX39p0298b07b01"/>陛。無&CB00560;。木床亦
+<lb ed="X" n="0298b07"/><p id="pX39p0298b0701" rend="margin-left:1em">繩床者。有五種。旋&CB00560;。直&CB00560;。曲&CB00560;。入<note n="0298001" resp="Xuzangjing" place="foot text" type="orig">陸疑&CB00560;（陸&M062447;本文&M062443;陛&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>陛。無&CB00560;。木床亦
 <lb ed="X" n="0298b08"/>爾。臥具者或用坐。或用臥。褥者用坐也。</p><p id="pX39p0298b0816" place="inline" rend="margin-left:1em">若比丘
 <lb ed="X" n="0298b09"/>以僧繩床。木床。臥具。坐褥。在露地敷。若教人敷。去
 <lb ed="X" n="0298b10"/>時。若彼有舊住比丘。若摩摩帝。若經營人。當語言
@@ -1874,7 +1879,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0299c02"/>波逸提。餘三眾突吉羅。</p><p id="pX39p0299c0210" place="inline" rend="margin-left:1em">不犯者。若水陸道斷。盜
 <lb ed="X" n="0299c03"/>賊。惡獸。水漲。被繫。命難。梵行難。不去至不見不聞
 <lb ed="X" n="0299c04"/>處。</p></div2>
-<lb ed="X" n="0299c05"/><div2 type="orig"><p id="pX39p0299c0501">若比丘。僧不差教戒比丘尼者。波逸<anchor id="fnX39p0299c01"/>是<note place="inline">二十一</note>。</p></div2>
+<lb ed="X" n="0299c05"/><div2 type="orig"><p id="pX39p0299c0501">若比丘。僧不差教戒比丘尼者。波逸<note n="0299001" resp="Xuzangjing" place="foot text" type="orig">是疑提</note>是<note place="inline">二十一</note>。</p></div2>
 <lb ed="X" n="0299c06"/><div2 type="commentary"><p id="pX39p0299c0601" rend="margin-left:1em">大愛道請佛。聽諸比丘。與尼教戒說法。佛&CB00330;阿難
 <lb ed="X" n="0299c07"/>隨次差上座往。時六&CB00320;自往教戒。不說正法。惟說
 <lb ed="X" n="0299c08"/>一切世論等。大愛道白佛。佛制僧中差教授尼人。
@@ -2172,7 +2177,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <pb ed="X" id="X39.0708.0303c" n="0303c"/>
 <lb ed="X" n="0303c01"/>者。乞食比丘鳥&CB03340;食墮&CB00425;中。若風吹墮&CB00425;中。欲除
 <lb ed="X" n="0303c02"/>去此食。乃至一指爪可除去。餘者不犯。</p></div2>
-<lb ed="X" n="0303c03"/><div2 type="orig"><p id="pX39p0303c0301"><anchor id="fnX39p0303c01"/>若得好美飲食。乳酪魚及肉。若比丘如此美飲食。無
+<lb ed="X" n="0303c03"/><div2 type="orig"><p id="pX39p0303c0301"><note n="0303001" resp="Xuzangjing" place="foot text" type="orig">若下一有比丘二字</note>若得好美飲食。乳酪魚及肉。若比丘如此美飲食。無
 <lb ed="X" n="0303c04"/>病自為<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>索者。波逸提<note place="inline">四十</note>。</p></div2>
 <lb ed="X" n="0303c05"/><div2 type="commentary"><p id="pX39p0303c0501" rend="margin-left:1em">&CB02494;難陀詣一商主家索雜食。商主問有何患。報言
 <lb ed="X" n="0303c06"/>無所患苦。<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>意欲得雜食耳。商主譏嫌故制。</p>
@@ -2391,7 +2396,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0306b19"/>以火置草木枝葉等上然者。波逸提若燒半燋者。
 <lb ed="X" n="0306b20"/>若然炭。突吉羅。若不語前人言。看是知是。突吉羅。</p>
 <lb ed="X" n="0306b21"/><p id="pX39p0306b2101" rend="margin-left:1em">比丘尼波逸提。餘三眾突吉羅。</p></div2>
-<lb ed="X" n="0306b22"/><div2 type="orig"><p id="pX39p0306b2201">若比丘藏<anchor id="fnX39p0306b01"/>比丘衣&CB00425;坐具鍼筒。若自藏。教人藏。下至
+<lb ed="X" n="0306b22"/><div2 type="orig"><p id="pX39p0306b2201">若比丘藏<note n="0306001" resp="Xuzangjing" place="foot text" type="orig">比上一有他字</note>比丘衣&CB00425;坐具鍼筒。若自藏。教人藏。下至
 <lb ed="X" n="0306b23"/>戲笑者。波逸提<note place="inline">五十八</note>。</p></div2>
 <lb ed="X" n="0306b24"/><div2 type="commentary"><p id="pX39p0306b2401" rend="margin-left:1em">十七&CB00320;。持衣&CB00425;等。著一面經行。望食時到。六&CB00320;俟
 <pb ed="X" id="X39.0708.0306c" n="0306c"/>
@@ -2620,7 +2625,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0309b23"/>獨語等。</p></div2>
 <lb ed="X" n="0309b24"/><div2 type="orig"><p id="pX39p0309b2401">若比丘。說戒時作如是語。我今始知此法。戒經所載。
 <pb ed="X" id="X39.0708.0309c" n="0309c"/>
-<lb ed="X" n="0309c01"/>半月半月說。戒<anchor id="fnX39p0309c01"/>經來。餘比丘知是比丘。若二若三說
+<lb ed="X" n="0309c01"/>半月半月說。戒<note n="0309001" resp="Xuzangjing" place="foot text" type="orig">經下一有中字</note>經來。餘比丘知是比丘。若二若三說
 <lb ed="X" n="0309c02"/>戒中坐。何況多。彼比丘無知無解。若犯罪。應如法治。
 <lb ed="X" n="0309c03"/>更重增無知罪。語言長老汝無利。不善得。汝說戒時。
 <lb ed="X" n="0309c04"/>不用心念。不一心攝耳聽法。彼無知故。波逸提<note place="inline">七十三</note>。</p></div2>
@@ -3106,7 +3111,7 @@ Revision 1.1  2006/10/11 09:08:59  duncan
 <lb ed="X" n="0316a09"/>時。前後語言相違。設眾僧中問時。亦復如是。在眾
 <lb ed="X" n="0316a10"/>中故作妄語。白如是。羯磨准作。云何罪處所。彼比
 <lb ed="X" n="0316a11"/>丘此罪。與作舉。作憶念者是。</p></div2>
-<lb ed="X" n="0316a12"/><div2 type="orig"><p id="pX39p0316a1201">應與多人<anchor id="fnX39p0316a01"/>覓罪。當與多人覓罪。</p></div2>
+<lb ed="X" n="0316a12"/><div2 type="orig"><p id="pX39p0316a1201">應與多人<note n="0316001" resp="Xuzangjing" place="foot text" type="orig">覓罪一作語次同</note>覓罪。當與多人覓罪。</p></div2>
 <lb ed="X" n="0316a13"/><div2 type="commentary"><p id="pX39p0316a1301" rend="margin-left:1em">舍衛諸比丘諍。眾僧求覓罪。佛言應用多人知法
 <lb ed="X" n="0316a14"/>者語。聽行籌。差行籌人白二羯磨。有五法不應差。
 <lb ed="X" n="0316a15"/>愛。恚。怖。癡。不知<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>行不行。反上五法者。應差有三
