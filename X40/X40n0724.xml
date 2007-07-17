@@ -4,8 +4,10 @@
 [<!ENTITY % ENTY  SYSTEM "X40n0724.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
 <!ENTITY FigX40070901 SYSTEM "figures/X40070901.gif" NDATA GIF>
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -19,7 +21,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/01/03 02:18:28 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/07/17 05:29:11 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -32,7 +34,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/03 02:18:28 $</date>
+		<date>$Date: 2007/07/17 05:29:11 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 40, No. 724 &desc;</bibl>
@@ -52,6 +54,9 @@
 	</change>
 <!--
 $Log: X40n0724.xml,v $
+Revision 1.5  2007/07/17 05:29:11  amtbgrace
+modified: 校注插入 XML
+
 Revision 1.4  2007/01/03 02:18:28  amtbgrace
 modified: [經文修訂] [其/水] → [其/木]
 
@@ -131,7 +136,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0706c10"/>
 <lb ed="X" n="0706c11"/>
 <lb ed="X" n="0706c12"/><head type="no">No. 724</head>
-<lb ed="X" n="0706c13"/><juan fun="open" n="1a"><mulu type="卷" n="1a" label="上之上"/><jhead><anchor id="fnX40p0706c01"/>四分律比丘尼鈔卷上之上</jhead></juan>
+<lb ed="X" n="0706c13"/><juan fun="open" n="1a"><mulu type="卷" n="1a" label="上之上"/><jhead><note n="0706001" resp="Xuzangjing" place="foot text" type="orig">首題撰者名新加</note>四分律比丘尼鈔卷上之上</jhead></juan>
 <lb ed="X" n="0706c14"/>
 <lb ed="X" n="0706c15"/><byline type="author">終南山沙門釋　道宣　述</byline>
 <lb ed="X" n="0706c16"/><div1 type="other"><mulu type="其他" level="1" label="勸學篇第一"/><head>○勸學篇第一</head>
@@ -228,7 +233,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0708a07"/>也。</p>
 <lb ed="X" n="0708a08"/><p id="pX40p0708a0801">第六突吉羅者見論云突者惡也吉羅者作也此律
 <lb ed="X" n="0708a09"/>云式叉迦羅尼者翻為應當學見論云式叉者學迦
-<lb ed="X" n="0708a10"/>羅尼應當作名為學應當作也義云西域語<anchor id="fnX40p0708a01"/>例故云
+<lb ed="X" n="0708a10"/>羅尼應當作名為學應當作也義云西域語<note n="0708001" resp="Xuzangjing" place="foot text" type="orig">例疑倒</note>例故云
 <lb ed="X" n="0708a11"/>學應當作若依此方應云應當學婆論問曰何故此
 <lb ed="X" n="0708a12"/>篇獨名應當學答餘戒易持而罪重犯懺是難此戒
 <lb ed="X" n="0708a13"/>難持罪輕而易犯當順心學不結罪名故云應當學
@@ -908,7 +913,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0717a12"/><p id="pX40p0717a1201">大&CB00106;一心念。我某甲。今請阿姨。為羯磨阿闍&CB04968;。願阿
 <lb ed="X" n="0717a13"/>姨為我。作羯磨阿闍&CB04968;。我依阿姨故。得受具足戒。慈
 <lb ed="X" n="0717a14"/>愍故<note place="inline">三說</note>。</p>
-<lb ed="X" n="0717a15"/><p id="pX40p0717a1501">次請威儀師阿闍&CB04968;云由此威儀師為汝引導<anchor id="fnX40p0717a01"/>今至
+<lb ed="X" n="0717a15"/><p id="pX40p0717a1501">次請威儀師阿闍&CB04968;云由此威儀師為汝引導<note n="0717001" resp="Xuzangjing" place="foot text" type="orig">今一作令</note>今至
 <lb ed="X" n="0717a16"/>僧中發汝具戒緣起&CB00278;由此師故須起段重意請。</p>
 <lb ed="X" n="0717a17"/><p id="pX40p0717a1701">大&CB00106;一心念。我某甲。今請阿姨。為威儀阿闍&CB04968;。願阿
 <lb ed="X" n="0717a18"/>姨為我。作威儀阿闍&CB04968;。我依阿姨故。得受具足戒。慈
@@ -1625,7 +1630,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0726c04"/><p id="pX40p0726c0401">第三儀式者今此一門此律不足兼取諸部補闕此
 <lb ed="X" n="0726c05"/>律云若至說戒日上座應&CB00330;諸尼沙彌尼等使掃灑
 <lb ed="X" n="0726c06"/>佛塔僧院高下處令泥治平正辨諸名華五三槃名
-<lb ed="X" n="0726c07"/>香<anchor id="fnX40p0726c01"/>陽一二銅盂今時多用食器&CB00647;等盛湯此非生善
+<lb ed="X" n="0726c07"/>香<note n="0726001" resp="Xuzangjing" place="foot text" type="orig">陽疑湯</note>陽一二銅盂今時多用食器&CB00647;等盛湯此非生善
 <lb ed="X" n="0726c08"/>之義冬月無華可得者諸繒綵華亦得說戒當&CB00642;布
 <lb ed="X" n="0726c09"/>其席及門限外亦鋪其席擬脫&CB00466;履若鳴鐘集僧不
 <lb ed="X" n="0726c10"/>簡沙彌尼等&CB00278;來入堂受籌以此律戒序開沙彌尼
@@ -1825,7 +1830,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0729b04"/>以上即須廣說二三人以下各相向說云。</p>
 <lb ed="X" n="0729b05"/><p id="pX40p0729b0501">大&CB00106;一心念。今僧十五日說戒。我比丘尼某甲清淨
 <lb ed="X" n="0729b06"/><note place="inline">三說</note>。</p>
-<lb ed="X" n="0729b07"/><p id="pX40p0729b0701">若對二尼應云<anchor id="fnX40p0729b01"/>二&CB00106;一心念餘語同前若一人者應
+<lb ed="X" n="0729b07"/><p id="pX40p0729b0701">若對二尼應云<note n="0729001" resp="Xuzangjing" place="foot text" type="orig">二下恐脫大字</note>二&CB00106;一心念餘語同前若一人者應
 <lb ed="X" n="0729b08"/>云今僧十五日說戒我比丘尼某甲清淨<note place="inline">三說</note>。</p></div1>
 <lb ed="X" n="0729b09"/>
 <lb ed="X" n="0729b10"/><juan fun="close" n="1b"><jhead>四分律比丘尼鈔卷上之下</jhead></juan>
@@ -2702,7 +2707,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0741a06"/>立共語共行者亦離見聞處也身相倚者二身相及
 <lb ed="X" n="0741a07"/>處共期者共行婬處若尼及男子二俱染心犯前七
 <lb ed="X" n="0741a08"/>事者偷蘭若不懺悔犯第八事竟波羅夷若準此犯
-<lb ed="X" n="0741a09"/>八捉手不成重以事是一<anchor id="fnX40p0741a01"/>文若一男犯八或一時犯
+<lb ed="X" n="0741a09"/>八捉手不成重以事是一<note n="0741001" resp="Xuzangjing" place="foot text" type="orig">文一作故</note>文若一男犯八或一時犯
 <lb ed="X" n="0741a10"/>八八年犯八八男成八俱犯重罪亦無次第僧祇亦
 <lb ed="X" n="0741a11"/>然不犯者此律云若有所與禮拜悔過受法屏處不
 <lb ed="X" n="0741a12"/>作惡事不犯俱無染心故下文暗室者提以招機故
@@ -3219,7 +3224,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0747c23"/>木有&CB08504;者四然便犯僧祇云旋火作輪或火中有草
 <lb ed="X" n="0747c24"/>木比丘撥聚一切皆犯若然生種二提一壞生二然
 <pb ed="X" id="X40.0724.0748a" n="0748a"/>
-<lb ed="X" n="0748a01"/>火五分云<anchor id="fnX40p0748a01"/>雲&CB08504;高四指此律若病須火便身得自然
+<lb ed="X" n="0748a01"/>火五分云<note n="0748001" resp="Xuzangjing" place="foot text" type="orig">雲一作要</note>雲&CB08504;高四指此律若病須火便身得自然
 <lb ed="X" n="0748a02"/>教人不犯<note place="inline">應是死土石上不犯</note>。</p>
 <lb ed="X" n="0748a03"/><p id="pX40p0748a0301">藏他衣&CB00425;戒具三緣犯一比丘尼衣&CB00425;二驚動彼意
 <lb ed="X" n="0748a04"/>三取藏便犯此律不犯者若在露地恐風雨漂漬舉
@@ -3331,7 +3336,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0749b10"/>誦五分等更無餘治者開病比丘服&CB01942;聽七日在一
 <lb ed="X" n="0749b11"/>邊小房內不得臥僧&CB00646;褥大小便處講堂皆不得至
 <lb ed="X" n="0749b12"/>又不得受請及僧中食不得就佛禮拜得在下風處
-<lb ed="X" n="0749b13"/>遙禮七日滿<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>澡浴<anchor id="fnX40p0749b01"/>重衣方得入眾若用香塗病者
+<lb ed="X" n="0749b13"/>遙禮七日滿<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>澡浴<note n="0749001" resp="Xuzangjing" place="foot text" type="orig">重疑薰</note>重衣方得入眾若用香塗病者
 <lb ed="X" n="0749b14"/>先供養佛<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>然後塗身還在屏處一同前法。</p>
 <lb ed="X" n="0749b15"/><p id="pX40p0749b1501">剃三處毛戒具緣可解<note place="inline">三者謂大小便及腋下為三也</note>母論云剃髮
 <lb ed="X" n="0749b16"/>者但除頭毛及鬚餘毛一切不聽&CB00230;所以剃髮者為
@@ -3430,7 +3435,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0750c09"/><p id="pX40p0750c0901">與俗人外道衣戒具四緣犯一是非親里白衣外道
 <lb ed="X" n="0750c10"/>二是袈裟一衣三持與彼四前人領受便犯十誦與
 <lb ed="X" n="0750c11"/>外道與白衣皆提義云今數見尼僧往道士觀求治
-<lb ed="X" n="0750c12"/>病交涉來往供<anchor id="fnX40p0750c01"/>結衣食因染俗情壞其梵行招世譏
+<lb ed="X" n="0750c12"/>病交涉來往供<note n="0750001" resp="Xuzangjing" place="foot text" type="orig">結疑給</note>結衣食因染俗情壞其梵行招世譏
 <lb ed="X" n="0750c13"/>謗損辱佛僧非但師無綱紀亦因前無法度若有力
 <lb ed="X" n="0750c14"/>罰令歸俗者此人為護法因緣故當來之世必獲淨
 <lb ed="X" n="0750c15"/>土之報僧祇云若尼有德聽女人為兒乞小小破衣
@@ -4413,7 +4418,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0763c17"/>然後坐應供給清淨二部僧見有客來代擔衣&CB00425;乃
 <lb ed="X" n="0763c18"/>至洗除圊廁勿令慢惰不得在屏房內以客來不見
 <lb ed="X" n="0763c19"/>故應至小屋繩&CB00646;居在門首伺侯外客勿令默入不
-<lb ed="X" n="0763c20"/>知若大眾難集若不欲行若彼人軟弱多有<anchor id="fnX40p0763c01"/>差愧應
+<lb ed="X" n="0763c20"/>知若大眾難集若不欲行若彼人軟弱多有<note n="0763001" resp="Xuzangjing" place="foot text" type="orig">差疑羞</note>差愧應
 <lb ed="X" n="0763c21"/>至僧所白云。</p>
 <lb ed="X" n="0763c22"/><p id="pX40p0763c2201">大德我今日捨&CB02637;不行<note place="inline">一說</note>。</p>
 <lb ed="X" n="0763c23"/><p id="pX40p0763c2301">若欲行時還至僧所白云。</p>
@@ -4574,7 +4579,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0766a03"/>毀犯甚易懺悔極難自責汝心當生厭離乃至形枯
 <lb ed="X" n="0766a04"/>命終更莫毀犯答言頂戴持不敢更犯。</p>
 <lb ed="X" n="0766a05"/><p id="pX40p0766a0501">第二小眾懺者十誦云若四人受他懺則無單白和
-<lb ed="X" n="0766a06"/>僧之儀止得<anchor id="fnX40p0766a01"/><app><lem wit="【CBETA】" resp="CBETA.maha">迴</lem><rdg wit="【卍續】">迥</rdg></app>問邊人<note place="inline">請主同前</note>受懺尼問邊人云諸大
+<lb ed="X" n="0766a06"/>僧之儀止得<note n="0766001" resp="Xuzangjing" place="foot text" type="orig">迥疑迴</note><note n="0766001" resp="CBETA" type="mod">迥疑迴【卍續】，迥＝迴【CB】</note><app><lem wit="【CBETA】" resp="CBETA.maha">迴</lem><rdg wit="【卍續】">迥</rdg></app>問邊人<note place="inline">請主同前</note>受懺尼問邊人云諸大
 <lb ed="X" n="0766a07"/>&CB00106;等聽我受此比丘尼某甲懺悔否諸尼答云&CB00106;好
 <lb ed="X" n="0766a08"/><note place="inline">懺主尼為說罪相與前同</note>。</p>
 <lb ed="X" n="0766a09"/><p id="pX40p0766a0901">大&CB00106;一心念。我比丘尼某甲。故犯婬盜滿五錢。<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>鄰
@@ -4641,7 +4646,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0766c20"/>悔主。願大&CB00106;。為我作波逸提懺悔主。慈愍故<note place="inline">三說</note>。</p>
 <lb ed="X" n="0766c21"/><p id="pX40p0766c2101">次懺悔主先問傍尼云大&CB00106;等聽我受此比丘尼懺
 <lb ed="X" n="0766c22"/>悔否傍尼答云好<note place="inline">傍若無尼則不須此問也</note>次受懺為尼答云受
-<lb ed="X" n="0766c23"/>汝懺悔然後<anchor id="fnX40p0766c02"/>廣說罪惡果報云大&CB00106;既是佛弟子依
+<lb ed="X" n="0766c23"/>汝懺悔然後<note n="0766002" resp="Xuzangjing" place="foot text" type="orig">廣下一有為字</note>廣說罪惡果報云大&CB00106;既是佛弟子依
 <lb ed="X" n="0766c24"/>佛出家行佛淨戒今故毀破何名尼也佛制禁戒寧
 <pb ed="X" id="X40.0724.0767a" n="0767a"/>
 <lb ed="X" n="0767a01"/>死不犯令衣&CB00425;隨身長衣說淨今違聖教名破戒人
@@ -4734,7 +4739,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0768a13"/>甲身器豈得清淨非行者良緣大&CB00106;既犯佛戒還須
 <lb ed="X" n="0768a14"/>向佛懺悔譬如因地而倒還須託地而起如是生殷
 <lb ed="X" n="0768a15"/>重心請十方諸佛同時加被為我證明兼說利養難
-<lb ed="X" n="0768a16"/>消出家難得種種方<anchor id="fnX40p0768a01"/>便隨時誨責大同捨墮中說廣
+<lb ed="X" n="0768a16"/>消出家難得種種方<note n="0768001" resp="Xuzangjing" place="foot text" type="orig">便下一有藥字</note>便隨時誨責大同捨墮中說廣
 <lb ed="X" n="0768a17"/>誡&CB02637;<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>告言罪相如是何得隱藏若欲懺悔具須陳
 <lb ed="X" n="0768a18"/>說除疑不識後當決了見論云若生時惡罵彼人彼
 <lb ed="X" n="0768a19"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>入涅槃能罵者求懺悔當於涅槃處作懺悔懺悔
@@ -5011,7 +5016,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0771c15"/>從入重僧祗錢七寶珠木槃木盆竹笤等入重見論
 <lb ed="X" n="0771c16"/>云鍼線入輕楞伽經云為割截袈裟故畜四寸刀頭
 <lb ed="X" n="0771c17"/>如月刃義判入輕過量白鐵瓷瓦&CB00425;等入重若生時
-<lb ed="X" n="0771c18"/>造<anchor id="fnX40p0771c01"/>諸擬送終調度等並判入重若生存之日為師僧
+<lb ed="X" n="0771c18"/>造<note n="0771001" resp="Xuzangjing" place="foot text" type="orig">諸疑儲</note>諸擬送終調度等並判入重若生存之日為師僧
 <lb ed="X" n="0771c19"/>父母所造隨入輕亡人所屬鏡及屏風障子&CB02083;等以
 <lb ed="X" n="0771c20"/>妨長故義判重收此律俱夜羅器者相傳云銅&CB01405;是
 <lb ed="X" n="0771c21"/>入輕十誦云鍵&CB01347;者謂小&CB01405;也出要律儀云鍵&CB01347;者
@@ -5035,7 +5040,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0772a14"/>不得著入重母論云經律先有付囑處即依付彼若
 <lb ed="X" n="0772a15"/>無付囑隨能受持者與義判一切俗書素&CB15148;絹等入
 <lb ed="X" n="0772a16"/>重如肇師五論皎公高僧傳等兼有內語者入輕別
-<lb ed="X" n="0772a17"/><anchor id="fnX40p0772a01"/>人能讀亦得。</p>
+<lb ed="X" n="0772a17"/><note n="0772001" resp="Xuzangjing" place="foot text" type="orig">入疑人（人疑入&M062442;&M062473;&M062483;&M062411;。&CB18834;）</note>人能讀亦得。</p>
 <lb ed="X" n="0772a18"/><p id="pX40p0772a1801">第五畜生者依母論入重。</p>
 <lb ed="X" n="0772a19"/><p id="pX40p0772a1901">第六奴婢者此律入重所有私物莫問輕重並入彼
 <lb ed="X" n="0772a20"/>人若常住僧奴婢死者衣物與親里若無親者供常
@@ -5313,7 +5318,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0775c17"/>無言念齊限故滅有罪大唐波頗三藏法師云佛前
 <lb ed="X" n="0775c18"/>燈以物傍取不損光者得僧祗云不得卒持燈入堂
 <lb ed="X" n="0775c19"/>唱言諸大德燈欲入乃至滅亦爾以手遮語之不聽
-<lb ed="X" n="0775c20"/>用口吹滅<anchor id="fnX40p0775c01"/>應以手扇衣角扇當攲折頭焦成實論云
+<lb ed="X" n="0775c20"/>用口吹滅<note n="0775001" resp="Xuzangjing" place="foot text" type="orig">應下疑脫不字</note>應以手扇衣角扇當攲折頭焦成實論云
 <lb ed="X" n="0775c21"/>出家之人應捨五慳一財物慳二法慳三家慳四住
 <lb ed="X" n="0775c22"/>處慳五稱歎慳染著眷屬愛樂住處故墮迦陵伽等
 <lb ed="X" n="0775c23"/>餓鬼中生阿含經云四恩者謂父母師僧國王檀越
@@ -5359,7 +5364,7 @@ Revision 1.1  2006/10/30 00:43:32  duncan
 <lb ed="X" n="0776b13"/>三亂四者魔家比丘自生現在於世間以為其道諦
 <lb ed="X" n="0776b14"/>自不明詐為信世之四亂五者當來比丘畜養妻子
 <lb ed="X" n="0776b15"/>奴僕治生販賣諍訟不承佛教世之五亂不得塔院
-<lb ed="X" n="0776b16"/>內染曬衣著<anchor id="fnX40p0776b01"/>華屣涕唾見論云頭&CB00442;者抖擻智論云
+<lb ed="X" n="0776b16"/>內染曬衣著<note n="0776001" resp="Xuzangjing" place="foot text" type="orig">華疑革</note>華屣涕唾見論云頭&CB00442;者抖擻智論云
 <lb ed="X" n="0776b17"/>以無生法忍為頭陀菩薩住於煩惱觀無上法忍是
 <lb ed="X" n="0776b18"/>上頭陀或有經云頭者少欲陀者知足西云阿蘭若
 <lb ed="X" n="0776b19"/>東云空閑處雜心論云知足於現在處起難少欲於
