@@ -3,11 +3,13 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X46n0774.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX46003801 SYSTEM "figures/X46003801.gif" NDATA GIF>
 <!ENTITY FigX46003901 SYSTEM "figures/X46003901.gif" NDATA GIF>
 <!ENTITY FigX46004001 SYSTEM "figures/X46004001.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -21,7 +23,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2007/01/03 02:18:47 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/07/19 02:10:08 $</date></edition>
 	</editionStmt>
 	<extent>6卷</extent>
 	<publicationStmt>
@@ -34,7 +36,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/03 02:18:47 $</date>
+		<date>$Date: 2007/07/19 02:10:08 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 46, No. 774 &desc;</bibl>
@@ -54,6 +56,9 @@
 	</change>
 <!--
 $Log: X46n0774.xml,v $
+Revision 1.4  2007/07/19 02:10:08  amtbgrace
+modified: 校注插入 XML 作業
+
 Revision 1.3  2007/01/03 02:18:47  amtbgrace
 modified: [經文修訂] [其/水] → [其/木]
 
@@ -71,7 +76,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0027a01"/><milestone unit="juan" n="1"/>
 <lb ed="X" n="0027a02"/>
 <lb ed="X" n="0027a03"/>
-<lb ed="X" n="0027a04"/><div1 type="other"><mulu type="其他" level="1" label="目次"/><head><anchor id="fnX46p0027a01"/>釋摩訶衍論記目次</head>
+<lb ed="X" n="0027a04"/><div1 type="other"><mulu type="其他" level="1" label="目次"/><head><note n="0027001" resp="Xuzangjing" place="foot text" type="orig">目錄新作</note>釋摩訶衍論記目次</head>
 <lb ed="X" n="0027a05"/>
 <lb ed="X" n="0027a06"/><list><item id="itemX46p0027a0601">卷第一
 <lb ed="X" n="0027a07"/><list><item id="itemX46p0027a0701">釋題目<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下</item></list></item>
@@ -171,7 +176,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0028b01"/>果故目之為大推一合十故名為士一者數之始十
 <lb ed="X" n="0028b02"/>者數之終靡不有初鮮克有終有始有卒者其為大
 <lb ed="X" n="0028b03"/>士乎第二句中舉一兼餘故言及諸賢即三賢聖即
-<lb ed="X" n="0028b04"/>十聖是則信心貫乎<anchor id="fnX46p0028b01"/>餘位眾通四衍亦該二乘若大
+<lb ed="X" n="0028b04"/>十聖是則信心貫乎<note n="0028001" resp="Xuzangjing" place="foot text" type="orig">餘一作諸</note>餘位眾通四衍亦該二乘若大
 <lb ed="X" n="0028b05"/>若小無所遺故菩薩持心等生敬故影響真權難可
 <lb ed="X" n="0028b06"/>惻故。</p>
 <lb ed="X" n="0028b07"/><p id="pX46p0028b0701">二陳本趣二初偈頌中上句云開隔檀門者為欲令
@@ -1829,7 +1834,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0052b12"/>成空所言空者即牒標中如實空義不同生滅所有
 <lb ed="X" n="0052b13"/>妄染由修聖道所<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>方空今此真如所有妄染不由
 <lb ed="X" n="0052b14"/>對治相本自盡是故說言從本<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>來一切染法不相
-<lb ed="X" n="0052b15"/>應故謂離等者謂離生滅垢淨增<anchor id="fnX46p0052b01"/>滅差別相故云何
+<lb ed="X" n="0052b15"/>應故謂離等者謂離生滅垢淨增<note n="0052001" resp="Xuzangjing" place="foot text" type="orig">滅疑減下同</note>滅差別相故云何
 <lb ed="X" n="0052b16"/>離耶出所由云以無&CB00980;妄心念故由無能取&CB00980;妄心
 <lb ed="X" n="0052b17"/>故則無所取差別之相次當知下離相顯德謂離四
 <lb ed="X" n="0052b18"/>句則成四德入楞伽云謂觀一切法離四句不可得
@@ -2065,7 +2070,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0055b23"/>能礙故如頌第四句云隨釋應觀察故。</p>
 <lb ed="X" n="0055b24"/><p id="pX46p0055b2401">二種種下指陳餘義謂下能依不覺義中即其文處
 <pb ed="X" id="X46.0774.0055c" n="0055c"/>
-<lb ed="X" n="0055c01"/>三以何下通證成<anchor id="fnX46p0055c01"/>一依二初寄問生起二爾時下引
+<lb ed="X" n="0055c01"/>三以何下通證成<note n="0055001" resp="Xuzangjing" place="foot text" type="orig">一疑二</note>一依二初寄問生起二爾時下引
 <lb ed="X" n="0055c02"/>經證成中二初法說二初問答諸法生處中初妙德
 <lb ed="X" n="0055c03"/>諮詢阿黎耶識即大攝主具足過患功德法故如是
 <lb ed="X" n="0055c04"/>諸法而以何法為其根本而於何處是彼出生次如
@@ -2082,7 +2087,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0055c15"/>依故一心本法通攝九法通別二體大攝主識唯攝
 <lb ed="X" n="0055c16"/>九法支分別體是故總別本末分際有所不同若不
 <lb ed="X" n="0055c17"/>爾者云何黎耶論說以為能依別相。</p>
-<lb ed="X" n="0055c18"/><p id="pX46p0055c1801">二復次下喻明中然上法中以明依體<anchor id="fnX46p0055c02"/>令此喻內以
+<lb ed="X" n="0055c18"/><p id="pX46p0055c1801">二復次下喻明中然上法中以明依體<note n="0055002" resp="Xuzangjing" place="foot text" type="orig">＊今疑令（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>令此喻內以
 <lb ed="X" n="0055c19"/>顯依因而有二喻謂如黎庶之子并諸草木各有二
 <lb ed="X" n="0055c20"/>依取其通別少分義故又如庶子攬彼國王及與父
 <lb ed="X" n="0055c21"/>母通別力用以成自體一切草木取彼大地及與種
@@ -2219,7 +2224,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0057c02"/>立一意識謂由此識具彼能見能聞乃至第七為其
 <lb ed="X" n="0057c03"/>依止七種功用是故能攝七種轉識引經中云唯有
 <lb ed="X" n="0057c04"/>意識無餘七者謂以一意攝彼七故約此即說一種
-<lb ed="X" n="0057c05"/>意識亦具第八持緣作用由是<anchor id="fnX46p0057c01"/>右來一意識師或說
+<lb ed="X" n="0057c05"/>意識亦具第八持緣作用由是<note n="0057001" resp="Xuzangjing" place="foot text" type="orig">右疑古</note>右來一意識師或說
 <lb ed="X" n="0057c06"/>八識體為一故如依一鏡現多影像如依一水而有
 <lb ed="X" n="0057c07"/>多波故於一意亦含此義三是名下結示二立二種
 <lb ed="X" n="0057c08"/>識謂三細相合為一故前七識轉合為一故引經中
@@ -3205,7 +3210,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0070c13"/>因非斯淨覺有分轉故二云何下轉釋此三世間攝
 <lb ed="X" n="0070c14"/>諸依正凡聖皆盡佛雖出世相待立故無不統攝聲
 <lb ed="X" n="0070c15"/>聞緣覺通於二種由互相待義不定故而不具出。</p>
-<lb ed="X" n="0070c16"/><p id="pX46p0070c1601"><anchor id="fnX46p0070c01"/>三此中下喻二初同鏡義二初依喻辨明輪多梨華
+<lb ed="X" n="0070c16"/><p id="pX46p0070c1601"><note n="0070001" resp="Xuzangjing" place="foot text" type="orig">三疑二</note>三此中下喻二初同鏡義二初依喻辨明輪多梨華
 <lb ed="X" n="0070c17"/>云明耀珠由此珠鏡義現物像不分同異物由熏力
 <lb ed="X" n="0070c18"/>悉皆明淨亦猶眾流涉於大海味總成鹹萬像爍於
 <lb ed="X" n="0070c19"/>須彌色皆同碧類斯珠鏡義可知之又一切物而與
@@ -3378,7 +3383,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0073a11"/>種望於下轉有力見一觀滿對於上轉無力位立報
 <lb ed="X" n="0073a12"/>恩有終覺了三種通依上下有無力用無明義用理
 <lb ed="X" n="0073a13"/>實有多且依契經略分十種。</p>
-<lb ed="X" n="0073a14"/><p id="pX46p0073a1401">二見一下別釋十初見一<anchor id="fnX46p0073a01"/>&CB00980;住地二初問起二答釋
+<lb ed="X" n="0073a14"/><p id="pX46p0073a1401">二見一下別釋十初見一<note n="0073001" resp="Xuzangjing" place="foot text" type="orig">&CB00980;疑處</note>&CB00980;住地二初問起二答釋
 <lb ed="X" n="0073a15"/>二初偈頌見謂照見即能緣慧一處即是所證法界
 <lb ed="X" n="0073a16"/>諸功德法安立依止一心處故能見之一處一處之
 <lb ed="X" n="0073a17"/>能見所見即一處屬聲業聲二名異故今此無明從
@@ -3434,7 +3439,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0073c17"/>持種不失義亦如是又所持子子種種差別猶如網
 <lb ed="X" n="0073c18"/>孔數無量故。</p>
 <lb ed="X" n="0073c19"/><p id="pX46p0073c1901">二何因下釋住地名字二初徵起二答釋二初偈頌
-<lb ed="X" n="0073c20"/>二長行二初釋義四重擔者擔謂負也即擔<anchor id="fnX46p0073c02"/>住也次
+<lb ed="X" n="0073c20"/>二長行二初釋義四重擔者擔謂負也即擔<note n="0073002" resp="Xuzangjing" place="foot text" type="orig">住疑任</note>住也次
 <lb ed="X" n="0073c21"/>引經中於有愛數四住地者一欲愛住地二色愛住
 <lb ed="X" n="0073c22"/>地三有愛住地如次三界俱生之惑四見一處住地
 <lb ed="X" n="0073c23"/>即是三界分別之惑如次合上海山木人如是四種
@@ -3575,7 +3580,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0075c08"/>有情生欣厭故亦可舉此影示餘故二今此下影顯
 <lb ed="X" n="0075c09"/>諸識今此正顯所生諸識文中但舉六塵境界影取
 <lb ed="X" n="0075c10"/>諸識無所遺故兼令了知風相狀故釋師勸審其在
-<lb ed="X" n="0075c11"/>于茲<anchor id="fnX46p0075c01"/>二彼末下會攝末那六種麤相具該七識今說
+<lb ed="X" n="0075c11"/>于茲<note n="0075001" resp="Xuzangjing" place="foot text" type="orig">二疑三</note>二彼末下會攝末那六種麤相具該七識今說
 <lb ed="X" n="0075c12"/>六塵將非缺略然由意識有其麤細細即末那既無
 <lb ed="X" n="0075c13"/>別體是故意識其攝末那四如是下合屬法喻六塵
 <lb ed="X" n="0075c14"/>能動現鏡心體令起識浪故喻如風二如經下配經。</p>
@@ -4808,7 +4813,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0092a16"/>真妄斷不斷別三則真妄體等用同以真收妄則妄
 <lb ed="X" n="0092a17"/>滅真存以妄收真則真隱妄顯故說真妄盡不盡別
 <lb ed="X" n="0092a18"/>三如本下合本。</p><p id="pX46p0092a1807" place="inline">論第五終。</p>
-<lb ed="X" n="0092a19"/><p id="pX46p0092a1901"><anchor id="fnX46p0092a01"/>二三自屬為門之名二初結前生後此釋標立文云
+<lb ed="X" n="0092a19"/><p id="pX46p0092a1901"><note n="0092001" resp="Xuzangjing" place="foot text" type="orig">論卷第六</note>二三自屬為門之名二初結前生後此釋標立文云
 <lb ed="X" n="0092a20"/>能示摩訶衍自體相用故謂此三義能治他染立以
 <lb ed="X" n="0092a21"/>自名一切行人依此為門趣入本法則能顯示自體
 <lb ed="X" n="0092a22"/>相用依斯三自顯彼一心故將此名屬門之目。</p>
@@ -4880,7 +4885,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0093a13"/>無有少缺本自圓成非緣所立由&CB00642;因位故名如來
 <lb ed="X" n="0093a14"/>藏由&CB00642;果位故亦名法身。</p>
 <lb ed="X" n="0093a15"/><p id="pX46p0093a1501">二<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>說下問答決疑門三初結指分門二問者下依
-<lb ed="X" n="0093a16"/>門釋相二初問難門二初牒問<anchor id="fnX46p0093a01"/>微詰問難意者謂發
+<lb ed="X" n="0093a16"/>門釋相二初問難門二初牒問<note n="0093001" resp="Xuzangjing" place="foot text" type="orig">微疑徵</note>微詰問難意者謂發
 <lb ed="X" n="0093a17"/>略問難相違故。</p>
 <lb ed="X" n="0093a18"/><p id="pX46p0093a1801">二所謂下引文結意二初引違文二初真如決擇此
 <lb ed="X" n="0093a19"/>即前文體真如義謂即心性離三假相滿三實德如
@@ -5221,7 +5226,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0097c04"/><juan fun="open" n="6"><mulu type="卷" n="6"/><jhead>釋摩訶衍論記卷第六</jhead></juan>
 <lb ed="X" n="0097c05"/>
 <lb ed="X" n="0097c06"/><byline type="author">皇宋光嚴無際大師　普觀　述</byline>
-<lb ed="X" n="0097c07"/><p id="pX46p0097c0701"><anchor id="fnX46p0097c01"/>三分別發趣道相二初結前生後謂即發心趣向諸
+<lb ed="X" n="0097c07"/><p id="pX46p0097c0701"><note n="0097001" resp="Xuzangjing" place="foot text" type="orig">論卷第七</note>三分別發趣道相二初結前生後謂即發心趣向諸
 <lb ed="X" n="0097c08"/>佛所行之道謂道之相名為道相因果別故發趣即
 <lb ed="X" n="0097c09"/>道相體持用故又道即是相俱所趣故道相之發趣
 <lb ed="X" n="0097c10"/>境行異故區分揀別其義理故說名分別。</p>
@@ -5491,7 +5496,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0101a24"/>正設難二答曰下答釋門中有法喻合文相可解。</p>
 <pb ed="X" id="X46.0774.0101b" n="0101b"/>
 <lb ed="X" n="0101b01"/><p id="pX46p0101b0101">第七論終。</p>
-<lb ed="X" n="0101b02"/><p id="pX46p0101b0201"><anchor id="fnX46p0101b01"/>三修行信心分二初結指分門二能治下次第作釋
+<lb ed="X" n="0101b02"/><p id="pX46p0101b0201"><note n="0101001" resp="Xuzangjing" place="foot text" type="orig">論卷第八</note>三修行信心分二初結指分門二能治下次第作釋
 <lb ed="X" n="0101b03"/>七初能治所治契當門二初牒門徵起二唱本釋成
 <lb ed="X" n="0101b04"/>二初唱本二牒釋二初區分能所中初通示次所化
 <lb ed="X" n="0101b05"/>下別指前因緣分但說被於五心中品從正顯故二
@@ -5703,7 +5708,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0104a11"/>釋相二初體大無邊殊勝門本論有三初標立次釋
 <lb ed="X" n="0104a12"/>相後結名二眷屬無盡殊勝門眷屬三昧名金剛者
 <lb ed="X" n="0104a13"/>以表本末皆真實故。</p><p id="pX46p0104a1309" place="inline">第八論終。</p>
-<lb ed="X" n="0104a14"/><p id="pX46p0104a1401"><anchor id="fnX46p0104a01"/>四廣釋魔事對治門二初結前生後魔是梵音此云
+<lb ed="X" n="0104a14"/><p id="pX46p0104a1401"><note n="0104001" resp="Xuzangjing" place="foot text" type="orig">論卷第九</note>四廣釋魔事對治門二初結前生後魔是梵音此云
 <lb ed="X" n="0104a15"/>奪命能作奪命之因緣故亦心殺者以其能害智慧
 <lb ed="X" n="0104a16"/>命故。</p>
 <lb ed="X" n="0104a17"/><p id="pX46p0104a1701">二演義疏文二初唱本二作釋文二初總別標分二
@@ -5822,7 +5827,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0105c05"/>門&CB00278;在後文對治次說因果二門之中文各分三初
 <lb ed="X" n="0105c06"/>縱奪顯說次徵釋說意後合屬本文。</p>
 <lb ed="X" n="0105c07"/><p id="pX46p0105c0701">三次說下得三世智惑人門二初標指徵起二所謂
-<lb ed="X" n="0105c08"/>下依義釋成中二初令達過未後令達現<anchor id="fnX46p0105c01"/>在四不離
+<lb ed="X" n="0105c08"/>下依義釋成中二初令達過未後令達現<note n="0105001" resp="Xuzangjing" place="foot text" type="orig">在下疑有落行</note>在四不離
 <lb ed="X" n="0105c09"/>世間縛著門外道邪論能纏縛故五心性無常生亂
 <lb ed="X" n="0105c10"/>門中及無性者令至闡提無種性故六令得邪定非
 <lb ed="X" n="0105c11"/>真門外道邪定非真實故七勸請行者離邪門此門
@@ -5838,7 +5843,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <lb ed="X" n="0105c21"/>下釋義二初總問二就別下別說三初標徵二一者
 <lb ed="X" n="0105c22"/>下列釋十種功德初一由定蒙加次四依加離障後
 <lb ed="X" n="0105c23"/>五成行不退三如其下勸修。</p><p id="pX46p0105c2312" place="inline">第九論畢。</p>
-<lb ed="X" n="0105c24"/><p id="pX46p0105c2401"><anchor id="fnX46p0105c02"/>六兩輪具缺益損門二初結前生後二演義疏文二
+<lb ed="X" n="0105c24"/><p id="pX46p0105c2401"><note n="0105002" resp="Xuzangjing" place="foot text" type="orig">論卷第十</note>六兩輪具缺益損門二初結前生後二演義疏文二
 <pb ed="X" id="X46.0774.0106a" n="0106a"/>
 <lb ed="X" n="0106a01"/>初唱本論二作釋文二初標門二就第下隨釋六初
 <lb ed="X" n="0106a02"/>示缺觀止輪失門三初舉數標徵二一者下依次釋
@@ -6042,7 +6047,7 @@ Revision 1.1  2006/11/13 03:38:35  duncan
 <pb ed="X" id="X46.0774.0108c" n="0108c"/>
 <lb ed="X" n="0108c01"/>又斯三世器由業致生自妄分皆依無明迷真而起
 <lb ed="X" n="0108c02"/>非是諸佛造作建立廣略二經各依一勢故不相違
-<lb ed="X" n="0108c03"/>由是彼佛對三世間差<anchor id="fnX46p0108c01"/>則故依持故則名為攝平等
+<lb ed="X" n="0108c03"/>由是彼佛對三世間差<note n="0108001" resp="Xuzangjing" place="foot text" type="orig">則疑別</note>則故依持故則名為攝平等
 <lb ed="X" n="0108c04"/>故成就故不得名攝分流依前大品依後故論說言
 <lb ed="X" n="0108c05"/>攝不攝故。</p>
 <lb ed="X" n="0108c06"/><p id="pX46p0108c0601">二釋甚深二字微妙至極曰甚幽玄匹測曰深謂由
