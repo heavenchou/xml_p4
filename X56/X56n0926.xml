@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X56n0926.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2005/11/30 06:34:31 $</date></edition>
+		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/08/23 06:35:14 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:31 $</date>
+		<date>$Date: 2007/08/23 06:35:14 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 56, No. 926 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X56n0926.xml,v $
+Revision 1.4  2007/08/23 06:35:14  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.3  2005/11/30 06:34:31  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -124,7 +129,7 @@ no message
 <lb ed="X" n="0309a06"/><note place="inline">曾從經中及從善知識所聞佛名字故云名字即佛</note>又修攝其心觀一切法空
 <lb ed="X" n="0309a07"/>如實相學大乘者雖有肉眼名為佛眼欲得一切法
 <lb ed="X" n="0309a08"/>當學般若譬如得如意珠此乃觀行即佛不二心珠
-<lb ed="X" n="0309a09"/>也<note place="inline">此有五品位一一念信解即圓一心三諦也二兼能受持大乘經解典三復廣為眾生說法<anchor id="fnX56p0309a01"/>〔正〕四能說法
+<lb ed="X" n="0309a09"/>也<note place="inline">此有五品位一一念信解即圓一心三諦也二兼能受持大乘經解典三復廣為眾生說法<note n="0309001" resp="Xuzangjing" place="foot text" type="orig">正字疑衍</note>〔正〕四能說法
 <lb ed="X" n="0309a10"/>兼行六度五事理心融正行六度五位俱修圓行同名觀行即佛</note>又持是經者得六
 <lb ed="X" n="0309a11"/>根清淨下至阿鼻上至有頂及聲聞緣覺菩薩諸佛
 <lb ed="X" n="0309a12"/>色像皆身中現唯獨自明了餘人所不見譬如示以
@@ -155,7 +160,7 @@ no message
 <lb ed="X" n="0309b12"/>緣也</note>或造諸業相備受苦報故有地水火風色香味觸
 <lb ed="X" n="0309b13"/>三界依正等法大論云三界無別法唯是一心作以
 <lb ed="X" n="0309b14"/>顛倒故不知唯心隨緣反造謂是他物而起愛恚攀
-<lb ed="X" n="0309b15"/>緣厭離馳騁流轉六趣四生十生十二因緣<anchor id="fnX56p0309b02"/>修環不
+<lb ed="X" n="0309b15"/>緣厭離馳騁流轉六趣四生十生十二因緣<note n="0309002" resp="Xuzangjing" place="foot text" type="orig">修疑循</note>修環不
 <lb ed="X" n="0309b16"/>息涅槃中譬如春池王時遊翫忽遺明珠於彼池內
 <lb ed="X" n="0309b17"/>眾人聞之俱入池中各執瓦礫謂得寶珠<note place="inline">經前方便三修</note>此
 <lb ed="X" n="0309b18"/>喻諸忘因果也淨名欲令眾生達本唯心真無住體
@@ -168,13 +173,13 @@ no message
 <pb ed="X" id="X56.0926.0309c" n="0309c"/>
 <lb ed="X" n="0309c01"/>般若性名報身種<note place="inline">即前癡惑</note>三緣因性即六趣業性不可
 <lb ed="X" n="0309c02"/>得是解脫性名應身種<note place="inline">即前業相</note>譬如摩尼唯一圓體<note place="inline">喻法
-<lb ed="X" n="0309c03"/>身也</note>金珠瑩徹<note place="inline">喻般若也</note><anchor id="fnX56p0309c03"/>其一切寶<note place="inline">喻解脫也</note>是三一相非同非
+<lb ed="X" n="0309c03"/>身也</note>金珠瑩徹<note place="inline">喻般若也</note><note n="0309003" resp="Xuzangjing" place="foot text" type="orig">其疑具</note>其一切寶<note place="inline">喻解脫也</note>是三一相非同非
 <lb ed="X" n="0309c04"/>異從緣起者謂此三因性種俱從教行緣起經云若
 <lb ed="X" n="0309c05"/>有聞一句無一不成佛即教緣起若善男子能於此
 <lb ed="X" n="0309c06"/>經一念隨喜乃至深心信解受持讀誦解說書寫為
 <lb ed="X" n="0309c07"/>令眾生開示悟入佛之知見究竟一切種智是名智
 <lb ed="X" n="0309c08"/>慧莊嚴般若種<note place="inline">翻前癡惑</note>經云低頭舉手&CB15148;地聚沙皆成
-<lb ed="X" n="0309c09"/>佛道即行緣起經云若善男子住忍辱<anchor id="fnX56p0309c04"/>起柔和善順
+<lb ed="X" n="0309c09"/>佛道即行緣起經云若善男子住忍辱<note n="0309004" resp="Xuzangjing" place="foot text" type="orig">起疑地</note>起柔和善順
 <lb ed="X" n="0309c10"/>而不卒暴心亦不驚佛子住是地即是佛受用行此
 <lb ed="X" n="0309c11"/>諸道<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>來世得作佛是名福德莊嚴顯解脫<note place="inline">翻前業相</note>經
 <lb ed="X" n="0309c12"/>云一切眾生皆是吾子凡有心者皆得作佛我心自
@@ -182,7 +187,7 @@ no message
 <lb ed="X" n="0309c14"/>經卷如其所得法定慧力莊嚴等即正因種是所莊
 <lb ed="X" n="0309c15"/>嚴真法身也<note place="inline">翻前苦報</note>此乃一乘教行起三因性德佛種
 <lb ed="X" n="0309c16"/>故云佛種從緣起是故說一乘然則能覺之智自有
-<lb ed="X" n="0309c17"/>深淺如涅槃重四教觀十二因緣凡有四智下智<anchor id="fnX56p0309c05"/>覺
+<lb ed="X" n="0309c17"/>深淺如涅槃重四教觀十二因緣凡有四智下智<note n="0309005" resp="Xuzangjing" place="foot text" type="orig">覺疑觀</note>覺
 <lb ed="X" n="0309c18"/>不見佛性得聲聞菩提中智觀不見佛性得緣覺菩
 <lb ed="X" n="0309c19"/>提上智觀見不了了得菩薩菩提上上智觀即見佛
 <lb ed="X" n="0309c20"/>性得佛菩提<note place="inline">四智對四教如玄義</note>譬如雜色裹摩尼珠光隨色
@@ -203,7 +208,7 @@ no message
 <lb ed="X" n="0310a10"/>不覺心即生佛之心非離生佛外別有心但心為生
 <lb ed="X" n="0310a11"/>佛之本經示本末因果不二故云三無差別如諸子
 <lb ed="X" n="0310a12"/>義經論備說今依本宗略示因果玄義中釋法有三
-<lb ed="X" n="0310a13"/>謂心佛眾生若定其因果則心法定在因<anchor id="fnX56p0310a01"/>佛法定在
+<lb ed="X" n="0310a13"/>謂心佛眾生若定其因果則心法定在因<note n="0310001" resp="Xuzangjing" place="foot text" type="orig">佛等五字疑衍</note>佛法定在
 <lb ed="X" n="0310a14"/>因佛法定在果眾生法一往義通因果心定因者心
 <lb ed="X" n="0310a15"/>非因果約能造諸法判為因也何者如華嚴云一切
 <lb ed="X" n="0310a16"/>唯心造心造諸如來等豈非十法界法皆由心造因
@@ -225,7 +230,7 @@ no message
 <lb ed="X" n="0310b07"/>者即一念是也何者小般若云過去心不可得現在
 <lb ed="X" n="0310b08"/>心不可得未來心不可得不可得故即無住本無住
 <lb ed="X" n="0310b09"/>即無始也雖不可得而一念知性常靈常寂故李逸
-<lb ed="X" n="0310b10"/>人云十世古今始終不移於當念<anchor id="fnX56p0310b02"/>知者大師云三十
+<lb ed="X" n="0310b10"/>人云十世古今始終不移於當念<note n="0310002" resp="Xuzangjing" place="foot text" type="orig">知疑智</note>知者大師云三十
 <lb ed="X" n="0310b11"/>相即一念是若了一念無始何疑既許眾生本是佛
 <lb ed="X" n="0310b12"/>之智眼設爾無始一佛自覺亦何乖也如支佛在凡
 <lb ed="X" n="0310b13"/>尚能自覺因緣遷謝以證聖道況諸佛乎且十方世
@@ -250,7 +255,7 @@ no message
 <lb ed="X" n="0310c07"/>之過矣如來設教導彼群盲於之可解。</p></sp></dialog>
 <lb ed="X" n="0310c08"/><dialog type="qa"><sp type="question"><p id="pX56p0310c0801">問眾生無始為一念本性清淨不覺稱迷為一念本
 <lb ed="X" n="0310c09"/>妄故稱迷乎又諸經論多云眾生從真起妄如楞嚴
-<lb ed="X" n="0310c10"/>云覺海性澄圓圓澄覺元妙元明照生所所立<anchor id="fnX56p0310c03"/>性亡
+<lb ed="X" n="0310c10"/>云覺海性澄圓圓澄覺元妙元明照生所所立<note n="0310003" resp="Xuzangjing" place="foot text" type="orig">性上疑有脫字</note>性亡
 <lb ed="X" n="0310c11"/>迷妄有&CB00980;空依空立世界等淨名云從無住本立一
 <lb ed="X" n="0310c12"/>切法起信云從真如門不變隨緣故有生滅等相豈
 <lb ed="X" n="0310c13"/>非皆云從真起妄耶若爾則妄起有始何謂無始本
@@ -258,7 +263,7 @@ no message
 <lb ed="X" n="0310c15"/>此乃是佛起緣之說不可定執是真是妄何者佛欲
 <lb ed="X" n="0310c16"/>示諸眾生令其了妄即真故云從真起妄耳若佛出
 <lb ed="X" n="0310c17"/>世便直云諸法從本來常自寂滅相是法住法位世
-<lb ed="X" n="0310c18"/>間相常住而化眾生何由可解如云我若<anchor id="fnX56p0310c04"/>讀佛乘眾
+<lb ed="X" n="0310c18"/>間相常住而化眾生何由可解如云我若<note n="0310004" resp="Xuzangjing" place="foot text" type="orig">讀疑讚</note>讀佛乘眾
 <lb ed="X" n="0310c19"/>生沒在苦豈非不堪聞是法以方便力故隨順眾生
 <lb ed="X" n="0310c20"/>說如玄義有三種意語一隨佛自意語說圓頓乘直
 <lb ed="X" n="0310c21"/>云一切諸法唯心法界非真非妄眾生無始不能自
@@ -284,7 +289,7 @@ no message
 <lb ed="X" n="0311a16"/>一切行矣<note place="inline">廣如玄義圓五行中</note>。</p></sp></dialog>
 <lb ed="X" n="0311a17"/><dialog type="qa"><sp type="question"><p id="pX56p0311a1701">問圓修不二得入上位為一生辦為多生辦若多生
 <lb ed="X" n="0311a18"/>辦與漸何別若一生辦聞不二者其眾辦者誰歟。</p></sp><sp type="answer"><p id="pX56p0311a1820" place="inline">答
-<lb ed="X" n="0311a19"/>人有三種一根性極利惑障稍輕宿殖<anchor id="fnX56p0311a01"/>敢厚志願堅
+<lb ed="X" n="0311a19"/>人有三種一根性極利惑障稍輕宿殖<note n="0311001" resp="Xuzangjing" place="foot text" type="orig">敢疑敦</note>敢厚志願堅
 <lb ed="X" n="0311a20"/>固纔聞即解頓獲證入此只用世界即悟第一義也
 <lb ed="X" n="0311a21"/>二根性亦利惑障亦輕宿殖未多志願猶弱纔聞即
 <lb ed="X" n="0311a22"/>解如聞思修當觀一念即空假中方獲證入此至為
@@ -299,8 +304,8 @@ no message
 <lb ed="X" n="0311b06"/>故號為沙門論云如是尊妙人即能見般若是其人
 <lb ed="X" n="0311b07"/>也餘癡鈍者毒氣深入聞不能解設解斥言乃作毒
 <lb ed="X" n="0311b08"/>&CB00655;之因繫之緣耳。</p></sp></dialog>
-<lb ed="X" n="0311b09"/><dialog type="qa"><sp type="question"><p id="pX56p0311b0901">問既用方便殊調練則是歷<anchor id="fnX56p0311b02"/>車何謂唯心不二觀耶。</p></sp>
-<lb ed="X" n="0311b10"/><sp type="answer"><p id="pX56p0311b1001">答只為諸法本唯心是故世間相常住舉足<anchor id="fnX56p0311b03"/>七足道
+<lb ed="X" n="0311b09"/><dialog type="qa"><sp type="question"><p id="pX56p0311b0901">問既用方便殊調練則是歷<note n="0311002" resp="Xuzangjing" place="foot text" type="orig">車疑事</note>車何謂唯心不二觀耶。</p></sp>
+<lb ed="X" n="0311b10"/><sp type="answer"><p id="pX56p0311b1001">答只為諸法本唯心是故世間相常住舉足<note n="0311003" resp="Xuzangjing" place="foot text" type="orig">七疑下</note>七足道
 <lb ed="X" n="0311b11"/>場何&CB00980;慮歷事不開悟者哉。</p></sp></dialog>
 <lb ed="X" n="0311b12"/><dialog type="qa"><sp type="question"><p id="pX56p0311b1201">問如云無始來迷遇染淨緣熏習差別致有十界之
 <lb ed="X" n="0311b13"/>殊者則是界因迷有何謂世間相常住耶。</p></sp><sp type="answer"><p id="pX56p0311b1317" place="inline">答假使十
@@ -318,7 +323,7 @@ no message
 <pb ed="X" id="X56.0926.0311c" n="0311c"/>
 <lb ed="X" n="0311c01"/>出&CB00432;金不重為&CB00432;矣<note place="inline">備如觀音玄義</note>。</p></sp></dialog>
 <lb ed="X" n="0311c02"/><dialog type="qa"><sp type="question"><p id="pX56p0311c0201">問若斷事惡即是壞滅諸相何謂不滅癡愛起於明
-<lb ed="X" n="0311c03"/>脫。</p></sp><sp type="answer"><p id="pX56p0311c0302" place="inline">答圓中論斷不斷而斷既覺諸法本唯我<anchor id="fnX56p0311c04"/>只種種
+<lb ed="X" n="0311c03"/>脫。</p></sp><sp type="answer"><p id="pX56p0311c0302" place="inline">答圓中論斷不斷而斷既覺諸法本唯我<note n="0311004" resp="Xuzangjing" place="foot text" type="orig">只字更勘</note>只種種
 <lb ed="X" n="0311c04"/>眾惡皆三昧門豈更有法名為惡耶。</p></sp></dialog>
 <lb ed="X" n="0311c05"/><dialog type="qa"><sp type="question"><p id="pX56p0311c0501">問若爾只應一斷何故六即伏斷有異。</p></sp><sp type="answer"><p id="pX56p0311c0516" place="inline">答譬如渾水
 <lb ed="X" n="0311c06"/>濁源深遠狂風鼓激魚龍出沒卒難可清應久澄渟
@@ -330,7 +335,7 @@ no message
 <lb ed="X" n="0311c12"/>破無明<note place="inline">遲疾如前三種人也</note>當知圓人了惡即善實無所斷而
 <lb ed="X" n="0311c13"/>論斷耳如央堀摩羅遇惡緣時恣行殺害稱惡人後
 <lb ed="X" n="0311c14"/>遇佛時聞實際法頓悟唯心成大菩薩和須密多女
-<lb ed="X" n="0311c15"/>示行惡法乃至諸善知識示作大坑刀山&CB00669;樹等<anchor id="fnX56p0311c05"/>減
+<lb ed="X" n="0311c15"/>示行惡法乃至諸善知識示作大坑刀山&CB00669;樹等<note n="0311005" resp="Xuzangjing" place="foot text" type="orig">減疑咸下同</note>減
 <lb ed="X" n="0311c16"/>即妙三昧門此皆深達罪福無性入善惡不二法門
 <lb ed="X" n="0311c17"/>得是妙用矣。</p></sp></dialog>
 <lb ed="X" n="0311c18"/><dialog type="qa"><sp type="question"><p id="pX56p0311c1801">問淨名從無住本立一切法與楞嚴中覺海性澄圓
@@ -361,7 +366,7 @@ no message
 <lb ed="X" n="0312a18"/>說不以言示無言但默然而入是以文殊歎為真入
 <lb ed="X" n="0312a19"/>亦如楞伽中大慧問佛如世尊言始從得道經至涅
 <lb ed="X" n="0312a20"/>槃於其中間不說一字世尊依何密語作如是言佛
-<lb ed="X" n="0312a21"/>答我依二密語一自證法二本住法自證法者如<anchor id="fnX56p0312a01"/>被
+<lb ed="X" n="0312a21"/>答我依二密語一自證法二本住法自證法者如<note n="0312001" resp="Xuzangjing" place="foot text" type="orig">被疑彼</note>被
 <lb ed="X" n="0312a22"/>如來所得我亦得之本住法者本有法界常住如道
 <lb ed="X" n="0312a23"/>趣城城由道至<note place="inline">云云</note>是則常住法界唯心無住名本
 <lb ed="X" n="0312a24"/>住也覺此唯心契常合道名自證也故知自證修本
@@ -369,10 +374,10 @@ no message
 <lb ed="X" n="0312b01"/>住約證亦與楞嚴意同本覺明妙即自證也性覺妙
 <lb ed="X" n="0312b02"/>明即本住也亦是金光明中明如來所盡之性性即
 <lb ed="X" n="0312b03"/>性也如來即修也今經云世間相常住道場得知<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
-<lb ed="X" n="0312b04"/>是法不<anchor id="fnX56p0312b02"/>行示此不可示等並明修性不二皆與淨名
+<lb ed="X" n="0312b04"/>是法不<note n="0312002" resp="Xuzangjing" place="foot text" type="orig">行疑可</note>行示此不可示等並明修性不二皆與淨名
 <lb ed="X" n="0312b05"/>所入意同若顯若默者乃示自行化他故爾。</p></sp></dialog>
 <lb ed="X" n="0312b06"/><dialog type="qa"><sp type="question"><p id="pX56p0312b0601">問此與止觀同乎。</p></sp><sp type="answer"><p id="pX56p0312b0608" place="inline">答天台止觀有三謂漸次不定圓
-<lb ed="X" n="0312b07"/>頓<note place="inline">漸次者亦解圓理但是行漸謂次第修於四禪八定<anchor id="fnX56p0312b03"/>〔現〕練熏修及修九種大禪等不從圓發故名漸
+<lb ed="X" n="0312b07"/>頓<note place="inline">漸次者亦解圓理但是行漸謂次第修於四禪八定<note n="0312003" resp="Xuzangjing" place="foot text" type="orig">現疑觀</note>〔現〕練熏修及修九種大禪等不從圓發故名漸
 <lb ed="X" n="0312b08"/>次不定者亦依漸門而修發不從圓發頓或發漸或前後互發故名不定由宿習漸頓種熟故爾此又不同圓
 <lb ed="X" n="0312b09"/>發中十境自是煩惱等互發之相耳</note>此不二門唯與圓頓意同故文云
 <lb ed="X" n="0312b10"/>故撮十妙為觀法大體乃至彼此照著法華行成法
@@ -449,7 +454,7 @@ no message
 <lb ed="X" n="0313b06"/>異<note place="inline">開合之相文中自解</note>故結云本&CB00528;雖殊不思議一豈得以結
 <lb ed="X" n="0313b07"/>例之語使為一文立名之大意耶又若言本&CB00528;雖各
 <lb ed="X" n="0313b08"/>十妙只為因果不二理一無殊從其大綱開&CB00528;十妙
-<lb ed="X" n="0313b09"/>即本十妙故得題為本&CB00528;<anchor id="fnX56p0313b01"/>本二者此更為不可若然
+<lb ed="X" n="0313b09"/>即本十妙故得題為本&CB00528;<note n="0313001" resp="Xuzangjing" place="foot text" type="orig">本疑不</note>本二者此更為不可若然
 <lb ed="X" n="0313b10"/>者則智者大師徒張名義申佛久成之本限指聞壽
 <lb ed="X" n="0313b11"/>增道損生之益使顯本之妙翻成繁剩之文且夫開
 <lb ed="X" n="0313b12"/>&CB00528;顯本意則不然但是開其所述執近之情耳令達
@@ -469,7 +474,7 @@ no message
 <lb ed="X" n="0313c01"/>自他因果罄無不盡矣是以荊溪禪師於文自立其
 <lb ed="X" n="0313c02"/>題云法既教部咸開成妙故此十門不二為目法之
 <lb ed="X" n="0313c03"/>教部即法華也十門即依十妙所立之門也不二即
-<lb ed="X" n="0313c04"/>正因所述法體也其意<anchor id="fnX56p0313c02"/>煖然可解何得&CB00364;違宗師所
+<lb ed="X" n="0313c04"/>正因所述法體也其意<note n="0313002" resp="Xuzangjing" place="foot text" type="orig">煖疑煥</note>煖然可解何得&CB00364;違宗師所
 <lb ed="X" n="0313c05"/>立之文擅題本&CB00528;不二之稱況本&CB00528;乃是古今分節
 <lb ed="X" n="0313c06"/>經文科目耳非是經論顯要法相之名豈得立為十
 <lb ed="X" n="0313c07"/>妙不二之題也又若云本&CB00528;正是今家判經之鈴鍵
@@ -481,7 +486,7 @@ no message
 <lb ed="X" n="0313c13"/>云爾此意正在分節經文故經云仰觀斯旨眾義冷
 <lb ed="X" n="0313c14"/>然何關今之十不二門歟又引發端然此&CB00528;門之言
 <lb ed="X" n="0313c15"/>故立為本&CB00528;不二者益知不曉其意只為發端云然
-<lb ed="X" n="0313c16"/>此&CB00528;門所以不可題為本&CB00528;<note place="inline">思<anchor id="fnX56p0313c03"/>文</note>又若云不二正是心
+<lb ed="X" n="0313c16"/>此&CB00528;門所以不可題為本&CB00528;<note place="inline">思<note n="0313003" resp="Xuzangjing" place="foot text" type="orig">＊之疑文（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>文</note>又若云不二正是心
 <lb ed="X" n="0313c17"/>觀何妨觀心本&CB00528;以為題者此亦不然況約文附事
 <lb ed="X" n="0313c18"/>之觀非此&CB02584;對不二之旨此唯心外更何所觀或曰
 <lb ed="X" n="0313c19"/>圓解之者無所不通滯名之徒即執文字可不聞解
@@ -499,7 +504,7 @@ no message
 <lb ed="X" n="0314a06"/>必無矛楯或隨情而文過任自縱橫。</p></sp></dialog>
 <lb ed="X" n="0314a07"/><dialog type="qa"><sp type="question"><p id="pX56p0314a0701">問荊溪禪師立此十不二門為偈然而作為別有由
 <lb ed="X" n="0314a08"/>致。</p></sp><sp type="answer"><p id="pX56p0314a0802" place="inline">答玄義中廣明&CB00528;門十妙待絕六十重妙果妙畢
-<lb ed="X" n="0314a09"/>復以六十番權實<anchor id="fnX56p0314a01"/>絕結上諸妙然後云若悟理者理
+<lb ed="X" n="0314a09"/>復以六十番權實<note n="0314001" resp="Xuzangjing" place="foot text" type="orig">絕字更勘</note>絕結上諸妙然後云若悟理者理
 <lb ed="X" n="0314a10"/>即非權非實不見一法空拳誑小兒說權說實為兼
 <lb ed="X" n="0314a11"/>理則非權非實是故為妙釋籤解上六十重妙并權
 <lb ed="X" n="0314a12"/>實說至此乃解云一切諸法亡泯不二故更約悟開
@@ -532,7 +537,7 @@ no message
 <lb ed="X" n="0314b14"/>則不二而二開權顯實則二而不二法既教部咸開
 <lb ed="X" n="0314b15"/>成妙故此十門不二為目一一門下以六即撿之本
 <lb ed="X" n="0314b16"/>文<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>廣引誠證此下但直申一理使一部經旨&CB00151;在
-<lb ed="X" n="0314b17"/>目前一者色心不二門二者內外不二門三者修<anchor id="fnX56p0314b02"/>&CB00383;
+<lb ed="X" n="0314b17"/>目前一者色心不二門二者內外不二門三者修<note n="0314002" resp="Xuzangjing" place="foot text" type="orig">&CB00383;疑性</note>&CB00383;
 <lb ed="X" n="0314b18"/>不二門四者因果不二門五者染淨不二門六者依
 <lb ed="X" n="0314b19"/>正不二門七者自佗不二門八者三業不二門九者
 <lb ed="X" n="0314b20"/>權實不二門十者受潤不二門是中第一從境妙立
@@ -552,10 +557,10 @@ no message
 <lb ed="X" n="0314c09"/>彼彼境法著而不差　二內外不二門者凡所觀境
 <lb ed="X" n="0314c10"/>不出內外外謂詫彼依正色心即空即中空中妙故
 <lb ed="X" n="0314c11"/>心色體絕唯一實性無空假中色心宛然豁同真淨
-<lb ed="X" n="0314c12"/>無復眾生七方便意不見國土淨穢差品而帝<anchor id="fnX56p0314c03"/>納依
+<lb ed="X" n="0314c12"/>無復眾生七方便意不見國土淨穢差品而帝<note n="0314003" resp="Xuzangjing" place="foot text" type="orig">納疑網</note>納依
 <lb ed="X" n="0314c13"/>正終日炳然所言內者先了外色心一念無念唯內
 <lb ed="X" n="0314c14"/>體三千即空假中是則外法全為心性心性無外攝
-<lb ed="X" n="0314c15"/>無不周十方諸佛法界有情性體無殊一切咸<anchor id="fnX56p0314c04"/>偏誰
+<lb ed="X" n="0314c15"/>無不周十方諸佛法界有情性體無殊一切咸<note n="0314004" resp="Xuzangjing" place="foot text" type="orig">偏疑&CB00642;下同</note>偏誰
 <lb ed="X" n="0314c16"/>云內外色心<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>他是即用色心不二門成　三修性
 <lb ed="X" n="0314c17"/>不二門者性德祇是界如一念此內界如三法具足
 <lb ed="X" n="0314c18"/>性雖本爾藉知曰修由修照性由性發修在性則全
@@ -605,7 +610,7 @@ no message
 <lb ed="X" n="0315b12"/>眾生理性非局而局始終不改大小無妨因果理同
 <lb ed="X" n="0315b13"/>依正何別故淨穢之土勝劣之身塵身與法身量同
 <lb ed="X" n="0315b14"/>塵國與寂光無異是則一一塵剎一切剎一一塵身
-<lb ed="X" n="0315b15"/>一切身廣<anchor id="fnX56p0315b01"/>狡勝劣難思議淨穢方所無窮盡若非三
+<lb ed="X" n="0315b15"/>一切身廣<note n="0315001" resp="Xuzangjing" place="foot text" type="orig">狡疑狹</note>狡勝劣難思議淨穢方所無窮盡若非三
 <lb ed="X" n="0315b16"/>千空假中安能成茲自在用如是方知生佛等彼此
 <lb ed="X" n="0315b17"/>事理互相&CB01495;此以染淨不二門成　七自他不二門
 <lb ed="X" n="0315b18"/>者隨機利佗事乃憑本本謂一性具足自他方至果
@@ -703,7 +708,7 @@ no message
 <lb ed="X" n="0316c10"/>者子開方便門示真實相決了聲聞法是諸經之王
 <lb ed="X" n="0316c11"/>汝等所行是菩薩道此開麤即妙唯一絕待妙也今
 <lb ed="X" n="0316c12"/>約絕待故云意在開教悉入醍醐也。</p>
-<lb ed="X" n="0316c13"/><p id="pX56p0316c1301"><note place="inline">二觀旁故從略</note>樞謂之猥門戶扉樞也機弩<anchor id="fnX56p0316c01"/>互也取其要也
+<lb ed="X" n="0316c13"/><p id="pX56p0316c1301"><note place="inline">二觀旁故從略</note>樞謂之猥門戶扉樞也機弩<note n="0316001" resp="Xuzangjing" place="foot text" type="orig">互疑牙</note>互也取其要也
 <lb ed="X" n="0316c14"/>五時八教由為觀心故立了心由教故解譬目足更
 <lb ed="X" n="0316c15"/>資方有所至略點下明旁正意觀心莫如止觀明教
 <lb ed="X" n="0316c16"/>莫若玄義故云縱有施設託事附法又如辨體章中
@@ -726,7 +731,7 @@ no message
 <lb ed="X" n="0317a08"/>合境智行位四妙為一本果妙&CB00528;中雖開為四亦俱
 <lb ed="X" n="0317a09"/>是因而本事<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成故沒四名合為一耳又開一三法
 <lb ed="X" n="0317a10"/>妙為本果國土壽命涅槃四妙者本既至昔必有國
-<lb ed="X" n="0317a11"/>土<anchor id="fnX56p0317a01"/>&CB01788;事故沒三法一名開為四也雖此開合不出自
+<lb ed="X" n="0317a11"/>土<note n="0317001" resp="Xuzangjing" place="foot text" type="orig">&CB01788;疑等</note>&CB01788;事故沒三法一名開為四也雖此開合不出自
 <lb ed="X" n="0317a12"/>行因果化他能所更無別法名為本法故云因果義
 <lb ed="X" n="0317a13"/>一自他何殊指此無殊名不思議一也玄義約理事
 <lb ed="X" n="0317a14"/>理教教行體用權實今<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>六重而明本&CB00528;六名雖異
@@ -746,7 +751,7 @@ no message
 <lb ed="X" n="0317b03"/>妙之旨則能會諸教諸味之殊途同於一乘醍醐之
 <lb ed="X" n="0317b04"/>圓極也一期者指佛出世一化也五時漸頓為縱四
 <lb ed="X" n="0317b05"/>教化法為橫又三世為縱十方為橫指此縱橫只是
-<lb ed="X" n="0317b06"/>一念三千世間即空假中言三千者謂十法界各<anchor id="fnX56p0317b02"/>其
+<lb ed="X" n="0317b06"/>一念三千世間即空假中言三千者謂十法界各<note n="0317002" resp="Xuzangjing" place="foot text" type="orig">其疑具</note>其
 <lb ed="X" n="0317b07"/>相性體力作因緣果報本末究竟等十如是又一一
 <lb ed="X" n="0317b08"/>界互具餘九法界即百法界法界十如是即千如是
 <lb ed="X" n="0317b09"/>又於此界如復分五陰實法眾生假名各有千如此
@@ -759,7 +764,7 @@ no message
 <lb ed="X" n="0317b16"/>彼彼無量全我一念非前後相雖無前後彼彼宛然
 <lb ed="X" n="0317b17"/>名不思議譬帝釋宮眾寶珠網一目一珠一一珠內
 <lb ed="X" n="0317b18"/>現一帝釋宮殿莊嚴如是眾珠互相映入眾珠咸現
-<lb ed="X" n="0317b19"/>一<anchor id="fnX56p0317b03"/>現之內一一珠內具眾珠帝釋依正彼彼不雜展
+<lb ed="X" n="0317b19"/>一<note n="0317003" resp="Xuzangjing" place="foot text" type="orig">現疑珠</note>現之內一一珠內具眾珠帝釋依正彼彼不雜展
 <lb ed="X" n="0317b20"/>轉無窮雖復無窮隨舉一珠&CB01495;之皆盡於一珠外更
 <lb ed="X" n="0317b21"/>無餘珠不見其中我之一念亦復如是能如是觀一
 <lb ed="X" n="0317b22"/>切諸法唯心無性名真性空真空色名妙有假唯一
@@ -807,17 +812,17 @@ no message
 <lb ed="X" n="0318a14"/>大品大論婆娑等立謂世智藏六通五別四圓四行
 <lb ed="X" n="0318a15"/>有四依大論涅槃立謂道途增數次第不次第今就
 <lb ed="X" n="0318a16"/>開顯諸方便智行皆圓智行以自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>一念智行為內
-<lb ed="X" n="0318a17"/>以他彼彼一念依正<anchor id="fnX56p0318a01"/>外示即內為不二也第三修性
+<lb ed="X" n="0318a17"/>以他彼彼一念依正<note n="0318001" resp="Xuzangjing" place="foot text" type="orig">外上疑脫為字</note>外示即內為不二也第三修性
 <lb ed="X" n="0318a18"/>亦從智行立者修即智行性即界如一念示修即性
 <lb ed="X" n="0318a19"/>為不二也第四因果從位法二妙立者位有六依今
 <lb ed="X" n="0318a20"/>經立謂三草二木一地三法依涅槃立謂因三佛性
 <lb ed="X" n="0318a21"/>果三涅槃亦有方便等三今就開顯草木皆地四微
 <lb ed="X" n="0318a22"/>無別示諸方便因果皆圓果示因即果故為不二也
 <lb ed="X" n="0318a23"/>第五染淨第六依正第七自他從感應神通二妙立
-<lb ed="X" n="0318a24"/>者感應依正法華立彼<anchor id="fnX56p0318a02"/>土如來所為感應如是則有
+<lb ed="X" n="0318a24"/>者感應依正法華立彼<note n="0318002" resp="Xuzangjing" place="foot text" type="orig">土疑云</note>土如來所為感應如是則有
 <pb ed="X" id="X56.0926.0318b" n="0318b"/>
 <lb ed="X" n="0318b01"/>別圓等感應神通依今經立經云如來自在神通之
-<lb ed="X" n="0318b02"/>力則有業修報不思議等通<anchor id="fnX56p0318b03"/>令就開顯唯妙機應唯
+<lb ed="X" n="0318b02"/>力則有業修報不思議等通<note n="0318003" resp="Xuzangjing" place="foot text" type="orig">令疑今下同</note>令就開顯唯妙機應唯
 <lb ed="X" n="0318b03"/>圓天心界性之神通變淨穢土現勝劣身故以染淨
 <lb ed="X" n="0318b04"/>依正自他各為二示染即淨依即正他即自為不二
 <lb ed="X" n="0318b05"/>也第八三業第九權實從說法妙立者說法依今經
@@ -825,7 +830,7 @@ no message
 <lb ed="X" n="0318b07"/>二部法今就開顯唯說妙法示身口即意權即實為
 <lb ed="X" n="0318b08"/>不二也第十受潤從眷屬利益二妙立者眷屬利益
 <lb ed="X" n="0318b09"/>依今經立大通佛所曾為說法世世與師俱生則有
-<lb ed="X" n="0318b10"/>業願通應生等<anchor id="fnX56p0318b04"/>者眷屬草木受潤增長等利益令就
+<lb ed="X" n="0318b10"/>業願通應生等<note n="0318004" resp="Xuzangjing" place="foot text" type="orig">者疑有</note>者眷屬草木受潤增長等利益令就
 <lb ed="X" n="0318b11"/>開顯示諸方便眷屬稟方便益即圓頓眷屬同稟妙
 <lb ed="X" n="0318b12"/>益一味法雨受潤無偏為不二也。</p>
 <lb ed="X" n="0318b13"/><p id="pX56p0318b1301"><note place="inline">三依正釋分十初色心不二又二初標</note>云<note place="inline">二釋又二初辨釋總別又三初通標境具總別</note>境是
@@ -854,7 +859,7 @@ no message
 <lb ed="X" n="0318c11"/>往也般若云一切法趣色趣不過等備如境妙此則
 <lb ed="X" n="0318c12"/>真如性隨緣起信真如隨緣義是也止觀大意云隨
 <lb ed="X" n="0318c13"/>緣不變名性不變隨緣名心今言心即真如性不變
-<lb ed="X" n="0318c14"/>也之色心即隨緣也<note place="inline">此不勞辨<anchor id="fnX56p0318c05"/>〔內〕〔搏〕緣慮等心</note>即心名變下示心
+<lb ed="X" n="0318c14"/>也之色心即隨緣也<note place="inline">此不勞辨<note n="0318005" resp="Xuzangjing" place="foot text" type="orig">內搏疑肉團</note>〔內〕〔搏〕緣慮等心</note>即心名變下示心
 <lb ed="X" n="0318c15"/>之色心相也金錍解心佛眾生無差別有三義謂變
 <lb ed="X" n="0318c16"/>造具彼對四教造通心教藏通但謂造六道別圓造
 <lb ed="X" n="0318c17"/>十界變則別圓所變十界具唯在圓本具十界彼雖
@@ -869,7 +874,7 @@ no message
 <lb ed="X" n="0319a01"/>非造迷唯心珠遂異光寶亦爾今示光寶即珠指生
 <lb ed="X" n="0319a02"/>死即涅槃也此之三喻但顯變造同三義一體惑業
 <lb ed="X" n="0319a03"/>苦之色心本不二也又義例云譬如官路土私人堀
-<lb ed="X" n="0319a04"/>為像愚者謂像生智者知路<anchor id="fnX56p0319a01"/>直後時官欲行還將像
+<lb ed="X" n="0319a04"/>為像愚者謂像生智者知路<note n="0319001" resp="Xuzangjing" place="foot text" type="orig">直疑土</note>直後時官欲行還將像
 <lb ed="X" n="0319a05"/>填路像本不生滅路亦無新故亦斯謂也故云即心
 <lb ed="X" n="0319a06"/>名變變名為造造謂體同輔行於不思議境廣釋變
 <lb ed="X" n="0319a07"/>造義須者尋之有別行本云造謂體用者近人謬故
@@ -901,9 +906,9 @@ no message
 <lb ed="X" n="0319b08"/>不然此正結示他生他佛等唯我一念與金錍釋生
 <lb ed="X" n="0319b09"/>佛彼彼相正同也有別行本多一差字亦近人添也
 <lb ed="X" n="0319b10"/>彼意謂先立云彼彼境法差方結云差而不差此蓋
-<lb ed="X" n="0319b11"/><anchor id="fnX56p0319b02"/>未曾境法無差之文故爾<note place="inline">初門訖</note>。</p>
+<lb ed="X" n="0319b11"/><note n="0319002" resp="Xuzangjing" place="foot text" type="orig">未下疑脫見字</note>未曾境法無差之文故爾<note place="inline">初門訖</note>。</p>
 <lb ed="X" n="0319b12"/><p id="pX56p0319b1201"><note place="inline">二內外不二又三初標</note>云<note place="inline">二釋又二初辨釋內外又二初通標內外</note>前<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>約自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>色
-<lb ed="X" n="0319b13"/>心<anchor id="fnX56p0319b03"/>以不二此約<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>他而辨內外內即自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>三千外即
+<lb ed="X" n="0319b13"/>心<note n="0319003" resp="Xuzangjing" place="foot text" type="orig">以下疑脫辨字</note>以不二此約<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>他而辨內外內即自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>三千外即
 <lb ed="X" n="0319b14"/>彼彼諸法<note place="inline">二別釋內外又二初釋內外又三初明境體本妙</note>託寄也寄彼依
 <lb ed="X" n="0319b15"/>正明于三觀不二也依正三千是假以空中而亡彼
 <lb ed="X" n="0319b16"/>依正之假故云即空即中有別行本添即假二字謬
@@ -958,7 +963,7 @@ no message
 <lb ed="X" n="0320a15"/>常別此指染習隨緣成性非真知性然豈離隨緣別
 <lb ed="X" n="0320a16"/>有真知如水與波隨緣事性故曰恒殊耳<note place="inline">三斥謬解</note>可者
 <lb ed="X" n="0320a17"/>豈可也乃責辭耳豈可由不移生死涅槃恒殊之性
-<lb ed="X" n="0320a18"/>事便<anchor id="fnX56p0320a01"/>仕此為了修乎是以下句云故須一其迷了照
+<lb ed="X" n="0320a18"/>事便<note n="0320001" resp="Xuzangjing" place="foot text" type="orig">仕疑任</note>仕此為了修乎是以下句云故須一其迷了照
 <lb ed="X" n="0320a19"/>性成修有人將可字作因義解謂因由不移迷了性
 <lb ed="X" n="0320a20"/>事便為了修若爾不更云故須也但詳故須之語自
 <lb ed="X" n="0320a21"/>曉可由之言若如彼解則有二失一不識語辭失凡
@@ -966,13 +971,13 @@ no message
 <lb ed="X" n="0320a23"/>乎豈可如此不可如此等當知可由即豈可耳那忽
 <lb ed="X" n="0320a24"/>&CB00364;謂可字是因義出誰家之詁訓乎二不識文勢血
 <pb ed="X" id="X56.0926.0320b" n="0320b"/>
-<lb ed="X" n="0320b01"/>&CB00160;失上文既立<anchor id="fnX56p0320b02"/>建了二修此欲示不二之修故先斥
+<lb ed="X" n="0320b01"/>&CB00160;失上文既立<note n="0320002" resp="Xuzangjing" place="foot text" type="orig">建疑迷</note>建了二修此欲示不二之修故先斥
 <lb ed="X" n="0320b02"/>之豈可以逆順二修恒殊便為了修欲達真修故須
 <lb ed="X" n="0320b03"/>一其迷了二性不二照不二性方名真修此豈非上
 <lb ed="X" n="0320b04"/>下文勢起盡血&CB00160;貫通耶且失著述之人必須解文
 <lb ed="X" n="0320b05"/>義上下相映端未相成用語辭可否若不爾者並為
 <lb ed="X" n="0320b06"/>猶簡耳<note place="inline">四顯真修</note>故須一其迷了者由上不達語諸法唯
-<lb ed="X" n="0320b07"/>心之修今<anchor id="fnX56p0320b03"/>爾令達其性不二修此中道之性以為真
+<lb ed="X" n="0320b07"/>心之修今<note n="0320003" resp="Xuzangjing" place="foot text" type="orig">爾疑示</note>爾令達其性不二修此中道之性以為真
 <lb ed="X" n="0320b08"/>修則上之生死涅槃二修一時亡泯如止觀安心文
 <lb ed="X" n="0320b09"/>云當須以一其意制心一處無事不辦荊溪師引老
 <lb ed="X" n="0320b10"/>子天地得一清淨寧等解焉此文意同也有別行本
@@ -1017,7 +1022,7 @@ no message
 <lb ed="X" n="0320c24"/>有三謂利根人惑障有輕重志願有深淺殖善有厚
 <pb ed="X" id="X56.0926.0321a" n="0321a"/>
 <lb ed="X" n="0321a01"/>薄如釋題問文云由亡智親&CB00520;致迷厚薄莫是智有
-<lb ed="X" n="0321a02"/>利鈍故云親&CB00520;不乎答今辨智親&CB00520;非<anchor id="fnX56p0321a01"/>鈍也若是利
+<lb ed="X" n="0321a02"/>利鈍故云親&CB00520;不乎答今辨智親&CB00520;非<note n="0321001" resp="Xuzangjing" place="foot text" type="orig">鈍上疑脫利字</note>鈍也若是利
 <lb ed="X" n="0321a03"/>鈍自成漸頓二根今但就頓根明親&CB00520;耳何者是漸
 <lb ed="X" n="0321a04"/>頓二根何者為頓根智有親&CB00520;答漸頓二根者謂過
 <lb ed="X" n="0321a05"/>去聞漸頓法為種如涅槃中置毒之喻宿種今熟故
@@ -1025,7 +1030,7 @@ no message
 <lb ed="X" n="0321a07"/>熟蘇中置毒今世雖值正師軌聞圓頓上乘由宿種
 <lb ed="X" n="0321a08"/>漸故發解還成於漸如雖服醍醐觸藥由發生熟蘇
 <lb ed="X" n="0321a09"/>中飲毒故今則難死二頓根者過去聞圓頓上乘為
-<lb ed="X" n="0321a10"/>種如醍醐中置毒今世<anchor id="fnX56p0321a02"/>但真正師軌聞圓頓上乘由
+<lb ed="X" n="0321a10"/>種如醍醐中置毒今世<note n="0321002" resp="Xuzangjing" place="foot text" type="orig">但疑值</note>但真正師軌聞圓頓上乘由
 <lb ed="X" n="0321a11"/>宿種頓故圓頓解發即破無明如再服醍醐觸藥藥
 <lb ed="X" n="0321a12"/>發便死此例如北秀南能同遇五祖示真心眼而
 <lb ed="X" n="0321a13"/>解分漸頓<note place="inline">上二種入非今文親&CB00520;之人恐有相濫因而明之耳</note>若頓根智有親
@@ -1036,7 +1041,7 @@ no message
 <lb ed="X" n="0321a18"/>性太&CB00980;體無煙雲故暗則頓朗此喻障輕願深善厚
 <lb ed="X" n="0321a19"/>者名智親如云一生尚超登十地是也若&CB00980;空本暗
 <lb ed="X" n="0321a20"/>加以煙雲日光雖照而本未頓朗須待觀慧之陽氣
-<lb ed="X" n="0321a21"/>倍<anchor id="fnX56p0321a03"/>際道品之情風稍猛助卷三惑之煙雲方盡真性
+<lb ed="X" n="0321a21"/>倍<note n="0321003" resp="Xuzangjing" place="foot text" type="orig">際疑除</note>際道品之情風稍猛助卷三惑之煙雲方盡真性
 <lb ed="X" n="0321a22"/>之太&CB00980;乃明此喻障重願微善薄故名智&CB00520;也<note place="inline">此是今文
 <lb ed="X" n="0321a23"/>親&CB00520;人也</note>廣如隨意中又四念處云但觀無明即是法性
 <lb ed="X" n="0321a24"/>如以火治鐵為器分麤垢自然先落圓人本觀無明
@@ -1044,7 +1049,7 @@ no message
 <lb ed="X" n="0321b01"/>即種智器而見思垢自然先落得六根淨此並喻圓
 <lb ed="X" n="0321b02"/>智親&CB00520;之相<note place="inline">二喻顯智斷因果又二初總喻四法性&CB00980;</note>此中四喻夢喻智
 <lb ed="X" n="0321b03"/>空喻斷幻喻因像喻果言如夢勤加者正喻能亡之
-<lb ed="X" n="0321b04"/>智也如夢本無由泯<anchor id="fnX56p0321b04"/>以故有覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>求夢叵得而夢事
+<lb ed="X" n="0321b04"/>智也如夢本無由泯<note n="0321004" resp="Xuzangjing" place="foot text" type="orig">以字疑剩</note>以故有覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>求夢叵得而夢事
 <lb ed="X" n="0321b05"/>宛然諸法本空無明故有圓智頓發達性本無唯觀
 <lb ed="X" n="0321b06"/>無性故云勤加經云修攝其心觀一切法空如實相
 <lb ed="X" n="0321b07"/>論云諸法不生而般若生智德成也空名或絕者喻
@@ -1061,21 +1066,21 @@ no message
 <lb ed="X" n="0321b18"/>云既滿鏡像者鏡中像也不取鏡但取像喻果之不
 <lb ed="X" n="0321b19"/>可得耳如前文云理顯無復果名即斯義也有人將
 <lb ed="X" n="0321b20"/>諸句對六即夢對觀行空對相似幻對分真鏡對究
-<lb ed="X" n="0321b21"/>竟此乍雖似<anchor id="fnX56p0321b05"/>耳其如惑智無歸且如相似位中云空
-<lb ed="X" n="0321b22"/>名惑絕此位尚未破一品無明何謂<anchor id="fnX56p0321b06"/>謂名惑絕耶但
+<lb ed="X" n="0321b21"/>竟此乍雖似<note n="0321005" resp="Xuzangjing" place="foot text" type="orig">耳字疑剩</note>耳其如惑智無歸且如相似位中云空
+<lb ed="X" n="0321b22"/>名惑絕此位尚未破一品無明何謂<note n="0321006" resp="Xuzangjing" place="foot text" type="orig">謂疑空</note>謂名惑絕耶但
 <lb ed="X" n="0321b23"/>是喻於智斷而六即之位自成矣餘即例破<note place="inline">二別顯事&CB00980;理
 <lb ed="X" n="0321b24"/>實又二初重提二喻</note>義同者惑智對辨雖但叵得以智性本有
 <pb ed="X" id="X56.0926.0321c" n="0321c"/>
-<lb ed="X" n="0321c01"/>感體本無故云空&CB00980;像實<note place="inline">二像實正合歸</note><anchor id="fnX56p0321c07"/>感&CB00980;故迷轉<note place="inline">去聲</note>智
+<lb ed="X" n="0321c01"/>感體本無故云空&CB00980;像實<note place="inline">二像實正合歸</note><note n="0321007" resp="Xuzangjing" place="foot text" type="orig">感疑惑下同</note>感&CB00980;故迷轉<note place="inline">去聲</note>智
 <lb ed="X" n="0321c02"/>實故性成有本云成性誤也若然者則反令果成因
-<lb ed="X" n="0321c03"/>也非性因而成智果也乍<anchor id="fnX56p0321c08"/>春則小事細尋誠不可<note place="inline">三結
-<lb ed="X" n="0321c04"/>顯不二又三初正結不二</note>可解<note place="inline">二<anchor id="fnX56p0321c09"/>〔汙〕謬顯真</note>因亦非因者不能致果故
+<lb ed="X" n="0321c03"/>也非性因而成智果也乍<note n="0321008" resp="Xuzangjing" place="foot text" type="orig">春疑看</note>春則小事細尋誠不可<note place="inline">三結
+<lb ed="X" n="0321c04"/>顯不二又三初正結不二</note>可解<note place="inline">二<note n="0321009" resp="Xuzangjing" place="foot text" type="orig">汙疑斥</note>〔汙〕謬顯真</note>因亦非因者不能致果故
 <lb ed="X" n="0321c05"/>也果從因致因得因名耳<note place="inline">三所以下重示融即</note>三身並常俱體
 <lb ed="X" n="0321c06"/>俱用者三身果滿咸成四德舉體全用也又本云三
 <lb ed="X" n="0321c07"/>千其理亦顯即體之用三千並常然前之三句是千
 <lb ed="X" n="0321c08"/>字果德似身字便二義無失故但存耳<note place="inline">三結所從</note>可解<note place="inline">第四
 <lb ed="X" n="0321c09"/>門訖</note>。</p>
-<lb ed="X" n="0321c10"/><p id="pX56p0321c1001"><note place="inline">五染淨不二又三初標</note>云<note place="inline">二釋又四初明法界<anchor id="fnX56p0321c10"/>〔像〕起熾然染淨又二初明染淨本</note>可解<note place="inline">二示
+<lb ed="X" n="0321c10"/><p id="pX56p0321c1001"><note place="inline">五染淨不二又三初標</note>云<note place="inline">二釋又四初明法界<note n="0321010" resp="Xuzangjing" place="foot text" type="orig">像疑緣下同</note>〔像〕起熾然染淨又二初明染淨本</note>可解<note place="inline">二示
 <lb ed="X" n="0321c11"/>染淨相</note>言法性之無明者此染相也之往趣也同上文
 <lb ed="X" n="0321c12"/>心之色心也謂全法性趣於無明唯無明起故故遍
 <lb ed="X" n="0321c13"/>造造義如前解無明之法性者淨相也準上可解此
@@ -1126,7 +1131,7 @@ no message
 <lb ed="X" n="0322b08"/>終聖性體一如毫剎含容波海交徹若局若偏恒不
 <lb ed="X" n="0322b09"/>二華嚴云法性遍在一切處一切眾生及國土三世
 <lb ed="X" n="0322b10"/>悉在無有餘<note place="inline">三結顯不二又三初結成不二</note>淨勝佛也穢劣生也諸
-<lb ed="X" n="0322b11"/>佛了達非淨穢非勝非劣對眾生不達而<anchor id="fnX56p0322b01"/>去淨勝同
+<lb ed="X" n="0322b11"/>佛了達非淨穢非勝非劣對眾生不達而<note n="0322001" resp="Xuzangjing" place="foot text" type="orig">去疑云</note>去淨勝同
 <lb ed="X" n="0322b12"/>前而遍也眾生亦本非淨穢勝劣以不達故但見穢
 <lb ed="X" n="0322b13"/>劣同前而局也塵身去顯不二相塵法二身塵寂二
 <lb ed="X" n="0322b14"/>土理性如事相事相即理性論云是法住法位世間
@@ -1150,19 +1155,19 @@ no message
 <lb ed="X" n="0322c07"/>根未淨果智未明未能起應必須如理而修唯觀不
 <lb ed="X" n="0322c08"/>二之性了性淨鏡本無塵垢名為真磨加功不<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>人
 <lb ed="X" n="0322c09"/>法之執雙遣本明之性發現則無物不鑒也問如云
-<lb ed="X" n="0322c10"/>磨鏡去塵則可喻去妄顯真乃<anchor id="fnX56p0322c02"/>此秀心如明鏡臺時
+<lb ed="X" n="0322c10"/>磨鏡去塵則可喻去妄顯真乃<note n="0322002" resp="Xuzangjing" place="foot text" type="orig">此疑北</note>此秀心如明鏡臺時
 <lb ed="X" n="0322c11"/>時勤拂拭之意耳答今文磨鏡與彼不同如五祖見
 <lb ed="X" n="0322c12"/>其所呈知彼心眼未正不付其衣泊能師有偈云本
 <lb ed="X" n="0322c13"/>來無一物何處有塵埃乃知<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>達心源密付衣&CB00425;明
 <lb ed="X" n="0322c14"/>知彼乃是驗學人見解非論進行之門今明修觀之
 <lb ed="X" n="0322c15"/>人但觀無念之性以後本明之體則能隨機起應故
 <lb ed="X" n="0322c16"/>喻塵除像現不得見俱是鏡喻便雷同而解若永嘉
-<lb ed="X" n="0322c17"/>云<anchor id="fnX56p0322c03"/>此來塵鏡未曾<anchor id="fnX56p0322c04"/>塵又云心是根法是塵兩種猶如
+<lb ed="X" n="0322c17"/>云<note n="0322003" resp="Xuzangjing" place="foot text" type="orig">此疑比</note>此來塵鏡未曾<note n="0322004" resp="Xuzangjing" place="foot text" type="orig">塵疑磨</note>塵又云心是根法是塵兩種猶如
 <lb ed="X" n="0322c18"/>鏡上痕痕垢盡除光始現心法雙亡性即真此則與
 <lb ed="X" n="0322c19"/>今文同是論修非呈解也言像現非關磨者者鏡明
 <lb ed="X" n="0322c20"/>實由磨力像現自因形生故云像現非關磨者此正
 <lb ed="X" n="0322c21"/>辨由修觀故性明由機感故應赴有人云鏡有現像
-<lb ed="X" n="0322c22"/>之性是談其本性非關於修復移現字於像字上<anchor id="fnX56p0322c05"/>上
+<lb ed="X" n="0322c22"/>之性是談其本性非關於修復移現字於像字上<note n="0322005" resp="Xuzangjing" place="foot text" type="orig">上疑云</note>上
 <lb ed="X" n="0322c23"/>現像非關磨者今謂設爾移得現字在上又豈是鏡
 <lb ed="X" n="0322c24"/>之明性自能現像耶上文云若形對不現像則鏡理
 <pb ed="X" id="X56.0926.0323a" n="0323a"/>
@@ -1174,7 +1179,7 @@ no message
 <lb ed="X" n="0323a06"/>道交未交之相非為允也<note place="inline">三總結略今</note>以喻觀法者即喻
 <lb ed="X" n="0323a07"/>今自他不二他由自具故能應由佗具故能感自佗
 <lb ed="X" n="0323a08"/>感具則感應不二也以磨鏡喻修觀故欲知<note place="inline">三應知下結顯
-<lb ed="X" n="0323a09"/>所<anchor id="fnX56p0323a01"/>司又二初示所因二方能下彰他用</note>皆可<note place="inline">三結所從</note>可解<note place="inline">第七門訖</note>。</p>
+<lb ed="X" n="0323a09"/>所<note n="0323001" resp="Xuzangjing" place="foot text" type="orig">司疑因</note>司又二初示所因二方能下彰他用</note>皆可<note place="inline">三結所從</note>可解<note place="inline">第七門訖</note>。</p>
 <lb ed="X" n="0323a10"/><p id="pX56p0323a1001"><note place="inline">八三業不二又三初標</note>云<note place="inline">二釋又二初標三輪</note>唯佛三業得名三密及三
 <lb ed="X" n="0323a11"/>輪也密謂微密深妙也自等覺而下無能思議佛身
 <lb ed="X" n="0323a12"/>口意運用之相故稱密輪者有三義謂權碾義運義
@@ -1206,7 +1211,7 @@ no message
 <lb ed="X" n="0323b13"/><p id="pX56p0323b1301"><note place="inline">九權實不二又三初標</note>云<note place="inline">二釋又三初總標機應</note>大慧即應本也法界即
 <lb ed="X" n="0323b14"/>機本也<note place="inline">二亦由下辨釋所由又三初明因理常然二至果下明果由因立三此即下正示化方</note>
 <lb ed="X" n="0323b15"/>皆可解<note place="inline">三對說下結顯不二</note>權實義通四教真應多約別圓<note place="inline">三結
-<lb ed="X" n="0323b16"/>所從</note><anchor id="fnX56p0323b02"/>可<note place="inline">第九門訖</note>。</p>
+<lb ed="X" n="0323b16"/>所從</note><note n="0323002" resp="Xuzangjing" place="foot text" type="orig">可下疑脫解字</note>可<note place="inline">第九門訖</note>。</p>
 <lb ed="X" n="0323b17"/><p id="pX56p0323b1701"><note place="inline">十受潤不二又三初標</note>云<note place="inline">二釋又三初明受潤相又二初明差而無差熏習有異</note>言熏習
 <lb ed="X" n="0323b18"/>權實者此須約五時教明種熟脫之緣如涅槃置毒
 <lb ed="X" n="0323b19"/>之喻若於過去聞華嚴為種如乳中之毒今世後聞
@@ -1232,7 +1237,7 @@ no message
 <lb ed="X" n="0323c14"/>本乎大慈地具色香味觸之四微雲雨草木亦爾四
 <lb ed="X" n="0323c15"/>微理同四大性等咸即常樂我淨真無住本法界常
 <lb ed="X" n="0323c16"/>住故云體同並等經云皆一地所生一雨所潤一相
-<lb ed="X" n="0323c17"/>一味<anchor id="fnX56p0323c03"/>所謂味所謂解脫相<anchor id="fnX56p0323c04"/>離滅相究竟涅槃常寂滅
+<lb ed="X" n="0323c17"/>一味<note n="0323003" resp="Xuzangjing" place="foot text" type="orig">所等三字疑衍</note>所謂味所謂解脫相<note n="0323004" resp="Xuzangjing" place="foot text" type="orig">離下疑脫相字</note>離滅相究竟涅槃常寂滅
 <lb ed="X" n="0323c18"/>相<note place="inline">三結所從</note>可解<note place="inline">第十門訖</note>。</p>
 <lb ed="X" n="0323c19"/><p id="pX56p0323c1901"><note place="inline">第三融通文旨結意歸宗又二初融通文旨又二初辨能依十門初後相收</note>一門具九門
 <lb ed="X" n="0323c20"/>之法門門互具<note place="inline">二故使下明所依十妙始終理</note>境三即相性體也亦
@@ -1250,9 +1255,9 @@ no message
 <lb ed="X" n="0324a07"/>方生佛我心中毗盧藏海塵塵遍般若林華處處同
 <lb ed="X" n="0324a08"/>一室千燈光令雜太&CB00980;萬像色俱空能知十妙唯心
 <lb ed="X" n="0324a09"/>寶不二摩尼雨莫窮荊溪禪師述此十門乃舉法華
-<lb ed="X" n="0324a10"/>之宏網撮<anchor id="fnX56p0324a01"/>上觀之樞要俾學佛乘者咸至道場故於
-<lb ed="X" n="0324a11"/>文初云撮十妙為觀法大體<anchor id="fnX56p0324a02"/>令結云令觀行可識意
-<lb ed="X" n="0324a12"/>後之學者安可聞不思修如貧數<anchor id="fnX56p0324a03"/>室裏&CB00295;束足者乎
+<lb ed="X" n="0324a10"/>之宏網撮<note n="0324001" resp="Xuzangjing" place="foot text" type="orig">上疑止</note>上觀之樞要俾學佛乘者咸至道場故於
+<lb ed="X" n="0324a11"/>文初云撮十妙為觀法大體<note n="0324002" resp="Xuzangjing" place="foot text" type="orig">令疑今下同</note>令結云令觀行可識意
+<lb ed="X" n="0324a12"/>後之學者安可聞不思修如貧數<note n="0324003" resp="Xuzangjing" place="foot text" type="orig">室疑寶</note>室裏&CB00295;束足者乎
 <lb ed="X" n="0324a13"/><note place="inline">二會歸玄旨</note>首題者即經題此指釋名一章也別謂體宗
 <lb ed="X" n="0324a14"/>用三章也文謂教相一章也今云覽別為總者即&CB15095;
 <lb ed="X" n="0324a15"/>體宗用之別入釋名不二之總使一一咸成不二與
@@ -1263,7 +1268,7 @@ no message
 <lb ed="X" n="0324a20"/>心等別為一念之總引前文云既知別<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>攝別入總
 <lb ed="X" n="0324a21"/>無非心性符文者乃是符契不二之文故云可知令
 <lb ed="X" n="0324a22"/>謂太局不收五重玄義失經題旨況文初云直申一
-<lb ed="X" n="0324a23"/>理使一部經旨皎在目前豈非離五章之<anchor id="fnX56p0324a04"/>章之意耶
+<lb ed="X" n="0324a23"/>理使一部經旨皎在目前豈非離五章之<note n="0324004" resp="Xuzangjing" place="foot text" type="orig">章之二字疑衍</note>章之意耶
 <lb ed="X" n="0324a24"/>復有人解覽別為總同前令釋而云符文者乃是懸
 <pb ed="X" id="X56.0926.0324b" n="0324b"/>
 <lb ed="X" n="0324b01"/>示消釋經文令謂此解亦為不便覽別為總既是四

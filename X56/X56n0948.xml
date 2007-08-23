@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X56n0948.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2005/11/30 06:34:31 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2007/08/23 06:35:15 $</date></edition>
 	</editionStmt>
 	<extent>7卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:31 $</date>
+		<date>$Date: 2007/08/23 06:35:15 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 56, No. 948 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X56n0948.xml,v $
+Revision 1.7  2007/08/23 06:35:15  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.6  2005/11/30 06:34:31  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -105,7 +110,7 @@ no message
 <lb ed="X" n="0813b03"/>刊正。實微諫　妙宗。比欲不使外聞潛修前鈔。無何
 <lb ed="X" n="0813b04"/>大師未察忠愫。再樹義門。以安養生身。抑同弊垢娑
 <lb ed="X" n="0813b05"/>婆劣應。混彼舍那。此與一家教觀。小有所妨。故不避
-<lb ed="X" n="0813b06"/>　<anchor id="fnX56p0813b01"/>言黜。頻有違忤。誠以忠諫謂之誹謗。切直謂之祅
+<lb ed="X" n="0813b06"/>　<note n="0813001" resp="Xuzangjing" place="foot text" type="orig">&CB18845;版&M062446;&M062462;&M062462;&M062440;&M062425;。&CB18834;</note>言黜。頻有違忤。誠以忠諫謂之誹謗。切直謂之祅
 <lb ed="X" n="0813b07"/>言。既進而不從。亦退而無怨。近見妙宗鈔文寄至錢
 <lb ed="X" n="0813b08"/>塘&CB04733;工彫板。復於下卷釋觀佛身之處。備引<note place="inline">仁岳</note>前
 <lb ed="X" n="0813b09"/>來所立。難勢廣有彈剝。披究之際。不覺返袂掩泣。痛
@@ -2296,7 +2301,7 @@ no message
 <lb ed="X" n="0843a17"/>華嚴心如工&CB15148;師。造種種五陰。一切世間中。無不從
 <lb ed="X" n="0843a18"/>心造。解云。&CB15148;師即無明心也。一切世間。即十法界也。
 <lb ed="X" n="0843a19"/>既云無明心造十法界法。則與唯識業相生法義同。
-<lb ed="X" n="0843a20"/>安可<anchor id="fnX56p0843a01"/>六從真如生法耶。析曰。不可僻執一文。巨妨大
+<lb ed="X" n="0843a20"/>安可<note n="0843001" resp="Xuzangjing" place="foot text" type="orig">六疑云</note>六從真如生法耶。析曰。不可僻執一文。巨妨大
 <lb ed="X" n="0843a21"/>旨。若爾則今家諸說。觸處相違。且止觀亦引此喻。明
 <lb ed="X" n="0843a22"/>別教心造之義。輔行釋云。&CB15148;師手如菩薩心性也。心
 <lb ed="X" n="0843a23"/>性非真如耶。莫不違妙玄之文耶。勉之哉。宜廣讀文。
@@ -2623,7 +2628,7 @@ no message
 <lb ed="X" n="0847b19"/>執別教生法唯在無明。判經論真妄全非了義。此等
 <lb ed="X" n="0847b20"/>訛說。始末無殊。又&CB00230;枉他謗法謗祖。凡有青眼。孰不
 <lb ed="X" n="0847b21"/>寒心。噫知過者。如日月之既蝕。能無改乎。執愚者。猶
-<lb ed="X" n="0847b22"/>菽麥之不分。難可移也。須循正<anchor id="fnX56p0847b01"/>輒。免墮邪途。顒俟見
+<lb ed="X" n="0847b22"/>菽麥之不分。難可移也。須循正<note n="0847001" resp="Xuzangjing" place="foot text" type="orig">輒疑軌</note>輒。免墮邪途。顒俟見
 <lb ed="X" n="0847b23"/>聞。俯為詳悉。</p></div2>
 <lb ed="X" n="0847b24"/>
 <pb ed="X" id="X56.0948.0847c" n="0847c"/>
@@ -2807,7 +2812,7 @@ no message
 <lb ed="X" n="0850a24"/>極雄略統攝之能故。乃重用帝等三義對之也。是則
 <pb ed="X" id="X56.0948.0850b" n="0850b"/>
 <lb ed="X" n="0850b01"/>能所相應。通別互顯。安得詮旨胡越。上下參商耶。</p></sp></dialog>
-<lb ed="X" n="0850b02"/><dialog type="qa"><sp type="question"><p id="pX56p0850b0201" rend="margin-left:1em">彼又難曰。將帝惠王以攝經論。則反同真諦<anchor id="fnX56p0850b01"/>彼破
+<lb ed="X" n="0850b02"/><dialog type="qa"><sp type="question"><p id="pX56p0850b0201" rend="margin-left:1em">彼又難曰。將帝惠王以攝經論。則反同真諦<note n="0850001" resp="Xuzangjing" place="foot text" type="orig">彼疑被</note>彼破
 <lb ed="X" n="0850b03"/>之義也者。</p></sp>
 <lb ed="X" n="0850b04"/><sp type="answer"><p id="pX56p0850b0401">釋曰。真諦分割三德。以一德對一經。又攝機偏局。故
 <lb ed="X" n="0850b05"/>被今破。今乃圓將三法。共攝一經。故以三解脫。攝淨
@@ -3865,5 +3870,5 @@ no message
 <pb ed="X" id="X56.0948.0864c" n="0864c"/>
 <lb ed="X" n="0864c01"/>判屬約行。深契圓宗。切須三復思量。不可一期戲論。
 <lb ed="X" n="0864c02"/>儻更姦詐。朋彼邪說。曲作道理。誹謗妙宗。譬如癡賊。
-<lb ed="X" n="0864c03"/>棄捨珍寶。檐負草木矣。</p></sp></dialog><p id="pX56p0864c0310" place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上十段。始自寂光金寶<anchor id="fnX56p0864c01"/>之。</p></div1>
+<lb ed="X" n="0864c03"/>棄捨珍寶。檐負草木矣。</p></sp></dialog><p id="pX56p0864c0310" place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上十段。始自寂光金寶<note n="0864001" resp="Xuzangjing" place="foot text" type="orig">之下佚失</note>之。</p></div1>
 </body></text></TEI.2>
