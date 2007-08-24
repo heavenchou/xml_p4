@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X57n0963.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2005/11/30 06:34:31 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/08/24 07:41:34 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:31 $</date>
+		<date>$Date: 2007/08/24 07:41:34 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 57, No. 963 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X57n0963.xml,v $
+Revision 1.5  2007/08/24 07:41:34  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.4  2005/11/30 06:34:31  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -70,7 +75,7 @@ no message
 <lb ed="X" n="0122b02"/>
 <lb ed="X" n="0122b03"/>
 <lb ed="X" n="0122b04"/><head type="no">No. 963</head>
-<lb ed="X" n="0122b05"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX57p0122b01"/>北峰教義</jhead></juan>
+<lb ed="X" n="0122b05"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0122001" resp="Xuzangjing" place="foot text" type="orig">（便宜上、表題&M062482;附&M062425;。&CB18834;）</note>北峰教義</jhead></juan>
 <lb ed="X" n="0122b06"/>
 <lb ed="X" n="0122b07"/><div1 type="other"><mulu type="其他" level="1" label="三千章十科"/><head>三千章十科</head>
 <lb ed="X" n="0122b08"/>
@@ -81,7 +86,7 @@ no message
 <lb ed="X" n="0122b13"/><div1 type="other"><head>北峰教義第一</head></div1>
 <lb ed="X" n="0122b14"/>
 <lb ed="X" n="0122b15"/><div1 type="other"><mulu type="其他" level="1" label="一出本文"/><head>三千</head>
-<lb ed="X" n="0122b16"/><p id="pX57p0122b1601">淨覺法師異論起於今對彼十科略<anchor id="fnX57p0122b02"/>亦大義十初出
+<lb ed="X" n="0122b16"/><p id="pX57p0122b1601">淨覺法師異論起於今對彼十科略<note n="0122002" resp="Xuzangjing" place="foot text" type="orig">亦疑示</note>亦大義十初出
 <lb ed="X" n="0122b17"/>本文分二初出經文二出祖文。</p>
 <lb ed="X" n="0122b18"/><p id="pX57p0122b1801">初出經文者三千是不思議妙境金錍云指的妙境
 <lb ed="X" n="0122b19"/>出自法華山家學者無不知由法華開顯故也理固
@@ -253,7 +258,7 @@ no message
 <lb ed="X" n="0124c10"/>無住無相即無差別立一切法即有差別乃至若知
 <lb ed="X" n="0124c11"/>地具桃李即識實中有權解無差別即是差別評曰
 <lb ed="X" n="0124c12"/>地具桃李正喻理中差別今宗理具三千相豈但性
-<lb ed="X" n="0124c13"/>耶他既失旨難與議矣二立義雜<anchor id="fnX57p0124c01"/>偏曰今謂無住之
+<lb ed="X" n="0124c13"/>耶他既失旨難與議矣二立義雜<note n="0124001" resp="Xuzangjing" place="foot text" type="orig">偏疑編</note>偏曰今謂無住之
 <lb ed="X" n="0124c14"/>本有離有合所立之法有性有修評曰性中之本離
 <lb ed="X" n="0124c15"/>明所立之法<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>是三千之性者別行云修德相貌在
 <lb ed="X" n="0124c16"/>性德中不二門云全修在性如何會耶所云修性合
@@ -287,7 +292,7 @@ no message
 <lb ed="X" n="0125a19"/>由心造全體是心故經云三界無別法唯是一心作
 <lb ed="X" n="0125a20"/><note place="inline">文</note>荊溪文義宜細求之。</p></div1>
 <lb ed="X" n="0125a21"/><div1 type="other"><mulu type="其他" level="1" label="四簡權實"/><head>四簡權實</head>
-<lb ed="X" n="0125a22"/><p id="pX57p0125a2201"><anchor id="fnX57p0125a01"/>二初四明正說且置諸文十雙權實今明三千唯約
+<lb ed="X" n="0125a22"/><p id="pX57p0125a2201"><note n="0125001" resp="Xuzangjing" place="foot text" type="orig">二上應有分字</note>二初四明正說且置諸文十雙權實今明三千唯約
 <lb ed="X" n="0125a23"/>十界十如而論權實有二初十界通論以十界十如
 <lb ed="X" n="0125a24"/>諸法名權界如諸法皆即實相為實妙宗云唯我釋
 <pb ed="X" id="X57.0963.0125b" n="0125b"/>
@@ -354,7 +359,7 @@ no message
 <lb ed="X" n="0126a11"/>三千赴物<note place="inline">文</note>深求自即益他之語必有&CB17196;焉此文指
 <lb ed="X" n="0126a12"/>要釋之甚委大凡文義幽隱當&CB00424;索之勿生異見。</p></div1>
 <lb ed="X" n="0126a13"/><div1 type="other"><mulu type="其他" level="1" label="六述互具"/><head>六述互具</head>
-<lb ed="X" n="0126a14"/><p id="pX57p0126a1401">雜編立此一科正明談具事理其<anchor id="fnX57p0126a01"/>問關涉真妄總別
+<lb ed="X" n="0126a14"/><p id="pX57p0126a1401">雜編立此一科正明談具事理其<note n="0126001" resp="Xuzangjing" place="foot text" type="orig">問疑間</note>問關涉真妄總別
 <lb ed="X" n="0126a15"/>之義今委明之分二初四明正說二淨覺異見初又
 <lb ed="X" n="0126a16"/>四初明互各二定事理三釋總別四揀文義初明互
 <lb ed="X" n="0126a17"/>各雜編科名述互具引章安十界互相有文則十界
@@ -388,7 +393,7 @@ no message
 <lb ed="X" n="0126b20"/>溪而說荊溪云當知心之色心初之心字趣舉剎那
 <lb ed="X" n="0126b21"/>事中心也次云色心即理具三千也故云此一句約
 <lb ed="X" n="0126b22"/>理明總別理具三千為別剎那一念為總也荊溪云
-<lb ed="X" n="0126b23"/>即心名變<anchor id="fnX57p0126b02"/>戀名為造初即心字即前趣舉剎那事中
+<lb ed="X" n="0126b23"/>即心名變<note n="0126002" resp="Xuzangjing" place="foot text" type="orig">戀疑變</note>戀名為造初即心字即前趣舉剎那事中
 <lb ed="X" n="0126b24"/>心也次云變造豈非事造三千耶故云此二句則事
 <pb ed="X" id="X57.0963.0126c" n="0126c"/>
 <lb ed="X" n="0126c01"/>中總別變造三千為別剎那一念為總也荊溪文義
@@ -633,7 +638,7 @@ no message
 <lb ed="X" n="0129c15"/>&CB04762;一篇不能委示但陳梗&CB01356;須知四明蛣&CB04762;六即者
 <lb ed="X" n="0129c16"/>以圓人修證了理具十界三千故也若唯於佛以說
 <lb ed="X" n="0129c17"/>六即則不了圓具法界之全體然又須知蛣&CB04762;六即
-<lb ed="X" n="0129c18"/>正約事論以事全理具故事能即妙宗之文有二<anchor id="fnX57p0129c01"/>改
+<lb ed="X" n="0129c18"/>正約事論以事全理具故事能即妙宗之文有二<note n="0129001" resp="Xuzangjing" place="foot text" type="orig">改疑段</note>改
 <lb ed="X" n="0129c19"/>初示十界六即相二出十界六即義以論十界皆理
 <lb ed="X" n="0129c20"/>性故也若非理具如何可即解謗之文亦然但自尋
 <lb ed="X" n="0129c21"/>之當自深信正是唯心觀體之說更不多言。</p>
