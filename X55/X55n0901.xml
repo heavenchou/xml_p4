@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X55n0901.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2005/05/24 07:33:21 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2007/08/28 09:16:45 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/05/24 07:33:21 $</date>
+		<date>$Date: 2007/08/28 09:16:45 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 55, No. 901 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X55n0901.xml,v $
+Revision 1.2  2007/08/28 09:16:45  eva
+modified : 校注作業完成
+
 Revision 1.1  2005/05/24 07:33:21  edith
 no message
 
@@ -62,7 +67,7 @@ no message
 <lb ed="X" n="0487a01"/>
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0487a02"/><head type="no">No. 901-8</head>
-<lb ed="X" n="0487a03"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX55p0487a01"/>六離合釋法式略解</jhead></juan>
+<lb ed="X" n="0487a03"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0487001" resp="Xuzangjing" place="foot text" type="orig">今、延寶九年本&M062443;&M062472;&M062474;句點及&M062451;已下&M062446;校註&M062482;付&M062425;。&CB18927;=明昱&M062446;「六離合釋法式通關」&M062443;&M062410;&M062417;&M062475;日本宥範&M062446;冠註&M062482;指&M062425;。&CB18834;</note>六離合釋法式略解</jhead></juan>
 <lb ed="X" n="0487a04"/>
 <lb ed="X" n="0487a05"/><byline type="author">蕅益智旭略解</byline>
 <lb ed="X" n="0487a06"/><div1 type="orig"><p id="pX55p0487a0601">西方釋名。有其六種。一依主。二持
@@ -73,9 +78,9 @@ no message
 <lb ed="X" n="0487a11"/><div1 type="commentary"><p id="pX55p0487a1101" rend="margin-left:1em"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上總標。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下別釋。即為六也。</p></div1>
 <lb ed="X" n="0487a12"/><div1 type="orig"><p id="pX55p0487a1201">初依主者。謂所依為主。如說眼識
 <lb ed="X" n="0487a13"/>識依眼起。即眼之識。故名眼識舉
-<lb ed="X" n="0487a14"/>眼之主以表於識<anchor id="fnX55p0487a02"/>也。亦名依士釋。
-<lb ed="X" n="0487a15"/>此即分取他名如<anchor id="fnX55p0487a03"/>眼識亦名<anchor id="fnX55p0487a04"/>為色
-<lb ed="X" n="0487a16"/>識<anchor id="fnX55p0487a05"/>耳識亦名為聲識等。如子取父
+<lb ed="X" n="0487a14"/>眼之主以表於識<note n="0487002" resp="Xuzangjing" place="foot text" type="orig">也一作細字、&M062470;&M062446;字智旭&M062446;註&M062443;&M062472;&M062474;加&M062453;&M062440;&CB18927;。</note>也。亦名依士釋。
+<lb ed="X" n="0487a15"/>此即分取他名如<note n="0487003" resp="Xuzangjing" place="foot text" type="orig">眼識亦一作細字。眼識亦&M062446;三字&M062447;智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>眼識亦名<note n="0487004" resp="Xuzangjing" place="foot text" type="orig">為一作細字。&M062470;&M062446;字智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>為色
+<lb ed="X" n="0487a16"/>識<note n="0487005" resp="Xuzangjing" place="foot text" type="orig">耳識亦名為聲識等八字一作細字。&M062470;&M062476;智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>耳識亦名為聲識等。如子取父
 <lb ed="X" n="0487a17"/>名名為依主。父取子名。即名依士。
 <lb ed="X" n="0487a18"/>所依劣故。</p></div1>
 <pb ed="X" id="X55.0901.0487b" n="0487b"/>
@@ -93,13 +98,13 @@ no message
 <lb ed="X" n="0487b12"/>識故。名為藏識。故名持業。</p></div1>
 <lb ed="X" n="0487b13"/><div1 type="commentary"><p id="pX55p0487b1301" rend="margin-left:1em">離之則藏是能藏所藏執藏之
 <lb ed="X" n="0487b14"/>義。識是了別之義。合之則識為
-<lb ed="X" n="0487b15"/>體藏為<anchor id="fnX55p0487b06"/>用。以用顯體。體持于用。
+<lb ed="X" n="0487b15"/>體藏為<note n="0487006" resp="Xuzangjing" place="foot text" type="orig">用一作由</note>用。以用顯體。體持于用。
 <lb ed="X" n="0487b16"/>故名持業也。</p></div1>
 <lb ed="X" n="0487b17"/><div1 type="orig"><p id="pX55p0487b1701">亦名同依釋。藏取含藏用。識取了
 <lb ed="X" n="0487b18"/>別用。此二同一所依。故名同依也。</p></div1>
 <pb ed="X" id="X55.0901.0487c" n="0487c"/>
 <lb ed="X" n="0487c01"/><div1 type="commentary"><p id="pX55p0487c0101" rend="margin-left:1em">此以藏識二字俱約用釋。而同
-<lb ed="X" n="0487c02"/>依<anchor id="fnX55p0487c07"/>于第八心王之體。故亦得名
+<lb ed="X" n="0487c02"/>依<note n="0487007" resp="Xuzangjing" place="foot text" type="orig">于一作干</note>于第八心王之體。故亦得名
 <lb ed="X" n="0487c03"/>同依釋也。二持業釋竟。</p></div1>
 <lb ed="X" n="0487c04"/><div1 type="orig"><p id="pX55p0487c0401">言有財者。謂從所有以得其名。一
 <lb ed="X" n="0487c05"/>如佛陀。此云覺者。即有覺之者。名
@@ -113,7 +118,7 @@ no message
 <lb ed="X" n="0487c13"/>亦名為對法藏論。此全取他名。亦
 <lb ed="X" n="0487c14"/>名有財釋。</p></div1>
 <lb ed="X" n="0487c15"/><div1 type="commentary"><p id="pX55p0487c1501" rend="margin-left:1em">俱舍論是自。對法藏是他。依對
-<lb ed="X" n="0487c16"/>法藏之他。造<anchor id="fnX55p0487c08"/>于俱舍論之自。即
+<lb ed="X" n="0487c16"/>法藏之他。造<note n="0487008" resp="Xuzangjing" place="foot text" type="orig">于一作干</note>于俱舍論之自。即
 <lb ed="X" n="0487c17"/>名俱舍論。為對法藏論。此俱舍
 <lb ed="X" n="0487c18"/>論。能有對法藏之財。是全取他
 <pb ed="X" id="X55.0901.0488a" n="0488a"/>
@@ -164,8 +169,8 @@ no message
 <lb ed="X" n="0488c07"/>但通依主有財二釋也。</p></div1>
 <lb ed="X" n="0488c08"/><div1 type="orig"><p id="pX55p0488c0801">一依主&CB00444;近。如有人近長安住有
 <lb ed="X" n="0488c09"/>人問言。為何處住。答云。長安住。此
-<lb ed="X" n="0488c10"/>人<anchor id="fnX55p0488c01"/>實非長安<anchor id="fnX55p0488c02"/>住。以近長安。故云長
-<lb ed="X" n="0488c11"/>安住。以分取他<anchor id="fnX55p0488c03"/>長安之名。復是依
+<lb ed="X" n="0488c10"/>人<note n="0488001" resp="Xuzangjing" place="foot text" type="orig">實一作細字。&M062470;&M062446;字他&M062446;一本&M062443;&M062442;&M062436;、智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>實非長安<note n="0488002" resp="Xuzangjing" place="foot text" type="orig">住一作細字。&M062470;&M062446;字他&M062446;一本&M062443;&M062442;&M062436;、智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>住。以近長安。故云長
+<lb ed="X" n="0488c11"/>安住。以分取他<note n="0488003" resp="Xuzangjing" place="foot text" type="orig">長安之三字一作細字。&M062470;&M062446;字他&M062446;一本&M062443;&M062442;&M062436;、智旭&M062446;註&M062442;&M062474;&M062440;&CB18927;。</note>長安之名。復是依
 <lb ed="X" n="0488c12"/>主&CB00444;近。</p></div1>
 <lb ed="X" n="0488c13"/><div1 type="commentary"><p id="pX55p0488c1301" rend="margin-left:1em">長安。是所依之他。住者。是能依
 <lb ed="X" n="0488c14"/>之自。所依勝故。名為依主。而近
