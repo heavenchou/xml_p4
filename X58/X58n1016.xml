@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X58n1016.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2007/08/21 03:49:45 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/08/28 09:16:48 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/08/21 03:49:45 $</date>
+		<date>$Date: 2007/08/28 09:16:48 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 58, No. 1016 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X58n1016.xml,v $
+Revision 1.5  2007/08/28 09:16:48  amtbgrace
+modified：校注插入 XML 作業完成
+
 Revision 1.4  2007/08/21 03:49:45  amtbgrace
 modified: [卍續校注] X56-78 檢查結果的經文修訂
 
@@ -93,15 +98,15 @@ no message
 <lb ed="X" n="0568b03"/>
 <lb ed="X" n="0568b04"/><div2 type="orig"><p id="pX58p0568b0401">華嚴同教一乘&CB15081;</p></div2>
 <lb ed="X" n="0568b05"/><div2 type="orig"><p id="pX58p0568b0501">住善住法真大師　師會　述</p></div2>
-<lb ed="X" n="0568b06"/><div2 type="orig"><p id="pX58p0568b0601">問。華嚴大宗。唯同別二教。<note place="inline"><anchor id="fnX58p0568b01"/>〔太〕曰。一乘義者。分別有二。一者正乘。二者方便乘等。
+<lb ed="X" n="0568b06"/><div2 type="orig"><p id="pX58p0568b0601">問。華嚴大宗。唯同別二教。<note place="inline"><note n="0568001" resp="Xuzangjing" place="foot text" type="orig">太下一有一字</note>〔太〕曰。一乘義者。分別有二。一者正乘。二者方便乘等。
 <lb ed="X" n="0568b07"/>釋曰。斯則乘為兩種。教立二門。故云唯同別也</note>別義講解多同。<note place="inline">同謂唯一別教</note>但易
 <lb ed="X" n="0568b08"/>簡特異。而多不從。<note place="inline">獨易簡說能弘義門教門三種之別。而多不從者。楊子云。不合乎先
 <lb ed="X" n="0568b09"/>王之法者。君子不法也</note>若同教一義。或曰三種。<note place="inline">此即易簡。言三種者。一融會同。
 <lb ed="X" n="0568b10"/>二和合同。三義相同</note>或曰四門。<note place="inline">此指會解。言四門者。一三一和合同。二同泯二乘同。三義類相
-<lb ed="X" n="0568b11"/>似同。四同成一教同</note><anchor id="fnX58p0568b02"/>言小異。大義不差。<note place="inline">&CB07410;菴謂。善住自指。若然者。同彼會三。故云小異
+<lb ed="X" n="0568b11"/>似同。四同成一教同</note><note n="0568002" resp="Xuzangjing" place="foot text" type="orig">言上一有或曰立三字</note>言小異。大義不差。<note place="inline">&CB07410;菴謂。善住自指。若然者。同彼會三。故云小異
 <lb ed="X" n="0568b12"/>旨意是一。故曰不差</note>而學者二三不知孰是。請諸少俊。&CB00397;採祖
 <lb ed="X" n="0568b13"/>文。示其所歸。當公論是非。不可私其所黨。至祝至祝。</p></div2>
-<lb ed="X" n="0568b14"/><div2 type="commentary"><p id="pX58p0568b1401" rend="margin-left:1em">其一言通目。<note place="inline">內章具云。又言同者。眾多別義。一言<anchor id="fnX58p0568b03"/>〔通〕位中所含。即通成解行等</note>隨
+<lb ed="X" n="0568b14"/><div2 type="commentary"><p id="pX58p0568b1401" rend="margin-left:1em">其一言通目。<note place="inline">內章具云。又言同者。眾多別義。一言<note n="0568003" resp="Xuzangjing" place="foot text" type="orig">通下一有目故言同釋曰如以信一言成其信位十五字</note>〔通〕位中所含。即通成解行等</note>隨
 <lb ed="X" n="0568b15"/>別取一義。<note place="inline">內章又曰。會義不同。多種法門。隨別取一義。餘無別相。故言同耳。釋曰。地論云。
 <lb ed="X" n="0568b16"/>信地菩薩。乃至與不思議佛法。為一緣起</note>并同別中。各說同別等義。<note place="inline">各說
 <lb ed="X" n="0568b17"/>同別者。具云別教之中亦有同別。由多即一。是其同也。為一中多。即是別也。同教之中亦有同別。一乘三
@@ -116,13 +121,13 @@ no message
 <lb ed="X" n="0568c01"/><div2 type="orig"><p id="pX58p0568c0101">迎福釋曰。此乃三一合說。則三乘一乘和合不異。又
 <lb ed="X" n="0568c02"/>注曰。此約三一具。故名同。又揀非海具百川等。<note place="inline">云云
 <lb ed="X" n="0568c03"/>會解注云。以初義具三一乘故。少異全收。以全收必約海具百川。故說少異。具三一。故。以法華為同教也</note>
-<lb ed="X" n="0568c04"/>至相釋曰。經云。會三歸一。<anchor id="fnX58p0568c04"/>故同也。<note place="inline">問復入二章曰。會三歸一。乃教相也。
+<lb ed="X" n="0568c04"/>至相釋曰。經云。會三歸一。<note n="0568004" resp="Xuzangjing" place="foot text" type="orig">故下一有知字</note>故同也。<note place="inline">問復入二章曰。會三歸一。乃教相也。
 <lb ed="X" n="0568c05"/>豈將作同字之訓義哉。今云。至相釋曰。何耶。答。此約釋義。彼約釋文。不相違也</note>多義如彼。<note place="inline">妙趣
-<lb ed="X" n="0568c06"/>章</note>又曰。今以理求通之。與同<anchor id="fnX58p0568c05"/>別趣也。今從至相<note place="inline">孟子曰。所
+<lb ed="X" n="0568c06"/>章</note>又曰。今以理求通之。與同<note n="0568005" resp="Xuzangjing" place="foot text" type="orig">別上一有無字</note>別趣也。今從至相<note place="inline">孟子曰。所
 <lb ed="X" n="0568c07"/>願則學孔子也。又曰。予未得為孔子徒也。予私淑諸人也</note>。</p></div2>
-<lb ed="X" n="0568c08"/><div2 type="commentary"><p id="pX58p0568c0801" rend="margin-left:1em">評曰。易簡將彼別教。<anchor id="fnX58p0568c06"/>此對同之別。<note place="inline">易簡曰。妙趣章云。別於三乘。故
+<lb ed="X" n="0568c08"/><div2 type="commentary"><p id="pX58p0568c0801" rend="margin-left:1em">評曰。易簡將彼別教。<note n="0568006" resp="Xuzangjing" place="foot text" type="orig">此上一有釋字</note>此對同之別。<note place="inline">易簡曰。妙趣章云。別於三乘。故
 <lb ed="X" n="0568c09"/>名別教</note>今取彼同。示此對別之同。義無舛也。<note place="inline">大師親謂。義豐
-<lb ed="X" n="0568c10"/><anchor id="fnX58p0568c07"/>〔勒〕成。例釋甚當</note>迎福亦曰。別義皆同。則亦與矣<note place="inline">會解第八云。別教名
+<lb ed="X" n="0568c10"/><note n="0568007" resp="Xuzangjing" place="foot text" type="orig">勒一作勤　（＊&CB18845;版&M062419;&M062446;字不明&M062442;&M062475;&M062466;龍谷大&CB18804;&CB18921;書館所&CB18911;&M062446;&CB18915;&CB18911;經底本&M062446;調查&M062443;&M062472;&M062474;　今&M062419;&M062446;字&M062482;復原&M062425;。但&M062423;底本&M062447;失&M062446;字&M062443;朱筆&M062482;加&M062406;。&CB18834;）</note>〔勒〕成。例釋甚當</note>迎福亦曰。別義皆同。則亦與矣<note place="inline">會解第八云。別教名
 <lb ed="X" n="0568c11"/>義。諸祖皆同。與者許也。語云吾與汝弗如也</note>。</p></div2>
 <lb ed="X" n="0568c12"/><div2 type="orig"><p id="pX58p0568c1201">清涼總相會通中。或分為四中云。三同教一乘。如法
 <lb ed="X" n="0568c13"/>華等<note place="inline">大經疏二云。中間三教。存三泯二別。故開之為四。一別教小乘。如四阿含等。二同教三乘。如深
@@ -166,7 +171,7 @@ no message
 <lb ed="X" n="0569b01"/>齊。法界三觀。其義一揆。詳之可見。若爾何謂非餘經法界釋。體勢縱橫。不可定準。故祖曰。此經所宗。諸經通體
 <lb ed="X" n="0569b02"/>等</note>。</p></div2>
 <lb ed="X" n="0569b03"/><div2 type="commentary"><p id="pX58p0569b0301" rend="margin-left:1em">評曰。既曰不融為同。非泯二名同。不亦顯然乎。又
-<lb ed="X" n="0569b04"/>此同教一乘。是合終頓。義亦明矣<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上躡<anchor id="fnX58p0569b01"/>〔疏〕印定</note>。</p></div2>
+<lb ed="X" n="0569b04"/>此同教一乘。是合終頓。義亦明矣<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上躡<note n="0569001" resp="Xuzangjing" place="foot text" type="orig">疏一作跡</note>〔疏〕印定</note>。</p></div2>
 <lb ed="X" n="0569b05"/><div2 type="orig"><p id="pX58p0569b0501">又曰。若自他相絕。則與眾生心。同一體故。無心外也。
 <lb ed="X" n="0569b06"/>不壞能所。故能知也。自解曰。此通終頓二教。<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>同一
 <lb ed="X" n="0569b07"/>體是頓教。兼不壞能所知義。即是終教。若總取雙絕
@@ -174,11 +179,11 @@ no message
 <lb ed="X" n="0569b09"/>心外見法。亦非無境可知。若自他相絕。則與眾生心同一體故。無心外也。不壞能所。故能知也。又他心是總。餘
 <lb ed="X" n="0569b10"/>皆是別。六相圓融。一乘之實知也。抄四十一云。皆如實下。總釋如實知義。有五教意。初通小乘初教。理實通人
 <lb ed="X" n="0569b11"/>法二空故。二亦非心外下。通始終二教。唯識之義通二教故。三若自他相絕下。通於終頓兩教。相同一體。即是
-<lb ed="X" n="0569b12"/>頓教。兼取不壞。能所知義。即是終教。又總取雙絕雙存亦圓中同教義故。四又他心是總下。六相圓融。唯屬<anchor id="fnX58p0569b02"/>〔同〕
+<lb ed="X" n="0569b12"/>頓教。兼取不壞。能所知義。即是終教。又總取雙絕雙存亦圓中同教義故。四又他心是總下。六相圓融。唯屬<note n="0569002" resp="Xuzangjing" place="foot text" type="orig">同一作圓</note>〔同〕
 <lb ed="X" n="0569b13"/>教一乘之別教義。釋曰。約教分別。故云有五教意等。若約融通。皆別教也</note>。</p></div2>
 <lb ed="X" n="0569b14"/><div2 type="commentary"><p id="pX58p0569b1401" rend="margin-left:1em">評曰。既稱總取。合二教也。亦圓教中。□同非離之
 <lb ed="X" n="0569b15"/>終頓。乃海具之江水。安得不&CB00367;。正同此間之同教
-<lb ed="X" n="0569b16"/>一乘也<note place="inline">問。引文可爾。且四中同教。探玄果於共教分出。豈亦圓中同邪。答。太一曰。為成普<anchor id="fnX58p0569b03"/>〔法〕
+<lb ed="X" n="0569b16"/>一乘也<note place="inline">問。引文可爾。且四中同教。探玄果於共教分出。豈亦圓中同邪。答。太一曰。為成普<note n="0569003" resp="Xuzangjing" place="foot text" type="orig">法下一有普法二字</note>〔法〕
 <lb ed="X" n="0569b17"/>所成。法性論中三處入法界。法華等教。非圓中同。而何故圭山云。若約頓開。但悟至此。便入圓教也</note>。</p></div2>
 <lb ed="X" n="0569b18"/><div2 type="orig"><p id="pX58p0569b1801">密祖釋能所證義曰。能所無二。大乘終教也。能所俱
 <lb ed="X" n="0569b19"/>泯。大乘頓教中證道也<note place="inline">願抄二後</note>。</p>
@@ -213,19 +218,19 @@ no message
 <lb ed="X" n="0569c23"/>乘之極致。後觀別教等<note place="inline">觀註</note>。</p></div2>
 <lb ed="X" n="0569c24"/><div2 type="commentary"><p id="pX58p0569c2401" rend="margin-left:1em">評曰。即前清涼存亡無礙全證之事理無礙門。此
 <pb ed="X" id="X58.1016.0570a" n="0570a"/>
-<lb ed="X" n="0570a01"/>大<anchor id="fnX58p0570a01"/>乘亦名一乘。故理義正齊。不必疑也。後觀別教。
+<lb ed="X" n="0570a01"/>大<note n="0570001" resp="Xuzangjing" place="foot text" type="orig">乘下一有同教即前總取雙絕雙存圓教中同教也以祖曰大乘二十一字</note>乘亦名一乘。故理義正齊。不必疑也。後觀別教。
 <lb ed="X" n="0570a02"/>此觀同教。何疑之有。次前即言。是同教一乘之義
 <lb ed="X" n="0570a03"/>理分齊。可為良證<note place="inline">貞元一之上曰。實教大乘。亦名一乘</note>。</p></div2>
 <lb ed="X" n="0570a04"/><div2 type="orig"><p id="pX58p0570a0401">觀祖又曰。實教大乘。亦名一乘。謂會三歸一。唯有一
 <lb ed="X" n="0570a05"/>乘法故。即後三教合為一實。即今性相二宗。有多差
 <lb ed="X" n="0570a06"/>別。略列十條。此能揀十義。亦即此經中同教之義。密
 <lb ed="X" n="0570a07"/>祖亦曰。即華嚴同教義<note place="inline">演義六曰。此經同經者。三摩娑釋。依主得名。補盧沙聲。屬
-<lb ed="X" n="0570a08"/>聲受稱。此經之同教也。大抄四云。即華<anchor id="fnX58p0570a02"/>嚴中同教之義</note>。</p></div2>
+<lb ed="X" n="0570a08"/>聲受稱。此經之同教也。大抄四云。即華<note n="0570002" resp="Xuzangjing" place="foot text" type="orig">嚴上疑有脫字</note>嚴中同教之義</note>。</p></div2>
 <lb ed="X" n="0570a09"/><div2 type="commentary"><p id="pX58p0570a0901" rend="margin-left:1em">評曰。此亦後三合為一實。開二即同別。開三即圓
 <lb ed="X" n="0570a10"/>終頓也。是以為四。即<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>有同別。是合取頓實。即圓
 <lb ed="X" n="0570a11"/>中之同也。以一乘三乘小乘三宗不同。一乘有二
 <lb ed="X" n="0570a12"/>故<note place="inline">配五教者。後三一乘宗。始教三乘宗。愚法小乘宗。如貞元等說</note>。</p>
-<lb ed="X" n="0570a13"/><p id="pX58p0570a1301" rend="margin-left:1em"><anchor id="fnX58p0570a03"/>此上釋合後三也。合為一乘。後段釋開後三也。則
+<lb ed="X" n="0570a13"/><p id="pX58p0570a1301" rend="margin-left:1em"><note n="0570003" resp="Xuzangjing" place="foot text" type="orig">此等四十七字原本作白書</note>此上釋合後三也。合為一乘。後段釋開後三也。則
 <lb ed="X" n="0570a14"/>唯後一中。自有同別。不取終頓。以一乘唯有同別。
 <lb ed="X" n="0570a15"/>無餘乘故。故成三一也<note place="inline">此上白書。乃善住新加入。問。清&CB00289;義分齊中。合後三。
 <lb ed="X" n="0570a16"/>開同別邪。答。仰觀文意。直以後一。該取終頓作同。故云圓教攝。即太一謂。一乘即一乘也。若約影前二者。
@@ -235,7 +240,7 @@ no message
 <lb ed="X" n="0570a20"/>乘。宗始終頓為三乘宗。愚法為小乘宗。如教章等說。終頓二教。進退雖殊。然皆不違梁攝論也</note>終
 <lb ed="X" n="0570a21"/>頓各詮雙存俱泯。偏而非圓。若取終頓。全同四中。
 <lb ed="X" n="0570a22"/><note place="inline">白書順明。此中反顯</note>此理顯然。宜深思之。若將四教作五教
-<lb ed="X" n="0570a23"/><anchor id="fnX58p0570a04"/>通。開合不分。偏圓難辨。<note place="inline">如會解釋分四曰。非即合終頓</note>但見理事
+<lb ed="X" n="0570a23"/><note n="0570004" resp="Xuzangjing" place="foot text" type="orig">通上一有釋字</note>通。開合不分。偏圓難辨。<note place="inline">如會解釋分四曰。非即合終頓</note>但見理事
 <lb ed="X" n="0570a24"/>無礙之言。便名終教。如法華等。理事無礙一宗所
 <pb ed="X" id="X58.1016.0570b" n="0570b"/>
 <lb ed="X" n="0570b01"/>&CB01495;。大乘一發。判為偏淺。<note place="inline">多謂華藏。余親問頤菴云。亦兼前人。若爾如符真曰。
@@ -324,22 +329,22 @@ no message
 <lb ed="X" n="0571b09"/>三。能同亦三。<note place="inline">能例</note>當知。別教下同終頓。不應便非是
 <lb ed="X" n="0571b10"/>圓。&CB00230;&CB04453;該而入圓也。<note place="inline">所例</note>以本非江水。故不待入。本
 <lb ed="X" n="0571b11"/>非不融。故不待該。<note place="inline">約宗因以釋成能同。一性一相。是有法。不待該為宗。因云。本非
-<lb ed="X" n="0571b12"/>不融故。同踰如自海水。自海水是有法。不待入為宗。因云。本非江<anchor id="fnX58p0571b01"/>〔水〕</note>蓋後三教並揀
+<lb ed="X" n="0571b12"/>不融故。同踰如自海水。自海水是有法。不待入為宗。因云。本非江<note n="0571001" resp="Xuzangjing" place="foot text" type="orig">水下一有故本非江水故不待入本非不融故不待該十七字</note>〔水〕</note>蓋後三教並揀
 <lb ed="X" n="0571b13"/>於權。合為一實。皆是一乘。開即為二。謂同別也。有
 <lb ed="X" n="0571b14"/>開之之終頓。非圓中之同。<note place="inline">為次義本</note>今將合之入圓。故
 <lb ed="X" n="0571b15"/>說該耳。<note place="inline">以別該同皆圓教攝</note>而抄又曰。如海包含。無不具故。
 <lb ed="X" n="0571b16"/>則總&CB01495;諸教。會三歸一。得非廣乎<note place="inline">彈會解也。問。人謂會三唯是法華。如
 <lb ed="X" n="0571b17"/>何。答。非獨法華也。何者。祖云。若引機以會同。同同具十。豈亦法華為能會。若爾。探玄何謂。華嚴無權可會。
-<lb ed="X" n="0571b18"/>涅槃會前諸權。答。彼約化儀。非此之比。豈不乖<anchor id="fnX58p0571b02"/>〔害〕。猶南行者至於郢。北面不見冥山者。去之遠也。若剉法
+<lb ed="X" n="0571b18"/>涅槃會前諸權。答。彼約化儀。非此之比。豈不乖<note n="0571002" resp="Xuzangjing" place="foot text" type="orig">害下一以所依心識記法華攝前諸教紅紫亂朱以誑&CB00594;子是二十字</note>〔害〕。猶南行者至於郢。北面不見冥山者。去之遠也。若剉法
 <lb ed="X" n="0571b19"/>真此語。得不異於江淹夢筆也。問。心識中設以法華為能攝。何失。答。則違清&CB00289;華嚴疏。初列屬所攝也。若
-<lb ed="X" n="0571b20"/>爾。稱性極談一乘要軌。可謂會三歸一不。答。賢首雖云引彼三乘。清&CB00289;云開權<anchor id="fnX58p0571b03"/>〔實〕。如。約相就門。皆別教也。
+<lb ed="X" n="0571b20"/>爾。稱性極談一乘要軌。可謂會三歸一不。答。賢首雖云引彼三乘。清&CB00289;云開權<note n="0571003" resp="Xuzangjing" place="foot text" type="orig">實上一有顯字</note>〔實〕。如。約相就門。皆別教也。
 <lb ed="X" n="0571b21"/>問。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>知能會非獨法華。且群修多羅得名同教一乘。為因華嚴該耶。為因法華會耶。答。若因法華者。則有
 <lb ed="X" n="0571b22"/>宗因通局過。以諸宗皆說法華會三歸一故。若謂此約會歸華嚴。異諸宗者。則有自因為力過。以假華嚴
 <lb ed="X" n="0571b23"/>故。問。畢竟如何。答。凡名同教一乘者。必因圓該。故云為彼所目。從彼所流一乘。攝方便同頓同實等。其間
 <lb ed="X" n="0571b24"/>雖通說別說不同。然皆別教該耳。問。章初同教。豈亦圓該釋。是亦方便中分。方便中融。成機欲性。入法界
 <pb ed="X" id="X58.1016.0571c" n="0571c"/>
 <lb ed="X" n="0571c01"/>中。是知法華等經。要依圓該。方名同教。若非圓該。就彼自宗。非圓教攝。應立量云。諸經是有法。名同教一
-<lb ed="X" n="0571c02"/>乘為宗。因云。圓該故。同喻。如百川。百川是有法。亦名鹹味。為宗。因云。海具<anchor id="fnX58p0571c04"/>〔故〕名&CB00367;味。圓該故名一乘。此上
+<lb ed="X" n="0571c02"/>乘為宗。因云。圓該故。同喻。如百川。百川是有法。亦名鹹味。為宗。因云。海具<note n="0571004" resp="Xuzangjing" place="foot text" type="orig">故下一有海具故三字</note>〔故〕名&CB00367;味。圓該故名一乘。此上
 <lb ed="X" n="0571c03"/>言該者。以別該同之該。非該攝門之該也。諸賢到此。幸冀留神。懷前識以標玄。存所存之必當。則吾未如
 <lb ed="X" n="0571c04"/>之何也。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>矣</note>總會諸權。以入一實。得非為人之教門乎。
 <lb ed="X" n="0571c05"/><note place="inline">彈易簡</note>同頓同實。又同三乘。前後互出。<note place="inline">前該頓實。此同三乘。故云
@@ -365,7 +370,7 @@ no message
 <pb ed="X" id="X58.1016.0572a" n="0572a"/>
 <lb ed="X" n="0572a01"/>川谷</note>又曰。共三一以法華為同教。又不揀泯二是同
 <lb ed="X" n="0572a02"/>之一乘。目法華義。<note place="inline">差當曰。所以不揀第二義者。但由第一與第四但少異。故須當
-<lb ed="X" n="0572a03"/>揀。而四教中泯二為同。於共教中分出。但泯始教二乘。歸法華終頓之同。與第一義具三一<anchor id="fnX58p0572a01"/>〔義〕天隔。故章
+<lb ed="X" n="0572a03"/>揀。而四教中泯二為同。於共教中分出。但泯始教二乘。歸法華終頓之同。與第一義具三一<note n="0572001" resp="Xuzangjing" place="foot text" type="orig">義下入勢字見</note>〔義〕天隔。故章
 <lb ed="X" n="0572a04"/>中三是諸教。一是圓教。第二義所泯。是始教中二泯為一。是終頓之一。雖同是法華。義勢天遠</note>又
 <lb ed="X" n="0572a05"/>曰。餘三皆華嚴。華嚴非海乎。或似自語前&CB00230;。<note place="inline">注云。共三
 <lb ed="X" n="0572a06"/>一以法華為同教。結云泯二是同目法華等。餘三皆華嚴。故云前&CB00230;</note>又曰。然上四義
@@ -382,7 +387,7 @@ no message
 <lb ed="X" n="0572a17"/>我何由得至此地。所感之恩。彌深彌厚也</note>。</p></div2>
 <lb ed="X" n="0572a18"/><div2 type="commentary"><p id="pX58p0572a1801" rend="margin-left:1em">評曰。此作同教釋。則是方便故。<note place="inline">章曰。若約同教即攝前諸教。是此方
 <lb ed="X" n="0572a19"/>便故</note>賢首圓教或五也。<note place="inline">章曰。於圓內或具五教。以攝方便故</note>且取非即
-<lb ed="X" n="0572a20"/>圓通義也。<note place="inline">內章曰。若橫依方便進趣法門。即有二義。通說一乘釋曰標也。一<anchor id="fnX58p0572a02"/>〔由〕究竟一乘
+<lb ed="X" n="0572a20"/>圓通義也。<note place="inline">內章曰。若橫依方便進趣法門。即有二義。通說一乘釋曰標也。一<note n="0572002" resp="Xuzangjing" place="foot text" type="orig">由下一以有依字</note>〔由〕究竟一乘
 <lb ed="X" n="0572a21"/>教成。何以故。從一乘流故。又為一乘教所目故。二與彼圓一乘。為方便故。釋曰列也。故說一乘非即圓通
 <lb ed="X" n="0572a22"/>自在義也。釋曰結也</note>既曰全收諸教。即前之四教。謂之諸教。
 <lb ed="X" n="0572a23"/>清涼曰。圓必攝四。若爾即教章所詮差別。攝前之
@@ -395,16 +400,16 @@ no message
 <lb ed="X" n="0572b05"/>門。約終頓教說。後三門。約圓教中別教說。總具十門。約同教說。問。復古記云。前五總融為同教如何。答。第
 <lb ed="X" n="0572b06"/>五圓教。猶金剛齊。餘方悉轉。此地不動。今作此說。則孰為別教。若爾。豈異笑菴同成一教。易簡普收諸教。
 <lb ed="X" n="0572b07"/>則亦濫有奴無主過也。細思</note>清涼曰。如海包含。無不具故。則同
-<lb ed="X" n="0572b08"/>頓同實之義。亦是此義。下文亦說<anchor id="fnX58p0572b03"/>三乘故。章中前
+<lb ed="X" n="0572b08"/>頓同實之義。亦是此義。下文亦說<note n="0572003" resp="Xuzangjing" place="foot text" type="orig">三上一有同字</note>三乘故。章中前
 <lb ed="X" n="0572b09"/>曰華嚴一乘。後曰圓之同教。<note place="inline">如行位差別</note>非海而何。<note place="inline">會解
 <lb ed="X" n="0572b10"/>謂初義具三一少異全收。非也</note>至相亦曰。會三歸一。故如同也。三
 <lb ed="X" n="0572b11"/>即諸教故。如初義<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>辨。<note place="inline">所攝之乘。既唯一勝方便。能攝之教。豈合有多門。故
 <lb ed="X" n="0572b12"/>上云亦即等也</note>彥和可常共取至相。此義釋章初二門。<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>
-<lb ed="X" n="0572b13"/>不用同。與今有異。<note place="inline">華<anchor id="fnX58p0572b04"/>〔嚴〕笑菴。不以孔目與章初是同。遂與法真碩異</note>義苑
+<lb ed="X" n="0572b13"/>不用同。與今有異。<note place="inline">華<note n="0572004" resp="Xuzangjing" place="foot text" type="orig">嚴一作藏</note>〔嚴〕笑菴。不以孔目與章初是同。遂與法真碩異</note>義苑
 <lb ed="X" n="0572b14"/>亦指此同章初之義。此有深理。昔可尚也。安更有
 <lb ed="X" n="0572b15"/>詞。<note place="inline">義苑曰。若會三歸一屬於同。若稱性融通。法本如是。一屬於別。此與孔目同等</note>此義祖
 <lb ed="X" n="0572b16"/>語稍多。然又易見。不多云也。</p></div2>
-<lb ed="X" n="0572b17"/><div2 type="orig"><p id="pX58p0572b1701">清涼<anchor id="fnX58p0572b05"/>全曰。大海必攝百川。同一&CB00367;味。圓必攝四。圓以
+<lb ed="X" n="0572b17"/><div2 type="orig"><p id="pX58p0572b1701">清涼<note n="0572005" resp="Xuzangjing" place="foot text" type="orig">全下一有收字</note>全曰。大海必攝百川。同一&CB00367;味。圓必攝四。圓以
 <lb ed="X" n="0572b18"/>貫之。亦圓教攝。尚非三四等。有其所通。無其所病。圭
 <lb ed="X" n="0572b19"/>山大抄。指全收為一。是別教。<note place="inline">大疏云。初總為一。謂圓教攝於前四。一一同圓。
 <lb ed="X" n="0572b20"/>注云。海中百川無非海等。大抄五云。言一一同圓者。謂應難云。既攝前四。何殊小乘。及法相等。故今釋云。圓教
@@ -435,15 +440,15 @@ no message
 <lb ed="X" n="0572c20"/>是一乘共教。非別教也。<note place="inline">要問二眾生作佛義</note>皆以共釋同。蓋
 <lb ed="X" n="0572c21"/>共者教也。又曰。三一和合。<note place="inline">教章</note>同一善巧。<note place="inline">妙趣章</note>故名
 <lb ed="X" n="0572c22"/>同教。此乃以合釋同。同者合也。則三乘為教。一乘
-<lb ed="X" n="0572c23"/>為義。和合不離。<anchor id="fnX58p0572c06"/>攝成益也。又同者輩也。齊也。此言
+<lb ed="X" n="0572c23"/>為義。和合不離。<note n="0572006" resp="Xuzangjing" place="foot text" type="orig">攝下一有機字</note>攝成益也。又同者輩也。齊也。此言
 <lb ed="X" n="0572c24"/>流輩相齊也。祖曰。同教門者。則與三乘義同。但由
 <pb ed="X" id="X58.1016.0573a" n="0573a"/>
-<lb ed="X" n="0573a01"/>智回向故。入一<anchor id="fnX58p0573a01"/>乘<note place="inline">孔目二真如章</note>又曰。依一乘教分。與終
+<lb ed="X" n="0573a01"/>智回向故。入一<note n="0573001" resp="Xuzangjing" place="foot text" type="orig">乘下一有攝字</note>乘<note place="inline">孔目二真如章</note>又曰。依一乘教分。與終
 <lb ed="X" n="0573a02"/>教相同。<note place="inline">要問十修道總別義</note>又曰。同教者同頓同實。下同諸
 <lb ed="X" n="0573a03"/>乘。又曰。文雖是同。意皆別異。<note place="inline">上句孔目十地章。下句要問一乘義</note>皆
 <lb ed="X" n="0573a04"/>言三一宗差。法門同也。又說法華漸同華嚴。<note place="inline">教章</note>此
 <lb ed="X" n="0573a05"/>以流輩相齊。以釋同也。此中法華。即圓中同爾。又
-<lb ed="X" n="0573a06"/>曰。今以理求<anchor id="fnX58p0573a02"/>通。與同義無別趣。蓋以同猶通也。故
+<lb ed="X" n="0573a06"/>曰。今以理求<note n="0573002" resp="Xuzangjing" place="foot text" type="orig">通下一有之字</note>通。與同義無別趣。蓋以同猶通也。故
 <lb ed="X" n="0573a07"/>有通教一乘。<note place="inline">妙趣曰。前德<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>述通別二教。而未見釋相</note>亦言是一法門。
 <lb ed="X" n="0573a08"/>通彼三一。達乎二宗。如曰上件法門。攝下諸教。頓
 <lb ed="X" n="0573a09"/>屬其上。分本教義。漸從其末。義通一乘三乘小乘。
@@ -456,7 +461,7 @@ no message
 <lb ed="X" n="0573a16"/>相齊。故名同也。釋訓既爾。諸文互成。今欲示義。且
 <lb ed="X" n="0573a17"/>作此耳。其會三歸一。乃教相也。由彼教中詮顯此
 <lb ed="X" n="0573a18"/>理。知其是同。可釋迴三入一教之名義也。豈有將
-<lb ed="X" n="0573a19"/>會三歸一。作同字<anchor id="fnX58p0573a03"/>之。</p>
+<lb ed="X" n="0573a19"/>會三歸一。作同字<note n="0573003" resp="Xuzangjing" place="foot text" type="orig">之下宋刻古本脫二紙六十行</note>之。</p>
 <lb ed="X" n="0573a20"/><p id="pX58p0573a2001" rend="margin-left:1em">一乘宗。是則一乘還有同別。亦順三宗。故一乘中。
 <lb ed="X" n="0573a21"/>無二同教對一別也。是則頓實。屬三則權。屬一則
 <lb ed="X" n="0573a22"/>實。離偏而合圓也。蓋以教海之中接引物機。有多
