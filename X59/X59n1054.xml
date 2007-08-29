@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X59n1054.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/08/21 03:49:57 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/08/29 06:38:31 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/08/21 03:49:57 $</date>
+		<date>$Date: 2007/08/29 06:38:31 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 59, No. 1054 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X59n1054.xml,v $
+Revision 1.6  2007/08/29 06:38:31  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.5  2007/08/21 03:49:57  amtbgrace
 modified: [卍續校注] X56-78 檢查結果的經文修訂
 
@@ -96,7 +101,7 @@ no message
 <lb ed="X" n="0089c03"/>是量中隨力取之堀深至膝或深一肘擇去虫蟻及
 <lb ed="X" n="0089c04"/>諸瓦礫髮骨&CB01926;炭糠&CB00294;棘<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>本根之屬諸穢惡等物
 <lb ed="X" n="0089c05"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>填滿淨土堅實令平等訖當於其上修妙精舍淨
-<lb ed="X" n="0089c06"/>塗其室先定方面若求除災法者其室應當<anchor id="fnX59p0089c01"/>開南門
+<lb ed="X" n="0089c06"/>塗其室先定方面若求除災法者其室應當<note n="0089001" resp="Xuzangjing" place="foot text" type="orig">開南門一作南向開門</note>開南門
 <lb ed="X" n="0089c07"/>面向北坐坐時當交兩&CB00560;脛坐若作求增益法者當
 <lb ed="X" n="0089c08"/>開西門面向東結跏趺坐若作瞋怒法者當開北門
 <lb ed="X" n="0089c09"/>面向南坐作蹲踞二足左押右若作朋友相親法者
@@ -124,17 +129,17 @@ no message
 <lb ed="X" n="0090a06"/><p id="pX59p0090a0601" type="dharani">唵<note place="inline">一</note>始佉哩<note place="inline">二</note>跋折哩<note place="inline">三</note>&CB11111;<note place="inline">四</note></p>
 <lb ed="X" n="0090a07"/><p id="pX59p0090a0701">結印以右手中指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指握大母指為拳直&CB00594;其
 <lb ed="X" n="0090a08"/>頭指即成以此印印其物上右轉揮之以為防護一
-<lb ed="X" n="0090a09"/>切香華燈塗及飲食等訖作法<anchor id="fnX59p0090a01"/>人然後往於浴處作
+<lb ed="X" n="0090a09"/>切香華燈塗及飲食等訖作法<note n="0090001" resp="Xuzangjing" place="foot text" type="orig">人字更勘</note>人然後往於浴處作
 <lb ed="X" n="0090a10"/>是法時或自作或令弟子作之俱得若欲結印之時
 <lb ed="X" n="0090a11"/>先應結三三昧耶印<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>然後方得結於諸印三昧相
 <lb ed="X" n="0090a12"/>者第一佛三昧耶印以二手並側申相著如常掬物
 <lb ed="X" n="0090a13"/>以頭指頭附於中指上文次以大母指頭附於頭指
 <lb ed="X" n="0090a14"/>下文即成是印&CB00057;曰。</p>
 <lb ed="X" n="0090a15"/><p id="pX59p0090a1501" type="dharani">唵<note place="inline">一</note>怛他揭&CB00418;<note place="inline">二</note>納婆皤耶<note place="inline">三</note>莎訶</p>
-<lb ed="X" n="0090a16"/><p id="pX59p0090a1601">誦此&CB00057;以印舉安頂上當作是想<anchor id="fnX59p0090a02"/>是印即是佛身。</p>
+<lb ed="X" n="0090a16"/><p id="pX59p0090a1601">誦此&CB00057;以印舉安頂上當作是想<note n="0090002" resp="Xuzangjing" place="foot text" type="orig">是者作是直也直廂者正面也</note>是印即是佛身。</p>
 <lb ed="X" n="0090a17"/><p id="pX59p0090a1701">次說蓮花三昧耶印。</p>
 <lb ed="X" n="0090a18"/><p id="pX59p0090a1801">以二手腕相著&CB00594;兩手散開十指以二大母指並相
-<lb ed="X" n="0090a19"/>著二小指亦然即成以印舉安頂上如近右<anchor id="fnX59p0090a03"/><anchor id="fnX59p0090a04"/>相當作
+<lb ed="X" n="0090a19"/>著二小指亦然即成以印舉安頂上如近右<note n="0090003" resp="Xuzangjing" place="foot text" type="orig">右相相謂狀相次下金剛三昧文意亦然</note><note n="0090004" resp="Xuzangjing" place="foot text" type="orig">相或邊歟</note>相當作
 <lb ed="X" n="0090a20"/>是想此印即是聖觀自在菩薩即說&CB00057;曰。</p>
 <lb ed="X" n="0090a21"/><p id="pX59p0090a2101" type="dharani">唵<note place="inline">一</note>&CB00425;頭牟<note place="inline">二</note>納婆皤耶<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0090a22"/><p id="pX59p0090a2201">次說金剛三昧耶印。</p>
@@ -160,8 +165,8 @@ no message
 <lb ed="X" n="0090b17"/>此名辟魔若欲縛諸作障礙鬼神等者即舉兩手三
 <lb ed="X" n="0090b18"/>指即縛諸障縛諸障時應云畔陀畔陀作此法<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>然
 <lb ed="X" n="0090b19"/>後出房若持誦作法者澡浴時當取淨土以火燒之
-<lb ed="X" n="0090b20"/>令<anchor id="fnX59p0090b05"/>熟以為細末末<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>盛一器中即成用印誦&CB00057;而更
-<lb ed="X" n="0090b21"/>淨之未淨勿用是印相者以二手<anchor id="fnX59p0090b06"/>頭指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指右
+<lb ed="X" n="0090b20"/>令<note n="0090005" resp="Xuzangjing" place="foot text" type="orig">熟疑熱</note>熟以為細末末<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>盛一器中即成用印誦&CB00057;而更
+<lb ed="X" n="0090b21"/>淨之未淨勿用是印相者以二手<note n="0090006" resp="Xuzangjing" place="foot text" type="orig">頭疑中</note>頭指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指右
 <lb ed="X" n="0090b22"/>押左向外相叉並合&CB00594;二頭指側&CB00594;二大母指即是
 <lb ed="X" n="0090b23"/>&CB00057;曰。</p>
 <lb ed="X" n="0090b24"/><p id="pX59p0090b2401" type="dharani">唵<note place="inline">一</note>&CB00135;佉那<note place="inline">二</note>皤蘇第<note place="inline">三</note>莎訶</p>
@@ -219,7 +224,7 @@ no message
 <lb ed="X" n="0091b01"/>時應以右手大母指捻小指頭餘三指直申以水灑
 <lb ed="X" n="0091b02"/>於土上及澡豆等上用之&CB00057;曰。</p>
 <lb ed="X" n="0091b03"/><p id="pX59p0091b0301" type="dharani">唵<note place="inline">一</note>枳哩枳哩<note place="inline">二</note>&CB02494;折囉<note place="inline">三</note>吽泮</p>
-<lb ed="X" n="0091b04"/><p id="pX59p0091b0401">又復淨水印者以二手<anchor id="fnX59p0091b01"/>頭指以下三指向<anchor id="fnX59p0091b02"/>內相叉以
+<lb ed="X" n="0091b04"/><p id="pX59p0091b0401">又復淨水印者以二手<note n="0091001" resp="Xuzangjing" place="foot text" type="orig">頭疑中</note>頭指以下三指向<note n="0091002" resp="Xuzangjing" place="foot text" type="orig">內疑外</note>內相叉以
 <lb ed="X" n="0091b05"/>二頭指屈頭相拄稍圓之勿方二大指並&CB00594;&CB00057;曰。</p>
 <lb ed="X" n="0091b06"/><p id="pX59p0091b0601" type="dharani">唵<note place="inline">一</note>訶那&CB02494;折囉<note place="inline">二</note>跋折哩拏訶</p>
 <lb ed="X" n="0091b07"/><p id="pX59p0091b0701">誦上&CB00057;三遍以內於水中撓之能令水中一切魚龍
@@ -244,7 +249,7 @@ no message
 <lb ed="X" n="0091c01"/>婆多耶<note place="inline">九</note>怛地他<note place="inline">十</note>唵<note place="inline">十一</note>阿蜜哩多軍荼利<note place="inline">十二</note>佉佉
 <lb ed="X" n="0091c02"/>佉佉<note place="inline">十三</note>佉那佉那佉那佉那<note place="inline">十四</note>佉陀佉陀佉陀佉陀
 <lb ed="X" n="0091c03"/><note place="inline">十五</note>佉醯佉醯佉醯佉醯<note place="inline">十六</note>底瑟侘底瑟侘<note place="inline">十七</note>陀訶陀
-<lb ed="X" n="0091c04"/>訶<note place="inline">十八</note>波遮波遮<note place="inline">十九</note>魚&CB01220;訶那魚&CB01220;訶那<anchor id="fnX59p0091c03"/>魚&CB01220;訶那<note place="inline">二十</note>
+<lb ed="X" n="0091c04"/>訶<note place="inline">十八</note>波遮波遮<note place="inline">十九</note>魚&CB01220;訶那魚&CB01220;訶那<note n="0091003" resp="Xuzangjing" place="foot text" type="orig">魚等四字疑剩</note>魚&CB01220;訶那<note place="inline">二十</note>
 <lb ed="X" n="0091c05"/>盤陀盤陀<note place="inline">二十一</note>揭闍揭闍<note place="inline">二十二</note>毗悉怖吒耶毗悉怖
 <lb ed="X" n="0091c06"/>吒耶<note place="inline">二十三</note>婆伽盤阿蜜哩多軍荼利<note place="inline">二十四</note>母&CB00069;達那
 <lb ed="X" n="0091c07"/>多荼耶<note place="inline">二十五</note>&CB02494;折唎拏薩婆毗近那毗那夜迦&CB00135;皤
@@ -310,7 +315,7 @@ no message
 <lb ed="X" n="0092b17"/>王於其目中流射金剛威光熾然奔騰赫焰散燒一
 <lb ed="X" n="0092b18"/>切毗那夜迦作是法能令&CB00057;神皆悉歡喜作是想時
 <lb ed="X" n="0092b19"/>&CB00057;曰。</p>
-<lb ed="X" n="0092b20"/><p id="pX59p0092b2001" type="dharani">唵&CB02494;折囉<note place="inline">二</note>達<anchor id="fnX59p0092b01"/>&CB01220;瑟&CB00302;摩吒</p>
+<lb ed="X" n="0092b20"/><p id="pX59p0092b2001" type="dharani">唵&CB02494;折囉<note place="inline">二</note>達<note n="0092001" resp="Xuzangjing" place="foot text" type="orig">&CB01220;疑哩</note>&CB01220;瑟&CB00302;摩吒</p>
 <lb ed="X" n="0092b21"/><p id="pX59p0092b2101">復更燒香以此香煙逐上方&CB00980;空界處一切諸魔&CB00057;
 <lb ed="X" n="0092b22"/>曰。</p>
 <lb ed="X" n="0092b23"/><p id="pX59p0092b2301" type="dharani">唵<note place="inline">一</note>&CB00425;頭彌&CB00135;<note place="inline">二</note>牟阿耶牟訶耶<note place="inline">三</note>闍刈牟訶&CB00135;<note place="inline">四</note>
@@ -320,7 +325,7 @@ no message
 <lb ed="X" n="0092c02"/>末香和水以為結四方界&CB00057;曰。</p>
 <lb ed="X" n="0092c03"/><p id="pX59p0092c0301" type="dharani">唵<note place="inline">一</note>阿路力<note place="inline">二</note>莎訶</p>
 <lb ed="X" n="0092c04"/><p id="pX59p0092c0401">作是法<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>復作是觀一紇哩字無量壽如來從是字
-<lb ed="X" n="0092c05"/>起身流妙乳水乃成大海於是海中想一&CB00425;羅<anchor id="fnX59p0092c02"/>全此
+<lb ed="X" n="0092c05"/>起身流妙乳水乃成大海於是海中想一&CB00425;羅<note n="0092002" resp="Xuzangjing" place="foot text" type="orig">＊金疑字（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>全此
 <lb ed="X" n="0092c06"/>&CB00425;羅字化成一龜其形縱廣無量色如黃金於其背
 <lb ed="X" n="0092c07"/>上想一紇哩字即此字復化為一蓮花其&CB12414;赤色皆
 <lb ed="X" n="0092c08"/>有八葉葉有三重復於此&CB12414;中想蘇字蘇字兩邊各
@@ -336,7 +341,7 @@ no message
 <lb ed="X" n="0092c18"/>風微觸妙俱發綺幡繽紛互相掩映種種無量藥叉
 <lb ed="X" n="0092c19"/>羅剎諸天等類前後圍遶奏諸音樂舞金剛舞讚金
 <lb ed="X" n="0092c20"/>剛歌瑞雲彌漫雨妙香花滿&CB00980;空中歷亂徐墜種種
-<lb ed="X" n="0092c21"/>飲食安置供養行法之人應<anchor id="fnX59p0092c03"/>常如是澄<anchor id="fnX59p0092c04"/>渟諦觀與心
+<lb ed="X" n="0092c21"/>飲食安置供養行法之人應<note n="0092003" resp="Xuzangjing" place="foot text" type="orig">常疑當</note>常如是澄<note n="0092004" resp="Xuzangjing" place="foot text" type="orig">渟一作停</note>渟諦觀與心
 <lb ed="X" n="0092c22"/>相應入是觀時先誦是&CB00057;&CB00057;曰。</p>
 <lb ed="X" n="0092c23"/><p id="pX59p0092c2301" type="dharani">那牟三曼多勃陀南<note place="inline">一</note>薩婆多他欠<note place="inline">二</note>嗢那刈諦<note place="inline">三</note>
 <lb ed="X" n="0092c24"/>悉頗囉醯&CB00805;<note place="inline">四</note>伽伽那&CB00297;<note place="inline">五</note>莎訶</p>
@@ -347,7 +352,7 @@ no message
 <lb ed="X" n="0093a04"/>俱&CB00057;曰。</p>
 <lb ed="X" n="0093a05"/><p id="pX59p0093a0501" type="dharani">唵<note place="inline">一</note>莎婆皤&CB00085;輸陀<note place="inline">二</note>薩婆達摩<note place="inline">三</note>莎婆皤婆輸度含</p>
 <lb ed="X" n="0093a06"/><p id="pX59p0093a0601">誦此明&CB00057;淨身畢<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>復作是言無量劫來淪流生死
-<lb ed="X" n="0093a07"/>溺煩惱&CB00410;不逢良友而隨<anchor id="fnX59p0093a01"/>安心不能出離於無上道
+<lb ed="X" n="0093a07"/>溺煩惱&CB00410;不逢良友而隨<note n="0093001" resp="Xuzangjing" place="foot text" type="orig">安疑妄</note>安心不能出離於無上道
 <lb ed="X" n="0093a08"/>不起忻求是故今發菩提心應當口稱阿字此字是
 <lb ed="X" n="0093a09"/>無生義趣空寂門唯獨此門能遠塵垢順此法者能
 <lb ed="X" n="0093a10"/>除行人無量劫中微塵數罪譬如淨空明日善照一
@@ -366,7 +371,7 @@ no message
 <lb ed="X" n="0093a23"/>觀其心極令明淨&CB00057;曰。</p>
 <lb ed="X" n="0093a24"/><p id="pX59p0093a2401" type="dharani">唵<note place="inline">一</note>菩提質多母怛波陀夜弭</p>
 <pb ed="X" id="X59.1054.0093b" n="0093b"/>
-<lb ed="X" n="0093b01"/><p id="pX59p0093b0101">誦是&CB00057;觀於心月極明淨<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>得堅固菩提於<anchor id="fnX59p0093b02"/>月上觀
+<lb ed="X" n="0093b01"/><p id="pX59p0093b0101">誦是&CB00057;觀於心月極明淨<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>得堅固菩提於<note n="0093002" resp="Xuzangjing" place="foot text" type="orig">月疑心</note>月上觀
 <lb ed="X" n="0093b02"/>一金剛蓮花觀是花時應誦是&CB00057;&CB00057;曰。</p>
 <lb ed="X" n="0093b03"/><p id="pX59p0093b0301" type="dharani">唵<note place="inline">一</note>底瑟侘<note place="inline">二</note>&CB02494;折羅<note place="inline">三</note>&CB00425;陀摩</p>
 <lb ed="X" n="0093b04"/><p id="pX59p0093b0401">誦此&CB00057;用觀於&CB12414;於其花上有一金剛以是相故名
@@ -375,7 +380,7 @@ no message
 <lb ed="X" n="0093b07"/>敷光明三昧之時復誦是&CB00057;&CB00057;曰。</p>
 <lb ed="X" n="0093b08"/><p id="pX59p0093b0801" type="dharani">唵<note place="inline">一</note>悉頗囉<note place="inline">二</note>&CB02494;折羅<note place="inline">三</note>&CB00425;陀摩</p>
 <lb ed="X" n="0093b09"/><p id="pX59p0093b0901">誦是&CB00057;觀是開花花之光明照於無量恒河沙數諸
-<lb ed="X" n="0093b10"/>佛妙剎於是光中演暢多利菩薩清朗<anchor id="fnX59p0093b03"/>青聲諮屈如
+<lb ed="X" n="0093b10"/>佛妙剎於是光中演暢多利菩薩清朗<note n="0093003" resp="Xuzangjing" place="foot text" type="orig">青疑音</note>青聲諮屈如
 <lb ed="X" n="0093b11"/>是方土如來入是花中是諸如來入斯花<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>即復徐
 <lb ed="X" n="0093b12"/>徐縮斯妙花如舊無異隨力能觀是身大小而使住
 <lb ed="X" n="0093b13"/>之作是<app><lem wit="【CBETA】" resp="CBETA.maha">斂</lem><rdg wit="【卍續】">歛</rdg></app>花三昧之時應誦是&CB00057;&CB00057;曰。</p>
@@ -438,7 +443,7 @@ no message
 <lb ed="X" n="0094a20"/>更以多字想在於二肩重以&CB00691;字想在心上再以&CB00418;
 <lb ed="X" n="0094a21"/>字想在臍上又想唎字在於兩脾又想其莎字在二
 <lb ed="X" n="0094a22"/>脛又想訶字想於二足之上今想此十字周布於身
-<lb ed="X" n="0094a23"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>然<anchor id="fnX59p0094a01"/>復作寶車印用迎諸聖者等所以先作前本神
+<lb ed="X" n="0094a23"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>然<note n="0094001" resp="Xuzangjing" place="foot text" type="orig">復疑後</note>復作寶車印用迎諸聖者等所以先作前本神
 <lb ed="X" n="0094a24"/>身觀然後方請聖者所為一一觀諸天知其相<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>方
 <pb ed="X" id="X59.1054.0094b" n="0094b"/>
 <lb ed="X" n="0094b01"/>請慧身來就法體由是義故先觀請寶車印者當以
@@ -475,7 +480,7 @@ no message
 <lb ed="X" n="0094c07"/>摩衍<note place="inline">十一</note>吽吽<note place="inline">十二</note></p>
 <lb ed="X" n="0094c08"/><p id="pX59p0094c0801">以是印&CB00057;請蓮花中一切諸&CB00057;天等入於寶室入<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0094c09"/>方更設座令坐坐印以二手腕相著直&CB00594;十指散開
-<lb ed="X" n="0094c10"/>如似開蓮<anchor id="fnX59p0094c02"/>想即是&CB00057;曰。</p>
+<lb ed="X" n="0094c10"/>如似開蓮<note n="0094002" resp="Xuzangjing" place="foot text" type="orig">想疑相</note>想即是&CB00057;曰。</p>
 <lb ed="X" n="0094c11"/><p id="pX59p0094c1101" type="dharani">唵<note place="inline">一</note>薩婆&CB00425;囉毗瑟吒<note place="inline">二</note>菩達那耶<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0094c12"/><p id="pX59p0094c1201">以是&CB00057;印設座<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>請諸天坐<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>當即獻其香水是水
 <lb ed="X" n="0094c13"/>名曰遏迦水也水印者以二手頭指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指握大
@@ -555,7 +560,7 @@ no message
 <lb ed="X" n="0095c12"/><p id="pX59p0095c1201"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上諸印名為飲食供養印&CB00057;。</p>
 <lb ed="X" n="0095c13"/><p id="pX59p0095c1301">次說印部身供養法懺悔印　以二手如常合掌<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0095c14"/>即屈二小指背相著二頭指頭相拄即是&CB00057;曰。</p>
-<lb ed="X" n="0095c15"/><p id="pX59p0095c1501" type="dharani">怛地耶<note place="inline">二合</note>他<note place="inline">一</note>阿唎<anchor id="fnX59p0095c01"/>&CB16909;多唎<note place="inline">二</note>咄多唎<note place="inline">三</note>咄唎<note place="inline">四</note>醯
+<lb ed="X" n="0095c15"/><p id="pX59p0095c1501" type="dharani">怛地耶<note place="inline">二合</note>他<note place="inline">一</note>阿唎<note n="0095001" resp="Xuzangjing" place="foot text" type="orig">&CB16909;字疑剩</note>&CB16909;多唎<note place="inline">二</note>咄多唎<note place="inline">三</note>咄唎<note place="inline">四</note>醯
 <lb ed="X" n="0095c16"/>&CB01836;拏夜揭羅&CB16014;<note place="inline">五</note>囉叉囉叉&CB00805;<note place="inline">六</note>薩婆耨契&CB16014;耶<note place="inline">二合</note>
 <lb ed="X" n="0095c17"/><note place="inline">七</note>薩婆烏波捺囉吠&CB16014;耶<note place="inline">八</note>莎訶</p>
 <lb ed="X" n="0095c18"/><p id="pX59p0095c1801">是名根本印此印對佛前悔過者能滅無量重罪復
@@ -570,13 +575,13 @@ no message
 <lb ed="X" n="0096a02"/><p id="pX59p0096a0201">次說除一切蓋障印　以右手大指捻中指甲上左
 <lb ed="X" n="0096a03"/>亦然即以右手合於左手上&CB00057;曰。</p>
 <lb ed="X" n="0096a04"/><p id="pX59p0096a0401" type="dharani">唵<note place="inline">一</note>薩婆勃陀菩提薩埵耶<note place="inline">二</note>莎訶</p>
-<lb ed="X" n="0096a05"/><p id="pX59p0096a0501">次說召一切天龍印　以<anchor id="fnX59p0096a01"/>左手覆之<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>長申五指即
+<lb ed="X" n="0096a05"/><p id="pX59p0096a0501">次說召一切天龍印　以<note n="0096001" resp="Xuzangjing" place="foot text" type="orig">左經作右</note>左手覆之<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>長申五指即
 <lb ed="X" n="0096a06"/>以右手向下叉之為拳以左手指向前招&CB00057;曰。</p>
 <lb ed="X" n="0096a07"/><p id="pX59p0096a0701" type="dharani">唵<note place="inline">一</note>俱嚧陀<note place="inline">二</note>婆婆弟婆南<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0096a08"/><p id="pX59p0096a0801">誦此&CB00057;用召諸天龍八部。</p>
 <lb ed="X" n="0096a09"/><p id="pX59p0096a0901">次說結護一切方界辟除障印　先以二無名指左
 <lb ed="X" n="0096a10"/>押右相叉即以右中指押於左無名指上以左大指
-<lb ed="X" n="0096a11"/>押右小指頭次以左中指頭指<anchor id="fnX59p0096a02"/>及無名指握右中指
+<lb ed="X" n="0096a11"/>押右小指頭次以左中指頭指<note n="0096002" resp="Xuzangjing" place="foot text" type="orig">及等四字疑剩</note>及無名指握右中指
 <lb ed="X" n="0096a12"/>為拳以右大指押左中指等上次以右頭指頭與左
 <lb ed="X" n="0096a13"/>小指頭相拄以印右繞身揮之隨行者心遠近欲為
 <lb ed="X" n="0096a14"/>防護皆得成就&CB00057;曰。</p>
@@ -586,7 +591,7 @@ no message
 <lb ed="X" n="0096a18"/><p id="pX59p0096a1801" type="dharani">唵<note place="inline">一</note>薩婆斫&CB00034;<note place="inline">二</note>建羅羯羅耶<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0096a19"/><p id="pX59p0096a1901">結此印者五眼常得清淨。</p>
 <lb ed="X" n="0096a20"/><p id="pX59p0096a2001">次作施願印　以左手大指捻頭指頭餘三指申之
-<lb ed="X" n="0096a21"/>右手亦然左&CB00594;右垂用<anchor id="fnX59p0096a03"/>前身&CB00057;作此印時能令六道
+<lb ed="X" n="0096a21"/>右手亦然左&CB00594;右垂用<note n="0096003" resp="Xuzangjing" place="foot text" type="orig">前身&CB00057;經云本真言</note>前身&CB00057;作此印時能令六道
 <lb ed="X" n="0096a22"/>有情無諸苦惱。</p>
 <lb ed="X" n="0096a23"/><p id="pX59p0096a2301">次作召四王印　以二手中指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指右押左向
 <lb ed="X" n="0096a24"/>內相叉屈二大指於掌中以二頭指向內鉤之&CB00057;曰。</p>
@@ -595,13 +600,13 @@ no message
 <lb ed="X" n="0096b02"/><p id="pX59p0096b0201">作此印以召四王天問四天下事皆悉隨意。</p>
 <lb ed="X" n="0096b03"/><p id="pX59p0096b0301">次作禁水印　以二手十指向內相叉<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>即抽&CB00594;二
 <lb ed="X" n="0096b04"/>頭指頭相拄二小指亦然&CB00057;曰。</p>
-<lb ed="X" n="0096b05"/><p id="pX59p0096b0501" type="dharani">唵<note place="inline">一</note>薩婆弟婆烏特迦<note place="inline"><anchor id="fnX59p0096b04"/>〔上〕</note>莎訶</p>
+<lb ed="X" n="0096b05"/><p id="pX59p0096b0501" type="dharani">唵<note place="inline">一</note>薩婆弟婆烏特迦<note place="inline"><note n="0096004" resp="Xuzangjing" place="foot text" type="orig">上疑二</note>〔上〕</note>莎訶</p>
 <lb ed="X" n="0096b06"/><p id="pX59p0096b0601">作此印時能令水天降伏。</p>
 <lb ed="X" n="0096b07"/><p id="pX59p0096b0701">次作禁火印　於水印上唯改頭指小指頭相離少
 <lb ed="X" n="0096b08"/>許&CB00057;曰。</p>
 <lb ed="X" n="0096b09"/><p id="pX59p0096b0901" type="dharani">唵<note place="inline">一</note>阿祇那曳<note place="inline">二</note>薩婆弟婆多<note place="inline">三</note>阿祇那曳<note place="inline">四</note>莎訶</p>
 <lb ed="X" n="0096b10"/><p id="pX59p0096b1001">次作禁風難印　先以右手中指無名指叉入左手
-<lb ed="X" n="0096b11"/>無名指背上<anchor id="fnX59p0096b05"/>二頭指小指隨入押左手無名及中指
+<lb ed="X" n="0096b11"/>無名指背上<note n="0096005" resp="Xuzangjing" place="foot text" type="orig">二疑右</note>二頭指小指隨入押左手無名及中指
 <lb ed="X" n="0096b12"/>心上左手頭指及小指押右手中指無名指背上出
 <lb ed="X" n="0096b13"/>二大母指相去直&CB00594;反掌向外作此風印持一切風
 <lb ed="X" n="0096b14"/>難皆不為害風雨神王皆歸伏隨風印&CB00057;曰。</p>
@@ -611,10 +616,10 @@ no message
 <lb ed="X" n="0096b18"/>指下文&CB00057;曰。</p>
 <lb ed="X" n="0096b19"/><p id="pX59p0096b1901" type="dharani">唵<note place="inline">一</note>薩婆波囉提<note place="inline">二</note>牟訖叉褐哩陀那夜<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0096b20"/><p id="pX59p0096b2001">結此印時能令無盡有情皆得淨戒身。</p>
-<lb ed="X" n="0096b21"/><p id="pX59p0096b2101">次作禁賊印　以<anchor id="fnX59p0096b06"/>二手頭指中指無名指及小指<anchor id="fnX59p0096b07"/>友
+<lb ed="X" n="0096b21"/><p id="pX59p0096b2101">次作禁賊印　以<note n="0096006" resp="Xuzangjing" place="foot text" type="orig">二經作右</note>二手頭指中指無名指及小指<note n="0096007" resp="Xuzangjing" place="foot text" type="orig">友疑反</note>友
 <lb ed="X" n="0096b22"/>鉤左手四指二大指各散直&CB00594;作此印時一切賊難
 <lb ed="X" n="0096b23"/>皆悉被縛不能為害&CB00057;曰。</p>
-<lb ed="X" n="0096b24"/><p id="pX59p0096b2401" type="dharani">唵<note place="inline">一</note>薩婆<anchor id="fnX59p0096b08"/>突瑟吒<note place="inline">二</note>&CB00425;囉突瑟吒<anchor id="fnX59p0096b09"/>喃<note place="inline">三</note>瞋陀耶<note place="inline">四</note>莎
+<lb ed="X" n="0096b24"/><p id="pX59p0096b2401" type="dharani">唵<note place="inline">一</note>薩婆<note n="0096008" resp="Xuzangjing" place="foot text" type="orig">突經作圖次同</note>突瑟吒<note place="inline">二</note>&CB00425;囉突瑟吒<note n="0096009" resp="Xuzangjing" place="foot text" type="orig">喃作那</note>喃<note place="inline">三</note>瞋陀耶<note place="inline">四</note>莎
 <pb ed="X" id="X59.1054.0096c" n="0096c"/>
 <lb ed="X" n="0096c01"/>訶</p>
 <lb ed="X" n="0096c02"/><p id="pX59p0096c0201">聰明印　以兩手大母指各捻二無名指甲上二小
@@ -644,11 +649,11 @@ no message
 <lb ed="X" n="0097a01"/>大指當眉間向下垂作此印時起菩薩心觀一切蒼
 <lb ed="X" n="0097a02"/>生猶如赤子一切眾生皆具足六波羅蜜所願滿足
 <lb ed="X" n="0097a03"/>恒沙世界諸佛悉皆歡喜&CB00057;曰。</p>
-<lb ed="X" n="0097a04"/><p id="pX59p0097a0401" type="dharani">怛姪他<note place="inline">一</note>薩婆菩陀耶<note place="inline">二</note>薩婆<anchor id="fnX59p0097a01"/>&CB00425;唎欀<note place="inline">三</note>波羅蜜多
+<lb ed="X" n="0097a04"/><p id="pX59p0097a0401" type="dharani">怛姪他<note place="inline">一</note>薩婆菩陀耶<note place="inline">二</note>薩婆<note n="0097001" resp="Xuzangjing" place="foot text" type="orig">&CB00425;唎一作跛囉</note>&CB00425;唎欀<note place="inline">三</note>波羅蜜多
 <lb ed="X" n="0097a05"/>曳<note place="inline">四</note>唵<note place="inline">五</note>訶婆訶娑<note place="inline">六</note>莎訶<note place="inline">七</note>怛姪他<note place="inline">八</note>弭哩多哩
 <lb ed="X" n="0097a06"/><note place="inline">九</note>莎訶</p>
 <lb ed="X" n="0097a07"/><p id="pX59p0097a0701">神足印　先以右手中指無名指屈在掌中以大指
-<lb ed="X" n="0097a08"/>押無名指中指甲<anchor id="fnX59p0097a02"/>上誦根本&CB00057;以摩兩足日馳千里
+<lb ed="X" n="0097a08"/>押無名指中指甲<note n="0097002" resp="Xuzangjing" place="foot text" type="orig">上下經有頭指小指直伸六字</note>上誦根本&CB00057;以摩兩足日馳千里
 <lb ed="X" n="0097a09"/>作此印時地神捧七寶花臺承行者足凡夫肉眼不
 <lb ed="X" n="0097a10"/>見但生慈悲救護之心不為名聞利養必得萬神扶
 <lb ed="X" n="0097a11"/>助。</p>
@@ -658,9 +663,9 @@ no message
 <lb ed="X" n="0097a15"/>以左手四指來去&CB00057;曰。</p>
 <lb ed="X" n="0097a16"/><p id="pX59p0097a1601" type="dharani">唵<note place="inline">一</note>俱嚧陀<note place="inline">二</note>薩婆提婆多<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0097a17"/><p id="pX59p0097a1701">隱形入六道印　以右手大指押無名指中指甲上
-<lb ed="X" n="0097a18"/>頭指及小指直&CB00594;左手亦然以<anchor id="fnX59p0097a03"/>大指從<anchor id="fnX59p0097a04"/>下向上入於
-<lb ed="X" n="0097a19"/><anchor id="fnX59p0097a05"/>右掌中鉤取左手中指無名指右指押左指&CB00057;曰。</p>
-<lb ed="X" n="0097a20"/><p id="pX59p0097a2001" type="dharani">唵<note place="inline">一</note>俱&CB17038;耶底<note place="inline">二</note>薩婆迦&CB00074;耶<anchor id="fnX59p0097a06"/>你<note place="inline">三</note>莎訶</p>
+<lb ed="X" n="0097a18"/>頭指及小指直&CB00594;左手亦然以<note n="0097003" resp="Xuzangjing" place="foot text" type="orig">大上經有右字</note>大指從<note n="0097004" resp="Xuzangjing" place="foot text" type="orig">下上有左手二字</note>下向上入於
+<lb ed="X" n="0097a19"/><note n="0097005" resp="Xuzangjing" place="foot text" type="orig">右經作左</note>右掌中鉤取左手中指無名指右指押左指&CB00057;曰。</p>
+<lb ed="X" n="0097a20"/><p id="pX59p0097a2001" type="dharani">唵<note place="inline">一</note>俱&CB17038;耶底<note place="inline">二</note>薩婆迦&CB00074;耶<note n="0097006" resp="Xuzangjing" place="foot text" type="orig">經無你字</note>你<note place="inline">三</note>莎訶</p>
 <lb ed="X" n="0097a21"/><p id="pX59p0097a2101">作此法印時隱形遊行自在一切興心悉皆如願
 <lb ed="X" n="0097a22"/>多利菩薩身印　以中指<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下三指內相叉&CB00594;二頭
 <lb ed="X" n="0097a23"/>指相著並&CB00594;二大指&CB00057;曰。</p>
@@ -673,7 +678,7 @@ no message
 <lb ed="X" n="0097b05"/>安心念誦念誦之時當誦是&CB00057;。</p>
 <lb ed="X" n="0097b06"/><p id="pX59p0097b0601" type="dharani">唵<note place="inline">一</note>多唎<note place="inline">二</note>咄多唎<note place="inline">五</note>咄唎<note place="inline">四</note>莎訶</p>
 <lb ed="X" n="0097b07"/><p id="pX59p0097b0701">若誦此&CB00057;或誦前根本&CB00057;並得觀此&CB00057;字一一從本
-<lb ed="X" n="0097b08"/>神口出放七寶光入行者口<anchor id="fnX59p0097b07"/>銜行者心中月上周旋
+<lb ed="X" n="0097b08"/>神口出放七寶光入行者口<note n="0097007" resp="Xuzangjing" place="foot text" type="orig">銜疑到</note>銜行者心中月上周旋
 <lb ed="X" n="0097b09"/>行列觀<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>即用蓮花子珠念誦捻珠之時應以大指
 <lb ed="X" n="0097b10"/>及無名指相捻之。</p>
 <lb ed="X" n="0097b11"/><p id="pX59p0097b1101">念誦初摯珠誦小心&CB00057;三遍&CB00057;曰。</p>
