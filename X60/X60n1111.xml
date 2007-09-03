@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X60n1111.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2005/06/28 02:10:04 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2007/09/03 04:02:30 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/06/28 02:10:04 $</date>
+		<date>$Date: 2007/09/03 04:02:30 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 60, No. 1111 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X60n1111.xml,v $
+Revision 1.2  2007/09/03 04:02:30  amtbgrace
+modified: 校注插入 XML 作業
+
 Revision 1.1  2005/06/28 02:10:04  ray
 使用 basicx 程式 將 簡單標記版 轉成 XML
 
@@ -72,7 +77,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0069a10"/>小觀故引唯識妙觀而融導之為弘律本未審吾祖
 <lb ed="X" n="0069a11"/>為弘律耶為弘觀耶若謂弘律律何無本若謂弘觀
 <lb ed="X" n="0069a12"/>何云弘律我謂雙弘在人據行無可既言弘律正是
-<lb ed="X" n="0069a13"/>約教教有司在何庸借本料彼為心欲<anchor id="fnX60p0069a01"/>題吾宗非事
+<lb ed="X" n="0069a13"/>約教教有司在何庸借本料彼為心欲<note n="0069001" resp="Xuzangjing" place="foot text" type="orig">題疑顯下同</note>題吾宗非事
 <lb ed="X" n="0069a14"/>相之學謂能深究超拔古賢豈知翻為不識心境且
 <lb ed="X" n="0069a15"/>文中所論衣食四儀諸戒對治用心之處日用時須
 <lb ed="X" n="0069a16"/>曲盡規猷正明戒行彼謂妙觀乃是迷名若其然者
@@ -107,7 +112,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0069b20"/>源公云教即律藏律由戒生故律為戒本<note place="inline">文</note>三種理
 <lb ed="X" n="0069b21"/>觀隨律之經祖教觀宜用之有處戒觀兩門須分心
 <lb ed="X" n="0069b22"/>境戒以防禁為心罪惡為境觀以契會為心寂理為
-<lb ed="X" n="0069b23"/>境雖有觀事生滅之句此是事境如<anchor id="fnX60p0069b02"/>智論因緣所生
+<lb ed="X" n="0069b23"/>境雖有觀事生滅之句此是事境如<note n="0069002" resp="Xuzangjing" place="foot text" type="orig">＊明疑中（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>智論因緣所生
 <lb ed="X" n="0069b24"/>法也非謂諦境若約兩重能所對於諦觀乃屬所破
 <pb ed="X" id="X60.1111.0069c" n="0069c"/>
 <lb ed="X" n="0069c01"/>諦觀相冥如器諸淳朴方名妙觀又復須知修觀之
@@ -116,16 +121,16 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0069c04"/>便是十六觀門雖本一經亦非交在觀觀之後皆結
 <lb ed="X" n="0069c05"/>邪正天台大師約四三昧判攝一代經教所詮明從
 <lb ed="X" n="0069c06"/>行觀三大部中止觀屬行其餘二部皆是開解雖亦
-<lb ed="X" n="0069c07"/>用觀乃託事所<anchor id="fnX60p0069c03"/>法也及止觀中前之六章猶屬妙解
+<lb ed="X" n="0069c07"/>用觀乃託事所<note n="0069003" resp="Xuzangjing" place="foot text" type="orig">法一作附</note>法也及止觀中前之六章猶屬妙解
 <lb ed="X" n="0069c08"/>於正明境的指事中一念為所觀境專以三千而作
 <lb ed="X" n="0069c09"/>指南依經建立方便正修立定日限破妄顯真猶慮
 <lb ed="X" n="0069c10"/>境觀鑽研所發疑誤須明十境以別邪正修觀大約
 <lb ed="X" n="0069c11"/>鄭重如此又復三藏分宗經證定學專明三昧律詮
-<lb ed="X" n="0069c12"/>戒學唯論持犯論詮慧學開二智明不無交<anchor id="fnX60p0069c04"/>在皆<anchor id="fnX60p0069c05"/>明
+<lb ed="X" n="0069c12"/>戒學唯論持犯論詮慧學開二智明不無交<note n="0069004" resp="Xuzangjing" place="foot text" type="orig">在一作至</note>在皆<note n="0069005" resp="Xuzangjing" place="foot text" type="orig">明作各</note>明
 <lb ed="X" n="0069c13"/>隨說戒學到家究竟三聚定學到家究竟唯識<note place="inline">且約今宗</note>
 <lb ed="X" n="0069c14"/>皆能至果同成佛慧戒無慧解但是利便觀無慧解
 <lb ed="X" n="0069c15"/>乃屬事禪戒是能防業是所防觀是能修定屬所修
-<lb ed="X" n="0069c16"/><anchor id="fnX60p0069c06"/>由智度故若成業若觀若禪無有一法不至果位今
+<lb ed="X" n="0069c16"/><note n="0069006" resp="Xuzangjing" place="foot text" type="orig">由下一有猶字</note>由智度故若成業若觀若禪無有一法不至果位今
 <lb ed="X" n="0069c17"/>部文中戒明解慧及示理境成就圓宗受隨妙戒是
 <lb ed="X" n="0069c18"/>以疏鈔戒約聖位淺深戒約根性利鈍三乘三學相
 <lb ed="X" n="0069c19"/>決總屬開解為出家本務期成聖道出家之言須約
@@ -248,7 +253,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0071b11"/>涅槃純圓獨妙大小圓融故引二經為今圓宗用大
 <lb ed="X" n="0071b12"/>受小而為所據豈癈彼邪正不出只一乘妙戒濟緣
 <lb ed="X" n="0071b13"/>乃云是知如來唯有一乘圓極妙戒華嚴直興鹿苑
-<lb ed="X" n="0071b14"/>曲<anchor id="fnX60p0071b01"/>亦三世十方莫不爾若據法華開顯正是開顯正
+<lb ed="X" n="0071b14"/>曲<note n="0071001" resp="Xuzangjing" place="foot text" type="orig">亦疑示</note>亦三世十方莫不爾若據法華開顯正是開顯正
 <lb ed="X" n="0071b15"/>是開此漸機諸大聲聞從鹿苑來非漸而何但由法
 <lb ed="X" n="0071b16"/>華以前未曾顯說聲聞作佛有乖圓宗點小即大之
 <lb ed="X" n="0071b17"/>義故揀善戒非今所據豈是特癈台宗自謂法華非
@@ -312,7 +317,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <pb ed="X" id="X60.1111.0072b" n="0072b"/>
 <lb ed="X" n="0072b01"/>蓬謂白四納大既<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>納大如何論即疏曰意在後也
 <lb ed="X" n="0072b02"/>若非後受望誰為前是則無聚可成無身可對若謂
-<lb ed="X" n="0072b03"/>望果又且無<anchor id="fnX60p0072b01"/>因或云點小即大復自無小可點無小
+<lb ed="X" n="0072b03"/>望果又且無<note n="0072001" resp="Xuzangjing" place="foot text" type="orig">插入因字</note>因或云點小即大復自無小可點無小
 <lb ed="X" n="0072b04"/>無大如何論即然如此即正是鼠即但開即名不識
 <lb ed="X" n="0072b05"/>即義常思此行乃是小行此即有小即是三聚乃是
 <lb ed="X" n="0072b06"/>大行此即有大在小思大妙行圓融與大相應然後
@@ -326,10 +331,10 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0072b14"/>竟本叉是知行人若發此心若獲此體即是三佛之
 <lb ed="X" n="0072b15"/>種如上記文若因若果自行化他皆是願體具上諸
 <lb ed="X" n="0072b16"/>法如地具桃李雖未出土枝葉婆娑<note place="inline">仍分修性</note>善種子者
-<lb ed="X" n="0072b17"/>即是此義<anchor id="fnX60p0072b02"/>期乃直顯心業圓具之相如何將為<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成
+<lb ed="X" n="0072b17"/>即是此義<note n="0072002" resp="Xuzangjing" place="foot text" type="orig">期疑斯</note>期乃直顯心業圓具之相如何將為<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成
 <lb ed="X" n="0072b18"/>三聚若便即是究竟三聚亦須即是究竟三佛無量
 <lb ed="X" n="0072b19"/>法門皆悉現前是則天然彌勒自然釋迦何故祖師
-<lb ed="X" n="0072b20"/>下文修<anchor id="fnX60p0072b03"/>題名法身佛豈以所發戒體為<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成因果是
+<lb ed="X" n="0072b20"/>下文修<note n="0072003" resp="Xuzangjing" place="foot text" type="orig">題疑顯下同</note>題名法身佛豈以所發戒體為<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成因果是
 <lb ed="X" n="0072b21"/>以疏家恐忘此體約具明即囑令常思記主云此行
 <lb ed="X" n="0072b22"/>即白四所發聲聞戒也由契圓理立誓稟受故此願
 <lb ed="X" n="0072b23"/>體能具諸法前發戒緣中云此之戒法出家本務素
@@ -344,7 +349,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0072c07"/>用緣無作業體從何而發若用緣者祖師疏中何言
 <lb ed="X" n="0072c08"/>為向若在此時正為納大祖師何云意在後也今論
 <lb ed="X" n="0072c09"/>受戒所立之誓不獨斷惡所發之戒不但律儀所行
-<lb ed="X" n="0072c10"/>之行不專<anchor id="fnX60p0072c04"/>為也所成之果不住無學成此圓機故堪
+<lb ed="X" n="0072c10"/>之行不專<note n="0072004" resp="Xuzangjing" place="foot text" type="orig">為一作已</note>為也所成之果不住無學成此圓機故堪
 <lb ed="X" n="0072c11"/>受大鈔云為成三聚其意在此豈不須受即便是耶
 <lb ed="X" n="0072c12"/>如昔光師全以四分為大乘故資持破云四分是大
 <lb ed="X" n="0072c13"/>將何為小即應梵網體行全同菩薩聲聞二戒無別
@@ -397,7 +402,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0073b10"/>引便為人他依經立法受具足戒妄云起慈納大有
 <lb ed="X" n="0073b11"/>所承據起慈納小何為納大正緣起慈納小為後納
 <lb ed="X" n="0073b12"/>大先容是故疏記妄曲釋顯全不曾者若經中無一
-<lb ed="X" n="0073b13"/>本字亦可如蓬穿鑿<anchor id="fnX60p0073b01"/>穿若七眾戒即菩薩戒何用立
+<lb ed="X" n="0073b13"/>本字亦可如蓬穿鑿<note n="0073001" resp="Xuzangjing" place="foot text" type="orig">穿字疑剩</note>穿若七眾戒即菩薩戒何用立
 <lb ed="X" n="0073b14"/>本只消便云菩薩戒七眾所受者是今欲但受七眾
 <lb ed="X" n="0073b15"/>戒不受菩薩戒者但有受能之本而無所受之法。</p>
 <lb ed="X" n="0073b16"/><p id="pX60p0073b1601">蓬云七眾既許受菩薩戒比丘受具納大具納大何
@@ -445,7 +450,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0074a08"/>引祖文大小兩乘理無分隔鹿苑雙林大小至益不
 <lb ed="X" n="0074a09"/>審蓬意知是何教唱小教大顯大成小豈於大小規
 <lb ed="X" n="0074a10"/>矩之外別有教耶緣不識此是大機合從小入小機
-<lb ed="X" n="0074a11"/>合從大入此乃果佛三密<anchor id="fnX60p0074a01"/>起機台宗據此立不定秘
+<lb ed="X" n="0074a11"/>合從大入此乃果佛三密<note n="0074001" resp="Xuzangjing" place="foot text" type="orig">起疑赴</note>起機台宗據此立不定秘
 <lb ed="X" n="0074a12"/>密兩教唯佛能說如何將此說法悟道證今約緣發
 <lb ed="X" n="0074a13"/>戒此文可破蓬之妄執定須修觀方能破惑顯理余
 <lb ed="X" n="0074a14"/>所謂圓教章中決前受者自謂前既約圓納體故後
@@ -496,7 +501,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0074c09"/>三聚前修乃由漸之行汝於大乘不知等分一味輕
 <lb ed="X" n="0074c10"/>&CB00418;諸祖大小雙弘如來權實二智無非化導令從小
 <lb ed="X" n="0074c11"/>進大全於此義未曾經懷又云受緣大乘且據分通
-<lb ed="X" n="0074c12"/>後立圓宗乃論圓受者是以<anchor id="fnX60p0074c02"/>書中所謂初約圓受受
+<lb ed="X" n="0074c12"/>後立圓宗乃論圓受者是以<note n="0074002" resp="Xuzangjing" place="foot text" type="orig">書等一作說話穿鑿祖乘</note>書中所謂初約圓受受
 <lb ed="X" n="0074c13"/>後圓者正難此妄&CB00230;云我醉立緣何為若便興後圓
 <lb ed="X" n="0074c14"/>宗不同受在何時蓬見疏中立圓宗處在後明體章
 <lb ed="X" n="0074c15"/>中前所立緣為受戒否若用受戒又且未圓若不用
@@ -557,7 +562,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0075b20"/>說他短經處推祖教祖師自謂我今發心受戒為成
 <lb ed="X" n="0075b21"/>三聚戒故何曾不受推與他家若云即此便是成今
 <lb ed="X" n="0075b22"/>納大資持何云遠期大乘三學遠期之言豈即此耶
-<lb ed="X" n="0075b23"/>蓬若不肯受大豈得<anchor id="fnX60p0075b01"/>因蓬不受三聚絕滅他家盛行
+<lb ed="X" n="0075b23"/>蓬若不肯受大豈得<note n="0075001" resp="Xuzangjing" place="foot text" type="orig">因一作固</note>因蓬不受三聚絕滅他家盛行
 <lb ed="X" n="0075b24"/>豈非推與彼。</p>
 <pb ed="X" id="X60.1111.0075c" n="0075c"/>
 <lb ed="X" n="0075c01"/><p id="pX60p0075c0101">蓬破余曰必謂不秉三聚羯磨為推與他淺局之見
@@ -577,7 +582,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0075c15"/><p id="pX60p0075c1501">蓬引書云立圓既極大小雙弘乃至可令人笑此一
 <lb ed="X" n="0075c16"/>段文半是迷半是欺圓法華開權顯實涅槃扶律談
 <lb ed="X" n="0075c17"/>常終窮至極純圓獨妙吾祖依此建立圓宗是圓極
-<lb ed="X" n="0075c18"/>否用此圓乘是弘大否專權戒律非<anchor id="fnX60p0075c02"/>弘小耶善戒七
+<lb ed="X" n="0075c18"/>否用此圓乘是弘大否專權戒律非<note n="0075002" resp="Xuzangjing" place="foot text" type="orig">弘一作專</note>弘小耶善戒七
 <lb ed="X" n="0075c19"/>眾所受為菩薩本事鈔我今受戒為成三聚此等雙
 <lb ed="X" n="0075c20"/>弘何為隔歷經云但念空無相無作於菩薩法心不
 <lb ed="X" n="0075c21"/>喜樂初圓佛法遇便信受思惟取證是辨得小十方
@@ -747,7 +752,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0078a10"/>為是吾祖所弘為非吾祖所弘若謂吾祖所弘吾祖
 <lb ed="X" n="0078a11"/>弘律自以妙觀為本若不用觀行屬有為戒成凡福
 <lb ed="X" n="0078a12"/>正屬諸文上業之戒豈是返妄圓宗一乘若也非是
-<lb ed="X" n="0078a13"/>吾祖所<anchor id="fnX60p0078a01"/>於今此圓宗是誰建立令誰弘闡若云即此
+<lb ed="X" n="0078a13"/>吾祖所<note n="0078001" resp="Xuzangjing" place="foot text" type="orig">於字更勘</note>於今此圓宗是誰建立令誰弘闡若云即此
 <lb ed="X" n="0078a14"/>便是律本妙觀文中自云於本藏識成善種子此戒
 <lb ed="X" n="0078a15"/>體也何曾言觀或謂當體即是觀者既言當體也能
 <lb ed="X" n="0078a16"/>具澄凝照用之德何推妙觀若言唯在業疏明體章
@@ -780,7 +785,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0078b18"/>重輕只忘由智親&CB00520;故便或落前後今圓宗戒會同
 <lb ed="X" n="0078b19"/>律儀為稟大先容故纓絡經云律儀禁惡結業煩惱
 <lb ed="X" n="0078b20"/>究竟斷故況復三聚任運互具成佛有餘稱美之謂
-<lb ed="X" n="0078b21"/>蓬之局執凡見祖文稍涉理慧便作觀解封彼信<anchor id="fnX60p0078b02"/>讟
+<lb ed="X" n="0078b21"/>蓬之局執凡見祖文稍涉理慧便作觀解封彼信<note n="0078002" resp="Xuzangjing" place="foot text" type="orig">讟或讀</note>讟
 <lb ed="X" n="0078b22"/>正是折蓬且淨心戒觀序云諸部則以教開斯文乃
 <lb ed="X" n="0078b23"/>以觀示終若蓬偏見必言諸部是開解斯文只是示
 <lb ed="X" n="0078b24"/>修佛祖教門當求大意片言隻字豈宜妄執觀之不
@@ -821,7 +826,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0079a09"/>則悲嗟只此斥文連改三字一書之內改轍甚多境
 <lb ed="X" n="0079a10"/>乘改作境觀理境改作理觀疏記改作餘記然大丈
 <lb ed="X" n="0079a11"/>夫凡有破斥須論實事豈應改他字義且欲成我笑
-<lb ed="X" n="0079a12"/>端若便知而故改即是小兒知見不知誤寫<anchor id="fnX60p0079a01"/>無有長
+<lb ed="X" n="0079a12"/>端若便知而故改即是小兒知見不知誤寫<note n="0079001" resp="Xuzangjing" place="foot text" type="orig">無箴作元</note>無有長
 <lb ed="X" n="0079a13"/>書在蓬<app><lem wit="【CBETA】" resp="CBETA.maha">几</lem><rdg wit="【卍續】">儿</rdg></app>案既將開版何不細看以義定之如此草
 <lb ed="X" n="0079a14"/>卒知蓬所問亦可見也余云今家所立三觀齊用祖
 <lb ed="X" n="0079a15"/>文自云任智疆弱隨事淺深非齊用耶佛祖設化理
@@ -829,7 +834,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0079a17"/>種意語蓬但學言不知正是佛祖所用若據吾祖深
 <lb ed="X" n="0079a18"/>鑒當機正在隨他意語故淨心戒觀云於汝見行諸
 <lb ed="X" n="0079a19"/>部過患教修對治四十二地空宗真理唯可知聞影
-<lb ed="X" n="0079a20"/>像麤相力所未及今唯便汝淨除業障客塵<anchor id="fnX60p0079a02"/>曀等推
+<lb ed="X" n="0079a20"/>像麤相力所未及今唯便汝淨除業障客塵<note n="0079002" resp="Xuzangjing" place="foot text" type="orig">曀箴作脛</note>曀等推
 <lb ed="X" n="0079a21"/>此文意急於戒學專權律範聖意可知余云三諦三
 <lb ed="X" n="0079a22"/>觀非祖所立豈妄將傅持鐵翁意言妄自差排諸祖
 <lb ed="X" n="0079a23"/>立觀各有所宗豈將一字半句便為今所準承凡蓬
@@ -840,7 +845,7 @@ Revision 1.1  2005/06/28 02:10:04  ray
 <lb ed="X" n="0079b03"/>依名而答豈是傍若無人蓬將修觀能所始終返難
 <lb ed="X" n="0079b04"/>問者真傍若無人也余所書中列蓬所立蓬謂理為
 <lb ed="X" n="0079b05"/>戒體乃出祖文蓋為不識法界有事理故謂余戒觀
-<lb ed="X" n="0079b06"/>各有四意戒中四意是蓬謗言<anchor id="fnX60p0079b03"/>或為迷文觀中四意
+<lb ed="X" n="0079b06"/>各有四意戒中四意是蓬謗言<note n="0079003" resp="Xuzangjing" place="foot text" type="orig">或箴作惑</note>或為迷文觀中四意
 <lb ed="X" n="0079b07"/>其理當然請諸學者子細辨明須知祖乘有旨趣有
 <lb ed="X" n="0079b08"/>關節所謂旨趣者能詮只是聲聞律儀所詮無非比
 <lb ed="X" n="0079b09"/>丘戒行敷之則包含一佛大化&CB01495;之則唯歸四分假
