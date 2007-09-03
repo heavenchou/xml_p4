@@ -3,6 +3,7 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X62n1193.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX62051301 SYSTEM "figures/X62051301.gif" NDATA GIF>
 <!ENTITY FigX62051401 SYSTEM "figures/X62051401.gif" NDATA GIF>
 <!ENTITY FigX62051501 SYSTEM "figures/X62051501.gif" NDATA GIF>
@@ -12,6 +13,7 @@
 <!ENTITY FigX62052301 SYSTEM "figures/X62052301.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -25,7 +27,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2005/11/30 06:34:37 $</date></edition>
+		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2007/09/03 09:35:47 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -38,7 +40,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:37 $</date>
+		<date>$Date: 2007/09/03 09:35:47 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 62, No. 1193 &desc;</bibl>
@@ -58,6 +60,9 @@
 	</change>
 <!--
 $Log: X62n1193.xml,v $
+Revision 1.7  2007/09/03 09:35:47  eva
+modified: 校注作業完成
+
 Revision 1.6  2005/11/30 06:34:37  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -107,7 +112,7 @@ Revision 1.1  2005/07/04 01:43:13  ray
 <lb ed="X" n="0511c23"/>
 <lb ed="X" n="0511c24"/>
 <pb ed="X" id="X62.1193.0512a" n="0512a"/>
-<lb ed="X" n="0512a01"/><div1 type="other"><mulu type="其他" level="1" label="蓮＆CB15131；消息目次"/><head><anchor id="fnX62p0512a01"/>蓮&CB15131;消息目次</head>
+<lb ed="X" n="0512a01"/><div1 type="other"><mulu type="其他" level="1" label="蓮＆CB15131；消息目次"/><head><note n="0512001" resp="Xuzangjing" place="foot text" type="orig">目錄新作</note>蓮&CB15131;消息目次</head>
 <lb ed="X" n="0512a02"/><list><item id="itemX62p0512a0201">性相光明品第一</item><item id="itemX62p0512a0208">背覺合塵品第二</item>
 <lb ed="X" n="0512a03"/><item id="itemX62p0512a0301">消息輪回品第三</item><item id="itemX62p0512a0308">淨土因緣品第四</item>
 <lb ed="X" n="0512a04"/><item id="itemX62p0512a0401">精進無虧品第五</item><item id="itemX62p0512a0408">定慧相隨品第六</item>
@@ -120,7 +125,7 @@ Revision 1.1  2005/07/04 01:43:13  ray
 <lb ed="X" n="0512a11"/>
 <lb ed="X" n="0512a12"/>
 <lb ed="X" n="0512a13"/><head type="no">No. 1193</head>
-<lb ed="X" n="0512a14"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX62p0512a02"/>蓮邦消息</jhead></juan>
+<lb ed="X" n="0512a14"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0512002" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>蓮邦消息</jhead></juan>
 <lb ed="X" n="0512a15"/>
 <lb ed="X" n="0512a16"/><div1 type="other"><mulu type="其他" level="1" label="性相光明品第一"/><head>性相光明品第一</head>
 <lb ed="X" n="0512a17"/><div2 type="other"><mulu type="其他" level="2" label="前文"/><p id="pX62p0512a1701">諸仁者。夙昔有緣。同來聽法。將宣妙義。先淨其心。身
