@@ -3,6 +3,7 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X63n1250.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX63062301 SYSTEM "figures/X63062301.gif" NDATA GIF>
 <!ENTITY FigX63062801 SYSTEM "figures/X63062801.gif" NDATA GIF>
 <!ENTITY FigX63062901 SYSTEM "figures/X63062901.gif" NDATA GIF>
@@ -12,6 +13,7 @@
 <!ENTITY FigX63064401 SYSTEM "figures/X63064401.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -25,7 +27,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2007/08/21 03:50:39 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2007/09/04 09:31:49 $</date></edition>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -38,7 +40,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/08/21 03:50:39 $</date>
+		<date>$Date: 2007/09/04 09:31:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 63, No. 1250 &desc;</bibl>
@@ -58,6 +60,9 @@
 	</change>
 <!--
 $Log: X63n1250.xml,v $
+Revision 1.13  2007/09/04 09:31:49  eva
+modified: 校注作業完成
+
 Revision 1.12  2007/08/21 03:50:39  amtbgrace
 modified: [卍續校注] X56-78 檢查結果的經文修訂
 
@@ -103,7 +108,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0620a02"/><div1 type="xu"><mulu type="序" level="1" label="No. 1250-A"/><head>No. 1250-A</head>
 <lb ed="X" n="0620a03"/>
-<lb ed="X" n="0620a04"/><p id="pX63p0620a0401"><anchor id="fnX63p0620a01"/>外。放形骸。黜邊幅。守禮者。莫能與之辨。而其從心不
+<lb ed="X" n="0620a04"/><p id="pX63p0620a0401"><note n="0620001" resp="Xuzangjing" place="foot text" type="orig">佚失首葉惜哉</note>外。放形骸。黜邊幅。守禮者。莫能與之辨。而其從心不
 <lb ed="X" n="0620a05"/>踰矩。卒有合於自然。是則繕性之效。略外以理內。於
 <lb ed="X" n="0620a06"/>斯見之矣。淫慾嗔恚。皆謂之道。大雄氏託言為喻。將
 <lb ed="X" n="0620a07"/>以語夫上知。愚者不察。悉得以自恣。職教者憂之。於
@@ -112,7 +117,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0620a10"/>其未備。詢于耆舊。證于編簡。作備用十卷。以拯其極
 <lb ed="X" n="0620a11"/>壞。其勤苦之志。於是書足以見之。余&CB00573;聞。咸師縛律
 <lb ed="X" n="0620a12"/>以為禪。守其師說。不肯以從于人。清嚴峻整。講。道不
-<lb ed="X" n="0620a13"/>輟。頑薄<anchor id="fnX63p0620a02"/>敬避。其死也尤奇偉。余愍夫吾儒之教。淪弊
+<lb ed="X" n="0620a13"/>輟。頑薄<note n="0620002" resp="Xuzangjing" place="foot text" type="orig">敬字原本不明</note>敬避。其死也尤奇偉。余愍夫吾儒之教。淪弊
 <lb ed="X" n="0620a14"/>若是。使有若咸師一正之。斯得矣。序其書。所以識吾
 <lb ed="X" n="0620a15"/>徒之未能也。</p>
 <lb ed="X" n="0620a16"/><p id="pX63p0620a1601" rend="margin-left:1em">泰定二年六月　　清容居士　袁桷　敘</p></div1>
@@ -151,7 +156,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0620b24"/>
 <pb ed="X" id="X63.1250.0620c" n="0620c"/>
 <lb ed="X" n="0620c01"/><head type="no">No. 1250</head>
-<lb ed="X" n="0620c02"/><div1 type="other"><mulu type="其他" level="1" label="禪林備用清規卷目"/><p id="pX63p0620c0201"><anchor id="fnX63p0620c03"/>禪林備用清規</p>
+<lb ed="X" n="0620c02"/><div1 type="other"><mulu type="其他" level="1" label="禪林備用清規卷目"/><p id="pX63p0620c0201"><note n="0620003" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>禪林備用清規</p>
 <lb ed="X" n="0620c03"/>
 <lb ed="X" n="0620c04"/><p id="pX63p0620c0401">禪林備用清規卷目于后。</p>
 <lb ed="X" n="0620c05"/><byline type="editor">廬山東林大平興龍禪寺住持比丘　&CB05531;咸編</byline>
@@ -546,7 +551,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0625c19"/>隨即舉&CB00057;。</p><p id="pX63p0625c1905" place="inline">半齋。鳴僧堂前鐘。集眾。住持展具三拜。上
 <lb ed="X" n="0625c20"/>香下食三拜。下嚫鳴&CB00655;。行特為禮。燒香下茶三拜。鳴
 <lb ed="X" n="0625c21"/>鼓三下。退座&CB01495;具。出班燒香。侍者捧合。住持舉佛事。
-<lb ed="X" n="0625c22"/>兩班出班。不借香。大眾同禮三拜。&CB02649;在<note place="inline">座下。皆曰參學<anchor id="fnX63p0625c01"/>〔諷經散忌。
+<lb ed="X" n="0625c22"/>兩班出班。不借香。大眾同禮三拜。&CB02649;在<note place="inline">座下。皆曰參學<note n="0625001" resp="Xuzangjing" place="foot text" type="orig">諷等二十九字當作大書連續下文歟</note>〔諷經散忌。
 <lb ed="X" n="0625c23"/>凡諷經時。住持只立真左。有法眷同列。齋時入堂。住持燒香一炷〕</note>大展三拜入位。侍
 <lb ed="X" n="0625c24"/>者行嚫。多見法堂諷經。俵嚫。甚非禮度。</p></div1>
 <pb ed="X" id="X63.1250.0626a" n="0626a"/>
@@ -578,7 +583,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0626b01"/>巡堂一&CB00038;。歸位。兄弟方許起身抽脫。又須看上下肩
 <lb ed="X" n="0626b02"/>位。或先起者。待回方可起身。免見單位空&CB00565;。近日兄
 <lb ed="X" n="0626b03"/>弟。置袈裟在被上。竟去閑處。打雜。相習成風。深為痛
-<lb ed="X" n="0626b04"/><anchor id="fnX63p0626b01"/>借。堂中單位空者。住持首座須當撿察。如眾頭首起
+<lb ed="X" n="0626b04"/><note n="0626001" resp="Xuzangjing" place="foot text" type="orig">借疑惜</note>借。堂中單位空者。住持首座須當撿察。如眾頭首起
 <lb ed="X" n="0626b05"/>位抽解。惟前堂首座。從住持面前出入。其餘皆從出
 <lb ed="X" n="0626b06"/>入板出入。供頭候可開供時。堂司行者覆首座云。放
 <lb ed="X" n="0626b07"/>禪。堂司行者從聖僧龕後。右出前門。&CB04950;起簾。下坐禪
@@ -825,7 +830,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0629d19"/>維那侍者。同至秉拂人前。問訊。歸位。秉拂人。往住持
 <lb ed="X" n="0629d20"/>人前問訊。次從知事班上首。問訊。巡至班末。轉同班
 <lb ed="X" n="0629d21"/>上首問訊。巡揖至班末。舉手與大眾。普同問訊。即登
-<lb ed="X" n="0629d22"/><anchor id="fnX63p0629d01"/><note place="inline">座。坐定。秉拂侍者。出班。次兩班出班。東堂西堂出班。住持出班。當起身受禮。秉拂人云。侍者請堂頭和尚</note>
+<lb ed="X" n="0629d22"/><note n="0629001" resp="Xuzangjing" place="foot text" type="orig">座等四十字應作大書</note><note place="inline">座。坐定。秉拂侍者。出班。次兩班出班。東堂西堂出班。住持出班。當起身受禮。秉拂人云。侍者請堂頭和尚</note>
 <lb ed="X" n="0629d23"/>趺坐。侍者往住持前。問訊。登座。燒香一炷。提坐具問
 <lb ed="X" n="0629d24"/>訊。側立。秉拂人。索話。問畣了。提綱。敘謝方丈合山<note place="inline">眾<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app></note>。
 <pb ed="X" id="X63.1250.0630a" n="0630a"/>
@@ -851,7 +856,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0630a20"/>眾。依圖位立。拈香出班。侍者捧合。次立班西堂。次兩
 <lb ed="X" n="0630a21"/>班拈香。不借香。大眾大展三拜。</p><p id="pX63p0630a2113" place="inline">&CB00018;期取證。非常事也。
 <lb ed="X" n="0630a22"/>今以香燭礙不拜。非法。</p><p id="pX63p0630a2210" place="inline">維那白佛宣疏。至右伏以。住
-<lb ed="X" n="0630a23"/>持跪爐。度爐。進合。禮與佛誕同。疏了。<note place="inline"><anchor id="fnX63p0630a01"/>〔楞嚴頭喝楞嚴會上佛菩薩。三
+<lb ed="X" n="0630a23"/>持跪爐。度爐。進合。禮與佛誕同。疏了。<note place="inline"><note n="0630001" resp="Xuzangjing" place="foot text" type="orig">楞等三十一字應作&CB00308;書</note>〔楞嚴頭喝楞嚴會上佛菩薩。三
 <lb ed="X" n="0630a24"/>聲。眾和了。起爾時世尊云。舉&CB00057;。諷畢。維那回向云。〕上來諷經功德。回向　真如實際。莊嚴無上佛果菩提。四恩
 <pb ed="X" id="X63.1250.0630b" n="0630b"/>
 <lb ed="X" n="0630b01"/>等報。三有齊資。云云。十方三世一切云云</note>。</p>
@@ -914,7 +919,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0631a08"/>為湯。鋪設照牌。小座湯照牌。觀音前供養。上下間香
 <lb ed="X" n="0631a09"/>燭。預煎湯。先請小座湯。特為寮主副寮行瓶盞。兄弟
 <lb ed="X" n="0631a10"/>楞嚴頭請寮長光伴。揖入座揖香揖湯。寮元親送方
-<lb ed="X" n="0631a11"/>丈湯。分送諸寮<anchor id="fnX63p0631a01"/><note place="inline">〔湯。小座湯了。鳴〕</note>寮前大板。寮長大眾入座。預
+<lb ed="X" n="0631a11"/>丈湯。分送諸寮<note n="0631001" resp="Xuzangjing" place="foot text" type="orig">湯等六字應作大書</note><note place="inline">〔湯。小座湯了。鳴〕</note>寮前大板。寮長大眾入座。預
 <lb ed="X" n="0631a12"/>請維那侍者光伴。揖入座。寮元對面寮長位分手光
 <lb ed="X" n="0631a13"/>伴。四桉大眾位。寮主副寮分桉行禮。揖坐。揖香。揖湯。
 <lb ed="X" n="0631a14"/>三巡畢。寮長進爐前。謝湯了。鳴寮前板三下。退座。兩
@@ -929,7 +934,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0631a23"/>比丘。某甲。今月十五日。恭遇本師釋迦如來大和尚。
 <lb ed="X" n="0631a24"/>結制之辰。預於今辰。營備供儀。以伸供養。集比丘眾。
 <pb ed="X" id="X63.1250.0631b" n="0631b"/>
-<lb ed="X" n="0631b01"/>諷誦大佛頂萬行首楞嚴神&CB00057;。稱<app><lem wit="【CBETA】" resp="CBETA.maha">揚</lem><rdg wit="【卍續】">&CB15068;</rdg></app>聖號。<anchor id="fnX63p0631b02"/><note place="inline">〔所集殊勳。先用祝延〕</note>
+<lb ed="X" n="0631b01"/>諷誦大佛頂萬行首楞嚴神&CB00057;。稱<app><lem wit="【CBETA】" resp="CBETA.maha">揚</lem><rdg wit="【卍續】">&CB15068;</rdg></app>聖號。<note n="0631002" resp="Xuzangjing" place="foot text" type="orig">所等八字應作&CB00308;書</note><note place="inline">〔所集殊勳。先用祝延〕</note>
 <lb ed="X" n="0631b02"/>今上皇帝。聖壽萬安。次伸回向。真如實際。莊嚴無上
 <lb ed="X" n="0631b03"/>佛果菩提。祝貢護法諸天。大權真宰。三界萬靈。十方
 <lb ed="X" n="0631b04"/>聖眾。住持本命星官。僧眾建生乾象。嶽瀆山川。府城
@@ -1102,7 +1107,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0633c07"/>座領眾。於僧堂前下間。立定。前堂首座轉上間。堂司
 <lb ed="X" n="0633c08"/>行者喝云。<note place="inline">大眾與首座人事</note>對觸禮三拜。進云。<note place="inline">法歲履端。獲同安居。切仗
 <lb ed="X" n="0633c09"/>法力資持。無諸魔事</note>畣云。<note place="inline">獲同安居。恐三業不善敢冀包荒。共成法社</note>人事罷。首座
-<lb ed="X" n="0633c10"/>領眾。依念誦圖立定。次第巡堂。歸位立。<anchor id="fnX63p0633c01"/><note place="inline">〔侍者巡半堂。行者喝〕</note>云。
+<lb ed="X" n="0633c10"/>領眾。依念誦圖立定。次第巡堂。歸位立。<note n="0633001" resp="Xuzangjing" place="foot text" type="orig">侍等八字應作&CB00308;書</note><note place="inline">〔侍者巡半堂。行者喝〕</note>云。
 <lb ed="X" n="0633c11"/><note place="inline">首座禮謝大眾</note>普同觸禮三拜。次知事一班。入堂。燒香一炷。
 <lb ed="X" n="0633c12"/>大展三拜。巡堂一&CB00038;。排立爐前。喝云。<note place="inline">知事禮謝大眾</note>普觸禮
 <lb ed="X" n="0633c13"/>三拜。知事出堂。侍者一班接後出堂。次住持入堂。供
@@ -1174,7 +1179,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0634c04"/>畢。茶遍。首座至住持前行禮。初展詞云。<note place="inline">此際麤茶。特&CB15166;和尚慈悲
 <lb ed="X" n="0634c05"/>降重。下情不勝感激之至</note>二展寒溫。觸禮三拜。住持每展。畣拜。尊
 <lb ed="X" n="0634c06"/>大眾也。住持復位。先出。非法。首座龕後右出堂前。上
-<lb ed="X" n="0634c07"/>首後堂隨出。對觸一拜。謝茶而出<anchor id="fnX63p0634c01"/><note place="inline">〔受請人。詣首座寮拜謝。前堂歸堂中
+<lb ed="X" n="0634c07"/>首後堂隨出。對觸一拜。謝茶而出<note n="0634001" resp="Xuzangjing" place="foot text" type="orig">受等細字應作&CB00308;書</note><note place="inline">〔受請人。詣首座寮拜謝。前堂歸堂中
 <lb ed="X" n="0634c08"/>問訊。收大〕</note>眾琖。無光伴香。</p>
 <lb ed="X" n="0634c09"/><p id="pX63p0634c0901" rend="margin-left:1em">狀式<note place="inline">前堂比丘某。　右某啟取今辰齋退。就　雲堂點茶一中。特為　後堂大眾。聊旌　結制之儀。
 <lb ed="X" n="0634c10"/>仍請諸知事。伏望　眾慈。同垂　光降。謹狀　　　　年　　月　　日　前堂比丘　某甲狀。九行書。
@@ -1687,7 +1692,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0641b17"/>展三拜。轉身住持前問訊。面北巡堂一&CB00038;。中間問訊
 <lb ed="X" n="0641b18"/>而退。</p><p id="pX63p0641b1803" place="inline">粥罷不諷經。一一守請至&CB05903;堂。住持接<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>獻茶
 <lb ed="X" n="0641b19"/>畢。躬起燒香一炷。歸位序請意。侍<note place="inline">某拜白大眾。前兩班告退。不可缺人。
-<lb ed="X" n="0641b20"/>拜請某人。充某頭首。<anchor id="fnX63p0641b01"/>〔侍者呈目子。住持白請訖。至爐前。侍者揖請。新〕</note>頭首。一一至爐前
+<lb ed="X" n="0641b20"/>拜請某人。充某頭首。<note n="0641001" resp="Xuzangjing" place="foot text" type="orig">侍等十八字應作&CB00308;書</note>〔侍者呈目子。住持白請訖。至爐前。侍者揖請。新〕</note>頭首。一一至爐前
 <lb ed="X" n="0641b21"/>受請。如未允請。眾耆舊力當勸勉<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。住持先觸禮。頭
 <lb ed="X" n="0641b22"/>首隨對觸一拜了。白請知事一班訖。頭首一班。進前
 <lb ed="X" n="0641b23"/>行禮。初展云。<note place="inline">某等自慚匪器。過&CB15166;甄錄。下情不勝愧悚</note>二展寒溫。觸禮三
@@ -1924,7 +1929,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0644c04"/>小耆舊。或十方兄弟定<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。至日請兩班大耆舊茶。勸
 <lb ed="X" n="0644c05"/>率寢堂一一請<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。轉位獻湯了。送歸客位。兩班領眾
 <lb ed="X" n="0644c06"/>作賀。次第巡寮。草飯。特為湯。庫司特為湯。藥石。進退
-<lb ed="X" n="0644c07"/>兩班禮同。唯天童諸莊。古式不墜。監&CB01495;無<anchor id="fnX63p0644c01"/>入<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>望望
+<lb ed="X" n="0644c07"/>兩班禮同。唯天童諸莊。古式不墜。監&CB01495;無<note n="0644001" resp="Xuzangjing" place="foot text" type="orig">入疑人</note>入<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>望望
 <lb ed="X" n="0644c08"/>畏之。每年至再和會。加禮敦請。特為了。至下莊日。山
 <lb ed="X" n="0644c09"/>門首釘挂。講茶湯禮。鳴樓鐘集眾。門送上轎。至今遺
 <lb ed="X" n="0644c10"/>風在焉。</p></div1>
@@ -2494,7 +2499,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0652b02"/><p id="pX63p0652b0201">至日謝挂搭。方丈客頭。堂司庫子。各寫回禮榜。貼眾
 <lb ed="X" n="0652b03"/>寮前。方丈榜貼上間。兩班下間。寢堂謝挂搭了。參頭
 <lb ed="X" n="0652b04"/>領眾。眾寮前下間排立。候接住持入寮。問訊云<note place="inline">移刻恭惟。
-<lb ed="X" n="0652b05"/>堂頭和尚。尊候起居多福。禮合拜謝。反<anchor id="fnX63p0652b01"/>〔木〕降重。下情不勝感激之至</note>眾送住持出。隨入
+<lb ed="X" n="0652b05"/>堂頭和尚。尊候起居多福。禮合拜謝。反<note n="0652001" resp="Xuzangjing" place="foot text" type="orig">木恐沐</note>〔木〕降重。下情不勝感激之至</note>眾送住持出。隨入
 <lb ed="X" n="0652b06"/>寮。轉上間立。參頭接侍者入。詞云。<note place="inline">某等獲依左右。茲沐降尊。下情不勝
 <lb ed="X" n="0652b07"/>感激之至</note>答云。<note place="inline">拜謝不專。下情不勝感激之至</note>參頭送出。接兩班入。對觸
 <lb ed="X" n="0652b08"/>禮一拜。<note place="inline">還歸堂時一拜也</note>詞語同前。眾轉下間。副參謝參頭
@@ -3143,7 +3148,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0661a01"/>&CB03340;袈裟。不得以頦勾袈裟。摺了置之。問訊而去。殿堂
 <lb ed="X" n="0661a02"/>禮拜。不得占中央。<note place="inline">尊住持也</note>不得出聲念佛。不得行禮拜
 <lb ed="X" n="0661a03"/>人頭邊過。五更住持首座坐堂。前門。不許出入。開小
-<lb ed="X" n="0661a04"/>靜方摺被。拗枕<anchor id="fnX63p0661a01"/>摺摺被之法。先尋兩角。以手理直。不
+<lb ed="X" n="0661a04"/>靜方摺被。拗枕<note n="0661001" resp="Xuzangjing" place="foot text" type="orig">摺一作子</note>摺摺被之法。先尋兩角。以手理直。不
 <lb ed="X" n="0661a05"/>得抖擻作聲。不得扇風。不得橫占&CB00444;單位。先摺面前
 <lb ed="X" n="0661a06"/>一半。次摺近身一半。&CB02649;巾被上。或殿堂禮拜。或歸眾
 <lb ed="X" n="0661a07"/>寮。次第<note place="inline">過堂</note>板鳴歸&CB00425;位。須上肩順轉。<note place="inline">左肩上肩</note>上床不得
@@ -3528,7 +3533,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0666a06"/>香几燭臺。參頭報請兩班立班。副參領眾。門迎兩序。
 <lb ed="X" n="0666a07"/>入堂。參頭堂主詣侍司。同請住持下行堂。眾接迎入
 <lb ed="X" n="0666a08"/>堂。據坐。侍者一班問訊側立。兩班如常。出班問訊畢。
-<lb ed="X" n="0666a09"/>侍者燒香<anchor id="fnX63p0666a01"/>□炷。問訊住持。請法亦如常。參頭領眾。鴈
+<lb ed="X" n="0666a09"/>侍者燒香<note n="0666001" resp="Xuzangjing" place="foot text" type="orig">□疑一</note>□炷。問訊住持。請法亦如常。參頭領眾。鴈
 <lb ed="X" n="0666a10"/>列插香。喝參三拜。退分東西班後。鴈立。諦聽法誨。開
 <lb ed="X" n="0666a11"/>示<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。參頭領眾。如前排立三拜。即出門外右立。揖送
 <lb ed="X" n="0666a12"/>住持兩班。隨至寢堂。插大香一片。九拜而退。次詣侍

@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X63n1241.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2005/11/30 06:34:39 $</date></edition>
+		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2007/09/04 09:31:49 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:39 $</date>
+		<date>$Date: 2007/09/04 09:31:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 63, No. 1241 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X63n1241.xml,v $
+Revision 1.9  2007/09/04 09:31:49  eva
+modified: 校注作業完成
+
 Revision 1.8  2005/11/30 06:34:39  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -104,7 +109,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0260a21"/>解。然鈍根末學必假筌蹄。師既無言。小子何述焉。如
 <lb ed="X" n="0260a22"/>是累番推卸無何。擬&CB00309;&CB15148;足。為虎插翅。謾以第二機
 <lb ed="X" n="0260a23"/>示之。坐間適有梅知縣者。棲神內典念茲在茲。一見
-<lb ed="X" n="0260a24"/>斯文感悟流涕。出金<anchor id="fnX63p0260a01"/>縷板。庶幾他日&CB00234;手同遊華嚴
+<lb ed="X" n="0260a24"/>斯文感悟流涕。出金<note n="0260001" resp="Xuzangjing" place="foot text" type="orig">縷疑鏤</note>縷板。庶幾他日&CB00234;手同遊華嚴
 <pb ed="X" id="X63.1241.0260b" n="0260b"/>
 <lb ed="X" n="0260b01"/>勝會。亦豈小補哉。因&CB15201;筆為之引。</p>
 <lb ed="X" n="0260b02"/><p id="pX63p0260b0201" rend="margin-left:1em">&CB01213;紹興丙寅住靈岩去一叟知訥序</p></div1>
@@ -146,7 +151,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0260c13"/>
 <lb ed="X" n="0260c14"/>
 <lb ed="X" n="0260c15"/><div1 type="other"><mulu type="其他" level="1" label="證道歌註"/><head type="no">No. 1241</head>
-<lb ed="X" n="0260c16"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><anchor id="fnX63p0260c02"/>證道歌註</jhead></juan>
+<lb ed="X" n="0260c16"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0260002" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>證道歌註</jhead></juan>
 <lb ed="X" n="0260c17"/>
 <lb ed="X" n="0260c18"/><div2 type="orig"><p id="pX63p0260c1801">證道歌。</p></div2>
 <lb ed="X" n="0260c19"/>
@@ -237,7 +242,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0262a04"/><div2 type="orig"><p id="pX63p0262a0401">法身覺了無一物。本源自性天真佛。</p></div2>
 <lb ed="X" n="0262a05"/><div2 type="commentary"><p id="pX63p0262a0501" rend="margin-left:1em">以般若智照五蘊皆空。無有一物。無有邊表。無有
 <lb ed="X" n="0262a06"/>名字。強名法身也。昔太原孚上座為座主時。因講
-<lb ed="X" n="0262a07"/>維摩經至法身義時。<anchor id="fnX63p0262a01"/>免道者在座下聽。乃問座主
+<lb ed="X" n="0262a07"/>維摩經至法身義時。<note n="0262001" resp="Xuzangjing" place="foot text" type="orig">免字更勘</note>免道者在座下聽。乃問座主
 <lb ed="X" n="0262a08"/>云。適來講者是諸佛法身。那箇是座主法身。座主
 <lb ed="X" n="0262a09"/>云法身豈有二耶。道者云。如人說食終不濟飢。欲
 <lb ed="X" n="0262a10"/>了心源以悟為則。師云。某甲說法身義祇如此。&CB00230;
@@ -253,7 +258,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0262a20"/><div2 type="orig"><p id="pX63p0262a2001">五陰浮雲空去來。三毒水泡&CB00980;出沒。</p></div2>
 <lb ed="X" n="0262a21"/><div2 type="commentary"><p id="pX63p0262a2101" rend="margin-left:1em">學法之人。了五陰不實猶如浮雲。知三毒&CB00980;幻還
 <lb ed="X" n="0262a22"/>同水泡。所言五陰者。一色二受三想四行五識也。
-<lb ed="X" n="0262a23"/>色以窒礙為義。受以納<anchor id="fnX63p0262a02"/>頌為義。想以想像為義。行
+<lb ed="X" n="0262a23"/>色以窒礙為義。受以納<note n="0262002" resp="Xuzangjing" place="foot text" type="orig">頌疑領</note>頌為義。想以想像為義。行
 <lb ed="X" n="0262a24"/>以遷流為義。識以別識為義。了五陰即人空也。所
 <pb ed="X" id="X63.1241.0262b" n="0262b"/>
 <lb ed="X" n="0262b01"/>言三毒者。一貪二嗔三癡也。於順境即起貪心。於
@@ -328,7 +333,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0263a20"/><div2 type="orig"><p id="pX63p0263a2001">誰無念。誰無生。若實無生無不生。</p></div2>
 <lb ed="X" n="0263a21"/><div2 type="commentary"><p id="pX63p0263a2101" rend="margin-left:1em">上句拈情。下句顯法。誰無念誰無生者。則是誰人
 <lb ed="X" n="0263a22"/>無念誰人無生也。人之心念生滅無有間斷。其生
-<lb ed="X" n="0263a23"/>滅心如<anchor id="fnX63p0263a01"/>落車聚不可勝數。念念之間無有停息。如
+<lb ed="X" n="0263a23"/>滅心如<note n="0263001" resp="Xuzangjing" place="foot text" type="orig">落車疑惡叉</note>落車聚不可勝數。念念之間無有停息。如
 <lb ed="X" n="0263a24"/>燈焰焰似水涓涓。行則心稱十方。坐則意攀三世。
 <pb ed="X" id="X63.1241.0263b" n="0263b"/>
 <lb ed="X" n="0263b01"/>故云誰無念誰無生也。若實無生無不生者。若實
@@ -412,7 +417,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0264b04"/>說。在足運奔。用無盡也。空不空者。此之妙用非其
 <lb ed="X" n="0264b05"/>有無可見。所以道。若言其有。無狀無形。若言其無。
 <lb ed="X" n="0264b06"/>聖有之靈。故云空不空也。一顆圓光色非色者。此
-<lb ed="X" n="0264b07"/>之寶珠從無始來烜<anchor id="fnX63p0264b01"/><note place="inline">達反起也</note>赫靈明。照十方界。故知
+<lb ed="X" n="0264b07"/>之寶珠從無始來烜<note n="0264001" resp="Xuzangjing" place="foot text" type="orig">達等四字疑火遠反歟更勘</note><note place="inline">達反起也</note>赫靈明。照十方界。故知
 <lb ed="X" n="0264b08"/>真色無形而森羅大千。古德云。青青翠竹盡是真
 <lb ed="X" n="0264b09"/>如。&CB15106;&CB15106;黃花無非般若。故云一顆圓光色不色也。</p></div2>
 <lb ed="X" n="0264b10"/><div2 type="orig"><p id="pX63p0264b1001">淨五眼。得五力。唯證乃知難可測。</p></div2>
@@ -504,7 +509,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0265b21"/>鼻舌身意為六識。七傳送識。八阿賴耶即含藏識
 <lb ed="X" n="0265b22"/>也。所以轉八識為四智。束四智為三身也。今言轉
 <lb ed="X" n="0265b23"/>八識為四智者。轉眼耳鼻舌身意六識為妙觀察
-<lb ed="X" n="0265b24"/>智。轉七傳送識末那<anchor id="fnX63p0265b01"/>含為平等性智。轉八含藏識
+<lb ed="X" n="0265b24"/>智。轉七傳送識末那<note n="0265001" resp="Xuzangjing" place="foot text" type="orig">含字疑剩</note>含為平等性智。轉八含藏識
 <pb ed="X" id="X63.1241.0265c" n="0265c"/>
 <lb ed="X" n="0265c01"/>阿賴耶識為大圓鏡智。束四智為三身者。以成所
 <lb ed="X" n="0265c02"/>作智妙觀察智為化身。平等性智為報身。大圓鏡
@@ -569,7 +574,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0266b11"/><div2 type="orig"><p id="pX63p0266b1101">宗亦通。說亦通。</p></div2>
 <lb ed="X" n="0266b12"/><div2 type="commentary"><p id="pX63p0266b1201" rend="margin-left:1em">宗通者即法通也。法非言說。言說非法。雲門云。東
 <lb ed="X" n="0266b13"/>海鯉魚打一棒。雨似盆傾。天衣云。山僧倒騎佛殿。
-<lb ed="X" n="0266b14"/>諸人返著草鞋。乃至<anchor id="fnX63p0266b01"/>青平般土。皈宗拽石。德山入
+<lb ed="X" n="0266b14"/>諸人返著草鞋。乃至<note n="0266001" resp="Xuzangjing" place="foot text" type="orig">青當作清</note>青平般土。皈宗拽石。德山入
 <lb ed="X" n="0266b15"/>門便棒。臨濟入門便喝。如上垂慈。若無悟心如何
 <lb ed="X" n="0266b16"/>明得耶。直須洞明宗旨。深達本源。直下明宗。不同
 <lb ed="X" n="0266b17"/>圓漸。故曰宗通也。說通者即義通也。善能講說十
@@ -646,7 +651,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0267b13"/><div2 type="orig"><p id="pX63p0267b1301">縱遇鋒刀常坦坦。假饒毒藥也閑閑。</p></div2>
 <lb ed="X" n="0267b14"/><div2 type="commentary"><p id="pX63p0267b1401" rend="margin-left:1em">十二時中既動靜皆為佛事。假饒有人以利刀毒
 <lb ed="X" n="0267b15"/>藥加及我。我則坦然閑暇無所畏也。故靈山會上
-<lb ed="X" n="0267b16"/>有五百比丘得四禪定具五神通。以宿命智各<anchor id="fnX63p0267b01"/>現
+<lb ed="X" n="0267b16"/>有五百比丘得四禪定具五神通。以宿命智各<note n="0267001" resp="Xuzangjing" place="foot text" type="orig">現疑觀</note>現
 <lb ed="X" n="0267b17"/>過去殺父殺母及諸重罪。於自心中各懷疑怖。於
 <lb ed="X" n="0267b18"/>是文殊仗&CB00669;持逼如來。世尊謂文殊曰。住住。不應
 <lb ed="X" n="0267b19"/>作逆。勿得害我。我必被害。為善被害。文殊師利。從
@@ -677,7 +682,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0267c19"/>如故。言訖。即時仙人平復如故。王見甚異驚怖而
 <lb ed="X" n="0267c20"/>走。至於中路天降風雨霹靂雲霧。迷失道徑終不
 <lb ed="X" n="0267c21"/>能去。迴入山中至仙人所求乞懺悔也。乃至捨身
-<lb ed="X" n="0267c22"/>飼餓虎。割肉濟鷹飢。<anchor id="fnX63p0267c02"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>至種種苦行非止一劫。故
+<lb ed="X" n="0267c22"/>飼餓虎。割肉濟鷹飢。<note n="0267002" resp="Xuzangjing" place="foot text" type="orig">巳通以</note><note n="0267002" resp="CBETA" type="mod"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>通以</note><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>至種種苦行非止一劫。故
 <lb ed="X" n="0267c23"/>云多劫曾為忍辱仙也。</p></div2>
 <lb ed="X" n="0267c24"/><div2 type="orig"><p id="pX63p0267c2401">幾回生。幾回死。生死悠悠無定止。</p></div2>
 <pb ed="X" id="X63.1241.0268a" n="0268a"/>
@@ -707,8 +712,8 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0268a24"/><div2 type="commentary"><p id="pX63p0268a2401" rend="margin-left:1em">優遊者。不拘繫之&CB15032;也。出家之士識心達本。優遊
 <pb ed="X" id="X63.1241.0268b" n="0268b"/>
 <lb ed="X" n="0268b01"/>三界脫洒四生。不為塵勞縈絆。逍遙自在。靜坐安
-<lb ed="X" n="0268b02"/>居。故雪<anchor id="fnX63p0268b01"/>豆云。出家兒得與麼尊貴。得與麼高上。萬
-<lb ed="X" n="0268b03"/>乘位高而不<anchor id="fnX63p0268b02"/>挹。五侯門峻而不趍。目對千山心閑
+<lb ed="X" n="0268b02"/>居。故雪<note n="0268001" resp="Xuzangjing" place="foot text" type="orig">豆竇之略</note>豆云。出家兒得與麼尊貴。得與麼高上。萬
+<lb ed="X" n="0268b03"/>乘位高而不<note n="0268002" resp="Xuzangjing" place="foot text" type="orig">挹通揖</note>挹。五侯門峻而不趍。目對千山心閑
 <lb ed="X" n="0268b04"/>一境。重重&CB04033;樹垂陰善吉之門。疊疊溪雲布彩維
 <lb ed="X" n="0268b05"/>摩之室。此中相見。豈不快哉也。</p></div2>
 <lb ed="X" n="0268b06"/><div2 type="orig"><p id="pX63p0268b0601">覺則了。不施功。一切有為法不同。</p></div2>
@@ -732,7 +737,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0268b24"/>四相者。一生相。二老相。三病相。四死相也。五衰者。
 <pb ed="X" id="X63.1241.0268c" n="0268c"/>
 <lb ed="X" n="0268c01"/>一花冠墮地。二目睫&CB01863;動。三眷屬離散。四身光自
-<lb ed="X" n="0268c02"/>滅。五不樂本<anchor id="fnX63p0268c03"/>官也。招得來生不如意者。古德云。人
+<lb ed="X" n="0268c02"/>滅。五不樂本<note n="0268003" resp="Xuzangjing" place="foot text" type="orig">官疑座</note>官也。招得來生不如意者。古德云。人
 <lb ed="X" n="0268c03"/>天福報為三生冤。人罕知之。良由世人因其福力
 <lb ed="X" n="0268c04"/>不明其本就上增添。以此世福恣情娛樂。臨命終
 <lb ed="X" n="0268c05"/>時福盡業在。返墮惡道受種種苦。故云招得來生
@@ -769,7 +774,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0269a11"/><div2 type="commentary"><p id="pX63p0269a1101" rend="margin-left:1em">如意珠者。摩尼寶珠也。唯此一珠具諸功德。於諸
 <lb ed="X" n="0269a12"/>寶中此寶為上。利用如意。可喻心寶也。經云。獨王
 <lb ed="X" n="0269a13"/>頂上有此一珠。不妄與人。此之一寶非從外得。但
-<lb ed="X" n="0269a14"/><anchor id="fnX63p0269a01"/>猶一切眾生妄念蓋覆不能明現。古德云。譬如衣
+<lb ed="X" n="0269a14"/><note n="0269001" resp="Xuzangjing" place="foot text" type="orig">猶通由</note>猶一切眾生妄念蓋覆不能明現。古德云。譬如衣
 <lb ed="X" n="0269a15"/>下明珠。雖明不照。似宅中寶藏。似有如無。今日永
 <lb ed="X" n="0269a16"/>嘉解此一珠賑濟有情。用無窮盡。故云終不竭也。</p></div2>
 <lb ed="X" n="0269a17"/><div2 type="orig"><p id="pX63p0269a1701">江月照。松風吹。永夜清霄何所為。</p></div2>
@@ -892,7 +897,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0270c09"/>法方為究竟。大般若經云。甚深般若波羅蜜多。是
 <lb ed="X" n="0270c10"/>諸佛母。能示世間諸法實相。出家之士得不盡心
 <lb ed="X" n="0270c11"/>於此。是以雲門大師警&CB15081;兄弟曰。一等是蹈破草
-<lb ed="X" n="0270c12"/>鞋行&CB00560;。拋&CB00230;父母師長。直須<anchor id="fnX63p0270c01"/>者些子眼睛始得。若
+<lb ed="X" n="0270c12"/>鞋行&CB00560;。拋&CB00230;父母師長。直須<note n="0270001" resp="Xuzangjing" place="foot text" type="orig">者疑著</note>者些子眼睛始得。若
 <lb ed="X" n="0270c13"/>遇本色咬&CB00337;狗手&CB00560;。不惜性命入泥入水相為。有
 <lb ed="X" n="0270c14"/>可咬嚼。眨上眉毛。高掛&CB00425;囊一十年二十年。打取
 <lb ed="X" n="0270c15"/>徹去。莫然不成辦。從上諸聖無不擊發勸於此箇
@@ -1069,7 +1074,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0273a11"/>如來敷座宴安。為諸會中宣揚深奧。法筵清眾得
 <lb ed="X" n="0273a12"/>未曾有迦陵仙音&CB00642;十方界。故知默時常說也。說
 <lb ed="X" n="0273a13"/>時默者。一大藏教金口所宣未曾道著一字。經云。
-<lb ed="X" n="0273a14"/>始從成道夜。終至&CB02494;提河。於是二<anchor id="fnX63p0273a01"/>十間。未曾說一
+<lb ed="X" n="0273a14"/>始從成道夜。終至&CB02494;提河。於是二<note n="0273001" resp="Xuzangjing" place="foot text" type="orig">十當作中</note>十間。未曾說一
 <lb ed="X" n="0273a15"/>字。且道畢竟是有說無說耶。所以天衣云。若言有
 <lb ed="X" n="0273a16"/>說。謗如來。若謂不談。邪見在。若向這裡&CB15111;得破。方
 <lb ed="X" n="0273a17"/>可稱唱宗風提綱祖令也。</p></div2>
@@ -1077,7 +1082,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0273a19"/><div2 type="commentary"><p id="pX63p0273a1901" rend="margin-left:1em">諸佛出世說法。普令一切眾生成佛。為大施主度
 <lb ed="X" n="0273a20"/>脫有情。故云大施門開也。乃至西竺諸佛祖各各
 <lb ed="X" n="0273a21"/>說法利樂有情<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。至唐土諸祖天下老宿巧便施
-<lb ed="X" n="0273a22"/><anchor id="fnX63p0273a02"/>說種種法門。所以雪&CB00123;輥毬。石鞏架箭。天皇餬餅。
+<lb ed="X" n="0273a22"/><note n="0273002" resp="Xuzangjing" place="foot text" type="orig">說疑設</note>說種種法門。所以雪&CB00123;輥毬。石鞏架箭。天皇餬餅。
 <lb ed="X" n="0273a23"/>國師水&CB00179;。雲門三句。洞山五位。靈雲見桃花。法眼
 <lb ed="X" n="0273a24"/>透聲色。首山新婦。道<app><lem wit="【CBETA】" resp="CBETA.maha">吾</lem><rdg wit="【卍續】">告</rdg></app>樂神。溈山水牯。汾陽師子。
 <pb ed="X" id="X63.1241.0273b" n="0273b"/>
@@ -1115,7 +1120,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0273c07"/><div2 type="commentary"><p id="pX63p0273c0701" rend="margin-left:1em">諸佛出世以至天下老和尚出世。皆是建大法幢
 <lb ed="X" n="0273c08"/>&CB00594;立宗旨也。明明佛&CB02637;曹溪是者。祖師從西土至。
 <lb ed="X" n="0273c09"/>此道傳至六祖。其所建立<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成法席矣。非獨諸佛
-<lb ed="X" n="0273c10"/>冥加宿受記&CB00028;而<anchor id="fnX63p0273c03"/>引弘大事。乃從我佛釋迦如來
+<lb ed="X" n="0273c10"/>冥加宿受記&CB00028;而<note n="0273003" resp="Xuzangjing" place="foot text" type="orig">引字疑剩</note>引弘大事。乃從我佛釋迦如來
 <lb ed="X" n="0273c11"/>親傳心印至曹溪。故云明明佛&CB02637;曹溪是也。所言
 <lb ed="X" n="0273c12"/>法幢者。幢以建立為義也。故知建立法幢實非小
 <lb ed="X" n="0273c13"/>緣。諸佛出世為一大事因緣。皆為此也。無量菩薩
@@ -1415,7 +1420,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0277c07"/><div2 type="commentary"><p id="pX63p0277c0701" rend="margin-left:1em">了達罪福性空無有罣&CB00515;。若人發心皈源。十方世
 <lb ed="X" n="0277c08"/>界悉皆消殞。況罪福之相耶。所以肇師云。五陰身
 <lb ed="X" n="0277c09"/>非有。四大本來空。將頭臨白刃。一似斬春風。即業
-<lb ed="X" n="0277c10"/>障本來空也。若不了悟。執法不<anchor id="fnX63p0277c01"/>志。因果法如形與
+<lb ed="X" n="0277c10"/>障本來空也。若不了悟。執法不<note n="0277001" resp="Xuzangjing" place="foot text" type="orig">志疑忘</note>志。因果法如形與
 <lb ed="X" n="0277c11"/>影。假使百千劫所作業不忘。因緣會遇時果報還
 <lb ed="X" n="0277c12"/>自受。故云未了還須償宿債也。</p></div2>
 <lb ed="X" n="0277c13"/><div2 type="orig"><p id="pX63p0277c1301">飢逢王&CB00498;不能&CB00290;。病遇醫主爭得瘥。</p></div2>
@@ -1456,13 +1461,13 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0278a23"/>執我手。則離貪欲。得遍往一切佛剎三昧。又如善
 <lb ed="X" n="0278a24"/>財參見無厭足王。無量猛卒執持器仗。無量眾生
 <pb ed="X" id="X63.1241.0278b" n="0278b"/>
-<lb ed="X" n="0278b01"/>各犯法。<anchor id="fnX63p0278b01"/>王或斬其頭或斷其手。善財見<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>而作是
+<lb ed="X" n="0278b01"/>各犯法。<note n="0278001" resp="Xuzangjing" place="foot text" type="orig">王疑者</note>王或斬其頭或斷其手。善財見<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>而作是
 <lb ed="X" n="0278b02"/>言。云何於此而欲求法耶。王告善財。我得菩薩如
 <lb ed="X" n="0278b03"/>幻三昧。如我心者。寧於未來受無間苦惱。終不一
 <lb ed="X" n="0278b04"/>念與一蚊一螻而作苦事。況復人耶。故知若有種
 <lb ed="X" n="0278b05"/>性。所遇前境即能返本。今此二乘與諸小機。滯於
 <lb ed="X" n="0278b06"/>持犯諸律儀事。專於事法。乃不見罪福性空。明見
-<lb ed="X" n="0278b07"/>佛性。是不見如來開秘訣也。故下文特舉婬<anchor id="fnX63p0278b02"/>教之
+<lb ed="X" n="0278b07"/>佛性。是不見如來開秘訣也。故下文特舉婬<note n="0278002" resp="Xuzangjing" place="foot text" type="orig">教疑殺</note>教之
 <lb ed="X" n="0278b08"/>相以明前事。</p></div2>
 <lb ed="X" n="0278b09"/><div2 type="orig"><p id="pX63p0278b0901">有二比丘犯婬殺。波離螢光增罪結。</p></div2>
 <lb ed="X" n="0278b10"/><div2 type="commentary"><p id="pX63p0278b1001" rend="margin-left:1em">犯婬殺者。皆根本重罪也。螢光者。小乘猶如螢光。
@@ -1671,8 +1676,8 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0281a13"/>　胝。竹尼反。手胼足胝也。　胼。步田反。胼胝。
 <lb ed="X" n="0281a14"/>　抉。一決反。排也。　盰。公旦反。目白&CB15032;。
 <lb ed="X" n="0281a15"/>　&CB00277;。音零。行不正也。　竮。音平。
-<lb ed="X" n="0281a16"/>　螻。音樓。螻蛄。　搏。<anchor id="fnX63p0281a01"/>徒官切。搏擊也。
-<lb ed="X" n="0281a17"/>　拏。尼矛切。<anchor id="fnX63p0281a02"/>平拏也。</p></div1>
+<lb ed="X" n="0281a16"/>　螻。音樓。螻蛄。　搏。<note n="0281001" resp="Xuzangjing" place="foot text" type="orig">徒官疑補各</note>徒官切。搏擊也。
+<lb ed="X" n="0281a17"/>　拏。尼矛切。<note n="0281002" resp="Xuzangjing" place="foot text" type="orig">平疑手</note>平拏也。</p></div1>
 <lb ed="X" n="0281a18"/>
 <lb ed="X" n="0281a19"/><div1 type="other"><p id="pX63p0281a1901">證道歌卷下<note place="inline">終</note></p></div1>
 </body></text></TEI.2>
