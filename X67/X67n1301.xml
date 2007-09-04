@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X67n1301.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/01/03 03:21:24 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/09/04 06:10:36 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/03 03:21:24 $</date>
+		<date>$Date: 2007/09/04 06:10:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 67, No. 1301 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X67n1301.xml,v $
+Revision 1.6  2007/09/04 06:10:36  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.5  2007/01/03 03:21:24  amtbgrace
 modified: [經文修訂] [[钁-(目*目)+賏]>钁]
 
@@ -74,7 +79,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0226a03"/> 重刻圓悟禪師擊節錄題辭</head>
 <lb ed="X" n="0226a04"/>
 <lb ed="X" n="0226a05"/><p id="pX67p0226a0501">圓悟禪師。電機波辨。色絲妙絕。可謂文武火爐鍛練
-<lb ed="X" n="0226a06"/>學人矣。惜乎集錄者。採擷<anchor id="fnX67p0226a01"/>微言。而失之簡。加之三豕
+<lb ed="X" n="0226a06"/>學人矣。惜乎集錄者。採擷<note n="0226001" resp="Xuzangjing" place="foot text" type="orig">（&CB18845;版&M062447;徹&M062440;&M062402;&M062474;，而&M062466;朱字&M062482;以&M062438;微&M062440;傍書&M062425;。今&M062447;微&M062440;&M062442;&M062425;。&CB18834;）</note>微言。而失之簡。加之三豕
 <lb ed="X" n="0226a07"/>門五。&CB00418;者眼眩焉。頃予友淳公。蒐獵竺典。企予祖躅。
 <lb ed="X" n="0226a08"/>以彌縫於闕。蓋藻鏡當臺。妍媿可逃乎哉。晨星落落。
 <lb ed="X" n="0226a09"/>秦無人也。冀邈乎霧海。早刮目于南針。</p>
@@ -112,7 +117,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0226b16"/><item id="itemX67p0226b1601">西堂爛&CB00230;<note place="inline">十</note></item><item id="itemX67p0226b1606">欽山&CB00594;拳<note place="inline">十一</note></item><item id="itemX67p0226b1612">睦州苕&CB01652;<note place="inline">十二</note></item>
 <lb ed="X" n="0226b17"/><item id="itemX67p0226b1701">棗樹漢國<note place="inline">十三</note></item><item id="itemX67p0226b1707">趙州偷筍<note place="inline">十四</note></item><item id="itemX67p0226b1713">保壽開堂<note place="inline">十五</note></item>
 <lb ed="X" n="0226b18"/><item id="itemX67p0226b1801">無業妄想<note place="inline">十六</note></item><item id="itemX67p0226b1807">德山作麼<note place="inline">十七</note></item><item id="itemX67p0226b1813">保福簽瓜<note place="inline">十八</note></item>
-<lb ed="X" n="0226b19"/><item id="itemX67p0226b1901">南泉示眾<note place="inline">十九</note></item><item id="itemX67p0226b1907">馬祖<anchor id="fnX67p0226b02"/>圖相<note place="inline">二十</note></item><item id="itemX67p0226b1913">興化罰錢<note place="inline">二一</note></item>
+<lb ed="X" n="0226b19"/><item id="itemX67p0226b1901">南泉示眾<note place="inline">十九</note></item><item id="itemX67p0226b1907">馬祖<note n="0226002" resp="Xuzangjing" place="foot text" type="orig">圖一作圓</note>圖相<note place="inline">二十</note></item><item id="itemX67p0226b1913">興化罰錢<note place="inline">二一</note></item>
 <lb ed="X" n="0226b20"/><item id="itemX67p0226b2001">長慶淘金<note place="inline">二二</note></item><item id="itemX67p0226b2007">大梅無意<note place="inline">二三</note></item><item id="itemX67p0226b2013">臨濟蒿枝<note place="inline">二四</note></item>
 <lb ed="X" n="0226b21"/><item id="itemX67p0226b2101">師祖珠藏<note place="inline">二五</note></item><item id="itemX67p0226b2107">鏡清問僧<note place="inline">二六</note></item><item id="itemX67p0226b2113">雲門法身<note place="inline">二七</note></item>
 <lb ed="X" n="0226b22"/><item id="itemX67p0226b2201">三聖金鱗<note place="inline">二八</note></item><item id="itemX67p0226b2207">伏牛馳書<note place="inline">二九</note></item><item id="itemX67p0226b2213">玄沙過患<note place="inline">三十</note></item>
@@ -738,7 +743,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0234c17"/>在。南泉把不定。隨後&CB00230;向伊道。龍蛇易辨。衲子難謾。
 <lb ed="X" n="0234c18"/>且道他意作麼生。須是通方衲子。方可見得二老漢
 <lb ed="X" n="0234c19"/>落處。南泉一日上堂。趙州便問。明頭合。暗頭合。泉便
-<lb ed="X" n="0234c20"/>歸方丈。趙州便下堂<anchor id="fnX67p0234c01"/>州云。這老漢被我一問。直得無
+<lb ed="X" n="0234c20"/>歸方丈。趙州便下堂<note n="0234001" resp="Xuzangjing" place="foot text" type="orig">州字疑衍</note>州云。這老漢被我一問。直得無
 <lb ed="X" n="0234c21"/>言可對。堂中首座云。莫道和尚無語。只是上座不會。
 <lb ed="X" n="0234c22"/>州便打首座云。這棒合是堂頭和尚喫。看他父子一
 <lb ed="X" n="0234c23"/>機一境。如兩鏡相照相似。而今人將妄想意識去測
@@ -746,7 +751,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <pb ed="X" id="X67.1301.0235a" n="0235a"/>
 <lb ed="X" n="0235a01"/>有足。當時不管盡法無民。直須喫棒了趁出。當時即
 <lb ed="X" n="0235a02"/>且置。只如今作麼生。良久云。放過一著。</p></div1>
-<lb ed="X" n="0235a03"/><div1 type="other"><mulu type="其他" level="1" label="第二十則馬祖圖相"/><head>第二十則馬祖<anchor id="fnX67p0235a01"/>圖相</head>
+<lb ed="X" n="0235a03"/><div1 type="other"><mulu type="其他" level="1" label="第二十則馬祖圖相"/><head>第二十則馬祖<note n="0235001" resp="Xuzangjing" place="foot text" type="orig">圖一作圓</note>圖相</head>
 <lb ed="X" n="0235a04"/><p id="pX67p0235a0401" rend="margin-left:1em">舉僧來參馬大師。師畫一圓相云。入也打。不入也
 <lb ed="X" n="0235a05"/>打。<note place="inline">從上爪牙</note>僧便入。<note place="inline">&CB00230;是箇靈利衲子</note>師便打。<note place="inline">也不得放過</note>僧云。和
 <lb ed="X" n="0235a06"/>尚打某甲不得。<note place="inline">逆水之波經幾回</note>師靠&CB00230;拄杖休去。<note place="inline">如擊石火。
@@ -836,7 +841,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0236a15"/>沙云。我豈不是向你說也。稜云。某甲特地來乞和尚
 <lb ed="X" n="0236a16"/>為說。莫與麼相弄。沙云。你聞鼓聲也無。稜云。某不可
 <lb ed="X" n="0236a17"/>不識鼓聲也。沙云。若聞鼓聲只是你。稜云不會。沙云。
-<lb ed="X" n="0236a18"/>且喫粥去便上來。稜喫粥。<anchor id="fnX67p0236a01"/>粥了便上云。乞和尚說破。
+<lb ed="X" n="0236a18"/>且喫粥去便上來。稜喫粥。<note n="0236001" resp="Xuzangjing" place="foot text" type="orig">粥字疑衍</note>粥了便上云。乞和尚說破。
 <lb ed="X" n="0236a19"/>沙云。不是喫粥了也。稜云。乞和尚說破。莫相弄。某甲
 <lb ed="X" n="0236a20"/>且辭歸去。沙云。你來時從那裏路來。稜云。大目路來。
 <lb ed="X" n="0236a21"/>沙云。你去也從大目路去。作麼生說相弄。後於雪&CB00123;。
@@ -1238,7 +1243,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0241b17"/>後與你三十棒<note place="inline">打云。如今須喫</note>。</p>
 <lb ed="X" n="0241b18"/><p id="pX67p0241b1801">師云。鏡清一十七歲行&CB00560;。參見雪峰。峰問什麼處人。
 <lb ed="X" n="0241b19"/>清云溫州人。峰云。&CB00230;與一宿覺同鄉人。清云。且道一
-<lb ed="X" n="0241b20"/>宿覺是什麼<anchor id="fnX67p0241b01"/>處人。雪峰笑乃器之。只如這僧問鏡清。
+<lb ed="X" n="0241b20"/>宿覺是什麼<note n="0241001" resp="Xuzangjing" place="foot text" type="orig">一無處字</note>處人。雪峰笑乃器之。只如這僧問鏡清。
 <lb ed="X" n="0241b21"/>學人未達其源。乞師方便。清云。是什麼源。僧云其源。
 <lb ed="X" n="0241b22"/>清云。若是其源。爭受方便。且道鏡清是有指示無指
 <lb ed="X" n="0241b23"/>示。還會他道。一點水墨。兩處成龍麼。不可也教山僧
@@ -1535,7 +1540,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0245b14"/>又打一拂子。<note place="inline">&CB00230;不瞞人</note>雪竇云。令既自行。且拂子不知
 <lb ed="X" n="0245b15"/>來處。<note place="inline">莫道不知來處好</note>雪竇道箇瞎。且要雪上加霜<note place="inline">須然錦上
 <lb ed="X" n="0245b16"/>鋪花。爭奈靈龜曳尾</note>。</p>
-<lb ed="X" n="0245b17"/><p id="pX67p0245b1701">師云。還知寶應老落處麼。古人向虎口裏橫身。為<anchor id="fnX67p0245b01"/>人
+<lb ed="X" n="0245b17"/><p id="pX67p0245b1701">師云。還知寶應老落處麼。古人向虎口裏橫身。為<note n="0245001" resp="Xuzangjing" place="foot text" type="orig">人一作入</note>人
 <lb ed="X" n="0245b18"/>第一機裏。將金剛王寶&CB00669;斬斷了也。爭奈不會。當時
 <lb ed="X" n="0245b19"/>這裏著得一隻眼。不妨奇特。雪竇云。令合是這僧行。
 <lb ed="X" n="0245b20"/>爭奈拂子在和尚手裏。當時喚回打一拂子。隨手打
@@ -2162,8 +2167,8 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0253c16"/>為侍者。濟勘一座主。有一人於三乘十二分教明得。
 <lb ed="X" n="0253c17"/>有一人於三乘十二分教明不得。且道是同是別。主
 <lb ed="X" n="0253c18"/>云。明得即同。明不得即別。浦云。這裏是什麼所在。說
-<lb ed="X" n="0253c19"/>同說別。濟休去。座主去後。濟回&CB00230;問。適來是你<anchor id="fnX67p0253c01"/>什麼
-<lb ed="X" n="0253c20"/>祗對。浦便喝。濟便打。<note place="inline">云云</note>傳<anchor id="fnX67p0253c02"/>□明。初承嗣石樓。住京
+<lb ed="X" n="0253c19"/>同說別。濟休去。座主去後。濟回&CB00230;問。適來是你<note n="0253001" resp="Xuzangjing" place="foot text" type="orig">什一作恁</note>什麼
+<lb ed="X" n="0253c20"/>祗對。浦便喝。濟便打。<note place="inline">云云</note>傳<note n="0253002" resp="Xuzangjing" place="foot text" type="orig">□一作燈從容錄伏膺評云佛果擊節云傳明初嗣石樓茲知燈字衍傳燈無嗣石樓文</note>□明。初承嗣石樓。住京
 <lb ed="X" n="0253c21"/>口舉公案。爭奈無舌人能解語。興化聞云。<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>知作佛。
 <lb ed="X" n="0253c22"/>愁什麼眾生。有云。臨濟為他致見洛浦如此。殊不知
 <lb ed="X" n="0253c23"/>神方秘訣。父子不傳。自是洛浦承當處&CB00757;鹵。雪竇忍

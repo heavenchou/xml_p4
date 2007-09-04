@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X67n1304.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2007/08/21 03:51:00 $</date></edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2007/09/04 06:10:36 $</date></edition>
 	</editionStmt>
 	<extent>6卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/08/21 03:51:00 $</date>
+		<date>$Date: 2007/09/04 06:10:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 67, No. 1304 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X67n1304.xml,v $
+Revision 1.12  2007/09/04 06:10:36  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.11  2007/08/21 03:51:00  amtbgrace
 modified: [卍續校注] X56-78 檢查結果的經文修訂
 
@@ -197,12 +202,12 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0324a08"/>達一相三昧．一行三昧。若於一切處而不住相。彼相
 <lb ed="X" n="0324a09"/>中不生憎愛亦無取捨。不念利益成壞等事。安閑恬
 <lb ed="X" n="0324a10"/>靜&CB00980;融澹泊。此名一相三昧。若於一切處行住坐臥
-<lb ed="X" n="0324a11"/>純一直心。不動道場<anchor id="fnX67p0324a01"/>真成淨土。名一行三昧。若人具
+<lb ed="X" n="0324a11"/>純一直心。不動道場<note n="0324001" resp="Xuzangjing" place="foot text" type="orig">真疑直</note>真成淨土。名一行三昧。若人具
 <lb ed="X" n="0324a12"/>二三昧。如地有種。能含藏長養成就其實。一相一行
 <lb ed="X" n="0324a13"/>亦復如是。我今說法猶如時雨溥潤大地。汝等佛性
 <lb ed="X" n="0324a14"/>譬諸種子。遇茲霑洽悉得發生。承吾旨者決獲菩提。
 <lb ed="X" n="0324a15"/>依吾行者定證妙果。林泉道。莫怪老盧能處藥。慣曾
-<lb ed="X" n="0324a16"/>得效敢傳方。達摩亦云。吾本來茲土。<anchor id="fnX67p0324a02"/>說法救迷情。林
+<lb ed="X" n="0324a16"/>得效敢傳方。達摩亦云。吾本來茲土。<note n="0324002" resp="Xuzangjing" place="foot text" type="orig">說當作傳</note>說法救迷情。林
 <lb ed="X" n="0324a17"/>泉道。上代下世老婆心切。而況丹霞以綿綿密密隱
 <lb ed="X" n="0324a18"/>隱難分處交加頌出。頌曰。</p>
 <lb ed="X" n="0324a19"/><p id="pX67p0324a1901" rend="margin-left:1em">卓爾難將正眼窺<note place="inline">睥睨有分</note>。&CB00529;超今古類何齊<note place="inline">果見參差</note>。苔
@@ -269,7 +274,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0325a05"/>這裏還許開口麼。</p>
 <lb ed="X" n="0325a06"/><p id="pX67p0325a0601" rend="margin-left:1em">舉藥山惟儼禪師一日在石上坐次<note place="inline">&CB00560;力困時歇</note>。石頭
 <lb ed="X" n="0325a07"/>和尚見乃問云。在這裏作甚麼<note place="inline">老不歇心</note>。山云一物不
-<lb ed="X" n="0325a08"/>為<note place="inline">引惹詞訟</note>。頭云恁麼則閑坐<anchor id="fnX67p0325a01"/>也<note place="inline">克<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>復禮</note>。頭云。汝道不為。
+<lb ed="X" n="0325a08"/>為<note place="inline">引惹詞訟</note>。頭云恁麼則閑坐<note n="0325001" resp="Xuzangjing" place="foot text" type="orig">也下疑脫山云若閑坐即為也八字并&CB00473;語乎</note>也<note place="inline">克<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>復禮</note>。頭云。汝道不為。
 <lb ed="X" n="0325a09"/>不為箇甚麼<note place="inline">要識真金火裏看</note>。山云千聖亦不識<note place="inline">許汝眼明</note>。石
 <lb ed="X" n="0325a10"/>頭因以偈贊曰。從來共住不知名<note place="inline">&CB00230;最親切</note>。任運相將
 <lb ed="X" n="0325a11"/>祇麼行<note place="inline">好客無&CB00520;伴</note>。自古上賢猶不識<note place="inline">懶兒攀伴</note>。造次凡流
@@ -425,7 +430,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0327a11"/><p id="pX67p0327a1101">師云。自佛祖以來莫不入&CB04622;垂手曲垂方便。物物頭
 <lb ed="X" n="0327a12"/>頭明明了了指示於人。世尊一日示隨色摩尼珠問
 <lb ed="X" n="0327a13"/>五方天王曰。此珠作何色。時五方天王互說異色。世
-<lb ed="X" n="0327a14"/>尊復藏珠入袖&CB00230;<anchor id="fnX67p0327a01"/>臺手曰此珠作何色。天王曰。佛手
+<lb ed="X" n="0327a14"/>尊復藏珠入袖&CB00230;<note n="0327001" resp="Xuzangjing" place="foot text" type="orig">臺通&CB01769;</note>臺手曰此珠作何色。天王曰。佛手
 <lb ed="X" n="0327a15"/>中無珠。何處有色。世尊嘆曰。汝何迷倒之甚。吾將世
 <lb ed="X" n="0327a16"/>珠示汝。便各強說有青黃赤白色。吾將真珠示之。便
 <lb ed="X" n="0327a17"/>總不知。時五方天王悉皆悟道。林泉道。不因佛指示。
@@ -482,7 +487,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0327c18"/>得則途中受用。不會則世諦流布。須知末後牢關。不
 <lb ed="X" n="0327c19"/>離&CB08764;初一句。還有道得的麼。</p>
 <lb ed="X" n="0327c20"/><p id="pX67p0327c2001" rend="margin-left:1em">舉洞山到北巖哲禪師處<note place="inline">不辭迢&CB15325;遠。特地訪知音</note>。巖問甚處
-<lb ed="X" n="0327c21"/>來<note place="inline"><anchor id="fnX67p0327c02"/>〔閑〕門刷會</note>。山云湖南來<note place="inline">多虛不如少實</note>。巖云觀察使姓甚麼
+<lb ed="X" n="0327c21"/>來<note place="inline"><note n="0327002" resp="Xuzangjing" place="foot text" type="orig">閑通閉歟</note>〔閑〕門刷會</note>。山云湖南來<note place="inline">多虛不如少實</note>。巖云觀察使姓甚麼
 <lb ed="X" n="0327c22"/><note place="inline">適來記得而今忘&CB00230;</note>。山云不得姓<note place="inline">不勞通報</note>。巖云名甚麼<note place="inline">誰敢觸諱</note>。山
 <lb ed="X" n="0327c23"/>云不得名<note place="inline">善能回互</note>。巖云還理事也無<note place="inline">要穩索</note>。山云自有
 <lb ed="X" n="0327c24"/>廊幕在<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>成閑管</note>。巖云還出入否<note place="inline">誰能見面</note>。山云不出入<note place="inline">元來
@@ -504,7 +509,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0328a15"/>關松雪。僧堂&CB02083;隙塵。自慚雙&CB05227;下。不是解空人。至今
 <lb ed="X" n="0328a16"/>詩頌石刻俱在。唐高僧詩謂。前篇乃清塞贈&CB00177;巖所
 <lb ed="X" n="0328a17"/>作。此方既名&CB00177;巖。鄂州宜號北巖。了無疑也。祖燈所
-<lb ed="X" n="0328a18"/>載。師與密師伯同訪。今此略之。無<anchor id="fnX67p0328a01"/>正意。巖以尋常
+<lb ed="X" n="0328a18"/>載。師與密師伯同訪。今此略之。無<note n="0328001" resp="Xuzangjing" place="foot text" type="orig">（&CB18845;版字体不明，害&M062446;字&M062411;。&CB18834;）</note>正意。巖以尋常
 <lb ed="X" n="0328a19"/>問答要歸心性。向佛未出世空劫前時。審知浩浩真
 <lb ed="X" n="0328a20"/>常。委悉如如妙體。擬之則差。議之則錯。非智識之可
 <lb ed="X" n="0328a21"/>參詳。非言談之可窮究。所以用至尊至貴為喻。巖雖
@@ -544,8 +549,8 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0328c05"/>滿膏油。索甚箭剔&CB02117;燈。暫圖精細。故以頭上寶花冠
 <lb ed="X" n="0328c06"/>打發這僧。為復是厚幣甘言。為復是著本圖利。為復
 <lb ed="X" n="0328c07"/>是眼裏拔釘。為復是腦後抽楔。向此一轉語下見諦
-<lb ed="X" n="0328c08"/>明白。不止頭輕眼明。使汝心神<anchor id="fnX67p0328c02"/>罄快。可怜無價寶。撞
-<lb ed="X" n="0328c09"/>著杜波斯。返復又問頭上寶花冠意旨如何。可謂<anchor id="fnX67p0328c03"/>分
+<lb ed="X" n="0328c08"/>明白。不止頭輕眼明。使汝心神<note n="0328002" resp="Xuzangjing" place="foot text" type="orig">罄疑慶</note>罄快。可怜無價寶。撞
+<lb ed="X" n="0328c09"/>著杜波斯。返復又問頭上寶花冠意旨如何。可謂<note n="0328003" resp="Xuzangjing" place="foot text" type="orig">分上入只為二字見</note>分
 <lb ed="X" n="0328c10"/>明極。&CB00549;令所得遲。不免雲巖盡情為濟竭力提&CB00234;道。
 <lb ed="X" n="0328c11"/>大唐天子及冥王。雖是婆心太切。焉知愚騃呆癡。奉
 <lb ed="X" n="0328c12"/>以明珠認為泥彈。於斯不悟金剛旨。惹得疑情滿世
@@ -576,7 +581,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0329a12"/>如何是異類中行<note place="inline">吽</note>。山云。吾今困倦。且待別時來
 <lb ed="X" n="0329a13"/><note place="inline">暗裏抽橫骨。明中坐舌頭</note>。巖云某甲特為此事來<note place="inline">知恩報恩人間幾幾</note>。山
 <lb ed="X" n="0329a14"/>云且去<note place="inline">不遇知音者。徒勞話歲寒</note>。巖便出<note place="inline">可惜蹉過</note>。道吾在方丈外
-<lb ed="X" n="0329a15"/>聞雲巖不薦。不覺咬得指頭血出<note place="inline">&CB15143;子不快<anchor id="fnX67p0329a01"/>〔&CB00516;〕殺鬅頭</note>。吾&CB00230;
+<lb ed="X" n="0329a15"/>聞雲巖不薦。不覺咬得指頭血出<note place="inline">&CB15143;子不快<note n="0329001" resp="Xuzangjing" place="foot text" type="orig">&CB00516;疑瞥</note>〔&CB00516;〕殺鬅頭</note>。吾&CB00230;
 <lb ed="X" n="0329a16"/>下來問巖兄云。問和尚那。因緣作麼生<note place="inline">更與垂慈傍通一線</note>。
 <lb ed="X" n="0329a17"/>巖云不為某甲說<note place="inline">苦瓠連根苦</note>。吾便低頭<note place="inline">慚愧殺人</note>。</p>
 <lb ed="X" n="0329a18"/><p id="pX67p0329a1801">師云。一母生兒幾百般。果然利鈍不相謾。藏身露影
@@ -691,7 +696,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0330c02"/>試向影中辨取。頌曰。</p>
 <lb ed="X" n="0330c03"/><p id="pX67p0330c0301" rend="margin-left:1em">威音那畔不能行<note place="inline">舉步落危途</note>。撒手還家懶問程<note place="inline">坐&CB00473;即不
 <lb ed="X" n="0330c04"/>堪</note>。&CB05903;殿無人空寂寂<note place="inline">沒蹤跡</note>。滿軒唯有月&CB00980;明<note place="inline">斷消息</note>。</p>
-<lb ed="X" n="0330c05"/><p id="pX67p0330c0501">師云。空劫以前難話會。威音那畔絕承當。<anchor id="fnX67p0330c01"/>按家樂業
+<lb ed="X" n="0330c05"/><p id="pX67p0330c0501">師云。空劫以前難話會。威音那畔絕承當。<note n="0330001" resp="Xuzangjing" place="foot text" type="orig">按疑安</note>按家樂業
 <lb ed="X" n="0330c06"/>休胡走。枉費盤纏漫忖量。不如撒手歸家穩坐。莫問
 <lb ed="X" n="0330c07"/>前程可與不可。肯來袖手伴雲閑。自有知音來斷和。
 <lb ed="X" n="0330c08"/>若論此事應&CB05903;其言。若殿宇之深沉。軒&CB00275;之窅寞。無
@@ -809,7 +814,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0332a20"/>此觀來。觸目菩提無空缺處。更嫌何處不分明。吾喚
 <lb ed="X" n="0332a21"/>沙彌。彌應喏。吾云添淨瓶水著。林泉道。隔壁不勞供
 <lb ed="X" n="0332a22"/>短狀。元來有理不高聲。良久吾&CB00230;問霜汝適來問甚
-<lb ed="X" n="0332a23"/>麼。腦後<anchor id="fnX67p0332a01"/>這槌。如覺痛自然心地得安寧。霜擬舉。劍去
+<lb ed="X" n="0332a23"/>麼。腦後<note n="0332001" resp="Xuzangjing" place="foot text" type="orig">這疑一</note>這槌。如覺痛自然心地得安寧。霜擬舉。劍去
 <lb ed="X" n="0332a24"/>久矣爾方刻舟。吾歸方丈。霜乃有省。一念回光便同
 <pb ed="X" id="X67.1304.0332b" n="0332b"/>
 <lb ed="X" n="0332b01"/>本得。後來果有僧問。咫尺之間為甚麼不&CB00418;師顏。霜
@@ -852,7 +857,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0332c13"/>吾云。生也不道。死也不道。曰為甚麼不道。云不道不
 <lb ed="X" n="0332c14"/>道。歸至中路師曰。和尚今日須與某甲道。若不道。打
 <lb ed="X" n="0332c15"/>和尚去也。吾云。打即任打。道即不道。師便打。吾歸院
-<lb ed="X" n="0332c16"/>曰。汝宜離此去。恐知事得知不便。師乃禮辭隱于<anchor id="fnX67p0332c02"/>中
+<lb ed="X" n="0332c16"/>曰。汝宜離此去。恐知事得知不便。師乃禮辭隱于<note n="0332002" resp="Xuzangjing" place="foot text" type="orig">中疑村</note>中
 <lb ed="X" n="0332c17"/>院。經三年後。忽聞童子念觀音經。至應以比丘身得
 <lb ed="X" n="0332c18"/>度者即現比丘身。忽然大省。遂焚香遙禮曰。信知先
 <lb ed="X" n="0332c19"/>師遺言終不&CB00980;發。自是我不會。&CB00230;怨先師。先師既沒。
@@ -866,7 +871,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0333a02"/>問端由。又恐依前蹉過。曰&CB00697;先師靈骨。林泉道。以往
 <lb ed="X" n="0333a03"/>觀來大似佯慈悲假孝順。云洪波浩渺白浪滔天&CB00697;
 <lb ed="X" n="0333a04"/>甚麼先師靈骨。林泉道。&CB00508;難不&CB00508;易。&CB00508;易誰不會。果
-<lb ed="X" n="0333a05"/>然道正好著力。林泉道。但辨肯心必不相賺。云這<anchor id="fnX67p0333a01"/>箇
+<lb ed="X" n="0333a05"/>然道正好著力。林泉道。但辨肯心必不相賺。云這<note n="0333001" resp="Xuzangjing" place="foot text" type="orig">箇疑裏</note>箇
 <lb ed="X" n="0333a06"/>針劄不入著甚麼力。林泉道。雖云無縫罅。寧免見披
 <lb ed="X" n="0333a07"/>離。源持鍬肩上便行。可謂下坡不走。快便難逢。太原
 <lb ed="X" n="0333a08"/>孚尚座果是忍俊不禁。與代語云。先師靈骨猶在。林
@@ -894,11 +899,11 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0333b05"/>直得不出門。亦是草漫漫地<note place="inline">靜沉死水更難甘</note>。</p>
 <lb ed="X" n="0333b06"/><p id="pX67p0333b0601">師云。一大圓覺為我伽藍。云何解制而論東西。直饒
 <lb ed="X" n="0333b07"/>指教深隱寒巖飽看冷翠。坐白雲而終須不妙。守丹
-<lb ed="X" n="0333b08"/>嶠而未必便宜。教人指<anchor id="fnX67p0333b02"/>默垛根。到了枉稱&CB00516;古。所以
+<lb ed="X" n="0333b08"/>嶠而未必便宜。教人指<note n="0333002" resp="Xuzangjing" place="foot text" type="orig">默疑點</note>默垛根。到了枉稱&CB00516;古。所以
 <lb ed="X" n="0333b09"/>洞山恐伊墮在無事界中弄巧成拙弱喪忘歸。良久
 <lb ed="X" n="0333b10"/>云只如萬里無寸草處作麼生去此。皆養子之緣怕
 <lb ed="X" n="0333b11"/>折姦便。可謂兒行千里母行千里。&CB00549;覆尋思再三招
-<lb ed="X" n="0333b12"/>撥。顧視左右云。欲知此事直須枯木上生花方與<anchor id="fnX67p0333b03"/>地
+<lb ed="X" n="0333b12"/>撥。顧視左右云。欲知此事直須枯木上生花方與<note n="0333003" resp="Xuzangjing" place="foot text" type="orig">地疑他</note>地
 <lb ed="X" n="0333b13"/>合。可謂正雖正而偏。偏雖偏而圓。一日藥山指枯榮
 <lb ed="X" n="0333b14"/>二樹問道吾曰。枯者是榮者是。道吾云榮者是。山曰
 <lb ed="X" n="0333b15"/>灼然一切處光明燦爛去。又問雲巖云枯者是榮者
@@ -1001,7 +1006,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0334c12"/>不行鳥道。可謂有收有放能殺能活。非大宗師無此
 <lb ed="X" n="0334c13"/>機變。幸遇丹霞&CB15325;相證據。頌曰。</p>
 <lb ed="X" n="0334c14"/><p id="pX67p0334c1401" rend="margin-left:1em">古路翛然倚太&CB00980;<note place="inline">高高標不出</note>。行玄猶是涉崎嶇<note place="inline">舉步落危
-<lb ed="X" n="0334c15"/>崖</note>。不登鳥道雖為妙<note place="inline">勿<anchor id="fnX67p0334c01"/>〔為〕無心云是道</note>。點檢將來<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>觸途
+<lb ed="X" n="0334c15"/>崖</note>。不登鳥道雖為妙<note place="inline">勿<note n="0334001" resp="Xuzangjing" place="foot text" type="orig">為通謂</note>〔為〕無心云是道</note>。點檢將來<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>觸途
 <lb ed="X" n="0334c16"/><note place="inline">無心猶間一重關</note>。</p>
 <lb ed="X" n="0334c17"/><p id="pX67p0334c1701">師云。處處長安道。門門古佛家。&CB00560;跟不點地。枉厭路
 <lb ed="X" n="0334c18"/>途賒。不見道&CB00669;閣路雖險。更高人也行。行斯玄路寧
@@ -1053,7 +1058,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0335b14"/><note place="inline">差之毫厘失之千里</note>。</p>
 <lb ed="X" n="0335b15"/><p id="pX67p0335b1501">師云。澧州洛浦山元安禪師。久參臨濟。後嗣夾山。問
 <lb ed="X" n="0335b16"/>答機緣具述投子。茲不復云。慣曾為旅偏怜客。自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>
-<lb ed="X" n="0335b17"/>貪杯<anchor id="fnX67p0335b01"/>識醉人。不&CB00385;慈悲為指示。恐伊蹉過謾勞神。其
+<lb ed="X" n="0335b17"/>貪杯<note n="0335001" resp="Xuzangjing" place="foot text" type="orig">識疑惜</note>識醉人。不&CB00385;慈悲為指示。恐伊蹉過謾勞神。其
 <lb ed="X" n="0335b18"/>實本來真性妙覺明心。&CB00040;古&CB00040;今何&CB00573;離<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>。雖曩劫
 <lb ed="X" n="0335b19"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>來背覺合塵迷真執妄。從聞思修之三慧。守戒定
 <lb ed="X" n="0335b20"/>慧之三學。<app><lem wit="【CBETA】" resp="CBETA.maha">祛</lem><rdg wit="【卍續】">袪</rdg></app>除情執&CB05178;煉身心。要悟真常直明本性
@@ -1088,7 +1093,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0335c24"/>甲不會乞師指示。曰。萬古長空。一朝風月。僧無語。曰
 <pb ed="X" id="X67.1304.0336a" n="0336a"/>
 <lb ed="X" n="0336a01"/>闍&CB04968;會麼。云不會。曰。自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>分上作麼生。干他達摩來
-<lb ed="X" n="0336a02"/>與未來<anchor id="fnX67p0336a01"/>甚事。他家來大似賣卜漢。見汝不會。為汝錐
+<lb ed="X" n="0336a02"/>與未來<note n="0336001" resp="Xuzangjing" place="foot text" type="orig">甚事或作作麼</note>甚事。他家來大似賣卜漢。見汝不會。為汝錐
 <lb ed="X" n="0336a03"/>破。卦文纔生。吉凶盡在汝分上。一切自看。僧云如何
 <lb ed="X" n="0336a04"/>是解卜底。又曰汝纔出門時便不中也。林泉道。靈龜
 <lb ed="X" n="0336a05"/>無卦兆。空&CB15051;不勞鑽。這僧既問西來祖意。怎不教洛
@@ -1123,7 +1128,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0336b09"/>蒙籠。若使恁麼會去。膠膠因果不勞逐語分宗。其或
 <lb ed="X" n="0336b10"/>罔措未明。綴綴功過切忌隨言定旨。大藏一覽云。佛
 <lb ed="X" n="0336b11"/>為須達說布施果報。謂多施少報少施多報。供養百
-<lb ed="X" n="0336b12"/>千<anchor id="fnX67p0336b02"/>諸佛不如供養一淨行。乃至供養百千諸佛不如
+<lb ed="X" n="0336b12"/>千<note n="0336002" resp="Xuzangjing" place="foot text" type="orig">諸佛當作白衣</note>諸佛不如供養一淨行。乃至供養百千諸佛不如
 <lb ed="X" n="0336b13"/>供養一無心道人。雖然如是。不見道。勿為無心云是
 <lb ed="X" n="0336b14"/>道。無心猶隔一重關。所以這僧疑問諸佛之過道人
 <lb ed="X" n="0336b15"/>之德。若非洛浦眼如掣電機似走珠。明歷歷活鱍鱍。
@@ -1163,7 +1168,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0336c24"/>林泉道。好手手中還好手。紅心心裏中紅心。況乃聲
 <pb ed="X" id="X67.1304.0337a" n="0337a"/>
 <lb ed="X" n="0337a01"/>前一句圓音落落而韻美。堪聞物外三山片月輝輝
-<lb ed="X" n="0337a02"/>而光明可玩。若是汝識心見性。何消我<anchor id="fnX67p0337a01"/>恃語多言。其
+<lb ed="X" n="0337a02"/>而光明可玩。若是汝識心見性。何消我<note n="0337001" resp="Xuzangjing" place="foot text" type="orig">恃或作特</note>恃語多言。其
 <lb ed="X" n="0337a03"/>或未然。三&CB00560;靈龜荒逕走。一枝瑞草亂峰垂。</p></div1>
 <lb ed="X" n="0337a04"/><div1 type="other"><mulu type="其他" level="1" label="第二十四則　蛤溪相看(省訪)"/><head>第二十四則　蛤溪相看<note place="inline">省訪</note></head>
 <lb ed="X" n="0337a05"/><p id="pX67p0337a0501">示眾云。銅盆撞著鐵刷子。嚴婆撞著惡妮子。軟廝禁
@@ -1250,7 +1255,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0338a11"/>人雖聞此說。猶未決了。乞和尚示誨令無疑滯。祖曰。
 <lb ed="X" n="0338a12"/>彼師所說猶存見知。故令汝未了。吾今示汝一偈曰。
 <lb ed="X" n="0338a13"/>不見一法存無見。大似浮雲遮日面。不知一法守空
-<lb ed="X" n="0338a14"/>知。還如太&CB00980;生閃電。此之知見瞥然興錯認何<anchor id="fnX67p0338a01"/>妨解
+<lb ed="X" n="0338a14"/>知。還如太&CB00980;生閃電。此之知見瞥然興錯認何<note n="0338001" resp="Xuzangjing" place="foot text" type="orig">妨疑曾</note>妨解
 <lb ed="X" n="0338a15"/>方便。汝當一念自知非。自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>靈光常顯現。常聞偈<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>
 <lb ed="X" n="0338a16"/>心意豁然。乃述一偈曰。無端起知解。著相求菩提。情
 <lb ed="X" n="0338a17"/>存一念悟。寧越昔時迷。自性覺源體。隨照枉遷流。不
@@ -1430,7 +1435,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0340b16"/>哮吼。雖是滿口許伊。就裏倍酬高價。擬欲見錢多賣。
 <lb ed="X" n="0340b17"/>須索秤稱斗量。便宜既出當家。豈免丹霞合貼。頌曰。</p>
 <lb ed="X" n="0340b18"/><p id="pX67p0340b1801" rend="margin-left:1em">父子相逢眼倍明<note place="inline">內外玲瓏</note>。靈苗叢裏坦然行<note place="inline">縱橫自在</note>。箇
-<lb ed="X" n="0340b19"/>中若<anchor id="fnX67p0340b01"/>為金毛子<note place="inline">莫錯認</note>。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是鹽梅觸大羹<note place="inline">幸自可怜生</note>。</p>
+<lb ed="X" n="0340b19"/>中若<note n="0340001" resp="Xuzangjing" place="foot text" type="orig">為或作謂</note>為金毛子<note place="inline">莫錯認</note>。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>是鹽梅觸大羹<note place="inline">幸自可怜生</note>。</p>
 <lb ed="X" n="0340b20"/><p id="pX67p0340b2001">師云。見與師齊減師半德。見過於師方堪傳授。是知
 <lb ed="X" n="0340b21"/>師勝資強。人天眼目。此乃倍明之靈驗歟。脫或養子
 <lb ed="X" n="0340b22"/>不及父。家門一世衰。何有是稱者也。於靈苗叢裏今
@@ -1492,7 +1497,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0341b03"/>漠心源豈遐邇之可校。儻能飲者莫不消諸渴矣。於
 <lb ed="X" n="0341b04"/>此<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>辦肯心。到底必不相賺。更看丹霞盡情贊譽。頌
 <lb ed="X" n="0341b05"/>曰。</p>
-<lb ed="X" n="0341b06"/><p id="pX67p0341b0601" rend="margin-left:1em">曹溪源派古之今<note place="inline"><anchor id="fnX67p0341b01"/>〔語話〕不斷</note>。意識徒將<anchor id="fnX67p0341b02"/>渡淺深<note place="inline">照故撩倒</note>。好
+<lb ed="X" n="0341b06"/><p id="pX67p0341b0601" rend="margin-left:1em">曹溪源派古之今<note place="inline"><note n="0341001" resp="Xuzangjing" place="foot text" type="orig">語話空谷作涓涓</note>〔語話〕不斷</note>。意識徒將<note n="0341002" resp="Xuzangjing" place="foot text" type="orig">渡疑度</note>渡淺深<note place="inline">照故撩倒</note>。好
 <lb ed="X" n="0341b07"/>是昔人游戲處<note place="inline">神通廣大</note>。雖然入井不曾沉<note place="inline">變化多端</note>。</p>
 <lb ed="X" n="0341b08"/><p id="pX67p0341b0801">師云。自曹溪六祖大鑒之後源分派列。從古至今莫
 <lb ed="X" n="0341b09"/>不兒孫蔓衍法道興隆。剪惑裁疑聯芳續焰。間有拍
@@ -1533,7 +1538,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <pb ed="X" id="X67.1304.0342a" n="0342a"/>
 <lb ed="X" n="0342a01"/>在</note>。</p>
 <lb ed="X" n="0342a02"/><p id="pX67p0342a0201">師云。參須實參悟須實悟。閻羅大王不怕多語。雖是
-<lb ed="X" n="0342a03"/>走南掠北指東畫西。向人眉尖眼角口內舌邊漸<anchor id="fnX67p0342a01"/>&CB16272;
+<lb ed="X" n="0342a03"/>走南掠北指東畫西。向人眉尖眼角口內舌邊漸<note n="0342001" resp="Xuzangjing" place="foot text" type="orig">&CB16272;疑&CB18937;</note>&CB16272;
 <lb ed="X" n="0342a04"/>得幾句終不濟事。所以道一一須向自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>胸中流出
 <lb ed="X" n="0342a05"/>方始&CB02649;天&CB02649;地。這裏全不用你靈牙利齒文過飾非。
 <lb ed="X" n="0342a06"/>窮觜餓舌頭勦呵閑賣俏。枉&CB00386;平生&CB00980;勞神思。況此
@@ -1582,7 +1587,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0342b24"/>頭盡是兒孫事。祖父從來不出門。有達此理者麼。</p>
 <pb ed="X" id="X67.1304.0342c" n="0342c"/>
 <lb ed="X" n="0342c01"/><p id="pX67p0342c0101" rend="margin-left:1em">舉僧問九峰&CB05418;禪師。承聞和尚有言。諸聖間出只
-<lb ed="X" n="0342c02"/>是傳語人是否<note place="inline">你向甚麼處得這消息來</note>。峰云是<note place="inline"><anchor id="fnX67p0342c02"/>〔冬〕能諱得</note>。僧云。世
+<lb ed="X" n="0342c02"/>是傳語人是否<note place="inline">你向甚麼處得這消息來</note>。峰云是<note place="inline"><note n="0342002" resp="Xuzangjing" place="foot text" type="orig">冬疑爭</note>〔冬〕能諱得</note>。僧云。世
 <lb ed="X" n="0342c03"/>尊一手指天一手指地。天上天下唯我獨尊。和尚
 <lb ed="X" n="0342c04"/>為甚麼&CB00230;喚作傳語人<note place="inline">果然疑&CB00473;</note>。峰云。只為一手指天
 <lb ed="X" n="0342c05"/>一手指地。所以喚作傳語人<note place="inline">巧說不如直道</note>。</p>
@@ -1608,13 +1613,13 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <pb ed="X" id="X67.1304.0343a" n="0343a"/>
 <lb ed="X" n="0343a01"/>指地獨貴獨尊。第二門頭不勞出現。子細看來。怎如
 <lb ed="X" n="0343a02"/>向然燈前威音外。無名無姓無是無非。&CB00230;救得一半。
-<lb ed="X" n="0343a03"/>擬乘白象欲降王宮。乃至出家成道說法度人。安<anchor id="fnX67p0343a01"/>待
+<lb ed="X" n="0343a03"/>擬乘白象欲降王宮。乃至出家成道說法度人。安<note n="0343001" resp="Xuzangjing" place="foot text" type="orig">待疑得</note>待
 <lb ed="X" n="0343a04"/>不名傳言送語者歟。只如尊貴一路。未審合向甚麼
 <lb ed="X" n="0343a05"/>處瞻仰。還相委悉麼。欲識誕生王子父。&CB15112;騰霄漢出
 <lb ed="X" n="0343a06"/>銀籠。</p></div1>
 <lb ed="X" n="0343a07"/><div1 type="other"><mulu type="其他" level="1" label="第三十七則　九峰相傳(佛祖)"/><head>第三十七則　九峰相傳<note place="inline">佛祖</note></head>
 <lb ed="X" n="0343a08"/><p id="pX67p0343a0801">示眾云。住持千嶂月。孰可依栖。衣&CB00425;一溪雲。誰堪承
-<lb ed="X" n="0343a09"/>受。儻肯舒心將去。休愁信手拈來。冬&CB00025;印莫錯<anchor id="fnX67p0343a02"/>摶&CB02494;。
+<lb ed="X" n="0343a09"/>受。儻肯舒心將去。休愁信手拈來。冬&CB00025;印莫錯<note n="0343002" resp="Xuzangjing" place="foot text" type="orig">摶跋疑探拔</note>摶&CB02494;。
 <lb ed="X" n="0343a10"/>西祖意試詳思忖。有敢奔湊者麼。</p>
 <lb ed="X" n="0343a11"/><p id="pX67p0343a1101" rend="margin-left:1em">舉僧問九峰。祖祖相傳。當傳何事<note place="inline">誰敢妄傳消息</note>。峰云。釋
 <lb ed="X" n="0343a12"/>迦慳。迦葉富<note place="inline">說破家門</note>。僧云如何是釋迦慳<note place="inline">無法可說</note>。峰云
@@ -1669,7 +1674,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0343c11"/>未會先師意在<note place="inline">謝證據</note>。座云。你不肯我那。裝香來<note place="inline">都緣
 <lb ed="X" n="0343c12"/>茅草火。燒&CB00230;太行山</note>。乃焚香云。我不會先師。意香&CB00195;起處脫
 <lb ed="X" n="0343c13"/>去不得者<note place="inline">休認蒲團便做天</note>。言訖便坐脫<note place="inline">只因一轉語。不籍老殘生</note>。峰
-<lb ed="X" n="0343c14"/>乃撫其背云。坐脫立亡則不無。先師意<anchor id="fnX67p0343c03"/>未在<note place="inline">半肯半不
+<lb ed="X" n="0343c14"/>乃撫其背云。坐脫立亡則不無。先師意<note n="0343003" resp="Xuzangjing" place="foot text" type="orig">未下應有夢見二字</note>未在<note place="inline">半肯半不
 <lb ed="X" n="0343c15"/>肯。誰不恁評論</note>。</p>
 <lb ed="X" n="0343c16"/><p id="pX67p0343c1601">師云。尋師訪道輔弼叢林。居&CB00573;親為石霜侍者。霜既
 <lb ed="X" n="0343c17"/>歸寂眾請首座接續住持。九峰勘辨甚有來由。故經
@@ -1850,7 +1855,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0346a17"/>山復以本分鉗鎚重重楔磕。是他久經&CB05178;煉豈怕烹
 <lb ed="X" n="0346a18"/>煎。大冶精金果無變色。幻人撫掌呵呵處。點鐵端能
 <lb ed="X" n="0346a19"/>到十成。頌曰。</p>
-<lb ed="X" n="0346a20"/><p id="pX67p0346a2001" rend="margin-left:1em"><anchor id="fnX67p0346a01"/>水底泥牛耕白月<note place="inline">切忌隨波逐浪</note>。雲中木馬驟清風<note place="inline">不應趍漢
+<lb ed="X" n="0346a20"/><p id="pX67p0346a2001" rend="margin-left:1em"><note n="0346001" resp="Xuzangjing" place="foot text" type="orig">水或作海</note>水底泥牛耕白月<note place="inline">切忌隨波逐浪</note>。雲中木馬驟清風<note place="inline">不應趍漢
 <lb ed="X" n="0346a21"/>騰空</note>。胡僧懶捧西乾&CB00425;<note place="inline">縮手有分</note>。半夜乘舟過海東<note place="inline">氣急作麼</note>。</p>
 <lb ed="X" n="0346a22"/><p id="pX67p0346a2201">師云。理極忘情謂。如何有喻齊。到頭霜夜月。任運落
 <lb ed="X" n="0346a23"/>前溪。果熟兼猿重。山長似路迷。舉頭殘照在。元是舊
@@ -1881,7 +1886,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0346b23"/>帶者冥應眾緣。不墮諸有。非染非淨非正非偏。故云
 <lb ed="X" n="0346b24"/>&CB00980;玄大道無著真宗。從上先德推此一位最妙最玄
 <pb ed="X" id="X67.1304.0346c" n="0346c"/>
-<lb ed="X" n="0346c01"/>當詳審辨明。君為正位。臣為偏位。臣向君<anchor id="fnX67p0346c02"/>偏中正。君
+<lb ed="X" n="0346c01"/>當詳審辨明。君為正位。臣為偏位。臣向君<note n="0346002" resp="Xuzangjing" place="foot text" type="orig">偏上應有是字</note>偏中正。君
 <lb ed="X" n="0346c02"/>視臣是正中偏。君臣合道是兼帶語。僧問如何是君。
 <lb ed="X" n="0346c03"/>曰。妙德尊寰宇。高明朗太&CB00980;。云如何是臣。曰。靈機弘
 <lb ed="X" n="0346c04"/>聖道。真智利群生。云如何是臣向君。曰。不墮諸異趣。
@@ -1906,13 +1911,13 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0346c23"/>霞看作麼生倒斷。頌曰。</p>
 <lb ed="X" n="0346c24"/><p id="pX67p0346c2401" rend="margin-left:1em">月中玉兔夜懷胎<note place="inline">看你怎生</note>。日裏金烏朝抱卵<note place="inline">有誰能見</note>。黑
 <pb ed="X" id="X67.1304.0347a" n="0347a"/>
-<lb ed="X" n="0347a01"/>漆崑崙踏雪行<note place="inline">正偏兼到</note>。轉身打破&CB00222;璃&CB00179;<note place="inline"><anchor id="fnX67p0347a01"/>〔罄〕快平生</note>。</p>
+<lb ed="X" n="0347a01"/>漆崑崙踏雪行<note place="inline">正偏兼到</note>。轉身打破&CB00222;璃&CB00179;<note place="inline"><note n="0347001" resp="Xuzangjing" place="foot text" type="orig">罄疑慶</note>〔罄〕快平生</note>。</p>
 <lb ed="X" n="0347a02"/><p id="pX67p0347a0201">師云。金烏東出玉兔西沒。曉夜相續人皆知有。懷胎
 <lb ed="X" n="0347a03"/>抱卵妙密難明。識情卜度知無數。到了終非杜撰成。
 <lb ed="X" n="0347a04"/>況此一事藉言顯理。理本無言。若認無言死於句下。
 <lb ed="X" n="0347a05"/>恰與口欲談而辭喪。心欲緣而慮忘為道侶也。汝豈
 <lb ed="X" n="0347a06"/>不聞花嚴大經云。世法即佛法。佛法即世法。莫於佛
-<lb ed="X" n="0347a07"/>法中分別世間法。世間法中分別佛法。又<anchor id="fnX67p0347a02"/>般若經云。
+<lb ed="X" n="0347a07"/>法中分別世間法。世間法中分別佛法。又<note n="0347002" resp="Xuzangjing" place="foot text" type="orig">般若恐涅槃</note>般若經云。
 <lb ed="X" n="0347a08"/>麤言及細語。皆歸第一義。古不云乎。是處語言皆合
 <lb ed="X" n="0347a09"/>道。誰家絃管不傳心。明明百草頭。明明祖師意。豈&CB00980;
 <lb ed="X" n="0347a10"/>語哉。又云。明暗相參殺活機。大人境界普賢知。非久
@@ -1965,7 +1970,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0347c07"/>人著價<note place="inline">開口廝當</note>。</p>
 <lb ed="X" n="0347c08"/><p id="pX67p0347c0801">師云。世之徒知有用之必用。而不知無用之大用。至
 <lb ed="X" n="0347c09"/>若七珍八寶唯益貪婪。何如四智三身可增利益。這
-<lb ed="X" n="0347c10"/>僧擬索<anchor id="fnX67p0347c03"/>形山之寶如意神珠。豈意曹山以不貴之貨
+<lb ed="X" n="0347c10"/>僧擬索<note n="0347003" resp="Xuzangjing" place="foot text" type="orig">形疑荊</note>形山之寶如意神珠。豈意曹山以不貴之貨
 <lb ed="X" n="0347c11"/>打發學人道死&CB00339;兒頭。這僧若便承言滯句墮落常
 <lb ed="X" n="0347c12"/>情。向貴賤上鑽研。於行市內窮究。直至彌勒下生也
 <lb ed="X" n="0347c13"/>著交不得。這僧果然滿肚懷疑整理不下。道為甚麼
@@ -2028,7 +2033,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0348b20"/>還有人道得麼<note place="inline">青山誰管你閑事</note>。僧云未有人道得<note place="inline">莫累他好</note>。
 <lb ed="X" n="0348b21"/>嶺云。汝回舉似&CB00520;山道。大嶺聞舉有語云。若將三
 <lb ed="X" n="0348b22"/>文錢與匠人。和尚今生決定不得塔<note place="inline">待要作麼</note>。若將兩
-<lb ed="X" n="0348b23"/>文錢與匠人。和尚與匠人共<anchor id="fnX67p0348b01"/>垂一隻手<note place="inline">徒勞摸索</note>。若將
+<lb ed="X" n="0348b23"/>文錢與匠人。和尚與匠人共<note n="0348001" resp="Xuzangjing" place="foot text" type="orig">垂或作出</note>垂一隻手<note place="inline">徒勞摸索</note>。若將
 <lb ed="X" n="0348b24"/>一文錢與匠人。累他匠人眉鬚墮落<note place="inline">好心招惡報</note>。其僧
 <pb ed="X" id="X67.1304.0348c" n="0348c"/>
 <lb ed="X" n="0348c01"/>回舉似&CB00520;山<note place="inline">來往不易</note>。山具威儀望大嶺禮拜嘆云。大
@@ -2091,13 +2096,13 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0349b08"/>&CB00560;易。夜明簾外轉身難。且隨老木同寒瘠。將逐春風
 <lb ed="X" n="0349b09"/>入燒瘢。動則埋身千丈。不動則當處生苗。若定若動
 <lb ed="X" n="0349b10"/>當人變弄。埋沒生苗休閑打&CB04943;。一言&CB00529;脫獨拔當時。
-<lb ed="X" n="0349b11"/>正是古靈道底。靈光獨耀&CB00529;脫根塵。正當此<anchor id="fnX67p0349b01"/>是。若是
+<lb ed="X" n="0349b11"/>正是古靈道底。靈光獨耀&CB00529;脫根塵。正當此<note n="0349001" resp="Xuzangjing" place="foot text" type="orig">是疑時</note>是。若是
 <lb ed="X" n="0349b12"/>洒洒落落。何慮不能超群拔萃者也。雖道言語不要
 <lb ed="X" n="0349b13"/>多。多則無用處。點檢將來。大似擔枷過狀。揚聲止響。
 <lb ed="X" n="0349b14"/>祇如許一落索有用處無用處。是他丹霞自知下落。
 <lb ed="X" n="0349b15"/>頌曰。</p>
 <lb ed="X" n="0349b16"/><p id="pX67p0349b1601" rend="margin-left:1em">門頭戶尾事千差<note place="inline">徒勞屈指從頭數</note>。了盡猶來未到家<note place="inline">&CI0002;
-<lb ed="X" n="0349b17"/>辛苦幾時休</note>。明月堂前無影木<note place="inline">能為萬象主</note>。嚴凝雪夜<anchor id="fnX67p0349b02"/>正開
+<lb ed="X" n="0349b17"/>辛苦幾時休</note>。明月堂前無影木<note place="inline">能為萬象主</note>。嚴凝雪夜<note n="0349002" resp="Xuzangjing" place="foot text" type="orig">正或作忽</note>正開
 <lb ed="X" n="0349b18"/>花<note place="inline">不逐四時凋</note>。</p>
 <lb ed="X" n="0349b19"/><p id="pX67p0349b1901">師云。門門有路戶戶無私。明之者弄影搖頭。昧之者
 <lb ed="X" n="0349b20"/>磕天絆地。非止斜街暗巷生客頭迷。亦猶深院幽庭
@@ -2163,7 +2168,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0350b07"/><div1 type="other"><mulu type="其他" level="1" label="第五十則　二鼠侵藤(飛走)"/><head>第五十則　二鼠侵藤<note place="inline">飛走</note></head>
 <lb ed="X" n="0350b08"/><p id="pX67p0350b0801">示眾云。潛續命根故有生而有滅。圓成道果本無去
 <lb ed="X" n="0350b09"/>以無來。任伊利齒靈牙。一任橫囓&CB00594;咬。正當此時與
-<lb ed="X" n="0350b10"/>解<anchor id="fnX67p0350b01"/>腕者麼。</p>
+<lb ed="X" n="0350b10"/>解<note n="0350001" resp="Xuzangjing" place="foot text" type="orig">腕疑脫</note>腕者麼。</p>
 <lb ed="X" n="0350b11"/><p id="pX67p0350b1101" rend="margin-left:1em">舉僧問龍牙遁禪師。二鼠侵藤時如何<note place="inline">禍不單行</note>。牙云
 <lb ed="X" n="0350b12"/>須有隱身處始得<note place="inline">指示分明</note>。僧云如何是隱身處<note place="inline">聞風便颺</note>。
 <lb ed="X" n="0350b13"/>牙云還見儂家麼<note place="inline">眼巧不如樣子比</note>。</p>
@@ -2265,7 +2270,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0351c09"/>中取則。直須句外明宗。若肯恁麼會去。方知無說說。
 <lb ed="X" n="0351c10"/>始信不聞聞。所以杜順和尚亦有頌曰。懷州牛喫禾。
 <lb ed="X" n="0351c11"/>益州馬腹脹。天下覓醫人。灸&CB00337;左膞上。汝等諸人稍
-<lb ed="X" n="0351c12"/>知痛痒。必不倚官挾勢<anchor id="fnX67p0351c01"/>番悔藥錢。何也。近日王令稍
+<lb ed="X" n="0351c12"/>知痛痒。必不倚官挾勢<note n="0351001" resp="Xuzangjing" place="foot text" type="orig">番通翻</note>番悔藥錢。何也。近日王令稍
 <lb ed="X" n="0351c13"/>嚴。誰敢妄傳消息。頌曰。</p>
 <lb ed="X" n="0351c14"/><p id="pX67p0351c1401" rend="margin-left:1em">九重深密視聽難<note place="inline">端拱無為</note>。玉殿瓊樓宿霧攢<note place="inline">仰望不及</note>。&CB05307;
 <lb ed="X" n="0351c15"/>理盡歸臣相事<note place="inline">須假傍來</note>。輪王不戴寶花冠<note place="inline">天然尊貴</note>。</p>
@@ -2372,7 +2377,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0353a16"/>一夢。又問地獄畢竟是有是無。答曰諸佛向無中說
 <lb ed="X" n="0353a17"/>有。眼見空花。太尉就有中&CB00697;無。手&CB15565;水月。堪笑眼前
 <lb ed="X" n="0353a18"/>見牢獄。不避心外見天堂。欲生殊不知欣怖在心善
-<lb ed="X" n="0353a19"/>惡成<anchor id="fnX67p0353a01"/>就。太尉但了自心。自然無惑。進曰心如何了。答
+<lb ed="X" n="0353a19"/>惡成<note n="0353001" resp="Xuzangjing" place="foot text" type="orig">就疑境</note>就。太尉但了自心。自然無惑。進曰心如何了。答
 <lb ed="X" n="0353a20"/>曰善惡都莫思量。又問不思量後心歸何所。達觀曰
 <lb ed="X" n="0353a21"/>且請太尉歸衙。林泉道。不因師指示。幾乎錯商量。洞
 <lb ed="X" n="0353a22"/>山答處可謂忘言絕慮。越聖超凡。擊碎玄關掣開金
@@ -2385,7 +2390,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0353b04"/><p id="pX67p0353b0401">師云。三十二相八十種好。妙體如如聲光浩浩。磊磊
 <lb ed="X" n="0353b05"/>落落巍巍堂堂。具丈夫相堪紹法王。此豈非一切眾
 <lb ed="X" n="0353b06"/>生具有如來智慧德相者邪。雖則一生閑散百事無
-<lb ed="X" n="0353b07"/>成。縮德露疵內<anchor id="fnX67p0353b02A"/>憨外<anchor id="fnX67p0353b02B"/>俏。大巧若拙大智如愚。古德有
+<lb ed="X" n="0353b07"/>成。縮德露疵內<note n="0353002A" resp="Xuzangjing" place="foot text" type="orig">憨俏疑倒</note><note n="0353002A" resp="CBETA" type="mod">憨疑作俏</note>憨外<note n="0353002B" resp="Xuzangjing" place="foot text" type="orig">憨俏疑倒</note><note n="0353002B" resp="CBETA" type="mod">俏疑作憨</note>俏。大巧若拙大智如愚。古德有
 <lb ed="X" n="0353b08"/>語云。我見持齋守戒者亦不敬。我見破齋犯戒者亦
 <lb ed="X" n="0353b09"/>不輕。何也。持齋守戒者出家本分事也。破齋犯戒者
 <lb ed="X" n="0353b10"/>凡夫地面也。所以道不敬持戒不輕初學。若能愛惡
@@ -2396,7 +2401,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0353b15"/><p id="pX67p0353b1501">示眾云。窮玄究妙。好肉剜瘡。絕學無為。靈龜曳尾。超
 <lb ed="X" n="0353b16"/>情離見處。有道得的麼。</p>
 <lb ed="X" n="0353b17"/><p id="pX67p0353b1701" rend="margin-left:1em">舉僧問北院靜禪師。牛頭未見四祖時如何<note place="inline">曙色未分
-<lb ed="X" n="0353b18"/>人盡望</note>。院云。異境靈<anchor id="fnX67p0353b03"/>枝。&CB00418;者皆羨<note place="inline">鮓瓮乍開蠅咂咂</note>。僧云見
+<lb ed="X" n="0353b18"/>人盡望</note>。院云。異境靈<note n="0353003" resp="Xuzangjing" place="foot text" type="orig">枝疑松</note>枝。&CB00418;者皆羨<note place="inline">鮓瓮乍開蠅咂咂</note>。僧云見
 <lb ed="X" n="0353b19"/>後如何<note place="inline">及乎天曉也尋常</note>。院云。葉落<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>枝摧。風來不得韻
 <lb ed="X" n="0353b20"/><note place="inline">底穿蕩盡冷湫湫</note>。</p>
 <lb ed="X" n="0353b21"/><p id="pX67p0353b2101">師云。京兆府永安院善靜禪師。謁洛浦。浦器之。容入
@@ -2413,10 +2418,10 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0353c07"/>法融禪師。居牛頭山幽棲寺北巖之石室。有百鳥&CB05580;
 <lb ed="X" n="0353c08"/>花之異。唐貞觀中四祖遙觀氣象。知彼山有奇異之
 <lb ed="X" n="0353c09"/>人。乃躬自尋訪。問寺僧此間有道人否。云出家兒那
-<lb ed="X" n="0353c10"/>箇不是道人。曰那箇是道人。僧無對。別僧曰。此去<anchor id="fnX67p0353c04"/>山
+<lb ed="X" n="0353c10"/>箇不是道人。曰那箇是道人。僧無對。別僧曰。此去<note n="0353004" resp="Xuzangjing" place="foot text" type="orig">山下疑脫中字</note>山
 <lb ed="X" n="0353c11"/>十里許有一懶融。見人不起亦不合掌。莫是道人麼。
 <lb ed="X" n="0353c12"/>祖遂入山。見融端坐自若曾無所&CB02033;。祖問曰在此作
-<lb ed="X" n="0353c13"/>甚麼。融曰觀心。祖云。觀是何人。心是何物。融無對。<anchor id="fnX67p0353c05"/>或
+<lb ed="X" n="0353c13"/>甚麼。融曰觀心。祖云。觀是何人。心是何物。融無對。<note n="0353005" resp="Xuzangjing" place="foot text" type="orig">或疑便起</note>或
 <lb ed="X" n="0353c14"/>作禮云大師高棲何所。祖曰。貧道不決所止。或東或
 <lb ed="X" n="0353c15"/>西。云還識道信禪師否。曰何以問他。云嚮德滋久冀
 <lb ed="X" n="0353c16"/>一禮謁。曰道信禪師貧道是也。云因何降此。曰特來
@@ -2466,7 +2471,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0354b10"/>勤修及善保護。不忘佛祖莫大深恩。幾不似寅&CB02117;奉
 <lb ed="X" n="0354b11"/>親者歟。湧泉忻禪師上堂云。我四十九年在這裏尚
 <lb ed="X" n="0354b12"/>自有時走作。汝等諸人莫開大口。見解人多行解人
-<lb ed="X" n="0354b13"/><anchor id="fnX67p0354b01"/>少萬中無一。見解言語總要知通。若識不盡敢道輪
+<lb ed="X" n="0354b13"/><note n="0354001" resp="Xuzangjing" place="foot text" type="orig">少字疑剩</note>少萬中無一。見解言語總要知通。若識不盡敢道輪
 <lb ed="X" n="0354b14"/>回去在。為何如此。&CB02649;為識漏未盡。汝但盡&CB00230;今時始
 <lb ed="X" n="0354b15"/>得成立。亦喚作立中功轉功就他去。亦喚作就中功
 <lb ed="X" n="0354b16"/>親他去。我所以道親人不得度。渠不度親人。恁麼譬
@@ -2520,7 +2525,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0355a14"/>十方無路。有人道得擺手出漳江。師曰。蟄戶不開。龍
 <lb ed="X" n="0355a15"/>無龍句。山云是你恁麼道。曰。是即直言是。不是直言
 <lb ed="X" n="0355a16"/>不是。云擺手出漳江。山復問。卞和到處荊山秀。玉印
-<lb ed="X" n="0355a17"/>從教天<anchor id="fnX67p0355a01"/>下傳時如何。曰。靈鵲不於林下憩。野老不重
+<lb ed="X" n="0355a17"/>從教天<note n="0355001" resp="Xuzangjing" place="foot text" type="orig">下疑子</note>下傳時如何。曰。靈鵲不於林下憩。野老不重
 <lb ed="X" n="0355a18"/>太平。年山深肯之。住後僧問如何是相傳底事。莫向
 <lb ed="X" n="0355a19"/>拈花處會。休於微笑時猜。面壁九年終難訴說。立雪
 <lb ed="X" n="0355a20"/>齊腰將勤補拙。其實相傳一事唯佛與佛乃能知之。
@@ -2544,7 +2549,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0355b13"/><p id="pX67p0355b1301">示眾云。攝境歸心爭肯靜沉死水。應緣利物寧教動
 <lb ed="X" n="0355b14"/>落今時。儻能定亂兩融。自解真俗一致。向鋪眉苫眼
 <lb ed="X" n="0355b15"/>處合作麼生指示。</p>
-<lb ed="X" n="0355b16"/><p id="pX67p0355b1601" rend="margin-left:1em">舉僧問百巖禪師。如何是禪<note place="inline">&CB00275;前<anchor id="fnX67p0355b02"/>〔骨〕侖眠</note>。巖云古塚不
+<lb ed="X" n="0355b16"/><p id="pX67p0355b1601" rend="margin-left:1em">舉僧問百巖禪師。如何是禪<note place="inline">&CB00275;前<note n="0355002" resp="Xuzangjing" place="foot text" type="orig">骨疑鶻</note>〔骨〕侖眠</note>。巖云古塚不
 <lb ed="X" n="0355b17"/>為家<note place="inline">爭肯鬼窟裏作活計</note>。</p>
 <lb ed="X" n="0355b18"/><p id="pX67p0355b1801">師云。新羅國百巖禪師。嗣谷山藏。藏嗣石霜諸。青原
 <lb ed="X" n="0355b19"/>七世之孫也。這僧問處深窮妙理欲辨根源。百巖答
@@ -2562,7 +2567,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0355c06"/>有深階級殊等。謂帶異計。欣上猒下而修者是外道
 <lb ed="X" n="0355c07"/>禪。正信因果亦以欣猒而修者是凡夫禪。悟我空偏
 <lb ed="X" n="0355c08"/>真之理而修者是小乘禪。悟我法二空所顯真理而
-<lb ed="X" n="0355c09"/>修者是大乘禪。若悟自心本來清淨。元無煩惱無<anchor id="fnX67p0355c03"/>偏。
+<lb ed="X" n="0355c09"/>修者是大乘禪。若悟自心本來清淨。元無煩惱無<note n="0355003" resp="Xuzangjing" place="foot text" type="orig">偏疑漏</note>偏。
 <lb ed="X" n="0355c10"/>智性本自具足。依此而修者是&CB08764;上乘禪。亦名如來
 <lb ed="X" n="0355c11"/>清淨禪。達摩以來&CB06171;代相傳者是此如來清淨禪也。
 <lb ed="X" n="0355c12"/>上曰。在先有問皆言無說。汝今云何&CB00230;有說邪。進云。
@@ -2576,7 +2581,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0355c20"/>但向道。捏聚放開全在我。廣敷略說更由誰。復看丹
 <lb ed="X" n="0355c21"/>霞如何折合。頌曰。</p>
 <lb ed="X" n="0355c22"/><p id="pX67p0355c2201" rend="margin-left:1em">故國清平久有年<note place="inline">阿誰不知</note>。白頭猶自戀生緣<note place="inline">老不歇心</note>。牧
-<lb ed="X" n="0355c23"/>童&CB00230;解忘功業<note place="inline">人不得<anchor id="fnX67p0355c04"/>〔莫想〕</note>。懶放牛兒不把鞭<note place="inline">且莫麤心大膽</note>。</p>
+<lb ed="X" n="0355c23"/>童&CB00230;解忘功業<note place="inline">人不得<note n="0355004" resp="Xuzangjing" place="foot text" type="orig">莫想疑貌相</note>〔莫想〕</note>。懶放牛兒不把鞭<note place="inline">且莫麤心大膽</note>。</p>
 <lb ed="X" n="0355c24"/><p id="pX67p0355c2401">師云。長安雖是&CB00436;。我國本翛然。歷劫常如是。休云久
 <pb ed="X" id="X67.1304.0356a" n="0356a"/>
 <lb ed="X" n="0356a01"/>有年。不見石霜道。休去歇去。一念萬年去。若然則正
@@ -2624,7 +2629,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0356b18"/>盡<note place="inline">此義文長。付在來日</note>。</p>
 <lb ed="X" n="0356b19"/><p id="pX67p0356b1901">師云。始從鹿野苑。終至&CB02494;提河。於其二中間。未&CB00573;說
 <lb ed="X" n="0356b20"/>一字。恁麼看來。半滿之教何可區分。大小之乘安能
-<lb ed="X" n="0356b21"/>並<anchor id="fnX67p0356b01"/>務。雲門一日上堂道。三乘十二分教橫說&CB00594;說。天
+<lb ed="X" n="0356b21"/>並<note n="0356001" resp="Xuzangjing" place="foot text" type="orig">務疑騖</note>務。雲門一日上堂道。三乘十二分教橫說&CB00594;說。天
 <lb ed="X" n="0356b22"/>下老和尚縱橫十字說。與我拈針鋒許說底道理來
 <lb ed="X" n="0356b23"/>看。恁麼道早是作死馬醫。雖然如是。且有幾箇到此
 <lb ed="X" n="0356b24"/>境界。不敢望汝言中有響句裏藏鋒。&CB02331;目千差風恬
@@ -2666,7 +2671,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0357a10"/>險。死裏逃生。也甚奇&CB00383;。&CB15179;王經云。虎食肉。骨<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>齒。&CB15179;
 <lb ed="X" n="0357a11"/>&CB10437;骨出。虎活。口生瘡。&CB15179;上樹戒殺。虎怒曰始離吾口
 <lb ed="X" n="0357a12"/>而敢多言。&CB15179;知難化而便飛去。&CB15179;者佛也。虎乃調達
-<lb ed="X" n="0357a13"/>者也。然恁比並將來。莫便<anchor id="fnX67p0357a01"/>乘言滯句認影迷頭。須知
+<lb ed="X" n="0357a13"/>者也。然恁比並將來。莫便<note n="0357001" resp="Xuzangjing" place="foot text" type="orig">乘疑承</note>乘言滯句認影迷頭。須知
 <lb ed="X" n="0357a14"/>意不在言。大抵言非有意。如鏡對像若谷傳聲。恁麼
 <lb ed="X" n="0357a15"/>會去還肯諾否。頌曰。</p>
 <lb ed="X" n="0357a16"/><p id="pX67p0357a1601" rend="margin-left:1em">一念蕭蕭不記年<note place="inline">古今無間</note>。皮膚脫落自完全<note place="inline">一物常靈</note>。長
@@ -2680,14 +2685,14 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0357a24"/>脫落盡。唯有一真實。是認完全之大意也。此之一事
 <pb ed="X" id="X67.1304.0357b" n="0357b"/>
 <lb ed="X" n="0357b01"/>非止彼我本具。十方法界六道四生。大圓鏡智洞然
-<lb ed="X" n="0357b02"/>明白。若無雲之皎月。孤&CB00529;&CB00529;。圓陀陀。靈光獨耀<anchor id="fnX67p0357b02"/>遍照
+<lb ed="X" n="0357b02"/>明白。若無雲之皎月。孤&CB00529;&CB00529;。圓陀陀。靈光獨耀<note n="0357002" resp="Xuzangjing" place="foot text" type="orig">遍照疑&CB00529;脫</note>遍照
 <lb ed="X" n="0357b03"/>根塵。既云不在明白裏。問汝諸人護惜無。</p></div1>
 <lb ed="X" n="0357b04"/><div1 type="other"><mulu type="其他" level="1" label="第六十四則　同安人師(佛祖)"/><head>第六十四則　同安人師<note place="inline">佛祖</note></head>
 <lb ed="X" n="0357b05"/><p id="pX67p0357b0501">示眾云。形興未質。塑&CB00474;難成。名起無名。追呼莫得。不
 <lb ed="X" n="0357b06"/>有同風。焉能指注。</p>
 <lb ed="X" n="0357b07"/><p id="pX67p0357b0701" rend="margin-left:1em">舉僧問同安察禪師。如何是天人師<note place="inline">高&CB00473;眼看</note>。安云。頭
 <lb ed="X" n="0357b08"/>上角不全。身上毛不出<note place="inline">&CB00804;難摸索</note>。</p>
-<lb ed="X" n="0357b09"/><p id="pX67p0357b0901">師云。洪州鳳棲山同安院<anchor id="fnX67p0357b03"/>當察禪師。嗣九峰&CB05418;禪師。
+<lb ed="X" n="0357b09"/><p id="pX67p0357b0901">師云。洪州鳳棲山同安院<note n="0357003" resp="Xuzangjing" place="foot text" type="orig">當疑常</note>當察禪師。嗣九峰&CB05418;禪師。
 <lb ed="X" n="0357b10"/>這僧以教乘門中如來十號之一勘當同安言外玄
 <lb ed="X" n="0357b11"/>旨。故同安不負來問。轉劫外機放風前箭。凡情聖解
 <lb ed="X" n="0357b12"/>一齊穿&CB00230;。何止劈筈奪窩紅心中的。設使這僧手親
@@ -2891,7 +2896,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0360a10"/>熱。其由內顫身搖不消勘辨根源。是實難以抵諱。文
 <lb ed="X" n="0360a11"/>殊乃過去七佛之師。故恁答也。若便恁麼會去。休於
 <lb ed="X" n="0360a12"/>言句內。埋沒祖師心。頌曰。</p>
-<lb ed="X" n="0360a13"/><p id="pX67p0360a1301" rend="margin-left:1em">無相光中未兆身<note place="inline">形興未質</note>。清&CB00980;渺邈<anchor id="fnX67p0360a01"/>月為&CB00444;<note place="inline">大小明白</note>。一
+<lb ed="X" n="0360a13"/><p id="pX67p0360a1301" rend="margin-left:1em">無相光中未兆身<note place="inline">形興未質</note>。清&CB00980;渺邈<note n="0360001" resp="Xuzangjing" place="foot text" type="orig">月疑豈</note>月為&CB00444;<note place="inline">大小明白</note>。一
 <lb ed="X" n="0360a14"/>輪明月當軒照<note place="inline">隱而彌彰</note>。玉殿蕭蕭不見人<note place="inline">顯而不露</note>。</p>
 <lb ed="X" n="0360a15"/><p id="pX67p0360a1501">師云。十四祖龍樹尊者得法後至南印土。彼國之人
 <lb ed="X" n="0360a16"/>多信福業。祖為說法。&CB15325;相謂曰。人有福業世間第一。
@@ -2916,7 +2921,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0360b10"/><p id="pX67p0360b1001">師云。南康軍雲居道簡禪師。范陽人。久入先雲居之
 <lb ed="X" n="0360b11"/>室。密受真印而分掌寺務典司樵爨。以臘高堂中為
 <lb ed="X" n="0360b12"/>第一座屬。先雲居將順寂。主事請問誰堪繼嗣。居曰
-<lb ed="X" n="0360b13"/>堂中簡主事。雖承言意不在<anchor id="fnX67p0360b02"/>言。師謂令揀擇可當說
+<lb ed="X" n="0360b13"/>堂中簡主事。雖承言意不在<note n="0360002" resp="Xuzangjing" place="foot text" type="orig">言字疑剩</note>言。師謂令揀擇可當說
 <lb ed="X" n="0360b14"/>法者。僉曰第二座可。然自&CB09113;禮先請第一座。若謙讓
 <lb ed="X" n="0360b15"/>即堅請第二座。師既密承受記略不辭免。即自持道
 <lb ed="X" n="0360b16"/>具入方丈攝眾演法。主事等不愜素志罔循規式。師
@@ -2935,8 +2940,8 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0360c04"/>知坐著白雲宗不妙。故雲居答處優遊平易。殊無艱
 <lb ed="X" n="0360c05"/>難險阻之態。真所謂詩到平常處。方知格調高。怕伊
 <lb ed="X" n="0360c06"/>不信。試問丹霞。頌曰。</p>
-<lb ed="X" n="0360c07"/><p id="pX67p0360c0701" rend="margin-left:1em">法爾非修本十<anchor id="fnX67p0360c03"/>分<note place="inline">&CB04414;同太&CB00980;無欠無餘</note>。平常酬答最分明<note place="inline">翻令
-<lb ed="X" n="0360c08"/>所得遲</note>。<anchor id="fnX67p0360c04"/>雖然指出長安道<note place="inline">將謂吾辜負汝</note>。無柰遊人不肯行
+<lb ed="X" n="0360c07"/><p id="pX67p0360c0701" rend="margin-left:1em">法爾非修本十<note n="0360003" resp="Xuzangjing" place="foot text" type="orig">分疑成</note>分<note place="inline">&CB04414;同太&CB00980;無欠無餘</note>。平常酬答最分明<note place="inline">翻令
+<lb ed="X" n="0360c08"/>所得遲</note>。<note n="0360004" resp="Xuzangjing" place="foot text" type="orig">雖或作端</note>雖然指出長安道<note place="inline">將謂吾辜負汝</note>。無柰遊人不肯行
 <lb ed="X" n="0360c09"/><note place="inline">誰知汝事負吾</note>。</p>
 <lb ed="X" n="0360c10"/><p id="pX67p0360c1001">師云。當知一切法從本以來。離言說相。離名字相。離
 <lb ed="X" n="0360c11"/>心緣相。畢竟平等。無有變異。唯有一心。故名真如。不
@@ -2944,8 +2949,8 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0360c13"/>明不變。於成事處莫昧體空。方可二六時中平常合
 <lb ed="X" n="0360c14"/>道道合平常。世法佛法打成一片。何必矜伐孤峰獨
 <lb ed="X" n="0360c15"/>宿。怪他不來堂內高眠。為是當家人。故說知心話。只
-<lb ed="X" n="0360c16"/>恐<anchor id="fnX67p0360c05"/>邪街暗巷生客頭迷。便恁端然指出長安大道。可
-<lb ed="X" n="0360c17"/>惜&CI0002;飄蕩四散。遊人不肯前行。唯圖倒<anchor id="fnX67p0360c06"/>褪。只如不
+<lb ed="X" n="0360c16"/>恐<note n="0360005" resp="Xuzangjing" place="foot text" type="orig">邪通斜</note>邪街暗巷生客頭迷。便恁端然指出長安大道。可
+<lb ed="X" n="0360c17"/>惜&CI0002;飄蕩四散。遊人不肯前行。唯圖倒<note n="0360006" resp="Xuzangjing" place="foot text" type="orig">褪疑退</note>褪。只如不
 <lb ed="X" n="0360c18"/>涉途程一句合作麼生道。塵埃滿面君休笑。坐看爭
 <lb ed="X" n="0360c19"/>名奪利人。</p></div1>
 <lb ed="X" n="0360c20"/><div1 type="other"><mulu type="其他" level="1" label="第七十二則　問本來心(心眼)"/><head>第七十二則　問本來心<note place="inline">心眼</note></head>
@@ -3045,7 +3050,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0362a14"/>箇在。據香嚴恁般說道家門。若比阿育似乎更甚。於
 <lb ed="X" n="0362a15"/>衲僧分上當合如是。所以道渾身不直五文錢。灌溪
 <lb ed="X" n="0362a16"/>閑禪師頌云。抖擻多年穿破衲。&CB05513;&CB02575;一片逐雲飛。拈
-<lb ed="X" n="0362a17"/>來搭向肩頭上。也勝時人著錦衣。林泉道。少賣弄<anchor id="fnX67p0362a01"/>好。
+<lb ed="X" n="0362a17"/>來搭向肩頭上。也勝時人著錦衣。林泉道。少賣弄<note n="0362001" resp="Xuzangjing" place="foot text" type="orig">好疑如</note>好。
 <lb ed="X" n="0362a18"/>昔須菩提華房百寶。憍陳如弊服五錢。或曰迦葉波
 <lb ed="X" n="0362a19"/>亦爾。乞食貧里習糞掃衣。行頭&CB00442;行故如是也。這僧
 <lb ed="X" n="0362a20"/>見恁麼道。不免隨言生解逐語分宗。識情礙塞。作可
@@ -3058,7 +3063,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0362b02"/>終別。俗諺云。待客不可不豐。治家不可不儉。豐儉合
 <lb ed="X" n="0362b03"/>宜果能施設。還委悉麼。更窮須道搊搜字。爭肯教人
 <lb ed="X" n="0362b04"/>下眼看。頌曰。</p>
-<lb ed="X" n="0362b05"/><p id="pX67p0362b0501" rend="margin-left:1em">祖代家風沒一文<note place="inline">豈知<anchor id="fnX67p0362b02"/>〔皮被〕裹珍珠</note>。清貧終是更清貧<note place="inline">早是
+<lb ed="X" n="0362b05"/><p id="pX67p0362b0501" rend="margin-left:1em">祖代家風沒一文<note place="inline">豈知<note n="0362002" resp="Xuzangjing" place="foot text" type="orig">皮被疑破布</note>〔皮被〕裹珍珠</note>。清貧終是更清貧<note place="inline">早是
 <lb ed="X" n="0362b06"/>那堪</note>。著衣喫飯隨豐儉<note place="inline">要不悶依本分</note>。物物頭頭用最親<note place="inline">信手
 <lb ed="X" n="0362b07"/>拈來無非恰好</note>。</p>
 <lb ed="X" n="0362b08"/><p id="pX67p0362b0801">師舉釋迦如來傳法偈云。法本法無法。無法法亦法。
@@ -3214,7 +3219,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0364b08"/>樹。留與後人看。云。若是無影樹。豈受栽邪。曰。不受栽
 <lb ed="X" n="0364b09"/>且止。你曾見他枝葉麼。曰不曾見。曰。既不曾見。爭知
 <lb ed="X" n="0364b10"/>不受栽。云。祇為不曾見。所以不受栽。曰如是如是。林
-<lb ed="X" n="0364b11"/>泉道。也是怜兒不覺醜。師<anchor id="fnX67p0364b01"/>聞法後居石門山。僧問如
+<lb ed="X" n="0364b11"/>泉道。也是怜兒不覺醜。師<note n="0364001" resp="Xuzangjing" place="foot text" type="orig">聞疑開</note>聞法後居石門山。僧問如
 <lb ed="X" n="0364b12"/>何是和尚家風。有甚不知。有甚難見。汝但一切時中
 <lb ed="X" n="0364b13"/>動止起居處能具正眼。不被六根六塵使作。即俗明
 <lb ed="X" n="0364b14"/>真因事顯理。不於意路徒費草鞋錢。跳出玄關作箇
@@ -3285,14 +3290,14 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0365b04"/>上堂曰。多子塔前宗子秀。五老峰前事若何。三舉未
 <lb ed="X" n="0365b05"/>有對者。末後師出曰。夜明簾外排斑立。萬里歌謠道
 <lb ed="X" n="0365b06"/>太平。丕曰須是這驢漢始得。住後僧問二機不到處
-<lb ed="X" n="0365b07"/>如何舉唱。這僧若是動絃別曲。何消品笛搊箏。<anchor id="fnX67p0365b01"/>為也
+<lb ed="X" n="0365b07"/>如何舉唱。這僧若是動絃別曲。何消品笛搊箏。<note n="0365001" resp="Xuzangjing" place="foot text" type="orig">為疑若</note>為也
 <lb ed="X" n="0365b08"/>認影逐聲。不免無事生事。所以對他道。偏處不逢玄
 <lb ed="X" n="0365b09"/>中不失。這僧若是無手能遮日。釣鰲不犯竿的漢。便
 <lb ed="X" n="0365b10"/>能委悉不逢不失底道理。不見僧問風穴。語默涉離
 <lb ed="X" n="0365b11"/>微。如何通不犯。穴云。常憶江南三月裏。鷓鴣啼處百
 <lb ed="X" n="0365b12"/>花香。一則和光惹事。一則刮篤成家。一則有意氣時
 <lb ed="X" n="0365b13"/>添意氣。一則不風流處轉風流。於此四句語中若不
-<lb ed="X" n="0365b14"/><anchor id="fnX67p0365b02"/>沾牙著齒。便能見性識心。不消&CB15104;霧拏雲。何必追風
+<lb ed="X" n="0365b14"/><note n="0365002" resp="Xuzangjing" place="foot text" type="orig">沾疑黏</note>沾牙著齒。便能見性識心。不消&CB15104;霧拏雲。何必追風
 <lb ed="X" n="0365b15"/>捕影。汝若不信。請問丹霞。頌曰。</p>
 <lb ed="X" n="0365b16"/><p id="pX67p0365b1601" rend="margin-left:1em">這邊那畔總難逢<note place="inline">他日尋不得。有時還自來</note>。一句無私不處中
 <lb ed="X" n="0365b17"/><note place="inline">爭肯坐&CB00473;</note>。紅日暮沉西嶂外<note place="inline">箇裏十分忘影像</note>。空留孤影照溪
@@ -3366,7 +3371,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0366b10"/><p id="pX67p0366b1001" rend="margin-left:1em">舉僧問廣德。久負不逢時如何<note place="inline">慚惶殺人</note>。德云。扇開人
 <lb ed="X" n="0366b11"/>不遇。陋巷莫能收<note place="inline">難尋恰好</note>。</p>
 <lb ed="X" n="0366b12"/><p id="pX67p0366b1201">師云。歷歷心珠射斗牛。襟懷祕隱幾經秋。可怜塵昧
-<lb ed="X" n="0366b13"/>人難識。覿面相呈祇恁休。蓋為情存向背見<anchor id="fnX67p0366b01"/>愛偏枯。
+<lb ed="X" n="0366b13"/>人難識。覿面相呈祇恁休。蓋為情存向背見<note n="0366001" resp="Xuzangjing" place="foot text" type="orig">愛疑處</note>愛偏枯。
 <lb ed="X" n="0366b14"/>雖然用意多時。爭奈當頭蹉過。若解慎初護末返本
 <lb ed="X" n="0366b15"/>還源。百草頭薦得老僧。&CB00436;市裏識取天子。不見布袋
 <lb ed="X" n="0366b16"/>和尚道。彌勒真彌勒。化身千百億。時時示時人。時人
@@ -3376,7 +3381,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0366b20"/>逢玄中不失之本意也。雖是隱而彌彰。顯而不露。亦
 <lb ed="X" n="0366b21"/>須定隻宗眼始得。頌曰。</p>
 <lb ed="X" n="0366b22"/><p id="pX67p0366b2201" rend="margin-left:1em">妙體堂堂相好全<note place="inline">描不成&CB00474;不就</note>。青霄獨步躡金蓮<note place="inline">悉達猶在</note>。
-<lb ed="X" n="0366b23"/>千華臺上猶慵坐<note place="inline">既能脫塵離俗</note>。弊垢襴衫豈肯穿<note place="inline"><anchor id="fnX67p0366b02"/>〔經〕不黏皮
+<lb ed="X" n="0366b23"/>千華臺上猶慵坐<note place="inline">既能脫塵離俗</note>。弊垢襴衫豈肯穿<note place="inline"><note n="0366002" resp="Xuzangjing" place="foot text" type="orig">經疑終</note>〔經〕不黏皮
 <lb ed="X" n="0366b24"/>著骨</note>。</p>
 <pb ed="X" id="X67.1304.0366c" n="0366c"/>
 <lb ed="X" n="0366c01"/><p id="pX67p0366c0101">師云。磊磊落落巍巍堂堂。具大人相萬德全彰。非一
@@ -3386,7 +3391,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0366c05"/>窮。千花臺上懶坐正偏床。百寶&CB02098;前倦行芳草地。何
 <lb ed="X" n="0366c06"/>況弊垢襴衫腲&CB01264;襟袖出。乖弄醜玷辱門風。可憐留
 <lb ed="X" n="0366c07"/>戀色塵中。傷感奔馳形影裏。雖是撞頭磕額。還同背
-<lb ed="X" n="0366c08"/>父尋<anchor id="fnX67p0366c03"/>耶。林泉恁麼分析將來。汝還認得也無。頭頭垂
+<lb ed="X" n="0366c08"/>父尋<note n="0366003" resp="Xuzangjing" place="foot text" type="orig">耶當作爺</note>耶。林泉恁麼分析將來。汝還認得也無。頭頭垂
 <lb ed="X" n="0366c09"/>示處。子細好生觀。</p></div1>
 <lb ed="X" n="0366c10"/><div1 type="other"><mulu type="其他" level="1" label="第八十五則　廣德波浪(舟楫)"/><head>第八十五則　廣德波浪<note place="inline">舟楫</note></head>
 <lb ed="X" n="0366c11"/><p id="pX67p0366c1101">示眾云。汪汪洋洋莽莽蕩蕩。無涯無岸非淺非深。莫
@@ -3407,7 +3412,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0367a01"/>者也。據洞山具此神通得大三昧。何借浮囊而得渡
 <lb ed="X" n="0367a02"/>邪。其餘道不到處分付丹霞。頌曰。</p>
 <lb ed="X" n="0367a03"/><p id="pX67p0367a0301" rend="margin-left:1em">一句相酬難取則<note place="inline">且忌道&CB00473;</note>。輪王不化閻浮國<note place="inline">至治無為</note>。無
-<lb ed="X" n="0367a04"/>邊剎海浪痕平<note place="inline">一體同觀</note>。獨駕泥牛耕月色<note place="inline">無<anchor id="fnX67p0367a01"/>〔力〕始是功</note>。</p>
+<lb ed="X" n="0367a04"/>邊剎海浪痕平<note place="inline">一體同觀</note>。獨駕泥牛耕月色<note place="inline">無<note n="0367001" resp="Xuzangjing" place="foot text" type="orig">力疑功</note>〔力〕始是功</note>。</p>
 <lb ed="X" n="0367a05"/><p id="pX67p0367a0501">師云。三句明一句。一句明三句。三一不相涉。分明向
 <lb ed="X" n="0367a06"/>上路。只如向上一路合作麼生。登陟出門總是長安
 <lb ed="X" n="0367a07"/>道。緊繫芒鞋慢慢行。恁麼相酬是堪取則不堪取則。
@@ -3435,7 +3440,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0367b04"/>非障礙。閻浮界外任昇騰。云。千聖共傳沒底&CB00425;。時人
 <lb ed="X" n="0367b05"/>皆唱太平歌。曰太平曲子如何唱。云不墮五音非關
 <lb ed="X" n="0367b06"/>六律。曰還有人和得麼。云請和尚不&CB00736;慈悲。曰仁者
-<lb ed="X" n="0367b07"/>善自保任。林泉道。出群須是英靈漢。敵<anchor id="fnX67p0367b02"/>聖還他師子
+<lb ed="X" n="0367b07"/>善自保任。林泉道。出群須是英靈漢。敵<note n="0367002" resp="Xuzangjing" place="foot text" type="orig">聖疑勝</note>聖還他師子
 <lb ed="X" n="0367b08"/>兒。舊說雲光法師坦率自怡不事戒律。誌公謂曰。出
 <lb ed="X" n="0367b09"/>家何為。光曰吾不齋而齋。食而非食。後招報作牛拽
 <lb ed="X" n="0367b10"/>車於泥中。誌公召曰雲光。牛舉頭。公曰何不言拽而
@@ -3459,7 +3464,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0367c03"/>也無。飢&CB00290;嫩草無拘繫。渴飲寒泉任往還。</p></div1>
 <lb ed="X" n="0367c04"/><div1 type="other"><mulu type="其他" level="1" label="第八十七則　太原數家(齋粥)"/><head>第八十七則　太原數家<note place="inline">齋粥</note></head>
 <lb ed="X" n="0367c05"/><p id="pX67p0367c0501">示眾云。情存向背就中便有高低。見處偏枯箇裏非
-<lb ed="X" n="0367c06"/>無逆順。他既舒心捨施。汝應普<anchor id="fnX67p0367c03"/>例均攤。莫有不生異
+<lb ed="X" n="0367c06"/>無逆順。他既舒心捨施。汝應普<note n="0367003" resp="Xuzangjing" place="foot text" type="orig">例當作列字看</note>例均攤。莫有不生異
 <lb ed="X" n="0367c07"/>念者麼。</p>
 <lb ed="X" n="0367c08"/><p id="pX67p0367c0801" rend="margin-left:1em">舉僧問太原隱禪師。數家檀越請。未審赴誰家<note place="inline">撒手
 <lb ed="X" n="0367c09"/>懸崖下。分身萬象中</note>。原云。月印千江水。門門盡有僧<note place="inline">一即一切。一切
@@ -3534,7 +3539,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0368c03"/><p id="pX67p0368c0301">示眾云。春蘭秋菊香味雖殊。夜月朝曦光明無異。雖
 <lb ed="X" n="0368c04"/>云顯晦全彰。大抵是非一揆。鳳凰飛在梧桐樹。自有
 <lb ed="X" n="0368c05"/>傍人話短長。</p>
-<lb ed="X" n="0368c06"/><p id="pX67p0368c0601" rend="margin-left:1em">舉僧問梁山。祖意教意是同是別<note place="inline">索<anchor id="fnX67p0368c01"/>〔另〕先窮</note>。山云。金烏
+<lb ed="X" n="0368c06"/><p id="pX67p0368c0601" rend="margin-left:1em">舉僧問梁山。祖意教意是同是別<note place="inline">索<note n="0368001" resp="Xuzangjing" place="foot text" type="orig">另下疑脫者字</note>〔另〕先窮</note>。山云。金烏
 <lb ed="X" n="0368c07"/>東上人皆貴。玉兔西沉佛祖迷<note place="inline">出沒任渠分晝夜。往來終不離乾坤</note>。</p>
 <lb ed="X" n="0368c08"/><p id="pX67p0368c0801">師云。雲門一日上堂道。你若不相當。且&CB00697;箇入路。微
 <lb ed="X" n="0368c09"/>塵諸佛在你舌頭上。三藏聖教在你&CB00560;跟底。不如悟
@@ -3890,7 +3895,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0373b09"/>明<note place="inline">起初不遇作家。到底番成骨董</note>。如流俗閨閤裏物不能捨&CB00230;<note place="inline">養病
 <lb ed="X" n="0373b10"/>喪&CB02553;</note>。致使情關固閉。識&CB02083;難開<note place="inline">自作自受</note>。老僧今日若不
 <lb ed="X" n="0373b11"/>當陽顯示。後學難以知歸<note place="inline">為怜三歲子。用盡一生心</note>。勸汝諸人
-<lb ed="X" n="0373b12"/>不用求真。唯<anchor id="fnX67p0373b01"/>除息見<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>得本莫愁末</note>。諸見若息。昏霧不生
+<lb ed="X" n="0373b12"/>不用求真。唯<note n="0373001" resp="Xuzangjing" place="foot text" type="orig">除疑須</note>除息見<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>得本莫愁末</note>。諸見若息。昏霧不生
 <lb ed="X" n="0373b13"/><note place="inline">眼中除幻翳。元不有空花</note>。自然智鑑洞明。更無他物<note place="inline">猶有這箇在</note>。諸
 <lb ed="X" n="0373b14"/>仁者。還會麼<note place="inline">氣急殺人</note>。良久云<note place="inline">月色靜中見。泉聲深夜聞</note>。珠中有火
 <lb ed="X" n="0373b15"/>君須信。休向天邊問太陽<note place="inline">儻能明自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>。何必問他人</note>。</p>
@@ -3938,7 +3943,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0374a07"/>處老知羞</note>。</p>
 <lb ed="X" n="0374a08"/><p id="pX67p0374a0801">師云。隋州大洪山報恩禪師。衛之黎陽人。族劉氏。世
 <lb ed="X" n="0374a09"/>以武進。家喜事佛。其母禱子夢佛。所謂阿羅漢舁之。
-<lb ed="X" n="0374a10"/>既&CB00775;生師。果有殊相。未冠舉方略<anchor id="fnX67p0374a01"/>擢第。調官北都。忽
+<lb ed="X" n="0374a10"/>既&CB00775;生師。果有殊相。未冠舉方略<note n="0374001" resp="Xuzangjing" place="foot text" type="orig">擢下疑脫上字</note>擢第。調官北都。忽
 <lb ed="X" n="0374a11"/>厭塵境。請於朝願謝簪紱求出世法。上詰其故。師曰。
 <lb ed="X" n="0374a12"/>臣祖死王事。何足以報厚恩。唯有熏修之功庶資冥
 <lb ed="X" n="0374a13"/>福。神宗歎異。親灑宸翰。賜名報恩。就都福壽寺受戒。
@@ -3959,7 +3964,7 @@ Revision 1.2  2004/06/29 05:49:10  ray
 <lb ed="X" n="0374b03"/>不見。大似立地死漢。良久曰。風恬浪靜。不如歸堂。林
 <lb ed="X" n="0374b04"/>泉道。放去較危。收來太速。雖然兩段不同。大抵用處
 <lb ed="X" n="0374b05"/>不異。更看丹霞如何科判。頌曰。</p>
-<lb ed="X" n="0374b06"/><p id="pX67p0374b0601" rend="margin-left:1em">此<anchor id="fnX67p0374b02"/>樹不從天地生<note place="inline">何處將來</note>。登山涉水承渠力<note place="inline">知恩有幾人</note>。
+<lb ed="X" n="0374b06"/><p id="pX67p0374b0601" rend="margin-left:1em">此<note n="0374002" resp="Xuzangjing" place="foot text" type="orig">樹疑杖</note>樹不從天地生<note place="inline">何處將來</note>。登山涉水承渠力<note place="inline">知恩有幾人</note>。
 <lb ed="X" n="0374b07"/>如今擲向亂峰前<note place="inline">甚底大如割捨</note>。免致叢林為軌則<note place="inline">已是強生
 <lb ed="X" n="0374b08"/>節目</note>。</p>
 <lb ed="X" n="0374b09"/><p id="pX67p0374b0901">師云。人人本有箇箇不無。匪假陰陽而可生成。豈干
