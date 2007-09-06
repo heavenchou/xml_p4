@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X69n1338.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2007/01/02 01:32:27 $</date></edition>
+		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2007/09/06 05:57:04 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/02 01:32:27 $</date>
+		<date>$Date: 2007/09/06 05:57:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 69, No. 1338 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X69n1338.xml,v $
+Revision 1.9  2007/09/06 05:57:04  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.8  2007/01/02 01:32:27  amtbgrace
 modified: 經文修訂 [蠊-兼+林]>[虫*麻]
 
@@ -132,7 +137,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0184b24"/>
 <pb ed="X" id="X69.1338.0184c" n="0184c"/>
 <lb ed="X" n="0184c01"/><head type="no">No. 1338</head>
-<lb ed="X" n="0184c02"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><anchor id="fnX69p0184c01"/>石霜楚圓禪師語錄</jhead></juan>
+<lb ed="X" n="0184c02"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0184001" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>石霜楚圓禪師語錄</jhead></juan>
 <lb ed="X" n="0184c03"/>
 <lb ed="X" n="0184c04"/><div1 type="other"><mulu type="其他" level="1" label="師初住袁州南源山廣利禪院語錄"/><head>師初住袁州南源山廣利禪院語錄</head>
 <lb ed="X" n="0184c05"/><byline type="editor">住筠州黃檗山嗣法小師賜紫　慧南　重編</byline>
@@ -247,7 +252,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0186a14"/><p id="pX69p0186a1401">有行者問。大通智勝佛。十劫坐道場。佛法不現前。不
 <lb ed="X" n="0186a15"/>得成佛道。未審此意如何。師云。一場&CB01333;&CB01334;。進云。只如
 <lb ed="X" n="0186a16"/>大通智勝佛又如何。師云。八十翁翁若少年。進云。學
-<lb ed="X" n="0186a17"/>人耳順之年。乞師再垂方便。師云。眾人<anchor id="fnX69p0186a01"/>仗事。</p>
+<lb ed="X" n="0186a17"/>人耳順之年。乞師再垂方便。師云。眾人<note n="0186001" resp="Xuzangjing" place="foot text" type="orig">仗一作伏</note>仗事。</p>
 <lb ed="X" n="0186a18"/><p id="pX69p0186a1801">師乃云。馬大師即心即佛。當人未悟。盤山非心非佛。
 <lb ed="X" n="0186a19"/>只成戲論之談。雪嶺輥毬。誑諕小兒之作。雲門顧鑑。
 <lb ed="X" n="0186a20"/>笑煞傍觀。少室自傷。一場大錯。德山入門便棒。未遇
@@ -564,7 +569,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0190b06"/>拄杖。</p>
 <lb ed="X" n="0190b07"/><p id="pX69p0190b0701">上堂。云風活活雨連連。壞堂古殿一時穿。吾&CB00123;孤高
 <lb ed="X" n="0190b08"/>聳碧天。禪人到者盡皆嫌。雪未下總言寒。那堪雪下。
-<lb ed="X" n="0190b09"/>更燒<anchor id="fnX69p0190b01"/>煙轉煩惱。喫茶去。珍重。</p>
+<lb ed="X" n="0190b09"/>更燒<note n="0190001" resp="Xuzangjing" place="foot text" type="orig">一無煙字</note>煙轉煩惱。喫茶去。珍重。</p>
 <lb ed="X" n="0190b10"/><p id="pX69p0190b1001">上堂。云太陽昇南北走。夜月圓天未曉。鼻孔裏藏身
 <lb ed="X" n="0190b11"/>一句即不問。你諸人&CB00560;跟下藏身一句作麼生道。還
 <lb ed="X" n="0190b12"/>有道得麼。良久云。相識滿天下。知心能幾人。喝一喝。</p>
@@ -672,7 +677,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0191c14"/>天。進云。如何是人境兩俱奪。師云。寰中天子。塞外將
 <lb ed="X" n="0191c15"/>軍。進云。如何是人境俱不奪。師云。明月清風任去來。</p>
 <lb ed="X" n="0191c16"/><p id="pX69p0191c1601">問。如何是佛。師云。面如滿月目如蓮。天上人間咸
-<lb ed="X" n="0191c17"/>恭敬　<anchor id="fnX69p0191c01"/>師乃以拄杖擊繩床一下云。大眾還會麼。不
+<lb ed="X" n="0191c17"/>恭敬　<note n="0191001" resp="Xuzangjing" place="foot text" type="orig">師巳下應作提頭</note><note n="0191001" resp="CBETA" type="mod">師<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下應作提頭</note>師乃以拄杖擊繩床一下云。大眾還會麼。不
 <lb ed="X" n="0191c18"/>見道。一擊忘所知。更不假修持。諸方達道者。咸言上
 <lb ed="X" n="0191c19"/>上機。香嚴與麼悟去。分明悟得如來禪。祖師禪未夢
 <lb ed="X" n="0191c20"/>見在。且道。祖師有甚長處。若向言中取則。&CB00386;賺後人。直
@@ -700,7 +705,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0192a17"/>僧撫掌。師便打。</p><p id="pX69p0192a1707" place="inline">問。昔日世尊拈花。迦葉微笑。今日
 <lb ed="X" n="0192a18"/>興化開堂。將何示徒。師云。有問有答。進云。寒山瞬目
 <lb ed="X" n="0192a19"/>拾得揚眉去也。師云。不&CB00418;雲中鴈。焉知沙塞寒。進云。
-<lb ed="X" n="0192a20"/>入水見長人。師云。不如禮拜好。</p><p id="pX69p0192a2013" place="inline"><anchor id="fnX69p0192a01"/>師乃云。問話且止。
+<lb ed="X" n="0192a20"/>入水見長人。師云。不如禮拜好。</p><p id="pX69p0192a2013" place="inline"><note n="0192001" resp="Xuzangjing" place="foot text" type="orig">師巳下應作提頭</note><note n="0192001" resp="CBETA" type="mod">師<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下應作提頭</note>師乃云。問話且止。
 <lb ed="X" n="0192a21"/>問也無窮。答也無盡。所以昔日靈山會上。世尊陞座。
 <lb ed="X" n="0192a22"/>諸大菩薩。各各據疑請問。如無疑者。為眾決疑。而況
 <lb ed="X" n="0192a23"/>今日一會。豈非造次。是故佛法委付國王大臣。以至
@@ -1024,7 +1029,7 @@ Revision 1.1  2004/06/17 01:20:45  ray
 <lb ed="X" n="0196b16"/><p id="pX69p0196b1601">懷州牛喫禾。<note place="inline">河沙世界</note>益州馬腹脹<note place="inline">蟻銜&CB00179;走</note>天下覓醫人。<note place="inline">驢頭
 <lb ed="X" n="0196b17"/>馬角</note>灸&CB00337;左膞上<note place="inline">&CB15148;虎成狸</note>。</p></div3>
 <lb ed="X" n="0196b18"/><div3 type="w"><mulu type="附文" level="3" label="牧童＆CB00347；"/><head>牧童&CB00347;</head>
-<lb ed="X" n="0196b19"/><p id="pX69p0196b1901"><anchor id="fnX69p0196b01"/>牧牛童實快活。跣足披蓑雙角撮。橫眠牛上向天歌。
+<lb ed="X" n="0196b19"/><p id="pX69p0196b1901"><note n="0196001" resp="Xuzangjing" place="foot text" type="orig">牧童歌一本作五首前四首四句後一首七句</note>牧牛童實快活。跣足披蓑雙角撮。橫眠牛上向天歌。
 <lb ed="X" n="0196b20"/>人問如何牛未渴。迴面觀平田闊。四方放去休闌遏。
 <lb ed="X" n="0196b21"/>八面無拘任意遊。要收只在索頭撥。小牛兒順摩捋。
 <lb ed="X" n="0196b22"/>角力未充難提掇。且從放在小平坡。慮上高&CB00123;四蹄
