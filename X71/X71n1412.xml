@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X71n1412.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.7 $ (Big5)<date>$Date: 2004/12/01 12:05:16 $</date></edition>
+		<edition>$Revision: 1.8 $ (Big5)<date>$Date: 2007/09/07 08:47:02 $</date></edition>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/12/01 12:05:16 $</date>
+		<date>$Date: 2007/09/07 08:47:02 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 71, No. 1412 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X71n1412.xml,v $
+Revision 1.8  2007/09/07 08:47:02  eva
+modified: 校注作業完成
+
 Revision 1.7  2004/12/01 12:05:16  moved
 modified：經文修訂
 
@@ -178,7 +183,7 @@ new from basic markup
 <lb ed="X" n="0207a23"/>絕百非。是時人知有。始從鹿野苑。終至&CB00849;踶河。畢竟
 <lb ed="X" n="0207a24"/>明甚麼邊事。所謂佛佛授手。祖祖相傳。一句當陽。十
 <pb ed="X" id="X71.1412.0207b" n="0207b"/>
-<lb ed="X" n="0207b01"/>方坐斷。正恁麼時如何。千峰朝華嶽。萬派肅滄<anchor id="fnX71p0207b01"/>浪。</p>
+<lb ed="X" n="0207b01"/>方坐斷。正恁麼時如何。千峰朝華嶽。萬派肅滄<note n="0207001" resp="Xuzangjing" place="foot text" type="orig">浪一作溟</note>浪。</p>
 <lb ed="X" n="0207b02"/><p id="pX71p0207b0201">復舉達磨大師云。吾本來茲土。傳法救迷情。一花開
 <lb ed="X" n="0207b03"/>五葉。結果自然成。卓主丈云。雲行雨施。三草二木。</p>
 <lb ed="X" n="0207b04"/><p id="pX71p0207b0401">上堂。萬法本閑。惟人自&CB00436;。放過臨濟德山。打殺雲門
@@ -263,7 +268,7 @@ new from basic markup
 <lb ed="X" n="0208b08"/>上渡頭船。九九依然八十一。下座。</p>
 <lb ed="X" n="0208b09"/><p id="pX71p0208b0901">上堂。一切障礙。即究竟覺。卓主丈云。不得春風花不
 <lb ed="X" n="0208b10"/>開。花開又被風吹落。下座。</p>
-<lb ed="X" n="0208b11"/><p id="pX71p0208b1101">上堂。舉船子和尚云。千尺絲<anchor id="fnX71p0208b01"/>輪直下垂。一波纔動萬
+<lb ed="X" n="0208b11"/><p id="pX71p0208b1101">上堂。舉船子和尚云。千尺絲<note n="0208001" resp="Xuzangjing" place="foot text" type="orig">輪疑綸</note>輪直下垂。一波纔動萬
 <lb ed="X" n="0208b12"/>波隨。夜靜水寒魚不食。滿船空載月明歸。師云。好大
 <lb ed="X" n="0208b13"/>眾。如今商量盡道。古人勞而無功。殊不知&CB00195;波萬頃。
 <lb ed="X" n="0208b14"/>意在鯤鯨。片甲纖鱗。徒勞上釣。白雲與麼告報。是汝
@@ -395,7 +400,7 @@ new from basic markup
 <lb ed="X" n="0210a15"/>麼。便住此山。大梅云。我見它向我道。即心即佛。便向
 <lb ed="X" n="0210a16"/>者裏住。僧云。近日大師。佛法又別了也。梅云。道甚麼。
 <lb ed="X" n="0210a17"/>僧云。非心非佛。梅云。者老漢惑亂人家男女。未有了
-<lb ed="X" n="0210a18"/>日。<anchor id="fnX71p0210a01"/>在它非心非佛。我只即心即佛。老大梅如龍得水。
+<lb ed="X" n="0210a18"/>日。<note n="0210001" resp="Xuzangjing" place="foot text" type="orig">在疑任</note>在它非心非佛。我只即心即佛。老大梅如龍得水。
 <lb ed="X" n="0210a19"/>似虎靠山。若非深辨來風。未免遭它惑亂。白雲者裏。
 <lb ed="X" n="0210a20"/>幸是先育王過去了也。直是羚羊挂角。蹤跡全無。是
 <lb ed="X" n="0210a21"/>汝諸人三十年後。且莫惑亂人好。</p>
@@ -694,7 +699,7 @@ new from basic markup
 <lb ed="X" n="0214a14"/>沙界裏。不免箇中人。且道那箇是箇中人。平蕪盡處
 <lb ed="X" n="0214a15"/>是青山。行人更在青山外。師云。五祖老人。雖則和泥
 <lb ed="X" n="0214a16"/>合水。就中緇素極是分明。山僧則不然。相見即殷勤。
-<lb ed="X" n="0214a17"/>無故亦無新。千年桃核破。渾是舊時<anchor id="fnX71p0214a01"/>人。與麼說話。且
+<lb ed="X" n="0214a17"/>無故亦無新。千年桃核破。渾是舊時<note n="0214001" resp="Xuzangjing" place="foot text" type="orig">人仁通用</note>人。與麼說話。且
 <lb ed="X" n="0214a18"/>道是同是別。下座。</p>
 <lb ed="X" n="0214a19"/><p id="pX71p0214a1901">上堂。心心不相知。法法不相到。一句定乾坤。千差俱
 <lb ed="X" n="0214a20"/>坐斷。豈不見龐居士云。本自無心於萬物。何妨萬物
@@ -844,7 +849,7 @@ new from basic markup
 <lb ed="X" n="0216a14"/>欣慰。等乾坤之覆載。同日月以照臨。澄澄光彩。瑩徹
 <lb ed="X" n="0216a15"/>十&CB00980;。落落神機。高超今古。揭示靈山奧旨。闡揚少室
 <lb ed="X" n="0216a16"/>真風。且非向外馳求。總是自家寶藏。所以道。我此法
-<lb ed="X" n="0216a17"/>印。為欲利益世間故說。在所<anchor id="fnX71p0216a01"/>由方。勿妄宣傳。況茲寺
+<lb ed="X" n="0216a17"/>印。為欲利益世間故說。在所<note n="0216001" resp="Xuzangjing" place="foot text" type="orig">由遊音通</note>由方。勿妄宣傳。況茲寺
 <lb ed="X" n="0216a18"/>乃梁朝浮佛之降神。列聖有國之靈鎮。若不存誠至
 <lb ed="X" n="0216a19"/>教仰報洪恩。曷由如此。風雲際會。道契宸衷。聖德既
 <lb ed="X" n="0216a20"/>隆。撫躬知愧。陞于寶座。舉唱宗乘。集茲不盡功勛。用
@@ -1373,7 +1378,7 @@ new from basic markup
 <lb ed="X" n="0223a18"/>足之蹈之。何故。不見道。賓主歷然。</p>
 <lb ed="X" n="0223a19"/><p id="pX71p0223a1901">上堂。舉洞山云。五臺山上雲蒸飯。佛殿階前狗尿天。
 <lb ed="X" n="0223a20"/>剎竿頭上煎&CB05283;子。三箇胡孫夜簸錢。石霜云。風吹石
-<lb ed="X" n="0223a21"/>臼爭哮吼。泥<anchor id="fnX71p0223a01"/>捏金剛水裏走。踏翻海月亂波生。驚起
+<lb ed="X" n="0223a21"/>臼爭哮吼。泥<note n="0223001" resp="Xuzangjing" place="foot text" type="orig">捏一作提</note>捏金剛水裏走。踏翻海月亂波生。驚起
 <lb ed="X" n="0223a22"/>土星犯牛斗。道吾云。三面狸奴&CB00560;踏月。兩頭白牯牛
 <lb ed="X" n="0223a23"/>拏&CB00195;。戴冠碧兔立庭柏。脫&CB15051;烏龜飛上天。保寧勇云。
 <lb ed="X" n="0223a24"/>此三頌。一頌堪與佛祖為師。一頌堪作人天榜樣。一
@@ -1523,7 +1528,7 @@ new from basic markup
 <lb ed="X" n="0225a18"/><p id="pX71p0225a1801">開爐上堂。三世諸佛在火&CB08504;裏轉大法輪。面赤不如
 <lb ed="X" n="0225a19"/>語直。火&CB08504;為三世諸佛說法。三世諸佛立地聽。入水
 <lb ed="X" n="0225a20"/>見長人。是法住法位。世間相常住。然常住之法。非目
-<lb ed="X" n="0225a21"/>前萬象森羅。四聖六凡。各安其<anchor id="fnX71p0225a01"/>住。是謂常住。何也。不
+<lb ed="X" n="0225a21"/>前萬象森羅。四聖六凡。各安其<note n="0225001" resp="Xuzangjing" place="foot text" type="orig">住疑位</note>住。是謂常住。何也。不
 <lb ed="X" n="0225a22"/>見道。是法非思量分別之所能解。又云。不是目前法。
 <lb ed="X" n="0225a23"/>非耳目之所到。阿呵呵。也大奇。向道是龍剛不信。果
 <lb ed="X" n="0225a24"/>然奪得錦標歸。</p>
@@ -1655,7 +1660,7 @@ new from basic markup
 <pb ed="X" id="X71.1412.0227a" n="0227a"/>
 <lb ed="X" n="0227a01"/>&CB00565;。伏惟珍重。師云。五祖老人。將無作有。固有飽歸湖
 <lb ed="X" n="0227a02"/>海之心。若是明&CB13122;下安排。大欠事在。澹湖即不然。&CB00425;
-<lb ed="X" n="0227a03"/>裏飯桶裏水。塞斷咽喉<anchor id="fnX71p0227a01"/>不唇齒。下座。</p>
+<lb ed="X" n="0227a03"/>裏飯桶裏水。塞斷咽喉<note n="0227001" resp="Xuzangjing" place="foot text" type="orig">不下一有干字</note>不唇齒。下座。</p>
 <lb ed="X" n="0227a04"/><p id="pX71p0227a0401">上堂。洞明生佛未具<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前。一段奇特大事。只在如今。
 <lb ed="X" n="0227a05"/>舉一明三。目機銖兩。置之不問。輕如鴻毛。重如泰山。
 <lb ed="X" n="0227a06"/>伶俐漢。到者裏七縱八橫。管取粥足飯足。卓主丈云。
@@ -2222,7 +2227,7 @@ new from basic markup
 <lb ed="X" n="0234b23"/>箇什麼。以主丈一時打&CB01904;。</p>
 <lb ed="X" n="0234b24"/><p id="pX71p0234b2401" rend="margin-left:1em">師云。諸方既不奈何。雪竇更是&CB01333;&CB01334;。如今有般漢。
 <pb ed="X" id="X71.1412.0234c" n="0234c"/>
-<lb ed="X" n="0234c01"/><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>頭入膠盆。<anchor id="fnX71p0234c01"/>木見拈槌&CB00594;拂。他便瞬目揚眉。忽若
+<lb ed="X" n="0234c01"/><app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>頭入膠盆。<note n="0234001" resp="Xuzangjing" place="foot text" type="orig">木字更勘</note>木見拈槌&CB00594;拂。他便瞬目揚眉。忽若
 <lb ed="X" n="0234c02"/>放兩拋三。便乃拏雲攫浪。問云會麼。云某甲是某
 <lb ed="X" n="0234c03"/>州人事。可謂金沙混雜。玉石俱焚。邪正不分。過由
 <lb ed="X" n="0234c04"/>鞭影。驀拈主丈云。看看。主丈子穿過諸人髑髏。</p>
@@ -2840,8 +2845,8 @@ new from basic markup
 <lb ed="X" n="0242c16"/>天然氣&CB01356;。逸格提持。惜乎不辨來風。非惟不識者僧。
 <lb ed="X" n="0242c17"/>抑亦蹉過德山不少。雖然。參學人切忌向者裏釘樁
 <lb ed="X" n="0242c18"/>搖櫓。見侍者來自新羅。妙齡英發。險阻艱難歷涉殆
-<lb ed="X" n="0242c19"/>盡。孜孜為道愈篤愈勤。其所守確乎不可&CB15072;也。訪<anchor id="fnX71p0242c01"/>子
-<lb ed="X" n="0242c20"/>於隆祖塔。<anchor id="fnX71p0242c02"/>左以<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>事見扣。然宗門大事。賴有力者相
+<lb ed="X" n="0242c19"/>盡。孜孜為道愈篤愈勤。其所守確乎不可&CB15072;也。訪<note n="0242001" resp="Xuzangjing" place="foot text" type="orig">子疑予</note>子
+<lb ed="X" n="0242c20"/>於隆祖塔。<note n="0242002" resp="Xuzangjing" place="foot text" type="orig">左疑尤</note>左以<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>事見扣。然宗門大事。賴有力者相
 <lb ed="X" n="0242c21"/>與扶持。古人有雖老不敢寧居逸體。惟談禪病以警
 <lb ed="X" n="0242c22"/>來蒙之說。予智識荒&CB00289;。豈敢妄攀先哲。因其來問語
 <lb ed="X" n="0242c23"/>意至誠。不得不為&CB00581;縷也。</p></div2>
@@ -2862,7 +2867,7 @@ new from basic markup
 <lb ed="X" n="0243a13"/>一是二。居此庵者。為吾辨之。</p></div2>
 <lb ed="X" n="0243a14"/><div2 type="other"><mulu type="其他" level="2" label="重刊汾陽和尚語錄疏"/><head>重刊汾陽和尚語錄疏</head>
 <lb ed="X" n="0243a15"/><p id="pX71p0243a1501">昔風穴和尚謂首山曰。不幸臨濟之道。至吾將墜于
-<lb ed="X" n="0243a16"/>地矣。觀此一眾。<anchor id="fnX71p0243a01"/>雖敏者多。見性者少。吾雖望子之久。
+<lb ed="X" n="0243a16"/>地矣。觀此一眾。<note n="0243001" resp="Xuzangjing" place="foot text" type="orig">雖當作聰</note>雖敏者多。見性者少。吾雖望子之久。
 <lb ed="X" n="0243a17"/>猶恐耽著此經。不能放捨。風穴高提祖印。向千聖頂
 <lb ed="X" n="0243a18"/>&CB00576;上。下者一著。不妨嶮峻。其奈首山言前領旨。格外
 <lb ed="X" n="0243a19"/>明宗。直下承當。不存毫髮。洎風穴上堂。舉世尊以青
@@ -3311,7 +3316,7 @@ new from basic markup
 <lb ed="X" n="0249a12"/>懷和尚也。所謂隔山見&CB00195;。便是知火。至臨機應變處。
 <lb ed="X" n="0249a13"/>如俊鷹快&CB15154;。搏擊自由。諸人若善參詳。管取頭正尾
 <lb ed="X" n="0249a14"/>正。勿謂今日不知又有來日。今年不會。更有來年不
-<lb ed="X" n="0249a15"/>覺不知。一<anchor id="fnX71p0249a01"/>處又添一歲。拈主丈云。主丈子也添一歲。
+<lb ed="X" n="0249a15"/>覺不知。一<note n="0249001" resp="Xuzangjing" place="foot text" type="orig">處一作歲</note>處又添一歲。拈主丈云。主丈子也添一歲。
 <lb ed="X" n="0249a16"/>卓主丈云。&CB01384;跳不出斗。</p>
 <lb ed="X" n="0249a17"/><p id="pX71p0249a1701">結夏小參。朱明啟候。聖制斯臨。四海高人。罷搖金錫。
 <lb ed="X" n="0249a18"/>言無言而可及。念無念以相應。廓諸佛之妙明。同十
@@ -3395,7 +3400,7 @@ new from basic markup
 <lb ed="X" n="0250a21"/>實。也有照也有用。只是不得與麼會。珍重。</p>
 <lb ed="X" n="0250a22"/><p id="pX71p0250a2201">冬節小參。葭&CB01926;未動&CB00320;陰塞。雲物纔舒萬&CB15077;生。村北
 <lb ed="X" n="0250a23"/>村南老梅樹。一花猶自未分明。是以時節遷流。陰陽
-<lb ed="X" n="0250a24"/>消長。添些子不得。減些子不得<anchor id="fnX71p0250a01"/>處。其或多處要添。少
+<lb ed="X" n="0250a24"/>消長。添些子不得。減些子不得<note n="0250001" resp="Xuzangjing" place="foot text" type="orig">一無處字</note>處。其或多處要添。少
 <pb ed="X" id="X71.1412.0250b" n="0250b"/>
 <lb ed="X" n="0250b01"/>處要減。澹湖有口也無說處。是汝諸人。切忌隨邪逐
 <lb ed="X" n="0250b02"/>惡。大凡禪和家。須得自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>眼正。一切時中。不被纖毫
@@ -3517,7 +3522,7 @@ new from basic markup
 <lb ed="X" n="0251c18"/>臟。何也。為他自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>本分事上。不曾嗄地一聲。不能向
 <lb ed="X" n="0251c19"/>古人未屙<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前著得隻眼。所以隨語生解。縱使和盤
 <lb ed="X" n="0251c20"/>托出。掇向面前。有甚交涉。&CB00573;記大慧和尚有云。我便
-<lb ed="X" n="0251c21"/>是參禪底<anchor id="fnX71p0251c01"/>精子。山僧早年聞與麼道。亦為不平。大抵
+<lb ed="X" n="0251c21"/>是參禪底<note n="0251001" resp="Xuzangjing" place="foot text" type="orig">精一作樣</note>精子。山僧早年聞與麼道。亦為不平。大抵
 <lb ed="X" n="0251c22"/>參禪。到啐地折嚗地斷。十方世界。都盧是箇大解脫
 <lb ed="X" n="0251c23"/>門。動靜去來咳唾掉臂。無非盡是文殊普賢大人境
 <lb ed="X" n="0251c24"/>界。有甚麼精與不精。後來因看大慧廣錄。見他往荊
@@ -3871,7 +3876,7 @@ new from basic markup
 <lb ed="X" n="0256c03"/>朔。到底不辨金與&CB00428;。</p>
 <lb ed="X" n="0256c04"/><p id="pX71p0256c0401">師黃檗不師大愚。據虎頭兼收虎尾。從茲四海橫行。
 <lb ed="X" n="0256c05"/>攪得無風浪起。普化掣風顛。相共立宗旨。合眼跳黃
-<lb ed="X" n="0256c06"/>河。<anchor id="fnX71p0256c01"/>扶過三千里。</p>
+<lb ed="X" n="0256c06"/>河。<note n="0256001" resp="Xuzangjing" place="foot text" type="orig">扶一作抹</note>扶過三千里。</p>
 <lb ed="X" n="0256c07"/><p id="pX71p0256c0701">六十烏藤錯怨誰。輕如山嶽重蒿枝。不辭膝下黃金
 <lb ed="X" n="0256c08"/>貴。又向高安見大愚。</p>
 <lb ed="X" n="0256c09"/><p id="pX71p0256c0901">面門上突出無位真人。瞎驢邊滅&CB00230;正法眼藏。十字
@@ -3901,7 +3906,7 @@ new from basic markup
 <lb ed="X" n="0257a08"/><p id="pX71p0257a0801">行不在前。立不在後。輔車相依。通塞相守。扶起破砂
 <lb ed="X" n="0257a09"/>盆。各自出隻手。長松樹下。瀑布巖前。獅子哮吼。象王
 <lb ed="X" n="0257a10"/>&CB06873;旋。</p></div2>
-<lb ed="X" n="0257a11"/><div2 type="other"><mulu type="其他" level="2" label="營藏主請贊"/><head><anchor id="fnX71p0257a01"/>營藏主請贊</head>
+<lb ed="X" n="0257a11"/><div2 type="other"><mulu type="其他" level="2" label="營藏主請贊"/><head><note n="0257001" resp="Xuzangjing" place="foot text" type="orig">營一作莒</note>營藏主請贊</head>
 <lb ed="X" n="0257a12"/><p id="pX71p0257a1201">不跳金剛圈。不吞栗棘蓬。一味喚鍾作甕。從教凌滅
 <lb ed="X" n="0257a13"/>宗風。當軒大坐。毫髮不容。昨夜南山。虎咬大虫。</p></div2>
 <lb ed="X" n="0257a14"/><div2 type="other"><mulu type="其他" level="2" label="猷首座寫山行請贊"/><head>猷首座寫山行請贊</head>
@@ -3928,7 +3933,7 @@ new from basic markup
 <lb ed="X" n="0257b10"/><div2 type="other"><mulu type="其他" level="2" label="思侍侍者請讚"/><head>思侍侍者請讚</head>
 <lb ed="X" n="0257b11"/><p id="pX71p0257b1101">&CB00418;面隔山河。東西沒分付。塞&CB00230;兩耳根。試聽塗毒鼓。
 <lb ed="X" n="0257b12"/>昔人有言兮。大丈夫先天為心祖。</p></div2>
-<lb ed="X" n="0257b13"/><div2 type="other"><mulu type="其他" level="2" label="蕭藏主請讚"/><head><anchor id="fnX71p0257b02"/>蕭藏主請讚</head>
+<lb ed="X" n="0257b13"/><div2 type="other"><mulu type="其他" level="2" label="蕭藏主請讚"/><head><note n="0257002" resp="Xuzangjing" place="foot text" type="orig">蕭一作兼</note>蕭藏主請讚</head>
 <lb ed="X" n="0257b14"/><p id="pX71p0257b1401">三關把斷雲門旨。兩喝商量濟北宗。不獨咽喉都併
 <lb ed="X" n="0257b15"/>&CB00230;。又兼雙耳十分聾。</p></div2></div1>
 <lb ed="X" n="0257b16"/><div1 type="other"><mulu type="其他" level="1" label="頌古"/><head>頌古</head>
@@ -4005,10 +4010,10 @@ new from basic markup
 <lb ed="X" n="0258b12"/>&CB00560;踏著如來禪。普化建法幢於紅塵堆裏。玄沙立宗
 <lb ed="X" n="0258b13"/>旨於釣魚之船。所謂道人行處。如火燒&CB00457;。如箭離弦。
 <lb ed="X" n="0258b14"/>不拘東土。豈隔西天。撞著吾家種草。問渠覓一文錢。</p></div2>
-<lb ed="X" n="0258b15"/><div2 type="other"><mulu type="其他" level="2" label="送堯禪人之永嘉"/><head>送<anchor id="fnX71p0258b01"/>堯禪人之永嘉</head>
+<lb ed="X" n="0258b15"/><div2 type="other"><mulu type="其他" level="2" label="送堯禪人之永嘉"/><head>送<note n="0258001" resp="Xuzangjing" place="foot text" type="orig">堯一作遶</note>堯禪人之永嘉</head>
 <lb ed="X" n="0258b16"/><p id="pX71p0258b1601">不見一法。是大過患。逼塞&CB00980;空。滿耳滿眼。無端瞥轉
 <lb ed="X" n="0258b17"/>一機。直得星移斗換。擘開臨濟三玄。風動蘆花兩岸。
-<lb ed="X" n="0258b18"/>突出金剛眼睛。海底<anchor id="fnX71p0258b02"/>鯨魚生卵。老僧與麼提持。一火
+<lb ed="X" n="0258b18"/>突出金剛眼睛。海底<note n="0258002" resp="Xuzangjing" place="foot text" type="orig">鯨一作鯉</note>鯨魚生卵。老僧與麼提持。一火
 <lb ed="X" n="0258b19"/>鑄成金彈。拋來擲去自由。且不受人呼喚。將歸鴈宕
 <lb ed="X" n="0258b20"/>峰前。打鼓普請試看。</p></div2>
 <lb ed="X" n="0258b21"/><div2 type="other"><mulu type="其他" level="2" label="送淨慈侍者再參"/><head>送淨慈侍者再參</head>
@@ -4105,7 +4110,7 @@ new from basic markup
 <lb ed="X" n="0259c12"/>臺。黑漆崑崙遭指註。稀復稀少復少。四七二三無處
 <lb ed="X" n="0259c13"/>討。忽然突出主丈頭。把定教渠道道道。拋出袖裏金
 <lb ed="X" n="0259c14"/>槌。撒下衣中至寶。津濟九有四生。使夫敗善根非器
-<lb ed="X" n="0259c15"/>眾生。知有吾門單傳直指之妙<anchor id="fnX71p0259c01"/>妙也不好。</p></div2>
+<lb ed="X" n="0259c15"/>眾生。知有吾門單傳直指之妙<note n="0259001" resp="Xuzangjing" place="foot text" type="orig">妙一作好</note>妙也不好。</p></div2>
 <lb ed="X" n="0259c16"/><div2 type="other"><mulu type="其他" level="2" label="送堅知客之永嘉"/><head>送堅知客之永嘉</head>
 <lb ed="X" n="0259c17"/><p id="pX71p0259c1701">保福有願不撒沙。趙州見僧惟喫茶。德山之棒臨濟
 <lb ed="X" n="0259c18"/>喝。雲門俱字猶堪誇。塵塵自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>光明藏。眼正便可分
@@ -4181,7 +4186,7 @@ new from basic markup
 <lb ed="X" n="0260c13"/>山。見說年來舌還禿。子今歸去追再參。到門為我伸
 <lb ed="X" n="0260c14"/>和南。百衲袈裟剪裁罷。屋頭賸種青松杉。</p></div2>
 <lb ed="X" n="0260c15"/><div2 type="other"><mulu type="其他" level="2" label="示東禪道禪人"/><head>示東禪道禪人</head>
-<lb ed="X" n="0260c16"/><p id="pX71p0260c1601">少室真機日<anchor id="fnX71p0260c01"/>午變。黑月即隱白月現。鎮海明珠總不
+<lb ed="X" n="0260c16"/><p id="pX71p0260c1601">少室真機日<note n="0260001" resp="Xuzangjing" place="foot text" type="orig">午一作千</note>午變。黑月即隱白月現。鎮海明珠總不
 <lb ed="X" n="0260c17"/>如。頂上金烏急如箭。道禪得之猶等閑。信手拽脫須
 <lb ed="X" n="0260c18"/>彌山。黃河奔騰大華裂。獅子踞地雲濤翻。東禪老人
 <lb ed="X" n="0260c19"/>眠三角。識得渠儂誠不錯。壁觀空逾九度春。一花五
@@ -4296,7 +4301,7 @@ new from basic markup
 <lb ed="X" n="0262b03"/>剎海空。百億須彌小。&CB00980;空既消殞。萬象無處討。開摩
 <lb ed="X" n="0262b04"/>醯頂上之眸。顯自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>衣中之寶。寬廓非外兮。靈山密
 <lb ed="X" n="0262b05"/>付觸處光輝。寂寥非內兮。祖父田園勉力可紹。</p></div2>
-<lb ed="X" n="0262b06"/><div2 type="other"><mulu type="其他" level="2" label="送丹侍者省師"/><head>送<anchor id="fnX71p0262b01"/>丹侍者省師</head>
+<lb ed="X" n="0262b06"/><div2 type="other"><mulu type="其他" level="2" label="送丹侍者省師"/><head>送<note n="0262001" resp="Xuzangjing" place="foot text" type="orig">丹一作舟</note>丹侍者省師</head>
 <lb ed="X" n="0262b07"/><p id="pX71p0262b0701">行&CB00560;一千餘里。何曾賣&CB00230;布單。留得通身煖氣。歸來
 <lb ed="X" n="0262b08"/>重禮師顏。是我好兒打不殺。是他人馬騎即難。梢金
 <lb ed="X" n="0262b09"/>雞拂玉兔。轉地軸迴天關。直下痛施三頓。方知虎體
@@ -4623,9 +4628,9 @@ new from basic markup
 <lb ed="X" n="0266c05"/>首座。以師提唱。四方學者。爭相謄寫。烏焉迭謬為病。
 <lb ed="X" n="0266c06"/>諸耆德檀越。共相&CB01744;力。姑取吳之天平前後開元并
 <lb ed="X" n="0266c07"/>饒之永福。凡四會錄。以先繡梓。便其觀覽。然保寧之
-<lb ed="X" n="0266c08"/>語益富。特未遑編次也。茲本<anchor id="fnX71p0266c01"/>既<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>流通。往往南詢衲
+<lb ed="X" n="0266c08"/>語益富。特未遑編次也。茲本<note n="0266001" resp="Xuzangjing" place="foot text" type="orig">＊院疑既（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>既<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>流通。往往南詢衲
 <lb ed="X" n="0266c09"/>子。&CB00234;來不一。海內勝流。咸羨慕之。而卒不能獲為恨。
-<lb ed="X" n="0266c10"/>辛巳夏。森禪人必欲幹募刊版。以結眾緣。等持古<anchor id="fnX71p0266c02"/>先
+<lb ed="X" n="0266c10"/>辛巳夏。森禪人必欲幹募刊版。以結眾緣。等持古<note n="0266002" resp="Xuzangjing" place="foot text" type="orig">先字原本不明</note>先
 <lb ed="X" n="0266c11"/>元禪師。聞而慨然喜曰。昔&CB00573;居其座下。諸彥欲倩為
 <lb ed="X" n="0266c12"/>書。時迫東歸不果。今當以森公之志。以補所欠。由是
 <lb ed="X" n="0266c13"/>為之勸緣。與森共成其事。明年秋事未畢。森復南詢。

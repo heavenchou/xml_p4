@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X71n1423.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/12/02 10:07:57 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2007/09/07 08:47:02 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/12/02 10:07:57 $</date>
+		<date>$Date: 2007/09/07 08:47:02 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 71, No. 1423 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X71n1423.xml,v $
+Revision 1.10  2007/09/07 08:47:02  eva
+modified: 校注作業完成
+
 Revision 1.9  2004/12/02 10:07:57  moved
 X63～X73 XML 新增句讀
 
@@ -184,7 +189,7 @@ new from basic markup
 <lb ed="X" n="0734c23"/>者麼。若無。彼此著便。何故。若論此事。如鸞鳳&CB00287;霄不
 <lb ed="X" n="0734c24"/>留其&CB00528;。羚羊掛角那覓其蹤。金龍不守於寒潭。玉兔
 <pb ed="X" id="X71.1423.0735a" n="0735a"/>
-<lb ed="X" n="0735a01"/>豈棲於蟾影。其或主賓若立。須威音<anchor id="fnX71p0735a01"/>路外搖頭。問答
+<lb ed="X" n="0735a01"/>豈棲於蟾影。其或主賓若立。須威音<note n="0735001" resp="Xuzangjing" place="foot text" type="orig">路普燈錄作世</note>路外搖頭。問答
 <lb ed="X" n="0735a02"/>言陳。仍玄路傍提為唱。若能如是。猶在半途。更乃凝
 <lb ed="X" n="0735a03"/>眸。不勞相見<note place="inline">謝詞不錄</note>。</p>
 <lb ed="X" n="0735a04"/><p id="pX71p0735a0401">次夜小參。僧問。承明安禪師頌云。陽廣山頭艸。憑君
@@ -350,7 +355,7 @@ new from basic markup
 <lb ed="X" n="0737a14"/>歸家。若也不會。舉步更須子細。下座。</p>
 <lb ed="X" n="0737a15"/><p id="pX71p0737a1501">上堂云。諸佛出世遞相證明。祖師西來同垂風範。致
 <lb ed="X" n="0737a16"/>使曹谿路峻。靈鷲山高。天台與南岳相連。少室共&CB06398;
-<lb ed="X" n="0737a17"/><anchor id="fnX71p0737a01"/>雲交接。澄潭水月隱隱難沈。一曲無私任君吹唱。諸
+<lb ed="X" n="0737a17"/><note n="0737001" resp="Xuzangjing" place="foot text" type="orig">雲普燈錄作嶺</note>雲交接。澄潭水月隱隱難沈。一曲無私任君吹唱。諸
 <lb ed="X" n="0737a18"/>仁者。且道是甚麼曲調。良久云。雪曲和難齊。下座。</p>
 <lb ed="X" n="0737a19"/><p id="pX71p0737a1901">送化主上堂。承緣別眾出雲山。行卷春初意泰然。化
 <lb ed="X" n="0737a20"/>畢早回林下寺。香風煙靄福人天。</p>
@@ -505,7 +510,7 @@ new from basic markup
 <lb ed="X" n="0739a19"/>影長<note place="inline">謝詞不錄</note>。靈泉長老白槌云。諦觀法王法。法王法如
 <lb ed="X" n="0739a20"/>是。便下座。</p>
 <lb ed="X" n="0739a21"/><p id="pX71p0739a2101">上堂。本路巡撿兵士問云。旃檀林。無雜樹。&CB15106;密深沈
-<lb ed="X" n="0739a22"/>獅子住。如何是其中事。師云。月到中&CB00123;頂。<anchor id="fnX71p0739a01"/>松羅萬像
+<lb ed="X" n="0739a22"/>獅子住。如何是其中事。師云。月到中&CB00123;頂。<note n="0739001" resp="Xuzangjing" place="foot text" type="orig">松普燈錄作森</note>松羅萬像
 <lb ed="X" n="0739a23"/>分。進云。恁麼則寂住千&CB00123;秀。曹谿一派深。師云須知
 <lb ed="X" n="0739a24"/>強將下無弱兵。進云若然者學人禮謝。師云也不得
 <pb ed="X" id="X71.1423.0739b" n="0739b"/>
@@ -525,7 +530,7 @@ new from basic markup
 <lb ed="X" n="0739b14"/><p id="pX71p0739b1401">次日謝專使上堂云。若論此事。豈在繁論。雖官不容
 <lb ed="X" n="0739b15"/>鍼。私通車馬便有分&CB00520;分。所以道靈山分座自恥何
 <lb ed="X" n="0739b16"/>多。少室&CB00980;淹是誰之過。&CB00582;為栽梧待鳳種竹引風。若
-<lb ed="X" n="0739b17"/><anchor id="fnX71p0739b02"/>若無<anchor id="fnX71p0739b03"/>無祖承襲。依舊青山帶翠。諸仁者。且道承襲箇
+<lb ed="X" n="0739b17"/><note n="0739002" resp="Xuzangjing" place="foot text" type="orig">若字疑衍</note>若無<note n="0739003" resp="Xuzangjing" place="foot text" type="orig">無疑二</note>無祖承襲。依舊青山帶翠。諸仁者。且道承襲箇
 <lb ed="X" n="0739b18"/>甚麼。良久云。不勞懸石鏡。天曉自雞啼。</p>
 <lb ed="X" n="0739b19"/><p id="pX71p0739b1901">為亡僧下火　　拈起火把云。大眾還會麼。昔日拘
 <lb ed="X" n="0739b20"/>尸城畔三世諸佛遞相傳授。今日寂住&CB00123;前依而行
@@ -568,7 +573,7 @@ new from basic markup
 <lb ed="X" n="0740a07"/><p id="pX71p0740a0701">師云。劫石苔封籠古道。夜深寒塔影垂空。</p>
 <lb ed="X" n="0740a08"/><p id="pX71p0740a0801" rend="margin-left:1em">石牛喫盡三春艸。木馬蹈開萬古墳。土&CB00646;人臥千
 <lb ed="X" n="0740a09"/>&CB00123;冷。枯骨聲招誰聽聞。</p>
-<lb ed="X" n="0740a10"/><p id="pX71p0740a1001">師云。無影樹垂寒&CB00589;月。海潮東<anchor id="fnX71p0740a01"/>浪斗移西。</p>
+<lb ed="X" n="0740a10"/><p id="pX71p0740a1001">師云。無影樹垂寒&CB00589;月。海潮東<note n="0740001" resp="Xuzangjing" place="foot text" type="orig">浪會元淨因自覺章作注</note>浪斗移西。</p>
 <lb ed="X" n="0740a11"/><p id="pX71p0740a1101" rend="margin-left:1em">苔圍紫閣簾垂靜。萬里無雲月色清。聖容不整絲
 <lb ed="X" n="0740a12"/>綸化。禁外如何視聽聲。</p>
 <lb ed="X" n="0740a13"/><p id="pX71p0740a1301">師云。瑞艸鋪階苔滿地。天香時散不知來。</p>
@@ -626,7 +631,7 @@ new from basic markup
 <lb ed="X" n="0740c15"/>識。空對悲風艸色前。</p></div3>
 <lb ed="X" n="0740c16"/><div3 type="other"><mulu type="其他" level="3" label="方入圓"/><head>方入圓</head>
 <lb ed="X" n="0740c17"/><p id="pX71p0740c1701">鐵牛幾度過新羅。蹈斷千谿萬道河。欲會方中入圓
-<lb ed="X" n="0740c18"/>句。牧童橫管又披<anchor id="fnX71p0740c02"/>簑。</p></div3>
+<lb ed="X" n="0740c18"/>句。牧童橫管又披<note n="0740002" resp="Xuzangjing" place="foot text" type="orig">簑普燈錄作蓑</note>簑。</p></div3>
 <lb ed="X" n="0740c19"/><div3 type="other"><mulu type="其他" level="3" label="辭浮山和尚"/><head>辭浮山和尚</head>
 <lb ed="X" n="0740c20"/><p id="pX71p0740c2001">須彌立大&CB00980;。日月輔而轉。&CB00320;&CB00123;漸倚他。白雲方改變。
 <lb ed="X" n="0740c21"/>少林風起叢。曹谿洞簾卷。金鳳宿龍巢。宸苔豈車輾。</p></div3></div2>
@@ -766,7 +771,7 @@ new from basic markup
 <lb ed="X" n="0742c05"/><p id="pX71p0742c0501">禺中巳。荒舍無人來到此。忽有青疲跛童來。云道與
 <lb ed="X" n="0742c06"/>師為弟子。</p>
 <lb ed="X" n="0742c07"/><p id="pX71p0742c0701">日南午。&CB15160;飯盛來破家具。休道出家受快活。喫盡飢
-<lb ed="X" n="0742c08"/>恓無限<anchor id="fnX71p0742c01"/>苔。</p>
+<lb ed="X" n="0742c08"/>恓無限<note n="0742001" resp="Xuzangjing" place="foot text" type="orig">苔普燈錄作苦</note>苔。</p>
 <lb ed="X" n="0742c09"/><p id="pX71p0742c0901">日昳未。勸君休著名利地。佛道我鄉尚懶踏。任它人
 <lb ed="X" n="0742c10"/>罵無恩義。</p>
 <lb ed="X" n="0742c11"/><p id="pX71p0742c1101">晡時申。設使玄悟越不親。不如隨分納些些。今年盡
@@ -868,29 +873,29 @@ new from basic markup
 <lb ed="X" n="0744a07"/><juan fun="open" n="002"><mulu type="卷" n="2"/><jhead>舒州投子青和尚語錄卷下</jhead></juan>
 <lb ed="X" n="0744a08"/>
 <lb ed="X" n="0744a09"/><div1 type="other"><mulu type="其他" level="1" label="頌古"/><head>頌古<note place="inline">一百則</note></head>
-<lb ed="X" n="0744a10"/><p id="pX71p0744a1001" rend="margin-left:1em">舉思和尚問六祖大師。當何所務<anchor id="fnX71p0744a01"/>即不落階級。祖
-<lb ed="X" n="0744a11"/>云汝曾作<anchor id="fnX71p0744a02"/>什麼來。思云聖諦亦不為。祖云落何階
-<lb ed="X" n="0744a12"/>級。思云。聖諦尚不為。<anchor id="fnX71p0744a03"/>何階級之有。祖云。如是如是。
-<lb ed="X" n="0744a13"/>汝善護持。吾當有偈。心地含諸<anchor id="fnX71p0744a04"/>種云云。</p>
+<lb ed="X" n="0744a10"/><p id="pX71p0744a1001" rend="margin-left:1em">舉思和尚問六祖大師。當何所務<note n="0744001" resp="Xuzangjing" place="foot text" type="orig">即下空谷集有得字</note>即不落階級。祖
+<lb ed="X" n="0744a11"/>云汝曾作<note n="0744002" resp="Xuzangjing" place="foot text" type="orig">什集作甚下同</note>什麼來。思云聖諦亦不為。祖云落何階
+<lb ed="X" n="0744a12"/>級。思云。聖諦尚不為。<note n="0744003" resp="Xuzangjing" place="foot text" type="orig">何等五字集作落何階級</note>何階級之有。祖云。如是如是。
+<lb ed="X" n="0744a13"/>汝善護持。吾當有偈。心地含諸<note n="0744004" resp="Xuzangjing" place="foot text" type="orig">種下有普雨悉皆&CB00030;頓悟華情巳菩提果自成之文</note><note n="0744004" resp="CBETA" type="mod">種下有普雨悉皆&CB00030;頓悟華情<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>菩提果自成之文</note>種云云。</p>
 <lb ed="X" n="0744a14"/><p id="pX71p0744a1401">無見頂露雲攢急。劫外靈枝不帶春。那邊不坐空王
 <lb ed="X" n="0744a15"/>殿。爭肯耘田向日輪。</p>
 <lb ed="X" n="0744a16"/><p id="pX71p0744a1601" rend="margin-left:1em">舉石頭到思和尚處。思問從什麼處來。頭云曹谿
 <lb ed="X" n="0744a17"/>來。思乃豎起拂子云。曹谿還有這箇麼。頭云。非但
 <lb ed="X" n="0744a18"/>曹谿。西天亦無。思云子莫到西天來麼。頭云若到
-<lb ed="X" n="0744a19"/><anchor id="fnX71p0744a05"/>有也則。云未在更道。頭云。莫全靠某甲。和尚也須
+<lb ed="X" n="0744a19"/><note n="0744005" resp="Xuzangjing" place="foot text" type="orig">有也則集會作則有也</note>有也則。云未在更道。頭云。莫全靠某甲。和尚也須
 <lb ed="X" n="0744a20"/>道一半。思云。不辭向汝道。恐後無人承當。</p>
-<lb ed="X" n="0744a21"/><p id="pX71p0744a2101">白雲藏玉鳳。紅日照無<anchor id="fnX71p0744a06"/>遼。隱隱星攢處。無私鎮九霄。</p>
+<lb ed="X" n="0744a21"/><p id="pX71p0744a2101">白雲藏玉鳳。紅日照無<note n="0744006" resp="Xuzangjing" place="foot text" type="orig">遼集作寥</note>遼。隱隱星攢處。無私鎮九霄。</p>
 <lb ed="X" n="0744a22"/><p id="pX71p0744a2201" rend="margin-left:1em">舉藥山與雲&CB04033;游山。腰閒刀響。&CB04033;云甚麼物作聲。
 <lb ed="X" n="0744a23"/>山便抽刀驀口作斫勢。</p>
 <lb ed="X" n="0744a24"/><p id="pX71p0744a2401">大鵬無伴過天池。獅子將兒絕後隨。崑崙觸犯歸行
 <pb ed="X" id="X71.1423.0744b" n="0744b"/>
-<lb ed="X" n="0744b01"/>路。一孔吞雲萬<anchor id="fnX71p0744b07"/>象馳。</p>
+<lb ed="X" n="0744b01"/>路。一孔吞雲萬<note n="0744007" resp="Xuzangjing" place="foot text" type="orig">象集作像下同</note>象馳。</p>
 <lb ed="X" n="0744b02"/><p id="pX71p0744b0201" rend="margin-left:1em">舉僧問道吾。如何是和尚深深處。吾下禪&CB00646;作女
 <lb ed="X" n="0744b03"/>人拜云。謝子遠來。無可祗待。</p>
 <lb ed="X" n="0744b04"/><p id="pX71p0744b0401">驪龍海臥瑞雲高。四望歸宗萬派朝。木人來問西宮
 <lb ed="X" n="0744b05"/>事。回惠東園一顆桃。</p>
 <lb ed="X" n="0744b06"/><p id="pX71p0744b0601" rend="margin-left:1em">舉雲&CB04033;初參藥山。山問甚麼處來。&CB04033;云百丈來。山
-<lb ed="X" n="0744b07"/><anchor id="fnX71p0744b08"/>云有何言句。&CB04033;云。有時云一句子百味具足。山云。
+<lb ed="X" n="0744b07"/><note n="0744008" resp="Xuzangjing" place="foot text" type="orig">云下集有百丈二字</note>云有何言句。&CB04033;云。有時云一句子百味具足。山云。
 <lb ed="X" n="0744b08"/>鹹即鹹味。淡即淡味。不鹹不淡是常味。作麼生百
 <lb ed="X" n="0744b09"/>味具足底句。&CB04033;無對。山云爭奈目前生死何。&CB04033;云
 <lb ed="X" n="0744b10"/>目前無生死。山云。二十年在百丈。俗氣也不除。又
@@ -899,9 +904,9 @@ new from basic markup
 <lb ed="X" n="0744b13"/>說甚麼法。&CB04033;云。有時上堂了。大眾下堂次。復召大
 <lb ed="X" n="0744b14"/>眾。大眾迴首。乃云是甚麼。山云何不早恁麼道。&CB04033;
 <lb ed="X" n="0744b15"/>於言下有省。</p>
-<lb ed="X" n="0744b16"/><p id="pX71p0744b1601">行盡千<anchor id="fnX71p0744b09"/>&CB00123;路轉高。肯歸方憶舊雲房。貪尋古調單于
+<lb ed="X" n="0744b16"/><p id="pX71p0744b1601">行盡千<note n="0744009" resp="Xuzangjing" place="foot text" type="orig">&CB00123;集作山</note>&CB00123;路轉高。肯歸方憶舊雲房。貪尋古調單于
 <lb ed="X" n="0744b17"/>曲。暨蹉胡家一韻長。</p>
-<lb ed="X" n="0744b18"/><p id="pX71p0744b1801" rend="margin-left:1em">舉夾山參<anchor id="fnX71p0744b10"/>船子。</p>
+<lb ed="X" n="0744b18"/><p id="pX71p0744b1801" rend="margin-left:1em">舉夾山參<note n="0744010" resp="Xuzangjing" place="foot text" type="orig">船子下集有八問七答</note>船子。</p>
 <lb ed="X" n="0744b19"/><p id="pX71p0744b1901">泛舟駕嶮三十春。擊處竿頭活死人。夾嶺桂分千古
 <lb ed="X" n="0744b20"/>韻。朗江山翠萬重新。</p>
 <lb ed="X" n="0744b21"/><p id="pX71p0744b2101" rend="margin-left:1em">舉藥山問高沙彌云。我聞長安甚鬧。彌云我國晏
@@ -911,7 +916,7 @@ new from basic markup
 <pb ed="X" id="X71.1423.0744c" n="0744c"/>
 <lb ed="X" n="0744c01"/><p id="pX71p0744c0101">興亡雲去與雲來。渠無國土絕塵埃。須彌頂上無根
 <lb ed="X" n="0744c02"/>艸。不受春風華自開。</p>
-<lb ed="X" n="0744c03"/><p id="pX71p0744c0301" rend="margin-left:1em"><anchor id="fnX71p0744c11"/>僧問石霜。如何是和尚深深處。霜云無&CB01930;鎖子兩
+<lb ed="X" n="0744c03"/><p id="pX71p0744c0301" rend="margin-left:1em"><note n="0744011" resp="Xuzangjing" place="foot text" type="orig">僧上集有舉字下同</note>僧問石霜。如何是和尚深深處。霜云無&CB01930;鎖子兩
 <lb ed="X" n="0744c04"/>頭搖。</p>
 <lb ed="X" n="0744c05"/><p id="pX71p0744c0501">三更月落兩山明。古道程遙苔滿生。金鎖搖時無手
 <lb ed="X" n="0744c06"/>犯。碧波心月兔常行。</p>
@@ -920,13 +925,13 @@ new from basic markup
 <lb ed="X" n="0744c09"/><p id="pX71p0744c0901">古源無水月何生。滿岸西流一派分。&CB06398;嶺罷詢熊耳
 <lb ed="X" n="0744c10"/>夢。雪庭休話少林春。</p>
 <lb ed="X" n="0744c11"/><p id="pX71p0744c1101" rend="margin-left:1em">僧問夾山。如何是佛。山云此閒無賓主。僧云尋常
-<lb ed="X" n="0744c12"/>與什<anchor id="fnX71p0744c12"/>麼對談。山云。文殊與吾&CB06078;水去。普賢猶未折
+<lb ed="X" n="0744c12"/>與什<note n="0744012" resp="Xuzangjing" place="foot text" type="orig">麼下集有人字</note>麼對談。山云。文殊與吾&CB06078;水去。普賢猶未折
 <lb ed="X" n="0744c13"/>華來。</p>
 <lb ed="X" n="0744c14"/><p id="pX71p0744c1401">親言言處幾人知。今古無儔類莫齊。玉馬雪行歸半
 <lb ed="X" n="0744c15"/>夜。羚羊挂角月沈西。</p>
-<lb ed="X" n="0744c16"/><p id="pX71p0744c1601" rend="margin-left:1em">雲&CB00582;問石霜。萬戶俱<anchor id="fnX71p0744c13A"/>開即不問。萬戶俱<anchor id="fnX71p0744c13B"/>閉時如何。
+<lb ed="X" n="0744c16"/><p id="pX71p0744c1601" rend="margin-left:1em">雲&CB00582;問石霜。萬戶俱<note n="0744013A" resp="Xuzangjing" place="foot text" type="orig">開閉集倒置</note><note n="0744013A" resp="CBETA" type="mod">開集作閉</note>開即不問。萬戶俱<note n="0744013B" resp="Xuzangjing" place="foot text" type="orig">開閉集倒置</note><note n="0744013B" resp="CBETA" type="mod">閉集作開</note>閉時如何。
 <lb ed="X" n="0744c17"/>霜云堂中事作麼生。&CB00582;無對。經半年方道得語云。
-<lb ed="X" n="0744c18"/>無人接得渠。霜云。道則太煞道。<anchor id="fnX71p0744c14"/>則道得八成。&CB00582;云
+<lb ed="X" n="0744c18"/>無人接得渠。霜云。道則太煞道。<note n="0744014" resp="Xuzangjing" place="foot text" type="orig">則集作只</note>則道得八成。&CB00582;云
 <pb ed="X" id="X71.1423.0745a" n="0745a"/>
 <lb ed="X" n="0745a01"/>和尚又如何。霜云無人識得渠。</p>
 <lb ed="X" n="0745a02"/><p id="pX71p0745a0201">古殿&CB04033;開月鎖松。霜凝雪露韻無窮。星前人臥千&CB00123;
@@ -934,89 +939,89 @@ new from basic markup
 <lb ed="X" n="0745a04"/><p id="pX71p0745a0401" rend="margin-left:1em">僧問九&CB00123;虔和尚。一筆丹青為什麼邈志公真不
 <lb ed="X" n="0745a05"/>得。師云僧繇&CB00230;許志公。僧云未審僧繇什麼人證
 <lb ed="X" n="0745a06"/>據。&CB00123;云烏龜稽首須彌柱。</p>
-<lb ed="X" n="0745a07"/><p id="pX71p0745a0701">荊山<anchor id="fnX71p0745a01"/>採玉卞人尋。至寶無瑕絕見因。鐵牛帶子蹈滄
+<lb ed="X" n="0745a07"/><p id="pX71p0745a0701">荊山<note n="0745001" resp="Xuzangjing" place="foot text" type="orig">採集作美</note>採玉卞人尋。至寶無瑕絕見因。鐵牛帶子蹈滄
 <lb ed="X" n="0745a08"/>海。撞月石龜長羽鱗。</p>
 <lb ed="X" n="0745a09"/><p id="pX71p0745a0901" rend="margin-left:1em">僧問韶山。是非不到處。還有句也無。山云有。僧云
-<lb ed="X" n="0745a10"/>是什麼句。山云一片<anchor id="fnX71p0745a02"/>孤雲不露醜。</p>
-<lb ed="X" n="0745a11"/><p id="pX71p0745a1101">白雲不到中&CB00123;頂。滿目煙蘿景象殊。一句曲<anchor id="fnX71p0745a03"/>含千古
+<lb ed="X" n="0745a10"/>是什麼句。山云一片<note n="0745002" resp="Xuzangjing" place="foot text" type="orig">孤集作白</note>孤雲不露醜。</p>
+<lb ed="X" n="0745a11"/><p id="pX71p0745a1101">白雲不到中&CB00123;頂。滿目煙蘿景象殊。一句曲<note n="0745003" resp="Xuzangjing" place="foot text" type="orig">含集作寒</note>含千古
 <lb ed="X" n="0745a12"/>調。萬重青碧月來初。</p>
 <lb ed="X" n="0745a13"/><p id="pX71p0745a1301" rend="margin-left:1em">僧問梁山。如何是祖師西來意。山云莫亂道。</p>
 <lb ed="X" n="0745a14"/><p id="pX71p0745a1401">國令嚴嚴擬者危。毫&CB12530;纔動鐵輪。隨心&CB00030;口應三千
 <lb ed="X" n="0745a15"/>里。齒露言來苦怨誰。</p>
-<lb ed="X" n="0745a16"/><p id="pX71p0745a1601" rend="margin-left:1em">僧問<anchor id="fnX71p0745a04"/>龍牙祖意。</p>
-<lb ed="X" n="0745a17"/><p id="pX71p0745a1701">石龜語話是誰聞。無耳髑髏夜聽深。<anchor id="fnX71p0745a05"/>方曉便藏無影
+<lb ed="X" n="0745a16"/><p id="pX71p0745a1601" rend="margin-left:1em">僧問<note n="0745004" resp="Xuzangjing" place="foot text" type="orig">龍牙下集有一問一答</note>龍牙祖意。</p>
+<lb ed="X" n="0745a17"/><p id="pX71p0745a1701">石龜語話是誰聞。無耳髑髏夜聽深。<note n="0745005" resp="Xuzangjing" place="foot text" type="orig">方集作天</note>方曉便藏無影
 <lb ed="X" n="0745a18"/>樹。大陽雖照不能尋。</p>
-<lb ed="X" n="0745a19"/><p id="pX71p0745a1901" rend="margin-left:1em">靈雲見<anchor id="fnX71p0745a06"/>桃悟道。</p>
+<lb ed="X" n="0745a19"/><p id="pX71p0745a1901" rend="margin-left:1em">靈雲見<note n="0745006" resp="Xuzangjing" place="foot text" type="orig">桃下集有華字</note>桃悟道。</p>
 <lb ed="X" n="0745a20"/><p id="pX71p0745a2001">山前桃發故園春。華綻紅枝省此身。證據謝君傍著
 <lb ed="X" n="0745a21"/>力。笑顏雖展意生瞋。煙鎖綠楊鶯囀緩。雨侵石筍倚
 <lb ed="X" n="0745a22"/>空鄰。金烏放去無消息。木馬嘶聲過漢秦。</p>
-<lb ed="X" n="0745a23"/><p id="pX71p0745a2301" rend="margin-left:1em">肅<anchor id="fnX71p0745a07"/>宗問忠國師。百年後所須何<anchor id="fnX71p0745a08"/>物。</p>
+<lb ed="X" n="0745a23"/><p id="pX71p0745a2301" rend="margin-left:1em">肅<note n="0745007" resp="Xuzangjing" place="foot text" type="orig">宗下集有帝字</note>宗問忠國師。百年後所須何<note n="0745008" resp="Xuzangjing" place="foot text" type="orig">物下有三答二問</note>物。</p>
 <lb ed="X" n="0745a24"/><p id="pX71p0745a2401">古塔涌聖迷。雲籠龍鳳失。香風半夜沈。寶殿無知識。</p>
 <pb ed="X" id="X71.1423.0745b" n="0745b"/>
-<lb ed="X" n="0745b01"/><p id="pX71p0745b0101" rend="margin-left:1em">龐居士問馬大師。不與萬法為<anchor id="fnX71p0745b09"/>侶是什麼人。師云
+<lb ed="X" n="0745b01"/><p id="pX71p0745b0101" rend="margin-left:1em">龐居士問馬大師。不與萬法為<note n="0745009" resp="Xuzangjing" place="foot text" type="orig">侶下集有者字</note>侶是什麼人。師云
 <lb ed="X" n="0745b02"/>待汝一口吸盡西江水即向汝道。</p>
 <lb ed="X" n="0745b03"/><p id="pX71p0745b0301">父母曠來別。得奉當竭力。木人半夜言。莫使外人識。</p>
 <lb ed="X" n="0745b04"/><p id="pX71p0745b0401" rend="margin-left:1em">僧問長沙。本來人還成佛否。沙云&CB00135;道大唐天子
-<lb ed="X" n="0745b05"/>還<anchor id="fnX71p0745b10"/>刈茅否。</p>
+<lb ed="X" n="0745b05"/>還<note n="0745010" resp="Xuzangjing" place="foot text" type="orig">刈茅集作割茅刈艸</note>刈茅否。</p>
 <lb ed="X" n="0745b06"/><p id="pX71p0745b0601">苔殿重重紫氣深。星分辰位正乾坤。金輪不御閻浮
 <lb ed="X" n="0745b07"/>境。豈并諸侯寶印尊。</p>
-<lb ed="X" n="0745b08"/><p id="pX71p0745b0801" rend="margin-left:1em">道吾與雲&CB04033;到南<anchor id="fnX71p0745b11"/>泉。泉問闍梨名什麼。吾云宗智。
+<lb ed="X" n="0745b08"/><p id="pX71p0745b0801" rend="margin-left:1em">道吾與雲&CB04033;到南<note n="0745011" resp="Xuzangjing" place="foot text" type="orig">泉下集有處字</note>泉。泉問闍梨名什麼。吾云宗智。
 <lb ed="X" n="0745b09"/>泉云智不到處作麼生宗。吾云切忌道著。泉云酌
-<lb ed="X" n="0745b10"/>然道著則頭角生。異日<anchor id="fnX71p0745b12"/>吾與雲&CB04033;在後架把鍼。<anchor id="fnX71p0745b13"/>泉
-<lb ed="X" n="0745b11"/><anchor id="fnX71p0745b14"/>過再問。智頭陀前日道智不到處切忌道著。道著
+<lb ed="X" n="0745b10"/>然道著則頭角生。異日<note n="0745012" resp="Xuzangjing" place="foot text" type="orig">吾集作師</note>吾與雲&CB04033;在後架把鍼。<note n="0745013" resp="Xuzangjing" place="foot text" type="orig">泉上有南字</note>泉
+<lb ed="X" n="0745b11"/><note n="0745014" resp="Xuzangjing" place="foot text" type="orig">過下有見字</note>過再問。智頭陀前日道智不到處切忌道著。道著
 <lb ed="X" n="0745b12"/>則頭角生。合作麼生行履。吾乃抽身<app><lem wit="【CBETA】" resp="CBETA.maha">入</lem><rdg wit="【卍續】">人</rdg></app>僧堂。</p>
 <lb ed="X" n="0745b13"/><p id="pX71p0745b1301">金剛際下古髑髏。幾被人蹈血濺空。明月任從君自
 <lb ed="X" n="0745b14"/>掬。寒松那棄白雲封。</p>
 <lb ed="X" n="0745b15"/><p id="pX71p0745b1501" rend="margin-left:1em">趙州纔見僧來便問。曾到此閒麼。僧云不曾到。州
-<lb ed="X" n="0745b16"/>云喫茶去。又問僧曾<anchor id="fnX71p0745b15"/>到麼。僧云曾到。州云喫茶去。</p>
+<lb ed="X" n="0745b16"/>云喫茶去。又問僧曾<note n="0745015" resp="Xuzangjing" place="foot text" type="orig">到下集有此間二字</note>到麼。僧云曾到。州云喫茶去。</p>
 <lb ed="X" n="0745b17"/><p id="pX71p0745b1701">見僧便問曾到否。有言曾到不曾來。留坐喫茶珍重
 <lb ed="X" n="0745b18"/>去。青煙暗換綠紋苔。</p>
-<lb ed="X" n="0745b19"/><p id="pX71p0745b1901" rend="margin-left:1em"><anchor id="fnX71p0745b16"/>大隨&CB00582;龜公案。</p>
+<lb ed="X" n="0745b19"/><p id="pX71p0745b1901" rend="margin-left:1em"><note n="0745016" resp="Xuzangjing" place="foot text" type="orig">大隨下集有一問一答</note>大隨&CB00582;龜公案。</p>
 <lb ed="X" n="0745b20"/><p id="pX71p0745b2001">一家有事百家忙。春暖纔回艸自長。東嶺月分西&CB00589;
-<lb ed="X" n="0745b21"/>水。<anchor id="fnX71p0745b17"/>匊殘猶自候重陽。</p>
-<lb ed="X" n="0745b22"/><p id="pX71p0745b2201" rend="margin-left:1em"><anchor id="fnX71p0745b18"/>南泉兩堂爭&CB00339;兒。</p>
-<lb ed="X" n="0745b23"/><p id="pX71p0745b2301">臨險推人事要知。求<anchor id="fnX71p0745b19"/>材先自露鍼錐。釣魚盡說<anchor id="fnX71p0745b20"/>暗風
+<lb ed="X" n="0745b21"/>水。<note n="0745017" resp="Xuzangjing" place="foot text" type="orig">匊集作菊下同</note>匊殘猶自候重陽。</p>
+<lb ed="X" n="0745b22"/><p id="pX71p0745b2201" rend="margin-left:1em"><note n="0745018" resp="Xuzangjing" place="foot text" type="orig">南泉下集有四問三答</note>南泉兩堂爭&CB00339;兒。</p>
+<lb ed="X" n="0745b23"/><p id="pX71p0745b2301">臨險推人事要知。求<note n="0745019" resp="Xuzangjing" place="foot text" type="orig">材集作財</note>材先自露鍼錐。釣魚盡說<note n="0745020" resp="Xuzangjing" place="foot text" type="orig">暗作&CB18767;（台&CB18940;版&M062447;諳&M062440;&M062436;&M062415;&M062475;。&CB18834;）</note>暗風
 <lb ed="X" n="0745b24"/>勢。及至風來波路迷。潦倒趙州雖好手。鐘鳴齋後赴
 <pb ed="X" id="X71.1423.0745c" n="0745c"/>
-<lb ed="X" n="0745c01"/>來遲。要知大象嘉州路。鐵牛鎮斷<app><lem wit="【CBETA】" resp="CBETA.maha">陝</lem><rdg wit="【卍續】">陜</rdg></app><anchor id="fnX71p0745c21"/>西關。</p>
-<lb ed="X" n="0745c02"/><p id="pX71p0745c0201" rend="margin-left:1em">僧問雲居弘覺。僧家畢竟如何。<anchor id="fnX71p0745c22"/>云居山好。</p>
-<lb ed="X" n="0745c03"/><p id="pX71p0745c0301"><anchor id="fnX71p0745c23"/>突兀嵯峨萬仞橫。四邊無路不通行。自古兩輪光不
+<lb ed="X" n="0745c01"/>來遲。要知大象嘉州路。鐵牛鎮斷<app><lem wit="【CBETA】" resp="CBETA.maha">陝</lem><rdg wit="【卍續】">陜</rdg></app><note n="0745021" resp="Xuzangjing" place="foot text" type="orig">西關集作關西</note>西關。</p>
+<lb ed="X" n="0745c02"/><p id="pX71p0745c0201" rend="margin-left:1em">僧問雲居弘覺。僧家畢竟如何。<note n="0745022" resp="Xuzangjing" place="foot text" type="orig">云集作覺云此下多作某云下同</note>云居山好。</p>
+<lb ed="X" n="0745c03"/><p id="pX71p0745c0301"><note n="0745023" resp="Xuzangjing" place="foot text" type="orig">突兀作&CB05466;&CB05467;</note>突兀嵯峨萬仞橫。四邊無路不通行。自古兩輪光不
 <lb ed="X" n="0745c04"/>到。夜深王老入西岑。</p>
-<lb ed="X" n="0745c05"/><p id="pX71p0745c0501" rend="margin-left:1em">丹<anchor id="fnX71p0745c24"/>霞一<anchor id="fnX71p0745c25"/>日經過院宿凝寒燒木佛。</p>
+<lb ed="X" n="0745c05"/><p id="pX71p0745c0501" rend="margin-left:1em">丹<note n="0745024" resp="Xuzangjing" place="foot text" type="orig">霞下集有和尚二字</note>霞一<note n="0745025" resp="Xuzangjing" place="foot text" type="orig">日等作凝寒經院過宿乃取殿中木羅漢燒向院主致怒乃感眉鬚墮落</note>日經過院宿凝寒燒木佛。</p>
 <lb ed="X" n="0745c06"/><p id="pX71p0745c0601" rend="margin-left:1em">師拈云。不會為客。勞煩主人。</p>
 <lb ed="X" n="0745c07"/><p id="pX71p0745c0701">古&CB04033;苔閉冷侵扉。蜚者驚危走者迷。夜深寒爇汀洲
-<lb ed="X" n="0745c08"/>火。失曉漁家<anchor id="fnX71p0745c26"/>忙自疑。</p>
-<lb ed="X" n="0745c09"/><p id="pX71p0745c0901" rend="margin-left:1em">舉洛<anchor id="fnX71p0745c27"/>浦參夾山。山云雞棲鳳巢非其同類。出<anchor id="fnX71p0745c28"/>去<note place="inline">云云</note>。</p>
-<lb ed="X" n="0745c10"/><p id="pX71p0745c1001">無伴石人夜入山。<anchor id="fnX71p0745c29"/>雪籠紅頂綠衣寒。喝開劫<anchor id="fnX71p0745c30"/>肇三&CB00123;
+<lb ed="X" n="0745c08"/>火。失曉漁家<note n="0745026" resp="Xuzangjing" place="foot text" type="orig">忙集作輒</note>忙自疑。</p>
+<lb ed="X" n="0745c09"/><p id="pX71p0745c0901" rend="margin-left:1em">舉洛<note n="0745027" resp="Xuzangjing" place="foot text" type="orig">浦下集有初字</note>浦參夾山。山云雞棲鳳巢非其同類。出<note n="0745028" resp="Xuzangjing" place="foot text" type="orig">去下有三答三問師拈云到這裏作麼生道得一句得同身共命一氣連枝遂代云無目繡雙鳳&CB00287;&CB00980;透碧霄之文</note>去<note place="inline">云云</note>。</p>
+<lb ed="X" n="0745c10"/><p id="pX71p0745c1001">無伴石人夜入山。<note n="0745029" resp="Xuzangjing" place="foot text" type="orig">雪作雲</note>雪籠紅頂綠衣寒。喝開劫<note n="0745030" resp="Xuzangjing" place="foot text" type="orig">肇作兆</note>肇三&CB00123;
 <lb ed="X" n="0745c11"/>頂。捧出金襴對日看。</p>
 <lb ed="X" n="0745c12"/><p id="pX71p0745c1201" rend="margin-left:1em">僧問&CB00520;山。如何是佛。云。何不問&CB00520;山老漢。</p>
 <lb ed="X" n="0745c13"/><p id="pX71p0745c1301">養子方知在上慈。親言無味外人疑。欲窮滄浪深深
 <lb ed="X" n="0745c14"/>處。聽取漁家輒莫迷。</p>
-<lb ed="X" n="0745c15"/><p id="pX71p0745c1501" rend="margin-left:1em">僧問重雲和尚。如何是歸根得旨。雲云早<anchor id="fnX71p0745c31"/>時忘&CB00230;
+<lb ed="X" n="0745c15"/><p id="pX71p0745c1501" rend="margin-left:1em">僧問重雲和尚。如何是歸根得旨。雲云早<note n="0745031" resp="Xuzangjing" place="foot text" type="orig">時集作是</note>時忘&CB00230;
 <lb ed="X" n="0745c16"/>不憶塵生。</p>
 <lb ed="X" n="0745c17"/><p id="pX71p0745c1701">家破人亡何處依。無心無緒話求歸。十年忘盡來時
-<lb ed="X" n="0745c18"/>路。暫憶些<anchor id="fnX71p0745c32"/>時總不知。</p>
+<lb ed="X" n="0745c18"/>路。暫憶些<note n="0745032" resp="Xuzangjing" place="foot text" type="orig">時集作兒</note>時總不知。</p>
 <pb ed="X" id="X71.1423.0746a" n="0746a"/>
 <lb ed="X" n="0746a01"/><p id="pX71p0746a0101" rend="margin-left:1em">舉僧問夾山。如何是夾山境。山云。猿抱子歸青嶂
 <lb ed="X" n="0746a02"/>後。鳥銜華落碧&CB04033;前。</p>
-<lb ed="X" n="0746a03"/><p id="pX71p0746a0301">月皎青松&CB15112;夢長。碧雲丹桂挂羚羊。&CB04033;高<anchor id="fnX71p0746a01"/>壁仞千&CB00123;
+<lb ed="X" n="0746a03"/><p id="pX71p0746a0301">月皎青松&CB15112;夢長。碧雲丹桂挂羚羊。&CB04033;高<note n="0746001" resp="Xuzangjing" place="foot text" type="orig">壁集作碧</note>壁仞千&CB00123;
 <lb ed="X" n="0746a04"/>雪。石筍生條半夜霜。</p>
-<lb ed="X" n="0746a05"/><p id="pX71p0746a0501" rend="margin-left:1em">舉僧問曹山。佛未出世時如<anchor id="fnX71p0746a02"/>何云云。</p>
+<lb ed="X" n="0746a05"/><p id="pX71p0746a0501" rend="margin-left:1em">舉僧問曹山。佛未出世時如<note n="0746002" resp="Xuzangjing" place="foot text" type="orig">何下集有二答一問</note>何云云。</p>
 <lb ed="X" n="0746a06"/><p id="pX71p0746a0601">月隱青山瑞氣高。梧藏丹鳳&CB01933;無寥。無端石馬潭中
-<lb ed="X" n="0746a07"/>過。驚起泥龍<anchor id="fnX71p0746a03"/>翻海潮。</p>
+<lb ed="X" n="0746a07"/>過。驚起泥龍<note n="0746003" resp="Xuzangjing" place="foot text" type="orig">翻集作之</note>翻海潮。</p>
 <lb ed="X" n="0746a08"/><p id="pX71p0746a0801" rend="margin-left:1em">舉僧問雲居。全無學處如何立身。居云無立身處。
 <lb ed="X" n="0746a09"/>僧云佛事何勞。居云不同興化。</p>
-<lb ed="X" n="0746a10"/><p id="pX71p0746a1001">苔殿煙收紫氣旋。拱班宸幄退堯年。鳳<anchor id="fnX71p0746a04"/>棲不宿桃源
+<lb ed="X" n="0746a10"/><p id="pX71p0746a1001">苔殿煙收紫氣旋。拱班宸幄退堯年。鳳<note n="0746004" resp="Xuzangjing" place="foot text" type="orig">棲集作樓</note>棲不宿桃源
 <lb ed="X" n="0746a11"/>客。豈并金光矚漢天。</p>
 <lb ed="X" n="0746a12"/><p id="pX71p0746a1201" rend="margin-left:1em">僧問風穴。古曲無音韻時。如何和得齊。穴云。木雞
 <lb ed="X" n="0746a13"/>啼子夜。芻狗吠天明。</p>
 <lb ed="X" n="0746a14"/><p id="pX71p0746a1401">古&CB04033;月色鎖重雲。枯木迎芳曉帶春。昨夜星河轉南
 <lb ed="X" n="0746a15"/>斗。金烏隨鳳過天輪。</p>
 <lb ed="X" n="0746a16"/><p id="pX71p0746a1601" rend="margin-left:1em">僧問投子。劫火洞然時如何。云寒威威地。</p>
-<lb ed="X" n="0746a17"/><p id="pX71p0746a1701">天地為爐萬物<anchor id="fnX71p0746a05"/>燋。石人駕浪渡雲霄。風生半夜霜<anchor id="fnX71p0746a06"/>威
-<lb ed="X" n="0746a18"/>重。月落<anchor id="fnX71p0746a07"/>冰寒<anchor id="fnX71p0746a08"/>逼&CB15150;凋。</p>
+<lb ed="X" n="0746a17"/><p id="pX71p0746a1701">天地為爐萬物<note n="0746005" resp="Xuzangjing" place="foot text" type="orig">燋集作焦</note>燋。石人駕浪渡雲霄。風生半夜霜<note n="0746006" resp="Xuzangjing" place="foot text" type="orig">威作殘</note>威
+<lb ed="X" n="0746a18"/>重。月落<note n="0746007" resp="Xuzangjing" place="foot text" type="orig">冰作水</note>冰寒<note n="0746008" resp="Xuzangjing" place="foot text" type="orig">逼作碧</note>逼&CB15150;凋。</p>
 <lb ed="X" n="0746a19"/><p id="pX71p0746a1901" rend="margin-left:1em">米胡令僧問仰山。今時人還假悟否。山云。悟即不
-<lb ed="X" n="0746a20"/>無。爭奈落第二<anchor id="fnX71p0746a09"/>頭。米胡深肯之。</p>
+<lb ed="X" n="0746a20"/>無。爭奈落第二<note n="0746009" resp="Xuzangjing" place="foot text" type="orig">頭下集有何字師拈云然仰山與麼道即得還免得自己落麼若免得更有一人大不肯在若免不得亦落第二頭米胡雖然肯他自己還有出身之路也無諸人試點檢看若點檢得出兩人瓦解冰消若點檢不得且莫造次之文</note>頭。米胡深肯之。</p>
 <lb ed="X" n="0746a21"/><p id="pX71p0746a2101">碧岫&CB00123;頭借問人。指山窮處未安身。雖然免得重陽
 <lb ed="X" n="0746a22"/>令。爭似靈苗不犯春。</p>
 <lb ed="X" n="0746a23"/><p id="pX71p0746a2301" rend="margin-left:1em">鏡清問雪&CB00123;。古人有言。&CB00123;便倒臥。良久起云。問甚
@@ -1032,7 +1037,7 @@ new from basic markup
 <lb ed="X" n="0746b08"/>上事如何。居云慎者不護。</p>
 <lb ed="X" n="0746b09"/><p id="pX71p0746b0901">春到石人視遠山。鶯啼華木碧波閒。須知雲外&CB04033;松
 <lb ed="X" n="0746b10"/>瑞。千古迎風任歲寒。</p>
-<lb ed="X" n="0746b11"/><p id="pX71p0746b1101" rend="margin-left:1em">風穴初到黃龍。龍問。石角穿雲路。垂絛意若何。<anchor id="fnX71p0746b10"/>穴
+<lb ed="X" n="0746b11"/><p id="pX71p0746b1101" rend="margin-left:1em">風穴初到黃龍。龍問。石角穿雲路。垂絛意若何。<note n="0746010" resp="Xuzangjing" place="foot text" type="orig">穴集作風</note>穴
 <lb ed="X" n="0746b12"/>云。紅霞籠玉像。擁嶂照川原。龍云恁麼則相隨來
 <lb ed="X" n="0746b13"/>也。穴云和尚低聲。</p>
 <lb ed="X" n="0746b14"/><p id="pX71p0746b1401">無價明珠暗處懸。夜深將把木人穿。誰知&CB00230;被泥牛
@@ -1043,8 +1048,8 @@ new from basic markup
 <lb ed="X" n="0746b19"/>贈。斂手遙別向暮歸。</p>
 <lb ed="X" n="0746b20"/><p id="pX71p0746b2001" rend="margin-left:1em">舉傅大士見梁王不起。公臣問曰。大士見王為什
 <lb ed="X" n="0746b21"/>麼不起。士曰。法地若動。一切不安。</p>
-<lb ed="X" n="0746b22"/><p id="pX71p0746b2201" rend="margin-left:1em">師拈云。然安&CB15131;定亂實假良<anchor id="fnX71p0746b11"/>股。立法明宗須憑作
-<lb ed="X" n="0746b23"/><anchor id="fnX71p0746b12"/>者。投機不玅。過犯彌天。力用不全。化風減半。若據
+<lb ed="X" n="0746b22"/><p id="pX71p0746b2201" rend="margin-left:1em">師拈云。然安&CB15131;定亂實假良<note n="0746011" resp="Xuzangjing" place="foot text" type="orig">股集作肱</note>股。立法明宗須憑作
+<lb ed="X" n="0746b23"/><note n="0746012" resp="Xuzangjing" place="foot text" type="orig">者下集有然字</note>者。投機不玅。過犯彌天。力用不全。化風減半。若據
 <lb ed="X" n="0746b24"/>將高就下。即枯木重陽。若盡令雙趺。即哀同萬里。</p>
 <pb ed="X" id="X71.1423.0746c" n="0746c"/>
 <lb ed="X" n="0746c01"/><p id="pX71p0746c0101">梁國令它魏國愁。渡江投水暗隨流。雖然寸土居無
@@ -1071,33 +1076,33 @@ new from basic markup
 <lb ed="X" n="0747a03"/><p id="pX71p0747a0301" rend="margin-left:1em">僧問雲門。如何是祖師西來意。云。日裏看山。</p>
 <lb ed="X" n="0747a04"/><p id="pX71p0747a0401">坦然曾問老師安。爭似韶陽一句傳。日裏華山仙掌
 <lb ed="X" n="0747a05"/>露。夜深猿叫月當軒。</p>
-<lb ed="X" n="0747a06"/><p id="pX71p0747a0601" rend="margin-left:1em">舉夾山在溈山作典<anchor id="fnX71p0747a01"/>座公案。</p>
-<lb ed="X" n="0747a07"/><p id="pX71p0747a0701">相逢借問眾僧<anchor id="fnX71p0747a02"/>麋。莫比庵園香飯施。紫氣夜隨丹鳳
+<lb ed="X" n="0747a06"/><p id="pX71p0747a0601" rend="margin-left:1em">舉夾山在溈山作典<note n="0747001" resp="Xuzangjing" place="foot text" type="orig">座下集有二問二答</note>座公案。</p>
+<lb ed="X" n="0747a07"/><p id="pX71p0747a0701">相逢借問眾僧<note n="0747002" resp="Xuzangjing" place="foot text" type="orig">麋集作糜</note>麋。莫比庵園香飯施。紫氣夜隨丹鳳
 <lb ed="X" n="0747a08"/>轉。金龍曉纏月中枝。</p>
-<lb ed="X" n="0747a09"/><p id="pX71p0747a0901" rend="margin-left:1em">僧問巴<anchor id="fnX71p0747a03"/>陵。祖意教意是同是別。云。雞寒上樹。鴨寒
+<lb ed="X" n="0747a09"/><p id="pX71p0747a0901" rend="margin-left:1em">僧問巴<note n="0747003" resp="Xuzangjing" place="foot text" type="orig">陵下集有鑒和尚三字</note>陵。祖意教意是同是別。云。雞寒上樹。鴨寒
 <lb ed="X" n="0747a10"/>下水。</p>
 <lb ed="X" n="0747a11"/><p id="pX71p0747a1101">同別祖意問端由。便將無價與他酬。絲綸夜靜人垂
 <lb ed="X" n="0747a12"/>釣。曉得金烏帶月收。</p>
 <lb ed="X" n="0747a13"/><p id="pX71p0747a1301" rend="margin-left:1em">僧問投子。凡聖相去幾何。投子下禪&CB00646;立。</p>
-<lb ed="X" n="0747a14"/><p id="pX71p0747a1401">水出崑崙浪接<anchor id="fnX71p0747a04"/>連。天高地<anchor id="fnX71p0747a05"/>垕秀林巒。禪&CB00646;略下雲山
-<lb ed="X" n="0747a15"/>斷。凡聖無<anchor id="fnX71p0747a06"/>&CB05114;海岳寒。</p>
-<lb ed="X" n="0747a16"/><p id="pX71p0747a1601" rend="margin-left:1em">僧問趙州。如何是道。州云<anchor id="fnX71p0747a07"/>牆外<anchor id="fnX71p0747a08"/>底。</p>
-<lb ed="X" n="0747a17"/><p id="pX71p0747a1701">知道還他<anchor id="fnX71p0747a09"/>老倒翁。親言相指自&CB07654;&CB07654;。關山路遠重須
+<lb ed="X" n="0747a14"/><p id="pX71p0747a1401">水出崑崙浪接<note n="0747004" resp="Xuzangjing" place="foot text" type="orig">連集作天</note>連。天高地<note n="0747005" resp="Xuzangjing" place="foot text" type="orig">垕作下</note>垕秀林巒。禪&CB00646;略下雲山
+<lb ed="X" n="0747a15"/>斷。凡聖無<note n="0747006" resp="Xuzangjing" place="foot text" type="orig">&CB05114;作蹤</note>&CB05114;海岳寒。</p>
+<lb ed="X" n="0747a16"/><p id="pX71p0747a1601" rend="margin-left:1em">僧問趙州。如何是道。州云<note n="0747007" resp="Xuzangjing" place="foot text" type="orig">牆集作城</note>牆外<note n="0747008" resp="Xuzangjing" place="foot text" type="orig">底下有二問二答</note>底。</p>
+<lb ed="X" n="0747a17"/><p id="pX71p0747a1701">知道還他<note n="0747009" resp="Xuzangjing" place="foot text" type="orig">老集作潦</note>老倒翁。親言相指自&CB07654;&CB07654;。關山路遠重須
 <lb ed="X" n="0747a18"/>去。一徑長途君任通。</p>
 <lb ed="X" n="0747a19"/><p id="pX71p0747a1901" rend="margin-left:1em">仰山湧和尚示眾云。一言說盡山河。僧便問。如何
 <lb ed="X" n="0747a20"/>是一言。山以火&CB00552;插向爐邊。&CB00230;收舊處。</p>
-<lb ed="X" n="0747a21"/><p id="pX71p0747a2101">一句稱提萬象分。<anchor id="fnX71p0747a10"/>肯同摩竭掩重門。夕陽影裏風濤
+<lb ed="X" n="0747a21"/><p id="pX71p0747a2101">一句稱提萬象分。<note n="0747010" resp="Xuzangjing" place="foot text" type="orig">肯等二十一字集作摩竭空自掩事門當初衲子微開眼插&CB00552;爐邊當火焚</note>肯同摩竭掩重門。夕陽影裏風濤
 <lb ed="X" n="0747a22"/>急。不覺移舟古渡昏。</p>
-<lb ed="X" n="0747a23"/><p id="pX71p0747a2301" rend="margin-left:1em">舉僧問首山。如何是菩提路。山云此去襄<anchor id="fnX71p0747a11"/>陽五里。
+<lb ed="X" n="0747a23"/><p id="pX71p0747a2301" rend="margin-left:1em">舉僧問首山。如何是菩提路。山云此去襄<note n="0747011" resp="Xuzangjing" place="foot text" type="orig">陽集作縣</note>陽五里。
 <lb ed="X" n="0747a24"/>僧云向上事如何。山云來往不易。</p>
 <pb ed="X" id="X71.1423.0747b" n="0747b"/>
 <lb ed="X" n="0747b01"/><p id="pX71p0747b0101">問路重途擬進程。綠楊鶯語送行人。牌標五里向君
 <lb ed="X" n="0747b02"/>說。莫道當年不指陳。</p>
-<lb ed="X" n="0747b03"/><p id="pX71p0747b0301" rend="margin-left:1em">僧問&CB04033;頭。古帆<anchor id="fnX71p0747b12"/>未掛時如何。頭云後園驢喫艸。</p>
+<lb ed="X" n="0747b03"/><p id="pX71p0747b0301" rend="margin-left:1em">僧問&CB04033;頭。古帆<note n="0747012" resp="Xuzangjing" place="foot text" type="orig">未集作不</note>未掛時如何。頭云後園驢喫艸。</p>
 <lb ed="X" n="0747b04"/><p id="pX71p0747b0401" rend="margin-left:1em">師拈云。寒山睡重。拾得起遲。</p>
 <lb ed="X" n="0747b05"/><p id="pX71p0747b0501">雲暗西&CB04033;東嶺明。汀洲南面起笛聲。天光睡重和衣
 <lb ed="X" n="0747b06"/>潤。鶯囀高枝柳帶春。</p>
-<lb ed="X" n="0747b07"/><p id="pX71p0747b0701" rend="margin-left:1em">舉僧問風穴。麈鹿成&CB00320;。如何射得<anchor id="fnX71p0747b13"/>麈中主。穴云。釣
+<lb ed="X" n="0747b07"/><p id="pX71p0747b0701" rend="margin-left:1em">舉僧問風穴。麈鹿成&CB00320;。如何射得<note n="0747013" resp="Xuzangjing" place="foot text" type="orig">麈集作主</note>麈中主。穴云。釣
 <lb ed="X" n="0747b08"/>船載到瀟湘岸。氣咽無寥問白鷗。</p>
 <lb ed="X" n="0747b09"/><p id="pX71p0747b0901">禁殿重圍視聽危。側思偏立絳綸垂。漢鄉雲斷汀洲
 <lb ed="X" n="0747b10"/>迥。嶺暮猿啼孤月隨。</p>
@@ -1107,7 +1112,7 @@ new from basic markup
 <lb ed="X" n="0747b14"/><p id="pX71p0747b1401" rend="margin-left:1em">僧問仰山湧和尚。曹谿意旨如何。云一鎖入寒空。</p>
 <lb ed="X" n="0747b15"/><p id="pX71p0747b1501">重雲層仞插寒空。塔鎖深雲勢莫窮。千古松聲來有
 <lb ed="X" n="0747b16"/>韻。萬年谿水去無蹤。</p>
-<lb ed="X" n="0747b17"/><p id="pX71p0747b1701" rend="margin-left:1em">僧問福州<anchor id="fnX71p0747b14"/>雲&CB00123;顯和尚。如何是諸佛向上人。&CB00123;云
+<lb ed="X" n="0747b17"/><p id="pX71p0747b1701" rend="margin-left:1em">僧問福州<note n="0747014" resp="Xuzangjing" place="foot text" type="orig">雲集作靈</note>雲&CB00123;顯和尚。如何是諸佛向上人。&CB00123;云
 <lb ed="X" n="0747b18"/>白雲覆青山。僧云莫便是和尚為人處也無。云綠
 <lb ed="X" n="0747b19"/>沼徒長蕖。</p>
 <lb ed="X" n="0747b20"/><p id="pX71p0747b2001">雪嶠層層翠鎖深。風生寒岫結重雲。夜來丹鳳&CB00287;霄
@@ -1118,15 +1123,15 @@ new from basic markup
 <pb ed="X" id="X71.1423.0747c" n="0747c"/>
 <lb ed="X" n="0747c01"/>問。報說東園麥&CB00102;青。</p>
 <lb ed="X" n="0747c02"/><p id="pX71p0747c0201" rend="margin-left:1em">僧問風穴。如何是學人親切處。穴云。須彌南畔齊
-<lb ed="X" n="0747c03"/>打鼓。賀蘭山上<anchor id="fnX71p0747c15"/>曬皮裘。</p>
+<lb ed="X" n="0747c03"/>打鼓。賀蘭山上<note n="0747015" resp="Xuzangjing" place="foot text" type="orig">曬皮裘集作築皮毬</note>曬皮裘。</p>
 <lb ed="X" n="0747c04"/><p id="pX71p0747c0401">親切曾伸問老翁。東山&CB00347;唱北山吟。弄潮須是江吳
 <lb ed="X" n="0747c05"/>客。別語還他漢地人。</p>
 <lb ed="X" n="0747c06"/><p id="pX71p0747c0601" rend="margin-left:1em">僧問首山。如何是學人用心處。云怪&CB00135;一問遲也。</p>
-<lb ed="X" n="0747c07"/><p id="pX71p0747c0701">未語難明迷悟情。發言方表赤心人。<anchor id="fnX71p0747c16"/>祇貪進步求<anchor id="fnX71p0747c17"/>明
+<lb ed="X" n="0747c07"/><p id="pX71p0747c0701">未語難明迷悟情。發言方表赤心人。<note n="0747016" resp="Xuzangjing" place="foot text" type="orig">祇貪集作只知</note>祇貪進步求<note n="0747017" resp="Xuzangjing" place="foot text" type="orig">明作名</note>明
 <lb ed="X" n="0747c08"/>玉。爭信靈苗不受春。</p>
 <lb ed="X" n="0747c09"/><p id="pX71p0747c0901" rend="margin-left:1em">僧問首山。一切諸佛皆從此經出。如何是此經。山
-<lb ed="X" n="0747c10"/>云低聲低聲。僧云如何受持。山云不<anchor id="fnX71p0747c18"/>污染。</p>
-<lb ed="X" n="0747c11"/><p id="pX71p0747c1101">水出崑崙山起雲。釣人樵父昧來因。<anchor id="fnX71p0747c19"/>祇知洪浪&CB04033;巒
+<lb ed="X" n="0747c10"/>云低聲低聲。僧云如何受持。山云不<note n="0747018" resp="Xuzangjing" place="foot text" type="orig">污染集作染污</note>污染。</p>
+<lb ed="X" n="0747c11"/><p id="pX71p0747c1101">水出崑崙山起雲。釣人樵父昧來因。<note n="0747019" resp="Xuzangjing" place="foot text" type="orig">祇集作只</note>祇知洪浪&CB04033;巒
 <lb ed="X" n="0747c12"/>闊。不肯拋絲棄斧聲。</p>
 <lb ed="X" n="0747c13"/><p id="pX71p0747c1301" rend="margin-left:1em">僧問郢州趙橫山柔和尚。如何是佛。云平地望高
 <lb ed="X" n="0747c14"/>坡。</p>
@@ -1135,7 +1140,7 @@ new from basic markup
 <lb ed="X" n="0747c17"/><p id="pX71p0747c1701" rend="margin-left:1em">僧問九&CB00123;懃和尚。如何是西來意。云一寸龜毛重
 <lb ed="X" n="0747c18"/>九斤。</p>
 <pb ed="X" id="X71.1423.0748a" n="0748a"/>
-<lb ed="X" n="0748a01"/><p id="pX71p0748a0101">等閒不語未逢人。語便傷<anchor id="fnX71p0748a01"/>真似太親。不顧火中鸞鳳
+<lb ed="X" n="0748a01"/><p id="pX71p0748a0101">等閒不語未逢人。語便傷<note n="0748001" resp="Xuzangjing" place="foot text" type="orig">真集作直</note>真似太親。不顧火中鸞鳳
 <lb ed="X" n="0748a02"/>息。驚它石虎暗生瞋。</p>
 <lb ed="X" n="0748a03"/><p id="pX71p0748a0301" rend="margin-left:1em">僧問臨濟。如何是吹毛&CB00669;。濟云禍事禍事。僧禮拜。
 <lb ed="X" n="0748a04"/>濟便打。</p>
@@ -1153,19 +1158,19 @@ new from basic markup
 <lb ed="X" n="0748a16"/>悉。紅爐點雪自相通。</p>
 <lb ed="X" n="0748a17"/><p id="pX71p0748a1701" rend="margin-left:1em">僧問上藍超和尚。善財見文殊後為甚麼&CB00230;往南
 <lb ed="X" n="0748a18"/>方。藍云。學憑入室。知乃通方。僧云到蘇摩城為甚
-<lb ed="X" n="0748a19"/>麼彌勒&CB00230;遣見文殊。云。道<anchor id="fnX71p0748a02"/>&CB15867;無涯。逢人不盡。</p>
+<lb ed="X" n="0748a19"/>麼彌勒&CB00230;遣見文殊。云。道<note n="0748002" resp="Xuzangjing" place="foot text" type="orig">&CB15867;集作曠．下有師拈云然道無迷悟法證由師不住聖凡莊嚴妙行是以文殊遣去須彌登山海岸逢師市廛禮友或刀山婬舍罪杻王宮或童女童男瞿夷聖后彌勒彈指普賢親瞻再見文殊復有何事信知通方知有道曠無涯不昧光蹤歷窮盡妙諸仁者還知更有一人為什麼善財不參且道是什麼人良久云滿頭白髮離巖谷半夜穿雲入市&CB05567;之文</note>&CB15867;無涯。逢人不盡。</p>
 <lb ed="X" n="0748a20"/><p id="pX71p0748a2001">日出昇空高下周。崑崙源派入川流。春山雲逗風無
 <lb ed="X" n="0748a21"/>盡。雁去回南天地秋。</p>
 <lb ed="X" n="0748a22"/><p id="pX71p0748a2201" rend="margin-left:1em">僧問洛浦。如何是一大藏教收不得者。浦云。雨滋
 <lb ed="X" n="0748a23"/>三艸秀。片玉本來輝。</p>
 <lb ed="X" n="0748a24"/><p id="pX71p0748a2401">畢&CB00425;&CB04033;華曉帶春。香風時結鷲&CB00123;層。須知玉象瓶中
 <pb ed="X" id="X71.1423.0748b" n="0748b"/>
-<lb ed="X" n="0748b01"/>塔。別有輝天<anchor id="fnX71p0748b03"/>照地燈。</p>
+<lb ed="X" n="0748b01"/>塔。別有輝天<note n="0748003" resp="Xuzangjing" place="foot text" type="orig">照集作鑑</note>照地燈。</p>
 <lb ed="X" n="0748b02"/><p id="pX71p0748b0201" rend="margin-left:1em">僧問芭蕉情和尚。如何是透法身句。蕉云。一不得
 <lb ed="X" n="0748b03"/>問。二不得休。僧云學人不會。蕉云第三度來與&CB00135;
 <lb ed="X" n="0748b04"/>相見。</p>
 <lb ed="X" n="0748b05"/><p id="pX71p0748b0501">休問維摩臥病城。靈山空自掩光陰。流沙欲渡全無
-<lb ed="X" n="0748b06"/>難。莫聽鶯<anchor id="fnX71p0748b04"/>鳴在那林。</p>
+<lb ed="X" n="0748b06"/>難。莫聽鶯<note n="0748004" resp="Xuzangjing" place="foot text" type="orig">鳴集作啼</note>鳴在那林。</p>
 <lb ed="X" n="0748b07"/><p id="pX71p0748b0701" rend="margin-left:1em">僧問芭蕉徹和尚。有一人不捨生死。不證涅槃。師
 <lb ed="X" n="0748b08"/>還提&CB06078;也無。徹云不提&CB06078;。僧云為甚麼不提&CB06078;。徹
 <lb ed="X" n="0748b09"/>云老僧粗識好惡。</p>
@@ -1176,83 +1181,83 @@ new from basic markup
 <lb ed="X" n="0748b14"/>迥。雁回遙聽可三更。</p>
 <lb ed="X" n="0748b15"/><p id="pX71p0748b1501" rend="margin-left:1em">僧問禾山。即心即佛即不問。如何是非心非佛。山
 <lb ed="X" n="0748b16"/>云解打鼓。</p>
-<lb ed="X" n="0748b17"/><p id="pX71p0748b1701">布毛拈<anchor id="fnX71p0748b05"/>處費人言。爭似禾山一句傳。打鼓一聲喧宇
+<lb ed="X" n="0748b17"/><p id="pX71p0748b1701">布毛拈<note n="0748005" resp="Xuzangjing" place="foot text" type="orig">處集作起</note>處費人言。爭似禾山一句傳。打鼓一聲喧宇
 <lb ed="X" n="0748b18"/>宙。冰寒千丈忽生蓮。</p>
 <lb ed="X" n="0748b19"/><p id="pX71p0748b1901" rend="margin-left:1em">僧問黃連和尚。如何是聲前一句。連云。聲前無句。
 <lb ed="X" n="0748b20"/>聲後問將來。</p>
-<lb ed="X" n="0748b21"/><p id="pX71p0748b2101">空劫前時<anchor id="fnX71p0748b06"/>廣路閒。聲前無句信人難。欲窮滄浪白雲
+<lb ed="X" n="0748b21"/><p id="pX71p0748b2101">空劫前時<note n="0748006" resp="Xuzangjing" place="foot text" type="orig">廣集作曠</note>廣路閒。聲前無句信人難。欲窮滄浪白雲
 <lb ed="X" n="0748b22"/>曲。且看石人露半顏。</p>
 <lb ed="X" n="0748b23"/><p id="pX71p0748b2301" rend="margin-left:1em">僧問吉州資福寶和尚。如何是古人歌。福畫圓相
 <lb ed="X" n="0748b24"/>對之。</p>
 <pb ed="X" id="X71.1423.0748c" n="0748c"/>
 <lb ed="X" n="0748c01"/><p id="pX71p0748c0101">一曲兩曲深夜彈。松風和雨過前山。可憐卞玉離荊
 <lb ed="X" n="0748c02"/>岫。誰是知音&CB00230;取還。</p>
-<lb ed="X" n="0748c03"/><p id="pX71p0748c0301" rend="margin-left:1em">僧問益州崇福志和尚。如<anchor id="fnX71p0748c07"/>何寬廓之言。志云無舌
+<lb ed="X" n="0748c03"/><p id="pX71p0748c0301" rend="margin-left:1em">僧問益州崇福志和尚。如<note n="0748007" resp="Xuzangjing" place="foot text" type="orig">何下集有是字</note>何寬廓之言。志云無舌
 <lb ed="X" n="0748c04"/>人道得。</p>
 <lb ed="X" n="0748c05"/><p id="pX71p0748c0501">寬廓言時不犯舌。清風高韻碧雲斜。石人貪話西&CB00123;
 <lb ed="X" n="0748c06"/>事。不覺東&CB04033;起霧遮。</p>
 <lb ed="X" n="0748c07"/><p id="pX71p0748c0701" rend="margin-left:1em">大陽明安和尚問梁山。如何是無相道場。山指觀
 <lb ed="X" n="0748c08"/>音云此是吳處士畫。陽擬進語。山急索云。這箇是
-<lb ed="X" n="0748c09"/>有相底。如何是無相底。<anchor id="fnX71p0748c08"/>陽言下有省。禮拜乃歸本
+<lb ed="X" n="0748c09"/>有相底。如何是無相底。<note n="0748008" resp="Xuzangjing" place="foot text" type="orig">陽下集有於字</note>陽言下有省。禮拜乃歸本
 <lb ed="X" n="0748c10"/>位立。山云何不道取一句子。陽云。道即不辭。恐上
-<lb ed="X" n="0748c11"/>紙墨。山呵呵<anchor id="fnX71p0748c09"/>云。此語上石去在。後果上&CB15156;。</p>
+<lb ed="X" n="0748c11"/>紙墨。山呵呵<note n="0748009" resp="Xuzangjing" place="foot text" type="orig">云上集有笑字</note>云。此語上石去在。後果上&CB15156;。</p>
 <lb ed="X" n="0748c12"/><p id="pX71p0748c1201" rend="margin-left:1em">師拈云。然道廣古今。行人難度。山危絕嶮。登者無
 <lb ed="X" n="0748c13"/>因。儻不發問先蹤。履踐無期得入。所以悟由自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>
-<lb ed="X" n="0748c14"/>印乃憑師。遞代證明續佛<anchor id="fnX71p0748c10"/>壽命。此者窮崖問路力
-<lb ed="X" n="0748c15"/>盡指蹤。&CB04033;壁無門力窮進退。既金龍失水妙翅<anchor id="fnX71p0748c11"/>力
+<lb ed="X" n="0748c14"/>印乃憑師。遞代證明續佛<note n="0748010" resp="Xuzangjing" place="foot text" type="orig">壽集作慧</note>壽命。此者窮崖問路力
+<lb ed="X" n="0748c15"/>盡指蹤。&CB04033;壁無門力窮進退。既金龍失水妙翅<note n="0748011" resp="Xuzangjing" place="foot text" type="orig">力集作急</note>力
 <lb ed="X" n="0748c16"/>提。別透波瀾復歸本位。諸仁者。正當恁麼時還知
 <lb ed="X" n="0748c17"/>古人退位處麼。若知得。可謂萬仞&CB00123;擁千波竭沸。
 <lb ed="X" n="0748c18"/>龍宮與天界分簷。鳳閣并星辰合彩。&CB04033;松籠瑞川
 <pb ed="X" id="X71.1423.0749a" n="0749a"/>
 <lb ed="X" n="0749a01"/>霧艸薰。不犯化門千山迥出。若不知落處。&CB04033;闊無
-<lb ed="X" n="0749a02"/>人問。龍<anchor id="fnX71p0749a01"/>到滄海深。</p>
-<lb ed="X" n="0749a03"/><p id="pX71p0749a0301">路窮<anchor id="fnX71p0749a02"/>崖仞問山翁。別指&CB04033;西嶺近東。擬進霧垂嵐色
+<lb ed="X" n="0749a02"/>人問。龍<note n="0749001" resp="Xuzangjing" place="foot text" type="orig">到集作愁</note>到滄海深。</p>
+<lb ed="X" n="0749a03"/><p id="pX71p0749a0301">路窮<note n="0749002" resp="Xuzangjing" place="foot text" type="orig">崖集作&CB18941;</note>崖仞問山翁。別指&CB04033;西嶺近東。擬進霧垂嵐色
 <lb ed="X" n="0749a04"/>重。回頭頂見太陽紅。</p>
-<lb ed="X" n="0749a05"/><p id="pX71p0749a0501" rend="margin-left:1em">僧問百<anchor id="fnX71p0749a03"/>丈奇特<anchor id="fnX71p0749a04"/>事。</p>
-<lb ed="X" n="0749a06"/><p id="pX71p0749a0601"><anchor id="fnX71p0749a05"/>黑風吹海浪頭高。霹&CB15439;&CB00549;空吼夜濤。隱隱漁燈藏古
+<lb ed="X" n="0749a05"/><p id="pX71p0749a0501" rend="margin-left:1em">僧問百<note n="0749003" resp="Xuzangjing" place="foot text" type="orig">丈下集有如何是三字</note>丈奇特<note n="0749004" resp="Xuzangjing" place="foot text" type="orig">事下有丈云獨坐大雄&CB00123;七字</note>事。</p>
+<lb ed="X" n="0749a06"/><p id="pX71p0749a0601"><note n="0749005" resp="Xuzangjing" place="foot text" type="orig">此頌集作巍巍峭迥出雲霄頂鎖冰寒勢外遙坐觀四望煙籠處一帶青山萬水潮</note>黑風吹海浪頭高。霹&CB15439;&CB00549;空吼夜濤。隱隱漁燈藏古
 <lb ed="X" n="0749a07"/>岸。截流一棹豈徒勞。</p>
 <lb ed="X" n="0749a08"/><p id="pX71p0749a0801" rend="margin-left:1em">舉歷&CB15087;和尚一日煎茶次。僧問如何是祖師西來
-<lb ed="X" n="0749a09"/>意。師舉起苶匙子。僧云莫<anchor id="fnX71p0749a06"/>這便當<anchor id="fnX71p0749a07"/>否。師擲向火中。</p>
-<lb ed="X" n="0749a10"/><p id="pX71p0749a1001">煎茶未了人來問。拈起<anchor id="fnX71p0749a08"/>分明呈似他。當<anchor id="fnX71p0749a09"/>機若遇收燕
+<lb ed="X" n="0749a09"/>意。師舉起苶匙子。僧云莫<note n="0749006" resp="Xuzangjing" place="foot text" type="orig">這下集有箇字</note>這便當<note n="0749007" resp="Xuzangjing" place="foot text" type="orig">否作麼</note>否。師擲向火中。</p>
+<lb ed="X" n="0749a10"/><p id="pX71p0749a1001">煎茶未了人來問。拈起<note n="0749008" resp="Xuzangjing" place="foot text" type="orig">分明集作茶匙</note>分明呈似他。當<note n="0749009" resp="Xuzangjing" place="foot text" type="orig">機作初</note>機若遇收燕
 <lb ed="X" n="0749a11"/>手。性命難存爭柰何。</p>
-<lb ed="X" n="0749a12"/><p id="pX71p0749a1201" rend="margin-left:1em">僧<anchor id="fnX71p0749a10"/>問文殊和尚。萬法歸一一歸何處。云黃河九曲。</p>
+<lb ed="X" n="0749a12"/><p id="pX71p0749a1201" rend="margin-left:1em">僧<note n="0749010" resp="Xuzangjing" place="foot text" type="orig">問下集有鼎州二字</note>問文殊和尚。萬法歸一一歸何處。云黃河九曲。</p>
 <lb ed="X" n="0749a13"/><p id="pX71p0749a1301">問法窮因歸何處。黃河透過碧波瀾。須知雲外千&CB00123;
 <lb ed="X" n="0749a14"/>上。別有靈松帶露寒。</p>
-<lb ed="X" n="0749a15"/><p id="pX71p0749a1501" rend="margin-left:1em">雪&CB00123;在洞<anchor id="fnX71p0749a11"/>山作典座淘米次。山問云。淘沙去米。淘
-<lb ed="X" n="0749a16"/>米去沙。<note place="inline"><anchor id="fnX71p0749a12"/>〔著〕語云</note>無影長生桂。經霜結子頻。&CB00123;云沙
-<lb ed="X" n="0749a17"/>米一<anchor id="fnX71p0749a13"/>齊去。山云大眾喫箇甚麼。<note place="inline"><anchor id="fnX71p0749a14"/>〔著〕語云</note>金鳳探香
+<lb ed="X" n="0749a15"/><p id="pX71p0749a1501" rend="margin-left:1em">雪&CB00123;在洞<note n="0749011" resp="Xuzangjing" place="foot text" type="orig">山下集有會下二字</note>山作典座淘米次。山問云。淘沙去米。淘
+<lb ed="X" n="0749a16"/>米去沙。<note place="inline"><note n="0749012" resp="Xuzangjing" place="foot text" type="orig">集無著等十三字</note>〔著〕語云</note>無影長生桂。經霜結子頻。&CB00123;云沙
+<lb ed="X" n="0749a17"/>米一<note n="0749013" resp="Xuzangjing" place="foot text" type="orig">齊集作時</note>齊去。山云大眾喫箇甚麼。<note place="inline"><note n="0749014" resp="Xuzangjing" place="foot text" type="orig">集無著等十七字</note>〔著〕語云</note>金鳳探香
 <lb ed="X" n="0749a18"/>銜不盡。玉雛食&CB00610;葉長新。&CB00123;乃覆&CB00230;盆。山云。得即
-<lb ed="X" n="0749a19"/>得。須別見人始得。後果嗣德<anchor id="fnX71p0749a15"/>山。</p>
-<lb ed="X" n="0749a20"/><p id="pX71p0749a2001">滿&CB00425;盛來一物無。豈同香積變珍<anchor id="fnX71p0749a16"/>酥。日月并輪長不
+<lb ed="X" n="0749a19"/>得。須別見人始得。後果嗣德<note n="0749015" resp="Xuzangjing" place="foot text" type="orig">山下集有投子拈云大眾洞山恁麼道是甚麼道理雖然一色乾坤爭奈山高水&CB04583;所以野人云功夫不到不方圓言語不通非眷屬乃代云淘沙去米淘米去沙無影長生桂經霜結子頻大眾喫箇甚麼金鳳採華&CB01185;不盡玉雛食&CB00610;葉長新之文</note>山。</p>
+<lb ed="X" n="0749a20"/><p id="pX71p0749a2001">滿&CB00425;盛來一物無。豈同香積變珍<note n="0749016" resp="Xuzangjing" place="foot text" type="orig">酥作蘇</note>酥。日月并輪長不
 <lb ed="X" n="0749a21"/>照。木人舞袖向紅爐。</p>
-<lb ed="X" n="0749a22"/><p id="pX71p0749a2201" rend="margin-left:1em">德<anchor id="fnX71p0749a17"/>山一日上堂云。問即有過。不問又乖。時有僧纔
+<lb ed="X" n="0749a22"/><p id="pX71p0749a2201" rend="margin-left:1em">德<note n="0749017" resp="Xuzangjing" place="foot text" type="orig">山下集有和尚二字</note>山一日上堂云。問即有過。不問又乖。時有僧纔
 <lb ed="X" n="0749a23"/>出禮拜。山便打。僧云。某甲話也未問。因甚麼便打
 <lb ed="X" n="0749a24"/>某甲。山云待&CB00135;開口堪作甚麼。</p>
 <pb ed="X" id="X71.1423.0749b" n="0749b"/>
 <lb ed="X" n="0749b01"/><p id="pX71p0749b0101" rend="margin-left:1em">師拈云。然禍因自起。傷損它人。火發內生。燄&CB00549;林
-<lb ed="X" n="0749b02"/>獸。既險崖弄巧。祇可推落。洪&CB04033;放轉<anchor id="fnX71p0749b18"/>徹通。&CB00230;成反
+<lb ed="X" n="0749b02"/>獸。既險崖弄巧。祇可推落。洪&CB04033;放轉<note n="0749018" resp="Xuzangjing" place="foot text" type="orig">徹集作微</note>徹通。&CB00230;成反
 <lb ed="X" n="0749b03"/>遭受屈。雖小得便宜。還知德山大錯麼。若知得。德
-<lb ed="X" n="0749b04"/>山粉碎。若不知得。<anchor id="fnX71p0749b19"/>揀猶少在。</p>
+<lb ed="X" n="0749b04"/>山粉碎。若不知得。<note n="0749019" resp="Xuzangjing" place="foot text" type="orig">揀集作棒</note>揀猶少在。</p>
 <lb ed="X" n="0749b05"/><p id="pX71p0749b0501">金輪微動吼乾坤。稍逆金軀艸臥身。更欲發言來擬
 <lb ed="X" n="0749b06"/>問。悲風吹盡四絕鄰。</p>
-<lb ed="X" n="0749b07"/><p id="pX71p0749b0701" rend="margin-left:1em">僧問興化。軍旗急速時如何。化云日料半斤<anchor id="fnX71p0749b20"/>餐。</p>
+<lb ed="X" n="0749b07"/><p id="pX71p0749b0701" rend="margin-left:1em">僧問興化。軍旗急速時如何。化云日料半斤<note n="0749020" resp="Xuzangjing" place="foot text" type="orig">餐集作&CB00290;</note>餐。</p>
 <lb ed="X" n="0749b08"/><p id="pX71p0749b0801">離城別閣暗愁時。月落星分信馬蹄。風掃曉霜林木
 <lb ed="X" n="0749b09"/>迥。夜深汀岸火生微。</p>
-<lb ed="X" n="0749b10"/><p id="pX71p0749b1001" rend="margin-left:1em">僧問長慶。如何得不疑去。師<anchor id="fnX71p0749b21"/>展手。</p>
+<lb ed="X" n="0749b10"/><p id="pX71p0749b1001" rend="margin-left:1em">僧問長慶。如何得不疑去。師<note n="0749021" resp="Xuzangjing" place="foot text" type="orig">展下集有兩字</note>展手。</p>
 <lb ed="X" n="0749b11"/><p id="pX71p0749b1101">展手之時萬仞摧。枯河無水月無來。若疑別問龐居
 <lb ed="X" n="0749b12"/>士。石女黃梅誰共陪。</p>
-<lb ed="X" n="0749b13"/><p id="pX71p0749b1301" rend="margin-left:1em">僧問洞山。亡僧遷<anchor id="fnX71p0749b22"/>化向什麼處<anchor id="fnX71p0749b23"/>去。山云火後一莖
+<lb ed="X" n="0749b13"/><p id="pX71p0749b1301" rend="margin-left:1em">僧問洞山。亡僧遷<note n="0749022" resp="Xuzangjing" place="foot text" type="orig">化下集有後字</note>化向什麼處<note n="0749023" resp="Xuzangjing" place="foot text" type="orig">去下有也字</note>去。山云火後一莖
 <lb ed="X" n="0749b14"/>茆。</p>
 <lb ed="X" n="0749b15"/><p id="pX71p0749b1501">野火燒時越轉新。至今煙&CB08504;雨難霖。旱地紅蓮遮日
 <lb ed="X" n="0749b16"/>月。無根樹長翠成陰。</p>
 <lb ed="X" n="0749b17"/><p id="pX71p0749b1701" rend="margin-left:1em">國師三喚侍者話。</p>
 <lb ed="X" n="0749b18"/><p id="pX71p0749b1801">國師喚侍者。重言不當吃。它耳又不聾。自又無處雪。</p>
-<lb ed="X" n="0749b19"/><p id="pX71p0749b1901" rend="margin-left:1em">幽棲和尚一日斂鐘上堂。大眾纔集。棲<anchor id="fnX71p0749b24"/>云甚麼人
-<lb ed="X" n="0749b20"/>打鐘。僧云維那。棲云近<anchor id="fnX71p0749b25"/>前。僧近前。棲便打。&CB00230;歸方
-<lb ed="X" n="0749b21"/>丈<anchor id="fnX71p0749b26"/>臥。</p>
-<lb ed="X" n="0749b22"/><p id="pX71p0749b2201">驀路相逢借問由。寸心莫便與他酬。雖然重<anchor id="fnX71p0749b27"/>擔教人
-<lb ed="X" n="0749b23"/><anchor id="fnX71p0749b28"/>代。終是慚顏暗地羞。</p>
-<lb ed="X" n="0749b24"/><p id="pX71p0749b2401" rend="margin-left:1em">僧<anchor id="fnX71p0749b29"/>問洞山。如何是佛。山云麻三斤。</p>
+<lb ed="X" n="0749b19"/><p id="pX71p0749b1901" rend="margin-left:1em">幽棲和尚一日斂鐘上堂。大眾纔集。棲<note n="0749024" resp="Xuzangjing" place="foot text" type="orig">云下集有是字</note>云甚麼人
+<lb ed="X" n="0749b20"/>打鐘。僧云維那。棲云近<note n="0749025" resp="Xuzangjing" place="foot text" type="orig">前下集有乘字</note>前。僧近前。棲便打。&CB00230;歸方
+<lb ed="X" n="0749b21"/>丈<note n="0749026" resp="Xuzangjing" place="foot text" type="orig">臥下集有投子拈云然自急須逃古今皆有行窮絕處試問傍人不惜下情果然獲有既從相問急索端由不顧危亡得他假難雖獲小利也是暗地傷人不為好手這僧雖然失利&CB00582;為自不守分致禍臨身未為分外然雖如是終是平人橫遭羅網自有傍人證據在目道證據箇甚麼事乃云東家不了西舍受殃之文</note>臥。</p>
+<lb ed="X" n="0749b22"/><p id="pX71p0749b2201">驀路相逢借問由。寸心莫便與他酬。雖然重<note n="0749027" resp="Xuzangjing" place="foot text" type="orig">擔集作檐</note>擔教人
+<lb ed="X" n="0749b23"/><note n="0749028" resp="Xuzangjing" place="foot text" type="orig">代作待</note>代。終是慚顏暗地羞。</p>
+<lb ed="X" n="0749b24"/><p id="pX71p0749b2401" rend="margin-left:1em">僧<note n="0749029" resp="Xuzangjing" place="foot text" type="orig">問下集有襄州二字</note>問洞山。如何是佛。山云麻三斤。</p>
 <pb ed="X" id="X71.1423.0749c" n="0749c"/>
 <lb ed="X" n="0749c01"/><p id="pX71p0749c0101">三年一閏大家知。也有顢頇不記時。昨夜雁回沙塞
 <lb ed="X" n="0749c02"/>冷。嚴風吹綻月中枝。</p>
@@ -1260,30 +1265,30 @@ new from basic markup
 <lb ed="X" n="0749c04"/><p id="pX71p0749c0401">南岳&CB00123;高北岳低。行人泣淚兩遲疑。火星昨夜移牛
 <lb ed="X" n="0749c05"/>斗。照見西瞿人不知。</p>
 <lb ed="X" n="0749c06"/><p id="pX71p0749c0601" rend="margin-left:1em">僧問風穴。如何是道。穴云五鳳樓前。僧云如何是
-<lb ed="X" n="0749c07"/>道中人。穴云問取城<anchor id="fnX71p0749c30"/>湟使。</p>
+<lb ed="X" n="0749c07"/>道中人。穴云問取城<note n="0749030" resp="Xuzangjing" place="foot text" type="orig">湟集作隍</note>湟使。</p>
 <lb ed="X" n="0749c08"/><p id="pX71p0749c0801" rend="margin-left:1em">師拈云。然指道由人。行之在<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>。問窮決悟。答以提
-<lb ed="X" n="0749c09"/>宗。<anchor id="fnX71p0749c31"/>不當人徒勞進步。何故。&CB00582;向上一路千聖不游。
-<lb ed="X" n="0749c10"/>擬議之閒<anchor id="fnX71p0749c32"/>喪身失命。是以龍樓迎瑞。紫殿籠煙。苔
+<lb ed="X" n="0749c09"/>宗。<note n="0749031" resp="Xuzangjing" place="foot text" type="orig">不下集有是字</note>不當人徒勞進步。何故。&CB00582;向上一路千聖不游。
+<lb ed="X" n="0749c10"/>擬議之閒<note n="0749032" resp="Xuzangjing" place="foot text" type="orig">喪身失命集作長途萬里</note>喪身失命。是以龍樓迎瑞。紫殿籠煙。苔
 <lb ed="X" n="0749c11"/>砌深圍。燭香人靜。正當恁麼時。還許人喘息麼。若
 <lb ed="X" n="0749c12"/>喘息之閒。長途萬里。</p>
 <pb ed="X" id="X71.1423.0750a" n="0750a"/>
-<lb ed="X" n="0750a01"/><p id="pX71p0750a0101">深宮禁殿隔重圍。<anchor id="fnX71p0750a01"/>簷靜簷楹紫氣垂。苔地不通朝請
+<lb ed="X" n="0750a01"/><p id="pX71p0750a0101">深宮禁殿隔重圍。<note n="0750001" resp="Xuzangjing" place="foot text" type="orig">簷集作簾</note>簷靜簷楹紫氣垂。苔地不通朝請
 <lb ed="X" n="0750a02"/>近。家人指路莫遲疑。</p>
 <lb ed="X" n="0750a03"/><p id="pX71p0750a0301" rend="margin-left:1em">舉仰山插鍬話。</p>
-<lb ed="X" n="0750a04"/><p id="pX71p0750a0401">溈山問處少知音。插地酬<anchor id="fnX71p0750a02"/>它佛祖沈。蹈倒玄沙傍不
+<lb ed="X" n="0750a04"/><p id="pX71p0750a0401">溈山問處少知音。插地酬<note n="0750002" resp="Xuzangjing" place="foot text" type="orig">它集作時</note>它佛祖沈。蹈倒玄沙傍不
 <lb ed="X" n="0750a05"/>&CB05089;。免教蒼翠帶春深。</p>
 <lb ed="X" n="0750a06"/><p id="pX71p0750a0601" rend="margin-left:1em">僧問法眼。如何是佛。云汝是慧超。</p>
 <lb ed="X" n="0750a07"/><p id="pX71p0750a0701">&CB06595;嶮行時問路難。有人相指北&CB15087;南。長安無限人來
 <lb ed="X" n="0750a08"/>往。幾箇無鈴過得關。</p>
 <lb ed="X" n="0750a09"/><p id="pX71p0750a0901" rend="margin-left:1em">舉趙州勘婆話。</p>
-<lb ed="X" n="0750a10"/><p id="pX71p0750a1001">靈龜未兆無<anchor id="fnX71p0750a03"/>吉凶。變動臨時在卜人。路頭問破誰人
+<lb ed="X" n="0750a10"/><p id="pX71p0750a1001">靈龜未兆無<note n="0750003" resp="Xuzangjing" place="foot text" type="orig">吉凶集作凶吉</note>吉凶。變動臨時在卜人。路頭問破誰人
 <lb ed="X" n="0750a11"/>委。王老東&CB15087;努目瞋。</p>
 <lb ed="X" n="0750a12"/><p id="pX71p0750a1201" rend="margin-left:1em">僧問興化。多子塔前共談何事。化云。一人傳&CB00980;。萬
-<lb ed="X" n="0750a13"/>人傳<anchor id="fnX71p0750a04"/>實。</p>
-<lb ed="X" n="0750a14"/><p id="pX71p0750a1401">於道無<anchor id="fnX71p0750a05"/>證所。方通萬法路。或明或暗行。不鎮亦不護。
+<lb ed="X" n="0750a13"/>人傳<note n="0750004" resp="Xuzangjing" place="foot text" type="orig">實下集有投子拈云然諸佛不出世亦無有涅槃佛既如是道亦如然是以從上諸聖密證此地所以然燈不付正覺自成法既無傳至今續&CB02611;法既無得更復何談罔測稱揚虛談互說然到此地者何必塔前相見對眾拈華截臂傳衣方為道矣既不如是因甚大庾嶺頭提不起之文</note>實。</p>
+<lb ed="X" n="0750a14"/><p id="pX71p0750a1401">於道無<note n="0750005" resp="Xuzangjing" place="foot text" type="orig">證所集作所證</note>證所。方通萬法路。或明或暗行。不鎮亦不護。
 <lb ed="X" n="0750a15"/>月來松色寒。雲去青山露。今古天台橋。幾人能得度。</p>
 <lb ed="X" n="0750a16"/><p id="pX71p0750a1601" rend="margin-left:1em">僧問大陽堅和尚。如何是玄旨。云壁上挂錢財。</p>
-<lb ed="X" n="0750a17"/><p id="pX71p0750a1701">輕輕人問玄中<anchor id="fnX71p0750a06"/>事。便吐肝腸說與它。木人暗皴雙眉
+<lb ed="X" n="0750a17"/><p id="pX71p0750a1701">輕輕人問玄中<note n="0750006" resp="Xuzangjing" place="foot text" type="orig">事作旨</note>事。便吐肝腸說與它。木人暗皴雙眉
 <lb ed="X" n="0750a18"/>處。石女多言爭柰何。</p>
 <lb ed="X" n="0750a19"/><p id="pX71p0750a1901" rend="margin-left:1em">德山和尚上堂云。大眾。及盡去也。直得三世諸佛
 <lb ed="X" n="0750a20"/>口挂壁上。猶有一人呵呵大笑。若識此人。參學事
@@ -1292,21 +1297,21 @@ new from basic markup
 <lb ed="X" n="0750a23"/>地星。</p>
 <lb ed="X" n="0750a24"/><p id="pX71p0750a2401">雙盲入暗路崎嶇。日落棲蘆暫得甦。爭似石人眠半
 <pb ed="X" id="X71.1423.0750b" n="0750b"/>
-<lb ed="X" n="0750b01"/>夜。免教舜讓守<anchor id="fnX71p0750b07"/>林居。須知華綻非干木。無&CB00560;行時早
+<lb ed="X" n="0750b01"/>夜。免教舜讓守<note n="0750007" resp="Xuzangjing" place="foot text" type="orig">林集作休</note>林居。須知華綻非干木。無&CB00560;行時早
 <lb ed="X" n="0750b02"/>觸途。昨朝風起長安道。元是崑崙進國圖。</p>
-<lb ed="X" n="0750b03"/><p id="pX71p0750b0301" rend="margin-left:1em">舉<anchor id="fnX71p0750b08"/>投子月未圓月圓後話。</p>
+<lb ed="X" n="0750b03"/><p id="pX71p0750b0301" rend="margin-left:1em">舉<note n="0750008" resp="Xuzangjing" place="foot text" type="orig">投子下集有二問二答</note>投子月未圓月圓後話。</p>
 <lb ed="X" n="0750b04"/><p id="pX71p0750b0401" rend="margin-left:1em">師拈云。大眾。投子恁麼道。諸人作麼生商量。若也
-<lb ed="X" n="0750b05"/>道得。寂住<anchor id="fnX71p0750b09"/>&CB00123;煙雲&CB00582;地。曹谿路上日月同輪。若也
+<lb ed="X" n="0750b05"/>道得。寂住<note n="0750009" resp="Xuzangjing" place="foot text" type="orig">&CB00123;下集有前字</note>&CB00123;煙雲&CB00582;地。曹谿路上日月同輪。若也
 <lb ed="X" n="0750b06"/>不會。山僧有頌。</p>
 <lb ed="X" n="0750b07"/><p id="pX71p0750b0701">圓缺曾伸問老翁。石龜銜子引清風。昨朝木馬潭中
 <lb ed="X" n="0750b08"/>過。蹈出金烏半夜紅。</p>
-<lb ed="X" n="0750b09"/><p id="pX71p0750b0901" rend="margin-left:1em">芭<anchor id="fnX71p0750b10"/>蕉拄杖話。</p>
-<lb ed="X" n="0750b10"/><p id="pX71p0750b1001" rend="margin-left:1em">師拈云。人無遠<anchor id="fnX71p0750b11"/>慮。必有近憂。</p>
+<lb ed="X" n="0750b09"/><p id="pX71p0750b0901" rend="margin-left:1em">芭<note n="0750010" resp="Xuzangjing" place="foot text" type="orig">蕉下集有示眾二句</note>蕉拄杖話。</p>
+<lb ed="X" n="0750b10"/><p id="pX71p0750b1001" rend="margin-left:1em">師拈云。人無遠<note n="0750011" resp="Xuzangjing" place="foot text" type="orig">慮集作見</note>慮。必有近憂。</p>
 <lb ed="X" n="0750b11"/><p id="pX71p0750b1101">有無今古兩重關。正眼禪人過者難。欲通大道長安
 <lb ed="X" n="0750b12"/>路。莫聽崑崙敘往還。</p>
 <lb ed="X" n="0750b13"/><p id="pX71p0750b1301" rend="margin-left:1em">僧問浮山。師唱誰家曲。宗風嗣阿誰。山云八十翁
 <lb ed="X" n="0750b14"/>翁輥&CB05199;毬。僧云恁麼則一句迥然開祖胄。三玄戈
-<lb ed="X" n="0750b15"/>甲<anchor id="fnX71p0750b12"/>鎮叢林。山云李陵元是漢朝臣。</p>
+<lb ed="X" n="0750b15"/>甲<note n="0750012" resp="Xuzangjing" place="foot text" type="orig">鎮集作振</note>鎮叢林。山云李陵元是漢朝臣。</p>
 <lb ed="X" n="0750b16"/><p id="pX71p0750b1601" rend="margin-left:1em">師拈云。水深魚穩。葉落巢&CB00520;。</p>
 <lb ed="X" n="0750b17"/><p id="pX71p0750b1701">月裏無根艸。山前枯木華。雁回沙塞後。砧杵落誰家。</p>
 <lb ed="X" n="0750b18"/><p id="pX71p0750b1801" rend="margin-left:1em">僧問浮山。如何是祖師西來意。云平地起骨堆。</p>
