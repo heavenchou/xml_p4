@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X70n1402.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -17,7 +19,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2005/11/30 06:34:45 $</date></edition>
+		<edition>$Revision: 1.14 $ (Big5)<date>$Date: 2007/09/11 02:14:46 $</date></edition>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:45 $</date>
+		<date>$Date: 2007/09/11 02:14:46 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 70, No. 1402 &desc;</bibl>
@@ -50,6 +52,9 @@
 	</change>
 <!--
 $Log: X70n1402.xml,v $
+Revision 1.14  2007/09/11 02:14:46  amtbgrace
+modified: 校注插入XML作業完成
+
 Revision 1.13  2005/11/30 06:34:45  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -518,7 +523,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0718c24"/><p id="pX70p0718c2401">四十八願水投水。十萬餘程空合空。只隔眼前聲與
 <pb ed="X" id="X70.1402.0719a" n="0719a"/>
 <lb ed="X" n="0719a01"/>色。東西兩土幾時通。</p>
-<lb ed="X" n="0719a02"/><p id="pX70p0719a0201">六藝俱全美丈夫。<anchor id="fnX70p0719a01"/>盡堂終日醉相呼。要知不陷輪迴
+<lb ed="X" n="0719a02"/><p id="pX70p0719a0201">六藝俱全美丈夫。<note n="0719001" resp="Xuzangjing" place="foot text" type="orig">盡疑&CB15148;</note>盡堂終日醉相呼。要知不陷輪迴
 <lb ed="X" n="0719a03"/>&CB00276;。莫負黃金丈六軀。</p>
 <lb ed="X" n="0719a04"/><p id="pX70p0719a0401">一十二時機未瞥。百千萬劫苦難逃。雖然身在同居
 <lb ed="X" n="0719a05"/>土。誰肯低頭禮玉毫。</p>
@@ -2327,7 +2332,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0743a13"/>大藏教。更無一字不與人破除生死令自悟本性。嗟。
 <lb ed="X" n="0743a14"/>一等學者不本聖人之本意。各專其所學所解。自謂
 <lb ed="X" n="0743a15"/>會佛法。肆口而說。殊不知不曾悟自本性。其說益多
-<lb ed="X" n="0743a16"/>其迷益重。以故少林初祖眼不耐見。直指<anchor id="fnX70p0743a01"/>其見性成
+<lb ed="X" n="0743a16"/>其迷益重。以故少林初祖眼不耐見。直指<note n="0743001" resp="Xuzangjing" place="foot text" type="orig">其下疑脫心字</note>其見性成
 <lb ed="X" n="0743a17"/>佛脫去知解。今之禪林諸師又泛引臨濟三玄．洞山
 <lb ed="X" n="0743a18"/>五位。重入其知解之門。所以又隔。去此知解只把箇
 <lb ed="X" n="0743a19"/>無義味話。教你立決定信心。盡其形命參取。你又信
@@ -2442,11 +2447,11 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0744c03"/><div1 type="w"><mulu type="附文" level="1" label="No. 1402-A 天目中＆CB00123；和尚懷淨土詩(一百八首)"/><head>No. 1402-A
 <lb ed="X" n="0744c04"/> 天目中&CB00123;和尚懷淨土詩<note place="inline">一百八首</note></head>
 <lb ed="X" n="0744c05"/>
-<lb ed="X" n="0744c06"/><p id="pX70p0744c0601"><anchor id="fnX70p0744c01"/>塵沙劫又塵沙劫。數盡塵沙劫未休。當念只因情未
+<lb ed="X" n="0744c06"/><p id="pX70p0744c0601"><note n="0744001" resp="Xuzangjing" place="foot text" type="orig">中&CB00123;次魯菴懷淨土韻&CB00560;十首詩見中&CB00123;廣錄二十八尤精要也可覽</note>塵沙劫又塵沙劫。數盡塵沙劫未休。當念只因情未
 <lb ed="X" n="0744c07"/>撇。無邊生死自&CB15133;留。</p>
 <lb ed="X" n="0744c08"/><p id="pX70p0744c0801">四大聚成玄兔角。六根摶住白龜毛。漚華影裏&CB00549;筋
 <lb ed="X" n="0744c09"/>斗。出沒閻浮是幾遭。</p>
-<lb ed="X" n="0744c10"/><p id="pX70p0744c1001">東海一丸<anchor id="fnX70p0744c02"/>紅彈子。流光日日射西林。世間多少奇男
+<lb ed="X" n="0744c10"/><p id="pX70p0744c1001">東海一丸<note n="0744002" resp="Xuzangjing" place="foot text" type="orig">紅一作金</note>紅彈子。流光日日射西林。世間多少奇男
 <lb ed="X" n="0744c11"/>子。誰向總前惜寸陰。</p>
 <lb ed="X" n="0744c12"/><p id="pX70p0744c1201">&CB02852;目橫生空裏華。妄將三界認為家。大千常寂光明
 <lb ed="X" n="0744c13"/>土。不隔纖塵總是遮。</p>
@@ -2454,9 +2459,9 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0744c15"/>恨。通身渾是古彌陀。</p>
 <lb ed="X" n="0744c16"/><p id="pX70p0744c1601">迷時無悟悟無迷。究竟迷時即悟時。迷悟兩頭都拽
 <lb ed="X" n="0744c17"/>脫。鑊湯元是藕花池。</p>
-<lb ed="X" n="0744c18"/><p id="pX70p0744c1801">四十八願水投水。<anchor id="fnX70p0744c03"/>千百億身空合空。法藏慈尊無面
+<lb ed="X" n="0744c18"/><p id="pX70p0744c1801">四十八願水投水。<note n="0744003" resp="Xuzangjing" place="foot text" type="orig">千百一作百千</note>千百億身空合空。法藏慈尊無面
 <lb ed="X" n="0744c19"/>目。不須重&CB00697;紫金容。</p>
-<lb ed="X" n="0744c20"/><p id="pX70p0744c2001">正念阿彌陀佛時。寶池樹影<anchor id="fnX70p0744c04"/>月遲遲。更馳心欲歸清
+<lb ed="X" n="0744c20"/><p id="pX70p0744c2001">正念阿彌陀佛時。寶池樹影<note n="0744004" resp="Xuzangjing" place="foot text" type="orig">月一作日</note>月遲遲。更馳心欲歸清
 <lb ed="X" n="0744c21"/>泰。又是重栽眼上眉。</p>
 <lb ed="X" n="0744c22"/><p id="pX70p0744c2201">濁水盡清珠有力。亂心不動佛無機。眼前盡是家鄉
 <lb ed="X" n="0744c23"/>路。不用逢人&CB00697;指歸。</p>
@@ -2471,7 +2476,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0745a07"/>&CB00230;。熊耳&CB00123;開五葉蓮。</p>
 <lb ed="X" n="0745a08"/><p id="pX70p0745a0801">大梵宅中無一法。於無法處有千差。回觀自性離分
 <lb ed="X" n="0745a09"/>別。念念純開白藕花。</p>
-<lb ed="X" n="0745a10"/><p id="pX70p0745a1001">闇室中藏大黑蚖。未曾驅盡莫<anchor id="fnX70p0745a01"/>貪眠。髑髏壓碎須彌
+<lb ed="X" n="0745a10"/><p id="pX70p0745a1001">闇室中藏大黑蚖。未曾驅盡莫<note n="0745001" resp="Xuzangjing" place="foot text" type="orig">貪一作耽</note>貪眠。髑髏壓碎須彌
 <lb ed="X" n="0745a11"/>枕。&CB00038;地香風綻白蓮。</p>
 <lb ed="X" n="0745a12"/><p id="pX70p0745a1201">藕池無日不花開。四色光明映寶臺。金臂遙伸垂念
 <lb ed="X" n="0745a13"/>切。眾生何事不思來。</p>
@@ -2483,13 +2488,13 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0745a19"/>事。曲為勞生昧<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>靈。</p>
 <lb ed="X" n="0745a20"/><p id="pX70p0745a2001">自家一箇古彌陀。聲色頭邊蹉過多。狹路相逢如不
 <lb ed="X" n="0745a21"/>薦。未知何劫離娑婆。</p>
-<lb ed="X" n="0745a22"/><p id="pX70p0745a2201">故鄉易到路無差。白日青天被物遮。剔起兩莖眉<anchor id="fnX70p0745a02"/>目
+<lb ed="X" n="0745a22"/><p id="pX70p0745a2201">故鄉易到路無差。白日青天被物遮。剔起兩莖眉<note n="0745002" resp="Xuzangjing" place="foot text" type="orig">目一作自</note>目
 <lb ed="X" n="0745a23"/>看。火坑都是白蓮華。</p>
 <lb ed="X" n="0745a24"/><p id="pX70p0745a2401">十萬餘程不隔塵。休將迷悟自&CB00565;親。剎那念盡恒沙
 <pb ed="X" id="X70.1402.0745b" n="0745b"/>
 <lb ed="X" n="0745b01"/>佛。共是蓮華國裏人。</p>
 <lb ed="X" n="0745b02"/><p id="pX70p0745b0201">佛與眾生夙有緣。眾生與佛性無偏。奈何甘受娑婆
-<lb ed="X" n="0745b03"/>苦。不肯迴頭<anchor id="fnX70p0745b03"/>著痛鞭。</p>
+<lb ed="X" n="0745b03"/>苦。不肯迴頭<note n="0745003" resp="Xuzangjing" place="foot text" type="orig">＊&CB00473;痛一作痛&CB00473;（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>著痛鞭。</p>
 <lb ed="X" n="0745b04"/><p id="pX70p0745b0401">念根是一串輪珠。痛&CB15081;歸鞭作遠圖。念到念空和念
 <lb ed="X" n="0745b05"/>脫。不知身住白芙蕖。</p>
 <lb ed="X" n="0745b06"/><p id="pX70p0745b0601">人間天上與泥犁。勞我昇沉是幾時。白藕有根如不
@@ -2519,7 +2524,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0745c05"/>脫。西天此土不爭多。</p>
 <lb ed="X" n="0745c06"/><p id="pX70p0745c0601">自家一箇彌陀佛。論劫何曾著眼看。今日便隨聲色
 <lb ed="X" n="0745c07"/>轉。這回欲要見還難。</p>
-<lb ed="X" n="0745c08"/><p id="pX70p0745c0801">賀了新<anchor id="fnX70p0745c04"/>春看上元。萬家銀燭照金蓮。展開常寂光明
+<lb ed="X" n="0745c08"/><p id="pX70p0745c0801">賀了新<note n="0745004" resp="Xuzangjing" place="foot text" type="orig">春一作正</note>春看上元。萬家銀燭照金蓮。展開常寂光明
 <lb ed="X" n="0745c09"/>土。佛法何曾不現前。</p>
 <lb ed="X" n="0745c10"/><p id="pX70p0745c1001">示入泥洹記仲春。風前歌舞恨波旬。誰知自性黃金
 <lb ed="X" n="0745c11"/>佛。常共千華轉法輪。</p>
@@ -2527,11 +2532,11 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0745c13"/>土。不要人來化紙錢。</p>
 <lb ed="X" n="0745c14"/><p id="pX70p0745c1401">初夏清和四月時。九龍噴水沐嬰兒。樂&CB15131;化主無生
 <lb ed="X" n="0745c15"/>滅。只把黃金鑄面皮。</p>
-<lb ed="X" n="0745c16"/><p id="pX70p0745c1601">不懸艾虎慶端陽。惟<anchor id="fnX70p0745c05"/>面西方古道場。一炷爐薰一聲
+<lb ed="X" n="0745c16"/><p id="pX70p0745c1601">不懸艾虎慶端陽。惟<note n="0745005" resp="Xuzangjing" place="foot text" type="orig">面一作向</note>面西方古道場。一炷爐薰一聲
 <lb ed="X" n="0745c17"/>磬。六門風&CB15325;藕花香。</p>
-<lb ed="X" n="0745c18"/><p id="pX70p0745c1801">清泰故鄉無六月。從教火<anchor id="fnX70p0745c06"/>傘自張空。金沙地上經行
+<lb ed="X" n="0745c18"/><p id="pX70p0745c1801">清泰故鄉無六月。從教火<note n="0745006" resp="Xuzangjing" place="foot text" type="orig">傘一作繖</note>傘自張空。金沙地上經行
 <lb ed="X" n="0745c19"/>處。陣陣吹來白藕風。</p>
-<lb ed="X" n="0745c20"/><p id="pX70p0745c2001">七月人間暑漸衰。晚風池上<anchor id="fnX70p0745c07"/>更相宜。遙觀落日如懸
+<lb ed="X" n="0745c20"/><p id="pX70p0745c2001">七月人間暑漸衰。晚風池上<note n="0745007" resp="Xuzangjing" place="foot text" type="orig">更一作政</note>更相宜。遙觀落日如懸
 <lb ed="X" n="0745c21"/>鼓。便&CB15081;歸鞭<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>較遲。</p>
 <lb ed="X" n="0745c22"/><p id="pX70p0745c2201">登樓共賞中秋月。回首誰思父母&CB15131;。不問多生逃與
 <lb ed="X" n="0745c23"/>逝。至今垂念未相忘。</p>
@@ -2544,7 +2549,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0746a05"/>處。香風吹上玉樓臺。</p>
 <lb ed="X" n="0746a06"/><p id="pX70p0746a0601">&CB00168;盡時窮事可憐。東村王老夜燒錢。即心自性彌陀
 <lb ed="X" n="0746a07"/>佛。滿面塵埃又一年。</p>
-<lb ed="X" n="0746a08"/><p id="pX70p0746a0801">一串<anchor id="fnX70p0746a01"/>數珠烏律律。百千諸佛影團團。循環淨念常相
+<lb ed="X" n="0746a08"/><p id="pX70p0746a0801">一串<note n="0746001" resp="Xuzangjing" place="foot text" type="orig">數一作素</note>數珠烏律律。百千諸佛影團團。循環淨念常相
 <lb ed="X" n="0746a09"/>繼。放去拈來總一般。</p>
 <lb ed="X" n="0746a10"/><p id="pX70p0746a1001">念佛直須圖作佛。不圖作佛念何為。但當抱識含靈
 <lb ed="X" n="0746a11"/>者。白藕均同有一枝。</p>
@@ -2557,7 +2562,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0746a18"/><p id="pX70p0746a1801">自性彌陀絕證修。只消扣<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>便相投。瞥於當念存能
 <lb ed="X" n="0746a19"/>所。又被空花翳兩眸。</p>
 <lb ed="X" n="0746a20"/><p id="pX70p0746a2001">深思地獄發菩提。父母家鄉勿再迷。痛&CB15081;歸鞭宜蚤
-<lb ed="X" n="0746a21"/>到。莫教<anchor id="fnX70p0746a02"/>重待日<anchor id="fnX70p0746a03"/>移西。</p>
+<lb ed="X" n="0746a21"/>到。莫教<note n="0746002" resp="Xuzangjing" place="foot text" type="orig">重一作直</note>重待日<note n="0746003" resp="Xuzangjing" place="foot text" type="orig">移作沈</note>移西。</p>
 <lb ed="X" n="0746a22"/><p id="pX70p0746a2201">要結蓮華會上緣。是非人我盡傾捐。無時不作難遭
 <lb ed="X" n="0746a23"/>想。歡喜同登解脫船。</p>
 <lb ed="X" n="0746a24"/><p id="pX70p0746a2401">為存愛見起貪嗔。埋沒黃金丈六身。今日幸然歸淨
@@ -2581,7 +2586,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0746b17"/>直。擬涉思惟便是差。</p>
 <lb ed="X" n="0746b18"/><p id="pX70p0746b1801">一&CB00424;蘿月照松龕。門外無人宿草菴。萬億紫金身化
 <lb ed="X" n="0746b19"/>主。不離當念是仝參。</p>
-<lb ed="X" n="0746b20"/><p id="pX70p0746b2001">諸苦盡從貪<anchor id="fnX70p0746b04"/>嗔起。不知貪欲起於何。因忘自性彌陀
+<lb ed="X" n="0746b20"/><p id="pX70p0746b2001">諸苦盡從貪<note n="0746004" resp="Xuzangjing" place="foot text" type="orig">嗔一作欲</note>嗔起。不知貪欲起於何。因忘自性彌陀
 <lb ed="X" n="0746b21"/>佛。異念紛馳總是魔。</p>
 <lb ed="X" n="0746b22"/><p id="pX70p0746b2201">勢至曾參日月光。教令存想念西方。自從親證三摩
 <lb ed="X" n="0746b23"/>地。不離慈尊左右傍。</p>
@@ -2590,8 +2595,8 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0746c01"/>覺。猶將心鏡照慈顏。</p>
 <lb ed="X" n="0746c02"/><p id="pX70p0746c0201">道人別有惟心土。不屬東西南北方。眨得眼來千里
 <lb ed="X" n="0746c03"/>隔。難將彼岸當慈航。</p>
-<lb ed="X" n="0746c04"/><p id="pX70p0746c0401">觀經一卷是家書。日落之方有故居。多辨資<anchor id="fnX70p0746c05"/>糧期蚤
-<lb ed="X" n="0746c05"/>到。免教慈父日嗟<anchor id="fnX70p0746c06"/>噓。</p>
+<lb ed="X" n="0746c04"/><p id="pX70p0746c0401">觀經一卷是家書。日落之方有故居。多辨資<note n="0746005" resp="Xuzangjing" place="foot text" type="orig">糧一作財</note>糧期蚤
+<lb ed="X" n="0746c05"/>到。免教慈父日嗟<note n="0746006" resp="Xuzangjing" place="foot text" type="orig">噓一作吁</note>噓。</p>
 <lb ed="X" n="0746c06"/><p id="pX70p0746c0601">兄呼弟應念彌陀。要與渾家出愛河。辨得此心常與
 <lb ed="X" n="0746c07"/>麼。直教佛不奈伊何。</p>
 <lb ed="X" n="0746c08"/><p id="pX70p0746c0801">跳出娑婆即是家。不須特地&CB00697;蓮華。娑婆不異蓮華
@@ -2610,24 +2615,24 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0746c21"/>切。一片輕帆掛夕陽。</p>
 <lb ed="X" n="0746c22"/><p id="pX70p0746c2201">任運移船過水南。不須向外&CB00697;同參。自家屋裡彌陀
 <lb ed="X" n="0746c23"/>佛。念念開敷優&CB00425;曇。</p>
-<lb ed="X" n="0746c24"/><p id="pX70p0746c2401">船駕天風<anchor id="fnX70p0746c07"/>南北方。風<anchor id="fnX70p0746c08"/>河月渚&CB00153;心光。忽移念入同居
+<lb ed="X" n="0746c24"/><p id="pX70p0746c2401">船駕天風<note n="0746007" resp="Xuzangjing" place="foot text" type="orig">南一作上</note>南北方。風<note n="0746008" resp="Xuzangjing" place="foot text" type="orig">河作汀</note>河月渚&CB00153;心光。忽移念入同居
 <pb ed="X" id="X70.1402.0747a" n="0747a"/>
 <lb ed="X" n="0747a01"/>土。不覺渾身在藕航。</p>
-<lb ed="X" n="0747a02"/><p id="pX70p0747a0201"><anchor id="fnX70p0747a01"/>舡住東西南北了。依<anchor id="fnX70p0747a02"/>然不離古灘頭。等閑<anchor id="fnX70p0747a03"/>撥轉&CB00980;空
-<lb ed="X" n="0747a03"/>柁。香氣滿<anchor id="fnX70p0747a04"/>航花滿洲。</p>
+<lb ed="X" n="0747a02"/><p id="pX70p0747a0201"><note n="0747001" resp="Xuzangjing" place="foot text" type="orig">舡一作船下同</note>舡住東西南北了。依<note n="0747002" resp="Xuzangjing" place="foot text" type="orig">然作前</note>然不離古灘頭。等閑<note n="0747003" resp="Xuzangjing" place="foot text" type="orig">撥作推</note>撥轉&CB00980;空
+<lb ed="X" n="0747a03"/>柁。香氣滿<note n="0747004" resp="Xuzangjing" place="foot text" type="orig">航作船</note>航花滿洲。</p>
 <lb ed="X" n="0747a04"/><p id="pX70p0747a0401">若不行舡便住家。從教門外拽三車。笑看火宅深深
 <lb ed="X" n="0747a05"/>處。陸地純開水面花。</p>
 <lb ed="X" n="0747a06"/><p id="pX70p0747a0601">現成公案純商量。曉磬頻敲蠟炬長。晝夜六時聲不
 <lb ed="X" n="0747a07"/>斷。滿門風&CB15325;白蓮香。</p>
 <lb ed="X" n="0747a08"/><p id="pX70p0747a0801">心中有佛將心念。念到心空佛亦忘。撒手歸來重撿
-<lb ed="X" n="0747a09"/>點。<anchor id="fnX70p0747a05"/>夜開紅白間青黃。</p>
+<lb ed="X" n="0747a09"/>點。<note n="0747005" resp="Xuzangjing" place="foot text" type="orig">夜一作花</note>夜開紅白間青黃。</p>
 <lb ed="X" n="0747a10"/><p id="pX70p0747a1001">念心如影每隨形。靜&CB00436;閒忙不暫停。打破形軀和影
 <lb ed="X" n="0747a11"/>滅。西天此路絕途程。</p>
 <lb ed="X" n="0747a12"/><p id="pX70p0747a1201">清旦黃昏禮懺摩。低頭泣告老彌陀。輪迴六趣知多
 <lb ed="X" n="0747a13"/>少。誓欲今番出網羅。</p>
 <lb ed="X" n="0747a14"/><p id="pX70p0747a1401">扶出頂中紅肉髻。拂空眉裏白毫光。阿彌陀佛和聲
 <lb ed="X" n="0747a15"/>吐。曠劫輪迴一念忘。</p>
-<lb ed="X" n="0747a16"/><p id="pX70p0747a1601">金沙<anchor id="fnX70p0747a06"/>池上無紅藕。赤肉團中有至尊。千聖頂&CB00576;移一
+<lb ed="X" n="0747a16"/><p id="pX70p0747a1601">金沙<note n="0747006" resp="Xuzangjing" place="foot text" type="orig">池一作地</note>池上無紅藕。赤肉團中有至尊。千聖頂&CB00576;移一
 <lb ed="X" n="0747a17"/>步。等閒踢倒涅槃門。</p>
 <lb ed="X" n="0747a18"/><p id="pX70p0747a1801">六個&CB15967;兒拽轉車。雨餘泥滑路猶賒。阿彌陀佛悲心
 <lb ed="X" n="0747a19"/>切。痛&CB15081;歸鞭欲到家。</p>
@@ -2642,23 +2647,23 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0747b03"/>上。菡萏何曾兩樣紅。</p>
 <lb ed="X" n="0747b04"/><p id="pX70p0747b0401">佛教白衣持五戒。律云五戒未全修。那知六字真經
 <lb ed="X" n="0747b05"/>裏。八萬威儀一句收。</p>
-<lb ed="X" n="0747b06"/><p id="pX70p0747b0601">六方佛出廣長舌。<anchor id="fnX70p0747b07"/>但讚娑婆念佛人。須信白蓮華世
-<lb ed="X" n="0747b07"/>界。無時不散劫<anchor id="fnX70p0747b08"/>數春。</p>
+<lb ed="X" n="0747b06"/><p id="pX70p0747b0601">六方佛出廣長舌。<note n="0747007" resp="Xuzangjing" place="foot text" type="orig">但一作俱</note>但讚娑婆念佛人。須信白蓮華世
+<lb ed="X" n="0747b07"/>界。無時不散劫<note n="0747008" resp="Xuzangjing" place="foot text" type="orig">數一作壺</note>數春。</p>
 <lb ed="X" n="0747b08"/><p id="pX70p0747b0801">動地驚天勤念佛。搥門打戶勸修行。問渠因甚麼如
 <lb ed="X" n="0747b09"/>此。只怕眾生入火坑。</p>
 <lb ed="X" n="0747b10"/><p id="pX70p0747b1001">便就今朝成佛去。樂&CB15131;化主<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>嫌遲。那堪更欲之乎
-<lb ed="X" n="0747b11"/>者。管取輪迴沒了<anchor id="fnX70p0747b09"/>期。</p>
+<lb ed="X" n="0747b11"/>者。管取輪迴沒了<note n="0747009" resp="Xuzangjing" place="foot text" type="orig">期一作時</note>期。</p>
 <lb ed="X" n="0747b12"/><p id="pX70p0747b1201">念佛不曾妨日用。人於日用自相妨。百年幻影誰能
 <lb ed="X" n="0747b13"/>保。莫負西天老願王。</p>
 <lb ed="X" n="0747b14"/><p id="pX70p0747b1401">富貴之人宜念佛。黃金滿庫&CB00591;盈倉。世間受用無虧
 <lb ed="X" n="0747b15"/>缺。只欠臨終見願王。</p>
 <lb ed="X" n="0747b16"/><p id="pX70p0747b1601">貧乏之人念佛時。且無家事涉思惟。赤條條地空雙
 <lb ed="X" n="0747b17"/>手。直上蓮臺占一枝。</p>
-<lb ed="X" n="0747b18"/><p id="pX70p0747b1801">老來念佛正相當。去日無多莫暫忘。南無阿彌陀<anchor id="fnX70p0747b10"/>佛
-<lb ed="X" n="0747b19"/>六字。<anchor id="fnX70p0747b11"/>是越苦海慈航。</p>
+<lb ed="X" n="0747b18"/><p id="pX70p0747b1801">老來念佛正相當。去日無多莫暫忘。南無阿彌陀<note n="0747010" resp="Xuzangjing" place="foot text" type="orig">一無佛字</note>佛
+<lb ed="X" n="0747b19"/>六字。<note n="0747011" resp="Xuzangjing" place="foot text" type="orig">是下一有名字</note>是越苦海慈航。</p>
 <lb ed="X" n="0747b20"/><p id="pX70p0747b2001">盡道少年難念佛。我云年少正相當。看他八歲龍王
 <lb ed="X" n="0747b21"/>女。掌上神珠放寶光。</p>
-<lb ed="X" n="0747b22"/><p id="pX70p0747b2201">身膺宰<anchor id="fnX70p0747b12"/>相與朝<anchor id="fnX70p0747b13"/>良。蓋世功名世莫量。自性彌陀如不
+<lb ed="X" n="0747b22"/><p id="pX70p0747b2201">身膺宰<note n="0747012" resp="Xuzangjing" place="foot text" type="orig">相一作輔</note>相與朝<note n="0747013" resp="Xuzangjing" place="foot text" type="orig">良作郎</note>良。蓋世功名世莫量。自性彌陀如不
 <lb ed="X" n="0747b23"/>念。未知何以敵無常。</p>
 <lb ed="X" n="0747b24"/><p id="pX70p0747b2401">一等師家每勸人。自心三昧不精勤。身居淨白蓮華
 <pb ed="X" id="X70.1402.0747c" n="0747c"/>
@@ -2682,12 +2687,12 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0747c18"/>
 <lb ed="X" n="0747c19"/>
 <lb ed="X" n="0747c20"/><div1 type="w"><mulu type="附文" level="1" label="No. 1402-B 中＆CB00123；和尚和馮海粟梅花詩百詠"/><head>No. 1402-B
-<lb ed="X" n="0747c21"/> <anchor id="fnX70p0747c14"/>中&CB00123;和尚和馮海粟梅花詩百詠</head>
+<lb ed="X" n="0747c21"/> <note n="0747014" resp="Xuzangjing" place="foot text" type="orig">金湯編十六馮子振傳子振攸州人自&CB00561;海粟居士云云&CB00573;撰梅花百詠呈中峰和尚又為中鋒作懷淨土詩讚并序具如金湯編所載</note>中&CB00123;和尚和馮海粟梅花詩百詠</head>
 <lb ed="X" n="0747c22"/>
 <lb ed="X" n="0747c23"/><p id="pX70p0747c2001">自香自色自生神。察變知機始悟真。梁宋以前渾未
 <lb ed="X" n="0747c24"/>識。羲黃而上有斯人。兩三&CB00610;得奇偶象。南北枝分混
 <lb ed="X" n="0747c25"/>沌塵。勘破本根玄妙處。一團清氣一團春。</p>
-<lb ed="X" n="0747c26"/><p id="pX70p0747c2301"><anchor id="fnX70p0747c15"/>覺非恍惚夢非神。雪後霜前分外真。&CB00565;影暗銷三&CB05072;
+<lb ed="X" n="0747c26"/><p id="pX70p0747c2301"><note n="0747015" resp="Xuzangjing" place="foot text" type="orig">有宋秦少游梅花百詠百首同&CB04410;今用&CB04410;全同海粟傚秦觀者乎</note>覺非恍惚夢非神。雪後霜前分外真。&CB00565;影暗銷三&CB05072;
 <lb ed="X" n="0747c27"/>月。半聯悽斷獨吟人。歲華搖落孤根在。江驛荒&CB00289;往
 <pb ed="X" id="X70.1402.0748a" n="0748a"/>
 <lb ed="X" n="0748a01"/>事塵。碎嚼幽香清可些。玉妃無復更臨春。</p>
@@ -2892,12 +2897,12 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <pb ed="X" id="X70.1402.0750c" n="0750c"/>
 <lb ed="X" n="0750c01"/>幻塵。役損東皇吾老矣。可曾羞&CB00107;錦宮春。</p>
 <lb ed="X" n="0750c02"/><p id="pX70p0750c0201">遣情極像自枯神。似□吟□□□真。月曉憶同林外
-<lb ed="X" n="0750c03"/>飲。酒醒愁悵曲中人。荒溪獨<anchor id="fnX70p0750c01"/>步山初靜。寒影相持雪
+<lb ed="X" n="0750c03"/>飲。酒醒愁悵曲中人。荒溪獨<note n="0750001" resp="Xuzangjing" place="foot text" type="orig">步一作照</note>步山初靜。寒影相持雪
 <lb ed="X" n="0750c04"/>亦塵。每惜半簷風露重。起披玉毳伴瓊春。</p>
 <lb ed="X" n="0750c05"/><p id="pX70p0750c0501">紫微垣裏一魁神。謫向蓬瀛領眾真。十月具形分浩
 <lb ed="X" n="0750c06"/>氣。九靈司命註瓊人。危根必露應知妄。種智圓明不
 <lb ed="X" n="0750c07"/>隨塵。地位清高太孤潔。眾香并盡世間春。</p>
-<lb ed="X" n="0750c08"/><p id="pX70p0750c0801"><anchor id="fnX70p0750c02"/>廣宣筆法幾研神。妙得花中品格真。點雪半粘風外
+<lb ed="X" n="0750c08"/><p id="pX70p0750c0801"><note n="0750002" resp="Xuzangjing" place="foot text" type="orig">廣疑廉</note>廣宣筆法幾研神。妙得花中品格真。點雪半粘風外
 <lb ed="X" n="0750c09"/>&CB00528;。輕&CB00195;斜隔竹西人。寒庭尉眼&CB00289;□□。清欲飛空拭
 <lb ed="X" n="0750c10"/>瘴塵。憶到霜鐘&CB01904;粧洗。年前年後為誰春。</p>
 <lb ed="X" n="0750c11"/><p id="pX70p0750c1101">朵中飛下玉霄神。仙&CB04410;嬌妹一粉真。&CB00457;曉浴乾銀浦
@@ -3002,7 +3007,7 @@ Revision 1.2  2004/05/18 06:45:44  ray
 <lb ed="X" n="0752a10"/>
 <lb ed="X" n="0752a11"/><div1 type="xu"><mulu type="序" level="1" label="No. 1402-C"/><head>No. 1402-C</head>
 <lb ed="X" n="0752a12"/>
-<lb ed="X" n="0752a13"/><p id="pX70p0752a1301"><anchor id="fnX70p0752a01"/>一華五葉之書。天目中峰幻住和尚之所著也。闢義
+<lb ed="X" n="0752a13"/><p id="pX70p0752a1301"><note n="0752001" resp="Xuzangjing" place="foot text" type="orig">一華五葉集所輯山房夜話信心銘闢義解楞嚴或問幻住家訓及擬寒山詩既編入本藏廣錄中故今單載序跋耳</note>一華五葉之書。天目中峰幻住和尚之所著也。闢義
 <lb ed="X" n="0752a14"/>學之見封。發正宗之玄閟。其言富。其理勝。引古援今
 <lb ed="X" n="0752a15"/>咸有據焉。昔吾祖菩提達磨大師首來震旦。揭示靈
 <lb ed="X" n="0752a16"/>山奧旨。直接上根。故有一華開五葉。結果自然成之
