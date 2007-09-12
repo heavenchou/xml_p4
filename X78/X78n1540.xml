@@ -3,10 +3,12 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X78n1540.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigX78005101 SYSTEM "figures/X78005101.gif" NDATA GIF>
 <!ENTITY FigX78005102 SYSTEM "figures/X78005102.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -20,7 +22,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2007/01/03 04:09:41 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2007/09/12 05:55:55 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,7 +35,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/01/03 04:09:41 $</date>
+		<date>$Date: 2007/09/12 05:55:55 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 78, No. 1540 &desc;</bibl>
@@ -53,6 +55,9 @@
 	</change>
 <!--
 $Log: X78n1540.xml,v $
+Revision 1.13  2007/09/12 05:55:55  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.12  2007/01/03 04:09:41  eva
 modified: [經文修訂] [[療-(日/小)+土]>瘞]
 
@@ -125,7 +130,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0021c03"/>
 <lb ed="X" n="0021c04"/><p id="pX78p0021c0401" rend="margin-left:1em">江州太平興國宮樓鑰序</p></div1>
 <lb ed="X" n="0021c05"/>
-<lb ed="X" n="0021c06"/><div1 type="other"><mulu type="其他" level="1" label="法華經顯應錄目次"/><head><anchor id="fnX78p0021c01"/>法華經顯應錄目次</head>
+<lb ed="X" n="0021c06"/><div1 type="other"><mulu type="其他" level="1" label="法華經顯應錄目次"/><head><note n="0021001" resp="Xuzangjing" place="foot text" type="orig">目錄新作</note>法華經顯應錄目次</head>
 <lb ed="X" n="0021c07"/>
 <lb ed="X" n="0021c08"/><p id="pX78p0021c0801" type="pre">卷上
 <lb ed="X" n="0021c09"/>　序
@@ -318,7 +323,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0024a21"/><div2 type="other"><mulu type="其他" level="2" label="釋迦為王求經無倦"/><head>釋迦為王求經無倦</head>
 <lb ed="X" n="0024a22"/><p id="pX78p0024a2201">佛告四眾。吾於過去無量劫中。求法華經無有懈倦。
 <lb ed="X" n="0024a23"/>於多劫中常作國王。發願求於無上菩提。心不退轉。
-<lb ed="X" n="0024a24"/>為於法故捐捨國位。委<anchor id="fnX78p0024a01"/>正太子。擊鼓宣令四方求法。
+<lb ed="X" n="0024a24"/>為於法故捐捨國位。委<note n="0024001" resp="Xuzangjing" place="foot text" type="orig">正本經作政</note>正太子。擊鼓宣令四方求法。
 <pb ed="X" id="X78.1540.0024b" n="0024b"/>
 <lb ed="X" n="0024b01"/>誰能為我說大乘者。吾當終身供給走使。時有阿私
 <lb ed="X" n="0024b02"/>仙人來白王言。我有大乘。名妙法華經。若不違我。當
@@ -349,7 +354,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0024c02"/>可輕。</p></div2>
 <lb ed="X" n="0024c03"/><div2 type="other"><mulu type="其他" level="2" label="喜見然身供養玅經"/><head>喜見然身供養玅經</head>
 <lb ed="X" n="0024c04"/><p id="pX78p0024c0401">過去日月淨明德佛。為一切眾生喜見菩薩及菩薩．
-<lb ed="X" n="0024c05"/>聲聞眾說法華經。是菩薩樂<anchor id="fnX78p0024c02"/>集苦行一心求佛。滿萬
+<lb ed="X" n="0024c05"/>聲聞眾說法華經。是菩薩樂<note n="0024002" resp="Xuzangjing" place="foot text" type="orig">集本經作習</note>集苦行一心求佛。滿萬
 <lb ed="X" n="0024c06"/>二千歲<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>得現一切色身三昧。得此三昧<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。即作念
 <lb ed="X" n="0024c07"/>言。我得是三昧。皆是得聞法華經力。我今當供養於
 <lb ed="X" n="0024c08"/>佛及法華經。我雖以神力供養。不如以身供養。即於
@@ -373,7 +378,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0025a01"/>故來至此。</p></div2>
 <lb ed="X" n="0025a02"/><div2 type="other"><mulu type="其他" level="2" label="昔四比丘修習法華"/><head>昔四比丘修習法華</head>
 <lb ed="X" n="0025a03"/><p id="pX78p0025a0301">往昔有四比丘。於法華經極生殷重。卷舒祕教甘露
-<lb ed="X" n="0025a04"/>未霑。由是結契山林共期佛慧。幽居日積。衣糧<anchor id="fnX78p0025a01"/>單盡。
+<lb ed="X" n="0025a04"/>未霑。由是結契山林共期佛慧。幽居日積。衣糧<note n="0025001" resp="Xuzangjing" place="foot text" type="orig">單疑畢</note>單盡。
 <lb ed="X" n="0025a05"/>一&CB00290;萬里。雲霄之志可得言哉。其一人云。吾等四窮
 <lb ed="X" n="0025a06"/>尚不存身。法當安寄。汝三人宜以命奉道。我一人者
 <lb ed="X" n="0025a07"/>當給所須。自爾振錫門閭以求供給。雖寒暑代謝甘
@@ -403,7 +408,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0025b06"/>其有受持是經典者。我當守護。除其衰患。是人若行
 <lb ed="X" n="0025b07"/>若立讀誦此經。我時乘六牙白象與大菩薩眾而自
 <lb ed="X" n="0025b08"/>現身供養守護。亦為供養法華經故。其人若於法華
-<lb ed="X" n="0025b09"/>經有所<anchor id="fnX78p0025b02"/>妄失一句一偈。我當教之。文句釋曰。佛舉四
+<lb ed="X" n="0025b09"/>經有所<note n="0025002" resp="Xuzangjing" place="foot text" type="orig">妄本經作忘</note>妄失一句一偈。我當教之。文句釋曰。佛舉四
 <lb ed="X" n="0025b10"/>法冠&CB00746;一經。法華之重演。佛慧之再宣。遠來勸發。其
 <lb ed="X" n="0025b11"/>義如此。南屏頌曰。&CB00642;吉尋聲得得來。巨靈纔闢絕纖
 <lb ed="X" n="0025b12"/>埃。象王何事頻移步。為愛芬陀滿砌苔。</p></div2></div1>
@@ -424,21 +429,21 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0025c02"/><p id="pX78p0025c0201">三藏曇摩羅察。此云法護。月支國人。八歲離俗。凡是
 <lb ed="X" n="0025c03"/>經書過目成誦。日記萬言。西游諸國。通三十六種語
 <lb ed="X" n="0025c04"/>言書詁訓音。久居燉煌。時號燉煌菩薩。自西晉武帝
-<lb ed="X" n="0025c05"/>時<anchor id="fnX78p0025c03"/>賚梵夾到洛陽。既而博&CB15095;五經史傳。至永康中於
+<lb ed="X" n="0025c05"/>時<note n="0025003" resp="Xuzangjing" place="foot text" type="orig">賚疑&CB01801;</note>賚梵夾到洛陽。既而博&CB15095;五經史傳。至永康中於
 <lb ed="X" n="0025c06"/>長安青門外大寺中譯正法華經一部十卷。仍為四
 <lb ed="X" n="0025c07"/>眾敷講。又翻餘經共一百五十四部。咸奉&CB02637;流通。時
 <lb ed="X" n="0025c08"/>隱居深山。山有清泉。澡漱給用。一日樵人觸穢。忽爾
 <lb ed="X" n="0025c09"/>枯涸。護嘆曰。人之無德。遂使清泉輟流。既乏所須。吾
 <lb ed="X" n="0025c10"/>當去矣。言訖清泉復涌。支遁贊曰。護公證寂。道德淵
-<lb ed="X" n="0025c11"/>美。微吟穹谷。枯泉漱水。邈<anchor id="fnX78p0025c04"/>以護公。天挺弘懿。濯足流
+<lb ed="X" n="0025c11"/>美。微吟穹谷。枯泉漱水。邈<note n="0025004" resp="Xuzangjing" place="foot text" type="orig">以傳作矣</note>以護公。天挺弘懿。濯足流
 <lb ed="X" n="0025c12"/>沙。傾拔玄致<note place="inline">梁高僧傳</note>。</p></div2>
 <lb ed="X" n="0025c13"/><div2 type="other"><mulu type="其他" level="2" label="姚秦三藏什法師"/><head>姚秦三藏什法師</head>
 <lb ed="X" n="0025c14"/><p id="pX78p0025c1401">法師鳩摩羅什。秦翻童壽。龜茲國人。七歲出家。日誦
 <lb ed="X" n="0025c15"/>千偈。其母&CB00573;&CB01768;至月支國見一羅漢曰。此沙彌至三
-<lb ed="X" n="0025c16"/>十五。若不破戒。當大<anchor id="fnX78p0025c05"/>洪佛教。度無數人。戒若不全。止
+<lb ed="X" n="0025c16"/>十五。若不破戒。當大<note n="0025005" resp="Xuzangjing" place="foot text" type="orig">洪傳作興</note>洪佛教。度無數人。戒若不全。止
 <lb ed="X" n="0025c17"/>才明法師而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。母唯其言。一日謂曰。方等深教應大
 <lb ed="X" n="0025c18"/>闡真丹。唯爾之力。<app><lem wit="【CBETA】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">&CB02029;</rdg></app>於爾自身無益耳。什曰。大士之
-<lb ed="X" n="0025c19"/>道。利彼<anchor id="fnX78p0025c06"/>亡軀。若使大法流傳。能洗蒙俗。雖身當鑪鑊
+<lb ed="X" n="0025c19"/>道。利彼<note n="0025006" resp="Xuzangjing" place="foot text" type="orig">亡傳作忘</note>亡軀。若使大法流傳。能洗蒙俗。雖身當鑪鑊
 <lb ed="X" n="0025c20"/>無恨矣。時符堅據關中。太史奏云。有德星現外國分
 <lb ed="X" n="0025c21"/>野。當有大智人入輔中國。堅曰。朕聞西域有羅什。將
 <lb ed="X" n="0025c22"/>非是耶。即遣呂光率兵伐龜茲。光既獲什。迴至&CB00289;州。
@@ -597,7 +602,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <pb ed="X" id="X78.1540.0028a" n="0028a"/>
 <lb ed="X" n="0028a01"/><div2 type="other"><mulu type="其他" level="2" label="五臺清涼國師"/><head>五臺清涼國師</head>
 <lb ed="X" n="0028a02"/><p id="pX78p0028a0201">釋澄觀。姓夏侯氏。山陰人也。依應天寺出家。誦法華
-<lb ed="X" n="0028a03"/>經。十四<anchor id="fnX78p0028a01"/>過恩得度。首學南山律藏。次於金陵傳三論。
+<lb ed="X" n="0028a03"/>經。十四<note n="0028001" resp="Xuzangjing" place="foot text" type="orig">過疑遇</note>過恩得度。首學南山律藏。次於金陵傳三論。
 <lb ed="X" n="0028a04"/>復往天竺習華嚴大經。晚止蘇州。從荊溪禪師傳天
 <lb ed="X" n="0028a05"/>台止觀。聽法華．維摩等經。又參牛頭忠．徑山欽。得南
 <lb ed="X" n="0028a06"/>北兩宗禪法。師博學深究。識量宏遠。著華嚴貞元等
@@ -635,7 +640,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0028b13"/>惜哉。成即發憤燒棄章疏。以夜達旦開眼坐禪。凡十
 <lb ed="X" n="0028b14"/>五載。思又令入法華般舟道場消障三年。復示以正
 <lb ed="X" n="0028b15"/>法。遂證解一切眾生語言三昧。較閉目入觀開目便
-<lb ed="X" n="0028b16"/>失者霄壤矣。思曰。智顗先發三昧。後證總持。慧成<anchor id="fnX78p0028b02"/>及
+<lb ed="X" n="0028b16"/>失者霄壤矣。思曰。智顗先發三昧。後證總持。慧成<note n="0028002" resp="Xuzangjing" place="foot text" type="orig">及瞻反</note>及
 <lb ed="X" n="0028b17"/>之。二子解行齊矣。成即詣荊州枝江建寺。道德所及
 <lb ed="X" n="0028b18"/>不日而成。陳帝累召方至。與受戒法而返。時將超化。
 <lb ed="X" n="0028b19"/>乃講涅槃。忽智者自玉泉至。冥相符會。共談玄理良
@@ -708,14 +713,14 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0029b11"/>見一九頭龍從地涌出。上升&CB00980;空。明日白師。師曰此
 <lb ed="X" n="0029b12"/>表九道眾生聞法華經。將來之世破無明。入法性空
 <lb ed="X" n="0029b13"/>耳。又&CB00573;於寶林寺要期法華三昧。啟修初夜。如有人
-<lb ed="X" n="0029b14"/>來搖動戶扇。師問之。答曰。我來<anchor id="fnX78p0029b01"/>者燈耳。頻經數過。答
+<lb ed="X" n="0029b14"/>來搖動戶扇。師問之。答曰。我來<note n="0029001" resp="Xuzangjing" place="foot text" type="orig">＊界傳作看（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>者燈耳。頻經數過。答
 <lb ed="X" n="0029b15"/>問如前。寺有慧成禪師。聞其事而言曰。彼堂內從來
 <lb ed="X" n="0029b16"/>有大惡鬼。今聞此聲。是必相害也。天曉扣戶問之。見
 <lb ed="X" n="0029b17"/>其猶在。甚喜。成因以報永陽王。王即遣數十兵吏執
 <lb ed="X" n="0029b18"/>杖防護。師曰。命由業也。豈在防護。謝而去之。至第二
 <lb ed="X" n="0029b19"/>夜。鬼即入來&CB00642;打東西。於三七日恒爾為惱。師坦然
 <lb ed="X" n="0029b20"/>無懼。行法將訖。見一青衣童子稱讚善哉。言<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>不見。
-<lb ed="X" n="0029b21"/>師德行兼全。為智者輔佐。凡九迴朝<anchor id="fnX78p0029b02"/>現天子。善始令
+<lb ed="X" n="0029b21"/>師德行兼全。為智者輔佐。凡九迴朝<note n="0029002" resp="Xuzangjing" place="foot text" type="orig">現疑覲</note>現天子。善始令
 <lb ed="X" n="0029b22"/>終。壽八十三而卒<note place="inline">續高僧傳</note>。</p></div2>
 <lb ed="X" n="0029b23"/><div2 type="other"><mulu type="其他" level="2" label="廬山志禪師"/><head>廬山志禪師</head>
 <lb ed="X" n="0029b24"/><p id="pX78p0029b2401">師會稽顧氏子。發蒙出家。師事天台智者。智者見其
@@ -738,7 +743,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0029c16"/>&CB15035;。安貧苦節。長誦法華以為德業。玉泉。智者創置。未
 <lb ed="X" n="0029c17"/>有鐘磬。師於泉源得怪石一片。懸之。每誦經卷通輒
 <lb ed="X" n="0029c18"/>扣一下。聲韻清徹。聞者肅然。幽冥之徒屢有祥感。知
-<lb ed="X" n="0029c19"/>而不傳。&CB00573;患水<anchor id="fnX78p0029c03"/>服急如鼓。一夜誦經。水忽流注。洪<anchor id="fnX78p0029c04"/>&CB01902;
+<lb ed="X" n="0029c19"/>而不傳。&CB00573;患水<note n="0029003" resp="Xuzangjing" place="foot text" type="orig">服傳作腹</note>服急如鼓。一夜誦經。水忽流注。洪<note n="0029004" resp="Xuzangjing" place="foot text" type="orig">&CB01902;傳作腫</note>&CB01902;
 <lb ed="X" n="0029c20"/>頓消。時朱粲為&CB02480;劫掠。唯悅守寺。賊令引路。師曰。僧
 <lb ed="X" n="0029c21"/>非引路人。浮幻形骸任從白刃。賊敬而恕之。時漢陽
 <lb ed="X" n="0029c22"/>王請為戒師。以彩服賜之。悅不受。王曰何不著絹帛
@@ -757,7 +762,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0030a10"/><div2 type="other"><mulu type="其他" level="2" label="錢唐觀法師"/><head>錢唐觀法師</head>
 <lb ed="X" n="0030a11"/><p id="pX78p0030a1101">等觀。生于富陽孫氏。為僧<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後。聞智者開法佛隴。遂
 <lb ed="X" n="0030a12"/>往依承。專誦法華。兼能講說。貞觀中赴餘杭法忍寺
-<lb ed="X" n="0030a13"/><anchor id="fnX78p0030a01"/>講。忽一夜見神人曰。吾錢唐&CB04362;亭祠神也。師&CB00573;經過
+<lb ed="X" n="0030a13"/><note n="0030001" resp="Xuzangjing" place="foot text" type="orig">講疑請</note>講。忽一夜見神人曰。吾錢唐&CB04362;亭祠神也。師&CB00573;經過
 <lb ed="X" n="0030a14"/>廟庭。弟子巡游不值。今故特來求授戒法。師即為然
 <lb ed="X" n="0030a15"/>香秉宣。至明日夜半。沐浴更淨。召慧法師說三觀義。
 <lb ed="X" n="0030a16"/>乃曰。此吾親承智者口授。言<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>加趺面西。稱彼佛名
@@ -765,7 +770,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0030a18"/><div2 type="other"><mulu type="其他" level="2" label="梁朝滿法師"/><head>梁朝滿法師</head>
 <lb ed="X" n="0030a19"/><p id="pX78p0030a1901">羅什法師於長安譯法華經二十八品。長安宮人請
 <lb ed="X" n="0030a20"/>講提婆達多品。此品淹留在內。江東所傳止得二十
-<lb ed="X" n="0030a21"/><anchor id="fnX78p0030a02"/>一品。梁有滿法師。講經一百&CB00642;。於長沙燒身奉法。仍
+<lb ed="X" n="0030a21"/><note n="0030002" resp="Xuzangjing" place="foot text" type="orig">一當作七</note>一品。梁有滿法師。講經一百&CB00642;。於長沙燒身奉法。仍
 <lb ed="X" n="0030a22"/>以此品安持品之前。彼自私安。未聞天下。陳有南岳
 <lb ed="X" n="0030a23"/>思大禪師。次此品在寶塔之後。晚以正法華勘之。甚
 <lb ed="X" n="0030a24"/>相應。今則四&CB06080;混和。見長安舊本。故知二師深得經
@@ -843,7 +848,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0031a21"/><div2 type="other"><mulu type="其他" level="2" label="長沙亡名僧"/><head>長沙亡名僧</head>
 <lb ed="X" n="0031a22"/><p id="pX78p0031a2201">西晉建興二年。長沙縣西一百餘里。有青蓮華兩本。
 <lb ed="X" n="0031a23"/>生於陸地。道俗爭觀。因掘其地一丈二尺。得一瓦棺。
-<lb ed="X" n="0031a24"/>而蓮出於棺之壞處。劉棺視之。有髑髏<anchor id="fnX78p0031a01"/>栓索。其蓮根
+<lb ed="X" n="0031a24"/>而蓮出於棺之壞處。劉棺視之。有髑髏<note n="0031001" resp="Xuzangjing" place="foot text" type="orig">栓當作拴</note>栓索。其蓮根
 <pb ed="X" id="X78.1540.0031b" n="0031b"/>
 <lb ed="X" n="0031b01"/>生于齒頰間。時有說者曰。昔有僧。不知名氏。誦蓮經
 <lb ed="X" n="0031b02"/>十萬部。不疾而化。遺言使衣&CB02408;服以瓦為棺。此其是
@@ -897,7 +902,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <pb ed="X" id="X78.1540.0032a" n="0032a"/>
 <lb ed="X" n="0032a01"/>有倡樂之聲。鄉人王道真妻病革。請師持&CB00057;。方入門。
 <lb ed="X" n="0032a02"/>病者悶絕。忽見一物如狸。長數尺。從狗竇出。其病即
-<lb ed="X" n="0032a03"/>愈。又&CB00573;行水<anchor id="fnX78p0032a01"/>旁。有巫者云。神明見明法師悉皆奔走
+<lb ed="X" n="0032a03"/>愈。又&CB00573;行水<note n="0032001" resp="Xuzangjing" place="foot text" type="orig">準傳旁下當有祠字</note>旁。有巫者云。神明見明法師悉皆奔走
 <lb ed="X" n="0032a04"/><note place="inline">梁高僧傳</note>。</p></div2>
 <lb ed="X" n="0032a05"/><div2 type="other"><mulu type="其他" level="2" label="越州慧法師"/><head>越州慧法師</head>
 <lb ed="X" n="0032a06"/><p id="pX78p0032a0601">沙門法慧。生于夏侯氏。自成童。有卓識。及剪青螺。言
@@ -1116,7 +1121,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0034c19"/>改變。海又難曰。若爾則六十小劫謂如食頃。但是聖
 <lb ed="X" n="0034c20"/>&CB00418;。凡不能睹。凡聖俱睹。凡聖俱聖乎。方笑曰。高座何
 <lb ed="X" n="0034c21"/>曾道此。乃是自道自難耳。海覺失言。乃調之曰。三隔
-<lb ed="X" n="0034c22"/>木<anchor id="fnX78p0034c01"/>升。何謂智方。方尋聲曰。既瓦礫洿池。那稱寶海。眾
+<lb ed="X" n="0034c22"/>木<note n="0034001" resp="Xuzangjing" place="foot text" type="orig">升傳作斗</note>升。何謂智方。方尋聲曰。既瓦礫洿池。那稱寶海。眾
 <lb ed="X" n="0034c23"/>笑而散<note place="inline">續高僧傳</note>。</p></div2>
 <lb ed="X" n="0034c24"/><div2 type="other"><mulu type="其他" level="2" label="真乘淨法師"/><head>真乘淨法師</head>
 <pb ed="X" id="X78.1540.0035a" n="0035a"/>
@@ -1202,7 +1207,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0036a05"/><p id="pX78p0036a0501">後梁僧法懍。枝江嚴氏子。始十五歲。識見&CB00529;異。依玉
 <lb ed="X" n="0036a06"/>泉寺出家。不著繒纊。乞食自資。大布為衣。禪念為業。
 <lb ed="X" n="0036a07"/>長誦法華。&CB00169;不沾&CB00646;。游方參尋。無遠不屆。氣貌清肅。
-<lb ed="X" n="0036a08"/>見者莫不<anchor id="fnX78p0036a01"/>揖其高風。&CB00573;至岱嶽。遇一縣令。問以公驗。
+<lb ed="X" n="0036a08"/>見者莫不<note n="0036001" resp="Xuzangjing" place="foot text" type="orig">揖傳作挹</note>揖其高風。&CB00573;至岱嶽。遇一縣令。問以公驗。
 <lb ed="X" n="0036a09"/>懍常賚蓮經一函。乃曰。此函內有行文。撿&CB00697;不見。令
 <lb ed="X" n="0036a10"/>怒。答曰。此經是諸佛所行之&CB00528;。貧道履而行之。即懍
 <lb ed="X" n="0036a11"/>之行文也。令遣囚之。七日不與食。但一心誦經。令感
@@ -1236,7 +1241,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0036b14"/>變不可識。而血肉焦臭。堅不忍觀。即還廡下。復與神
 <lb ed="X" n="0036b15"/>坐。堅曰。欲救是僧得否。神曰。可。能為寫法華經。必應
 <lb ed="X" n="0036b16"/>得免。既而與神別。旦廟令視堅不死。訝之。堅去。急報
-<lb ed="X" n="0036b17"/>前願。經寫裝畢。<anchor id="fnX78p0036b02"/>賚而就廟。神出如故。以事告之。神曰。
+<lb ed="X" n="0036b17"/>前願。經寫裝畢。<note n="0036002" resp="Xuzangjing" place="foot text" type="orig">賚疑&CB01801;</note>賚而就廟。神出如故。以事告之。神曰。
 <lb ed="X" n="0036b18"/>師為寫經題目。彼<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>脫去。今生人間。然此處不潔。不
 <lb ed="X" n="0036b19"/>宜安經。願師還送入寺中供養。遂與神別<note place="inline">大宋高僧傳</note>。</p></div2>
 <lb ed="X" n="0036b20"/><div2 type="other"><mulu type="其他" level="2" label="越州倫法師"/><head>越州倫法師</head>
@@ -1272,7 +1277,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <pb ed="X" id="X78.1540.0037a" n="0037a"/>
 <lb ed="X" n="0037a01"/>須懺悔。一時在岐州說法次。彼有優婆夷持法華經
 <lb ed="X" n="0037a02"/>勸諸有緣同誦。師言曰。汝持法華。不當根機。合入地
-<lb ed="X" n="0037a03"/>獄。速須捨誦。餘者&CB00278;捨之。其為首優婆夷不<anchor id="fnX78p0037a01"/>忿。即於
+<lb ed="X" n="0037a03"/>獄。速須捨誦。餘者&CB00278;捨之。其為首優婆夷不<note n="0037001" resp="Xuzangjing" place="foot text" type="orig">忿疑忍</note>忿。即於
 <lb ed="X" n="0037a04"/>大齋日萬人聚會燒香發誓曰。若某持法華經不稱
 <lb ed="X" n="0037a05"/>佛意。願身染惡病令大眾見。又願生身陷入地獄。若
 <lb ed="X" n="0037a06"/>某持法華經稱順佛意。願禪師即當此報。言<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>慈即
@@ -1371,7 +1376,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0038a24"/>法華為宗骨。隋文帝&CB02637;住禪定寺。晚年欲被通感。誓
 <pb ed="X" id="X78.1540.0038b" n="0038b"/>
 <lb ed="X" n="0038b01"/>誦蓮經千&CB00642;。因不止舊房。巡遶塔寺。二儀之中。誓填
-<lb ed="X" n="0038b02"/>本願數<anchor id="fnX78p0038b01"/>萬八百。寺僧忽見一白馬駕寶車入喜房。追
+<lb ed="X" n="0038b02"/>本願數<note n="0038001" resp="Xuzangjing" place="foot text" type="orig">萬傳作滿</note>萬八百。寺僧忽見一白馬駕寶車入喜房。追
 <lb ed="X" n="0038b03"/>之不見。其感通矣。後歸老盧陵。貞觀六年染疾。召門
 <lb ed="X" n="0038b04"/>人曰。無常<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>至。勿事&CB01193;擾。三界&CB00980;妄。但是一心。大眾
 <lb ed="X" n="0038b05"/>忽聞林北有音樂車震之聲。因以報喜。喜曰。世間果
@@ -1393,7 +1398,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0038b21"/><div2 type="other"><mulu type="其他" level="2" label="蘇州旻法師"/><head>蘇州旻法師</head>
 <lb ed="X" n="0038b22"/><p id="pX78p0038b2201">師諱慧旻。河東人也。九歲出塵。服勤白業。誦蓮華經。
 <lb ed="X" n="0038b23"/>期月便過。十五請法於新羅光法師。英偉秀發。宿士
-<lb ed="X" n="0038b24"/>稱之。十<anchor id="fnX78p0038b02"/>五還海鹽尸光興寺。講法華經。異香彈指屢
+<lb ed="X" n="0038b24"/>稱之。十<note n="0038002" resp="Xuzangjing" place="foot text" type="orig">五傳作七</note>五還海鹽尸光興寺。講法華經。異香彈指屢
 <pb ed="X" id="X78.1540.0038c" n="0038c"/>
 <lb ed="X" n="0038c01"/>結空中。聽眾雲翔。咸言善瑞。後遷通玄寺。結徒行道
 <lb ed="X" n="0038c02"/>者一十七年。足不逾閫。隋末崩離。吳中饑饉。四眾逃
@@ -1638,11 +1643,11 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0041c16"/>寺。立志持三白。會昌中遭沙汰。宣宗朝還入法流。咸
 <lb ed="X" n="0041c17"/>通年送佛骨舍利往鳳翔。鍊左拇指。口誦蓮經。其指
 <lb ed="X" n="0041c18"/>復生。所誦法華平生不計其數。三白者。白飯。白水。白
-<lb ed="X" n="0041c19"/>鹽也。又身不<anchor id="fnX78p0041c01"/>偏觸。口誦真經。意不妄緣。此三明白。享
+<lb ed="X" n="0041c19"/>鹽也。又身不<note n="0041001" resp="Xuzangjing" place="foot text" type="orig">偏傳作&CB00642;</note>偏觸。口誦真經。意不妄緣。此三明白。享
 <lb ed="X" n="0041c20"/>此嘉名。以故吳人呼為三白和尚<note place="inline">大宋僧傳</note>。</p></div2>
 <lb ed="X" n="0041c21"/><div2 type="other"><mulu type="其他" level="2" label="溫州楚法師"/><head>溫州楚法師</head>
 <lb ed="X" n="0041c22"/><p id="pX78p0041c2201">唐釋鴻楚。永嘉人也。楚與昆弟器度宏遠。皆樂出俗。
-<lb ed="X" n="0041c23"/>雙親亦願。影隨互相。<anchor id="fnX78p0041c02"/>竊直誦習蓮華。時大雲寺荒摭。
+<lb ed="X" n="0041c23"/>雙親亦願。影隨互相。<note n="0041002" resp="Xuzangjing" place="foot text" type="orig">竊傳作切</note>竊直誦習蓮華。時大雲寺荒摭。
 <lb ed="X" n="0041c24"/>昭宗&CB02637;重構締。師主成之。就而講誦。梁太祖賜紫衣
 <pb ed="X" id="X78.1540.0042a" n="0042a"/>
 <lb ed="X" n="0042a01"/>師號。師讓而不受。時鄭說贈詩云。架上紫衣閑不著。
@@ -1745,15 +1750,15 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0043a23"/>種種勸令寢息。汝但執念為功。何異犛牛愛尾。達曰。
 <lb ed="X" n="0043a24"/>若如所說。不須誦經耶。祖曰。經有何過。豈障汝念。聽
 <pb ed="X" id="X78.1540.0043b" n="0043b"/>
-<lb ed="X" n="0043b01"/>吾偈曰。心迷<anchor id="fnX78p0043b01"/>□□□。心悟轉法華。誦久不明<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>。與義
-<lb ed="X" n="0043b02"/>作讎家。無念念即正。<anchor id="fnX78p0043b02"/>□□念成邪。<anchor id="fnX78p0043b03"/>□無俱不到。長御
+<lb ed="X" n="0043b01"/>吾偈曰。心迷<note n="0043001" resp="Xuzangjing" place="foot text" type="orig">□□□當作法華轉</note>□□□。心悟轉法華。誦久不明<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>。與義
+<lb ed="X" n="0043b02"/>作讎家。無念念即正。<note n="0043002" resp="Xuzangjing" place="foot text" type="orig">□□當作有念</note>□□念成邪。<note n="0043003" resp="Xuzangjing" place="foot text" type="orig">□當作有</note>□無俱不到。長御
 <lb ed="X" n="0043b03"/>白牛車。達既蒙啟迪。歡喜說偈曰。經誦三千部。曹溪
 <lb ed="X" n="0043b04"/>一句亡。未明出世旨。寧歇累生狂。羊鹿牛權設。初中
 <lb ed="X" n="0043b05"/>後善揚。誰知火宅內。元是法中王。祖曰。汝今方名念
 <lb ed="X" n="0043b06"/>經僧也。達既領受玄旨。自此亦不輟誦持。委見傳燈
 <lb ed="X" n="0043b07"/>錄。</p></div2>
 <lb ed="X" n="0043b08"/><div2 type="other"><mulu type="其他" level="2" label="牛頭山融禪師"/><head>牛頭山融禪師</head>
-<lb ed="X" n="0043b09"/><p id="pX78p0043b0901">唐續僧傳紀僧法<anchor id="fnX78p0043b04"/>雄。俗韋姓。潤州人也。家世業儒。博
+<lb ed="X" n="0043b09"/><p id="pX78p0043b0901">唐續僧傳紀僧法<note n="0043004" resp="Xuzangjing" place="foot text" type="orig">雄當作融</note>雄。俗韋姓。潤州人也。家世業儒。博
 <lb ed="X" n="0043b10"/>通書史。然無經世意。一日偶閱般若。曉達真空。乃棄
 <lb ed="X" n="0043b11"/>儒。竄入茆山。改逢掖而披緇。探賾此道。二十年間專
 <lb ed="X" n="0043b12"/>精匪懈。貞觀中於牛頭石室為四眾百餘人講法華
@@ -1980,8 +1985,8 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0046b08"/>遠來。不及攀送。僕即送行。僧於中途問曰。先生何姓。
 <lb ed="X" n="0046b09"/>曰姓孫。何名。僕即於僧掌書思邈二字。僧嗟駭。僕忽
 <lb ed="X" n="0046b10"/>不見。凡尋三日。竟迷路蹤。歸視嚫金。乃金錢一百。中
-<lb ed="X" n="0046b11"/>五六金。一半尚鐵。由茲一膳身輕無疾。至大宋<anchor id="fnX78p0046b01"/>元禧
-<lb ed="X" n="0046b12"/>中年一百五十歲。長游都市。後隱不見<note place="inline"><anchor id="fnX78p0046b02"/>〔箱〕山野錄</note>。</p></div2>
+<lb ed="X" n="0046b11"/>五六金。一半尚鐵。由茲一膳身輕無疾。至大宋<note n="0046001" resp="Xuzangjing" place="foot text" type="orig">元錄作天</note>元禧
+<lb ed="X" n="0046b12"/>中年一百五十歲。長游都市。後隱不見<note place="inline"><note n="0046002" resp="Xuzangjing" place="foot text" type="orig">箱當作湘</note>〔箱〕山野錄</note>。</p></div2>
 <lb ed="X" n="0046b13"/><div2 type="other"><mulu type="其他" level="2" label="相州昂法師"/><head>相州昂法師</head>
 <lb ed="X" n="0046b14"/><p id="pX78p0046b1401">相州有法師道昂。止開元寺。常講法華經。一日講次。
 <lb ed="X" n="0046b15"/>忽見眾聖幢幡音樂從空而下。告云。兜率陀天特來
@@ -2009,11 +2014,11 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0046c12"/>後選永明。眾至二千人。時號彌勒下生。勤大精進。日
 <lb ed="X" n="0046c13"/>行一百八事。平生誦法華經一萬三千許部。著宗鏡
 <lb ed="X" n="0046c14"/>錄百卷。&CB02637;入大藏。至大宋開寶中示疾。焚香告眾。加
-<lb ed="X" n="0046c15"/>趺而寂<note place="inline">師事跡大宋僧傳．僧寶傳．寶珠集&CB00278;委載。以<app><lem wit="【CBETA】" resp="CBETA.maha">官</lem><rdg wit="【卍續】">宮</rdg></app>錢<anchor id="fnX78p0046c03"/>〔市〕放生。用見東坡大全</note>。</p></div2>
+<lb ed="X" n="0046c15"/>趺而寂<note place="inline">師事跡大宋僧傳．僧寶傳．寶珠集&CB00278;委載。以<app><lem wit="【CBETA】" resp="CBETA.maha">官</lem><rdg wit="【卍續】">宮</rdg></app>錢<note n="0046003" resp="Xuzangjing" place="foot text" type="orig">市疑為字</note>〔市〕放生。用見東坡大全</note>。</p></div2>
 <lb ed="X" n="0046c16"/><div2 type="other"><mulu type="其他" level="2" label="泗州德法師"/><head>泗州德法師</head>
 <lb ed="X" n="0046c17"/><p id="pX78p0046c1701">太平興國中。江南僧懷德。自離俗謹愿飾身。誦通法
 <lb ed="X" n="0046c18"/>華。因以得度。自爾雖登講席。終以誦持為專務。晚游
-<lb ed="X" n="0046c19"/>泗上。禮僧伽塔。　大宋遣使<anchor id="fnX78p0046c04"/>賚旛華上供。德誓欲焚
+<lb ed="X" n="0046c19"/>泗上。禮僧伽塔。　大宋遣使<note n="0046004" resp="Xuzangjing" place="foot text" type="orig">賚疑&CB01801;</note>賚旛華上供。德誓欲焚
 <lb ed="X" n="0046c20"/>身供養。先捨衣盂設齋。次衣以&CB02408;服。纏身灌蠟。禮辭
 <lb ed="X" n="0046c21"/>眾僧。手執雙燭。登柴&CB00036;中。發火誦經。火&CB08504;熛高。其身
 <lb ed="X" n="0046c22"/>聊側。猶聞經聲。觀者莫不悲悼。及收餘骨。室利尤多。
@@ -2027,7 +2032,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0047a05"/>曹娥江用飼魚腹。投而不沈。云有若神人捧足。適漁
 <lb ed="X" n="0047a06"/>者拯之。錢王即造上方院。召以居焉。開寶中感疾。不
 <lb ed="X" n="0047a07"/>求藥石。即顧命曰。吾誦蓮經及二萬部。決以安養為
-<lb ed="X" n="0047a08"/>期。今幸遂懷。言<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>坐亡。<anchor id="fnX78p0047a01"/>襄事官供荼毗于龍井山。獲
+<lb ed="X" n="0047a08"/>期。今幸遂懷。言<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>坐亡。<note n="0047001" resp="Xuzangjing" place="foot text" type="orig">襄疑喪</note>襄事官供荼毗于龍井山。獲
 <lb ed="X" n="0047a09"/>舍利無算。骨猶玉瑩。乃以石函寘于影堂。太師孫承
 <lb ed="X" n="0047a10"/>祐製&CB15156;<note place="inline">大宋僧傳</note>。</p></div2>
 <lb ed="X" n="0047a11"/><div2 type="other"><mulu type="其他" level="2" label="衡嶽雲上人"/><head>衡嶽雲上人</head>
@@ -2075,7 +2080,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0047c03"/>夕。左之右之。虎跡狼跡。十片五片。異華狼藉。偶然相
 <lb ed="X" n="0047c04"/>見。未深相識。不知古之人今之人。是曇彥。是曇翼。至
 <lb ed="X" n="0047c05"/>云世人縱見師之形。誰人能見師之心。世人縱識師
-<lb ed="X" n="0047c06"/>之心。誰人能識師之名。師名醫王行佛<anchor id="fnX78p0047c02"/>令。來為勞生
+<lb ed="X" n="0047c06"/>之心。誰人能識師之名。師名醫王行佛<note n="0047002" resp="Xuzangjing" place="foot text" type="orig">令疑今字</note>令。來為勞生
 <lb ed="X" n="0047c07"/>治心病。能使狂者定。垢者淨。邪者正。凡者聖。如是則
 <lb ed="X" n="0047c08"/>非但人恭敬。亦合動龍鬼贊詠。豈得背覺合塵之徒
 <lb ed="X" n="0047c09"/>不稽禮歸命。</p></div2>
@@ -2128,7 +2133,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0048b06"/>狂僧號不託。說法誑世。師並勘破之。俞秀老作開堂
 <lb ed="X" n="0048b07"/>疏曰。推倒回頭。趯翻不託。七軸之蓮經未誦。一聲之
 <lb ed="X" n="0048b08"/>漁父先聞。師聞此。便登座引吟曰。本是瀟湘一釣客。
-<lb ed="X" n="0048b09"/>自東自西自南<anchor id="fnX78p0048b01"/>自北。大眾稱善。師曰。我觀法王法。法
+<lb ed="X" n="0048b09"/>自東自西自南<note n="0048001" resp="Xuzangjing" place="foot text" type="orig">南下自傳無之</note>自北。大眾稱善。師曰。我觀法王法。法
 <lb ed="X" n="0048b10"/>王法如是。便下座。後因疾牙便遷化。壽七十二。東吳
 <lb ed="X" n="0048b11"/>人祠之為散聖焉<note place="inline">師有語錄亦見僧寶傳</note>。</p></div2>
 <lb ed="X" n="0048b12"/><div2 type="other"><mulu type="其他" level="2" label="明州瑩教主"/><head>明州瑩教主</head>
@@ -2192,7 +2197,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0049a20"/>見乎別錄。茲不具敘。當時文士訪其塔者。率多留詠。
 <lb ed="X" n="0049a21"/>今略謄三章。則師之功行可見萬一矣。永嘉周侃詩
 <lb ed="X" n="0049a22"/>曰。飛霜飛露。寒空寒夜。夜夜半冰。欄干紫皇。天眾合
-<lb ed="X" n="0049a23"/>指。掌聽誦字。字到日上。天台長吉曰。金猊<anchor id="fnX78p0049a01"/>香噴空閑
+<lb ed="X" n="0049a23"/>指。掌聽誦字。字到日上。天台長吉曰。金猊<note n="0049001" resp="Xuzangjing" place="foot text" type="orig">香集作&CB00195;</note>香噴空閑
 <lb ed="X" n="0049a24"/>堂。經聲松韻和清商。西風月落寒夜長。白芙蓉滿心
 <pb ed="X" id="X78.1540.0049b" n="0049b"/>
 <lb ed="X" n="0049b01"/>地香。又有不記姓名人曰。應向鷲峰親得記。醍醐香
@@ -2249,7 +2254,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0050a02"/>於十科事佛。徒消於百載。寄言來學。得不思齊乎<note place="inline">寶珠
 <lb ed="X" n="0050a03"/>集</note>。</p></div2>
 <lb ed="X" n="0050a04"/><div2 type="other"><mulu type="其他" level="2" label="餘姚異闍梨"/><head>餘姚異闍梨</head>
-<lb ed="X" n="0050a05"/><p id="pX78p0050a0501">闍梨覃異。生姚江杜氏。脫素于龍泉<anchor id="fnX78p0050a01A"/>寺。皇祐<anchor id="fnX78p0050a01B"/>中普恩
+<lb ed="X" n="0050a05"/><p id="pX78p0050a0501">闍梨覃異。生姚江杜氏。脫素于龍泉<note n="0050001A" resp="Xuzangjing" place="foot text" type="orig">寺下集有遇字無中字</note><note n="0050001A" resp="CBETA" type="mod">寺下集有遇字</note>寺。皇祐<note n="0050001B" resp="Xuzangjing" place="foot text" type="orig">寺下集有遇字無中字</note><note n="0050001B" resp="CBETA" type="mod">集無中字</note>中普恩
 <lb ed="X" n="0050a06"/>得度。習台教於兩浙。所業既遂。即還舊居。或以住持
 <lb ed="X" n="0050a07"/>強之。皆確然不就。晚年掩關絕事。專修淨業。誦法華
 <lb ed="X" n="0050a08"/>經滿五千部。普賢觀．彌陀經一萬卷。佛號不計數。崇
@@ -2340,7 +2345,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0051a18"/>陀十藏。又化道俗結繫念淨業會僅三十年。一日感
 <lb ed="X" n="0051a19"/>疾。夜夢丈六金軀。自此每日輪請七僧助成十念。至
 <lb ed="X" n="0051a20"/>滿七日。踊身合掌。同眾厲聲稱佛。良久。屈指作印。奄
-<lb ed="X" n="0051a21"/>然坐逝。闍維。齒及數珠不壞。眾所具瞻。固非<anchor id="fnX78p0051a01"/>&CB00127;妄<note place="inline">寶珠
+<lb ed="X" n="0051a21"/>然坐逝。闍維。齒及數珠不壞。眾所具瞻。固非<note n="0051001" resp="Xuzangjing" place="foot text" type="orig">&CB00127;疑&CB00126;</note>&CB00127;妄<note place="inline">寶珠
 <lb ed="X" n="0051a22"/>集</note>。</p></div2>
 <lb ed="X" n="0051a23"/><div2 type="other"><mulu type="其他" level="2" label="衡州南上人"/><head>衡州南上人</head>
 <lb ed="X" n="0051a24"/><p id="pX78p0051a2401">紹興初。衡州有僧祖南。居止本郡法輪寺。自剃度來。
@@ -2406,7 +2411,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0052a09"/>符其言也。月堂將終。乃告門人曰。澄照老塔在寶林
 <lb ed="X" n="0052a10"/>草莽中。常有人於深靜夜聞誦法華經聲。此事尤奇。
 <lb ed="X" n="0052a11"/>況師住此山。傳持甚力。吾沒後當就祖隴別築一塔
-<lb ed="X" n="0052a12"/>以遷之歸。洎往啟迎。乃見師靈骨<anchor id="fnX78p0052a01"/>栓索一萎。色如青
+<lb ed="X" n="0052a12"/>以遷之歸。洎往啟迎。乃見師靈骨<note n="0052001" resp="Xuzangjing" place="foot text" type="orig">栓當作拴</note>栓索一萎。色如青
 <lb ed="X" n="0052a13"/>銅焉。</p></div2>
 <lb ed="X" n="0052a14"/><div2 type="other"><mulu type="其他" level="2" label="明州月堂法師"/><head>明州月堂法師</head>
 <lb ed="X" n="0052a15"/><p id="pX78p0052a1501">師諱惠詢。道號月堂。俗陳氏。其先永嘉人。&CB02626;祖寓居
@@ -2417,7 +2422,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0052a20"/>父母之室。師承此告。挺志于學。初止延慶澄照法席。
 <lb ed="X" n="0052a21"/>師一見而器之。時草菴居第一座。乃北面諮承。&CB00397;盡
 <lb ed="X" n="0052a22"/>其要。復欲傍求異聞。&CB00642;參兩浙。旋歸。值圓辯師鎮南
-<lb ed="X" n="0052a23"/>湖。<anchor id="fnX78p0052a02"/>拻張宗旨。師智解嶄然。當鋒領悟。紹興末中選住
+<lb ed="X" n="0052a23"/>湖。<note n="0052002" resp="Xuzangjing" place="foot text" type="orig">拻疑挍字</note>拻張宗旨。師智解嶄然。當鋒領悟。紹興末中選住
 <lb ed="X" n="0052a24"/>持。凡四遷而至延慶。巍巍法座。萬指森圍。人以恣辯
 <pb ed="X" id="X78.1540.0052b" n="0052b"/>
 <lb ed="X" n="0052b01"/>宣揚同富樓那。豈不然乎。師雖被緣接物。而內行愈
@@ -2814,7 +2819,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0057b17"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>便見宮殿。閻王正坐。部衛威嚴。下有男女。諸國殊
 <lb ed="X" n="0057b18"/>形。一一唱名。至文&CB15081;。王問行業。&CB15081;答以能誦金剛法
 <lb ed="X" n="0057b19"/>華齋戒等事。王合掌。令所由勘典云。未合死。王判放
-<lb ed="X" n="0057b20"/>還。&CB15081;西去不知途路。忽<anchor id="fnX78p0057b01"/>偶一沙彌云。可隨吾後來。過
+<lb ed="X" n="0057b20"/>還。&CB15081;西去不知途路。忽<note n="0057001" resp="Xuzangjing" place="foot text" type="orig">偶疑遇</note>偶一沙彌云。可隨吾後來。過
 <lb ed="X" n="0057b21"/>六重門。遇黑闇處。沙彌手執明炬遂得出而復生。&CB15081;
 <lb ed="X" n="0057b22"/>由此精苦念誦<note place="inline">靈瑞集</note>。</p></div2>
 <lb ed="X" n="0057b23"/><div2 type="other"><mulu type="其他" level="2" label="絳州癩人"/><head>絳州癩人</head>
@@ -2941,7 +2946,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0059a19"/>八十五矣。計其卷則六萬六千三百九十五矣。餘暇
 <lb ed="X" n="0059a20"/>又閱毗盧大藏。凡是台教．律部．少林心宗無不博究。
 <lb ed="X" n="0059a21"/>復誦彌陀佛號。一意西馳。紹&CB00696;五年壽八十五。四月
-<lb ed="X" n="0059a22"/>六日索湯淨身冠服整容就寢而逝。洎殮<anchor id="fnX78p0059a01"/>入。忽聞蓮
+<lb ed="X" n="0059a22"/>六日索湯淨身冠服整容就寢而逝。洎殮<note n="0059001" resp="Xuzangjing" place="foot text" type="orig">入疑人</note>入。忽聞蓮
 <lb ed="X" n="0059a23"/>華馥郁之氣。偕不知來處。迨挹之蓋。噴之於口鼻中
 <lb ed="X" n="0059a24"/>也。是時女人多不聞香。豈五障之所蔽乎。弟華文閣
 <pb ed="X" id="X78.1540.0059b" n="0059b"/>
@@ -2960,7 +2965,7 @@ Revision 1.1  2004/12/21 06:27:11  ray
 <lb ed="X" n="0059b13"/><p id="pX78p0059b1301">慈溪縣有奉公吳振。心務善道。&CB00573;以墨手寫蓮經一
 <lb ed="X" n="0059b14"/>部。讀誦不輟。紹&CB00696;壬寅歲六月二十日遺漏。眾人奔
 <lb ed="X" n="0059b15"/>救。什物流散。火後思其經。次日方得之於&CB00444;舍。無何
-<lb ed="X" n="0059b16"/><anchor id="fnX78p0059b02"/>欽失第四卷。知<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>被焚。過七日。男興宗屏瓦礫次。是
+<lb ed="X" n="0059b16"/><note n="0059002" resp="Xuzangjing" place="foot text" type="orig">欽疑缺</note>欽失第四卷。知<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>被焚。過七日。男興宗屏瓦礫次。是
 <lb ed="X" n="0059b17"/>經端然居其下。但卷初微有所損。四眾睹見。再嘆希
 <lb ed="X" n="0059b18"/>奇。其經子孫猶珍奉。一日佛照禪師赴召。過其所振
 <lb ed="X" n="0059b19"/>扣。請因留一頌。延陵四一居士。種姓純篤。願力堅剛。

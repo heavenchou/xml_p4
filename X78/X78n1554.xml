@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X78n1554.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.17 $ (Big5)<date>$Date: 2007/03/27 06:46:57 $</date></edition>
+		<edition>$Revision: 1.18 $ (Big5)<date>$Date: 2007/09/12 05:55:56 $</date></edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/03/27 06:46:57 $</date>
+		<date>$Date: 2007/09/12 05:55:56 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 78, No. 1554 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X78n1554.xml,v $
+Revision 1.18  2007/09/12 05:55:56  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.17  2007/03/27 06:46:57  amtbgrace
 modified: [組字修訂] 2007.03.25
 
@@ -165,7 +170,7 @@ modified：mulu 修訂
 <lb ed="X" n="0575c08"/>
 <lb ed="X" n="0575c09"/>
 <lb ed="X" n="0575c10"/><head type="no">No. 1554</head>
-<lb ed="X" n="0575c11"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><anchor id="fnX78p0575c01"/>五家正宗贊</jhead></juan>
+<lb ed="X" n="0575c11"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead><note n="0575001" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>五家正宗贊</jhead></juan>
 <lb ed="X" n="0575c12"/>
 <lb ed="X" n="0575c13"/><div1 type="xu"><mulu type="序" level="1" label="五家正宗贊并序"/><head>五家正宗贊并序</head>
 <lb ed="X" n="0575c14"/>
@@ -175,7 +180,7 @@ modified：mulu 修訂
 <lb ed="X" n="0575c18"/>火聚。出一言如生鐵橛。無&CB00135;近傍處。無&CB00135;咬嚼處
 <lb ed="X" n="0575c19"/>針砭古今。活必死疾。又何聖可稱。何門可游。何言
 <lb ed="X" n="0575c20"/>可忌。</p><p id="pX78p0575c2003" place="inline" rend="margin-left:1em">終日言而盡道。言滿天下無口過。或褒或貶
-<lb ed="X" n="0575c21"/>或抑或揚。曲盡其奧。&CB06406;非勸節。貶非窮鄉。抑非<anchor id="fnX78p0575c02"/>廉
+<lb ed="X" n="0575c21"/>或抑或揚。曲盡其奧。&CB06406;非勸節。貶非窮鄉。抑非<note n="0575002" resp="Xuzangjing" place="foot text" type="orig">廉字原本字體不明或&CB00308;字歟</note>廉
 <lb ed="X" n="0575c22"/>人。揚非舉善。息黥補劓。截&CB15112;續鳧。倒用橫施。著著
 <lb ed="X" n="0575c23"/>有出身之路。肯桎梏籠檻。分甘為淺丈夫哉。</p><p id="pX78p0575c2318" place="inline" rend="margin-left:1em">愚生
 <lb ed="X" n="0575c24"/>也魯。瘦藤挑月。破笠包雲。奔走江湖幾五十載。雖
@@ -686,7 +691,7 @@ modified：mulu 修訂
 <lb ed="X" n="0582c04"/>招之。高亭開悟。便橫趍而去。</p><p id="pX78p0582c0412" place="inline">師凡住院。拆&CB00230;佛殿。獨
 <lb ed="X" n="0582c05"/>存法堂而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。</p>
 <lb ed="X" n="0582c06"/><p id="pX78p0582c0601">贊曰。</p>
-<lb ed="X" n="0582c07"/><lg id="lgX78p0582c0701"><l>擔鈔走南方</l><l><anchor id="fnX78p0582c01"/>擔滅諸魔子</l>
+<lb ed="X" n="0582c07"/><lg id="lgX78p0582c0701"><l>擔鈔走南方</l><l><note n="0582001" resp="Xuzangjing" place="foot text" type="orig">擔疑誓</note>擔滅諸魔子</l>
 <lb ed="X" n="0582c08"/><l>逢臭老婆點出三心</l>
 <lb ed="X" n="0582c09"/><l>看小當仁啞無一語</l>
 <lb ed="X" n="0582c10"/><l>龍潭吹滅紙燭</l><l>破蕩家財</l>
@@ -828,7 +833,7 @@ modified：mulu 修訂
 <lb ed="X" n="0584b21"/><p id="pX78p0584b2101" rend="margin-left:1em">一生受大王供養。何以報恩。</p><p id="pX78p0584b2112" place="inline" rend="margin-left:1em">手托地疾呼。輕打我
 <lb ed="X" n="0584b22"/>輕打我。</p></div1>
 <lb ed="X" n="0584b23"/>
-<lb ed="X" n="0584b24"/><juan fun="close" n="001"><jhead><anchor id="fnX78p0584b01"/>五家正宗贊卷第一</jhead></juan>
+<lb ed="X" n="0584b24"/><juan fun="close" n="001"><jhead><note n="0584001" resp="Xuzangjing" place="foot text" type="orig">插入巳下首尾六箇題目</note><note n="0584001" resp="CBETA" type="mod">插入<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下首尾六箇題目</note>五家正宗贊卷第一</jhead></juan>
 <pb ed="X" id="X78.1554.0584c" n="0584c"/>
 <lb ed="X" n="0584c01"/><milestone unit="juan" n="2"/>
 <lb ed="X" n="0584c02"/>
@@ -873,7 +878,7 @@ modified：mulu 修訂
 <lb ed="X" n="0585a16"/><l>報冤六十棒</l><l>向大愚肋下築拳</l>
 <lb ed="X" n="0585a17"/><l>喝散五百僧</l><l>使徑山胸中短氣</l>
 <lb ed="X" n="0585a18"/><l>展三玄戈甲</l><l>遍地髑髏寒</l>
-<lb ed="X" n="0585a19"/><l>示四種<anchor id="fnX78p0585a01"/>科揀</l><l>平地波濤起</l>
+<lb ed="X" n="0585a19"/><l>示四種<note n="0585001" resp="Xuzangjing" place="foot text" type="orig">科疑料</note>科揀</l><l>平地波濤起</l>
 <lb ed="X" n="0585a20"/><l>炎天飛雪雹</l><l>單明向上機籌</l>
 <lb ed="X" n="0585a21"/><l>赤&CB00560;驟&CB00457;稜</l><l>自是一般標致</l>
 <lb ed="X" n="0585a22"/><l>惜正法眼藏</l><l>滅向三聖瞎驢邊</l>
@@ -881,7 +886,7 @@ modified：mulu 修訂
 <lb ed="X" n="0585a24"/><l>贊之者拔舌泥&CB01936;</l>
 <pb ed="X" id="X78.1554.0585b" n="0585b"/>
 <lb ed="X" n="0585b01"/><l>毀之者洋銅沸屎</l></lg>
-<lb ed="X" n="0585b02"/><p id="pX78p0585b0201" rend="margin-left:1em"><anchor id="fnX78p0585b02"/>遣風餘烈。繼百世猶有存焉。求鸞膠續絃。則遠之
+<lb ed="X" n="0585b02"/><p id="pX78p0585b0201" rend="margin-left:1em"><note n="0585002" resp="Xuzangjing" place="foot text" type="orig">遣疑遺</note>遣風餘烈。繼百世猶有存焉。求鸞膠續絃。則遠之
 <lb ed="X" n="0585b03"/>遠矣。</p></div2>
 <lb ed="X" n="0585b04"/><div2 type="other"><mulu type="其他" level="2" label="興化獎禪師"/><head>興化獎禪師</head>
 <lb ed="X" n="0585b05"/><p id="pX78p0585b0501">師諱存獎。魏州人。初見臨濟。濟令師為侍者。濟問新
@@ -1593,7 +1598,7 @@ modified：mulu 修訂
 <lb ed="X" n="0594c11"/><p id="pX78p0594c1101">贊曰。</p>
 <lb ed="X" n="0594c12"/><lg id="lgX78p0594c1201"><l>食牛氣宇</l><l>翹&CB15112;精神</l>
 <lb ed="X" n="0594c13"/><l>范蜀公勸離濯錦繁華國</l>
-<lb ed="X" n="0594c14"/><l>老東山詛作江南<anchor id="fnX78p0594c01"/>熟病人</l>
+<lb ed="X" n="0594c14"/><l>老東山詛作江南<note n="0594001" resp="Xuzangjing" place="foot text" type="orig">熟疑熱</note>熟病人</l>
 <lb ed="X" n="0594c15"/><l>小玉聲中</l><l>認驢鞍橋做阿爺下頷</l>
 <lb ed="X" n="0594c16"/><l>薰風句裏</l><l>捉鼠黏兒當自<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>家親</l>
 <lb ed="X" n="0594c17"/><l>教童子買香</l><l>挽靜南堂珠還合浦</l>
@@ -2058,7 +2063,7 @@ modified：mulu 修訂
 <lb ed="X" n="0601a01"/>有去耶。</p><p id="pX78p0601a0104" place="inline">曰。去亦不變異。遂辭去。止于曹山。學徒雲集
 <lb ed="X" n="0601a02"/>僧問。佛未出世時如何。</p><p id="pX78p0601a0210" place="inline">曰。曹山不如。</p><p id="pX78p0601a0254" place="inline">出世後如何。</p><p id="pX78p0601a0298" place="inline">曰。
 <lb ed="X" n="0601a03"/>不如曹山。</p><p id="pX78p0601a0305" place="inline">僧問。如何是枯木裏龍吟。</p><p id="pX78p0601a0354" place="inline">曰。血&CB00160;斷。</p><p id="pX78p0601a0397" place="inline">如
-<lb ed="X" n="0601a04"/>何是髑髏裏眼睛。</p><p id="pX78p0601a0408" place="inline">曰。乾不盡。乃作偈曰。</p><p id="pX78p0601a0455" place="inline">枯木龍吟員<anchor id="fnX78p0601a01"/>
+<lb ed="X" n="0601a04"/>何是髑髏裏眼睛。</p><p id="pX78p0601a0408" place="inline">曰。乾不盡。乃作偈曰。</p><p id="pX78p0601a0455" place="inline">枯木龍吟員<note n="0601001" resp="Xuzangjing" place="foot text" type="orig">員疑真</note>
 <lb ed="X" n="0601a05"/>見道。髑髏無識眼初明。</p><p id="pX78p0601a0510" place="inline">喜識盡時消息盡。當人那辨
 <lb ed="X" n="0601a06"/>濁中清。</p><p id="pX78p0601a0604" place="inline">僧問。清稅孤貧。乞師拯濟。</p><p id="pX78p0601a0653" place="inline">師召。稅闍梨。稅應
 <lb ed="X" n="0601a07"/>諾。</p><p id="pX78p0601a0702" place="inline">曰。青原白家三盞酒。喫了猶道未沾唇。</p><p id="pX78p0601a0756" place="inline">僧問。抱璞
@@ -2164,7 +2169,7 @@ modified：mulu 修訂
 <lb ed="X" n="0602b07"/>人解語非干舌。石女拋梭豈亂絲。</p><p id="pX78p0602b0714" place="inline">僧問。依經解義。三
 <lb ed="X" n="0602b08"/>世佛冤。離經一字。即同魔說。此理如何。</p><p id="pX78p0602b0816" place="inline">曰。孤&CB00123;&CB00529;秀。
 <lb ed="X" n="0602b09"/>不掛煙蘿。片月行空。白雲自在。</p><p id="pX78p0602b0913" place="inline">僧問。佛未出世時如
-<lb ed="X" n="0602b10"/>何。</p><p id="pX78p0602b1002" place="inline">曰。藕絲<anchor id="fnX78p0602b01"/>繁大象。</p><p id="pX78p0602b1074" place="inline">曰。出世後如何。</p><p id="pX78p0602b10119" place="inline">曰。鐵&CB02083;&CB02083;石牛。</p><p id="pX78p0602b10165" place="inline">僧
+<lb ed="X" n="0602b10"/>何。</p><p id="pX78p0602b1002" place="inline">曰。藕絲<note n="0602001" resp="Xuzangjing" place="foot text" type="orig">繁疑繫</note>繁大象。</p><p id="pX78p0602b1074" place="inline">曰。出世後如何。</p><p id="pX78p0602b10119" place="inline">曰。鐵&CB02083;&CB02083;石牛。</p><p id="pX78p0602b10165" place="inline">僧
 <lb ed="X" n="0602b11"/>問。如何是異類中人。</p><p id="pX78p0602b1109" place="inline">曰。露地藏白牛。長空吞日月。</p>
 <lb ed="X" n="0602b12"/><p id="pX78p0602b1201">贊曰。</p>
 <lb ed="X" n="0602b13"/><lg id="lgX78p0602b1301"><l>奔軼絕塵</l><l>了無羈絆</l>
@@ -2276,7 +2281,7 @@ modified：mulu 修訂
 <lb ed="X" n="0603c19"/>水牯牛是隨類墮。</p><p id="pX78p0603c1908" place="inline">是沙門轉身語。是異類中事。若不
 <lb ed="X" n="0603c20"/>曉此意。即有所滯。直是要伊一念無私。即有出身之
 <lb ed="X" n="0603c21"/>路。</p><p id="pX78p0603c2102" place="inline">二曰不受食是尊貴墮。</p><p id="pX78p0603c2150" place="inline">須知那邊了&CB00230;。來者邊行
-<lb ed="X" n="0603c22"/>履。若不<anchor id="fnX78p0603c01"/>&CB00980;此位。即坐在尊貴。</p><p id="pX78p0603c2239" place="inline">三曰不斷聲色是隨處
+<lb ed="X" n="0603c22"/>履。若不<note n="0603001" resp="Xuzangjing" place="foot text" type="orig">&CB00980;疑處更勘</note>&CB00980;此位。即坐在尊貴。</p><p id="pX78p0603c2239" place="inline">三曰不斷聲色是隨處
 <lb ed="X" n="0603c23"/>墮。</p><p id="pX78p0603c2302" place="inline">以不明聲色故。隨處墮。須向聲色裏有出身之路
 <lb ed="X" n="0603c24"/>作麼生是聲色外一句。</p><p id="pX78p0603c2410" place="inline">曰。聲不自聲。色不自色。故云
 <pb ed="X" id="X78.1554.0604a" n="0604a"/>
@@ -2501,7 +2506,7 @@ modified：mulu 修訂
 <lb ed="X" n="0606c19"/><p id="pX78p0606c1901">師諱正覺。嗣丹霞。隰州李氏子。母夢正臺僧解環。環
 <lb ed="X" n="0606c20"/>右臂。乃孕。及生。右臂起一環。</p><p id="pX78p0606c2012" place="inline">上堂。心不能緣。口不能
 <lb ed="X" n="0606c21"/>議。直饒退步荷擔。切忌當頭觸諱。風月寒清古渡頭。
-<lb ed="X" n="0606c22"/>夜船撥轉琉璃地。</p><p id="pX78p0606c2208" place="inline">上堂。黃<anchor id="fnX78p0606c01"/>閤簾垂。誰傳家信。紫羅帳
+<lb ed="X" n="0606c22"/>夜船撥轉琉璃地。</p><p id="pX78p0606c2208" place="inline">上堂。黃<note n="0606001" resp="Xuzangjing" place="foot text" type="orig">閤或作閣</note>閤簾垂。誰傳家信。紫羅帳
 <lb ed="X" n="0606c23"/>合。暗撒真珠。正恁麼時。視聽有所不到。言詮有所不
 <lb ed="X" n="0606c24"/>及。如何通箇消息去。夢回夜色依俙曉。笑指家風爛
 <pb ed="X" id="X78.1554.0607a" n="0607a"/>
@@ -2568,7 +2573,7 @@ modified：mulu 修訂
 <lb ed="X" n="0607c11"/>湛然沃。登者登兮不動搖。遊者遊兮莫勿速。亭堂雖
 <lb ed="X" n="0607c12"/>有到人稀。林泉不長尋常木。諸禪德。向上一著。尊貴
 <lb ed="X" n="0607c13"/>難明。琉璃殿上不稱尊。翡翠簾前還合伴。正與麼時。
-<lb ed="X" n="0607c14"/>針線貫通。真宗不墜。合作麼生施設。滿頭白髮離<anchor id="fnX78p0607c01"/>嚴
+<lb ed="X" n="0607c14"/>針線貫通。真宗不墜。合作麼生施設。滿頭白髮離<note n="0607001" resp="Xuzangjing" place="foot text" type="orig">嚴疑巖</note>嚴
 <lb ed="X" n="0607c15"/>谷。半夜穿雲入市廛。</p><p id="pX78p0607c1509" place="inline">師有六牛圖。</p><p id="pX78p0607c1553" place="inline">一曰。始聞知識示
 <lb ed="X" n="0607c16"/>誨。即起信心。信心既萌。永為道本。故牛首上一點白。
 <lb ed="X" n="0607c17"/>一念信為本。千生入道因。自憐迷覺性。隨處染埃塵。
@@ -3036,7 +3041,7 @@ modified：mulu 修訂
 <lb ed="X" n="0614a04"/>益甚。又以淨慈堅請。移文諭道俗曰。借師三年。為此
 <lb ed="X" n="0614a05"/>&CB15131;植福。不敢久占。道俗始從。</p><p id="pX78p0614a0512" place="inline">元豐五年。神宗下詔。闢
 <lb ed="X" n="0614a06"/>相國寺六十四院為八。禪二律六。召師為慧林第一
-<lb ed="X" n="0614a07"/>祖。既至。遣使問勞。翌日。召對<anchor id="fnX78p0614a01"/>廷和殿問道。賜坐。師即
+<lb ed="X" n="0614a07"/>祖。既至。遣使問勞。翌日。召對<note n="0614001" resp="Xuzangjing" place="foot text" type="orig">廷疑延</note>廷和殿問道。賜坐。師即
 <lb ed="X" n="0614a08"/>跏趺。帝問。卿受業何寺。</p><p id="pX78p0614a0810" place="inline">奏曰。承天永安。帝大悅。賜茶。
 <lb ed="X" n="0614a09"/>即舉盞長吸。又蕩撼之。帝喜其真。喻以方興禪宗。宜
 <lb ed="X" n="0614a10"/>善開導。</p><p id="pX78p0614a1004" place="inline">奏曰。陛下知有此道。如日照臨。臣豈敢自怠。
@@ -3593,7 +3598,7 @@ modified：mulu 修訂
 <lb ed="X" n="0621b11"/><l>迅瀑千尋不停纖粟</l><l>探水丈痕深</l>
 <lb ed="X" n="0621b12"/><l>奇巖萬仞&CB00529;絕躋攀</l><l>望崖心路絕</l>
 <lb ed="X" n="0621b13"/><l>牛胎生象子</l><l>垂示太分明</l>
-<lb ed="X" n="0621b14"/><l>碧海起紅塵</l><l>家風重<anchor id="fnX78p0621b01"/>滿洩</l>
+<lb ed="X" n="0621b14"/><l>碧海起紅塵</l><l>家風重<note n="0621001" resp="Xuzangjing" place="foot text" type="orig">滿疑漏</note>滿洩</l>
 <lb ed="X" n="0621b15"/><l>枕藜床喚回清夢</l><l>野客吟殘半夜燈</l>
 <lb ed="X" n="0621b16"/><l>倚蒲團坐斷白雲</l><l>孤猿&CB00054;落中巖月</l>
 <lb ed="X" n="0621b17"/><l>著宗鏡一百餘卷</l><l>點&CB05033;成金</l>
