@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X75n1509.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.4 $ (Big5)<date>$Date: 2006/01/17 07:06:13 $</date></edition>
+		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/09/19 07:13:31 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/01/17 07:06:13 $</date>
+		<date>$Date: 2007/09/19 07:13:31 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 75, No. 1509 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X75n1509.xml,v $
+Revision 1.5  2007/09/19 07:13:31  eva
+modified: 校注作業完成
+
 Revision 1.4  2006/01/17 07:06:13  eva
 modified: 修訂 </lg> 結束在行首
 
@@ -70,7 +75,7 @@ no message
 <lb ed="X" n="0001a04"/>
 <milestone unit="juan" n="1"/>
 <lb ed="X" n="0001a05"/><head type="no">No. 1509</head>
-<lb ed="X" n="0001a06"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><anchor id="fnX75p0001a02"/>釋迦如來成道記註</jhead></juan>
+<lb ed="X" n="0001a06"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead><note n="0001002" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>釋迦如來成道記註</jhead></juan>
 <lb ed="X" n="0001a07"/><div1 type="orig"><p id="pX75p0001a0701">釋迦如來成道記</p>
 <lb ed="X" n="0001a08"/><p id="pX75p0001a0801" rend="margin-left:4em">唐　太原　王勃　撰</p></div1>
 <lb ed="X" n="0001a09"/><div1 type="commentary"><byline type="author">錢唐月輪山居慧悟大師賜紫道誠　註</byline>
@@ -161,7 +166,7 @@ no message
 <lb ed="X" n="0002a19"/>此夢為大吉祥。欲令占者言之。故示其相爾。問曰。
 <lb ed="X" n="0002a20"/>最後生菩薩實受胎耶。答華嚴經云。為欲成就小
 <lb ed="X" n="0002a21"/>心劣解眾生。不欲彼作念是自然化生。功德智慧
-<lb ed="X" n="0002a22"/>不從修得。是故示現受胎。又云。菩薩在母胎中。<anchor id="fnX75p0002a01"/>室
+<lb ed="X" n="0002a22"/>不從修得。是故示現受胎。又云。菩薩在母胎中。<note n="0002001" resp="Xuzangjing" place="foot text" type="orig">室疑寶</note>室
 <lb ed="X" n="0002a23"/>樓珍殿一如天宮。行住坐臥不令母有苦患。日日
 <lb ed="X" n="0002a24"/>三時十方諸佛入來安慰說受生法門。十方同行
 <pb ed="X" id="X75.1509.0002b" n="0002b"/>
@@ -407,7 +412,7 @@ no message
 <lb ed="X" n="0005b15"/><div1 type="orig"><p id="pX75p0005b1501">示其座也受吉祥之茆草。</p></div1>
 <lb ed="X" n="0005b16"/><div1 type="commentary"><p id="pX75p0005b1601" rend="margin-left:1em">天竺坐法必敷草為藉。時天帝釋化為刈茆人。菩
 <lb ed="X" n="0005b17"/>薩問其名。答名吉祥。乃受其茆。茆色青綠柔軟。光
-<lb ed="X" n="0005b18"/>滑若孔&CB15179;<anchor id="fnX75p0005b01"/>頂。</p></div1>
+<lb ed="X" n="0005b18"/>滑若孔&CB15179;<note n="0005001" resp="Xuzangjing" place="foot text" type="orig">頂疑項</note>頂。</p></div1>
 <lb ed="X" n="0005b19"/><div1 type="orig"><p id="pX75p0005b1901">以最後之勝體。</p></div1>
 <lb ed="X" n="0005b20"/><div1 type="commentary"><p id="pX75p0005b2001" rend="margin-left:1em">補處菩薩只此一身。更不受後有。故云最後勝體。</p></div1>
 <lb ed="X" n="0005b21"/><div1 type="orig"><p id="pX75p0005b2101">詣菩提之道場。</p></div1>
@@ -437,7 +442,7 @@ no message
 <lb ed="X" n="0005c20"/>慧地。十法雲地。瑜伽論云。永斷最極微細煩惱及
 <lb ed="X" n="0005c21"/>所知障。無著無礙。於一切種所知境界現正等覺。
 <lb ed="X" n="0005c22"/>故名佛地。在十地之上。故云高超也。</p></div1>
-<lb ed="X" n="0005c23"/><div1 type="orig"><p id="pX75p0005c2301">由是魔軍威懾於慈刀悉怖<anchor id="fnX75p0005c02"/>旅歸。</p></div1>
+<lb ed="X" n="0005c23"/><div1 type="orig"><p id="pX75p0005c2301">由是魔軍威懾於慈刀悉怖<note n="0005002" resp="Xuzangjing" place="foot text" type="orig">旅疑旋</note>旅歸。</p></div1>
 <lb ed="X" n="0005c24"/><div1 type="commentary"><p id="pX75p0005c2401" rend="margin-left:1em">此第六菩提樹下降魔成道相也。如來至此三十
 <pb ed="X" id="X75.1509.0006a" n="0006a"/>
 <lb ed="X" n="0006a01"/>五。瑜伽論云。魔有四種。一天魔。二死魔。三煩惱魔。
@@ -452,7 +457,7 @@ no message
 <lb ed="X" n="0006a10"/>梵行。時菩薩以慈心力。四女皆變為老醜羸弱之
 <lb ed="X" n="0006a11"/>狀。羞愧而退。</p></div1>
 <lb ed="X" n="0006a12"/><div1 type="orig"><p id="pX75p0006a1201">於是堅&CB01551;地神踊躍而作禮。</p></div1>
-<lb ed="X" n="0006a13"/><div1 type="commentary"><p id="pX75p0006a1301" rend="margin-left:1em">觀佛三昧經云。<anchor id="fnX75p0006a01"/>彈王問佛。汝之功德誰為證明。佛
+<lb ed="X" n="0006a13"/><div1 type="commentary"><p id="pX75p0006a1301" rend="margin-left:1em">觀佛三昧經云。<note n="0006001" resp="Xuzangjing" place="foot text" type="orig">彈疑魔</note>彈王問佛。汝之功德誰為證明。佛
 <lb ed="X" n="0006a14"/>即垂無畏手指地。一切大地六種震動。時堅牢地
 <lb ed="X" n="0006a15"/>神涌出唱言。我是證明。</p></div1>
 <lb ed="X" n="0006a16"/><div1 type="orig"><p id="pX75p0006a1601">&CB00980;空天子展轉而報知。</p></div1>
@@ -475,7 +480,7 @@ no message
 <lb ed="X" n="0006b08"/>謂三歸。持戒果報。死生天上。次生人間。故云賜與
 <lb ed="X" n="0006b09"/>人天之福。夫諸佛教化常法。有其七要。先發人心。
 <lb ed="X" n="0006b10"/>一說布施。二說持戒。三說生天果報。四說果報樂
-<lb ed="X" n="0006b11"/>味。五說果報過患。六教離世間。七<anchor id="fnX75p0006b02"/>難涅槃功德。今
+<lb ed="X" n="0006b11"/>味。五說果報過患。六教離世間。七<note n="0006002" resp="Xuzangjing" place="foot text" type="orig">難通歎</note>難涅槃功德。今
 <lb ed="X" n="0006b12"/>方成道。投機觀根。且說歸戒爾。</p></div1>
 <lb ed="X" n="0006b13"/><div1 type="orig"><p id="pX75p0006b1301">既成佛<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>觀所化緣。</p></div1>
 <lb ed="X" n="0006b14"/><div1 type="commentary"><p id="pX75p0006b1401" rend="margin-left:1em">觀察何者堪先度脫。</p></div1>
@@ -525,11 +530,11 @@ no message
 <lb ed="X" n="0007a08"/>也。</p></div1>
 <lb ed="X" n="0007a09"/><div1 type="orig"><p id="pX75p0007a0901">頭面作禮致敬精專請轉法輪隨宜說。</p></div1>
 <lb ed="X" n="0007a10"/><div1 type="commentary"><p id="pX75p0007a1001" rend="margin-left:1em">頭面著地。五輪具足。是佛法中上品禮。蓋敬之至
-<lb ed="X" n="0007a11"/>也。<anchor id="fnX75p0007a01"/>觀請者五法中一也。具自他二利。故諸佛凡有
+<lb ed="X" n="0007a11"/>也。<note n="0007001" resp="Xuzangjing" place="foot text" type="orig">觀當作勸次同</note>觀請者五法中一也。具自他二利。故諸佛凡有
 <lb ed="X" n="0007a12"/>所說。皆名轉法輪也。梵王帝釋皆<anchor id="fxX75p0007a01"/>觀請人也。隨宜
 <lb ed="X" n="0007a13"/>說者。方便之義也。</p></div1>
 <lb ed="X" n="0007a14"/><div1 type="orig"><p id="pX75p0007a1401">如來尋念善逝通規順古佛之嘉謨應群機之鄙欲。</p></div1>
-<lb ed="X" n="0007a15"/><div1 type="commentary"><p id="pX75p0007a1501" rend="margin-left:1em">如來者即釋迦也。善逝<anchor id="fnX75p0007a02"/>自過去佛也。謂成等正覺。
+<lb ed="X" n="0007a15"/><div1 type="commentary"><p id="pX75p0007a1501" rend="margin-left:1em">如來者即釋迦也。善逝<note n="0007002" resp="Xuzangjing" place="foot text" type="orig">自疑者</note>自過去佛也。謂成等正覺。
 <lb ed="X" n="0007a16"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>出生死長夜。具一切種智二利功德。善事<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>畢。
 <lb ed="X" n="0007a17"/>故云善逝。通規嘉謨。皆佛方便善巧也。鄙欲者。樂
 <lb ed="X" n="0007a18"/>小之心也。法華經云。尋念過去佛。所行方便力。我
@@ -552,7 +557,7 @@ no message
 <lb ed="X" n="0007b10"/>之次。我徒一千死在今日。然鹿死肉多。即日腐&CB00305;。
 <lb ed="X" n="0007b11"/>願王恩宥。許日供一鹿入王大&CB00634;。王有割鮮之膳。
 <lb ed="X" n="0007b12"/>我徒延朝夕之命。王善其辭。遂俞所請。其兩群內。
-<lb ed="X" n="0007b13"/>日<anchor id="fnX75p0007b03"/>輪一鹿。未&CB00573;敢失。一日當次惡鹿群。一雌鹿鹿
+<lb ed="X" n="0007b13"/>日<note n="0007003" resp="Xuzangjing" place="foot text" type="orig">輪疑輸</note>輪一鹿。未&CB00573;敢失。一日當次惡鹿群。一雌鹿鹿
 <lb ed="X" n="0007b14"/>有胎。故告王延。俟後期不&CB04676;乃投善鹿王。王曰。悲
 <lb ed="X" n="0007b15"/>哉慈母。恩及未形。汝自安心。吾當可代。時善鹿王
 <lb ed="X" n="0007b16"/>自詣王&CB00634;。宰夫奏。王問其故。對曰。今日次一雌鹿
@@ -561,7 +566,7 @@ no message
 <lb ed="X" n="0007b19"/>善哉。汝有此心。我乃獸心爾。當斷肉味。無復日供。
 <lb ed="X" n="0007b20"/>乃施此林為養鹿之園。佛觀此地有昔因緣。首來
 <lb ed="X" n="0007b21"/>說法。報地恩也。</p></div1>
-<lb ed="X" n="0007b22"/><div1 type="orig"><p id="pX75p0007b2201">三月調根五人得度憍陳如悟慈尊之首<anchor id="fnX75p0007b04"/>喝&CB01772;解標
+<lb ed="X" n="0007b22"/><div1 type="orig"><p id="pX75p0007b2201">三月調根五人得度憍陳如悟慈尊之首<note n="0007004" resp="Xuzangjing" place="foot text" type="orig">喝疑唱</note>喝&CB01772;解標
 <lb ed="X" n="0007b23"/>名。</p></div1>
 <lb ed="X" n="0007b24"/><div1 type="commentary"><p id="pX75p0007b2401" rend="margin-left:1em">三月調根者。俟其時也。佛觀五人根緣僅熟。乃往
 <pb ed="X" id="X75.1509.0007c" n="0007c"/>
@@ -659,11 +664,11 @@ no message
 <lb ed="X" n="0008c17"/>彼。龍王見佛歡喜。惡心乃息。佛為說法。授不殺戒。
 <lb ed="X" n="0008c18"/>因請留佛住此受我供養。佛言。吾將寂滅。今為汝
 <lb ed="X" n="0008c19"/>留影至吾滅度後。汝惡心若起。當觀吾影。仍遣五
-<lb ed="X" n="0008c20"/>百羅漢住此受汝供養。作福田也。因茲國<anchor id="fnX75p0008c01"/>王城邑
+<lb ed="X" n="0008c20"/>百羅漢住此受汝供養。作福田也。因茲國<note n="0008001" resp="Xuzangjing" place="foot text" type="orig">王疑土</note>王城邑
 <lb ed="X" n="0008c21"/>永無憂患。記云。唐三藏&CB04455;法師親往禮拜供養。佛
 <lb ed="X" n="0008c22"/>影遠望則金色炳耀。近則無視。</p></div1>
 <lb ed="X" n="0008c23"/><div1 type="orig"><p id="pX75p0008c2301">或住波羅奈。</p></div1>
-<lb ed="X" n="0008c24"/><div1 type="commentary"><p id="pX75p0008c2401" rend="margin-left:1em">正梵語云波羅&CB00482;斯。華言江遶國。佛說出<app><lem wit="【CBETA】" resp="CBETA.maha">曜</lem><rdg wit="【卍續】">曤</rdg></app>．<anchor id="fnX75p0008c02"/>時世．
+<lb ed="X" n="0008c24"/><div1 type="commentary"><p id="pX75p0008c2401" rend="margin-left:1em">正梵語云波羅&CB00482;斯。華言江遶國。佛說出<app><lem wit="【CBETA】" resp="CBETA.maha">曜</lem><rdg wit="【卍續】">曤</rdg></app>．<note n="0008002" resp="Xuzangjing" place="foot text" type="orig">時疑持</note>時世．
 <pb ed="X" id="X75.1509.0009a" n="0009a"/>
 <lb ed="X" n="0009a01"/>轉法輪等經。</p></div1>
 <lb ed="X" n="0009a02"/><div1 type="orig"><p id="pX75p0009a0201">或居摩竭提。</p></div1>
@@ -682,7 +687,7 @@ no message
 <lb ed="X" n="0009a15"/>佛在彼說十一面觀自在經。</p></div1>
 <lb ed="X" n="0009a16"/><div1 type="orig"><p id="pX75p0009a1601">或迦蘭陀竹園。</p></div1>
 <lb ed="X" n="0009a17"/><div1 type="commentary"><p id="pX75p0009a1701" rend="margin-left:1em">梵云迦蘭陀。華言好音。即西域禽名也。謂迦蘭陀
-<lb ed="X" n="0009a18"/>長者同<anchor id="fnX75p0009a01"/>類婆娑羅王同施立精舍。請佛眾住止。</p></div1>
+<lb ed="X" n="0009a18"/>長者同<note n="0009001" resp="Xuzangjing" place="foot text" type="orig">類疑頻</note>類婆娑羅王同施立精舍。請佛眾住止。</p></div1>
 <lb ed="X" n="0009a19"/><div1 type="orig"><p id="pX75p0009a1901">或舍衛國金地。</p></div1>
 <lb ed="X" n="0009a20"/><div1 type="commentary"><p id="pX75p0009a2001" rend="margin-left:1em">梵云室羅伐。訛云舍衛。華言聞物城。其中有長者
 <lb ed="X" n="0009a21"/>名須達拏。華言善施。常賑恤孤貧。國人重之。同號
@@ -693,7 +698,7 @@ no message
 <lb ed="X" n="0009b01"/>先業。得正信心。便證初果。遂請佛歸國。佛許之。及
 <lb ed="X" n="0009b02"/>歸家。卜勝地。惟祇陀太子園高爽方廣。堪建精舍。
 <lb ed="X" n="0009b03"/>往白太子。太子戲曰。若布金滿園。即我當賣。須達
-<lb ed="X" n="0009b04"/>喜曰。此園屬我矣。歸家運金<anchor id="fnX75p0009b02"/>亥布八十頃。由是買
+<lb ed="X" n="0009b04"/>喜曰。此園屬我矣。歸家運金<note n="0009002" resp="Xuzangjing" place="foot text" type="orig">亥疑引</note>亥布八十頃。由是買
 <lb ed="X" n="0009b05"/>得。建立精舍。曰祇桓。今呼佛寺為金地金田者。因
 <lb ed="X" n="0009b06"/>此也。</p></div1>
 <lb ed="X" n="0009b07"/><div1 type="orig"><p id="pX75p0009b0701">或應念而空現。</p></div1>
@@ -788,9 +793,9 @@ no message
 <lb ed="X" n="0010c02"/><div1 type="orig"><p id="pX75p0010c0201" rend="margin-left:4em">唐　太原　王勃　撰</p></div1>
 <lb ed="X" n="0010c03"/><div1 type="commentary"><byline type="author">錢唐月輪山居慧悟大師賜紫道誠　註</byline></div1>
 <lb ed="X" n="0010c04"/><div1 type="orig"><p id="pX75p0010c0401">本事本生之別諷頌重頌之殊。</p></div1>
-<lb ed="X" n="0010c05"/><div1 type="commentary"><p id="pX75p0010c0501" rend="margin-left:1em">此十二分教之四名。<anchor id="fnX75p0010c01"/>類揚論云。本事者。謂如來說
+<lb ed="X" n="0010c05"/><div1 type="commentary"><p id="pX75p0010c0501" rend="margin-left:1em">此十二分教之四名。<note n="0010001" resp="Xuzangjing" place="foot text" type="orig">類疑顯</note>類揚論云。本事者。謂如來說
 <lb ed="X" n="0010c06"/>聖弟子前世等事。本生者。謂如來說菩薩本所修
-<lb ed="X" n="0010c07"/>行相應等事。梵云伽佗。此云諷誦。謂以<anchor id="fnX75p0010c02"/>&CB15167;妙之言
+<lb ed="X" n="0010c07"/>行相應等事。梵云伽佗。此云諷誦。謂以<note n="0010002" resp="Xuzangjing" place="foot text" type="orig">&CB15167;疑勝</note>&CB15167;妙之言
 <lb ed="X" n="0010c08"/>緝為讚詠等。梵云祇夜。此云應頌。如經云。欲重宣
 <lb ed="X" n="0010c09"/>此義而說偈言是也。</p></div1>
 <lb ed="X" n="0010c10"/><div1 type="orig"><p id="pX75p0010c1001">象馬兔之三獸渡河。</p></div1>
@@ -903,7 +908,7 @@ no message
 <lb ed="X" n="0012a17"/><div1 type="orig"><p id="pX75p0012a1701">繇是指力地諸金河。</p></div1>
 <lb ed="X" n="0012a18"/><div1 type="commentary"><p id="pX75p0012a1801" rend="margin-left:1em">拘尸羅城多產有力之士。諸國無敵。故號力士生
 <lb ed="X" n="0012a19"/>地。梵云&CB00050;離剌拏伐底。或訛略云&CB02494;提。華言有金
-<lb ed="X" n="0012a20"/>河。是產閻浮檀金處。水之淨莫過此河。梁僧<anchor id="fnX75p0012a01"/>宗法
+<lb ed="X" n="0012a20"/>河。是產閻浮檀金處。水之淨莫過此河。梁僧<note n="0012001" resp="Xuzangjing" place="foot text" type="orig">宗疑亮</note>宗法
 <lb ed="X" n="0012a21"/>師云。佛來此河邊入滅有意。且河流奔注。喻生死
 <lb ed="X" n="0012a22"/>遄速。金沙不動。喻佛性常住。如來因地修行時在
 <lb ed="X" n="0012a23"/>此處六捨轉輪聖王身命。今來此入滅。為報地恩
@@ -1134,7 +1139,7 @@ no message
 <lb ed="X" n="0015a23"/><div1 type="commentary"><p id="pX75p0015a2301" rend="margin-left:1em">梵云阿難陀。華言慶喜。是佛堂弟。出家之後。二十
 <lb ed="X" n="0015a24"/>年為佛侍者。多聞第一。初結集場中唯取無學聖
 <pb ed="X" id="X75.1509.0015b" n="0015b"/>
-<lb ed="X" n="0015b01"/>人。時阿難尚居學地。被迦葉<anchor id="fnX75p0015b01"/>揖出眾。阿難憤悶。乃
+<lb ed="X" n="0015b01"/>人。時阿難尚居學地。被迦葉<note n="0015001" resp="Xuzangjing" place="foot text" type="orig">揖疑&CB04921;</note>揖出眾。阿難憤悶。乃
 <lb ed="X" n="0015b02"/>於林中習上地定。斷盡煩惱殘結。即證阿羅漢果。
 <lb ed="X" n="0015b03"/>即來門外白眾求入。迦葉語曰。若<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>得無學。當從
 <lb ed="X" n="0015b04"/>門&CB00446;中入。阿難應聲乃入。禮拜大眾。迦葉請優波
@@ -1286,7 +1291,7 @@ no message
 <pb ed="X" id="X75.1509.0017b" n="0017b"/>
 <lb ed="X" n="0017b01"/><div1 type="orig"><p id="pX75p0017b0101">戒象&CB00499;金而請釋。</p></div1>
 <lb ed="X" n="0017b02"/><div1 type="commentary"><p id="pX75p0017b0201" rend="margin-left:1em">天親菩薩為眾講婆沙論。以一日所講之義乃造
-<lb ed="X" n="0017b03"/>一頌攝之。用赤銅葉刻字置象頭上。出金五十<anchor id="fnX75p0017b01"/>片
+<lb ed="X" n="0017b03"/>一頌攝之。用赤銅葉刻字置象頭上。出金五十<note n="0017001" resp="Xuzangjing" place="foot text" type="orig">片疑斤次同</note>片
 <lb ed="X" n="0017b04"/>置象尾上。自坐中間。擊&CB00655;唱言。有能破此義。當奉
 <lb ed="X" n="0017b05"/>此金。諸國無人能破。乃將頌并金寄與罽賓國。諸
 <lb ed="X" n="0017b06"/>婆沙師亦不能盡解。彼諸師&CB00230;加金五十片迴餉
@@ -1321,14 +1326,14 @@ no message
 <lb ed="X" n="0017c10"/>方聖人入滅衰相耳。</p></div1>
 <lb ed="X" n="0017c11"/><div1 type="orig"><p id="pX75p0017c1101">炎漢夢金人。</p></div1>
 <lb ed="X" n="0017c12"/><div1 type="commentary"><p id="pX75p0017c1201" rend="margin-left:1em">後漢第二主孝明帝。永平二年夜夢金人丈六飛
-<lb ed="X" n="0017c13"/>至殿庭。光明炳耀。<anchor id="fnX75p0017c02"/>且問群臣。通人傅毅奏曰。西方
+<lb ed="X" n="0017c13"/>至殿庭。光明炳耀。<note n="0017002" resp="Xuzangjing" place="foot text" type="orig">且疑旦</note>且問群臣。通人傅毅奏曰。西方
 <lb ed="X" n="0017c14"/>聖人號佛。陛下所夢必是彼也。&CB00397;士王遵奏。臣按
 <lb ed="X" n="0017c15"/>周書異記云。大史蘇由奏昭王曰。西方有聖人出。
 <lb ed="X" n="0017c16"/>一千年後聲教來此。陛下所夢即其事也。</p></div1>
 <lb ed="X" n="0017c17"/><div1 type="orig"><p id="pX75p0017c1701">教及神州聲流華夏。</p></div1>
 <lb ed="X" n="0017c18"/><div1 type="commentary"><p id="pX75p0017c1801" rend="margin-left:1em">聲亦教也。此方教曲以佛無漏聲為體。故云聲教。
 <lb ed="X" n="0017c19"/>又唯識論用聲名句文四法為教體矣。時明帝納
-<lb ed="X" n="0017c20"/>王遵奏。乃遣中郎將蔡歆．<anchor id="fnX75p0017c03"/>泰景博士王遵一十八
+<lb ed="X" n="0017c20"/>王遵奏。乃遣中郎將蔡歆．<note n="0017003" resp="Xuzangjing" place="foot text" type="orig">泰疑秦</note>泰景博士王遵一十八
 <lb ed="X" n="0017c21"/>人同往西域迎佛法。至月支國遇迦葉摩騰．竺法
 <lb ed="X" n="0017c22"/>蘭二梵僧。并白&CB00626;&CB15148;釋迦像．四十二章經。白馬&CB00499;
 <lb ed="X" n="0017c23"/>至洛下。即後漢永平十年丁卯。為此土有三寶之
