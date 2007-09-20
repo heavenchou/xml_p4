@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X86n1598.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -17,7 +19,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.9 $ (Big5)<date>$Date: 2004/11/15 11:21:29 $</date></edition>
+		<edition>$Revision: 1.10 $ (Big5)<date>$Date: 2007/09/20 09:21:49 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/15 11:21:29 $</date>
+		<date>$Date: 2007/09/20 09:21:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 86, No. 1598 &desc;</bibl>
@@ -50,6 +52,9 @@
 	</change>
 <!--
 $Log: X86n1598.xml,v $
+Revision 1.10  2007/09/20 09:21:49  amtbgrace
+modified:校注插入 XML 作業
+
 Revision 1.9  2004/11/15 11:21:29  amtbgrace
 modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
 
@@ -115,13 +120,13 @@ new from basicx
 <lb ed="X" n="0049b05"/><p id="pX86p0049b0501" rend="margin-left:1em">寶曆十二壬午夏　金龍沙門　敬雄　謹撰</p>
 <lb ed="X" n="0049b06"/>
 <lb ed="X" n="0049b07"/><head type="no">No. 1598</head>
-<lb ed="X" n="0049b08"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>曹溪大師別<anchor id="fnX86p0049b01"/>傳</jhead></juan>
+<lb ed="X" n="0049b08"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>曹溪大師別<note n="0049001" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>傳</jhead></juan>
 <lb ed="X" n="0049b09"/>
 <lb ed="X" n="0049b10"/><p id="pX86p0049b1001">唐韶州曹溪寶林山國寧寺六祖慧能大師傳法宗
 <lb ed="X" n="0049b11"/>旨。并高宗大帝　敕書兼賜物改寺額。及大師印可
 <lb ed="X" n="0049b12"/>門人。并滅度六種瑞相。及智華三藏懸記等傳。</p>
 <lb ed="X" n="0049b13"/>
-<lb ed="X" n="0049b14"/><p id="pX86p0049b1401">梁天監壬午<anchor id="fnX86p0049b02"/>九年正月五日時。婆羅門三藏。字智藥。
+<lb ed="X" n="0049b14"/><p id="pX86p0049b1401">梁天監壬午<note n="0049002" resp="Xuzangjing" place="foot text" type="orig">九一作元</note>九年正月五日時。婆羅門三藏。字智藥。
 <lb ed="X" n="0049b15"/>是中天竺國那爛陀寺大德。辭彼國王。來此五臺山
 <lb ed="X" n="0049b16"/>禮謁文殊。時弟子數十侍從。三藏博識多聞。善學經
 <lb ed="X" n="0049b17"/>論星象之學。志弘大乘。巡歷諸國。遠涉滄波。泛舶至
@@ -174,7 +179,7 @@ new from basicx
 <lb ed="X" n="0050a14"/>大師知諸徒不會。遂遣眾人且散。忍大師告能曰。如
 <lb ed="X" n="0050a15"/>來臨般涅槃。以甚深般若波羅蜜法付囑摩訶迦葉。
 <lb ed="X" n="0050a16"/>迦葉付阿難。阿難付商那和修。和修付憂波掬多。在
-<lb ed="X" n="0050a17"/>後展轉相傳西國。<anchor id="fnX86p0050a01"/>經二十八祖至於達磨多羅大師。
+<lb ed="X" n="0050a17"/>後展轉相傳西國。<note n="0050001" resp="Xuzangjing" place="foot text" type="orig">一無經字</note>經二十八祖至於達磨多羅大師。
 <lb ed="X" n="0050a18"/>漢地為初祖。付囑惠可。可付璨。璨付雙峰信。信付於
 <lb ed="X" n="0050a19"/>吾矣。吾今欲逝。法囑於汝。汝可守護無令斷絕。能曰。
 <lb ed="X" n="0050a20"/>能是南人。不堪傳授佛性。此間大有龍象。忍大師曰。
@@ -213,12 +218,12 @@ new from basicx
 <lb ed="X" n="0050c03"/>九。至儀鳳元年。初於廣州制旨寺。聽印宗法師講涅
 <lb ed="X" n="0050c04"/>槃經。法師是江東人也。其制旨寺是宋朝求那&CB02494;摩
 <lb ed="X" n="0050c05"/>三藏置。今廣州龍興寺是也。法師每勸門人商量論
-<lb ed="X" n="0050c06"/>義。時囑正月十<anchor id="fnX86p0050c02"/>三日懸幡。諸人夜論幡義。法師廊下
+<lb ed="X" n="0050c06"/>義。時囑正月十<note n="0050002" resp="Xuzangjing" place="foot text" type="orig">三一作五</note>三日懸幡。諸人夜論幡義。法師廊下
 <lb ed="X" n="0050c07"/>隔壁而聽。初論幡者。幡是無情。因風而動。第二人難
-<lb ed="X" n="0050c08"/>言。風幡俱是無情。如何得動。第三人因緣和合故<anchor id="fnX86p0050c03"/>合
+<lb ed="X" n="0050c08"/>言。風幡俱是無情。如何得動。第三人因緣和合故<note n="0050003" resp="Xuzangjing" place="foot text" type="orig">一無合字</note>合
 <lb ed="X" n="0050c09"/>動。第四人言。幡不動。風自動耳。眾人諍論暄喧不止。
-<lb ed="X" n="0050c10"/>能大師高聲止諸人曰。幡無如餘種動。所言動者。<anchor id="fnX86p0050c04"/>人
-<lb ed="X" n="0050c11"/>者心自動耳。印宗法師聞<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。<anchor id="fnX86p0050c05"/>至明日講次欲畢。問大
+<lb ed="X" n="0050c10"/>能大師高聲止諸人曰。幡無如餘種動。所言動者。<note n="0050004" resp="Xuzangjing" place="foot text" type="orig">人疑仁</note>人
+<lb ed="X" n="0050c11"/>者心自動耳。印宗法師聞<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。<note n="0050005" resp="Xuzangjing" place="foot text" type="orig">一無至字</note>至明日講次欲畢。問大
 <lb ed="X" n="0050c12"/>眾曰。昨夜某房論義。在後者是誰。此人必稟承好師
 <lb ed="X" n="0050c13"/>匠。中有同房人云。是新州盧行者。法師云。請行者過
 <lb ed="X" n="0050c14"/>房。能遂過房。法師問曰。曾事何人。能答曰。事嶺北蘄
@@ -279,12 +284,12 @@ new from basicx
 <lb ed="X" n="0051b19"/>興寺經藏院是大師開法堂。法師問能大師曰。久在
 <lb ed="X" n="0051b20"/>何處住。大師云。韶州曲縣南五十里曹溪村故寶林
 <lb ed="X" n="0051b21"/>寺。法師講經了。將僧俗三千餘人送大師歸曹溪。因
-<lb ed="X" n="0051b22"/>茲廣闡禪門學徒<anchor id="fnX86p0051b01"/>十萬。至神龍元年正月十五日
+<lb ed="X" n="0051b22"/>茲廣闡禪門學徒<note n="0051001" resp="Xuzangjing" place="foot text" type="orig">十一作千</note>十萬。至神龍元年正月十五日
 <lb ed="X" n="0051b23"/>　敕迎大師入內。表辭不去。　高宗大帝敕曰。　朕&CB05418;
 <lb ed="X" n="0051b24"/>誠慕道渴仰禪門。<app><lem wit="【CBETA】" resp="CBETA.maha">召</lem><rdg wit="【卍續】">名</rdg></app>諸州名山禪師集內道場供養。
 <pb ed="X" id="X86.1598.0051c" n="0051c"/>
 <lb ed="X" n="0051c01"/>安秀二德最為僧首。　朕每諮求。再推南方有能禪
-<lb ed="X" n="0051c02"/>師密受忍大師記<anchor id="fnX86p0051c02"/>傳。傳達磨衣&CB00425;。以為法信。頓悟上
+<lb ed="X" n="0051c02"/>師密受忍大師記<note n="0051002" resp="Xuzangjing" place="foot text" type="orig">傳字疑衍</note>傳。傳達磨衣&CB00425;。以為法信。頓悟上
 <lb ed="X" n="0051c03"/>乘。明見佛性。今居韶州曹溪山。示悟眾生即心是佛。
 <lb ed="X" n="0051c04"/>　朕聞如來以心傳心。囑付迦葉。迦葉展轉相傳。至
 <lb ed="X" n="0051c05"/>於達磨教被東土。代代相傳至今不絕。師既稟承有
@@ -328,7 +333,7 @@ new from basicx
 <lb ed="X" n="0052a18"/>不為諸惡所遷。中使薛簡禮辭大師。將表赴京。</p>
 <lb ed="X" n="0052a19"/><p id="pX86p0052a1901">高宗大帝賜磨衲袈裟一領及絹五百疋。　敕書曰。
 <lb ed="X" n="0052a20"/>　敕師老疾為朕修道。國之福田。師若淨名託疾。金
-<lb ed="X" n="0052a21"/>粟闡弘大<anchor id="fnX86p0052a01"/>大法。傳諸佛心。談不二之說。杜口毗耶。聲
+<lb ed="X" n="0052a21"/>粟闡弘大<note n="0052001" resp="Xuzangjing" place="foot text" type="orig">一無大字</note>大法。傳諸佛心。談不二之說。杜口毗耶。聲
 <lb ed="X" n="0052a22"/>聞被呵。菩薩辭退。師若此也。薛簡傳師指授如來智
 <lb ed="X" n="0052a23"/>見。善惡都莫思量。自然得入心體湛然。常寂玅用恒
 <lb ed="X" n="0052a24"/>沙。　朕積善餘慶。宿種善因。得值師之出世。蒙師惠
@@ -338,7 +343,7 @@ new from basicx
 <lb ed="X" n="0052b03"/>月二日下。　又神龍三年十一月十八日　敕下。韶
 <lb ed="X" n="0052b04"/>州百姓可修大師中興寺佛殿及大師經坊。賜額為
 <lb ed="X" n="0052b05"/>法泉寺。大師生緣新州。故宅為國恩寺。延和元年。大
-<lb ed="X" n="0052b06"/>師歸新州修國恩寺。諸弟子問。和上修寺去。卒應<anchor id="fnX86p0052b02"/>未
+<lb ed="X" n="0052b06"/>師歸新州修國恩寺。諸弟子問。和上修寺去。卒應<note n="0052002" resp="Xuzangjing" place="foot text" type="orig">未疑不一本作來</note>未
 <lb ed="X" n="0052b07"/>歸。此更有誰堪諮問。大師云。翁山寺僧靈振雖患&CB00560;
 <lb ed="X" n="0052b08"/>跛。心裏不跛。門人諮請振說法。又問。大師何時得歸。
 <lb ed="X" n="0052b09"/>答曰。我歸無日也。大師在日。景雲二年先於曹溪造
@@ -371,7 +376,7 @@ new from basicx
 <lb ed="X" n="0052c11"/>其時首領不肯放。欲留國恩寺起塔供養。時門人僧
 <lb ed="X" n="0052c12"/>崇一等見<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>史論理。方還曹溪。大師頭頸先以鐵鍱
 <lb ed="X" n="0052c13"/>封褁。全身膠漆。其年十一月十三日遷神入龕。至開
-<lb ed="X" n="0052c14"/>元二十七年有<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>客來取頭。<anchor id="fnX86p0052c03"/>頭移大師出庭中。刀斬
+<lb ed="X" n="0052c14"/>元二十七年有<app><lem wit="【CBETA】" resp="CBETA.maha">刺</lem><rdg wit="【卍續】">剌</rdg></app>客來取頭。<note n="0052003" resp="Xuzangjing" place="foot text" type="orig">一無頭字</note>頭移大師出庭中。刀斬
 <lb ed="X" n="0052c15"/>數下。眾人唯聞鐵聲。驚覺見一孝子奔走出寺。尋&CB00528;
 <lb ed="X" n="0052c16"/>不獲。大師在日。受戒開法度人三十六年。先天二年
 <lb ed="X" n="0052c17"/>壬子歲滅度。至唐建中二年。計當七十一年。其年眾
@@ -388,7 +393,7 @@ new from basicx
 <lb ed="X" n="0053a03"/>曰。我入定無此有無之心。榮答曰。若無有無之心。即
 <lb ed="X" n="0053a04"/>是常定。常定即無出入。&CB05758;即無對。&CB05758;問。汝從能大師
 <lb ed="X" n="0053a05"/>處來。大師以何法教汝。榮答曰。大師教榮不定。不亂。
-<lb ed="X" n="0053a06"/>不坐。不禪。是如來禪。&CB05758;於言下便悟。<anchor id="fnX86p0053a01"/>去五蘊非有。六
+<lb ed="X" n="0053a06"/>不坐。不禪。是如來禪。&CB05758;於言下便悟。<note n="0053001" resp="Xuzangjing" place="foot text" type="orig">去一作云</note>去五蘊非有。六
 <lb ed="X" n="0053a07"/>塵體空。非寂。非照。離有。離空。中間不住。無作。無功。應
 <lb ed="X" n="0053a08"/>用自在。佛性圓通。歎曰。我三十年來。空坐而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。往曹
 <lb ed="X" n="0053a09"/>溪歸依大師學道。世人傳&CB05758;禪師三十年坐禪。近始
@@ -414,7 +419,7 @@ new from basicx
 <lb ed="X" n="0053b04"/>思人。臣雖不才。濫承付囑。一昨奉恩命勒送天宮。親
 <lb ed="X" n="0053b05"/>自保持永無失墜。臣之感荷。悲不自勝。是知大法之
 <lb ed="X" n="0053b06"/>衣。萬劫不朽。京城緇侶。頂戴而行。然臣師主行滔。久
-<lb ed="X" n="0053b07"/>傳法印。保茲衣&CB00425;。如<anchor id="fnX86p0053b02"/>護髻珠。數奉德音。不敢違命。一
+<lb ed="X" n="0053b07"/>傳法印。保茲衣&CB00425;。如<note n="0053002" resp="Xuzangjing" place="foot text" type="orig">護一作獲</note>護髻珠。數奉德音。不敢違命。一
 <lb ed="X" n="0053b08"/>朝<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>歿。奄&CB00020;明朝。臣今欲歸。至彼啟告神靈。宣述聖
 <lb ed="X" n="0053b09"/>情。陳進衣改寺之由。敘念舊恤。今之狀臣。死將萬足。
 <lb ed="X" n="0053b10"/>不勝涕戀。懇&CB00001;之至。供奉表辭以聞。沙門惠象。誠悲

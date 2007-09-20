@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X86n1599.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2005/11/30 06:34:57 $</date></edition>
+		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2007/09/20 09:21:49 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/11/30 06:34:57 $</date>
+		<date>$Date: 2007/09/20 09:21:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 86, No. 1599 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X86n1599.xml,v $
+Revision 1.13  2007/09/20 09:21:49  amtbgrace
+modified:校注插入 XML 作業
+
 Revision 1.12  2005/11/30 06:34:57  amtbgrace
 modified: 執行全部 mulu.py, 取消自訂目錄的全形括號
 
@@ -127,7 +132,7 @@ new from basicx
 <lb ed="X" n="0055a07"/><p id="pX86p0055a0701" rend="margin-left:1em">歇菴居士陶望齡書於會稽法華山天衣精舍</p>
 <lb ed="X" n="0055a08"/>
 <lb ed="X" n="0055a09"/><head type="no">No. 1599</head>
-<lb ed="X" n="0055a10"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>永明道<anchor id="fnX86p0055a01"/>蹟</jhead></juan></div1>
+<lb ed="X" n="0055a10"/><juan fun="open" n="001"><mulu type="卷" n="1"/><jhead>永明道<note n="0055001" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>蹟</jhead></juan></div1>
 <lb ed="X" n="0055a11"/><div1 type="other"><mulu type="其他" level="1" label="永明道跡目錄"/><head>永明道跡目錄</head>
 <lb ed="X" n="0055a12"/><byline type="Collector">淨慈寺嗣法雲孫　大壑　輯</byline>
 <lb ed="X" n="0055a13"/><byline type="Corrector"><note place="inline">六夢居士　虞淳熙　寓庸居士　黃汝亨</note>　同校閱</byline>
