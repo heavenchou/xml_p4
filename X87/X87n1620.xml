@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X87n1620.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.16 $ (Big5)<date>$Date: 2006/12/14 06:52:30 $</date></edition>
+		<edition>$Revision: 1.17 $ (Big5)<date>$Date: 2007/09/27 03:47:54 $</date></edition>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2006/12/14 06:52:30 $</date>
+		<date>$Date: 2007/09/27 03:47:54 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 87, No. 1620 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X87n1620.xml,v $
+Revision 1.17  2007/09/27 03:47:54  amtbgrace
+modified:校注插入 XML 作業完成
+
 Revision 1.16  2006/12/14 06:52:30  eva
 modified: [經文修訂]  [屇>屆]
 
@@ -106,7 +111,7 @@ new from basicx
 <pb ed="X" id="X87.1620.0179c" n="0179c"/>
 <lb ed="X" n="0179c01"/>
 <milestone unit="juan" n="1"/><head type="no">No. 1620</head>
-<lb ed="X" n="0179c02"/><div1 type="other"><mulu type="其他" level="1" label="先覺宗乘"/><head><anchor id="fnX87p0179c01"/>先覺宗乘</head></div1>
+<lb ed="X" n="0179c02"/><div1 type="other"><mulu type="其他" level="1" label="先覺宗乘"/><head><note n="0179001" resp="Xuzangjing" place="foot text" type="orig">（便宜上，表題&M062482;附&M062425;。&CB18834;）</note>先覺宗乘</head></div1>
 <lb ed="X" n="0179c03"/>
 <lb ed="X" n="0179c04"/><div1 type="other"><mulu type="其他" level="1" label="先覺宗乘目錄"/><head>先覺宗乘目錄</head>
 <lb ed="X" n="0179c05"/>
@@ -882,7 +887,7 @@ new from basicx
 <pb ed="X" id="X87.1620.0190a" n="0190a"/>
 <lb ed="X" n="0190a01"/>告天手捺地噓噓問。忉利透日月之上。四禪無風火
 <lb ed="X" n="0190a02"/>之災。三交駕銕牛之車。臨汝握全提之印。獼猴有一
-<lb ed="X" n="0190a03"/>面古鏡。狸奴有萬里神<anchor id="fnX87p0190a01"/>光。直下承當。是何人也。慈明
+<lb ed="X" n="0190a03"/>面古鏡。狸奴有萬里神<note n="0190001" resp="Xuzangjing" place="foot text" type="orig">光一作通</note>光。直下承當。是何人也。慈明
 <lb ed="X" n="0190a04"/>曰。朝看東南。暮看西北。公曰。狸奴白牯&CB00230;知有。慈明
 <lb ed="X" n="0190a05"/>曰。淹殺家頭蒿。都尉曰。月裡&CB00827;油鐺。慈明曰。石人腰
 <lb ed="X" n="0190a06"/>帶。廣慧曰。陳蒲鞋周金剛。汾陽曰。直裰又縫胡釘鉸。
@@ -894,7 +899,7 @@ new from basicx
 <lb ed="X" n="0190a12"/>汾陽曰。穿山透石壁。鼻孔血淋淋。慈明復有頌曰。一
 <lb ed="X" n="0190a13"/>言纔出徹龍庭。攪動須彌帝釋驚。三世諸佛齊坐了。
 <lb ed="X" n="0190a14"/>杖頭傀儡弄雙睛。公答曰。今年桃李味甘香。一顆千
-<lb ed="X" n="0190a15"/>金買得&CB00573;。貯藥胡盧拖鼠<anchor id="fnX87p0190a02"/>味。穴門小窄轉難藏。五臺
+<lb ed="X" n="0190a15"/>金買得&CB00573;。貯藥胡盧拖鼠<note n="0190002" resp="Xuzangjing" place="foot text" type="orig">味一作尾</note>味。穴門小窄轉難藏。五臺
 <lb ed="X" n="0190a16"/>山裡有文殊。羅漢天台洞內居。為問子湖一隻狗。何
 <lb ed="X" n="0190a17"/>如普化一頭驢。再答曰。蜘蛛網中坐虫兒。不敢過昨
 <lb ed="X" n="0190a18"/>夜三尺雪。百鳥盡遭饑。果熟樹低垂。&CB00328;肥甑箄破。借
@@ -952,7 +957,7 @@ new from basicx
 <lb ed="X" n="0190c20"/><div1 type="other"><mulu type="其他" level="1" label="宋簽判劉經臣"/><head>宋簽判劉經臣<note place="inline">嗣法智海逸</note></head>
 <lb ed="X" n="0190c21"/><p id="pX87p0190c2101">劉經臣。字興朝。為簽判。少以逸才登仕版。於佛法未
 <lb ed="X" n="0190c22"/>之信。年三十二。會東林照覺總禪師。始醉心祖道。後
-<lb ed="X" n="0190c23"/>抵京師。謁慧林沖禪師。<anchor id="fnX87p0190c03"/>於僧問雪竇。如何是諸佛本
+<lb ed="X" n="0190c23"/>抵京師。謁慧林沖禪師。<note n="0190003" resp="Xuzangjing" place="foot text" type="orig">於一作舉</note>於僧問雪竇。如何是諸佛本
 <lb ed="X" n="0190c24"/>源。答曰。千峰寒色。語下有省。歲餘官雒幕。就參韶山
 <pb ed="X" id="X87.1620.0191a" n="0191a"/>
 <lb ed="X" n="0191a01"/>杲禪師。將去官辭韶山。韶山囑曰。公如此用心。何愁
@@ -965,7 +970,7 @@ new from basicx
 <lb ed="X" n="0191a08"/>者曰。見性是佛。意旨如何。公不能對。疑甚。歸就&CB05903;熟
 <lb ed="X" n="0191a09"/>睡。至五更覺來。方追念間。見種種異相。表裏洞徹。六
 <lb ed="X" n="0191a10"/>根震動。天地回旋。如雲開月現。喜不自勝。忽憶韶山
-<lb ed="X" n="0191a11"/>臨別所囑之言。姑抑之。<anchor id="fnX87p0191a01"/>逗明。悉以所得告智海。為證
+<lb ed="X" n="0191a11"/>臨別所囑之言。姑抑之。<note n="0191001" resp="Xuzangjing" place="foot text" type="orig">逗一作及</note>逗明。悉以所得告智海。為證
 <lb ed="X" n="0191a12"/>據。智海曰。更須用得始得。公曰。莫要踐履否。智海厲
 <lb ed="X" n="0191a13"/>聲曰。這箇是甚麼事。&CB00230;說踐履。公默契。<note place="inline">幻寄云。簽判不能于千峰
 <lb ed="X" n="0191a14"/>寒色瞥地。遂帶累波羅提尊者。入無尾巴猢孫隊中。輪轉流浪悲夫</note>乃作發明心地頌
@@ -1156,7 +1161,7 @@ new from basicx
 <lb ed="X" n="0193b24"/>宗之謂一。一之所起之謂時。大慧云。自來無人如此說</note>。</p></div1>
 <pb ed="X" id="X87.1620.0193c" n="0193c"/>
 <lb ed="X" n="0193c01"/><div1 type="other"><mulu type="其他" level="1" label="宋侍郎李彌遜"/><head>宋侍郎李彌遜<note place="inline">嗣法圓悟勤</note></head>
-<lb ed="X" n="0193c02"/><p id="pX87p0193c0201">李彌<anchor id="fnX87p0193c01"/>遜。號普現居士。少時讀書。五行俱下。年十八中。
+<lb ed="X" n="0193c02"/><p id="pX87p0193c0201">李彌<note n="0193001" resp="Xuzangjing" place="foot text" type="orig">遜一作遠</note>遜。號普現居士。少時讀書。五行俱下。年十八中。
 <lb ed="X" n="0193c03"/>鄉舉登第。京師旋歷華要。二十八歲。為中書舍人。常
 <lb ed="X" n="0193c04"/>入圓悟室。一日早朝回至天津橋。馬躍。忽有省。通身
 <lb ed="X" n="0193c05"/>汗流。直造天寧。適悟出門。遙見便喚曰。居士且喜。大
@@ -1167,7 +1172,7 @@ new from basicx
 <lb ed="X" n="0193c10"/>露。&CB00980;空拶倒須彌。說甚向上一路。擲筆而逝。</p></div1>
 <lb ed="X" n="0193c11"/><div1 type="other"><mulu type="其他" level="1" label="宋給事馮楫"/><head>宋給事馮楫<note place="inline">嗣法龍門遠</note></head>
 <lb ed="X" n="0193c12"/><p id="pX87p0193c1201">馮楫。字濟川。蜀遂寧人。官給事。號不動居士。自壯扣
-<lb ed="X" n="0193c13"/>諸名宿。雖在仕<anchor id="fnX87p0193c02"/>塗。不忘學佛。最後居龍門。從佛眼遠
+<lb ed="X" n="0193c13"/>諸名宿。雖在仕<note n="0193002" resp="Xuzangjing" place="foot text" type="orig">塗與途通</note>塗。不忘學佛。最後居龍門。從佛眼遠
 <lb ed="X" n="0193c14"/>禪師再歲。一日同遠經行法堂。偶童子趨庭。吟曰。萬
 <lb ed="X" n="0193c15"/>象之中獨露身。遠拊公背曰。好&CB01389;。公於是契入。紹興
 <lb ed="X" n="0193c16"/>丁巳。除給事。會大慧禪師。就明慶開堂。大慧下座。公
@@ -1297,7 +1302,7 @@ new from basicx
 <lb ed="X" n="0195b15"/>來居&CB00669;池。公因從游。乃舉無菴所示語。請為眾普說。
 <lb ed="X" n="0195b16"/>佛海發揮之曰。即心即佛眉拖地。非心非佛雙眼橫。
 <lb ed="X" n="0195b17"/>蝴蝶夢中家萬里。杜&CB15102;枝上月三更。留旬日而後返。
-<lb ed="X" n="0195b18"/>一日舉不是心不是佛不是物。<anchor id="fnX87p0195b01"/>爐然頓悟。頌曰。非心
+<lb ed="X" n="0195b18"/>一日舉不是心不是佛不是物。<note n="0195001" resp="Xuzangjing" place="foot text" type="orig">爐疑豁</note>爐然頓悟。頌曰。非心
 <lb ed="X" n="0195b19"/>非佛亦非物。五鳳樓前山突兀。豔陽影裏倒&CB00549;身。野
 <lb ed="X" n="0195b20"/>狐跳入金毛窟。無菴肯之。即遣書呈佛海。佛海報曰。
 <lb ed="X" n="0195b21"/>此事非紙筆可既。居士能過我。當有所聞。遂復至虎
@@ -1593,7 +1598,7 @@ new from basicx
 <lb ed="X" n="0199b11"/>驪珠欲上天。&CB00230;向自身都放下。四稜榻地恰團圓。晦
 <lb ed="X" n="0199b12"/>堂深肯之。</p></div1>
 <lb ed="X" n="0199b13"/><div1 type="other"><mulu type="其他" level="1" label="宋秘書吳恂"/><head>宋秘書吳恂<note place="inline">嗣法黃龍心</note></head>
-<lb ed="X" n="0199b14"/><p id="pX87p0199b1401">吳恂。字德夫。官至秘書。<anchor id="fnX87p0199b01"/>居晦堂入室次。晦堂謂曰。平
+<lb ed="X" n="0199b14"/><p id="pX87p0199b1401">吳恂。字德夫。官至秘書。<note n="0199001" resp="Xuzangjing" place="foot text" type="orig">一無居字</note>居晦堂入室次。晦堂謂曰。平
 <lb ed="X" n="0199b15"/>生學解記憶多聞即不問。你父母未生<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>前。道將一
 <lb ed="X" n="0199b16"/>句來。公擬議。晦堂以拂子擊之。即領深旨。呈以偈曰。
 <lb ed="X" n="0199b17"/>咄。這多知俗漢。&CB00599;盡古今公案。忽於狼籍堆頭。拾得
@@ -1725,7 +1730,7 @@ new from basicx
 <lb ed="X" n="0201a18"/>又到保寧。亦請陞座。公拈香曰。法鼓既鳴。寶香初爇。
 <lb ed="X" n="0201a19"/>楊岐頂&CB00576;門。請師重著楔。保寧卓拄杖一下曰。著楔
 <lb ed="X" n="0201a20"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>竟。大眾證明。又卓一下。便下座。又到雲居。請佛印
-<lb ed="X" n="0201a21"/>陞座。公拈香曰。覺地相逢一何<anchor id="fnX87p0201a01"/>蚤。鶻臭布衫今脫了。
+<lb ed="X" n="0201a21"/>陞座。公拈香曰。覺地相逢一何<note n="0201001" resp="Xuzangjing" place="foot text" type="orig">＊&CB10128;一作早（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>蚤。鶻臭布衫今脫了。
 <lb ed="X" n="0201a22"/>要識雲居一句玄。珍重後園驢喫草。召大眾曰。此一
 <lb ed="X" n="0201a23"/>瓣香。薰天炙地去也。佛印曰。今日不著便。被這漢當
 <lb ed="X" n="0201a24"/>面塗糊。便打。乃曰。謝公千里來相訪。共話東山竹徑
@@ -1733,7 +1738,7 @@ new from basicx
 <lb ed="X" n="0201b01"/>深。借與一龍騎出洞。若逢天旱便為霖。擲拄杖下座。
 <lb ed="X" n="0201b02"/>公拜起。佛印曰。收得龍麼。公曰。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>在這裏。佛印曰。作
 <lb ed="X" n="0201b03"/>麼生騎。公擺手作舞便行。佛印拊掌曰。祇有這漢。猶
-<lb ed="X" n="0201b04"/>較些子<note place="inline">江州歸宗可宣禪師。與郭功甫善。及師領歸宗。時功甫任南昌尉。俄郡守恚師不為禮。<anchor id="fnX87p0201b02"/>〔捃〕
+<lb ed="X" n="0201b04"/>較些子<note place="inline">江州歸宗可宣禪師。與郭功甫善。及師領歸宗。時功甫任南昌尉。俄郡守恚師不為禮。<note n="0201002" resp="Xuzangjing" place="foot text" type="orig">捃疑窘</note>〔捃〕
 <lb ed="X" n="0201b05"/>甚。遂作書寄功甫曰。某世緣尚有六年。奈州主抑逼。當棄餘喘託生公家。願無見阻。功甫閱書驚喜。且領之。中
 <lb ed="X" n="0201b06"/>夜其妻夢間。見師入其寢。失聲曰。此不是和尚來處。功甫撼而問之。妻詳以告。呼燈取書示之。相笑不<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。遂孕。
 <lb ed="X" n="0201b07"/>及生。乃名宣老。期年記問如昔。至三歲。白雲端抵其家始見之曰。吾姪來也。白雲曰。與和尚相別幾年。宣倒指

@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.13 $ (Big5)<date>$Date: 2004/11/15 11:21:51 $</date></edition>
+		<edition>$Revision: 1.14 $ (Big5)<date>$Date: 2007/09/27 03:47:54 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2004/11/15 11:21:51 $</date>
+		<date>$Date: 2007/09/27 03:47:54 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 87, No. 1622 &desc;</bibl>
@@ -51,6 +51,9 @@
 	</change>
 <!--
 $Log: X87n1622.xml,v $
+Revision 1.14  2007/09/27 03:47:54  amtbgrace
+modified:校注插入 XML 作業完成
+
 Revision 1.13  2004/11/15 11:21:51  amtbgrace
 modified: 跑chk_mcode.pl  將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
 
@@ -331,13 +334,13 @@ new from basicx
 <lb ed="X" n="0223b08"/><p id="pX87p0223b0801" rend="margin-left:1em">新羅洪陟禪師<note place="inline">西堂藏禪師法嗣</note>　無話句。</p>
 <lb ed="X" n="0223b09"/><p id="pX87p0223b0901" rend="margin-left:1em">新羅慧徹禪師<note place="inline">西堂藏禪師法嗣</note>　無話句。</p>
 <lb ed="X" n="0223b10"/><p id="pX87p0223b1001" rend="margin-left:1em">新羅無染禪師<note place="inline">麻谷徹禪師法嗣</note>　無話句<note place="inline">崔孤雲&CB15156;文。見下</note>。</p>
-<lb ed="X" n="0223b11"/><p id="pX87p0223b1101" rend="margin-left:1em">新羅玄昱禪師<note place="inline">章敬<anchor id="fnX87p0223b01"/>〔憚〕禪師法嗣</note>　無話句<note place="inline">源流。稱鳳林玄昱</note>。</p>
+<lb ed="X" n="0223b11"/><p id="pX87p0223b1101" rend="margin-left:1em">新羅玄昱禪師<note place="inline">章敬<note n="0223001" resp="Xuzangjing" place="foot text" type="orig">憚疑暉次同</note>〔憚〕禪師法嗣</note>　無話句<note place="inline">源流。稱鳳林玄昱</note>。</p>
 <lb ed="X" n="0223b12"/><p id="pX87p0223b1201" rend="margin-left:1em">新羅覺體禪師<note place="inline">章敬<anchor id="fxX87p0223b01"/>〔憚〕禪師法嗣</note>　無話句<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上見第九卷</note>。</p>
 <lb ed="X" n="0223b13"/><p id="pX87p0223b1301" rend="margin-left:1em">新羅道均禪師<note place="inline">南泉願禪師法嗣</note>　無話句。</p>
 <lb ed="X" n="0223b14"/><p id="pX87p0223b1401" rend="margin-left:1em">新羅品日禪師<note place="inline">鹽官齊安禪師法嗣</note>　無話句<note place="inline">源流云。&CB01772;三陟三和寺</note>。</p>
 <lb ed="X" n="0223b15"/><p id="pX87p0223b1501" rend="margin-left:1em">新羅迦智禪師<note place="inline">大梅常禪師法嗣</note>　僧問。如何是西來意。
 <lb ed="X" n="0223b16"/>師云。待汝裹頭來。即與汝道○僧問。如何是大梅
-<lb ed="X" n="0223b17"/>的旨。師云。酪本一時拋<note place="inline">案。此是長<anchor id="fnX87p0223b02"/>〔與〕寶林寺所祖。迦智山道儀大師也</note>。</p>
+<lb ed="X" n="0223b17"/>的旨。師云。酪本一時拋<note place="inline">案。此是長<note n="0223002" resp="Xuzangjing" place="foot text" type="orig">與疑興</note>〔與〕寶林寺所祖。迦智山道儀大師也</note>。</p>
 <lb ed="X" n="0223b18"/><p id="pX87p0223b1801" rend="margin-left:1em">新羅忠彥禪師<note place="inline">大梅常禪師法嗣</note>　無語句<note place="inline">即新興寺&CB00287;彥禪師</note>。</p>
 <lb ed="X" n="0223b19"/><p id="pX87p0223b1901" rend="margin-left:1em">新羅大茅和尚<note place="inline">歸宗智常禪師法嗣</note>　上堂云。欲識諸佛師。
 <lb ed="X" n="0223b20"/>向無明心內識取。欲識常住不彫性。向萬物遷變
@@ -351,7 +354,7 @@ new from basicx
 <lb ed="X" n="0223c03"/>○案。源流稱五臺山順支禪師。</p>
 <lb ed="X" n="0223c04"/><p id="pX87p0223c0401" rend="margin-left:1em">新羅智異山和尚<note place="inline">仰山寂禪師法嗣</note>　一日示眾曰。冬不
 <lb ed="X" n="0223c05"/>寒臘後看。便下座<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上。見第十二卷</note>。</p>
-<lb ed="X" n="0223c06"/><p id="pX87p0223c0601" rend="margin-left:1em">新羅欽忠禪師<note place="inline">石霜諸禪師法嗣</note>　無話句<note place="inline">源流<anchor id="fnX87p0223c03"/>〔云〕敬懷暉法嗣</note>。</p>
+<lb ed="X" n="0223c06"/><p id="pX87p0223c0601" rend="margin-left:1em">新羅欽忠禪師<note place="inline">石霜諸禪師法嗣</note>　無話句<note place="inline">源流<note n="0223003" resp="Xuzangjing" place="foot text" type="orig">云下疑脫章字</note>〔云〕敬懷暉法嗣</note>。</p>
 <lb ed="X" n="0223c07"/><p id="pX87p0223c0701" rend="margin-left:1em">新羅行寂禪師<note place="inline">石霜諸禪師法嗣</note>　無話句。</p>
 <lb ed="X" n="0223c08"/><p id="pX87p0223c0801" rend="margin-left:1em">新羅朗禪師<note place="inline">石霜諸禪師法嗣</note>　無話句。</p>
 <lb ed="X" n="0223c09"/><p id="pX87p0223c0901" rend="margin-left:1em">新羅清&CB00980;禪師<note place="inline">石霜諸禪師法嗣</note>　無話句<note place="inline"><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>上。見第十六卷</note>。</p>
@@ -382,7 +385,7 @@ new from basicx
 <lb ed="X" n="0224a09"/>是道。師云。徒勞車馬跡○又因僧問。如何是教。師云。貝葉收不盡○丹霞頌文。今刪之</note>。</p>
 <lb ed="X" n="0224a10"/><p id="pX87p0224a1001" rend="margin-left:1em">新羅大嶺禪師　僧問。如何是一切處清淨。師云。
 <lb ed="X" n="0224a11"/>折璚枝寸寸是寶。&CB00701;栴檀片片皆香○丹霞淳頌。
-<lb ed="X" n="0224a12"/>乾坤盡是黃金國。萬有全彰淨妙身。<anchor id="fnX87p0224a01"/>王女背風無
+<lb ed="X" n="0224a12"/>乾坤盡是黃金國。萬有全彰淨妙身。<note n="0224001" resp="Xuzangjing" place="foot text" type="orig">王疑玉</note>王女背風無
 <lb ed="X" n="0224a13"/>巧拙。靈苗花秀不知春。</p>
 <lb ed="X" n="0224a14"/><p id="pX87p0224a1401" rend="margin-left:1em">新羅雲住禪師　僧問。如何是諸佛師。師云。文殊
 <lb ed="X" n="0224a15"/>聳耳○丹霞淳頌。無相光中未兆身。清&CB00980;渺漠豈
@@ -411,7 +414,7 @@ new from basicx
 <lb ed="X" n="0224b13"/><p id="pX87p0224b1301" rend="margin-left:1em">決言大德　崇福寺&CB15156;云。景文王。遽命有司。虔修
 <lb ed="X" n="0224b14"/>法會。華嚴大德釋決言。承旨。於當寺講經五日<note place="inline">咸通
 <lb ed="X" n="0224b15"/>六年事○&CB15156;文又云。釋門二傑。曰賢諒神解。督其事○源流云。決言與順應。&CB01772;海印寺于伽耶山</note>。</p>
-<lb ed="X" n="0224b16"/><p id="pX87p0224b1601" rend="margin-left:1em">道義禪師　寂照塔銘云。洎長慶初。<note place="inline">唐<anchor id="fnX87p0224b02"/>〔移〕宗年號</note>有僧
+<lb ed="X" n="0224b16"/><p id="pX87p0224b1601" rend="margin-left:1em">道義禪師　寂照塔銘云。洎長慶初。<note place="inline">唐<note n="0224002" resp="Xuzangjing" place="foot text" type="orig">移疑穆</note>〔移〕宗年號</note>有僧
 <lb ed="X" n="0224b17"/>道義。西汎賭西堂之奧<note place="inline">注云。長慶五年己巳。道義。行化楓岳雪岳。至文德二
 <lb ed="X" n="0224b18"/>年<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>酉○慈弘案。道義大師。寶林之先德也</note>。</p>
 <lb ed="X" n="0224b19"/><p id="pX87p0224b1901" rend="margin-left:1em">洪陟大師　寂照塔銘云。興德王之時。洪陟大師。
