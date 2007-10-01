@@ -3,8 +3,10 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "X88n1651.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -18,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2005/08/17 06:32:17 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/10/01 09:29:59 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2005/08/17 06:32:17 $</date>
+		<date>$Date: 2007/10/01 09:29:59 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>卍 Xuzangjing Vol. 88, No. 1651 &desc;</bibl>
@@ -51,6 +53,9 @@
 	</change>
 <!--
 $Log: X88n1651.xml,v $
+Revision 1.6  2007/10/01 09:29:59  amtbgrace
+modified: 校注插入 XML 作業完成
+
 Revision 1.5  2005/08/17 06:32:17  eva
 modified: 修改檔頭資訊 title
 
@@ -109,11 +114,11 @@ no message
 <lb ed="X" n="0368b10"/><byline type="author">冥詳　撰</byline>
 <lb ed="X" n="0368b11"/><p id="pX88p0368b1101">法師諱褘。字玄&CB04455;。俗姓陳。漢大丘長仲弓之後。本居
 <lb ed="X" n="0368b12"/>&CB00002;川。後徙河南。子孫因之為緱氏人焉。高祖湛魏清
-<lb ed="X" n="0368b13"/>河太守曾山魏征東將軍南陽郡開國公祖<anchor id="fnX88p0368b01"/>□□國
+<lb ed="X" n="0368b13"/>河太守曾山魏征東將軍南陽郡開國公祖<note n="0368001" resp="Xuzangjing" place="foot text" type="orig">□□疑康齊</note>□□國
 <lb ed="X" n="0368b14"/>子博士轉司業。又轉禮部侍郎。文惠英潔有雅操。早
 <lb ed="X" n="0368b15"/>通經術。形長八尺。美眉明目。裒衣博帶。好儒者之容。
 <lb ed="X" n="0368b16"/>時人方之郭有道。郡舉孝廉。拜陳留令。又遷江陵。後
-<lb ed="X" n="0368b17"/><anchor id="fnX88p0368b02"/>隨運將衰。遂息纓冤之心。結薜蘿之志。識者高之。親
+<lb ed="X" n="0368b17"/><note n="0368002" resp="Xuzangjing" place="foot text" type="orig">＊隋古作隨下同（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>隨運將衰。遂息纓冤之心。結薜蘿之志。識者高之。親
 <lb ed="X" n="0368b18"/>廣平宋氏隨洛州長史□□□法師即第四子也。法
 <lb ed="X" n="0368b19"/>師&CB07519;自褓辰。夙標溫嶷。迨於二十日。更表貞淳。機智
 <lb ed="X" n="0368b20"/>有殊。聰敏絕異。爰以宿植。早厭樊籠。驛思玄門。翅神
@@ -147,8 +152,8 @@ no message
 <lb ed="X" n="0368c23"/>頹綱。苞挫殊俗。涉風波而意靡倦。臨大難而節逾高。
 <lb ed="X" n="0368c24"/>通曩哲之深疑。開後賢之未悟。垂義功於來裔。標准
 <pb ed="X" id="X88.1651.0369a" n="0369a"/>
-<lb ed="X" n="0369a01"/>的於當今。乃&CB01465;生而寡儔。非唯兄之弗<anchor id="fnX88p0369a01"/>建也。然昆季
-<lb ed="X" n="0369a02"/>二人。懿德清規。<anchor id="fnX88p0369a02"/>芳聲雅質。雖盧山將遠。無得同焉。法
+<lb ed="X" n="0369a01"/>的於當今。乃&CB01465;生而寡儔。非唯兄之弗<note n="0369001" resp="Xuzangjing" place="foot text" type="orig">建疑逮</note>建也。然昆季
+<lb ed="X" n="0369a02"/>二人。懿德清規。<note n="0369002" resp="Xuzangjing" place="foot text" type="orig">補入芳字</note>芳聲雅質。雖盧山將遠。無得同焉。法
 <lb ed="X" n="0369a03"/>師年二十有一。以武德五年。於城都受具。坐夏學律。
 <lb ed="X" n="0369a04"/>五篇七聚之宗。亦一遍斯得。益部經論。研綜既窮。更
 <lb ed="X" n="0369a05"/>思入京。詢問殊旨。條式有礙。為兄所留。不能遂意。乃
@@ -163,14 +168,14 @@ no message
 <lb ed="X" n="0369a14"/>莫知適從。乃誓遊西方。以問所惑。弁取十七地論等。
 <lb ed="X" n="0369a15"/>以釋眾疑。即今之瑜伽師地論也。又言昔法顯智嚴。
 <lb ed="X" n="0369a16"/>亦一時之士。皆能求法。導利&CB00320;生。吾當繼之。乃結侶
-<lb ed="X" n="0369a17"/>陳表。有&CB00330;不許。諸<anchor id="fnX88p0369a03"/>人咸退。唯法師不屈。既方事孤遊。
+<lb ed="X" n="0369a17"/>陳表。有&CB00330;不許。諸<note n="0369003" resp="Xuzangjing" place="foot text" type="orig">補入人字</note>人咸退。唯法師不屈。既方事孤遊。
 <lb ed="X" n="0369a18"/>又承西路艱嶮。乃自試其心。以俗問眾善苦。種種調
 <lb ed="X" n="0369a19"/>伏。堪任不退。然始入塔。啟請申其意。願乞眾聖冥加。
 <lb ed="X" n="0369a20"/>往還無難。初法師生也。母夢法師衣白衣西去。母曰。
 <lb ed="X" n="0369a21"/>汝是我子。今欲何去。報曰。為求法故去。此則造迦維
 <lb ed="X" n="0369a22"/>之先兆。</p>
 <lb ed="X" n="0369a23"/><p id="pX88p0369a2301">貞觀三年。將欲首塗。又求祥應。乃夜夢見大海中。有
-<lb ed="X" n="0369a24"/>蘇迷盧山。極為麗嚴。意欲登山。而洪濤<anchor id="fnX88p0369a04"/>□湧。不以為
+<lb ed="X" n="0369a24"/>蘇迷盧山。極為麗嚴。意欲登山。而洪濤<note n="0369004" resp="Xuzangjing" place="foot text" type="orig">□疑洶</note>□湧。不以為
 <pb ed="X" id="X88.1651.0369b" n="0369b"/>
 <lb ed="X" n="0369b01"/>懼。乃決意而入。忽見蓮花。踊乎波外。應足而生。須臾
 <lb ed="X" n="0369b02"/>至山。又峻峭不可上。踊身自騰。有搏&CB00585;。扶而上昇。至
@@ -213,12 +218,12 @@ no message
 <lb ed="X" n="0369c14"/>強行。何為復臥。於是復起。馬忽異路而去。迴之不得。
 <lb ed="X" n="0369c15"/>行可十許里。遂遇一池。清冷澄澈。非常歡喜。便飲馬。
 <lb ed="X" n="0369c16"/>自復澡嗽。又取&CB00595;剉飼馬。池側亦有青草。比明馬健
-<lb ed="X" n="0369c17"/>人復解<anchor id="fnX88p0369c05"/>齊。更一日一夜。就水將息。後日盛水漸進。更
+<lb ed="X" n="0369c17"/>人復解<note n="0369005" resp="Xuzangjing" place="foot text" type="orig">齊字更勘</note>齊。更一日一夜。就水將息。後日盛水漸進。更
 <lb ed="X" n="0369c18"/>經三日。方達伊吾。於流沙北維之外。復逢鬼魅。日有
 <lb ed="X" n="0369c19"/>數般。困弊難艱。免難為記述。既至伊吾。逢高昌使人。
 <lb ed="X" n="0369c20"/>還向其王說法師來意。王大喜歡。遣人將駝馬來迎。
 <lb ed="X" n="0369c21"/>復到高昌。相見悲喜。王欲留法師。不聽西去。法師乃
-<lb ed="X" n="0369c22"/>不食四日。以<anchor id="fnX88p0369c06"/>盛動之。王意亦迴。王母妃願結母子。王
+<lb ed="X" n="0369c22"/>不食四日。以<note n="0369006" resp="Xuzangjing" place="foot text" type="orig">盛疑感</note>盛動之。王意亦迴。王母妃願結母子。王
 <lb ed="X" n="0369c23"/>願為兄弟。許者任師去。法師相許。王歡喜請講仁王
 <lb ed="X" n="0369c24"/>經。并為度沙彌四人。造法服數十具。差達官。將安革
 <pb ed="X" id="X88.1651.0370a" n="0370a"/>
@@ -239,7 +244,7 @@ no message
 <lb ed="X" n="0370a15"/>中百論及吠陀書。云是龍猛弟子。法師就停一月。學
 <lb ed="X" n="0370a16"/>經百論。又東到那僕底國。就調伏法師。學對法顯宗
 <lb ed="X" n="0370a17"/>理門等論。又東諒那伽羅寺。就月曹法師。學眾事分
-<lb ed="X" n="0370a18"/>毗婆娑。又東到祿勒那國。就闍<anchor id="fnX88p0370a01"/>&CB15131;&CB00545;多大德。學經部
+<lb ed="X" n="0370a18"/>毗婆娑。又東到祿勒那國。就闍<note n="0370001" resp="Xuzangjing" place="foot text" type="orig">&CB15131;疑那下同</note>&CB15131;&CB00545;多大德。學經部
 <lb ed="X" n="0370a19"/>毗婆沙。又就蜜多犀那論師。學薩婆多辨真論。展轉
 <lb ed="X" n="0370a20"/>到劫毗陀國。禮拜聖跡。佛昔在忉利天。為報母恩。一
 <lb ed="X" n="0370a21"/>夏說法訖。乘三道寶階。下人中處。又西北至羯若鞠
@@ -258,13 +263,13 @@ no message
 <lb ed="X" n="0370b09"/>曰。願賜少時。莫相逼惱。使我正念。亦是檀越恩澤。於
 <lb ed="X" n="0370b10"/>是專心&CB00418;史多天慈氏菩薩所。於心想中。若登蘇迷
 <lb ed="X" n="0370b11"/>盧山。越一二三天。見&CB00418;史多宮。慈氏菩薩妙寶臺。菩
-<lb ed="X" n="0370b12"/>薩<anchor id="fnX88p0370b02"/>國遶。此時身心歡喜。不知在壇。不憶有賊。同伴諸
+<lb ed="X" n="0370b12"/>薩<note n="0370002" resp="Xuzangjing" place="foot text" type="orig">國疑圍</note>國遶。此時身心歡喜。不知在壇。不憶有賊。同伴諸
 <lb ed="X" n="0370b13"/>人。發聲號哭。須臾之間。黑風四起。折樹飛沙。河流湧
 <lb ed="X" n="0370b14"/>浪。船舫漂覆。賊徒大驟。問同伴曰。此沙門從何處來。
 <lb ed="X" n="0370b15"/>名字何等。報曰。從支那國來。求法者此也。諸君若煞。
-<lb ed="X" n="0370b16"/>得無量罪。且視風波之狀。天神<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>嗔。宜<anchor id="fnX88p0370b03"/>忽懺悔。賊懼
+<lb ed="X" n="0370b16"/>得無量罪。且視風波之狀。天神<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>嗔。宜<note n="0370003" resp="Xuzangjing" place="foot text" type="orig">忽疑急</note>忽懺悔。賊懼
 <lb ed="X" n="0370b17"/>相率懺謝。稽首歸依。時亦不覺。賊以手觸。爾乃開眼。
-<lb ed="X" n="0370b18"/>謂賊曰。時至<anchor id="fnX88p0370b04"/>&CB15131;。賊曰。不敢害師。願受懺悔。法師受其
+<lb ed="X" n="0370b18"/>謂賊曰。時至<note n="0370004" resp="Xuzangjing" place="foot text" type="orig">&CB15131;疑邪</note>&CB15131;。賊曰。不敢害師。願受懺悔。法師受其
 <lb ed="X" n="0370b19"/>禮謝。廣為說法。令其發心。諸賊&CB15325;相勸告。收諸賊具。
 <lb ed="X" n="0370b20"/>總投河流。所脫衣資。各還本主。並受五戒。風波還靜。
 <lb ed="X" n="0370b21"/>賊徒歡喜。頂禮辭別。同伴敬歎。轉異於常。遠近聞者。
@@ -291,9 +296,9 @@ no message
 <lb ed="X" n="0370c17"/>和上曰。汝勿厭此身。身是法器。脩習難得。汝過去曾
 <lb ed="X" n="0370c18"/>作國王。多惱眾生。故招此苦。當自悔責。禮誦行道。廣
 <lb ed="X" n="0370c19"/>通正法。業累可除。直欲不食捨之。終不得了。死<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>受
-<lb ed="X" n="0370c20"/>身。還得受苦。猶如井輪。迴轉無息。<anchor id="fnX88p0370c05"/>復三年餘。有支那
+<lb ed="X" n="0370c20"/>身。還得受苦。猶如井輪。迴轉無息。<note n="0370005" resp="Xuzangjing" place="foot text" type="orig">復疑後</note>復三年餘。有支那
 <lb ed="X" n="0370c21"/>國僧。欲來於此。學諸經論。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>發在路。汝可待之。為演
-<lb ed="X" n="0370c22"/>說付授。彼人得<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。當轉流通。<anchor id="fnX88p0370c06"/>以功德汝罪自滅。我是
+<lb ed="X" n="0370c22"/>說付授。彼人得<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。當轉流通。<note n="0370006" resp="Xuzangjing" place="foot text" type="orig">以下疑脫其字</note>以功德汝罪自滅。我是
 <lb ed="X" n="0370c23"/>曼殊室利。憐愍汝故。來相告。當依我語。今日<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後。所
 <lb ed="X" n="0370c24"/>患亦當漸除。語<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>而滅。從爾來。和上漸則安隱。正法
 <pb ed="X" id="X88.1651.0371a" n="0371a"/>
@@ -302,10 +307,10 @@ no message
 <lb ed="X" n="0371a03"/>勝。更起禮謝。言意訖。辭出。安置幼日王院。七日供養
 <lb ed="X" n="0371a04"/><app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。更與上房第四重閣。加諸供給。日得擔步羅一百
 <lb ed="X" n="0371a05"/>二十枚。檳榔子二十顆。豆穀子二十顆。龍香一兩。供
-<lb ed="X" n="0371a06"/>大人<anchor id="fnX88p0371a01"/>朱一升。蘇油乳酪石蜜等。皆日足有餘一期之
+<lb ed="X" n="0371a06"/>大人<note n="0371001" resp="Xuzangjing" place="foot text" type="orig">朱疑米</note>朱一升。蘇油乳酪石蜜等。皆日足有餘一期之
 <lb ed="X" n="0371a07"/>料。數人食不盡。給淨人婆羅門一人。出行乘象。與二
 <lb ed="X" n="0371a08"/>十人陪從。免一切僧事。寺內主客萬人。預此供給者。
-<lb ed="X" n="0371a09"/><anchor id="fnX88p0371a02"/>滲法師有十人。言供大人米者。此即粳米。大如烏馬
+<lb ed="X" n="0371a09"/><note n="0371002" resp="Xuzangjing" place="foot text" type="orig">滲疑添</note>滲法師有十人。言供大人米者。此即粳米。大如烏馬
 <lb ed="X" n="0371a10"/>豆。成飯<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>後。香聞百餘步。摩揭陀國。獨有此米。餘國
 <lb ed="X" n="0371a11"/>更無。收植又少。唯國王及廣知法大德得食。餘人不
 <lb ed="X" n="0371a12"/>得。故云供大人米。其遊履外國見重。所至皆此類也。
@@ -315,9 +320,9 @@ no message
 <lb ed="X" n="0371a16"/>論等各一遍。中百二論各三遍。其俱舍婆沙六足阿
 <lb ed="X" n="0371a17"/>毗曇等。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>於迦濕彌羅等諸國聽訖。於此尋讀決疑
 <lb ed="X" n="0371a18"/>而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。如是五年。不捨晝夜。聽訖。復往伴爛拏&CB00425;伐多
-<lb ed="X" n="0371a19"/>國。尋禮聖&CB00528;。有孤山。極為秀麗。山中有精舍。中有<anchor id="fnX88p0371a03"/>&CB00018;
+<lb ed="X" n="0371a19"/>國。尋禮聖&CB00528;。有孤山。極為秀麗。山中有精舍。中有<note n="0371003" resp="Xuzangjing" place="foot text" type="orig">&CB00018;疑刻</note>&CB00018;
 <lb ed="X" n="0371a20"/>檀觀自在菩薩像。特多靈驗。有所願求。至心皆得。其
-<lb ed="X" n="0371a21"/>守護人。恐塵<anchor id="fnX88p0371a04"/>河。於外面各十步。作勾欄。人有散花請
+<lb ed="X" n="0371a21"/>守護人。恐塵<note n="0371004" resp="Xuzangjing" place="foot text" type="orig">河疑汙</note>河。於外面各十步。作勾欄。人有散花請
 <lb ed="X" n="0371a22"/>願。皆於欄外。不許入內。法師敬欲往祈請。買種種花。
 <lb ed="X" n="0371a23"/>穿之為縵。將到像所。至誠禮訖。向菩薩跪。發三願。一
 <lb ed="X" n="0371a24"/>者。於此學<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。得平安還歸本國者。願花住尊手。二者。
@@ -340,33 +345,33 @@ no message
 <lb ed="X" n="0371b16"/>水牛。無復僧侶。法師從幼日王院西門入。見第四重
 <lb ed="X" n="0371b17"/>閣上。有一令人。色貌端嚴。光明滿空。遙指寺外。謂法
 <lb ed="X" n="0371b18"/>師曰。汝隨我看。即尋指外望。見村邑林池。為火焚燒。
-<lb ed="X" n="0371b19"/>並成&CB01926;燼。金人曰。汝可早歸。此處&CB00230;<anchor id="fnX88p0371b05"/>復十餘年。戒日
+<lb ed="X" n="0371b19"/>並成&CB01926;燼。金人曰。汝可早歸。此處&CB00230;<note n="0371005" resp="Xuzangjing" place="foot text" type="orig">復疑後</note>復十餘年。戒日
 <lb ed="X" n="0371b20"/>王崩。印度荒亂。惡人相害。當如此地。汝宜知之。言訖
 <lb ed="X" n="0371b21"/>不見。法師覺<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>&CB00383;歎。向勝軍說之。答曰。三界無安。能
 <lb ed="X" n="0371b22"/>知不爾。此聖人之垂誡。不可不依。是法師所行。皆為
 <lb ed="X" n="0371b23"/>菩薩護念。將往印度。告尸羅而駐待。淹留未返。示無
-<lb ed="X" n="0371b24"/>常以勸歸。若所為。不契聖心。誰能此祚。永<anchor id="fnX88p0371b06"/>微之末。戒
+<lb ed="X" n="0371b24"/>常以勸歸。若所為。不契聖心。誰能此祚。永<note n="0371006" resp="Xuzangjing" place="foot text" type="orig">微疑徽下同</note>微之末。戒
 <pb ed="X" id="X88.1651.0371c" n="0371c"/>
 <lb ed="X" n="0371c01"/>日王果崩。印度飢荒。並如所告。國家使人王&CB15081;玄見
-<lb ed="X" n="0371c02"/>其事。法師在彼之日。&CB00418;那爛陀寺大德師子<anchor id="fnX88p0371c07"/>等光。立
-<lb ed="X" n="0371c03"/>中百論宗。破瑜伽等義。<anchor id="fnX88p0371c08"/>法語之聖人作論。終不相違。
+<lb ed="X" n="0371c02"/>其事。法師在彼之日。&CB00418;那爛陀寺大德師子<note n="0371007" resp="Xuzangjing" place="foot text" type="orig">等光疑顛倒</note>等光。立
+<lb ed="X" n="0371c03"/>中百論宗。破瑜伽等義。<note n="0371008" resp="Xuzangjing" place="foot text" type="orig">法語之三字更勘</note>法語之聖人作論。終不相違。
 <lb ed="X" n="0371c04"/>但學者之不通耳。因造會宗論三千頌。戒賢師<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下。
 <lb ed="X" n="0371c05"/>見咸稱善。彼具流行。先有南印度王灌頂師。名般若
 <lb ed="X" n="0371c06"/>&CB00545;多。明正量部義。造破大乘論七百頌。時戒日王。因
 <lb ed="X" n="0371c07"/>討賊行次。烏荼國小乘師等。保重此論。取以示生。并
 <lb ed="X" n="0371c08"/>請與大乘擊論。王許。遂作書與那爛陀寺。差四大德。
 <lb ed="X" n="0371c09"/>善大小宗及外道經者。可詣行所擬共小乘外道論
-<lb ed="X" n="0371c10"/><anchor id="fnX88p0371c09"/>我。正法藏乃差海惠智覺師子光及法師。為四人應
+<lb ed="X" n="0371c10"/><note n="0371009" resp="Xuzangjing" place="foot text" type="orig">我疑義</note>我。正法藏乃差海惠智覺師子光及法師。為四人應
 <lb ed="X" n="0371c11"/>王之命。未發問。復有順世外道。來求論難。書四十條
 <lb ed="X" n="0371c12"/>義。懸於寺門。法師遣取立論。喚外道共論。往復三四
-<lb ed="X" n="0371c13"/>番。婆羅門<anchor id="fnX88p0371c10"/>點無所說。先有契。屈者斬首相謝。外道請
+<lb ed="X" n="0371c13"/>番。婆羅門<note n="0371010" resp="Xuzangjing" place="foot text" type="orig">點疑默</note>點無所說。先有契。屈者斬首相謝。外道請
 <lb ed="X" n="0371c14"/>依先約。法師曰。我沙門釋子。當不害昆蟲。況煞人乎。
 <lb ed="X" n="0371c15"/>外道歡喜。請終身給侍。聞者無不稱慶。時欲往烏荼。
 <lb ed="X" n="0371c16"/>乃訪得彼論披尋。數處有疑。謂所伏婆羅門曰。汝曾
 <lb ed="X" n="0371c17"/>聽此義不。答曰曾聽。我於時善。法師遣說一遍。備得
 <lb ed="X" n="0371c18"/>其旨。遂尋其謬。即申大乘義破之。為一千六百頌。名
 <lb ed="X" n="0371c19"/>制惡見論。將呈戒賢及德眾。咸悉稱善曰。以此窮竅。
-<lb ed="X" n="0371c20"/>何&CB02584;不<anchor id="fnX88p0371c11"/>巳。法師善得彼宗。乃放所伏婆羅門。隨意所
+<lb ed="X" n="0371c20"/>何&CB02584;不<note n="0371011" resp="Xuzangjing" place="foot text" type="orig">巳疑亡</note>巳。法師善得彼宗。乃放所伏婆羅門。隨意所
 <lb ed="X" n="0371c21"/>之。外道歡喜辭去。往東印度。向拘摩羅王。談法師之
 <lb ed="X" n="0371c22"/>德。王聞甚悅。發使來請。王使再三乃去。是時正欲歸
 <lb ed="X" n="0371c23"/>還。<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>並裝束。那爛陀大德及徒眾。咸皆勸住。法師念
@@ -411,7 +416,7 @@ no message
 <lb ed="X" n="0372b12"/>象。不受錢等。戒日王拘摩羅王等。十八大國王。流淚
 <lb ed="X" n="0372b13"/>辭別。北道而歸。&CB09113;經艱險。度雪山&CB00024;嶺等。歷三十餘
 <lb ed="X" n="0372b14"/>國。到于闐。附表陳請　&CB00330;遣于闐王。多給駝馬。至燉煌
-<lb ed="X" n="0372b15"/>以貞觀十九年春正月。到長安。於西<anchor id="fnX88p0372b01"/>域請轉法輪像
+<lb ed="X" n="0372b15"/>以貞觀十九年春正月。到長安。於西<note n="0372001" resp="Xuzangjing" place="foot text" type="orig">域下疑有脫字</note>域請轉法輪像
 <lb ed="X" n="0372b16"/>等七軀。經論六百五十七部。佛肉舍利一百五十粒。
 <lb ed="X" n="0372b17"/>二十五日送經像於弘福<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。謁帝於洛陽。三月一日。
 <lb ed="X" n="0372b18"/>奉&CB00330;還京師。即於弘福翻譯。及脩西域記。至二十年
@@ -422,8 +427,8 @@ no message
 <lb ed="X" n="0372b23"/>將昏。朗之照八極。舒朗之者。其唯法師乎。朕學淺心
 <lb ed="X" n="0372b24"/>拙。在物猶迷。況教幽微。豐能抑測。請為經題。非<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">巳</rdg></app>所
 <pb ed="X" id="X88.1651.0372c" n="0372c"/>
-<lb ed="X" n="0372c01"/>聞。又云。新撰西域記者。當自披覽。&CB00330;奘<anchor id="fnX88p0372c02A"/>尚法師。又表
-<lb ed="X" n="0372c02"/>謝。兼重請序。至二十二年。駕幸玉華宮。六月敕<anchor id="fnX88p0372c02B"/>追法
+<lb ed="X" n="0372c01"/>聞。又云。新撰西域記者。當自披覽。&CB00330;奘<note n="0372002A" resp="Xuzangjing" place="foot text" type="orig">尚字追字更勘</note><note n="0372002A" resp="CBETA" type="mod">尚字更勘</note>尚法師。又表
+<lb ed="X" n="0372c02"/>謝。兼重請序。至二十二年。駕幸玉華宮。六月敕<note n="0372002B" resp="Xuzangjing" place="foot text" type="orig">尚字追字更勘</note><note n="0372002B" resp="CBETA" type="mod">追字更勘</note>追法
 <lb ed="X" n="0372c03"/>師。既至。接以殊禮　&CB00330;問師比更翻何經論。答近翻
 <lb ed="X" n="0372c04"/>瑜伽師地論一百卷。上曰。此論甚大。何聖所作。復明
 <lb ed="X" n="0372c05"/>何義。答論是彌勒菩薩造。明十七地義。何名十七地。
@@ -462,22 +467,22 @@ no message
 <lb ed="X" n="0373a13"/>量追三兩人。又法師請仰製大慈恩寺&CB15156;文。蒙恩&CB00330;
 <lb ed="X" n="0373a14"/>許。造詞及法師。多所裒贊。&CB15156;文成後。又陳表請神翰
 <lb ed="X" n="0373a15"/>自書。又蒙恩許書訖。法師符佛之再榮。遂共京城僧。
-<lb ed="X" n="0373a16"/>造幢蓋等迎。<anchor id="fnX88p0373a01"/>&CB00330;又遣見在王公太常九部樂及二縣
+<lb ed="X" n="0373a16"/>造幢蓋等迎。<note n="0373001" resp="Xuzangjing" place="foot text" type="orig">勒又疑顛倒</note>&CB00330;又遣見在王公太常九部樂及二縣
 <lb ed="X" n="0373a17"/>音聲。千餘車助送　上居安福門觀之。光楊之美。難
 <lb ed="X" n="0373a18"/>為具述。又施摩雲納一領。妙類前恩。并餘時服百有
 <lb ed="X" n="0373a19"/>餘事。二年駕幸洛陽宮。法師預往。安置在稱翠宮。於
 <lb ed="X" n="0373a20"/>大內麗日殿。翻觀所緣緣論等。又翻大毗婆沙等論。
 <lb ed="X" n="0373a21"/>在所無輟。其少室山西北緱氏故縣。南遊仙鄉控&CB15112;
-<lb ed="X" n="0373a22"/>里鳳凰谷。是法師之生地。<anchor id="fnX88p0373a02"/>某少室山北少林寺。是巍
+<lb ed="X" n="0373a22"/>里鳳凰谷。是法師之生地。<note n="0373002" resp="Xuzangjing" place="foot text" type="orig">某疑其</note>某少室山北少林寺。是巍
 <lb ed="X" n="0373a23"/>孝父所立。極山泉之美。是并流支譯經之處。法師意
 <lb ed="X" n="0373a24"/>願&CB00244;託。至九月。陳表請住少林。為國翻譯。蒙神筆報
 <pb ed="X" id="X88.1651.0373b" n="0373b"/>
 <lb ed="X" n="0373b01"/>書云。省表。知欲晦&CB00528;巖泉。追林遠而架往。託慮禪寂
-<lb ed="X" n="0373b02"/>軌<anchor id="fnX88p0373b03"/>證什。以標今。仰挹風微。寔所欽尚。朕業空學寡。靡
+<lb ed="X" n="0373b02"/>軌<note n="0373003" resp="Xuzangjing" place="foot text" type="orig">證疑澄</note>證什。以標今。仰挹風微。寔所欽尚。朕業空學寡。靡
 <lb ed="X" n="0373b03"/>究高深。然以淺識薄聞。未見其可。法師津梁三界。汲
 <lb ed="X" n="0373b04"/>引四生。智皎心燈。定凝意水。非情塵之所曀。豈識浪
 <lb ed="X" n="0373b05"/>之能驚。然以道德可居。何必太華疊嶺。空寂可舍。豈
-<lb ed="X" n="0373b06"/>獨少<anchor id="fnX88p0373b04"/>室重巒。幸戢來言。勿復陳請。即市朝大隱。不獨
+<lb ed="X" n="0373b06"/>獨少<note n="0373004" resp="Xuzangjing" place="foot text" type="orig">補入室字</note>室重巒。幸戢來言。勿復陳請。即市朝大隱。不獨
 <lb ed="X" n="0373b07"/>貴於昔賢。見聞弘益。更可珍於即代。既戢遺言。不敢
 <lb ed="X" n="0373b08"/>重請。又顯慶三年中　&CB00330;為皇太子。於漢王故宅。造
 <lb ed="X" n="0373b09"/>西明寺。令給法師上房一口。新度僧十人。以死為弟
@@ -544,7 +549,7 @@ no message
 <lb ed="X" n="0374a20"/>菩薩像骨。對寺眾及門徒。各各歡喜。辭訣取別。又造
 <lb ed="X" n="0374a21"/>遺表。弟子窺基奉進。遂嘿正念。後人說偈教傍人誦
 <lb ed="X" n="0374a22"/>云。南謨彌勒如來應正等覺。取與含識。速奉慈顏。南
-<lb ed="X" n="0374a23"/>謨彌勒如來所居內眾。<anchor id="fnX88p0374a01"/>取捨命<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。必生其中。至二月
+<lb ed="X" n="0374a23"/>謨彌勒如來所居內眾。<note n="0374001" resp="Xuzangjing" place="foot text" type="orig">取疑願</note>取捨命<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。必生其中。至二月
 <lb ed="X" n="0374a24"/>四日。看病僧明藏見二人。各長丈餘。著白衣冠。各以
 <pb ed="X" id="X88.1651.0374b" n="0374b"/>
 <lb ed="X" n="0374b01"/>一手。共擎一大白蓮花。花臺三重。非常可愛。如小車
@@ -578,8 +583,8 @@ no message
 <lb ed="X" n="0374c04"/>質。湛萬蹟之波瀾。救溺俗為心憂。匡大法為身事。
 <lb ed="X" n="0374c05"/>故能陟重阻以求經。履危途而訪道。見珍殊俗。具獲
 <lb ed="X" n="0374c06"/>真文。自如來一代所說。鷲&CB00123;方等之教。鹿苑半字之
-<lb ed="X" n="0374c07"/>文。爰至後聖馬鳴龍猛無著天親諸所製<anchor id="fnX88p0374c02"/>依及&CB01926;山
-<lb ed="X" n="0374c08"/>柱等十八異執之崇。五部殊塗之致。並<anchor id="fnX88p0374c03"/>雙。羅研究達
+<lb ed="X" n="0374c07"/>文。爰至後聖馬鳴龍猛無著天親諸所製<note n="0374002" resp="Xuzangjing" place="foot text" type="orig">依疑作</note>依及&CB01926;山
+<lb ed="X" n="0374c08"/>柱等十八異執之崇。五部殊塗之致。並<note n="0374003" resp="Xuzangjing" place="foot text" type="orig">雙疑&CB01495;</note>雙。羅研究達
 <lb ed="X" n="0374c09"/>其旨。悉得其文。并佛處代之&CB00528;。如陰&CB00410;洹堅固之林。
 <lb ed="X" n="0374c10"/>降魔菩提之樹。迦路崇高之塔。那竭留影之山。皆躬
 <lb ed="X" n="0374c11"/>申禮敬。亦無遺矣。心期充滿。覺&CB15095;復周。將施本土。遂
@@ -603,7 +608,7 @@ no message
 <lb ed="X" n="0375a04"/>理等。皆是鎮國之寶。學人藪澤。然譯經之事。其來自
 <lb ed="X" n="0375a05"/>文起漢摩騰。迄今三藏。前後道俗百餘人。先代翻譯。
 <lb ed="X" n="0375a06"/>多是婆羅門法師。為初至東□夏。方言未融。承受之
-<lb ed="X" n="0375a07"/>者。領會艱阻。每傳一句。必詳審疑迴。是以倒多說<anchor id="fnX88p0375a01"/>毗
+<lb ed="X" n="0375a07"/>者。領會艱阻。每傳一句。必詳審疑迴。是以倒多說<note n="0375001" resp="Xuzangjing" place="foot text" type="orig">毗字更勘</note>毗
 <lb ed="X" n="0375a08"/>今日法師。唐梵二方。言詞明達。傳譯便巧。如擎一物
 <lb ed="X" n="0375a09"/>掌上示人。了然無殊。所以歲月未多。而功倍前哲。至
 <lb ed="X" n="0375a10"/>如羅什稱善秦言。譯經十有餘年。唯得二百餘卷。以
@@ -793,7 +798,7 @@ no message
 <lb ed="X" n="0377b19"/>至理無言。詮其道者
 <lb ed="C X" n="0377b20"/>聖帝。伏惟　陛下纂靈出震。撫運登摳。勝茂九瀛。掩
 <lb ed="X" n="0377b21"/>骨庭而獨步。飛英八極。&CB06550;軒昊而高視。分麾紫塞。翦
-<lb ed="X" n="0377b22"/><anchor id="fnX88p0377b01"/>隨&CB02480;於幽陵。駐蹕青丘。蕩妖氛於蟠木。武功既戢。歸
+<lb ed="X" n="0377b22"/><note n="0377001" resp="Xuzangjing" place="foot text" type="orig">隨與隋同</note>隨&CB02480;於幽陵。駐蹕青丘。蕩妖氛於蟠木。武功既戢。歸
 <lb ed="X" n="0377b23"/>馬華山。文德載宣。受圖宛岫。於是刊書延閣。創禮容
 <lb ed="X" n="0377b24"/>臺。鳳篆龜文既藏&CB16771;於東觀。銀&CB06685;玉字亦洗汙於南
 <pb ed="X" id="X88.1651.0377c" n="0377c"/>
@@ -816,30 +821,30 @@ no message
 <lb ed="X" n="0377c17"/>謹言。</p>
 <lb ed="X" n="0377c18"/><p id="pX88p0377c1801" rend="margin-left:4em">貞觀二十年七月十三日沙門玄奘上</p></div2>
 <lb ed="X" n="0377c19"/><div2 type="other"><mulu type="其他" level="2" label="進西域記表"/><head>進西域記表</head>
-<lb ed="X" n="0377c20"/><p id="pX88p0377c2001">沙門玄奘<anchor id="fnX88p0377c02"/>言。蟠木幽陵。雲官紀軒皇之壤。流沙滄海。
-<lb ed="X" n="0377c21"/>夏載著伊堯之域。西<anchor id="fnX88p0377c03"/>羌白環。薦垂衣之<anchor id="fnX88p0377c04"/>后。東夷楛矢。
-<lb ed="X" n="0377c22"/><anchor id="fnX88p0377c05"/>賄刑措之君。固<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>飛英曩伐式微前典。伏惟　陛下。
-<lb ed="X" n="0377c23"/>握紀乘時。提衡<anchor id="fnX88p0377c06"/>範物。刳舟弦木。威天下而濟群生。螯
+<lb ed="X" n="0377c20"/><p id="pX88p0377c2001">沙門玄奘<note n="0377002" resp="Xuzangjing" place="foot text" type="orig">言下麗本傳有竊尋二字</note>言。蟠木幽陵。雲官紀軒皇之壤。流沙滄海。
+<lb ed="X" n="0377c21"/>夏載著伊堯之域。西<note n="0377003" resp="Xuzangjing" place="foot text" type="orig">羌傳作母</note>羌白環。薦垂衣之<note n="0377004" resp="Xuzangjing" place="foot text" type="orig">后作主</note>后。東夷楛矢。
+<lb ed="X" n="0377c22"/><note n="0377005" resp="Xuzangjing" place="foot text" type="orig">賄傳作奉</note>賄刑措之君。固<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>飛英曩伐式微前典。伏惟　陛下。
+<lb ed="X" n="0377c23"/>握紀乘時。提衡<note n="0377006" resp="Xuzangjing" place="foot text" type="orig">範物傳作制範</note>範物。刳舟弦木。威天下而濟群生。螯
 <lb ed="X" n="0377c24"/>足蘆&CB01926;。堙方輿而補圓&CB00582;。曜武經於七德。闡文教於
 <pb ed="X" id="X88.1651.0378a" n="0378a"/>
 <lb ed="X" n="0378a01"/>十倫。澤&CB00642;泉源。化霑蕭葦。房芝發秀。井浪開華。樂囿
-<lb ed="X" n="0378a02"/>馴班。巢阿響律。浮紫膏於貝闕。霏白雲於玉撿。遂<anchor id="fnX88p0378a01"/>使
-<lb ed="X" n="0378a03"/>菀若木而池濛氾。<anchor id="fnX88p0378a02"/>霈炎火而照積&CB00457;。梯赤&CB00095;而承朔。
+<lb ed="X" n="0378a02"/>馴班。巢阿響律。浮紫膏於貝闕。霏白雲於玉撿。遂<note n="0378001" resp="Xuzangjing" place="foot text" type="orig">使菀若傳作苑</note>使
+<lb ed="X" n="0378a03"/>菀若木而池濛氾。<note n="0378002" resp="Xuzangjing" place="foot text" type="orig">◎弱霈作團（◎印&M062446;弱&M062446;字未詳。&CB18834;）</note>霈炎火而照積&CB00457;。梯赤&CB00095;而承朔。
 <lb ed="X" n="0378a04"/>泛蒼津而委晝。史曠前良。事絕故府。豈如漢開張掖。
-<lb ed="X" n="0378a05"/>延接金城。秦戍桂林。<anchor id="fnX88p0378a03"/>裁通珠浦而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。玄奘幸屬天地
-<lb ed="X" n="0378a06"/>貞觀。華夷靜謐。冥心梵境。敢符好事。命均朝露。<anchor id="fnX88p0378a04"/>&CB14068;譬
-<lb ed="X" n="0378a07"/>秋螽。徒以<anchor id="fnX88p0378a05"/>上假皇靈。<anchor id="fnX88p0378a06"/>下資螾命。飄<anchor id="fnX88p0378a07"/>身<anchor id="fnX88p0378a08"/>邁&CB00528;。求遐自邇。
-<lb ed="X" n="0378a08"/>展轉膜拜之鄉。流離重<anchor id="fnX88p0378a09"/>譯之外。條支巨<anchor id="fnX88p0378a10"/>&CB15179;。方驗前開。
-<lb ed="X" n="0378a09"/>&CB15583;賓孤鸞。還稽曩實。時福歲積。人<anchor id="fnX88p0378a11"/>欲天從。遂得下<anchor id="fnX88p0378a12"/>處
-<lb ed="X" n="0378a10"/>岫而洽提河。<anchor id="fnX88p0378a13"/>援&CB03461;林而<anchor id="fnX88p0378a14"/>栖鷲嶺。祇園之路。<anchor id="fnX88p0378a15"/>麗迤空存。
-<lb ed="X" n="0378a11"/>王舍之基。<anchor id="fnX88p0378a16"/>婆陀<anchor id="fnX88p0378a17"/>可陟。尋求歷&CB15095;。時序推遷。言反　帝
-<lb ed="X" n="0378a12"/>京。<anchor id="fnX88p0378a18"/>忽將二紀。所聞所履。百<anchor id="fnX88p0378a19"/>省卅八國。竊以章<anchor id="fnX88p0378a20"/>允之所
+<lb ed="X" n="0378a05"/>延接金城。秦戍桂林。<note n="0378003" resp="Xuzangjing" place="foot text" type="orig">裁傳作纔</note>裁通珠浦而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。玄奘幸屬天地
+<lb ed="X" n="0378a06"/>貞觀。華夷靜謐。冥心梵境。敢符好事。命均朝露。<note n="0378004" resp="Xuzangjing" place="foot text" type="orig">&CB14068;傳作力</note>&CB14068;譬
+<lb ed="X" n="0378a07"/>秋螽。徒以<note n="0378005" resp="Xuzangjing" place="foot text" type="orig">上作憑</note>上假皇靈。<note n="0378006" resp="Xuzangjing" place="foot text" type="orig">無下資螾命四字</note>下資螾命。飄<note n="0378007" resp="Xuzangjing" place="foot text" type="orig">身下有進影二字</note>身<note n="0378008" resp="Xuzangjing" place="foot text" type="orig">無邁等六字</note>邁&CB00528;。求遐自邇。
+<lb ed="X" n="0378a08"/>展轉膜拜之鄉。流離重<note n="0378009" resp="Xuzangjing" place="foot text" type="orig">譯作驛</note>譯之外。條支巨<note n="0378010" resp="Xuzangjing" place="foot text" type="orig">雀作&CB18955;</note>&CB15179;。方驗前開。
+<lb ed="X" n="0378a09"/>&CB15583;賓孤鸞。還稽曩實。時福歲積。人<note n="0378011" resp="Xuzangjing" place="foot text" type="orig">欲作願</note>欲天從。遂得下<note n="0378012" resp="Xuzangjing" place="foot text" type="orig">處作雪</note>處
+<lb ed="X" n="0378a10"/>岫而洽提河。<note n="0378013" resp="Xuzangjing" place="foot text" type="orig">援作窺</note>援&CB03461;林而<note n="0378014" resp="Xuzangjing" place="foot text" type="orig">栖作觀</note>栖鷲嶺。祇園之路。<note n="0378015" resp="Xuzangjing" place="foot text" type="orig">麗迤空作髣像猶</note>麗迤空存。
+<lb ed="X" n="0378a11"/>王舍之基。<note n="0378016" resp="Xuzangjing" place="foot text" type="orig">婆作坡</note>婆陀<note n="0378017" resp="Xuzangjing" place="foot text" type="orig">可＊陡作尚在（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>可陟。尋求歷&CB15095;。時序推遷。言反　帝
+<lb ed="X" n="0378a12"/>京。<note n="0378018" resp="Xuzangjing" place="foot text" type="orig">忽將二作淹逾一</note>忽將二紀。所聞所履。百<note n="0378019" resp="Xuzangjing" place="foot text" type="orig">省卅作有廿</note>省卅八國。竊以章<note n="0378020" resp="Xuzangjing" place="foot text" type="orig">允作彥</note>允之所
 <lb ed="X" n="0378a13"/>踐藉。空陳廣袤。夸父之所淩厲。無述土風。班超侯而
-<lb ed="X" n="0378a14"/>未遠。張騫望而非&CB00397;。<anchor id="fnX88p0378a21"/>至於玄奘所記。微為詳盡。其迂
+<lb ed="X" n="0378a14"/>未遠。張騫望而非&CB00397;。<note n="0378021" resp="Xuzangjing" place="foot text" type="orig">至等二十字作今所記述有異前聞雖未極大千之疆頗窮&CB00024;外之境皆存實錄匪敢彫華謹具編裁稱</note>至於玄奘所記。微為詳盡。其迂
 <lb ed="X" n="0378a15"/>辭瑋說多從翦&CB00020;。綴為大唐西域記。一十二卷。繕寫
-<lb ed="X" n="0378a16"/>如別。<anchor id="fnX88p0378a22"/>玄奘稟質愚魯。昧於緝實。望須之右筆。<anchor id="fnX88p0378a23"/>&CB00496;以左
-<lb ed="X" n="0378a17"/>言。<anchor id="fnX88p0378a24"/>截此蕪辭。採其實錄。標百王之稱首。<anchor id="fnX88p0378a25"/>苻九丘於皇
-<lb ed="X" n="0378a18"/>代。<anchor id="fnX88p0378a26"/>庶使山經悶彩汲傳韜華。無任區區。謹詣闕奉輕
+<lb ed="X" n="0378a16"/>如別。<note n="0378022" resp="Xuzangjing" place="foot text" type="orig">無玄等十字</note>玄奘稟質愚魯。昧於緝實。望須之右筆。<note n="0378023" resp="Xuzangjing" place="foot text" type="orig">&CB00496;作飾</note>&CB00496;以左
+<lb ed="X" n="0378a17"/>言。<note n="0378024" resp="Xuzangjing" place="foot text" type="orig">截等十四字作掩博物於晉臣</note>截此蕪辭。採其實錄。標百王之稱首。<note n="0378025" resp="Xuzangjing" place="foot text" type="orig">＊符作廣（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>苻九丘於皇
+<lb ed="X" n="0378a18"/>代。<note n="0378026" resp="Xuzangjing" place="foot text" type="orig">庶巳下作但玄奘資識淺短遺漏寔多兼拙於筆語恐無足觀覽</note><note n="0378026" resp="CBETA" type="mod">庶<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下作但玄奘資識淺短遺漏寔多兼拙於筆語恐無足觀覽</note>庶使山經悶彩汲傳韜華。無任區區。謹詣闕奉輕
 <lb ed="X" n="0378a19"/>塵旒扆伏深戰&CB16710;。謹言。</p>
 <lb ed="X" n="0378a20"/><p id="pX88p0378a2001" rend="margin-left:4em">貞觀廿年七月十三日沙門玄奘狀上</p></div2>
 <lb ed="X" n="0378a21"/><div2 type="other"><mulu type="其他" level="2" label="請　大宗文皇帝作經序并題經表"/><head>請　大宗文皇帝作經序并題經表</head>
@@ -848,64 +853,64 @@ no message
 <lb ed="X" n="0378a24"/>殊方。遠賴皇威。所期咸濟。去年二月。奉　詔翻譯。令
 <pb ed="X" id="X88.1651.0378b" n="0378b"/>
 <lb ed="X" n="0378b01"/>見成五部總五十八卷。繕寫如別。竊見弘福幸尊像
-<lb ed="X" n="0378b02"/>初成。<anchor id="fnX88p0378b27"/>聖上親降鑾輿。開青蓮之目。今經論<anchor id="fnX88p0378b28"/>新翻。敢錄
-<lb ed="X" n="0378b03"/><anchor id="fnX88p0378b29"/>斯義。<anchor id="fnX88p0378b30"/>伏願階下曲垂神翰。<anchor id="fnX88p0378b31"/>表發經題。親紆玄藻。序明
+<lb ed="X" n="0378b02"/>初成。<note n="0378027" resp="Xuzangjing" place="foot text" type="orig">聖上傳作陛下</note>聖上親降鑾輿。開青蓮之目。今經論<note n="0378028" resp="Xuzangjing" place="foot text" type="orig">新＊譯作初譯為聖代新文（＊印&M062446;字&M062447;本文&M062440;異&M062442;&M062475;。&CB18834;）</note>新翻。敢錄
+<lb ed="X" n="0378b03"/><note n="0378029" resp="Xuzangjing" place="foot text" type="orig">斯作前</note>斯義。<note n="0378030" resp="Xuzangjing" place="foot text" type="orig">伏等四字作亦望</note>伏願階下曲垂神翰。<note n="0378031" resp="Xuzangjing" place="foot text" type="orig">表等十八字作題製一序讚揚宗極冀沖言奧旨</note>表發經題。親紆玄藻。序明
 <lb ed="X" n="0378b04"/>宗極。所望天文秘思。與日月齊明。玉字銀釣。將乾坤
-<lb ed="X" n="0378b05"/>等固。<anchor id="fnX88p0378b32"/>庶百代之下。歌詠無窮。千載之外。瞻仰無絕。不
+<lb ed="X" n="0378b05"/>等固。<note n="0378032" resp="Xuzangjing" place="foot text" type="orig">庶作將</note>庶百代之下。歌詠無窮。千載之外。瞻仰無絕。不
 <lb ed="X" n="0378b06"/>任慺慺之至。謹奉表以聞。輕觸天威。伏增悚汗。謹言。</p>
 <lb ed="X" n="0378b07"/><p id="pX88p0378b0701" rend="margin-left:4em">貞觀廿年七月十三日沙門玄奘上表</p></div2>
 <lb ed="X" n="0378b08"/><div2 type="other"><mulu type="其他" level="2" label="大宗文皇帝報請作經序　＆CB00330；書"/><head>大宗文皇帝報請作經序　　&CB00330;書</head>
 <lb ed="X" n="0378b09"/><p id="pX88p0378b0901">省書具悉來意。法師夙標高行。早出塵表。泛寶舟而
 <lb ed="X" n="0378b10"/>登彼岸。搜妙道而闢法門。弘闡大猷。蕩滌眾罪。是故
 <lb ed="X" n="0378b11"/>慈雲欲卷舒之蔭四空。慧日將昏朗之照八極。舒朗
-<lb ed="X" n="0378b12"/>之者。其<anchor id="fnX88p0378b33"/>惟法師乎。朕學淺心柮。在物猶迷。況佛教幽
+<lb ed="X" n="0378b12"/>之者。其<note n="0378033" resp="Xuzangjing" place="foot text" type="orig">惟傳作唯</note>惟法師乎。朕學淺心柮。在物猶迷。況佛教幽
 <lb ed="X" n="0378b13"/>微。豈能仰測。請為經題。非<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>所聞。又云。新撰西域記
 <lb ed="X" n="0378b14"/>者。當自披&CB15095;。&CB00330;奘尚。</p>
 <lb ed="X" n="0378b15"/><p id="pX88p0378b1501">貞觀廿年七月十三日內出與玄奘法師謝</p></div2>
 <lb ed="X" n="0378b16"/><div2 type="other"><mulu type="其他" level="2" label="大宗文皇帝＆CB00330；書表"/><head>大宗文皇帝&CB00330;書表</head>
 <lb ed="X" n="0378b17"/><p id="pX88p0378b1701">沙門玄奘言。伏奉　墨&CB00330;。猥垂獎喻。祇奉綸言。精守
-<lb ed="X" n="0378b18"/>振越。<anchor id="fnX88p0378b34"/>玄奘誠惶誠恐。玄奘業<anchor id="fnX88p0378b35"/>尚空&CB00520;。謬參<anchor id="fnX88p0378b36"/>法侶。幸屬
+<lb ed="X" n="0378b18"/>振越。<note n="0378034" resp="Xuzangjing" place="foot text" type="orig">傳無玄等六字</note>玄奘誠惶誠恐。玄奘業<note n="0378035" resp="Xuzangjing" place="foot text" type="orig">尚作行</note>尚空&CB00520;。謬參<note n="0378036" resp="Xuzangjing" place="foot text" type="orig">法作緇</note>法侶。幸屬
 <lb ed="X" n="0378b19"/>九瀛有截。四表無虞。&CB02712;皇靈以遠征。恃　國威而訪
-<lb ed="X" n="0378b20"/>道。窮遐&CB04393;險。雖勵愚誠。<anchor id="fnX88p0378b37"/>慕異懷荒。寔資朝化。所獲經
-<lb ed="X" n="0378b21"/>論。<anchor id="fnX88p0378b38A"/>奉　<anchor id="fnX88p0378b38B"/>&CB00330;翻譯。見成卷軸。未有詮序。伏惟　陛下叡
-<lb ed="X" n="0378b22"/>思雲敷。天華景爛。理苞繫象。詞逸<anchor id="fnX88p0378b39"/>威英。跨千古以飛
+<lb ed="X" n="0378b20"/>道。窮遐&CB04393;險。雖勵愚誠。<note n="0378037" resp="Xuzangjing" place="foot text" type="orig">慕傳作纂</note>慕異懷荒。寔資朝化。所獲經
+<lb ed="X" n="0378b21"/>論。<note n="0378038A" resp="Xuzangjing" place="foot text" type="orig">奉&CB00330;傳作蒙遣</note><note n="0378038A" resp="CBETA" type="mod">奉傳作蒙</note>奉　<note n="0378038B" resp="Xuzangjing" place="foot text" type="orig">奉&CB00330;傳作蒙遣</note><note n="0378038B" resp="CBETA" type="mod">&CB00330;傳作遣</note>&CB00330;翻譯。見成卷軸。未有詮序。伏惟　陛下叡
+<lb ed="X" n="0378b22"/>思雲敷。天華景爛。理苞繫象。詞逸<note n="0378039" resp="Xuzangjing" place="foot text" type="orig">威傳作成</note>威英。跨千古以飛
 <lb ed="X" n="0378b23"/>聲。掩百王而騰實。竊以神力無方。非　神思不定詮
 <lb ed="X" n="0378b24"/>其理。聖教玄遠。非　聖藻何以序其源。故乃&CB04393;犯威
 <pb ed="X" id="X88.1651.0378c" n="0378c"/>
 <lb ed="X" n="0378c01"/>嚴。敢希題目。　震睠沖邈。不垂矜許。撫躬累息。相領
 <lb ed="X" n="0378c02"/>失圖。玄奘聞。日月麗天。既分暉於戶牖。江河紀地。亦
 <lb ed="X" n="0378c03"/>流潤於巖涯。雲和廣樂。不秘響於聾昧。金璧奇珍。豈
-<lb ed="X" n="0378c04"/>韜彩於愚瞽。敢緣斯理。重以于祈。伏乞<anchor id="fnX88p0378c40"/>雲雨曲垂。天
-<lb ed="X" n="0378c05"/>文<anchor id="fnX88p0378c41"/>府照。配兩儀而同久。與二耀而俱懸。然則鷲嶺微
+<lb ed="X" n="0378c04"/>韜彩於愚瞽。敢緣斯理。重以于祈。伏乞<note n="0378040" resp="Xuzangjing" place="foot text" type="orig">雲傳作雷</note>雲雨曲垂。天
+<lb ed="X" n="0378c05"/>文<note n="0378041" resp="Xuzangjing" place="foot text" type="orig">府傳作俯</note>府照。配兩儀而同久。與二耀而俱懸。然則鷲嶺微
 <lb ed="X" n="0378c06"/>言。假神筆而弘遠。&CB00470;園奧典。託英詞而宣暢。豈止區
 <lb ed="X" n="0378c07"/>區梵眾。獨荷恩榮。蠢蠢迷生。方超塵累而<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。無任誠
 <lb ed="X" n="0378c08"/>懇之至。謹詣闕奉表以聞。輕觸天威。伏深戰慄。謹言。</p>
 <lb ed="X" n="0378c09"/><p id="pX88p0378c0901" rend="margin-left:4em">貞觀廿年七月十四日沙門玄奘上表</p></div2>
 <lb ed="X" n="0378c10"/><div2 type="other"><mulu type="其他" level="2" label="謝納袈裟剃刀表一首"/><head>謝納袈裟剃刀表一首</head>
-<lb ed="X" n="0378c11"/><p id="pX88p0378c1101">沙門玄奘<anchor id="fnX88p0378c42"/>言。伏奉　&CB00330;<anchor id="fnX88p0378c43"/>旨<anchor id="fnX88p0378c44"/>施納袈裟一領。<anchor id="fnX88p0378c45"/>賓&CB05033;剃刀
-<lb ed="X" n="0378c12"/>一口。<anchor id="fnX88p0378c46"/>雲雨曲垂。謬霑霈澤。光命隆厚。精守震越。玄奘
+<lb ed="X" n="0378c11"/><p id="pX88p0378c1101">沙門玄奘<note n="0378042" resp="Xuzangjing" place="foot text" type="orig">傳無言字</note>言。伏奉　&CB00330;<note n="0378043" resp="Xuzangjing" place="foot text" type="orig">旨作賜</note>旨<note n="0378044" resp="Xuzangjing" place="foot text" type="orig">無施字</note>施納袈裟一領。<note n="0378045" resp="Xuzangjing" place="foot text" type="orig">無賓鐵二字</note>賓&CB05033;剃刀
+<lb ed="X" n="0378c12"/>一口。<note n="0378046" resp="Xuzangjing" place="foot text" type="orig">雲等十六字作殊命荐臻寵靈隆赫恭對惶悸如履春&CB00457;</note>雲雨曲垂。謬霑霈澤。光命隆厚。精守震越。玄奘
 <pb ed="X" id="X88.1651.0379a" n="0379a"/>
-<lb ed="X" n="0379a01"/>幸遭<anchor id="fnX88p0379a01"/>文明之化。早預息心之侶。三業無紀。四恩靡答。
-<lb ed="X" n="0379a02"/><anchor id="fnX88p0379a02"/>皇睠不遺。思榮府墜。忍辱之<anchor id="fnX88p0379a03"/>服。彩含流霞。智慧之刀。
+<lb ed="X" n="0379a01"/>幸遭<note n="0379001" resp="Xuzangjing" place="foot text" type="orig">文明作邕穆</note>文明之化。早預息心之侶。三業無紀。四恩靡答。
+<lb ed="X" n="0379a02"/><note n="0379002" resp="Xuzangjing" place="foot text" type="orig">皇等八字作謬迴天睠濫叨雲澤</note>皇睠不遺。思榮府墜。忍辱之<note n="0379003" resp="Xuzangjing" place="foot text" type="orig">服作衣</note>服。彩含流霞。智慧之刀。
 <lb ed="X" n="0379a03"/>銛逾切玉。謹當服以降煩惱之魔。佩以斷塵勞之網。
-<lb ed="X" n="0379a04"/>起餘譏於彼<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>。懼空&CB00520;於&CB04393;<anchor id="fnX88p0379a04"/>恩。<anchor id="fnX88p0379a05"/>濫叨殊禮。慚恧屏<anchor id="fnX88p0379a06"/>營。
-<lb ed="X" n="0379a05"/>不<anchor id="fnX88p0379a07"/>勝悚荷之至。謹奉表<anchor id="fnX88p0379a08"/>陳謝以聞。塵黷<anchor id="fnX88p0379a09"/>天鑒。伏深戰
+<lb ed="X" n="0379a04"/>起餘譏於彼<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>。懼空&CB00520;於&CB04393;<note n="0379004" resp="Xuzangjing" place="foot text" type="orig">恩作榮</note>恩。<note n="0379005" resp="Xuzangjing" place="foot text" type="orig">無濫叨殊禮四字</note>濫叨殊禮。慚恧屏<note n="0379006" resp="Xuzangjing" place="foot text" type="orig">營下有趍承俯僂鞠心跼蹐精爽飛越十二字</note>營。
+<lb ed="X" n="0379a05"/>不<note n="0379007" resp="Xuzangjing" place="foot text" type="orig">勝作任</note>勝悚荷之至。謹奉表<note n="0379008" resp="Xuzangjing" place="foot text" type="orig">無陳字</note>陳謝以聞。塵黷<note n="0379009" resp="Xuzangjing" place="foot text" type="orig">天作聖</note>天鑒。伏深戰
 <lb ed="X" n="0379a06"/>慄。謹言。</p>
 <lb ed="X" n="0379a07"/><p id="pX88p0379a0701" rend="margin-left:3em">貞觀廿二年七月十四日沙門玄奘上表</p></div2>
 <lb ed="X" n="0379a08"/><div2 type="other"><mulu type="其他" level="2" label="謝大宗文皇帝製三藏聖教序表"/><head>謝大宗文皇帝製三藏聖教序表</head>
 <lb ed="X" n="0379a09"/><p id="pX88p0379a0901">沙門玄奘言。竊聞六爻探&CB04435;。局於生滅之場。百物正
 <lb ed="X" n="0379a10"/>名。未涉真如之境。猶且違微義冊。&CB00418;奧不測其神。遐
-<lb ed="X" n="0379a11"/>想軒圖。歷選並歸其<anchor id="fnX88p0379a10"/>義。伏惟　皇帝陛下玉毫降質。
-<lb ed="X" n="0379a12"/>金輪御天。廓先王之九州。掩百千之日月。廣<anchor id="fnX88p0379a11"/>烈代之
+<lb ed="X" n="0379a11"/>想軒圖。歷選並歸其<note n="0379010" resp="Xuzangjing" place="foot text" type="orig">義傳作美</note>義。伏惟　皇帝陛下玉毫降質。
+<lb ed="X" n="0379a12"/>金輪御天。廓先王之九州。掩百千之日月。廣<note n="0379011" resp="Xuzangjing" place="foot text" type="orig">烈與列通</note>烈代之
 <lb ed="X" n="0379a13"/>區域。納恒沙之法界。遂使給園精舍。並入隄封。貝葉
 <lb ed="X" n="0379a14"/>靈文。咸歸&CB04693;府。玄奘往因振錫聊謁崛山。經途萬里。
-<lb ed="X" n="0379a15"/><anchor id="fnX88p0379a12"/>帖天威如<anchor id="fnX88p0379a13"/>尺步。匪乘千葉。詣雙林如食頃。搜揚三藏。
-<lb ed="X" n="0379a16"/>盡龍宮之所儲。研究一乘。窮鷲嶺之遺旨。並<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>載<anchor id="fnX88p0379a14"/>之
-<lb ed="X" n="0379a17"/>素象。<anchor id="fnX88p0379a15"/>遠獻紫震。尋蒙下<anchor id="fnX88p0379a16"/>詔。賜使&CB00549;譯。玄奘識乖龍樹。
+<lb ed="X" n="0379a15"/><note n="0379012" resp="Xuzangjing" place="foot text" type="orig">帖傳作峙</note>帖天威如<note n="0379013" resp="Xuzangjing" place="foot text" type="orig">尺作咫</note>尺步。匪乘千葉。詣雙林如食頃。搜揚三藏。
+<lb ed="X" n="0379a16"/>盡龍宮之所儲。研究一乘。窮鷲嶺之遺旨。並<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>載<note n="0379014" resp="Xuzangjing" place="foot text" type="orig">之素象傳作於白馬</note>之
+<lb ed="X" n="0379a17"/>素象。<note n="0379015" resp="Xuzangjing" place="foot text" type="orig">遠傳作還</note>遠獻紫震。尋蒙下<note n="0379016" resp="Xuzangjing" place="foot text" type="orig">詔作&CB18767;</note>詔。賜使&CB00549;譯。玄奘識乖龍樹。
 <lb ed="X" n="0379a18"/>謬忝傳燈之榮。才異馬鳴。深愧寫瓶之敏。所譯經論。
-<lb ed="X" n="0379a19"/>紕舛尤多。遂符天恩。留神構序。文超象繫之表。<anchor id="fnX88p0379a17A"/>若聚
-<lb ed="X" n="0379a20"/>日之放千光。理括眾妙之門。<anchor id="fnX88p0379a17B"/>同法雲之濡百草。一音
-<lb ed="X" n="0379a21"/>演說億劫寂逢。忽以微生。親承梵<anchor id="fnX88p0379a18"/>響。踊躍歡喜。如聞
+<lb ed="X" n="0379a19"/>紕舛尤多。遂符天恩。留神構序。文超象繫之表。<note n="0379017A" resp="Xuzangjing" place="foot text" type="orig">傳無若等七字同等十五字</note><note n="0379017A" resp="CBETA" type="mod">傳無若等七字</note>若聚
+<lb ed="X" n="0379a20"/>日之放千光。理括眾妙之門。<note n="0379017B" resp="Xuzangjing" place="foot text" type="orig">傳無若等七字同等十五字</note><note n="0379017B" resp="CBETA" type="mod">傳無同等十五字</note>同法雲之濡百草。一音
+<lb ed="X" n="0379a21"/>演說億劫寂逢。忽以微生。親承梵<note n="0379018" resp="Xuzangjing" place="foot text" type="orig">響傳作嚮</note>響。踊躍歡喜。如聞
 <lb ed="X" n="0379a22"/>受記。無任欣荷之極。謹奉表詣闕。陳謝以聞。謹言。</p>
 <lb ed="X" n="0379a23"/><p id="pX88p0379a2301" rend="margin-left:3em">貞觀廿二年八月五日沙門玄奘上表謝</p></div2>
 <lb ed="X" n="0379a24"/><div2 type="other"><mulu type="其他" level="2" label="大宗文皇帝報玄奘法師謝表　＆CB00330；書"/><head>大宗文皇帝報玄奘法師謝表　　&CB00330;書</head>
@@ -916,7 +921,7 @@ no message
 <lb ed="X" n="0379b04"/>空勞致謝。</p>
 <lb ed="X" n="0379b05"/><p id="pX88p0379b0501">貞觀廿二年八月五日內出與玄奘法師</p></div2>
 <lb ed="X" n="0379b06"/><div2 type="other"><mulu type="其他" level="2" label="謝述聖記啟"/><head>謝述聖記啟</head>
-<lb ed="X" n="0379b07"/><p id="pX88p0379b0701">沙門玄奘啟。竊以。識真者寡。每苦<anchor id="fnX88p0379b19"/>但東之路。迷方者
+<lb ed="X" n="0379b07"/><p id="pX88p0379b0701">沙門玄奘啟。竊以。識真者寡。每苦<note n="0379019" resp="Xuzangjing" place="foot text" type="orig">但疑徂</note>但東之路。迷方者
 <lb ed="X" n="0379b08"/>眾。共假司南之車。況乎大道玄遠。妙門&CB00980;寂。非乘叡
 <lb ed="X" n="0379b09"/>智。孰能詮序者哉。伏惟。皇太子殿下體資震極。仁被
 <lb ed="X" n="0379b10"/>春方。照佛日以重輝。紹法輪於將墜。津梁有屬。傳燈
@@ -930,12 +935,12 @@ no message
 <lb ed="X" n="0379b18"/>啟陳謝以聞。謹啟。</p>
 <lb ed="X" n="0379b19"/><p id="pX88p0379b1901" rend="margin-left:4em">貞觀廿二年八月五日沙門玄奘上啟</p></div2>
 <lb ed="X" n="0379b20"/><div2 type="other"><mulu type="其他" level="2" label="皇帝在春宮日報玄奘法師謝啟書"/><head>皇帝在春宮日報玄奘法師謝啟書</head>
-<lb ed="X" n="0379b21"/><p id="pX88p0379b2101"><anchor id="fnX88p0379b20"/>治素無才學。性不聰敏。內典諸文。殊未觀&CB15095;。所作<anchor id="fnX88p0379b21"/>論
+<lb ed="X" n="0379b21"/><p id="pX88p0379b2101"><note n="0379020" resp="Xuzangjing" place="foot text" type="orig">此一章疑混入</note>治素無才學。性不聰敏。內典諸文。殊未觀&CB15095;。所作<note n="0379021" resp="Xuzangjing" place="foot text" type="orig">論序傳作序記</note>論
 <lb ed="X" n="0379b22"/>序。鄙拙尤繁。忽得來書。褒揚讚述。撫躬自省。&CB00518;悚交
 <lb ed="X" n="0379b23"/>并。勞師遠臻。深以為愧。</p>
 <lb ed="X" n="0379b24"/><p id="pX88p0379b2401">貞觀廿二年八月五日出內與玄奘法師</p>
 <pb ed="X" id="X88.1651.0379c" n="0379c"/>
-<lb ed="X" n="0379c01"/><div3 type="other"><mulu type="其他" level="3" label="大宗文皇帝與長命婆羅門書"/><head><anchor id="fnX88p0379c22"/>大宗文皇帝與長命婆羅門書</head>
+<lb ed="X" n="0379c01"/><div3 type="other"><mulu type="其他" level="3" label="大宗文皇帝與長命婆羅門書"/><head><note n="0379022" resp="Xuzangjing" place="foot text" type="orig">此一章疑混入</note>大宗文皇帝與長命婆羅門書</head>
 <lb ed="X" n="0379c02"/><p id="pX88p0379c0201">造化陶灼。短長異壽。天地覆載。愚智同生。故知上聖
 <lb ed="X" n="0379c03"/>上賢。無代不有。然而前帝寂得於逢。朕自領德薄行
 <lb ed="X" n="0379c04"/>輕。智微力淺。幸因夙緣有慶得遇真人。自慰藥<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>來。
@@ -949,7 +954,7 @@ no message
 <lb ed="X" n="0379c12"/><p id="pX88p0379c1201">沙門玄奘言。竊以。玄宗無兆。因分教以垂訓。法本無
 <lb ed="X" n="0379c13"/>為。資言象以成化。是知詮名者。法王之善權。闡言象
 <lb ed="X" n="0379c14"/>者。聖帝之能事。非夫三達遐鑒。四弘府濟。孰能撫金
-<lb ed="X" n="0379c15"/>輪之運。弘玉<anchor id="fnX88p0379c23"/>豪之教者歟。伏惟　皇帝陛下。<anchor id="fnX88p0379c24"/>侚齊作
+<lb ed="X" n="0379c15"/>輪之運。弘玉<note n="0379023" resp="Xuzangjing" place="foot text" type="orig">豪與毫同</note>豪之教者歟。伏惟　皇帝陛下。<note n="0379024" resp="Xuzangjing" place="foot text" type="orig">侚疑徇</note>侚齊作
 <lb ed="X" n="0379c16"/>聖。飲明體道。革澆弊之俗。垂色穆之化。風教被於三
 <lb ed="X" n="0379c17"/>千。疆場掩於百億。臨以政命。駕五乘而載馳。屈方外
 <lb ed="X" n="0379c18"/>之蹤。據域中之位。四海無虞。萬機有暇。儲慧寶於麟
@@ -986,15 +991,15 @@ no message
 <lb ed="X" n="0380b05"/><p id="pX88p0380b0501" rend="margin-left:3em">貞觀廿二年八月廿六日沙門玄奘上狀</p></div2>
 <lb ed="X" n="0380b06"/><div2 type="other"><mulu type="其他" level="2" label="請經出流行啟"/><head>請經出流行啟</head>
 <lb ed="X" n="0380b07"/><p id="pX88p0380b0701">沙門玄奘啟。竊以。六爻陳&CB00528;。察陽陰之&CB16764;伏。八卦成
-<lb ed="X" n="0380b08"/>象。考日月之悔<anchor id="fnX88p0380b01"/>希。與夫忘言妙辨至道被於人天。滿
+<lb ed="X" n="0380b08"/>象。考日月之悔<note n="0380001" resp="Xuzangjing" place="foot text" type="orig">希疑嗇</note>希。與夫忘言妙辨至道被於人天。滿
 <lb ed="X" n="0380b09"/>字宏規茂實勝於空有。拯淪胥之滯。鑒弱喪之流。語
 <lb ed="X" n="0380b10"/>其取捨。功豈同日。伏惟
 <lb ed="C X" n="0380b11"/>皇太子殿下含章育德。基性多才。仁聲溢於萬&CB15131;。惠
 <lb ed="X" n="0380b12"/>情留於三寶。深窮權實。妙達色空。不為而道茂。忘<app><lem wit="【CBETA】" resp="CBETA.maha">己</lem><rdg wit="【卍續】">已</rdg></app>
 <lb ed="X" n="0380b13"/>而功顯。降志紹隆。留神贊述。如洪鍾之待扣。若空谷
 <lb ed="X" n="0380b14"/>之必應。闡妙象於名言。暢幽答於聲教。遂乃照之以
-<lb ed="X" n="0380b15"/>慧燭。濟之以智舟。既朗長夜之<anchor id="fnX88p0380b02"/>□。爰拯暴流之溺。三
-<lb ed="X" n="0380b16"/>途享福。四生受賴。玄門慶矣。緇徒幸矣。然而邊隅<anchor id="fnX88p0380b03"/>泯
+<lb ed="X" n="0380b15"/>慧燭。濟之以智舟。既朗長夜之<note n="0380002" resp="Xuzangjing" place="foot text" type="orig">□疑闇</note>□。爰拯暴流之溺。三
+<lb ed="X" n="0380b16"/>途享福。四生受賴。玄門慶矣。緇徒幸矣。然而邊隅<note n="0380003" resp="Xuzangjing" place="foot text" type="orig">泯與民同</note>泯
 <lb ed="X" n="0380b17"/>庶。未&CB00418;聖皇之藻。幽鄙黔黎。詎聞正遍之說。普天之
 <lb ed="X" n="0380b18"/>下。並蔭堯雲。遐方之俗。未霑法雨。玄奘&CB01852;和惠澤。靜
 <lb ed="X" n="0380b19"/>恭玄訓。祇奉綸誥。敬譯梵經。有感　皇靈擒章。序真
@@ -1008,7 +1013,7 @@ no message
 <lb ed="X" n="0380c02"/>藏經等謝啟</head>
 <lb ed="X" n="0380c03"/><p id="pX88p0380c0301">沙門玄奘啟　中使曲臨。光命隆渥。伏奉　神筆所
 <lb ed="X" n="0380c04"/>寫六門陀羅尼經一卷。及題大菩薩藏經等六十六
-<lb ed="X" n="0380c05"/>卷。殊<anchor id="fnX88p0380c04"/>私忽降。惕然惟答。惠澤光被。欣若登高。竊以。至
+<lb ed="X" n="0380c05"/>卷。殊<note n="0380004" resp="Xuzangjing" place="foot text" type="orig">私或祉歟不明</note>私忽降。惕然惟答。惠澤光被。欣若登高。竊以。至
 <lb ed="X" n="0380c06"/>教希夷。理出窅&CB02426;之外。玄章沖邈。道闡言象之間。顯
 <lb ed="X" n="0380c07"/>晦從時。行藏在運。非屬淳和之化。豈弘幽顯之訓者
 <lb ed="X" n="0380c08"/>哉。伏惟　皇太子殿下。德隆天地。道照圓光。三靈宅
@@ -1029,12 +1034,12 @@ no message
 <lb ed="X" n="0380c23"/>力。問道遐方。祇奉法言。服膺梵學。博考名相之源。頗
 <lb ed="X" n="0380c24"/>問權實之致。聿成宣譯。式符玄訓。上感　皇情。重闡
 <pb ed="X" id="X88.1651.0381a" n="0381a"/>
-<lb ed="X" n="0381a01"/>鷲山<anchor id="fnX88p0381a01"/>之道。遠崇佛旨。再演龍宮之典。靜言教義。功歸
-<lb ed="X" n="0381a02"/><anchor id="fnX88p0381a02"/>遐人。探&CB04435;大猷。誠惟明導。無為味法。有荷洪恩。不謝
+<lb ed="X" n="0381a01"/>鷲山<note n="0381001" resp="Xuzangjing" place="foot text" type="orig">補入之字</note>之道。遠崇佛旨。再演龍宮之典。靜言教義。功歸
+<lb ed="X" n="0381a02"/><note n="0381002" resp="Xuzangjing" place="foot text" type="orig">遐字原本不明</note>遐人。探&CB04435;大猷。誠惟明導。無為味法。有荷洪恩。不謝
 <lb ed="X" n="0381a03"/>深仁。恐蕪王化。玄奘爰初歸國。以至于今。凡厥緇徒。
 <lb ed="X" n="0381a04"/>深喜求法。愍其弊服。頗惠僧衣。今者見有袈裟三領
 <lb ed="X" n="0381a05"/>聖恩所賜。紬綾十匹。諸寺訪得。繡<app><lem wit="【CBETA】" resp="CBETA.maha">像</lem><rdg wit="【卍續】">緣</rdg></app>綵幡。及諸供養
-<lb ed="X" n="0381a06"/>道具<anchor id="fnX88p0381a03"/>之。</p></div2></div1>
+<lb ed="X" n="0381a06"/>道具<note n="0381003" resp="Xuzangjing" place="foot text" type="orig">之下佚失</note>之。</p></div2></div1>
 <lb ed="X" n="0381a07"/>
 <lb ed="X" n="0381a08"/><juan fun="close" n="1"><jhead>玄奘三藏師資傳叢書卷上</jhead></juan>
 <lb ed="X" n="0381a09"/><milestone unit="juan" n="2"/>
@@ -1235,7 +1240,7 @@ no message
 <lb ed="X" n="0383c04"/>淄川。誕育不辰。慈愛云□□□黃衣。挹鞠于外家歲
 <lb ed="X" n="0383c05"/>餘。又以黃被覆。而歸本宅。及能言乃曰。往來法。有黃
 <lb ed="X" n="0383c06"/>者何也。父驚異之。五歲執繼親喪。悲慟過禮。識者以
-<lb ed="X" n="0383c07"/>為至<anchor id="fnX88p0383c01"/>性所致。&CB05383;十有二。即求出俗。十有五。屬睿宗降
+<lb ed="X" n="0383c07"/>為至<note n="0383001" resp="Xuzangjing" place="foot text" type="orig">性疑情</note>性所致。&CB05383;十有二。即求出俗。十有五。屬睿宗降
 <lb ed="X" n="0383c08"/>誕。有制度□□入道。&CB00573;讀金光明經。雙見王子救虎。
 <lb ed="X" n="0383c09"/>尸毗代鴿。悅然有捨身之志。遂赴山巖。交親權途僶
 <lb ed="X" n="0383c10"/>俛旋&CB16739;&CB05383;&CB05383;廿。下問要言。&CB00397;通經藏。尋講法花般若
