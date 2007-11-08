@@ -451,7 +451,7 @@ converted to XML form 2.1.99 (CW)
 	rend CDATA #IMPLIED
 	place CDATA #IMPLIED
 >
-<!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | note | p | pb | tt | term)*>
+<!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | note | p | pb | tt | term | sd)*>
 <!ELEMENT def (#PCDATA | gaiji | lb | lg | list | p | pb)*>
 
 <!--  14.2.1:  Extended pointers                               -->
@@ -674,6 +674,11 @@ converted to XML form 2.1.99 (CW)
 
 <!ELEMENT dialog (sp | lb | pb)*>
 <!ATTLIST dialog
+	type CDATA #IMPLIED
+>
+
+<!ELEMENT sd (lb | pb)*>
+<!ATTLIST sd
 	type CDATA #IMPLIED
 >
 
