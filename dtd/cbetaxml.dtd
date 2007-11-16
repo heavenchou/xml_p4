@@ -164,7 +164,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT revisionDesc (change)+>
 <!ELEMENT change (date, respStmt, item)>
 <!--  6.1:  Paragraph                                          -->
-<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu)*>
+<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu |sd)*>
 <!ATTLIST p
 	id ID #IMPLIED
 	n CDATA #IMPLIED
@@ -291,13 +291,13 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST jl_byline
 	type CDATA #IMPLIED
 >
-<!ELEMENT head (#PCDATA | app | skgloss | corr | foreign | gaiji | lb | pb | note | anchor | title | l | sic | tt)*>
+<!ELEMENT head (#PCDATA | app | skgloss | corr | foreign | gaiji | lb | pb | note | anchor | title | l | sic | tt | sd)*>
 <!ATTLIST head
 	rend CDATA #IMPLIED
 	type CDATA #IMPLIED
 >
 <!--  6.8.1:  Annotation                                       -->
-<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table)*>
+<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table | sd)*>
 <!ATTLIST note
 	n CDATA #IMPLIED
 	lang CDATA #IMPLIED
@@ -336,7 +336,7 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST bibl
 	lang CDATA #IMPLIED
 >
-<!ELEMENT title (#PCDATA | anchor | gaiji | app | foreign | note | lb | pb | sic | skgloss | corr | tt)*>
+<!ELEMENT title (#PCDATA | anchor | gaiji | app | foreign | note | lb | pb | sic | skgloss | corr | tt | sd)*>
 <!ATTLIST title
 	type CDATA #IMPLIED
 	lang CDATA #IMPLIED
@@ -357,11 +357,11 @@ converted to XML form 2.1.99 (CW)
 	TEIform CDATA "author"
 >
 <!--  6.11.1:  Verse                                           -->
-<!ELEMENT l (#PCDATA | gaiji | skgloss | corr | app | figure | foreign | note | lb | pb | sic | term | tt | anchor)*>
+<!ELEMENT l (#PCDATA | gaiji | skgloss | corr | app | figure | foreign | note | lb | pb | sic | term | tt | anchor | sd)*>
 <!ATTLIST l
 	rend CDATA #IMPLIED
 >
-<!ELEMENT lg (#PCDATA | gaiji | label | lb | l | pb | app | anchor | skgloss | gloss | term | head | p | note | sic | tt )*>
+<!ELEMENT lg (#PCDATA | gaiji | label | lb | l | pb | app | anchor | skgloss | gloss | term | head | p | note | sic | tt | sd )*>
 <!ATTLIST lg
 	id ID #IMPLIED
 	type CDATA #IMPLIED
@@ -396,51 +396,51 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt )*>
+<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt | sd)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt)*>
+<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt | sd)*>
 <!ATTLIST div2
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div3 (#PCDATA | div4 | anchor | dialog | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | xref | table | tt)*>
+<!ELEMENT div3 (#PCDATA | div4 | anchor | dialog | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | xref | table | tt | sd)*>
 <!ATTLIST div3
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div4 (#PCDATA | div5 | anchor | dialog | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | table | tt| xref)*>
+<!ELEMENT div4 (#PCDATA | div5 | anchor | dialog | entry | head | p | lg | milestone | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | table | tt | xref | sd)*>
 <!ATTLIST div4
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div5 (#PCDATA | div6 | anchor | dialog | entry| head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt)*>
+<!ELEMENT div5 (#PCDATA | div6 | anchor | dialog | entry| head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
 <!ATTLIST div5
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div6 (#PCDATA | div7 | anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt)*>
+<!ELEMENT div6 (#PCDATA | div7 | anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
 <!ATTLIST div6
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div7 (#PCDATA | div8 | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | milestone | mulu | table | tt)*>
+<!ELEMENT div7 (#PCDATA | div8 | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | milestone | mulu | table | tt | sd)*>
 <!ATTLIST div7
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div8 (#PCDATA | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt)*>
+<!ELEMENT div8 (#PCDATA | anchor | dialog | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
 <!ATTLIST div8
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
 <!--  7.2.4:  Tags for start and end of divisions              -->
 <!ELEMENT trailer (#PCDATA | anchor | gaiji | lb | corr | app | title | pb | note | head)*>
-<!ELEMENT byline (#PCDATA | app | gaiji | lb | pb | corr | foreign | note | anchor | sic | tt | jl_byline)*>
+<!ELEMENT byline (#PCDATA | app | gaiji | lb | pb | corr | foreign | note | anchor | sic | tt | jl_byline | sd)*>
 <!ATTLIST byline
 	type CDATA #IMPLIED
 >
@@ -549,7 +549,7 @@ converted to XML form 2.1.99 (CW)
 	word-count CDATA #IMPLIED
 	TEIform CDATA "app"
 >
-<!ELEMENT lem (#PCDATA | anchor | app | div1 | div2 | figure | gaiji | item | lb | milestone | byline | note | l | pb | skgloss | lg | fan | foreign | head | p | juan | title | list | corr | mulu | sic | term | tt | xref | jl_title | jl_juan | jl_byline | jhead)*>
+<!ELEMENT lem (#PCDATA | anchor | app | div1 | div2 | figure | gaiji | item | lb | milestone | byline | note | l | pb | skgloss | lg | fan | foreign | head | p | juan | title | list | corr | mulu | sic | term | tt | xref | jl_title | jl_juan | jl_byline | jhead | sd)*>
 <!ATTLIST lem
 	wit CDATA #IMPLIED
 	ana IDREFS #IMPLIED
@@ -603,7 +603,7 @@ converted to XML form 2.1.99 (CW)
 	sigil CDATA #IMPLIED
 	included CDATA #IMPLIED
 >
-<!ELEMENT jhead (#PCDATA | app | corr | foreign | gaiji | lb | pb | note | anchor | sic | skgloss | title | tt)*>
+<!ELEMENT jhead (#PCDATA | app | corr | foreign | gaiji | lb | pb | note | anchor | sic | skgloss | title | tt | sd)*>
 <!ATTLIST jhead
 	type CDATA #IMPLIED
 >
@@ -666,22 +666,32 @@ converted to XML form 2.1.99 (CW)
 	rend CDATA #IMPLIED
 	cert CDATA #IMPLIED
 >
-
 <!ELEMENT todo EMPTY>
 <!ATTLIST todo
 	type CDATA #IMPLIED
 >
-
 <!ELEMENT dialog (sp | lb | pb)*>
 <!ATTLIST dialog
 	type CDATA #IMPLIED
 >
-
-<!ELEMENT sd (lb | pb)*>
+<!ELEMENT sd (#PCDATA | lb | pb | anchor | gaiji)*>
 <!ATTLIST sd
 	type CDATA #IMPLIED
 >
-
+<!ELEMENT ruby (lb | pb | rb | rt )*>
+<!ATTLIST ruby
+	type CDATA #IMPLIED
+	rb CDATA #IMPLIED
+	rt CDATA #IMPLIED
+>
+<!ELEMENT rb (lb | pb)*>
+<!ATTLIST rb
+	type CDATA #IMPLIED
+>
+<!ELEMENT rt (lb | pb)*>
+<!ATTLIST rt
+	type CDATA #IMPLIED
+>
 <!-- Notations -->
 <!NOTATION doc SYSTEM "uedit32.exe">
 <!NOTATION GIF SYSTEM "acdsee32.exe">
