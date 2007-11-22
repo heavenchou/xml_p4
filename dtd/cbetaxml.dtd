@@ -164,7 +164,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT revisionDesc (change)+>
 <!ELEMENT change (date, respStmt, item)>
 <!--  6.1:  Paragraph                                          -->
-<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu |sd)*>
+<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu | sd | ruby)*>
 <!ATTLIST p
 	id ID #IMPLIED
 	n CDATA #IMPLIED
@@ -451,7 +451,7 @@ converted to XML form 2.1.99 (CW)
 	rend CDATA #IMPLIED
 	place CDATA #IMPLIED
 >
-<!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | note | p | pb | tt | term | sd)*>
+<!ELEMENT form (#PCDATA | anchor | app | figure | gaiji | lb | note | p | pb | tt | term | sd | ruby)*>
 <!ELEMENT def (#PCDATA | gaiji | lb | lg | list | p | pb)*>
 
 <!--  14.2.1:  Extended pointers                               -->
@@ -678,17 +678,17 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST sd
 	type CDATA #IMPLIED
 >
-<!ELEMENT ruby (lb | pb | rb | rt )*>
+<!ELEMENT ruby (#PCDATA | lb | pb | rb | rt | gaiji | app | note)*>
 <!ATTLIST ruby
 	type CDATA #IMPLIED
 	rb CDATA #IMPLIED
 	rt CDATA #IMPLIED
 >
-<!ELEMENT rb (lb | pb)*>
+<!ELEMENT rb (#PCDATA | lb | pb | gaiji | app | note)*>
 <!ATTLIST rb
 	type CDATA #IMPLIED
 >
-<!ELEMENT rt (lb | pb)*>
+<!ELEMENT rt (#PCDATA | lb | pb | gaiji | app | note)*>
 <!ATTLIST rt
 	type CDATA #IMPLIED
 >
