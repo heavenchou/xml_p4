@@ -3,10 +3,8 @@
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "T57n2207.ent" >
 <!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
-<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 %ENTY;
 %CBENT;
-%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -20,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2007/11/22 07:38:12 $</date></edition>
+		<edition>$Revision: 1.3 $ (Big5)<date>$Date: 2007/11/23 07:18:05 $</date></edition>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -33,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/11/22 07:38:12 $</date>
+		<date>$Date: 2007/11/23 07:18:05 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 57, No. 2207 &desc;</bibl>
@@ -47,17 +45,14 @@
 </encodingDesc>
 <revisionDesc>
 	<change>
-		<date>2007/11/22 14:37:08</date>
+		<date>2007/11/23 14:57:25</date>
 		<respStmt><name>Zhou Bang-Xin</name><resp>ed.</resp></respStmt>
 		<item>Created initial TEI XML version with BASICX.BAT</item>
 	</change>
 <!--
 $Log: T57n2207.xml,v $
-Revision 1.2  2007/11/22 07:38:12  eva
-modified: 跑 parser
-
-Revision 1.1  2007/11/22 07:30:55  eva
-modified: BM轉XML
+Revision 1.3  2007/11/23 07:18:05  eva
+modified: 重轉 BM→XML
 
 -->
 </revisionDesc>
@@ -113,14 +108,14 @@ modified: BM轉XML
 <lb ed="T" n="0383b17"/><anchor id="fnT57p0383b10"/>也嘉禎第二之曆。柔兆涒灘之&CB04407;。春王正月
 <lb ed="T" n="0383b18"/>序云爾。</p></div1>
 <lb ed="T" n="0383b19"/><div1 type="other"><mulu type="其他" level="1" label="無量壽經"/><head>無量壽經卷上</head>
-<lb ed="T" n="0383b20"/><entry><form>佛</form><def><p id="pT57p0383b2002" place="inline" rend="margin-left:1em">廣韻曰。佛<note place="inline">&M062447;</note>符弗<anchor id="fnT57p0383b11"/>反。牟子曰。漢明帝夢。
+<lb ed="T" n="0383b20"/><entry><form>佛</form><def><p id="pT57p0383b2002" place="inline" rend="margin-left:1em">廣韻曰。佛<note type="okuri" place="inline">&M062447;</note>符弗<anchor id="fnT57p0383b11"/>反。牟子曰。漢明帝夢。
 <lb ed="T" n="0383b21"/>神人身有日光。飛在殿前。以問群臣。傳毅
 <lb ed="T" n="0383b22"/>對曰。天竺有佛。將其神也。學記曰。其施<note type="okuri" place="inline">&M062425;&M062419;&M062440;</note>之
 <lb ed="T" n="0383b23"/>也<ruby><rb>悖</rb><rt>&M062402;&M062431;&M062475;&M062440;&M062413;&M062447;</rt></ruby>。其求<note type="okuri" place="inline">&M062475;&M062482;</note>之也<ruby><rb>佛<note place="inline">佛戾<anchor id="fnT57p0383b12"/>也</note></rb><rt>&M062466;&M062440;&M062475;&M062440;</rt></ruby>毛詩曰。<ruby><rb>佛</rb><rt>&M062410;ぶ&M062413;&M062443;&M062429;</rt></ruby>
 <lb ed="T" n="0383b24"/><ruby><rb>時</rb><rt>&M062419;&M062446;</rt></ruby><ruby><rb>仔</rb><rt>&M062431;&M062456;&M062475;</rt></ruby>肩。示我顯德行。傳曰。佛<note type="okuri" place="inline">&M062447;</note>大也。箋曰。
 <lb ed="T" n="0383b25"/>佛<note type="okuri" place="inline">&M062447;</note>輔也。說文曰。佛見不諟也。&CB05155;人弗聲。徐
 <lb ed="T" n="0383b26"/>鍇曰。諟<note type="okuri" place="inline">&M062447;</note>諦。分勿反。東宮切韻曰。曹憲云。
-<lb ed="T" n="0383b27"/>佛<note place="inline">&M062447;</note><anchor id="fnT57p0383b13"/>忽。言<note type="okuri" place="inline">&M062447;</note><anchor id="fnT57p0383b14"/>忽無常也。見牟子。案。佛道沖
+<lb ed="T" n="0383b27"/>佛<note type="okuri" place="inline">&M062447;</note><anchor id="fnT57p0383b13"/>忽。言<note type="okuri" place="inline">&M062447;</note><anchor id="fnT57p0383b14"/>忽無常也。見牟子。案。佛道沖
 <lb ed="T" n="0383b28"/>妙。難以指求。故言怳忽。<anchor id="fnT57p0383b15"/>郭知玄曰。胡言
 <lb ed="T" n="0383b29"/>佛陀。漢言覺言。獨悟無上正真之道。薛峋
 <pb ed="T" id="T57.2207.0383c" n="0383c"/>
@@ -257,7 +252,7 @@ modified: BM轉XML
 <lb ed="T" n="0385a11"/>偽。</p></def></entry>
 <lb ed="T" n="0385a12"/><entry><form>光英</form><def><p id="pT57p0385a1203" place="inline" rend="margin-left:1em">廣韻曰。英<note type="okuri" place="inline">&M062447;</note>華也。榮而不實曰英。又
 <lb ed="T" n="0385a13"/>英<note type="okuri" place="inline">&M062447;</note>俊。於驚反。</p></def></entry>
-<lb ed="T" n="0385a14"/><entry><form>皆遵</form><def><p id="pT57p0385a1403" place="inline" rend="margin-left:1em">廣韻曰。遵<note place="inline">&M062447;</note>循也率也行也習也。古文
+<lb ed="T" n="0385a14"/><entry><form>皆遵</form><def><p id="pT57p0385a1403" place="inline" rend="margin-left:1em">廣韻曰。遵<note type="okuri" place="inline">&M062447;</note>循也率也行也習也。古文
 <lb ed="T" n="0385a15"/>作&CB20187;同。將倫反。</p></def></entry>
 <lb ed="T" n="0385a16"/><entry><form>兜率天</form><def><p id="pT57p0385a1604" place="inline" rend="margin-left:1em">新譯華嚴音義云。珊兜率陀<anchor id="fnT57p0385a04"/>天。此
 <lb ed="T" n="0385a17"/>云喜樂集。依俱舍。中有三義得此名。一喜
@@ -450,7 +445,7 @@ modified: BM轉XML
 <lb ed="T" n="0387a24"/>六十。若爾時博士。大史。大宰。大祝。大樂。屬
 <lb ed="T" n="0387a25"/>大常也。</p></def></entry>
 <lb ed="T" n="0387a26"/><entry><form>祈勸</form><def><p id="pT57p0387a2603" place="inline" rend="margin-left:1em">廣韻曰。祈<note type="okuri" place="inline">&M062447;</note>求也報也告也。渠希反。
-<lb ed="T" n="0387a27"/>下<note place="inline">&M062447;</note>去願反。&CB00726;也勉也助也教也。</p></def></entry>
+<lb ed="T" n="0387a27"/>下<note type="okuri" place="inline">&M062447;</note>去願反。&CB00726;也勉也助也教也。</p></def></entry>
 <lb ed="T" n="0387a28"/><entry><form>轉法輪</form><def><p id="pT57p0387a2804" place="inline" rend="margin-left:1em">翻譯名義集云。斫訖羅。此土翻輪。
 <lb ed="T" n="0387a29"/>淨名曰。三轉法輪於大千。其輪本來常清淨。
 <pb ed="T" id="T57.2207.0387b" n="0387b"/>
@@ -482,7 +477,7 @@ modified: BM轉XML
 <lb ed="T" n="0387b26"/>在&CB00425;中也。或言<anchor id="fnT57p0387b23"/>賓茶夜。此云團。團者食
 <lb ed="T" n="0387b27"/>團。謂<anchor id="fnT57p0387b24"/>乞食也。</p></def></entry>
 <lb ed="T" n="0387b28"/><entry><form>豐&CB00498;</form><def><p id="pT57p0387b2803" place="inline" rend="margin-left:1em">經音義云。涅槃經曰。甘露膳。上扇反。
-<lb ed="T" n="0387b29"/>說文<note type="okuri" place="inline">&M062443;</note>膳<note type="okuri" place="inline">&M062447;</note>具食也。廣雅<anchor id="fnT57p0387b25"/>云。膳<note type="okuri" place="inline">&M062447;</note>肉也。周禮<note place="inline">&M062443;</note><anchor id="fnT57p0387b26"/>膳<note place="inline">&M062446;</note>
+<lb ed="T" n="0387b29"/>說文<note type="okuri" place="inline">&M062443;</note>膳<note type="okuri" place="inline">&M062447;</note>具食也。廣雅<anchor id="fnT57p0387b25"/>云。膳<note type="okuri" place="inline">&M062447;</note>肉也。周禮<note type="okuri" place="inline">&M062443;</note><anchor id="fnT57p0387b26"/>膳<note type="okuri" place="inline">&M062446;</note>
 <pb ed="T" id="T57.2207.0387c" n="0387c"/>
 <lb ed="T" n="0387c01"/>言<note type="okuri" place="inline">&M062447;</note>善也。今時美物亦云珍膳也。字體&CB05155;肉
 <lb ed="T" n="0387c02"/>善聲。經文有&CB05155;食作&CB00498;傳寫誤也。</p></def></entry>
@@ -493,7 +488,7 @@ modified: BM轉XML
 <lb ed="T" n="0387c07"/>戒體。戒為萬善之根。是故世人歸信供養種
 <lb ed="T" n="0387c08"/>福。如沃壤之田能生嘉苗。故號良福田。</p></def></entry>
 <lb ed="T" n="0387c09"/><entry><form>授菩薩記</form><def><p id="pT57p0387c0905" place="inline" rend="margin-left:1em">經音義云。佛本行集經云。記別。
-<lb ed="T" n="0387c10"/>別<note place="inline">&M062447;</note>碑列反。分別也。經文從艸作&CB00028;非也。舊
+<lb ed="T" n="0387c10"/>別<note type="okuri" place="inline">&M062447;</note>碑列反。分別也。經文從艸作&CB00028;非也。舊
 <lb ed="T" n="0387c11"/>經多言<anchor id="fnT57p0387c28"/>卯駐。顯揚論云。記別者。謂諸經<anchor id="fnT57p0387c29"/>中
 <lb ed="T" n="0387c12"/>記諸弟子命終之後生處差別。及諸經中顯
 <lb ed="T" n="0387c13"/>了義說。是為記別。</p></def></entry>
@@ -503,14 +498,14 @@ modified: BM轉XML
 <lb ed="T" n="0387c17"/>曰。恢弘博施。無物不與。拯濟微滯是也。</p></def></entry>
 <lb ed="T" n="0387c18"/><entry><form>修行</form><def><p id="pT57p0387c1803" place="inline" rend="margin-left:1em">經音義云。法華經曰。修行。下<anchor id="fxT57p0387c06"/>盂反。
 <lb ed="T" n="0387c19"/>施之名行。即造修<anchor id="fnT57p0387c30"/>也。</p></def></entry>
-<lb ed="T" n="0387c20"/><entry><form>貫<note place="inline">古玩</note>綜<note place="inline">子宋</note>縷<note place="inline">力主</note>練<note place="inline">即甸</note></form><def><p id="pT57p0387c2013" place="inline" rend="margin-left:1em">義寂述義云。貫<note place="inline">&M062447;</note>
+<lb ed="T" n="0387c20"/><entry><form>貫<note place="inline">古玩</note>綜<note place="inline">子宋</note>縷<note place="inline">力主</note>練<note place="inline">即甸</note></form><def><p id="pT57p0387c2013" place="inline" rend="margin-left:1em">義寂述義云。貫<note type="okuri" place="inline">&M062447;</note>
 <lb ed="T" n="0387c21"/>通也。綜<note type="okuri" place="inline">&M062447;</note>括也。諸法雖眾。緣起無差。通括此
 <lb ed="T" n="0387c22"/>理。故云貫綜也。縷者委也。練者精也。世出
 <lb ed="T" n="0387c23"/>世等諸法參差委精此義故云縷練<anchor id="fxT57p0387c07"/>也。</p></def></entry>
 <lb ed="T" n="0387c24"/><entry><form>慢恣</form><def><p id="pT57p0387c2403" place="inline" rend="margin-left:1em">廣韻曰。慢<note type="okuri" place="inline">&M062447;</note>怠也据也易也。俗作慢
 <lb ed="T" n="0387c25"/>同。謨晏反。下<note type="okuri" place="inline">&M062447;</note>資四反。縱也。</p></def></entry>
 <lb ed="T" n="0387c26"/><entry><form>愍傷</form><def><p id="pT57p0387c2603" place="inline" rend="margin-left:1em">廣韻曰。愍<note type="okuri" place="inline">&M062447;</note>悲也憐也。蜜殞反。傷<note type="okuri" place="inline">&M062447;</note>損
-<lb ed="T" n="0387c27"/>也瘡也。言<note place="inline">&M062447;</note>瘡痛也。式羊反。又式亮反。未成
+<lb ed="T" n="0387c27"/>也瘡也。言<note type="okuri" place="inline">&M062447;</note>瘡痛也。式羊反。又式亮反。未成
 <lb ed="T" n="0387c28"/>人也。又害也。</p></def></entry>
 <lb ed="T" n="0387c29"/><entry><form>經典</form><def><p id="pT57p0387c2903" place="inline" rend="margin-left:1em">東宮切韻曰。郭知玄云。經<note type="okuri" place="inline">&M062447;</note>典也。薛峋
 <pb ed="T" id="T57.2207.0388a" n="0388a"/>
@@ -576,7 +571,7 @@ modified: BM轉XML
 <pb ed="T" id="T57.2207.0388c" n="0388c"/>
 <lb ed="T" n="0388c01"/>名大。開是發之異名。引物不同故諸相各
 <lb ed="T" n="0388c02"/>異。</p></def></entry>
-<lb ed="T" n="0388c03"/><entry><form>悅豫</form><def><p id="pT57p0388c0303" place="inline" rend="margin-left:1em">經音義云。對法論曰。悅<anchor id="fnT57p0388c26"/>豫<note place="inline">&M062447;</note>爾雅<note place="inline">&M062443;</note>悅
+<lb ed="T" n="0388c03"/><entry><form>悅豫</form><def><p id="pT57p0388c0303" place="inline" rend="margin-left:1em">經音義云。對法論曰。悅<anchor id="fnT57p0388c26"/>豫<note type="okuri" place="inline">&M062447;</note>爾雅<note type="okuri" place="inline">&M062443;</note>悅
 <lb ed="T" n="0388c04"/>豫喜樂也。豫亦安也。</p></def></entry>
 <lb ed="T" n="0388c05"/><entry><form>姿色</form><def><p id="pT57p0388c0503" place="inline" rend="margin-left:1em">東宮切韻曰。曹憲云。姿<note place="inline">子思切</note><anchor id="fnT57p0388c27"/>態也。
 <lb ed="T" n="0388c06"/><anchor id="fnT57p0388c28"/>案<note type="okuri" place="inline">&M062443;</note>姿<note type="okuri" place="inline">&M062447;</note>美態也。郭知玄云。儀容。釋氏云。莊
@@ -812,7 +807,7 @@ modified: BM轉XML
 <lb ed="T" n="0391a26"/>經音義云。那羅<anchor id="fnT57p0391a09"/>延此云堅固。翻譯名義集
 <lb ed="T" n="0391a27"/>云。維摩經。那羅延菩薩。涅槃疏。翻為金剛。</p></def></entry>
 <lb ed="T" n="0391a28"/><entry><form>稱量</form><def><p id="pT57p0391a2803" place="inline" rend="margin-left:1em">廣韻曰。稱<note type="okuri" place="inline">&M062447;</note>知輕重。俗作秤同。處陵
-<lb ed="T" n="0391a29"/>昌證二反。量<note place="inline">&M062447;</note>合斗斛。力讓反。論語曰。謹權
+<lb ed="T" n="0391a29"/>昌證二反。量<note type="okuri" place="inline">&M062447;</note>合斗斛。力讓反。論語曰。謹權
 <pb ed="T" id="T57.2207.0391b" n="0391b"/>
 <lb ed="T" n="0391b01"/>量審法度。注<note type="okuri" place="inline">&M062443;</note>權<note type="okuri" place="inline">&M062447;</note>稱量<note type="okuri" place="inline">&M062447;</note>斗斛也。鄭氏注月
 <lb ed="T" n="0391b02"/>令曰。丈尺曰度。斗斛曰量。三十斤曰鈞。
@@ -835,7 +830,7 @@ modified: BM轉XML
 <lb ed="T" n="0391b19"/>所也。又尊極也。館名之曰宮。所以廣敬。又
 <lb ed="T" n="0391b20"/>陸冢上<note type="okuri" place="inline">&M062442;&M062475;&M062482;&M062447;</note>曰玄宮。郭知玄曰。殿<note type="okuri" place="inline">&M062447;</note>王者寢室。
 <lb ed="T" n="0391b21"/>又作壂。孫愐云。殿<note type="okuri" place="inline">&M062447;</note>宮室也。孫&CB06067;云。蒼頡篇<note type="okuri" place="inline">&M062443;</note>
-<lb ed="T" n="0391b22"/>殿<note place="inline">&M062447;</note><anchor id="fnT57p0391b11"/>堂也。</p></def></entry>
+<lb ed="T" n="0391b22"/>殿<note type="okuri" place="inline">&M062447;</note><anchor id="fnT57p0391b11"/>堂也。</p></def></entry>
 <lb ed="T" n="0391b23"/><entry><form>棲觀</form><def><p id="pT57p0391b2303" place="inline" rend="margin-left:1em">廣韻曰。字亦作婁。重屋也。釋名曰。
 <lb ed="T" n="0391b24"/>觀<anchor id="fnT57p0391b12"/>者於上觀望也。說文<note type="okuri" place="inline">&M062443;</note>諦觀也。東宮切韻
 <lb ed="T" n="0391b25"/>曰。陸法言曰。樓<note type="okuri" place="inline">&M062447;</note>落佞反。郭知玄云。樓<note type="okuri" place="inline">&M062447;</note>櫓城
@@ -1055,7 +1050,7 @@ modified: BM轉XML
 <lb ed="T" n="0394a03"/>帛也。又發語端也。說文曰。蓋<note type="okuri" place="inline">&M062447;</note>苫。俗作蓋同。
 <lb ed="T" n="0394a04"/>古太反。倭名伽藍具曰。涅槃經云。幢旛寶蓋
 <lb ed="T" n="0394a05"/><note place="inline">和名岐沼散。又有白蓋。高座上具也</note>。</p></def></entry>
-<lb ed="T" n="0394a06"/><entry><form>幢<anchor id="fnT57p0394a02"/>幡</form><def><p id="pT57p0394a0603" place="inline" rend="margin-left:1em">廣韻曰。幢<note place="inline">倭名波太保古</note>釋名曰。幢<note place="inline">&M062447;</note>幢也。
+<lb ed="T" n="0394a06"/><entry><form>幢<anchor id="fnT57p0394a02"/>幡</form><def><p id="pT57p0394a0603" place="inline" rend="margin-left:1em">廣韻曰。幢<note place="inline">倭名波太保古</note>釋名曰。幢<note type="okuri" place="inline">&M062447;</note>幢也。
 <lb ed="T" n="0394a07"/>其貌幢幢然也。宅江反。旛<note type="okuri" place="inline">&M062447;</note>旌旐總名也。附袁
 <lb ed="T" n="0394a08"/>反。倭名曰。涅槃經云。諸香木上懸五色旛
 <lb ed="T" n="0394a09"/><note place="inline">和名波太。又見征戰具</note>。</p></def></entry>
@@ -1345,7 +1340,7 @@ modified: BM轉XML
 <lb ed="T" n="0397a24"/>也。梵云賀羅&CB00499;。總言池水也。倭名曰。玉篇
 <lb ed="T" n="0397a25"/>云。池<note place="inline">除知反。和名以介</note>蓄水也。</p></def></entry>
 <lb ed="T" n="0397a26"/><entry><form>縱廣</form><def><p id="pT57p0397a2603" place="inline" rend="margin-left:1em">新譯華嚴音義曰。縱廣紫容反。孟康
-<lb ed="T" n="0397a27"/>注史記曰。南北為縱。東西為橫。橫<note place="inline">&M062447;</note>廣也。
+<lb ed="T" n="0397a27"/>注史記曰。南北為縱。東西為橫。橫<note type="okuri" place="inline">&M062447;</note>廣也。
 <lb ed="T" n="0397a28"/>縱字正體<note type="okuri" place="inline">&M062443;&M062447;</note>從木。有&CB05155;糸彳作者。皆俗通
 <lb ed="T" n="0397a29"/>用。</p></def></entry>
 <pb ed="T" id="T57.2207.0397b" n="0397b"/>
@@ -1579,7 +1574,7 @@ modified: BM轉XML
 <lb ed="T" n="0399c19"/>不遠有窣堵婆。是如來於大樹下。東面而
 <lb ed="T" n="0399c20"/>坐。受姨母金縷袈娑<note place="inline">案縷力主反。線也。金鏤此方無故聞名未&CB00418;狀。識
 <lb ed="T" n="0399c21"/>者<anchor id="fnT57p0399c26"/>詳之</note>。</p></def></entry>
-<lb ed="T" n="0399c22"/><entry><form>晃曜</form><def><p id="pT57p0399c2203" place="inline" rend="margin-left:1em">玉篇云。晃<note place="inline">&M062447;</note>光也。亦作晃同。乎廣反。
+<lb ed="T" n="0399c22"/><entry><form>晃曜</form><def><p id="pT57p0399c2203" place="inline" rend="margin-left:1em">玉篇云。晃<note type="okuri" place="inline">&M062447;</note>光也。亦作晃同。乎廣反。
 <lb ed="T" n="0399c23"/>經音義曰。光讚般若經云。晃煜。說文<note type="okuri" place="inline">&M062443;&M062447;</note>晃<note type="okuri" place="inline">&M062447;</note>明
 <lb ed="T" n="0399c24"/>也。煜<note type="okuri" place="inline">&M062447;</note>燿也。&CB20170;蒼<note type="okuri" place="inline">&M062443;</note>晃<anchor id="fnT57p0399c27"/>煜<note type="okuri" place="inline">&M062447;</note>光燿熾盛貌也。</p></def></entry>
 <lb ed="T" n="0399c25"/><entry><form>嚴麗</form><def><p id="pT57p0399c2503" place="inline" rend="margin-left:1em">新譯華嚴音義曰。嚴麗。王逸楚辭注
@@ -1810,7 +1805,7 @@ modified: BM轉XML
 <lb ed="T" n="0402b12"/>尼。此云<anchor id="fnT57p0402b21"/>金翅。翅殊妙也。法華文句云。迦樓
 <lb ed="T" n="0402b13"/>羅此云金翅。翅翮金居四天下大樹上。兩翅
 <lb ed="T" n="0402b14"/>相去三百三十六萬里。有人言。莊子呼為鵬。
-<lb ed="T" n="0402b15"/>鵬行<note place="inline">&M062440;&M062413;</note>眾鳥<anchor id="fnT57p0402b22"/>翼之。<anchor id="fnT57p0402b23"/>稱為鳳凰。私謂<anchor id="fnT57p0402b24"/>鳳不
+<lb ed="T" n="0402b15"/>鵬行<note type="okuri" place="inline">&M062440;&M062413;</note>眾鳥<anchor id="fnT57p0402b22"/>翼之。<anchor id="fnT57p0402b23"/>稱為鳳凰。私謂<anchor id="fnT57p0402b24"/>鳳不
 <lb ed="T" n="0402b16"/>踐生草。噉竹實栖乳桐。金翅噉龍。<anchor id="fnT57p0402b25"/>如何
 <lb ed="T" n="0402b17"/>是類。記云。四迦中云己住處有宮等者。長
 <lb ed="T" n="0402b18"/>阿含十八云。大海北面有大樹。名究羅啖摩
@@ -2061,7 +2056,7 @@ modified: BM轉XML
 <lb ed="T" n="0405a23"/><entry><form>素不為善</form><def><p id="pT57p0405a2305" place="inline" rend="margin-left:1em">廣韻曰。列子云。太素者質之始
 <lb ed="T" n="0405a24"/>也。又<anchor id="fnT57p0405a06"/>故也。先故反。</p></def></entry>
 <lb ed="T" n="0405a25"/><entry><form>吉凶</form><def><p id="pT57p0405a2503" place="inline" rend="margin-left:1em">千字文曰。&CB02857;&CB00344;里也阿&CB02857;&CB00344;里也此
-<lb ed="T" n="0405a26"/>云吉凶。廣韻云。吉利也居質反。凶<note place="inline">&M062447;</note>禍也。許
+<lb ed="T" n="0405a26"/>云吉凶。廣韻云。吉利也居質反。凶<note type="okuri" place="inline">&M062447;</note>禍也。許
 <lb ed="T" n="0405a27"/>容反。周易云。天垂象見吉凶。聖人則之。又
 <lb ed="T" n="0405a28"/>云。吉凶者失得之象也。韓曰。<anchor id="fnT57p0405a07"/>有失得故吉
 <lb ed="T" n="0405a29"/>凶生。左傳云。吉凶由人。杜預曰。積善餘慶。
@@ -2135,7 +2130,7 @@ modified: BM轉XML
 <lb ed="T" n="0406a07"/><entry><form>便旋</form><def><p id="pT57p0406a0703" place="inline" rend="margin-left:1em">左傳曰。少<anchor id="fnT57p0406a01"/>集馬還。杜預曰。還<note type="okuri" place="inline">&M062447;</note>便旋
 <lb ed="T" n="0406a08"/>不能<anchor id="fnT57p0406a02"/>進。</p></def></entry>
 <lb ed="T" n="0406a09"/><entry><form>奈何</form><def><p id="pT57p0406a0903" place="inline" rend="margin-left:1em">廣韻曰。奈<note type="okuri" place="inline">&M062447;</note>如也那也。奴帶奴箇二
-<lb ed="T" n="0406a10"/><anchor id="fnT57p0406a03"/>反案<note place="inline">&M062443;</note>奈何猶如何。</p></def></entry>
+<lb ed="T" n="0406a10"/><anchor id="fnT57p0406a03"/>反案<note type="okuri" place="inline">&M062443;</note>奈何猶如何。</p></def></entry>
 <lb ed="T" n="0406a11"/><entry><form>總猥</form><def><p id="pT57p0406a1103" place="inline" rend="margin-left:1em"><anchor id="fnT57p0406a04"/>廣韻曰。總<note type="okuri" place="inline">&M062447;</note>聚束也合也皆也眾也。又
 <lb ed="T" n="0406a12"/>作&CB00412;同。作孔反。猥<note type="okuri" place="inline">&M062447;</note><anchor id="fnT57p0406a05"/>大聲。又鄙也。烏賄反。
 <lb ed="T" n="0406a13"/>東宮切韻曰。曹憲云。猥<note type="okuri" place="inline">&M062447;</note>犬聲也。麻果云。
