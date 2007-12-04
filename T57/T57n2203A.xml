@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.5 $ (Big5)<date>$Date: 2007/11/26 09:04:04 $</date></edition>
+		<edition>$Revision: 1.6 $ (Big5)<date>$Date: 2007/12/04 02:56:53 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2007/11/26 09:04:04 $</date>
+		<date>$Date: 2007/12/04 02:56:53 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 57, No. 2203A &desc;</bibl>
@@ -45,6 +45,13 @@
 		<p lang="chi" type="ly">日本 SAT 組織提供，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language id="san-sd">Sanskrit-Siddam</language>
+			<language id="eng">English</language>
+			<language id="chi">Chinese</language>
+		</langUsage>
+</profileDesc>
 <revisionDesc>
 	<change>
 		<date>2007/11/23 14:57:04</date>
@@ -53,6 +60,9 @@
 	</change>
 <!--
 $Log: T57n2203A.xml,v $
+Revision 1.6  2007/12/04 02:56:53  saywhat
+p0011a07, ..., p0012b29 悉曇標記處理
+
 Revision 1.5  2007/11/26 09:04:04  eva
 modified: 標記目錄檢查修訂
 
@@ -73,7 +83,7 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0011a04"/>
 <lb ed="T" n="0011a05"/><byline type="author">遍照金剛撰</byline>
 <lb ed="T" n="0011a06"/><div1><lg id="lgT57p0011a0601"><l>文殊利劍絕諸戲</l><l>覺母梵文調御師</l>
-<lb ed="T" n="0011a07"/><l><sd>&SD-E2EE;&SD-A5EF;</sd>真言為種子</l><l>含藏諸教陀羅尼</l>
+<lb ed="T" n="0011a07"/><l><term lang="san-sd">&SD-E2EE;&SD-A5EF;</term>真言為種子</l><l>含藏諸教陀羅尼</l>
 <lb ed="T" n="0011a08"/><l>無邊生死何能斷</l><l>唯有禪那正思惟</l>
 <lb ed="T" n="0011a09"/><l>尊者三摩仁不讓</l><l>我今讚述垂哀悲</l></lg>
 <lb ed="T" n="0011a10"/><p id="pT57p0011a1001">夫佛法非遙。心中即近。真如非外。棄身何
@@ -94,8 +104,8 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0011a25"/>普賢解頤<note type="okuri" place="inline">&M062482;</note>圓融之義<note type="okuri" place="inline">&M062443;</note>。談不生則文殊破顏<note type="okuri" place="inline">&M062482;</note>。
 <lb ed="T" n="0011a26"/>絕戲之觀<note type="okuri" place="inline">&M062443;</note>。說之<note type="okuri" place="inline">&M062482;</note>識界<note type="okuri" place="inline">&M062443;</note>簡持拍手。泯之<note type="okuri" place="inline">&M062482;</note>境
 <lb ed="T" n="0011a27"/>智<note type="okuri" place="inline">&M062443;</note>歸一快心。十二因緣指生滅<note type="okuri" place="inline">&M062482;</note>於麟角。四
-<lb ed="T" n="0011a28"/>諦法輪驚苦空<note type="okuri" place="inline">&M062482;</note>於羊車。況復<sd>&SD-A458;&SD-A55D;</sd>二字吞諸
-<lb ed="T" n="0011a29"/>藏之行果。<sd>&SD-AABC;&SD-E0BC;</sd>兩言孕顯密之法教。一一聲
+<lb ed="T" n="0011a28"/>諦法輪驚苦空<note type="okuri" place="inline">&M062482;</note>於羊車。況復<term lang="san-sd">&SD-A458;&SD-A55D;</term>二字吞諸
+<lb ed="T" n="0011a29"/>藏之行果。<term lang="san-sd">&SD-AABC;&SD-E0BC;</term>兩言孕顯密之法教。一一聲
 <pb ed="T" id="T57.2203A.0011b" n="0011b"/>
 <lb ed="T" n="0011b01"/>字<note type="okuri" place="inline">&M062447;</note>歷劫之談<note type="okuri" place="inline">&M062443;&M062466;</note>不盡。一一名實<note type="okuri" place="inline">&M062447;</note>塵滴之佛<note type="okuri" place="inline">&M062466;</note>無
 <lb ed="T" n="0011b02"/>極。是故誦持講供則拔苦與樂。修習思惟
@@ -113,8 +123,8 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0011b14"/><p id="pT57p0011b1401">佛說摩訶般若波羅蜜多心經者。就此題額
 <lb ed="T" n="0011b15"/>有二別。梵漢別故。今謂佛說摩訶般若波羅
 <lb ed="T" n="0011b16"/>蜜多心經者。胡漢雜舉。說．心．經三字漢名。
-<lb ed="T" n="0011b17"/>餘九字胡號。若具梵名曰<sd>&SD-A65A;&SD-D9FA;&SD-A5D9;&SD-A67A;&SD-A5E5;&SD-A6A9;&SD-AABC;
-<lb ed="T" n="0011b18"/>&SD-E0A4;&SD-AABC;&SD-A5E7;&SD-A557;&SD-CC68;&SD-A56F;&SD-E0BC;&SD-AA68;</sd>。初二字圓滿覺者之名。
+<lb ed="T" n="0011b17"/>餘九字胡號。若具梵名曰<term lang="san-sd">&SD-A65A;&SD-D9FA;&SD-A5D9;&SD-A67A;&SD-A5E5;&SD-A6A9;&SD-AABC;
+<lb ed="T" n="0011b18"/>&SD-E0A4;&SD-AABC;&SD-A5E7;&SD-A557;&SD-CC68;&SD-A56F;&SD-E0BC;&SD-AA68;</term>。初二字圓滿覺者之名。
 <lb ed="T" n="0011b19"/>次二字開悟密藏施甘露之稱。次二字就
 <lb ed="T" n="0011b20"/>大多勝立義。次二字約定慧樹名。次三就
 <lb ed="T" n="0011b21"/>所作已辯為號。次二據處中表義。次二以
@@ -139,8 +149,8 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0011c10"/>分別諸乘分。色不異空<note type="okuri" place="inline">&M062440;云&M062472;&M062474;</note>至無所得故是。第
 <lb ed="T" n="0011c11"/>三行人得益分。菩提薩埵<note type="okuri" place="inline">&M062440;云&M062472;&M062474;</note>至三藐三菩提
 <lb ed="T" n="0011c12"/>是也。第四總歸持明分。故知般若<note type="okuri" place="inline">&M062440;云&M062472;&M062474;</note>至真實
-<lb ed="T" n="0011c13"/>不虛是也。第五祕藏真言分。<sd>&SD-A458;&SD-A55D;&SD-A458;&SD-A55D;</sd><note type="okuri" place="inline">&M062440;云&M062472;&M062474;</note>至
-<lb ed="T" n="0011c14"/><sd>&SD-B065;&SD-A6A9;</sd>是也。第一人法總通分有五。因．行．證．
+<lb ed="T" n="0011c13"/>不虛是也。第五祕藏真言分。<term lang="san-sd">&SD-A458;&SD-A55D;&SD-A458;&SD-A55D;</term><note type="okuri" place="inline">&M062440;云&M062472;&M062474;</note>至
+<lb ed="T" n="0011c14"/><term lang="san-sd">&SD-B065;&SD-A6A9;</term>是也。第一人法總通分有五。因．行．證．
 <lb ed="T" n="0011c15"/>入．持是也。言觀自在能行人。即此人本覺
 <lb ed="T" n="0011c16"/>菩提為因。深般若能所觀法。即是行。照空則
 <lb ed="T" n="0011c17"/>能證智。度苦則所得果。果即入也。依彼教
@@ -201,10 +211,10 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0012b12"/>曰。</p>
 <lb ed="T" n="0012b13"/><lg id="lgT57p0012b1301"><l>總持有文義</l><l>忍&CB00057;悉持明</l>
 <lb ed="T" n="0012b14"/><l>聲字與人法</l><l>實相具此名</l></lg>
-<lb ed="T" n="0012b15"/><p id="pT57p0012b1501">第五祕藏真言分有五。初<sd>&SD-A458;&SD-A55D;</sd>顯聲聞行果。
-<lb ed="T" n="0012b16"/>二<sd>&SD-A458;&SD-A55D;</sd>舉緣覺行果。三<sd>&SD-AABC;&SD-A458;&SD-A55D;</sd>指諸大乘最
-<lb ed="T" n="0012b17"/>勝行果。四<sd>&SD-AABC;&SD-E0BC;&SD-A458;&SD-A55D;</sd>明真言曼荼羅具足輪
-<lb ed="T" n="0012b18"/>圓行果。五<sd>&SD-A65E;&SD-A57D;&SD-B065;&SD-A6A9;</sd>說上諸乘究竟菩提證
+<lb ed="T" n="0012b15"/><p id="pT57p0012b1501">第五祕藏真言分有五。初<term lang="san-sd">&SD-A458;&SD-A55D;</term>顯聲聞行果。
+<lb ed="T" n="0012b16"/>二<term lang="san-sd">&SD-A458;&SD-A55D;</term>舉緣覺行果。三<term lang="san-sd">&SD-AABC;&SD-A458;&SD-A55D;</term>指諸大乘最
+<lb ed="T" n="0012b17"/>勝行果。四<term lang="san-sd">&SD-AABC;&SD-E0BC;&SD-A458;&SD-A55D;</term>明真言曼荼羅具足輪
+<lb ed="T" n="0012b18"/>圓行果。五<term lang="san-sd">&SD-A65E;&SD-A57D;&SD-B065;&SD-A6A9;</term>說上諸乘究竟菩提證
 <lb ed="T" n="0012b19"/>入義。句義如是。若約字相義等釋之。有無
 <lb ed="T" n="0012b20"/>量人法等義。歷劫難盡。若要聞者依法更
 <lb ed="T" n="0012b21"/>問<note type="okuri" place="inline">&M062456;</note>。頌曰。</p>
@@ -215,7 +225,7 @@ modified: 重轉 BM→XML
 <lb ed="T" n="0012b26"/><p id="pT57p0012b2601">問。陀羅尼是如來祕密語。所以古三藏諸疏
 <lb ed="T" n="0012b27"/>家。皆閉口絕筆。今作此釋。深背聖旨。如來
 <lb ed="T" n="0012b28"/>說法有二種。一顯二祕。為顯機說多名句。
-<lb ed="T" n="0012b29"/>為祕根說總持字。是故如來自說<sd>&SD-CFC5;</sd>字<sd>&SD-DA42;</sd>
+<lb ed="T" n="0012b29"/>為祕根說總持字。是故如來自說<term lang="san-sd">&SD-CFC5;</term>字<term lang="san-sd">&SD-DA42;</term>
 <pb ed="T" id="T57.2203A.0012c" n="0012c"/>
 <lb ed="T" n="0012c01"/>字等種種義。是則為祕機作此說。龍猛．無
 <lb ed="T" n="0012c02"/>畏．廣智等。亦說其義。能不之間在教機耳。
