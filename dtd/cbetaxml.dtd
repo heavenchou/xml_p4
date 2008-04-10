@@ -223,7 +223,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT address (addrLine)>
 <!ELEMENT addrLine (#PCDATA)>
 <!--  6.4.4:  Dates and times                                  -->
-<!ELEMENT date (#PCDATA)>
+<!ELEMENT date (#PCDATA | lb | pb | gaiji | app | note | p)*>
 <!--  6.5.1:  Editorial tags for correction                    -->
 <!-- CORR is from the TEI set, but the attributes cf1, cf2 has been added (CW, 1.7.98) -->
 <!ELEMENT corr (#PCDATA | gaiji | xref | anchor | lb | note | term)*>
@@ -396,13 +396,13 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt | sd)*>
+<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt | sd | annals)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt | sd)*>
+<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt | sd | annals)*>
 <!ATTLIST div2
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -681,8 +681,6 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT ruby (#PCDATA | lb | pb | rb | rt | gaiji | app | note)*>
 <!ATTLIST ruby
 	type CDATA #IMPLIED
-	rb CDATA #IMPLIED
-	rt CDATA #IMPLIED
 >
 <!ELEMENT rb (#PCDATA | lb | pb | gaiji | app | note)*>
 <!ATTLIST rb
@@ -690,6 +688,14 @@ converted to XML form 2.1.99 (CW)
 >
 <!ELEMENT rt (#PCDATA | lb | pb | gaiji | app | note)*>
 <!ATTLIST rt
+	type CDATA #IMPLIED
+>
+<!ELEMENT annals (#PCDATA | lb | pb | date | event | gaiji | app | note)*>
+<!ATTLIST annals
+	type CDATA #IMPLIED
+>
+<!ELEMENT event (#PCDATA | lb | pb | gaiji | app | note | p)*>
+<!ATTLIST event
 	type CDATA #IMPLIED
 >
 <!-- Notations -->
