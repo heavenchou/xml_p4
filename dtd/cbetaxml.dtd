@@ -164,7 +164,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT revisionDesc (change)+>
 <!ELEMENT change (date, respStmt, item)>
 <!--  6.1:  Paragraph                                          -->
-<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu | sd | ruby)*>
+<!ELEMENT p (#PCDATA | anchor | app | corr | fan | figure | foreign | gaiji | l | lb | lg | note | pb | sic | skgloss | span | table | term | tt | xref | jl_byline | jl_juan | jl_title | mulu | sd | ruby | sup)*>
 <!ATTLIST p
 	id ID #IMPLIED
 	n CDATA #IMPLIED
@@ -697,6 +697,10 @@ converted to XML form 2.1.99 (CW)
 >
 <!ELEMENT event (#PCDATA | lb | pb | gaiji | app | note | p)*>
 <!ATTLIST event
+	type CDATA #IMPLIED
+>
+<!ELEMENT sup (#PCDATA)>
+<!ATTLIST sup
 	type CDATA #IMPLIED
 >
 <!-- Notations -->
