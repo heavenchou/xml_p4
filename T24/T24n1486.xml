@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.11 $ (Big5)<date>$Date: 2009/03/07 16:23:16 $</date>新式標點版</edition>
+		<edition>$Revision: 1.12 $ (Big5)<date>$Date: 2009/03/19 08:56:00 $</date>新式標點版</edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2009/03/07 16:23:16 $</date>
+		<date>$Date: 2009/03/19 08:56:00 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 24, No. 1486</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T24n1486.xml,v $
+Revision 1.12  2009/03/19 08:56:00  saywhat
+TK修訂：p1024b27[瞰>噉],p1026a11[十>千],p1026a27[隨>髓]
+
 Revision 1.11  2009/03/07 16:23:16  saywhat
 新式標點版
 
@@ -117,7 +120,7 @@ Revision 1.6  2001/02/07 07:01:12  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.5  2001/02/03 07:50:52  chris
-Added keywords $Revision: 1.11 $, $Date: 2009/03/07 16:23:16 $ and $Log.
+Added keywords $Revision: 1.12 $, $Date: 2009/03/19 08:56:00 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -261,7 +264,7 @@ Added comment  for Emacs
 <lb n="1024b24" ed="T"/><lg id="lgT24p1024b2401" rend="margin-left:1em;text-indent:-1em"><l>「一切愛眼目，</l><l>愛子亦復爾，</l>
 <lb n="1024b25" ed="T"/><l>愛壽命無極，</l><l>是故不殺生，</l>
 <lb n="1024b26" ed="T"/><l>名為梵行最。</l><l>不殺無殺想，</l>
-<lb n="1024b27" ed="T"/><l>亦不<note n="1024024" resp="Taisho" place="foot text" type="orig">瞰＝噉【宮】</note><app n="1024024"><lem wit="【大】">瞰</lem><rdg resp="Taisho" wit="【宮】">噉</rdg></app>於肉，</l><l>見殺者如賊，</l>
+<lb n="1024b27" ed="T"/><l>亦不<note n="1024024" resp="Taisho" place="foot text" type="orig">瞰＝噉【宮】</note><note n="1024024" resp="CBETA" type="mod">瞰＝噉【宮】【麗-CB】【CB】</note><app n="1024024"><lem wit="【CBETA】【麗】" resp="CBETA.maha" cf1="K14n0528_p0334a01">噉</lem><rdg wit="【大】">瞰</rdg><rdg resp="Taisho" wit="【宮】">噉</rdg></app>於肉，</l><l>見殺者如賊，</l>
 <lb n="1024b28" ed="T"/><l>必知墮地獄。</l><l>噉肉者多病，</l>
 <lb n="1024b29" ed="T"/><l>斷命自莊嚴。</l><l>當行大慈心，</l>
 <pb n="1024c" id="T24.1486.1024c" ed="T"/>
@@ -395,7 +398,7 @@ Added comment  for Emacs
 <lb n="1026a08" ed="T"/>偷盜果報。時閻羅王呵責罪人：『汝樂偷盜，今
 <lb n="1026a09" ed="T"/>受此苦。是事樂不？汝今復當百千萬劫償他
 <lb n="1026a10" ed="T"/>人債，終不可盡！』</p><p place="inline">「第五，盜報生鐵鹿地獄，受鐵
-<lb n="1026a11" ed="T"/>鹿形，有百千頭，有百千<note n="1026004" resp="Taisho" place="foot text" type="orig">〔手百千〕－【三】【宮】</note><note n="1026004" resp="CBETA" type="mod">〔手百千〕－【宋】【元】【明】【宮】</note><app n="1026004"><lem wit="【大】">手、百千</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>尾、百十蹄
+<lb n="1026a11" ed="T"/>鹿形，有百千頭，有百千<note n="1026004" resp="Taisho" place="foot text" type="orig">〔手百千〕－【三】【宮】</note><note n="1026004" resp="CBETA" type="mod">〔手百千〕－【宋】【元】【明】【宮】</note><app n="1026004"><lem wit="【大】">手、百千</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>尾、百<app><lem wit="【CBETA】【麗】" resp="CBETA.maha" cf1="K14n0528_p0336a15">千</lem><rdg wit="【大】">十</rdg></app>蹄
 <lb n="1026a12" ed="T"/>甲、百千重皮。五百億鐵虎、百千億鐵師子剝
 <lb n="1026a13" ed="T"/>取其皮，一一皮間生無量鐵刺，猶如刀劍，削
 <lb n="1026a14" ed="T"/>骨徹髓，苦痛無量，百千萬歲受苦無極，是名
@@ -411,7 +414,7 @@ Added comment  for Emacs
 <lb n="1026a24" ed="T"/><p>「第七，盜報生刀劍花大地獄中，刀林<note n="1026008" resp="Taisho" place="foot text" type="orig">〔劍林〕－【三】【宮】</note><note n="1026008" resp="CBETA" type="mod">〔劍林〕－【宋】【元】【明】【宮】</note><app n="1026008"><lem wit="【大】">劍林</lem><rdg resp="Taisho" wit="【宋】【元】【明】【宮】">&lac;</rdg></app>
 <lb n="1026a25" ed="T"/>無量無邊，有諸罪人身如鐵甕，縱廣正等百
 <lb n="1026a26" ed="T"/>千由旬，獄卒驅蹴，如風吹花，生劍花端，百千
-<lb n="1026a27" ed="T"/>劍花，分剝其皮，作無數段，削骨徹隨，從空而
+<lb n="1026a27" ed="T"/>劍花，分剝其皮，作無數段，削骨徹<app><lem wit="【CBETA】【麗】" resp="CBETA.maha" cf1="K14n0528_p0336b11">髓</lem><rdg wit="【大】">隨</rdg></app>，從空而
 <lb n="1026a28" ed="T"/>落；生刀花上，刀花諸刺，分剝其皮，作無量段，
 <lb n="1026a29" ed="T"/>劈破其骨，為無數段，徹髓刺心，求死不得；四
 <pb n="1026b" id="T24.1486.1026b" ed="T"/>
