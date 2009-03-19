@@ -2,7 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "W02n0021.ent" >
-<!ENTITY % CBENT  SYSTEM "../dtd/cbeta.ent" >
+<!ENTITY % CBENT SYSTEM "../dtd/cbeta.ent">
+<!ENTITY % JAP SYSTEM "../dtd/jap.ent">
 <!ENTITY FigW02037001 SYSTEM "figures/W02037001.gif" NDATA GIF>
 <!ENTITY FigW02037801 SYSTEM "figures/W02037801.gif" NDATA GIF>
 <!ENTITY FigW02037802 SYSTEM "figures/W02037802.gif" NDATA GIF>
@@ -10,6 +11,7 @@
 <!ENTITY FigW02040801 SYSTEM "figures/W02040801.gif" NDATA GIF>
 %ENTY;
 %CBENT;
+%JAP;
 ]>
 <TEI.2>
 <teiHeader>
@@ -23,7 +25,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2009/03/18 16:01:44 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2009/03/19 04:00:25 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,7 +38,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2009/03/18 16:01:44 $</date>
+		<date>$Date: 2009/03/19 04:00:25 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts Not Contained in the Tripitaka Vol. 02, No. 021 &desc;</bibl>
@@ -63,6 +65,9 @@
 	</change>
 <!--
 $Log: W02n0021.xml,v $
+Revision 1.2  2009/03/19 04:00:25  saywhat
+校註作業
+
 Revision 1.1  2009/03/18 16:01:44  saywhat
 BM→XML標記作業
 
@@ -138,7 +143,7 @@ BM→XML標記作業
 <lb ed="W" n="0357a08"/>是我們了解與研究印度佛教必不可少的資料。</p>
 <lb ed="W" n="0357a09"/><p id="pW02p0357a0901" rend="margin-left:0em;text-indent:2em">該經現有英、德、日等多種文字的譯本，本文是該經的第一個
 <lb ed="W" n="0357a10"/>漢文譯本。漢譯本先由譯者依據附有梵文原文的日本金倉圓照的
-<lb ed="W" n="0357a11"/>日譯本<anchor id="fnW02p0357a01"/>翻譯，進而約請葛維鈞同志依據梵文原文作了校對。現將
+<lb ed="W" n="0357a11"/>日譯本<note n="0357001" resp="ZangWai" place="foot text" type="orig">參見金倉圓照：《印度精神文化&M062346;研究》，培風館出版，1944年2月。</note>翻譯，進而約請葛維鈞同志依據梵文原文作了校對。現將
 <lb ed="W" n="0357a12"/>梵文原文用括弧抄錄在每節經文正文之後，以供有興趣的讀者研
 <lb ed="W" n="0357a13"/>究與查考。梵文原文中的「-」為分詞號；「=」為移行號。本經原文
 <lb ed="W" n="0357a14"/>非常簡略，以致難以畢讀。為了便於理解，譯者在經文中適當增加
@@ -252,8 +257,8 @@ BM→XML標記作業
 <lb ed="W" n="0361a11"/>觀察法這二種方法來證得。</p>
 <lb ed="W" n="0361a12"/><p id="pW02p0361a1201" rend="margin-left:4em;text-indent:-2em">量（pram&amacron;&ndotblw;a）是印度哲學，特別是印度邏輯學——因明——
 <lb ed="W" n="0361a13"/>的常用術語，指知識來源、認識方法及判斷知識真偽的標準。耆那
-<lb ed="W" n="0361a14"/>教對量的解釋，見§1.10，§1.11。</p>
-<lb ed="W" n="0361a15"/><p id="pW02p0361a1501" rend="margin-left:4em;text-indent:-2em">觀察法（naya）指認識事物的方法。見§1.34，§1.35。</p></div4></div3>
+<lb ed="W" n="0361a14"/>教對量的解釋，見§1.10、§1.11。</p>
+<lb ed="W" n="0361a15"/><p id="pW02p0361a1501" rend="margin-left:4em;text-indent:-2em">觀察法（naya）指認識事物的方法。見§1.34、§1.35。</p></div4></div3>
 <lb ed="W" n="0361a16"/><div3 type="other"><mulu type="其他" level="3" label="§1.7"/><head>§1.7</head><div4 type="orig"><p id="pW02p0361a1605" place="inline">（且）通過對定義、所屬、形成的原因、關係、
 <lb ed="W" n="0361a17"/>存續、區分；（nirde&sacute;a-sv&amacron;mitva-s&amacron;dhana-adhikara&ndotblw;a-
 <lb ed="W" n="0361a18"/>sthiti-vidh&amacron;nata&hdotblw;.）</p></div4></div3>
@@ -296,7 +301,7 @@ BM→XML標記作業
 <lb ed="W" n="0362a27"/>這種認識能力的人可以直接洞察他人過去、現在、未來的種種心理
 <lb ed="W" n="0362a28"/>活動。耆那教認為，祇有當認識者擺脫一切個人的忿、憎等感情，纔
 <pb ed="W" id="W02.0021.0363a" n="0363a"/>
-<lb ed="W" n="0363a01"/>能具有這種神秘的本領。參見§1.24，§1.25。在空衣派的刊本
+<lb ed="W" n="0363a01"/>能具有這種神秘的本領。參見§1.24、§1.25。在空衣派的刊本
 <lb ed="W" n="0363a02"/>中，他心智的梵文原詞為「mana&hdotblw;paryaya」。</p>
 <lb ed="W" n="0363a03"/><p id="pW02p0363a0301" rend="margin-left:4em;text-indent:-2em">完全智（kevala），即佛教中所說的「大圓鏡智」。據說這是在認
 <lb ed="W" n="0363a04"/>識者的命已經擺脫了業的束縛以後獲得的一種最完善、最全面的
@@ -308,7 +313,7 @@ BM→XML標記作業
 <lb ed="W" n="0363a10"/><div4 type="commentary"><p id="pW02p0363a1001" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0363a1003" place="inline" rend="margin-left:4em;text-indent:-2em">耆那教按照是否需要媒介、工具把感官智等五種智
 <lb ed="W" n="0363a11"/>分成直接智慧（aparok&sdotblw;a）和間接智慧（parok&sdotblw;a）兩種。所謂直接智
 <lb ed="W" n="0363a12"/>慧係指一個已經擺脫了業的影響，並具有「正確」認識能力的「勝
-<lb ed="W" n="0363a13"/>者」<anchor id="fnW02p0363a01"/>天生就有或其它人不憑任何媒介、工具，自然就能夠得到的
+<lb ed="W" n="0363a13"/>者」<note n="0363001" resp="ZangWai" place="foot text" type="orig">勝者：即「耆那」（j&imacron;na）的意譯。是耆那教對已從業的束縛中解脫出來的人的稱呼。耆那教教主大雄即為勝者。佛教也在同樣意義上稱釋迦牟尼為勝者。</note>天生就有或其它人不憑任何媒介、工具，自然就能夠得到的
 <lb ed="W" n="0363a14"/>智慧；而間接智慧則是普通人借助於某些媒介、工具纔能得到的。
 <lb ed="W" n="0363a15"/>他們認為，感官智要依靠感官、意識、光線等各種條件纔能產生，聖
 <lb ed="W" n="0363a16"/>典智要依靠聖典及教授等媒介纔能產生，故都屬間接智慧。所以稱
@@ -621,7 +626,7 @@ BM→XML標記作業
 <lb ed="W" n="0374a18"/><div4 type="commentary"><p id="pW02p0374a1801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0374a1803" place="inline" rend="margin-left:4em;text-indent:-2em">本節及下一節論述命的特徵。</p>
 <lb ed="W" n="0374a19"/><p id="pW02p0374a1901" rend="margin-left:4em;text-indent:-2em">意向性（upayoga），是耆那教的專門術語，指在生命現象中存
 <lb ed="W" n="0374a20"/>在著的廣義的精神作用。它表現為針對某個目標而產生的精神活
-<lb ed="W" n="0374a21"/>動，很難確切翻譯。可參見§2.9，§2.19。</p></div4></div3>
+<lb ed="W" n="0374a21"/>動，很難確切翻譯。可參見§2.9、§2.19。</p></div4></div3>
 <lb ed="W" n="0374a22"/><div3 type="other"><mulu type="其他" level="3" label="§2.9"/><head>§2.9</head><div4 type="orig"><p id="pW02p0374a2205" place="inline">（此中有）兩種，（且分別）有八種、四種之區
 <lb ed="W" n="0374a23"/>別。（sa dvividho '&sdotblw;&tdotblw;a-catur-bheda&hdotblw;.）</p></div4>
 <lb ed="W" n="0374a24"/><div4 type="commentary"><p id="pW02p0374a2401" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0374a2403" place="inline" rend="margin-left:4em;text-indent:-2em">意向性可分成兩種：一、關於「智」的意向性；二、關
@@ -651,7 +656,7 @@ BM→XML標記作業
 <lb ed="W" n="0375a20"/>§2.23至§2.24。</p>
 <lb ed="W" n="0375a21"/><p id="pW02p0375a2101" rend="margin-left:4em;text-indent:-2em">耆那教認為植物，乃至地、水、火、風中都寓有「命」，都是「生
 <lb ed="W" n="0375a22"/>物」，這種物活論的思想，是值得注意的。</p>
-<lb ed="W" n="0375a23"/><p id="pW02p0375a2301" rend="margin-left:4em;text-indent:-2em">在空衣派的刊本中，§2.13，§2.14兩節略有不同：</p>
+<lb ed="W" n="0375a23"/><p id="pW02p0375a2301" rend="margin-left:4em;text-indent:-2em">在空衣派的刊本中，§2.13、§2.14兩節略有不同：</p>
 <lb ed="W" n="0375a24"/><p id="pW02p0375a2401" rend="margin-left:4em;text-indent:-2em">（§2.13）不動者為地、水、火、風、植物。（p&rdotblw;thivy-ab-tejo
 <lb ed="W" n="0375a25"/>-v&amacron;yu-vanaspataya&hdotblw; sth&amacron;var&amacron;&hdotblw;.）</p>
 <lb ed="W" n="0375a26"/><p id="pW02p0375a2601" rend="margin-left:4em;text-indent:-2em">（§2.14）動者為具有兩個以上根者。（dv&imacron;ndriy&amacron;dayas
@@ -692,21 +697,21 @@ BM→XML標記作業
 <lb ed="W" n="0377a05"/>身、舌、鼻、眼、耳是印度比較普遍的方法，故本經對此未作詳論。</p></div4></div3>
 <lb ed="W" n="0377a06"/><div3 type="other"><mulu type="其他" level="3" label="§2.22"/><head>§2.22</head><div4 type="orig"><p id="pW02p0377a0606" place="inline">非根（的對象）是聖典智。（&sacute;rutam
 <lb ed="W" n="0377a07"/> anindriyasya.）</p></div4>
-<lb ed="W" n="0377a08"/><div4 type="commentary"><p id="pW02p0377a0801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0377a0803" place="inline" rend="margin-left:4em;text-indent:-2em">非根，即意，見§1.14，§1.19。因為聖典智的概念
+<lb ed="W" n="0377a08"/><div4 type="commentary"><p id="pW02p0377a0801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0377a0803" place="inline" rend="margin-left:4em;text-indent:-2em">非根，即意，見§1.14、§1.19。因為聖典智的概念
 <lb ed="W" n="0377a09"/>祇有意識纔能理解、把握，故它是非根的對象。但同時必須注意
 <lb ed="W" n="0377a10"/>§1.20所述：聖典智必須以感官智為基礎。即，非根必須在根的幫
 <lb ed="W" n="0377a11"/>助下纔能認識聖典智，而不能單槍匹馬去進行認識活動。</p></div4></div3>
 <lb ed="W" n="0377a12"/><div3 type="other"><mulu type="其他" level="3" label="§2.23"/><head>§2.23</head><div4 type="orig"><p id="pW02p0377a1206" place="inline">直至風的諸（生物）有一個根。（v&amacron;yu-
 <lb ed="W" n="0377a13"/>ant&amacron;n&amacron;m ekam.）</p></div4>
 <lb ed="W" n="0377a14"/><div4 type="commentary"><p id="pW02p0377a1401" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0377a1403" place="inline" rend="margin-left:4em;text-indent:-2em">此節意為從地到風，即地、水、植物、火、風等五類東
-<lb ed="W" n="0377a15"/>西都是具備一個根的生物。這裡所謂的「直至風」，是指§2.13，
+<lb ed="W" n="0377a15"/>西都是具備一個根的生物。這裡所謂的「直至風」，是指§2.13、
 <lb ed="W" n="0377a16"/>§2.14兩節所排列的次序。耆那教認為這些生物具備的那個根是
 <lb ed="W" n="0377a17"/>「身」，或稱「皮」，即具備觸覺。</p>
 <lb ed="W" n="0377a18"/><p id="pW02p0377a1801" rend="margin-left:4em;text-indent:-2em">空衣派的刊本此節為：「直至植物的（生物）有一個
 <lb ed="W" n="0377a19"/>根。」（vanaspaty-ant&amacron;n&amacron;m ekam.）這兒所謂的「直至植物」，是按照
 <lb ed="W" n="0377a20"/>空衣派刊本的排列次序來講的，故也同樣是說地、水、火、風、植物
 <lb ed="W" n="0377a21"/>等五類東西具備觸覺。兩者表述方式雖不同，理論內容是一致的。
-<lb ed="W" n="0377a22"/>參見§2.13，§2.14。</p></div4></div3>
+<lb ed="W" n="0377a22"/>參見§2.13、§2.14。</p></div4></div3>
 <lb ed="W" n="0377a23"/><div3 type="other"><mulu type="其他" level="3" label="§2.24"/><head>§2.24</head><div4 type="orig"><p id="pW02p0377a2306" place="inline">蟲類、蟻類、蜂類、人類等，依次增加（一個
 <lb ed="W" n="0377a24"/>根）。（k&rdotblw;mi-pip&imacron;lik&amacron;-bhramara-manu&sdotblw;ya-&amacron;d&imacron;n&amacron;m
 <lb ed="W" n="0377a25"/> ekaika-v&rdotblw;ddh&amacron;ni.）</p></div4>
@@ -845,8 +850,8 @@ BM→XML標記作業
 <lb ed="W" n="0382a17"/>子可以相互結合成複合體，複合體的質料要粗於原子。</p></div4></div3>
 <lb ed="W" n="0382a18"/><div3 type="other"><mulu type="其他" level="3" label="§2.40"/><head>§2.40</head><div4 type="orig"><p id="pW02p0382a1806" place="inline">其它的具有的微點，依次是（前者的）無數
 <lb ed="W" n="0382a19"/>倍。（ananta-gu&ndotblw;e pare.）</p></div4>
-<lb ed="W" n="0382a20"/><div4 type="commentary"><p id="pW02p0382a2001" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0382a2003" place="inline" rend="margin-left:4em;text-indent:-2em">「其它的」，指光亮身、業身。</p></div4></div3>
-<lb ed="W" n="0382a21"/><div3 type="other"><mulu type="其他" level="3" label="§2.39，§2.40"/><head>§2.39，§2.40</head><div4 type="orig"><p id="pW02p0382a2111" place="inline">兩節意為，由於組成肉體身等五身的物質，逐
+<lb ed="W" n="0382a20"/><div4 type="commentary"><p id="pW02p0382a2001" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0382a2003" place="inline" rend="margin-left:4em;text-indent:-2em">「其它的」，指光亮身、業身。</p>
+<lb ed="W" n="0382a21"/><p id="pW02p0382a2101" rend="margin-left:4em;text-indent:-2em">§2.39、§2.40兩節意為，由於組成肉體身等五身的物質，逐
 <lb ed="W" n="0382a22"/>漸由原子的複合體分解為更細小的原子（微點），所以它微點的數
 <lb ed="W" n="0382a23"/>目愈來愈多，從而組成身體的物質也就愈來愈細微。</p></div4></div3>
 <lb ed="W" n="0382a24"/><div3 type="other"><mulu type="其他" level="3" label="§2.41"/><head>§2.41</head><div4 type="orig"><p id="pW02p0382a2406" place="inline">（最後兩身活動時），不受任何障礙。
@@ -1227,7 +1232,7 @@ BM→XML標記作業
 <lb ed="W" n="0396a11"/> dv&imacron;ndr&amacron;&hdotblw;.）</p></div4>
 <lb ed="W" n="0396a12"/><div4 type="commentary"><p id="pW02p0396a1201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0396a1203" place="inline" rend="margin-left:4em;text-indent:-2em">本節意為在第一群及第二群的各類諸神中，每類各
 <lb ed="W" n="0396a13"/>有兩位因陀羅。因為第一群有十類天神，第二群有八類天神（參見
-<lb ed="W" n="0396a14"/>§4.11，§4.12），故第一群天神中共有二十位因陀羅，第二群天神
+<lb ed="W" n="0396a14"/>§4.11、§4.12），故第一群天神中共有二十位因陀羅，第二群天神
 <lb ed="W" n="0396a15"/>中共有十六位因陀羅。</p></div4></div3>
 <lb ed="W" n="0396a16"/><div3 type="other"><mulu type="其他" level="3" label="§4.7"/><head>§4.7</head><div4 type="orig"><p id="pW02p0396a1605" place="inline">有直到黃色的色彩。（p&imacron;t&amacron;nta-le&sacute;y&amacron;&hdotblw;.）</p></div4>
 <lb ed="W" n="0396a17"/><div4 type="commentary"><p id="pW02p0396a1701" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0396a1703" place="inline" rend="margin-left:4em;text-indent:-2em">據作者原註，本節意為第一群、第二群兩群天神有
@@ -1249,8 +1254,8 @@ BM→XML標記作業
 <lb ed="W" n="0397a05"/><p id="pW02p0397a0501" rend="margin-left:4em;text-indent:-2em">佛教也有類似的說法。</p>
 <lb ed="W" n="0397a06"/><p id="pW02p0397a0601" rend="margin-left:4em;text-indent:-2em">在空衣派的刊本中，無「每兩位相互（dvayor dvayo&hdotblw;）」一詞。</p></div4></div3>
 <lb ed="W" n="0397a07"/><div3 type="other"><mulu type="其他" level="3" label="§4.10"/><head>§4.10</head><div4 type="orig"><p id="pW02p0397a0706" place="inline">最高無性欲。（pare 'prav&imacron;c&amacron;r&amacron;&hdotblw;.）</p></div4>
-<lb ed="W" n="0397a08"/><div4 type="commentary"><p id="pW02p0397a0801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0397a0803" place="inline" rend="margin-left:4em;text-indent:-2em">「最高」，指最高神，即超迦爾巴住神。參見§4.17，
-<lb ed="W" n="0397a09"/>§4.18，§4.20。</p></div4></div3>
+<lb ed="W" n="0397a08"/><div4 type="commentary"><p id="pW02p0397a0801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0397a0803" place="inline" rend="margin-left:4em;text-indent:-2em">「最高」，指最高神，即超迦爾巴住神。參見§4.17、
+<lb ed="W" n="0397a09"/>§4.18、§4.20。</p></div4></div3>
 <lb ed="W" n="0397a10"/><div3 type="other"><mulu type="其他" level="3" label="§4.11"/><head>§4.11</head><div4 type="orig"><p id="pW02p0397a1006" place="inline">宮住神有阿修羅童子、那伽童子、電光童
 <lb ed="W" n="0397a11"/>子、妙翅童子、火童子、風童子、雷童子、巨海童子、洲童
 <lb ed="W" n="0397a12"/>子、方位童子（等十類）。（bhavana-v&amacron;sino 'sura-n&amacron;ga-
@@ -1478,8 +1483,8 @@ BM→XML標記作業
 <lb ed="W" n="0405a11"/> ca.）</p></div4>
 <lb ed="W" n="0405a12"/><div4 type="commentary"><p id="pW02p0405a1201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0405a1203" place="inline" rend="margin-left:4em;text-indent:-2em">這兩節意為天界的第一群神宮住神及第二群神中
 <lb ed="W" n="0405a13"/>間住神的最短壽命都是一萬歲。</p>
-<lb ed="W" n="0405a14"/><p id="pW02p0405a1401" rend="margin-left:4em;text-indent:-2em">空衣派刊本把§4.44，§4.45，§4.46三節作為（§4.36），
-<lb ed="W" n="0405a15"/>（§4.37），（§4.38）三節，內容相同。</p></div4></div3>
+<lb ed="W" n="0405a14"/><p id="pW02p0405a1401" rend="margin-left:4em;text-indent:-2em">空衣派刊本把§4.44、§4.45、§4.46三節作為（§4.36）、
+<lb ed="W" n="0405a15"/>（§4.37）、（§4.38）三節，內容相同。</p></div4></div3>
 <lb ed="W" n="0405a16"/><div3 type="other"><mulu type="其他" level="3" label="§4.47"/><head>§4.47</head><div4 type="orig"><p id="pW02p0405a1606" place="inline">最長壽為一巴利堯巴姆。（par&amacron;
 <lb ed="W" n="0405a17"/> palyopamam.）</p></div4>
 <lb ed="W" n="0405a18"/><div4 type="commentary"><p id="pW02p0405a1801" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0405a1803" place="inline" rend="margin-left:4em;text-indent:-2em">本節意為天界第二群神中間住神的最長壽是一個
@@ -1506,8 +1511,8 @@ BM→XML標記作業
 <lb ed="W" n="0406a11"/> a&sdotblw;&tdotblw;abh&amacron;ga&hdotblw;.）</p></div4>
 <lb ed="W" n="0406a12"/><div4 type="commentary"><p id="pW02p0406a1201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0406a1203" place="inline" rend="margin-left:4em;text-indent:-2em">§4.50指星宿的最長壽命，是半個巴利堯巴姆。
 <lb ed="W" n="0406a13"/>§4.51指離散星的最長壽命，是四分之一個巴利堯姆。§4.52指
-<lb ed="W" n="0406a14"/>離散星的最短壽命是八分之一個巴利堯巴姆。</p></div4></div3>
-<lb ed="W" n="0406a15"/><div3 type="other"><mulu type="其他" level="3" label="§4.49，§4.50，§4.51"/><head>§4.49，§4.50，§4.51</head><div4 type="orig"><p id="pW02p0406a1516" place="inline">三節與§4.48有矛盾，但原文如此。
+<lb ed="W" n="0406a14"/>離散星的最短壽命是八分之一個巴利堯巴姆。</p>
+<lb ed="W" n="0406a15"/><p id="pW02p0406a1501" rend="margin-left:4em;text-indent:-2em">§4.49、§4.50、§4.51三節與§4.48有矛盾，但原文如此。
 <lb ed="W" n="0406a16"/>疑有些單位可能應是如海量。空衣派刊本沒有這幾節，行文就不矛
 <lb ed="W" n="0406a17"/>盾了。參見§4.53的註釋。</p></div4></div3>
 <lb ed="W" n="0406a18"/><div3 type="other"><mulu type="其他" level="3" label="§4.53"/><head>§4.53</head><div4 type="orig"><p id="pW02p0406a1806" place="inline">以外的為四分之一。（caturbh&amacron;ga&hdotblw;
@@ -1551,7 +1556,7 @@ BM→XML標記作業
 <lb ed="W" n="0408a01"/>是精神性的原理，一個是物質性的原理。由於非命可分作法等四個
 <lb ed="W" n="0408a02"/>實體，加上實體命，故有些註釋者把命、法、非法、虛空、補特伽羅合
 <lb ed="W" n="0408a03"/>稱為耆那教的五個基本實體。</p>
-<lb ed="W" n="0408a04"/><p id="pW02p0408a0401" rend="margin-left:4em;text-indent:-2em">空衣派刊本把本節分作（§5.2），（§5.3）兩節。</p></div4></div3>
+<lb ed="W" n="0408a04"/><p id="pW02p0408a0401" rend="margin-left:4em;text-indent:-2em">空衣派刊本把本節分作（§5.2）、（§5.3）兩節。</p></div4></div3>
 <lb ed="W" n="0408a05"/><div3 type="other"><mulu type="其他" level="3" label="§5.3"/><head>§5.3</head><div4 type="orig"><p id="pW02p0408a0505" place="inline">是常住的、無色的。（nity&amacron;vasthit&amacron;ny
 <lb ed="W" n="0408a06"/> ar&umacron;p&amacron;&ndotblw;i.）</p></div4>
 <lb ed="W" n="0408a07"/><div4 type="commentary"><p id="pW02p0408a0701" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0408a0703" place="inline" rend="margin-left:4em;text-indent:-2em">「常住」（nity&amacron;vasthita）是與變化、無常相對的一個概
@@ -1560,8 +1565,8 @@ BM→XML標記作業
 <lb ed="W" n="0408a10"/>是沒有一定的形體，也無質礙。</p></div4></div3>
 <lb ed="W" n="0408a11"/><div3 type="other"><mulu type="其他" level="3" label="§5.4"/><head>§5.4</head><div4 type="orig"><p id="pW02p0408a1105" place="inline">（但）補特伽羅是有色的。（r&umacron;pi&ndotblw;a&hdotblw;
 <lb ed="W" n="0408a12"/> pudgal&amacron;&hdotblw;.）</p></div4>
-<lb ed="W" n="0408a13"/><div4 type="commentary"><p id="pW02p0408a1301" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0408a1303" place="inline" rend="margin-left:4em;text-indent:-2em">本節意為補特伽羅有質礙，有一定的形體。</p></div4></div3>
-<lb ed="W" n="0408a14"/><div3 type="other"><mulu type="其他" level="3" label="§5.3，§5.4"/><head>§5.3，§5.4</head><div4 type="orig"><p id="pW02p0408a1409" place="inline">兩節是對五個實體基本性質的簡述。這五個實
+<lb ed="W" n="0408a13"/><div4 type="commentary"><p id="pW02p0408a1301" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0408a1303" place="inline" rend="margin-left:4em;text-indent:-2em">本節意為補特伽羅有質礙，有一定的形體。</p>
+<lb ed="W" n="0408a14"/><p id="pW02p0408a1401" rend="margin-left:4em;text-indent:-2em">§5.3、§5.4兩節是對五個實體基本性質的簡述。這五個實
 <lb ed="W" n="0408a15"/>體都是永恆不變的，其中命是精神性的；法、非法、虛空、補特伽羅
 <lb ed="W" n="0408a16"/>是物質性的。在這四個物質性實體中，法、非法、虛空是無質礙（色）
 <lb ed="W" n="0408a17"/>的不定形物質，而補特伽羅則是有質礙（色）的定形物質。精神性
@@ -1818,7 +1823,7 @@ BM→XML標記作業
 <lb ed="W" n="0417a17"/>即無形體者，如法、非法、虛空等是無始無終的。</p></div4></div3>
 <lb ed="W" n="0417a18"/><div3 type="other"><mulu type="其他" level="3" label="§5.44"/><head>§5.44</head><div4 type="orig"><p id="pW02p0417a1806" place="inline">於命之作為及意向性（的轉化為有始）。
 <lb ed="W" n="0417a19"/>（yoga-upayogau j&imacron;ve&sdotblw;u.）</p></div4>
-<lb ed="W" n="0417a20"/><div4 type="commentary"><p id="pW02p0417a2001" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0417a2003" place="inline" rend="margin-left:4em;text-indent:-2em">「意向性」，參見§2.8，§2.9。「作為」（yoga），參見
+<lb ed="W" n="0417a20"/><div4 type="commentary"><p id="pW02p0417a2001" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0417a2003" place="inline" rend="margin-left:4em;text-indent:-2em">「意向性」，參見§2.8、§2.9。「作為」（yoga），參見
 <lb ed="W" n="0417a21"/>§6.1等節。</p></div4></div3></div2>
 <lb ed="W" n="0417a22"/>
 <lb ed="W" n="0417a23"/><div2 type="other"><mulu type="其他" level="2" label="6 第六章"/><head>第六章</head>
@@ -1986,7 +1991,7 @@ BM→XML標記作業
 <lb ed="W" n="0423a20"/>（漏得以產生）。（yogavakrat&amacron; visa&mdotblw;v&amacron;dana&mdotblw; ca-a&sacute;ubhasya
 <lb ed="W" n="0423a21"/> n&amacron;mna&hdotblw;.）</p></div4>
 <lb ed="W" n="0423a22"/><div4 type="commentary"><p id="pW02p0423a2201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0423a2203" place="inline" rend="margin-left:4em;text-indent:-2em">「個性」（n&amacron;mna）是耆那教用於對業進行分類的一種
-<lb ed="W" n="0423a23"/>範疇，詳見§8.5，§8.12。</p></div4></div3>
+<lb ed="W" n="0423a23"/>範疇，詳見§8.5、§8.12。</p></div4></div3>
 <lb ed="W" n="0423a24"/><div3 type="other"><mulu type="其他" level="3" label="§6.22"/><head>§6.22</head><div4 type="orig"><p id="pW02p0423a2406" place="inline">與此正相反的（行為，使）善良的個性的（漏
 <lb ed="W" n="0423a25"/>得以產生）。（vipar&imacron;ta&mdotblw; &sacute;ubhasya.）</p></div4>
 <lb ed="W" n="0423a26"/><div4 type="commentary"><p id="pW02p0423a2601" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0423a2603" place="inline" rend="margin-left:4em;text-indent:-2em">這兩節論述各類好的、壞的個性是因什麼而產生
@@ -2026,7 +2031,7 @@ BM→XML標記作業
 <lb ed="W" n="0425a05"/><div3 type="other"><mulu type="其他" level="3" label="§6.26"/><head>§6.26</head><div4 type="orig"><p id="pW02p0425a0506" place="inline">（對他人的行為）設置障礙，（使）妨害的（漏
 <lb ed="W" n="0425a06"/>得以產生）。（vighnakara&ndotblw;am antar&amacron;yasya.）</p></div4>
 <lb ed="W" n="0425a07"/><div4 type="commentary"><p id="pW02p0425a0701" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0425a0703" place="inline" rend="margin-left:4em;text-indent:-2em">「妨害」（vighnakara&ndotblw;a）也是耆那教對業進行分類的
-<lb ed="W" n="0425a08"/>範疇之一。詳見§8.5，§8.14。</p></div4></div3></div2>
+<lb ed="W" n="0425a08"/>範疇之一。詳見§8.5、§8.14。</p></div4></div3></div2>
 <lb ed="W" n="0425a09"/>
 <lb ed="W" n="0425a10"/><div2 type="other"><mulu type="其他" level="2" label="7 第七章"/><head>第七章</head>
 <lb ed="W" n="0425a11"/><div3 type="other"><mulu type="其他" level="3" label="§7.1"/><head>§7.1</head><div4 type="orig"><p id="pW02p0425a1105" place="inline">所謂禁誓是禁止殺生、妄語、偷盜、淫行、執
@@ -2044,7 +2049,7 @@ BM→XML標記作業
 <lb ed="W" n="0425a23"/>-mahat&imacron;.）</p></div4>
 <lb ed="W" n="0425a24"/><div4 type="commentary"><p id="pW02p0425a2401" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0425a2403" place="inline" rend="margin-left:4em;text-indent:-2em">出家人必須完全地、嚴格地遵守這些禁誓，這稱為
 <lb ed="W" n="0425a25"/>「大禁誓」。在家人卻祇須部分地、不太嚴格地遵守它們，這稱為「小
-<lb ed="W" n="0425a26"/>禁誓」。詳見§7.14，§7.15等節。</p></div4></div3>
+<lb ed="W" n="0425a26"/>禁誓」。詳見§7.14、§7.15等節。</p></div4></div3>
 <lb ed="W" n="0425a27"/><div3 type="other"><mulu type="其他" level="3" label="§7.3"/><head>§7.3</head><div4 type="orig"><p id="pW02p0425a2705" place="inline">為使這些（禁誓）確立，對該五項各有五種修
 <pb ed="W" id="W02.0021.0426a" n="0426a"/>
 <lb ed="W" n="0426a01"/>習。（tat-sthairy&amacron;rtha&mdotblw; bh&amacron;van&amacron;&hdotblw; pa&ntilde;ca pa&ntilde;ca.）</p></div4>
@@ -2214,8 +2219,8 @@ BM→XML標記作業
 <pb ed="W" id="W02.0021.0432a" n="0432a"/>
 <lb ed="W" n="0432a01"/>a-an&amacron;dara-sm&rdotblw;tyanupasth&amacron;pan&amacron;ni.）</p></div4>
 <lb ed="W" n="0432a02"/><div4 type="commentary"><p id="pW02p0432a0201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0432a0203" place="inline" rend="margin-left:4em;text-indent:-2em">本節論述的是對§7.16所述的齋戒戒律的五種違
-<lb ed="W" n="0432a03"/>背。</p></div4></div3>
-<lb ed="W" n="0432a04"/><div3 type="other"><mulu type="其他" level="3" label="§7.28"/><head>§7.28</head><div4 type="orig"><p id="pW02p0432a0406" place="inline">所說的「對傳統法規記憶不熟」，指的是關於反省冥想
+<lb ed="W" n="0432a03"/>背。</p>
+<lb ed="W" n="0432a04"/><p id="pW02p0432a0401" rend="margin-left:4em;text-indent:-2em">§7.28所說的「對傳統法規記憶不熟」，指的是關於反省冥想
 <lb ed="W" n="0432a05"/>的傳統法規。§7.29所說的「對傳統法規記憶不熟」，則是指對齋
 <lb ed="W" n="0432a06"/>戒戒律的傳統法規。</p></div4></div3>
 <lb ed="W" n="0432a07"/><div3 type="other"><mulu type="其他" level="3" label="§7.30"/><head>§7.30</head><div4 type="orig"><p id="pW02p0432a0706" place="inline">吃活東西；吃與它有關係的東西；吃與它相
@@ -2273,7 +2278,7 @@ BM→XML標記作業
 <lb ed="W" n="0434a03"/><div3 type="other"><mulu type="其他" level="3" label="§8.3"/><head>§8.3</head><div4 type="orig"><p id="pW02p0434a0305" place="inline">此為縛。（sa bandha&hdotblw;.）</p></div4>
 <lb ed="W" n="0434a04"/><div4 type="commentary"><p id="pW02p0434a0401" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0434a0403" place="inline" rend="margin-left:4em;text-indent:-2em">據烏瑪斯伐蒂原註，本節意為命受納了上述構成業
 <lb ed="W" n="0434a05"/>身的細微的物質性的業，這就是縛。</p>
-<lb ed="W" n="0434a06"/><p id="pW02p0434a0601" rend="margin-left:4em;text-indent:-2em">空衣派的刊本把§8.2，§8.3兩節合為一節，作（§8.2）。</p></div4></div3>
+<lb ed="W" n="0434a06"/><p id="pW02p0434a0601" rend="margin-left:4em;text-indent:-2em">空衣派的刊本把§8.2、§8.3兩節合為一節，作（§8.2）。</p></div4></div3>
 <lb ed="W" n="0434a07"/><div3 type="other"><mulu type="其他" level="3" label="§8.4"/><head>§8.4</head><div4 type="orig"><p id="pW02p0434a0705" place="inline">這（縛的）種類（分為業的）本質、止住、威力
 <lb ed="W" n="0434a08"/>及微點（的數目等四種）。（prak&rdotblw;ti-sthity-anubh&amacron;va-
 <lb ed="W" n="0434a09"/>prade&sacute;&amacron;s tad-vidhaya&hdotblw;.）</p></div4>
@@ -2446,7 +2451,7 @@ BM→XML標記作業
 <lb ed="W" n="0440a10"/><div3 type="other"><mulu type="其他" level="3" label="§8.21"/><head>§8.21</head><div4 type="orig"><p id="pW02p0440a1006" place="inline">其餘的（業的最小限度的止住）在一暫時之
 <lb ed="W" n="0440a11"/>內。（&sacute;e&sdotblw;&amacron;&ndotblw;&amacron;m antar-muh&umacron;rtam.）</p></div4>
 <lb ed="W" n="0440a12"/><div4 type="commentary"><p id="pW02p0440a1201" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0440a1203" place="inline" rend="margin-left:4em;text-indent:-2em">「其餘的」，指§8.5所講的八項業的本質中，去掉
-<lb ed="W" n="0440a13"/>§8.19，§8.20兩節已論述過的感受、個性、類性之外的其餘五
+<lb ed="W" n="0440a13"/>§8.19、§8.20兩節已論述過的感受、個性、類性之外的其餘五
 <lb ed="W" n="0440a14"/>項，即：智障、見障、愚癡、壽量、妨礙。</p>
 <lb ed="W" n="0440a15"/><p id="pW02p0440a1501" rend="margin-left:4em;text-indent:-2em">在空衣派的刊本中，本節最後一詞寫作「muh&umacron;rt&amacron;」。</p></div4></div3>
 <lb ed="W" n="0440a16"/><div3 type="other"><mulu type="其他" level="3" label="§8.22"/><head>§8.22</head><div4 type="orig"><p id="pW02p0440a1606" place="inline">所謂威力指（業的）異熟。（vip&amacron;ko
@@ -2566,15 +2571,15 @@ BM→XML標記作業
 <lb ed="W" n="0444a20"/> sarve.）</p></div4>
 <lb ed="W" n="0444a21"/><div4 type="commentary"><p id="pW02p0444a2101" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0444a2103" place="inline" rend="margin-left:4em;text-indent:-2em">一般認為粗穢濁位即是十四德位的第九位，也有人
 <lb ed="W" n="0444a22"/>認為它相當於第八、第九兩個德位。所謂「有全部」，是指有§9.9
-<lb ed="W" n="0444a23"/>所講的全部二十二種艱苦。</p></div4></div3>
-<lb ed="W" n="0444a24"/><div3 type="other"><mulu type="其他" level="3" label="§9.10至§9.12"/><head>§9.10至§9.12</head><div4 type="orig"><p id="pW02p0444a2412" place="inline">所講的粗穢濁位、細穢濁位、無穢濁位及勝
+<lb ed="W" n="0444a23"/>所講的全部二十二種艱苦。</p>
+<lb ed="W" n="0444a24"/><p id="pW02p0444a2401" rend="margin-left:4em;text-indent:-2em">§9.10至§9.12所講的粗穢濁位、細穢濁位、無穢濁位及勝
 <lb ed="W" n="0444a25"/>者位與§9.38所講的十四德位並不完全吻合。初看起來，是由於
 <lb ed="W" n="0444a26"/>耆那教的德位學說逐漸發展，十四德位學說後出之故。但在耆那教
-<lb ed="W" n="0444a27"/>十一肢之一《娑摩伐耶》（samav&amacron;ya）26</p><byline type="other">中，已經提到了「十四命</byline>
+<lb ed="W" n="0444a27"/>十一肢之一《娑摩伐耶》（samav&amacron;ya）26B中，已經提到了「十四命
 <pb ed="W" id="W02.0021.0445a" n="0445a"/>
 <lb ed="W" n="0445a01"/>位」（j&imacron;va&tdotblw;&tdotblw;h&amacron;&ndotblw;a），與§9.38所講的十四德位完全一樣，因此，十四
 <lb ed="W" n="0445a02"/>德位的起源也是相當古老的。但是，《娑摩伐耶》中混雜有不少後
-<lb ed="W" n="0445a03"/>世的材料，故問題比較複雜，還需要認真研究。</div4></div3>
+<lb ed="W" n="0445a03"/>世的材料，故問題比較複雜，還需要認真研究。</p></div4></div3>
 <lb ed="W" n="0445a04"/><div3 type="other"><mulu type="其他" level="3" label="§9.13"/><head>§9.13</head><div4 type="orig"><p id="pW02p0445a0406" place="inline">如果有障礙智慧（的業），就有慧（的闇沒）
 <lb ed="W" n="0445a05"/>與無智（的絕望等二種艱苦）。（j&ntilde;&amacron;n&amacron;vara&ndotblw;e praj&ntilde;&amacron;-
 <lb ed="W" n="0445a06"/>aj&ntilde;&amacron;ne.）</p></div4></div3>
@@ -2588,7 +2593,7 @@ BM→XML標記作業
 <lb ed="W" n="0445a14"/><div3 type="other"><mulu type="其他" level="3" label="§9.16"/><head>§9.16</head><div4 type="orig"><p id="pW02p0445a1406" place="inline">如果有感受（的業），就有其餘（的艱苦）。
 <lb ed="W" n="0445a15"/>（vedan&imacron;ye &sacute;e&sdotblw;&amacron;&hdotblw;.）</p></div4>
 <lb ed="W" n="0445a16"/><div4 type="commentary"><p id="pW02p0445a1601" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0445a1603" place="inline" rend="margin-left:4em;text-indent:-2em">「其餘的艱苦」，指從§9.9所講的二十二種艱苦中，
-<lb ed="W" n="0445a17"/>去掉§9.13，§9.14，§9.15提到的十一種艱苦後，下餘的十一種
+<lb ed="W" n="0445a17"/>去掉§9.13、§9.14、§9.15提到的十一種艱苦後，下餘的十一種
 <lb ed="W" n="0445a18"/>艱苦。此時的十一種艱苦與§9.11所講的勝者位的十一種艱苦相
 <lb ed="W" n="0445a19"/>同。</p></div4></div3>
 <lb ed="W" n="0445a20"/><div3 type="other"><mulu type="其他" level="3" label="§9.17"/><head>§9.17</head><div4 type="orig"><p id="pW02p0445a2006" place="inline">（二十二種艱苦中）一種乃至十九種可以同
@@ -2761,7 +2766,7 @@ BM→XML標記作業
 <lb ed="W" n="0451a20"/>「損失」不同。該詞在§1.15中意為「判斷」，與本節不同。</p>
 <lb ed="W" n="0451a21"/><p id="pW02p0451a2101" rend="margin-left:4em;text-indent:-2em">「異熟」，參見§8.22的註釋。</p>
 <lb ed="W" n="0451a22"/><p id="pW02p0451a2201" rend="margin-left:4em;text-indent:-2em">「形狀」（sa&mdotblw;sth&amacron;na），指宇宙的構造，「尋求形狀」，即禪觀全宇
-<lb ed="W" n="0451a23"/>宙的構造。與§5.24，§7.12講的形狀不同。</p>
+<lb ed="W" n="0451a23"/>宙的構造。與§5.24、§7.12講的形狀不同。</p>
 <lb ed="W" n="0451a24"/><p id="pW02p0451a2401" rend="margin-left:4em;text-indent:-2em">在空衣派的刊本中，無「產生於不放佚禁戒位」一句。</p></div4></div3>
 <lb ed="W" n="0451a25"/><div3 type="other"><mulu type="其他" level="3" label="§9.38"/><head>§9.38</head><div4 type="orig"><p id="pW02p0451a2506" place="inline">（且也產生於）穢濁抑止位和滅盡位。
 <lb ed="W" n="0451a26"/>（upa&sacute;&amacron;nta-k&sdotblw;&imacron;&ndotblw;aka&sacute;&amacron;yayo&sacute; ca.）</p></div4>
@@ -2786,7 +2791,7 @@ BM→XML標記作業
 <lb ed="W" n="0452a17"/><p id="pW02p0452a1701" rend="margin-left:4em;text-indent:-2em">十三、有作為獨存位（sayogi-kevali-g.-s.）</p>
 <lb ed="W" n="0452a18"/><p id="pW02p0452a1801" rend="margin-left:4em;text-indent:-2em">十四、無作為獨存位（ayogi-kevali-g.-s.）</p>
 <lb ed="W" n="0452a19"/><p id="pW02p0452a1901" rend="margin-left:4em;text-indent:-2em">上述第八位也稱作「ap&umacron;rva-kara&ndotblw;a-g-s.」。</p>
-<lb ed="W" n="0452a20"/><p id="pW02p0452a2001" rend="margin-left:4em;text-indent:-2em">本章中§9.35，§9.36所說的無遠離位即第四位；部分遠離
+<lb ed="W" n="0452a20"/><p id="pW02p0452a2001" rend="margin-left:4em;text-indent:-2em">本章中§9.35、§9.36所說的無遠離位即第四位；部分遠離
 <lb ed="W" n="0452a21"/>位即第五位；放佚禁戒位即第六位；§9.37中說的不放佚禁戒位
 <lb ed="W" n="0452a22"/>即第七位；§9.12中講的粗穢濁位通常指第九位，也有人認為它
 <lb ed="W" n="0452a23"/>通指第八、第九兩位；§9.10講的細穢濁位指第十位；§9.10提到
@@ -2845,7 +2850,7 @@ BM→XML標記作業
 <lb ed="W" n="0454a19"/>§9.46。</p></div4></div3>
 <lb ed="W" n="0454a20"/><div3 type="other"><mulu type="其他" level="3" label="§9.44"/><head>§9.44</head><div4 type="orig"><p id="pW02p0454a2006" place="inline">第二為無伺。（avic&amacron;ra&mdotblw; dvit&imacron;yam.）</p></div4>
 <lb ed="W" n="0454a21"/><div4 type="commentary"><p id="pW02p0454a2101" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0454a2103" place="inline" rend="margin-left:4em;text-indent:-2em">白衣派刊本§9.43的註釋的最後說：「其中，第一為
-<lb ed="W" n="0454a22"/>有伺」，然後下接本節。這樣，§9.43，§9.44兩節的完整意思就
+<lb ed="W" n="0454a22"/>有伺」，然後下接本節。這樣，§9.43、§9.44兩節的完整意思就
 <lb ed="W" n="0454a23"/>是：前二種淨想都依止於聖典所講的事，其中第一淨想有尋有伺，
 <lb ed="W" n="0454a24"/>第二淨想有尋無伺。</p></div4></div3>
 <lb ed="W" n="0454a25"/><div3 type="other"><mulu type="其他" level="3" label="§9.45"/><head>§9.45</head><div4 type="orig"><p id="pW02p0454a2506" place="inline">所謂有尋即聖典智。（vitarka&hdotblw; &sacute;rutam.）</p></div4></div3>
@@ -2854,8 +2859,8 @@ BM→XML標記作業
 <pb ed="W" id="W02.0021.0455a" n="0455a"/>
 <lb ed="W" n="0455a01"/><div4 type="commentary"><p id="pW02p0455a0101" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0455a0103" place="inline" rend="margin-left:4em;text-indent:-2em">本節意為：從聖典所說的某教義想到其它的教義，
 <lb ed="W" n="0455a02"/>從一個句想到其它語句，從一個作為想到其它作為，這樣一種禪觀
-<lb ed="W" n="0455a03"/>方法即為伺察。</p></div4></div3>
-<lb ed="W" n="0455a04"/><div3 type="other"><mulu type="其他" level="3" label="§9.43至§9.46"/><head>§9.43至§9.46</head><div4 type="orig"><p id="pW02p0455a0412" place="inline">論述四種淨想的前二種。這二種淨想都有
+<lb ed="W" n="0455a03"/>方法即為伺察。</p>
+<lb ed="W" n="0455a04"/><p id="pW02p0455a0401" rend="margin-left:4em;text-indent:-2em">§9.43至§9.46論述四種淨想的前二種。這二種淨想都有
 <lb ed="W" n="0455a05"/>尋，即都是以聖典智為基礎的。但前一種淨想禪觀的方式是從一個
 <lb ed="W" n="0455a06"/>對像推廣開來，兼及其它，這稱為有伺。後一種淨想禪觀僅專注於
 <lb ed="W" n="0455a07"/>一個對像而不斷加深，這稱為無伺。這二種淨想實際上是禪觀的二
@@ -2956,7 +2961,7 @@ BM→XML標記作業
 <lb ed="W" n="0458a19"/>-j&ntilde;&amacron;na-avag&amacron;han&amacron;-antara-sa&mdotblw;khy&amacron;lpabahutvata&hdotblw;
 <lb ed="W" n="0458a20"/> s&amacron;dhy&amacron;&hdotblw;.）</p></div4>
 <lb ed="W" n="0458a21"/><div4 type="commentary"><p id="pW02p0458a2101" rend="margin-left:1em">〔註釋〕</p><p id="pW02p0458a2103" place="inline" rend="margin-left:4em;text-indent:-2em">耆那教認為解脫由本節所述的十一個因素決定，因
-<lb ed="W" n="0458a22"/>此，可把這十一個因素作為觀察法（參見§1.34，§1.35）來觀察
+<lb ed="W" n="0458a22"/>此，可把這十一個因素作為觀察法（參見§1.34、§1.35）來觀察
 <lb ed="W" n="0458a23"/>解脫。</p>
 <lb ed="W" n="0458a24"/><p id="pW02p0458a2401" rend="margin-left:4em;text-indent:-2em">「場所」，指解脫的地點。</p>
 <lb ed="W" n="0458a25"/><p id="pW02p0458a2501" rend="margin-left:4em;text-indent:-2em">「時間」，指解脫的時間。</p>
