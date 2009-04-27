@@ -20,7 +20,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.15 $ (Big5)<date>$Date: 2009/04/23 08:12:49 $</date></edition>
+		<edition>$Revision: 1.16 $ (Big5)<date>$Date: 2009/04/27 13:56:43 $</date></edition>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +33,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2009/04/23 08:12:49 $</date>
+		<date>$Date: 2009/04/27 13:56:43 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 48, No. 2007 &desc;</bibl>
@@ -59,6 +59,9 @@
 	</change>
 <!--
 $Log: T48n2007.xml,v $
+Revision 1.16  2009/04/27 13:56:43  saywhat
+p0337b11-p0342b29[姓>性]; p0338c03[自>此],[無>為],...,p0338c21[之>知],[鏡>境]
+
 Revision 1.15  2009/04/23 08:12:49  amtbgrace
 modified: 檔頭編碼由 big5 改為 cp950。
 
@@ -130,7 +133,7 @@ Revision 1.10  2001/02/07 07:27:12  chris
 Fixed problem with comment in the previous checkin
 
 Revision 1.9  2001/02/03 08:09:10  chris
-Added keywords $Revision: 1.15 $, $Date: 2009/04/23 08:12:49 $ and $Log.
+Added keywords $Revision: 1.16 $, $Date: 2009/04/27 13:56:43 $ and $Log.
 Added comment  for Emacs
 
 -->
@@ -179,8 +182,8 @@ Added comment  for Emacs
 <lb n="0337b08" ed="T"/>祖忽於一日喚門人盡來。門人集記。五祖曰。
 <lb n="0337b09" ed="T"/>吾向與說。世人生死事大。汝等門人終日供
 <lb n="0337b10" ed="T"/>養。只求福田。不求出離生死苦海。汝等自
-<lb n="0337b11" ed="T"/><note n="0337005" resp="Taisho" place="foot text" type="orig">姓＝性？</note><sic cert="?" n="0337005" resp="Taisho" corr="性">姓</sic>迷福門何可救汝。汝&CB00412;且歸房。自看有知
-<lb n="0337b12" ed="T"/>惠者。自取本<anchor id="fxT48p0337b01"/>姓般若知之。各作一偈呈吾。
+<lb n="0337b11" ed="T"/><note n="0337005" resp="Taisho" place="foot text" type="orig">姓＝性？</note><note n="0337005" resp="CBETA" type="mod">姓＝性？【大】＊，姓＝性【CB】＊</note><app n="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0348b01">性</lem><rdg wit="【大】">姓</rdg></app>迷福門何可救汝。汝&CB00412;且歸房。自看有知
+<lb n="0337b12" ed="T"/>惠者。自取本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0348b02">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>般若知之。各作一偈呈吾。
 <lb n="0337b13" ed="T"/>吾看汝偈。若吾大意者。付汝衣法。稟為六代。
 <lb n="0337b14" ed="T"/>火急急。門人得處分。&CB00230;來各至自房。遞相謂
 <lb n="0337b15" ed="T"/>言。我等不須呈心用意作偈將呈和尚。神秀
@@ -208,7 +211,7 @@ Added comment  for Emacs
 <lb n="0337c07" ed="T"/>凡所有相皆是虛妄。不如流此偈令迷人誦。
 <lb n="0337c08" ed="T"/>依此修行不墮三惡。依法修行人有大利益。
 <lb n="0337c09" ed="T"/>大師遂喚門人盡來。焚香偈前。人眾入見。皆
-<lb n="0337c10" ed="T"/>生敬心。汝等盡誦此偈者方得見<anchor id="fxT48p0337c01"/>姓。於此
+<lb n="0337c10" ed="T"/>生敬心。汝等盡誦此偈者方得見<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。於此
 <lb n="0337c11" ed="T"/>修行即不墮落。門人盡誦。皆生敬心。喚言
 <lb n="0337c12" ed="T"/>善哉。五祖遂喚秀上座於堂內<note n="0337006" resp="Taisho" place="foot text" type="orig">門＝間？</note><sic cert="?" n="0337006" resp="Taisho" corr="間">門</sic>是汝作偈
 <lb n="0337c13" ed="T"/>否。若是汝作應得我法。秀上座言。罪過實是
@@ -216,16 +219,16 @@ Added comment  for Emacs
 <lb n="0337c15" ed="T"/>智惠識大意否。五<note n="0337007" resp="Taisho" place="foot text" type="orig">褐＝祖？＊</note><sic cert="?" n="0337007" resp="Taisho" corr="祖">褐</sic>曰。汝作此偈。見即來
 <lb n="0337c16" ed="T"/>到。只到門前。尚未得入。凡夫於此偈修行。即
 <lb n="0337c17" ed="T"/>不墮落。作此見解。若覓無上菩提。即未可得。
-<lb n="0337c18" ed="T"/>須入得門見自本<anchor id="fxT48p0337c02"/>姓。汝旦去。一兩日來思
-<lb n="0337c19" ed="T"/>惟。更作一偈。來呈吾。若入得門見自本<anchor id="fxT48p0337c03"/>姓。
+<lb n="0337c18" ed="T"/>須入得門見自本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。汝旦去。一兩日來思
+<lb n="0337c19" ed="T"/>惟。更作一偈。來呈吾。若入得門見自本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。
 <lb n="0337c20" ed="T"/>當付汝衣法。秀上座去數日作不得。有一童
 <lb n="0337c21" ed="T"/>子。於碓坊邊過。唱誦此偈。惠能一聞知未見
-<lb n="0337c22" ed="T"/><anchor id="fxT48p0337c04"/>姓。即識大意。能問童子。適來誦者是何言
+<lb n="0337c22" ed="T"/><app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。即識大意。能問童子。適來誦者是何言
 <lb n="0337c23" ed="T"/>偈。童子答能曰。作不知大師言。生死是大。欲
 <lb n="0337c24" ed="T"/>傳於法。令門人等各作一偈來呈看悟大意
 <lb n="0337c25" ed="T"/>即付衣法。稟為六代。<anchor id="fxT48p0337c05"/>褐有一上座名神秀。
 <lb n="0337c26" ed="T"/>忽於南廊下書無相偈一首。五祖。令諸門人
-<lb n="0337c27" ed="T"/>盡誦。悟此偈者即見自<anchor id="fxT48p0337c06"/>姓。依此修行即得
+<lb n="0337c27" ed="T"/>盡誦。悟此偈者即見自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。依此修行即得
 <lb n="0337c28" ed="T"/>出離。惠能答曰。我此踏碓八箇餘月。未至堂
 <lb n="0337c29" ed="T"/>前。望上人引惠能至南廊下。見此偈禮拜。亦
 <pb n="0338a" id="T48.2007.0338a" ed="T"/>
@@ -233,7 +236,7 @@ Added comment  for Emacs
 <lb n="0338a02" ed="T"/>廊下。能即禮拜此偈。為不識字。請一人讀。惠
 <lb n="0338a03" ed="T"/>問已即識大意。惠能亦作一偈。又請得一解
 <lb n="0338a04" ed="T"/>書人。於西間壁上提&CB00473;。呈自本心。不識本心。
-<lb n="0338a05" ed="T"/>學法無益。識心見<anchor id="fxT48p0338a01"/>姓。即吾大意。惠能偈
+<lb n="0338a05" ed="T"/>學法無益。識心見<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。即吾大意。惠能偈
 <lb n="0338a06" ed="T"/>曰。</p>
 <lb n="0338a07" ed="T"/><lg id="lgT48p0338a0701"><l>菩提本無樹</l><l>明鏡亦無臺</l>
 <lb n="0338a08" ed="T"/><l>佛<app><lem wit="【CBETA】">性</lem><rdg wit="【大】">姓</rdg></app>常<app><lem wit="【CBETA】">清</lem><rdg wit="【大】">青</rdg></app>淨</l><l>何處有塵埃</l></lg>
@@ -291,45 +294,45 @@ Added comment  for Emacs
 <pb n="0338c" id="T48.2007.0338c" ed="T"/>
 <lb n="0338c01" ed="T"/>鈍。明即漸勸。悟人頓修。識自本是見本性。
 <lb n="0338c02" ed="T"/>悟即元無差別。不悟即長劫輪迴。善知識。我
-<lb n="0338c03" ed="T"/>自法門。從上已來。頓漸皆立無念無宗無相
-<lb n="0338c04" ed="T"/>無體無住無為本。何明為相。無相<note n="0338008" resp="Taisho" place="foot text" type="orig">（者）＋於？</note><sic cert="?" n="0338008" resp="Taisho" corr="者於">於</sic>相而離
+<lb n="0338c03" ed="T"/><app><lem resp="CBETA.say" wit="【CBETA】" cf1="T48n2008_p0353a11">此</lem><rdg wit="【大】">自</rdg></app>法門。從上已來。頓漸皆立無念<app><lem resp="CBETA.say" wit="【CBETA】" cf1="T48n2008_p0353a11">為</lem><rdg wit="【大】">無</rdg></app>宗無相
+<lb n="0338c04" ed="T"/><app><lem resp="CBETA.say" wit="【CBETA】" cf1="T48n2008_p0353a12">為</lem><rdg wit="【大】">無</rdg></app>體無住<app><lem resp="CBETA.say" wit="【CBETA】" cf1="T48n2008_p0353a12">&lac;</lem><rdg wit="【大】">無</rdg></app>為本。何明為相。無相<note n="0338008" resp="Taisho" place="foot text" type="orig">（者）＋於？</note><sic cert="?" n="0338008" resp="Taisho" corr="者於">於</sic>相而離
 <lb n="0338c05" ed="T"/>相。無念者於念而不念。無住者。為人本性。念
-<lb n="0338c06" ed="T"/>念不住。前念<note n="0338009" resp="Taisho" place="foot text" type="orig">念＝今？</note><sic cert="?" n="0338009" resp="Taisho" corr="今">念</sic>念後念。念念相<note n="0338010" resp="Taisho" place="foot text" type="orig">讀＝續？</note><sic cert="?" n="0338010" resp="Taisho" corr="續">讀</sic>無有斷
+<lb n="0338c06" ed="T"/>念不住。前念<note n="0338009" resp="Taisho" place="foot text" type="orig">念＝今？</note><sic cert="?" n="0338009" resp="Taisho" corr="今">念</sic>念後念。念念相<note n="0338010" resp="Taisho" place="foot text" type="orig">讀＝續？</note><note n="0338010" resp="CBETA" type="mod">讀＝續？【大】，讀＝續【CB】</note><app n="0338010"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a16">續</lem><rdg wit="【大】">讀</rdg></app>無有斷
 <lb n="0338c07" ed="T"/>絕。若一念斷絕法身即是離色身。念念時中。
 <lb n="0338c08" ed="T"/>於一切法上無住。一念若住念念即住名繫
 <lb n="0338c09" ed="T"/>縛。於一切法上念念不住即無縛也。以無住
 <lb n="0338c10" ed="T"/>為本。善知識。外離一切相是無相。但能離相
-<lb n="0338c11" ed="T"/>性體清淨是。是以無相為體。於一切<note n="0338011" resp="Taisho" place="foot text" type="orig">鏡＝境？＊</note><sic cert="?" n="0338011" resp="Taisho" corr="境">鏡</sic>上不
-<lb n="0338c12" ed="T"/>染名為無念。於自念上離鏡。不<note n="0338012" resp="Taisho" place="foot text" type="orig">〔不〕－？</note><sic cert="?" n="0338012" resp="Taisho" corr="＆lac；">不</sic>於法上念
-<lb n="0338c13" ed="T"/>生。莫百物不思。念盡除&CB00230;。一念斷即無別處
+<lb n="0338c11" ed="T"/>性體清淨是。是以無相為體。於一切<note n="0338011" resp="Taisho" place="foot text" type="orig">鏡＝境？＊</note><note n="0338011" resp="CBETA" type="mod">鏡＝境？【大】＊，鏡＝境【CB】＊</note><app n="0338011"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a20">境</lem><rdg wit="【大】">鏡</rdg></app>上不
+<lb n="0338c12" ed="T"/>染名為無念。於自念上離<app><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a20">境</lem><rdg wit="【大】">鏡</rdg></app>。不<note n="0338012" resp="Taisho" place="foot text" type="orig">〔不〕－？</note><note n="0338012" resp="CBETA" type="mod">〔不〕－？【大】，〔不〕－【CB】</note><app n="0338012"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a20">&lac;</lem><rdg wit="【大】">不</rdg></app>於法上念
+<lb n="0338c13" ed="T"/>生。莫百物不思。念盡除&CB00230;。一念斷即<app><lem resp="CBETA.maha" wit="【CBETA】" cf1="T48n2008_p0353a22">死</lem><rdg wit="【大】">無</rdg></app>。別處
 <lb n="0338c14" ed="T"/>受生。學道者用心。莫不息法意。自錯尚可。更
 <lb n="0338c15" ed="T"/>勸他人。迷不自見迷。又謗經法。是以立無念
-<lb n="0338c16" ed="T"/>為宗。即緣<note n="0338013" resp="Taisho" place="foot text" type="orig">名＝迷？</note><sic cert="?" n="0338013" resp="Taisho" corr="迷">名</sic>人於<anchor id="fxT48p0338c01"/>鏡上有念念上便<note n="0338014" resp="Taisho" place="foot text" type="orig">去＝起？</note><sic cert="?" n="0338014" resp="Taisho" corr="起">去</sic>邪
+<lb n="0338c16" ed="T"/>為宗。即緣<note n="0338013" resp="Taisho" place="foot text" type="orig">名＝迷？</note><note n="0338013" resp="CBETA" type="mod">名＝迷？【大】，名＝迷【CB】</note><app n="0338013"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a25">迷</lem><rdg wit="【大】">名</rdg></app>人於<app type="＊" source="0338011"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a25">境</lem><rdg resp="Taisho" wit="【大】">鏡</rdg></app>上有念。念上便<note n="0338014" resp="Taisho" place="foot text" type="orig">去＝起？</note><note n="0338014" resp="CBETA" type="mod">去＝起？【大】，去＝起【CB】</note><app n="0338014"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353a25">起</lem><rdg wit="【大】">去</rdg></app>邪
 <lb n="0338c17" ed="T"/>見。一切塵勞妄念從此而生。然此教門立無
 <lb n="0338c18" ed="T"/>念為宗。世人離見不起於念。若無有念。無念
 <lb n="0338c19" ed="T"/>亦不立。無者無何事。念者何物。無者離二相
-<lb n="0338c20" ed="T"/>諸塵勞。真如是念之體。念是真如之用。<anchor id="fxT48p0338c02"/>姓
-<lb n="0338c21" ed="T"/>起念。雖即見聞覺之不染萬<anchor id="fxT48p0338c03"/>鏡而常自在。維
+<lb n="0338c20" ed="T"/>諸塵勞。真如是念之體。念是真如之用。<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>
+<lb n="0338c21" ed="T"/>起念。雖即見聞覺<app><lem resp="CBETA.maha" wit="【CBETA】" cf1="T48n2008_p0353b05">知</lem><rdg wit="【大】">之</rdg></app>不染萬<app type="＊" source="0338011"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】" cf1="T48n2008_p0353b05">境</lem><rdg resp="Taisho" wit="【大】">鏡</rdg></app>而常自在。維
 <lb n="0338c22" ed="T"/>摩經云。外能善分別諸法相。內於第一義而
 <lb n="0338c23" ed="T"/>不動。善諸識。此法門中。座禪元不著心。亦不
 <lb n="0338c24" ed="T"/>著淨。亦不言動。若言看心。心元是妄。妄如幻
-<lb n="0338c25" ed="T"/>故無所看也。若言看淨。人<anchor id="fxT48p0338c04"/>姓本淨。為妄念
-<lb n="0338c26" ed="T"/>故蓋覆真如。離妄念本<anchor id="fxT48p0338c05"/>姓淨。不見自<anchor id="fxT48p0338c06"/>姓本
+<lb n="0338c25" ed="T"/>故無所看也。若言看淨。人<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>本淨。為妄念
+<lb n="0338c26" ed="T"/>故蓋覆真如。離妄念本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>淨。不見自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>本
 <lb n="0338c27" ed="T"/>淨。心起看淨。&CB00230;生淨妄。妄無處所。故知看者
 <lb n="0338c28" ed="T"/>看&CB00230;是妄也。淨無形相。&CB00230;立淨相。言是功夫。
-<lb n="0338c29" ed="T"/>作此見者<note n="0338015" resp="Taisho" place="foot text" type="orig">章＝鄣？</note><sic cert="?" n="0338015" resp="Taisho" corr="鄣">章</sic>自本<anchor id="fxT48p0338c07"/>姓。&CB00230;被淨縛。若不動者。
+<lb n="0338c29" ed="T"/>作此見者<note n="0338015" resp="Taisho" place="foot text" type="orig">章＝鄣？</note><sic cert="?" n="0338015" resp="Taisho" corr="鄣">章</sic>自本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。&CB00230;被淨縛。若不動者。
 <pb n="0339a" id="T48.2007.0339a" ed="T"/>
 <lb n="0339a01" ed="T"/>見一切人過患是性不動。迷人自身不動。開
 <lb n="0339a02" ed="T"/>口即說人是非。與道違背。看心看淨。&CB00230;是
 <lb n="0339a03" ed="T"/>障道因緣。今記汝是此法門中。何名座禪。此
 <lb n="0339a04" ed="T"/>法門中一切無礙。外於一切境界上念不去
-<lb n="0339a05" ed="T"/>為座。見本<anchor id="fxT48p0339a01"/>姓不亂為禪。何名為禪定。外<note n="0339001" resp="Taisho" place="foot text" type="orig">雜＝離？</note><sic cert="?" n="0339001" resp="Taisho" corr="離">雜</sic>
-<lb n="0339a06" ed="T"/>相曰禪。內不亂曰定。外若有相內<anchor id="fxT48p0339a02"/>姓不亂。
+<lb n="0339a05" ed="T"/>為座。見本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>不亂為禪。何名為禪定。外<note n="0339001" resp="Taisho" place="foot text" type="orig">雜＝離？</note><sic cert="?" n="0339001" resp="Taisho" corr="離">雜</sic>
+<lb n="0339a06" ed="T"/>相曰禪。內不亂曰定。外若有相內<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>不亂。
 <lb n="0339a07" ed="T"/>本自淨自定。只緣境觸。觸即亂。離相不亂即
 <lb n="0339a08" ed="T"/>定。外離相即禪。內<note n="0339002" resp="Taisho" place="foot text" type="orig">〔外〕－？</note><sic cert="?" n="0339002" resp="Taisho" corr="＆lac；">外</sic>不亂即定。外禪內定
 <lb n="0339a09" ed="T"/>故名禪定。維摩經云。即是豁然還得本心。菩
-<lb n="0339a10" ed="T"/>薩戒云。本須自<anchor id="fxT48p0339a03"/>姓清淨。善知識。見自<anchor id="fxT48p0339a04"/>姓自
-<lb n="0339a11" ed="T"/>淨。自修自作。自<anchor id="fxT48p0339a05"/>姓法身自行。佛行自作自
+<lb n="0339a10" ed="T"/>薩戒云。本須自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>清淨。善知識。見自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>自
+<lb n="0339a11" ed="T"/>淨。自修自作。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>法身自行。佛行自作自
 <lb n="0339a12" ed="T"/>成佛道。善知識總須自體與受無相戒。一時
 <lb n="0339a13" ed="T"/>逐惠能口道。令善知識見自三身佛。於自色
 <lb n="0339a14" ed="T"/>身歸<note n="0339003" resp="Taisho" place="foot text" type="orig">衣＝依？＊</note><sic cert="?" n="0339003" resp="Taisho" corr="依">衣</sic>清淨法身佛。於自色身歸<anchor id="fxT48p0339a06"/>衣千百
@@ -339,21 +342,21 @@ Added comment  for Emacs
 <lb n="0339a18" ed="T"/>色身中三性佛。善知識。聽汝善知識說令善
 <lb n="0339a19" ed="T"/>知識。<anchor id="fxT48p0339a08"/>衣自色身見自法性有三世佛。此三身
 <lb n="0339a20" ed="T"/>佛從性上生。何名清淨身佛。善知識。世人性
-<lb n="0339a21" ed="T"/>本自淨。萬法在自<anchor id="fxT48p0339a09"/>姓。思量一切事即行<anchor id="fxT48p0339a10"/>衣
+<lb n="0339a21" ed="T"/>本自淨。萬法在自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。思量一切事即行<anchor id="fxT48p0339a10"/>衣
 <lb n="0339a22" ed="T"/>惡。思量一切善事便修於善行。知如是一切
-<lb n="0339a23" ed="T"/>法盡在自<anchor id="fxT48p0339a11"/>姓。自<anchor id="fxT48p0339a12"/>姓常清淨。日月常<note n="0339004" resp="Taisho" place="foot text" type="orig">名＝明？＊</note><sic cert="?" n="0339004" resp="Taisho" corr="明">名</sic>。只
+<lb n="0339a23" ed="T"/>法盡在自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>常清淨。日月常<note n="0339004" resp="Taisho" place="foot text" type="orig">名＝明？＊</note><sic cert="?" n="0339004" resp="Taisho" corr="明">名</sic>。只
 <lb n="0339a24" ed="T"/>為雲覆蓋上<anchor id="fxT48p0339a13"/>名下暗。不能了見日月<note n="0339005" resp="Taisho" place="foot text" type="orig">西＝星？</note><sic cert="?" n="0339005" resp="Taisho" corr="星">西</sic>辰。
 <lb n="0339a25" ed="T"/>忽遇惠風吹散卷盡雲霧。萬像參羅。一時皆
 <lb n="0339a26" ed="T"/>現。世人性淨。猶如清天。惠如日。智如月。智
-<lb n="0339a27" ed="T"/>惠常<anchor id="fxT48p0339a14"/>名。於外看敬。妄念浮雲蓋覆自<anchor id="fxT48p0339a15"/>姓。不
+<lb n="0339a27" ed="T"/>惠常<anchor id="fxT48p0339a14"/>名。於外看敬。妄念浮雲蓋覆自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。不
 <lb n="0339a28" ed="T"/>能明。故遇善知識開真法吹&CB00230;<note n="0339006" resp="Taisho" place="foot text" type="orig">名＝迷？</note><sic cert="?" n="0339006" resp="Taisho" corr="迷">名</sic>妄。內外
-<lb n="0339a29" ed="T"/><anchor id="fxT48p0339a16"/>名徹。於自<anchor id="fxT48p0339a17"/>姓中萬法皆見。一切法自在<anchor id="fxT48p0339a18"/>姓。
+<lb n="0339a29" ed="T"/><anchor id="fxT48p0339a16"/>名徹。於自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>中萬法皆見。一切法自在<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。
 <pb n="0339b" id="T48.2007.0339b" ed="T"/>
 <lb n="0339b01" ed="T"/>名為清淨法身。自歸<anchor id="fxT48p0339b01"/>衣者。除不善行。是名
 <lb n="0339b02" ed="T"/>歸<anchor id="fxT48p0339b02"/>衣。何名為千百億化身佛。不思量性即空
 <lb n="0339b03" ed="T"/>寂。思量即是自化。思量惡法化為地獄。思量
 <lb n="0339b04" ed="T"/>善法化為天堂。毒害化為畜生。慈悲化為菩
-<lb n="0339b05" ed="T"/>薩。智惠化為上界。愚癡化為下方。自<anchor id="fxT48p0339b03"/>姓變
+<lb n="0339b05" ed="T"/>薩。智惠化為上界。愚癡化為下方。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>變
 <lb n="0339b06" ed="T"/>化甚<note n="0339007" resp="Taisho" place="foot text" type="orig">名＝多？</note><sic cert="?" n="0339007" resp="Taisho" corr="多">名</sic>。迷人自不知。見一念善知惠即生。
 <lb n="0339b07" ed="T"/>一燈能除千年闇。一智能滅萬年愚。莫思向
 <lb n="0339b08" ed="T"/>前常思於後常。後念善名為報身。一念惡報
@@ -366,7 +369,7 @@ Added comment  for Emacs
 <lb n="0339b15" ed="T"/>誓願度。煩惱無邊誓願斷。法門無邊誓願學。
 <lb n="0339b16" ed="T"/>無上佛道誓願成<note place="inline">三唱</note>。善知識。眾生無邊誓
 <lb n="0339b17" ed="T"/>願度。不是惠能度。善知識。心中眾生各於自
-<lb n="0339b18" ed="T"/>身自<anchor id="fxT48p0339b05"/>姓自度。何名自<anchor id="fxT48p0339b06"/>姓自度。自色身中邪
+<lb n="0339b18" ed="T"/>身自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>自度。何名自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>自度。自色身中邪
 <lb n="0339b19" ed="T"/>見煩惱愚癡名妄。自有本覺性。將正見度。既
 <lb n="0339b20" ed="T"/>悟正見。般若之智除&CB00230;愚癡迷妄。眾生各各
 <lb n="0339b21" ed="T"/>自度。邪見正度。迷來悟度。愚來智度。惡來善
@@ -377,7 +380,7 @@ Added comment  for Emacs
 <lb n="0339b26" ed="T"/>即自悟佛道成。行誓願力。今既發四弘誓願
 <lb n="0339b27" ed="T"/>訖。與善知識無相懺悔三世罪障。大師言。善
 <lb n="0339b28" ed="T"/>知識。前念後念及今念。<note n="0339010" resp="Taisho" place="foot text" type="orig">（念）＋念？</note><sic cert="?" n="0339010" resp="Taisho" corr="念念">念</sic>不被愚迷染。從
-<lb n="0339b29" ed="T"/>前惡行一時自<anchor id="fxT48p0339b07"/>姓若除即是懺悔。前念後念
+<lb n="0339b29" ed="T"/>前惡行一時自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>若除即是懺悔。前念後念
 <pb n="0339c" id="T48.2007.0339c" ed="T"/>
 <lb n="0339c01" ed="T"/>及今念。念念<note n="0339011" resp="Taisho" place="foot text" type="orig">（不）＋被？</note><sic cert="?" n="0339011" resp="Taisho" corr="不被">被</sic>愚癡染。除&CB00230;從前矯誑心
 <lb n="0339c02" ed="T"/><note n="0339012" resp="Taisho" place="foot text" type="orig">承＝永？</note><sic cert="?" n="0339012" resp="Taisho" corr="永">承</sic>斷。名為自性懺。前念後念及<note n="0339013" resp="Taisho" place="foot text" type="orig">（今念）＋念？</note><sic cert="?" n="0339013" resp="Taisho" corr="今念念">念</sic>念不被
@@ -393,11 +396,11 @@ Added comment  for Emacs
 <lb n="0339c12" ed="T"/>也。僧者淨也。自心歸依覺。<anchor id="fxT48p0339c06"/>邪名不生。少欲
 <lb n="0339c13" ed="T"/>知足。離財離色。名兩足尊。自心歸正念。念無
 <lb n="0339c14" ed="T"/>邪故即無愛著。以無愛著名離欲尊。自心歸
-<lb n="0339c15" ed="T"/>淨。一切塵勞妄念雖在自<anchor id="fxT48p0339c07"/>姓。自<anchor id="fxT48p0339c08"/>姓不染著。
+<lb n="0339c15" ed="T"/>淨。一切塵勞妄念雖在自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>不染著。
 <lb n="0339c16" ed="T"/>名眾中尊。凡夫解從日至日受三歸<anchor id="fxT48p0339c09"/>衣戒。若
 <lb n="0339c17" ed="T"/>言歸佛。佛在何處。若不見佛。即無所歸。既無
 <lb n="0339c18" ed="T"/>所歸。言&CB00230;是妄。善知識。各自觀察莫錯用意。
-<lb n="0339c19" ed="T"/>經中只即言自歸依佛。不言歸他佛。自<anchor id="fxT48p0339c10"/>姓不
+<lb n="0339c19" ed="T"/>經中只即言自歸依佛。不言歸他佛。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>不
 <lb n="0339c20" ed="T"/>歸無所處。今既自歸<anchor id="fxT48p0339c11"/>衣三寶。總各各至心。
 <lb n="0339c21" ed="T"/>與善知識說摩訶般若波羅蜜法。善知識。雖
 <lb n="0339c22" ed="T"/>念不解。惠能與說。各各聽。摩訶般若波羅蜜
@@ -407,7 +410,7 @@ Added comment  for Emacs
 <lb n="0339c26" ed="T"/>虛空。莫定心座即落無既空。能含日月星辰
 <lb n="0339c27" ed="T"/>大地山河一切草木。惡人善人惡法善法天
 <lb n="0339c28" ed="T"/>堂地獄盡在空中。世人性空亦復如是。性含
-<lb n="0339c29" ed="T"/>萬法是大。萬法盡是自<anchor id="fxT48p0339c12"/>姓。見一切人及非人
+<lb n="0339c29" ed="T"/>萬法是大。萬法盡是自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。見一切人及非人
 <pb n="0340a" id="T48.2007.0340a" ed="T"/>
 <lb n="0340a01" ed="T"/>惡知與善。惡法善法盡皆不捨。不可染著。由
 <lb n="0340a02" ed="T"/>如虛空。名之為大。此是摩訶行。迷人口念。智
@@ -431,9 +434,9 @@ Added comment  for Emacs
 <lb n="0340a20" ed="T"/>是定惠等不染一切法。三世諸佛從中。變三
 <lb n="0340a21" ed="T"/>毒為戒定惠。善知識我此法門從八萬四千
 <lb n="0340a22" ed="T"/>智惠。何以故。為世有八萬四千塵勞。若無塵
-<lb n="0340a23" ed="T"/>勞。般若常在不離自<anchor id="fxT48p0340a01"/>姓。悟此法者。即是無
-<lb n="0340a24" ed="T"/>念無億無著。<note n="0340003" resp="Taisho" place="foot text" type="orig">莫＝若？</note><sic cert="?" n="0340003" resp="Taisho" corr="若">莫</sic>去誰妄。即自是真如<anchor id="fxT48p0340a02"/>姓用。
-<lb n="0340a25" ed="T"/>知惠觀照。於一切法不取不捨。即見<anchor id="fxT48p0340a03"/>姓成佛
+<lb n="0340a23" ed="T"/>勞。般若常在不離自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。悟此法者。即是無
+<lb n="0340a24" ed="T"/>念無億無著。<note n="0340003" resp="Taisho" place="foot text" type="orig">莫＝若？</note><sic cert="?" n="0340003" resp="Taisho" corr="若">莫</sic>去誰妄。即自是真如<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>用。
+<lb n="0340a25" ed="T"/>知惠觀照。於一切法不取不捨。即見<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>成佛
 <lb n="0340a26" ed="T"/>道。善知識。若欲入甚深法界入般若三昧者。
 <lb n="0340a27" ed="T"/>直修般若波羅蜜行。但持金剛般若波羅蜜
 <lb n="0340a28" ed="T"/>經一卷。即得見性。入般若三昧。當知此人功
@@ -469,8 +472,8 @@ Added comment  for Emacs
 <lb n="0340b28" ed="T"/>與大智人無別。故知不悟即是佛是眾生。一
 <lb n="0340b29" ed="T"/>念若悟即眾生不是佛。故知一切萬法盡在
 <pb n="0340c" id="T48.2007.0340c" ed="T"/>
-<lb n="0340c01" ed="T"/>自身心中。何不從於自心頓現真如本<anchor id="fxT48p0340c01"/>姓。菩
-<lb n="0340c02" ed="T"/>薩戒經云。我本願自<anchor id="fxT48p0340c02"/>姓清淨。識心見性。自
+<lb n="0340c01" ed="T"/>自身心中。何不從於自心頓現真如本<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>。菩
+<lb n="0340c02" ed="T"/>薩戒經云。我本願自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>清淨。識心見性。自
 <lb n="0340c03" ed="T"/>成佛道。即時豁然。還得本心。善知識。我於忍
 <lb n="0340c04" ed="T"/>和尚處一聞言下大<note n="0340009" resp="Taisho" place="foot text" type="orig">伍＝悟？</note><sic cert="?" n="0340009" resp="Taisho" corr="悟">伍</sic>。頓見真如本性。是故
 <lb n="0340c05" ed="T"/>汝教法流行後代。今學道者頓<note n="0340010" resp="Taisho" place="foot text" type="orig">俉＝悟？</note><sic cert="?" n="0340010" resp="Taisho" corr="悟">俉</sic>菩提。各
@@ -479,7 +482,7 @@ Added comment  for Emacs
 <lb n="0340c08" ed="T"/>法直是正路。是大善知識。是大因緣。所為化
 <lb n="0340c09" ed="T"/>道令得見佛。一切善法皆因大善知識能發
 <lb n="0340c10" ed="T"/>起故。三世諸佛十二部經。云在人性中。本自
-<lb n="0340c11" ed="T"/>具有。不能自<anchor id="fxT48p0340c03"/>姓悟。須得善知識示道見性。
+<lb n="0340c11" ed="T"/>具有。不能自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>悟。須得善知識示道見性。
 <lb n="0340c12" ed="T"/>若自悟者不假外善知識。若取外求善知識
 <lb n="0340c13" ed="T"/>望得解說。無有是處。識自心內善知識即得
 <lb n="0340c14" ed="T"/>解。若自心邪迷妄念顛倒。外善知識即有教
@@ -647,7 +650,7 @@ Added comment  for Emacs
 <lb n="0342b26" ed="T"/>非自<app><lem wit="【CBETA】">性</lem><rdg wit="【大】">姓</rdg></app>戒。心地無亂是自<app><lem wit="【CBETA】">性</lem><rdg wit="【大】">姓</rdg></app>定。心地無癡自
 <lb n="0342b27" ed="T"/><app><lem wit="【CBETA】">性</lem><rdg wit="【大】">姓</rdg></app>是惠。能大師言。汝戒定惠勸小根諸人。吾
 <lb n="0342b28" ed="T"/>戒定惠勸上人。得<note n="0342009" resp="Taisho" place="foot text" type="orig">吾＝悟？</note><sic cert="?" n="0342009" resp="Taisho" corr="悟">吾</sic><note n="0342010" resp="Taisho" place="foot text" type="orig">自＋（性）？</note><sic cert="?" n="0342010" resp="Taisho" corr="自性">自</sic>亦不立戒定惠。志
-<lb n="0342b29" ed="T"/>城言。請大師說不立如何。大師言。自<anchor id="fxT48p0342b03"/>姓無
+<lb n="0342b29" ed="T"/>城言。請大師說不立如何。大師言。自<app type="＊" source="0337005"><lem resp="CBETA.maha Taisho" wit="【CBETA】【大】">性</lem><rdg resp="Taisho" wit="【大】">姓</rdg></app>無
 <pb n="0342c" id="T48.2007.0342c" ed="T"/>
 <lb n="0342c01" ed="T"/>非無亂無癡。念念般若觀照。當離法相。有何
 <lb n="0342c02" ed="T"/>可立。<anchor id="fxT48p0342c01"/>自姓頓修。立有漸<note n="0342011" resp="Taisho" place="foot text" type="orig">此＝次？</note><sic cert="?" n="0342011" resp="Taisho" corr="次">此</sic>契以不立。志誠
