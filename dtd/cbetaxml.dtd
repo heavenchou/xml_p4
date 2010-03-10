@@ -402,7 +402,7 @@ converted to XML form 2.1.99 (CW)
 	n CDATA #IMPLIED
 	rend CDATA #IMPLIED
 >
-<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt | sd | annals)*>
+<!ELEMENT div2 (#PCDATA | div3 | anchor | app | byline | dialog | entry | figure | gaiji | head | jhead | juan | lb | lg | list | milestone | mulu | note | p | pb | trailer | xref | table | tt | sd | annals | unclear)*>
 <!ATTLIST div2
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -702,6 +702,11 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT sup (#PCDATA)>
 <!ATTLIST sup
 	type CDATA #IMPLIED
+>
+<!ELEMENT unclear (#PCDATA)*>
+<!ATTLIST unclear
+	cert CDATA #IMPLIED
+	reason CDATA #IMPLIED
 >
 <!-- Notations -->
 <!NOTATION doc SYSTEM "uedit32.exe">
