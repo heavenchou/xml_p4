@@ -297,7 +297,7 @@ converted to XML form 2.1.99 (CW)
 	type CDATA #IMPLIED
 >
 <!--  6.8.1:  Annotation                                       -->
-<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table | sd)*>
+<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table | sd | unclear)*>
 <!ATTLIST note
 	n CDATA #IMPLIED
 	lang CDATA #IMPLIED
@@ -396,7 +396,7 @@ converted to XML form 2.1.99 (CW)
 <!ELEMENT body (app | gaiji | lb | pb | head | juan | byline | div1 | milestone | mulu | note)*>
 
 <!--  7.1.2:  Numbered divisions                               -->
-<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt | sd | annals)*>
+<!ELEMENT div1 (#PCDATA | div2 | dialog | entry | head | p | lg | juan | gaiji | lb | pb | byline | trailer | app | list | anchor | corr | mulu | xref | milestone | note | table | tt | sd | annals | unclear)*>
 <!ATTLIST div1
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
@@ -703,7 +703,7 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST sup
 	type CDATA #IMPLIED
 >
-<!ELEMENT unclear (#PCDATA)*>
+<!ELEMENT unclear (#PCDATA | gaiji | note | app)*>
 <!ATTLIST unclear
 	cert CDATA #IMPLIED
 	reason CDATA #IMPLIED
