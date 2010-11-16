@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="big5" ?>
+<?xml version="1.0" encoding="cp950" ?>
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "K38n1402.ent" >
@@ -19,7 +19,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2010/11/16 08:47:24 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2010/11/16 09:24:49 $</date></edition>
 	</editionStmt>
 	<extent>30卷</extent>
 	<publicationStmt>
@@ -32,7 +32,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2010/11/16 08:47:24 $</date>
+		<date>$Date: 2010/11/16 09:24:49 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Tripitaka Koreana Vol. 38, No. 1402 &desc;</bibl>
@@ -52,6 +52,9 @@
 	</change>
 <!--
 $Log: K38n1402.xml,v $
+Revision 1.2  2010/11/16 09:24:49  amtbgrace
+modified: 按 parser 結果修訂錯誤標記。
+
 Revision 1.1  2010/11/16 08:47:24  amtbgrace
 modified: 執行 basicx.bat  將 bm 轉 xml
 
@@ -60,7 +63,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </teiHeader>
 <text><body>
 <pb ed="K" id="K38.1402.0512a" n="0512a"/>
-<lb ed="K" n="0512a01"/><milestone unit="juan" n="1"/><N>K. no. 1402
+<lb ed="K" n="0512a01"/><milestone unit="juan" n="1"/><head type="no">K. no. 1402</head>
 <lb ed="K" n="0512a02"/><juan fun="open" n="1"><mulu type="卷" n="1"/><jhead>高麗國新雕大藏挍正別錄卷第一　俊</jhead></juan>
 <lb ed="K" n="0512a03"/><byline type="other">沙門　守其等奉　&CB02637;挍勘</byline>
 <lb ed="K" n="0512a04"/><div1 type="other"><mulu type="其他" level="1" label="服函　決定毗尼經"/><head>服&CB00630;　&CB00804;定毗尼經　宋本</head>
@@ -1866,7 +1869,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="K" n="0537b02"/><byline type="other">沙門　守其等奉　&CB02637;挍勘</byline>
 <lb ed="K" n="0537b03"/><div1 type="other"><mulu type="其他" level="1" label="詩函　蘇悉地羯羅供養法三卷"/><head>詩&CB00630;　蘇悉地羯羅供養法三卷
 <lb ed="K" n="0537b04"/>　輸波迦羅唐言善無畏譯</head>
-<lb ed="K" n="0537b05"/><p id="pK38p0537b0501"></p><div2 type="other"><mulu type="其他" level="2" label="校勘"/><p id="pK38p0537b0501">丹藏即云蘇悉地羯羅經名既不同
+<lb ed="K" n="0537b05"/><div2 type="other"><mulu type="其他" level="2" label="校勘"/><p id="pK38p0537b0501">丹藏即云蘇悉地羯羅經名既不同
 <lb ed="K" n="0537b06"/>文亦大異譯人一也今撿丹藏之經
 <lb ed="K" n="0537b07"/>國宋藏中始終皆無供養法者丹藏
 <lb ed="K" n="0537b08"/>亦於感&CB00630;有之委尋開元貞元二錄
@@ -3081,7 +3084,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="K" n="0554b12"/>作扇底迦法應就舍利塔前作補瑟
 <lb ed="K" n="0554b13"/>徵迦法於池側作阿毗遮嚕迦法於
 <lb ed="K" n="0554b14"/>寒林中如是之處當速成就。</p></div4>
-<lb ed="K" n="0554b15"/><div4 type="other"><mulu type="其他" level="4" label="分別成就法品第十六(亦名悉地相品)"/><head>蘇悉地羯囉經分別成就法品第十六<note place="inline">亦名悉地相品</note></head>
+<lb ed="K" n="0554b15"/><div4 type="other"><mulu type="其他" level="4" label="分別成就法品第十六"/><head>蘇悉地羯囉經分別成就法品第十六<note place="inline">亦名悉地相品</note></head>
 <lb ed="K" n="0554b16"/><p id="pK38p0554b1601">復次悉地成就乘空而進此為最上
 <lb ed="K" n="0554b17"/>藏形隱跡為中成就世閒諸事為下
 <lb ed="K" n="0554b18"/>悉地上中下成有此三種乘空隱形
@@ -3223,7 +3226,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="K" n="0556b10"/>急難等事誠心請之若復有人欲得
 <lb ed="K" n="0556b11"/>歸仰諸部尊者應當作召請法則持
 <lb ed="K" n="0556b12"/>誦之人速得成就。</p></div4>
-<lb ed="K" n="0556b13"/><div4 type="other"><mulu type="其他" level="4" label="供養次第法品第十八(亦名念誦法)"/><head>蘇悉地羯囉經供養次第法品第十八<note place="inline">亦名念誦法</note></head>
+<lb ed="K" n="0556b13"/><div4 type="other"><mulu type="其他" level="4" label="供養次第法品第十八"/><head>蘇悉地羯囉經供養次第法品第十八<note place="inline">亦名念誦法</note></head>
 <lb ed="K" n="0556b14"/><p id="pK38p0556b1401">復次奉請尊<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【麗】">巳</rdg></app>次依部類或諸事業
 <lb ed="K" n="0556b15"/>觀其大小依於法則而供養之既說
 <lb ed="K" n="0556b16"/>奉請<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【麗】">巳</rdg></app>作如是言善來尊者愍我等
