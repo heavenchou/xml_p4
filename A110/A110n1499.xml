@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="big5" ?>
+<?xml version="1.0" encoding="cp950" ?>
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "A110n1499.ent" >
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2011/01/24 08:27:49 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2011/01/26 09:11:31 $</date></edition>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2011/01/24 08:27:49 $</date>
+		<date>$Date: 2011/01/26 09:11:31 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jin Edition of the Canon Vol. 110, No. 1499 &desc;</bibl>
@@ -51,6 +51,9 @@
 	</change>
 <!--
 $Log: A110n1499.xml,v $
+Revision 1.2  2011/01/26 09:11:31  amtbgrace
+modified: 修改錯誤標記
+
 Revision 1.1  2011/01/24 08:27:49  amtbgrace
 modified: 執行 basicx.bat  將 bm 轉 xml
 
@@ -59,8 +62,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </teiHeader>
 <text><body>
 <pb ed="A" id="A110.1499.0661b" n="0661b"/>
-<lb ed="A" n="0661b01"/><milestone unit="juan" n="1"/><mulu type="卷" n="1"/><juan fun="open" n="1"><jhead></jhead></juan>
-<lb ed="A" n="0661b02"/><div1 type="other"><mulu type="其他" level="1" label="舊入藏錄"/><div2 type="other"><mulu type="其他" level="2" label="小乘重單合譯經"/><head></head>
+<lb ed="A" n="0661b01"/><milestone unit="juan" n="1"/><mulu type="卷" n="1"/>
+<lb ed="A" n="0661b02"/><div1 type="other"><mulu type="其他" level="1" label="舊入藏錄"/><div2 type="other"><mulu type="其他" level="2" label="小乘重單合譯經"/>
 <lb ed="A" n="0661b03"/><list><item id="itemA110p0661b0301"><app><lem wit="【CBETA】" resp="CBETA.maha">四諦經一卷</lem><rdg wit="【金藏】"></rdg></app>
 <lb ed="A" n="0661b04"/><list><item id="itemA110p0661b0401">三藏安世高譯</item></list></item>
 <lb ed="A" n="0661b05"/><item id="itemA110p0661b0501">恒水經一卷
@@ -357,7 +360,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0672b11"/><item id="itemA110p0672b1101">大迦葉本經一卷</item>
 <lb ed="A" n="0672b12"/><item id="itemA110p0672b1201">四自侵經<app><lem wit="【CBETA】" resp="CBETA.maha">一卷</lem><rdg wit="【金藏】"></rdg></app></item></list></div2></div1>
 <pb ed="A" id="A110.1499.0673b" n="0673b"/>
-<lb ed="A" n="0673b01"/><milestone unit="juan" n="2"/><mulu type="卷" n="2"/><juan fun="open" n="2"><jhead><div1 type="other"><mulu type="其他" level="1" label="新入藏錄"/><div2 type="other"><mulu type="其他" level="2" label="皇朝新翻藏乘統收錄上"/><list><item id="itemA110p0673b0101">廣品歷章三十卷三帙<note place="inline">亦名一&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;</jhead></juan>
+<lb ed="A" n="0673b01"/><milestone unit="juan" n="2"/><mulu type="卷" n="2"/><div1 type="other"><mulu type="其他" level="1" label="新入藏錄"/><div2 type="other"><mulu type="其他" level="2" label="皇朝新翻藏乘統收錄上"/><list><item id="itemA110p0673b0101">廣品歷章三十卷三帙<note place="inline">亦名一&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;
 <lb ed="A" n="0673b02"/>入&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;</note>
 <lb ed="A" n="0673b03"/><list><item id="itemA110p0673b0301">第一帙十卷高字&CB00561;</item>
 <lb ed="A" n="0673b04"/><item id="itemA110p0673b0401">第二帙十卷冠字&CB00561;</item>
@@ -540,7 +543,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0680a12"/>首<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【金藏】">巳</rdg></app>上&CB12524;二百七十五卷二十七帙。</p></div2>
 <pb ed="A" id="A110.1499.0680b" n="0680b"/>
 <lb ed="A" n="0680b01"/><div2 type="other"><mulu type="其他" level="2" label="皇朝新翻藏乘統收錄下"/><head>皇朝新翻藏乘統收錄下</head>
-<lb ed="A" n="0680b02"/><div3 type="other"><mulu type="其他" level="3" label="皇宋大中祥符法寶錄序文"/><head>皇宋大中祥符法寶錄
+<lb ed="A" n="0680b02"/><div3 type="xu"><mulu type="序" level="3" label="皇宋大中祥符法寶錄序文"/><head>皇宋大中祥符法寶錄
 <lb ed="A" n="0680b03"/>序文</head>
 <lb ed="A" n="0680b04"/><byline type="author">真宗文明武定章聖元孝皇帝製</byline>
 <lb ed="A" n="0680b05"/><p id="pA110p0680b0501">夫法以化人言以詮教以空為法人將疇
