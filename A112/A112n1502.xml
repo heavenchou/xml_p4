@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="big5" ?>
+<?xml version="1.0" encoding="cp950" ?>
 <?xml-stylesheet type="text/xsl" href="../dtd/cbeta.xsl" ?>
 <!DOCTYPE TEI.2 SYSTEM "../dtd/cbetaxml.dtd"
 [<!ENTITY % ENTY  SYSTEM "A112n1502.ent" >
@@ -18,7 +18,7 @@
 			</respStmt>
 		</titleStmt>
 	<editionStmt>
-		<edition>$Revision: 1.1 $ (Big5)<date>$Date: 2011/01/24 08:28:11 $</date></edition>
+		<edition>$Revision: 1.2 $ (Big5)<date>$Date: 2011/01/27 11:39:03 $</date></edition>
 	</editionStmt>
 	<extent>14卷</extent>
 	<publicationStmt>
@@ -31,7 +31,7 @@
 		<availability>
 			<p>Available for non-commercial use when distributed with this header intact.</p>
 		</availability>
-		<date>$Date: 2011/01/24 08:28:11 $</date>
+		<date>$Date: 2011/01/27 11:39:03 $</date>
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jin Edition of the Canon Vol. 112, No. 1502 &desc;</bibl>
@@ -51,6 +51,9 @@
 	</change>
 <!--
 $Log: A112n1502.xml,v $
+Revision 1.2  2011/01/27 11:39:03  amtbgrace
+modified: 依比對差異修訂。
+
 Revision 1.1  2011/01/24 08:28:11  amtbgrace
 modified: 執行 basicx.bat  將 bm 轉 xml
 
@@ -59,7 +62,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </teiHeader>
 <text><body>
 <pb ed="A" id="A112.1502.0129b" n="0129b"/>
-<lb ed="A" n="0129b01"/><milestone unit="juan" n="1"/><div1 type="other"><mulu type="其他" level="1" label="序"/><head>景祐新修法寶錄序　　　郡</head>
+<lb ed="A" n="0129b01"/><milestone unit="juan" n="1"/><div1 type="xu"><mulu type="序" level="1" label="序"/><head>景祐新修法寶錄序　　　郡</head>
 <lb ed="A" n="0129b02"/><byline type="author">御製</byline>
 <lb ed="A" n="0129b03"/><p id="pA112p0129b0301">昔如來以體具真如道成正覺拯&CB00320;
 <lb ed="A" n="0129b04"/>生之迷妄示善教之圓通大乘小乘
@@ -186,11 +189,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0136b06"/><p id="pA112p0136b0601" rend="margin-left:1em">自佛三身讚至廣大發
 <lb ed="A" n="0136b07"/>願頌</p>
 <pb ed="A" id="A112.1502.0137a" n="0137a"/>
-<lb ed="A" n="0137a01"/><p id="pA112p0137a0101" rend="margin-left:2em">凡四部六卷</p></item></list></item></list></item></list>
+<lb ed="A" n="0137a01"/><p id="pA112p0137a0101" rend="margin-left:2em">凡四部六卷</p>
 <lb ed="A" n="0137a02"/><p id="pA112p0137a0201" rend="margin-left:3em">兩朝所譯經律論集等
 <lb ed="A" n="0137a03"/>二百二十二部都四百
-<lb ed="A" n="0137a04"/>一十三卷</p>
-<lb ed="A" n="0137a05"/><list><list><item id="itemA112p0137a0501"><p id="pA112p0137a0501">真宗朝</p>
+<lb ed="A" n="0137a04"/>一十三卷</p></item></list></item>
+<lb ed="A" n="0137a05"/><item id="itemA112p0137a0501"><p id="pA112p0137a0501">真宗朝</p>
 <lb ed="A" n="0137a06"/><p id="pA112p0137a0601" rend="margin-left:1em">所譯大小乘經律論集
 <lb ed="A" n="0137a07"/>&CB12524;一十二部七十六卷
 <lb ed="A" n="0137a08"/>未編入錄</p>
@@ -198,7 +201,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0137b01"/><list><item id="itemA112p0137b0101"><p id="pA112p0137b0101">大乘經五部五十八卷</p>
 <lb ed="A" n="0137b02"/><list><item id="itemA112p0137b0201"><p id="pA112p0137b0201">佛說一切如來真實攝
 <lb ed="A" n="0137b03"/>大乘現證三昧大
-<lb ed="A" n="0137b04"/>教王經一部三十卷</p>
+<lb ed="A" n="0137b04"/>教王經一部三十卷</p></item>
 <lb ed="A" n="0137b05"/><item id="itemA112p0137b0501"><p id="pA112p0137b0501">佛說福力太子因緣經
 <lb ed="A" n="0137b06"/>一部四卷</p></item>
 <lb ed="A" n="0137b07"/><item id="itemA112p0137b0701"><p id="pA112p0137b0701">佛說無畏授所問大乘
@@ -237,12 +240,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0139b06"/><list><item id="itemA112p0139b0601"><p id="pA112p0139b0601">佛說除蓋障菩薩所問
 <lb ed="A" n="0139b07"/>經十六至二十計五
 <pb ed="A" id="A112.1502.0140a" n="0140a"/>
-<lb ed="A" n="0140a01"/>卷通</p></item></list></item></list></item>
-<lb ed="C A" n="0140a02"/><item id="itemA112p0140a0201">先朝所譯一十五
+<lb ed="A" n="0140a01"/>卷通
+<lb ed="C A" n="0140a02"/>先朝所譯一十五
 <lb ed="A" n="0140a03"/>卷成一部二十卷
-<lb ed="A" n="0140a04"/>部<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【金藏】">巳</rdg></app>計於前數
-<lb ed="A" n="0140a05"/><list><list><item id="itemA112p0140a0501"><p id="pA112p0140a0501">佛說大乘大方廣佛冠
-<lb ed="A" n="0140a06"/>經一部二卷</p>
+<lb ed="A" n="0140a04"/>部<app><lem wit="【CBETA】" resp="CBETA.maha">已</lem><rdg wit="【金藏】">巳</rdg></app>計於前數</p></item>
+<lb ed="A" n="0140a05"/><item id="itemA112p0140a0501"><p id="pA112p0140a0501">佛說大乘大方廣佛冠
+<lb ed="A" n="0140a06"/>經一部二卷</p></item>
 <lb ed="A" n="0140a07"/><item id="itemA112p0140a0701"><p id="pA112p0140a0701">佛說海意菩薩所問淨
 <lb ed="A" n="0140a08"/>印法門經一部一
 <pb ed="A" id="A112.1502.0140b" n="0140b"/>
@@ -254,7 +257,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0140b06"/><item id="itemA112p0140b0601"><p id="pA112p0140b0601">大乘律一部一卷</p>
 <lb ed="A" n="0140b07"/><list><item id="itemA112p0140b0701"><p id="pA112p0140b0701">佛說八種長養功德經</p></item></list></item>
 <pb ed="A" id="A112.1502.0141a" n="0141a"/>
-<lb ed="A" n="0141a01"/><item id="itemA112p0141a0101">大乘論二部二十卷
+<lb ed="A" n="0141a01"/><item id="itemA112p0141a0101"><p id="pA112p0141a0101">大乘論二部二十卷</p>
 <lb ed="A" n="0141a02"/><list><item id="itemA112p0141a0201"><p id="pA112p0141a0201">聖佛母般若波羅蜜多
 <lb ed="A" n="0141a03"/>九頌精義論一部
 <lb ed="A" n="0141a04"/>二卷</p></item>
@@ -944,7 +947,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0186a03"/>
 <lb ed="A" n="0186a04"/><juan fun="close" n="4"><jhead>景祐新修法寶錄卷第六</jhead></juan>
 <pb ed="A" id="A112.1502.0187b" n="0187b"/>
-<lb ed="A" n="0187b01"/><milestone unit="juan" n="5"/><mulu type="卷" n="5"/><juan fun="open" n="5"><jhead>　　景祐新修法寶錄卷第八　郡</jhead></juan>
+<lb ed="A" n="0187b01"/><milestone unit="juan" n="5"/><mulu type="卷" n="5"/><juan fun="open" n="5"><jhead>景祐新修法寶錄卷第八　　　郡</jhead></juan>
 <lb ed="A" n="0187b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0187b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0187b04"/>&CB02637;都大&CB07694;定編修</note></byline>
@@ -1067,7 +1070,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0194b02"/>
 <lb ed="A" n="0194b03"/><juan fun="close" n="5"><jhead>景祐新修法寶錄卷第八</jhead></juan>
 <pb ed="A" id="A112.1502.0195b" n="0195b"/>
-<lb ed="A" n="0195b01"/><milestone unit="juan" n="6"/><mulu type="卷" n="6"/><juan fun="open" n="6"><jhead>　　景祐新修法寶錄卷第九　郡</jhead></juan>
+<lb ed="A" n="0195b01"/><milestone unit="juan" n="6"/><mulu type="卷" n="6"/><juan fun="open" n="6"><jhead>景祐新修法寶錄卷第九　　　郡</jhead></juan>
 <lb ed="A" n="0195b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0195b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0195b04"/>&CB02637;都大&CB07694;定編修</note></byline>
@@ -1215,7 +1218,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0204a02"/>
 <lb ed="A" n="0204a03"/><juan fun="close" n="6"><jhead>景祐新修法寶錄卷第九</jhead></juan>
 <pb ed="A" id="A112.1502.0205b" n="0205b"/>
-<lb ed="A" n="0205b01"/><milestone unit="juan" n="7"/><mulu type="卷" n="7"/><juan fun="open" n="7"><jhead><div1 type="other"><mulu type="其他" level="1" label="隨譯年代區別藏乘錄中之九"/><p id="pA112p0205b0101"></p><div2 type="other"><mulu type="其他" level="2" label="歸攝藏乘略明經旨一之九"/><div3 type="other"><mulu type="其他" level="3" label="明道元年十二月起譯至二年四月譯成大乘經一部四卷"/>【原經卷殘缺一版】</jhead></juan><div4 type="other"><mulu type="其他" level="4" label="佛說開覺自性般若波羅蜜多經一部四卷"/><head></head>
+<lb ed="A" n="0205b01"/><milestone unit="juan" n="7"/><mulu type="卷" n="7"/><div1 type="other"><mulu type="其他" level="1" label="隨譯年代區別藏乘錄中之九"/><p id="pA112p0205b0101">【原經卷殘缺一版】</p><div2 type="other"><mulu type="其他" level="2" label="歸攝藏乘略明經旨一之九"/><div3 type="other"><mulu type="其他" level="3" label="明道元年十二月起譯至二年四月譯成大乘經一部四卷"/><div4 type="other"><mulu type="其他" level="4" label="佛說開覺自性般若波羅蜜多經一部四卷"/>
 <lb ed="A" n="0205b02"/><p id="pA112p0205b0201" rend="margin-left:1em">&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;&unrec;如是
 <lb ed="A" n="0205b03"/>&unrec;菩薩於色受想行識中隨
 <lb ed="A" n="0205b04"/>其言說即生取著作用而行
@@ -1340,7 +1343,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0212b03"/>
 <lb ed="A" n="0212b04"/><juan fun="close" n="7"><jhead>景祐新修法寶錄卷第十</jhead></juan>
 <pb ed="A" id="A112.1502.0213b" n="0213b"/>
-<lb ed="A" n="0213b01"/><milestone unit="juan" n="8"/><mulu type="卷" n="8"/><juan fun="open" n="8"><jhead>　　景祐新修法寶錄卷第十二郡</jhead></juan>
+<lb ed="A" n="0213b01"/><milestone unit="juan" n="8"/><mulu type="卷" n="8"/><juan fun="open" n="8"><jhead>景祐新修法寶錄卷第十二　　郡</jhead></juan>
 <lb ed="A" n="0213b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0213b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0213b04"/>&CB02637;都大&CB07694;定編修</note></byline>
@@ -1520,7 +1523,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0223b08"/>
 <lb ed="A" n="0223b09"/><juan fun="close" n="8"><jhead>景祐法寶錄卷第十二</jhead></juan>
 <pb ed="A" id="A112.1502.0225b" n="0225b"/>
-<lb ed="A" n="0225b01"/><milestone unit="juan" n="9"/><mulu type="卷" n="9"/><juan fun="open" n="9"><jhead>　　景祐新修法寶錄卷第十三郡</jhead></juan>
+<lb ed="A" n="0225b01"/><milestone unit="juan" n="9"/><mulu type="卷" n="9"/><juan fun="open" n="9"><jhead>景祐新修法寶錄卷第十三　　郡</jhead></juan>
 <lb ed="A" n="0225b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;</note></byline>
 <lb ed="A" n="0225b03"/><div1 type="other"><mulu type="其他" level="1" label="隨譯年代區別藏乘錄中之十二"/><div2 type="other"><mulu type="其他" level="2" label="聖賢集傳華竺類例二之二"/>
 <lb ed="A" n="0225b04"/>
@@ -1577,10 +1580,10 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C A" n="0228b04"/>御鏤板流行賜謂等器幣
 <lb ed="A" n="0228b05"/>眾僧師號紫衣衣服茗帛
 <lb ed="A" n="0228b06"/>度童行有差。</p></div5>
-<lb ed="A" n="0228b07"/><div5 type="other"><mulu type="其他" level="5" label="注四十二章經一部一卷并序(文見大藏)"/><head>注四十二章經一部一卷并序<note place="inline">文見大藏</note></head></div5>
+<lb ed="A" n="0228b07"/><div5 type="xu"><mulu type="序" level="5" label="注四十二章經一部一卷并序"/><head>注四十二章經一部一卷并序<note place="inline">文見大藏</note></head></div5>
 <pb ed="A" id="A112.1502.0229a" n="0229a"/>
-<lb ed="A" n="0229a01"/><div5 type="other"><mulu type="其他" level="5" label="注遺教經一部一卷并序(文見大藏)"/><head>注遺教經一部一卷并序<note place="inline">文見大藏</note></head></div5>
-<lb ed="A" n="0229a02"/><div5 type="other"><mulu type="其他" level="5" label="百緣經序一首(文見大藏)"/><head>百緣經序一首<note place="inline">文見大藏</note></head>
+<lb ed="A" n="0229a01"/><div5 type="xu"><mulu type="序" level="5" label="注遺教經一部一卷并序"/><head>注遺教經一部一卷并序<note place="inline">文見大藏</note></head></div5>
+<lb ed="A" n="0229a02"/><div5 type="other"><mulu type="其他" level="5" label="百緣經序一首"/><head>百緣經序一首<note place="inline">文見大藏</note></head>
 <lb ed="A" n="0229a03"/><p id="pA112p0229a0301" rend="margin-left:1em">右天禧二年
 <lb ed="C A" n="0229a04"/>詔左僕射兼中書侍郎平
 <lb ed="A" n="0229a05"/>章事王欽若擇藏經之精妙
@@ -1767,7 +1770,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0239b07"/>
 <lb ed="A" n="0239b08"/><juan fun="close" n="9"><jhead>景祐新修法寶錄卷第十三</jhead></juan>
 <pb ed="A" id="A112.1502.0241b" n="0241b"/>
-<lb ed="A" n="0241b01"/><milestone unit="juan" n="10"/><mulu type="卷" n="10"/><juan fun="open" n="10"><jhead>　　景祐新修法寶錄卷第十四郡</jhead></juan>
+<lb ed="A" n="0241b01"/><milestone unit="juan" n="10"/><mulu type="卷" n="10"/><juan fun="open" n="10"><jhead>景祐新修法寶錄卷第十四　　郡</jhead></juan>
 <lb ed="A" n="0241b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0241b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0241b04"/>&CB02637;都大&CB07694;定編修</note></byline>
@@ -1778,7 +1781,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0242a01"/><item id="itemA112p0242a0101">東土聖賢著撰二</item></list>
 <lb ed="A" n="0242a02"/><div3 type="other"><mulu type="其他" level="3" label="東土聖賢著撰二之二"/><head>東土聖賢著撰二之二</head>
 <lb ed="A" n="0242a03"/><div4 type="other"><mulu type="其他" level="4" label="今上皇帝御製下"/><head>今上皇帝御製下</head>
-<lb ed="A" n="0242a04"/><div5 type="other"><mulu type="其他" level="5" label="景祐天竺字源序一首(文具本集)"/><head>景祐天竺字源序一首<note place="inline">文具本集</note></head>
+<lb ed="A" n="0242a04"/><div5 type="other"><mulu type="其他" level="5" label="景祐天竺字源序一首"/><head>景祐天竺字源序一首<note place="inline">文具本集</note></head>
 <lb ed="A" n="0242a05"/><p id="pA112p0242a0501" rend="margin-left:1em">右景祐二年九月
 <lb ed="C A" n="0242a06"/>降賜
 <lb ed="C A" n="0242a07"/>天聖廣燈錄序一首。</p>
@@ -1787,7 +1790,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0242b01"/>都尉李遵勗上廣燈錄景
 <lb ed="A" n="0242b02"/>祐三年四月
 <lb ed="C A" n="0242b03"/>神筆製序以冠首篇。</p></div5>
-<lb ed="A" n="0242b04"/><div5 type="other"><mulu type="其他" level="5" label="景祐新修法寶錄序一首(文具本錄)"/><head>景祐新修法寶錄序一首<note place="inline">文具本錄</note></head>
+<lb ed="A" n="0242b04"/><div5 type="other"><mulu type="其他" level="5" label="景祐新修法寶錄序一首"/><head>景祐新修法寶錄序一首<note place="inline">文具本錄</note></head>
 <lb ed="A" n="0242b05"/><p id="pA112p0242b0501" rend="margin-left:1em">右景祐三年十二月譯經使
 <lb ed="A" n="0242b06"/>兼潤文右僕射兼門下侍
 <lb ed="A" n="0242b07"/>郎平章事呂夷簡同潤文
@@ -2026,8 +2029,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0256b02"/>
 <lb ed="A" n="0256b03"/><juan fun="close" n="10"><jhead>景祐新修法寶錄卷第十四</jhead></juan>
 <pb ed="A" id="A112.1502.0257b" n="0257b"/>
-<lb ed="A" n="0257b01"/><milestone unit="juan" n="11"/><mulu type="卷" n="11"/><juan fun="open" n="11"><jhead><div1 type="other"><mulu type="其他" level="1" label="隨譯年代區別藏乘錄中之十五"/><p id="pA112p0257b0101">【原經卷殘缺】</jhead></juan></p>
-<lb ed="A" n="0257b02"/><div2 type="other"><mulu type="其他" level="2" label="嗣續興崇譯場詔令三之一"/><head></head>
+<lb ed="A" n="0257b01"/><milestone unit="juan" n="11"/><mulu type="卷" n="11"/><div1 type="other"><mulu type="其他" level="1" label="隨譯年代區別藏乘錄中之十五"/><p id="pA112p0257b0101">【原經卷殘缺】</p>
+<lb ed="A" n="0257b02"/><div2 type="other"><mulu type="其他" level="2" label="嗣續興崇譯場詔令三之一"/>
 <lb ed="A" n="0257b03"/><div3 type="other"><mulu type="其他" level="3" label="起大中祥符五年至乾興元年"/>
 <lb ed="A" n="0257b04"/>
 <lb ed="A" n="0257b05"/><annals><event><p id="pA112p0257b0501" rend="margin-left:1em">號證覺大師梵&unrec;&unrec;&unrec;&unrec;&unrec;
@@ -2363,7 +2366,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0277a03"/>
 <lb ed="A" n="0277a04"/><juan fun="close" n="11"><jhead>景祐新修法寶錄卷第十六</jhead></juan>
 <pb ed="A" id="A112.1502.0279b" n="0279b"/>
-<lb ed="A" n="0279b01"/><milestone unit="juan" n="12"/><mulu type="卷" n="12"/><juan fun="open" n="12"><jhead>　　景祐新修法寶錄卷第十七郡</jhead></juan>
+<lb ed="A" n="0279b01"/><milestone unit="juan" n="12"/><mulu type="卷" n="12"/><juan fun="open" n="12"><jhead>景祐新修法寶錄卷第十七　　郡</jhead></juan>
 <lb ed="A" n="0279b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0279b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0279b04"/>&CB02637;都大&CB07694;定編修</note></byline>
@@ -2641,7 +2644,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0295b04"/><juan fun="close" n="12"><jhead>景祐新修法寶錄卷第十七</jhead></juan>
 <lb ed="A" n="0295b05"/><div1 type="w"><p id="pA112p0295b0501"><note place="inline">范寨村范家門下李氏彫經一卷為法界父母</note></p></div1>
 <pb ed="A" id="A112.1502.0297b" n="0297b"/>
-<lb ed="A" n="0297b01"/><milestone unit="juan" n="13"/><mulu type="卷" n="13"/><juan fun="open" n="13"><jhead>　　景祐新修法寶錄卷第十八郡</jhead></juan>
+<lb ed="A" n="0297b01"/><milestone unit="juan" n="13"/><mulu type="卷" n="13"/><juan fun="open" n="13"><jhead>景祐新修法寶錄卷第十八　　郡</jhead></juan>
 <lb ed="A" n="0297b02"/><byline type="editor"><note place="inline">&unrec;…&unrec;…
 <lb ed="A" n="0297b03"/>&unrec;…&unrec;呂　夷簡　等奉
 <lb ed="A" n="0297b04"/>&CB02637;都大&CB03744;定編修</note></byline>
@@ -3024,7 +3027,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0319b07"/>
 <lb ed="A" n="0319b08"/><juan fun="close" n="13"><jhead>景祐新修法寶錄卷第十八</jhead></juan>
 <pb ed="A" id="A112.1502.0321b" n="0321b"/>
-<lb ed="A" n="0321b01"/><milestone unit="juan" n="14"/><mulu type="卷" n="14"/><juan fun="open" n="14"><jhead><div1 type="other"><mulu type="其他" level="1" label="總錄"/><p id="pA112p0321b0101">【原經卷殘缺一版】</jhead></juan></p>
+<lb ed="A" n="0321b01"/><milestone unit="juan" n="14"/><mulu type="卷" n="14"/><div1 type="other"><mulu type="其他" level="1" label="總錄"/><p id="pA112p0321b0101">【原經卷殘缺一版】</p>
 <lb ed="A" n="0321b02"/><list><item id="itemA112p0321b0201"><app><lem wit="【CBETA】" resp="CBETA.maha">第一卷</lem><rdg wit="【金藏】"></rdg></app><list><item id="itemA112p0321b0204"><app><lem wit="【CBETA】" resp="CBETA.maha">聖宋翻宣繼聯前式錄上</lem><rdg wit="【金藏】"></rdg></app><list><item id="itemA112p0321b0214"><app><lem wit="【CBETA】" resp="CBETA.maha">&unrec;…&unrec;</lem><rdg wit="【金藏】"></rdg></app>十四卷</item>
 <lb ed="A" n="0321b03"/><item id="itemA112p0321b0301">舊譯
 <lb ed="A" n="0321b04"/><list><item id="itemA112p0321b0401">太宗朝
@@ -3157,23 +3160,23 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0329a03"/><item id="itemA112p0329a0301">譯經使呂夷簡等編
 <lb ed="A" n="0329a04"/>法音後集</item></list></item>
 <lb ed="A" n="0329a05"/><item id="itemA112p0329a0501">今上御製上
-<lb ed="A" n="0329a06"/><list><item id="itemA112p0329a0601">內出　三寶讚夏竦王</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="A" n="0329a07"/><item id="itemA112p0329a0701">曙表請與譯經僧</item>
+<lb ed="A" n="0329a06"/><list><item id="itemA112p0329a0601">內出　三寶讚夏竦王
+<lb ed="A" n="0329a07"/>曙表請與譯經僧
 <pb ed="A" id="A112.1502.0329b" n="0329b"/>
-<lb ed="A" n="0329b01"/><item id="itemA112p0329b0101">同注釋
-<lb ed="A" n="0329b02"/><list><list><list><list><list><item id="itemA112p0329b0201">呂夷簡等進注
+<lb ed="A" n="0329b01"/>同注釋</item>
+<lb ed="A" n="0329b02"/><item id="itemA112p0329b0201">呂夷簡等進注
 <lb ed="A" n="0329b03"/>讚表一首并
-<lb ed="A" n="0329b04"/>批荅</item></list></item></list></item></list></item></list></item></list>
+<lb ed="A" n="0329b04"/>批荅</item></list></item></list></item></list></item></list></item></list></item>
 <lb ed="A" n="0329b05"/><item id="itemA112p0329b0501">第十四卷
 <lb ed="A" n="0329b06"/><list><item id="itemA112p0329b0601">隨譯年代區別藏乘錄中之十三
 <lb ed="A" n="0329b07"/><list><item id="itemA112p0329b0701">聖賢集傳華竺類例二之三
 <lb ed="A" n="0329b08"/><list><item id="itemA112p0329b0801">東土聖賢著撰二
 <pb ed="A" id="A112.1502.0330a" n="0330a"/>
 <lb ed="A" n="0330a01"/><list><item id="itemA112p0330a0101">今上御製下
-<lb ed="A" n="0330a02"/><list><item id="itemA112p0330a0201">內出天竺字源序
+<lb ed="A" n="0330a02"/><list><item id="itemA112p0330a0201">內出天竺字源序</item>
 <lb ed="A" n="0330a03"/><item id="itemA112p0330a0301">李遵勗進天聖廣燈錄
-<lb ed="C A" n="0330a04"/>上為作序
-<lb ed="A" n="0330a05"/><item id="itemA112p0330a0501">呂夷簡等及譯眾各上表請</item></list></item></list></item></list></item></list></item></list>
+<lb ed="C A" n="0330a04"/>上為作序</item>
+<lb ed="A" n="0330a05"/><item id="itemA112p0330a0501">呂夷簡等及譯眾各上表請</item></list></item></list></item></list></item></list></item></list></item>
 <lb ed="C A" n="0330a06"/><item id="itemA112p0330a0601">御製法寶錄序并名題</item>
 <lb ed="C A" n="0330a07"/><item id="itemA112p0330a0701">賜批荅&CB02637;書</item>
 <pb ed="A" id="A112.1502.0330b" n="0330b"/>
@@ -3192,22 +3195,22 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0331a04"/><list><item id="itemA112p0331a0401">詔夏竦撰天聖釋教&CB12524;錄序</item>
 <lb ed="A" n="0331a05"/><item id="itemA112p0331a0501">王隨獻傳燈玉英集
 <lb ed="C A" n="0331a06"/>賜詔獎諭</item>
-<lb ed="A" n="0331a07"/><item id="itemA112p0331a0701">李遵勗獻天聖廣燈錄</item></list></item></list></item></list></item></list></item></list></item>
+<lb ed="A" n="0331a07"/><item id="itemA112p0331a0701">李遵勗獻天聖廣燈錄
 <pb ed="A" id="A112.1502.0331b" n="0331b"/>
-<lb ed="C A" n="0331b01"/><item id="itemA112p0331b0101">詔獎之
-<lb ed="A" n="0331b02"/><list><list><list><list><list><item id="itemA112p0331b0201">沙門懷問三往西天中印
+<lb ed="C A" n="0331b01"/>詔獎之</item>
+<lb ed="A" n="0331b02"/><item id="itemA112p0331b0201">沙門懷問三往西天中印
 <lb ed="A" n="0331b03"/>度摩伽陀國
-<lb ed="C A" n="0331b04"/>詔夏竦撰記
+<lb ed="C A" n="0331b04"/>詔夏竦撰記</item>
 <lb ed="A" n="0331b05"/><item id="itemA112p0331b0501">夏竦奉
-<lb ed="C A" n="0331b06"/>詔撰傳法院碑銘</item></list></item></list></item></list></item></list></item></list>
+<lb ed="C A" n="0331b06"/>詔撰傳法院碑銘</item></list></item></list></item></list></item></list></item></list></item>
 <lb ed="A" n="0331b07"/><item id="itemA112p0331b0701">第十六卷
 <lb ed="A" n="0331b08"/><list><item id="itemA112p0331b0801">隨譯年代區別藏乘錄中之十五
 <pb ed="A" id="A112.1502.0332a" n="0332a"/>
 <lb ed="A" n="0332a01"/><list><item id="itemA112p0332a0101">嗣續興崇譯場詔令三之一
 <lb ed="A" n="0332a02"/><list><item id="itemA112p0332a0201">大中祥符五年
-<lb ed="A" n="0332a03"/><list><item id="itemA112p0332a0301">沙門行&CB08005;充證義
+<lb ed="A" n="0332a03"/><list><item id="itemA112p0332a0301">沙門行&CB08005;充證義</item>
 <lb ed="A" n="0332a04"/><item id="itemA112p0332a0401">賜證義梵學職掌沙門師
-<lb ed="A" n="0332a05"/>號紫衣度童行
+<lb ed="A" n="0332a05"/>號紫衣度童行</item>
 <lb ed="A" n="0332a06"/><item id="itemA112p0332a0601">沙門文涉等充梵學</item>
 <lb ed="A" n="0332a07"/><item id="itemA112p0332a0701">天竺沙門貢梵經等</item></list></item>
 <pb ed="A" id="A112.1502.0332b" n="0332b"/>
@@ -3330,12 +3333,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0339a06"/><item id="itemA112p0339a0601">賜證義職掌沙門紫衣度
 <lb ed="A" n="0339a07"/>童行</item>
 <pb ed="A" id="A112.1502.0339b" n="0339b"/>
-<lb ed="A" n="0339b01"/><item id="itemA112p0339b0101">沙門自天竺還</item></list></item></list></item></list></item></list></item>
-<lb ed="A" n="0339b02"/><item id="itemA112p0339b0201">度童行
-<lb ed="A" n="0339b03"/><list><list><list><item id="itemA112p0339b0301">三年
+<lb ed="A" n="0339b01"/><item id="itemA112p0339b0101">沙門自天竺還
+<lb ed="A" n="0339b02"/>度童行</item></list></item>
+<lb ed="A" n="0339b03"/><item id="itemA112p0339b0301">三年
 <lb ed="A" n="0339b04"/><list><item id="itemA112p0339b0401">賜證義職掌沙門師號紫
-<lb ed="A" n="0339b05"/>衣度童行
-<lb ed="A" n="0339b06"/><item id="itemA112p0339b0601">陳文一監院
+<lb ed="A" n="0339b05"/>衣度童行</item>
+<lb ed="A" n="0339b06"/><item id="itemA112p0339b0601">陳文一監院</item>
 <lb ed="A" n="0339b07"/><item id="itemA112p0339b0701">天竺沙門抵
 <lb ed="C A" n="0339b08"/>闕下</item>
 <pb ed="A" id="A112.1502.0340a" n="0340a"/>
@@ -3470,8 +3473,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0347b02"/>淨詳驗</item></list></item></list></item></list></item></list></item>
 <lb ed="A" n="0347b03"/><item id="itemA112p0347b0301">第二十卷
 <lb ed="A" n="0347b04"/><list><item id="itemA112p0347b0401">復準八例排經入藏錄下
-<lb ed="A" n="0347b05"/><list><item id="itemA112p0347b0501">右&CB12524;列</item></list></item></list></item>
-<lb ed="C A" n="0347b06"/><item id="itemA112p0347b0601">聖朝新譯經律論集傳等
-<lb ed="A" n="0347b07"/><list><list><item id="itemA112p0347b0701">&CB12524;錄一卷　右通二十一卷</item></list></item></list>
-<lb ed="A" n="0347b08"/><item id="itemA112p0347b0801">景祐新修法寶錄&CB12524;錄</item></list></div1>
+<lb ed="A" n="0347b05"/><list><item id="itemA112p0347b0501">右&CB12524;列
+<lb ed="C A" n="0347b06"/>聖朝新譯經律論集傳等</item>
+<lb ed="A" n="0347b07"/><item id="itemA112p0347b0701">&CB12524;錄一卷　右通二十一卷
+<lb ed="A" n="0347b08"/>景祐新修法寶錄&CB12524;錄</item></list></item></list></item></list></div1>
 </body></text></TEI.2>
