@@ -369,12 +369,11 @@ converted to XML form 2.1.99 (CW)
 	place CDATA #IMPLIED
 >
 
-<!ELEMENT sp 
-	((anchor | gap | index | interp | interpGrp | lb | milestone 
-	| pb)*, (speaker, (anchor | gap | index | interp | interpGrp 
-	| lb | milestone | pb)*)?, ((p | l | lg | ab | seg | stage), 
-	(anchor | gap | index | interp | interpGrp | lb | milestone 
-	| pb)*)+) >
+<!ELEMENT sp
+	((anchor | gap | index | interp | interpGrp | lb | milestone | pb)*, 
+	(speaker, (anchor | gap | index | interp | interpGrp | lb | milestone | pb)*)?, 
+	((p | l | lg | ab | seg | stage | list), 
+	(anchor | gap | index | interp | interpGrp | lb | milestone | pb)*)+) >
 <!ATTLIST sp 
 	corresp IDREFS #IMPLIED
 	next IDREF #IMPLIED
@@ -433,8 +432,28 @@ converted to XML form 2.1.99 (CW)
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
-<!ELEMENT div8 (#PCDATA | anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
+<!ELEMENT div8 (#PCDATA  | div9 |  anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
 <!ATTLIST div8
+	type CDATA #IMPLIED
+	n CDATA #IMPLIED
+>
+<!ELEMENT div9 (#PCDATA |  div10 |  anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
+<!ATTLIST div9
+	type CDATA #IMPLIED
+	n CDATA #IMPLIED
+>
+<!ELEMENT div10 (#PCDATA  | div11 |  anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
+<!ATTLIST div10
+	type CDATA #IMPLIED
+	n CDATA #IMPLIED
+>
+<!ELEMENT div11 (#PCDATA  | div12 |  anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
+<!ATTLIST div11
+	type CDATA #IMPLIED
+	n CDATA #IMPLIED
+>
+<!ELEMENT div12 (#PCDATA  | div13 |  anchor | dialog | entry | head | p | lg | juan | jhead | gaiji | lb | list | note | pb | byline | trailer | app | mulu | milestone | table | tt | sd)*>
+<!ATTLIST div12
 	type CDATA #IMPLIED
 	n CDATA #IMPLIED
 >
@@ -671,7 +690,7 @@ converted to XML form 2.1.99 (CW)
 <!ATTLIST todo
 	type CDATA #IMPLIED
 >
-<!ELEMENT dialog (sp | lb | pb)*>
+<!ELEMENT dialog (sp | lb | pb | list)*>
 <!ATTLIST dialog
 	type CDATA #IMPLIED
 >
