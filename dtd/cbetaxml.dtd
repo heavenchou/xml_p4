@@ -297,7 +297,7 @@ converted to XML form 2.1.99 (CW)
 	type CDATA #IMPLIED
 >
 <!--  6.8.1:  Annotation                                       -->
-<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table | sd | unclear)*>
+<!ELEMENT note (#PCDATA | anchor | app | figure | p | corr | foreign | gaiji | note | skgloss | gloss | term | lb | list | pb | lg | l | fan | sic | tt | todo | xref | jl_byline | jl_juan | jl_title | table | sd | unclear )*>
 <!ATTLIST note
 	n CDATA #IMPLIED
 	lang CDATA #IMPLIED
@@ -584,6 +584,7 @@ converted to XML form 2.1.99 (CW)
 	resp CDATA #IMPLIED
 	cf1 CDATA #IMPLIED
 	cf2 CDATA #IMPLIED
+	cf3 CDATA #IMPLIED 
 	TEIform CDATA "lem"
 >
 
@@ -623,7 +624,7 @@ converted to XML form 2.1.99 (CW)
 	sigil CDATA #IMPLIED
 	included CDATA #IMPLIED
 >
-<!ELEMENT jhead (#PCDATA | app | corr | foreign | gaiji | lb | pb | note | anchor | sic | skgloss | title | tt | sd)*>
+<!ELEMENT jhead (#PCDATA | app | corr | foreign | gaiji | lb | pb | note | anchor | sic | skgloss | title | tt | sd )*>
 <!ATTLIST jhead
 	type CDATA #IMPLIED
 >
